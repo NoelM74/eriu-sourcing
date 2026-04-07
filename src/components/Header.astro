@@ -4,7 +4,7 @@
 
 const navLinks = [
   { href: '/how-it-works',      label: 'How It Works' },
-  { href: '/product-categories',label: 'What We Source' },
+  { href: '/product-categories',label: 'Categories' },
   { href: '/why-direct',        label: 'Why Direct?' },
   { href: '/china-network',     label: 'China Network' },
   { href: '/case-studies',      label: 'Case Studies' },
@@ -113,6 +113,7 @@ const pathname = Astro.url.pathname;
     z-index: 100;
     background-color: #F7F6F2;
     border-bottom: 1px solid rgba(15, 33, 49, 0.09);
+    overflow: visible;
   }
 
   .header-inner {
@@ -193,8 +194,8 @@ const pathname = Astro.url.pathname;
   /* Header CTA */
   .nav-cta {
     flex-shrink: 0;
-    font-size: 0.9375rem;
-    padding: 0.625rem 1.375rem;
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
     min-height: 44px;
   }
 
