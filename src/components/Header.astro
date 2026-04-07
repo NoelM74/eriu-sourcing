@@ -1,0 +1,279 @@
+---
+// Header.astro — Ériu Sourcing
+// Mobile-first nav with hamburger toggle. All touch targets ≥ 44px.
+
+const navLinks = [
+  { href: '/how-it-works', label: 'How It Works' },
+  { href: '/product-categories', label: 'What We Source' },
+  { href: '/why-direct', label: 'Why Direct?' },
+  { href: '/china-network', label: 'Our China Network' },
+  { href: '/case-studies', label: 'Case Studies' },
+];
+
+const pathname = Astro.url.pathname;
+---
+
+<header class="site-header">
+  <div class="header-inner container">
+    <!-- Logo -->
+    <a href="/" class="logo" aria-label="Ériu Sourcing — Home">
+      <span class="logo-text">Ériu Sourcing</span>
+    </a>
+
+    <!-- Desktop nav -->
+    <nav class="nav-desktop" aria-label="Main navigation">
+      <ul role="list">
+        {navLinks.map(link => (
+          <li>
+            <a
+              href={link.href}
+              class={pathname.startsWith(link.href) ? 'active' : ''}
+            >
+              {link.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+
+    <!-- CTA -->
+    <a href="/contact" class="btn btn--primary nav-cta">Get a Quote</a>
+
+    <!-- Mobile hamburger -->
+    <button
+      class="hamburger"
+      id="nav-toggle"
+      aria-expanded="false"
+      aria-controls="mobile-nav"
+      aria-label="Open menu"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+
+  <!-- Mobile nav drawer -->
+  <nav
+    class="nav-mobile"
+    id="mobile-nav"
+    aria-label="Mobile navigation"
+    aria-hidden="true"
+  >
+    <ul role="list">
+      {navLinks.map(link => (
+        <li>
+          <a
+            href={link.href}
+            class={pathname.startsWith(link.href) ? 'active' : ''}
+          >
+            {link.label}
+          </a>
+        </li>
+      ))}
+      <li>
+        <a href="/contact" class="mobile-cta">Get a Quote →</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<script>
+  const toggle = document.getElementById('nav-toggle');
+  const mobileNav = document.getElementById('mobile-nav');
+
+  toggle?.addEventListener('click', () => {
+    const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!isOpen));
+    toggle.setAttribute('aria-label', isOpen ? 'Open menu' : 'Close menu');
+    mobileNav?.setAttribute('aria-hidden', String(isOpen));
+    mobileNav?.classList.toggle('is-open');
+    toggle.classList.toggle('is-open');
+  });
+
+  // Close on nav link click
+  mobileNav?.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      toggle?.setAttribute('aria-expanded', 'false');
+      mobileNav.setAttribute('aria-hidden', 'true');
+      mobileNav.classList.remove('is-open');
+      toggle?.classList.remove('is-open');
+    });
+  });
+</script>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: var(--color-white);
+    border-bottom: 1px solid rgba(15, 33, 49, 0.08);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  .header-inner {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    height: 68px;
+  }
+
+  /* Logo */
+  .logo {
+    text-decoration: none;
+    flex-shrink: 0;
+  }
+
+  .logo-text {
+    font-family: var(--font-display);
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: var(--color-emerald);
+    letter-spacing: -0.01em;
+  }
+
+  /* Desktop nav */
+  .nav-desktop {
+    flex: 1;
+  }
+
+  .nav-desktop ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 0.25rem;
+  }
+
+  .nav-desktop a {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--color-slate);
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: var(--radius-sm);
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    transition: color 0.12s ease, background-color 0.12s ease;
+  }
+
+  .nav-desktop a:hover,
+  .nav-desktop a.active {
+    color: var(--color-emerald);
+    background-color: rgba(26, 83, 62, 0.06);
+  }
+
+  /* Header CTA */
+  .nav-cta {
+    flex-shrink: 0;
+    font-size: 0.9375rem;
+    padding: 0.625rem 1.25rem;
+  }
+
+  /* Hamburger */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 44px;
+    height: 44px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin-left: auto;
+    flex-shrink: 0;
+  }
+
+  .hamburger span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: var(--color-navy);
+    border-radius: 2px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+
+  .hamburger.is-open span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .hamburger.is-open span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.is-open span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  /* Mobile nav drawer */
+  .nav-mobile {
+    display: none;
+    background-color: var(--color-white);
+    border-top: 1px solid rgba(15, 33, 49, 0.08);
+    padding: 1rem 1.5rem 1.5rem;
+  }
+
+  .nav-mobile.is-open {
+    display: block;
+  }
+
+  .nav-mobile ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-mobile a {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    color: var(--color-slate);
+    text-decoration: none;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(15, 33, 49, 0.06);
+    transition: color 0.12s ease;
+  }
+
+  .nav-mobile a:hover,
+  .nav-mobile a.active {
+    color: var(--color-emerald);
+  }
+
+  .nav-mobile .mobile-cta {
+    color: var(--color-emerald);
+    font-weight: 700;
+    border-bottom: none;
+    margin-top: 0.5rem;
+  }
+
+  /* Responsive */
+  @media (max-width: 900px) {
+    .nav-desktop,
+    .nav-cta {
+      display: none;
+    }
+
+    .hamburger {
+      display: flex;
+    }
+  }
+
+  /* Dark mode */
+  @media (prefers-color-scheme: dark) {
+    .site-header {
+      background-color: rgba(13, 27, 42, 0.95);
+      border-bottom-color: rgba(255, 255, 255, 0.08);
+    }
+
+    .nav-mobile {
+      background-color: var(--color-bg);
+    }
+  }
+</style>

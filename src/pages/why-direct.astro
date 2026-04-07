@@ -1,0 +1,150 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = "Why Buy Direct from China Instead of Alibaba or Irish Wholesale? | Ériu Sourcing";
+const description = "The real cost of buying through Irish wholesalers and Alibaba trading companies. Factory-direct saves 35–60% and eliminates CE compliance risk. The numbers explained.";
+---
+
+<BaseLayout title={title} description={description} canonical="/why-direct">
+
+  <section class="page-hero section">
+    <div class="container--narrow">
+      <p class="eyebrow">Why Buy Direct?</p>
+      <h1>Three layers of markup you're currently paying that you don't need to.</h1>
+      <p class="lead">When an Irish retailer buys Chinese goods through an Irish wholesaler, they're paying for the Chinese factory, plus a trading company margin, plus a Chinese export agent, plus an Irish importer's margin. Factory-direct removes all but the first.</p>
+    </div>
+  </section>
+
+  <section class="cost-section section section--alt">
+    <div class="container">
+      <h2>What the supply chain actually costs</h2>
+      <p>Take a product that costs €10 at the Chinese factory gate. Here's what typically happens to that price before it reaches an Irish retailer:</p>
+
+      <div class="cost-table">
+        <div class="cost-row cost-row--header">
+          <span>Supply chain step</span>
+          <span>Typical margin added</span>
+          <span>Price by this point</span>
+        </div>
+        <div class="cost-row">
+          <span>Chinese factory (FOB)</span>
+          <span>—</span>
+          <span class="cost-price">€10.00</span>
+        </div>
+        <div class="cost-row cost-row--marked">
+          <span>Alibaba trading company</span>
+          <span>+20–40%</span>
+          <span class="cost-price">€12–14</span>
+        </div>
+        <div class="cost-row cost-row--marked">
+          <span>Chinese export/sourcing agent</span>
+          <span>+5–15%</span>
+          <span class="cost-price">€13–16</span>
+        </div>
+        <div class="cost-row cost-row--marked">
+          <span>Irish importer / wholesaler</span>
+          <span>+30–50%</span>
+          <span class="cost-price">€17–24</span>
+        </div>
+        <div class="cost-row cost-row--direct">
+          <span><strong>Ériu Sourcing — factory direct</strong></span>
+          <span>Service fee only</span>
+          <span class="cost-price cost-price--direct"><strong>€10–11</strong></span>
+        </div>
+      </div>
+
+      <p class="cost-note">This is why Irish businesses buying through Ériu Sourcing typically save 35–60% against what they were previously paying through wholesalers. The factory price is what it is — the question is how many layers you pay to access it.</p>
+    </div>
+  </section>
+
+  <section class="alibaba-section section">
+    <div class="container">
+      <h2>The problem with Alibaba</h2>
+      <p>Alibaba is a marketplace, not a factory directory. The majority of sellers listed as "manufacturers" are trading companies — they buy from the actual factory and add their margin before selling to you.</p>
+
+      <div class="problems-grid">
+        <div class="problem-card">
+          <h3>Hidden trading company layers</h3>
+          <p>Verified manufacturer badges on Alibaba don't guarantee factory-direct pricing. Most "Gold Suppliers" are intermediaries. The actual factory isn't on the platform at all.</p>
+        </div>
+        <div class="problem-card">
+          <h3>Fake CE certifications</h3>
+          <p>CE marking documents on Alibaba are frequently falsified or outdated. The NSAI has formally warned Irish importers about non-compliant products entering Ireland through unvetted Chinese suppliers — particularly in construction materials.</p>
+        </div>
+        <div class="problem-card">
+          <h3>No QC before shipping</h3>
+          <p>When you buy on Alibaba, goods are shipped without independent inspection. By the time you discover a quality problem, you've paid freight on a container of sub-standard goods.</p>
+        </div>
+        <div class="problem-card">
+          <h3>Language and communication barriers</h3>
+          <p>Nuances in spec, packaging, labelling requirements, and delivery schedules are frequently lost in translation — even when English is used. Problems compound over time and across orders.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="compliance-section section section--alt">
+    <div class="container">
+      <div class="compliance-grid">
+        <div class="compliance-content">
+          <h2>CE compliance is not optional</h2>
+          <p>The NSAI (National Standards Authority of Ireland) issued a formal warning in 2024–2025 about non-compliant Chinese plywood entering Irish construction sites. Products were sold as meeting structural grades but failed EU standards.</p>
+          <p>For electronics, toys, construction materials, and children's clothing — CE marking is a legal requirement. Importing non-compliant products exposes Irish businesses to product liability, customs seizure, and reputational damage.</p>
+          <p>Ériu Sourcing verifies certifications at the factory, cross-references against current EN/EU standards, and uses accredited testing labs where required. Compliance is not checked at the Irish port — it's confirmed in China before the goods move.</p>
+        </div>
+        <div class="compliance-stat">
+          <blockquote>
+            <p>"The NSAI is warning consumers and businesses to be vigilant about the quality of imported construction products, particularly those sourced online from outside the EU."</p>
+            <cite>— National Standards Authority of Ireland, 2024–2025</cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-strip section section--dark">
+    <div class="container--narrow" style="text-align:center">
+      <h2>Stop paying wholesale margins on factory-priced goods.</h2>
+      <p>Send me what you're importing. I'll show you what it actually costs at factory gate.</p>
+      <a href="/contact" class="btn btn--white">Get Factory Pricing →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  .page-hero { padding-top: 5rem; padding-bottom: 3rem; }
+  .eyebrow { font-size: .875rem; font-weight: 700; color: var(--color-teal); text-transform: uppercase; letter-spacing: .08em; margin-bottom: .75rem; }
+  .lead { font-size: 1.125rem; color: var(--color-slate); line-height: 1.7; margin: 1rem 0 0; max-width: 58ch; }
+
+  .cost-table { margin: 2rem 0; border: 1px solid rgba(15,33,49,.1); border-radius: var(--radius-lg); overflow: hidden; }
+  .cost-row { display: grid; grid-template-columns: 2fr 1fr 1fr; padding: .875rem 1.5rem; gap: 1rem; align-items: center; border-bottom: 1px solid rgba(15,33,49,.06); }
+  .cost-row:last-child { border-bottom: none; }
+  .cost-row--header { background: var(--color-navy); color: rgba(255,255,255,.7); font-size: .8125rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; }
+  .cost-row--marked { background: rgba(220, 80, 60, .04); }
+  .cost-row--direct { background: rgba(26, 83, 62, .06); }
+  .cost-price { font-weight: 700; color: var(--color-navy); }
+  .cost-price--direct { color: var(--color-emerald); font-size: 1.125rem; }
+  .cost-note { font-size: .9375rem; color: var(--color-slate); margin-top: 1.5rem; max-width: 68ch; line-height: 1.65; }
+
+  .problems-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 1.5rem; margin-top: 2rem; }
+  .problem-card { padding: 1.75rem; background: var(--color-white); border: 1px solid rgba(15,33,49,.08); border-radius: var(--radius-md); }
+  .problem-card h3 { font-size: 1.0625rem; margin-bottom: .625rem; }
+  .problem-card p { font-size: .9375rem; color: var(--color-slate); line-height: 1.65; margin: 0; max-width: none; }
+
+  .compliance-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+  .compliance-content p { color: var(--color-slate); margin-bottom: 1rem; }
+  .compliance-stat blockquote { margin: 0; padding: 2rem; background: var(--color-white); border-left: 4px solid var(--color-teal); border-radius: 0 var(--radius-md) var(--radius-md) 0; }
+  .compliance-stat blockquote p { font-size: 1.0625rem; font-style: italic; color: var(--color-navy); line-height: 1.65; margin-bottom: 1rem; max-width: none; }
+  .compliance-stat cite { font-size: .8125rem; color: var(--color-grey); font-style: normal; font-weight: 700; }
+
+  .cta-strip { padding: 4rem 0; }
+  .cta-strip p { color: rgba(255,255,255,.75); font-size: 1.125rem; margin: .75rem auto 2rem; max-width: 50ch; }
+
+  @media (max-width: 900px) {
+    .problems-grid { grid-template-columns: 1fr; }
+    .compliance-grid { grid-template-columns: 1fr; }
+    .cost-row { grid-template-columns: 1fr; gap: .25rem; }
+    .cost-row--header { display: none; }
+  }
+</style>
