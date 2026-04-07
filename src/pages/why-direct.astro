@@ -7,9 +7,9 @@ const description = "The real cost of buying through Irish wholesalers and Aliba
 
 <BaseLayout title={title} description={description} canonical="/why-direct">
 
-  <section class="page-hero section">
+  <section class="page-hero section--lg">
     <div class="container--narrow">
-      <p class="eyebrow">Why Buy Direct?</p>
+      <span class="section-eyebrow">Why Buy Direct?</span>
       <h1>Three layers of markup you're currently paying that you don't need to.</h1>
       <p class="lead">When an Irish retailer buys Chinese goods through an Irish wholesaler, they're paying for the Chinese factory, plus a trading company margin, plus a Chinese export agent, plus an Irish importer's margin. Factory-direct removes all but the first.</p>
     </div>
@@ -102,8 +102,9 @@ const description = "The real cost of buying through Irish wholesalers and Aliba
     </div>
   </section>
 
-  <section class="cta-strip section section--dark">
+  <section class="cta-strip section--emerald">
     <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">The numbers don't lie</span>
       <h2>Stop paying wholesale margins on factory-priced goods.</h2>
       <p>Send me what you're importing. I'll show you what it actually costs at factory gate.</p>
       <a href="/contact" class="btn btn--white">Get Factory Pricing →</a>
@@ -113,14 +114,14 @@ const description = "The real cost of buying through Irish wholesalers and Aliba
 </BaseLayout>
 
 <style>
-  .page-hero { padding-top: 5rem; padding-bottom: 3rem; }
-  .eyebrow { font-size: .875rem; font-weight: 700; color: var(--color-teal); text-transform: uppercase; letter-spacing: .08em; margin-bottom: .75rem; }
-  .lead { font-size: 1.125rem; color: var(--color-slate); line-height: 1.7; margin: 1rem 0 0; max-width: 58ch; }
+  .page-hero { border-bottom: 1px solid rgba(15,33,49,.08); }
+  .page-hero h1 { font-size: clamp(2.25rem, 5vw, 4rem); }
+  .lead { font-size: 1.25rem; color: #5a5a5a; line-height: 1.7; margin: 1rem 0 0; max-width: 58ch; }
 
   .cost-table { margin: 2rem 0; border: 1px solid rgba(15,33,49,.1); border-radius: var(--radius-lg); overflow: hidden; }
   .cost-row { display: grid; grid-template-columns: 2fr 1fr 1fr; padding: .875rem 1.5rem; gap: 1rem; align-items: center; border-bottom: 1px solid rgba(15,33,49,.06); }
   .cost-row:last-child { border-bottom: none; }
-  .cost-row--header { background: var(--color-navy); color: rgba(255,255,255,.7); font-size: .8125rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; }
+  .cost-row--header { background: #1A533E; color: rgba(255,255,255,.8); font-size: .8125rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; }
   .cost-row--marked { background: rgba(220, 80, 60, .04); }
   .cost-row--direct { background: rgba(26, 83, 62, .06); }
   .cost-price { font-weight: 700; color: var(--color-navy); }
@@ -138,8 +139,9 @@ const description = "The real cost of buying through Irish wholesalers and Aliba
   .compliance-stat blockquote p { font-size: 1.0625rem; font-style: italic; color: var(--color-navy); line-height: 1.65; margin-bottom: 1rem; max-width: none; }
   .compliance-stat cite { font-size: .8125rem; color: var(--color-grey); font-style: normal; font-weight: 700; }
 
-  .cta-strip { padding: 4rem 0; }
-  .cta-strip p { color: rgba(255,255,255,.75); font-size: 1.125rem; margin: .75rem auto 2rem; max-width: 50ch; }
+  .cta-strip { padding: 5rem 0; }
+  .cta-strip h2 { font-size: clamp(1.75rem, 4vw, 3rem); margin-bottom: 1rem; }
+  .cta-strip p { font-size: 1.125rem; margin: 0 auto 2rem; max-width: 50ch; }
 
   @media (max-width: 900px) {
     .problems-grid { grid-template-columns: 1fr; }

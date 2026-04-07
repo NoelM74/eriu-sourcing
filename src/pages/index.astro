@@ -1,145 +1,178 @@
 ---
-// index.astro — Ériu Sourcing Homepage
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 const title = "China Sourcing Agent Ireland | Factory-Direct from Zhengzhou & Shenzhen | Ériu Sourcing";
 const description = "Buy direct from Chinese factories. No Alibaba middlemen. Pre-shipment QC inspection. CE compliance verified. 18 years China experience. Save 35–60% vs Irish wholesale.";
-
-const stats = [
-  { figure: '18', label: 'Years in China' },
-  { figure: '€30M+', label: 'Logistics company revenue' },
-  { figure: '35–60%', label: 'Typical savings vs wholesale' },
-  { figure: '2', label: 'China bases: Zhengzhou + Shenzhen' },
-];
-
-const benefits = [
-  {
-    headline: 'Factory gate pricing',
-    body: 'You pay what the factory charges, not what three layers of middlemen add on top. Direct relationships built over 18 years mean the price is real.',
-  },
-  {
-    headline: 'QC before it leaves China',
-    body: "Every order is inspected at the factory before it ships. If it fails, it stays. You don't pay freight on goods that aren't right.",
-  },
-  {
-    headline: 'CE marking and EU compliance',
-    body: 'We verify certifications at source, not after customs. Construction materials, electronics, apparel — all checked against current EU and Irish standards.',
-  },
-  {
-    headline: 'No Alibaba middlemen',
-    body: 'Most "factories" on Alibaba are trading companies adding 20–40% margin. We source directly from the manufacturer, in person, with relationships that go back years.',
-  },
-];
-
-const categories = [
-  { name: 'Fashion & Apparel', href: '/product-categories#fashion', icon: '👕' },
-  { name: 'Electronics', href: '/product-categories#electronics', icon: '📱' },
-  { name: 'Furniture & Fit-Out', href: '/product-categories#furniture', icon: '🪑' },
-  { name: 'Construction Materials', href: '/product-categories#construction', icon: '🏗️' },
-  { name: 'Hospitality', href: '/product-categories#hospitality', icon: '🏨' },
-  { name: 'Pet Supplies', href: '/product-categories#pet', icon: '🐾' },
-  { name: 'Bags & Luggage', href: '/product-categories#bags', icon: '👜' },
-  { name: 'Modular Buildings', href: '/product-categories#modular-buildings', icon: '🏭' },
-];
 ---
 
 <BaseLayout title={title} description={description} canonical="/">
 
-  <!-- HERO -->
+  <!-- ================================================
+       HERO — full-bleed image, text overlay
+       ================================================ -->
   <section class="hero">
-    <div class="hero-inner container">
-      <div class="hero-content">
-        <p class="hero-eyebrow">China Direct Sourcing — Ireland &amp; UK</p>
-        <h1>Factory-direct from Zhengzhou and Shenzhen.<br />QC before it ships.</h1>
-        <p class="hero-sub">No Alibaba middlemen. No trading company markups. No compliance surprises. One person with 18 years of factory-level relationships across China — buying direct for Irish businesses.</p>
-        <div class="hero-actions">
-          <a href="/contact" class="btn btn--primary">Get Factory Pricing →</a>
-          <a href="/how-it-works" class="btn btn--secondary">See How It Works</a>
-        </div>
-      </div>
-    </div>
-    <div class="hero-image-wrap">
+    <div class="hero-bg">
       <img
         src="/images/hero-china-factory-floor.webp"
-        alt="Chinese electronics manufacturing factory floor — Ériu Sourcing sources directly from facilities like this"
-        width="1200"
-        height="675"
+        alt="Chinese electronics manufacturing factory — Ériu Sourcing sources directly from facilities like this"
+        width="1440"
+        height="810"
         loading="eager"
         fetchpriority="high"
       />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content container">
+      <p class="hero-eyebrow">China Direct Sourcing — Ireland &amp; UK</p>
+      <h1>Factory-direct from<br />Zhengzhou and Shenzhen.</h1>
+      <p class="hero-sub">QC before it ships. No Alibaba middlemen. No trading company markups. One person with 18 years of factory-level relationships — buying direct for Irish businesses.</p>
+      <div class="hero-actions">
+        <a href="/contact" class="btn btn--white">Get Factory Pricing →</a>
+        <a href="/how-it-works" class="btn btn--white-outline">See How It Works</a>
+      </div>
     </div>
   </section>
 
-  <!-- TRUST BAR -->
-  <section class="trust-bar section--alt">
+  <!-- ================================================
+       TRUST BAR — four stats
+       ================================================ -->
+  <section class="trust-bar">
     <div class="container">
       <ul class="stats-row" role="list">
-        {stats.map(stat => (
-          <li class="stat-item">
-            <span class="stat-figure">{stat.figure}</span>
-            <span class="stat-label">{stat.label}</span>
-          </li>
-        ))}
+        <li class="stat-item">
+          <span class="stat-figure">18</span>
+          <span class="stat-label">Years based in China</span>
+        </li>
+        <li class="stat-divider" aria-hidden="true"></li>
+        <li class="stat-item">
+          <span class="stat-figure">€30M+</span>
+          <span class="stat-label">Logistics company revenue</span>
+        </li>
+        <li class="stat-divider" aria-hidden="true"></li>
+        <li class="stat-item">
+          <span class="stat-figure">35–60%</span>
+          <span class="stat-label">Typical savings vs Irish wholesale</span>
+        </li>
+        <li class="stat-divider" aria-hidden="true"></li>
+        <li class="stat-item">
+          <span class="stat-figure">2</span>
+          <span class="stat-label">China bases: Zhengzhou &amp; Shenzhen</span>
+        </li>
       </ul>
     </div>
   </section>
 
-  <!-- BENEFITS -->
-  <section class="benefits-section section">
+  <!-- ================================================
+       WHY DIRECT — editorial numbered list
+       ================================================ -->
+  <section class="section section--alt">
     <div class="container">
-      <div class="section-header">
-        <h2>Why buy direct from China?</h2>
-        <p>Every Irish business buying Chinese goods through a wholesaler or trading company is paying for layers of margin they don't need to.</p>
+      <div class="why-header">
+        <span class="section-eyebrow">The cost argument</span>
+        <h2>Why every Irish business<br />should buy direct from China</h2>
+        <p class="why-intro">Every Irish business buying Chinese goods through a wholesaler or trading company is paying for layers of margin they don't need.</p>
       </div>
-      <div class="benefits-grid">
-        {benefits.map((b, i) => (
-          <div class="benefit-card">
-            <span class="benefit-num">{String(i + 1).padStart(2, '0')}</span>
-            <h3>{b.headline}</h3>
-            <p>{b.body}</p>
+
+      <div class="why-list">
+        <div class="why-item">
+          <span class="why-num">01</span>
+          <div class="why-body">
+            <h3>Factory gate pricing — not three markups stacked on top</h3>
+            <p>You pay what the factory charges. Not what the Alibaba trading company adds on top. Not what the Irish wholesaler adds on top of that. Direct relationships built over 18 years mean the price is real.</p>
           </div>
-        ))}
+        </div>
+        <div class="why-item">
+          <span class="why-num">02</span>
+          <div class="why-body">
+            <h3>Your goods are inspected at the factory before they ship</h3>
+            <p>Every order is physically inspected before a container is sealed. If it fails, it stays. You don't pay freight on goods that aren't right — and you don't get a nasty surprise on the Dublin docks.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <span class="why-num">03</span>
+          <div class="why-body">
+            <h3>CE marking and EU compliance verified at source</h3>
+            <p>We verify certifications at the factory, not at customs. Construction materials, electronics, apparel — all checked against EU and Irish standards before anything leaves China.</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <span class="why-num">04</span>
+          <div class="why-body">
+            <h3>Most "factories" on Alibaba are trading companies in disguise</h3>
+            <p>Trading companies on Alibaba typically add 20–40% margin while presenting themselves as manufacturers. We source in person, directly from the factory floor, with relationships that go back years.</p>
+          </div>
+        </div>
       </div>
-      <div class="benefits-cta">
-        <a href="/why-direct" class="btn btn--secondary">The full cost argument →</a>
+
+      <div class="why-cta">
+        <a href="/why-direct" class="btn btn--secondary">The full cost breakdown →</a>
       </div>
     </div>
   </section>
 
-  <!-- HOW IT WORKS TEASER -->
-  <section class="process-section section section--alt">
+  <!-- ================================================
+       QC SECTION — split editorial
+       ================================================ -->
+  <section class="section qc-section">
+    <div class="container">
+      <div class="split-grid">
+        <div class="split-content">
+          <span class="section-eyebrow">Quality control</span>
+          <h2>Inspected before it ships.<br />Every single time.</h2>
+          <p>Most sourcing failures happen because no one checks the goods at the factory. By the time the container arrives in Dublin, it's too late and too expensive to fix.</p>
+          <p>Every order through Ériu Sourcing is physically inspected before it leaves China. Product counts, quality checks, CE certification verification — done in person, at the factory, before a container is sealed.</p>
+          <p>If it fails, we resolve it with the factory before it ships. Not after.</p>
+          <a href="/contact" class="btn btn--primary" style="margin-top: 0.5rem;">Get QC-protected sourcing →</a>
+        </div>
+        <div class="split-image">
+          <img
+            src="/images/qc-inspection-hands.webp"
+            alt="Pre-shipment quality control inspection at Chinese factory — Ériu Sourcing"
+            width="640"
+            height="480"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       HOW IT WORKS — horizontal steps
+       ================================================ -->
+  <section class="section section--alt process-section">
     <div class="container">
       <div class="section-header">
-        <h2>How it works</h2>
-        <p>Four steps from your brief to your goods at the Irish port.</p>
+        <span class="section-eyebrow">The process</span>
+        <h2>Four steps from brief<br />to goods in Ireland</h2>
       </div>
       <ol class="process-steps" role="list">
-        <li>
-          <span class="step-num">1</span>
+        <li class="process-step">
+          <div class="step-number">1</div>
           <div class="step-content">
             <h3>You brief me</h3>
-            <p>Product, quantity, spec, timeline. Ten minutes via email or WhatsApp is enough to start.</p>
+            <p>Product, quantity, spec, timeline. Ten minutes via email or WhatsApp is enough to get started. No long forms.</p>
           </div>
         </li>
-        <li>
-          <span class="step-num">2</span>
+        <li class="process-step">
+          <div class="step-number">2</div>
           <div class="step-content">
             <h3>I find the right factory</h3>
-            <p>I go to the factory — Zhengzhou, Shenzhen, Foshan, wherever — negotiate the price, and send you a sourcing report with supplier options.</p>
+            <p>I visit the factory, negotiate direct, and send you a sourcing report with vetted suppliers, FOB pricing, and lead times.</p>
           </div>
         </li>
-        <li>
-          <span class="step-num">3</span>
+        <li class="process-step">
+          <div class="step-number">3</div>
           <div class="step-content">
             <h3>QC before it ships</h3>
-            <p>I inspect your order before it leaves China. CE compliance verified. Failures stay at the factory — not in a container heading your way.</p>
+            <p>Physical inspection at the factory. CE compliance verified. Failures get fixed in China — not on the Dublin docks.</p>
           </div>
         </li>
-        <li>
-          <span class="step-num">4</span>
+        <li class="process-step">
+          <div class="step-number">4</div>
           <div class="step-content">
             <h3>Shipped to Ireland</h3>
-            <p>I manage the freight, documentation, and customs coordination. You get landed goods at factory-gate value — not three layers of markup.</p>
+            <p>Freight, documentation, customs coordination — all handled. You get landed goods at factory-gate value.</p>
           </div>
         </li>
       </ol>
@@ -149,86 +182,85 @@ const categories = [
     </div>
   </section>
 
-  <!-- QC SECTION -->
-  <section class="qc-section section">
+  <!-- ================================================
+       WHAT WE SOURCE — clean text list
+       ================================================ -->
+  <section class="section categories-section">
     <div class="container">
-      <div class="qc-grid">
-        <div class="qc-content">
-          <h2>Inspected before it ships. Every time.</h2>
-          <p>Most sourcing problems happen because no one checks the goods at the factory. By the time the container arrives in Dublin, it's too late and too expensive to fix.</p>
-          <p>Every order through Ériu Sourcing is physically inspected before it leaves China. Product counts, quality checks, CE certification verification — done in person, at the factory, before a container is sealed.</p>
-          <p>If it fails, we resolve it with the factory before it ships. Not after.</p>
-          <a href="/contact" class="btn btn--primary">Get QC-protected sourcing →</a>
+      <div class="categories-intro">
+        <div>
+          <span class="section-eyebrow">What we source</span>
+          <h2>Ireland's top China<br />import categories</h2>
+          <p>Factory-level relationships across every major category — fashion, electronics, furniture, construction, hospitality, pet supplies, bags, and modular buildings.</p>
+          <a href="/product-categories" class="btn btn--secondary" style="margin-top: 1rem;">See all categories →</a>
         </div>
-        <div class="qc-image">
+        <div class="categories-image">
           <img
-            src="/images/qc-inspection-hands.webp"
-            alt="Pre-shipment quality control inspection at Chinese factory — Ériu Sourcing"
-            width="600"
-            height="450"
+            src="/images/foshan-furniture-factory.webp"
+            alt="Foshan furniture factory — direct sourcing for Irish businesses"
+            width="560"
+            height="400"
             loading="lazy"
           />
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- PRODUCT CATEGORIES -->
-  <section class="categories-section section section--alt">
-    <div class="container">
-      <div class="section-header">
-        <h2>What we source</h2>
-        <p>Ireland's top import categories from China — all covered with factory-level relationships.</p>
-      </div>
       <ul class="categories-list" role="list">
-        {categories.map(cat => (
-          <li>
-            <a href={cat.href} class="category-card">
-              <span class="category-icon" aria-hidden="true">{cat.icon}</span>
-              <span class="category-name">{cat.name}</span>
-              <span class="category-arrow" aria-hidden="true">→</span>
-            </a>
-          </li>
-        ))}
+        <li><a href="/product-categories#fashion"><span>Fashion &amp; Apparel</span><span class="cat-arrow">→</span></a></li>
+        <li><a href="/product-categories#electronics"><span>Electronics</span><span class="cat-arrow">→</span></a></li>
+        <li><a href="/product-categories#furniture"><span>Furniture &amp; Fit-Out</span><span class="cat-arrow">→</span></a></li>
+        <li><a href="/product-categories#construction"><span>Construction Materials</span><span class="cat-arrow">→</span></a></li>
+        <li><a href="/product-categories#hospitality"><span>Hospitality</span><span class="cat-arrow">→</span></a></li>
+        <li><a href="/product-categories#pet"><span>Pet Supplies</span><span class="cat-arrow">→</span></a></li>
+        <li><a href="/product-categories#bags"><span>Bags &amp; Luggage</span><span class="cat-arrow">→</span></a></li>
+        <li><a href="/product-categories#modular-buildings"><span>Modular Buildings</span><span class="cat-arrow">→</span></a></li>
       </ul>
-      <div class="categories-cta">
-        <a href="/product-categories" class="btn btn--secondary">See all categories →</a>
-      </div>
     </div>
   </section>
 
-  <!-- NETWORK TEASER -->
-  <section class="network-section section">
+  <!-- ================================================
+       CHINA NETWORK — split with image
+       ================================================ -->
+  <section class="section section--alt">
     <div class="container">
-      <div class="network-grid">
-        <div class="network-image">
+      <div class="split-grid split-grid--reverse">
+        <div class="split-image">
           <img
             src="/images/zhengzhou-hsr-station.webp"
-            alt="Zhengzhou East Railway Station — HSR hub connecting Ériu Sourcing's factory network across China"
-            width="700"
-            height="394"
+            alt="Zhengzhou East Railway Station — HSR hub for Ériu Sourcing's factory network"
+            width="640"
+            height="427"
             loading="lazy"
           />
         </div>
-        <div class="network-content">
-          <h2>Two bases. Reach across China.</h2>
+        <div class="split-content">
+          <span class="section-eyebrow">The network</span>
+          <h2>Two bases.<br />Reach across all of China.</h2>
           <p>Zhengzhou puts me in the centre of Eastern China's manufacturing heartland. Every major industrial city — Beijing, Shanghai, Xi'an, Wuhan — is within 2–3 hours by high-speed rail.</p>
           <p>Shenzhen gives direct access to Guangdong's consumer goods cluster: electronics in Huaqiangbei, furniture in Foshan, pet accessories in Guangzhou, bags in Dongguan.</p>
           <p>No other Ireland-facing sourcing service has this dual-province setup.</p>
-          <a href="/china-network" class="btn btn--secondary">See the full network →</a>
+          <a href="/china-network" class="btn btn--secondary" style="margin-top: 0.5rem;">See the full network →</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- FINAL CTA -->
-  <section class="final-cta section section--dark">
+  <!-- ================================================
+       FINAL CTA — emerald brand section
+       ================================================ -->
+  <section class="section--emerald cta-section">
     <div class="container--narrow">
+      <span class="section-eyebrow section-eyebrow--light">No obligation</span>
       <h2>Ready to pay factory prices?</h2>
-      <p>Send me what you're looking for. I'll come back with real factory pricing, a supplier shortlist, and a timeline — no obligation, no hard sell.</p>
+      <p>Send me what you're looking for. I'll come back with real factory pricing, a supplier shortlist, and a timeline — no hard sell, no long process.</p>
       <div class="cta-actions">
         <a href="/contact" class="btn btn--white">Get a Quote →</a>
-        <a href="https://wa.me/353871187806" class="btn btn--secondary" target="_blank" rel="noopener noreferrer">WhatsApp Noel</a>
+        <a href="https://wa.me/353871187806" class="btn btn--white-outline" target="_blank" rel="noopener noreferrer">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          WhatsApp Noel
+        </a>
       </div>
     </div>
   </section>
@@ -236,83 +268,490 @@ const categories = [
 </BaseLayout>
 
 <style>
-  /* HERO */
-  .hero { padding: 4rem 0 0; background-color: var(--color-bg); overflow: hidden; }
-  .hero-inner { padding-bottom: 3rem; }
-  .hero-content { max-width: 680px; }
-  .hero-eyebrow { font-size: 0.875rem; font-weight: 700; color: var(--color-teal); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 1rem; }
-  .hero h1 { font-size: clamp(2rem, 4.5vw, 3.25rem); line-height: 1.1; margin-bottom: 1.25rem; color: var(--color-navy); }
-  .hero-sub { font-size: clamp(1rem, 1.5vw, 1.125rem); color: var(--color-slate); line-height: 1.7; margin-bottom: 2rem; max-width: 58ch; }
-  .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
-  .hero-image-wrap { width: 100%; aspect-ratio: 16 / 6; overflow: hidden; }
-  .hero-image-wrap img { width: 100%; height: 100%; object-fit: cover; object-position: center 40%; }
-
-  /* TRUST BAR */
-  .trust-bar { padding: 2.5rem 0; border-top: 1px solid rgba(15,33,49,.08); border-bottom: 1px solid rgba(15,33,49,.08); }
-  .stats-row { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4,1fr); gap: 2rem; text-align: center; }
-  .stat-item { display: flex; flex-direction: column; gap: .25rem; }
-  .stat-figure { font-family: var(--font-display); font-size: clamp(1.75rem, 3vw, 2.5rem); font-weight: 700; color: var(--color-emerald); line-height: 1; }
-  .stat-label { font-size: .875rem; color: var(--color-grey); line-height: 1.4; }
-
-  /* SECTION HEADER */
-  .section-header { max-width: 640px; margin-bottom: 3rem; }
-  .section-header h2 { margin-bottom: .75rem; }
-  .section-header p { font-size: var(--text-lg); color: var(--color-slate); line-height: 1.65; margin: 0; }
-
-  /* BENEFITS */
-  .benefits-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 2rem; margin-bottom: 2.5rem; }
-  .benefit-card { padding: 2rem; background: var(--color-white); border: 1px solid rgba(15,33,49,.08); border-radius: var(--radius-lg); }
-  .benefit-num { display: block; font-family: var(--font-display); font-size: .875rem; font-weight: 700; color: var(--color-teal); letter-spacing: .05em; margin-bottom: .75rem; }
-  .benefit-card h3 { font-size: 1.25rem; margin-bottom: .625rem; }
-  .benefit-card p { font-size: .9375rem; color: var(--color-slate); line-height: 1.65; margin: 0; max-width: none; }
-
-  /* PROCESS */
-  .process-steps { list-style: none; margin: 0 0 2.5rem; padding: 0; display: grid; grid-template-columns: repeat(2,1fr); gap: 2rem; }
-  .process-steps li { display: flex; gap: 1.25rem; align-items: flex-start; }
-  .step-num { flex-shrink: 0; font-family: var(--font-display); font-size: 2rem; font-weight: 700; color: var(--color-emerald); line-height: 1; min-width: 2.5rem; }
-  .step-content h3 { font-size: 1.125rem; margin-bottom: .5rem; }
-  .step-content p { font-size: .9375rem; color: var(--color-slate); line-height: 1.65; margin: 0; max-width: none; }
-
-  /* QC */
-  .qc-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
-  .qc-content p { color: var(--color-slate); margin-bottom: 1rem; }
-  .qc-image img { width: 100%; height: 400px; object-fit: cover; border-radius: var(--radius-lg); }
-
-  /* CATEGORIES */
-  .categories-list { list-style: none; margin: 0 0 2rem; padding: 0; display: grid; grid-template-columns: repeat(4,1fr); gap: 1rem; }
-  .category-card { display: flex; align-items: center; gap: .875rem; padding: 1.25rem; background: var(--color-white); border: 1px solid rgba(15,33,49,.08); border-radius: var(--radius-md); text-decoration: none; color: var(--color-navy); font-weight: 500; font-size: .9375rem; transition: border-color .12s ease, box-shadow .12s ease; min-height: 56px; }
-  .category-card:hover { border-color: var(--color-teal); box-shadow: 0 2px 12px rgba(28,124,131,.1); color: var(--color-emerald); }
-  .category-icon { font-size: 1.375rem; flex-shrink: 0; }
-  .category-name { flex: 1; line-height: 1.3; }
-  .category-arrow { color: var(--color-grey); transition: color .12s ease; }
-  .category-card:hover .category-arrow { color: var(--color-teal); }
-
-  /* NETWORK */
-  .network-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 4rem; align-items: center; }
-  .network-image img { width: 100%; border-radius: var(--radius-lg); }
-  .network-content p { color: var(--color-slate); margin-bottom: 1rem; }
-
-  /* FINAL CTA */
-  .final-cta { text-align: center; padding: 5rem 0; }
-  .final-cta h2 { font-size: clamp(1.75rem, 3.5vw, 2.75rem); margin-bottom: 1rem; }
-  .final-cta p { font-size: var(--text-lg); color: rgba(255,255,255,.75); margin: 0 auto 2.5rem; max-width: 56ch; text-align: center; }
-  .cta-actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
-
-  /* RESPONSIVE */
-  @media (max-width: 900px) {
-    .stats-row { grid-template-columns: repeat(2,1fr); }
-    .benefits-grid { grid-template-columns: 1fr; }
-    .process-steps { grid-template-columns: 1fr; }
-    .qc-grid { grid-template-columns: 1fr; }
-    .qc-image { order: -1; }
-    .qc-image img { height: 280px; }
-    .categories-list { grid-template-columns: repeat(2,1fr); }
-    .network-grid { grid-template-columns: 1fr; }
+  /* ===================== HERO ===================== */
+  .hero {
+    position: relative;
+    min-height: 88vh;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
   }
 
-  @media (max-width: 540px) {
-    .hero-image-wrap { aspect-ratio: 4/3; }
-    .categories-list { grid-template-columns: 1fr; }
-    .cta-actions { flex-direction: column; align-items: center; }
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+  }
+
+  .hero-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 35%;
+  }
+
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to top,
+      rgba(10, 28, 18, 0.88) 0%,
+      rgba(10, 28, 18, 0.55) 45%,
+      rgba(10, 28, 18, 0.2) 100%
+    );
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    max-width: 900px;
+  }
+
+  .hero-eyebrow {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.65);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.25rem;
+    display: block;
+  }
+
+  .hero-content h1 {
+    color: #ffffff;
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    line-height: 1.05;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.03em;
+  }
+
+  .hero-sub {
+    font-size: clamp(1rem, 1.6vw, 1.25rem);
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+    max-width: 620px;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  /* ===================== TRUST BAR ===================== */
+  .trust-bar {
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(15, 33, 49, 0.08);
+    padding: 2.5rem 0;
+  }
+
+  .stats-row {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+    flex: 1;
+    text-align: center;
+  }
+
+  .stat-figure {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 3.5vw, 3rem);
+    font-weight: 700;
+    color: #1A533E;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+
+  .stat-label {
+    font-size: 0.875rem;
+    color: #6b6b6b;
+    line-height: 1.4;
+  }
+
+  .stat-divider {
+    width: 1px;
+    height: 48px;
+    background-color: rgba(15, 33, 49, 0.1);
+    flex-shrink: 0;
+  }
+
+  /* ===================== WHY DIRECT ===================== */
+  .why-header {
+    max-width: 680px;
+    margin-bottom: 3.5rem;
+  }
+
+  .why-header h2 {
+    margin-bottom: 1rem;
+  }
+
+  .why-intro {
+    font-size: var(--text-lg);
+    color: #3a3a3a;
+    margin: 0;
+  }
+
+  .why-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    border-top: 1px solid rgba(15, 33, 49, 0.1);
+  }
+
+  .why-item {
+    display: flex;
+    gap: 1.75rem;
+    padding: 2.5rem 2.5rem 2.5rem 0;
+    border-bottom: 1px solid rgba(15, 33, 49, 0.1);
+    border-right: 1px solid rgba(15, 33, 49, 0.1);
+  }
+
+  .why-item:nth-child(even) {
+    padding-left: 2.5rem;
+    border-right: none;
+  }
+
+  .why-num {
+    font-family: var(--font-display);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1C7C83;
+    line-height: 1;
+    flex-shrink: 0;
+    opacity: 0.5;
+    min-width: 2.5rem;
+    margin-top: 0.25rem;
+  }
+
+  .why-body h3 {
+    font-size: 1.1875rem;
+    margin-bottom: 0.625rem;
+    line-height: 1.3;
+  }
+
+  .why-body p {
+    font-size: 0.9375rem;
+    color: #5a5a5a;
+    margin: 0;
+    line-height: 1.7;
+  }
+
+  .why-cta {
+    margin-top: 2.5rem;
+  }
+
+  /* ===================== QC SECTION ===================== */
+  .split-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+  }
+
+  .split-grid--reverse {
+    direction: rtl;
+  }
+
+  .split-grid--reverse > * {
+    direction: ltr;
+  }
+
+  .split-content h2 {
+    margin-bottom: 1.25rem;
+  }
+
+  .split-content p {
+    color: #3a3a3a;
+    margin-bottom: 1rem;
+  }
+
+  .split-image img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  /* ===================== PROCESS ===================== */
+  .process-section .section-header {
+    margin-bottom: 3rem;
+  }
+
+  .process-steps {
+    list-style: none;
+    margin: 0 0 2.5rem;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    border-top: 2px solid #1A533E;
+    counter-reset: steps;
+  }
+
+  .process-step {
+    padding: 2rem 2rem 2rem 0;
+    border-right: 1px solid rgba(15, 33, 49, 0.1);
+    padding-right: 2rem;
+  }
+
+  .process-step:last-child {
+    border-right: none;
+    padding-right: 0;
+  }
+
+  .process-step:not(:first-child) {
+    padding-left: 2rem;
+  }
+
+  .step-number {
+    font-family: var(--font-display);
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1A533E;
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+
+  .step-content h3 {
+    font-size: 1.0625rem;
+    margin-bottom: 0.625rem;
+    line-height: 1.3;
+  }
+
+  .step-content p {
+    font-size: 0.9375rem;
+    color: #5a5a5a;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .process-cta {
+    padding-top: 0.5rem;
+  }
+
+  /* ===================== CATEGORIES ===================== */
+  .categories-intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  .categories-image img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  .categories-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid rgba(15, 33, 49, 0.1);
+  }
+
+  .categories-list li {
+    border-bottom: 1px solid rgba(15, 33, 49, 0.1);
+    border-right: 1px solid rgba(15, 33, 49, 0.1);
+  }
+
+  .categories-list li:nth-child(4n) {
+    border-right: none;
+  }
+
+  .categories-list a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.125rem 1.25rem;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: #0F2131;
+    text-decoration: none;
+    min-height: 56px;
+    transition: background-color 0.12s ease, color 0.12s ease;
+  }
+
+  .categories-list a:hover {
+    background-color: rgba(26, 83, 62, 0.05);
+    color: #1A533E;
+  }
+
+  .cat-arrow {
+    color: #9a9a9a;
+    font-size: 1rem;
+    transition: color 0.12s ease, transform 0.12s ease;
+  }
+
+  .categories-list a:hover .cat-arrow {
+    color: #1A533E;
+    transform: translateX(3px);
+  }
+
+  /* ===================== CTA SECTION ===================== */
+  .cta-section {
+    padding: 6rem 0;
+    text-align: center;
+  }
+
+  .cta-section h2 {
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    margin-bottom: 1.25rem;
+  }
+
+  .cta-section p {
+    font-size: 1.125rem;
+    margin: 0 auto 2.5rem;
+    max-width: 54ch;
+    text-align: center;
+  }
+
+  .cta-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* ===================== RESPONSIVE ===================== */
+  @media (max-width: 1024px) {
+    .process-steps {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .process-step:nth-child(2) {
+      border-right: none;
+    }
+
+    .process-step:nth-child(3) {
+      border-right: 1px solid rgba(15, 33, 49, 0.1);
+    }
+
+    .categories-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .categories-list li:nth-child(4n) {
+      border-right: 1px solid rgba(15, 33, 49, 0.1);
+    }
+
+    .categories-list li:nth-child(2n) {
+      border-right: none;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .hero {
+      min-height: 70vh;
+    }
+
+    .split-grid,
+    .split-grid--reverse {
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+      direction: ltr;
+    }
+
+    .split-image img {
+      height: 300px;
+    }
+
+    .why-list {
+      grid-template-columns: 1fr;
+    }
+
+    .why-item,
+    .why-item:nth-child(even) {
+      padding: 2rem 0;
+      border-right: none;
+      padding-left: 0;
+    }
+
+    .categories-intro {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    .categories-image {
+      order: -1;
+    }
+
+    .categories-image img {
+      height: 240px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .stats-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+
+    .stat-divider {
+      display: none;
+    }
+
+    .stat-item {
+      text-align: left;
+    }
+
+    .process-steps {
+      grid-template-columns: 1fr;
+    }
+
+    .process-step,
+    .process-step:not(:first-child) {
+      padding: 1.5rem 0;
+      border-right: none;
+      padding-left: 0;
+    }
+
+    .categories-list {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .categories-list li:nth-child(2n) {
+      border-right: none;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .hero {
+      min-height: 85vh;
+    }
+
+    .hero-content {
+      padding-bottom: 3rem;
+    }
+
+    .categories-list {
+      grid-template-columns: 1fr;
+    }
+
+    .categories-list li {
+      border-right: none !important;
+    }
+
+    .cta-actions {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 </style>

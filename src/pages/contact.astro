@@ -9,9 +9,9 @@ const FORMSPREE_ID = "xzdkoabw";
 
 <BaseLayout title={title} description={description} canonical="/contact">
 
-  <section class="contact-hero section">
+  <section class="contact-hero section--lg">
     <div class="container--narrow">
-      <p class="eyebrow">Get a Quote</p>
+      <span class="section-eyebrow">Get a Quote</span>
       <h1>Tell me what you need.</h1>
       <p class="lead">I'll come back with factory-level pricing, a supplier shortlist, and a timeline — no obligation, no hard sell. Direct reply from Noel within 24 hours.</p>
 
@@ -128,9 +128,9 @@ const FORMSPREE_ID = "xzdkoabw";
 <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
 
 <style>
-  .contact-hero { padding-top: 5rem; }
-  .eyebrow { font-size: .875rem; font-weight: 700; color: var(--color-teal); text-transform: uppercase; letter-spacing: .08em; margin-bottom: .75rem; }
-  .lead { font-size: 1.125rem; color: var(--color-slate); line-height: 1.7; margin: 1rem 0 1.75rem; max-width: 54ch; }
+  .contact-hero { border-bottom: 1px solid rgba(15,33,49,.08); }
+  .contact-hero h1 { font-size: clamp(2.25rem, 5vw, 4rem); }
+  .lead { font-size: 1.25rem; color: #5a5a5a; line-height: 1.7; margin: 1rem 0 1.75rem; max-width: 54ch; }
 
   .contact-options { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: .5rem; }
   .contact-option { display: inline-flex; align-items: center; gap: .625rem; font-weight: 600; font-size: .9375rem; text-decoration: none; padding: .625rem 1.25rem; border-radius: var(--radius-md); border: 2px solid; min-height: 44px; transition: all .12s ease; }

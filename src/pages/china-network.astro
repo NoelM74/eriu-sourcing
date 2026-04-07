@@ -29,9 +29,9 @@ const shenzhenClusters = [
 
 <BaseLayout title={title} description={description} canonical="/china-network">
 
-  <section class="page-hero section">
+  <section class="page-hero section--lg">
     <div class="container--narrow">
-      <p class="eyebrow">Our China Network</p>
+      <span class="section-eyebrow">Our China Network</span>
       <h1>Two bases. Reach across every major manufacturing hub.</h1>
       <p class="lead">Most sourcing agents operate from one city. We're based in both Zhengzhou (Henan Province) and Shenzhen (Guangdong Province) — the two most strategically positioned manufacturing bases in China for Irish buyers.</p>
     </div>
@@ -128,8 +128,9 @@ const shenzhenClusters = [
     </div>
   </section>
 
-  <section class="cta-strip section section--dark">
+  <section class="cta-strip section--emerald">
     <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">Factory-level access</span>
       <h2>Need something from China?</h2>
       <p>Tell me the product and quantity. I'll identify the right factory — Zhengzhou, Shenzhen, or wherever it's made best.</p>
       <a href="/contact" class="btn btn--white">Get a Sourcing Quote →</a>
@@ -139,9 +140,9 @@ const shenzhenClusters = [
 </BaseLayout>
 
 <style>
-  .page-hero { padding-top: 5rem; padding-bottom: 3rem; }
-  .eyebrow { font-size: .875rem; font-weight: 700; color: var(--color-teal); text-transform: uppercase; letter-spacing: .08em; margin-bottom: .75rem; }
-  .lead { font-size: 1.125rem; color: var(--color-slate); line-height: 1.7; margin: 1rem 0 0; max-width: 58ch; }
+  .page-hero { border-bottom: 1px solid rgba(15,33,49,.08); }
+  .page-hero h1 { font-size: clamp(2.25rem, 5vw, 4rem); }
+  .lead { font-size: 1.25rem; color: #5a5a5a; line-height: 1.7; margin: 1rem 0 0; max-width: 58ch; }
 
   .base-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 3.5rem; align-items: start; }
   .base-grid--reverse { grid-template-columns: 1.2fr 1fr; }
@@ -157,7 +158,7 @@ const shenzhenClusters = [
   .hsr-spec { color: var(--color-slate); }
 
   .cluster-table { margin-top: 1.5rem; border: 1px solid rgba(15,33,49,.1); border-radius: var(--radius-md); overflow: hidden; }
-  .cluster-header { display: grid; grid-template-columns: 1.2fr 1fr 1fr; padding: .625rem 1rem; background: var(--color-navy); color: rgba(255,255,255,.65); font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; gap: .75rem; }
+  .cluster-header { display: grid; grid-template-columns: 1.2fr 1fr 1fr; padding: .625rem 1rem; background: #1A533E; color: rgba(255,255,255,.75); font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; gap: .75rem; }
   .cluster-row { display: grid; grid-template-columns: 1.2fr 1fr 1fr; padding: .625rem 1rem; gap: .75rem; border-bottom: 1px solid rgba(15,33,49,.06); font-size: .875rem; align-items: center; }
   .cluster-row:last-child { border-bottom: none; }
   .cluster-cat { font-weight: 600; color: var(--color-navy); }
@@ -169,8 +170,9 @@ const shenzhenClusters = [
   .henan-card h3 { font-size: 1rem; margin-bottom: .625rem; }
   .henan-card p { font-size: .9375rem; color: var(--color-slate); margin: 0; line-height: 1.65; max-width: none; }
 
-  .cta-strip { padding: 4rem 0; }
-  .cta-strip p { color: rgba(255,255,255,.75); font-size: 1.125rem; margin: .75rem auto 2rem; max-width: 50ch; }
+  .cta-strip { padding: 5rem 0; }
+  .cta-strip h2 { font-size: clamp(1.75rem, 4vw, 3rem); margin-bottom: 1rem; }
+  .cta-strip p { font-size: 1.125rem; margin: 0 auto 2rem; max-width: 50ch; }
 
   @media (max-width: 900px) {
     .base-grid, .base-grid--reverse { grid-template-columns: 1fr; }

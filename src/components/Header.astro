@@ -1,13 +1,13 @@
 ---
 // Header.astro — Ériu Sourcing
-// Mobile-first nav with hamburger toggle. All touch targets ≥ 44px.
+// Mobile-first sticky nav. Logo is inline SVG lockup (light-bg variant).
 
 const navLinks = [
-  { href: '/how-it-works', label: 'How It Works' },
-  { href: '/product-categories', label: 'What We Source' },
-  { href: '/why-direct', label: 'Why Direct?' },
-  { href: '/china-network', label: 'Our China Network' },
-  { href: '/case-studies', label: 'Case Studies' },
+  { href: '/how-it-works',      label: 'How It Works' },
+  { href: '/product-categories',label: 'What We Source' },
+  { href: '/why-direct',        label: 'Why Direct?' },
+  { href: '/china-network',     label: 'China Network' },
+  { href: '/case-studies',      label: 'Case Studies' },
 ];
 
 const pathname = Astro.url.pathname;
@@ -15,9 +15,38 @@ const pathname = Astro.url.pathname;
 
 <header class="site-header">
   <div class="header-inner container">
-    <!-- Logo -->
+
+    <!-- Logo — inline SVG, works on light background -->
     <a href="/" class="logo" aria-label="Ériu Sourcing — Home">
-      <span class="logo-text">Ériu Sourcing</span>
+      <svg
+        width="148"
+        height="36"
+        viewBox="0 0 148 36"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true"
+      >
+        <!-- ÉRIU wordmark -->
+        <text
+          x="0"
+          y="28"
+          font-family="Georgia, 'Times New Roman', serif"
+          font-size="28"
+          font-weight="700"
+          letter-spacing="-0.5"
+          fill="#1A533E"
+        >ÉRIU</text>
+        <!-- Sourcing wordmark -->
+        <text
+          x="76"
+          y="28"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+          font-size="20"
+          font-weight="500"
+          letter-spacing="0.3"
+          fill="#0F2131"
+        >Sourcing</text>
+      </svg>
     </a>
 
     <!-- Desktop nav -->
@@ -27,7 +56,7 @@ const pathname = Astro.url.pathname;
           <li>
             <a
               href={link.href}
-              class={pathname.startsWith(link.href) ? 'active' : ''}
+              class={pathname === link.href || pathname.startsWith(link.href + '/') ? 'active' : ''}
             >
               {link.label}
             </a>
@@ -39,7 +68,7 @@ const pathname = Astro.url.pathname;
     <!-- CTA -->
     <a href="/contact" class="btn btn--primary nav-cta">Get a Quote</a>
 
-    <!-- Mobile hamburger -->
+    <!-- Hamburger -->
     <button
       class="hamburger"
       id="nav-toggle"
@@ -51,6 +80,7 @@ const pathname = Astro.url.pathname;
       <span></span>
       <span></span>
     </button>
+
   </div>
 
   <!-- Mobile nav drawer -->
@@ -65,14 +95,14 @@ const pathname = Astro.url.pathname;
         <li>
           <a
             href={link.href}
-            class={pathname.startsWith(link.href) ? 'active' : ''}
+            class={pathname === link.href || pathname.startsWith(link.href + '/') ? 'active' : ''}
           >
             {link.label}
           </a>
         </li>
       ))}
-      <li>
-        <a href="/contact" class="mobile-cta">Get a Quote →</a>
+      <li class="mobile-cta-item">
+        <a href="/contact" class="btn btn--primary mobile-cta-btn">Get a Quote</a>
       </li>
     </ul>
   </nav>
@@ -89,15 +119,17 @@ const pathname = Astro.url.pathname;
     mobileNav?.setAttribute('aria-hidden', String(isOpen));
     mobileNav?.classList.toggle('is-open');
     toggle.classList.toggle('is-open');
+    document.body.style.overflow = isOpen ? '' : 'hidden';
   });
 
-  // Close on nav link click
   mobileNav?.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
       toggle?.setAttribute('aria-expanded', 'false');
+      toggle?.setAttribute('aria-label', 'Open menu');
       mobileNav.setAttribute('aria-hidden', 'true');
       mobileNav.classList.remove('is-open');
       toggle?.classList.remove('is-open');
+      document.body.style.overflow = '';
     });
   });
 </script>
@@ -107,31 +139,27 @@ const pathname = Astro.url.pathname;
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: var(--color-white);
-    border-bottom: 1px solid rgba(15, 33, 49, 0.08);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    background-color: #F7F6F2;
+    border-bottom: 1px solid rgba(15, 33, 49, 0.09);
   }
 
   .header-inner {
     display: flex;
     align-items: center;
     gap: 2rem;
-    height: 68px;
+    height: 72px;
   }
 
   /* Logo */
   .logo {
     text-decoration: none;
     flex-shrink: 0;
+    display: flex;
+    align-items: center;
   }
 
-  .logo-text {
-    font-family: var(--font-display);
-    font-size: 1.375rem;
-    font-weight: 700;
-    color: var(--color-emerald);
-    letter-spacing: -0.01em;
+  .logo svg {
+    display: block;
   }
 
   /* Desktop nav */
@@ -144,33 +172,38 @@ const pathname = Astro.url.pathname;
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 0.25rem;
+    gap: 0;
   }
 
   .nav-desktop a {
     font-size: 0.9375rem;
     font-weight: 500;
-    color: var(--color-slate);
+    color: #3a3a3a;
     text-decoration: none;
-    padding: 0.5rem 0.75rem;
-    border-radius: var(--radius-sm);
+    padding: 0.5rem 0.875rem;
+    border-radius: 6px;
     min-height: 44px;
     display: flex;
     align-items: center;
     transition: color 0.12s ease, background-color 0.12s ease;
   }
 
-  .nav-desktop a:hover,
+  .nav-desktop a:hover {
+    color: #1A533E;
+    background-color: rgba(26, 83, 62, 0.07);
+  }
+
   .nav-desktop a.active {
-    color: var(--color-emerald);
-    background-color: rgba(26, 83, 62, 0.06);
+    color: #1A533E;
+    font-weight: 600;
   }
 
   /* Header CTA */
   .nav-cta {
     flex-shrink: 0;
     font-size: 0.9375rem;
-    padding: 0.625rem 1.25rem;
+    padding: 0.625rem 1.375rem;
+    min-height: 44px;
   }
 
   /* Hamburger */
@@ -178,7 +211,7 @@ const pathname = Astro.url.pathname;
     display: none;
     flex-direction: column;
     justify-content: center;
-    gap: 5px;
+    gap: 6px;
     width: 44px;
     height: 44px;
     background: none;
@@ -193,29 +226,22 @@ const pathname = Astro.url.pathname;
     display: block;
     width: 22px;
     height: 2px;
-    background-color: var(--color-navy);
+    background-color: #0F2131;
     border-radius: 2px;
     transition: transform 0.2s ease, opacity 0.2s ease;
+    transform-origin: center;
   }
 
-  .hamburger.is-open span:nth-child(1) {
-    transform: translateY(7px) rotate(45deg);
-  }
+  .hamburger.is-open span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+  .hamburger.is-open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+  .hamburger.is-open span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
 
-  .hamburger.is-open span:nth-child(2) {
-    opacity: 0;
-  }
-
-  .hamburger.is-open span:nth-child(3) {
-    transform: translateY(-7px) rotate(-45deg);
-  }
-
-  /* Mobile nav drawer */
+  /* Mobile drawer */
   .nav-mobile {
     display: none;
-    background-color: var(--color-white);
+    background-color: #F7F6F2;
     border-top: 1px solid rgba(15, 33, 49, 0.08);
-    padding: 1rem 1.5rem 1.5rem;
+    padding: 1.25rem 1.5rem 2rem;
   }
 
   .nav-mobile.is-open {
@@ -231,30 +257,33 @@ const pathname = Astro.url.pathname;
   .nav-mobile a {
     display: flex;
     align-items: center;
-    min-height: 44px;
-    font-size: 1.0625rem;
+    min-height: 52px;
+    font-size: 1.125rem;
     font-weight: 500;
-    color: var(--color-slate);
+    color: #0F2131;
     text-decoration: none;
-    padding: 0.5rem 0;
-    border-bottom: 1px solid rgba(15, 33, 49, 0.06);
+    padding: 0.25rem 0;
+    border-bottom: 1px solid rgba(15, 33, 49, 0.07);
     transition: color 0.12s ease;
   }
 
   .nav-mobile a:hover,
   .nav-mobile a.active {
-    color: var(--color-emerald);
+    color: #1A533E;
   }
 
-  .nav-mobile .mobile-cta {
-    color: var(--color-emerald);
-    font-weight: 700;
-    border-bottom: none;
-    margin-top: 0.5rem;
+  .mobile-cta-item {
+    margin-top: 1.5rem;
+  }
+
+  .mobile-cta-btn {
+    border: none !important;
+    width: 100%;
+    justify-content: center;
   }
 
   /* Responsive */
-  @media (max-width: 900px) {
+  @media (max-width: 960px) {
     .nav-desktop,
     .nav-cta {
       display: none;
@@ -262,18 +291,6 @@ const pathname = Astro.url.pathname;
 
     .hamburger {
       display: flex;
-    }
-  }
-
-  /* Dark mode */
-  @media (prefers-color-scheme: dark) {
-    .site-header {
-      background-color: rgba(13, 27, 42, 0.95);
-      border-bottom-color: rgba(255, 255, 255, 0.08);
-    }
-
-    .nav-mobile {
-      background-color: var(--color-bg);
     }
   }
 </style>

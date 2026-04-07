@@ -62,9 +62,9 @@ const caseStudies = [
 
 <BaseLayout title={title} description={description} canonical="/case-studies">
 
-  <section class="page-hero section">
+  <section class="page-hero section--lg">
     <div class="container--narrow">
-      <p class="eyebrow">Case Studies</p>
+      <span class="section-eyebrow">Case Studies</span>
       <h1>What factory-direct actually looks like in practice.</h1>
       <p class="lead">Real results from real sourcing projects. Client names are withheld by agreement, but the numbers and outcomes are real. This is what changes when you remove the middlemen.</p>
     </div>
@@ -97,8 +97,9 @@ const caseStudies = [
     </div>
   </section>
 
-  <section class="cta-strip section section--dark">
+  <section class="cta-strip section--emerald">
     <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">Your turn</span>
       <h2>Want results like these?</h2>
       <p>Send me a brief. I'll tell you what your product category actually costs at factory gate — and what you should be paying.</p>
       <a href="/contact" class="btn btn--white">Get a Sourcing Quote →</a>
@@ -108,9 +109,9 @@ const caseStudies = [
 </BaseLayout>
 
 <style>
-  .page-hero { padding-top: 5rem; padding-bottom: 3rem; }
-  .eyebrow { font-size: .875rem; font-weight: 700; color: var(--color-teal); text-transform: uppercase; letter-spacing: .08em; margin-bottom: .75rem; }
-  .lead { font-size: 1.125rem; color: var(--color-slate); line-height: 1.7; margin: 1rem 0 0; max-width: 56ch; }
+  .page-hero { border-bottom: 1px solid rgba(15,33,49,.08); }
+  .page-hero h1 { font-size: clamp(2.25rem, 5vw, 4rem); }
+  .lead { font-size: 1.25rem; color: #5a5a5a; line-height: 1.7; margin: 1rem 0 0; max-width: 56ch; }
 
   .cases-list { display: flex; flex-direction: column; gap: 2.5rem; }
   .case-card { background: var(--color-white); border: 1px solid rgba(15,33,49,.08); border-radius: var(--radius-lg); overflow: hidden; }
@@ -127,8 +128,9 @@ const caseStudies = [
   .case-results li { font-size: .9375rem; color: var(--color-navy); font-weight: 500; padding-left: 1.5rem; position: relative; line-height: 1.45; }
   .case-results li::before { content: '✓'; position: absolute; left: 0; color: var(--color-emerald); font-weight: 700; }
 
-  .cta-strip { padding: 4rem 0; }
-  .cta-strip p { color: rgba(255,255,255,.75); font-size: 1.125rem; margin: .75rem auto 2rem; max-width: 50ch; }
+  .cta-strip { padding: 5rem 0; }
+  .cta-strip h2 { font-size: clamp(1.75rem, 4vw, 3rem); margin-bottom: 1rem; }
+  .cta-strip p { font-size: 1.125rem; margin: 0 auto 2rem; max-width: 50ch; }
 
   @media (max-width: 900px) {
     .case-body { grid-template-columns: 1fr; }
