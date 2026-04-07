@@ -20,7 +20,7 @@ const {
   title,
   description,
   canonical,
-  ogImage = '/images/og-default.webp',
+  ogImage = '/images/hero-china-factory-floor.webp',
   ogType = 'website',
   jsonLd,
 } = Astro.props;
@@ -35,6 +35,7 @@ const defaultJsonLd = {
   "name": "Ériu Sourcing",
   "description": "Factory-direct sourcing from China to Ireland. Supplier identification, QC inspection, CE compliance, logistics management. 18 years China experience.",
   "url": siteUrl,
+  "image": `${siteUrl}/images/hero-china-factory-floor.webp`,
   "areaServed": [
     { "@type": "Country", "name": "Ireland" },
     { "@type": "Country", "name": "United Kingdom" }
@@ -43,20 +44,31 @@ const defaultJsonLd = {
     "@type": "PostalAddress",
     "addressCountry": "IE"
   },
+  "founder": {
+    "@type": "Person",
+    "name": "Noel",
+    "description": "18 years based in China. Co-founded a logistics company with €30M+ annual revenue. Factory-direct sourcing specialist for Irish businesses."
+  },
   "knowsAbout": [
     "China Sourcing",
     "Factory Direct Purchasing",
     "Pre-shipment Quality Control",
     "CE Marking Compliance",
     "Import Logistics",
-    "Supplier Vetting"
+    "Supplier Vetting",
+    "Alibaba Alternative",
+    "Irish Import Agent"
   ],
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "sales",
+    "email": "sales@nexusnails.com",
     "areaServed": ["IE", "GB"],
     "availableLanguage": "English"
-  }
+  },
+  "sameAs": [
+    "https://china-fulfillment.com"
+  ]
 };
 
 const structuredData = jsonLd || defaultJsonLd;
@@ -71,6 +83,8 @@ const structuredData = jsonLd || defaultJsonLd;
     <!-- Primary meta -->
     <title>{title}</title>
     <meta name="description" content={description} />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Ériu Sourcing" />
     <link rel="canonical" href={canonicalUrl} />
 
     <!-- GEO targeting -->
@@ -84,6 +98,9 @@ const structuredData = jsonLd || defaultJsonLd;
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:image" content={`${siteUrl}${ogImage}`} />
+    <meta property="og:image:alt" content="Ériu Sourcing — Factory-direct from China to Ireland" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:locale" content="en_IE" />
     <meta property="og:site_name" content="Ériu Sourcing" />
 
@@ -96,12 +113,14 @@ const structuredData = jsonLd || defaultJsonLd;
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
 
     <!-- Fontshare — Boska (display) + Satoshi (body) -->
-    <link rel="preconnect" href="https://api.fontshare.com" />
+    <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+    <link rel="dns-prefetch" href="https://api.fontshare.com" />
     <link
       rel="stylesheet"
-      href="https://api.fontshare.com/v2/css?f[]=boska@400,500,700&f[]=satoshi@400,500,700&display=swap"
+      href="https://api.fontshare.com/v2/css?f[]=boska@700&f[]=satoshi@400,500,700&display=swap"
     />
 
     <!-- JSON-LD structured data -->
