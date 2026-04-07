@@ -32,12 +32,9 @@ const currentYear = new Date().getFullYear();
 
         <!-- Brand column -->
         <div class="footer-brand">
-          <!-- Logo — white/light version for emerald background -->
+          <!-- Logo — light version for emerald background -->
           <a href="/" class="footer-logo" aria-label="Ériu Sourcing — Home">
-            <svg width="148" height="36" viewBox="0 0 148 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <text x="0" y="28" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" letter-spacing="-0.5" fill="#ffffff">ÉRIU</text>
-              <text x="76" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="400" letter-spacing="0.3" fill="rgba(255,255,255,0.75)">Sourcing</text>
-            </svg>
+            <span class="footer-logo-eriu">ÉRIU</span><span class="footer-logo-sourcing">Sourcing</span>
           </a>
           <p>Factory-direct from China to Ireland. Based in Zhengzhou and Shenzhen. 18 years of factory-level relationships.</p>
           <p class="footer-location">Zhengzhou, Henan &amp; Shenzhen, Guangdong</p>
@@ -167,8 +164,29 @@ const currentYear = new Date().getFullYear();
 
   .footer-logo {
     text-decoration: none;
-    display: inline-block;
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.35rem;
     margin-bottom: 1.125rem;
+    line-height: 1;
+  }
+
+  .footer-logo-eriu {
+    font-family: 'Boska', Georgia, 'Times New Roman', serif;
+    font-size: 1.625rem;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+
+  .footer-logo-sourcing {
+    font-family: 'Satoshi', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 0.02em;
+    line-height: 1;
   }
 
   .footer-brand p {

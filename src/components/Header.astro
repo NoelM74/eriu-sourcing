@@ -16,37 +16,9 @@ const pathname = Astro.url.pathname;
 <header class="site-header">
   <div class="header-inner container">
 
-    <!-- Logo — inline SVG, works on light background -->
+    <!-- Logo — HTML text using loaded Fontshare fonts -->
     <a href="/" class="logo" aria-label="Ériu Sourcing — Home">
-      <svg
-        width="148"
-        height="36"
-        viewBox="0 0 148 36"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        aria-hidden="true"
-      >
-        <!-- ÉRIU wordmark -->
-        <text
-          x="0"
-          y="28"
-          font-family="Georgia, 'Times New Roman', serif"
-          font-size="28"
-          font-weight="700"
-          letter-spacing="-0.5"
-          fill="#1A533E"
-        >ÉRIU</text>
-        <!-- Sourcing wordmark -->
-        <text
-          x="76"
-          y="28"
-          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-          font-size="20"
-          font-weight="500"
-          letter-spacing="0.3"
-          fill="#0F2131"
-        >Sourcing</text>
-      </svg>
+      <span class="logo-eriu">ÉRIU</span><span class="logo-sourcing">Sourcing</span>
     </a>
 
     <!-- Desktop nav -->
@@ -155,11 +127,27 @@ const pathname = Astro.url.pathname;
     text-decoration: none;
     flex-shrink: 0;
     display: flex;
-    align-items: center;
+    align-items: baseline;
+    gap: 0.35rem;
+    line-height: 1;
   }
 
-  .logo svg {
-    display: block;
+  .logo-eriu {
+    font-family: 'Boska', Georgia, 'Times New Roman', serif;
+    font-size: 1.625rem;
+    font-weight: 700;
+    color: #1A533E;
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+
+  .logo-sourcing {
+    font-family: 'Satoshi', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #0F2131;
+    letter-spacing: 0.02em;
+    line-height: 1;
   }
 
   /* Desktop nav */
