@@ -1,0 +1,305 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { blogPosts, blogCategories } from '../../data/blogPosts.js';
+
+const title = "China Sourcing Guides for Irish Businesses | Ériu Sourcing Blog";
+const description = "Practical guides on sourcing from China to Ireland. CE compliance, landed cost, factory-direct vs Alibaba, Canton Fair, Foshan furniture — written by someone with 18 years on the ground.";
+
+const siteUrl = 'https://eriusourcing.com';
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${siteUrl}/blog` }
+    ]
+  }
+];
+
+// Show all posts (including drafts in dev, only published in prod)
+const isDev = import.meta.env.DEV;
+const visiblePosts = isDev ? blogPosts : blogPosts.filter(p => !p.draft);
+
+// Sort by publishDate descending
+const sortedPosts = [...visiblePosts].sort((a, b) =>
+  new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime()
+);
+
+const featuredPost = sortedPosts[0];
+const remainingPosts = sortedPosts.slice(1);
+---
+
+<BaseLayout title={title} description={description} canonical="/blog" jsonLd={pageSchemas}>
+
+  <!-- HERO -->
+  <section class="blog-hero section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Content Hub</span>
+      <h1>China sourcing — straight from the factory floor.</h1>
+      <p class="lead">Practical guides for Irish businesses importing direct from China. No fluff, no Alibaba cheerleading. Written by someone who has been on the ground in Shenzhen and Zhengzhou for 18 years.</p>
+    </div>
+  </section>
+
+  <!-- FEATURED POST -->
+  {featuredPost && (
+    <section class="section section--alt featured-section">
+      <div class="container">
+        <span class="section-eyebrow">Latest</span>
+        <a href={`/blog/${featuredPost.slug}`} class="featured-card">
+          <div class="featured-img">
+            <img
+              src={featuredPost.image}
+              alt={featuredPost.imageAlt}
+              width="800"
+              height="450"
+              loading="lazy"
+            />
+            {featuredPost.draft && <span class="draft-badge">Draft</span>}
+          </div>
+          <div class="featured-content">
+            <span class="card-eyebrow">{blogCategories[featuredPost.category] || featuredPost.category}</span>
+            <h2>{featuredPost.h1}</h2>
+            <p>{featuredPost.excerpt}</p>
+            <div class="card-meta-row">
+              <span class="meta-pill">{featuredPost.estimatedWordCount.toLocaleString()} words</span>
+              <span class="meta-pill">{new Date(featuredPost.publishDate).toLocaleDateString('en-IE', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+            </div>
+            <span class="read-link">Read the guide →</span>
+          </div>
+        </a>
+      </div>
+    </section>
+  )}
+
+  <!-- ALL POSTS GRID -->
+  {remainingPosts.length > 0 && (
+    <section class="section">
+      <div class="container">
+        <div class="posts-grid">
+          {remainingPosts.map(post => (
+            <a href={`/blog/${post.slug}`} class="post-card">
+              <div class="post-img">
+                <img
+                  src={post.image}
+                  alt={post.imageAlt}
+                  width="600"
+                  height="340"
+                  loading="lazy"
+                />
+                {post.draft && <span class="draft-badge">Draft</span>}
+              </div>
+              <div class="post-content">
+                <span class="card-eyebrow">{blogCategories[post.category] || post.category}</span>
+                <h3>{post.h1}</h3>
+                <p class="post-excerpt">{post.excerpt.slice(0, 130).trim()}…</p>
+                <div class="card-meta-row">
+                  <span class="meta-pill">{post.estimatedWordCount.toLocaleString()} words</span>
+                  <span class="meta-pill">{new Date(post.publishDate).toLocaleDateString('en-IE', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- CTA -->
+  <section class="section section--emerald">
+    <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">Ready to source?</span>
+      <h2>Reading about it is a start. Doing it is better.</h2>
+      <p>Send us a brief — product, quantity, timeline. We come back with factory-level pricing and a clear plan.</p>
+      <a href="/contact" class="btn btn--white-outline" style="margin-top:1rem">Get a sourcing quote →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  /* HERO */
+  .blog-hero {
+    border-bottom: 1px solid rgba(15,33,49,0.08);
+  }
+
+  .blog-hero h1 {
+    margin-top: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .lead {
+    font-size: 1.2rem;
+    color: #3a3a3a;
+    max-width: 60ch;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  /* FEATURED */
+  .featured-section {
+    padding-top: 3rem;
+  }
+
+  .featured-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.5rem;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    margin-top: 1.5rem;
+  }
+
+  .featured-img {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .featured-img img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .featured-card:hover .featured-img img {
+    transform: scale(1.02);
+  }
+
+  .featured-content h2 {
+    margin: 0.5rem 0 1rem;
+    line-height: 1.25;
+  }
+
+  .featured-content p {
+    font-size: 1rem;
+    color: #3a3a3a;
+    line-height: 1.7;
+    margin: 0 0 1.25rem;
+  }
+
+  .read-link {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--color-emerald);
+    display: inline-block;
+    margin-top: 0.5rem;
+  }
+
+  /* DRAFT BADGE */
+  .draft-badge {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    background: rgba(28, 124, 131, 0.9);
+    color: white;
+    font-size: 0.6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.25rem 0.625rem;
+    border-radius: 4px;
+  }
+
+  /* META PILLS */
+  .card-meta-row {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin: 0.75rem 0 0;
+  }
+
+  .meta-pill {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #6b6b6b;
+    background: rgba(15,33,49,0.06);
+    padding: 0.2rem 0.625rem;
+    border-radius: 99px;
+  }
+
+  /* GRID */
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .post-card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    background: #fff;
+    border: 1px solid rgba(15,33,49,0.09);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+  }
+
+  .post-card:hover {
+    border-color: var(--color-emerald);
+    box-shadow: 0 4px 20px rgba(26,83,62,0.08);
+    transform: translateY(-2px);
+  }
+
+  .post-img {
+    position: relative;
+    overflow: hidden;
+    height: 210px;
+  }
+
+  .post-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .post-card:hover .post-img img {
+    transform: scale(1.03);
+  }
+
+  .post-content {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex: 1;
+  }
+
+  .post-content h3 {
+    font-size: 1rem;
+    line-height: 1.35;
+    margin: 0.25rem 0 0;
+  }
+
+  .post-excerpt {
+    font-size: 0.875rem;
+    color: #5a5a5a;
+    line-height: 1.6;
+    margin: 0;
+    flex: 1;
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 960px) {
+    .posts-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 700px) {
+    .featured-card {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .featured-img img { height: 240px; }
+  }
+
+  @media (max-width: 560px) {
+    .posts-grid { grid-template-columns: 1fr; }
+  }
+</style>
