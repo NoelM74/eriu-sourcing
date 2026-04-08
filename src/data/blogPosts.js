@@ -199,7 +199,117 @@ export const blogPosts = [
     targetReader: 'Irish business owners already using or considering Alibaba who want to understand whether direct sourcing is achievable',
     estimatedWordCount: 2400,
     publishDate: '2026-04-22',
-    draft: true,
+    draft: false,
+    body: `<p>Most Irish importers think they're buying from Chinese factories. They're not. They're buying from trading companies — intermediaries who source from those factories, mark the goods up 20 to 40 percent, and present themselves as manufacturers. Alibaba makes this easy to do and almost impossible to detect from Dublin.</p>
+
+<p>This is not a minor inefficiency. On a €60,000 annual import programme, that markup layer costs you €12,000 to €24,000 a year in invisible margin paid to a company that adds no value to the product. Over five years, it's the price of a new factory relationship, a sourcing agent, and a quality control programme — combined.</p>
+
+<p>Here is what Alibaba actually is, how the deception works, and how to source without paying for it.</p>
+
+<h2>What Alibaba actually is</h2>
+
+<p>Alibaba is an advertising platform. Suppliers pay to appear. The "Gold Supplier" badge means a supplier has paid for a premium listing tier — it does not mean they manufacture anything. "Verified Manufacturer" means Alibaba or a third party visited a premises at some point. It does not mean the premises you visited is the one making your order.</p>
+
+<p>Alibaba's own data has historically shown fewer than 20% of its B2B suppliers are genuine manufacturers. The rest are trading companies, wholesalers, sourcing agents, and resellers of various sizes. Many list under names like "XXX Manufacturing Co., Ltd" — because that is a legal company name format in China, not a description of what the company actually does.</p>
+
+<p>The platform exists to connect buyers with sellers. It has no commercial incentive to distinguish factories from traders. Both pay listing fees. Both generate transaction volume. Both satisfy the platform's metrics.</p>
+
+<p>Understanding this does not mean Alibaba is useless. It means using it without verification is expensive.</p>
+
+<h2>How trading companies pose as factories</h2>
+
+<p>A trading company that wants to appear as a factory on Alibaba has several tools available.</p>
+
+<p>The most common is borrowing factory photos. They either visit a factory they source from and photograph the production floor, or they use generic stock images of Chinese manufacturing environments. Reverse image search catches some of this — most buyers never run it.</p>
+
+<p>The second is the company name. "Shenzhen Xinlong Manufacturing Co., Ltd" is a legal entity name, not a verified description. China's company registration system allows manufacturing-adjacent names for trading companies. Checking the actual business registration on <a href="https://www.gsxt.gov.cn" target="_blank" rel="noopener">gsxt.gov.cn</a> — China's national enterprise credit system — shows the registered business scope. A trading company scope reads 批发销售 (wholesale trade) or 进出口贸易 (import/export trade). A manufacturer reads 生产制造 (production and manufacturing).</p>
+
+<p>The third tell is product breadth. A real factory makes one thing well. A furniture factory makes furniture. A trading company on Alibaba often lists cables, furniture, cosmetics, sports equipment, and consumer electronics — because they source from multiple factories and act as a single export point. If a supplier's catalogue spans five unrelated product categories, you are talking to a trader.</p>
+
+<p>Low MOQ (minimum order quantity) is another indicator, though not definitive. Real factories run production in batches. They need volume to justify a production run setup. Trading companies can offer lower MOQs because they hold stock or aggregate orders across multiple buyers. If a "factory" offers you 50 units of a custom product with a 2-week lead time, the supply chain behind that claim is worth questioning.</p>
+
+<figure class="article-figure">
+  <img src="/images/article-alibaba-trading-company.webp" alt="Chinese trading company office-showroom in Shenzhen — product samples across unrelated categories, sales staff, no production equipment" width="1200" height="630" loading="lazy" />
+  <figcaption>A trading company showroom: product samples across unrelated categories, sales staff, supplier certificates on the wall. No production floor, no workers, no machinery.</figcaption>
+</figure>
+
+<h2>The real cost of the markup layer</h2>
+
+<p>Trading companies typically operate on 20 to 40 percent margin above factory gate price. The range depends on product type, order size, and how competitive the category is. Commodity items — generic fasteners, standard packaging, basic electronics accessories — tend toward the lower end. Customised or branded products, where the trading company needs to manage specifications across multiple factories, tend toward the higher end.</p>
+
+<p>Walk through a real example. An Irish homeware retailer imports decorative ceramic giftware. They spend €80,000 per year with an Alibaba supplier they have used for three years. The supplier is a Guangdong trading company sourcing from three factories in Chaozhou — the ceramics capital of southern China.</p>
+
+<p>Factory gate price for their annual volume: approximately €52,000. The trading company takes €28,000 in margin. Over three years: €84,000 paid to a company that organised emails, managed the orders, and coordinated shipment. The actual manufacturing skill, tooling investment, and quality control expertise sat inside the factories they never knew existed.</p>
+
+<p>The margin cost compounds when you factor in what the trading company cannot do for you. They will not allow a third-party QC inspector into the factory during production — because revealing the factory would eliminate their value. They cannot commit to specification changes below a certain volume because they do not control the production line. They cannot guarantee consistency across orders because they may switch factories when pricing changes. You are not their only client at that factory, and you have no visibility into where you sit in the production queue.</p>
+
+<h2>How to identify a real factory</h2>
+
+<p>Start with the business registration. Go to <a href="https://www.gsxt.gov.cn" target="_blank" rel="noopener">gsxt.gov.cn</a> and enter the company name exactly as it appears on the Alibaba listing. The system returns the registered business scope, registration date, registered capital, and legal representative. Look for 生产 or 制造 (production/manufacturing) in the scope. If you see only 贸易 or 销售 (trade or sales), you have your answer.</p>
+
+<p>Ask for a photo of their 营业执照 (business licence). Every Chinese company is legally required to hold one and display it at their registered address. The licence shows the company name, registration number, legal representative, registered address, and business scope. A legitimate factory will send this without hesitation. A trading company trying to present as a factory will stall, send something cropped, or send a licence that clearly shows a trading scope.</p>
+
+<p>Request a live video call from the production floor — not the office, not the showroom. Ask them to walk you through the machinery and show you workers at the line. Real factories will do this within a day. Trading companies either decline or show you a borrowed facility they have no relationship with after the call.</p>
+
+<p>Check the specialisation. Ask what percentage of their output is the product category you are buying. A real furniture factory makes furniture. If they start mentioning kitchen equipment, sports goods, or electronics as part of their range, that is a trading company breadth, not a factory's depth.</p>
+
+<p>Look at the MOQ in context of what you are ordering. If you want a custom product at low volume and they agree without hesitation, ask how they make that work. A factory with a genuine production minimum will explain the minimum in terms of machine setup costs and batch economics. A trader will give you a commercial answer about customer service and flexibility.</p>
+
+<h2>What factory-direct actually means in practice</h2>
+
+<p>Factory-direct means you negotiate with the people who run the production line — the factory owner, the production director, or the export manager employed directly by the manufacturer. There is no intermediary between your specification and the person responsible for executing it.</p>
+
+<figure class="article-figure">
+  <img src="/images/article-factory-direct-production.webp" alt="Western buyer meeting with factory management on production floor of Chinese furniture factory, reviewing specifications with workers and machinery in background" width="1200" height="630" loading="lazy" />
+  <figcaption>Factory-direct sourcing: a buyer reviews specifications directly with factory management on the production floor, with workers and machinery visible behind them.</figcaption>
+</figure>
+
+<p>In practice, this means several things change.</p>
+
+<p>Specification control improves. You can discuss tolerances, materials, and finishes directly with the production team. Changes that a trading company would quote a 6-week lead time on — because they need to go back to their factory and renegotiate — happen in a single factory meeting.</p>
+
+<p>Quality control becomes possible. A third-party QC inspector can attend the production line during manufacturing — not just at final inspection. Pre-shipment inspection catches 80% of defect issues after the damage is done. Inline inspection during production catches the same issues before 5,000 units are finished and packed.</p>
+
+<p>Pricing improves over time. Trading companies take consistent margin and have little incentive to pass factory price reductions to you. A direct factory relationship means you benefit from economies of scale as your volume grows — and you can negotiate annual price reviews based on your cumulative spend.</p>
+
+<p>Intellectual property is protected by a direct agreement with the manufacturer, not filtered through a trading company whose interests are not aligned with yours. If you are developing a product with custom packaging, a proprietary formulation, or a patented design, a trading company NDA protects you only as far as the trading company's relationship with their suppliers — which is entirely outside your control.</p>
+
+<h2>When Alibaba makes sense</h2>
+
+<p>There are legitimate uses for Alibaba, and dismissing it entirely misses the point. It is a useful discovery tool at the right stage.</p>
+
+<p>For initial market research — understanding what products exist, what the general price range looks like, and who the major suppliers are in a category — Alibaba is efficient. You can cover a category in an afternoon that would take weeks of cold factory outreach to map.</p>
+
+<p>For sample procurement at the very start of a product development process, it is acceptable. You are not placing a production order — you are evaluating materials, dimensions, and basic quality before deciding whether to invest in a direct factory relationship. The 30% premium you pay on a sample order is noise relative to the decision you are making.</p>
+
+<p>For genuinely small, non-custom orders — under €3,000 in value, commodity products, no brand requirements — the economics of hiring a sourcing agent or building a direct factory relationship do not stack up. Alibaba's convenience premium is worth paying at that scale.</p>
+
+<p>The mistake is treating Alibaba as a long-term production partner for volume orders with quality and customisation requirements. That is the use case where the markup layer's costs — financial and operational — compound every year.</p>
+
+<h2>The verification gap: why you cannot trust what you cannot see</h2>
+
+<p>The core problem with sourcing from China remotely — whether through Alibaba or any other platform — is that verification is difficult from 9,000 kilometres away. This is not a technology problem. It is a physical presence problem.</p>
+
+<p>Third-party factory audit reports can be purchased. ISO certificates are available for €500 to €2,000 from consultancies that visit premises, run a compliance exercise, and issue a certificate. BSCI audits, SA8000 certifications, and various other social compliance reports exist in abundance for Chinese factories — and the audit industry that generates them is not uniformly rigorous. Alibaba Gold Supplier audits are conducted by Alibaba-commissioned third parties whose commercial relationship is with Alibaba, not with you.</p>
+
+<p>The only reliable verification is a physical visit to the actual production facility by someone who knows what they are looking at. This means checking that the registered address matches the factory location, that the production equipment matches the claimed capability, that the workers and management team are permanent employees rather than a staged demonstration, and that the factory is genuinely capable of producing to your specification and volume.</p>
+
+<p>For Irish importers, this is the structural disadvantage of sourcing independently from Dublin. You cannot do this visit cost-effectively. A round trip to Guangdong for a factory audit costs €1,500 to €2,000 in flights and accommodation before you factor in your time. For a one-off supplier check, the economics are challenging. For ongoing supplier qualification across multiple factories, they are prohibitive.</p>
+
+<p>This is why the verification gap is the defining operational advantage of working with someone who is already there.</p>
+
+<h2>How a sourcing agent bridges the gap</h2>
+
+<p>A sourcing agent based in China closes the verification gap for you. Their value is not the ability to find suppliers — Alibaba can do that. Their value is the ability to verify, negotiate, and manage those suppliers in person, in Mandarin, with commercial leverage you cannot build remotely.</p>
+
+<p>At Ériu Sourcing, our team operates from Zhengzhou in Henan and Shenzhen in Guangdong — two of China's primary sourcing hubs. We run the same gsxt.gov.cn registration check as part of every supplier qualification. We visit the factory before you commit to a production order. We run the video call from the production floor, not from a sales office. We negotiate directly with factory management in Mandarin, which removes the export sales rep layer and gives you access to the factory's actual pricing authority.</p>
+
+<p>We install a QC inspector during production for orders above threshold — not just at pre-shipment. For high-value or safety-critical orders, we run inline checks at 30%, 60%, and 90% of production completion. Problems found at 30% cost a fraction of what they cost at final inspection.</p>
+
+<p>The cost of a professional sourcing engagement is typically a fraction of one year's trading company markup on a €50,000-plus import programme. Irish businesses importing €60,000 per year through a trading company are paying €12,000 to €24,000 in invisible margin. A sourcing service at €3,000 to €6,000 that removes that layer pays back in year one and compounds from year two onwards.</p>
+
+<p>If you are importing from China at volume — or planning to — the question is not whether factory-direct is achievable. It is whether you have someone on the ground to make it work. <a href="/contact">Send us a brief</a>. We will tell you exactly what factory access looks like for your specific product and volume.</p>
+`,
     excerpt: 'Most suppliers on Alibaba are trading companies, not factories. They add 20–40% margin while presenting themselves as manufacturers. Here is how to tell the difference — and what it costs you if you get it wrong.',
     image: '/images/shenzhen-electronics-market.webp',
     imageAlt: 'Shenzhen electronics market — factory-direct access vs Alibaba trading companies',
