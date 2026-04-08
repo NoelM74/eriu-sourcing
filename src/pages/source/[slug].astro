@@ -67,7 +67,7 @@ const pageSchemas = [
       <div class="trust-grid">
         <div class="trust-item">
           <span class="trust-num">{page.savings}</span>
-          <span class="trust-label">Typical savings {page.savingsNote}</span>
+          <span class="trust-label">Typical saving vs Irish wholesale</span>
         </div>
         <div class="trust-divider"></div>
         <div class="trust-item">
@@ -81,8 +81,8 @@ const pageSchemas = [
         </div>
         <div class="trust-divider"></div>
         <div class="trust-item">
-          <span class="trust-num">{page.minOrder}</span>
-          <span class="trust-label">Minimum order range</span>
+          <span class="trust-num">{page.minOrderShort}</span>
+          <span class="trust-label">Min. order range</span>
         </div>
       </div>
     </div>
@@ -208,7 +208,7 @@ const pageSchemas = [
   /* ── HERO ── */
   .source-hero {
     background-color: var(--color-bg-alt);
-    padding: var(--space-3xl) 0 var(--space-2xl);
+    padding: 5rem 0 4rem;
     border-bottom: 1px solid rgba(15,33,49,0.08);
   }
 
@@ -452,6 +452,7 @@ const pageSchemas = [
   }
 
   @media (max-width: 600px) {
+    .source-hero { padding: 3rem 0 2.5rem; }
     .process-steps { grid-template-columns: 1fr; }
     .hero-ctas { flex-direction: column; }
     .trust-grid { gap: 1rem; }
