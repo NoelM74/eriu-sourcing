@@ -16,9 +16,12 @@ const pathname = Astro.url.pathname;
 <header class="site-header">
   <div class="header-inner container">
 
-    <!-- Logo — HTML text using loaded Fontshare fonts -->
+    <!-- Logo — icon mark + wordmark -->
     <a href="/" class="logo" aria-label="Ériu Sourcing — Home">
-      <span class="logo-eriu">ÉRIU</span><span class="logo-sourcing">Sourcing</span>
+      <img src="/images/eriu-mark.svg" width="36" height="36" alt="" aria-hidden="true" class="logo-mark" />
+      <span class="logo-wordmark">
+        <span class="logo-eriu">ÉRIU</span><span class="logo-sourcing">Sourcing</span>
+      </span>
     </a>
 
     <!-- Desktop nav -->
@@ -128,11 +131,25 @@ const pathname = Astro.url.pathname;
     text-decoration: none;
     flex-shrink: 0;
     display: flex;
-    align-items: baseline;
-    gap: 0.3rem;
+    align-items: center;
+    gap: 0.625rem;
     line-height: 1;
     white-space: nowrap;
     overflow: visible;
+  }
+
+  .logo-mark {
+    display: block;
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+  }
+
+  .logo-wordmark {
+    display: flex;
+    align-items: baseline;
+    gap: 0.3rem;
+    line-height: 1;
   }
 
   .logo-eriu {

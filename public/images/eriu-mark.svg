@@ -1,0 +1,15 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <!-- Emerald rounded square background -->
+  <rect width="40" height="40" rx="8" fill="#1A533E"/>
+  <!-- É lettermark — geometric construction -->
+  <!-- Vertical stem -->
+  <rect x="10" y="10" width="3.5" height="20" rx="1.75" fill="white"/>
+  <!-- Top bar -->
+  <rect x="10" y="10" width="16" height="3.5" rx="1.75" fill="white"/>
+  <!-- Middle bar (slightly shorter for É feel) -->
+  <rect x="10" y="18.25" width="13" height="3.5" rx="1.75" fill="white"/>
+  <!-- Bottom bar -->
+  <rect x="10" y="26.5" width="16" height="3.5" rx="1.75" fill="white"/>
+  <!-- Teal accent dot — the accent grave of É -->
+  <circle cx="30" cy="9" r="3" fill="#1C7C83"/>
+</svg>
