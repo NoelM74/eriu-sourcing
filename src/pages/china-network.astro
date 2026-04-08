@@ -4,6 +4,37 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const title = "China Factory Network — Zhengzhou & Shenzhen | Ériu Sourcing";
 const description = "Dual base in Zhengzhou and Shenzhen. Same-day HSR access to Beijing, Shanghai, Xi'an, Wuhan. 18 years of factory-direct relationships across every major sourcing category.";
 
+const siteUrl = 'https://eriusourcing.com';
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "China Network", "item": `${siteUrl}/china-network` }
+    ]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Where is Ériu Sourcing located in China?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Ériu Sourcing operates from two permanent bases in China: Zhengzhou in Henan Province (central China) and Shenzhen in Guangdong Province (southern China). Zhengzhou provides high-speed rail access to Beijing, Shanghai, Xi'an, Wuhan, and the major industrial cities of central and eastern China. Shenzhen provides direct access to Foshan (furniture), Guangzhou (fashion, bags), Dongguan (electronics), and Zhongshan (lighting)." }
+      },
+      {
+        "@type": "Question",
+        "name": "What manufacturing regions in China does Ériu Sourcing cover?",
+        "acceptedAnswer": { "@type": "Answer", "text": "From two bases, Ériu Sourcing covers all major Chinese manufacturing regions: Guangdong Province (electronics, furniture, fashion, bags, pet accessories, lighting), Henan Province (aluminium extrusions, construction materials, apparel basics), Zhejiang Province (small goods, hardware), Shanghai and Jiangsu (precision manufacturing), and Beijing (high-tech components). Same-day HSR travel from Zhengzhou reaches most major manufacturing cities within 2.5 hours." }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does Ériu Sourcing have bases in both Zhengzhou and Shenzhen?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No other Ireland-facing sourcing service has this dual-province setup. Shenzhen covers Guangdong — China's dominant consumer goods province, home to the world's largest electronics market (Huaqiangbei), the world's largest furniture cluster (Foshan), and major fashion and accessories manufacturing. Zhengzhou covers central China — with access to lower-cost Henan production and fast HSR connections to every major industrial city. Together they cover the full range of categories Irish businesses import." }
+      }
+    ]
+  }
+];
+
 const hsrCities = [
   { city: 'Xi\'an', time: '~2 hrs', spec: 'Aerospace, machinery, industrial equipment' },
   { city: 'Wuhan', time: '~1.5 hrs', spec: 'Optics, electronics, automotive, steel' },
@@ -27,7 +58,7 @@ const shenzhenClusters = [
 ];
 ---
 
-<BaseLayout title={title} description={description} canonical="/china-network">
+<BaseLayout title={title} description={description} canonical="/china-network" jsonLd={pageSchemas}>
 
   <section class="page-hero section--lg">
     <div class="container--narrow">

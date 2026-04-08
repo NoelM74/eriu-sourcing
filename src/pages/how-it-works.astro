@@ -4,6 +4,69 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const title = "How Factory-Direct China Sourcing Works | Ériu Sourcing Ireland";
 const description = "Four steps from brief to delivery: factory identification, price negotiation, pre-shipment QC, and freight to Ireland — all handled from China.";
 
+const siteUrl = 'https://eriusourcing.com';
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "How It Works", "item": `${siteUrl}/how-it-works` }
+    ]
+  },
+  {
+    "@type": "HowTo",
+    "name": "How to source products directly from Chinese factories to Ireland",
+    "description": "Four steps from your product brief to goods landed in Ireland — factory identification, price negotiation, pre-shipment QC, and freight coordination.",
+    "totalTime": "PT8W",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "Send a brief",
+        "text": "Provide your product name, target quantity, quality grade, and reference products. A photo or product link is helpful. The more specific the brief, the more accurate the factory pricing and lead times."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "Factory identification and vetting",
+        "text": "Ériu Sourcing identifies and physically visits shortlisted factories in China. Factories are verified as actual manufacturers — not trading companies. Factory-gate pricing is negotiated directly. A supplier shortlist with pricing, MOQs, and lead times is provided."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "name": "Pre-shipment QC and CE compliance check",
+        "text": "Before the shipping container is sealed, finished goods are physically inspected at the factory. The inspection checks product specifications against the approved sample, quantities, packaging, and product function. CE compliance documentation is verified. Goods that fail inspection stay in China at the factory's cost."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 4,
+        "name": "Freight coordination and delivery to Ireland",
+        "text": "Sea freight from China to Ireland typically takes 4–5 weeks. Air freight is available for urgent orders. All documentation — Bill of Lading, commercial invoice, packing list, CE declarations — is provided for customs clearance at Dublin Port."
+      }
+    ]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How long does sourcing from China to Ireland take?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The full process — from initial brief to goods landed in Ireland — typically takes 8–14 weeks. Factory identification and pricing takes 1–2 weeks. Sampling and approval takes 1–3 weeks depending on complexity. Production takes 3–6 weeks. Sea freight from China to Ireland takes 4–5 weeks. Air freight is available for urgent orders, reducing transit to 5–7 days." }
+      },
+      {
+        "@type": "Question",
+        "name": "What information do I need to provide to get a sourcing quote?",
+        "acceptedAnswer": { "@type": "Answer", "text": "To start the process you need: the product name and category, target quantity or annual volume, any existing product references or specifications, quality grade required, target landed price, and your destination in Ireland. A photo or product link is helpful but not essential. The more specific the brief, the more accurate the factory pricing and lead times provided." }
+      },
+      {
+        "@type": "Question",
+        "name": "How does pre-shipment quality control work?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Pre-shipment QC is a physical inspection of finished goods at the factory before the shipping container is sealed. The inspection checks product specifications against your approved sample, verifies quantities, reviews packaging, and tests product function where applicable. If goods fail inspection, they stay in China at the factory's cost — you do not pay freight on rejected goods. This eliminates the risk of discovering quality problems at Dublin Port." }
+      }
+    ]
+  }
+];
+
 const steps = [
   {
     num: '01',
@@ -65,7 +128,7 @@ const tiers = [
 ];
 ---
 
-<BaseLayout title={title} description={description} canonical="/how-it-works">
+<BaseLayout title={title} description={description} canonical="/how-it-works" jsonLd={pageSchemas}>
 
   <!-- PAGE HERO -->
   <section class="page-hero section--lg">

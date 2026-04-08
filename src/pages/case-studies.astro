@@ -4,6 +4,32 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const title = "China Sourcing Results for Irish Businesses | Ériu Sourcing";
 const description = "Real results: fashion brand to 8-figure revenue, hotel fit-out at 45% saving, electronics retailer saved 52% on landed cost. Factory-direct from China.";
 
+const siteUrl = 'https://eriusourcing.com';
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Case Studies", "item": `${siteUrl}/case-studies` }
+    ]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What results do Irish businesses achieve with factory-direct China sourcing?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Results vary by category and volume, but documented outcomes from Ériu Sourcing clients include: a fashion brand scaled from €2M to 8-figure annual revenue through factory-direct sourcing, a hotel chain fit-out completed at 45% below Irish wholesale cost, an electronics retailer that cut landed product cost by 52%, and a construction contractor who sourced CE-compliant structural materials at 38% below the UK-quoted price." }
+      },
+      {
+        "@type": "Question",
+        "name": "How much can a hotel save by sourcing fit-out directly from China?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Hotel and hospitality fit-outs sourced factory-direct from Chinese manufacturers in Foshan (furniture), Zhongshan (lighting), and Foshan (ceramics) typically save 40–55% compared to Irish or European trade supply. A full hotel bedroom furniture package sourced direct from Foshan typically arrives landed in Ireland at 40–45% of the cost quoted by Irish furniture wholesalers for comparable specification." }
+      }
+    ]
+  }
+];
+
 const caseStudies = [
   {
     id: 'fashion-brand',
@@ -60,7 +86,7 @@ const caseStudies = [
 ];
 ---
 
-<BaseLayout title={title} description={description} canonical="/case-studies">
+<BaseLayout title={title} description={description} canonical="/case-studies" jsonLd={pageSchemas}>
 
   <section class="page-hero section--lg">
     <div class="container--narrow">

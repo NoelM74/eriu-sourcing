@@ -5,9 +5,41 @@ const title = "Get a Quote — Factory-Direct Sourcing from China | Ériu Sourci
 const description = "Send your sourcing brief. Product, quantity, timeline. I'll come back with factory-level pricing, a supplier shortlist, and a clear plan. No obligation.";
 
 const FORMSPREE_ID = "xzdkoabw";
+
+const siteUrl = 'https://eriusourcing.com';
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Get a Quote", "item": `${siteUrl}/contact` }
+    ]
+  },
+  {
+    "@type": "ContactPage",
+    "name": "Get a Sourcing Quote — Ériu Sourcing",
+    "description": "Send your sourcing brief. Product, quantity, timeline. Factory-level pricing and supplier shortlist provided. No obligation.",
+    "url": `${siteUrl}/contact`
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How do I get a China sourcing quote for my business?",
+        "acceptedAnswer": { "@type": "Answer", "text": "To get a sourcing quote, submit the contact form with your product name, target quantity, quality grade, and any reference products. Include a target landed price if you have one. Ériu Sourcing will respond with factory-level pricing, a supplier shortlist, and a sourcing plan. There is no obligation and no fee to receive a quote." }
+      },
+      {
+        "@type": "Question",
+        "name": "How quickly will I receive a response to my sourcing enquiry?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Sourcing enquiries are typically responded to within 24–48 hours. For standard product categories with existing factory relationships, an initial pricing indication can be provided quickly. For complex or custom products, a factory identification process is outlined in the response." }
+      }
+    ]
+  }
+];
 ---
 
-<BaseLayout title={title} description={description} canonical="/contact">
+<BaseLayout title={title} description={description} canonical="/contact" jsonLd={pageSchemas}>
 
   <section class="contact-hero section--lg">
     <div class="container--narrow">

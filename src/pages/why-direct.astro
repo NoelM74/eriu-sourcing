@@ -3,9 +3,45 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 const title = "Why Buy Factory-Direct from China? | Ériu Sourcing Ireland";
 const description = "The real cost of buying through Irish wholesalers and Alibaba trading companies. Factory-direct saves 35–60% and eliminates CE compliance risk.";
+
+const siteUrl = 'https://eriusourcing.com';
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Why Buy Direct?", "item": `${siteUrl}/why-direct` }
+    ]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why not just buy from Alibaba instead of using a sourcing agent?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Most suppliers on Alibaba are trading companies, not factories. They present themselves as manufacturers but buy from factories and add 20–40% margin. There is no way to verify this from Ireland. A sourcing agent with physical presence in China can visit facilities, verify they are actual factories, negotiate factory-gate prices, and conduct pre-shipment QC — none of which is possible through Alibaba alone." }
+      },
+      {
+        "@type": "Question",
+        "name": "How do Alibaba trading companies affect the price Irish businesses pay?",
+        "acceptedAnswer": { "@type": "Answer", "text": "A typical Alibaba order passes through two or three markup layers: the actual factory sets a price, a Chinese trading company adds 20–40%, an Alibaba reseller or agent may add another 10–20%, and then customs and shipping are added on top. Factory-direct sourcing eliminates the trading company and reseller layers entirely — which is where the 35–60% saving comes from." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is it risky to import directly from Chinese factories?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The risk in China sourcing comes from not knowing who you are buying from — not from buying direct in principle. With on-the-ground factory vetting, pre-shipment QC inspection, and CE compliance verification, the risks are substantially lower than ordering through an unknown Alibaba supplier. The risk is in the unknown — not in direct factory purchasing itself." }
+      },
+      {
+        "@type": "Question",
+        "name": "What markups do Irish wholesalers add to Chinese goods?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Irish wholesalers typically mark up Chinese goods 40–80% over their landed cost. When you buy from an Irish wholesaler, you are paying their purchase price from a European importer (who has also marked up), plus warehousing, distribution, and profit margin. The same goods purchased factory-direct from China and shipped to Ireland typically cost 35–60% less than the Irish wholesale price." }
+      }
+    ]
+  }
+];
 ---
 
-<BaseLayout title={title} description={description} canonical="/why-direct">
+<BaseLayout title={title} description={description} canonical="/why-direct" jsonLd={pageSchemas}>
 
   <section class="page-hero section--lg">
     <div class="container--narrow">

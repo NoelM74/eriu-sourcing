@@ -3,9 +3,51 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 const title = "China Sourcing Agent Ireland | Factory-Direct | Ériu Sourcing";
 const description = "Buy direct from Chinese factories. No Alibaba middlemen. Pre-shipment QC inspection. CE compliance verified. Save 35–60% vs Irish wholesale.";
+
+const siteUrl = 'https://eriusourcing.com';
+const pageSchemas = [
+  {
+    "@type": "WebSite",
+    "@id": `${siteUrl}/#website`,
+    "url": siteUrl,
+    "name": "Ériu Sourcing",
+    "description": "Factory-direct China sourcing agent for Irish and UK businesses.",
+    "inLanguage": "en-IE"
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is a China sourcing agent?",
+        "acceptedAnswer": { "@type": "Answer", "text": "A China sourcing agent acts as your on-the-ground representative in China. They identify factories, vet suppliers, negotiate prices, conduct pre-shipment quality control inspections, and coordinate freight to your destination. Ériu Sourcing operates from Zhengzhou and Shenzhen with 18 years of established factory relationships across all major manufacturing categories." }
+      },
+      {
+        "@type": "Question",
+        "name": "How much can I save buying direct from Chinese factories?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Irish businesses typically save 35–60% compared to buying through Irish wholesalers or Alibaba trading companies. These savings come from eliminating two or three layers of margin: the Chinese trading company markup (15–40%), the European importer markup, and the Irish distributor margin. The exact saving depends on product category, volume, and your current wholesale pricing." }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between Ériu Sourcing and buying on Alibaba?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Most suppliers on Alibaba are trading companies, not factories — they add 20–40% margin while presenting themselves as manufacturers. There is no physical verification, no pre-shipment inspection, and no CE compliance check possible through Alibaba alone. Ériu Sourcing provides direct factory access with physical on-site visits, factory-gate price negotiation, and independent pre-shipment QC before a container is sealed." }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you handle CE marking and EU compliance for Chinese imports?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. CE compliance is verified at source — at the factory in China — before any goods leave the country. We check certification documentation, test reports, and product specifications against EU and Irish standards. For construction materials, electronics, and apparel, full compliance documentation is provided with every order." }
+      },
+      {
+        "@type": "Question",
+        "name": "What minimum order is required to use Ériu Sourcing?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Ériu Sourcing works with businesses across all sizes. Minimum order quantities are set by individual factories and vary by product category — typically ranging from €3,000 to €10,000 per order depending on the product. Factory-specific MOQs are advised as part of the initial brief stage, before any commitment is made." }
+      }
+    ]
+  }
+];
 ---
 
-<BaseLayout title={title} description={description} canonical="/">
+<BaseLayout title={title} description={description} canonical="/" jsonLd={pageSchemas}>
 
   <!-- ================================================
        HERO — full-bleed image, text overlay

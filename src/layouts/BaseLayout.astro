@@ -13,7 +13,7 @@ interface Props {
   ogImage?: string;
   ogType?: string;
   pageType?: 'home' | 'page' | 'category';
-  jsonLd?: object;
+  jsonLd?: object | object[];  // page-specific schemas to add to @graph
 }
 
 const {
@@ -28,10 +28,10 @@ const {
 const siteUrl = 'https://eriusourcing.com';
 const canonicalUrl = canonical ? `${siteUrl}${canonical}` : `${siteUrl}${Astro.url.pathname}`;
 
-// Default JSON-LD — ProfessionalService schema
-const defaultJsonLd = {
-  "@context": "https://schema.org",
+// Base org schema — always present on every page
+const orgSchema = {
   "@type": "ProfessionalService",
+  "@id": `${siteUrl}/#organization`,
   "name": "Ériu Sourcing",
   "description": "Factory-direct sourcing from China to Ireland. Supplier identification, QC inspection, CE compliance, logistics management. 18 years China experience.",
   "url": siteUrl,
@@ -40,24 +40,16 @@ const defaultJsonLd = {
     { "@type": "Country", "name": "Ireland" },
     { "@type": "Country", "name": "United Kingdom" }
   ],
-  "address": {
-    "@type": "PostalAddress",
-    "addressCountry": "IE"
-  },
+  "address": { "@type": "PostalAddress", "addressCountry": "IE" },
   "founder": {
     "@type": "Person",
     "name": "Noel",
     "description": "18 years based in China. Co-founded a logistics company with €30M+ annual revenue. Factory-direct sourcing specialist for Irish businesses."
   },
   "knowsAbout": [
-    "China Sourcing",
-    "Factory Direct Purchasing",
-    "Pre-shipment Quality Control",
-    "CE Marking Compliance",
-    "Import Logistics",
-    "Supplier Vetting",
-    "Alibaba Alternative",
-    "Irish Import Agent"
+    "China Sourcing", "Factory Direct Purchasing", "Pre-shipment Quality Control",
+    "CE Marking Compliance", "Import Logistics", "Supplier Vetting",
+    "Alibaba Alternative", "Irish Import Agent"
   ],
   "contactPoint": {
     "@type": "ContactPoint",
@@ -66,12 +58,18 @@ const defaultJsonLd = {
     "areaServed": ["IE", "GB"],
     "availableLanguage": "English"
   },
-  "sameAs": [
-    "https://china-fulfillment.com"
-  ]
+  "sameAs": ["https://china-fulfillment.com"]
 };
 
-const structuredData = jsonLd || defaultJsonLd;
+// Merge org schema + page-specific schemas into a single @graph
+const pageSchemas = jsonLd
+  ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd])
+  : [];
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [orgSchema, ...pageSchemas]
+};
 ---
 
 <!doctype html>
