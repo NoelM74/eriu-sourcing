@@ -1,0 +1,457 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { sourcingPages } from '../../data/sourcingPages.js';
+
+export async function getStaticPaths() {
+  return sourcingPages.map(page => ({
+    params: { slug: page.slug },
+    props: { page },
+  }));
+}
+
+const { page } = Astro.props;
+const siteUrl = 'https://eriusourcing.com';
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "What We Source", "item": `${siteUrl}/source` },
+      { "@type": "ListItem", "position": 3, "name": page.eyebrow, "item": `${siteUrl}/source/${page.slug}` }
+    ]
+  },
+  {
+    "@type": "Service",
+    "name": `${page.eyebrow} — China Direct Sourcing for Ireland`,
+    "description": page.description,
+    "provider": { "@type": "ProfessionalService", "@id": `${siteUrl}/#organization` },
+    "areaServed": [{ "@type": "Country", "name": "Ireland" }],
+    "serviceType": "China Sourcing Agent"
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": page.faq.map(item => ({
+      "@type": "Question",
+      "name": item.q,
+      "acceptedAnswer": { "@type": "Answer", "text": item.a }
+    }))
+  }
+];
+---
+
+<BaseLayout
+  title={page.title}
+  description={page.description}
+  canonical={`/source/${page.slug}`}
+  ogImage={page.image}
+  jsonLd={pageSchemas}
+>
+
+  <!-- HERO -->
+  <section class="source-hero">
+    <div class="container--narrow">
+      <span class="section-eyebrow">{page.eyebrow}</span>
+      <h1>{page.h1}</h1>
+      <p class="lead">{page.intro}</p>
+      <div class="hero-ctas">
+        <a href="/contact" class="btn btn--primary">Get a sourcing quote →</a>
+        <a href={`/product-categories#${page.categoryAnchor}`} class="btn btn--secondary">See full category details</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item">
+          <span class="trust-num">{page.savings}</span>
+          <span class="trust-label">Typical savings {page.savingsNote}</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">18 yrs</span>
+          <span class="trust-label">China factory experience</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">{page.leadTime}</span>
+          <span class="trust-label">Typical lead time to Ireland</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">{page.minOrder}</span>
+          <span class="trust-label">Minimum order range</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HUB DETAIL -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="hub-grid">
+        <div class="hub-content">
+          <span class="section-eyebrow">Manufacturing Hub</span>
+          <h2>Where {page.eyebrow.toLowerCase()} is made in China</h2>
+          <p class="hub-location">{page.hub}</p>
+          <p>{page.hubDetail}</p>
+          <a href="/china-network" class="inline-link">See our full China network →</a>
+        </div>
+        <div class="hub-image">
+          <img
+            src={page.image}
+            alt={page.imageAlt}
+            width="560"
+            height="380"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE SOURCE -->
+  <section class="section">
+    <div class="container">
+      <div class="products-layout">
+        <div class="products-header">
+          <span class="section-eyebrow">What we source</span>
+          <h2>{page.eyebrow} — products we source directly</h2>
+        </div>
+        <ul class="products-list">
+          {page.keyProducts.map(product => (
+            <li>
+              <span class="product-check">✓</span>
+              <span>{product}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CE COMPLIANCE -->
+  <section class="section section--emerald">
+    <div class="container--narrow">
+      <span class="section-eyebrow section-eyebrow--light">EU & Irish Compliance</span>
+      <h2>CE compliance verified at source — not at Dublin Port</h2>
+      <p>{page.ceNote}</p>
+      <p>Every order includes full compliance documentation. Goods that do not meet Irish and EU standards stay in China at the factory's cost — you do not pay freight on non-compliant products.</p>
+      <a href="/contact" class="btn btn--white-outline" style="margin-top:1rem">Ask about compliance documentation →</a>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section">
+    <div class="container">
+      <span class="section-eyebrow">How it works</span>
+      <h2>From your brief to goods landed in Ireland</h2>
+      <div class="process-steps">
+        <div class="process-step">
+          <span class="step-num">01</span>
+          <h3>Send a brief</h3>
+          <p>Product name, quantity, quality grade, and target price. A photo or reference product is helpful. No commitment required to get a quote.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">02</span>
+          <h3>Factory identification</h3>
+          <p>We identify and physically visit shortlisted {page.eyebrow.toLowerCase()} factories in {page.hub.split('•')[0].trim()}. Factory-gate pricing negotiated directly.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">03</span>
+          <h3>Pre-shipment QC</h3>
+          <p>Finished goods inspected at the factory before the container is sealed. Compliance documentation verified. Failed goods stay in China.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">04</span>
+          <h3>Freight to Ireland</h3>
+          <p>Sea freight from China to Ireland in {page.leadTime}. Full documentation for Dublin Port customs clearance provided.</p>
+        </div>
+      </div>
+      <div style="margin-top:2rem">
+        <a href="/how-it-works" class="btn btn--secondary">See the full process →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Common questions</span>
+      <h2>{page.eyebrow} — sourcing questions answered</h2>
+      <div class="faq-list">
+        {page.faq.map(item => (
+          <details class="faq-item">
+            <summary>{item.q}</summary>
+            <p>{item.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--emerald">
+    <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">Ready to start?</span>
+      <h2>Get factory-direct {page.eyebrow.toLowerCase()} pricing for your business</h2>
+      <p>Send a brief — product, quantity, timeline. We come back with factory-level pricing, a supplier shortlist, and a clear plan. No obligation.</p>
+      <a href="/contact" class="btn btn--white-outline" style="margin-top:1rem">Get a quote →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  /* ── HERO ── */
+  .source-hero {
+    background-color: var(--color-bg-alt);
+    padding: var(--space-3xl) 0 var(--space-2xl);
+    border-bottom: 1px solid rgba(15,33,49,0.08);
+  }
+
+  .source-hero h1 {
+    margin-top: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .source-hero .lead {
+    font-size: var(--text-lg);
+    color: #3a3a3a;
+    max-width: 64ch;
+    margin-bottom: 2rem;
+  }
+
+  .hero-ctas {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  /* ── TRUST BAR ── */
+  .trust-bar {
+    background: #fff;
+    border-bottom: 1px solid rgba(15,33,49,0.08);
+    padding: 2.5rem 0;
+  }
+
+  .trust-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .trust-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex: 1;
+    min-width: 160px;
+  }
+
+  .trust-num {
+    font-family: var(--font-display);
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 700;
+    color: var(--color-emerald);
+    line-height: 1;
+  }
+
+  .trust-label {
+    font-size: 0.875rem;
+    color: #5a5a5a;
+  }
+
+  .trust-divider {
+    width: 1px;
+    height: 48px;
+    background: rgba(15,33,49,0.12);
+    flex-shrink: 0;
+  }
+
+  /* ── HUB ── */
+  .hub-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  .hub-location {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-teal);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 1rem;
+  }
+
+  .hub-image img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+  .inline-link {
+    color: var(--color-emerald);
+    font-weight: 600;
+    font-size: 0.9375rem;
+    text-decoration: none;
+  }
+
+  .inline-link:hover { text-decoration: underline; }
+
+  /* ── PRODUCTS ── */
+  .products-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+  }
+
+  .products-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+  }
+
+  .products-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: var(--text-base);
+    color: var(--color-navy);
+    line-height: 1.5;
+  }
+
+  .product-check {
+    color: var(--color-emerald);
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 0.1em;
+  }
+
+  /* ── PROCESS ── */
+  .process-steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    margin-top: 2.5rem;
+  }
+
+  .process-step {
+    padding: 2rem 1.5rem 2rem 0;
+    border-top: 2px solid var(--color-emerald);
+  }
+
+  .step-num {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-teal);
+    opacity: 0.35;
+    line-height: 1;
+    margin-bottom: 0.75rem;
+  }
+
+  .process-step h3 {
+    font-size: var(--text-base);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--color-navy);
+  }
+
+  .process-step p {
+    font-size: 0.9375rem;
+    color: #4a4a4a;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  /* ── FAQ ── */
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 2rem;
+  }
+
+  .faq-item {
+    border-bottom: 1px solid rgba(15,33,49,0.1);
+    padding: 0;
+  }
+
+  .faq-item summary {
+    font-weight: 600;
+    font-size: var(--text-base);
+    color: var(--color-navy);
+    cursor: pointer;
+    padding: 1.25rem 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .faq-item summary::-webkit-details-marker { display: none; }
+
+  .faq-item summary::after {
+    content: '+';
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: var(--color-emerald);
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+  }
+
+  .faq-item[open] summary::after {
+    transform: rotate(45deg);
+  }
+
+  .faq-item p {
+    padding: 0 0 1.25rem;
+    color: #4a4a4a;
+    font-size: 0.9375rem;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 900px) {
+    .hub-grid,
+    .products-layout {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    .hub-image img { height: 260px; }
+
+    .process-steps {
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+
+    .process-step {
+      padding: 1.5rem 0 0;
+    }
+
+    .trust-divider { display: none; }
+    .trust-item { min-width: 140px; }
+  }
+
+  @media (max-width: 600px) {
+    .process-steps { grid-template-columns: 1fr; }
+    .hero-ctas { flex-direction: column; }
+    .trust-grid { gap: 1rem; }
+  }
+</style>

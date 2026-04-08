@@ -1,0 +1,408 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { sourcingPages } from '../../data/sourcingPages.js';
+
+const title = "Source Products Direct from China to Ireland | Ériu Sourcing";
+const description = "Factory-direct sourcing from China to Ireland across 8 product categories. Electronics, furniture, fashion, construction, hospitality fit-out, bags, pet supplies, and modular buildings.";
+
+const siteUrl = 'https://eriusourcing.com';
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "What We Source", "item": `${siteUrl}/source` }
+    ]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What product categories can Ériu Sourcing source from China?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Ériu Sourcing works across electronics and technology, furniture and furnishings, fashion and apparel, construction and building materials, hospitality fit-out, pet supplies, bags and luggage, and modular buildings and sandwich panels. All categories are sourced factory-direct from verified Chinese manufacturers with pre-shipment quality control and CE compliance documentation." }
+      },
+      {
+        "@type": "Question",
+        "name": "What savings can Irish businesses expect when sourcing direct from China?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Typical savings range from 35% to 55% compared to Irish wholesale prices, depending on the product category. Electronics and furniture typically show the largest savings due to high retail markups in Ireland. Construction materials and hospitality fit-out regularly come in at 38–45% below the best Irish or UK trade quotes, with full CE compliance documentation included." }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does it take to source goods from China to Ireland?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Typical lead times from brief to goods landed in Ireland are 8–12 weeks, depending on the category and whether the product is stock or custom-manufactured. Factory identification, sampling, pre-shipment inspection, and sea freight from China to Dublin Port are all included in the timeline." }
+      }
+    ]
+  }
+];
+
+// Category icon map for visual variety
+const categoryIcons = {
+  'electronics-from-china-ireland': '⚡',
+  'furniture-from-china-ireland': '🪑',
+  'fashion-apparel-from-china-ireland': '👗',
+  'construction-materials-from-china-ireland': '🏗️',
+  'hospitality-fitout-from-china-ireland': '🏨',
+  'pet-supplies-from-china-ireland': '🐾',
+  'bags-luggage-from-china-ireland': '👜',
+  'modular-buildings-from-china-ireland': '🏠',
+};
+---
+
+<BaseLayout title={title} description={description} canonical="/source" jsonLd={pageSchemas}>
+
+  <!-- HERO -->
+  <section class="page-hero section--lg">
+    <div class="container--narrow">
+      <span class="section-eyebrow">What We Source</span>
+      <h1>Factory-direct from China to Ireland — across every category.</h1>
+      <p class="lead">Eight product categories. One point of contact. Pre-shipment QC and CE compliance on every order. No Alibaba resellers, no trading company middlemen.</p>
+      <div class="hero-ctas">
+        <a href="/contact" class="btn btn--primary">Get a sourcing quote →</a>
+        <a href="/product-categories" class="btn btn--secondary">View all category details</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <section class="stats-bar">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-num">8</span>
+          <span class="stat-label">Product categories</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">18 yrs</span>
+          <span class="stat-label">China factory experience</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">35–55%</span>
+          <span class="stat-label">Typical savings vs Irish wholesale</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">CE compliance verified before shipment</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORY GRID -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="grid-header">
+        <span class="section-eyebrow">All categories</span>
+        <h2>Choose a category to see factory hubs, products, lead times, and typical pricing</h2>
+      </div>
+      <div class="category-grid">
+        {sourcingPages.map(page => (
+          <a href={`/source/${page.slug}`} class="category-card">
+            <div class="card-top">
+              <span class="card-icon" aria-hidden="true">{categoryIcons[page.slug] || '📦'}</span>
+              <span class="card-eyebrow">{page.eyebrow}</span>
+            </div>
+            <h3>{page.h1}</h3>
+            <p class="card-intro">{page.intro.slice(0, 140).trim()}…</p>
+            <div class="card-meta">
+              <span class="meta-item">
+                <span class="meta-label">Typical saving</span>
+                <span class="meta-value">{page.savings}</span>
+              </span>
+              <span class="meta-divider"></span>
+              <span class="meta-item">
+                <span class="meta-label">Lead time</span>
+                <span class="meta-value">{page.leadTime}</span>
+              </span>
+            </div>
+            <span class="card-link">See {page.eyebrow.toLowerCase()} sourcing →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY DIRECT -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Why factory-direct</span>
+      <h2>What changes when you remove the middlemen</h2>
+      <div class="reasons-grid">
+        <div class="reason">
+          <h3>Factory-gate pricing</h3>
+          <p>You buy at the price European distributors buy at — before they add 60–100% margin. No Alibaba trading company layer, no UK importer, no Irish wholesaler.</p>
+        </div>
+        <div class="reason">
+          <h3>QC before the container is sealed</h3>
+          <p>Pre-shipment inspection happens at the factory. Failed goods stay in China at the factory's cost. You only pay freight on goods that pass.</p>
+        </div>
+        <div class="reason">
+          <h3>CE compliance at source</h3>
+          <p>EU compliance is verified and documented before shipment. Full CE certificates, EU Declaration of Conformity, and test reports provided with every order.</p>
+        </div>
+        <div class="reason">
+          <h3>18 years on the ground</h3>
+          <p>Permanent offices in Shenzhen and Zhengzhou. Direct factory relationships built over nearly two decades. We know which factories to use — and which to avoid.</p>
+        </div>
+      </div>
+      <div style="margin-top: 2.5rem;">
+        <a href="/why-direct" class="btn btn--secondary">Read more: why factory-direct →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--emerald">
+    <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">Ready to start?</span>
+      <h2>Tell us what you need. We'll find the factory.</h2>
+      <p>Send a brief — product, quantity, timeline. We come back with factory-level pricing, a supplier shortlist, and a clear plan. No obligation.</p>
+      <a href="/contact" class="btn btn--white-outline" style="margin-top:1rem">Get a quote →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  /* ── HERO ── */
+  .page-hero {
+    background-color: var(--color-bg-alt);
+    border-bottom: 1px solid rgba(15,33,49,0.08);
+  }
+
+  .page-hero h1 {
+    font-size: clamp(2.25rem, 5vw, 4rem);
+    margin-top: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .lead {
+    font-size: 1.25rem;
+    color: #5a5a5a;
+    line-height: 1.7;
+    margin: 0 0 2rem;
+    max-width: 58ch;
+  }
+
+  .hero-ctas {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  /* ── STATS BAR ── */
+  .stats-bar {
+    background: #fff;
+    border-bottom: 1px solid rgba(15,33,49,0.08);
+    padding: 2.5rem 0;
+  }
+
+  .stats-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex: 1;
+    min-width: 160px;
+  }
+
+  .stat-num {
+    font-family: var(--font-display);
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 700;
+    color: var(--color-emerald);
+    line-height: 1;
+  }
+
+  .stat-label {
+    font-size: 0.875rem;
+    color: #5a5a5a;
+  }
+
+  .stat-divider {
+    width: 1px;
+    height: 48px;
+    background: rgba(15,33,49,0.12);
+    flex-shrink: 0;
+  }
+
+  /* ── GRID HEADER ── */
+  .grid-header {
+    margin-bottom: 2.5rem;
+    max-width: 56ch;
+  }
+
+  /* ── CATEGORY GRID ── */
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  .category-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    background: var(--color-white);
+    border: 1px solid rgba(15,33,49,0.09);
+    border-radius: var(--radius-lg);
+    padding: 1.75rem;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+  }
+
+  .category-card:hover {
+    border-color: var(--color-emerald);
+    box-shadow: 0 4px 20px rgba(26,83,62,0.1);
+    transform: translateY(-2px);
+  }
+
+  .card-top {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .card-icon {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+
+  .card-eyebrow {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--color-teal);
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+  }
+
+  .category-card h3 {
+    font-size: 1.0625rem;
+    font-weight: 700;
+    color: var(--color-navy);
+    margin: 0;
+    line-height: 1.35;
+  }
+
+  .card-intro {
+    font-size: 0.875rem;
+    color: var(--color-slate);
+    line-height: 1.6;
+    margin: 0;
+    flex: 1;
+  }
+
+  .card-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.875rem 0;
+    border-top: 1px solid rgba(15,33,49,0.07);
+    border-bottom: 1px solid rgba(15,33,49,0.07);
+    margin-top: auto;
+  }
+
+  .meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+  }
+
+  .meta-label {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-grey);
+  }
+
+  .meta-value {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: var(--color-emerald);
+    font-family: var(--font-display);
+  }
+
+  .meta-divider {
+    width: 1px;
+    height: 32px;
+    background: rgba(15,33,49,0.1);
+    flex-shrink: 0;
+  }
+
+  .card-link {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-emerald);
+    margin-top: 0.25rem;
+  }
+
+  /* ── REASONS ── */
+  .reasons-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem 3rem;
+    margin-top: 2rem;
+  }
+
+  .reason h3 {
+    font-size: 1.0625rem;
+    font-weight: 700;
+    color: var(--color-navy);
+    margin-bottom: 0.5rem;
+  }
+
+  .reason p {
+    font-size: 0.9375rem;
+    color: #4a4a4a;
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 960px) {
+    .category-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 700px) {
+    .reasons-grid {
+      grid-template-columns: 1fr;
+      gap: 1.75rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .category-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .hero-ctas {
+      flex-direction: column;
+    }
+
+    .stats-grid {
+      gap: 1rem;
+    }
+
+    .stat-divider {
+      display: none;
+    }
+
+    .stat-item {
+      min-width: 130px;
+    }
+  }
+</style>
