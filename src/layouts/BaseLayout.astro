@@ -40,7 +40,37 @@ const orgSchema = {
     { "@type": "Country", "name": "Ireland" },
     { "@type": "Country", "name": "United Kingdom" }
   ],
-  "address": { "@type": "PostalAddress", "addressCountry": "IE" },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Springfield, Clonlara",
+    "addressLocality": "Co. Clare",
+    "postalCode": "V94 R2DX",
+    "addressCountry": "IE"
+  },
+  "location": [
+    {
+      "@type": "Place",
+      "name": "Ériu Sourcing — Shenzhen Office",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3rd Floor Building D, Minle Industrial Park, Meiban Rd, Longhua",
+        "addressLocality": "Shenzhen",
+        "postalCode": "318151",
+        "addressCountry": "CN"
+      }
+    },
+    {
+      "@type": "Place",
+      "name": "Ériu Sourcing — Zhengzhou Office",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2206 Unit 2, Nanyang Road, Huji",
+        "addressLocality": "Zhengzhou",
+        "addressCountry": "CN"
+      }
+    }
+  ],
+  "telephone": "+353871187806",
   "founder": {
     "@type": "Person",
     "name": "Noel",
@@ -54,7 +84,8 @@ const orgSchema = {
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "sales",
-    "email": "sales@nexusnails.com",
+    "email": "noel@china-fulfillment.com",
+    "telephone": "+353871187806",
     "areaServed": ["IE", "GB"],
     "availableLanguage": "English"
   },
