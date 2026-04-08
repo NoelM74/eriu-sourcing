@@ -339,6 +339,38 @@ const pageSchemas = [
   }
   .article-content li { margin-bottom: 0.375rem; }
 
+  .article-content a {
+    color: var(--color-emerald);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .article-content a:hover { color: var(--color-teal); }
+
+  /* Inline article figures */
+  .article-content figure,
+  .article-content .article-figure {
+    margin: 2rem 0 2.5rem;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .article-content figure img,
+  .article-content .article-figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+  }
+
+  .article-content figcaption {
+    font-size: 0.875rem;
+    color: #6b7280;
+    text-align: center;
+    padding: 0.625rem 0 0;
+    font-style: italic;
+    line-height: 1.5;
+  }
+
   /* FAQ */
   .faq-section {
     margin-top: 3.5rem;

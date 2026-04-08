@@ -21,7 +21,143 @@ export const blogPosts = [
     targetReader: 'Irish business owners, buyers, and importers researching direct China sourcing for the first time or looking to improve an existing process',
     estimatedWordCount: 3200,
     publishDate: '2026-04-15',
-    draft: true,
+    draft: false,
+    body: `<p>Most Irish businesses that import from China pay more than they need to. Not by a little — by 30 to 50 per cent above what the same goods would cost bought directly from the factory that makes them.</p>
+
+<p>The reason is structural. Most suppliers visible on Alibaba and B2B trade directories are trading companies — intermediaries who buy from factories and resell with a margin attached. By the time an Irish importer receives a quote, they are already looking at a price with one or two middlemen built in.</p>
+
+<p>This guide covers how to remove that layer. It walks through how to identify the right factory, verify it, sample it, inspect goods before they leave China, navigate Irish customs, and calculate what you will actually pay once goods land in Ireland. Whether you are approaching China sourcing for the first time or looking to cut costs from an existing import operation, the process is the same.</p>
+
+<h2>Why factory-direct beats Alibaba and trading companies</h2>
+
+<p>Alibaba is not a factory directory. It is a marketplace where anyone can list — factories, trading companies, wholesalers, and agents all appear side by side, often using identical language. Alibaba's own data suggests fewer than 20 per cent of its listed suppliers are genuine manufacturers. The remainder are intermediaries.</p>
+
+<p>Trading companies on Alibaba typically add 30 to 50 per cent to the factory-gate price. On a €60,000 order, that is €18,000 to €30,000 paid to an intermediary who added nothing to the product. They did not manufacture it. They did not inspect it. They handled the paperwork between you and the factory that did the work.</p>
+
+<p>Factory-direct sourcing removes this layer entirely. Irish businesses moving to direct factory access typically see savings of 35 to 55 per cent compared to equivalent wholesale prices for the same goods sourced through European importers. The exact figure depends on the product category, order volume, and negotiating leverage — but the direction is always the same.</p>
+
+<p>Control is the other advantage. When you buy through a trading company, your access to the production line ends at that company's door. Quality issues, production delays, and material substitutions happen invisible to you. Direct factory access means you can inspect the facility, approve materials, witness production, and sign off on goods before they move.</p>
+
+<figure class="article-figure">
+  <img src="/images/hero-china-factory-floor.webp" alt="Modern Chinese factory floor with workers in navy and emerald uniforms at production workstations" loading="lazy" width="1280" height="720">
+  <figcaption>Factory-direct access gives Irish importers visibility at the production line — not just the warehouse door</figcaption>
+</figure>
+
+<h2>How to identify the right factory, not a reseller</h2>
+
+<p>The first filter is the business licence. Every Chinese manufacturer holds a 营业执照 (yíngyè zhízhào) — a business registration document specifying the company's registered scope of operations. A genuine manufacturer's licence will list production or manufacturing activities. A trading company's will list import/export trade, wholesale, or distribution.</p>
+
+<p>Chinese companies publish their business licences through the National Enterprise Credit Information Publicity System at gsxt.gov.cn. You can search any company by name and retrieve the registered details. A supplier who refuses to share their business licence number is a significant red flag.</p>
+
+<p>The second filter is the physical factory. A genuine manufacturer has production machinery, production staff, and a quality control process. Request a live video walkthrough of the production floor before committing to a sample order. Ask to see the machinery used to make your specific product. Ask for daily production capacity in units.</p>
+
+<p>Trading companies cannot provide this convincingly. They will offer stock photography, generic factory footage, or redirect you to a facility they claim is "their factory". The gap becomes obvious when you ask specific production questions: what gauge of steel goes into this product, what is your injection moulding cycle time, what percentage of your workers are on the production line versus in the office?</p>
+
+<p>Geography is also a signal. Chinese manufacturing clusters around specific industries. Electronics and hardware come from Shenzhen and the Pearl River Delta. Furniture from Foshan and Zhongshan. Apparel from Guangzhou and Dongguan. Machinery from Zhengzhou, Wuhan, and Chengdu. A supplier claiming to manufacture electronics who is based in an agricultural province deserves additional scrutiny.</p>
+
+<h2>Vetting suppliers before you commit</h2>
+
+<p>Finding a factory is step one. Establishing that it meets your quality and compliance requirements before you place an order is step two. Skip this and you are flying blind on a significant financial commitment.</p>
+
+<p>A thorough factory audit covers four areas. Legal compliance: does the business licence match what the supplier claims, and are their export licences current? Production capability: do they have the machinery, staffing, and capacity to produce your specification at the required volume? Quality management: do they operate a formal QC process, and do they hold relevant certifications (ISO 9001, for instance)? Financial stability: are they paying workers, maintaining machinery, and running a functioning business?</p>
+
+<p>For CE-regulated products, the audit must also verify that the production process, materials, and testing procedures support the claimed certification. A supplier who holds the CE certificate but cannot explain the test procedure that generated it has a compliance problem.</p>
+
+<p>For Irish buyers who cannot travel to China, third-party factory audits through firms like Bureau Veritas, SGS, or Intertek cost roughly €300 to €600 per factory visit. A sourcing agent with physical presence in China can conduct an initial screening visit for less. Either is worth doing before a first order above €15,000.</p>
+
+<h2>Sampling: what to ask for and what to test</h2>
+
+<p>Before any production order, you need samples. The purpose is not simply to see whether you like the product — it is to verify that the factory can produce your specification consistently, and to establish the physical benchmark against which goods will be inspected before shipment.</p>
+
+<p>Request samples from the production line, not from the factory showroom. Showroom samples are often hand-finished and do not represent production quality. Specify in writing that you want samples produced using the same materials, processes, and finishes that will be used in the production run. Request three samples — keep one unsealed as your reference unit for the pre-shipment inspection later.</p>
+
+<p>Once samples arrive in Ireland, test them against your actual requirements. For products subject to CE marking, engage an accredited testing body — the NSAI, TÜV, or a NANDO-listed notified body — to verify compliance before you commit to production quantities. Do not rely solely on test reports provided by the factory. Test reports can be fabricated, and the accreditation of the testing body matters under EU product safety law.</p>
+
+<p>Document the approved sample with photographs, measurements, and material specifications. This documentation becomes the inspection standard your pre-shipment QC inspector will use on the production run.</p>
+
+<figure class="article-figure">
+  <img src="/images/article-factory-qc-inspection.webp" alt="Quality control inspector in emerald hi-vis vest checking products on Chinese factory production line with clipboard" loading="lazy" width="1280" height="720">
+  <figcaption>Pre-shipment inspection at the factory — while there is still time to correct problems before goods leave China</figcaption>
+</figure>
+
+<h2>Pre-shipment QC: what good inspection looks like</h2>
+
+<p>Pre-shipment inspection (PSI) is the single most important risk control in China sourcing. It is the point at which goods are physically checked before they leave the factory — while there is still time to fix problems, request rework, or reject the shipment.</p>
+
+<p>A standard PSI covers three elements. Quantity verification confirms that the number of units packed matches the order. Quality inspection checks a statistically valid sample of goods — typically using AQL sampling standards — against your approved sample specification. Packing and labelling review verifies that carton marking, product labelling, barcodes, and shipping marks are correct for the Irish and EU market.</p>
+
+<p>For CE-regulated products, the inspection must additionally verify that the CE mark is correctly applied, that the Declaration of Conformity is present in the shipment documentation, and that any required technical files are included. CE-marked goods arriving in Ireland without the correct documentation can be held at Dublin Port while customs awaits compliance evidence.</p>
+
+<p>Third-party PSI through firms like QIMA, Bureau Veritas, or SGS costs approximately €250 to €450 per man-day. Most standard inspections take one day. For a €50,000 shipment, the inspection fee is less than one per cent of the order value — against the risk of a full container of defective goods reaching the Irish market.</p>
+
+<p>PSI should happen when goods are 80 to 100 per cent complete and are being packed. Do not accept an invitation to inspect "when goods are ready to ship" — by that point, factory staff have left the building and corrective action is no longer practical.</p>
+
+<h2>CE compliance: what you must have before Irish customs</h2>
+
+<p>CE marking is a legal requirement, not a quality endorsement. For products in regulated categories, goods without valid CE documentation cannot legally be placed on the Irish or EU market. As the Irish importer, you carry legal responsibility for CE compliance — not the Chinese supplier who made the product.</p>
+
+<p>Categories requiring CE in Ireland include: electronic and electrical equipment (Low Voltage Directive, EMC Directive), machinery (Machinery Directive), personal protective equipment (PPE Regulation), toys (Toy Safety Directive), construction products (CPR), medical devices (MDR), radio equipment (RED), and pressure equipment (PED). The NSAI website publishes the full list of relevant EU directives and their Irish transposition.</p>
+
+<p>CE compliance involves more than applying a mark to the product. For most regulated categories, it requires a Declaration of Conformity (DoC) — a legal document signed by the manufacturer or EU importer declaring the product meets the relevant directive. For higher-risk categories, it also requires testing by a notified body — an accredited third party registered on the EU NANDO database.</p>
+
+<p>When a Chinese supplier claims CE certification, verify four things. Does the claimed directive actually apply to your product — not just any CE mark, but the right directive? Is the test report from a body you can find on the NANDO database? Does the DoC identify the correct responsible person — for goods manufactured outside the EU, the Irish importer is typically the responsible person? Are the technical files up to date for the current production specification?</p>
+
+<p>Self-declared CE — where the factory issues its own DoC without third-party testing — is permissible for lower-risk product categories, but the Irish importer still carries full legal responsibility for the accuracy of that declaration. If goods are later found non-compliant, the business faces potential seizure, product recall liability, and fines from the CCPC or relevant Irish market surveillance authority.</p>
+
+<h2>Freight options and realistic lead times in 2026</h2>
+
+<p>Sea freight from major Chinese ports to Dublin takes 25 to 40 days, depending on the routing and service type. Shenzhen to Dublin runs 28 to 32 days on direct or single-transship services. Ningbo and Shanghai add two to four days. Northern China ports — Tianjin, Qingdao — add five to eight days.</p>
+
+<p>In 2026, a 20ft FCL (full container load) from Guangdong ports to Dublin costs approximately $1,600 to $3,500 depending on the carrier and market conditions. A 40ft container runs $2,500 to $5,500. These are ocean freight costs only. Port handling at Dublin, Irish customs clearance handling, and inland delivery to your premises are additional.</p>
+
+<p>LCL (less than container load) is used when your shipment does not fill a full container. It is priced per cubic metre — typically $65 to $90 per CBM on China-Ireland routes in 2026. LCL adds a consolidation period at the origin port (five to eight days) and a deconsolidation period at destination, extending total transit to 35 to 45 days. The threshold at which FCL becomes cheaper than LCL is typically around 15 to 18 CBM — your freight forwarder can calculate the crossover for a specific shipment.</p>
+
+<p>Air freight cuts transit to five to seven days but costs five to eight times the sea freight rate. It makes commercial sense for high-value, low-volume, or time-sensitive goods — samples, urgent replenishment, or seasonal stock where the cost of delay outweighs the freight premium.</p>
+
+<p>Ask your freight forwarder to quote on a DAP (Delivered at Place) basis. DAP means all costs are covered until goods arrive at your premises in Ireland. FOB quotes from Chinese factories exclude all shipping costs — if you receive an FOB quote and a separate freight quote, add them together before comparing to any other basis. Compare always on a total landed cost basis.</p>
+
+<figure class="article-figure">
+  <img src="/images/article-shipping-freight-ireland.webp" alt="Container ship docked at port with stacked intermodal shipping containers — China to Ireland freight" loading="lazy" width="1280" height="720">
+  <figcaption>Sea freight from major Chinese ports to Dublin takes 25 to 40 days in 2026 — FCL or LCL depending on order volume</figcaption>
+</figure>
+
+<h2>Understanding your real landed cost</h2>
+
+<p>The most common mistake in Ireland-China sourcing is calculating savings against the factory FOB price alone. The number that determines your margin is the landed cost — what you pay per unit once goods are in your premises in Ireland, including every cost between the factory gate and your stock room.</p>
+
+<p>A landed cost calculation for goods from China to Ireland includes: the factory price (FOB), international freight (sea or air), marine cargo insurance (typically 0.3 to 0.5% of shipment value), Irish customs duty (0 to 12% depending on the HS commodity code), Irish import VAT at 23% — reclaimed quarterly if you are VAT-registered — pre-shipment inspection, sourcing agent fees where used, and Irish customs clearance handling (typically €100 to €200 per shipment).</p>
+
+<p>A worked example. An Irish hospitality operator orders €40,000 FOB of furniture from Foshan. Sea freight (FCL) to Dublin adds €3,200. Marine insurance adds €160. Irish customs duty at 2.7% adds €1,080. Import VAT at 23% on the combined value adds approximately €10,000 — but this is reclaimed on the next quarterly VAT return. Pre-shipment inspection adds €400. Customs clearance handling adds €150. Total landed cost before VAT recovery: approximately €54,990. Landed cost multiplier on the FOB price: 1.37.</p>
+
+<p>For VAT-registered Irish businesses, Postponed VAT Accounting (PVA) allows you to defer import VAT to your next VAT return rather than paying it at customs. This materially improves cash flow on large shipments. PVA should be set up with Revenue.ie before your first significant import shipment arrives at Dublin Port.</p>
+
+<p>Your customs broker or freight forwarder can determine the correct commodity code for your goods using the TARIC database. The commodity code determines your duty rate. Getting this wrong at customs — either under-declaring or misclassifying — creates compliance problems. The €100 to €200 customs broker fee for a professional declaration is a worthwhile cost.</p>
+
+<p>Build your landed cost model before committing to a factory price and order quantity. Not after. Decisions made on FOB price alone frequently look attractive in China and expensive in Ireland once full costs are assembled.</p>
+
+<h2>Working with a sourcing agent versus going direct</h2>
+
+<p>The question of whether to use a sourcing agent or handle China sourcing yourself comes down to one thing: do you have eyes on the factory floor?</p>
+
+<p>Every significant failure mode in China sourcing — substandard materials, production shortcuts, CE documentation problems, shipment delays — has the same root cause. The Irish buyer could not verify what was actually happening at the factory. A business managing a China import from Dublin has no way to spot a material substitution mid-production, confirm that a factory's CE test report is genuine, or catch a quality problem before it is packed into a container and sealed.</p>
+
+<p>A sourcing agent with physical presence in China resolves this. They visit the factory. They attend the pre-shipment inspection. They read the business licence in the original Mandarin. They follow up when a shipment goes quiet. The value is not in identifying suppliers — it is in the ongoing verification and quality management that makes a China sourcing relationship reliable over time.</p>
+
+<p>The cost of a sourcing agent is typically three to eight per cent of order value, or a fixed project fee depending on complexity. For a €50,000 order, this is €1,500 to €4,000. Against potential savings of €15,000 to €25,000 versus the equivalent cost through a European importer or trading company, the decision is usually straightforward.</p>
+
+<p>Going direct — without a China-based agent — is viable for buyers who travel regularly to China, have existing verified factory relationships, or are experienced enough to conduct their own supplier vetting and inspection. For first-time or occasional importers, the risk of getting it wrong on a significant order consistently outweighs the agent fee.</p>
+
+<p>The minimum viable question to ask any potential sourcing partner is: can you visit the factory before I place an order, and can you attend the pre-shipment inspection? If the answer is no to either, you are not working with a sourcing agent. You are working with another layer of the problem you were trying to solve.</p>
+
+<h2>Next steps for Irish businesses</h2>
+
+<p>Factory-direct sourcing from China is achievable for Irish businesses of all sizes. The order minimums that make sea freight viable — typically €5,000 to €15,000 depending on the product category — are within reach for most SMEs. The process is learnable. The risks are manageable with the right controls in place.</p>
+
+<p>The businesses that get into difficulty are those that treat China sourcing as a price exercise rather than an operational one. They find a low price, order without verifying the factory, skip the pre-shipment inspection, and discover on arrival that the goods do not match the sample, or fail CE testing, or simply are not what was agreed.</p>
+
+<p>The businesses that make it work treat China sourcing as a supply chain relationship. They verify the factory. They inspect before shipment. They understand their landed cost before they commit. And they have somebody in China who can act on their behalf when problems arise — because problems arise in every supply chain, and the difference is whether you find out about them in Shenzhen or in Dublin.</p>
+
+<p>If you are looking to start or improve a direct China sourcing operation for an Irish business, <a href="/contact">get in touch</a>. Ériu Sourcing operates from Zhengzhou and Shenzhen and has been working with Irish businesses on direct factory access, QC, CE compliance, and freight since 2007.</p>`,
     excerpt: 'Sourcing direct from Chinese factories is genuinely achievable for Irish businesses — but only if you approach it the right way. This guide covers every step: finding factories, vetting suppliers, ordering samples, QC before shipment, CE compliance, and landed cost reality.',
     image: '/images/hero-china-factory-floor.webp',
     imageAlt: 'Chinese factory floor — sourcing direct from China to Ireland',
