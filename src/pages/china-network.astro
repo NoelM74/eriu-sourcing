@@ -123,10 +123,10 @@ const shenzhenClusters = [
         </div>
         <div class="base-image">
           <img
-            src="/images/shenzhen-electronics-market.webp"
-            alt="Huaqiangbei electronics market, Shenzhen — Ériu Sourcing's Guangdong base"
+            src="/images/sourcing-team-meeting-shenzhen.webp"
+            alt="Noel conducting a sourcing team meeting in Shenzhen with his China-based team"
             width="600"
-            height="400"
+            height="450"
             loading="lazy"
           />
         </div>
@@ -154,6 +154,48 @@ const shenzhenClusters = [
         <div class="henan-card">
           <h3>Foodservice equipment</h3>
           <p>Commercial kitchen equipment, refrigeration units, and cold-chain technology — relevant to Irish hospitality buyers looking at direct sourcing for major fit-out or expansion.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team section -->
+  <section class="section team-photo-section">
+    <div class="container">
+      <div class="team-photo-header">
+        <span class="section-eyebrow">The Team</span>
+        <h2>30 people based in China. Not subcontractors. Our staff.</h2>
+        <p>Ériu Sourcing operates out of Royal Logistics Group (PFC) — our own China logistics infrastructure built over 10 years. The team you see below are permanent employees based in Shenzhen and Zhengzhou. When we say we'll inspect your goods, our staff are physically on-site to do it.</p>
+      </div>
+      <div class="team-photos-grid">
+        <figure class="team-photo-main">
+          <img
+            src="/images/pfc-office-team-china.webp"
+            alt="The Royal Logistics Group (PFC) team in Shenzhen — the China-based operational team behind Ériu Sourcing"
+            width="1100" height="550"
+            loading="lazy"
+          />
+          <figcaption>Our Shenzhen team — the operational backbone behind every Ériu Sourcing order</figcaption>
+        </figure>
+        <div class="team-photos-secondary">
+          <figure>
+            <img
+              src="/images/kjs-factory-visit.webp"
+              alt="Noel visiting KJS factory with supplier partners in China"
+              width="520" height="340"
+              loading="lazy"
+            />
+            <figcaption>Supplier visit — KJS Eagle & Bear Assembly, China</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="/images/noel-dongguan-factory-visit.webp"
+              alt="Noel with factory team on production floor in Dongguan during inspection"
+              width="520" height="340"
+              loading="lazy"
+            />
+            <figcaption>Production floor inspection — Dongguan factory</figcaption>
+          </figure>
         </div>
       </div>
     </div>
@@ -213,5 +255,57 @@ const shenzhenClusters = [
     .cluster-header { display: none; }
     .cluster-row { grid-template-columns: 1fr; gap: .25rem; }
     .henan-grid { grid-template-columns: 1fr; }
+    .team-photos-secondary { grid-template-columns: 1fr; }
+  }
+
+  /* Team photo section */
+  .team-photo-section { background: var(--color-bg); }
+  .team-photo-header {
+    max-width: 700px;
+    margin-bottom: 2.5rem;
+  }
+  .team-photo-header p {
+    color: #4b5563;
+    line-height: 1.7;
+    margin-top: 0.75rem;
+  }
+  .team-photos-grid { display: flex; flex-direction: column; gap: 1.25rem; }
+  .team-photo-main {
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(15,33,49,0.1);
+  }
+  .team-photo-main img { width: 100%; height: auto; display: block; }
+  .team-photo-main figcaption {
+    padding: 0.625rem 1rem;
+    font-size: 0.8rem;
+    color: #6b7280;
+    font-style: italic;
+    background: #f9fafb;
+    border-top: 1px solid #f3f4f6;
+  }
+  .team-photos-secondary {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+  }
+  .team-photos-secondary figure {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(15,33,49,0.08);
+  }
+  .team-photos-secondary figure img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    display: block;
+  }
+  .team-photos-secondary figure figcaption {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.78rem;
+    color: #6b7280;
+    font-style: italic;
+    background: #f9fafb;
+    border-top: 1px solid #f3f4f6;
   }
 </style>
