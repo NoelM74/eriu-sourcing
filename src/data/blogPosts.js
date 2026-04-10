@@ -311,8 +311,8 @@ export const blogPosts = [
 <p>If you are importing from China at volume — or planning to — the question is not whether factory-direct is achievable. It is whether you have someone on the ground to make it work. <a href="/contact">Send us a brief</a>. We will tell you exactly what factory access looks like for your specific product and volume.</p>
 `,
     excerpt: 'Most suppliers on Alibaba are trading companies, not factories. They add 20–40% margin while presenting themselves as manufacturers. Here is how to tell the difference — and what it costs you if you get it wrong.',
-    image: '/images/shenzhen-electronics-market.webp',
-    imageAlt: 'Shenzhen electronics market — factory-direct access vs Alibaba trading companies',
+    image: '/images/noel-dongguan-factory-visit.webp',
+    imageAlt: 'Noel on the production floor during a factory inspection visit in Dongguan, China',
     sections: [
       'What Alibaba actually is (and is not)',
       'How trading companies pose as factories on Alibaba',
