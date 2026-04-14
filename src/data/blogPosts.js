@@ -337,6 +337,192 @@ export const blogPosts = [
   },
 
   {
+    slug: 'incoterms-explained-irish-importers-fob-cif-exw-dap-china',
+    title: 'Incoterms Explained for Irish Importers: FOB, CIF, EXW & DAP on China Shipments',
+    metaTitle: 'Incoterms Explained for Irish Importers: FOB, CIF, EXW & DAP | Ériu Sourcing',
+    metaDescription: 'Incoterms on China shipments explained for Irish importers. FOB, CIF, EXW, DAP — what each one actually costs you, who carries the risk, and which one to use.',
+    h1: 'Incoterms explained for Irish importers: FOB, CIF, EXW and DAP on China shipments',
+    eyebrow: 'Trade Intelligence',
+    category: 'economics',
+    primaryKeyword: 'incoterms explained Ireland',
+    secondaryKeywords: ['FOB CIF Ireland imports', 'incoterms China Ireland', 'EXW DAP shipping terms Ireland', 'import shipping terms explained'],
+    intent: 'informational',
+    targetReader: 'Irish importers and business owners evaluating supplier quotes from China who need to understand the cost and risk implications of FOB, CIF, EXW, and DAP',
+    estimatedWordCount: 2600,
+    publishDate: '2026-04-29',
+    draft: false,
+    body: `<p>Every Chinese supplier quote you receive contains a three-letter code. EXW Shenzhen. FOB Ningbo. CIF Dublin. DAP Dublin Port. That code determines who pays for shipping, who pays for insurance, who clears the goods through customs, and — critically — who carries the financial risk if a container of your product falls into the South China Sea.</p>
+
+<p>Most Irish importers treat these codes as shipping jargon. They are not. They are legal terms governed by the International Chamber of Commerce under the Incoterms 2020 framework. They define the exact point at which cost and risk transfer from the seller to you. Getting this wrong does not mean a minor administrative headache. It means paying for goods that were destroyed in transit, discovering your insurance does not cover the leg of the journey where the damage occurred, or arriving at Dublin Port with a customs bill you did not budget for.</p>
+
+<p>This is what each term means in practice when you are importing from China to Ireland — and which one you should actually be using.</p>
+
+<h2>What Incoterms are and why they exist</h2>
+
+<p>Incoterms — International Commercial Terms — are a standardised set of rules published by the International Chamber of Commerce (ICC). The current version is Incoterms 2020. There are eleven terms in total. Four of them account for approximately 90 percent of China-to-Ireland trade: EXW, FOB, CIF, and DAP.</p>
+
+<p>Each term defines three things. First, who pays for what — inland transport in China, port charges, ocean freight, insurance, Irish customs duties, and last-mile delivery. Second, where risk transfers from the seller to the buyer — the precise physical point at which the goods become your financial responsibility. Third, who handles the administrative burden — export clearance in China, import clearance in Ireland, and all the documentation in between.</p>
+
+<p>The term you agree to in your purchase order is not a suggestion. It is a binding contractual allocation of cost and risk. If your contract says FOB Ningbo and the goods are damaged after loading onto the vessel at Ningbo port, that damage is your problem — financially and legally. If your contract says CIF Dublin and the same damage occurs, the cost allocation is different, but the risk transfer point is identical to FOB. This is the distinction that trips up most buyers, and we will come back to it.</p>
+
+<h2>EXW — Ex Works</h2>
+
+<p><strong>What it means:</strong> The supplier makes the goods available at their premises — their factory gate or warehouse in China. That is the full extent of their obligation. Everything else is your responsibility.</p>
+
+<p><strong>Who pays for what:</strong> You pay for collection from the factory, inland transport to the Chinese port, export customs clearance in China, loading charges, ocean freight, marine insurance, Irish import customs clearance, Irish customs duties and VAT, and delivery from Dublin Port to your warehouse.</p>
+
+<p><strong>Where risk transfers:</strong> At the supplier's premises. The moment the goods are ready for collection at their factory door, the risk is yours. If the truck from the factory to Ningbo port has an accident, you carry the loss. If the goods are held at Chinese customs because the export documentation is wrong — documentation the supplier had no obligation to prepare — you carry the cost.</p>
+
+<p><strong>The problem for Irish importers:</strong> EXW requires you to manage Chinese inland logistics and Chinese export clearance. Unless you have a freight forwarder or agent in China handling this, you are managing a supply chain in a country where you do not speak the language, do not hold an export licence, and have no commercial relationships with domestic transport providers.</p>
+
+<p>Chinese export customs clearance requires a Chinese-registered entity. As an Irish business, you cannot legally clear goods for export from China yourself. You need a Chinese customs broker or a freight forwarder with a Chinese entity to do it on your behalf. This means EXW is not truly "ex works" for most Irish buyers — you still need a Chinese intermediary for the export leg.</p>
+
+<p>EXW also creates a VAT issue in China. The supplier may not be able to claim their Chinese export VAT refund under EXW because they are not technically the exporter of record. Some suppliers offset this by quoting a higher EXW price. You end up paying for a cost advantage that does not materialise.</p>
+
+<p><strong>When it makes sense:</strong> Almost never for Irish SMEs importing from China. EXW is designed for domestic transactions or situations where the buyer has a sophisticated logistics operation in the seller's country. If you are running a sourcing office in Shenzhen with your own freight contracts, EXW gives you maximum control. If you are managing imports from Dublin, it gives you maximum exposure.</p>
+
+<h2>FOB — Free On Board</h2>
+
+<p><strong>What it means:</strong> The supplier delivers the goods on board the vessel at the named Chinese port — typically FOB Shenzhen, FOB Ningbo, or FOB Shanghai. They handle everything up to and including loading onto the ship. From that point, you take over.</p>
+
+<p><strong>Who pays for what:</strong> The supplier pays for inland transport from their factory to the port, export customs clearance, and loading charges. You pay for ocean freight, marine insurance, Irish import customs clearance, duties, VAT, and last-mile delivery.</p>
+
+<p><strong>Where risk transfers:</strong> When the goods are on board the vessel at the named port. Once loaded, the risk is yours.</p>
+
+<p><strong>Why FOB is the standard for China imports:</strong> FOB is the most commonly used Incoterm for sea freight from China to Ireland, and for good reason. It draws a clean, practical line. The supplier handles everything in China — the part of the supply chain they understand, control, and can execute efficiently. You handle everything from the vessel onwards — the part of the supply chain where your Irish freight forwarder, customs broker, and logistics provider operate.</p>
+
+<p>FOB also gives you control over the ocean freight booking. This matters more than most importers realise. When the supplier controls the freight booking — as they do under CIF — they choose the shipping line, the routing, and the transit time. They may also mark up the freight cost. Under FOB, you or your freight forwarder book the vessel, choose the carrier, negotiate the rate, and control the schedule. For an Irish importer shipping into Dublin Port, this means you can consolidate shipments from multiple suppliers onto a single vessel, negotiate volume rates with your preferred carrier, and avoid the supplier's freight markup.</p>
+
+<p>A real example. An Irish consumer goods importer was paying CIF Dublin on a quarterly shipment from Guangdong. The CIF price included ocean freight at $2,800 per 20-foot container. They switched to FOB Shenzhen and booked directly through their Irish freight forwarder. The freight cost dropped to $1,900 per container — a saving of $900 per shipment, $3,600 per year on four shipments. The supplier's CIF quote had included a freight margin of roughly 47 percent.</p>
+
+<p><strong>When it makes sense:</strong> For the majority of Irish importers buying from China by sea freight. FOB gives you cost transparency, freight control, and a clean risk boundary at a point in the supply chain where you have the infrastructure to manage it.</p>
+
+<figure class="article-figure">
+  <img src="/images/the-fob-handover.webp" alt="Wide shot of a Chinese container port with a gantry crane lifting a shipping container onto a cargo vessel. A dashed white line at the ship's rail reads 'Risk Transfers Here', dividing seller's responsibility on the dock from buyer's responsibility on the vessel." loading="lazy" width="1280" height="720">
+  <figcaption>FOB in one image. Everything below the ship's rail is the supplier's cost and risk. Everything above it is yours. That line is the most important boundary in your China import programme.</figcaption>
+</figure>
+
+<h2>CIF — Cost, Insurance, and Freight</h2>
+
+<p><strong>What it means:</strong> The supplier pays for ocean freight and marine insurance to the named destination port — CIF Dublin, for example. They deliver the goods on board the vessel in China, arrange and pay for the freight, and provide a minimum level of insurance coverage.</p>
+
+<p><strong>Who pays for what:</strong> The supplier pays for everything FOB covers, plus ocean freight to Dublin and marine cargo insurance. You pay for Irish import customs clearance, duties, VAT, unloading at Dublin Port (in some cases), and last-mile delivery.</p>
+
+<p><strong>Where risk transfers:</strong> This is the part that costs Irish importers money. Despite the supplier paying for freight and insurance to Dublin, risk still transfers at the Chinese port — the same point as FOB. CIF is not "delivered to Dublin at the supplier's risk." It is "delivered to Dublin at the supplier's cost, but at the buyer's risk from the Chinese port onwards."</p>
+
+<p>Read that again. Under CIF, the goods are your risk from the moment they are loaded onto the vessel in China. The supplier has paid for the freight and arranged insurance — but the insurance is for your benefit, covering your risk, at a coverage level the supplier chose.</p>
+
+<p><strong>The insurance problem:</strong> Under Incoterms 2020, the seller's insurance obligation under CIF is Institute Cargo Clauses (C) — the minimum available coverage. Clauses (C) cover defined risks only: fire, explosion, vessel sinking, collision, and jettison. They do not cover theft, pilferage, water damage from rain or condensation, breakage, or a container falling from the deck in a storm. For a container of ceramics, electronics, or any moisture-sensitive product, Clauses (C) coverage is close to worthless against the risks that actually occur on a 30-day sea voyage from Shenzhen to Dublin.</p>
+
+<p>Most Irish importers who buy CIF assume the supplier's insurance covers everything. It does not. It covers the minimum. If your €40,000 container of product arrives water-damaged at Dublin Port, you may find the CIF insurance does not pay out — because water ingress from condensation is not a covered peril under Clauses (C). You paid for insurance you thought was comprehensive. It was not.</p>
+
+<p><strong>When it makes sense:</strong> Rarely, for experienced importers. CIF can work if you understand the risk transfer point, you supplement the supplier's minimum insurance with your own Clauses (A) policy covering all risks, and you do not mind losing control of the freight booking. For a first-time importer who wants the supplier to handle logistics, CIF feels simpler — but that simplicity comes with a hidden freight markup and an insurance gap that can be financially devastating on a single shipment.</p>
+
+<figure class="article-figure">
+  <img src="/images/the-cif-insurance-document-close-up.webp" alt="Overhead flat-lay photograph of a marine cargo insurance certificate with 'Institute Cargo Clauses (C)' highlighted in yellow marker. A red sticky note reads 'Minimum Cover Only.' A shipping bill of lading showing Ningbo to Dublin sits alongside fanned Euro banknotes." loading="lazy" width="1280" height="720">
+  <figcaption>What CIF insurance actually looks like. Institute Cargo Clauses (C) — the minimum the seller is required to provide. It does not cover water damage, theft, or breakage. On a 30-day sea voyage from Ningbo to Dublin, those are the risks that actually happen.</figcaption>
+</figure>
+
+<h2>DAP — Delivered at Place</h2>
+
+<p><strong>What it means:</strong> The supplier delivers the goods to a named destination — your warehouse, your 3PL facility, or a specified address in Ireland. They pay for and arrange all transport and bear all risk until the goods arrive at that location. The one thing they do not do is clear the goods through Irish customs or pay import duties and VAT.</p>
+
+<p><strong>Who pays for what:</strong> The supplier pays for everything — inland transport in China, export clearance, ocean freight, insurance, and transport from Dublin Port to the named delivery address. You pay for Irish import customs clearance, customs duties, and VAT.</p>
+
+<p><strong>Where risk transfers:</strong> At the named place of delivery in Ireland. This is the critical difference from FOB and CIF. Under DAP, the supplier carries the risk across the entire journey — from their factory in China to the doorstep of your warehouse in Cork or your 3PL in Dublin. If the container is damaged at sea, lost in transit, or delayed beyond the shipping schedule, it is the supplier's problem until it reaches your named address.</p>
+
+<p><strong>The appeal and the cost:</strong> DAP transfers maximum risk to the supplier and gives you a simple landed-cost calculation. You know the goods will arrive at your door, and you know the only additional costs are customs clearance, duties, and VAT. For importers who want certainty, that is attractive.</p>
+
+<p>The cost of that certainty is built into the DAP price. The supplier is taking on freight risk, transit risk, and last-mile logistics in a country they do not operate in. They will price for that risk — typically by adding 15 to 25 percent above what you would pay under FOB if you managed your own freight. They will also use their own freight forwarder, who may not prioritise your shipment's transit time the way your own agent would.</p>
+
+<p>DAP also creates a customs clearance gap. The supplier delivers the goods to your address but does not clear them through Irish customs. If the goods arrive at Dublin Port and you have not arranged customs clearance, they sit in the port accumulating storage charges. The supplier has fulfilled their DAP obligation by getting the goods to Ireland — customs clearance is explicitly your responsibility.</p>
+
+<p><strong>When it makes sense:</strong> For importers with low volume, limited freight forwarding relationships, and a strong preference for cost certainty over cost optimisation. DAP is a convenience term. You pay a premium for the supplier to handle the logistics. If your annual import spend is under €20,000, the premium may be worth the simplicity. Above that, the cumulative cost of the supplier's freight margin makes FOB with your own freight forwarder significantly cheaper.</p>
+
+<h2>Which Incoterm should you use?</h2>
+
+<p>For the majority of Irish SMEs importing from China by sea freight, FOB is the correct default. It gives you cost transparency on freight, control over your shipping schedule, the ability to arrange your own all-risks insurance, and a clean division of responsibility at a logical geographic boundary — China-side handled by the supplier, sea and Ireland-side handled by you and your freight forwarder.</p>
+
+<table class="article-table">
+  <thead>
+    <tr>
+      <th>Scenario</th>
+      <th>Recommended term</th>
+      <th>Why</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Annual import spend above €30,000, regular shipments</td>
+      <td>FOB</td>
+      <td>Control freight costs, choose carrier, arrange proper insurance</td>
+    </tr>
+    <tr>
+      <td>First import, single shipment, under €10,000</td>
+      <td>DAP</td>
+      <td>Simplicity outweighs freight premium at this scale</td>
+    </tr>
+    <tr>
+      <td>Supplier insists on CIF</td>
+      <td>FOB or supplement insurance</td>
+      <td>Switch to FOB or add your own Clauses (A) policy on top</td>
+    </tr>
+    <tr>
+      <td>You have a sourcing agent or team in China</td>
+      <td>EXW or FOB</td>
+      <td>EXW only if your agent handles Chinese export clearance</td>
+    </tr>
+    <tr>
+      <td>High-value or fragile goods</td>
+      <td>FOB + all-risks insurance</td>
+      <td>Never rely on CIF minimum coverage for breakable or expensive cargo</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>The customs and VAT layer — regardless of Incoterm</h2>
+
+<p>Whatever Incoterm you agree with your Chinese supplier, Irish customs duties and VAT are always your responsibility as the importer of record. No Incoterm transfers customs duty or import VAT to the seller. Even under DAP or DDP, the practical reality of Irish customs clearance sits with you or your customs broker.</p>
+
+<p>Irish import VAT is currently 23 percent on most goods. It is calculated on the customs value — which is the price paid for the goods plus freight and insurance costs to the EU border. Customs duty varies by product category and HS code, typically ranging from 0 to 12 percent for goods imported from China. Anti-dumping duties may apply on specific product categories — ceramics, steel, aluminium, and certain textiles have historically attracted additional duties on Chinese imports into the EU.</p>
+
+<p>The total landed cost for an Irish importer is the product cost plus freight plus insurance plus customs duty plus VAT. On a €50,000 FOB order with €3,000 in freight and €500 in insurance, assuming a 5 percent customs duty rate and 23 percent VAT: customs value €53,500, customs duty €2,675, VAT base €56,175, VAT at 23 percent €12,920, total landed cost approximately €69,095.</p>
+
+<p>That calculation is the same whether you buy FOB, CIF, or DAP — the Incoterm changes who pays for the freight and insurance line items, not the overall customs assessment.</p>
+
+<figure class="article-figure">
+  <img src="/images/the-irish-importers-landed-cost-calculation.webp" alt="Infographic titled 'Landed Cost Breakdown — FOB China to Dublin' with six proportional bars: Product Cost FOB €50,000, Ocean Freight €3,000, Marine Insurance €500, Customs Duty 5% €2,675, Irish VAT 23% €12,920, Total Landed Cost €69,095. Ériu Sourcing logo bottom right." loading="lazy" width="1280" height="720">
+  <figcaption>The real number. A €50,000 FOB order lands in Dublin at €69,095 once you add freight, insurance, customs duty, and VAT. The Incoterm you choose determines who pays for the freight and insurance lines — but the total customs assessment is yours regardless.</figcaption>
+</figure>
+
+<h2>What this means for your next China order</h2>
+
+<p>The next time a Chinese supplier sends you a quote, look at the three-letter code before you look at the unit price. A quote of €4.20 EXW Shenzhen and a quote of €5.10 FOB Ningbo are not comparable without understanding what each price includes and excludes. The EXW price looks cheaper. Once you add Chinese inland transport, export clearance, and port handling charges, it may be more expensive — and it definitely carries more operational risk.</p>
+
+<p>Ask for FOB pricing as your baseline. Compare it against CIF only after you have separated the freight and insurance components. If the supplier quotes CIF Dublin at €6.00 per unit and FOB Shenzhen at €4.80 per unit, the implied freight and insurance cost is €1.20 per unit. Check that against your own freight forwarder's quote. If your forwarder can move the same goods for €0.85 per unit, the supplier is taking a €0.35-per-unit freight margin — money you are paying for convenience you do not need.</p>
+
+<p>The Incoterm is not a detail. It is a financial decision that compounds across every shipment you make.</p>
+
+<p>If you want a side-by-side landed-cost comparison for your specific product, volume, and shipping route, <a href="/contact">send us a brief</a>. We build these calculations for Irish importers every week — and the numbers usually surprise people.</p>`,
+    excerpt: 'Every Chinese supplier quote contains a three-letter code — EXW, FOB, CIF, or DAP. That code determines who pays for freight, who carries the risk, and who handles customs. Getting it wrong costs real money. Here is what each term means for Irish importers.',
+    image: '/images/the-fob-handover.webp',
+    imageAlt: 'Chinese container port with gantry crane loading containers onto a cargo vessel — the FOB risk transfer point at the ship\'s rail',
+    faq: [
+      { q: 'What is the best Incoterm for importing from China to Ireland?', a: 'For most Irish importers shipping by sea freight, FOB (Free On Board) is the best default. It gives you control over the ocean freight booking, allows you to arrange your own comprehensive insurance, and draws a clean boundary — the supplier handles China-side logistics, you handle everything from the vessel onwards through your Irish freight forwarder.' },
+      { q: 'What does CIF mean on a Chinese supplier quote?', a: 'CIF stands for Cost, Insurance, and Freight. The supplier pays for ocean freight and arranges marine insurance to the named destination port. However, risk still transfers to you at the Chinese port — not Dublin — exactly the same as FOB. The insurance provided is also the minimum level (Institute Cargo Clauses C), which does not cover water damage, theft, or breakage.' },
+      { q: 'Why is EXW a problem for Irish importers buying from China?', a: 'EXW (Ex Works) requires you to manage Chinese inland transport and export customs clearance. As an Irish business, you cannot legally clear goods for export from China without a Chinese-registered entity. EXW also creates a Chinese VAT recovery issue for the supplier, which often results in a higher EXW price. For most Irish SMEs, EXW gives the appearance of a low price but transfers maximum operational risk to the buyer.' },
+      { q: 'What is the difference between FOB and DAP for Irish importers?', a: 'Under FOB, risk transfers at the Chinese port — you take on freight risk and arrange your own insurance. Under DAP, the supplier carries all risk until delivery to your named address in Ireland. DAP is simpler but the supplier typically adds 15–25% to the price to cover the additional risk and logistics. For importers shipping above €20,000 per year, FOB with your own freight forwarder is significantly cheaper.' },
+      { q: 'Do Irish customs duties still apply under CIF or DAP?', a: 'Yes. Regardless of Incoterm, Irish customs duties and VAT are always the importer\'s responsibility. No Incoterm transfers these costs to the seller. Irish import VAT is 23% on most goods, calculated on the customs value (product cost plus freight and insurance to the EU border). Duty rates vary by HS code, typically 0–12% for goods from China.' },
+    ],
+    relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland', 'alibaba-vs-factory-direct-irish-importers'],
+    internalLinks: [
+      { text: 'Get a landed-cost breakdown', href: '/contact' },
+      { text: 'Our China sourcing network', href: '/china-network' },
+      { text: 'How it works', href: '/how-it-works' },
+    ],
+  },
+
+  {
     slug: 'ce-marking-china-imports-ireland',
     title: 'CE Marking and China Imports: What Irish Businesses Get Wrong',
     metaTitle: 'CE Marking China Imports Ireland: What to Know Before You Buy | Ériu Sourcing',

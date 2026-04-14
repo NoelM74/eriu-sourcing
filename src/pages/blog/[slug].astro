@@ -371,6 +371,48 @@ const pageSchemas = [
     line-height: 1.5;
   }
 
+  /* Article tables */
+  .article-content table,
+  .article-content .article-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0 2.5rem;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+  }
+
+  .article-content th {
+    background: var(--color-navy);
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.8125rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 0.75rem 1rem;
+    text-align: left;
+  }
+
+  .article-content td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid rgba(15,33,49,0.09);
+    color: #2a2a2a;
+    vertical-align: top;
+  }
+
+  .article-content tr:nth-child(even) td {
+    background: rgba(15,33,49,0.025);
+  }
+
+  .article-content tr:last-child td {
+    border-bottom: none;
+  }
+
+  @media (max-width: 640px) {
+    .article-content table { font-size: 0.875rem; }
+    .article-content th,
+    .article-content td { padding: 0.625rem 0.75rem; }
+  }
+
   /* FAQ */
   .faq-section {
     margin-top: 3.5rem;
