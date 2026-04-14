@@ -349,7 +349,7 @@ export const blogPosts = [
     intent: 'informational',
     targetReader: 'Irish importers and business owners evaluating supplier quotes from China who need to understand the cost and risk implications of FOB, CIF, EXW, and DAP',
     estimatedWordCount: 2600,
-    publishDate: '2026-04-29',
+    publishDate: '2026-04-14',
     draft: false,
     body: `<p>Every Chinese supplier quote you receive contains a three-letter code. EXW Shenzhen. FOB Ningbo. CIF Dublin. DAP Dublin Port. That code determines who pays for shipping, who pays for insurance, who clears the goods through customs, and — critically — who carries the financial risk if a container of your product falls into the South China Sea.</p>
 
