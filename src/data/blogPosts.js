@@ -349,7 +349,7 @@ export const blogPosts = [
     intent: 'informational',
     targetReader: 'Irish importers and business owners evaluating supplier quotes from China who need to understand the cost and risk implications of FOB, CIF, EXW, and DAP',
     estimatedWordCount: 2600,
-    publishDate: '2026-04-14',
+    publishDate: '2026-03-11',
     draft: false,
     body: `<p>Every Chinese supplier quote you receive contains a three-letter code. EXW Shenzhen. FOB Ningbo. CIF Dublin. DAP Dublin Port. That code determines who pays for shipping, who pays for insurance, who clears the goods through customs, and — critically — who carries the financial risk if a container of your product falls into the South China Sea.</p>
 
@@ -519,6 +519,155 @@ export const blogPosts = [
       { text: 'Get a landed-cost breakdown', href: '/contact' },
       { text: 'Our China sourcing network', href: '/china-network' },
       { text: 'How it works', href: '/how-it-works' },
+    ],
+  },
+
+  {
+    slug: 'private-label-manufacturing-china-irish-brands-oem-vs-odm',
+    title: 'Private Label Manufacturing in China for Irish Brands: OEM vs ODM',
+    metaTitle: 'Private Label Manufacturing China for Irish Brands: OEM vs ODM | Ériu Sourcing',
+    metaDescription: 'Private label manufacturing in China for Irish brands. OEM vs ODM — what each model costs, how long it takes, minimum order quantities, and which one fits your business.',
+    h1: 'Private label manufacturing in China for Irish brands: OEM vs ODM',
+    eyebrow: 'Manufacturing Guide',
+    category: 'sourcing-guides',
+    primaryKeyword: 'private label manufacturing China Ireland',
+    secondaryKeywords: ['OEM manufacturing Ireland', 'ODM China Irish brands', 'private label China Ireland', 'OEM vs ODM explained'],
+    intent: 'commercial-investigation',
+    targetReader: 'Irish brand owners and entrepreneurs considering private label manufacturing in China who need to choose between OEM and ODM models',
+    estimatedWordCount: 2500,
+    publishDate: '2026-03-18',
+    draft: false,
+    body: `<p>Irish brands that want their own product — their name on the box, their formulation inside it, their design on the shelf — have two routes into Chinese manufacturing. OEM, where you bring the design and the factory builds it. ODM, where the factory already has a design and you put your brand on it. The distinction is not academic. It determines your upfront investment, your minimum order quantities, your timeline to market, your control over the product, and whether anyone else in Ireland can sell the exact same thing.</p>
+
+<p>Most Irish businesses starting out in private label get this decision wrong. They over-invest in full OEM when ODM would get them to market in a quarter of the time. Or they under-invest in ODM customisation and end up selling a product identical to three other brands on the same shelf.</p>
+
+<p>Here is how each model works, what it costs, and how to decide which one to use.</p>
+
+<h2>What private label actually means in a China sourcing context</h2>
+
+<p>Private label means a product manufactured by one company and sold under another company's brand. The manufacturer does not appear on the packaging. The brand owner — in this case, your Irish business — owns the customer relationship, the brand identity, and (depending on the agreement) varying degrees of the product specification.</p>
+
+<p>In China, private label manufacturing operates across a spectrum. At one end, a factory makes a completely standard product and puts your logo on it — this is the simplest form of ODM. At the other end, you design a product from scratch, develop tooling, engineer specifications, and the factory produces exclusively to your drawings — this is full OEM.</p>
+
+<p>Everything in between is where most Irish brands actually sit. You want some customisation — a specific material, a colour range, a packaging format — but you do not need or cannot afford a ground-up product development programme. Understanding where you sit on this spectrum is the first decision that matters.</p>
+
+<h2>OEM: Original Equipment Manufacturer</h2>
+
+<p><strong>What it means in practice:</strong> You own the product design. You provide the factory with detailed specifications — engineering drawings, material specifications, tolerances, packaging requirements, and performance criteria. The factory's job is to manufacture to your specification. They contribute production capability, not design input.</p>
+
+<p><strong>What you need to bring:</strong> A complete or near-complete product specification. For a physical product, this means CAD files or technical drawings with dimensions and tolerances, a bill of materials specifying exact materials and grades, packaging specifications including box dimensions, insert design, and print files, and compliance requirements for your target market — CE marking, EU safety directives, REACH compliance for chemicals, or food contact material regulations for anything touching food.</p>
+
+<p>If you are developing a formulated product — cosmetics, supplements, cleaning products — OEM means you provide the formulation. The factory manufactures to your formula with your specified ingredients at your specified concentrations. They do not modify the formulation without your approval.</p>
+
+<p><strong>What it costs:</strong> OEM carries higher upfront costs than ODM because you are paying for exclusivity and specification control.</p>
+
+<p>Tooling and moulds are the largest upfront cost for any product requiring custom injection moulding, die-casting, or stamping. A single injection mould for a moderately complex plastic component costs €3,000 to €15,000 depending on the number of cavities, the steel grade, and the complexity of the part geometry. A complete product with four or five moulded components can require €20,000 to €60,000 in tooling before a single production unit rolls off the line.</p>
+
+<p>Sample development typically runs through three to five iterations. Each iteration costs €200 to €2,000 depending on the product category. Budget for at least three rounds — initial prototype, revised sample, and a pre-production sample that represents final output.</p>
+
+<p>Minimum order quantities for OEM are higher than ODM because the factory is setting up a production line specifically for your product. Typical OEM MOQs for Chinese factories range from 1,000 to 5,000 units for consumer goods, 500 to 3,000 units for more complex or higher-value products, and 3,000 to 10,000 units for low-cost commodity items where the margin per unit requires volume to justify the production setup.</p>
+
+<p><strong>Timeline:</strong> From initial specification to first production shipment, full OEM typically takes four to eight months. That includes sample development and approval (six to twelve weeks), tooling manufacture (four to eight weeks for injection moulds), pilot production run (two to four weeks), quality inspection and approval (one to two weeks), and production and shipping (four to eight weeks depending on order size and shipping method).</p>
+
+<p><strong>The advantage:</strong> Exclusivity. If you invest in OEM, the product specification is yours. No other buyer gets the same product from that factory unless they independently develop an identical specification — which, for a tooled product, is economically impractical. Your intellectual property sits in the design, and a properly structured manufacturing agreement protects it.</p>
+
+<p><strong>The risk:</strong> You are the product designer. If the specification is wrong — the material is not durable enough, the dimensions do not work, the packaging does not protect the product during shipping — those are your mistakes to fix, at your cost. OEM requires genuine product development expertise or access to it.</p>
+
+<figure class="article-figure">
+  <img src="/images/the-oem-product-development-desk.webp" alt="Top-down flat-lay of a product development workspace with A3 technical CAD drawings, three prototype samples in different materials, a digital calliper, a Pantone swatch fan, and a laptop showing a 3D CAD render on a light birch desk." loading="lazy" width="1280" height="720">
+  <figcaption>OEM means you own every detail. The engineering drawings, the material choice, the Pantone colour, the tolerance on every dimension. The factory builds what you specify — and every revision costs time and money before production begins.</figcaption>
+</figure>
+
+<h2>ODM: Original Design Manufacturer</h2>
+
+<p><strong>What it means in practice:</strong> The factory already has a product. They designed it, they engineered it, they hold the tooling, and they are already manufacturing it — potentially for multiple brands. Your job is to select the product, apply your branding, and optionally request modifications within the factory's existing design framework.</p>
+
+<p><strong>What you need to bring:</strong> A brand identity — your logo, your packaging design, your colour palette — and a clear understanding of what modifications you want. ODM does not require engineering drawings or material specifications. The factory provides those because the product already exists.</p>
+
+<p>The level of customisation available under ODM varies by factory and product category. At the basic level, you get logo placement and packaging design — your brand on an existing product in existing colours. One step up, you can typically change colours, finishes, and surface treatments. Further up, some ODM factories allow material substitutions, minor dimensional changes, or the addition of accessories. Beyond that, you are effectively moving into OEM territory and the factory will price accordingly.</p>
+
+<p><strong>What it costs:</strong> ODM is significantly cheaper to start than OEM because you are not paying for tooling or product development. The factory amortised those costs across their existing order book. Your cost is essentially the unit manufacturing cost plus the factory's margin, plus any customisation charges.</p>
+
+<p>Logo and packaging customisation typically adds €0.10 to €0.50 per unit on top of the base product cost for simple logo application — pad printing, silk screening, or label application. Custom packaging — your own box design, insert, and print — adds €0.20 to €1.50 per unit depending on the packaging complexity and print run size.</p>
+
+<p>Minimum order quantities for ODM are lower than OEM. Because the production line is already set up and the tooling already exists, the factory's incremental cost of running your order is lower. Typical ODM MOQs are 200 to 1,000 units for consumer products — sometimes lower for higher-value items. Some ODM factories will run an initial order of 300 to 500 units to let you test the market before committing to larger volumes.</p>
+
+<p><strong>Timeline:</strong> Much faster than OEM. Because the product already exists, sample development is often a single iteration — the factory sends you their existing product with your branding applied, you approve or request adjustments. From initial enquiry to first shipment, ODM typically runs six to twelve weeks. If you are using the product as-is with simple branding, it can be as fast as four weeks.</p>
+
+<p><strong>The advantage:</strong> Speed and capital efficiency. An Irish brand can go from concept to shippable product in under three months with a total upfront investment of €2,000 to €10,000 depending on order size. For market testing, product line extensions, or categories where you do not need design differentiation, ODM is the rational choice.</p>
+
+<p><strong>The risk:</strong> Non-exclusivity. The product you are selling may be identical — functionally and visually — to products sold by other brands sourced from the same factory. In competitive retail categories, this means your only differentiation is brand, packaging, and marketing. If a competitor sources the same ODM product and undercuts your price, you have no product-level moat.</p>
+
+<p>There is also an IP exposure. If you share your packaging design, brand elements, or market positioning with an ODM factory, that information is accessible to the factory's sales team — who also work with your competitors. An ODM factory that sees strong demand for a particular product configuration from an Irish brand will proactively offer that configuration to other Western buyers.</p>
+
+<figure class="article-figure">
+  <img src="/images/the-odm-showroom-shelf-six-brand.webp" alt="Factory showroom shelf displaying six identical vacuum-insulated water bottles in a row, each with a different brand logo and colour scheme. A shelf label shows a Chinese factory model number. All six brands are selling the same ODM product with different branding applied." loading="lazy" width="1280" height="720">
+  <figcaption>ODM reality: six different brands, one product, one factory model number. The bottles are physically identical — the only difference is the logo and the colour. If your competitor finds the same factory, they are selling the same thing.</figcaption>
+</figure>
+
+<h2>OEM vs ODM: the decision framework for Irish brands</h2>
+
+<p>The decision is not which model is "better." It is which model matches your current situation across five variables — capital available, time to market, product differentiation required, volume expectations, and category competitiveness.</p>
+
+<p><strong>Choose ODM if</strong> your priority is speed to market and capital efficiency. You are testing a new product category. You do not have a unique product design or proprietary specification. Your brand's value proposition is built on marketing, positioning, and customer experience rather than product-level innovation. Your first order budget is under €10,000. Your target launch is within three months.</p>
+
+<p>This describes the majority of Irish brands entering a new product category for the first time. A Dublin skincare brand launching a jade roller. A Cork homeware retailer adding a branded line of kitchen utensils. A Galway outdoor brand testing a new category of insulated drinkware. In each case, the product is not proprietary. The brand is. ODM gets the product to market while you build the sales data to justify a future OEM investment.</p>
+
+<p><strong>Choose OEM if</strong> you have a product design that is genuinely differentiated — a novel mechanism, a proprietary formulation, a patented feature, or a design that cannot be achieved by modifying an existing product. You have the capital to invest €15,000 to €60,000 in tooling and development before seeing a single unit of revenue. You have six to twelve months of runway before you need product on shelves. Your competitive advantage depends on the product itself, not just the brand around it.</p>
+
+<p><strong>The hybrid approach that works for most Irish SMEs:</strong> Start with ODM. Use the first twelve to eighteen months to validate the market, build sales volume, understand your customer's preferences, and generate the revenue to fund an OEM development programme. Then invest in OEM for version two — a genuinely differentiated product informed by real market data rather than assumptions.</p>
+
+<p>This is not a compromise. It is how most successful product brands are built. You do not design the perfect product in isolation. You sell a good enough product, learn from the market response, and design a better product with that knowledge. ODM is the market-testing phase. OEM is the scaling phase. The brands that skip ODM and go straight to OEM with an unvalidated product concept are the ones that end up with 8,000 units of unsold inventory in a warehouse outside Naas.</p>
+
+<figure class="article-figure">
+  <img src="/images/the-oem-vs-odm-decision-split.webp" alt="Clean split-screen comparison infographic. Left half labelled OEM — Your Design: full specification required, timeline 4–8 months, upfront cost €15,000–€60,000, high IP protection. Right half labelled ODM — Their Design, Your Brand: logo and packaging only, timeline 6–12 weeks, upfront cost €2,000–€10,000, lower IP protection. Ériu Sourcing logo at bottom." loading="lazy" width="1280" height="720">
+  <figcaption>The decision at a glance. OEM gives you ownership and exclusivity at higher cost and longer timelines. ODM gives you speed and capital efficiency with shared product risk. Most Irish brands should start right and graduate left.</figcaption>
+</figure>
+
+<h2>Protecting your brand in either model</h2>
+
+<p>Whether you go OEM or ODM, three legal protections are non-negotiable when manufacturing in China.</p>
+
+<p><strong>Register your trademark in China</strong> — not just in Ireland or the EU. China operates a first-to-file system. If someone else registers your brand name in China before you do, they own it in that jurisdiction — and your factory is legally obligated to respect that registration, not yours. Chinese trademark registration costs approximately €300 to €600 through a local agent and takes twelve to eighteen months. File before you place your first production order, not after.</p>
+
+<p><strong>Use a manufacturing agreement</strong> — not just a purchase order. The agreement should specify who owns the tooling (you, if you paid for it), who owns the product design and specifications, what happens to the tooling if you stop ordering, non-disclosure provisions covering your product specifications and branding, and the factory's obligation not to sell your product (OEM) or your customised version (ODM) to third parties.</p>
+
+<p><strong>For OEM products with novel designs, file a Chinese design patent.</strong> Chinese design patents are inexpensive — €500 to €1,500 including agent fees — and provide six months of priority filing rights under the Paris Convention, allowing you to file in other jurisdictions later. They are also enforceable within China, which is where the manufacturing and the IP risk both sit.</p>
+
+<h2>How to find the right factory for either model</h2>
+
+<p>The process for identifying ODM and OEM factories is different, and most Irish importers conflate them.</p>
+
+<p><strong>For ODM</strong>, the factory selection is product-first. You are looking for a factory that already makes a product you want to sell. Start with product-level search — on Alibaba for initial research, at Canton Fair for hands-on product evaluation, or through a sourcing agent who can visit factory showrooms in the relevant manufacturing cluster. Evaluate the existing product on quality, finish, and compliance. Request samples from three to five factories making comparable products. Compare.</p>
+
+<p><strong>For OEM</strong>, the factory selection is capability-first. You need a factory with the machinery, materials expertise, and quality systems to manufacture to your specification. This requires a factory audit — not an Alibaba listing review. You need to verify production equipment matches your process requirements, the factory has experience with your material types, quality management systems are in place, and production capacity can accommodate your order volume without your order sitting at the bottom of a queue behind larger clients.</p>
+
+<p>In both cases, the factory verification process described in our <a href="/blog/alibaba-vs-factory-direct-irish-importers">Alibaba vs factory-direct guide</a> applies. Check the business registration on gsxt.gov.cn. Request the business licence. Run a video call from the production floor. Confirm the registered business scope includes 生产制造 (production and manufacturing).</p>
+
+<h2>Where to start</h2>
+
+<p>If you are an Irish brand considering private label manufacturing in China and you are not sure whether OEM or ODM is the right starting point, the answer is almost always ODM — with a clear plan to graduate to OEM once you have market validation and the capital to invest in product development.</p>
+
+<p>The exception is if you already have a differentiated product design, the engineering documentation to support it, and the budget to fund tooling. In that case, OEM from day one makes sense — and the right factory partner will walk you through the development process from sample to production.</p>
+
+<p>Either way, the factory relationship is the variable that determines whether this works. A good factory — whether OEM or ODM — communicates clearly, delivers on sample quality in production, respects your IP, and treats a €15,000 Irish order with the same discipline they apply to a €500,000 US order. Finding that factory from Dublin is the hard part.</p>
+
+<p><a href="/contact">Send us a brief</a>. We will tell you whether OEM or ODM makes sense for your product, give you realistic pricing and MOQ expectations for your category, and introduce you to verified factories that match your requirements.</p>`,
+    excerpt: 'Irish brands wanting their own product from China have two routes — OEM, where you own the design, or ODM, where the factory owns it and you brand it. The decision determines your upfront cost, timeline, MOQ, and whether anyone else can sell the exact same thing.',
+    image: '/images/the-oem-vs-odm-decision-split.webp',
+    imageAlt: 'OEM vs ODM split comparison for Irish brands — OEM means you bring the design, ODM means the factory brings it',
+    faq: [
+      { q: 'What is the difference between OEM and ODM manufacturing in China?', a: 'OEM (Original Equipment Manufacturer) means you own and provide the product design — the factory manufactures to your specification. ODM (Original Design Manufacturer) means the factory already has a product and you apply your brand to it. OEM gives you exclusivity and full IP control but requires higher upfront investment (€15,000–€60,000) and longer timelines (4–8 months). ODM gets you to market in 6–12 weeks with €2,000–€10,000 upfront but the product may be non-exclusive.' },
+      { q: 'What minimum order quantity should I expect for private label manufacturing in China?', a: 'For OEM, expect MOQs of 1,000–5,000 units for consumer goods — higher for low-cost items, lower for complex or premium products. For ODM, MOQs are typically 200–1,000 units since tooling and production setup already exist. Some ODM factories accept initial orders of 300–500 units for market testing before you commit to larger volumes.' },
+      { q: 'How long does OEM manufacturing take in China from concept to shipment?', a: 'Full OEM typically takes four to eight months from initial specification to first production shipment. This covers sample development and approval (6–12 weeks), tooling manufacture for injection moulds (4–8 weeks), pilot production run, quality inspection, and ocean freight to Ireland. ODM is significantly faster at 6–12 weeks total, sometimes as little as four weeks for simple logo and packaging applications.' },
+      { q: 'How do I protect my brand when private label manufacturing in China?', a: 'Three protections are essential: register your trademark in China before placing your first order (China is first-to-file — if someone else registers your name first, they own it there); use a manufacturing agreement specifying tooling ownership, IP rights, and non-disclosure provisions; and for OEM products with novel designs, file a Chinese design patent (€500–€1,500) which is enforceable in China where the manufacturing risk sits.' },
+      { q: 'Should an Irish brand start with OEM or ODM manufacturing?', a: 'For most Irish brands, ODM is the right starting point. It gets you to market in under three months with €2,000–€10,000 upfront, letting you validate demand before committing to OEM tooling costs of €15,000–€60,000. Once you have sales data, customer feedback, and revenue to reinvest, develop a differentiated OEM product for version two. The brands that go straight to OEM with an unvalidated concept are the ones that end up with thousands of units of unsold stock.' },
+    ],
+    relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'alibaba-vs-factory-direct-irish-importers', 'incoterms-explained-irish-importers-fob-cif-exw-dap-china'],
+    internalLinks: [
+      { text: 'Get a sourcing quote', href: '/contact' },
+      { text: 'Our sourcing process', href: '/how-it-works' },
+      { text: 'Our China network', href: '/china-network' },
     ],
   },
 
