@@ -10,7 +10,7 @@ const pageSchemas = [
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
-      { "@type": "ListItem", "position": 2, "name": "How It Works", "item": `${siteUrl}/how-it-works` }
+      { "@type": "ListItem", "position": 2, "name": "How It Works", "item": `${siteUrl}/how-it-works/` }
     ]
   },
   {
@@ -128,7 +128,7 @@ const tiers = [
 ];
 ---
 
-<BaseLayout title={title} description={description} canonical="/how-it-works" jsonLd={pageSchemas}>
+<BaseLayout title={title} description={description} canonical="/how-it-works/" jsonLd={pageSchemas}>
 
   <!-- PAGE HERO -->
   <section class="page-hero section--lg">
@@ -181,7 +181,7 @@ const tiers = [
               ))}
             </ul>
             <div class="tier-action">
-              <a href="/contact" class="btn btn--secondary">Enquire →</a>
+              <a href="/contact/" class="btn btn--secondary">Enquire →</a>
             </div>
           </div>
         ))}
@@ -195,7 +195,7 @@ const tiers = [
       <span class="section-eyebrow section-eyebrow--light">No commitment needed</span>
       <h2>Ready to start?</h2>
       <p>Send me a brief. I'll come back with real factory pricing, a supplier shortlist, and a timeline — no obligation.</p>
-      <a href="/contact" class="btn btn--white">Get a Quote →</a>
+      <a href="/contact/" class="btn btn--white">Get a Quote →</a>
     </div>
   </section>
 

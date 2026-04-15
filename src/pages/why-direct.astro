@@ -10,7 +10,7 @@ const pageSchemas = [
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
-      { "@type": "ListItem", "position": 2, "name": "Why Buy Direct?", "item": `${siteUrl}/why-direct` }
+      { "@type": "ListItem", "position": 2, "name": "Why Buy Direct?", "item": `${siteUrl}/why-direct/` }
     ]
   },
   {
@@ -41,7 +41,7 @@ const pageSchemas = [
 ];
 ---
 
-<BaseLayout title={title} description={description} canonical="/why-direct" jsonLd={pageSchemas}>
+<BaseLayout title={title} description={description} canonical="/why-direct/" jsonLd={pageSchemas}>
 
   <section class="page-hero section--lg">
     <div class="container--narrow">
@@ -143,7 +143,7 @@ const pageSchemas = [
       <span class="section-eyebrow section-eyebrow--light">The numbers don't lie</span>
       <h2>Stop paying wholesale margins on factory-priced goods.</h2>
       <p>Send me what you're importing. I'll show you what it actually costs at factory gate.</p>
-      <a href="/contact" class="btn btn--white">Get Factory Pricing →</a>
+      <a href="/contact/" class="btn btn--white">Get Factory Pricing →</a>
     </div>
   </section>
 

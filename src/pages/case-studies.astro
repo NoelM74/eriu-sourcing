@@ -10,7 +10,7 @@ const pageSchemas = [
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
-      { "@type": "ListItem", "position": 2, "name": "Case Studies", "item": `${siteUrl}/case-studies` }
+      { "@type": "ListItem", "position": 2, "name": "Case Studies", "item": `${siteUrl}/case-studies/` }
     ]
   },
   {
@@ -86,7 +86,7 @@ const caseStudies = [
 ];
 ---
 
-<BaseLayout title={title} description={description} canonical="/case-studies" jsonLd={pageSchemas}>
+<BaseLayout title={title} description={description} canonical="/case-studies/" jsonLd={pageSchemas}>
 
   <section class="page-hero section--lg">
     <div class="container--narrow">
@@ -128,7 +128,7 @@ const caseStudies = [
       <span class="section-eyebrow section-eyebrow--light">Your turn</span>
       <h2>Want results like these?</h2>
       <p>Send me a brief. I'll tell you what your product category actually costs at factory gate — and what you should be paying.</p>
-      <a href="/contact" class="btn btn--white">Get a Sourcing Quote →</a>
+      <a href="/contact/" class="btn btn--white">Get a Sourcing Quote →</a>
     </div>
   </section>
 

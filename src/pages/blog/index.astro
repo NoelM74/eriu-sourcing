@@ -11,7 +11,7 @@ const pageSchemas = [
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${siteUrl}/blog` }
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${siteUrl}/blog/` }
     ]
   }
 ];
@@ -29,7 +29,7 @@ const featuredPost = sortedPosts[0];
 const remainingPosts = sortedPosts.slice(1);
 ---
 
-<BaseLayout title={title} description={description} canonical="/blog" jsonLd={pageSchemas}>
+<BaseLayout title={title} description={description} canonical="/blog/" jsonLd={pageSchemas}>
 
   <!-- HERO -->
   <section class="blog-hero section">
@@ -110,7 +110,7 @@ const remainingPosts = sortedPosts.slice(1);
       <span class="section-eyebrow section-eyebrow--light">Ready to source?</span>
       <h2>Reading about it is a start. Doing it is better.</h2>
       <p>Send us a brief — product, quantity, timeline. We come back with factory-level pricing and a clear plan.</p>
-      <a href="/contact" class="btn btn--white-outline" style="margin-top:1rem">Get a sourcing quote →</a>
+      <a href="/contact/" class="btn btn--white-outline" style="margin-top:1rem">Get a sourcing quote →</a>
     </div>
   </section>
 

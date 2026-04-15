@@ -12,14 +12,14 @@ const pageSchemas = [
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
-      { "@type": "ListItem", "position": 2, "name": "Get a Quote", "item": `${siteUrl}/contact` }
+      { "@type": "ListItem", "position": 2, "name": "Get a Quote", "item": `${siteUrl}/contact/` }
     ]
   },
   {
     "@type": "ContactPage",
     "name": "Get a Sourcing Quote — Ériu Sourcing",
     "description": "Send your sourcing brief. Product, quantity, timeline. Factory-level pricing and supplier shortlist provided. No obligation.",
-    "url": `${siteUrl}/contact`
+    "url": `${siteUrl}/contact/`
   },
   {
     "@type": "FAQPage",
@@ -39,7 +39,7 @@ const pageSchemas = [
 ];
 ---
 
-<BaseLayout title={title} description={description} canonical="/contact" jsonLd={pageSchemas}>
+<BaseLayout title={title} description={description} canonical="/contact/" jsonLd={pageSchemas}>
 
   <section class="contact-hero section--lg">
     <div class="container--narrow">
