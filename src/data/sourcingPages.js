@@ -27,8 +27,8 @@ export const sourcingPages = [
     minOrder: '€5,000–€15,000 per category',
     minOrderShort: '€5k—€15k',
     leadTime: '6—10 wks',
-    image: '/images/shenzhen-electronics-market.webp',
-    imageAlt: 'Shenzhen Huaqiangbei electronics district — factory-direct electronics sourcing agent for Ireland',
+    image: '/images/shenzhen-electronics-factory-automation.webp',
+    imageAlt: 'Shenzhen electronics factory automation line — factory-direct electronics sourcing agent for Ireland',
     contentBody: `
       <p>The Irish electronics retail market imports the vast majority of its product range from China — but almost none of this is bought factory-direct. The typical supply chain involves a Shenzhen manufacturer, a Hong Kong or Guangdong trading company, a European importer (often German or Dutch), and finally an Irish distributor. Each step adds 20–40% margin.</p>
       <p>Sourcing factory-direct from Shenzhen eliminates the trading company and European importer entirely. For Irish electronics retailers, this typically means buying at the same landed cost that Currys PC World or MediaMarkt pay from their direct China suppliers.</p>
