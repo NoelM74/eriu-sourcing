@@ -1,4 +1,4 @@
-﻿// blogPosts.js — Ériu Sourcing content hub
+// blogPosts.js — Ériu Sourcing content hub
 // Each entry is a fully-specified article brief.
 // Published articles replace `draft: true` with `draft: false` and add full `body` content.
 // URL pattern: /blog/[slug]
@@ -198,7 +198,7 @@ export const blogPosts = [
     intent: 'commercial-investigation',
     targetReader: 'Irish business owners already using or considering Alibaba who want to understand whether direct sourcing is achievable',
     estimatedWordCount: 2400,
-    publishDate: '2026-04-22',
+    publishDate: '2026-04-08',
     draft: false,
     body: `<p>Most Irish importers think they're buying from Chinese factories. They're not. They're buying from trading companies — intermediaries who source from those factories, mark the goods up 20 to 40 percent, and present themselves as manufacturers. Alibaba makes this easy to do and almost impossible to detect from Dublin.</p>
 
@@ -673,8 +673,6 @@ export const blogPosts = [
   },
 
   {
-
-  {
     slug: 'ce-marking-china-imports-ireland',
     title: 'CE Marking and China Imports: What Irish Businesses Get Wrong',
     metaTitle: 'CE Marking China Imports Ireland: What to Know | Ériu Sourcing',
@@ -687,7 +685,7 @@ export const blogPosts = [
     intent: 'informational',
     targetReader: 'Irish business owners and buyers who are importing or planning to import from China and are uncertain about CE compliance requirements',
     estimatedWordCount: 2800,
-    publishDate: '2026-05-06',
+    publishDate: '2026-04-12',
     draft: false,
     body: `<p>The CE mark on a product from a Chinese factory is one of the most misunderstood documents in international trade. Irish importers see it and assume compliance. Often, that assumption is wrong — and the consequences land at Dublin Port, not at the factory gate where the problem started.</p>
 
