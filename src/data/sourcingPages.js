@@ -480,8 +480,6 @@ export const sourcingPages = [
     leadTime: '12—20 wks',
     image: '/images/modular-building-construction.webp',
     imageAlt: 'Steel-frame modular building with sandwich panel walls — CE-compliant sourcing from China for Irish construction',
-    secondImage: '/images/Fold-out-house-20ft.webp',
-    secondImageAlt: '20ft fold-out modular house — prefabricated structure sourced from China for Ireland',
     contentBody: `
       <p>The Irish construction market has seen rapid growth in demand for modular and prefabricated structures — site offices, canteens, agricultural buildings, cold stores, and temporary accommodation. The majority of this demand is currently met by UK and European suppliers at significant premium to Chinese manufacturing equivalents.</p>
       <p>Chinese modular building manufacturers supply construction projects in Germany, France, the Netherlands, and Scandinavia directly. The barrier to Irish market adoption has been the absence of an established direct-sourcing pathway and familiarity with Chinese CE documentation. Ériu Sourcing addresses both: factory-verified CE documentation and a proven freight pathway from China to Irish construction sites.</p>

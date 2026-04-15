@@ -139,8 +139,6 @@ const categories = [
     bullets: ['Steel-framed modular buildings', 'PIR and EPS insulated sandwich panels', 'Prefab site offices and canteens', 'Cold store panels', 'Agricultural and industrial buildings', 'CE-compliant structural documentation'],
     image: '/images/modular-building-construction.webp',
     imageAlt: 'Steel-frame modular building with sandwich panel walls — China direct sourcing for Irish construction',
-    secondImage: '/images/Fold-out-house-20ft.webp',
-    secondImageAlt: '20ft fold-out modular house — prefabricated structure sourced from China for Ireland',
     hubs: 'Henan Province • Guangdong Province',
     note: 'A dedicated site for modular buildings and construction products is in development. For sourcing enquiries, use the contact form below.',
   },
@@ -187,11 +185,8 @@ const categories = [
             </div>
           </div>
           {cat.image && (
-            <div class={`cat-image ${cat.secondImage ? 'cat-image--dual' : ''}`}>
+            <div class="cat-image">
               <img src={cat.image} alt={cat.imageAlt} width="560" height="380" loading="lazy" />
-              {cat.secondImage && (
-                <img src={cat.secondImage} alt={cat.secondImageAlt} width="560" height="380" loading="lazy" class="cat-image__second" />
-              )}
             </div>
           )}
         </div>
