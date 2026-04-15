@@ -1,0 +1,241 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = "What We Source from China | Ériu Sourcing Ireland";
+const description = "Fashion, electronics, furniture, construction materials, hospitality fit-out, pet supplies, bags and modular buildings — sourced factory-direct from China for Irish businesses.";
+
+const siteUrl = 'https://eriusourcing.com';
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "What We Source", "item": `${siteUrl}/product-categories` }
+    ]
+  },
+  {
+    "@type": "Service",
+    "serviceType": "China Sourcing Agent",
+    "provider": { "@type": "ProfessionalService", "@id": `${siteUrl}/#organization` },
+    "areaServed": [{ "@type": "Country", "name": "Ireland" }, { "@type": "Country", "name": "United Kingdom" }],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "China Sourcing Categories",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fashion & Apparel Sourcing from China" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Electronics Sourcing from China" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Furniture Sourcing from Foshan, China" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Construction Materials Sourcing from China" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hospitality Fit-Out Sourcing from China" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pet Supplies Sourcing from China" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bags & Luggage Sourcing from China" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Modular Buildings Sourcing from China" } }
+      ]
+    }
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What products can you source directly from China for Irish businesses?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Ériu Sourcing covers eight major categories: fashion and apparel, electronics and technology, furniture and furnishings, construction and building materials, hospitality fit-out, pet supplies and accessories, bags and luggage, and modular buildings and sandwich panels. Active factory relationships are maintained in the main Chinese manufacturing clusters for each category." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you source construction materials from China that meet Irish and EU standards?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Construction materials including aluminium profiles, ceramic and porcelain tiles, sanitaryware, and insulated panels are sourced with full CE compliance documentation. CE marking verification is conducted at the factory in China before shipment. Technical documentation, test reports, and Declaration of Conformity are provided with every construction materials order." }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you source furniture directly from Foshan, China?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Foshan in Guangdong Province is the world's largest furniture manufacturing cluster. Ériu Sourcing has direct factory relationships in Foshan covering residential furniture, office furniture, hospitality FF&E, and outdoor furniture. Pre-shipment QC is conducted at the factory before container sealing. Foshan furniture can typically be delivered to Ireland at 40–55% below Irish wholesale pricing." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you source electronics from China with CE certification for Ireland?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Electronics and technology products are sourced directly from Shenzhen and Zhengzhou manufacturing clusters — including consumer electronics, accessories, cables, IT hardware, and smart home devices. CE certification and EU Declaration of Conformity documentation is verified at source before shipment." }
+      }
+    ]
+  }
+];
+
+const categories = [
+  {
+    id: 'fashion',
+    slug: 'fashion-apparel-from-china-ireland',
+    name: 'Fashion & Apparel',
+    description: 'Garments, sportswear, workwear, uniforms, and accessories sourced direct from Guangzhou, Foshan, and Zhengzhou textile clusters. Lower-cost Henan production available for high-volume basics.',
+    bullets: ['Performance and fashion apparel', 'Uniforms and workwear', 'Home textiles and bedding', 'Sports and outdoor clothing'],
+    image: '/images/fashion-apparel-factory.webp',
+    imageAlt: 'Chinese garment and sportswear factory — fashion and apparel sourced direct for Irish retailers',
+    hubs: 'Guangzhou, Foshan (Guangdong) • Zhengzhou (Henan)',
+  },
+  {
+    id: 'electronics',
+    slug: 'electronics-from-china-ireland',
+    name: 'Electronics & Technology',
+    description: 'Consumer electronics, accessories, cables, IT hardware, and components sourced directly from Shenzhen and Zhengzhou. CE certification verified before shipment.',
+    bullets: ['Consumer electronics accessories', 'Cables, chargers, connectors', 'IT hardware and peripherals', 'Smart home devices', 'Industrial electronics'],
+    image: '/images/hero-china-factory-floor.webp',
+    imageAlt: 'Electronics manufacturing factory — China direct sourcing for Irish retailers',
+    hubs: 'Shenzhen (Huaqiangbei) • Zhengzhou (Foxconn cluster)',
+  },
+  {
+    id: 'furniture',
+    slug: 'furniture-from-china-ireland',
+    name: 'Furniture & Furnishings',
+    description: 'Foshan is the world\'s largest furniture manufacturing cluster — sofas, dining sets, bedroom furniture, office furniture, and outdoor furniture. Direct factory access with pre-shipment QC.',
+    bullets: ['Residential furniture', 'Office furniture', 'Hospitality FF&E', 'Outdoor and garden furniture', 'Custom upholstery'],
+    image: '/images/foshan-furniture-factory.webp',
+    imageAlt: 'Foshan furniture factory — direct sourcing for Irish retailers and hospitality',
+    hubs: 'Foshan, Guangzhou (Guangdong)',
+  },
+  {
+    id: 'construction',
+    slug: 'construction-materials-from-china-ireland',
+    name: 'Construction & Building Materials',
+    description: 'Aluminium profiles, sanitaryware, tiles, ceramics, cladding, hardware, and electrical components. Full CE compliance documentation provided for every product category.',
+    bullets: ['Aluminium profiles and extrusions', 'Ceramic and porcelain tiles', 'Sanitaryware and bathroom fittings', 'Commercial lighting (Zhongshan)', 'Construction fasteners and hardware', 'Insulation and facade materials'],
+    image: '/images/construction-materials-factory.webp',
+    imageAlt: 'Chinese building materials factory with aluminium profiles and ceramic tiles — direct sourcing for Irish construction',
+    hubs: 'Foshan (ceramics/sanitaryware) • Henan (aluminium) • Zhongshan (lighting)',
+  },
+  {
+    id: 'hospitality',
+    slug: 'hospitality-fitout-from-china-ireland',
+    name: 'Hospitality Fit-Out',
+    description: 'Full hotel, pub, and restaurant fit-out sourced factory-direct. Furniture, lighting, ceramics, glassware, tableware, and FF&E delivered to Irish sites at 30–50% below Irish wholesale.',
+    bullets: ['Hotel bedroom furniture', 'Restaurant and bar seating', 'Commercial lighting and pendants', 'Ceramic floor and wall tiles', 'Tableware and glassware', 'Kitchen equipment'],
+    image: '/images/hospitality-fitout-lobby.webp',
+    imageAlt: 'Hotel lobby fit-out sourced direct from China — Foshan furniture, Zhongshan lighting, Foshan ceramics',
+    hubs: 'Foshan, Zhongshan, Guangzhou (Guangdong)',
+  },
+  {
+    id: 'pet',
+    slug: 'pet-supplies-from-china-ireland',
+    name: 'Pet Supplies & Accessories',
+    description: 'Pet accessories, beds, leads, collars, toys, and feeding equipment sourced from Guangzhou and Zhongshan manufacturing clusters — the main supply base for global pet retailers.',
+    bullets: ['Collars, leads, and harnesses', 'Pet beds and furniture', 'Toys and enrichment products', 'Feeding bowls and accessories', 'Grooming tools'],
+    image: '/images/pet-accessories-factory.webp',
+    imageAlt: 'Pet accessories factory in Guangzhou — China direct sourcing for Irish pet retailers',
+    hubs: 'Guangzhou, Zhongshan (Guangdong)',
+  },
+  {
+    id: 'bags',
+    slug: 'bags-luggage-from-china-ireland',
+    name: 'Bags & Luggage',
+    description: 'Fashion bags, backpacks, luggage, and accessories sourced from Guangzhou and Dongguan — China\'s primary leather goods and bag manufacturing base.',
+    bullets: ['Fashion handbags', 'Backpacks and daypacks', 'Travel luggage', 'Promotional bags', 'Sports bags and equipment'],
+    image: '/images/bags-luggage-factory.webp',
+    imageAlt: 'Bags and leather goods factory in Guangzhou — China direct sourcing for Irish fashion and retail',
+    hubs: 'Guangzhou, Dongguan (Guangdong)',
+  },
+  {
+    id: 'modular-buildings',
+    slug: 'modular-buildings-from-china-ireland',
+    name: 'Modular Buildings & Sandwich Panels',
+    description: 'Steel-framed modular buildings, insulated sandwich panels (PIR, EPS, PUR), and prefabricated structures direct from Chinese manufacturers. CE compliance verified. Full technical documentation provided.',
+    bullets: ['Steel-framed modular buildings', 'PIR and EPS insulated sandwich panels', 'Prefab site offices and canteens', 'Cold store panels', 'Agricultural and industrial buildings', 'CE-compliant structural documentation'],
+    image: '/images/modular-building-construction.webp',
+    imageAlt: 'Steel-frame modular building with sandwich panel walls — China direct sourcing for Irish construction',
+    hubs: 'Henan Province • Guangdong Province',
+    note: 'A dedicated site for modular buildings and construction products is in development. For sourcing enquiries, use the contact form below.',
+  },
+];
+---
+
+<BaseLayout title={title} description={description} canonical="/product-categories" jsonLd={pageSchemas}>
+
+  <section class="page-hero section--lg">
+    <div class="container--narrow">
+      <span class="section-eyebrow">What We Source</span>
+      <h1>Every major category Irish businesses import from China.</h1>
+      <p class="lead">Active factory relationships across Shenzhen, Guangzhou, Foshan, Zhongshan, Dongguan, and Zhengzhou — covering the full range of China-Ireland trade categories.</p>
+    </div>
+  </section>
+
+  <section class="categories-section section section--alt">
+    <div class="container">
+      <div class="categories-nav">
+        {categories.map(cat => (
+          <a href={`#${cat.id}`} class="cat-nav-link">{cat.name}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {categories.map((cat, i) => (
+    <section class={`cat-section section ${i % 2 === 1 ? '' : 'section--alt'}`} id={cat.id}>
+      <div class="container">
+        <div class={`cat-grid ${cat.image ? 'cat-grid--with-image' : ''}`}>
+          <div class="cat-content">
+            <span class="cat-hub">{cat.hubs}</span>
+            <h2>{cat.name}</h2>
+            <p>{cat.description}</p>
+            {cat.note && <p class="cat-note">{cat.note}</p>}
+            <ul class="cat-bullets">
+              {cat.bullets.map(b => <li>{b}</li>)}
+            </ul>
+            <div class="cat-actions">
+              <a href="/contact" class="btn btn--primary">Source {cat.name} →</a>
+              {cat.slug && (
+                <a href={`/source/${cat.slug}`} class="cat-guide-link">Full sourcing guide →</a>
+              )}
+            </div>
+          </div>
+          {cat.image && (
+            <div class="cat-image">
+              <img src={cat.image} alt={cat.imageAlt} width="560" height="380" loading="lazy" />
+            </div>
+          )}
+        </div>
+      </div>
+    </section>
+  ))}
+
+  <section class="cta-strip section--emerald">
+    <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">Not listed?</span>
+      <h2>Don't see your category?</h2>
+      <p>If it's manufactured in China, I can source it. Send me a brief and I'll tell you whether we can help.</p>
+      <a href="/contact" class="btn btn--white">Get a Quote →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  .page-hero { border-bottom: 1px solid rgba(15,33,49,.08); }
+  .page-hero h1 { font-size: clamp(2.25rem, 5vw, 4rem); }
+  .lead { font-size: 1.25rem; color: #5a5a5a; line-height: 1.7; margin: 1rem 0 0; max-width: 56ch; }
+
+  .categories-nav { display: flex; flex-wrap: wrap; gap: .625rem; padding: 1.25rem 0; }
+  .cat-nav-link { font-size: .875rem; font-weight: 600; color: var(--color-navy); text-decoration: none; padding: .375rem .875rem; border: 1.5px solid rgba(15,33,49,.15); border-radius: 999px; transition: all .12s ease; white-space: nowrap; }
+  .cat-nav-link:hover { border-color: var(--color-teal); color: var(--color-teal); background: rgba(28,124,131,.05); }
+
+  .cat-grid { max-width: 720px; }
+  .cat-grid--with-image { display: grid; grid-template-columns: 1fr 1fr; gap: 3.5rem; align-items: start; max-width: none; }
+  .cat-hub { display: block; font-size: .8125rem; font-weight: 700; color: var(--color-teal); text-transform: uppercase; letter-spacing: .07em; margin-bottom: .625rem; }
+  .cat-content h2 { margin-bottom: .875rem; }
+  .cat-content p { color: var(--color-slate); margin-bottom: .875rem; line-height: 1.65; }
+  .cat-note { font-size: .875rem; font-style: italic; color: var(--color-grey) !important; }
+  .cat-bullets { list-style: none; margin: .5rem 0 0; padding: 0; display: flex; flex-direction: column; gap: .4rem; }
+  .cat-bullets li { font-size: .9375rem; color: var(--color-slate); padding-left: 1.25rem; position: relative; line-height: 1.45; }
+  .cat-bullets li::before { content: '—'; position: absolute; left: 0; color: var(--color-emerald); font-weight: 700; }
+  .cat-image img { width: 100%; height: 340px; object-fit: cover; border-radius: var(--radius-lg); }
+
+  .cat-actions { display: flex; align-items: center; gap: 1.25rem; flex-wrap: wrap; margin-top: 1rem; }
+  .cat-guide-link { font-size: .9rem; font-weight: 600; color: var(--color-emerald); text-decoration: none; white-space: nowrap; }
+  .cat-guide-link:hover { text-decoration: underline; }
+
+  .cta-strip { padding: 5rem 0; }
+  .cta-strip h2 { font-size: clamp(1.75rem, 4vw, 3rem); margin-bottom: 1rem; }
+  .cta-strip p { font-size: 1.125rem; margin: 0 auto 2rem; max-width: 46ch; }
+
+  @media (max-width: 900px) {
+    .cat-grid--with-image { grid-template-columns: 1fr; }
+    .cat-image { order: -1; }
+    .cat-image img { height: 240px; }
+  }
+</style>

@@ -1,0 +1,216 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = "Get a Quote — Factory-Direct Sourcing from China | Ériu Sourcing Ireland";
+const description = "Send your sourcing brief. Product, quantity, timeline. I'll come back with factory-level pricing, a supplier shortlist, and a clear plan. No obligation.";
+
+const FORMSPREE_ID = "xzdkoabw";
+
+const siteUrl = 'https://eriusourcing.com';
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Get a Quote", "item": `${siteUrl}/contact` }
+    ]
+  },
+  {
+    "@type": "ContactPage",
+    "name": "Get a Sourcing Quote — Ériu Sourcing",
+    "description": "Send your sourcing brief. Product, quantity, timeline. Factory-level pricing and supplier shortlist provided. No obligation.",
+    "url": `${siteUrl}/contact`
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How do I get a China sourcing quote for my business?",
+        "acceptedAnswer": { "@type": "Answer", "text": "To get a sourcing quote, submit the contact form with your product name, target quantity, quality grade, and any reference products. Include a target landed price if you have one. Ériu Sourcing will respond with factory-level pricing, a supplier shortlist, and a sourcing plan. There is no obligation and no fee to receive a quote." }
+      },
+      {
+        "@type": "Question",
+        "name": "How quickly will I receive a response to my sourcing enquiry?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Sourcing enquiries are typically responded to within 24–48 hours. For standard product categories with existing factory relationships, an initial pricing indication can be provided quickly. For complex or custom products, a factory identification process is outlined in the response." }
+      }
+    ]
+  }
+];
+---
+
+<BaseLayout title={title} description={description} canonical="/contact" jsonLd={pageSchemas}>
+
+  <section class="contact-hero section--lg">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Get a Quote</span>
+      <h1>Tell me what you need.</h1>
+      <p class="lead">I'll come back with factory-level pricing, a supplier shortlist, and a timeline — no obligation, no hard sell. Direct reply from Noel within 24 hours.</p>
+
+      <div class="contact-options">
+        <a href="https://wa.me/353871187806" class="contact-option whatsapp" target="_blank" rel="noopener noreferrer">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          WhatsApp: +353 87 118 7806
+        </a>
+        <a href="mailto:hello@eriusourcing.com" class="contact-option email">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+          hello@eriusourcing.com
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="form-section section section--alt">
+    <div class="container--narrow">
+      <!-- Success / error messages — shown/hidden by Formspree via data-fs-success / data-fs-error -->
+      <div data-fs-success class="form-msg form-msg--success" role="alert">
+        <strong>Enquiry received.</strong> I'll review your details and come back within 24 hours with factory-level options and pricing.
+      </div>
+      <div data-fs-error class="form-msg form-msg--error" role="alert">
+        <strong>Something went wrong.</strong> Please try again or email <a href="mailto:hello@eriusourcing.com">hello@eriusourcing.com</a> directly.
+      </div>
+
+      <form id="quote-form" novalidate>
+        <div class="form-grid">
+          <div class="field">
+            <label for="name">Your Name <span class="req">*</span></label>
+            <input type="text" id="name" name="name" autocomplete="name" placeholder="John Murphy" required minlength="2" data-fs-field />
+            <span class="field-error" data-fs-error="name"></span>
+          </div>
+          <div class="field">
+            <label for="company">Company Name</label>
+            <input type="text" id="company" name="company" autocomplete="organization" placeholder="Murphy Retail Ltd" data-fs-field />
+          </div>
+          <div class="field">
+            <label for="email">Email Address <span class="req">*</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" placeholder="john@yourcompany.ie" required data-fs-field />
+            <span class="field-error" data-fs-error="email"></span>
+          </div>
+          <div class="field">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="+353 1 234 5678" data-fs-field />
+          </div>
+          <div class="field field--full">
+            <label for="category">Product Category <span class="req">*</span></label>
+            <select id="category" name="category" required data-fs-field>
+              <option value="" disabled selected>Select a category…</option>
+              <option value="fashion-apparel">Fashion & Apparel</option>
+              <option value="electronics">Electronics & Technology</option>
+              <option value="furniture">Furniture & Furnishings</option>
+              <option value="pet-supplies">Pet Supplies & Accessories</option>
+              <option value="construction-materials">Construction & Building Materials</option>
+              <option value="bags-luggage">Bags & Luggage</option>
+              <option value="hospitality-fitout">Hospitality Fit-Out</option>
+              <option value="modular-buildings">Modular Buildings & Sandwich Panels</option>
+              <option value="other">Other — I'll describe below</option>
+            </select>
+            <span class="field-error" data-fs-error="category"></span>
+          </div>
+          <div class="field field--full">
+            <label for="description">What are you looking to source? <span class="req">*</span></label>
+            <textarea id="description" name="description" rows="5" placeholder="Product, quantity, specifications, reference products, quality grade…" required minlength="20" data-fs-field></textarea>
+            <span class="field-error" data-fs-error="description"></span>
+          </div>
+          <div class="field">
+            <label for="order_value">Estimated Order Value</label>
+            <select id="order_value" name="order_value" data-fs-field>
+              <option value="" disabled selected>Select a range…</option>
+              <option value="under-5k">Under €5,000</option>
+              <option value="5k-20k">€5,000 – €20,000</option>
+              <option value="20k-100k">€20,000 – €100,000</option>
+              <option value="100k-500k">€100,000 – €500,000</option>
+              <option value="500k-plus">€500,000+</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="timeline">When do you need it?</label>
+            <select id="timeline" name="timeline" data-fs-field>
+              <option value="" disabled selected>Select a timeframe…</option>
+              <option value="asap">As soon as possible</option>
+              <option value="1-3-months">1–3 months</option>
+              <option value="3-6-months">3–6 months</option>
+              <option value="6-plus-months">6+ months / planning ahead</option>
+              <option value="not-sure">Not sure yet</option>
+            </select>
+          </div>
+        </div>
+
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+
+        <div class="form-footer">
+          <button type="submit" class="btn btn--primary" data-fs-submit-btn>Send Enquiry</button>
+          <p class="form-note">No spam. No cold calls. Direct reply from Noel within 24 hours.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<script>
+  // Formspree data-attribute initialization (CDN, no bundler)
+  window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+  formspree('initForm', { formElement: '#quote-form', formId: 'xzdkoabw' });
+</script>
+<script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+
+<style>
+  .contact-hero { border-bottom: 1px solid rgba(15,33,49,.08); }
+  .contact-hero h1 { font-size: clamp(2.25rem, 5vw, 4rem); }
+  .lead { font-size: 1.25rem; color: #5a5a5a; line-height: 1.7; margin: 1rem 0 1.75rem; max-width: 54ch; }
+
+  .contact-options { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: .5rem; }
+  .contact-option { display: inline-flex; align-items: center; gap: .625rem; font-weight: 600; font-size: .9375rem; text-decoration: none; padding: .625rem 1.25rem; border-radius: var(--radius-md); border: 2px solid; min-height: 44px; transition: all .12s ease; }
+  .contact-option.whatsapp { color: #128C7E; border-color: #128C7E; }
+  .contact-option.whatsapp:hover { background: #128C7E; color: #fff; }
+  .contact-option.email { color: var(--color-teal); border-color: var(--color-teal); }
+  .contact-option.email:hover { background: var(--color-teal); color: #fff; }
+
+  .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+  .field { display: flex; flex-direction: column; gap: .375rem; }
+  .field--full { grid-column: 1/-1; }
+  label { font-size: .875rem; font-weight: 600; color: var(--color-navy); }
+  .req { color: var(--color-emerald); }
+
+  input, select, textarea {
+    font-family: var(--font-body); font-size: 1rem; color: var(--color-navy);
+    background: var(--color-white); border: 1.5px solid #D4D0C8; border-radius: 6px;
+    padding: .75rem 1rem; min-height: 44px; width: 100%; box-sizing: border-box;
+    transition: border-color .15s ease, box-shadow .15s ease; -webkit-appearance: none; appearance: none;
+  }
+  input::placeholder, textarea::placeholder { color: var(--color-grey); }
+  input:focus, select:focus, textarea:focus { outline: none; border-color: var(--color-teal); box-shadow: 0 0 0 3px rgba(28,124,131,.15); }
+  select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%230F2131' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right .875rem center; padding-right: 2.5rem; cursor: pointer; }
+  textarea { resize: vertical; min-height: 120px; }
+
+  .form-footer { margin-top: 1.75rem; display: flex; flex-direction: column; gap: .75rem; align-items: flex-start; }
+  .form-note { font-size: .8125rem; color: var(--color-grey); margin: 0; }
+
+  /* Formspree hides data-fs-success and data-fs-error by default; shown on event */
+  [data-fs-success], [data-fs-error] { display: none; }
+  /* field-level error text */
+  .field-error { font-size: .8125rem; color: #991B1B; min-height: 1rem; }
+  /* aria-invalid styling from Formspree */
+  input[aria-invalid="true"], select[aria-invalid="true"], textarea[aria-invalid="true"] {
+    border-color: #DC2626;
+    box-shadow: 0 0 0 2px rgba(220,38,38,.12);
+  }
+  /* disabled submit button state */
+  button[data-fs-submit-btn]:disabled { opacity: .65; cursor: not-allowed; }
+
+  .form-msg { margin-top: 1.5rem; padding: 1rem 1.25rem; border-radius: 6px; font-size: .9375rem; line-height: 1.55; }
+  .form-msg--success { background: #EAF4EF; border: 1.5px solid #A8D5B8; color: #1A533E; }
+  .form-msg--error { background: #FEF2F2; border: 1.5px solid #FECACA; color: #991B1B; }
+  .form-msg a { color: inherit; font-weight: 600; }
+
+  @media (max-width: 600px) {
+    .form-grid { grid-template-columns: 1fr; }
+    .field--full { grid-column: 1; }
+    .btn { width: 100%; text-align: center; }
+  }
+</style>

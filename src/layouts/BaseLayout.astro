@@ -1,0 +1,176 @@
+---
+// BaseLayout.astro — Ériu Sourcing
+// Provides: SEO meta, GEO targeting, JSON-LD, Fontshare fonts, dark mode, Header + Footer
+
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  canonical?: string;
+  ogImage?: string;
+  ogImageAlt?: string;
+  ogType?: string;
+  pageType?: 'home' | 'page' | 'category';
+  jsonLd?: object | object[];  // page-specific schemas to add to @graph
+}
+
+const {
+  title,
+  description,
+  canonical,
+  ogImage = '/images/hero-china-factory-floor.webp',
+  ogImageAlt = 'Ériu Sourcing — Factory-direct from China to Ireland',
+  ogType = 'website',
+  jsonLd,
+} = Astro.props;
+
+const siteUrl = 'https://eriusourcing.com';
+const canonicalUrl = canonical ? `${siteUrl}${canonical}` : `${siteUrl}${Astro.url.pathname}`;
+
+// Base org schema — always present on every page
+const orgSchema = {
+  "@type": "ProfessionalService",
+  "@id": `${siteUrl}/#organization`,
+  "name": "Ériu Sourcing",
+  "description": "Factory-direct sourcing from China to Ireland. Supplier identification, QC inspection, CE compliance, logistics management. 18 years China experience.",
+  "url": siteUrl,
+  "image": `${siteUrl}/images/hero-china-factory-floor.webp`,
+  "areaServed": [
+    { "@type": "Country", "name": "Ireland" },
+    { "@type": "Country", "name": "United Kingdom" }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Springfield, Clonlara",
+    "addressLocality": "Co. Clare",
+    "postalCode": "V94 R2DX",
+    "addressCountry": "IE"
+  },
+  "location": [
+    {
+      "@type": "Place",
+      "name": "Ériu Sourcing — Shenzhen Office",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3rd Floor Building D, Minle Industrial Park, Meiban Rd, Longhua",
+        "addressLocality": "Shenzhen",
+        "postalCode": "318151",
+        "addressCountry": "CN"
+      }
+    },
+    {
+      "@type": "Place",
+      "name": "Ériu Sourcing — Zhengzhou Office",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2206 Unit 2, Nanyang Road, Huji",
+        "addressLocality": "Zhengzhou",
+        "addressCountry": "CN"
+      }
+    }
+  ],
+  "telephone": "+353871187806",
+  "founder": {
+    "@type": "Person",
+    "name": "Noel",
+    "description": "18 years based in China. Co-founded PFC Express in 2011, growing it to €30M+ annual revenue. Factory-direct sourcing specialist for Irish businesses."
+  },
+  "knowsAbout": [
+    "China Sourcing", "Factory Direct Purchasing", "Pre-shipment Quality Control",
+    "CE Marking Compliance", "Import Logistics", "Supplier Vetting",
+    "Alibaba Alternative", "Irish Import Agent"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "sales",
+    "email": "noel@china-fulfillment.com",
+    "telephone": "+353871187806",
+    "areaServed": ["IE", "GB"],
+    "availableLanguage": "English"
+  },
+  "sameAs": ["https://china-fulfillment.com"]
+};
+
+// Merge org schema + page-specific schemas into a single @graph
+const pageSchemas = jsonLd
+  ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd])
+  : [];
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [orgSchema, ...pageSchemas]
+};
+---
+
+<!doctype html>
+<html lang="en-IE">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary meta -->
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Ériu Sourcing" />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <!-- GEO targeting -->
+    <meta name="geo.region" content="IE" />
+    <meta name="geo.placename" content="Ireland" />
+    <meta name="ICBM" content="53.1424, -7.6921" />
+
+    <!-- hreflang -->
+    <link rel="alternate" hreflang="en-ie" href={canonicalUrl} />
+    <link rel="alternate" hreflang="en-gb" href={canonicalUrl} />
+    <link rel="alternate" hreflang="x-default" href={canonicalUrl} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content={ogType} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={`${siteUrl}${ogImage}`} />
+    <meta property="og:image:alt" content={ogImageAlt} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_IE" />
+    <meta property="og:site_name" content="Ériu Sourcing" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={`${siteUrl}${ogImage}`} />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+
+    <!-- Fontshare — Boska (display) + Satoshi (body) -->
+    <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+    <link rel="dns-prefetch" href="https://api.fontshare.com" />
+    <link
+      rel="stylesheet"
+      href="https://api.fontshare.com/v2/css?f[]=boska@700&f[]=satoshi@400,500,700&display=swap"
+    />
+
+    <!-- JSON-LD structured data -->
+    <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+
+    <!-- Theme colour -->
+    <meta name="theme-color" content="#1A533E" />
+    <meta name="color-scheme" content="light dark" />
+  </head>
+  <body>
+    <Header />
+    <main id="main-content">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

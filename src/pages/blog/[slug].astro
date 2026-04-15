@@ -1,0 +1,524 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { blogPosts, blogCategories } from '../../data/blogPosts.js';
+
+export function getStaticPaths() {
+  return blogPosts.map(post => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const siteUrl = 'https://eriusourcing.com';
+
+// Related posts — by slug array defined in data
+const relatedPosts = blogPosts.filter(p => post.relatedSlugs?.includes(p.slug)).slice(0, 3);
+
+// Schema
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${siteUrl}/blog` },
+      { "@type": "ListItem", "position": 3, "name": post.title, "item": `${siteUrl}/blog/${post.slug}` },
+    ]
+  },
+  {
+    "@type": "Article",
+    "@id": `${siteUrl}/blog/${post.slug}/#article`,
+    "headline": post.title,
+    "description": post.metaDescription,
+    "datePublished": post.publishDate,
+    "dateModified": post.publishDate,
+    "author": {
+      "@type": "Person",
+      "name": "Noel",
+      "description": "18 years based in China across sourcing, logistics, and supply chain"
+    },
+    "publisher": { "@id": `${siteUrl}/#organization` },
+    "image": `${siteUrl}${post.image}`,
+    "mainEntityOfPage": `${siteUrl}/blog/${post.slug}`,
+    "keywords": [post.primaryKeyword, ...(post.secondaryKeywords || [])].join(', '),
+    "wordCount": post.estimatedWordCount,
+  },
+  ...(post.faq && post.faq.length > 0 ? [{
+    "@type": "FAQPage",
+    "mainEntity": post.faq.map(item => ({
+      "@type": "Question",
+      "name": item.q,
+      "acceptedAnswer": { "@type": "Answer", "text": item.a }
+    }))
+  }] : []),
+];
+---
+
+<BaseLayout
+  title={post.metaTitle}
+  description={post.metaDescription}
+  canonical={`/blog/${post.slug}`}
+  ogImage={post.image}
+  ogType="article"
+  jsonLd={pageSchemas}
+>
+
+  <!-- ARTICLE HERO -->
+  <section class="article-hero">
+    <div class="container--narrow">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span aria-hidden="true">›</span>
+        <a href="/blog">Blog</a>
+        <span aria-hidden="true">›</span>
+        <span aria-current="page">{blogCategories[post.category] || post.category}</span>
+      </nav>
+      <span class="section-eyebrow">{post.eyebrow}</span>
+      <h1>{post.h1}</h1>
+      <div class="article-meta">
+        <span class="meta-item">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M7 1a6 6 0 100 12A6 6 0 007 1zm0 1a5 5 0 110 10A5 5 0 017 2zm-.5 2.5v3.25l2.5 1.5.5-.87-2-1.2V4.5h-1z" fill="currentColor"/>
+          </svg>
+          {post.estimatedWordCount.toLocaleString()} words
+        </span>
+        <span class="meta-item">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <rect x="1" y="2" width="12" height="11" rx="1.5" stroke="currentColor" stroke-width="1.2" fill="none"/>
+            <path d="M4 1v2M10 1v2M1 5h12" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          </svg>
+          {new Date(post.publishDate).toLocaleDateString('en-IE', { day: 'numeric', month: 'long', year: 'numeric' })}
+        </span>
+        {post.draft && <span class="draft-label">Draft — not yet published</span>}
+      </div>
+    </div>
+  </section>
+
+  <!-- HERO IMAGE -->
+  <div class="article-hero-img">
+    <div class="container--wide">
+      <img
+        src={post.image}
+        alt={post.imageAlt}
+        width="1200"
+        height="630"
+        loading="eager"
+      />
+    </div>
+  </div>
+
+  <!-- ARTICLE BODY -->
+  <article class="article-body">
+    <div class="container--narrow">
+
+      {post.draft ? (
+        /* ── COMING SOON (draft articles) ── */
+        <div class="coming-soon">
+          <div class="coming-soon-inner">
+            <span class="section-eyebrow">Coming soon</span>
+            <h2>This article is in preparation.</h2>
+            <p>We are writing a full, in-depth guide on this topic based on 18 years of on-the-ground experience in China. It covers:</p>
+            <ul class="coming-soon-list">
+              {post.sections.map(s => <li>{s}</li>)}
+            </ul>
+            <p>Want to be notified when it's published, or have a specific question in the meantime?</p>
+            <a href="/contact" class="btn btn--primary">Get in touch →</a>
+          </div>
+        </div>
+      ) : (
+        /* ── PUBLISHED ARTICLE ── */
+        <div class="article-content" set:html={post.body} />
+      )}
+
+      {/* FAQ section — always show if data exists */}
+      {post.faq && post.faq.length > 0 && (
+        <div class="faq-section">
+          <h2>Frequently asked questions</h2>
+          <div class="faq-list">
+            {post.faq.map(item => (
+              <details class="faq-item">
+                <summary class="faq-q">{item.q}</summary>
+                <div class="faq-a">
+                  <p>{item.a}</p>
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Internal links */}
+      {post.internalLinks && post.internalLinks.length > 0 && (
+        <div class="internal-links-box">
+          <span class="box-label">Also on Ériu Sourcing</span>
+          <div class="link-list">
+            {post.internalLinks.map(link => (
+              <a href={link.href} class="int-link">{link.text} →</a>
+            ))}
+          </div>
+        </div>
+      )}
+
+    </div>
+  </article>
+
+  <!-- RELATED POSTS -->
+  {relatedPosts.length > 0 && (
+    <section class="section section--alt related-section">
+      <div class="container">
+        <span class="section-eyebrow">Related reading</span>
+        <h2>More from the sourcing hub</h2>
+        <div class="related-grid">
+          {relatedPosts.map(related => (
+            <a href={`/blog/${related.slug}`} class="related-card">
+              <div class="related-img">
+                <img src={related.image} alt={related.imageAlt} width="480" height="270" loading="lazy" />
+              </div>
+              <div class="related-content">
+                <span class="card-eyebrow">{blogCategories[related.category] || related.category}</span>
+                <h3>{related.h1}</h3>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- CTA -->
+  <section class="section section--emerald">
+    <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">Take the next step</span>
+      <h2>Send us a brief. We'll find the factory.</h2>
+      <p>Product, quantity, timeline — that's all we need to come back with factory-gate pricing and a clear sourcing plan.</p>
+      <a href="/contact" class="btn btn--white-outline" style="margin-top:1rem">Get a sourcing quote →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  /* HERO */
+  .article-hero {
+    background-color: var(--color-bg-alt);
+    border-bottom: 1px solid rgba(15,33,49,0.08);
+    padding: 3rem 0 2.5rem;
+  }
+
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8125rem;
+    color: #6b6b6b;
+    margin-bottom: 1.25rem;
+    flex-wrap: wrap;
+  }
+
+  .breadcrumb a {
+    color: var(--color-emerald);
+    text-decoration: none;
+  }
+
+  .breadcrumb a:hover { text-decoration: underline; }
+
+  .article-hero h1 {
+    margin: 0.75rem 0 1.25rem;
+  }
+
+  .article-meta {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+  }
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+    font-size: 0.875rem;
+    color: #6b6b6b;
+  }
+
+  .draft-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-teal);
+    background: rgba(28,124,131,0.1);
+    padding: 0.2rem 0.625rem;
+    border-radius: 4px;
+  }
+
+  /* HERO IMAGE */
+  .article-hero-img {
+    background: var(--color-bg-alt);
+    padding-bottom: 3rem;
+    border-bottom: 1px solid rgba(15,33,49,0.07);
+  }
+
+  .article-hero-img img {
+    width: 100%;
+    max-height: 480px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+  }
+
+  /* ARTICLE BODY */
+  .article-body {
+    padding: 4rem 0;
+  }
+
+  /* COMING SOON */
+  .coming-soon {
+    background: var(--color-bg-alt);
+    border: 1px solid rgba(15,33,49,0.09);
+    border-radius: 12px;
+    padding: 2.5rem;
+  }
+
+  .coming-soon-inner h2 {
+    margin: 0.5rem 0 1rem;
+  }
+
+  .coming-soon-inner p {
+    color: #3a3a3a;
+    margin: 0 0 1rem;
+    line-height: 1.7;
+  }
+
+  .coming-soon-list {
+    list-style: none;
+    margin: 0 0 1.5rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .coming-soon-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.625rem;
+    font-size: 0.9375rem;
+    color: #2a2a2a;
+    line-height: 1.5;
+  }
+
+  .coming-soon-list li::before {
+    content: '→';
+    color: var(--color-emerald);
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 0.05rem;
+  }
+
+  /* PUBLISHED ARTICLE CONTENT */
+  .article-content {
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    color: #2a2a2a;
+    max-width: 72ch;
+  }
+
+  .article-content h2 {
+    margin: 2.5rem 0 1rem;
+    font-size: clamp(1.375rem, 2.5vw, 1.75rem);
+  }
+
+  .article-content h3 {
+    margin: 2rem 0 0.75rem;
+    font-size: 1.1875rem;
+  }
+
+  .article-content p { margin: 0 0 1.25rem; }
+  .article-content ul, .article-content ol {
+    margin: 0 0 1.25rem;
+    padding-left: 1.5rem;
+  }
+  .article-content li { margin-bottom: 0.375rem; }
+
+  .article-content a {
+    color: var(--color-emerald);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .article-content a:hover { color: var(--color-teal); }
+
+  /* Inline article figures */
+  .article-content figure,
+  .article-content .article-figure {
+    margin: 2rem 0 2.5rem;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .article-content figure img,
+  .article-content .article-figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+  }
+
+  .article-content figcaption {
+    font-size: 0.875rem;
+    color: #6b7280;
+    text-align: center;
+    padding: 0.625rem 0 0;
+    font-style: italic;
+    line-height: 1.5;
+  }
+
+  /* FAQ */
+  .faq-section {
+    margin-top: 3.5rem;
+    padding-top: 3rem;
+    border-top: 1px solid rgba(15,33,49,0.1);
+  }
+
+  .faq-section h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .faq-list { display: flex; flex-direction: column; gap: 0; }
+
+  .faq-item {
+    border-bottom: 1px solid rgba(15,33,49,0.08);
+  }
+
+  .faq-q {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-navy);
+    padding: 1.125rem 0;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    line-height: 1.4;
+  }
+
+  .faq-q::after {
+    content: '+';
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: var(--color-emerald);
+    flex-shrink: 0;
+    transition: transform 0.2s;
+  }
+
+  .faq-item[open] .faq-q::after {
+    transform: rotate(45deg);
+  }
+
+  .faq-a {
+    padding: 0 0 1.25rem;
+  }
+
+  .faq-a p {
+    font-size: 0.9375rem;
+    color: #3a3a3a;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  /* INTERNAL LINKS */
+  .internal-links-box {
+    margin-top: 3rem;
+    background: rgba(26,83,62,0.05);
+    border: 1px solid rgba(26,83,62,0.15);
+    border-left: 3px solid var(--color-emerald);
+    border-radius: 0 8px 8px 0;
+    padding: 1.25rem 1.5rem;
+  }
+
+  .box-label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--color-emerald);
+    margin-bottom: 0.75rem;
+  }
+
+  .link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .int-link {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--color-emerald);
+    text-decoration: none;
+  }
+
+  .int-link:hover { text-decoration: underline; }
+
+  /* RELATED */
+  .related-section {
+    padding-top: 3.5rem;
+  }
+
+  .related-section h2 {
+    margin: 0.5rem 0 2rem;
+  }
+
+  .related-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  .related-card {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(15,33,49,0.09);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: border-color 0.15s, transform 0.15s;
+    background: #fff;
+  }
+
+  .related-card:hover {
+    border-color: var(--color-emerald);
+    transform: translateY(-2px);
+  }
+
+  .related-img { height: 170px; overflow: hidden; }
+  .related-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s;
+  }
+  .related-card:hover .related-img img { transform: scale(1.03); }
+
+  .related-content { padding: 1.125rem; }
+  .related-content h3 {
+    font-size: 0.9375rem;
+    line-height: 1.35;
+    margin: 0.25rem 0 0;
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 900px) {
+    .related-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 560px) {
+    .related-grid { grid-template-columns: 1fr; }
+    .article-hero { padding: 2rem 0 1.75rem; }
+  }
+</style>

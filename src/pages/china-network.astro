@@ -1,0 +1,311 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = "China Factory Network — Zhengzhou & Shenzhen | Ériu Sourcing";
+const description = "Dual base in Zhengzhou and Shenzhen. Same-day HSR access to Beijing, Shanghai, Xi'an, Wuhan. 18 years of factory-direct relationships across every major sourcing category.";
+
+const siteUrl = 'https://eriusourcing.com';
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "China Network", "item": `${siteUrl}/china-network` }
+    ]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Where is Ériu Sourcing located in China?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Ériu Sourcing operates from two permanent bases in China: Zhengzhou in Henan Province (central China) and Shenzhen in Guangdong Province (southern China). Zhengzhou provides high-speed rail access to Beijing, Shanghai, Xi'an, Wuhan, and the major industrial cities of central and eastern China. Shenzhen provides direct access to Foshan (furniture), Guangzhou (fashion, bags), Dongguan (electronics), and Zhongshan (lighting)." }
+      },
+      {
+        "@type": "Question",
+        "name": "What manufacturing regions in China does Ériu Sourcing cover?",
+        "acceptedAnswer": { "@type": "Answer", "text": "From two bases, Ériu Sourcing covers all major Chinese manufacturing regions: Guangdong Province (electronics, furniture, fashion, bags, pet accessories, lighting), Henan Province (aluminium extrusions, construction materials, apparel basics), Zhejiang Province (small goods, hardware), Shanghai and Jiangsu (precision manufacturing), and Beijing (high-tech components). Same-day HSR travel from Zhengzhou reaches most major manufacturing cities within 2.5 hours." }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does Ériu Sourcing have bases in both Zhengzhou and Shenzhen?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No other Ireland-facing sourcing service has this dual-province setup. Shenzhen covers Guangdong — China's dominant consumer goods province, home to the world's largest electronics market (Huaqiangbei), the world's largest furniture cluster (Foshan), and major fashion and accessories manufacturing. Zhengzhou covers central China — with access to lower-cost Henan production and fast HSR connections to every major industrial city. Together they cover the full range of categories Irish businesses import." }
+      }
+    ]
+  }
+];
+
+const hsrCities = [
+  { city: 'Xi\'an', time: '~2 hrs', spec: 'Aerospace, machinery, industrial equipment' },
+  { city: 'Wuhan', time: '~1.5 hrs', spec: 'Optics, electronics, automotive, steel' },
+  { city: 'Beijing', time: '~2.5 hrs', spec: 'High-tech electronics, precision machinery' },
+  { city: 'Nanjing', time: '~2 hrs', spec: 'Electronics, displays, IT, chemicals' },
+  { city: 'Jinan', time: '~1.5 hrs', spec: 'Heavy machinery, ceramics' },
+  { city: 'Changsha', time: '~2.5 hrs', spec: 'Construction machinery (SANY, Zoomlion HQs)' },
+  { city: 'Hefei', time: '~1.5 hrs', spec: 'Home appliances (Midea, Haier), EV batteries' },
+  { city: 'Shijiazhuang', time: '~1.5 hrs', spec: 'Textiles, building materials' },
+];
+
+const shenzhenClusters = [
+  { category: 'Consumer electronics', location: 'Shenzhen (Huaqiangbei)', relevance: 'Electronics retailers, eCommerce' },
+  { category: 'Bags & leather goods', location: 'Guangzhou, Dongguan', relevance: 'Fashion retailers' },
+  { category: 'Furniture & furnishings', location: 'Foshan (30 min from GZ)', relevance: 'Hotels, retailers, developers' },
+  { category: 'Sportswear & apparel', location: 'Guangzhou, Foshan', relevance: 'Sports retailers, fashion brands' },
+  { category: 'Pet accessories', location: 'Guangzhou, Zhongshan', relevance: 'Pet retailers' },
+  { category: 'Lighting & electrical', location: 'Zhongshan (lighting capital)', relevance: 'Construction, hospitality' },
+  { category: 'Toys & games', location: 'Shantou, Dongguan', relevance: 'Toy retailers, gift shops' },
+  { category: 'Ceramics & sanitaryware', location: 'Foshan (world\'s largest cluster)', relevance: 'Construction, fit-out' },
+];
+---
+
+<BaseLayout title={title} description={description} canonical="/china-network" jsonLd={pageSchemas}>
+
+  <section class="page-hero section--lg">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Our China Network</span>
+      <h1>Two bases. Reach across every major manufacturing hub.</h1>
+      <p class="lead">Most sourcing agents operate from one city. We're based in both Zhengzhou (Henan Province) and Shenzhen (Guangdong Province) — the two most strategically positioned manufacturing bases in China for Irish buyers.</p>
+    </div>
+  </section>
+
+  <section class="zhengzhou-section section section--alt">
+    <div class="container">
+      <div class="base-grid">
+        <div class="base-image">
+          <img
+            src="/images/zhengzhou-hsr-station.webp"
+            alt="Zhengzhou East Railway Station — China's HSR hub"
+            width="640"
+            height="360"
+            loading="lazy"
+          />
+        </div>
+        <div class="base-content">
+          <h2>Zhengzhou, Henan Province</h2>
+          <p>Zhengzhou is the geographic centre of China and the country's most connected high-speed rail hub. From here, I can reach Beijing, Shanghai, Xi'an, Wuhan, and every major industrial city in Eastern China within 1.5–3 hours by bullet train.</p>
+          <p>Henan Province itself is a major manufacturing base — home to Foxconn's largest campus (150,000–200,000 workers at peak iPhone production), significant aluminium and building materials production, garments and workwear manufacturing, and one of China's fastest-growing electric vehicle sectors.</p>
+          <h3 style="margin-top:1.5rem">HSR reach from Zhengzhou</h3>
+          <div class="hsr-table">
+            {hsrCities.map(city => (
+              <div class="hsr-row">
+                <span class="hsr-city">{city.city}</span>
+                <span class="hsr-time">{city.time}</span>
+                <span class="hsr-spec">{city.spec}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="shenzhen-section section">
+    <div class="container">
+      <div class="base-grid base-grid--reverse">
+        <div class="base-content">
+          <h2>Shenzhen & Guangdong Province</h2>
+          <p>The Pearl River Delta — centred on Shenzhen, Guangzhou, Foshan, Dongguan, and Zhongshan — is the world's most concentrated consumer goods manufacturing cluster. For Irish businesses, this is where most of your China imports come from.</p>
+          <p>Huaqiangbei in Shenzhen is the world's largest electronics components market. Foshan is the world's largest furniture and ceramics cluster. Zhongshan is the global capital of decorative lighting. I have active supplier relationships across all of them.</p>
+          <div class="cluster-table">
+            <div class="cluster-header">
+              <span>Category</span>
+              <span>Location</span>
+              <span>Irish buyer relevance</span>
+            </div>
+            {shenzhenClusters.map(cluster => (
+              <div class="cluster-row">
+                <span class="cluster-cat">{cluster.category}</span>
+                <span class="cluster-loc">{cluster.location}</span>
+                <span class="cluster-rel">{cluster.relevance}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div class="base-image">
+          <img
+            src="/images/sourcing-team-meeting-shenzhen.webp"
+            alt="Noel conducting a sourcing team meeting in Shenzhen with his China-based team"
+            width="600"
+            height="450"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="henan-section section section--alt">
+    <div class="container--narrow">
+      <h2>What's made in Henan Province</h2>
+      <p>Most Irish buyers don't know that Henan is a significant direct sourcing location — not just a logistics hub. Key manufacturing categories include:</p>
+      <div class="henan-grid">
+        <div class="henan-card">
+          <h3>Electronics & technology</h3>
+          <p>Foxconn's Zhengzhou campus is one of the world's largest electronics assembly facilities. The province is also a hub for cables, IT hardware, and consumer electronics accessories.</p>
+        </div>
+        <div class="henan-card">
+          <h3>Aluminium & building materials</h3>
+          <p>Henan is one of China's biggest aluminium processing provinces, with significant exports in aluminium profiles, ceramics, and construction hardware directly relevant to Irish construction buyers.</p>
+        </div>
+        <div class="henan-card">
+          <h3>Textiles & apparel</h3>
+          <p>Zhongmu Industrial Area and Zhengzhou textile clusters produce garments, uniforms, workwear, PPE, home textiles, and sports fabrics. Lower cost base than Guangdong for bulk apparel orders.</p>
+        </div>
+        <div class="henan-card">
+          <h3>Foodservice equipment</h3>
+          <p>Commercial kitchen equipment, refrigeration units, and cold-chain technology — relevant to Irish hospitality buyers looking at direct sourcing for major fit-out or expansion.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team section -->
+  <section class="section team-photo-section">
+    <div class="container">
+      <div class="team-photo-header">
+        <span class="section-eyebrow">The Team</span>
+        <h2>53 people based in China. Not subcontractors. Our staff.</h2>
+        <p>Ériu Sourcing operates out of PFC Express — our own China logistics infrastructure, founded in 2011. 47 of our team are based in Shenzhen, 6 in Zhengzhou. All permanent employees. When we say we'll inspect your goods, our staff are physically on-site to do it.</p>
+      </div>
+      <div class="team-photos-grid">
+        <figure class="team-photo-main">
+          <img
+            src="/images/pfc-office-team-china.webp"
+            alt="The PFC Express team — 53 China-based staff across Shenzhen and Zhengzhou, the operational backbone behind Ériu Sourcing"
+            width="1100" height="550"
+            loading="lazy"
+          />
+          <figcaption>Our Shenzhen team — the operational backbone behind every Ériu Sourcing order</figcaption>
+        </figure>
+        <div class="team-photos-secondary">
+          <figure>
+            <img
+              src="/images/kjs-factory-visit.webp"
+              alt="Noel visiting KJS factory with supplier partners in China"
+              width="520" height="340"
+              loading="lazy"
+            />
+            <figcaption>Supplier visit — KJS Eagle & Bear Assembly, China</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="/images/noel-dongguan-factory-visit.webp"
+              alt="Noel with factory team on production floor in Dongguan during inspection"
+              width="520" height="340"
+              loading="lazy"
+            />
+            <figcaption>Production floor inspection — Dongguan factory</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-strip section--emerald">
+    <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">Factory-level access</span>
+      <h2>Need something from China?</h2>
+      <p>Tell me the product and quantity. I'll identify the right factory — Zhengzhou, Shenzhen, or wherever it's made best.</p>
+      <a href="/contact" class="btn btn--white">Get a Sourcing Quote →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  .page-hero { border-bottom: 1px solid rgba(15,33,49,.08); }
+  .page-hero h1 { font-size: clamp(2.25rem, 5vw, 4rem); }
+  .lead { font-size: 1.25rem; color: #5a5a5a; line-height: 1.7; margin: 1rem 0 0; max-width: 58ch; }
+
+  .base-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 3.5rem; align-items: start; }
+  .base-grid--reverse { grid-template-columns: 1.2fr 1fr; }
+  .base-image img { width: 100%; border-radius: var(--radius-lg); }
+  .base-content h2 { margin-bottom: 1rem; }
+  .base-content p { color: var(--color-slate); margin-bottom: 1rem; }
+
+  .hsr-table { margin-top: 1rem; border: 1px solid rgba(15,33,49,.1); border-radius: var(--radius-md); overflow: hidden; }
+  .hsr-row { display: grid; grid-template-columns: 120px 80px 1fr; padding: .625rem 1rem; gap: .75rem; border-bottom: 1px solid rgba(15,33,49,.06); font-size: .875rem; align-items: center; }
+  .hsr-row:last-child { border-bottom: none; }
+  .hsr-city { font-weight: 600; color: var(--color-navy); }
+  .hsr-time { color: var(--color-teal); font-weight: 700; white-space: nowrap; }
+  .hsr-spec { color: var(--color-slate); }
+
+  .cluster-table { margin-top: 1.5rem; border: 1px solid rgba(15,33,49,.1); border-radius: var(--radius-md); overflow: hidden; }
+  .cluster-header { display: grid; grid-template-columns: 1.2fr 1fr 1fr; padding: .625rem 1rem; background: #1A533E; color: rgba(255,255,255,.75); font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; gap: .75rem; }
+  .cluster-row { display: grid; grid-template-columns: 1.2fr 1fr 1fr; padding: .625rem 1rem; gap: .75rem; border-bottom: 1px solid rgba(15,33,49,.06); font-size: .875rem; align-items: center; }
+  .cluster-row:last-child { border-bottom: none; }
+  .cluster-cat { font-weight: 600; color: var(--color-navy); }
+  .cluster-loc { color: var(--color-teal); }
+  .cluster-rel { color: var(--color-slate); }
+
+  .henan-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 1.5rem; margin-top: 2rem; }
+  .henan-card { padding: 1.75rem; background: var(--color-white); border: 1px solid rgba(15,33,49,.08); border-radius: var(--radius-md); }
+  .henan-card h3 { font-size: 1rem; margin-bottom: .625rem; }
+  .henan-card p { font-size: .9375rem; color: var(--color-slate); margin: 0; line-height: 1.65; max-width: none; }
+
+  .cta-strip { padding: 5rem 0; }
+  .cta-strip h2 { font-size: clamp(1.75rem, 4vw, 3rem); margin-bottom: 1rem; }
+  .cta-strip p { font-size: 1.125rem; margin: 0 auto 2rem; max-width: 50ch; }
+
+  @media (max-width: 900px) {
+    .base-grid, .base-grid--reverse { grid-template-columns: 1fr; }
+    .base-grid--reverse .base-image { order: -1; }
+    .hsr-row { grid-template-columns: 1fr 1fr; }
+    .hsr-spec { grid-column: 1/-1; color: var(--color-grey); font-size: .8125rem; }
+    .cluster-header { display: none; }
+    .cluster-row { grid-template-columns: 1fr; gap: .25rem; }
+    .henan-grid { grid-template-columns: 1fr; }
+    .team-photos-secondary { grid-template-columns: 1fr; }
+  }
+
+  /* Team photo section */
+  .team-photo-section { background: var(--color-bg); }
+  .team-photo-header {
+    max-width: 700px;
+    margin-bottom: 2.5rem;
+  }
+  .team-photo-header p {
+    color: #4b5563;
+    line-height: 1.7;
+    margin-top: 0.75rem;
+  }
+  .team-photos-grid { display: flex; flex-direction: column; gap: 1.25rem; }
+  .team-photo-main {
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(15,33,49,0.1);
+  }
+  .team-photo-main img { width: 100%; height: auto; display: block; }
+  .team-photo-main figcaption {
+    padding: 0.625rem 1rem;
+    font-size: 0.8rem;
+    color: #6b7280;
+    font-style: italic;
+    background: #f9fafb;
+    border-top: 1px solid #f3f4f6;
+  }
+  .team-photos-secondary {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+  }
+  .team-photos-secondary figure {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(15,33,49,0.08);
+  }
+  .team-photos-secondary figure img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    display: block;
+  }
+  .team-photos-secondary figure figcaption {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.78rem;
+    color: #6b7280;
+    font-style: italic;
+    background: #f9fafb;
+    border-top: 1px solid #f3f4f6;
+  }
+</style>
