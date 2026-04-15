@@ -1,4 +1,4 @@
-// blogPosts.js — Ériu Sourcing content hub
+﻿// blogPosts.js — Ériu Sourcing content hub
 // Each entry is a fully-specified article brief.
 // Published articles replace `draft: true` with `draft: false` and add full `body` content.
 // URL pattern: /blog/[slug]
@@ -336,6 +336,344 @@ export const blogPosts = [
     ],
   },
 
+
+  {
+    slug: 'incoterms-explained-irish-importers-fob-cif-exw-dap-china',
+    title: 'Incoterms Explained for Irish Importers: FOB, CIF, EXW & DAP on China Shipments',
+    metaTitle: 'Incoterms Explained for Irish Importers: FOB, CIF, EXW & DAP | ├ëriu Sourcing',
+    metaDescription: 'Incoterms on China shipments explained for Irish importers. FOB, CIF, EXW, DAP ÔÇö what each one actually costs you, who carries the risk, and which one to use.',
+    h1: 'Incoterms explained for Irish importers: FOB, CIF, EXW and DAP on China shipments',
+    eyebrow: 'Trade Intelligence',
+    category: 'economics',
+    primaryKeyword: 'incoterms explained Ireland',
+    secondaryKeywords: ['FOB CIF Ireland imports', 'incoterms China Ireland', 'EXW DAP shipping terms Ireland', 'import shipping terms explained'],
+    intent: 'informational',
+    targetReader: 'Irish importers and business owners evaluating supplier quotes from China who need to understand the cost and risk implications of FOB, CIF, EXW, and DAP',
+    estimatedWordCount: 2600,
+    publishDate: '2026-03-11',
+    draft: false,
+    body: `<p>Every Chinese supplier quote you receive contains a three-letter code. EXW Shenzhen. FOB Ningbo. CIF Dublin. DAP Dublin Port. That code determines who pays for shipping, who pays for insurance, who clears the goods through customs, and ÔÇö critically ÔÇö who carries the financial risk if a container of your product falls into the South China Sea.</p>
+
+<p>Most Irish importers treat these codes as shipping jargon. They are not. They are legal terms governed by the International Chamber of Commerce under the Incoterms 2020 framework. They define the exact point at which cost and risk transfer from the seller to you. Getting this wrong does not mean a minor administrative headache. It means paying for goods that were destroyed in transit, discovering your insurance does not cover the leg of the journey where the damage occurred, or arriving at Dublin Port with a customs bill you did not budget for.</p>
+
+<p>This is what each term means in practice when you are importing from China to Ireland ÔÇö and which one you should actually be using.</p>
+
+<h2>What Incoterms are and why they exist</h2>
+
+<p>Incoterms ÔÇö International Commercial Terms ÔÇö are a standardised set of rules published by the International Chamber of Commerce (ICC). The current version is Incoterms 2020. There are eleven terms in total. Four of them account for approximately 90 percent of China-to-Ireland trade: EXW, FOB, CIF, and DAP.</p>
+
+<p>Each term defines three things. First, who pays for what ÔÇö inland transport in China, port charges, ocean freight, insurance, Irish customs duties, and last-mile delivery. Second, where risk transfers from the seller to the buyer ÔÇö the precise physical point at which the goods become your financial responsibility. Third, who handles the administrative burden ÔÇö export clearance in China, import clearance in Ireland, and all the documentation in between.</p>
+
+<p>The term you agree to in your purchase order is not a suggestion. It is a binding contractual allocation of cost and risk. If your contract says FOB Ningbo and the goods are damaged after loading onto the vessel at Ningbo port, that damage is your problem ÔÇö financially and legally. If your contract says CIF Dublin and the same damage occurs, the cost allocation is different, but the risk transfer point is identical to FOB. This is the distinction that trips up most buyers, and we will come back to it.</p>
+
+<h2>EXW ÔÇö Ex Works</h2>
+
+<p><strong>What it means:</strong> The supplier makes the goods available at their premises ÔÇö their factory gate or warehouse in China. That is the full extent of their obligation. Everything else is your responsibility.</p>
+
+<p><strong>Who pays for what:</strong> You pay for collection from the factory, inland transport to the Chinese port, export customs clearance in China, loading charges, ocean freight, marine insurance, Irish import customs clearance, Irish customs duties and VAT, and delivery from Dublin Port to your warehouse.</p>
+
+<p><strong>Where risk transfers:</strong> At the supplier's premises. The moment the goods are ready for collection at their factory door, the risk is yours. If the truck from the factory to Ningbo port has an accident, you carry the loss. If the goods are held at Chinese customs because the export documentation is wrong ÔÇö documentation the supplier had no obligation to prepare ÔÇö you carry the cost.</p>
+
+<p><strong>The problem for Irish importers:</strong> EXW requires you to manage Chinese inland logistics and Chinese export clearance. Unless you have a freight forwarder or agent in China handling this, you are managing a supply chain in a country where you do not speak the language, do not hold an export licence, and have no commercial relationships with domestic transport providers.</p>
+
+<p>Chinese export customs clearance requires a Chinese-registered entity. As an Irish business, you cannot legally clear goods for export from China yourself. You need a Chinese customs broker or a freight forwarder with a Chinese entity to do it on your behalf. This means EXW is not truly "ex works" for most Irish buyers ÔÇö you still need a Chinese intermediary for the export leg.</p>
+
+<p>EXW also creates a VAT issue in China. The supplier may not be able to claim their Chinese export VAT refund under EXW because they are not technically the exporter of record. Some suppliers offset this by quoting a higher EXW price. You end up paying for a cost advantage that does not materialise.</p>
+
+<p><strong>When it makes sense:</strong> Almost never for Irish SMEs importing from China. EXW is designed for domestic transactions or situations where the buyer has a sophisticated logistics operation in the seller's country. If you are running a sourcing office in Shenzhen with your own freight contracts, EXW gives you maximum control. If you are managing imports from Dublin, it gives you maximum exposure.</p>
+
+<h2>FOB ÔÇö Free On Board</h2>
+
+<p><strong>What it means:</strong> The supplier delivers the goods on board the vessel at the named Chinese port ÔÇö typically FOB Shenzhen, FOB Ningbo, or FOB Shanghai. They handle everything up to and including loading onto the ship. From that point, you take over.</p>
+
+<p><strong>Who pays for what:</strong> The supplier pays for inland transport from their factory to the port, export customs clearance, and loading charges. You pay for ocean freight, marine insurance, Irish import customs clearance, duties, VAT, and last-mile delivery.</p>
+
+<p><strong>Where risk transfers:</strong> When the goods are on board the vessel at the named port. Once loaded, the risk is yours.</p>
+
+<p><strong>Why FOB is the standard for China imports:</strong> FOB is the most commonly used Incoterm for sea freight from China to Ireland, and for good reason. It draws a clean, practical line. The supplier handles everything in China ÔÇö the part of the supply chain they understand, control, and can execute efficiently. You handle everything from the vessel onwards ÔÇö the part of the supply chain where your Irish freight forwarder, customs broker, and logistics provider operate.</p>
+
+<p>FOB also gives you control over the ocean freight booking. This matters more than most importers realise. When the supplier controls the freight booking ÔÇö as they do under CIF ÔÇö they choose the shipping line, the routing, and the transit time. They may also mark up the freight cost. Under FOB, you or your freight forwarder book the vessel, choose the carrier, negotiate the rate, and control the schedule. For an Irish importer shipping into Dublin Port, this means you can consolidate shipments from multiple suppliers onto a single vessel, negotiate volume rates with your preferred carrier, and avoid the supplier's freight markup.</p>
+
+<p>A real example. An Irish consumer goods importer was paying CIF Dublin on a quarterly shipment from Guangdong. The CIF price included ocean freight at $2,800 per 20-foot container. They switched to FOB Shenzhen and booked directly through their Irish freight forwarder. The freight cost dropped to $1,900 per container ÔÇö a saving of $900 per shipment, $3,600 per year on four shipments. The supplier's CIF quote had included a freight margin of roughly 47 percent.</p>
+
+<p><strong>When it makes sense:</strong> For the majority of Irish importers buying from China by sea freight. FOB gives you cost transparency, freight control, and a clean risk boundary at a point in the supply chain where you have the infrastructure to manage it.</p>
+
+<figure class="article-figure">
+  <img src="/images/the-fob-handover.webp" alt="Wide shot of a Chinese container port with a gantry crane lifting a shipping container onto a cargo vessel. A dashed white line at the ship's rail reads 'Risk Transfers Here', dividing seller's responsibility on the dock from buyer's responsibility on the vessel." loading="lazy" width="1280" height="720">
+  <figcaption>FOB in one image. Everything below the ship's rail is the supplier's cost and risk. Everything above it is yours. That line is the most important boundary in your China import programme.</figcaption>
+</figure>
+
+<h2>CIF ÔÇö Cost, Insurance, and Freight</h2>
+
+<p><strong>What it means:</strong> The supplier pays for ocean freight and marine insurance to the named destination port ÔÇö CIF Dublin, for example. They deliver the goods on board the vessel in China, arrange and pay for the freight, and provide a minimum level of insurance coverage.</p>
+
+<p><strong>Who pays for what:</strong> The supplier pays for everything FOB covers, plus ocean freight to Dublin and marine cargo insurance. You pay for Irish import customs clearance, duties, VAT, unloading at Dublin Port (in some cases), and last-mile delivery.</p>
+
+<p><strong>Where risk transfers:</strong> This is the part that costs Irish importers money. Despite the supplier paying for freight and insurance to Dublin, risk still transfers at the Chinese port ÔÇö the same point as FOB. CIF is not "delivered to Dublin at the supplier's risk." It is "delivered to Dublin at the supplier's cost, but at the buyer's risk from the Chinese port onwards."</p>
+
+<p>Read that again. Under CIF, the goods are your risk from the moment they are loaded onto the vessel in China. The supplier has paid for the freight and arranged insurance ÔÇö but the insurance is for your benefit, covering your risk, at a coverage level the supplier chose.</p>
+
+<p><strong>The insurance problem:</strong> Under Incoterms 2020, the seller's insurance obligation under CIF is Institute Cargo Clauses (C) ÔÇö the minimum available coverage. Clauses (C) cover defined risks only: fire, explosion, vessel sinking, collision, and jettison. They do not cover theft, pilferage, water damage from rain or condensation, breakage, or a container falling from the deck in a storm. For a container of ceramics, electronics, or any moisture-sensitive product, Clauses (C) coverage is close to worthless against the risks that actually occur on a 30-day sea voyage from Shenzhen to Dublin.</p>
+
+<p>Most Irish importers who buy CIF assume the supplier's insurance covers everything. It does not. It covers the minimum. If your Ôé¼40,000 container of product arrives water-damaged at Dublin Port, you may find the CIF insurance does not pay out ÔÇö because water ingress from condensation is not a covered peril under Clauses (C). You paid for insurance you thought was comprehensive. It was not.</p>
+
+<p><strong>When it makes sense:</strong> Rarely, for experienced importers. CIF can work if you understand the risk transfer point, you supplement the supplier's minimum insurance with your own Clauses (A) policy covering all risks, and you do not mind losing control of the freight booking. For a first-time importer who wants the supplier to handle logistics, CIF feels simpler ÔÇö but that simplicity comes with a hidden freight markup and an insurance gap that can be financially devastating on a single shipment.</p>
+
+<figure class="article-figure">
+  <img src="/images/the-cif-insurance-document-close-up.webp" alt="Overhead flat-lay photograph of a marine cargo insurance certificate with 'Institute Cargo Clauses (C)' highlighted in yellow marker. A red sticky note reads 'Minimum Cover Only.' A shipping bill of lading showing Ningbo to Dublin sits alongside fanned Euro banknotes." loading="lazy" width="1280" height="720">
+  <figcaption>What CIF insurance actually looks like. Institute Cargo Clauses (C) ÔÇö the minimum the seller is required to provide. It does not cover water damage, theft, or breakage. On a 30-day sea voyage from Ningbo to Dublin, those are the risks that actually happen.</figcaption>
+</figure>
+
+<h2>DAP ÔÇö Delivered at Place</h2>
+
+<p><strong>What it means:</strong> The supplier delivers the goods to a named destination ÔÇö your warehouse, your 3PL facility, or a specified address in Ireland. They pay for and arrange all transport and bear all risk until the goods arrive at that location. The one thing they do not do is clear the goods through Irish customs or pay import duties and VAT.</p>
+
+<p><strong>Who pays for what:</strong> The supplier pays for everything ÔÇö inland transport in China, export clearance, ocean freight, insurance, and transport from Dublin Port to the named delivery address. You pay for Irish import customs clearance, customs duties, and VAT.</p>
+
+<p><strong>Where risk transfers:</strong> At the named place of delivery in Ireland. This is the critical difference from FOB and CIF. Under DAP, the supplier carries the risk across the entire journey ÔÇö from their factory in China to the doorstep of your warehouse in Cork or your 3PL in Dublin. If the container is damaged at sea, lost in transit, or delayed beyond the shipping schedule, it is the supplier's problem until it reaches your named address.</p>
+
+<p><strong>The appeal and the cost:</strong> DAP transfers maximum risk to the supplier and gives you a simple landed-cost calculation. You know the goods will arrive at your door, and you know the only additional costs are customs clearance, duties, and VAT. For importers who want certainty, that is attractive.</p>
+
+<p>The cost of that certainty is built into the DAP price. The supplier is taking on freight risk, transit risk, and last-mile logistics in a country they do not operate in. They will price for that risk ÔÇö typically by adding 15 to 25 percent above what you would pay under FOB if you managed your own freight. They will also use their own freight forwarder, who may not prioritise your shipment's transit time the way your own agent would.</p>
+
+<p>DAP also creates a customs clearance gap. The supplier delivers the goods to your address but does not clear them through Irish customs. If the goods arrive at Dublin Port and you have not arranged customs clearance, they sit in the port accumulating storage charges. The supplier has fulfilled their DAP obligation by getting the goods to Ireland ÔÇö customs clearance is explicitly your responsibility.</p>
+
+<p><strong>When it makes sense:</strong> For importers with low volume, limited freight forwarding relationships, and a strong preference for cost certainty over cost optimisation. DAP is a convenience term. You pay a premium for the supplier to handle the logistics. If your annual import spend is under Ôé¼20,000, the premium may be worth the simplicity. Above that, the cumulative cost of the supplier's freight margin makes FOB with your own freight forwarder significantly cheaper.</p>
+
+<h2>Which Incoterm should you use?</h2>
+
+<p>For the majority of Irish SMEs importing from China by sea freight, FOB is the correct default. It gives you cost transparency on freight, control over your shipping schedule, the ability to arrange your own all-risks insurance, and a clean division of responsibility at a logical geographic boundary ÔÇö China-side handled by the supplier, sea and Ireland-side handled by you and your freight forwarder.</p>
+
+<table class="article-table">
+  <thead>
+    <tr>
+      <th>Scenario</th>
+      <th>Recommended term</th>
+      <th>Why</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Annual import spend above Ôé¼30,000, regular shipments</td>
+      <td>FOB</td>
+      <td>Control freight costs, choose carrier, arrange proper insurance</td>
+    </tr>
+    <tr>
+      <td>First import, single shipment, under Ôé¼10,000</td>
+      <td>DAP</td>
+      <td>Simplicity outweighs freight premium at this scale</td>
+    </tr>
+    <tr>
+      <td>Supplier insists on CIF</td>
+      <td>FOB or supplement insurance</td>
+      <td>Switch to FOB or add your own Clauses (A) policy on top</td>
+    </tr>
+    <tr>
+      <td>You have a sourcing agent or team in China</td>
+      <td>EXW or FOB</td>
+      <td>EXW only if your agent handles Chinese export clearance</td>
+    </tr>
+    <tr>
+      <td>High-value or fragile goods</td>
+      <td>FOB + all-risks insurance</td>
+      <td>Never rely on CIF minimum coverage for breakable or expensive cargo</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>The customs and VAT layer ÔÇö regardless of Incoterm</h2>
+
+<p>Whatever Incoterm you agree with your Chinese supplier, Irish customs duties and VAT are always your responsibility as the importer of record. No Incoterm transfers customs duty or import VAT to the seller. Even under DAP or DDP, the practical reality of Irish customs clearance sits with you or your customs broker.</p>
+
+<p>Irish import VAT is currently 23 percent on most goods. It is calculated on the customs value ÔÇö which is the price paid for the goods plus freight and insurance costs to the EU border. Customs duty varies by product category and HS code, typically ranging from 0 to 12 percent for goods imported from China. Anti-dumping duties may apply on specific product categories ÔÇö ceramics, steel, aluminium, and certain textiles have historically attracted additional duties on Chinese imports into the EU.</p>
+
+<p>The total landed cost for an Irish importer is the product cost plus freight plus insurance plus customs duty plus VAT. On a Ôé¼50,000 FOB order with Ôé¼3,000 in freight and Ôé¼500 in insurance, assuming a 5 percent customs duty rate and 23 percent VAT: customs value Ôé¼53,500, customs duty Ôé¼2,675, VAT base Ôé¼56,175, VAT at 23 percent Ôé¼12,920, total landed cost approximately Ôé¼69,095.</p>
+
+<p>That calculation is the same whether you buy FOB, CIF, or DAP ÔÇö the Incoterm changes who pays for the freight and insurance line items, not the overall customs assessment.</p>
+
+<figure class="article-figure">
+  <img src="/images/the-irish-importers-landed-cost-calculation.webp" alt="Infographic titled 'Landed Cost Breakdown ÔÇö FOB China to Dublin' with six proportional bars: Product Cost FOB Ôé¼50,000, Ocean Freight Ôé¼3,000, Marine Insurance Ôé¼500, Customs Duty 5% Ôé¼2,675, Irish VAT 23% Ôé¼12,920, Total Landed Cost Ôé¼69,095. ├ëriu Sourcing logo bottom right." loading="lazy" width="1280" height="720">
+  <figcaption>The real number. A Ôé¼50,000 FOB order lands in Dublin at Ôé¼69,095 once you add freight, insurance, customs duty, and VAT. The Incoterm you choose determines who pays for the freight and insurance lines ÔÇö but the total customs assessment is yours regardless.</figcaption>
+</figure>
+
+<h2>What this means for your next China order</h2>
+
+<p>The next time a Chinese supplier sends you a quote, look at the three-letter code before you look at the unit price. A quote of Ôé¼4.20 EXW Shenzhen and a quote of Ôé¼5.10 FOB Ningbo are not comparable without understanding what each price includes and excludes. The EXW price looks cheaper. Once you add Chinese inland transport, export clearance, and port handling charges, it may be more expensive ÔÇö and it definitely carries more operational risk.</p>
+
+<p>Ask for FOB pricing as your baseline. Compare it against CIF only after you have separated the freight and insurance components. If the supplier quotes CIF Dublin at Ôé¼6.00 per unit and FOB Shenzhen at Ôé¼4.80 per unit, the implied freight and insurance cost is Ôé¼1.20 per unit. Check that against your own freight forwarder's quote. If your forwarder can move the same goods for Ôé¼0.85 per unit, the supplier is taking a Ôé¼0.35-per-unit freight margin ÔÇö money you are paying for convenience you do not need.</p>
+
+<p>The Incoterm is not a detail. It is a financial decision that compounds across every shipment you make.</p>
+
+<p>If you want a side-by-side landed-cost comparison for your specific product, volume, and shipping route, <a href="/contact">send us a brief</a>. We build these calculations for Irish importers every week ÔÇö and the numbers usually surprise people.</p>`,
+    excerpt: 'Every Chinese supplier quote contains a three-letter code ÔÇö EXW, FOB, CIF, or DAP. That code determines who pays for freight, who carries the risk, and who handles customs. Getting it wrong costs real money. Here is what each term means for Irish importers.',
+    image: '/images/the-fob-handover.webp',
+    imageAlt: 'Chinese container port with gantry crane loading containers onto a cargo vessel ÔÇö the FOB risk transfer point at the ship\'s rail',
+    faq: [
+      { q: 'What is the best Incoterm for importing from China to Ireland?', a: 'For most Irish importers shipping by sea freight, FOB (Free On Board) is the best default. It gives you control over the ocean freight booking, allows you to arrange your own comprehensive insurance, and draws a clean boundary ÔÇö the supplier handles China-side logistics, you handle everything from the vessel onwards through your Irish freight forwarder.' },
+      { q: 'What does CIF mean on a Chinese supplier quote?', a: 'CIF stands for Cost, Insurance, and Freight. The supplier pays for ocean freight and arranges marine insurance to the named destination port. However, risk still transfers to you at the Chinese port ÔÇö not Dublin ÔÇö exactly the same as FOB. The insurance provided is also the minimum level (Institute Cargo Clauses C), which does not cover water damage, theft, or breakage.' },
+      { q: 'Why is EXW a problem for Irish importers buying from China?', a: 'EXW (Ex Works) requires you to manage Chinese inland transport and export customs clearance. As an Irish business, you cannot legally clear goods for export from China without a Chinese-registered entity. EXW also creates a Chinese VAT recovery issue for the supplier, which often results in a higher EXW price. For most Irish SMEs, EXW gives the appearance of a low price but transfers maximum operational risk to the buyer.' },
+      { q: 'What is the difference between FOB and DAP for Irish importers?', a: 'Under FOB, risk transfers at the Chinese port ÔÇö you take on freight risk and arrange your own insurance. Under DAP, the supplier carries all risk until delivery to your named address in Ireland. DAP is simpler but the supplier typically adds 15ÔÇô25% to the price to cover the additional risk and logistics. For importers shipping above Ôé¼20,000 per year, FOB with your own freight forwarder is significantly cheaper.' },
+      { q: 'Do Irish customs duties still apply under CIF or DAP?', a: 'Yes. Regardless of Incoterm, Irish customs duties and VAT are always the importer\'s responsibility. No Incoterm transfers these costs to the seller. Irish import VAT is 23% on most goods, calculated on the customs value (product cost plus freight and insurance to the EU border). Duty rates vary by HS code, typically 0ÔÇô12% for goods from China.' },
+    ],
+    relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland', 'alibaba-vs-factory-direct-irish-importers'],
+    internalLinks: [
+      { text: 'Get a landed-cost breakdown', href: '/contact' },
+      { text: 'Our China sourcing network', href: '/china-network' },
+      { text: 'How it works', href: '/how-it-works' },
+    ],
+  },
+
+  {
+    slug: 'private-label-manufacturing-china-irish-brands-oem-vs-odm',
+    title: 'Private Label Manufacturing in China for Irish Brands: OEM vs ODM',
+    metaTitle: 'Private Label Manufacturing China for Irish Brands: OEM vs ODM | ├ëriu Sourcing',
+    metaDescription: 'Private label manufacturing in China for Irish brands. OEM vs ODM ÔÇö what each model costs, how long it takes, minimum order quantities, and which one fits your business.',
+    h1: 'Private label manufacturing in China for Irish brands: OEM vs ODM',
+    eyebrow: 'Manufacturing Guide',
+    category: 'sourcing-guides',
+    primaryKeyword: 'private label manufacturing China Ireland',
+    secondaryKeywords: ['OEM manufacturing Ireland', 'ODM China Irish brands', 'private label China Ireland', 'OEM vs ODM explained'],
+    intent: 'commercial-investigation',
+    targetReader: 'Irish brand owners and entrepreneurs considering private label manufacturing in China who need to choose between OEM and ODM models',
+    estimatedWordCount: 2500,
+    publishDate: '2026-03-18',
+    draft: false,
+    body: `<p>Irish brands that want their own product ÔÇö their name on the box, their formulation inside it, their design on the shelf ÔÇö have two routes into Chinese manufacturing. OEM, where you bring the design and the factory builds it. ODM, where the factory already has a design and you put your brand on it. The distinction is not academic. It determines your upfront investment, your minimum order quantities, your timeline to market, your control over the product, and whether anyone else in Ireland can sell the exact same thing.</p>
+
+<p>Most Irish businesses starting out in private label get this decision wrong. They over-invest in full OEM when ODM would get them to market in a quarter of the time. Or they under-invest in ODM customisation and end up selling a product identical to three other brands on the same shelf.</p>
+
+<p>Here is how each model works, what it costs, and how to decide which one to use.</p>
+
+<h2>What private label actually means in a China sourcing context</h2>
+
+<p>Private label means a product manufactured by one company and sold under another company's brand. The manufacturer does not appear on the packaging. The brand owner ÔÇö in this case, your Irish business ÔÇö owns the customer relationship, the brand identity, and (depending on the agreement) varying degrees of the product specification.</p>
+
+<p>In China, private label manufacturing operates across a spectrum. At one end, a factory makes a completely standard product and puts your logo on it ÔÇö this is the simplest form of ODM. At the other end, you design a product from scratch, develop tooling, engineer specifications, and the factory produces exclusively to your drawings ÔÇö this is full OEM.</p>
+
+<p>Everything in between is where most Irish brands actually sit. You want some customisation ÔÇö a specific material, a colour range, a packaging format ÔÇö but you do not need or cannot afford a ground-up product development programme. Understanding where you sit on this spectrum is the first decision that matters.</p>
+
+<h2>OEM: Original Equipment Manufacturer</h2>
+
+<p><strong>What it means in practice:</strong> You own the product design. You provide the factory with detailed specifications ÔÇö engineering drawings, material specifications, tolerances, packaging requirements, and performance criteria. The factory's job is to manufacture to your specification. They contribute production capability, not design input.</p>
+
+<p><strong>What you need to bring:</strong> A complete or near-complete product specification. For a physical product, this means CAD files or technical drawings with dimensions and tolerances, a bill of materials specifying exact materials and grades, packaging specifications including box dimensions, insert design, and print files, and compliance requirements for your target market ÔÇö CE marking, EU safety directives, REACH compliance for chemicals, or food contact material regulations for anything touching food.</p>
+
+<p>If you are developing a formulated product ÔÇö cosmetics, supplements, cleaning products ÔÇö OEM means you provide the formulation. The factory manufactures to your formula with your specified ingredients at your specified concentrations. They do not modify the formulation without your approval.</p>
+
+<p><strong>What it costs:</strong> OEM carries higher upfront costs than ODM because you are paying for exclusivity and specification control.</p>
+
+<p>Tooling and moulds are the largest upfront cost for any product requiring custom injection moulding, die-casting, or stamping. A single injection mould for a moderately complex plastic component costs Ôé¼3,000 to Ôé¼15,000 depending on the number of cavities, the steel grade, and the complexity of the part geometry. A complete product with four or five moulded components can require Ôé¼20,000 to Ôé¼60,000 in tooling before a single production unit rolls off the line.</p>
+
+<p>Sample development typically runs through three to five iterations. Each iteration costs Ôé¼200 to Ôé¼2,000 depending on the product category. Budget for at least three rounds ÔÇö initial prototype, revised sample, and a pre-production sample that represents final output.</p>
+
+<p>Minimum order quantities for OEM are higher than ODM because the factory is setting up a production line specifically for your product. Typical OEM MOQs for Chinese factories range from 1,000 to 5,000 units for consumer goods, 500 to 3,000 units for more complex or higher-value products, and 3,000 to 10,000 units for low-cost commodity items where the margin per unit requires volume to justify the production setup.</p>
+
+<p><strong>Timeline:</strong> From initial specification to first production shipment, full OEM typically takes four to eight months. That includes sample development and approval (six to twelve weeks), tooling manufacture (four to eight weeks for injection moulds), pilot production run (two to four weeks), quality inspection and approval (one to two weeks), and production and shipping (four to eight weeks depending on order size and shipping method).</p>
+
+<p><strong>The advantage:</strong> Exclusivity. If you invest in OEM, the product specification is yours. No other buyer gets the same product from that factory unless they independently develop an identical specification ÔÇö which, for a tooled product, is economically impractical. Your intellectual property sits in the design, and a properly structured manufacturing agreement protects it.</p>
+
+<p><strong>The risk:</strong> You are the product designer. If the specification is wrong ÔÇö the material is not durable enough, the dimensions do not work, the packaging does not protect the product during shipping ÔÇö those are your mistakes to fix, at your cost. OEM requires genuine product development expertise or access to it.</p>
+
+<figure class="article-figure">
+  <img src="/images/the-oem-product-development-desk.webp" alt="Top-down flat-lay of a product development workspace with A3 technical CAD drawings, three prototype samples in different materials, a digital calliper, a Pantone swatch fan, and a laptop showing a 3D CAD render on a light birch desk." loading="lazy" width="1280" height="720">
+  <figcaption>OEM means you own every detail. The engineering drawings, the material choice, the Pantone colour, the tolerance on every dimension. The factory builds what you specify ÔÇö and every revision costs time and money before production begins.</figcaption>
+</figure>
+
+<h2>ODM: Original Design Manufacturer</h2>
+
+<p><strong>What it means in practice:</strong> The factory already has a product. They designed it, they engineered it, they hold the tooling, and they are already manufacturing it ÔÇö potentially for multiple brands. Your job is to select the product, apply your branding, and optionally request modifications within the factory's existing design framework.</p>
+
+<p><strong>What you need to bring:</strong> A brand identity ÔÇö your logo, your packaging design, your colour palette ÔÇö and a clear understanding of what modifications you want. ODM does not require engineering drawings or material specifications. The factory provides those because the product already exists.</p>
+
+<p>The level of customisation available under ODM varies by factory and product category. At the basic level, you get logo placement and packaging design ÔÇö your brand on an existing product in existing colours. One step up, you can typically change colours, finishes, and surface treatments. Further up, some ODM factories allow material substitutions, minor dimensional changes, or the addition of accessories. Beyond that, you are effectively moving into OEM territory and the factory will price accordingly.</p>
+
+<p><strong>What it costs:</strong> ODM is significantly cheaper to start than OEM because you are not paying for tooling or product development. The factory amortised those costs across their existing order book. Your cost is essentially the unit manufacturing cost plus the factory's margin, plus any customisation charges.</p>
+
+<p>Logo and packaging customisation typically adds Ôé¼0.10 to Ôé¼0.50 per unit on top of the base product cost for simple logo application ÔÇö pad printing, silk screening, or label application. Custom packaging ÔÇö your own box design, insert, and print ÔÇö adds Ôé¼0.20 to Ôé¼1.50 per unit depending on the packaging complexity and print run size.</p>
+
+<p>Minimum order quantities for ODM are lower than OEM. Because the production line is already set up and the tooling already exists, the factory's incremental cost of running your order is lower. Typical ODM MOQs are 200 to 1,000 units for consumer products ÔÇö sometimes lower for higher-value items. Some ODM factories will run an initial order of 300 to 500 units to let you test the market before committing to larger volumes.</p>
+
+<p><strong>Timeline:</strong> Much faster than OEM. Because the product already exists, sample development is often a single iteration ÔÇö the factory sends you their existing product with your branding applied, you approve or request adjustments. From initial enquiry to first shipment, ODM typically runs six to twelve weeks. If you are using the product as-is with simple branding, it can be as fast as four weeks.</p>
+
+<p><strong>The advantage:</strong> Speed and capital efficiency. An Irish brand can go from concept to shippable product in under three months with a total upfront investment of Ôé¼2,000 to Ôé¼10,000 depending on order size. For market testing, product line extensions, or categories where you do not need design differentiation, ODM is the rational choice.</p>
+
+<p><strong>The risk:</strong> Non-exclusivity. The product you are selling may be identical ÔÇö functionally and visually ÔÇö to products sold by other brands sourced from the same factory. In competitive retail categories, this means your only differentiation is brand, packaging, and marketing. If a competitor sources the same ODM product and undercuts your price, you have no product-level moat.</p>
+
+<p>There is also an IP exposure. If you share your packaging design, brand elements, or market positioning with an ODM factory, that information is accessible to the factory's sales team ÔÇö who also work with your competitors. An ODM factory that sees strong demand for a particular product configuration from an Irish brand will proactively offer that configuration to other Western buyers.</p>
+
+<figure class="article-figure">
+  <img src="/images/the-odm-showroom-shelf-six-brand.webp" alt="Factory showroom shelf displaying six identical vacuum-insulated water bottles in a row, each with a different brand logo and colour scheme. A shelf label shows a Chinese factory model number. All six brands are selling the same ODM product with different branding applied." loading="lazy" width="1280" height="720">
+  <figcaption>ODM reality: six different brands, one product, one factory model number. The bottles are physically identical ÔÇö the only difference is the logo and the colour. If your competitor finds the same factory, they are selling the same thing.</figcaption>
+</figure>
+
+<h2>OEM vs ODM: the decision framework for Irish brands</h2>
+
+<p>The decision is not which model is "better." It is which model matches your current situation across five variables ÔÇö capital available, time to market, product differentiation required, volume expectations, and category competitiveness.</p>
+
+<p><strong>Choose ODM if</strong> your priority is speed to market and capital efficiency. You are testing a new product category. You do not have a unique product design or proprietary specification. Your brand's value proposition is built on marketing, positioning, and customer experience rather than product-level innovation. Your first order budget is under Ôé¼10,000. Your target launch is within three months.</p>
+
+<p>This describes the majority of Irish brands entering a new product category for the first time. A Dublin skincare brand launching a jade roller. A Cork homeware retailer adding a branded line of kitchen utensils. A Galway outdoor brand testing a new category of insulated drinkware. In each case, the product is not proprietary. The brand is. ODM gets the product to market while you build the sales data to justify a future OEM investment.</p>
+
+<p><strong>Choose OEM if</strong> you have a product design that is genuinely differentiated ÔÇö a novel mechanism, a proprietary formulation, a patented feature, or a design that cannot be achieved by modifying an existing product. You have the capital to invest Ôé¼15,000 to Ôé¼60,000 in tooling and development before seeing a single unit of revenue. You have six to twelve months of runway before you need product on shelves. Your competitive advantage depends on the product itself, not just the brand around it.</p>
+
+<p><strong>The hybrid approach that works for most Irish SMEs:</strong> Start with ODM. Use the first twelve to eighteen months to validate the market, build sales volume, understand your customer's preferences, and generate the revenue to fund an OEM development programme. Then invest in OEM for version two ÔÇö a genuinely differentiated product informed by real market data rather than assumptions.</p>
+
+<p>This is not a compromise. It is how most successful product brands are built. You do not design the perfect product in isolation. You sell a good enough product, learn from the market response, and design a better product with that knowledge. ODM is the market-testing phase. OEM is the scaling phase. The brands that skip ODM and go straight to OEM with an unvalidated product concept are the ones that end up with 8,000 units of unsold inventory in a warehouse outside Naas.</p>
+
+<figure class="article-figure">
+  <img src="/images/the-oem-vs-odm-decision-split.webp" alt="Clean split-screen comparison infographic. Left half labelled OEM ÔÇö Your Design: full specification required, timeline 4ÔÇô8 months, upfront cost Ôé¼15,000ÔÇôÔé¼60,000, high IP protection. Right half labelled ODM ÔÇö Their Design, Your Brand: logo and packaging only, timeline 6ÔÇô12 weeks, upfront cost Ôé¼2,000ÔÇôÔé¼10,000, lower IP protection. ├ëriu Sourcing logo at bottom." loading="lazy" width="1280" height="720">
+  <figcaption>The decision at a glance. OEM gives you ownership and exclusivity at higher cost and longer timelines. ODM gives you speed and capital efficiency with shared product risk. Most Irish brands should start right and graduate left.</figcaption>
+</figure>
+
+<h2>Protecting your brand in either model</h2>
+
+<p>Whether you go OEM or ODM, three legal protections are non-negotiable when manufacturing in China.</p>
+
+<p><strong>Register your trademark in China</strong> ÔÇö not just in Ireland or the EU. China operates a first-to-file system. If someone else registers your brand name in China before you do, they own it in that jurisdiction ÔÇö and your factory is legally obligated to respect that registration, not yours. Chinese trademark registration costs approximately Ôé¼300 to Ôé¼600 through a local agent and takes twelve to eighteen months. File before you place your first production order, not after.</p>
+
+<p><strong>Use a manufacturing agreement</strong> ÔÇö not just a purchase order. The agreement should specify who owns the tooling (you, if you paid for it), who owns the product design and specifications, what happens to the tooling if you stop ordering, non-disclosure provisions covering your product specifications and branding, and the factory's obligation not to sell your product (OEM) or your customised version (ODM) to third parties.</p>
+
+<p><strong>For OEM products with novel designs, file a Chinese design patent.</strong> Chinese design patents are inexpensive ÔÇö Ôé¼500 to Ôé¼1,500 including agent fees ÔÇö and provide six months of priority filing rights under the Paris Convention, allowing you to file in other jurisdictions later. They are also enforceable within China, which is where the manufacturing and the IP risk both sit.</p>
+
+<h2>How to find the right factory for either model</h2>
+
+<p>The process for identifying ODM and OEM factories is different, and most Irish importers conflate them.</p>
+
+<p><strong>For ODM</strong>, the factory selection is product-first. You are looking for a factory that already makes a product you want to sell. Start with product-level search ÔÇö on Alibaba for initial research, at Canton Fair for hands-on product evaluation, or through a sourcing agent who can visit factory showrooms in the relevant manufacturing cluster. Evaluate the existing product on quality, finish, and compliance. Request samples from three to five factories making comparable products. Compare.</p>
+
+<p><strong>For OEM</strong>, the factory selection is capability-first. You need a factory with the machinery, materials expertise, and quality systems to manufacture to your specification. This requires a factory audit ÔÇö not an Alibaba listing review. You need to verify production equipment matches your process requirements, the factory has experience with your material types, quality management systems are in place, and production capacity can accommodate your order volume without your order sitting at the bottom of a queue behind larger clients.</p>
+
+<p>In both cases, the factory verification process described in our <a href="/blog/alibaba-vs-factory-direct-irish-importers">Alibaba vs factory-direct guide</a> applies. Check the business registration on gsxt.gov.cn. Request the business licence. Run a video call from the production floor. Confirm the registered business scope includes þöƒõ║ºÕêÂÚÇá (production and manufacturing).</p>
+
+<h2>Where to start</h2>
+
+<p>If you are an Irish brand considering private label manufacturing in China and you are not sure whether OEM or ODM is the right starting point, the answer is almost always ODM ÔÇö with a clear plan to graduate to OEM once you have market validation and the capital to invest in product development.</p>
+
+<p>The exception is if you already have a differentiated product design, the engineering documentation to support it, and the budget to fund tooling. In that case, OEM from day one makes sense ÔÇö and the right factory partner will walk you through the development process from sample to production.</p>
+
+<p>Either way, the factory relationship is the variable that determines whether this works. A good factory ÔÇö whether OEM or ODM ÔÇö communicates clearly, delivers on sample quality in production, respects your IP, and treats a Ôé¼15,000 Irish order with the same discipline they apply to a Ôé¼500,000 US order. Finding that factory from Dublin is the hard part.</p>
+
+<p><a href="/contact">Send us a brief</a>. We will tell you whether OEM or ODM makes sense for your product, give you realistic pricing and MOQ expectations for your category, and introduce you to verified factories that match your requirements.</p>`,
+    excerpt: 'Irish brands wanting their own product from China have two routes ÔÇö OEM, where you own the design, or ODM, where the factory owns it and you brand it. The decision determines your upfront cost, timeline, MOQ, and whether anyone else can sell the exact same thing.',
+    image: '/images/the-oem-product-development-desk.webp',
+    imageAlt: 'Top-down flat-lay of a product development workspace with technical CAD drawings, prototype samples, a digital calliper, Pantone swatches, and a laptop showing a 3D CAD render',
+    faq: [
+      { q: 'What is the difference between OEM and ODM manufacturing in China?', a: 'OEM (Original Equipment Manufacturer) means you own and provide the product design ÔÇö the factory manufactures to your specification. ODM (Original Design Manufacturer) means the factory already has a product and you apply your brand to it. OEM gives you exclusivity and full IP control but requires higher upfront investment (Ôé¼15,000ÔÇôÔé¼60,000) and longer timelines (4ÔÇô8 months). ODM gets you to market in 6ÔÇô12 weeks with Ôé¼2,000ÔÇôÔé¼10,000 upfront but the product may be non-exclusive.' },
+      { q: 'What minimum order quantity should I expect for private label manufacturing in China?', a: 'For OEM, expect MOQs of 1,000ÔÇô5,000 units for consumer goods ÔÇö higher for low-cost items, lower for complex or premium products. For ODM, MOQs are typically 200ÔÇô1,000 units since tooling and production setup already exist. Some ODM factories accept initial orders of 300ÔÇô500 units for market testing before you commit to larger volumes.' },
+      { q: 'How long does OEM manufacturing take in China from concept to shipment?', a: 'Full OEM typically takes four to eight months from initial specification to first production shipment. This covers sample development and approval (6ÔÇô12 weeks), tooling manufacture for injection moulds (4ÔÇô8 weeks), pilot production run, quality inspection, and ocean freight to Ireland. ODM is significantly faster at 6ÔÇô12 weeks total, sometimes as little as four weeks for simple logo and packaging applications.' },
+      { q: 'How do I protect my brand when private label manufacturing in China?', a: 'Three protections are essential: register your trademark in China before placing your first order (China is first-to-file ÔÇö if someone else registers your name first, they own it there); use a manufacturing agreement specifying tooling ownership, IP rights, and non-disclosure provisions; and for OEM products with novel designs, file a Chinese design patent (Ôé¼500ÔÇôÔé¼1,500) which is enforceable in China where the manufacturing risk sits.' },
+      { q: 'Should an Irish brand start with OEM or ODM manufacturing?', a: 'For most Irish brands, ODM is the right starting point. It gets you to market in under three months with Ôé¼2,000ÔÇôÔé¼10,000 upfront, letting you validate demand before committing to OEM tooling costs of Ôé¼15,000ÔÇôÔé¼60,000. Once you have sales data, customer feedback, and revenue to reinvest, develop a differentiated OEM product for version two. The brands that go straight to OEM with an unvalidated concept are the ones that end up with thousands of units of unsold stock.' },
+    ],
+    relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'alibaba-vs-factory-direct-irish-importers', 'incoterms-explained-irish-importers-fob-cif-exw-dap-china'],
+    internalLinks: [
+      { text: 'Get a sourcing quote', href: '/contact' },
+      { text: 'Our sourcing process', href: '/how-it-works' },
+      { text: 'Our China network', href: '/china-network' },
+    ],
+  },
+
+  {
+
   {
     slug: 'ce-marking-china-imports-ireland',
     title: 'CE Marking and China Imports: What Irish Businesses Get Wrong',
@@ -366,7 +704,7 @@ export const blogPosts = [
 <p>That last point matters more than most Irish importers realise. The China Export mark — a different symbol produced by some Chinese manufacturers — uses the same two letters in a compressed form. The letters are positioned closer together than in the official EU mark. To the untrained eye, they look identical. To an Irish customs officer or market surveillance inspector, they are not.</p>
 
 <figure class="article-figure">
-  <img src="/images/ce-mark-vs-china-export-mark-visual-comparison-irish-importers.jpg" alt="Side-by-side comparison of the official EU CE mark and the China Export mark on a white background. The EU CE mark on the left shows correctly spaced letters C and E with a green checkmark and text reading Letters correctly spaced — means product meets EU safety directives. The China Export mark on the right shows compressed letters nearly touching with a red X and text reading Letters compressed together — means nothing, no testing, no compliance. Clean educational graphic with bold sans-serif typography." loading="lazy" width="1280" height="720">
+  <img src="/images/ce-mark-vs-china-export-mark-visual-comparison-irish-importers.webp" alt="Side-by-side comparison of the official EU CE mark and the China Export mark on a white background. The EU CE mark on the left shows correctly spaced letters C and E with a green checkmark and text reading Letters correctly spaced — means product meets EU safety directives. The China Export mark on the right shows compressed letters nearly touching with a red X and text reading Letters compressed together — means nothing, no testing, no compliance. Clean educational graphic with bold sans-serif typography." loading="lazy" width="1280" height="720">
   <figcaption>The difference is millimetres — and it is worth thousands. The EU CE mark on the left means the product has been assessed against EU safety directives. The China Export mark on the right means absolutely nothing. If the letters on your product are touching, you do not have CE compliance. You have a label.</figcaption>
 </figure>
 
@@ -421,7 +759,7 @@ export const blogPosts = [
 <p>Non-compliant goods entering Ireland face enforcement at two stages. Customs at Dublin Port can identify and hold shipments when there is reason to suspect non-compliance — triggered by documentation that does not align, a commodity flag in the customs intelligence system, or a random sampling exercise on a regulated product category. Goods that cannot be cleared by production of compliant documentation can be refused entry, returned to origin at the importer's cost, or destroyed in Ireland at the importer's expense.</p>
 
 <figure class="article-figure">
-  <img src="/images/non-compliant-ce-goods-detained-customs-european-port-ireland.jpg" alt="Photorealistic wide shot of a European port customs inspection area on an overcast day. A 20-foot blue shipping container stands open with stacked cartons visible inside. A bright orange customs detention notice reading Customs Hold — Non-Compliant Goods is taped to the container door. Two customs officers in navy uniforms and yellow high-visibility vests examine a product sample, one holding the item and the other writing on a clipboard. Three opened cartons sit on the wet concrete in the foreground. Yellow hazard tape cordons off the area. Shipping cranes and stacked containers visible in the blurred background. 35mm wide-angle lens, photojournalistic documentary style, desaturated cool palette." loading="lazy" width="1280" height="720">
+  <img src="/images/non-compliant-ce-goods-detained-customs-european-port-ireland.webp" alt="Photorealistic wide shot of a European port customs inspection area on an overcast day. A 20-foot blue shipping container stands open with stacked cartons visible inside. A bright orange customs detention notice reading Customs Hold — Non-Compliant Goods is taped to the container door. Two customs officers in navy uniforms and yellow high-visibility vests examine a product sample, one holding the item and the other writing on a clipboard. Three opened cartons sit on the wet concrete in the foreground. Yellow hazard tape cordons off the area. Shipping cranes and stacked containers visible in the blurred background. 35mm wide-angle lens, photojournalistic documentary style, desaturated cool palette." loading="lazy" width="1280" height="720">
   <figcaption>This is what non-compliance looks like at the port. A container detained, goods held, customs officers pulling samples. The cost is not just the inspection — it is storage charges, destruction fees, re-export costs, and the shipment you cannot sell. Every week this container sits here costs money. CE verification at the factory in China costs a fraction of what this costs in Dublin.</figcaption>
 </figure>
 
@@ -436,7 +774,7 @@ export const blogPosts = [
 <p>Verification must happen before goods leave China. Once a container is sealed and a ship has departed, your options reduce to hoping the documentation holds up at customs or managing the consequences of a failed shipment.</p>
 
 <figure class="article-figure">
-  <img src="/images/ce-marking-pre-shipment-inspection-chinese-factory-quality-control.jpg" alt="Photorealistic photograph inside a Chinese factory quality control station. A QC inspector in a white lab coat and blue nitrile gloves examines a small white electronics product while holding an EU Declaration of Conformity document. On the stainless steel inspection table: a digital multimeter, magnifying loupe, bound test reports, an open shipping carton with the CE mark visible, and a clipboard with a pre-shipment inspection checklist showing green ticks and yellow highlights. Sealed cartons stacked on a pallet in the blurred background. Fluorescent overhead lighting, 50mm lens, documentary photography style." loading="lazy" width="1280" height="720">
+  <img src="/images/ce-marking-pre-shipment-inspection-chinese-factory-quality-control.webp" alt="Photorealistic photograph inside a Chinese factory quality control station. A QC inspector in a white lab coat and blue nitrile gloves examines a small white electronics product while holding an EU Declaration of Conformity document. On the stainless steel inspection table: a digital multimeter, magnifying loupe, bound test reports, an open shipping carton with the CE mark visible, and a clipboard with a pre-shipment inspection checklist showing green ticks and yellow highlights. Sealed cartons stacked on a pallet in the blurred background. Fluorescent overhead lighting, 50mm lens, documentary photography style." loading="lazy" width="1280" height="720">
   <figcaption>CE compliance is verified here — on the factory floor in China, before the container is sealed — or it is not verified at all. A Declaration of Conformity, matching test reports, and a physical product inspection at the source is the only way to know what is inside those cartons before they arrive at Dublin Port.</figcaption>
 </figure>
 
@@ -486,21 +824,21 @@ export const blogPosts = [
 
 <p>Ériu Sourcing has been working with Irish businesses on China-sourced goods and CE compliance since 2007. We carry out CE documentation reviews at source, pre-shipment inspections with compliance documentation coverage, and factory audits that include quality management and CE evidence verification. If you are ordering CE-regulated goods from China and are not certain the documentation you have received will clear Irish customs, <a href="/contact">get in touch before the container is sealed</a>.</p>`,
     excerpt: 'Self-declared CE is not the same as verified CE. Most Irish importers find this out at the worst possible time — at customs, or after a product recall. Here is what CE compliance actually requires for China-sourced goods.',
-    image: '/images/ce-marking-pre-shipment-inspection-chinese-factory-quality-control.jpg',
+    image: '/images/ce-marking-pre-shipment-inspection-chinese-factory-quality-control.webp',
     imageAlt: 'Photorealistic photograph inside a Chinese factory quality control station. A QC inspector in a white lab coat and blue nitrile gloves examines a small white electronics product while holding an EU Declaration of Conformity document. On the stainless steel inspection table: a digital multimeter, magnifying loupe, bound test reports, an open shipping carton with the CE mark visible, and a clipboard with a pre-shipment inspection checklist showing green ticks and yellow highlights. Sealed cartons stacked on a pallet in the blurred background. Fluorescent overhead lighting, 50mm lens, documentary photography style.',
     images: [
       {
-        src: '/images/ce-mark-vs-china-export-mark-visual-comparison-irish-importers.jpg',
+        src: '/images/ce-mark-vs-china-export-mark-visual-comparison-irish-importers.webp',
         alt: 'Side-by-side comparison of the official EU CE mark and the China Export mark on a white background. The EU CE mark on the left shows correctly spaced letters C and E with a green checkmark and text reading "Letters correctly spaced — means product meets EU safety directives." The China Export mark on the right shows compressed letters nearly touching with a red X and text reading "Letters compressed together — means nothing, no testing, no compliance." Clean educational graphic with bold sans-serif typography.',
         caption: 'The difference is millimetres — and it is worth thousands. The EU CE mark on the left means the product has been assessed against EU safety directives. The China Export mark on the right means absolutely nothing. If the letters on your product are touching, you do not have CE compliance. You have a label.',
       },
       {
-        src: '/images/ce-marking-pre-shipment-inspection-chinese-factory-quality-control.jpg',
+        src: '/images/ce-marking-pre-shipment-inspection-chinese-factory-quality-control.webp',
         alt: 'Photorealistic photograph inside a Chinese factory quality control station. A QC inspector in a white lab coat and blue nitrile gloves examines a small white electronics product while holding an EU Declaration of Conformity document. On the stainless steel inspection table: a digital multimeter, magnifying loupe, bound test reports, an open shipping carton with the CE mark visible, and a clipboard with a pre-shipment inspection checklist showing green ticks and yellow highlights. Sealed cartons stacked on a pallet in the blurred background. Fluorescent overhead lighting, 50mm lens, documentary photography style.',
         caption: 'CE compliance is verified here — on the factory floor in China, before the container is sealed — or it is not verified at all. A Declaration of Conformity, matching test reports, and a physical product inspection at the source is the only way to know what is inside those cartons before they arrive at Dublin Port.',
       },
       {
-        src: '/images/non-compliant-ce-goods-detained-customs-european-port-ireland.jpg',
+        src: '/images/non-compliant-ce-goods-detained-customs-european-port-ireland.webp',
         alt: 'Photorealistic wide shot of a European port customs inspection area on an overcast day. A 20-foot blue shipping container stands open with stacked cartons visible inside. A bright orange customs detention notice reading "Customs Hold — Non-Compliant Goods" is taped to the container door. Two customs officers in navy uniforms and yellow high-visibility vests examine a product sample, one holding the item and the other writing on a clipboard. Three opened cartons sit on the wet concrete in the foreground. Yellow hazard tape cordons off the area. Shipping cranes and stacked containers visible in the blurred background. 35mm wide-angle lens, photojournalistic documentary style, desaturated cool palette.',
         caption: 'This is what non-compliance looks like at the port. A container detained, goods held, customs officers pulling samples. The cost is not just the inspection — it is storage charges, destruction fees, re-export costs, and the shipment you cannot sell. Every week this container sits here costs money. CE verification at the factory in China costs a fraction of what this costs in Dublin.',
       },
