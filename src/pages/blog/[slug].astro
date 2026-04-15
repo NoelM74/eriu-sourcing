@@ -348,29 +348,32 @@ const pageSchemas = [
   }
   .article-content a:hover { color: var(--color-teal); }
 
-  /* Inline article figures */
-  .article-content figure,
-  .article-content .article-figure {
+  /* Inline article figures — use :global() so styles reach into set:html content */
+  .article-content :global(figure),
+  .article-content :global(.article-figure) {
     margin: 2rem 0 2.5rem;
     border-radius: 12px;
-    overflow: hidden;
+    overflow: visible;
   }
 
-  .article-content figure img,
-  .article-content .article-figure img {
+  .article-content :global(figure img),
+  .article-content :global(.article-figure img) {
     width: 100%;
     height: auto;
     display: block;
     border-radius: 12px;
   }
 
-  .article-content figcaption {
-    font-size: 0.875rem;
-    color: #6b7280;
+  .article-content :global(figcaption) {
+    font-size: 0.8125rem;
+    color: #9ca3af;
     text-align: center;
-    padding: 0.625rem 0 0;
+    padding: 0.625rem 1rem 0;
     font-style: italic;
-    line-height: 1.5;
+    line-height: 1.55;
+    border-top: 1px solid rgba(15,33,49,0.08);
+    margin-top: 0.625rem;
+    letter-spacing: 0.01em;
   }
 
   /* FAQ */
