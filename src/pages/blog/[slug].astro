@@ -65,6 +65,7 @@ const pageSchemas = [
   ogImageAlt={post.imageAlt}
   ogType="article"
   jsonLd={pageSchemas}
+  robots={post.draft ? 'noindex, nofollow' : 'index, follow'}
 >
 
   <!-- ARTICLE HERO -->
