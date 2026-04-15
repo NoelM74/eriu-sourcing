@@ -654,8 +654,8 @@ export const blogPosts = [
 
 <p><a href="/contact">Send us a brief</a>. We will tell you whether OEM or ODM makes sense for your product, give you realistic pricing and MOQ expectations for your category, and introduce you to verified factories that match your requirements.</p>`,
     excerpt: 'Irish brands wanting their own product from China have two routes — OEM, where you own the design, or ODM, where the factory owns it and you brand it. The decision determines your upfront cost, timeline, MOQ, and whether anyone else can sell the exact same thing.',
-    image: '/images/the-oem-vs-odm-decision-split.webp',
-    imageAlt: 'OEM vs ODM split comparison for Irish brands — OEM means you bring the design, ODM means the factory brings it',
+    image: '/images/the-oem-product-development-desk.webp',
+    imageAlt: 'Top-down flat-lay of a product development workspace with technical CAD drawings, prototype samples, a digital calliper, Pantone swatches, and a laptop showing a 3D CAD render',
     faq: [
       { q: 'What is the difference between OEM and ODM manufacturing in China?', a: 'OEM (Original Equipment Manufacturer) means you own and provide the product design — the factory manufactures to your specification. ODM (Original Design Manufacturer) means the factory already has a product and you apply your brand to it. OEM gives you exclusivity and full IP control but requires higher upfront investment (€15,000–€60,000) and longer timelines (4–8 months). ODM gets you to market in 6–12 weeks with €2,000–€10,000 upfront but the product may be non-exclusive.' },
       { q: 'What minimum order quantity should I expect for private label manufacturing in China?', a: 'For OEM, expect MOQs of 1,000–5,000 units for consumer goods — higher for low-cost items, lower for complex or premium products. For ODM, MOQs are typically 200–1,000 units since tooling and production setup already exist. Some ODM factories accept initial orders of 300–500 units for market testing before you commit to larger volumes.' },
