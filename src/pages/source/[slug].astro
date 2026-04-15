@@ -104,7 +104,7 @@ const pageSchemas = [
           <p>{page.hubDetail}</p>
           <a href="/china-network" class="inline-link">See our full China network →</a>
         </div>
-        <div class="hub-image">
+        <div class={`hub-image ${page.secondImage ? 'hub-image--dual' : ''}`}>
           <img
             src={page.image}
             alt={page.imageAlt}
@@ -112,6 +112,16 @@ const pageSchemas = [
             height="380"
             loading="lazy"
           />
+          {page.secondImage && (
+            <img
+              src={page.secondImage}
+              alt={page.secondImageAlt}
+              width="560"
+              height="380"
+              loading="lazy"
+              class="hub-image__second"
+            />
+          )}
         </div>
       </div>
     </div>
@@ -312,6 +322,16 @@ const pageSchemas = [
     height: 340px;
     object-fit: cover;
     border-radius: 4px;
+  }
+
+  .hub-image--dual {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+
+  .hub-image--dual img {
+    height: 195px;
   }
 
   .inline-link {
