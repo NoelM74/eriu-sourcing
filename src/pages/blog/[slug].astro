@@ -34,8 +34,11 @@ const pageSchemas = [
     "dateModified": post.publishDate,
     "author": {
       "@type": "Person",
-      "name": "Noel",
-      "description": "18 years based in China across sourcing, logistics, and supply chain"
+      "@id": `${siteUrl}/#founder`,
+      "name": "Noel Murphy",
+      "jobTitle": "CEO, Ériu Sourcing",
+      "url": `${siteUrl}/about/`,
+      "sameAs": ["https://www.linkedin.com/in/noel-murphy-ecommerce-china"]
     },
     "publisher": { "@id": `${siteUrl}/#organization` },
     "image": `${siteUrl}${post.image}`,
@@ -57,8 +60,9 @@ const pageSchemas = [
 <BaseLayout
   title={post.metaTitle}
   description={post.metaDescription}
-  canonical={`/blog/${post.slug}`}
+  canonical={`/blog/${post.slug}/`}
   ogImage={post.image}
+  ogImageAlt={post.imageAlt}
   ogType="article"
   jsonLd={pageSchemas}
 >
@@ -76,6 +80,9 @@ const pageSchemas = [
       <span class="section-eyebrow">{post.eyebrow}</span>
       <h1>{post.h1}</h1>
       <div class="article-meta">
+        <span class="meta-item byline">
+          By <a href="/about/" class="byline-link">Noel Murphy</a> · CEO, Ériu Sourcing
+        </span>
         <span class="meta-item">
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
             <path d="M7 1a6 6 0 100 12A6 6 0 007 1zm0 1a5 5 0 110 10A5 5 0 017 2zm-.5 2.5v3.25l2.5 1.5.5-.87-2-1.2V4.5h-1z" fill="currentColor"/>
@@ -240,6 +247,10 @@ const pageSchemas = [
     font-size: 0.875rem;
     color: #6b6b6b;
   }
+
+  .byline { font-weight: 500; }
+  .byline-link { color: var(--color-emerald); text-decoration: none; font-weight: 600; }
+  .byline-link:hover { text-decoration: underline; }
 
   .draft-label {
     font-size: 0.75rem;

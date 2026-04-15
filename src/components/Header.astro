@@ -3,13 +3,14 @@
 // Mobile-first sticky nav. Logo is inline SVG lockup (light-bg variant).
 
 const navLinks = [
-  { href: '/how-it-works',      label: 'How It Works' },
-  { href: '/product-categories',label: 'Categories' },
-  { href: '/why-direct',        label: 'Why Direct?' },
-  { href: '/china-network',     label: 'China Network' },
-  { href: '/case-studies',      label: 'Case Studies' },
-  { href: '/blog',              label: 'Blog' },
-  { href: '/about',             label: 'About' },
+  { href: '/how-it-works/',      label: 'How It Works' },
+  { href: '/product-categories/',label: 'Categories' },
+  { href: '/source/',            label: 'Sourcing Guides' },
+  { href: '/why-direct/',        label: 'Why Direct?' },
+  { href: '/china-network/',     label: 'China Network' },
+  { href: '/case-studies/',      label: 'Case Studies' },
+  { href: '/blog/',              label: 'Blog' },
+  { href: '/about/',             label: 'About' },
 ];
 
 const pathname = Astro.url.pathname;
@@ -43,7 +44,7 @@ const pathname = Astro.url.pathname;
     </nav>
 
     <!-- CTA -->
-    <a href="/contact" class="btn btn--primary nav-cta">Get a Quote</a>
+    <a href="/contact/" class="btn btn--primary nav-cta">Get a Quote</a>
 
     <!-- Hamburger -->
     <button
@@ -79,7 +80,7 @@ const pathname = Astro.url.pathname;
         </li>
       ))}
       <li class="mobile-cta-item">
-        <a href="/contact" class="btn btn--primary mobile-cta-btn">Get a Quote</a>
+        <a href="/contact/" class="btn btn--primary mobile-cta-btn">Get a Quote</a>
       </li>
     </ul>
   </nav>

@@ -11,16 +11,18 @@ const pageSchemas = [
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
-      { "@type": "ListItem", "position": 2, "name": "About", "item": `${siteUrl}/about` },
+      { "@type": "ListItem", "position": 2, "name": "About", "item": `${siteUrl}/about/` },
     ]
   },
   {
     "@type": "Person",
     "@id": `${siteUrl}/#founder`,
-    "name": "Noel",
-    "jobTitle": "Founder, Ériu Sourcing",
+    "name": "Noel Murphy",
+    "jobTitle": "CEO, Ériu Sourcing",
     "description": "18 years operating in China across sourcing, logistics, warehousing, and supply chain. Co-founded PFC Express in 2011, growing it to over €30M annual revenue. Based between Dublin and Shenzhen.",
+    "url": `${siteUrl}/about/`,
     "worksFor": { "@id": `${siteUrl}/#organization` },
+    "sameAs": ["https://www.linkedin.com/in/noel-murphy-ecommerce-china"],
     "knowsAbout": [
       "China Sourcing", "Factory Direct Purchasing", "Pre-shipment Quality Control",
       "Supply Chain Management", "Irish Import Logistics", "CE Compliance"
@@ -33,8 +35,9 @@ const pageSchemas = [
 <BaseLayout
   title={title}
   description={description}
-  canonical="/about"
+  canonical="/about/"
   ogImage="/images/sourcing-team-meeting-shenzhen.webp"
+  ogImageAlt="Noel Murphy leading a sourcing team meeting in Shenzhen with his China-based team"
   jsonLd={pageSchemas}
 >
 

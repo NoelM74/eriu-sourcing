@@ -28,7 +28,13 @@ const {
 } = Astro.props;
 
 const siteUrl = 'https://eriusourcing.com';
-const canonicalUrl = canonical ? `${siteUrl}${canonical}` : `${siteUrl}${Astro.url.pathname}`;
+// Always use trailing-slash canonical — matches Cloudflare Pages 200 URL and sitemap
+function withTrailingSlash(path: string): string {
+  if (path === '/') return path;
+  return path.endsWith('/') ? path : path + '/';
+}
+const rawPath = canonical ?? Astro.url.pathname;
+const canonicalUrl = `${siteUrl}${withTrailingSlash(rawPath)}`;
 
 // Base org schema — always present on every page
 const orgSchema = {
@@ -75,8 +81,12 @@ const orgSchema = {
   "telephone": "+353871187806",
   "founder": {
     "@type": "Person",
-    "name": "Noel",
-    "description": "18 years based in China. Co-founded PFC Express in 2011, growing it to €30M+ annual revenue. Factory-direct sourcing specialist for Irish businesses."
+    "@id": `${siteUrl}/#founder`,
+    "name": "Noel Murphy",
+    "jobTitle": "CEO, Ériu Sourcing",
+    "description": "18 years based in China. Co-founded PFC Express in 2011, growing it to €30M+ annual revenue. Factory-direct sourcing specialist for Irish businesses.",
+    "url": `${siteUrl}/about/`,
+    "sameAs": ["https://www.linkedin.com/in/noel-murphy-ecommerce-china"]
   },
   "knowsAbout": [
     "China Sourcing", "Factory Direct Purchasing", "Pre-shipment Quality Control",
@@ -91,7 +101,11 @@ const orgSchema = {
     "areaServed": ["IE", "GB"],
     "availableLanguage": "English"
   },
-  "sameAs": ["https://china-fulfillment.com"]
+  "sameAs": [
+    "https://china-fulfillment.com",
+    "https://www.linkedin.com/in/noel-murphy-ecommerce-china",
+    "https://www.google.com/search?q=Eriu+Sourcing&stick=H4sIAAAAAAAA_-mgU1IxqDBLSzRNNUkzS0lJtkg1MbUyqEg1MbNMNjM0NjJPszRNNDVZxMrrWpRZqhCcX1qUnJmXDgAlhkzXOAAAAA"
+  ]
 };
 
 // Merge org schema + page-specific schemas into a single @graph

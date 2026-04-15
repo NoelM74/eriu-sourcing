@@ -38,16 +38,18 @@ const currentYear = new Date().getFullYear();
           </a>
           <p>Factory-direct from China to Ireland. Based in Zhengzhou and Shenzhen. 18 years of factory-level relationships.</p>
           <p class="footer-location">Zhengzhou, Henan &amp; Shenzhen, Guangdong</p>
+          <p class="footer-address">Springfield, Clonlara, Co. Clare, Ireland</p>
         </div>
 
         <!-- Services -->
         <div class="footer-col">
           <h4>Services</h4>
           <ul>
-            <li><a href="/product-categories">What We Source</a></li>
-            <li><a href="/how-it-works">How It Works</a></li>
-            <li><a href="/why-direct">Why Buy Direct?</a></li>
-            <li><a href="/contact">Get a Quote</a></li>
+            <li><a href="/product-categories/">What We Source</a></li>
+            <li><a href="/source/">Sourcing Guides</a></li>
+            <li><a href="/how-it-works/">How It Works</a></li>
+            <li><a href="/why-direct/">Why Buy Direct?</a></li>
+            <li><a href="/contact/">Get a Quote</a></li>
           </ul>
         </div>
 
@@ -55,12 +57,12 @@ const currentYear = new Date().getFullYear();
         <div class="footer-col">
           <h4>Categories</h4>
           <ul>
-            <li><a href="/product-categories#fashion">Fashion &amp; Apparel</a></li>
-            <li><a href="/product-categories#electronics">Electronics</a></li>
-            <li><a href="/product-categories#furniture">Furniture</a></li>
-            <li><a href="/product-categories#construction">Construction Materials</a></li>
-            <li><a href="/product-categories#hospitality">Hospitality Fit-Out</a></li>
-            <li><a href="/product-categories#modular-buildings">Modular Buildings</a></li>
+            <li><a href="/product-categories/#fashion">Fashion &amp; Apparel</a></li>
+            <li><a href="/product-categories/#electronics">Electronics</a></li>
+            <li><a href="/product-categories/#furniture">Furniture</a></li>
+            <li><a href="/product-categories/#construction">Construction Materials</a></li>
+            <li><a href="/product-categories/#hospitality">Hospitality Fit-Out</a></li>
+            <li><a href="/product-categories/#modular-buildings">Modular Buildings</a></li>
           </ul>
         </div>
 
@@ -68,17 +70,22 @@ const currentYear = new Date().getFullYear();
         <div class="footer-col">
           <h4>About</h4>
           <ul>
-            <li><a href="/china-network">Our China Network</a></li>
-            <li><a href="/case-studies">Case Studies</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/china-network/">Our China Network</a></li>
+            <li><a href="/case-studies/">Case Studies</a></li>
+            <li><a href="/about/">About Noel Murphy</a></li>
+            <li><a href="/contact/">Contact</a></li>
           </ul>
         </div>
 
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; {currentYear} Ériu Sourcing. All rights reserved.</p>
-        <p>Factory-direct sourcing for Irish businesses.</p>
+        <p>&copy; {currentYear} Ériu Sourcing. All rights reserved. · Springfield, Clonlara, Co. Clare, Ireland</p>
+        <p class="footer-legal">
+          <a href="/privacy/">Privacy Policy</a>
+          <span aria-hidden="true">·</span>
+          <a href="/terms/">Terms of Service</a>
+        </p>
       </div>
     </div>
   </div>
@@ -201,6 +208,29 @@ const currentYear = new Date().getFullYear();
     font-size: 0.8125rem !important;
     color: rgba(255, 255, 255, 0.45) !important;
   }
+
+  .footer-address {
+    font-size: 0.8125rem !important;
+    color: rgba(255, 255, 255, 0.4) !important;
+    margin-top: 0 !important;
+  }
+
+  .footer-legal {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8125rem;
+    color: rgba(255, 255, 255, 0.38);
+    margin: 0;
+  }
+
+  .footer-legal a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    transition: color 0.12s;
+  }
+
+  .footer-legal a:hover { color: rgba(255, 255, 255, 0.85); }
 
   .footer-col h4 {
     font-family: var(--font-body, sans-serif);

@@ -1,0 +1,94 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const title = "Terms of Service | Ériu Sourcing";
+const description = "Terms of service for Ériu Sourcing — the terms under which we provide China sourcing, supplier identification, QC, and logistics management services to Irish businesses.";
+const siteUrl = 'https://eriusourcing.com';
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Terms of Service", "item": `${siteUrl}/terms/` }
+    ]
+  }
+];
+---
+
+<BaseLayout title={title} description={description} canonical="/terms/" jsonLd={pageSchemas}>
+
+<section class="policy-hero section--lg">
+  <div class="container--narrow">
+    <span class="section-eyebrow">Legal</span>
+    <h1>Terms of Service</h1>
+    <p class="lead">These terms govern the relationship between Ériu Sourcing and clients who engage our China sourcing services.</p>
+    <p class="effective-date">Effective date: 15 April 2026 · Last updated: 15 April 2026</p>
+  </div>
+</section>
+
+<section class="policy-body section">
+  <div class="container--narrow policy-content">
+
+    <h2>1. About Ériu Sourcing</h2>
+    <p>Ériu Sourcing is a China-to-Ireland sourcing business operated by Noel Murphy, Springfield, Clonlara, Co. Clare, Ireland ("Ériu Sourcing", "we", "us"). We provide supplier identification, factory vetting, quality control, CE compliance support, and logistics coordination services for Irish businesses importing from China.</p>
+
+    <h2>2. Services</h2>
+    <p>Ériu Sourcing provides sourcing, supplier introduction, pre-shipment quality inspection, and logistics facilitation services ("Services"). The specific scope of Services provided to any client will be agreed in writing prior to engagement.</p>
+    <p>We act as a sourcing agent and intermediary. We are not the importer of record, manufacturer, or legal owner of goods at any stage unless explicitly agreed in writing.</p>
+
+    <h2>3. Client responsibilities</h2>
+    <p>Clients are responsible for:</p>
+    <ul>
+      <li>Providing accurate, complete product specifications and requirements prior to any sourcing engagement.</li>
+      <li>Ensuring that goods imported comply with all applicable Irish and EU regulations, including CE marking, customs requirements, and sector-specific product safety legislation. Ériu Sourcing may assist with CE compliance verification, but final legal responsibility rests with the Irish importer.</li>
+      <li>Timely payment of all agreed fees, factory deposits, and order balances.</li>
+      <li>Maintaining adequate business insurance for imported goods from the point at which risk transfers under the agreed Incoterm.</li>
+    </ul>
+
+    <h2>4. Fees and payment</h2>
+    <p>Sourcing fees are agreed in writing prior to engagement. Fees are non-refundable once work has commenced unless otherwise agreed. Factory payments, freight costs, and inspection fees are separate from Ériu Sourcing's service fee and are payable directly or invoiced separately.</p>
+
+    <h2>5. Limitation of liability</h2>
+    <p>Ériu Sourcing acts as an intermediary between Irish clients and Chinese manufacturers. While we conduct due diligence, factory audits, and pre-shipment inspections, we cannot guarantee the performance of third-party manufacturers or freight providers.</p>
+    <p>To the fullest extent permitted by Irish law, Ériu Sourcing's total liability to any client in connection with any engagement shall not exceed the total fees paid by that client to Ériu Sourcing in the preceding 12 months.</p>
+    <p>We are not liable for: loss of profit, loss of business, consequential loss, or any indirect or special damages arising from a sourcing engagement.</p>
+
+    <h2>6. Intellectual property</h2>
+    <p>All content on this website — including text, images, and data — is the intellectual property of Ériu Sourcing unless otherwise indicated. You may not reproduce, republish, or commercially exploit any content from this website without prior written permission.</p>
+
+    <h2>7. Confidentiality</h2>
+    <p>Ériu Sourcing treats all client sourcing briefs, product specifications, pricing, and supplier relationships as confidential. We do not share client details with third parties except as necessary to fulfil the sourcing service.</p>
+
+    <h2>8. Governing law</h2>
+    <p>These terms are governed by the laws of the Republic of Ireland. Any dispute arising from these terms shall be subject to the exclusive jurisdiction of the Irish courts.</p>
+
+    <h2>9. Changes to these terms</h2>
+    <p>Ériu Sourcing reserves the right to update these terms from time to time. Continued use of the website or services following an update constitutes acceptance of the revised terms.</p>
+
+    <h2>10. Contact</h2>
+    <p><strong>Noel Murphy, Ériu Sourcing</strong><br>Springfield, Clonlara, Co. Clare, Ireland<br>Email: <a href="mailto:noel@china-fulfillment.com">noel@china-fulfillment.com</a><br>Phone: +353 87 118 7806</p>
+
+  </div>
+</section>
+
+</BaseLayout>
+
+<style>
+  .policy-hero {
+    background: var(--color-bg-alt);
+    border-bottom: 1px solid rgba(15,33,49,0.08);
+  }
+  .policy-hero h1 { font-size: clamp(2rem, 4vw, 3rem); margin: 0.5rem 0 1rem; }
+  .lead { font-size: 1.125rem; color: #4b5563; line-height: 1.7; margin: 0 0 0.5rem; }
+  .effective-date { font-size: 0.875rem; color: #9ca3af; }
+
+  .policy-content h2 {
+    font-size: 1.25rem;
+    margin: 2.5rem 0 0.875rem;
+    color: var(--color-navy);
+  }
+  .policy-content p { color: #3a3a3a; line-height: 1.75; margin: 0 0 1rem; }
+  .policy-content ul { margin: 0 0 1rem; padding-left: 1.5rem; }
+  .policy-content li { margin-bottom: 0.4rem; color: #3a3a3a; line-height: 1.65; }
+  .policy-content a { color: var(--color-emerald); }
+  .policy-content a:hover { text-decoration: underline; }
+</style>
