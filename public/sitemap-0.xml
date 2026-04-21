@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+  <!-- Core pages -->
+  <url><loc>https://eriusourcing.com/</loc><lastmod>2026-04-21</lastmod></url>
+  <url><loc>https://eriusourcing.com/about/</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://eriusourcing.com/how-it-works/</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://eriusourcing.com/why-direct/</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://eriusourcing.com/china-network/</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://eriusourcing.com/case-studies/</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://eriusourcing.com/contact/</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://eriusourcing.com/product-categories/</loc><lastmod>2026-04-21</lastmod></url>
+
+  <!-- Blog index -->
+  <url><loc>https://eriusourcing.com/blog/</loc><lastmod>2026-04-21</lastmod></url>
+
+  <!-- Blog posts (published only) -->
+  <url><loc>https://eriusourcing.com/blog/how-to-source-products-direct-from-china-to-ireland-2026/</loc><lastmod>2026-01-15</lastmod></url>
+  <url><loc>https://eriusourcing.com/blog/alibaba-vs-factory-direct-irish-importers/</loc><lastmod>2026-01-22</lastmod></url>
+  <url><loc>https://eriusourcing.com/blog/real-landed-cost-importing-from-china-ireland/</loc><lastmod>2026-02-05</lastmod></url>
+  <url><loc>https://eriusourcing.com/blog/incoterms-explained-irish-importers-fob-cif-exw-dap-china/</loc><lastmod>2026-02-19</lastmod></url>
+  <url><loc>https://eriusourcing.com/blog/ce-marking-china-imports-ireland/</loc><lastmod>2026-03-05</lastmod></url>
+  <url><loc>https://eriusourcing.com/blog/china-sourcing-agent-ireland-what-they-do/</loc><lastmod>2026-03-19</lastmod></url>
+  <url><loc>https://eriusourcing.com/blog/canton-fair-guide-irish-buyers-2026/</loc><lastmod>2026-04-02</lastmod></url>
+  <url><loc>https://eriusourcing.com/blog/furniture-from-foshan-ireland-complete-guide/</loc><lastmod>2026-04-09</lastmod></url>
+  <url><loc>https://eriusourcing.com/blog/private-label-manufacturing-china-irish-brands-oem-vs-odm/</loc><lastmod>2026-04-14</lastmod></url>
+  <url><loc>https://eriusourcing.com/blog/shipping-china-to-ireland-freight-customs-2026/</loc><lastmod>2026-01-20</lastmod></url>
+  <url><loc>https://eriusourcing.com/blog/how-to-pay-chinese-suppliers-safely-ireland/</loc><lastmod>2026-04-21</lastmod></url>
+
+  <!-- Source category pages -->
+  <url><loc>https://eriusourcing.com/source/</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://eriusourcing.com/source/electronics-from-china-ireland/</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://eriusourcing.com/source/furniture-from-china-ireland/</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://eriusourcing.com/source/fashion-apparel-from-china-ireland/</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://eriusourcing.com/source/construction-materials-from-china-ireland/</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://eriusourcing.com/source/hospitality-fitout-from-china-ireland/</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://eriusourcing.com/source/pet-supplies-from-china-ireland/</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://eriusourcing.com/source/bags-luggage-from-china-ireland/</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://eriusourcing.com/source/modular-buildings-from-china-ireland/</loc><lastmod>2026-04-15</lastmod></url>
+
+</urlset>
