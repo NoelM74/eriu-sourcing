@@ -1247,6 +1247,7 @@ export const blogPosts = [
     ],
   },
 
+];
 
 // Helper: get published posts only
 export const publishedPosts = blogPosts.filter(p => !p.draft);
