@@ -1,4 +1,4 @@
-// blogPosts.js — Ériu Sourcing content hub
+﻿// blogPosts.js — Ériu Sourcing content hub
 // Each entry is a fully-specified article brief.
 // Published articles replace `draft: true` with `draft: false` and add full `body` content.
 // URL pattern: /blog/[slug]
@@ -1247,8 +1247,255 @@ export const blogPosts = [
     ],
   },
 
-];
 
+  // ── ARTICLE 12: Pre-Shipment QC Inspection ──────────────────────────────────
+  {
+    slug: 'pre-shipment-inspection-china-irish-importers-quality-control',
+    title: 'Pre-Shipment Inspection China: Quality Control Guide for Irish Importers',
+    metaTitle: 'Pre-Shipment Inspection China: Quality Control Guide for Irish Importers | Ériu Sourcing',
+    metaDescription: 'How to inspect goods at a Chinese factory before they ship. AQL sampling, defect classifications, what a QC inspector checks, and what happens when goods fail. A complete pre-shipment inspection guide for Irish importers.',
+    h1: 'Pre-Shipment Inspection China: How Irish Importers Check Quality Before It Ships',
+    eyebrow: 'Quality Control',
+    category: 'sourcing-guides',
+    primaryKeyword: 'pre-shipment inspection China Ireland',
+    secondaryKeywords: ['QC inspection China', 'factory inspection before shipping', 'quality control Chinese factory', 'AQL inspection Ireland', 'pre-shipment QC guide'],
+    intent: 'informational',
+    targetReader: 'Irish importers who have placed or are about to place their first significant production order with a Chinese factory and are anxious about goods quality',
+    estimatedWordCount: 2400,
+    publishDate: '2026-05-12',
+    draft: true,
+    excerpt: 'Your container will be sealed in Shenzhen in three weeks. When it opens in Dublin, will the goods match what you ordered? Pre-shipment inspection is the only moment you can catch defects before you own them. Here is exactly how it works.',
+    image: '/images/pre-shipment-qc-inspector-chinese-factory-product-check-ireland.jpg',
+    imageAlt: 'Photorealistic medium close-up of a Chinese QC inspector in a white shirt and cotton inspection gloves examining a small white electronics product held at eye level inside a clean factory. His brow is furrowed in concentration as he studies the product surface. In his other hand a clipboard shows a pre-shipment inspection checklist with green ticks and red X marks.',
+    sections: [
+      'Why pre-shipment inspection is non-negotiable for Irish importers',
+      'What is AQL sampling and how does it work?',
+      'Critical, Major, and Minor defects — classifications explained',
+      'What a QC inspector actually checks at the factory',
+      'Who should conduct your inspection?',
+      'What happens when goods fail inspection',
+    ],
+    body: `<p>Your production run is finishing this week. The factory says everything looks good. Your 30% deposit has gone, your 70% balance is waiting. In three weeks, a sealed container leaves Shenzhen Port. When that container opens in Dublin, you are legally and financially responsible for every unit inside — whether they match your spec or not.</p>
+
+<p>This is the moment that pre-shipment inspection exists to protect. It is the only window in the entire supply chain where you can catch defects, quantify failure rates, demand rework, and legally refuse to release payment — all while your goods are still in China, at the factory's door.</p>
+
+<p>Once that container is sealed and on a ship, your leverage drops to near zero. The goods are yours. The shipping costs are yours. The customs duties are yours. And the defects are yours.</p>
+
+<p>This guide explains exactly how pre-shipment inspection works, how AQL sampling quantifies defect rates, what a QC inspector checks during a factory visit, and what your options are when goods fail.</p>
+
+<h2>Why Pre-Shipment Inspection is Non-Negotiable</h2>
+
+<p>The prevailing Irish business assumption about Chinese manufacturing defects is that they happen to other people. They do not. Defect rates exist on a spectrum across every factory, every product category, and every production run. The variables are not random — they are predictable based on the quality controls in place.</p>
+
+<p>Factories without external QC oversight self-certify. The same factory workers who made the goods are asked to check the goods. Production line supervisors face pressure to ship on time and hit output targets. When those incentives conflict with quality standards, output wins.</p>
+
+<p>Third-party pre-shipment inspection removes that conflict entirely. An inspector from outside the factory, representing your interests alone, checks the finished goods against your written specification before shipment is authorised. The factory knows that inspection is coming. That knowledge alone changes production behaviour.</p>
+
+<figure class="article-figure">
+  <img src="/images/pre-shipment-qc-inspector-chinese-factory-product-check-ireland.jpg" alt="Photorealistic medium close-up of a Chinese QC inspector in a white shirt and cotton inspection gloves examining a small white electronics product held at eye level inside a clean factory. His brow is furrowed in concentration as he studies the product surface. Behind him, a production line of seated workers in pale blue smocks assembles products under magnifying work lamps." loading="lazy" width="1280" height="720">
+  <figcaption>This is what stands between your purchase order and your container being sealed. A QC inspector, on the factory floor, product in hand, checking every specification line on your checklist. The red marks on that clipboard are the defects he has found. This is the inspection that happens before your goods ship — or does not happen, and you find the defects in Dublin.</figcaption>
+</figure>
+
+<h2>What Is AQL Sampling?</h2>
+
+<p>AQL stands for Acceptable Quality Limit. It is the internationally used statistical framework for determining how many units to inspect from a batch and at what defect rate a batch is rejected. AQL is not a guarantee of perfection — it is a statistically valid method of making a judgment about an entire production run based on a representative sample.</p>
+
+<p>In practice, AQL works as follows. The inspection standard most commonly used is ISO 2859-1. You specify a sample size based on your total production quantity and an inspection level (typically General Inspection Level II for consumer goods). The AQL table then tells your inspector how many units to pull, and at what defect count threshold — split between Major and Minor defects — the batch passes or fails.</p>
+
+<p>For a production run of 5,000 units at AQL 2.5 (a common standard for consumer goods), your inspector will typically examine around 200 units. If more than 14 units show Major defects, the batch fails. If more than 21 show Minor defects, the batch also fails.</p>
+
+<h2>The Three Defect Classifications</h2>
+
+<p><strong>Critical defects</strong> are zero-tolerance. A Critical defect is anything that poses a safety risk to the end user, violates regulatory requirements (such as CE marking), or makes the product completely non-functional. In Ireland and the EU, a product with a Critical defect cannot legally be placed on the market. One Critical defect in your inspected sample fails the entire batch. Non-negotiable.</p>
+
+<p><strong>Major defects</strong> are defects that would cause the product to be returned or lead to significant customer dissatisfaction — visible surface scratches on a premium product, incorrect colour against your approved Pantone spec, assembly defects that affect function, missing components. Major defects fail the batch at the AQL threshold.</p>
+
+<p><strong>Minor defects</strong> are imperfections that would not typically cause a return but deviate from specification. Slight variations in finish, minor packaging inconsistencies, small cosmetic deviations within agreed tolerances. These are tracked and counted, but the AQL threshold is more lenient.</p>
+
+<figure class="article-figure">
+  <img src="/images/aql-inspection-defect-report-chinese-factory-failed-goods-ireland.jpg" alt="Overhead flat-lay photograph of a pre-shipment inspection report stamped FAILED in bright red ink on a brushed stainless steel inspection table. The report shows a defect log table listing surface scratches, colour mismatch, assembly gaps, and a missing screw, with 14 major defects in red and 23 minor defects in amber." loading="lazy" width="1280" height="720">
+  <figcaption>A failed pre-shipment inspection. 14 major defects in a sample of 200 units — surface scratches, colour variance, assembly gaps, missing hardware. AQL 2.5 says this batch does not ship. Without this inspection, those 5,000 units would be in a container on their way to Dublin, and you would find the defects when you opened the boxes in your warehouse. The inspection costs a few hundred Euro. The defective shipment costs your entire order.</figcaption>
+</figure>
+
+<h2>What a QC Inspector Actually Checks</h2>
+
+<p>A professional pre-shipment inspection is a structured, documented audit against a specific checklist derived from your purchase order and product specification. The checklist should be agreed between you and your inspector before the inspection date. The areas covered include:</p>
+
+<p><strong>Quantity verification:</strong> The inspector physically counts cartons, verifies inner pack quantities, and confirms that what was ordered is what is in the warehouse ready to ship. Quantity errors — short shipments and overshipments — are common and are caught here.</p>
+
+<p><strong>Product appearance and workmanship:</strong> Every sampled unit is examined for surface defects, colour consistency against your approved sample or Pantone reference, texture and finish quality, and any visible assembly defects.</p>
+
+<p><strong>Functional testing:</strong> The inspector tests a proportion of sampled units for basic functionality. For electronics, this means powering on, testing features, checking battery performance. For mechanical products, checking moving parts and assembly integrity.</p>
+
+<p><strong>Measurements and dimensions:</strong> Key measurements from your specification are verified using calibrated instruments. This is critical for anything that must fit with other components, comply with EU size regulations, or meet a declared product dimension.</p>
+
+<p><strong>Labelling and packaging compliance:</strong> CE marking presence and accuracy (where required), country of origin declaration, warning labels, language requirements (English for the Irish market), SKU and barcode accuracy. Labelling errors are surprisingly common and are a customs compliance risk.</p>
+
+<p><strong>Carton drop test:</strong> Cartons are dropped from a standard height to simulate handling in transit. Inadequate packaging that causes damage during sea freight is caught here rather than when your goods arrive.</p>
+
+<h2>Who Should Conduct the Inspection?</h2>
+
+<p>There are three options, listed in order of reliability.</p>
+
+<p><strong>Independent third-party inspection company</strong> (QIMA, Intertek, Bureau Veritas): The gold standard. The inspector has no relationship with the factory, legal obligation to provide an accurate report, and professional liability. Reports include photographic evidence. Cost: typically €250–€400 per man-day for a standard inspection.</p>
+
+<p><strong>Sourcing agent QC inspection:</strong> If you are working with a sourcing agent like Ériu Sourcing with a China-based team, our QC inspectors conduct pre-shipment inspections as part of the sourcing service. This combines factory relationship knowledge with independent QC — we know the factory's historical failure patterns and check accordingly.</p>
+
+<p><strong>Factory self-inspection:</strong> This is not an independent inspection. The factory inspecting its own goods is an internal quality process. It is better than nothing, but never substitute factory QC certificates for independent inspection on orders above €5,000.</p>
+
+<h2>What Happens When Goods Fail?</h2>
+
+<p>A failed inspection triggers one of three responses depending on the severity of the failure, the relationship with the factory, and your timeline.</p>
+
+<figure class="article-figure">
+  <img src="/images/rejected-goods-chinese-factory-rework-before-shipment-qc-failed.jpg" alt="Photorealistic wide shot of a factory hold area inside a Chinese manufacturing facility. A rectangular zone on the grey concrete floor is marked with bold yellow-and-black hazard tape, containing approximately 35 stacked brown cartons, each bearing a large red tag reading QC HOLD DO NOT SHIP. A factory supervisor writes on a clipboard outside the tape." loading="lazy" width="1280" height="720">
+  <figcaption>The hold area. Every carton in this zone has been pulled from the shipment after a failed pre-shipment inspection. The red tags say "do not ship" in two languages. The supervisor is documenting each carton for rework tracking. Without a QC inspector who triggered this hold, these cartons would already be in a sealed container heading for the port.</figcaption>
+</figure>
+
+<p><strong>Rework:</strong> The most common outcome for Major defects that are correctable. Defective units are repaired at the factory. A reinspection is then conducted (at additional cost) to verify the rework meets standard. Under correct payment terms (30% deposit, 70% on inspection pass), you do not release the balance until the reinspection passes.</p>
+
+<p><strong>Partial shipment:</strong> If the failing rate is concentrated in specific batches or if the deadline is critical, a partial shipment of passing units may be agreed while rework is completed on the remainder.</p>
+
+<p><strong>Rejection and replacement:</strong> For severe failures — Critical defects, major specification non-conformance, or where the factory is unwilling to rework — you reject the batch and demand replacement production. Under a correctly structured purchase agreement, replacement production is at the factory's cost.</p>
+
+<h2>The Cost Calculation</h2>
+
+<p>A pre-shipment inspection for a standard consumer goods order costs between €250 and €400 for a single inspection day. For most orders, one day is sufficient.</p>
+
+<p>The cost of receiving a defective shipment in Dublin without inspection: 100% of your goods value at risk, plus €2,500–€5,000 in sea freight, plus Irish import duties and VAT on goods you cannot sell, plus warehouse costs while the dispute runs, plus the legal cost of pursuing a factory in China.</p>
+
+<p>Pre-shipment inspection has the strongest risk-adjusted return of any cost in the China sourcing process. It is not optional on orders above €5,000.</p>
+
+<h2>How Ériu Sourcing Handles QC</h2>
+
+<p>With Ériu Sourcing managing your production order, pre-shipment inspection is built into the standard process. Our China-based team conducts factory floor visits during production — not just at final inspection — to identify quality deviations before they become systemic defects across the entire run. Final pre-shipment inspection is conducted against your approved product specification before we authorise container loading.</p>
+
+<p>Failed inspections trigger immediate communication with full photographic evidence. Rework requirements are communicated to the factory in Chinese, with a written reinspection schedule. You retain full payment leverage throughout.</p>`,
+    faq: [
+      { q: 'How much does a pre-shipment inspection in China cost for Irish importers?', a: 'A standard one-day pre-shipment inspection from an independent third-party firm (QIMA, Intertek, Bureau Veritas) costs approximately €250–€400 including the report. For context, this insures a €20,000–€50,000 order against a defective shipment. Ériu Sourcing includes pre-shipment QC as part of our sourcing service for managed orders.' },
+      { q: 'What is AQL and what AQL level should I specify for my China order?', a: 'AQL (Acceptable Quality Limit) is the internationally used statistical standard for quality sampling. For most consumer goods imported into Ireland, AQL 2.5 for Major defects and AQL 4.0 for Minor defects is standard. Higher-value products or safety-critical components should use AQL 1.0 for Major defects. Your inspection company can advise based on your product category.' },
+      { q: 'What happens if my goods fail pre-shipment inspection in China?', a: 'A failed inspection triggers a hold on the shipment. You then have three options: demand rework at the factory\'s cost with a scheduled reinspection, negotiate a partial shipment of passing units, or reject the batch and demand replacement production. Under a correctly structured 30/70 payment agreement, you hold the 70% balance as leverage throughout this process.' },
+    ],
+    relatedSlugs: ['ce-marking-china-imports-ireland', 'how-to-pay-chinese-suppliers-safely-ireland', 'incoterms-explained-irish-importers-fob-cif-exw-dap-china'],
+    internalLinks: [
+      { text: 'Request pre-shipment QC for your order', href: '/contact' },
+      { text: 'How our sourcing process works', href: '/how-it-works' },
+      { text: 'CE marking for China imports: Irish guide', href: '/blog/ce-marking-china-imports-ireland' },
+    ],
+  },
+
+  // ── ARTICLE 13: How to Vet a Chinese Supplier ───────────────────────────────
+  {
+    slug: 'how-to-vet-chinese-suppliers-factory-audit-verification-ireland',
+    title: 'How to Vet a Chinese Supplier: Factory Audit & Verification Guide (2026)',
+    metaTitle: 'How to Vet a Chinese Supplier: Factory Audit & Verification Guide (2026) | Ériu Sourcing',
+    metaDescription: 'How to verify a Chinese factory before placing your first order. Business licence checks, factory audits, the 5-layer verification framework, 7 red flags, and the tools Irish importers use to avoid sourcing scams.',
+    h1: 'How to Vet a Chinese Supplier: Factory Audits, Verification Checks & Red Flags (2026)',
+    eyebrow: 'Supplier Due Diligence',
+    category: 'sourcing-guides',
+    primaryKeyword: 'how to vet Chinese suppliers Ireland',
+    secondaryKeywords: ['Chinese supplier verification', 'factory audit China', 'Alibaba supplier check', 'reliable Chinese manufacturer Ireland', 'supplier due diligence China'],
+    intent: 'informational',
+    targetReader: 'Irish business owners at the beginning of their sourcing journey who have found a factory on Alibaba or at a trade show but do not know how to verify it is reliable',
+    estimatedWordCount: 2600,
+    publishDate: '2026-06-09',
+    draft: true,
+    excerpt: 'You found a factory on Alibaba with good prices and fast replies. Now what? Before you wire a deposit, you need to know whether you are talking to a manufacturer, a trading company, or a scammer. Here is the five-layer framework Irish importers use to verify Chinese suppliers before placing an order.',
+    image: '/images/irish-buyer-chinese-factory-manager-supplier-vetting-meeting.jpg',
+    imageAlt: 'Photorealistic medium-wide shot inside a modern Chinese factory sample showroom. A European buyer in his 40s in a light blue Oxford shirt and visitor lanyard holds a white product sample, pointing at a detail while speaking to a Chinese factory manager in his late 40s in a dark navy blazer.',
+    sections: [
+      'Why supplier vetting matters more than price',
+      'The 5-layer verification framework for Irish importers',
+      'The 7 red flags that end a supplier relationship',
+      'Reading an Alibaba supplier profile correctly',
+      'Verifying Chinese business licences via SAMR',
+      'Factory audits: what they check and when you need one',
+      'The role of a China-based sourcing agent in supplier vetting',
+    ],
+    body: `<p>You found a factory on Alibaba. The product photos match what you want. The price is better than anything from Irish or UK suppliers. The sales representative replies quickly, speaks good English, and has sent a slick company profile with photos of a large, clean factory floor.</p>
+
+<p>None of that tells you whether this factory is real, financially stable, capable of meeting your specifications, or the same entity that will receive your wire transfer.</p>
+
+<p>Supplier vetting is the process of verifying all of that before you commit money. It is not optional. It is not bureaucratic. It is risk management — specifically, the risk of losing your entire order value to a factory that cannot deliver, or losing your deposit to a trading company that was never going to manufacture anything at all.</p>
+
+<p>This guide gives you a structured five-layer framework for vetting any Chinese supplier before placing an order, including the red flags that end a supplier relationship at any stage of the process.</p>
+
+<h2>Why Supplier Vetting Matters More Than Price</h2>
+
+<p>Irish importers consistently make the same mistake: they select a Chinese supplier based on price, then discover during or after production that the factory lacks the capacity, the equipment, or the experience to deliver to standard. By that point, a deposit has been paid, a production timeline has been agreed, and you are three weeks from your Irish customer's delivery deadline.</p>
+
+<p>The 8% you saved on unit price relative to the second-cheapest quote is irrelevant when you are shipping on DHL Express at ten times the cost of sea freight because the factory delayed production by four weeks. Or when your container arrives and the goods are 15% underweight because the factory substituted cheaper materials.</p>
+
+<p>Vetting costs time — typically two to four weeks for a full verification. That time is the cheapest insurance you will ever buy against a five-figure loss on your first import order.</p>
+
+<figure class="article-figure">
+  <img src="/images/irish-buyer-chinese-factory-manager-supplier-vetting-meeting.jpg" alt="Photorealistic medium-wide shot inside a modern Chinese factory sample showroom. A European buyer in his 40s in a light blue Oxford shirt and visitor lanyard holds a white product sample, pointing at a detail while speaking to a Chinese factory manager in his late 40s in a dark navy blazer and company badge, who leans in studying the product while holding a printed specification sheet." loading="lazy" width="1280" height="720">
+  <figcaption>Supplier vetting starts here — face to face, in the factory's own showroom, with the production floor visible through the glass behind you. The product is in your hand. The specification sheet is in theirs. The factory that made both is ten metres away. This is what "verified" actually looks like, and it is the visit that separates a real manufacturing partner from a trading company with a nice website.</figcaption>
+</figure>
+
+<h2>The 5-Layer Verification Framework</h2>
+
+<p>Each layer builds on the previous one. Layers 1 and 2 take hours and are free. Layers 3 and 4 take days to weeks and cost a sample order. Layer 5 — a physical factory audit — takes a week and costs €800–€2,000. Not every order requires all five layers. The appropriate depth of vetting scales with your order value and the duration of the intended relationship.</p>
+
+<p><strong>Layer 1: Basic online verification.</strong> Before making contact, spend 30 minutes on basic checks. Search the company name on Chinese customs trade data platforms (Panjiva, ImportYeti, Volza) to verify that this factory has actually exported goods — and to which countries and buyers. A factory claiming five years of export experience with no visible trade history is a significant red flag. Check the Alibaba Gold Supplier membership age (older is more credible). Cross-reference the claimed factory location with satellite imagery — the factory should physically exist at the address they provide.</p>
+
+<p><strong>Layer 2: Document verification.</strong> Request the Business Licence (营业执照), Export Licence, relevant product certification (CE certificates, ISO 9001, BSCI audit report), and a sample commercial invoice showing bank account details. Critically, cross-reference the Business Licence registration number through China's State Administration for Market Regulation (SAMR) free public database at gsxt.gov.cn. This confirms the company legally exists, its registration status, legal representative, and — critically — its business scope, which tells you whether you are talking to a manufacturer or a trader.</p>
+
+<figure class="article-figure">
+  <img src="/images/chinese-business-licence-samr-registration-supplier-verification-ireland.jpg" alt="Photorealistic close-up of an official Chinese business registration document on a clean desk. The document has a red official stamp visible, Chinese text, the 18-digit unified social credit code, and a gold government seal. A laptop screen beside it shows the SAMR business registration verification website." loading="lazy" width="1280" height="720">
+  <figcaption>The document that tells you whether your supplier is a manufacturer or a trading company. The 营业执照 — business licence — shows the company name, registration number, legal representative, and critically, the 经营范围 (business scope). If the scope says 生产制造 (production and manufacturing), you are talking to a factory. If it says 贸易 or 销售 (trade or sales), you are talking to a middleman. The GSXT database on the laptop confirms whether the physical document in front of you is genuine. This check takes ten minutes and costs nothing.</figcaption>
+</figure>
+
+<p><strong>Layer 3: Live video call factory tour.</strong> Request a live WeChat or WhatsApp video call factory tour. Minimum 20 minutes. Ask to see: the production floor where your specific product would be made, raw material storage, the QC inspection area, and the warehouse. Ask them to show you machinery nameplates (model, year, capacity). Ask them to show you a product currently in production — preferably similar to your category. A legitimate factory does this without hesitation. A trading company will make excuses, use pre-recorded footage, or claim the factory is "too busy."</p>
+
+<p><strong>Layer 4: Sample order.</strong> Never place a production order without receiving and evaluating a physical sample manufactured to your specification — not a stock sample from their existing range. Evaluate against your product requirement checklist. Test function, check materials, measure dimensions. The sample also confirms payment reliability and production communication quality — two things you need to know before committing production funds.</p>
+
+<p><strong>Layer 5: Physical factory audit.</strong> For orders above €50,000, or suppliers intended as long-term manufacturing partners, an independent factory audit (Sedex, BSCI, SGS) is strongly recommended. An audit verifies production capacity, machine inventory, labour force size, financial stability, environmental and social compliance, and sub-contracting practices. Factories that sub-contract your production to third parties without disclosure are a serious quality and compliance risk.</p>
+
+<figure class="article-figure">
+  <img src="/images/factory-audit-inspector-chinese-manufacturer-production-floor-check.jpg" alt="Photorealistic wide-angle shot of a Chinese factory production floor. A third-party auditor in a white polo, white hard hat, and blue lanyard ID badge stands beside a large CNC machine, studying its manufacturer data plate while holding a clipboard audit checklist. A factory production supervisor in a dark blue uniform stands behind with hands clasped, observing." loading="lazy" width="1280" height="720">
+  <figcaption>A factory audit in progress. The auditor is verifying the machine specification plate against the factory's claimed production capabilities — model, serial number, year, capacity. The production line behind them is running — this is not a staged visit, it is a check of what the factory can actually do. If the machine data does not match what the factory claimed in their qualification documents, that discrepancy goes on the audit report.</figcaption>
+</figure>
+
+<h2>The 7 Red Flags That End a Supplier Relationship</h2>
+
+<p>These are absolute disqualifiers at any stage of the vetting process — not negotiating points.</p>
+
+<p><strong>1. The price drops significantly without a credible explanation.</strong> If a supplier reduces their price by more than 10% within the first three exchanges without changes to specification, quantity, or Incoterms, they are padding the initial quote or are about to reduce material quality to compensate.</p>
+
+<p><strong>2. They cannot provide a Business Licence.</strong> Every legitimate Chinese manufacturer has one. Any excuse for not providing it — "it is being renewed," "our director is abroad," "we will send it after you place the order" — is disqualifying.</p>
+
+<p><strong>3. The business scope shows trade, not manufacturing.</strong> You may choose to work with a trading company, but you must know that is what they are. A supplier claiming to be a factory whose Business Licence shows 贸易 (trade) as their primary business scope is misrepresenting themselves.</p>
+
+<p><strong>4. They request payment to a personal account or a different company name.</strong> This is the most common invoice fraud vector. Payment must always go to the exact company name on the Business Licence, to a corporate account. Full stop.</p>
+
+<p><strong>5. They refuse a live video call factory tour.</strong> There is no legitimate business reason to refuse this. A real factory will show you round on a live call. Every time.</p>
+
+<p><strong>6. Samples arrive that differ from the approved specification without disclosure.</strong> A factory that substitutes materials on a sample will do the same on a production run.</p>
+
+<p><strong>7. They cannot name any other foreign customers.</strong> Factories with genuine export experience have international clients they can reference. A factory that claims years of export experience but cannot name a single market has something to hide.</p>
+
+<h2>The Role of a China-Based Sourcing Agent</h2>
+
+<p>The 5-layer verification framework requires Mandarin-language capability for document checks (the SAMR database is in Chinese), Chinese business network knowledge to interpret audit results, and physical presence in China for Layers 3 and 5.</p>
+
+<p>A China-based sourcing agent like Ériu Sourcing conducts the full verification on your behalf. We have 18 years of factory relationships across Guangdong, Henan, and Zhejiang — which means we already know many factories' reputations and production histories before your brief arrives. For factories outside our existing network, we run the full five-layer process and provide a written sourcing recommendation before any order is placed.</p>
+
+<p>You get the result of the vetting — a verified, production-ready factory — without weeks of Mandarin-language research or the cost of a flight to Shenzhen.</p>`,
+    faq: [
+      { q: 'How do I verify if a Chinese supplier on Alibaba is a real factory or a trading company?', a: 'The definitive check is the Chinese Business Licence (营业执照). Request a copy and check the business scope (经营范围). If it shows 生产制造 (manufacturing/production), they are a factory. If it shows 贸易 or 销售 (trade or sales), they are a trading company. You can verify the licence is genuine by searching the company\'s 18-digit Unified Social Credit Code on China\'s SAMR public database at gsxt.gov.cn. A live video call factory tour is the second critical verification — a real factory will show you around without hesitation.' },
+      { q: 'What is a factory audit and do I need one for my first China order?', a: 'A factory audit is an independent assessment of a factory\'s production capabilities, quality systems, workforce, and compliance status — conducted by a third-party auditor such as Sedex, BSCI, or SGS. For a first order below €30,000, a full factory audit is generally not cost-effective — focus on Layers 1 through 4 of the verification framework. For orders above €50,000 or for long-term suppliers, a factory audit is strongly recommended. Cost is typically €800–€2,000 for a standard audit in Guangdong or Zhejiang.' },
+      { q: 'How long does it take to properly vet a Chinese supplier before placing an order?', a: 'Layers 1 and 2 (online checks and document verification) can be completed in 2–3 days. A video call factory tour can be arranged within a week. Receiving and evaluating a production sample typically takes 2–4 weeks including manufacturing, shipping, and evaluation time. A physical factory audit takes 1–2 weeks to schedule. Full five-layer verification therefore takes 4–8 weeks before production begins. Factor this into your sourcing timeline.' },
+    ],
+    relatedSlugs: ['alibaba-vs-factory-direct-irish-importers', 'pre-shipment-inspection-china-irish-importers-quality-control', 'how-to-pay-chinese-suppliers-safely-ireland'],
+    internalLinks: [
+      { text: 'Start a verified sourcing project with Ériu', href: '/contact' },
+      { text: 'How our five-step sourcing process works', href: '/how-it-works' },
+      { text: 'Alibaba vs factory-direct: Irish importer guide', href: '/blog/alibaba-vs-factory-direct-irish-importers' },
+    ],
+  },
+
+];
 // Helper: get published posts only
 export const publishedPosts = blogPosts.filter(p => !p.draft);
 
