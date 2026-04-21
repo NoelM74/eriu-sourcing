@@ -1265,7 +1265,7 @@ export const blogPosts = [
     publishDate: '2026-05-12',
     draft: true,
     excerpt: 'Your container will be sealed in Shenzhen in three weeks. When it opens in Dublin, will the goods match what you ordered? Pre-shipment inspection is the only moment you can catch defects before you own them. Here is exactly how it works.',
-    image: '/images/pre-shipment-qc-inspector-chinese-factory-product-check-ireland.jpg',
+    image: '/images/pre-shipment-qc-inspector-chinese-factory-product-check-ireland.webp',
     imageAlt: 'Photorealistic medium close-up of a Chinese QC inspector in a white shirt and cotton inspection gloves examining a small white electronics product held at eye level inside a clean factory. His brow is furrowed in concentration as he studies the product surface. In his other hand a clipboard shows a pre-shipment inspection checklist with green ticks and red X marks.',
     sections: [
       'Why pre-shipment inspection is non-negotiable for Irish importers',
@@ -1292,7 +1292,7 @@ export const blogPosts = [
 <p>Third-party pre-shipment inspection removes that conflict entirely. An inspector from outside the factory, representing your interests alone, checks the finished goods against your written specification before shipment is authorised. The factory knows that inspection is coming. That knowledge alone changes production behaviour.</p>
 
 <figure class="article-figure">
-  <img src="/images/pre-shipment-qc-inspector-chinese-factory-product-check-ireland.jpg" alt="Photorealistic medium close-up of a Chinese QC inspector in a white shirt and cotton inspection gloves examining a small white electronics product held at eye level inside a clean factory. His brow is furrowed in concentration as he studies the product surface. Behind him, a production line of seated workers in pale blue smocks assembles products under magnifying work lamps." loading="lazy" width="1280" height="720">
+  <img src="/images/pre-shipment-qc-inspector-chinese-factory-product-check-ireland.webp" alt="Photorealistic medium close-up of a Chinese QC inspector in a white shirt and cotton inspection gloves examining a small white electronics product held at eye level inside a clean factory. His brow is furrowed in concentration as he studies the product surface. Behind him, a production line of seated workers in pale blue smocks assembles products under magnifying work lamps." loading="lazy" width="1280" height="720">
   <figcaption>This is what stands between your purchase order and your container being sealed. A QC inspector, on the factory floor, product in hand, checking every specification line on your checklist. The red marks on that clipboard are the defects he has found. This is the inspection that happens before your goods ship — or does not happen, and you find the defects in Dublin.</figcaption>
 </figure>
 
@@ -1313,7 +1313,7 @@ export const blogPosts = [
 <p><strong>Minor defects</strong> are imperfections that would not typically cause a return but deviate from specification. Slight variations in finish, minor packaging inconsistencies, small cosmetic deviations within agreed tolerances. These are tracked and counted, but the AQL threshold is more lenient.</p>
 
 <figure class="article-figure">
-  <img src="/images/aql-inspection-defect-report-chinese-factory-failed-goods-ireland.jpg" alt="Overhead flat-lay photograph of a pre-shipment inspection report stamped FAILED in bright red ink on a brushed stainless steel inspection table. The report shows a defect log table listing surface scratches, colour mismatch, assembly gaps, and a missing screw, with 14 major defects in red and 23 minor defects in amber." loading="lazy" width="1280" height="720">
+  <img src="/images/aql-inspection-defect-report-chinese-factory-failed-goods-ireland.webp" alt="Overhead flat-lay photograph of a pre-shipment inspection report stamped FAILED in bright red ink on a brushed stainless steel inspection table. The report shows a defect log table listing surface scratches, colour mismatch, assembly gaps, and a missing screw, with 14 major defects in red and 23 minor defects in amber." loading="lazy" width="1280" height="720">
   <figcaption>A failed pre-shipment inspection. 14 major defects in a sample of 200 units — surface scratches, colour variance, assembly gaps, missing hardware. AQL 2.5 says this batch does not ship. Without this inspection, those 5,000 units would be in a container on their way to Dublin, and you would find the defects when you opened the boxes in your warehouse. The inspection costs a few hundred Euro. The defective shipment costs your entire order.</figcaption>
 </figure>
 
@@ -1348,7 +1348,7 @@ export const blogPosts = [
 <p>A failed inspection triggers one of three responses depending on the severity of the failure, the relationship with the factory, and your timeline.</p>
 
 <figure class="article-figure">
-  <img src="/images/rejected-goods-chinese-factory-rework-before-shipment-qc-failed.jpg" alt="Photorealistic wide shot of a factory hold area inside a Chinese manufacturing facility. A rectangular zone on the grey concrete floor is marked with bold yellow-and-black hazard tape, containing approximately 35 stacked brown cartons, each bearing a large red tag reading QC HOLD DO NOT SHIP. A factory supervisor writes on a clipboard outside the tape." loading="lazy" width="1280" height="720">
+  <img src="/images/rejected-goods-chinese-factory-rework-before-shipment-qc-failed.webp" alt="Photorealistic wide shot of a factory hold area inside a Chinese manufacturing facility. A rectangular zone on the grey concrete floor is marked with bold yellow-and-black hazard tape, containing approximately 35 stacked brown cartons, each bearing a large red tag reading QC HOLD DO NOT SHIP. A factory supervisor writes on a clipboard outside the tape." loading="lazy" width="1280" height="720">
   <figcaption>The hold area. Every carton in this zone has been pulled from the shipment after a failed pre-shipment inspection. The red tags say "do not ship" in two languages. The supervisor is documenting each carton for rework tracking. Without a QC inspector who triggered this hold, these cartons would already be in a sealed container heading for the port.</figcaption>
 </figure>
 
@@ -1401,7 +1401,7 @@ export const blogPosts = [
     publishDate: '2026-06-09',
     draft: true,
     excerpt: 'You found a factory on Alibaba with good prices and fast replies. Now what? Before you wire a deposit, you need to know whether you are talking to a manufacturer, a trading company, or a scammer. Here is the five-layer framework Irish importers use to verify Chinese suppliers before placing an order.',
-    image: '/images/irish-buyer-chinese-factory-manager-supplier-vetting-meeting.jpg',
+    image: '/images/irish-buyer-chinese-factory-manager-supplier-vetting-meeting.webp',
     imageAlt: 'Photorealistic medium-wide shot inside a modern Chinese factory sample showroom. A European buyer in his 40s in a light blue Oxford shirt and visitor lanyard holds a white product sample, pointing at a detail while speaking to a Chinese factory manager in his late 40s in a dark navy blazer.',
     sections: [
       'Why supplier vetting matters more than price',
@@ -1429,7 +1429,7 @@ export const blogPosts = [
 <p>Vetting costs time — typically two to four weeks for a full verification. That time is the cheapest insurance you will ever buy against a five-figure loss on your first import order.</p>
 
 <figure class="article-figure">
-  <img src="/images/irish-buyer-chinese-factory-manager-supplier-vetting-meeting.jpg" alt="Photorealistic medium-wide shot inside a modern Chinese factory sample showroom. A European buyer in his 40s in a light blue Oxford shirt and visitor lanyard holds a white product sample, pointing at a detail while speaking to a Chinese factory manager in his late 40s in a dark navy blazer and company badge, who leans in studying the product while holding a printed specification sheet." loading="lazy" width="1280" height="720">
+  <img src="/images/irish-buyer-chinese-factory-manager-supplier-vetting-meeting.webp" alt="Photorealistic medium-wide shot inside a modern Chinese factory sample showroom. A European buyer in his 40s in a light blue Oxford shirt and visitor lanyard holds a white product sample, pointing at a detail while speaking to a Chinese factory manager in his late 40s in a dark navy blazer and company badge, who leans in studying the product while holding a printed specification sheet." loading="lazy" width="1280" height="720">
   <figcaption>Supplier vetting starts here — face to face, in the factory's own showroom, with the production floor visible through the glass behind you. The product is in your hand. The specification sheet is in theirs. The factory that made both is ten metres away. This is what "verified" actually looks like, and it is the visit that separates a real manufacturing partner from a trading company with a nice website.</figcaption>
 </figure>
 
@@ -1442,7 +1442,7 @@ export const blogPosts = [
 <p><strong>Layer 2: Document verification.</strong> Request the Business Licence (营业执照), Export Licence, relevant product certification (CE certificates, ISO 9001, BSCI audit report), and a sample commercial invoice showing bank account details. Critically, cross-reference the Business Licence registration number through China's State Administration for Market Regulation (SAMR) free public database at gsxt.gov.cn. This confirms the company legally exists, its registration status, legal representative, and — critically — its business scope, which tells you whether you are talking to a manufacturer or a trader.</p>
 
 <figure class="article-figure">
-  <img src="/images/chinese-business-licence-samr-registration-supplier-verification-ireland.jpg" alt="Photorealistic close-up of an official Chinese business registration document on a clean desk. The document has a red official stamp visible, Chinese text, the 18-digit unified social credit code, and a gold government seal. A laptop screen beside it shows the SAMR business registration verification website." loading="lazy" width="1280" height="720">
+  <img src="/images/chinese-business-licence-samr-registration-supplier-verification-ireland.webp" alt="Photorealistic close-up of an official Chinese business registration document on a clean desk. The document has a red official stamp visible, Chinese text, the 18-digit unified social credit code, and a gold government seal. A laptop screen beside it shows the SAMR business registration verification website." loading="lazy" width="1280" height="720">
   <figcaption>The document that tells you whether your supplier is a manufacturer or a trading company. The 营业执照 — business licence — shows the company name, registration number, legal representative, and critically, the 经营范围 (business scope). If the scope says 生产制造 (production and manufacturing), you are talking to a factory. If it says 贸易 or 销售 (trade or sales), you are talking to a middleman. The GSXT database on the laptop confirms whether the physical document in front of you is genuine. This check takes ten minutes and costs nothing.</figcaption>
 </figure>
 
@@ -1453,7 +1453,7 @@ export const blogPosts = [
 <p><strong>Layer 5: Physical factory audit.</strong> For orders above €50,000, or suppliers intended as long-term manufacturing partners, an independent factory audit (Sedex, BSCI, SGS) is strongly recommended. An audit verifies production capacity, machine inventory, labour force size, financial stability, environmental and social compliance, and sub-contracting practices. Factories that sub-contract your production to third parties without disclosure are a serious quality and compliance risk.</p>
 
 <figure class="article-figure">
-  <img src="/images/factory-audit-inspector-chinese-manufacturer-production-floor-check.jpg" alt="Photorealistic wide-angle shot of a Chinese factory production floor. A third-party auditor in a white polo, white hard hat, and blue lanyard ID badge stands beside a large CNC machine, studying its manufacturer data plate while holding a clipboard audit checklist. A factory production supervisor in a dark blue uniform stands behind with hands clasped, observing." loading="lazy" width="1280" height="720">
+  <img src="/images/factory-audit-inspector-chinese-manufacturer-production-floor-check.webp" alt="Photorealistic wide-angle shot of a Chinese factory production floor. A third-party auditor in a white polo, white hard hat, and blue lanyard ID badge stands beside a large CNC machine, studying its manufacturer data plate while holding a clipboard audit checklist. A factory production supervisor in a dark blue uniform stands behind with hands clasped, observing." loading="lazy" width="1280" height="720">
   <figcaption>A factory audit in progress. The auditor is verifying the machine specification plate against the factory's claimed production capabilities — model, serial number, year, capacity. The production line behind them is running — this is not a staged visit, it is a check of what the factory can actually do. If the machine data does not match what the factory claimed in their qualification documents, that discrepancy goes on the audit report.</figcaption>
 </figure>
 
