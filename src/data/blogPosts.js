@@ -1026,7 +1026,227 @@ export const blogPosts = [
     ],
   },
 
-];
+  {
+    slug: 'how-to-pay-chinese-suppliers-safely-ireland',
+    title: 'How to Pay Chinese Suppliers Safely from Ireland: T/T, L/C, & Scams',
+    metaTitle: 'How to Pay Chinese Suppliers Safely from Ireland | Ériu Sourcing',
+    metaDescription: 'A complete guide to paying Chinese suppliers safely for Irish importers. T/T vs Trade Assurance, avoiding invoice interception scams, and reducing FX fees.',
+    h1: 'How to pay Chinese suppliers safely from Ireland: T/T, L/C, and avoiding scams',
+    eyebrow: 'Cost & Economics',
+    category: 'economics',
+    primaryKeyword: 'pay Chinese supplier from Ireland',
+    secondaryKeywords: ['China supplier scams', 'Alibaba trade assurance vs TT', 'how to send money to China for business', 'invoice interception scam China'],
+    intent: 'informational',
+    targetReader: 'Irish business owners ready to place their first significant production order with a Chinese factory, dealing with risk mitigation and FX costs',
+    estimatedWordCount: 2400,
+    publishDate: '2026-04-21',
+    draft: false,
+    excerpt: 'Paying your first €30,000 deposit to a Chinese factory is terrifying. Finding out you paid an invoice interception scammer is worse. Here is how Irish businesses safely send money to China, verify bank details, and avoid the 3% hidden FX margin taken by traditional banks.',
+    image: '/images/irish-business-owner-wire-transfer-chinese-supplier-payment-bank.webp',
+    imageAlt: 'Business owner in Ireland processing safe telegraphic transfer to China supplier',
+    body: `<p>Authorising a €30,000 international transfer to a factory in Shenzhen you have never physically visited requires a significant leap of faith. For many Irish businesses, the moment they hit "send" on their AIB or Bank of Ireland portal is the most anxious part of importing from China.</p>
+
+<p>That anxiety is justified, but usually for the wrong reasons. The primary risk when paying Chinese suppliers is not the factory taking your money and vanishing. Legitimate factories want repeat business, not a one-off theft. The real risks are third-party invoice interception (where you pay a scammer instead of the factory), poorly structured payment terms that destroy your negotiating leverage, and the staggering hidden currency exchange margins that traditional Irish banks take on USD or RMB transfers.</p>
+
+<p>This guide breaks down exactly how to structure your payment terms safely, how to verify supplier bank details, and how to transfer funds from Ireland to China without sacrificing 3 percent of your margin to FX spreads.</p>
+
+<h2>Payment Terms: Why 30/70 is the Gold Standard</h2>
+
+<p>In China sourcing, he who holds the money holds the leverage. Once you pay 100 percent upfront, your ability to negotiate rework, demand quality corrections, or enforce delivery timelines drops to zero.</p>
+
+<p>The standard, universally accepted payment structure for OEM and ODM production in China is "30/70 TT" — a 30 per cent deposit before production begins, and the remaining 70 per cent balance paid only after the goods have passed pre-shipment inspection but before they are loaded onto the vessel.</p>
+
+<p>The 30 per cent deposit serves a specific commercial purpose for the factory: it covers the cost of raw materials and specifically confirms the order. The 70 per cent balance is your insurance policy. If the pre-shipment inspection reveals that the product fails CE compliance, the colour matches poorly, or the dimensions are wrong, the factory will fix the issue because they need the final 70 per cent of their money. If you paid 100 per cent upfront, fixing the problem is a cost they are highly incentivised to avoid.</p>
+
+<p>Never agree to 100 per cent upfront on a production order. Some factories will push for 50/50, which is occasionally acceptable for custom-tooled products where the raw material input cost is exceptionally high. However, 30/70 remains the target. If a factory insists on 100 per cent upfront for a standard €20,000 order, you should immediately question their cash flow stability or their legitimacy.</p>
+
+<h2>The Invoice Interception Scam (Business Email Compromise)</h2>
+
+<p>This is the single most common way Irish importers lose money in China. It is not perpetrated by the factory. It is perpetrated by hackers who have compromised the email account of either the factory's sales rep or your own business.</p>
+
+<p>The scam works like this: You negotiate an order via email. The supplier sends a proforma invoice. Then, just before you make payment, you receive another email from the same supplier — perhaps from the exact same email address, or one off by a single letter. The email states: <em>"We are currently updating our company bank accounts for the annual tax audit. Please send the payment to this alternative account in Hong Kong."</em></p>
+
+<p>You update the beneficiary details, authorise the transfer at your bank, and the money clears. Two weeks later, the real factory emails asking where the deposit is. Your money is gone, sitting in a burner account in Hong Kong or Singapore, and the factory never received it.</p>
+
+<p>Preventing this requires a hard, inflexible rule: <strong>Never accept a change of bank details via email.</strong></p>
+
+<figure class="article-figure">
+  <img src="/images/invoice-interception-scam-real-vs-fake-chinese-supplier-invoice-comparison.webp" alt="Comparison between a real Chinese supplier invoice and a fake intercepted invoice with altered bank details" loading="lazy" width="1280" height="720">
+  <figcaption>The invoice on the left is legitimate. The invoice on the right was intercepted and altered by hackers. Notice the subtle change in the beneficiary bank account name. Always verify via video call.</figcaption>
+</figure>
+
+<p>If a supplier changes their bank details, you must verify it through a secondary channel independent of email. Call the factory directly using the phone number on their official website (not the number in the suspicious email signature). Alternatively, insist that the factory manager holds up the stamped bank details document on a live WeChat video call. No legitimate Chinese business operates without WeChat. If they claim a "tax audit" prevents them using their standard account, refuse to pay until the standard account is available.</p>
+
+<h2>T/T (Telegraphic Transfer) vs Trade Assurance</h2>
+
+<p>There are three primary ways to send money to China: Telegraphic Transfer (T/T), Alibaba Trade Assurance, and Letters of Credit (L/C).</p>
+
+<p><strong>Telegraphic Transfer (T/T):</strong> This is an international wire transfer via the SWIFT network. It is the cheapest, most standard method for B2B transactions. The funds move directly from your bank to the supplier's bank. However, T/T offers zero buyer protection. Once the money hits the supplier's account, it cannot be recalled. You only use T/T when you have verified the factory and trust the relationship.</p>
+
+<p><strong>Alibaba Trade Assurance:</strong> Think of this as an escrow service. You pay via credit card, Apple Pay, or wire transfer into Alibaba's holding account. Alibaba only releases the funds to the supplier once specific conditions (like shipping dates or inspection thresholds) are met. It provides excellent peace of mind for first-time buyers on smaller orders.</p>
+
+<p>The downside of Trade Assurance is the cost and the dispute reality. It adds approximately 2 to 3 per cent to your transaction in processing fees. More importantly, if a dispute arises, Alibaba arbitrates. You must prove the goods are defective based <em>strictly</em> on the criteria defined in the digital purchase contract. If your contract was vague about "acceptable colour variation", Alibaba will likely release the money to the supplier. Trade Assurance is useful, but it does not replace the need for pre-shipment inspection.</p>
+
+<p><strong>Letter of Credit (L/C):</strong> An L/C is a financial instrument where your Irish bank guarantees payment to the Chinese supplier's bank, provided the supplier produces highly specific shipping and compliance documents. The banks manage the risk.</p>
+
+<p>L/Cs are bulletproof security, but they are expensive, administratively exhausting, and generally ignored by Chinese factories for orders under $100,000. For an Irish SME importing €30,000 of goods, the bank fees and setup time make an L/C economically unviable. Stick to 30/70 T/T with rigid pre-shipment inspections.</p>
+
+<figure class="article-figure">
+  <img src="/images/eur-usd-cny-currency-exchange-rate-dashboard-irish-importer-fx-risk.webp" alt="Photorealistic close-up of a curved ultrawide monitor displaying a dark-mode foreign exchange dashboard" loading="lazy" width="1280" height="720">
+  <figcaption>The exchange rate your Irish bank quotes you is not the exchange rate. EUR/USD moved 3.4 percent in the last three weeks of this chart — on a €50,000 payment, that is €1,700 gained or lost depending on your timing. This section of the article shows you how to stop treating FX as a fixed cost and start managing it as a variable you can control.</figcaption>
+</figure>
+
+<h2>The Hidden Cost of High Street Banks</h2>
+
+<p>Chinese factories typically price their goods in US Dollars (USD), though some are shifting towards offshore Chinese Yuan (CNH). As an Irish business, your capital is in Euros (EUR).</p>
+
+<p>When you use a traditional Irish clearing bank (such as AIB or Bank of Ireland) to pay a $50,000 invoice, the bank charges you a flat SWIFT fee of perhaps €15 to €25. That is not the cost. The actual cost is hidden in the exchange rate spread.</p>
+
+<p>Traditional banks typically apply a margin of 2 to 3 per cent on the interbank exchange rate. On a $50,000 payment, the bank is quietly keeping €1,000 to €1,500 by giving you a poor conversion rate. Over a year of quarterly shipments, that is €4,000 to €6,000 stripped directly from your net profit margin.</p>
+
+<p>The solution is to use dedicated business FX providers. Platforms like TransferMate (an Irish unicorn), Revolut Business, Fire, or Monex Europe bypass the high street retail margins. They offer near-interbank exchange rates and charge transparent, fraction-of-a-percent fees. Opening a multi-currency business account with a fintech provider is the highest-ROI administrative task an Irish importer can execute.</p>
+
+<h2>Verifying Bank Details: Red Flags to Watch For</h2>
+
+<p>When a Chinese supplier sends you a proforma invoice with bank details, you must perform due diligence before authorising the SWIFT transfer. Look for the following alignment:</p>
+
+<p><strong>1. Does the beneficiary name exactly match the factory's registered name?</strong> If the verified factory is "Shenzhen Xinlong Manufacturing Co., Ltd", the bank beneficiary must be exactly that. If the beneficiary is "Xinlong Enterprises Limited" based in Hong Kong, you are paying a different legal entity. Often this is just the factory using a Hong Kong offshore account for tax efficiency, but you must ask the factory to officially confirm the relationship between the mainland manufacturing entity and the Hong Kong billing entity on stamped company letterhead.</p>
+
+<p><strong>2. Personal accounts:</strong> Never, under any circumstances, wire business funds to a personal bank account (e.g., standard names like "Wang Wei" or "Li Na"). Legitimate B2B manufacturing transactions occur between corporate entities. Paying a personal account voids any legal protection, violates Irish accounting norms, and is a hallmark of a scam.</p>
+
+<p><strong>3. The Company Chop:</strong> In China, a company signature means less than the official company stamp (the "chop"). The chop is a registered red ink seal that binds the company legally. Ensure the proforma invoice you are paying against is stamped with the official red corporate chop, and ensure the characters on the chop match the registered business name.</p>
+
+<h2>Conclusion</h2>
+
+<p>Managing payments to China safely is an operational discipline. It relies on strict internal protocols, not luck.</p>
+
+<p>For your next invoice, verify the bank details on a video call. Pay 30 per cent upfront, demand a pre-shipment inspection, and only release the 70 per cent balance when the inspection report is passed. And route your EUR to USD conversion through an FX specialist to claw back your margin.</p>
+
+<p>If you're unsure about stepping into the complexities of supplier payments and verified inspections, paying a sourcing agent is the safest route. Your agent verifies the factory, signs domestic legal contracts in Mandarin, and acts as your on-the-ground risk manager. If you need help managing sourcing compliance from Ireland, <a href="/contact">contact Ériu Sourcing</a>.</p>`,
+    sections: [
+      'Payment Terms: Why 30/70 is the Gold Standard',
+      'The Invoice Interception Scam (Business Email Compromise)',
+      'T/T (Telegraphic Transfer) vs Trade Assurance',
+      'The Hidden Cost of High Street Banks',
+      'Verifying Bank Details: Red Flags to Watch For',
+    ],
+    faq: [
+      { q: 'What is the safest way to pay a Chinese supplier?', a: 'For new relationships on orders under €10,000, Alibaba Trade Assurance provides escrow protection. For larger, verified B2B orders, Telegraphic Transfer (T/T) is standard, but safety comes from the payment structure: strictly 30% deposit upfront, 70% balance paid only after a passed pre-shipment inspection.' },
+      { q: 'Should I use my Irish bank account to wire money to China?', a: 'No. Traditional Irish banks apply a 2-3% invisible markup on the EUR-to-USD exchange rate, which costs thousands on volume orders. Use a dedicated corporate FX specialist like TransferMate, Revolut Business, or Fire to get interbank rates.' },
+      { q: 'The supplier changed their bank details to a Hong Kong account, is this normal?', a: 'It is common for mainland Chinese factories to use offshore Hong Kong accounts for USD receipt and tax efficiency. However, it is also the primary mechanism for invoice interception scams. Never accept a bank change via email. Verify the change over a secondary channel, such as a WeChat live video call with the factory manager.' },
+    ],
+    relatedSlugs: ['alibaba-vs-factory-direct-irish-importers', 'real-landed-cost-importing-from-china-ireland', 'china-sourcing-agent-ireland-what-they-do'],
+    internalLinks: [
+      { text: 'How we manage factory payments', href: '/why-direct' },
+      { text: 'Get a sourcing agent quote', href: '/contact' },
+    ],
+  },
+
+  {
+    slug: 'shipping-china-to-ireland-freight-customs-2026',
+    title: 'Shipping from China to Ireland: Freight Routes, Brexit & Customs (2026)',
+    metaTitle: 'Shipping from China to Ireland 2026 | Freight & Customs Guide',
+    metaDescription: 'The ultimate guide to shipping goods from China to Ireland in 2026. Post-Brexit logistics, sea freight vs air freight, HS codes, and clearing Dublin Port customs.',
+    h1: 'Shipping from China to Ireland: Freight forwarders, Brexit, and customs clearance (2026)',
+    eyebrow: 'Logistics',
+    category: 'economics',
+    primaryKeyword: 'shipping from China to Ireland 2026',
+    secondaryKeywords: ['freight forwarder China to Ireland', 'customs clearance Ireland from China', 'sea freight vs air freight China to Ireland', 'EORI number Ireland import requirements'],
+    intent: 'informational',
+    targetReader: 'Irish SMEs looking to understand the post-Brexit logistics landscape, transit times, and documentation required to successfully import goods through Irish customs.',
+    estimatedWordCount: 2600,
+    publishDate: '2026-01-20',
+    draft: false,
+    excerpt: 'Getting goods manufactured in China is only half the battle. Navigating the post-Brexit logistics landscape, understanding EORI requirements, and clearing Dublin customs determines whether your products arrive on time or get stuck in a warehouse. Here is the 2026 reality.',
+    image: '/images/dublin-port-container-ship-arrival-gantry-crane-customs-freight-ireland.webp',
+    imageAlt: 'Cargo container ship arriving at Dublin Port under grey skies',
+    body: `<p>The logistics of moving a shipping container from Shenzhen to Dublin shifted permanently following Brexit. For decades, the default route involved transshipping through massive UK ports like Felixstowe or Southampton, running the goods across the UK on trucks, and ferrying them across the Irish Sea via the "landbridge."</p>
+
+<p>Today, moving goods bound for the Republic of Ireland through the UK customs jurisdiction is a bureaucratic liability. Irish importers now overwhelmingly bypass the UK, relying on direct maritime routes originating from continental European hubs like Rotterdam, Antwerp, or Le Havre, sailing directly into Dublin, Cork, or Rosslare.</p>
+
+<p>Understanding this new geography is critical to forecasting your transit times. However, the physical shipping route is only part of the challenge. The paperwork — clearing Irish customs, correctly classifying Harmonised System (HS) codes, and managing import VAT — is where most first-time importers experience expensive delays.</p>
+
+<p>This guide explains exactly how freight moves from China to Ireland in 2026, the documents you absolutely must have, and how to navigate the Revenue process without delays.</p>
+
+<h2>Sea Freight: FCL vs LCL and Route Fundamentals</h2>
+
+<p>Sea freight is the economic engine of China sourcing. Ocean transit takes between 30 and 42 days, depending on the origin port and the specific carrier routing.</p>
+
+<p>Irish businesses operate within two sea freight modes: <strong>FCL (Full Container Load)</strong> and <strong>LCL (Less than Container Load)</strong>.</p>
+
+<p><strong>FCL</strong> means you are renting the entire 20-foot, 40-foot, or 40-foot High-Cube container. Once your goods are loaded at the factory in China, the doors are sealed, and they are not opened again until the container backs up to your warehouse dock in Ireland. FCL is the most secure, fastest, and most cost-effective way to ship volume. Generally, if your order is larger than 15 cubic metres (CBM), buying a 20-foot FCL is cheaper than paying shared cargo rates.</p>
+
+<p><strong>LCL</strong> means you are sharing a container with other importers. Your goods are consolidated into a container at a Chinese port warehouse, shipped to Europe, and then deconsolidated at a warehouse before final delivery. LCL is perfect for smaller orders (2 CBM to 15 CBM), but it adds 5 to 10 days to the transit time due to the consolidation and deconsolidation handling.</p>
+
+<p><strong>The Post-Brexit Route:</strong> The vast majority of China-to-Ireland sea freight is now routed on massive mother vessels from Shanghai, Ningbo, or Shenzhen to European hub ports (typically Rotterdam in the Netherlands). From Rotterdam, the containers are loaded onto smaller "feeder" vessels that sail directly across the Celtic Sea into Dublin or Cork ports. This bypasses UK customs completely, avoiding transit declarations and potential double-duty exposure.</p>
+
+<figure class="article-figure">
+  <img src="/images/shipping-route-china-to-ireland-uk-landbridge-vs-direct-dublin-2026.webp" alt="Map showing the new direct maritime shipping route from European hub ports to Dublin, bypassing the UK" loading="lazy" width="1280" height="720">
+  <figcaption>The modern post-Brexit freight artery to Ireland. Direct Ro-Ro and Lo-Lo services from continental Europe now dominate, bypassing the administrative friction of the UK landbridge entirely.</figcaption>
+</figure>
+
+<h2>Air Freight and Rail Freight</h2>
+
+<p><strong>Air Freight</strong> from China to Dublin (often routed through DUB or occasionally Shannon) takes 5 to 8 days door-to-door. It is extremely reliable but exorbitantly expensive — often 5 to 10 times the price of sea freight per kilogram. Air freight is calculated on "chargeable weight," which means you pay for whichever is greater: the actual weight of the goods, or the volumetric weight (the space the box takes up). It is only commercially viable for high-margin electronics, urgent samples, or late seasonal stock that missed the sea freight cutoff.</p>
+
+<p><strong>Rail freight</strong> has emerged as a middle ground via the "New Silk Road." Goods travel by rail from China, across Russia/Central Asia, into Germany or Poland, and are then trucked across Europe and ferried directly into Ireland. It offers transit times of roughly 22 to 26 days — faster than the sea, slower than the air, at a price point right in between. However, geopolitical friction in Eastern Europe has occasionally disrupted these routes, so your freight forwarder must advise on current viability.</p>
+
+<figure class="article-figure">
+  <img src="/images/customs-clearance-documents-china-ireland-bill-of-lading-commercial-invoice.webp" alt="Close up of a Commercial Invoice and Bill of Lading required for Irish Customs clearance" loading="lazy" width="1280" height="720">
+  <figcaption>Perfect paperwork is non-negotiable. Without a pristine Commercial Invoice, Packing List, and Bill of Lading, your container will sit in a bonded warehouse at Dublin Port accumulating daily demurrage fees.</figcaption>
+</figure>
+
+<h2>The Freight Forwarder: Your Most Important Partner</h2>
+
+<p>A freight forwarder is a travel agent for cargo. They do not own the ships or the planes. They own the network. A professional Irish freight forwarder will book the vessel space with carriers (like Maersk or MSC), coordinate the trucking in China, arrange the marine insurance, and seamlessly handle the Irish customs declarations upon arrival.</p>
+
+<p>As outlined in our <a href="/blog/incoterms-explained-irish-importers-fob-cif-exw-dap-china">Incoterms guide</a>, Irish businesses should heavily favour purchasing on <strong>FOB (Free On Board)</strong> terms. Under FOB, your supplier handles the Chinese logistics locally, and your Irish freight forwarder takes control of the cargo the moment it is loaded onto the ship. This gives you local Irish accountability. If the ship is delayed, you call a logistics expert in Dublin, not an overworked factory rep in Shenzhen.</p>
+
+<h2>Customs Clearance in Ireland: The Required Bureaucracy</h2>
+
+<p>Clearing Irish customs via Revenue.ie is a strict, documentation-heavy process. You cannot improvise here. Missing paperwork means the container sits in a bonded warehouse at Dublin Port incurring daily "demurrage" (storage) fees until the paperwork is corrected.</p>
+
+<p>Before you ship anything, your business must have an <strong>EORI Number (Economic Operators Registration and Identification)</strong>. It is legally required to import goods from outside the EU. You can register for this via your Revenue Online Service (ROS) account; it is usually tied to your VAT number and takes just a few days to issue.</p>
+
+<p>When the shipment arrives, your customs broker (usually supplied by your freight forwarder) will submit an import declaration. To do this, they require four non-negotiable documents from your Chinese supplier:</p>
+
+<p><strong>1. Commercial Invoice:</strong> The definitive receipt. It must detail the exact value of the goods, the currency, the Incoterms agreed upon (e.g., FOB Shenzhen), and a clear description of the items.</p>
+<p><strong>2. Packing List:</strong> A highly detailed breakdown of how the goods are packed. It must outline the number of cartons, the gross weight, the net weight, and the dimensions of the pallets. Customs officers use this to verify the physical shipment.</p>
+<p><strong>3. Bill of Lading (B/L):</strong> The title deed to the cargo. Issued by the shipping line, it proves the goods have been loaded. Often handled digitally today via a "Telex Release," meaning you don't need physical couriered paper to claim your goods.</p>
+<p><strong>4. Compliance Documentation:</strong> If importing regulated goods — electronics, toys, machinery — the <a href="/blog/ce-marking-china-imports-ireland">EU Declaration of Conformity and CE test reports</a> must be available. Customs may demand to see them before releasing the container.</p>
+
+<h2>HS Codes and Postponed VAT Accounting (PVA)</h2>
+
+<p>Irish Customs charges duty based on the 10-digit Harmonised System (HS) code classification of your product. This code defines precisely what the item is and applies the correct tariff rate (determined by the EU TARIC database). A wooden chair faces a different duty percentage than an upholstered chair. Deliberately misclassifying an HS code to secure a lower duty rate is customs fraud and carries severe penalties.</p>
+
+<p>Import VAT is then applied at the standard Irish rate (currently 23 per cent) across the total "Customs Value" — which is the value of the goods, PLUS the shipping cost, PLUS the customs duty.</p>
+
+<p>However, the cash flow burden of paying massive VAT bills at the port has been resolved for VAT-registered Irish businesses. <strong>Postponed VAT Accounting (PVA)</strong> allows you to declare the import VAT on your bi-monthly VAT return rather than paying it physically at the harbor. By simultaneously declaring it as a liability and an input credit on the same return, the cash flow impact is neutralised. Ensure your customs broker knows you want to utilize PVA.</p>
+
+<h2>Summary</h2>
+
+<p>The 2026 Ireland logistics pipeline from China is highly mature, but strictly unforgiving of amateur mistakes. Use FOB terms to control your costs, partner with an experienced Irish freight forwarder who uses direct European routing, register your EORI number early, and demand precise commercial documents from the factory.</p>
+
+<p>At Ériu Sourcing, we specialize in bridging the gap between the factory floor in China and the warehouse door in Ireland. We coordinate with elite freight forwarders to ensure goods are shipped cost-effectively and clear customs smoothly. If you require an end-to-end sourcing and logistics solution, <a href="/contact">speak to us today</a>.</p>`,
+    sections: [
+      'Sea Freight: FCL vs LCL and Route Fundamentals',
+      'Air Freight and Rail Freight',
+      'The Freight Forwarder: Your Most Important Partner',
+      'Customs Clearance in Ireland: The Required Bureaucracy',
+      'HS Codes and Postponed VAT Accounting (PVA)',
+    ],
+    faq: [
+      { q: 'Do goods from China to Ireland still incur UK customs delays after Brexit?', a: 'Minimal to none. Most professional freight forwarders now route Irish ocean freight via direct feeder services from European hubs (like Rotterdam or Antwerp) straight into Dublin or Cork, entirely bypassing the UK "landbridge" and avoiding transit declaration complexities.' },
+      { q: 'What paperwork do I need to clear an import through Irish Customs?', a: 'You need an active EORI number, a Commercial Invoice detailing the exact value and HS codes, a detailed Packing List, the Bill of Lading from the carrier, and any relevant compliance documents (like CE Declarations of Conformity for electronics).' },
+      { q: 'Do I have to pay 23% VAT upfront at Dublin Port before my goods are released?', a: 'If you are a VAT-registered business in Ireland, no. You can use Postponed VAT Accounting (PVA) to account for the import VAT on your standard VAT-3 return, allowing you to neutralize the cash flow impact immediately.' },
+    ],
+    relatedSlugs: ['incoterms-explained-irish-importers-fob-cif-exw-dap-china', 'real-landed-cost-importing-from-china-ireland'],
+    internalLinks: [
+      { text: 'Get a shipping & landed cost quote', href: '/contact' },
+      { text: 'Our full sourcing pipeline', href: '/how-it-works' },
+    ],
+  },
+
 
 // Helper: get published posts only
 export const publishedPosts = blogPosts.filter(p => !p.draft);
