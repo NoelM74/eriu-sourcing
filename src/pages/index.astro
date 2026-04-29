@@ -65,7 +65,7 @@ const pageSchemas = [
       <div class="hero-overlay"></div>
     </div>
     <div class="hero-content container">
-      <p class="hero-eyebrow">China Direct Sourcing — Ireland &amp; UK</p>
+      <p class="hero-eyebrow">China Direct Sourcing — Ireland</p>
       <h1>Factory-direct from<br />Zhengzhou and Shenzhen.</h1>
       <p class="hero-sub">QC before it ships. No Alibaba middlemen. No trading company markups. One person with 18 years of factory-level relationships — buying direct for Irish businesses.</p>
       <div class="hero-actions">
@@ -263,14 +263,14 @@ const pageSchemas = [
       </div>
 
       <ul class="categories-list" role="list">
-        <li><a href="/product-categories#fashion"><span>Fashion &amp; Apparel</span><span class="cat-arrow">→</span></a></li>
-        <li><a href="/product-categories#electronics"><span>Electronics</span><span class="cat-arrow">→</span></a></li>
-        <li><a href="/product-categories#furniture"><span>Furniture &amp; Fit-Out</span><span class="cat-arrow">→</span></a></li>
-        <li><a href="/product-categories#construction"><span>Construction Materials</span><span class="cat-arrow">→</span></a></li>
-        <li><a href="/product-categories#hospitality"><span>Hospitality</span><span class="cat-arrow">→</span></a></li>
-        <li><a href="/product-categories#pet"><span>Pet Supplies</span><span class="cat-arrow">→</span></a></li>
-        <li><a href="/product-categories#bags"><span>Bags &amp; Luggage</span><span class="cat-arrow">→</span></a></li>
-        <li><a href="/product-categories#modular-buildings"><span>Modular Buildings</span><span class="cat-arrow">→</span></a></li>
+        <li><a href="/source/fashion-apparel-from-china-ireland/"><span>Fashion &amp; Apparel</span><span class="cat-arrow">→</span></a></li>
+        <li><a href="/source/electronics-from-china-ireland/"><span>Electronics</span><span class="cat-arrow">→</span></a></li>
+        <li><a href="/source/furniture-from-china-ireland/"><span>Furniture &amp; Fit-Out</span><span class="cat-arrow">→</span></a></li>
+        <li><a href="/source/construction-materials-from-china-ireland/"><span>Construction Materials</span><span class="cat-arrow">→</span></a></li>
+        <li><a href="/source/hospitality-fitout-from-china-ireland/"><span>Hospitality</span><span class="cat-arrow">→</span></a></li>
+        <li><a href="/source/pet-supplies-from-china-ireland/"><span>Pet Supplies</span><span class="cat-arrow">→</span></a></li>
+        <li><a href="/source/bags-luggage-from-china-ireland/"><span>Bags &amp; Luggage</span><span class="cat-arrow">→</span></a></li>
+        <li><a href="/source/modular-buildings-from-china-ireland/"><span>Modular Buildings</span><span class="cat-arrow">→</span></a></li>
       </ul>
     </div>
   </section>
@@ -299,6 +299,40 @@ const pageSchemas = [
           <a href="/china-network" class="btn btn--secondary" style="margin-top: 0.5rem;">See the full network →</a>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       FAQ — visible Q&A for PAA + GEO signals
+       ================================================ -->
+  <section class="section faq-section">
+    <div class="container">
+      <div class="faq-header">
+        <span class="section-eyebrow">Common questions</span>
+        <h2>Frequently asked questions</h2>
+      </div>
+      <dl class="faq-list">
+        <div class="faq-item">
+          <dt>What is a China sourcing agent?</dt>
+          <dd>A China sourcing agent acts as your on-the-ground representative in China. They identify factories, vet suppliers, negotiate prices, conduct pre-shipment quality control inspections, and coordinate freight to your destination. Ériu Sourcing operates from Zhengzhou and Shenzhen with 18 years of established factory relationships across all major manufacturing categories.</dd>
+        </div>
+        <div class="faq-item">
+          <dt>How much can I save buying direct from Chinese factories?</dt>
+          <dd>Irish businesses typically save 35–60% compared to buying through Irish wholesalers or Alibaba trading companies. These savings come from eliminating two or three layers of margin: the Chinese trading company markup (15–40%), the European importer markup, and the Irish distributor margin. The exact saving depends on product category, volume, and your current wholesale pricing.</dd>
+        </div>
+        <div class="faq-item">
+          <dt>What is the difference between Ériu Sourcing and buying on Alibaba?</dt>
+          <dd>Most suppliers on Alibaba are trading companies, not factories — they add 20–40% margin while presenting themselves as manufacturers. There is no physical verification, no pre-shipment inspection, and no CE compliance check possible through Alibaba alone. Ériu Sourcing provides direct factory access with physical on-site visits, factory-gate price negotiation, and independent pre-shipment QC before a container is sealed.</dd>
+        </div>
+        <div class="faq-item">
+          <dt>Do you handle CE marking and EU compliance for Chinese imports?</dt>
+          <dd>Yes. CE compliance is verified at source — at the factory in China — before any goods leave the country. We check certification documentation, test reports, and product specifications against EU and Irish standards. For construction materials, electronics, and apparel, full compliance documentation is provided with every order.</dd>
+        </div>
+        <div class="faq-item">
+          <dt>What minimum order is required to use Ériu Sourcing?</dt>
+          <dd>Ériu Sourcing works with businesses across all sizes. Minimum order quantities are set by individual factories and vary by product category — typically ranging from €3,000 to €10,000 per order depending on the product. Factory-specific MOQs are advised as part of the initial brief stage, before any commitment is made.</dd>
+        </div>
+      </dl>
     </div>
   </section>
 
@@ -697,6 +731,43 @@ const pageSchemas = [
   .categories-list a:hover .cat-arrow {
     color: #1A533E;
     transform: translateX(3px);
+  }
+
+  /* ===================== FAQ SECTION ===================== */
+  .faq-header {
+    max-width: 560px;
+    margin-bottom: 3rem;
+  }
+
+  .faq-header h2 {
+    margin-bottom: 0;
+  }
+
+  .faq-list {
+    display: grid;
+    gap: 0;
+    border-top: 1px solid rgba(15, 33, 49, 0.1);
+    max-width: 860px;
+  }
+
+  .faq-item {
+    border-bottom: 1px solid rgba(15, 33, 49, 0.1);
+    padding: 1.75rem 0;
+  }
+
+  .faq-item dt {
+    font-size: 1.0625rem;
+    font-weight: 700;
+    color: #0F2131;
+    line-height: 1.35;
+    margin-bottom: 0.75rem;
+  }
+
+  .faq-item dd {
+    font-size: 0.9375rem;
+    color: #5a5a5a;
+    line-height: 1.75;
+    margin: 0;
   }
 
   /* ===================== CTA SECTION ===================== */
