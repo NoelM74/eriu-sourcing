@@ -40,7 +40,7 @@ const canonicalUrl = `${siteUrl}${withTrailingSlash(rawPath)}`;
 
 // Base org schema — always present on every page
 const orgSchema = {
-  "@type": "ProfessionalService",
+  "@type": ["LocalBusiness", "ProfessionalService"],
   "@id": `${siteUrl}/#organization`,
   "name": "Ériu Sourcing",
   "description": "Factory-direct sourcing from China to Ireland. Supplier identification, QC inspection, CE compliance, logistics management. 18 years China experience.",
