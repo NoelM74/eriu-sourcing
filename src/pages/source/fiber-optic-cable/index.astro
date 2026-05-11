@@ -1,0 +1,592 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+const title = 'Fiber Optic Cable Supplier — G.657.A2 & OPGW Factory Direct | Ériu Sourcing';
+const description = 'Factory-direct fiber optic cable from verified Chinese manufacturers. G.657.A2 bend-insensitive fiber for data centres and OPGW-24 G.652 ULL for power utilities. Supply to Europe.';
+const canonical = '/source/fiber-optic-cable/';
+const siteUrl = 'https://eriusourcing.com';
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "What We Source", "item": `${siteUrl}/source/` },
+      { "@type": "ListItem", "position": 3, "name": "Fiber Optic Cable", "item": `${siteUrl}/source/fiber-optic-cable/` }
+    ]
+  },
+  {
+    "@type": "ItemList",
+    "name": "Fiber Optic Cable Products — Ériu Sourcing",
+    "description": "Factory-direct fiber optic cable supply from verified Chinese manufacturers to Europe.",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "G.657.A2 Bend-Insensitive Single-Mode Fiber", "url": `${siteUrl}/source/fiber-optic-cable/g657a2/` },
+      { "@type": "ListItem", "position": 2, "name": "OPGW-24 G.652 ULL Optical Ground Wire", "url": `${siteUrl}/source/fiber-optic-cable/opgw/` }
+    ]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What fiber optic cable products does Ériu Sourcing supply?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Ériu Sourcing supplies two fiber optic cable products factory-direct from verified Chinese manufacturers: G.657.A2 bend-insensitive single-mode optical fiber (ITU-T G.652.D/G.657.A2 compliant, 7.5 mm minimum bend radius) for data centres, FTTH, and in-building cabling; and OPGW-24 G.652 ULL optical ground wire (24 G.652 ultra-low-loss fibers, 71 kN RTS, IEC 60794-4-10 and IEEE 1138 compliant) for high-voltage overhead power lines." }
+      },
+      {
+        "@type": "Question",
+        "name": "Where does Ériu Sourcing ship fiber optic cable to?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Ériu Sourcing supplies fiber optic cable factory-direct from China to customers across Europe, including Ireland, the United Kingdom, Germany, France, the Netherlands, and other EU and EEA markets. All supply is on an inquiry and project basis — contact us with your specification and volume." }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the minimum order quantity for fiber optic cable?",
+        "acceptedAnswer": { "@type": "Answer", "text": "G.657.A2 fiber is available on reels — minimum order quantities depend on reel size and configuration; contact us with your fiber count, length, and application requirements. OPGW-24 G.652 ULL is supplied on standard wooden drums in lengths of 2,000 to 5,000 metres per drum. We work with single-drum orders for sampling and project-scale multi-drum supply." }
+      }
+    ]
+  },
+  {
+    "@type": "Organization",
+    "@id": `${siteUrl}/#organization`,
+    "name": "Ériu Sourcing",
+    "url": siteUrl,
+    "description": "China-direct sourcing agent for Irish and European businesses. Factory-direct access across electronics, construction, furniture, and fiber optic infrastructure products.",
+    "areaServed": { "@type": "Place", "name": "Europe" }
+  }
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} jsonLd={pageSchemas}>
+
+  <!-- HERO -->
+  <section class="fiber-hero section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Fiber Optic Cable</span>
+      <h1>Factory-direct fiber optic cable from China to Europe</h1>
+      <p class="lead">Two products, two markets. G.657.A2 bend-insensitive fiber for data centres, FTTH, and in-building cabling. OPGW-24 G.652 ULL optical ground wire for high-voltage power lines and utility networks. Both sourced direct from ISO 9001-certified Chinese manufacturers — verified, documented, and shipped to your specification.</p>
+      <div class="hero-ctas">
+        <a href="/contact" class="btn btn--primary">Request a quote →</a>
+        <a href="#products" class="btn btn--secondary">View products</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARKET CONTEXT BAR -->
+  <section class="stats-bar">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-num">8.45%</span>
+          <span class="stat-label">Fiber optic market CAGR to 2031</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">G.657.A2</span>
+          <span class="stat-label">Supply tightening — AI data centre demand</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">7.5 mm</span>
+          <span class="stat-label">Minimum bend radius — G.657.A2</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">71 kN</span>
+          <span class="stat-label">Rated tensile strength — OPGW-24</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT CARDS -->
+  <section id="products" class="section section--alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Products</span>
+        <h2>Two products. Two distinct markets.</h2>
+        <p class="section-intro">G.657.A2 solves the bend-radius problem inside data halls, MDUs, and FTTH networks. OPGW-24 G.652 ULL integrates fiber into overhead transmission infrastructure for utilities and telecom carriers. Both are supplied direct from the factory with full technical documentation.</p>
+      </div>
+
+      <div class="product-grid">
+
+        <!-- G.657.A2 -->
+        <a href="/source/fiber-optic-cable/g657a2/" class="product-card">
+          <div class="product-img">
+            <img
+              src="/images/g657a2-fiber-patch-panel-dense-routing.jpg"
+              alt="Dense fiber optic patch panel with G.657.A2 bend-insensitive cables routed through a high-density data centre cross-connect"
+              width="800" height="500" loading="lazy"
+            />
+            <span class="product-badge product-badge--teal">Data Centre & FTTH</span>
+          </div>
+          <div class="product-content">
+            <span class="product-standard">ITU-T G.652.D / G.657.A2 · IEC 60793-2-50 B6.a2</span>
+            <h2>G.657.A2 Bend-Insensitive Single-Mode Fiber</h2>
+            <p>7.5 mm minimum bend radius. Full-band operation 1260–1625 nm. ≤0.21 dB/km attenuation at 1550 nm. Fully compatible with existing G.652.D infrastructure. The standard choice for AI data centre patching, high-density cross-connects, FTTH drops, and in-building distribution where tight routing is unavoidable.</p>
+            <div class="spec-pills">
+              <span class="spec-pill">7.5 mm bend radius</span>
+              <span class="spec-pill">≤0.21 dB/km @ 1550 nm</span>
+              <span class="spec-pill">G.652.D compatible</span>
+              <span class="spec-pill">PMD ≤0.2 ps/√km</span>
+            </div>
+            <div class="product-links">
+              <span class="primary-link">Full specs & datasheet →</span>
+              <a href="/downloads/Eriu-Sourcing-G657A2-Fiber-Spec-Sheet.pdf" class="download-link" target="_blank" rel="noopener" onclick="event.stopPropagation()">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+                Download spec sheet (PDF)
+              </a>
+            </div>
+          </div>
+        </a>
+
+        <!-- OPGW -->
+        <a href="/source/fiber-optic-cable/opgw/" class="product-card">
+          <div class="product-img">
+            <img
+              src="/images/opgw-cable-high-voltage-transmission-line.jpg"
+              alt="OPGW optical ground wire strung between high-voltage transmission towers, combining lightning protection and 24-fiber G.652 ULL data backbone"
+              width="800" height="500" loading="lazy"
+            />
+            <span class="product-badge product-badge--navy">Power Utilities & Telecoms</span>
+          </div>
+          <div class="product-content">
+            <span class="product-standard">IEC 60794-4-10 · IEEE 1138-2009 · ITU-T G.652 ULL</span>
+            <h2>OPGW-24 G.652 ULL Optical Ground Wire</h2>
+            <p>24 ultra-low-loss G.652 fibers housed in a stainless-steel tube, armoured with aluminium-clad and aluminium-alloy wires. 71 kN rated tensile strength. Qualified for aeolian vibration, galloping, short-circuit current, and lightning. Replaces conventional earth wire on 110–500 kV lines — one cable delivering grounding, lightning protection, and a 24-fiber optical backbone.</p>
+            <div class="spec-pills">
+              <span class="spec-pill">24 × G.652 ULL fibers</span>
+              <span class="spec-pill">71 kN RTS</span>
+              <span class="spec-pill">≤0.18 dB/km @ 1550 nm</span>
+              <span class="spec-pill">92.52 kA²S fault capacity</span>
+            </div>
+            <div class="product-links">
+              <span class="primary-link">Full specs & datasheet →</span>
+              <a href="/downloads/Eriu-Sourcing-OPGW24-G652-ULL-Spec-Sheet.pdf" class="download-link" target="_blank" rel="noopener" onclick="event.stopPropagation()">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+                Download spec sheet (PDF)
+              </a>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY FACTORY DIRECT FOR FIBER -->
+  <section class="section">
+    <div class="container">
+      <div class="split-section">
+        <div class="split-text">
+          <span class="section-eyebrow">Why factory-direct</span>
+          <h2>The fiber optic supply chain has the same middleman problem as every other category</h2>
+          <p>European fiber optic distributors buy from Chinese manufacturers — often the same factories we work with — and resell with a 40–80% margin applied. For G.657.A2 fiber specifically, supply tightness in 2026 driven by AI data centre build-outs has pushed distributor pricing significantly above factory-gate levels.</p>
+          <p>Factory-direct supply removes that margin layer entirely. You buy at the same price a European distributor buys at, with direct access to the factory's technical team for specification queries, custom configurations, and lead-time management.</p>
+          <p>For OPGW — a project-driven, specification-heavy product — factory-direct supply also means direct access to the engineering team for configuration queries (fiber count, conductor cross-section, short-circuit rating), Factory Acceptance Test (FAT) coordination, and custom drum lengths to match your span calculations.</p>
+          <a href="/why-direct/" class="btn btn--secondary" style="margin-top:1.5rem">How factory-direct works →</a>
+        </div>
+        <div class="split-img">
+          <img
+            src="/images/fiber-optic-data-center-server-rack.jpg"
+            alt="Data centre server rack with yellow and green fiber optic cables — factory-direct G.657.A2 fiber supply to European data centres"
+            width="600" height="700" loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARKET CONTEXT -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Market context</span>
+      <h2>Why fiber optic demand is accelerating — and what it means for procurement</h2>
+      <div class="context-grid">
+        <div class="context-card">
+          <h3>AI data centres driving G.657.A2 demand</h3>
+          <p>GPU clusters and hyperscale AI data centres require extreme-density fiber patching inside racks and between ToR switches, spines, and aggregation layers. G.657.A2's 7.5 mm bend radius handles the routing constraints that cause signal loss with standard G.652 patch leads. Industry sources report G.657.A2 supply tightness and price increases across 2026 as cloud providers lock in long-term contracts. Securing direct factory supply now protects against distributor scarcity premiums.</p>
+        </div>
+        <div class="context-card">
+          <h3>Grid modernisation driving OPGW installation</h3>
+          <p>Transmission system operators across Europe are replacing ageing overhead earth wires with OPGW to provide simultaneous lightning protection and a fiber backbone for SCADA, protection relays, and synchrophasor networks. Utilities also monetise spare fiber capacity by leasing to telecom carriers for regional backhaul — making the 24-fiber count of the OPGW-24 G.652 ULL particularly attractive: sufficient for internal grid communications plus commercially leasable spare fibers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">How it works</span>
+      <h2>From specification to delivery</h2>
+      <div class="process-steps">
+        <div class="process-step">
+          <span class="step-num">01</span>
+          <div class="step-body">
+            <h3>Send your specification</h3>
+            <p>Share your fiber type, quantity, connector/reel configuration, required standards, and timeline. For OPGW, include your span data, fault current requirements, and applicable voltage class.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <span class="step-num">02</span>
+          <div class="step-body">
+            <h3>Factory quotation and documentation review</h3>
+            <p>We obtain a factory-gate quotation and review the technical file — test certificates, compliance documentation (IEC, ITU-T, IEEE), and manufacturing records. For OPGW, we confirm FAT scope and coordinate witness testing if required.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <span class="step-num">03</span>
+          <div class="step-body">
+            <h3>Production, QC, and pre-shipment inspection</h3>
+            <p>Pre-shipment inspection at the factory covers optical performance (OTDR per IEC 60793-1-40), dimensional checks, and documentation completeness. OPGW orders include breaking strength verification and review of routine test records against the FAT scope.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <span class="step-num">04</span>
+          <div class="step-body">
+            <h3>Freight and delivery to Europe</h3>
+            <p>Sea freight from China to European ports (Rotterdam, Hamburg, Dublin, Felixstowe) with full shipping documentation — commercial invoice, packing list, bill of lading, certificate of origin, and test records — to support customs clearance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--emerald">
+    <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">Get pricing</span>
+      <h2>Send your fiber optic specification. We come back with factory-gate pricing.</h2>
+      <p>G.657.A2 fiber reels or OPGW drums — share your quantity, configuration, and delivery port. No obligation, no intermediary margin.</p>
+      <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-top:1.5rem">
+        <a href="/contact" class="btn btn--white-outline">Request a quote →</a>
+        <a href="/downloads/Eriu-Sourcing-G657A2-Fiber-Spec-Sheet.pdf" class="btn btn--white-ghost" target="_blank" rel="noopener">G.657.A2 spec sheet (PDF)</a>
+        <a href="/downloads/Eriu-Sourcing-OPGW24-G652-ULL-Spec-Sheet.pdf" class="btn btn--white-ghost" target="_blank" rel="noopener">OPGW-24 spec sheet (PDF)</a>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  /* HERO */
+  .fiber-hero {
+    border-bottom: 1px solid rgba(15,33,49,0.08);
+  }
+  .fiber-hero h1 {
+    margin-top: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+  .lead {
+    font-size: 1.2rem;
+    color: #3a3a3a;
+    max-width: 64ch;
+    line-height: 1.7;
+    margin: 0 0 2rem;
+  }
+  .hero-ctas {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  /* STATS BAR */
+  .stats-bar {
+    background: #fff;
+    border-bottom: 1px solid rgba(15,33,49,0.08);
+    padding: 2.5rem 0;
+  }
+  .stats-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex: 1;
+    min-width: 140px;
+  }
+  .stat-num {
+    font-size: clamp(1.25rem, 2.5vw, 1.875rem);
+    font-weight: 700;
+    color: var(--color-emerald);
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .stat-label {
+    font-size: 0.8125rem;
+    color: #5a5a5a;
+    line-height: 1.4;
+  }
+  .stat-divider {
+    width: 1px;
+    height: 48px;
+    background: rgba(15,33,49,0.12);
+    flex-shrink: 0;
+  }
+
+  /* SECTION HEADER */
+  .section-header {
+    max-width: 62ch;
+    margin-bottom: 3rem;
+  }
+  .section-intro {
+    font-size: 1.0625rem;
+    color: #4a4a4a;
+    line-height: 1.7;
+    margin: 0.75rem 0 0;
+  }
+
+  /* PRODUCT GRID */
+  .product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid rgba(15,33,49,0.09);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+  }
+  .product-card:hover {
+    border-color: var(--color-emerald);
+    box-shadow: 0 6px 28px rgba(26,83,62,0.1);
+    transform: translateY(-3px);
+  }
+  .product-img {
+    position: relative;
+    overflow: hidden;
+    height: 260px;
+  }
+  .product-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  .product-card:hover .product-img img {
+    transform: scale(1.03);
+  }
+  .product-badge {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-size: 0.6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.3rem 0.75rem;
+    border-radius: 4px;
+    color: #fff;
+  }
+  .product-badge--teal { background: rgba(28,124,131,0.92); }
+  .product-badge--navy { background: rgba(15,33,49,0.88); }
+
+  .product-content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+    flex: 1;
+  }
+  .product-standard {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-teal);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .product-content h2 {
+    font-size: 1.25rem;
+    line-height: 1.3;
+    margin: 0;
+    color: var(--color-navy);
+  }
+  .product-content p {
+    font-size: 0.9375rem;
+    color: #4a4a4a;
+    line-height: 1.65;
+    margin: 0;
+    flex: 1;
+  }
+
+  /* SPEC PILLS */
+  .spec-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.25rem;
+  }
+  .spec-pill {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-navy);
+    background: rgba(15,33,49,0.06);
+    padding: 0.25rem 0.625rem;
+    border-radius: 99px;
+    white-space: nowrap;
+  }
+
+  /* PRODUCT LINKS */
+  .product-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(15,33,49,0.07);
+  }
+  .primary-link {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--color-emerald);
+  }
+  .download-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: #5a5a5a;
+    text-decoration: none;
+    transition: color 0.12s;
+    z-index: 2;
+    position: relative;
+  }
+  .download-link:hover {
+    color: var(--color-emerald);
+  }
+
+  /* SPLIT SECTION */
+  .split-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+  }
+  .split-text h2 {
+    margin: 0.75rem 0 1.25rem;
+    line-height: 1.25;
+  }
+  .split-text p {
+    font-size: 1rem;
+    color: #3a3a3a;
+    line-height: 1.7;
+    margin: 0 0 1rem;
+  }
+  .split-img img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    border-radius: var(--radius-lg);
+    display: block;
+  }
+
+  /* MARKET CONTEXT */
+  .context-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .context-card {
+    background: #fff;
+    border: 1px solid rgba(15,33,49,0.08);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+  }
+  .context-card h3 {
+    font-size: 1.0625rem;
+    color: var(--color-navy);
+    margin: 0 0 0.875rem;
+  }
+  .context-card p {
+    font-size: 0.9375rem;
+    color: #4a4a4a;
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  /* PROCESS STEPS */
+  .process-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 2rem;
+  }
+  .process-step {
+    display: grid;
+    grid-template-columns: 3rem 1fr;
+    gap: 1.5rem;
+    padding: 1.75rem 0;
+    border-top: 1px solid rgba(15,33,49,0.08);
+  }
+  .process-step:last-child {
+    border-bottom: 1px solid rgba(15,33,49,0.08);
+  }
+  .step-num {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    color: var(--color-teal);
+    letter-spacing: 0.06em;
+    padding-top: 0.2rem;
+  }
+  .step-body h3 {
+    font-size: 1rem;
+    color: var(--color-navy);
+    margin: 0 0 0.5rem;
+  }
+  .step-body p {
+    font-size: 0.9375rem;
+    color: #4a4a4a;
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  /* WHITE GHOST BUTTON */
+  .btn--white-ghost {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    font-size: 0.9375rem;
+    text-decoration: none;
+    background: transparent;
+    border: 1.5px solid rgba(255,255,255,0.5);
+    color: rgba(255,255,255,0.85);
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .btn--white-ghost:hover {
+    border-color: #fff;
+    color: #fff;
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 900px) {
+    .product-grid { grid-template-columns: 1fr; }
+    .split-section { grid-template-columns: 1fr; gap: 2.5rem; }
+    .split-img img { height: 300px; }
+    .context-grid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 600px) {
+    .stats-grid { gap: 1rem; }
+    .stat-divider { display: none; }
+    .stat-item { min-width: 120px; }
+    .product-links { flex-direction: column; align-items: flex-start; }
+  }
+</style>
