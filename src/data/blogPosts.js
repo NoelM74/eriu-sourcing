@@ -684,28 +684,182 @@ export const blogPosts = [
     intent: 'informational',
     targetReader: 'Irish business owners and buyers who are importing or planning to import from China and are uncertain about CE compliance requirements',
     estimatedWordCount: 2800,
-    publishDate: '2026-05-06',
-    draft: true,
+    publishDate: '2026-02-11',
+    draft: false,
+    body: `<p>A Chinese factory sends you a product with CE marking stamped on the box. They attach a Declaration of Conformity. The test report runs to 40 pages. You send the container. The goods arrive at Dublin Port and clear customs without incident. Six months later, your products are pulled from a retail shelf by the CCPC — the Irish market surveillance authority — because the CE certification is not worth the paper it is printed on.</p>
+
+<p>This is not an edge case. It is one of the most common and expensive compliance failures in China-to-Ireland trade. The Irish importer believed the CE mark was verified. It was not. The factory had self-declared conformity using paperwork they generated themselves — legal under certain conditions, but not under the conditions that applied to those products. The importer, not the Chinese factory, bears full legal responsibility.</p>
+
+<p>Understanding what CE marking actually requires — and why Chinese supplier documentation is not sufficient on its own — is not a bureaucratic exercise. It is the difference between goods that sell and goods that get seized.</p>
+
+<h2>What CE marking actually means — and what it does not</h2>
+
+<p>CE marking — from the French Conformité Européenne — is the EU's declaration that a product meets the essential health, safety, and environmental requirements defined by the applicable EU directives and regulations for that product category.</p>
+
+<p>It is not a quality mark. It does not mean the product is good, durable, or value for money. It means the product has been assessed against the specific technical requirements that apply to its category — and that the party affixing the mark is declaring that assessment has been completed correctly.</p>
+
+<p>The critical point most importers miss: the CE mark itself is applied by the manufacturer or responsible party. It is not issued by an external authority. For many product categories, no government body checks compliance before a product enters the market. The burden of proof falls on whoever places the product on the EU market — and in EU law, when you import goods from China and sell them in Ireland, that is you.</p>
+
+<p>This is why the CE mark on the box tells you almost nothing on its own. It tells you that someone — the factory, in most cases — has declared conformity. It does not tell you whether that declaration is accurate, whether the product was tested by an accredited body, or whether the technical file supporting the declaration would withstand scrutiny from Revenue, the CCPC, or the NSAI.</p>
+
+<p>There is also a visual detail worth knowing. Chinese factories have long used a near-identical mark known as the China Export mark — sometimes called the "Chinese Export" mark or "CE China" mark. The letters are visually almost identical to the EU CE mark but with the C and E compressed closer together. It carries no regulatory meaning whatsoever. It does not signify compliance with any directive. Products bearing only this mark have no CE certification at all. The difference between the two marks is a matter of millimetres in letter spacing.</p>
+
+<figure class="article-figure">
+  <img src="/images/ce-mark-vs-china-export-mark-visual-comparison-irish-importers.jpg" alt="Side-by-side comparison of the official EU CE mark and the China Export mark. The EU CE mark on the left shows correctly spaced letters with a green checkmark, labelled 'Letters correctly spaced — means product meets EU safety directives.' The China Export mark on the right shows compressed letters nearly touching with a red X, labelled 'Letters compressed together — means nothing, no testing, no compliance.'" loading="lazy" width="1280" height="720">
+  <figcaption>The difference is millimetres — and it is worth thousands. The EU CE mark on the left means the product has been assessed against EU safety directives. The China Export mark on the right means absolutely nothing. If the letters on your product are touching, you do not have CE compliance. You have a label.</figcaption>
+</figure>
+
+<h2>The difference between self-declared and third-party verified CE</h2>
+
+<p>EU directives distinguish between two routes to CE compliance. For lower-risk product categories, a manufacturer can self-certify — conducting an internal conformity assessment and issuing a Declaration of Conformity without any external body involved. For higher-risk categories, the directive mandates that a notified body — an accredited third-party conformity assessment organisation — must independently verify compliance before the CE mark can legitimately be applied.</p>
+
+<p>Chinese factories routinely issue Declaration of Conformity documents for products that require third-party notified body involvement. The document looks identical regardless of route. The header says "Declaration of Conformity." The correct directive numbers are cited. The factory's authorised signatory has signed it. By any visual inspection, it looks like a compliant document.</p>
+
+<p>The difference is that for products falling under the Low Voltage Directive, the Machinery Directive, the Radio Equipment Directive, the Medical Devices Regulation, and the Construction Products Regulation, a Declaration of Conformity issued without the involvement of an EU-notified body is not legally valid — regardless of what it says or how professional it looks.</p>
+
+<p>A Chinese factory is not an EU notified body. No Chinese testing laboratory can substitute for EU notified body involvement on product categories that require it. Test reports issued by Chinese labs — even CNAS-accredited ones — do not satisfy the EU notified body requirement unless that specific lab holds EU recognition under the applicable directive, which is rare and must be verified individually.</p>
+
+<h2>Which products need CE marking to sell in Ireland</h2>
+
+<p>CE marking applies to specific regulated categories, not to all imports from China. The requirement is directive-driven and category-specific. The most common categories Irish importers encounter are listed below.</p>
+
+<table class="article-table">
+  <thead>
+    <tr>
+      <th>Product category</th>
+      <th>Applicable directive / regulation</th>
+      <th>Notified body required?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Electronics and electrical equipment</td>
+      <td>Low Voltage Directive (2014/35/EU), EMC Directive (2014/30/EU)</td>
+      <td>No — but accredited lab testing required</td>
+    </tr>
+    <tr>
+      <td>Radio and wireless equipment</td>
+      <td>Radio Equipment Directive (2014/53/EU)</td>
+      <td>Yes, for most device categories</td>
+    </tr>
+    <tr>
+      <td>Machinery</td>
+      <td>Machinery Directive (2006/42/EC)</td>
+      <td>Yes, for higher-risk categories</td>
+    </tr>
+    <tr>
+      <td>Construction products</td>
+      <td>Construction Products Regulation (EU 305/2011)</td>
+      <td>Yes — Declaration of Performance, not DoC</td>
+    </tr>
+    <tr>
+      <td>Personal protective equipment</td>
+      <td>PPE Regulation (EU 2016/425)</td>
+      <td>Yes, for categories II and III</td>
+    </tr>
+    <tr>
+      <td>Toys</td>
+      <td>Toy Safety Directive (2009/48/EC)</td>
+      <td>Yes, for specific chemical and physical hazards</td>
+    </tr>
+    <tr>
+      <td>Medical devices</td>
+      <td>Medical Devices Regulation (EU 2017/745)</td>
+      <td>Yes, except class I (lowest risk)</td>
+    </tr>
+    <tr>
+      <td>Pressure equipment</td>
+      <td>Pressure Equipment Directive (2014/68/EU)</td>
+      <td>Yes, categories I through IV</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>If your product falls into one of these categories, CE marking is a legal requirement for sale in Ireland. Selling a non-compliant product here exposes you — the importer — to enforcement action, product recall, and civil liability for any harm caused. The Chinese factory is beyond Irish or EU jurisdiction. You are not.</p>
+
+<h2>Why Chinese supplier CE claims cannot be taken at face value</h2>
+
+<p>There are three reasons Chinese factory CE documentation is unreliable as a standalone compliance guarantee.</p>
+
+<p><strong>Test reports can be fabricated.</strong> This is not speculation — it is a documented problem at scale across multiple EU market surveillance investigations. A Chinese factory can commission a test report from a local lab, copy the format of a legitimate report, or in some cases purchase a fraudulent report. Without access to the original test lab's records and accreditation certificate, you cannot verify from Dublin whether the report is genuine.</p>
+
+<p><strong>Factories frequently misapply the directive that covers their product.</strong> CE compliance is complex, directive-specific, and constantly updated. A Chinese factory producing electrical goods for a dozen different markets simultaneously — US (UL), UK (UKCA), EU (CE), Australia (SAA) — is managing overlapping certification frameworks. Errors in directive selection, incorrect harmonised standards cited, and missing technical file elements are common even among factories that are genuinely trying to comply.</p>
+
+<p><strong>Production drift:</strong> a factory may hold a valid CE certificate issued against a sample tested two years ago. Since that test, they have switched component suppliers to reduce costs, changed a circuit board layout, or substituted plastic grades. The certificate remains valid on paper. The product being shipped no longer matches the certified configuration. This is one of the most common sources of CE compliance failure — and it only surfaces during a physical inspection or a market surveillance action.</p>
+
+<p>None of this means Chinese factories cannot produce CE-compliant goods. Many do. The problem is that compliance cannot be assumed from documentation alone. It needs to be verified at source — in China, during or immediately before production, by someone who knows what to look for.</p>
+
+<h2>What happens when non-compliant goods reach Ireland</h2>
+
+<p>Irish market surveillance is carried out by the Competition and Consumer Protection Commission (CCPC) for general consumer products, the Health and Safety Authority (HSA) for workplace equipment, Revenue Commissioners for customs enforcement, and the NSAI for construction products. These bodies can seize and destroy goods, issue public safety notices, and pursue civil and criminal enforcement against importers.</p>
+
+<p>When non-compliant goods are identified — whether at the border or already in the market — the consequences fall on the importer, not the factory. This is by design in EU product safety law. The EU cannot compel a Chinese manufacturer. It can compel the entity that placed the product on the EU market, which is the company that imported it.</p>
+
+<figure class="article-figure">
+  <img src="/images/non-compliant-ce-goods-detained-customs-european-port-ireland.jpg" alt="Wide shot of a European port customs inspection area on an overcast day. A blue shipping container stands open with a bright orange Customs Hold — Non-Compliant Goods notice on the door. Two customs officers in high-visibility vests examine a product sample while opened cartons sit on wet concrete in the foreground. Shipping cranes visible in the background." loading="lazy" width="1280" height="720">
+  <figcaption>This is what non-compliance looks like at the port. A container detained, goods held, customs officers pulling samples. The cost is not just the inspection — it is storage charges, destruction fees, re-export costs, and a shipment you cannot sell. CE verification at the factory in China costs a fraction of what this costs in Dublin.</figcaption>
+</figure>
+
+<p>Specifically, the Irish importer may face: mandatory recall of all units in the supply chain at the importer's cost; destruction of seized goods at the importer's cost; administrative fines and compliance enforcement costs; civil liability for any harm caused by the non-compliant product; and reputational damage with retail and wholesale customers carrying the product.</p>
+
+<p>The CCPC's product safety notifications routinely include Irish market entries for China-sourced goods that have failed CE compliance — toys with restricted chemical concentrations above legal limits, electrical items with live parts accessible to users, PPE that provides none of the claimed protection. In each case, the importer is identified.</p>
+
+<h2>How to verify CE compliance before a container is sealed</h2>
+
+<p>Verification happens in two stages: documentary review and physical inspection. Both must happen before goods leave China.</p>
+
+<p><strong>Documentary review</strong> means requesting the complete technical file — not just the Declaration of Conformity. For a CE-compliant product, the technical file includes: the product description and intended use; design drawings and component specifications; a list of applicable harmonised standards; test reports from accredited laboratories; a risk assessment; the Declaration of Conformity itself; and — for products requiring a notified body — the notified body's involvement record including their EU identification number.</p>
+
+<p>A factory that cannot produce a complete technical file does not have one. A DoC without a technical file behind it has no legal standing. If they cannot produce it within a reasonable timeframe, the compliance claim has no foundation and the product should not be ordered for the EU market.</p>
+
+<p>For the test reports in the file, verify the testing laboratory's accreditation for the specific standards cited. For products requiring notified body involvement, check the body's EU identification number against the NANDO database — the European Commission's official register of notified bodies. If the number does not appear in NANDO with the correct product category scope, the certification is not valid.</p>
+
+<p><strong>Physical inspection</strong> means a qualified inspector at the factory before shipment — not after arrival at Dublin Port. Pre-shipment inspection for CE compliance goes beyond defect checking. It involves confirming that the goods being loaded match the specification in the technical file: same components, same materials, same production process as the tested sample. If any of these have changed since the CE test was conducted, the certificate may not cover the goods being shipped.</p>
+
+<p>For high-value or safety-critical shipments, inline inspection during production — checking goods at 30%, 60%, and 90% of completion — catches production drift before it is baked into an entire container. Catching a component substitution at 30% production costs a fraction of what it costs to recall 3,000 units from the Irish market.</p>
+
+<h2>Construction products: the CPR requirement</h2>
+
+<p>Construction products imported from China into Ireland face a specific and widely misunderstood compliance framework: the Construction Products Regulation (EU 305/2011). Unlike CE marking under most other directives, construction products require not a Declaration of Conformity but a Declaration of Performance (DoP).</p>
+
+<p>Under the CPR, a construction product can only carry the CE mark if its performance has been assessed against a harmonised European standard using one of five Assessment and Verification of Constancy of Performance (AVCP) systems. Systems 1 and 1+, which apply to the highest-risk structural and fire-performance products — structural steel, load-bearing fixings, fire-rated boards — require a notified product certification body to issue a certificate of constancy of performance. Systems 2+ and 3 require a notified or approved body for specific testing tasks. Only system 4 — the lowest-risk products — allows the factory to test and certify without external body involvement.</p>
+
+<p>A Chinese factory selling structural steel, reinforcing bar, fire-rated boards, wall ties, or load-bearing fixings without a valid CPR certificate from an EU-notified product certification body is not legally supplying CE-marked construction products for the Irish market. The NSAI enforces this in Ireland. Revenue can and does hold shipments at the point of customs declaration where CPR documentation is absent or demonstrably invalid.</p>
+
+<p>Irish construction contractors and developers sourcing materials directly from China need CPR documentation reviewed before purchase — not after delivery on site. This is one of the most consistently overlooked compliance requirements in China-to-Ireland sourcing, and one of the highest-risk from an enforcement perspective given the NSAI's active construction market surveillance programme.</p>
+
+<h2>Electronics and wireless goods: RoHS and the Low Voltage Directive</h2>
+
+<p>Electrical and electronic equipment sold in Ireland must comply with three parallel frameworks. The Low Voltage Directive (LVD, 2014/35/EU) governs electrical safety. The EMC Directive (2014/30/EU) governs electromagnetic compatibility. The RoHS Directive (2011/65/EU) restricts hazardous substances — lead, mercury, cadmium, hexavalent chromium, specific brominated flame retardants, and phthalates — in all electrical and electronic equipment.</p>
+
+<p>For most EEE under LVD and EMC, self-declaration is permitted — but only where the product has been tested against current harmonised standards by an accredited laboratory. Self-declaration being permitted does not mean the factory's word is sufficient. The technical file must contain accredited test reports. Standards change, and a test report from 2021 may reference outdated harmonised standards that no longer support a valid CE declaration in 2026.</p>
+
+<p>RoHS compliance requires material analysis — typically X-ray fluorescence testing or formal chemical analysis. Chinese factories routinely provide RoHS declarations without the underlying test data. A RoHS declaration issued by the factory without supporting lab analysis is a statement of intent, not a compliance record. For any product with solder, plating, plastic housings, or cable insulation, the test reports must specify which substances were tested, to what detection limits, and against which standard — currently EN IEC 63000.</p>
+
+<p>For wireless and radio equipment — Bluetooth devices, Wi-Fi connected products, wireless chargers, radio-frequency transmitters — the Radio Equipment Directive (2014/53/EU) applies in addition to LVD and EMC. RED mandates notified body involvement for most device categories and requires specific radio frequency testing that Chinese labs cannot self-certify for EU purposes. Chinese factories frequently affix CE marks to wireless products without notified body involvement, making those CE marks legally invalid for EU sale from the day they leave the factory.</p>
+
+<h2>How Ériu Sourcing handles CE compliance</h2>
+
+<p>Compliance verification is built into the sourcing process — not an optional add-on, and not something that happens at Dublin Port. It happens in China, before goods are sealed in a container.</p>
+
+<p>For every regulated product category, we request the full technical file from the factory before recommending them to an Irish buyer. We verify notified body involvement against NANDO for product categories that require it. We check test report accreditation against the specific standards cited in the file — not just the laboratory name. We confirm that the technical file matches the specification being produced in the current order, not a previous order placed for a different export market.</p>
+
+<p>Where the documentary record is incomplete — which is more common than the alternative — we work with the factory to close the gaps before shipment. This means commissioning additional testing through accredited EU-recognised labs, engaging an EU-authorised representative where required, or moving to a factory that has already completed the required certification process for the applicable directive.</p>
+
+<p>We do not accept CE paperwork at face value. Neither should any importer placing goods on the Irish market — because when those goods are pulled from a shelf or seized at Dublin Port, the paperwork is the first thing an enforcement authority will ask for, and you will be the one providing it.</p>
+
+<p><a href="/contact">Send us a brief</a> with your product category and your current supplier's documentation. We will tell you whether what you have would withstand scrutiny — and what needs to be done if it would not.</p>`,
     excerpt: 'Self-declared CE is not the same as verified CE. Most Irish importers find this out at the worst possible time — at customs, or after a product recall. Here is what CE compliance actually requires for China-sourced goods.',
-    image: '/images/construction-materials-factory.webp',
-    imageAlt: 'CE-compliant building materials from China — compliance verification at factory',
-    sections: [
-      'What CE marking actually means (and what it does not)',
-      'The difference between self-declared and verified CE',
-      'Which product categories require CE in Ireland',
-      'Why Chinese supplier CE claims cannot be taken at face value',
-      'What happens when non-compliant goods reach Ireland',
-      'How to verify CE compliance before a container is sealed',
-      'Construction materials: specific CE requirements',
-      'Electronics and electrical goods: RoHS and LVD',
-      'Apparel and textiles: REACH and chemical safety',
-    ],
+    image: '/images/ce-marking-pre-shipment-inspection-chinese-factory-quality-control.jpg',
+    imageAlt: 'QC inspector in white lab coat and blue gloves examining an EU Declaration of Conformity document at a Chinese factory inspection station, with CE-marked cartons and test reports on the table',
     faq: [
-      { q: 'Do all products imported from China to Ireland need CE marking?', a: 'CE marking is required for specific product categories regulated by EU directives, including electronics, electrical equipment, machinery, construction products, personal protective equipment, toys, and certain medical devices. For these categories, CE marking is a legal requirement for sale in Ireland and the EU — not optional.' },
-      { q: 'Can I trust CE documents provided by a Chinese factory?', a: 'Factory-provided CE documents should always be independently verified. Test reports can be fabricated, and Declaration of Conformity documents can be issued by the factory itself without third-party verification. Pre-shipment inspection by a qualified agent or third-party testing body provides a far higher level of assurance than documentation alone.' },
-      { q: 'What happens if non-CE-compliant goods arrive in Ireland?', a: 'Non-compliant goods can be seized by customs, refused entry, or destroyed at the importer\'s cost. If non-compliant goods reach the market, the Irish importer is legally responsible and faces potential fines, forced product recall, and liability for any harm caused. The importer — not the Chinese factory — bears legal responsibility under EU product safety law.' },
+      { q: 'Do all products imported from China to Ireland need CE marking?', a: 'CE marking is required for specific product categories regulated by EU directives — electronics, electrical equipment, machinery, construction products, personal protective equipment, toys, and certain medical devices. For these categories, CE marking is a legal requirement for sale in Ireland and the EU. Products outside these categories do not require CE marking, but may be subject to other Irish and EU product safety laws.' },
+      { q: 'Can I trust CE documents provided by a Chinese factory?', a: 'Factory-provided CE documents should always be independently verified before you place a production order. Test reports can be fabricated, Declaration of Conformity documents can be self-issued by the factory, and the production unit shipped may not match the sample that was tested. The only reliable verification is reviewing the complete technical file — including accredited test reports and, where required, notified body certification — and physically inspecting goods before the container is sealed.' },
+      { q: 'What is the difference between the EU CE mark and the China Export mark?', a: 'The EU CE mark (Conformité Européenne) signifies that a product has been assessed against applicable EU safety directives. The China Export mark is a near-identical logo used by some Chinese factories — the letters C and E are compressed closer together with no gap between them. The China Export mark carries no regulatory meaning and does not indicate compliance with any EU directive. Products bearing only the China Export mark have no CE certification whatsoever.' },
+      { q: 'What happens if non-CE-compliant goods arrive in Ireland?', a: 'Non-compliant goods can be seized by customs, refused entry, or destroyed at the importer\'s cost. If non-compliant goods reach the market, the Irish importer is legally responsible and faces potential fines, forced product recall, and liability for any harm caused. The importer — not the Chinese factory — bears legal responsibility under EU product safety law. The CCPC, HSA, and NSAI all have enforcement powers against importers who place non-compliant goods on the Irish market.' },
+      { q: 'Do construction materials from China need CE marking for use on Irish building projects?', a: 'Yes, if the product type is covered by a harmonised European standard under the Construction Products Regulation (EU 305/2011). Structural steel, reinforcing bar, load-bearing fixings, fire-rated boards, and many other structural and safety-critical construction products require CE marking backed by a Declaration of Performance and, for higher-risk AVCP system categories, a certificate issued by an EU-notified product certification body. The NSAI enforces CPR compliance in Ireland, and Revenue can hold shipments at customs where CPR documentation is absent or invalid.' },
     ],
-    relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland'],
+    relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland', 'alibaba-vs-factory-direct-irish-importers'],
     internalLinks: [
       { text: 'CE compliance at source', href: '/why-direct' },
       { text: 'Construction materials sourcing', href: '/source/construction-materials-from-china-ireland' },
