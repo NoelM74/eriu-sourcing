@@ -114,7 +114,7 @@ const pageSchemas = [
             <img
               src="/images/g657a2-fiber-patch-panel-dense-routing.webp"
               alt="Dense fiber optic patch panel with G.657.A2 bend-insensitive cables routed through a high-density data centre cross-connect"
-              width="800" height="500" loading="lazy"
+              width="800" height="500" loading="eager" fetchpriority="high"
             />
             <span class="product-badge product-badge--teal">Data Centre & FTTH</span>
           </div>
@@ -144,7 +144,7 @@ const pageSchemas = [
             <img
               src="/images/opgw-cable-high-voltage-transmission-line.webp"
               alt="OPGW optical ground wire strung between high-voltage transmission towers, combining lightning protection and 24-fiber G.652 ULL data backbone"
-              width="800" height="500" loading="lazy"
+              width="800" height="500" loading="eager"
             />
             <span class="product-badge product-badge--navy">Power Utilities & Telecoms</span>
           </div>
@@ -464,6 +464,8 @@ const pageSchemas = [
     transition: color 0.12s;
     z-index: 2;
     position: relative;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
   .download-link:hover {
     color: var(--color-emerald);
