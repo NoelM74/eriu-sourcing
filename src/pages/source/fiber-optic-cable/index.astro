@@ -30,17 +30,37 @@ const pageSchemas = [
       {
         "@type": "Question",
         "name": "What fiber optic cable products does Ériu Sourcing supply?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Ériu Sourcing supplies two fiber optic cable products factory-direct from verified Chinese manufacturers: G.657.A2 bend-insensitive single-mode optical fiber (ITU-T G.652.D/G.657.A2 compliant, 7.5 mm minimum bend radius) for data centres, FTTH, and in-building cabling; and OPGW-24 G.652 ULL optical ground wire (24 G.652 ultra-low-loss fibers, 71 kN RTS, IEC 60794-4-10 and IEEE 1138 compliant) for high-voltage overhead power lines." }
+        "acceptedAnswer": { "@type": "Answer", "text": "Ériu Sourcing supplies two fiber optic cable products factory-direct from verified Chinese manufacturers: G.657.A2 bend-insensitive single-mode optical fiber (ITU-T G.652.D / G.657.A2 compliant, 7.5 mm minimum bend radius, ≤0.21 dB/km at 1550 nm) for data centres, FTTH, and in-building cabling; and OPGW-24 G.652 ULL optical ground wire (24 ultra-low-loss G.652 fibers, 71 kN rated tensile strength, IEC 60794-4-10 and IEEE 1138-2009 compliant) for high-voltage overhead power lines." }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between G.657.A2 fiber and OPGW cable?",
+        "acceptedAnswer": { "@type": "Answer", "text": "G.657.A2 and OPGW serve completely different markets. G.657.A2 is bare bend-insensitive single-mode fiber for indoor and short-haul applications — data centres, FTTH last-drop, in-building risers — where its 7.5 mm minimum bend radius solves tight-routing problems that cause signal loss in standard G.652.D fiber. OPGW (Optical Ground Wire) is a composite overhead cable that integrates 24 G.652 ultra-low-loss fibers inside a stainless-steel tube armoured with aluminium-clad steel and aluminium-alloy wires. It replaces conventional earth wire on 110–500 kV transmission lines, simultaneously providing lightning protection, grounding, and a fiber backbone for SCADA, protection relays, and commercial leasing." }
       },
       {
         "@type": "Question",
         "name": "Where does Ériu Sourcing ship fiber optic cable to?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Ériu Sourcing supplies fiber optic cable factory-direct from China to customers across Europe, including Ireland, the United Kingdom, Germany, France, the Netherlands, and other EU and EEA markets. All supply is on an inquiry and project basis — contact us with your specification and volume." }
+        "acceptedAnswer": { "@type": "Answer", "text": "Ériu Sourcing supplies fiber optic cable factory-direct from China to customers across Europe — including Ireland, the United Kingdom, Germany, France, the Netherlands, and other EU and EEA markets. Sea freight is routed to major European container ports such as Rotterdam, Hamburg, Dublin, and Felixstowe, with full shipping documentation (commercial invoice, packing list, bill of lading, certificate of origin, test records) to support customs clearance. All supply is on an inquiry and project basis." }
       },
       {
         "@type": "Question",
         "name": "What is the minimum order quantity for fiber optic cable?",
-        "acceptedAnswer": { "@type": "Answer", "text": "G.657.A2 fiber is available on reels — minimum order quantities depend on reel size and configuration; contact us with your fiber count, length, and application requirements. OPGW-24 G.652 ULL is supplied on standard wooden drums in lengths of 2,000 to 5,000 metres per drum. We work with single-drum orders for sampling and project-scale multi-drum supply." }
+        "acceptedAnswer": { "@type": "Answer", "text": "G.657.A2 fiber is supplied on reels; minimum order quantity depends on reel size and configuration. Contact us with your required fiber count, length, coating diameter, and application. OPGW-24 G.652 ULL is supplied on non-returnable wooden drums in standard lengths of 2,000 to 5,000 metres per drum — drum lengths are typically matched to span calculations to minimise mid-span joints. We work with both single-drum sampling orders and project-scale multi-drum supply." }
+      },
+      {
+        "@type": "Question",
+        "name": "What standards must fiber optic cable meet for European installation?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Single-mode fiber for data centre, FTTH, and in-building use must comply with ITU-T G.652.D (standard single-mode performance) and, for bend-insensitive applications, ITU-T G.657.A2 — typically also certified to IEC 60793-2-50 category B6.a2. OPGW for overhead transmission lines must comply with IEC 60794-4-10 (mechanical and environmental performance of OPGW), IEEE 1138-2009 (construction standard for OPGW used on electric utility lines), and the fibers themselves to ITU-T G.652 ULL for ultra-low-loss performance. All Ériu Sourcing fiber is supplied with factory test certificates, OTDR traces per IEC 60793-1-40, and full compliance documentation." }
+      },
+      {
+        "@type": "Question",
+        "name": "Why source fiber optic cable factory-direct from China rather than through a European distributor?",
+        "acceptedAnswer": { "@type": "Answer", "text": "European fiber optic distributors typically buy from the same Chinese manufacturers Ériu Sourcing works with, then resell with a 40–80% margin applied. Factory-direct supply removes that margin layer entirely, giving European buyers access to the same factory-gate pricing distributors pay. For G.657.A2 specifically, AI data centre build-outs have tightened supply across 2026 and pushed distributor pricing significantly above factory-gate levels — direct supply provides access to production capacity outside the spot market. For OPGW, factory-direct supply also means direct engineering-team access for configuration queries (fiber count, conductor cross-section, fault-current rating) and Factory Acceptance Test (FAT) coordination." }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the typical lead time for fiber optic cable orders from China to Europe?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Lead time depends on product, configuration, and quantity. G.657.A2 fiber on standard reel configurations typically ships within 4–6 weeks of order confirmation, with sea freight to European ports adding another 30–40 days. OPGW orders are project-driven — manufacturing time runs 8–12 weeks depending on drum quantities, fiber count, and whether witness Factory Acceptance Testing (FAT) is required, plus sea freight. Custom configurations, non-standard fiber counts, or large project volumes extend lead time accordingly." }
       }
     ]
   },
@@ -109,7 +129,7 @@ const pageSchemas = [
       <div class="product-grid">
 
         <!-- G.657.A2 -->
-        <a href="/source/fiber-optic-cable/g657a2/" class="product-card">
+        <div class="product-card">
           <div class="product-img">
             <img
               src="/images/g657a2-fiber-patch-panel-dense-routing.webp"
@@ -120,7 +140,7 @@ const pageSchemas = [
           </div>
           <div class="product-content">
             <span class="product-standard">ITU-T G.652.D / G.657.A2 · IEC 60793-2-50 B6.a2</span>
-            <h2>G.657.A2 Bend-Insensitive Single-Mode Fiber</h2>
+            <h2><a href="/source/fiber-optic-cable/g657a2/" class="card-link">G.657.A2 Bend-Insensitive Single-Mode Fiber</a></h2>
             <p>7.5 mm minimum bend radius. Full-band operation 1260–1625 nm. ≤0.21 dB/km attenuation at 1550 nm. Fully compatible with existing G.652.D infrastructure. The standard choice for AI data centre patching, high-density cross-connects, FTTH drops, and in-building distribution where tight routing is unavoidable.</p>
             <div class="spec-pills">
               <span class="spec-pill">7.5 mm bend radius</span>
@@ -129,17 +149,17 @@ const pageSchemas = [
               <span class="spec-pill">PMD ≤0.2 ps/√km</span>
             </div>
             <div class="product-links">
-              <span class="primary-link">Full specs & datasheet →</span>
-              <a href="/downloads/Eriu-Sourcing-G657A2-Fiber-Spec-Sheet.pdf" class="download-link" target="_blank" rel="noopener" onclick="event.stopPropagation()">
+              <span class="primary-link" aria-hidden="true">Full specs & datasheet →</span>
+              <a href="/downloads/Eriu-Sourcing-G657A2-Fiber-Spec-Sheet.pdf" class="download-link" target="_blank" rel="noopener">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
                 Download spec sheet (PDF)
               </a>
             </div>
           </div>
-        </a>
+        </div>
 
         <!-- OPGW -->
-        <a href="/source/fiber-optic-cable/opgw/" class="product-card">
+        <div class="product-card">
           <div class="product-img">
             <img
               src="/images/opgw-cable-high-voltage-transmission-line.webp"
@@ -150,7 +170,7 @@ const pageSchemas = [
           </div>
           <div class="product-content">
             <span class="product-standard">IEC 60794-4-10 · IEEE 1138-2009 · ITU-T G.652 ULL</span>
-            <h2>OPGW-24 G.652 ULL Optical Ground Wire</h2>
+            <h2><a href="/source/fiber-optic-cable/opgw/" class="card-link">OPGW-24 G.652 ULL Optical Ground Wire</a></h2>
             <p>24 ultra-low-loss G.652 fibers housed in a stainless-steel tube, armoured with aluminium-clad and aluminium-alloy wires. 71 kN rated tensile strength. Qualified for aeolian vibration, galloping, short-circuit current, and lightning. Replaces conventional earth wire on 110–500 kV lines — one cable delivering grounding, lightning protection, and a 24-fiber optical backbone.</p>
             <div class="spec-pills">
               <span class="spec-pill">24 × G.652 ULL fibers</span>
@@ -159,14 +179,14 @@ const pageSchemas = [
               <span class="spec-pill">92.52 kA²S fault capacity</span>
             </div>
             <div class="product-links">
-              <span class="primary-link">Full specs & datasheet →</span>
-              <a href="/downloads/Eriu-Sourcing-OPGW24-G652-ULL-Spec-Sheet.pdf" class="download-link" target="_blank" rel="noopener" onclick="event.stopPropagation()">
+              <span class="primary-link" aria-hidden="true">Full specs & datasheet →</span>
+              <a href="/downloads/Eriu-Sourcing-OPGW24-G652-ULL-Spec-Sheet.pdf" class="download-link" target="_blank" rel="noopener">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
                 Download spec sheet (PDF)
               </a>
             </div>
           </div>
-        </a>
+        </div>
 
       </div>
     </div>
@@ -247,6 +267,44 @@ const pageSchemas = [
             <p>Sea freight from China to European ports (Rotterdam, Hamburg, Dublin, Felixstowe) with full shipping documentation — commercial invoice, packing list, bill of lading, certificate of origin, and test records — to support customs clearance.</p>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Frequently asked</span>
+      <h2>Fiber optic cable sourcing — common questions</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>What fiber optic cable products does Ériu Sourcing supply?</summary>
+          <p>Ériu Sourcing supplies two fiber optic cable products factory-direct from verified Chinese manufacturers: G.657.A2 bend-insensitive single-mode optical fiber (ITU-T G.652.D / G.657.A2 compliant, 7.5 mm minimum bend radius, ≤0.21 dB/km at 1550 nm) for data centres, FTTH, and in-building cabling; and OPGW-24 G.652 ULL optical ground wire (24 ultra-low-loss G.652 fibers, 71 kN rated tensile strength, IEC 60794-4-10 and IEEE 1138-2009 compliant) for high-voltage overhead power lines.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What is the difference between G.657.A2 fiber and OPGW cable?</summary>
+          <p>G.657.A2 and OPGW serve completely different markets. G.657.A2 is bare bend-insensitive single-mode fiber for indoor and short-haul applications — data centres, FTTH last-drop, in-building risers — where its 7.5 mm minimum bend radius solves tight-routing problems that cause signal loss in standard G.652.D fiber. OPGW (Optical Ground Wire) is a composite overhead cable that integrates 24 G.652 ultra-low-loss fibers inside a stainless-steel tube armoured with aluminium-clad steel and aluminium-alloy wires. It replaces conventional earth wire on 110–500 kV transmission lines, simultaneously providing lightning protection, grounding, and a fiber backbone for SCADA, protection relays, and commercial leasing.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Where does Ériu Sourcing ship fiber optic cable to?</summary>
+          <p>Ériu Sourcing supplies fiber optic cable factory-direct from China to customers across Europe — including Ireland, the United Kingdom, Germany, France, the Netherlands, and other EU and EEA markets. Sea freight is routed to major European container ports such as Rotterdam, Hamburg, Dublin, and Felixstowe, with full shipping documentation (commercial invoice, packing list, bill of lading, certificate of origin, test records) to support customs clearance. All supply is on an inquiry and project basis.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What is the minimum order quantity for fiber optic cable?</summary>
+          <p>G.657.A2 fiber is supplied on reels; minimum order quantity depends on reel size and configuration. Contact us with your required fiber count, length, coating diameter, and application. OPGW-24 G.652 ULL is supplied on non-returnable wooden drums in standard lengths of 2,000 to 5,000 metres per drum — drum lengths are typically matched to span calculations to minimise mid-span joints. We work with both single-drum sampling orders and project-scale multi-drum supply.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What standards must fiber optic cable meet for European installation?</summary>
+          <p>Single-mode fiber for data centre, FTTH, and in-building use must comply with ITU-T G.652.D (standard single-mode performance) and, for bend-insensitive applications, ITU-T G.657.A2 — typically also certified to IEC 60793-2-50 category B6.a2. OPGW for overhead transmission lines must comply with IEC 60794-4-10 (mechanical and environmental performance of OPGW), IEEE 1138-2009 (construction standard for OPGW used on electric utility lines), and the fibers themselves to ITU-T G.652 ULL for ultra-low-loss performance. All Ériu Sourcing fiber is supplied with factory test certificates, OTDR traces per IEC 60793-1-40, and full compliance documentation.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Why source fiber optic cable factory-direct from China rather than through a European distributor?</summary>
+          <p>European fiber optic distributors typically buy from the same Chinese manufacturers Ériu Sourcing works with, then resell with a 40–80% margin applied. Factory-direct supply removes that margin layer entirely, giving European buyers access to the same factory-gate pricing distributors pay. For G.657.A2 specifically, AI data centre build-outs have tightened supply across 2026 and pushed distributor pricing significantly above factory-gate levels — direct supply provides access to production capacity outside the spot market. For OPGW, factory-direct supply also means direct engineering-team access for configuration queries (fiber count, conductor cross-section, fault-current rating) and Factory Acceptance Test (FAT) coordination.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What is the typical lead time for fiber optic cable orders from China to Europe?</summary>
+          <p>Lead time depends on product, configuration, and quantity. G.657.A2 fiber on standard reel configurations typically ships within 4–6 weeks of order confirmation, with sea freight to European ports adding another 30–40 days. OPGW orders are project-driven — manufacturing time runs 8–12 weeks depending on drum quantities, fiber count, and whether witness Factory Acceptance Testing (FAT) is required, plus sea freight. Custom configurations, non-standard fiber counts, or large project volumes extend lead time accordingly. We provide indicative lead times at quotation stage.</p>
+        </details>
       </div>
     </div>
   </section>
@@ -347,13 +405,13 @@ const pageSchemas = [
     gap: 2rem;
   }
   .product-card {
+    position: relative;
     display: flex;
     flex-direction: column;
     background: #fff;
     border: 1px solid rgba(15,33,49,0.09);
     border-radius: var(--radius-lg);
     overflow: hidden;
-    text-decoration: none;
     color: inherit;
     transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
   }
@@ -361,6 +419,19 @@ const pageSchemas = [
     border-color: var(--color-emerald);
     box-shadow: 0 6px 28px rgba(26,83,62,0.1);
     transform: translateY(-3px);
+  }
+  .card-link {
+    color: inherit;
+    text-decoration: none;
+  }
+  .card-link::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+  }
+  .card-link:hover {
+    color: var(--color-emerald);
   }
   .product-img {
     position: relative;
@@ -554,6 +625,50 @@ const pageSchemas = [
     color: #4a4a4a;
     line-height: 1.65;
     margin: 0;
+  }
+
+  /* FAQ */
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .faq-item {
+    border-top: 1px solid rgba(15,33,49,0.09);
+  }
+  .faq-item:last-child {
+    border-bottom: 1px solid rgba(15,33,49,0.09);
+  }
+  .faq-item summary {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-navy);
+    cursor: pointer;
+    padding: 1.25rem 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+  .faq-item summary::-webkit-details-marker {
+    display: none;
+  }
+  .faq-item summary::after {
+    content: '+';
+    font-size: 1.25rem;
+    color: var(--color-emerald);
+    flex-shrink: 0;
+    line-height: 1;
+  }
+  .faq-item[open] summary::after {
+    content: '−';
+  }
+  .faq-item p {
+    font-size: 0.9375rem;
+    color: #3a3a3a;
+    line-height: 1.7;
+    margin: 0 0 1.25rem;
   }
 
   /* WHITE GHOST BUTTON */
