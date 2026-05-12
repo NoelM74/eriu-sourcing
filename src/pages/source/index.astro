@@ -70,7 +70,7 @@ const categoryIcons = {
     <div class="container--narrow">
       <span class="section-eyebrow">What We Source</span>
       <h1>Factory-direct from China to Ireland — across every category.</h1>
-      <p class="lead">Eight product categories. One point of contact. Pre-shipment QC and CE compliance on every order. No Alibaba resellers, no trading company middlemen.</p>
+      <p class="lead">Nine product categories. One point of contact. Pre-shipment QC and CE compliance on every order. No Alibaba resellers, no trading company middlemen.</p>
       <div class="hero-ctas">
         <a href="/contact" class="btn btn--primary">Get a sourcing quote →</a>
         <a href="/product-categories" class="btn btn--secondary">View all category details</a>
@@ -160,8 +160,45 @@ const categoryIcons = {
     </div>
   </section>
 
-  <!-- WHY DIRECT -->
+  <!-- MOQ TABLE -->
   <section class="section">
+    <div class="container">
+      <span class="section-eyebrow">At a glance</span>
+      <h2>MOQ, savings, and lead times by category</h2>
+      <p class="table-intro">All figures are typical ranges based on standard orders from verified Chinese factories shipped to Ireland. Actual figures depend on product specification and order volume.</p>
+      <div class="moq-table-wrap">
+        <table class="moq-table">
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Typical saving vs Irish wholesale</th>
+              <th>Min. order (typical)</th>
+              <th>Lead time to Ireland</th>
+            </tr>
+          </thead>
+          <tbody>
+            {sourcingPages.map(page => (
+              <tr>
+                <td><a href={`/source/${page.slug}/`}>{page.eyebrow}</a></td>
+                <td>{page.savings}</td>
+                <td>{page.minOrderShort}</td>
+                <td>{page.leadTime}</td>
+              </tr>
+            ))}
+            <tr>
+              <td><a href="/source/fiber-optic-cable/">Fiber Optic Cable</a></td>
+              <td>Factory-direct pricing</td>
+              <td>Project-dependent</td>
+              <td>8–14 weeks</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY DIRECT -->
+  <section class="section section--alt">
     <div class="container--narrow">
       <span class="section-eyebrow">Why factory-direct</span>
       <h2>What changes when you remove the middlemen</h2>
@@ -382,6 +419,68 @@ const categoryIcons = {
     font-weight: 600;
     color: var(--color-emerald);
     margin-top: 0.25rem;
+  }
+
+  /* ── MOQ TABLE ── */
+  .table-intro {
+    font-size: 0.9375rem;
+    color: var(--color-slate);
+    margin: 0.5rem 0 1.75rem;
+    max-width: 68ch;
+  }
+
+  .moq-table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border: 1px solid rgba(15,33,49,0.1);
+    border-radius: var(--radius-lg);
+  }
+
+  .moq-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9375rem;
+    min-width: 560px;
+  }
+
+  .moq-table thead tr {
+    background: #1A533E;
+    color: rgba(255,255,255,0.85);
+    font-size: 0.8125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .moq-table th {
+    padding: 0.875rem 1.25rem;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .moq-table td {
+    padding: 0.875rem 1.25rem;
+    border-bottom: 1px solid rgba(15,33,49,0.07);
+    color: var(--color-navy);
+    vertical-align: middle;
+  }
+
+  .moq-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  .moq-table tbody tr:nth-child(even) {
+    background: rgba(26,83,62,0.03);
+  }
+
+  .moq-table td a {
+    color: var(--color-emerald);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .moq-table td a:hover {
+    text-decoration: underline;
   }
 
   /* ── REASONS ── */
