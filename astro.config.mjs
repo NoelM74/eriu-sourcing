@@ -7,9 +7,7 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://eriusourcing.com',
   integrations: [
-    sitemap({
-      lastmodDateOnly: true,
-    }),
+    sitemap(),
   ],
   vite: {
     plugins: [tailwindcss()],

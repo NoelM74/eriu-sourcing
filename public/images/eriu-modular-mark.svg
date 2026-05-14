@@ -1,0 +1,10 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <!-- Emerald rounded square background -->
+  <rect width="40" height="40" rx="8" fill="#1A533E"/>
+  <!-- House roof — teal accent peak -->
+  <path d="M20 7L31 16H9L20 7Z" fill="#1C7C83"/>
+  <!-- House walls — white -->
+  <rect x="12" y="16" width="16" height="15" rx="1.5" fill="white"/>
+  <!-- Doorway — emerald cut-out -->
+  <rect x="17.75" y="22" width="4.5" height="9" rx="1" fill="#1A533E"/>
+</svg>

@@ -1,32 +1,31 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
-const title = "Factory Visits Ireland — Tour Modular Home Factories in China | Ériu Modular Homes";
+const title = "Modular Home Factory Visits in China | Ériu Modular Homes";
 const description = "See your future home built. 3-day factory visit to Henan Province from €1,800 per person — fully credited against your confirmed order. Tour 2–3 factories, sign off the spec on the factory floor.";
-const canonical = "https://eriusourcing.com/modular-homes/factory-visits/";
+const canonical = "/modular-homes/factory-visits/";
+const siteUrl = "https://eriusourcing.com";
 
-const schema = {
-  "@context": "https://schema.org",
-  "@graph": [
+const pageSchemas = [
     {
       "@type": "Service",
       "name": "Modular Home Factory Visit — Henan Province, China",
       "provider": {
         "@type": "Organization",
         "name": "Ériu Modular Homes",
-        "url": "https://eriusourcing.com/modular-homes/"
+        "url": `${siteUrl}/modular-homes/`
       },
       "description": "Guided 3-day factory visit programme to modular and container home manufacturers in Henan Province. Tour 2–3 vetted factories, meet production teams, sign off build specifications on the factory floor. Trip cost credited in full against a confirmed order.",
       "areaServed": { "@type": "Country", "name": "Ireland" },
       "serviceType": "Factory Visit Programme",
-      "url": canonical
+      "url": `${siteUrl}${canonical}`
     },
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://eriusourcing.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Modular Homes", "item": "https://eriusourcing.com/modular-homes/" },
-        { "@type": "ListItem", "position": 3, "name": "Factory Visits", "item": canonical }
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": `${siteUrl}/` },
+        { "@type": "ListItem", "position": 2, "name": "Modular Homes", "item": `${siteUrl}/modular-homes/` },
+        { "@type": "ListItem", "position": 3, "name": "Factory Visits", "item": `${siteUrl}${canonical}` }
       ]
     },
     {
@@ -98,12 +97,10 @@ const schema = {
         }
       ]
     }
-  ]
-};
+];
 ---
 
-<BaseLayout title={title} description={description} canonical={canonical}>
-  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+<BaseLayout title={title} description={description} canonical={canonical} jsonLd={pageSchemas}>
 
   <!-- ── HERO ── -->
   <section class="factory-hero">

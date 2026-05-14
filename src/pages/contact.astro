@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const title = "Get a Quote — Factory-Direct Sourcing from China | Ériu Sourcing Ireland";
+const title = "Get a Quote — China Sourcing from Ireland | Ériu Sourcing";
 const description = "Send your sourcing brief. Product, quantity, timeline. I'll come back with factory-level pricing, a supplier shortlist, and a clear plan. No obligation.";
 
 const FORMSPREE_ID = "xzdkoabw";
@@ -75,6 +75,7 @@ const pageSchemas = [
         <strong>Something went wrong.</strong> Please try again or email <a href="mailto:hello@eriusourcing.com">hello@eriusourcing.com</a> directly.
       </div>
 
+      <h2 class="form-heading">Send your sourcing brief</h2>
       <form id="quote-form" novalidate>
         <div class="form-grid">
           <div class="field">
@@ -163,6 +164,8 @@ const pageSchemas = [
   .contact-hero { border-bottom: 1px solid rgba(15,33,49,.08); }
   .contact-hero h1 { font-size: clamp(2.25rem, 5vw, 4rem); }
   .lead { font-size: 1.25rem; color: #5a5a5a; line-height: 1.7; margin: 1rem 0 1.75rem; max-width: 54ch; }
+
+  .form-heading { font-size: clamp(1.5rem, 3vw, 2rem); margin: 0 0 1.5rem; color: var(--color-navy); }
 
   .contact-options { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: .5rem; }
   .contact-option { display: inline-flex; align-items: center; gap: .625rem; font-weight: 600; font-size: .9375rem; text-decoration: none; padding: .625rem 1.25rem; border-radius: var(--radius-md); border: 2px solid; min-height: 44px; transition: all .12s ease; }
