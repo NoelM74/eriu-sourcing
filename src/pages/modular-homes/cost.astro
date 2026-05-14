@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const title = "Modular Home Cost Ireland 2026 | Back-Garden Home Prices";
-const description = "What a modular home actually costs in Ireland in 2026 — the full landed-cost stack, indicative price ranges by model and tier, and the groundworks, crane and connection costs most buyers forget. Factory-direct from China with Irish-led QC.";
+const description = "What a modular home actually costs in Ireland in 2026 — the full cost stack, FOB unit prices by tier, and the groundworks, crane and connection costs most buyers forget. Factory-direct from China with Irish-led QC.";
 const canonical = "/modular-homes/cost/";
 const siteUrl = "https://eriusourcing.com";
 
@@ -36,7 +36,7 @@ const pageSchemas = [
         "name": "How much does a modular home cost in Ireland in 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Irish-built modular homes from established suppliers typically range from €110,000 to €180,000 for a finished 2-bed unit of 32–45 m². An equivalent unit supplied factory-direct from China through Ériu Modular Homes typically lands 25–45% below that figure, depending on size, finish tier, site access and installation requirements. There is no single sticker price — the cost is a stack of factory price, freight, duty, VAT, groundworks, craning and services connection. Every quote is built against your specific site and brief."
+          "text": "There is no single sticker price — the cost is a stack of FOB factory price, sea freight, import duty, VAT, delivery, groundworks, craning and services connection. The unit itself ranges from around €8,995 FOB for an entry-level structural shell to €65,000 FOB for a fully-loaded high-end 40FT with furniture and integrated solar. FOB (Free On Board) is the price at the Chinese port — on top of it you add freight, Irish import duty and VAT at 23%, inland delivery and the Irish-side site works. A comparably specified finished, installed unit still typically lands 25–45% below an Irish-built equivalent, which runs €110,000 to €180,000 for a finished 2-bed of 32–45 m². Every quote is built against your specific site and brief."
         }
       },
       {
@@ -60,7 +60,7 @@ const pageSchemas = [
         "name": "Is import VAT and duty included in the price of a modular home from China?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes — every Ériu Modular Homes quote is presented on a landed basis, meaning Irish import duty and VAT are already included in the figure you see. Duty on prefabricated buildings is typically low, and import VAT at 23% is applied at customs. VAT-registered buyers can reclaim import VAT through their normal VAT return or defer it using Postponed VAT Accounting. We confirm the duty and VAT treatment for your specific unit before you commit."
+          "text": "The tier prices published on this page are FOB (Free On Board) — the unit at the Chinese port, before Irish import duty and VAT. Your quote then itemises everything added on top: sea freight, customs duty (typically low on prefabricated buildings), import VAT at 23%, and inland delivery — so you see exactly how the FOB unit price becomes your landed cost. VAT-registered buyers can reclaim import VAT through their normal VAT return or defer it using Postponed VAT Accounting. We confirm the duty and VAT treatment for your specific unit before you commit."
         }
       },
       {
@@ -91,38 +91,27 @@ const pageSchemas = [
   }
 ];
 
-const models = [
+const tiers = [
   {
-    name: "20FT700 — Compact",
-    area: "~25 m²",
-    use: "Garden office, studio, single-occupant unit",
-    shell: "€18,000 – €26,000",
-    turnkey: "€34,000 – €46,000",
-    furnished: "€42,000 – €56,000",
+    name: "Tier 1 — Ériu Shell",
+    price: "€8,995 – €17,500",
+    sub: "FOB factory price",
+    spec: "CE-compliant structural unit, externally finished — cladding, roof, windows and doors. You arrange internal fit-out and services connection in Ireland.",
+    anchor: "Entry point across the model range: compact 20FT700 units from around €9,000, 30FT from around €12,500, 40FT from around €15,000.",
   },
   {
-    name: "20FT — Standard",
-    area: "~34 m²",
-    use: "1-bed auxiliary dwelling, guest unit",
-    shell: "€22,000 – €31,000",
-    turnkey: "€40,000 – €54,000",
-    furnished: "€50,000 – €66,000",
+    name: "Tier 2 — Ériu Turnkey",
+    price: "€17,500 – €40,000",
+    sub: "FOB factory price",
+    spec: "Full internal fit-out to Irish Building Regulations — kitchen, bathroom, electrics, plumbing and heat pump. Can be supplied fully furnished and move-in ready.",
+    anchor: "The tier most back-garden auxiliary dwellings sit in — a complete, habitable unit rather than a shell to finish on site.",
   },
   {
-    name: "30FT — Expanded",
-    area: "~52 m²",
-    use: "1–2 bed auxiliary dwelling, rental unit",
-    shell: "€30,000 – €41,000",
-    turnkey: "€54,000 – €72,000",
-    furnished: "€66,000 – €86,000",
-  },
-  {
-    name: "40FT — Family",
-    area: "~70 m²",
-    use: "2-bed auxiliary dwelling, full rental home",
-    shell: "€38,000 – €52,000",
-    turnkey: "€66,000 – €88,000",
-    furnished: "€80,000 – €106,000",
+    name: "Tier 3 — Ériu Furnished Living",
+    price: "€40,000 – €65,000",
+    sub: "FOB factory price",
+    spec: "Everything in Turnkey plus premium finishes, furniture packages, upgraded electrics and integrated solar. A fully-loaded high-end 40FT sits at €55,000 – €65,000.",
+    anchor: "For buyers specifying a premium rental unit or a long-term family dwelling with the full package built in at the factory.",
   },
 ];
 
@@ -174,7 +163,7 @@ const siteCosts = [
     <div class="cost-hero__content container">
       <p class="eyebrow">Ériu Modular Homes · Cost &amp; Pricing</p>
       <h1>What a Modular Home<br>Actually Costs in Ireland</h1>
-      <p class="hero-lead">No sticker price — because a modular home is a project, not a product on a shelf. Here is the full cost stack, indicative ranges by model and tier, and the groundworks costs most buyers forget to budget for.</p>
+      <p class="hero-lead">No sticker price — because a modular home is a project, not a product on a shelf. Here is the full cost stack, FOB unit prices by tier, and the groundworks costs most buyers forget to budget for.</p>
       <a href="/contact/?interest=modular-quote" class="btn btn--white-outline hero-cta">Get a Quote for Your Site</a>
     </div>
   </section>
@@ -195,8 +184,8 @@ const siteCosts = [
       <div class="stack-grid">
         <div class="stack-card">
           <span class="stack-num">01</span>
-          <h3>Factory price (the unit itself)</h3>
-          <p>The structural unit, built to your specification in Henan Province. The single largest cost line — and the one where factory-direct sourcing delivers the biggest saving versus an Irish-built equivalent.</p>
+          <h3>FOB factory price (the unit itself)</h3>
+          <p>The structural unit, built to your specification in Henan Province, quoted FOB — the price at the Chinese port. The single largest cost line, and the one where factory-direct sourcing delivers the biggest saving versus an Irish-built equivalent.</p>
         </div>
         <div class="stack-card">
           <span class="stack-num">02</span>
@@ -206,7 +195,7 @@ const siteCosts = [
         <div class="stack-card">
           <span class="stack-num">03</span>
           <h3>Import duty &amp; VAT</h3>
-          <p>Irish customs duty (typically low on prefabricated buildings) and import VAT at 23%. Every Ériu quote is shown on a landed basis — duty and VAT already included.</p>
+          <p>Irish customs duty (typically low on prefabricated buildings) and import VAT at 23%, applied to the FOB unit price plus freight. Both appear as separate, itemised lines in your quote.</p>
         </div>
         <div class="stack-card">
           <span class="stack-num">04</span>
@@ -237,52 +226,25 @@ const siteCosts = [
     </div>
   </section>
 
-  <!-- ── INDICATIVE RANGES ── -->
+  <!-- ── PRICE TIERS ── -->
   <section class="section ranges-section">
     <div class="container">
-      <h2>Indicative Price Ranges by Model &amp; Tier</h2>
-      <p class="section-lead">Ranges below cover the <strong>imported unit delivered and craned onto your prepared foundation</strong> — lines 1–3 and 5 of the cost stack, plus fit-out for Turnkey and Furnished tiers. Foundation, services connection and site preparation are quoted separately against your site (see the next section). These are budgeting ranges, not quotes — your exact figure is confirmed against a site survey and brief.</p>
+      <h2>Ériu Unit Prices by Tier</h2>
+      <p class="section-lead">The figures below are <strong>FOB factory prices</strong> — the cost of the unit itself at the Chinese port, before sea freight, Irish import duty, VAT and delivery. They are line 01 of the cost stack above. To reach your full installed cost, add lines 02–07 — every one of them itemised in your quote, nothing bundled or hidden.</p>
 
-      <div class="ranges-table-wrap">
-        <table class="ranges-table">
-          <thead>
-            <tr>
-              <th>Model</th>
-              <th>Ériu Shell</th>
-              <th>Ériu Turnkey</th>
-              <th>Ériu Furnished</th>
-            </tr>
-          </thead>
-          <tbody>
-            {models.map(m => (
-              <tr>
-                <td class="model-cell">
-                  <span class="model-name">{m.name}</span>
-                  <span class="model-area">{m.area}</span>
-                  <span class="model-use">{m.use}</span>
-                </td>
-                <td><span class="range-val">{m.shell}</span></td>
-                <td><span class="range-val">{m.turnkey}</span></td>
-                <td><span class="range-val">{m.furnished}</span></td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+      <div class="tiers-grid">
+        {tiers.map(t => (
+          <div class="tier-card">
+            <h3>{t.name}</h3>
+            <span class="tier-price">{t.price}</span>
+            <span class="tier-sub">{t.sub}</span>
+            <p class="tier-spec">{t.spec}</p>
+            <p class="tier-anchor">{t.anchor}</p>
+          </div>
+        ))}
       </div>
 
-      <div class="tier-key">
-        <div class="tier-key-item">
-          <strong>Shell</strong> — CE-compliant structural unit, externally finished (cladding, roof, windows, doors). You arrange foundation, fit-out and connection.
-        </div>
-        <div class="tier-key-item">
-          <strong>Turnkey</strong> — Shell plus full internal fit-out to Irish Building Regulations: kitchen, bathroom, electrics, plumbing, heat pump, BER certificate.
-        </div>
-        <div class="tier-key-item">
-          <strong>Furnished</strong> — Turnkey plus furniture, white goods, soft furnishings and a choice of outdoor package. Move-in or rent-out ready.
-        </div>
-      </div>
-
-      <p class="ranges-footnote">A Furnished 30FT or 40FT unit typically lands at the same total cost as a basic shell from an Irish-built supplier. <a href="/modular-homes/models/">See full model specifications →</a></p>
+      <p class="ranges-footnote"><strong>FOB (Free On Board)</strong> means the price at the Chinese port. Sea freight to Dublin, Irish import duty, VAT at 23% and inland delivery are added on top — all itemised in your quote, alongside the Irish-side site costs below. <a href="/modular-homes/models/">See full model specifications →</a></p>
     </div>
   </section>
 
@@ -395,7 +357,7 @@ const siteCosts = [
 
       <details>
         <summary>How much does a modular home cost in Ireland in 2026?</summary>
-        <p>Irish-built modular homes from established suppliers typically range from €110,000 to €180,000 for a finished 2-bed unit of 32–45 m². An equivalent unit supplied factory-direct from China through Ériu Modular Homes typically lands 25–45% below that figure, depending on size, finish tier, site access and installation requirements. There is no single sticker price — the cost is a stack of factory price, freight, duty, VAT, groundworks, craning and services connection. Every quote is built against your specific site and brief.</p>
+        <p>There is no single sticker price — the cost is a stack of FOB factory price, sea freight, import duty, VAT, delivery, groundworks, craning and services connection. The unit itself ranges from around €8,995 FOB for an entry-level structural shell to €65,000 FOB for a fully-loaded high-end 40FT with furniture and integrated solar. FOB (Free On Board) is the price at the Chinese port — on top of it you add freight, Irish import duty and VAT at 23%, inland delivery and the Irish-side site works. A comparably specified finished, installed unit still typically lands 25–45% below an Irish-built equivalent, which runs €110,000 to €180,000 for a finished 2-bed of 32–45 m². Every quote is built against your specific site and brief.</p>
       </details>
 
       <details>
@@ -410,7 +372,7 @@ const siteCosts = [
 
       <details>
         <summary>Is import VAT and duty included in the price of a modular home from China?</summary>
-        <p>Yes — every Ériu Modular Homes quote is presented on a landed basis, meaning Irish import duty and VAT are already included in the figure you see. Duty on prefabricated buildings is typically low, and import VAT at 23% is applied at customs. VAT-registered buyers can reclaim import VAT through their normal VAT return or defer it using Postponed VAT Accounting. We confirm the duty and VAT treatment for your specific unit before you commit.</p>
+        <p>The tier prices published on this page are FOB (Free On Board) — the unit at the Chinese port, before Irish import duty and VAT. Your quote then itemises everything added on top: sea freight, customs duty (typically low on prefabricated buildings), import VAT at 23%, and inland delivery — so you see exactly how the FOB unit price becomes your landed cost. VAT-registered buyers can reclaim import VAT through their normal VAT return or defer it using Postponed VAT Accounting. We confirm the duty and VAT treatment for your specific unit before you commit.</p>
       </details>
 
       <details>
@@ -517,42 +479,37 @@ const siteCosts = [
   .stack-card p { font-size: 0.9rem; line-height: 1.6; color: #3a4a56; margin: 0; }
   .stack-card--accent p { color: rgba(255,255,255,0.85); }
 
-  /* ── Ranges ── */
+  /* ── Price tiers ── */
   .ranges-section { background: #F7F6F2; }
-  .ranges-table-wrap { overflow-x: auto; margin-bottom: 1.5rem; }
-  .ranges-table {
-    width: 100%; border-collapse: collapse; background: #fff;
-    border: 1px solid rgba(15,33,49,0.1); border-radius: 12px; overflow: hidden;
-    min-width: 640px;
+  .tiers-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-bottom: 1.5rem;
   }
-  .ranges-table thead th {
-    background: #0F2131; color: #fff; font-size: 0.875rem; font-weight: 700;
-    text-align: left; padding: 1rem 1.25rem;
+  .tier-card {
+    background: #fff; border: 1px solid rgba(15,33,49,0.1);
+    border-radius: 12px; padding: 1.75rem; display: flex; flex-direction: column;
   }
-  .ranges-table tbody td {
-    padding: 1.125rem 1.25rem; border-bottom: 1px solid rgba(15,33,49,0.07);
-    vertical-align: top;
+  .tier-card h3 {
+    font-size: 1.0625rem; font-weight: 700; color: #0F2131; margin-bottom: 0.75rem;
   }
-  .ranges-table tbody tr:last-child td { border-bottom: none; }
-  .model-cell { display: flex; flex-direction: column; gap: 0.2rem; }
-  .model-name { font-weight: 700; color: #0F2131; font-size: 0.95rem; }
-  .model-area { font-size: 0.8125rem; color: #1C7C83; font-weight: 600; }
-  .model-use { font-size: 0.8125rem; color: #5a6a76; line-height: 1.45; }
-  .range-val { font-size: 0.9375rem; font-weight: 600; color: #1A533E; }
-
-  .tier-key {
-    display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 1.5rem;
+  .tier-price {
+    font-family: var(--font-body); font-size: 1.5rem; font-weight: 700;
+    color: #1A533E; line-height: 1.1; display: block;
   }
-  .tier-key-item {
-    background: #fff; border: 1px solid rgba(15,33,49,0.09);
-    border-radius: 8px; padding: 1rem 1.125rem;
-    font-size: 0.875rem; line-height: 1.55; color: #3a4a56;
+  .tier-sub {
+    font-size: 0.75rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+    color: #1C7C83; display: block; margin-bottom: 1rem;
   }
-  .tier-key-item strong { color: #1A533E; }
+  .tier-spec {
+    font-size: 0.9rem; line-height: 1.6; color: #3a4a56; margin: 0 0 0.875rem;
+  }
+  .tier-anchor {
+    font-size: 0.8125rem; line-height: 1.55; color: #5a6a76;
+    margin: auto 0 0; padding-top: 0.875rem; border-top: 1px solid rgba(15,33,49,0.08);
+  }
   .ranges-footnote {
-    font-size: 0.9375rem; color: #5a6a76; font-style: italic; margin: 0; line-height: 1.6;
+    font-size: 0.9375rem; color: #5a6a76; margin: 0; line-height: 1.6;
   }
-  .ranges-footnote a { color: #1A533E; font-weight: 600; font-style: normal; }
+  .ranges-footnote a { color: #1A533E; font-weight: 600; }
 
   /* ── Site costs ── */
   .site-costs-list { display: flex; flex-direction: column; gap: 0; }
@@ -668,7 +625,7 @@ const siteCosts = [
   @media (max-width: 768px) {
     .section { padding: 2.5rem 0; }
     .movers-grid { grid-template-columns: 1fr; }
-    .tier-key { grid-template-columns: 1fr; }
+    .tiers-grid { grid-template-columns: 1fr; }
     .compare-split { grid-template-columns: 1fr; gap: 2rem; }
     .cost-cta-box { padding: 2rem 1.5rem; }
   }
