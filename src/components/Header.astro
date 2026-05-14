@@ -1,16 +1,28 @@
 ---
 // Header.astro — Ériu Sourcing
 // Mobile-first sticky nav. Logo is inline SVG lockup (light-bg variant).
+// Desktop nav supports two item types: flat links, and dropdown groups
+// (an item with a `children` array).
 
 const sourcingNavLinks = [
-  { href: '/how-it-works/',      label: 'How It Works' },
-  { href: '/product-categories/',label: 'Categories' },
-  { href: '/source/',            label: 'Sourcing Guides' },
-  { href: '/modular-homes/',     label: 'Modular Homes' },
-  { href: '/why-direct/',        label: 'Why Direct?' },
-  { href: '/china-network/',     label: 'China Network' },
-  { href: '/case-studies/',      label: 'Case Studies' },
-  { href: '/about/',             label: 'About' },
+  { href: '/how-it-works/', label: 'How It Works' },
+  {
+    label: 'What We Source',
+    children: [
+      { href: '/product-categories/', label: 'Product Categories' },
+      { href: '/source/',             label: 'Sourcing Guides' },
+    ],
+  },
+  { href: '/modular-homes/', label: 'Modular Homes' },
+  {
+    label: 'Why Ériu',
+    children: [
+      { href: '/why-direct/',    label: 'Why Direct?' },
+      { href: '/china-network/', label: 'China Network' },
+      { href: '/case-studies/',  label: 'Case Studies' },
+      { href: '/about/',         label: 'About' },
+    ],
+  },
 ];
 
 const modularNavLinks = [
@@ -27,6 +39,14 @@ const modularNavLinks = [
 const pathname = Astro.url.pathname;
 const isModular = pathname.startsWith('/modular-homes');
 const navLinks = isModular ? modularNavLinks : sourcingNavLinks;
+
+const isActive = (href) => {
+  if (!href) return false;
+  if (href === '/') return pathname === '/';
+  const base = href.replace(/\/$/, '');
+  return pathname === base + '/' || pathname.startsWith(base + '/');
+};
+const isGroupActive = (link) => !!link.children?.some(c => isActive(c.href));
 ---
 
 <header class="site-header">
@@ -53,14 +73,36 @@ const navLinks = isModular ? modularNavLinks : sourcingNavLinks;
     <nav class="nav-desktop" aria-label="Main navigation">
       <ul role="list">
         {navLinks.map(link => (
-          <li>
-            <a
-              href={link.href}
-              class={pathname === link.href || pathname.startsWith(link.href + '/') ? 'active' : ''}
-            >
-              {link.label}
-            </a>
-          </li>
+          link.children ? (
+            <li class="nav-item nav-item--has-dropdown">
+              <button
+                type="button"
+                class={`nav-dropdown-toggle${isGroupActive(link) ? ' active' : ''}`}
+                aria-expanded="false"
+                aria-haspopup="true"
+              >
+                {link.label}
+                <svg class="nav-chevron" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+                  <path d="M2.5 4.5L6 8L9.5 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+              <ul class="nav-dropdown" role="list">
+                {link.children.map(child => (
+                  <li>
+                    <a href={child.href} class={isActive(child.href) ? 'active' : ''}>
+                      {child.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </li>
+          ) : (
+            <li class="nav-item">
+              <a href={link.href} class={isActive(link.href) ? 'active' : ''}>
+                {link.label}
+              </a>
+            </li>
+          )
         ))}
       </ul>
     </nav>
@@ -92,14 +134,26 @@ const navLinks = isModular ? modularNavLinks : sourcingNavLinks;
   >
     <ul role="list">
       {navLinks.map(link => (
-        <li>
-          <a
-            href={link.href}
-            class={pathname === link.href || pathname.startsWith(link.href + '/') ? 'active' : ''}
-          >
-            {link.label}
-          </a>
-        </li>
+        link.children ? (
+          <li class="mobile-group">
+            <span class="mobile-group-label">{link.label}</span>
+            <ul role="list" class="mobile-subnav">
+              {link.children.map(child => (
+                <li>
+                  <a href={child.href} class={isActive(child.href) ? 'active' : ''}>
+                    {child.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </li>
+        ) : (
+          <li>
+            <a href={link.href} class={isActive(link.href) ? 'active' : ''}>
+              {link.label}
+            </a>
+          </li>
+        )
       ))}
       <li class="mobile-cta-item">
         <a href="/contact/" class="btn btn--primary mobile-cta-btn">Get a Quote</a>
@@ -131,6 +185,26 @@ const navLinks = isModular ? modularNavLinks : sourcingNavLinks;
       toggle?.classList.remove('is-open');
       document.body.style.overflow = '';
     });
+  });
+
+  // Desktop dropdowns — hover and keyboard focus are handled in CSS.
+  // This adds click-to-toggle (touch / explicit click) plus outside-click
+  // and Escape to close, keeping aria-expanded in sync.
+  const dropdownToggles = document.querySelectorAll<HTMLButtonElement>('.nav-dropdown-toggle');
+  const closeAllDropdowns = () => {
+    dropdownToggles.forEach(b => b.setAttribute('aria-expanded', 'false'));
+  };
+  dropdownToggles.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const open = btn.getAttribute('aria-expanded') === 'true';
+      closeAllDropdowns();
+      btn.setAttribute('aria-expanded', String(!open));
+    });
+  });
+  document.addEventListener('click', closeAllDropdowns);
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeAllDropdowns();
   });
 </script>
 
@@ -234,12 +308,18 @@ const navLinks = isModular ? modularNavLinks : sourcingNavLinks;
     gap: 0;
   }
 
-  .nav-desktop a {
+  .nav-item {
+    position: relative;
+  }
+
+  .nav-desktop a,
+  .nav-dropdown-toggle {
+    font-family: 'Satoshi', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     font-size: 0.9rem;
     font-weight: 500;
     color: #3a3a3a;
     text-decoration: none;
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 0.625rem;
     border-radius: 6px;
     min-height: 44px;
     display: flex;
@@ -248,14 +328,74 @@ const navLinks = isModular ? modularNavLinks : sourcingNavLinks;
     white-space: nowrap;
   }
 
-  .nav-desktop a:hover {
+  .nav-dropdown-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    gap: 0.3rem;
+  }
+
+  .nav-desktop a:hover,
+  .nav-dropdown-toggle:hover,
+  .nav-item--has-dropdown:focus-within .nav-dropdown-toggle {
     color: #1A533E;
     background-color: rgba(26, 83, 62, 0.07);
   }
 
-  .nav-desktop a.active {
+  .nav-desktop a.active,
+  .nav-dropdown-toggle.active {
     color: #1A533E;
     font-weight: 600;
+  }
+
+  .nav-chevron {
+    width: 11px;
+    height: 11px;
+    flex-shrink: 0;
+    transition: transform 0.15s ease;
+  }
+
+  .nav-item--has-dropdown:hover .nav-chevron,
+  .nav-item--has-dropdown:focus-within .nav-chevron,
+  .nav-dropdown-toggle[aria-expanded="true"] .nav-chevron {
+    transform: rotate(180deg);
+  }
+
+  /* Dropdown panel */
+  .nav-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 220px;
+    list-style: none;
+    margin: 0;
+    padding: 0.375rem;
+    background-color: #fff;
+    border: 1px solid rgba(15, 33, 49, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 14px 36px rgba(15, 33, 49, 0.14);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(4px);
+    transition: opacity 0.14s ease, transform 0.14s ease, visibility 0.14s;
+    z-index: 200;
+  }
+
+  .nav-item--has-dropdown:hover .nav-dropdown,
+  .nav-item--has-dropdown:focus-within .nav-dropdown,
+  .nav-dropdown-toggle[aria-expanded="true"] ~ .nav-dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .nav-dropdown a {
+    min-height: 0;
+    padding: 0.625rem 0.75rem;
+    width: 100%;
   }
 
   /* Header CTA */
@@ -330,6 +470,28 @@ const navLinks = isModular ? modularNavLinks : sourcingNavLinks;
   .nav-mobile a:hover,
   .nav-mobile a.active {
     color: #1A533E;
+  }
+
+  /* Mobile grouped section */
+  .mobile-group-label {
+    display: block;
+    font-family: 'Satoshi', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    color: #1C7C83;
+    padding: 1rem 0 0.25rem;
+  }
+
+  .mobile-subnav {
+    border-left: 2px solid rgba(26, 83, 62, 0.15);
+    padding-left: 0.875rem !important;
+  }
+
+  .mobile-subnav a {
+    font-size: 1.0625rem;
+    min-height: 48px;
   }
 
   .mobile-cta-item {
