@@ -1,0 +1,557 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = "Modular Homes & Irish Building Regulations 2026 | Ériu";
+const description = "Planning exemption is not building regulations exemption. Every back-garden modular home must still meet TGD Parts A–M. What the factory certifies, what happens on-site in Ireland, who signs off, and how BER is obtained.";
+const canonical = "/modular-homes/building-regulations-ireland/";
+const siteUrl = "https://eriusourcing.com";
+
+const pageSchemas = [
+  {
+    "@type": "Article",
+    "@id": `${siteUrl}${canonical}#article`,
+    "headline": "Modular Homes and Irish Building Regulations 2026",
+    "description": "A plain-English guide to how imported modular homes meet the Irish Building Regulations (TGD Parts A–M), what the factory certifies versus what happens on-site, and how the BER certificate is obtained.",
+    "datePublished": "2026-05-14",
+    "dateModified": "2026-05-14",
+    "author": {
+      "@type": "Person",
+      "@id": `${siteUrl}/#founder`,
+      "name": "Noel Murphy",
+      "jobTitle": "Founder, Ériu Modular Homes",
+      "url": `${siteUrl}/about/`
+    },
+    "publisher": { "@id": `${siteUrl}/#organization` },
+    "mainEntityOfPage": `${siteUrl}${canonical}`
+  },
+  {
+    "@type": "DefinedTerm",
+    "name": "Technical Guidance Document (TGD)",
+    "description": "The Technical Guidance Documents (TGDs) are published by the Department of Housing, Local Government and Heritage and provide guidance on how the Irish Building Regulations 1997–2021 can be complied with in practice. TGD Parts A through M cover Structure, Fire, Site Preparation, Materials, Sound, Ventilation, Hygiene, Drainage, Heat Producing Appliances, Stairways, Conservation of Fuel and Energy, and Access.",
+    "inDefinedTermSet": { "@type": "DefinedTermSet", "name": "Irish Building Regulations" }
+  },
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": `${siteUrl}/` },
+      { "@type": "ListItem", "position": 2, "name": "Modular Homes", "item": `${siteUrl}/modular-homes/` },
+      { "@type": "ListItem", "position": 3, "name": "Building Regulations", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Does a back-garden modular home need building regulations approval even if it's exempt from planning?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Planning exemption and building regulations exemption are entirely separate legal frameworks. The April 2026 Exempted Development Regulations remove the requirement for a planning application — but every structure intended for human habitation must still comply with the Irish Building Regulations 1997–2021. This means meeting the Technical Guidance Documents (TGD Parts A to M), obtaining a Commencement Notice, and — for an auxiliary habitable dwelling — completing a BER assessment. There is no exemption from building regulations for a residential structure."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a Commencement Notice and do I need one for a modular home?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A Commencement Notice is a statutory notification to the local authority that you are starting work on a structure subject to the Building Regulations. It is submitted online through the Building Control Management System (BCMS) at least 14 days before work begins. For a back-garden auxiliary habitable dwelling, you must submit a Commencement Notice with basic plans, a description of the works, and a statement of the inspection role — even if full planning permission was not required. Failure to submit constitutes an offence. Ériu Modular Homes provides all necessary documentation to support your Commencement Notice submission."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What parts of the Irish Building Regulations apply to a modular home?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "All of them that are relevant to a habitable residential structure: TGD Part A (Structure), B (Fire), C (Site Preparation and Moisture), D (Materials and Workmanship), E (Sound), F (Ventilation), G (Hygiene), H (Drainage and Waste Water), J (Heat Producing Appliances), K (Stairways and Ramps), L (Conservation of Fuel and Energy — requiring an A-rated BER for a new dwelling), and M (Access). Parts I and N apply only to certain building types. The CE marking under the Construction Products Regulation addresses the structural components and materials (Parts A and D). Parts B, F, L and M are the most significant for the site phase and fit-out."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does CE marking mean for a modular home, and is it enough to satisfy Irish Building Regulations?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "CE marking under the Construction Products Regulation (EU 305/2011) confirms that the factory-built structural unit performs to declared levels on the essential characteristics required by EU harmonised standards — structural integrity, fire resistance, thermal performance, and so on. It is necessary but not sufficient on its own. CE marking satisfies the factory-built elements (TGD Part A, Part D, and the structural elements of Part B). The site phase — foundations, services connection, drainage, BER assessment and final sign-off — must be completed by Irish-based contractors working to TGD compliance. Ériu Modular Homes provides a written TGD compliance pack covering both the factory phase and the site phase for each unit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need a BER certificate for a modular back-garden home?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. TGD Part L requires that every new dwelling achieves a minimum A3 BER rating. A BER (Building Energy Rating) assessment is carried out by an SEAI-registered assessor on completion of the installation, fit-out and services connection. The certificate is required before the auxiliary dwelling can be lawfully occupied. Ériu Modular Homes works with a network of SEAI-registered Irish BER assessors who are familiar with the unit specifications and can complete the assessment promptly after installation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who is responsible for building regulations compliance — the factory, Ériu, or me?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Responsibility is shared across the project phases. The factory is responsible for the CE-marked structural unit and its Declaration of Performance. Ériu Modular Homes is responsible for ensuring the unit as supplied meets the specification declared in the TGD compliance pack and the CE certificate. You, as the owner and developer, are responsible for the site phase — foundations, installation, services connection, and obtaining the BER certificate. In practice, Ériu's vetted installer network handles the site-phase works on your behalf, and we coordinate the compliance documentation across both phases so you have a complete paper trail."
+        }
+      }
+    ]
+  }
+];
+
+const tgdParts = [
+  { part: "A", name: "Structure", factory: "Yes — CE marking covers structural steel frame, weld integrity, and load-bearing specification.", site: "Foundation design must be specified by the installer to suit your site's ground conditions.", highlight: true },
+  { part: "B", name: "Fire Safety", factory: "Partly — fire-rated materials and cavity barriers installed at the factory to declared performance levels.", site: "Exit routes, smoke detection, fire-stopping at services penetrations completed on-site.", highlight: true },
+  { part: "C", name: "Site Preparation & Moisture", factory: "Not applicable at factory stage.", site: "Damp-proof membrane under slab, ground drainage, protection of structure from rising damp — site contractor responsibility.", highlight: false },
+  { part: "D", name: "Materials & Workmanship", factory: "Yes — factory QC report and CE Declaration of Performance covers materials used in the structural unit.", site: "Irish-side materials (concrete, pipe, cable) subject to normal contractor compliance.", highlight: false },
+  { part: "E", name: "Sound", factory: "Partly — wall and floor assemblies built to declared Rw values at the factory.", site: "Final acoustic performance confirmed after fit-out, particularly at party walls if two units share a site.", highlight: false },
+  { part: "F", name: "Ventilation", factory: "Trickle vents and background ventilation built in at factory stage.", site: "Mechanical ventilation (MVHR) installed and commissioned on-site for Turnkey and Furnished tiers.", highlight: true },
+  { part: "G", name: "Hygiene", factory: "Not applicable — no services at factory stage.", site: "Kitchen and bathroom plumbing installed by Irish contractor to TGD G standards.", highlight: false },
+  { part: "H", name: "Drainage & Waste Water", factory: "Not applicable.", site: "Foul and surface water drainage connected to principal house drainage — installer responsibility.", highlight: false },
+  { part: "J", name: "Heat Producing Appliances", factory: "Not applicable.", site: "Air-to-water heat pump installation, flue if applicable, commissioned by certified engineer.", highlight: false },
+  { part: "K", name: "Stairways & Ramps", factory: "Single-storey units have no internal stair — external steps or ramp installed on-site.", site: "Step/ramp height and width to TGD K spec.", highlight: false },
+  { part: "L", name: "Conservation of Fuel & Energy", factory: "Insulation specified and installed at factory to declared U-values meeting TGD L requirements.", site: "Heat pump, hot water cylinder, and thermal bridging at connections confirmed on-site. BER assessment after completion.", highlight: true },
+  { part: "M", name: "Access for People with Disabilities", factory: "Door widths and threshold heights built to TGD M spec at factory stage.", site: "External approach path, step nosings or ramp as required — site contractor.", highlight: true },
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} jsonLd={pageSchemas}>
+
+  <!-- ── HERO ── -->
+  <section class="regs-hero">
+    <div class="regs-hero__inner container--narrow">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span aria-hidden="true">›</span>
+        <a href="/modular-homes/">Modular Homes</a>
+        <span aria-hidden="true">›</span>
+        <span>Building Regulations</span>
+      </nav>
+      <span class="section-eyebrow">Ériu Modular Homes · Compliance Guide</span>
+      <h1>Modular Homes & Irish Building Regulations 2026</h1>
+      <p class="hero-lead">Planning exemption does not mean building regulations exemption. Every back-garden auxiliary dwelling must still meet TGD Parts A–M. Here is exactly what that means — what the factory certifies, what happens in Ireland, and how you get a BER certificate.</p>
+      <div class="article-meta">
+        <span>By <a href="/about/" class="byline-link">Noel Murphy</a> · Founder, Ériu Modular Homes</span>
+        <span>Last reviewed: May 2026</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── THE CRITICAL DISTINCTION ── -->
+  <section class="section critical-section">
+    <div class="container--narrow">
+      <div class="alert-box">
+        <h2>The Most Common Misunderstanding in the Irish Modular Market</h2>
+        <p><strong>Exempt from planning ≠ exempt from building regulations.</strong> These are two completely separate legal frameworks. The April 2026 Exempted Development Regulations remove the requirement for a planning application for a 32–45 m² auxiliary habitable dwelling. They say nothing about building regulations — because they cannot. Building regulations compliance is mandatory for every structure intended for human habitation, regardless of planning status.</p>
+        <p>This matters because some suppliers, particularly those operating entirely online without Irish regulatory knowledge, describe their units as "no planning required" in a way that implies the product is ready to drop in your garden without further process. It is not. You still need:</p>
+        <ul class="reqs-list">
+          <li>A <strong>Commencement Notice</strong> submitted to your local authority at least 14 days before work starts</li>
+          <li>Compliance with <strong>TGD Parts A to M</strong> across both the factory-built unit and the site phase</li>
+          <li>A <strong>BER certificate</strong> at A3 or better on completion</li>
+          <li>A <strong>Certificate of Compliance</strong> on completion from the assigned certifier</li>
+        </ul>
+        <p>Ériu Modular Homes handles all documentation for the factory phase and co-ordinates the site phase through our vetted Irish installer network. Every unit ships with a written TGD compliance pack.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FACTORY VS SITE ── -->
+  <section class="section factory-vs-site">
+    <div class="container">
+      <h2>Two Phases, One Compliance Obligation</h2>
+      <p class="section-lead">Irish Building Regulations compliance for an imported modular home spans two distinct phases. Understanding which phase covers which part of the regulations avoids gaps in your compliance record.</p>
+
+      <div class="phase-grid">
+        <div class="phase-card phase-card--factory">
+          <div class="phase-header">
+            <span class="phase-badge phase-badge--factory">Factory Phase</span>
+            <h3>What the Henan factory certifies</h3>
+          </div>
+          <ul class="phase-list">
+            <li><strong>CE marking</strong> under the Construction Products Regulation (EU) No 305/2011</li>
+            <li><strong>Declaration of Performance (DoP)</strong> against EN harmonised structural and thermal standards</li>
+            <li>Structural steel frame — weld integrity, section sizes, galvanisation grade (TGD Part A)</li>
+            <li>Insulation panel U-values — floor, wall, roof, meeting TGD Part L requirements</li>
+            <li>Fire-rated materials in walls and ceilings to declared Rw values (TGD Part B)</li>
+            <li>Window and door performance — U-value, air-tightness, declared to TGD Part L</li>
+            <li>Door widths and threshold heights to TGD Part M access requirements</li>
+            <li>Pre-shipment QC report signed by Noel Murphy at the factory floor with photographic evidence</li>
+          </ul>
+        </div>
+
+        <div class="phase-card phase-card--site">
+          <div class="phase-header">
+            <span class="phase-badge phase-badge--site">Site Phase (Ireland)</span>
+            <h3>What happens in your garden</h3>
+          </div>
+          <ul class="phase-list">
+            <li><strong>Commencement Notice</strong> submitted to local authority via BCMS — minimum 14 days before works start</li>
+            <li>Foundation / slab design and construction to TGD Part A and Part C</li>
+            <li>Crane lift and structural connection to foundation</li>
+            <li>Water, drainage and electricity connection from principal house (TGD Parts G, H, J)</li>
+            <li>Mechanical ventilation (MVHR) installation and commissioning (TGD Part F)</li>
+            <li>Fire-stopping at all service penetrations through the structural envelope (TGD Part B)</li>
+            <li>Air-to-water heat pump and hot water cylinder installation (TGD Part L)</li>
+            <li>BER assessment by SEAI-registered assessor on completion</li>
+            <li><strong>Certificate of Compliance</strong> from the assigned certifier at handover</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TGD PARTS TABLE ── -->
+  <section class="section tgd-section">
+    <div class="container">
+      <h2>TGD Parts A–M: What Applies to Your Modular Home</h2>
+      <p class="section-lead">A row-by-row breakdown of the Technical Guidance Documents and how each applies to an imported back-garden modular home.</p>
+
+      <div class="tgd-table-wrap">
+        <table class="tgd-table">
+          <thead>
+            <tr>
+              <th>Part</th>
+              <th>Subject</th>
+              <th>Factory phase</th>
+              <th>Site phase (Ireland)</th>
+            </tr>
+          </thead>
+          <tbody>
+            {tgdParts.map(row => (
+              <tr class={row.highlight ? 'row--highlight' : ''}>
+                <td class="part-cell">
+                  <span class="part-badge">Part {row.part}</span>
+                </td>
+                <td class="name-cell">{row.name}</td>
+                <td class="detail-cell">{row.factory}</td>
+                <td class="detail-cell">{row.site}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="tgd-note">Rows highlighted in green are the parts most commonly questioned by Irish buyers. Parts I (Stairways in certain buildings) and N (Conservation of Fuel) are not applicable to a single-storey residential auxiliary dwelling.</p>
+    </div>
+  </section>
+
+  <!-- ── BER ── -->
+  <section class="section ber-section">
+    <div class="container">
+      <div class="ber-grid">
+        <div class="ber-content">
+          <h2>The BER Certificate — What, Who &amp; When</h2>
+          <p>TGD Part L requires that every new dwelling achieve a minimum A3 Building Energy Rating on completion. For an auxiliary habitable dwelling, this means the unit must be designed, supplied and installed to achieve A3 or better — typically A2 for a well-insulated modular unit with a heat pump.</p>
+          <p>The BER assessment is carried out by an SEAI-registered assessor after installation, fit-out and services connection are complete. The assessor models the as-built structure — insulation levels, glazing, heating system, ventilation, air-tightness — and issues the certificate. The certificate is lodged in the SEAI national register and is required before the auxiliary dwelling can be lawfully occupied or advertised to let.</p>
+          <p>Ériu Modular Homes works with a network of SEAI-registered Irish BER assessors who are familiar with the factory-supplied unit specifications. This means the assessment is straightforward — the assessor already knows the U-values, the glazing specification and the heating system that has been installed. The certificate typically issues within 5–10 working days of the assessment visit.</p>
+          <h3>What BER level should I expect?</h3>
+          <p>Our standard Turnkey and Furnished tiers are specified to achieve an A2 BER on a correctly installed unit with an air-to-water heat pump. The Shell tier, where fit-out is completed by the buyer, will achieve a BER rating that depends on the heating system and services the buyer installs — buyers should discuss their intended fit-out with an SEAI-registered assessor before completing the installation.</p>
+        </div>
+        <div class="ber-aside">
+          <div class="ber-card">
+            <h3>BER — Key Facts</h3>
+            <dl class="ber-dl">
+              <dt>Minimum required</dt>
+              <dd>A3 under TGD Part L for a new dwelling</dd>
+              <dt>Typical Ériu Turnkey BER</dt>
+              <dd>A2 (with air-to-water heat pump)</dd>
+              <dt>Who can issue it</dt>
+              <dd>SEAI-registered BER assessor — search at seai.ie</dd>
+              <dt>When it's done</dt>
+              <dd>After installation, fit-out and services connection are complete</dd>
+              <dt>Cost</dt>
+              <dd>€300–€500 for a single-unit assessment</dd>
+              <dt>Required before</dt>
+              <dd>Lawful occupation or advertising the unit to let</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── COMPLIANCE PACK ── -->
+  <section class="section section--emerald compliance-pack-section">
+    <div class="container--narrow">
+      <span class="section-eyebrow section-eyebrow--light">The Ériu Standard</span>
+      <h2>What Ships in the Compliance Pack</h2>
+      <p>Every unit supplied by Ériu Modular Homes ships with a complete compliance pack. Not a single-page declaration — a complete, auditable paper trail covering both phases of the project.</p>
+      <ul class="compliance-list">
+        <li><strong>CE certificate</strong> and <strong>Declaration of Performance (DoP)</strong> under CPR (EU) No 305/2011</li>
+        <li><strong>TGD compliance schedule</strong> — written confirmation against Parts A, B, C, D, E, F, G, H, J, K, L and M</li>
+        <li><strong>Pre-shipment QC report</strong> — sealed PDF, photographs, signed by Noel Murphy at the factory floor</li>
+        <li><strong>Factory test reports</strong> — U-values, fire classification, structural load tests from the factory's certified testing lab</li>
+        <li><strong>Commencement Notice support pack</strong> — drawings, description of works and inspection statement formatted for BCMS submission</li>
+        <li><strong>SEAI BER assessor co-ordination</strong> — we introduce you to a registered assessor and provide unit specification data for the assessment</li>
+        <li><strong>Certificate of Compliance template</strong> — for completion by the site phase assigned certifier at handover</li>
+      </ul>
+      <a href="/contact/?interest=compliance" class="btn btn--white-outline" style="margin-top: 1.25rem">Request a Sample Compliance Pack →</a>
+    </div>
+  </section>
+
+  <!-- ── FAQ ── -->
+  <section class="section faq-section">
+    <div class="container faq-container">
+      <h2>Building Regulations — Frequently Asked Questions</h2>
+      <p class="faq-updated">Last reviewed: May 2026</p>
+
+      <details>
+        <summary>Does a back-garden modular home need building regulations approval even if it's exempt from planning?</summary>
+        <p>Yes. Planning exemption and building regulations exemption are entirely separate legal frameworks. The April 2026 Exempted Development Regulations remove the requirement for a planning application — but every structure intended for human habitation must still comply with the Irish Building Regulations 1997–2021. This means meeting the Technical Guidance Documents (TGD Parts A to M), obtaining a Commencement Notice, and — for an auxiliary habitable dwelling — completing a BER assessment. There is no exemption from building regulations for a residential structure.</p>
+      </details>
+
+      <details>
+        <summary>What is a Commencement Notice and do I need one for a modular home?</summary>
+        <p>A Commencement Notice is a statutory notification to the local authority that you are starting work on a structure subject to the Building Regulations. It is submitted online through the Building Control Management System (BCMS) at least 14 days before work begins. For a back-garden auxiliary habitable dwelling, you must submit a Commencement Notice with basic plans, a description of the works, and a statement of the inspection role — even if full planning permission was not required. Failure to submit constitutes an offence. Ériu Modular Homes provides all necessary documentation to support your Commencement Notice submission.</p>
+      </details>
+
+      <details>
+        <summary>What does CE marking mean for a modular home, and is it enough to satisfy Irish Building Regulations?</summary>
+        <p>CE marking under the Construction Products Regulation (EU 305/2011) confirms that the factory-built structural unit performs to declared levels on the essential characteristics required by EU harmonised standards — structural integrity, fire resistance, thermal performance, and so on. It is necessary but not sufficient on its own. CE marking satisfies the factory-built elements (TGD Part A, Part D, and the structural elements of Part B). The site phase — foundations, services connection, drainage, BER assessment and final sign-off — must be completed by Irish-based contractors working to TGD compliance. Ériu Modular Homes provides a written TGD compliance pack covering both the factory phase and the site phase for each unit.</p>
+      </details>
+
+      <details>
+        <summary>Do I need a BER certificate for a modular back-garden home?</summary>
+        <p>Yes. TGD Part L requires that every new dwelling achieves a minimum A3 BER rating. A BER (Building Energy Rating) assessment is carried out by an SEAI-registered assessor on completion of the installation, fit-out and services connection. The certificate is required before the auxiliary dwelling can be lawfully occupied. Ériu Modular Homes works with a network of SEAI-registered Irish BER assessors who are familiar with the unit specifications and can complete the assessment promptly after installation.</p>
+      </details>
+
+      <details>
+        <summary>Who is responsible for building regulations compliance — the factory, Ériu, or me?</summary>
+        <p>Responsibility is shared across the project phases. The factory is responsible for the CE-marked structural unit and its Declaration of Performance. Ériu Modular Homes is responsible for ensuring the unit as supplied meets the specification declared in the TGD compliance pack and the CE certificate. You, as the owner and developer, are responsible for the site phase — foundations, installation, services connection, and obtaining the BER certificate. In practice, Ériu's vetted installer network handles the site-phase works on your behalf, and we coordinate the compliance documentation across both phases so you have a complete paper trail.</p>
+      </details>
+
+      <details>
+        <summary>Can I use a modular home as a rental unit and still meet building regulations?</summary>
+        <p>Yes — provided the unit meets the same building regulations as any other new dwelling. A BER certificate at A3 or better is required, the Commencement Notice must be correctly filed, and the unit must comply with the relevant TGD Parts. Rental units must also meet the Residential Tenancies Act minimum standards for rental accommodation — though the draft April 2026 regulations propose carving the auxiliary habitable dwelling out of the Residential Tenancies Acts when linked to the principal house services under the Rent-a-Room scheme. Always confirm the current regulatory position with your solicitor before letting.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ── CROSS-LINKS ── -->
+  <section class="section cross-links-section">
+    <div class="container">
+      <h2>Related Guides</h2>
+      <div class="cross-grid">
+        <a href="/modular-homes/back-garden-homes-ireland/" class="cross-card">
+          <span class="cross-icon">🌿</span>
+          <h3>Back-Garden Homes & the 2026 Planning Exemption →</h3>
+          <p>The 45 m² exemption in plain English — what qualifies, what doesn't, and how to use the Rent-a-Room scheme.</p>
+        </a>
+        <a href="/modular-homes/cost/" class="cross-card">
+          <span class="cross-icon">💶</span>
+          <h3>Modular Home Cost in Ireland 2026 →</h3>
+          <p>The full cost stack — factory price, freight, groundworks, crane and services — with indicative ranges by model and tier.</p>
+        </a>
+        <a href="/modular-homes/auxiliary-dwelling-ireland/" class="cross-card">
+          <span class="cross-icon">📋</span>
+          <h3>Auxiliary Habitable Dwelling — Definition & Tax →</h3>
+          <p>The exact legal term in the April 2026 regulations. LPT, insurance, Rent-a-Room scheme and RTB carve-out explained.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <section class="section section--emerald">
+    <div class="container--narrow" style="text-align: center">
+      <span class="section-eyebrow section-eyebrow--light">Ready to move forward?</span>
+      <h2>Get the Compliance Pack for Your Project</h2>
+      <p>Tell us your unit type, tier and county. We come back with factory-direct pricing, the full compliance pack, and a site-phase quote from our Irish installer network. Direct reply from Noel within 24 hours.</p>
+      <a href="/contact/?interest=modular-quote" class="btn btn--white-outline" style="margin-top: 1.25rem">Request a Quote →</a>
+    </div>
+  </section>
+
+  <!-- ── BACK-LINK ── -->
+  <section class="section back-nav">
+    <div class="container">
+      <a href="/modular-homes/" class="back-link">← Back to Ériu Modular Homes Overview</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  /* ── Hero ── */
+  .regs-hero {
+    background: #F7F6F2;
+    border-bottom: 1px solid rgba(15,33,49,0.08);
+    padding: 3rem 0 2.5rem;
+  }
+  .breadcrumb {
+    display: flex; align-items: center; gap: 0.5rem;
+    font-size: 0.8125rem; color: #6b6b6b; margin-bottom: 1.25rem; flex-wrap: wrap;
+  }
+  .breadcrumb a { color: #1A533E; text-decoration: none; }
+  .breadcrumb a:hover { text-decoration: underline; }
+  .regs-hero h1 { margin: 0.75rem 0 1.25rem; }
+  .hero-lead {
+    font-size: 1.125rem; line-height: 1.65; color: #3a4a56;
+    max-width: 66ch; margin-bottom: 1.5rem;
+  }
+  .article-meta {
+    display: flex; gap: 1.5rem; flex-wrap: wrap;
+    font-size: 0.875rem; color: #6b6b6b;
+  }
+  .byline-link { color: #1A533E; text-decoration: none; font-weight: 600; }
+  .byline-link:hover { text-decoration: underline; }
+
+  /* ── Critical section ── */
+  .critical-section { background: #fff; }
+  .alert-box {
+    background: #fff8f0; border: 1px solid #e8a44a;
+    border-left: 4px solid #c0392b; border-radius: 0 12px 12px 0;
+    padding: 2rem 2.25rem; max-width: 800px;
+  }
+  .alert-box h2 {
+    font-family: 'Boska', Georgia, serif;
+    font-size: clamp(1.3rem, 2.5vw, 1.75rem); font-weight: 700;
+    color: #c0392b; margin-bottom: 1rem;
+  }
+  .alert-box p { font-size: 0.9375rem; line-height: 1.7; color: #3a3a3a; margin-bottom: 1rem; }
+  .reqs-list { list-style: none; padding: 0; margin: 1rem 0; display: flex; flex-direction: column; gap: 0.5rem; }
+  .reqs-list li {
+    font-size: 0.9375rem; line-height: 1.55; color: #3a3a3a;
+    padding-left: 1.5rem; position: relative;
+  }
+  .reqs-list li::before {
+    content: '→'; position: absolute; left: 0;
+    color: #c0392b; font-weight: 700;
+  }
+
+  /* ── Factory vs site ── */
+  .phase-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 2rem; }
+  .phase-card {
+    border-radius: 12px; border: 1px solid rgba(15,33,49,0.1); overflow: hidden;
+  }
+  .phase-header { padding: 1.25rem 1.75rem; }
+  .phase-card--factory .phase-header { background: #0F2131; }
+  .phase-card--site .phase-header { background: #1A533E; }
+  .phase-badge {
+    display: inline-block; font-size: 0.75rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.07em;
+    padding: 0.25rem 0.625rem; border-radius: 4px; margin-bottom: 0.5rem;
+  }
+  .phase-badge--factory { background: rgba(255,255,255,0.15); color: #fff; }
+  .phase-badge--site { background: rgba(255,255,255,0.18); color: #fff; }
+  .phase-header h3 { font-size: 1.0625rem; font-weight: 700; color: #fff; margin: 0; }
+  .phase-list {
+    list-style: none; padding: 1.5rem 1.75rem; margin: 0;
+    background: #fff; display: flex; flex-direction: column; gap: 0.625rem;
+    height: calc(100% - 80px);
+  }
+  .phase-list li {
+    font-size: 0.9rem; line-height: 1.6; color: #3a4a56;
+    padding-left: 1.375rem; position: relative;
+  }
+  .phase-card--factory .phase-list li::before { content: '✓'; position: absolute; left: 0; color: #0F2131; font-weight: 700; }
+  .phase-card--site .phase-list li::before { content: '✓'; position: absolute; left: 0; color: #1A533E; font-weight: 700; }
+
+  /* ── Section header ── */
+  .section h2 {
+    font-family: 'Boska', Georgia, serif;
+    font-size: clamp(1.6rem, 3vw, 2.25rem); font-weight: 700;
+    color: #0F2131; margin-bottom: 0.75rem;
+  }
+  .section-lead {
+    font-size: 1.0625rem; line-height: 1.65; color: #3a4a56;
+    max-width: 720px; margin-bottom: 2rem;
+  }
+
+  /* ── TGD table ── */
+  .tgd-section { background: #F7F6F2; }
+  .tgd-table-wrap { overflow-x: auto; margin-bottom: 1rem; }
+  .tgd-table {
+    width: 100%; border-collapse: collapse; background: #fff;
+    border: 1px solid rgba(15,33,49,0.1); border-radius: 12px;
+    overflow: hidden; min-width: 700px;
+  }
+  .tgd-table thead th {
+    background: #0F2131; color: #fff; font-size: 0.8125rem;
+    font-weight: 700; text-align: left; padding: 0.875rem 1rem;
+  }
+  .tgd-table tbody td {
+    padding: 0.875rem 1rem; border-bottom: 1px solid rgba(15,33,49,0.07);
+    font-size: 0.875rem; line-height: 1.55; color: #3a4a56; vertical-align: top;
+  }
+  .tgd-table tbody tr:last-child td { border-bottom: none; }
+  .row--highlight td { background: rgba(26,83,62,0.04); }
+  .part-cell { white-space: nowrap; }
+  .part-badge {
+    display: inline-block; background: #1A533E; color: #fff;
+    font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.5rem;
+    border-radius: 4px; white-space: nowrap;
+  }
+  .name-cell { font-weight: 700; color: #0F2131; white-space: nowrap; }
+  .detail-cell { max-width: 280px; }
+  .tgd-note {
+    font-size: 0.875rem; color: #5a6a76; font-style: italic; line-height: 1.6;
+  }
+
+  /* ── BER ── */
+  .ber-grid { display: grid; grid-template-columns: 1fr auto; gap: 3rem; align-items: start; }
+  .ber-content h2 { font-family: 'Boska', Georgia, serif; font-size: clamp(1.6rem, 3vw, 2.25rem); font-weight: 700; color: #0F2131; margin-bottom: 1rem; }
+  .ber-content h3 { font-size: 1.125rem; font-weight: 700; color: #0F2131; margin: 1.5rem 0 0.75rem; }
+  .ber-content p { font-size: 0.9375rem; line-height: 1.7; color: #3a4a56; margin-bottom: 1rem; }
+  .ber-card {
+    background: #0F2131; border-radius: 12px; padding: 1.75rem; min-width: 280px;
+  }
+  .ber-card h3 { font-size: 1rem; font-weight: 700; color: #fff; margin-bottom: 1.25rem; }
+  .ber-dl { margin: 0; }
+  .ber-dl dt { font-size: 0.8125rem; font-weight: 700; color: #5fd8c4; text-transform: uppercase; letter-spacing: 0.05em; margin-top: 1rem; }
+  .ber-dl dt:first-of-type { margin-top: 0; }
+  .ber-dl dd { font-size: 0.9rem; line-height: 1.5; color: rgba(255,255,255,0.82); margin: 0; padding-bottom: 0.75rem; border-bottom: 1px solid rgba(255,255,255,0.08); }
+
+  /* ── Compliance pack ── */
+  .compliance-list { list-style: none; padding: 0; margin: 1.5rem 0 0; display: flex; flex-direction: column; gap: 0.75rem; }
+  .compliance-list li {
+    padding: 0.875rem 1.25rem; background: rgba(255,255,255,0.08);
+    border-radius: 6px; font-size: 0.9375rem; line-height: 1.55; color: rgba(255,255,255,0.92);
+  }
+  .compliance-list li strong { color: #fff; }
+  .section--emerald { background: #1A533E; color: #fff; }
+  .section--emerald h2 { color: #fff; }
+  .section--emerald p { color: rgba(255,255,255,0.88); font-size: 1rem; line-height: 1.65; max-width: 56ch; margin: 0 auto 1rem; }
+
+  /* ── Cross-links ── */
+  .cross-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-top: 1.5rem; }
+  .cross-card {
+    padding: 1.5rem; background: #F7F6F2;
+    border: 1px solid rgba(15,33,49,0.09); border-radius: 12px;
+    text-decoration: none; color: inherit; display: flex; flex-direction: column; gap: 0.5rem;
+    transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+  }
+  .cross-card:hover {
+    border-color: #1A533E; box-shadow: 0 4px 20px rgba(26,83,62,0.08);
+    transform: translateY(-2px);
+  }
+  .cross-icon { font-size: 1.5rem; line-height: 1; }
+  .cross-card h3 { font-size: 1rem; font-weight: 700; color: #1A533E; margin: 0; line-height: 1.35; }
+  .cross-card p { font-size: 0.875rem; line-height: 1.6; color: #5a6a76; margin: 0; }
+
+  /* ── FAQ ── */
+  .faq-section { background: #F7F6F2; }
+  .faq-container { max-width: 760px; }
+  .faq-section h2 { font-family: 'Boska', Georgia, serif; font-size: clamp(1.5rem, 2.5vw, 2rem); font-weight: 700; color: #0F2131; margin-bottom: 0.25rem; }
+  .faq-updated { font-size: 0.8125rem; color: #888; margin: 0 0 2rem; }
+  details { border-bottom: 1px solid rgba(15,33,49,0.1); padding: 0; }
+  summary {
+    cursor: pointer; font-size: 1rem; font-weight: 600; color: #0F2131;
+    padding: 1.125rem 0; list-style: none; display: flex;
+    justify-content: space-between; align-items: center; gap: 1rem;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: '+'; font-size: 1.25rem; font-weight: 400; color: #1A533E; flex-shrink: 0; transition: transform 0.2s ease; }
+  details[open] summary::after { transform: rotate(45deg); }
+  details p { font-size: 0.9375rem; line-height: 1.7; color: #3a4a56; padding-bottom: 1.25rem; margin: 0; }
+
+  /* ── Back nav ── */
+  .back-nav { padding-top: 1rem; padding-bottom: 3rem; }
+  .back-link { font-size: 0.9375rem; color: #1A533E; text-decoration: none; font-weight: 500; }
+  .back-link:hover { text-decoration: underline; }
+
+  /* ── Section base ── */
+  .section { padding: 4rem 0; }
+
+  /* ── Responsive ── */
+  @media (max-width: 900px) {
+    .phase-grid { grid-template-columns: 1fr; }
+    .ber-grid { grid-template-columns: 1fr; }
+    .cross-grid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 768px) {
+    .section { padding: 2.5rem 0; }
+  }
+</style>
