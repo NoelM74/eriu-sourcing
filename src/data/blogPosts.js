@@ -1495,6 +1495,151 @@ export const blogPosts = [
     ],
   },
 
+  // ── MODULAR HOMES ───────────────────────────────────────────────────────────
+
+  {
+    slug: 'ireland-april-2026-back-garden-home-rules-explained',
+    title: "Ireland's April 2026 Back-Garden Home Rules, Explained",
+    metaTitle: "Ireland's April 2026 Back-Garden Home Rules, Explained | Ériu Modular Homes",
+    metaDescription: "What changed on 21 April 2026 when the Exempted Development Regulations reached Cabinet — the 45 m² auxiliary habitable dwelling, the Rent-a-Room yield, and what planning exemption does and doesn't mean for your project.",
+    h1: "Ireland's April 2026 Back-Garden Home Rules, Explained",
+    eyebrow: 'Regulations Explained',
+    category: 'modular-homes',
+    primaryKeyword: 'back garden home Ireland 2026',
+    secondaryKeywords: ['auxiliary habitable dwelling Ireland', 'exempted development regulations 2026', 'modular home back garden Ireland', 'Rent-a-Room back garden', 'planning permission back garden home Ireland'],
+    intent: 'informational',
+    targetReader: 'Irish homeowners researching the April 2026 Exempted Development Regulations and their implications for building a modular home or granny flat in their back garden',
+    estimatedWordCount: 2200,
+    publishDate: '2026-05-14',
+    draft: false,
+    body: `<p>On 21 April 2026, Ministers James Browne and Darragh O'Brien brought a draft of new Exempted Development Regulations to Cabinet. The announcement landed in every Irish property conversation that week — and not without reason. Four overlapping planning exemptions, arriving simultaneously, represent the most significant change to Irish residential planning in a generation.</p>
+
+<p>This guide explains what actually changed, what it means for your back garden, and — critically — what planning exemption does and does not cover.</p>
+
+<h2>What the April 2026 regulations actually say</h2>
+
+<p>The draft regulations create four new exemptions from planning permission. They are separate measures, but they stack — a homeowner can potentially avail of all four on the same property.</p>
+
+<p><strong>1. The auxiliary habitable dwelling (32–45 m²)</strong> — a detached self-contained home in your back garden, exempt from planning permission provided it:</p>
+<ul>
+  <li>Is between 32 and 45 square metres in footprint</li>
+  <li>Is located in the back garden of a principal private residence</li>
+  <li>Is connected to the services (water, sewerage, electricity) of the principal house</li>
+  <li>Meets all conditions set out in the regulations, including set-back distances and height restrictions</li>
+</ul>
+
+<p><strong>2. Sub-division of the principal house</strong> — one additional self-contained unit of minimum 32 m² can be created within the existing footprint of the house without planning permission. This targets houses large enough to accommodate a separate dwelling inside the existing walls.</p>
+
+<p><strong>3. Garden structures</strong> — the exemption limit for outbuildings, sheds, offices and garden rooms is raised from 25 m² to 30 m². This covers non-habitable structures — no kitchen or bathroom as a primary dwelling.</p>
+
+<p><strong>4. Principal house extension</strong> — the rear extension exemption is raised from 40 m² to 45 m², meaning a larger single-storey rear extension can proceed without planning permission.</p>
+
+<p>It is the first exemption — the auxiliary habitable dwelling — that is driving the modular home conversation. A 32–45 m² detached unit in your back garden, no planning application, no An Bord Pleanála queue, no neighbour objection period.</p>
+
+<h2>The financial case: why this matters right now</h2>
+
+<p>Keith Lowe of DNG made the return calculation explicit in The Irish Times coverage: a €100,000 modular dwelling returning up to €14,000 per year tax-free under the Rent-a-Room scheme represents approximately a 14% tax-free yield. Against a bank deposit rate of around 2.5%, that is a different category of return entirely.</p>
+
+<p>The Rent-a-Room scheme allows homeowners to earn up to €14,000 per year in rental income from a tenant sharing their home — free of income tax, USC and PRSI. The draft April 2026 regulations propose that an auxiliary habitable dwelling, because it is linked to the principal house's services, qualifies as part of that principal residence for Rent-a-Room purposes. They also propose carving the auxiliary dwelling out of the Residential Tenancies Acts — meaning RTB rules, notice periods and rent increase restrictions do not apply when the dwelling is occupied under the Rent-a-Room scheme.</p>
+
+<p>This combination — planning-exempt construction, tax-free rental income, and no RTB obligations — is the specific set of conditions that has not previously coexisted in Irish property law.</p>
+
+<figure class="article-figure">
+  <img src="/images/modular-homes-hero-back-garden-ireland.webp" alt="Modern steel-frame modular home in an Irish back garden — the April 2026 exempted development regulations have opened this market" loading="lazy" width="1280" height="720">
+  <figcaption>A 32–45 m² auxiliary habitable dwelling in the back garden of a principal house — exempt from planning under the April 2026 draft regulations</figcaption>
+</figure>
+
+<h2>What planning exemption does not mean</h2>
+
+<p>This is the point where the market commentary has been least precise, and where buyers risk making an expensive mistake.</p>
+
+<p><strong>Exempt from planning does not mean exempt from building regulations.</strong> These are two completely separate legal frameworks. The Exempted Development Regulations address the planning system — specifically, whether you need to apply for planning permission. The Irish Building Regulations 1997–2021 are a different body of law entirely, and they apply to every structure intended for human habitation regardless of planning status.</p>
+
+<p>What this means in practice:</p>
+
+<ul>
+  <li><strong>You still need a Commencement Notice</strong> — submitted to your local authority through the Building Control Management System (BCMS) at least 14 days before works begin. This is a legal requirement and failure to submit is an offence.</li>
+  <li><strong>The unit must comply with TGD Parts A to M</strong> — the Technical Guidance Documents covering structure, fire, moisture, materials, sound, ventilation, hygiene, drainage, heat, stairs, energy and access.</li>
+  <li><strong>A BER certificate at A3 or better is required</strong> — TGD Part L requires every new dwelling to achieve a minimum A3 Building Energy Rating. A BER assessment by an SEAI-registered assessor must be completed before the unit can be lawfully occupied.</li>
+  <li><strong>A Certificate of Compliance is required on completion</strong> — from the assigned certifier confirming the works were carried out in accordance with the Building Regulations.</li>
+</ul>
+
+<p>Some online sellers of modular units — particularly those operating without Irish regulatory expertise — describe their product as "no planning required" in a way that implies it is ready to install with no further process. It is not. A factory-built unit that has not been CE-marked, specified to Irish Building Regulations, and supplied with the correct compliance documentation creates significant legal and insurance exposure for the owner.</p>
+
+<h2>The conditions that make a site eligible</h2>
+
+<p>The April 2026 regulations set specific conditions that must be met for a back-garden auxiliary habitable dwelling to qualify for the planning exemption. While the final regulations were not fully gazetted as of the time of writing, the draft conditions include:</p>
+
+<ul>
+  <li>The principal house must be in residential use and the homeowner's principal private residence</li>
+  <li>The auxiliary dwelling must be detached — not attached to the principal house or converted from an existing structure</li>
+  <li>The unit must be between 32 m² and 45 m² in gross floor area</li>
+  <li>Minimum set-back from the rear boundary (specific distances to be confirmed in the gazette)</li>
+  <li>Height restrictions apply — typically equivalent to single-storey residential scale</li>
+  <li>The unit must be connected to the principal house's water and sewerage services (not a separate connection to the main)</li>
+  <li>The exemption does not apply in areas with specific planning restrictions (special amenity areas, conservation areas, etc. — check with your local authority)</li>
+</ul>
+
+<p>If a site does not meet the exemption conditions, full planning permission is required. A planning application is still possible and in many cases straightforward for a well-designed auxiliary dwelling — the exemption is a shortcut, not the only route.</p>
+
+<h2>The insurance, LPT and mortgage angles</h2>
+
+<p>Three financial and legal considerations that are consistently underweighted in the public discussion of back-garden homes:</p>
+
+<p><strong>Local Property Tax.</strong> Revenue has confirmed that an auxiliary habitable dwelling receives its own property ID and its own LPT valuation band — separate from the principal house. The LPT liability will depend on the valuation of the unit, which is set on the same basis as any other residential property.</p>
+
+<p><strong>Home insurance.</strong> The principal house home insurance policy must be updated to declare the new structure. Failure to notify your insurer can invalidate cover on the principal house. Most insurers will quote an uplift to the existing policy rather than requiring a separate policy for the auxiliary dwelling — but the declaration must be made before the unit is installed.</p>
+
+<p><strong>Mortgages and resale.</strong> Most Irish mortgage lenders will not currently mortgage a property with a second self-contained dwelling on the same title. This affects both the original owner's ability to remortgage and any future buyer's ability to get a mortgage on the property. It is an important consideration for anyone who may need to remortgage or intends to sell within the medium term. The market position of lenders may change as the scale of auxiliary dwelling construction grows — but it has not changed yet.</p>
+
+<h2>Who is the right buyer for this right now?</h2>
+
+<p>The April 2026 regulations create an opportunity that is most compelling for a specific profile of homeowner:</p>
+
+<ul>
+  <li><strong>Homeowners with a large back garden in a suburban location</strong> where the exemption conditions are straightforwardly met and rental demand is strong</li>
+  <li><strong>Parents of adult children</strong> who want affordable housing on the same site — the granny flat use case, extended to the next generation</li>
+  <li><strong>Homeowners approaching retirement</strong> who want to generate tax-free income from an asset they already own (the land) without selling the property</li>
+  <li><strong>Property investors who own their own home</strong> and want a tax-efficient yield vehicle that does not require purchasing a second property</li>
+</ul>
+
+<p>The opportunity is less compelling for homeowners in conservation areas or with planning restrictions, those with small or overlooked gardens where the exemption conditions cannot be met, or those who need to remortgage and have a lender that will not accept a second dwelling on title.</p>
+
+<h2>Why factory-direct from China makes the numbers work</h2>
+
+<p>The financial case for a back-garden auxiliary dwelling turns entirely on the total project cost versus the rental yield. At €110,000 to €180,000 for an Irish-built finished unit, the payback period extends to seven to thirteen years of tax-free Rent-a-Room income. At €60,000 to €90,000 for a comparably specified factory-direct unit — CE-marked, Building-Regulations-compliant, craned into your garden in 14–18 weeks — the payback period is four to six years. On a €14,000 per year tax-free return.</p>
+
+<p>The saving is not on compliance — every Ériu Modular Homes unit ships CE-marked and Building-Regulations-specified. The saving is on the structural unit itself, sourced direct from the Henan Province factories that supply the same product to German, Dutch and French buyers at factory-gate prices, without a European intermediary margin.</p>
+
+<p>The April 2026 regulations created the market. Factory-direct sourcing makes the economics work at a scale that is genuinely accessible to the typical Irish homeowner — not just property developers.</p>`,
+    excerpt: 'What actually changed on 21 April 2026, what the 45 m² auxiliary habitable dwelling exemption means in practice, why planning-exempt is not the same as building-regulations-exempt, and how to make the financial case work.',
+    image: '/images/modular-homes-hero-back-garden-ireland.webp',
+    imageAlt: 'Modern modular back-garden home in Ireland — April 2026 exempted development regulations explained',
+    sections: [
+      'What the April 2026 regulations actually say',
+      'The financial case: the Rent-a-Room yield',
+      'What planning exemption does not mean — building regulations still apply',
+      'The conditions that make a site eligible',
+      'Insurance, LPT and mortgage angles',
+      'Who is the right buyer for this right now?',
+      'Why factory-direct from China makes the numbers work',
+    ],
+    faq: [
+      { q: 'Do I need planning permission for a modular home in my back garden under the April 2026 regulations?', a: 'No — if the unit is between 32 and 45 m², detached, in the back garden of your principal private residence, and connected to the principal house services, the April 2026 Exempted Development Regulations exempt it from planning permission. You still need a Commencement Notice, Building Regulations compliance, and a BER certificate before occupation.' },
+      { q: 'Can I rent out a back-garden modular home tax-free?', a: 'If the auxiliary dwelling is linked to the principal house services and occupied under the Rent-a-Room scheme, rental income up to €14,000 per year is exempt from income tax, USC and PRSI. The draft regulations also propose carving the auxiliary dwelling out of the Residential Tenancies Acts when occupied under Rent-a-Room. Tax treatment should be confirmed with your accountant.' },
+      { q: "Does planning exemption mean I don't need building regulations?", a: 'No. Planning exemption and building regulations exemption are separate legal frameworks. Every back-garden auxiliary habitable dwelling must meet the Irish Building Regulations (TGD Parts A–M), require a Commencement Notice, achieve a BER A3 rating, and have a Certificate of Compliance issued on completion. There is no exemption from building regulations for a residential structure.' },
+      { q: 'How much does a back-garden modular home cost in Ireland?', a: 'Irish-built units typically range from €110,000–€180,000 for a finished 2-bed 32–45 m² unit. Factory-direct units from Ériu Modular Homes, sourced from Henan Province and CE-compliant, typically land 25–45% below that figure. Site costs — foundation, crane, services connection, BER — are additional and broadly the same regardless of supplier.' },
+    ],
+    relatedSlugs: [],
+    internalLinks: [
+      { text: 'Modular home models and specifications', href: '/modular-homes/models/' },
+      { text: 'Back-garden homes — the planning exemption in detail', href: '/modular-homes/back-garden-homes-ireland/' },
+      { text: 'Irish Building Regulations and modular homes', href: '/modular-homes/building-regulations-ireland/' },
+      { text: 'What a modular home costs in Ireland 2026', href: '/modular-homes/cost/' },
+      { text: 'Request a quote for your back-garden home', href: '/contact/' },
+    ],
+  },
+
 ];
 // Helper: get published posts only
 export const publishedPosts = blogPosts.filter(p => !p.draft);
@@ -1509,4 +1654,5 @@ export const blogCategories = {
   'economics':        'Cost & Economics',
   'trade-intel':      'Trade Intelligence',
   'category-guides':  'Category Deep Dives',
+  'modular-homes':    'Modular Homes',
 };

@@ -1,0 +1,678 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = "Modular Home Cost Ireland 2026 | Back-Garden Home Prices";
+const description = "What a modular home actually costs in Ireland in 2026 — the full landed-cost stack, indicative price ranges by model and tier, and the groundworks, crane and connection costs most buyers forget. Factory-direct from China with Irish-led QC.";
+const canonical = "/modular-homes/cost/";
+const siteUrl = "https://eriusourcing.com";
+
+const pageSchemas = [
+  {
+    "@type": "Service",
+    "name": "Modular Home Supply — Cost & Pricing, Ireland",
+    "provider": {
+      "@type": "Organization",
+      "name": "Ériu Modular Homes",
+      "url": `${siteUrl}/modular-homes/`
+    },
+    "description": "Factory-direct supply of steel-frame modular homes and expandable container houses to Ireland, with transparent landed-cost breakdowns covering factory price, freight, duty, VAT, groundworks, craning and services connection.",
+    "areaServed": { "@type": "Country", "name": "Ireland" },
+    "serviceType": "Modular Home Supplier",
+    "url": `${siteUrl}${canonical}`
+  },
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": `${siteUrl}/` },
+      { "@type": "ListItem", "position": 2, "name": "Modular Homes", "item": `${siteUrl}/modular-homes/` },
+      { "@type": "ListItem", "position": 3, "name": "Cost", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does a modular home cost in Ireland in 2026?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Irish-built modular homes from established suppliers typically range from €110,000 to €180,000 for a finished 2-bed unit of 32–45 m². An equivalent unit supplied factory-direct from China through Ériu Modular Homes typically lands 25–45% below that figure, depending on size, finish tier, site access and installation requirements. There is no single sticker price — the cost is a stack of factory price, freight, duty, VAT, groundworks, craning and services connection. Every quote is built against your specific site and brief."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What costs do buyers usually forget when budgeting for a back-garden modular home?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The single biggest budgeting mistake is comparing a factory price against a finished home. The costs most buyers overlook are: the foundation or slab (typically €3,000–€9,000 depending on ground conditions), the crane lift to place the unit (€800–€2,500 depending on access and reach), connecting water, drainage and electricity from the principal house (€2,000–€8,000 depending on distance and whether trenching crosses hard landscaping), and the BER assessment and certificate (€300–€500). Ériu Modular Homes itemises all of these in writing with every quote so there is no surprise after the container lands."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why can't you give a fixed price for a modular home online?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Because a modular home is a project, not a product on a shelf. Two identical units can differ by €15,000 or more once site access, ground conditions, services distance, finish tier and county are factored in. A fixed online price would either be padded to cover the worst case or would mislead buyers whose sites cost more to work. We publish indicative ranges so you can budget realistically, then build an exact quote against your site survey and brief."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is import VAT and duty included in the price of a modular home from China?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes — every Ériu Modular Homes quote is presented on a landed basis, meaning Irish import duty and VAT are already included in the figure you see. Duty on prefabricated buildings is typically low, and import VAT at 23% is applied at customs. VAT-registered buyers can reclaim import VAT through their normal VAT return or defer it using Postponed VAT Accounting. We confirm the duty and VAT treatment for your specific unit before you commit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does a factory-direct modular home compare in cost to an Irish-built one?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The structural shell of a modular home is the single largest cost line, and it is the line where factory-direct sourcing from Henan Province delivers the biggest saving — the same steel-frame and expandable container home factories that supply the German, Dutch and French markets. Freight, duty and VAT add cost back, but the net position on a comparably specified unit is typically 25–45% below an Irish-built equivalent. The groundworks, craning and services connection costs are broadly the same whoever supplies the unit, because that work happens in Ireland either way."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I spread the cost of a modular home or pay in stages?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ériu Modular Homes works on a staged payment structure tied to project milestones — a deposit to confirm the order and begin factory production, a payment before the unit ships from China, and a balance on installation and handover in Ireland. This is standard for imported modular construction and means you are never paying for a stage that has not been reached. We do not provide finance directly; some buyers fund the project through a home improvement loan or equity release, and most mortgage lenders will not lend against a second self-contained dwelling on the same title — a point worth confirming with your lender early."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does the factory visit cost get added to the price of my home?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No — it is the opposite. The 3-day China factory visit costs from approximately €1,800 per person, and that full amount is credited against your confirmed order. If you visit and then proceed, the visit effectively costs nothing. It is a way to verify the factory and sign off your specification in person before committing, not an add-on to the build cost."
+        }
+      }
+    ]
+  }
+];
+
+const models = [
+  {
+    name: "20FT700 — Compact",
+    area: "~25 m²",
+    use: "Garden office, studio, single-occupant unit",
+    shell: "€18,000 – €26,000",
+    turnkey: "€34,000 – €46,000",
+    furnished: "€42,000 – €56,000",
+  },
+  {
+    name: "20FT — Standard",
+    area: "~34 m²",
+    use: "1-bed auxiliary dwelling, guest unit",
+    shell: "€22,000 – €31,000",
+    turnkey: "€40,000 – €54,000",
+    furnished: "€50,000 – €66,000",
+  },
+  {
+    name: "30FT — Expanded",
+    area: "~52 m²",
+    use: "1–2 bed auxiliary dwelling, rental unit",
+    shell: "€30,000 – €41,000",
+    turnkey: "€54,000 – €72,000",
+    furnished: "€66,000 – €86,000",
+  },
+  {
+    name: "40FT — Family",
+    area: "~70 m²",
+    use: "2-bed auxiliary dwelling, full rental home",
+    shell: "€38,000 – €52,000",
+    turnkey: "€66,000 – €88,000",
+    furnished: "€80,000 – €106,000",
+  },
+];
+
+const siteCosts = [
+  {
+    item: "Foundation / slab",
+    range: "€3,000 – €9,000",
+    note: "Reinforced concrete slab or screw-pile foundation. Cost driven by ground conditions, slope and access for plant.",
+  },
+  {
+    item: "Crane lift & placement",
+    range: "€800 – €2,500",
+    note: "Mobile crane to lift the unit onto the foundation. Cost driven by reach over the house, road access and lift duration.",
+  },
+  {
+    item: "Services connection",
+    range: "€2,000 – €8,000",
+    note: "Water, foul drainage and electricity run from the principal house. Cost driven by distance and whether trenching crosses hard landscaping or driveways.",
+  },
+  {
+    item: "BER assessment & certificate",
+    range: "€300 – €500",
+    note: "Independent Irish-registered BER assessor issues the certificate on completion — required for an auxiliary habitable dwelling.",
+  },
+  {
+    item: "Site preparation & access",
+    range: "€500 – €4,000",
+    note: "Clearing, levelling, temporary access protection and reinstatement. Highly site-specific — a flat, open garden costs little; a tight urban plot costs more.",
+  },
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} jsonLd={pageSchemas}>
+
+  <!-- ── HERO ── -->
+  <section class="cost-hero">
+    <div class="cost-hero__media">
+      <img
+        src="/images/modular-homes-hero-back-garden-ireland.webp"
+        alt="Steel-frame modular back-garden home in Ireland — cost and pricing breakdown"
+        width="1400"
+        height="700"
+        loading="eager"
+        fetchpriority="high"
+        onerror="this.closest('.cost-hero__media').style.background='#1A533E'"
+      />
+      <div class="cost-hero__overlay"></div>
+    </div>
+    <div class="cost-hero__content container">
+      <p class="eyebrow">Ériu Modular Homes · Cost &amp; Pricing</p>
+      <h1>What a Modular Home<br>Actually Costs in Ireland</h1>
+      <p class="hero-lead">No sticker price — because a modular home is a project, not a product on a shelf. Here is the full cost stack, indicative ranges by model and tier, and the groundworks costs most buyers forget to budget for.</p>
+      <a href="/contact/?interest=modular-quote" class="btn btn--white-outline hero-cta">Get a Quote for Your Site</a>
+    </div>
+  </section>
+
+  <!-- ── NO STICKER PRICE ── -->
+  <section class="differentiator-bar">
+    <div class="container">
+      <p><strong>Why we don't publish a single price.</strong> Two identical units can differ by €15,000 or more once site access, ground conditions, services distance, finish tier and county are factored in. We publish honest ranges so you can budget — then build an exact quote against your site.</p>
+    </div>
+  </section>
+
+  <!-- ── THE COST STACK ── -->
+  <section class="section cost-stack">
+    <div class="container">
+      <h2>The Modular Home Cost Stack</h2>
+      <p class="section-lead">The price of a finished back-garden home is not one number — it is a stack of seven cost lines. Understanding the stack is the difference between a realistic budget and a nasty surprise after the container lands.</p>
+
+      <div class="stack-grid">
+        <div class="stack-card">
+          <span class="stack-num">01</span>
+          <h3>Factory price (the unit itself)</h3>
+          <p>The structural unit, built to your specification in Henan Province. The single largest cost line — and the one where factory-direct sourcing delivers the biggest saving versus an Irish-built equivalent.</p>
+        </div>
+        <div class="stack-card">
+          <span class="stack-num">02</span>
+          <h3>Sea freight to Ireland</h3>
+          <p>Container shipping from China to Dublin Port, plus inland transport to your site. Driven by unit size and how many units fit a 40HQ container.</p>
+        </div>
+        <div class="stack-card">
+          <span class="stack-num">03</span>
+          <h3>Import duty &amp; VAT</h3>
+          <p>Irish customs duty (typically low on prefabricated buildings) and import VAT at 23%. Every Ériu quote is shown on a landed basis — duty and VAT already included.</p>
+        </div>
+        <div class="stack-card">
+          <span class="stack-num">04</span>
+          <h3>Foundation &amp; groundworks</h3>
+          <p>The slab or screw-pile foundation the unit sits on. Done in Ireland, cost driven by ground conditions and site access — broadly the same whoever supplies the unit.</p>
+        </div>
+        <div class="stack-card">
+          <span class="stack-num">05</span>
+          <h3>Craning &amp; installation</h3>
+          <p>The mobile crane that lifts the unit into position, and the install crew. Driven by reach over the house and road access.</p>
+        </div>
+        <div class="stack-card">
+          <span class="stack-num">06</span>
+          <h3>Services connection</h3>
+          <p>Water, drainage and electricity run from the principal house. The most variable site cost — distance and hard landscaping decide it.</p>
+        </div>
+        <div class="stack-card">
+          <span class="stack-num">07</span>
+          <h3>Fit-out &amp; BER</h3>
+          <p>Internal finishes to your chosen tier, plus the BER assessment and certificate required for a habitable auxiliary dwelling.</p>
+        </div>
+        <div class="stack-card stack-card--accent">
+          <span class="stack-num">=</span>
+          <h3>Your landed, installed cost</h3>
+          <p>Lines 1–3 are the imported unit. Lines 4–7 happen in Ireland. Add them together and you have the real number — which is exactly how an Ériu quote is built.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── INDICATIVE RANGES ── -->
+  <section class="section ranges-section">
+    <div class="container">
+      <h2>Indicative Price Ranges by Model &amp; Tier</h2>
+      <p class="section-lead">Ranges below cover the <strong>imported unit delivered and craned onto your prepared foundation</strong> — lines 1–3 and 5 of the cost stack, plus fit-out for Turnkey and Furnished tiers. Foundation, services connection and site preparation are quoted separately against your site (see the next section). These are budgeting ranges, not quotes — your exact figure is confirmed against a site survey and brief.</p>
+
+      <div class="ranges-table-wrap">
+        <table class="ranges-table">
+          <thead>
+            <tr>
+              <th>Model</th>
+              <th>Ériu Shell</th>
+              <th>Ériu Turnkey</th>
+              <th>Ériu Furnished</th>
+            </tr>
+          </thead>
+          <tbody>
+            {models.map(m => (
+              <tr>
+                <td class="model-cell">
+                  <span class="model-name">{m.name}</span>
+                  <span class="model-area">{m.area}</span>
+                  <span class="model-use">{m.use}</span>
+                </td>
+                <td><span class="range-val">{m.shell}</span></td>
+                <td><span class="range-val">{m.turnkey}</span></td>
+                <td><span class="range-val">{m.furnished}</span></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <div class="tier-key">
+        <div class="tier-key-item">
+          <strong>Shell</strong> — CE-compliant structural unit, externally finished (cladding, roof, windows, doors). You arrange foundation, fit-out and connection.
+        </div>
+        <div class="tier-key-item">
+          <strong>Turnkey</strong> — Shell plus full internal fit-out to Irish Building Regulations: kitchen, bathroom, electrics, plumbing, heat pump, BER certificate.
+        </div>
+        <div class="tier-key-item">
+          <strong>Furnished</strong> — Turnkey plus furniture, white goods, soft furnishings and a choice of outdoor package. Move-in or rent-out ready.
+        </div>
+      </div>
+
+      <p class="ranges-footnote">A Furnished 30FT or 40FT unit typically lands at the same total cost as a basic shell from an Irish-built supplier. <a href="/modular-homes/models/">See full model specifications →</a></p>
+    </div>
+  </section>
+
+  <!-- ── THE FORGOTTEN COSTS ── -->
+  <section class="section site-costs-section">
+    <div class="container">
+      <h2>The Costs Most Buyers Forget</h2>
+      <p class="section-lead">These happen in Ireland, on your site, whoever supplies the unit. They are the difference between a factory price and a finished home — and the reason a budget built on the unit price alone always falls short. Ériu itemises every one of these in writing with your quote.</p>
+
+      <div class="site-costs-list">
+        {siteCosts.map(c => (
+          <div class="site-cost-row">
+            <div class="site-cost-head">
+              <h3>{c.item}</h3>
+              <span class="site-cost-range">{c.range}</span>
+            </div>
+            <p>{c.note}</p>
+          </div>
+        ))}
+      </div>
+
+      <p class="site-costs-note">Ranges reflect typical Irish back-garden projects in 2026 and are indicative — a flat, open, accessible garden sits at the bottom of each range; a tight urban plot with poor access and a long services run sits at the top. Your site survey produces the exact figures.</p>
+    </div>
+  </section>
+
+  <!-- ── WHAT MOVES THE PRICE ── -->
+  <section class="section movers-section">
+    <div class="container">
+      <h2>What Moves Your Price Up or Down</h2>
+      <div class="movers-grid">
+        <div class="movers-col movers-col--down">
+          <h3 class="movers-heading movers-heading--down">Keeps cost down</h3>
+          <ul class="movers-ul movers-ul--down">
+            <li>Flat, open garden with clear crane access</li>
+            <li>Principal house services close to the unit position</li>
+            <li>Choosing Shell or Turnkey over Furnished</li>
+            <li>A smaller model that fits your actual need</li>
+            <li>Ordering with a confirmed site survey — no contingency padding</li>
+            <li>Standard layout and finishes over heavy customisation</li>
+            <li>Combining a factory visit credit against the order</li>
+          </ul>
+        </div>
+        <div class="movers-col movers-col--up">
+          <h3 class="movers-heading movers-heading--up">Pushes cost up</h3>
+          <ul class="movers-ul movers-ul--up">
+            <li>Poor access requiring a larger crane or hand-craning</li>
+            <li>Sloping or soft ground needing engineered foundations</li>
+            <li>Long services run, especially under driveways or paving</li>
+            <li>Upgraded finishes, appliances or outdoor packages</li>
+            <li>Bespoke layout changes after factory sign-off</li>
+            <li>Tight delivery windows requiring expedited freight</li>
+            <li>Counties with higher local groundworks labour rates</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ÉRIU VS IRISH-BUILT ── -->
+  <section class="section compare-section">
+    <div class="container">
+      <h2>Factory-Direct vs Irish-Built — Where the Saving Is</h2>
+      <div class="compare-split">
+        <div class="compare-text">
+          <p>The structural shell is the largest cost line in any modular home, and it is the line where sourcing direct from Henan Province makes the biggest difference. These are the same steel-frame and expandable container home factories that supply the German, Dutch and French modular markets — bought at factory-gate prices, with no Alibaba trading-company stack and no European intermediary margin.</p>
+          <p>Freight, duty and VAT add cost back into the equation. But the net position on a comparably specified, CE-compliant unit is typically <strong>25–45% below an Irish-built equivalent</strong>.</p>
+          <p>The groundworks, craning and services connection costs are broadly the same whoever supplies the unit — because that work happens in your Irish garden either way. So the saving is real, but it applies to the unit, not the whole project. An honest quote shows you both parts separately.</p>
+          <p>And the saving is only worth anything if the unit is compliant. Every Ériu unit ships CE-marked under the Construction Products Regulation, specified against Irish Building Regulations, and inspected in person at the factory before the container is sealed.</p>
+          <a href="/modular-homes/building-regulations-ireland/" class="inline-link">How modular homes meet Irish Building Regulations →</a>
+        </div>
+        <div class="compare-stats">
+          <div class="compare-stat">
+            <span class="compare-stat__num">25–45%</span>
+            <span class="compare-stat__label">Below Irish-built pricing on a comparable unit</span>
+          </div>
+          <div class="compare-stat">
+            <span class="compare-stat__num">€110k–€180k</span>
+            <span class="compare-stat__label">Typical Irish-built finished 2-bed, 32–45 m²</span>
+          </div>
+          <div class="compare-stat">
+            <span class="compare-stat__num">14–18 wks</span>
+            <span class="compare-stat__label">Order to installed — vs 9–12 months conventional</span>
+          </div>
+          <div class="compare-stat compare-stat--highlight">
+            <span class="compare-stat__num">€0</span>
+            <span class="compare-stat__label">Net cost of a factory visit — fully credited on order</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <section class="section cost-cta-section">
+    <div class="container">
+      <div class="cost-cta-box">
+        <h2>Get a Real Number for Your Site</h2>
+        <p>Tell us the model and tier you are considering, your county, and a few details about your garden — access, slope, and roughly how far the unit sits from the principal house. We come back with an itemised quote covering the imported unit and every Irish-side cost line, with no contingency padding.</p>
+        <p>No obligation, and no figure pulled from thin air — every line is one you can check.</p>
+        <a href="/contact/?interest=modular-quote" class="btn btn--primary btn--large">Request an Itemised Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FAQ ── -->
+  <section class="section faq-section">
+    <div class="container faq-container">
+      <h2>Modular Home Cost — Frequently Asked Questions</h2>
+      <p class="faq-updated">Last reviewed: May 2026</p>
+
+      <details>
+        <summary>How much does a modular home cost in Ireland in 2026?</summary>
+        <p>Irish-built modular homes from established suppliers typically range from €110,000 to €180,000 for a finished 2-bed unit of 32–45 m². An equivalent unit supplied factory-direct from China through Ériu Modular Homes typically lands 25–45% below that figure, depending on size, finish tier, site access and installation requirements. There is no single sticker price — the cost is a stack of factory price, freight, duty, VAT, groundworks, craning and services connection. Every quote is built against your specific site and brief.</p>
+      </details>
+
+      <details>
+        <summary>What costs do buyers usually forget when budgeting for a back-garden modular home?</summary>
+        <p>The single biggest budgeting mistake is comparing a factory price against a finished home. The costs most buyers overlook are: the foundation or slab (typically €3,000–€9,000 depending on ground conditions), the crane lift to place the unit (€800–€2,500 depending on access and reach), connecting water, drainage and electricity from the principal house (€2,000–€8,000 depending on distance and whether trenching crosses hard landscaping), and the BER assessment and certificate (€300–€500). Ériu Modular Homes itemises all of these in writing with every quote so there is no surprise after the container lands.</p>
+      </details>
+
+      <details>
+        <summary>Why can't you give a fixed price for a modular home online?</summary>
+        <p>Because a modular home is a project, not a product on a shelf. Two identical units can differ by €15,000 or more once site access, ground conditions, services distance, finish tier and county are factored in. A fixed online price would either be padded to cover the worst case or would mislead buyers whose sites cost more to work. We publish indicative ranges so you can budget realistically, then build an exact quote against your site survey and brief.</p>
+      </details>
+
+      <details>
+        <summary>Is import VAT and duty included in the price of a modular home from China?</summary>
+        <p>Yes — every Ériu Modular Homes quote is presented on a landed basis, meaning Irish import duty and VAT are already included in the figure you see. Duty on prefabricated buildings is typically low, and import VAT at 23% is applied at customs. VAT-registered buyers can reclaim import VAT through their normal VAT return or defer it using Postponed VAT Accounting. We confirm the duty and VAT treatment for your specific unit before you commit.</p>
+      </details>
+
+      <details>
+        <summary>How does a factory-direct modular home compare in cost to an Irish-built one?</summary>
+        <p>The structural shell of a modular home is the single largest cost line, and it is the line where factory-direct sourcing from Henan Province delivers the biggest saving — the same steel-frame and expandable container home factories that supply the German, Dutch and French markets. Freight, duty and VAT add cost back, but the net position on a comparably specified unit is typically 25–45% below an Irish-built equivalent. The groundworks, craning and services connection costs are broadly the same whoever supplies the unit, because that work happens in Ireland either way.</p>
+      </details>
+
+      <details>
+        <summary>Can I spread the cost of a modular home or pay in stages?</summary>
+        <p>Ériu Modular Homes works on a staged payment structure tied to project milestones — a deposit to confirm the order and begin factory production, a payment before the unit ships from China, and a balance on installation and handover in Ireland. This is standard for imported modular construction and means you are never paying for a stage that has not been reached. We do not provide finance directly; some buyers fund the project through a home improvement loan or equity release, and most mortgage lenders will not lend against a second self-contained dwelling on the same title — a point worth confirming with your lender early.</p>
+      </details>
+
+      <details>
+        <summary>Does the factory visit cost get added to the price of my home?</summary>
+        <p>No — it is the opposite. The 3-day China factory visit costs from approximately €1,800 per person, and that full amount is credited against your confirmed order. If you visit and then proceed, the visit effectively costs nothing. It is a way to verify the factory and sign off your specification in person before committing, not an add-on to the build cost.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ── BACK-LINK ── -->
+  <section class="section back-nav">
+    <div class="container">
+      <a href="/modular-homes/" class="back-link">← Back to Ériu Modular Homes Overview</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  /* ── Hero ── */
+  .cost-hero {
+    position: relative;
+    min-height: 64vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    overflow: hidden;
+  }
+  .cost-hero__media { position: absolute; inset: 0; background: #1A533E; }
+  .cost-hero__media img { width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; }
+  .cost-hero__overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(135deg, rgba(15,33,49,0.78) 0%, rgba(26,83,62,0.55) 100%);
+  }
+  .cost-hero__content { position: relative; z-index: 2; padding-top: 5rem; padding-bottom: 5rem; max-width: 680px; }
+  .eyebrow {
+    font-size: 0.875rem; font-weight: 600; letter-spacing: 0.1em;
+    text-transform: uppercase; color: rgba(255,255,255,0.75); margin-bottom: 1rem;
+  }
+  .cost-hero__content h1 {
+    font-family: 'Boska', Georgia, serif;
+    font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 700;
+    line-height: 1.1; margin-bottom: 1.25rem; color: #fff;
+  }
+  .hero-lead {
+    font-size: 1.125rem; line-height: 1.65;
+    color: rgba(255,255,255,0.9); margin-bottom: 2rem; max-width: 560px;
+  }
+  .hero-cta { margin-top: 0.25rem; }
+  .btn--white-outline {
+    background: transparent; border: 2px solid rgba(255,255,255,0.7);
+    color: #fff; padding: 0.75rem 1.75rem; border-radius: 8px;
+    font-weight: 600; text-decoration: none; display: inline-block;
+    transition: background 0.15s ease, border-color 0.15s ease;
+  }
+  .btn--white-outline:hover { background: rgba(255,255,255,0.12); border-color: #fff; }
+
+  /* ── Differentiator bar ── */
+  .differentiator-bar { background: #1A533E; color: #fff; padding: 1.25rem 0; text-align: center; }
+  .differentiator-bar p {
+    font-size: 1rem; line-height: 1.6; max-width: 780px;
+    margin: 0 auto; color: rgba(255,255,255,0.92);
+  }
+
+  /* ── Shared headings ── */
+  .section h2 {
+    font-family: 'Boska', Georgia, serif;
+    font-size: clamp(1.6rem, 3vw, 2.25rem); font-weight: 700;
+    color: #0F2131; margin-bottom: 0.75rem;
+  }
+  .section-lead {
+    font-size: 1.0625rem; line-height: 1.65; color: #3a4a56;
+    max-width: 720px; margin-bottom: 2.5rem;
+  }
+
+  /* ── Cost stack ── */
+  .stack-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.25rem;
+  }
+  .stack-card {
+    background: #F7F6F2; border: 1px solid rgba(15,33,49,0.08);
+    border-radius: 12px; padding: 1.5rem;
+  }
+  .stack-card--accent { background: #1A533E; border-color: #1A533E; }
+  .stack-num {
+    font-family: 'Boska', Georgia, serif; font-size: 1.5rem; font-weight: 700;
+    color: #1C7C83; line-height: 1; display: block; margin-bottom: 0.625rem;
+  }
+  .stack-card--accent .stack-num { color: #5fd8c4; }
+  .stack-card h3 { font-size: 1rem; font-weight: 700; color: #0F2131; margin-bottom: 0.5rem; }
+  .stack-card--accent h3 { color: #fff; }
+  .stack-card p { font-size: 0.9rem; line-height: 1.6; color: #3a4a56; margin: 0; }
+  .stack-card--accent p { color: rgba(255,255,255,0.85); }
+
+  /* ── Ranges ── */
+  .ranges-section { background: #F7F6F2; }
+  .ranges-table-wrap { overflow-x: auto; margin-bottom: 1.5rem; }
+  .ranges-table {
+    width: 100%; border-collapse: collapse; background: #fff;
+    border: 1px solid rgba(15,33,49,0.1); border-radius: 12px; overflow: hidden;
+    min-width: 640px;
+  }
+  .ranges-table thead th {
+    background: #0F2131; color: #fff; font-size: 0.875rem; font-weight: 700;
+    text-align: left; padding: 1rem 1.25rem;
+  }
+  .ranges-table tbody td {
+    padding: 1.125rem 1.25rem; border-bottom: 1px solid rgba(15,33,49,0.07);
+    vertical-align: top;
+  }
+  .ranges-table tbody tr:last-child td { border-bottom: none; }
+  .model-cell { display: flex; flex-direction: column; gap: 0.2rem; }
+  .model-name { font-weight: 700; color: #0F2131; font-size: 0.95rem; }
+  .model-area { font-size: 0.8125rem; color: #1C7C83; font-weight: 600; }
+  .model-use { font-size: 0.8125rem; color: #5a6a76; line-height: 1.45; }
+  .range-val { font-size: 0.9375rem; font-weight: 600; color: #1A533E; }
+
+  .tier-key {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 1.5rem;
+  }
+  .tier-key-item {
+    background: #fff; border: 1px solid rgba(15,33,49,0.09);
+    border-radius: 8px; padding: 1rem 1.125rem;
+    font-size: 0.875rem; line-height: 1.55; color: #3a4a56;
+  }
+  .tier-key-item strong { color: #1A533E; }
+  .ranges-footnote {
+    font-size: 0.9375rem; color: #5a6a76; font-style: italic; margin: 0; line-height: 1.6;
+  }
+  .ranges-footnote a { color: #1A533E; font-weight: 600; font-style: normal; }
+
+  /* ── Site costs ── */
+  .site-costs-list { display: flex; flex-direction: column; gap: 0; }
+  .site-cost-row {
+    padding: 1.25rem 0; border-bottom: 1px solid rgba(15,33,49,0.1);
+  }
+  .site-cost-row:last-of-type { border-bottom: none; }
+  .site-cost-head {
+    display: flex; justify-content: space-between; align-items: baseline;
+    gap: 1rem; margin-bottom: 0.375rem; flex-wrap: wrap;
+  }
+  .site-cost-head h3 { font-size: 1.0625rem; font-weight: 700; color: #0F2131; margin: 0; }
+  .site-cost-range {
+    font-size: 1rem; font-weight: 700; color: #1A533E; white-space: nowrap;
+  }
+  .site-cost-row p { font-size: 0.9375rem; line-height: 1.6; color: #3a4a56; margin: 0; }
+  .site-costs-note {
+    margin-top: 1.5rem; font-size: 0.875rem; color: #5a6a76;
+    background: rgba(26,83,62,0.06); border-left: 3px solid #1A533E;
+    padding: 0.875rem 1.125rem; border-radius: 0 6px 6px 0; line-height: 1.6;
+  }
+
+  /* ── Movers ── */
+  .movers-section { background: #F7F6F2; }
+  .movers-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+  .movers-col {
+    background: #fff; border: 1px solid rgba(15,33,49,0.09);
+    border-radius: 12px; padding: 1.75rem;
+  }
+  .movers-heading {
+    font-size: 1rem; font-weight: 700; margin-bottom: 1rem;
+    padding-bottom: 0.5rem; border-bottom: 2px solid currentColor;
+  }
+  .movers-heading--down { color: #1A533E; }
+  .movers-heading--up { color: #c0392b; }
+  .movers-ul { list-style: none; padding: 0; margin: 0; }
+  .movers-ul li {
+    font-size: 0.9375rem; line-height: 1.55; color: #3a4a56;
+    padding: 0.4rem 0; display: flex; align-items: flex-start; gap: 0.5rem;
+  }
+  .movers-ul--down li::before { content: '↓'; color: #1A533E; font-weight: 700; flex-shrink: 0; }
+  .movers-ul--up li::before { content: '↑'; color: #c0392b; font-weight: 700; flex-shrink: 0; }
+
+  /* ── Compare ── */
+  .compare-split { display: grid; grid-template-columns: 1.5fr 1fr; gap: 3rem; align-items: start; }
+  .compare-text p { font-size: 0.9375rem; line-height: 1.7; color: #3a4a56; margin-bottom: 1rem; }
+  .inline-link { color: #1A533E; font-weight: 600; font-size: 0.9375rem; text-decoration: none; }
+  .inline-link:hover { text-decoration: underline; }
+  .compare-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .compare-stat {
+    background: #F7F6F2; border: 1px solid rgba(15,33,49,0.09);
+    border-radius: 10px; padding: 1.25rem; display: flex; flex-direction: column; gap: 0.35rem;
+  }
+  .compare-stat--highlight { background: #1A533E; border-color: #1A533E; }
+  .compare-stat__num {
+    font-family: 'Boska', Georgia, serif; font-size: 1.5rem; font-weight: 700;
+    color: #0F2131; line-height: 1;
+  }
+  .compare-stat--highlight .compare-stat__num { color: #fff; }
+  .compare-stat__label { font-size: 0.8125rem; color: #5a6a76; line-height: 1.45; }
+  .compare-stat--highlight .compare-stat__label { color: rgba(255,255,255,0.82); }
+
+  /* ── CTA ── */
+  .cost-cta-box {
+    background: linear-gradient(135deg, #1A533E 0%, #0F2131 100%);
+    border-radius: 16px; padding: 3rem 2.5rem; text-align: center;
+    max-width: 720px; margin: 0 auto;
+  }
+  .cost-cta-box h2 {
+    font-family: 'Boska', Georgia, serif; font-size: clamp(1.6rem, 3vw, 2.25rem);
+    font-weight: 700; color: #fff; margin-bottom: 1rem;
+  }
+  .cost-cta-box p {
+    font-size: 0.9375rem; line-height: 1.7; color: rgba(255,255,255,0.85);
+    margin-bottom: 1rem; max-width: 560px; margin-left: auto; margin-right: auto;
+  }
+  .btn--large { padding: 0.875rem 2rem; font-size: 1.0625rem; margin-top: 0.5rem; }
+
+  /* ── FAQ ── */
+  .faq-section { background: #F7F6F2; }
+  .faq-container { max-width: 760px; }
+  .faq-section h2 {
+    font-family: 'Boska', Georgia, serif; font-size: clamp(1.5rem, 2.5vw, 2rem);
+    font-weight: 700; color: #0F2131; margin-bottom: 0.25rem;
+  }
+  .faq-updated { font-size: 0.8125rem; color: #888; margin: 0 0 2rem; }
+  details { border-bottom: 1px solid rgba(15,33,49,0.1); padding: 0; }
+  summary {
+    cursor: pointer; font-size: 1rem; font-weight: 600; color: #0F2131;
+    padding: 1.125rem 0; list-style: none; display: flex;
+    justify-content: space-between; align-items: center; gap: 1rem;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::after {
+    content: '+'; font-size: 1.25rem; font-weight: 400; color: #1A533E;
+    flex-shrink: 0; transition: transform 0.2s ease;
+  }
+  details[open] summary::after { transform: rotate(45deg); }
+  details p {
+    font-size: 0.9375rem; line-height: 1.7; color: #3a4a56;
+    padding-bottom: 1.25rem; margin: 0;
+  }
+
+  /* ── Back nav ── */
+  .back-nav { padding-top: 1rem; padding-bottom: 3rem; }
+  .back-link { font-size: 0.9375rem; color: #1A533E; text-decoration: none; font-weight: 500; }
+  .back-link:hover { text-decoration: underline; }
+
+  /* ── Section base ── */
+  .section { padding: 4rem 0; }
+
+  /* ── Responsive ── */
+  @media (max-width: 768px) {
+    .section { padding: 2.5rem 0; }
+    .movers-grid { grid-template-columns: 1fr; }
+    .tier-key { grid-template-columns: 1fr; }
+    .compare-split { grid-template-columns: 1fr; gap: 2rem; }
+    .cost-cta-box { padding: 2rem 1.5rem; }
+  }
+  @media (max-width: 480px) {
+    .compare-stats { grid-template-columns: 1fr; }
+  }
+</style>

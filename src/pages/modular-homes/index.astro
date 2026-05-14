@@ -314,10 +314,20 @@ const pageSchemas = [
           <h3>Browse Models →</h3>
           <p>20ft, 30ft, 40ft and 700-wide expandable container homes. Full specifications, dimensions, floor plans and loading data.</p>
         </a>
+        <a href="/modular-homes/cost/" class="spoke-card">
+          <span class="spoke-icon" aria-hidden="true">💶</span>
+          <h3>Cost & Pricing →</h3>
+          <p>The full landed-cost stack — factory, freight, groundworks, crane and connection — with indicative ranges by model and tier.</p>
+        </a>
         <a href="/modular-homes/back-garden-homes-ireland/" class="spoke-card">
           <span class="spoke-icon" aria-hidden="true">🌿</span>
           <h3>Back-Garden Homes →</h3>
           <p>The 45 m² exemption explained in plain English. What qualifies, what doesn't, and how to use it for Rent-a-Room arbitrage.</p>
+        </a>
+        <a href="/modular-homes/building-regulations-ireland/" class="spoke-card">
+          <span class="spoke-icon" aria-hidden="true">📐</span>
+          <h3>Building Regulations →</h3>
+          <p>Planning exemption ≠ building regs exemption. TGD Parts A–M, BER certificate, Commencement Notice — what applies and who is responsible.</p>
         </a>
         <a href="/modular-homes/auxiliary-dwelling-ireland/" class="spoke-card">
           <span class="spoke-icon" aria-hidden="true">📋</span>
@@ -529,7 +539,7 @@ const pageSchemas = [
   .inline-link:hover { text-decoration: underline; }
 
   /* SPOKES */
-  .spokes-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.25rem; margin-top: 2rem; }
+  .spokes-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-top: 2rem; }
   .spoke-card {
     padding: 1.75rem; background: var(--color-white);
     border: 1px solid rgba(15,33,49,.09); border-radius: 12px;
@@ -572,6 +582,9 @@ const pageSchemas = [
     .tier-card--featured { transform: none; }
     .moat-grid { grid-template-columns: 1fr; }
     .spokes-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 700px) {
+    .spokes-grid { grid-template-columns: 1fr; }
   }
   @media (max-width: 900px) {
     .opportunity-grid { grid-template-columns: 1fr; }
