@@ -1,0 +1,355 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = "Auxiliary Habitable Dwelling Ireland 2026 | Definition, Conditions & Tax | Ériu Modular Homes";
+const description = "The auxiliary habitable dwelling is the exact legal term in Ireland's draft April 2026 Exempted Development Regulations. Definition, qualifying conditions, Rent-a-Room tax treatment, LPT, insurance, mortgage and resale implications.";
+const canonical = "/modular-homes/auxiliary-dwelling-ireland/";
+const siteUrl = "https://eriusourcing.com";
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Modular Homes", "item": `${siteUrl}/modular-homes/` },
+      { "@type": "ListItem", "position": 3, "name": "Auxiliary Dwelling Ireland", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "DefinedTerm",
+    "name": "Auxiliary Habitable Dwelling",
+    "description": "A detached self-contained residential unit, 32 to 45 square metres in floor area, located in the rear garden of a principal house, with services linked to the principal house, exempt from full planning permission under the draft April 2026 Irish Exempted Development Regulations.",
+    "inDefinedTermSet": {
+      "@type": "DefinedTermSet",
+      "name": "Irish Planning Law — Exempted Development 2026"
+    }
+  },
+  {
+    "@type": "Article",
+    "headline": "Auxiliary Habitable Dwelling Ireland — The Legal Definition & Practical Guide",
+    "description": description,
+    "author": { "@type": "Person", "name": "Noel Murphy", "jobTitle": "Founder, Ériu Sourcing — Irish sourcing agent based in Zhengzhou since 2008" },
+    "publisher": { "@type": "Organization", "@id": `${siteUrl}/#organization` },
+    "datePublished": "2026-05-14",
+    "dateModified": new Date().toISOString().split('T')[0]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is an auxiliary habitable dwelling in Irish planning law?",
+        "acceptedAnswer": { "@type": "Answer", "text": "An auxiliary habitable dwelling is the precise legal term used in the draft Irish Exempted Development Regulations brought to Cabinet on 21 April 2026. It describes a detached, self-contained residential unit between 32 and 45 square metres in floor area, located in the rear garden of an existing principal house, with services (water, electricity, drainage) linked to the principal house. It is exempt from full planning permission under the proposed regulations, provided the prescribed conditions are met. Crucially, the proposed regulations also carve the auxiliary dwelling out of the Residential Tenancies Acts, meaning RTB rules do not apply to rental of the unit." }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between an auxiliary dwelling, a granny flat and a garden room?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Auxiliary habitable dwelling is the precise legal term in the 2026 regulations — it is the planning-law category. Granny flat is the colloquial term for the same physical structure, typically used when the intended occupant is a relative. Garden room or garden office is a non-habitable structure under a separate legal category (the 30 m² garden structure exemption) — it lacks the residential plumbing and kitchen specification of a habitable dwelling. The legal category determines what planning rules apply, what building regulations apply, whether LPT applies separately, and how the unit is treated for insurance and mortgage purposes." }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the qualifying conditions for an auxiliary dwelling exemption in Ireland?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Under the draft regulations, the conditions are: (1) the unit must be detached from the principal house; (2) the floor area must be between 32 and 45 square metres; (3) the unit must be located in the rear garden of the principal house; (4) the services — water supply, electricity and drainage — must be linked to those of the principal house rather than independent; (5) the unit must be a habitable dwelling, not a commercial unit. Site-specific factors such as distance from boundaries, height, overlooking, established trees and Protected Structure status may still trigger a local-authority consultation requirement even where the headline conditions are met." }
+      },
+      {
+        "@type": "Question",
+        "name": "How is rental income from an auxiliary dwelling taxed in Ireland?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Because the auxiliary dwelling is linked to the services of the principal house, rental income from a tenant in the unit can fall under the Rent-a-Room scheme — meaning up to €14,000 per year is exempt from income tax, USC and PRSI. The draft regulations also carve the auxiliary dwelling out of the Residential Tenancies Acts, meaning the tenancy is not subject to RTB registration, rent-pressure-zone rules or the standard tenant security framework. Tax treatment should be confirmed with a qualified accountant for your individual circumstances before relying on the projected return." }
+      },
+      {
+        "@type": "Question",
+        "name": "Does an auxiliary dwelling get its own Local Property Tax (LPT) band?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Revenue has confirmed that an auxiliary habitable dwelling receives its own property ID and its own LPT band, separate from the principal house. The annual LPT payable depends on the unit's open-market value and the local authority's LPT adjustment factor. The principal house's LPT is not affected by the addition of the auxiliary dwelling." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can an auxiliary dwelling be built using a modular or container-based system?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. The exemption applies to the dwelling regardless of construction method, provided the unit meets the Irish Building Regulations (TGD Parts A to M) and the conditions of the exemption itself. Expandable steel-frame container homes and traditional modular construction are both eligible. The exempt-development status relates to the legal classification of the dwelling, not to the construction method used to build it. Imported MMC units must still carry CE marking, a Declaration of Performance and a written TGD compliance pack to be lawfully placed on an Irish residential site." }
+      }
+    ]
+  }
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} jsonLd={pageSchemas}>
+
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Irish Planning Law · 2026</span>
+      <h1>Auxiliary habitable dwelling — the legal definition explained.</h1>
+      <p class="lead">The "auxiliary habitable dwelling" is the precise legal term used in the draft Irish Exempted Development Regulations of April 2026. Knowing the term — and the conditions attached to it — is the difference between a back-garden home that is lawful exempt development and one that becomes a planning enforcement problem.</p>
+      <p class="byline">By Noel Murphy · Founder, Ériu Sourcing · Irish sourcing agent based in Zhengzhou since 2008 · Last reviewed May 2026</p>
+    </div>
+  </section>
+
+  <!-- DEFINITION BOX -->
+  <section class="section--alt section--tight">
+    <div class="container--narrow">
+      <div class="definition-box">
+        <span class="definition-label">Defined term</span>
+        <h2 class="definition-term">Auxiliary Habitable Dwelling</h2>
+        <p class="definition-text">
+          A detached self-contained residential unit, between 32 and 45 square metres in floor area,
+          located in the rear garden of an existing principal house, with services (water supply, electricity, drainage)
+          linked to the services of the principal house — exempt from full planning permission under the draft
+          April 2026 Irish Exempted Development Regulations, provided the prescribed conditions are met.
+        </p>
+        <p class="definition-source">— Defined in: draft Irish Exempted Development Regulations, brought to Cabinet 21 April 2026.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE CONDITIONS -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">The conditions</span>
+      <h2>Five conditions that must all be met</h2>
+      <p>Exemption from planning permission applies only where every condition below is satisfied. Failing any one of them means the unit is not exempt and full planning permission is required.</p>
+
+      <ol class="conditions-list">
+        <li>
+          <h3>The unit is detached from the principal house</h3>
+          <p>The auxiliary dwelling must be a freestanding structure. An attached extension to the principal house is a different category (covered by the 45 m² principal extension exemption).</p>
+        </li>
+        <li>
+          <h3>The floor area is between 32 and 45 square metres</h3>
+          <p>The minimum floor area of 32 m² ensures the unit is a habitable dwelling rather than a glorified shed. The maximum of 45 m² is the policy cap on the exemption — units above 45 m² require full planning permission.</p>
+        </li>
+        <li>
+          <h3>The unit is located in the rear garden of the principal house</h3>
+          <p>The exemption does not apply to side-garden or front-garden placement. The "rear garden" location is fundamental to the planning rationale (privacy, overlooking, streetscape impact).</p>
+        </li>
+        <li>
+          <h3>Services are linked to those of the principal house</h3>
+          <p>Water supply, electricity and drainage must connect through the principal house's supplies — not as independent connections to the public mains. This service linkage is what legally distinguishes an auxiliary dwelling from an independent second dwelling on the plot.</p>
+        </li>
+        <li>
+          <h3>The unit is a habitable dwelling</h3>
+          <p>The exemption applies to residential use only. A commercial use (workshop, retail, office let to a third party) is not exempt and would require its own planning consent.</p>
+        </li>
+      </ol>
+
+      <p class="callout">
+        <strong>Important.</strong> Even where the five headline conditions are met, site-specific factors — distance from boundaries, height, overlooking of neighbouring properties, established trees, Protected Structure status of the principal house — may still trigger a need to consult your local authority. Every Ériu Modular Homes project starts with a site eligibility review against the current draft conditions.
+      </p>
+    </div>
+  </section>
+
+  <!-- TAX & FINANCIAL TREATMENT -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Tax & financial treatment</span>
+      <h2>Five financial things to know — before you sign anything</h2>
+
+      <div class="finance-grid">
+        <div class="finance-card">
+          <h3>1. Rent-a-Room scheme applies</h3>
+          <p>Because services are linked to the principal house, rental income from a tenant in the auxiliary dwelling can qualify for the Rent-a-Room scheme — up to <strong>€14,000 per year exempt from income tax, USC and PRSI</strong>. On a fully-fitted €100,000 unit, this is roughly a 14% tax-free yield.</p>
+        </div>
+        <div class="finance-card">
+          <h3>2. Carved out of the RTA</h3>
+          <p>The draft regulations propose carving the auxiliary dwelling out of the Residential Tenancies Acts. <strong>RTB registration, rent-pressure-zone rules and the standard tenant security framework do not apply.</strong> This is a major operational difference from a conventional residential rental.</p>
+        </div>
+        <div class="finance-card">
+          <h3>3. Separate LPT band</h3>
+          <p>Revenue has confirmed the auxiliary dwelling receives <strong>its own property ID and its own LPT band</strong>, separate from the principal house. Annual LPT is based on the unit's open-market value and the local authority's adjustment factor.</p>
+        </div>
+        <div class="finance-card">
+          <h3>4. Insurance must be updated</h3>
+          <p>Home insurance on the principal house must be updated to declare the new structure — failing to do so can <strong>invalidate cover on the principal house</strong>. Most Irish insurers will quote an uplifted premium rather than require a separate policy.</p>
+        </div>
+        <div class="finance-card">
+          <h3>5. Mortgage and resale implications</h3>
+          <p>Most main Irish mortgage lenders will not currently extend a mortgage on a property containing a second self-contained dwelling on the same title. Many homeowners use <strong>chattel mortgages, personal loans or credit union finance</strong> to fund the auxiliary unit specifically to avoid affecting the principal house mortgage.</p>
+        </div>
+      </div>
+
+      <p class="callout">
+        <strong>Always confirm with your accountant and solicitor.</strong> Tax treatment and conveyancing implications depend on individual circumstances. We provide a written LPT, insurance and mortgage briefing pack with every quote — but it is not a substitute for professional advice on your specific position.
+      </p>
+    </div>
+  </section>
+
+  <!-- HABITABLE DWELLING VS GARDEN ROOM -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Auxiliary dwelling vs garden room</span>
+      <h2>Two legal categories. Two different rule sets.</h2>
+      <p>It is essential to understand whether you are building an auxiliary habitable dwelling or a garden room/garden office, because the legal treatment of the two is fundamentally different.</p>
+      <div class="comparison-table-wrap">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Auxiliary Habitable Dwelling</th>
+              <th>Garden Room / Office</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Floor area exemption</th>
+              <td>32–45 m²</td>
+              <td>Up to 30 m²</td>
+            </tr>
+            <tr>
+              <th scope="row">Intended use</th>
+              <td>Self-contained habitable dwelling</td>
+              <td>Non-habitable: office, gym, studio, hobby room</td>
+            </tr>
+            <tr>
+              <th scope="row">Kitchen / bathroom plumbing</th>
+              <td>Yes (linked to principal house)</td>
+              <td>Optional, but not for self-contained residential use</td>
+            </tr>
+            <tr>
+              <th scope="row">Building regs (TGD Parts A–M)</th>
+              <td>Full compliance required</td>
+              <td>Partial — applicable parts only</td>
+            </tr>
+            <tr>
+              <th scope="row">BER certificate</th>
+              <td>Required</td>
+              <td>Not generally required (non-habitable)</td>
+            </tr>
+            <tr>
+              <th scope="row">Separate LPT band</th>
+              <td>Yes (Revenue-confirmed)</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <th scope="row">Rent-a-Room eligibility</th>
+              <td>Yes (services linked)</td>
+              <td>No (not a habitable residential unit)</td>
+            </tr>
+            <tr>
+              <th scope="row">Insurance impact</th>
+              <td>Material — must be declared</td>
+              <td>Should still be declared</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Common questions</span>
+      <h2>Auxiliary dwelling — questions answered</h2>
+      <p class="faq-updated">Last reviewed: May 2026</p>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>What is an auxiliary habitable dwelling in Irish planning law?</summary>
+          <p>An auxiliary habitable dwelling is the precise legal term used in the draft Irish Exempted Development Regulations brought to Cabinet on 21 April 2026. It describes a detached, self-contained residential unit between 32 and 45 square metres in floor area, located in the rear garden of an existing principal house, with services (water, electricity, drainage) linked to the principal house. It is exempt from full planning permission under the proposed regulations, provided the prescribed conditions are met. Crucially, the proposed regulations also carve the auxiliary dwelling out of the Residential Tenancies Acts, meaning RTB rules do not apply to rental of the unit.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What is the difference between an auxiliary dwelling, a granny flat and a garden room?</summary>
+          <p>Auxiliary habitable dwelling is the precise legal term in the 2026 regulations — it is the planning-law category. Granny flat is the colloquial term for the same physical structure, typically used when the intended occupant is a relative. Garden room or garden office is a non-habitable structure under a separate legal category (the 30 m² garden structure exemption) — it lacks the residential plumbing and kitchen specification of a habitable dwelling. The legal category determines what planning rules apply, what building regulations apply, whether LPT applies separately, and how the unit is treated for insurance and mortgage purposes.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What are the qualifying conditions for an auxiliary dwelling exemption in Ireland?</summary>
+          <p>Under the draft regulations, the conditions are: (1) the unit must be detached from the principal house; (2) the floor area must be between 32 and 45 square metres; (3) the unit must be located in the rear garden of the principal house; (4) the services — water supply, electricity and drainage — must be linked to those of the principal house rather than independent; (5) the unit must be a habitable dwelling, not a commercial unit. Site-specific factors such as distance from boundaries, height, overlooking, established trees and Protected Structure status may still trigger a local-authority consultation requirement even where the headline conditions are met.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How is rental income from an auxiliary dwelling taxed in Ireland?</summary>
+          <p>Because the auxiliary dwelling is linked to the services of the principal house, rental income from a tenant in the unit can fall under the Rent-a-Room scheme — meaning up to €14,000 per year is exempt from income tax, USC and PRSI. The draft regulations also carve the auxiliary dwelling out of the Residential Tenancies Acts, meaning the tenancy is not subject to RTB registration, rent-pressure-zone rules or the standard tenant security framework. Tax treatment should be confirmed with a qualified accountant for your individual circumstances before relying on the projected return.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Does an auxiliary dwelling get its own Local Property Tax (LPT) band?</summary>
+          <p>Yes. Revenue has confirmed that an auxiliary habitable dwelling receives its own property ID and its own LPT band, separate from the principal house. The annual LPT payable depends on the unit's open-market value and the local authority's LPT adjustment factor. The principal house's LPT is not affected by the addition of the auxiliary dwelling.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can an auxiliary dwelling be built using a modular or container-based system?</summary>
+          <p>Yes. The exemption applies to the dwelling regardless of construction method, provided the unit meets the Irish Building Regulations (TGD Parts A to M) and the conditions of the exemption itself. Expandable steel-frame container homes and traditional modular construction are both eligible. The exempt-development status relates to the legal classification of the dwelling, not to the construction method used to build it. Imported MMC units must still carry CE marking, a Declaration of Performance and a written TGD compliance pack to be lawfully placed on an Irish residential site.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--emerald">
+    <div class="container--narrow" style="text-align: center">
+      <span class="section-eyebrow section-eyebrow--light">Ready to start?</span>
+      <h2>Get a site eligibility review and a fixed quote.</h2>
+      <p>Tell us your site, your tier preference and your timeline. We review your site against the current draft conditions and come back with a factory-direct quote, a compliance pack, and an LPT/insurance/mortgage briefing. No obligation.</p>
+      <a href="/contact/" class="btn btn--white-outline" style="margin-top: 1rem">Request a site review →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  .page-hero { background: var(--color-bg-alt); padding: 4.5rem 0 3rem; border-bottom: 1px solid rgba(15,33,49,.08); }
+  .page-hero h1 { font-size: clamp(2rem, 4vw, 3.25rem); margin: .75rem 0 1.25rem; line-height: 1.15; }
+  .lead { font-size: 1.125rem; color: #3a3a3a; line-height: 1.7; margin: 0 0 1rem; max-width: 66ch; }
+  .byline { font-size: .875rem; color: var(--color-grey); font-style: italic; margin-top: 1.25rem; }
+
+  .section--tight { padding: 2.5rem 0; }
+  .definition-box {
+    background: var(--color-white); padding: 2.25rem 2.5rem;
+    border: 2px solid var(--color-emerald); border-radius: 12px;
+    position: relative; box-shadow: 0 8px 32px rgba(26,83,62,.08);
+  }
+  .definition-label {
+    font-size: .75rem; font-weight: 700; color: var(--color-teal);
+    text-transform: uppercase; letter-spacing: .1em; display: block;
+  }
+  .definition-term {
+    font-family: var(--font-display, Georgia, serif);
+    font-size: clamp(1.75rem, 3vw, 2.5rem); color: var(--color-emerald);
+    margin: .5rem 0 1.25rem; letter-spacing: -.02em;
+  }
+  .definition-text { font-size: 1.0625rem; line-height: 1.75; color: var(--color-navy); margin: 0 0 1rem; font-weight: 500; }
+  .definition-source { font-size: .8125rem; font-style: italic; color: var(--color-grey); margin: 0; }
+
+  .conditions-list { list-style: none; counter-reset: conditions; padding: 0; margin: 2rem 0; display: flex; flex-direction: column; gap: 1.5rem; }
+  .conditions-list li {
+    counter-increment: conditions; position: relative;
+    padding: 1.5rem 1.75rem 1.5rem 4.5rem;
+    background: var(--color-white); border: 1px solid rgba(15,33,49,.08); border-radius: 10px;
+  }
+  .conditions-list li::before {
+    content: counter(conditions);
+    position: absolute; left: 1.5rem; top: 1.25rem;
+    font-family: var(--font-body); font-size: 1.75rem; font-weight: 700;
+    color: var(--color-emerald); opacity: .5; line-height: 1;
+  }
+  .conditions-list h3 { font-size: 1.0625rem; margin: 0 0 .5rem; color: var(--color-navy); }
+  .conditions-list p { font-size: .9375rem; color: #3a3a3a; margin: 0; line-height: 1.7; }
+
+  .callout {
+    padding: 1.25rem 1.5rem; background: rgba(196,122,77,.08);
+    border-left: 4px solid #c47a4d; border-radius: 0 8px 8px 0;
+    font-size: .9375rem; color: #4a4a4a; line-height: 1.7;
+    margin-top: 1.5rem;
+  }
+
+  .finance-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin: 1.5rem 0; }
+  .finance-card { padding: 1.5rem; background: var(--color-white); border: 1px solid rgba(15,33,49,.08); border-radius: 10px; }
+  .finance-card h3 { font-size: 1rem; margin: 0 0 .5rem; color: var(--color-navy); }
+  .finance-card p { font-size: .9375rem; line-height: 1.65; color: #3a3a3a; margin: 0; }
+
+  .comparison-table-wrap { overflow-x: auto; border: 1px solid rgba(15,33,49,.1); border-radius: 12px; margin: 1rem 0; }
+  .comparison-table { width: 100%; border-collapse: collapse; font-size: .9375rem; min-width: 560px; }
+  .comparison-table thead tr { background: #1A533E; color: #fff; }
+  .comparison-table th { padding: .875rem 1.25rem; text-align: left; font-size: .8125rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; }
+  .comparison-table tbody th { background: rgba(26,83,62,.05); color: var(--color-navy); font-weight: 600; text-transform: none; letter-spacing: 0; }
+  .comparison-table td { padding: .75rem 1.25rem; border-bottom: 1px solid rgba(15,33,49,.07); color: var(--color-navy); }
+  .comparison-table tbody tr:last-child td { border-bottom: none; }
+  .comparison-table tbody tr:nth-child(even) td { background: rgba(15,33,49,.02); }
+
+  .faq-updated { font-size: .8125rem; color: #888; margin: .25rem 0 1.5rem; }
+  .faq-list { display: flex; flex-direction: column; gap: 0; margin-top: 1rem; }
+  .faq-item { border-bottom: 1px solid rgba(15,33,49,.1); padding: 0; }
+  .faq-item summary { font-weight: 600; font-size: 1rem; color: var(--color-navy); cursor: pointer; padding: 1.25rem 0; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after { content: '+'; font-size: 1.25rem; font-weight: 300; color: var(--color-emerald); flex-shrink: 0; transition: transform .2s ease; }
+  .faq-item[open] summary::after { transform: rotate(45deg); }
+  .faq-item p { padding: 0 0 1.25rem; color: #4a4a4a; font-size: .9375rem; margin: 0; line-height: 1.75; }
+
+  @media (max-width: 900px) {
+    .finance-grid { grid-template-columns: 1fr; }
+  }
+</style>

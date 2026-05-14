@@ -1,0 +1,285 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = "Back-Garden Modular Homes Ireland | 45 m² Exemption 2026 | Ériu Modular Homes";
+const description = "The complete 2026 guide to back-garden modular homes in Ireland. The 45 m² auxiliary dwelling exemption, the €14,000 Rent-a-Room tax-free yield, planning vs building regs, LPT, insurance and mortgage.";
+const canonical = "/modular-homes/back-garden-homes-ireland/";
+const siteUrl = "https://eriusourcing.com";
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Modular Homes", "item": `${siteUrl}/modular-homes/` },
+      { "@type": "ListItem", "position": 3, "name": "Back-Garden Homes Ireland", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "Article",
+    "headline": "Back-Garden Modular Homes Ireland — The 2026 Complete Guide",
+    "description": description,
+    "author": { "@type": "Person", "name": "Noel Murphy", "jobTitle": "Founder, Ériu Sourcing — Irish sourcing agent based in Zhengzhou since 2008" },
+    "publisher": { "@type": "Organization", "@id": `${siteUrl}/#organization` },
+    "datePublished": "2026-05-14",
+    "dateModified": new Date().toISOString().split('T')[0]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the 45 m² back-garden exemption in Ireland?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The 45 m² exemption refers to the new Exempted Development Regulations brought to Cabinet by Ministers Browne and Cummins on 21 April 2026. It allows a detached self-contained habitable dwelling of between 32 and 45 square metres to be built in the back garden of a principal house without full planning permission, provided the new unit is linked to the services of the principal house and meets the prescribed conditions. The exemption is one of four overlapping measures intended to unlock latent residential capacity in existing housing stock." }
+      },
+      {
+        "@type": "Question",
+        "name": "How much can a 45 m² back-garden modular home in Ireland cost?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Irish-built back-garden modular homes typically range from €110,000 (basic 2-bed shell) to €180,000 (turnkey luxury) for a 32 to 45 square metre unit. Imported steel-frame and expandable container homes from Henan Province, supplied and installed by Ériu Modular Homes with full Irish Building Regulations compliance, are typically 25 to 45 percent below Irish-built pricing for an equivalent specification. Pricing is project-specific to your site, tier and finish choices." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I rent out my back-garden modular home?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. The draft 2026 regulations propose carving the auxiliary back-garden dwelling out of the Residential Tenancies Acts, meaning RTB rules and rent-pressure-zone restrictions do not apply. Rental income falls under the Rent-a-Room scheme — up to €14,000 per year is tax-free if the tenant is in the auxiliary dwelling linked to the services of the principal house. On a fully-fitted €100,000 modular unit, this is roughly a 14 percent tax-free yield. Confirm tax treatment with your accountant against your individual circumstances." }
+      },
+      {
+        "@type": "Question",
+        "name": "Does a 45 m² back-garden home need planning permission?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Under the draft exemption, no — provided the unit meets the conditions (32 to 45 square metres, detached, linked to the services of the principal house, located in the rear garden). However, planning exemption is not building regulations exemption. Every habitable structure in Ireland must still meet the Irish Building Regulations (TGD Parts A to M) and is subject to BER assessment. The Society of Chartered Surveyors Ireland (SCSI) and the Institute of Professional Auctioneers and Valuers (IPAV) have both warned that buyers often confuse the two. Ériu Modular Homes supplies units fully specified for Irish Building Regulations compliance, with the written compliance pack accompanying every order." }
+      },
+      {
+        "@type": "Question",
+        "name": "What conditions must a back-garden modular home meet to qualify for the exemption?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The draft regulations require: the unit must be detached from the principal house, the floor area must be between 32 and 45 square metres, the unit must be located in the rear garden, services (water, electricity, drainage) must be linked to those of the principal house, and the unit must be a habitable dwelling rather than a commercial unit. Site-specific factors — distance from boundaries, height, overlooking, established trees and Protected Structures — may still trigger a need to consult the local authority. Each Ériu Modular Homes project includes a site eligibility check against the current draft conditions." }
+      },
+      {
+        "@type": "Question",
+        "name": "How will a back-garden modular home affect my home insurance and mortgage?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Home insurance must be updated to declare the new structure — failing to do so can invalidate cover on the principal house. Most Irish insurers will quote an uplifted premium rather than require a separate policy. On mortgages, most main Irish lenders will not currently extend a mortgage on a property that contains a second self-contained dwelling on the same title — which has resale implications. Some homeowners use chattel mortgages, personal loans or credit union finance to fund the modular unit specifically to avoid affecting the principal house mortgage. Ériu Modular Homes provides a written LPT, insurance and mortgage briefing pack with every quote." }
+      }
+    ]
+  }
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} jsonLd={pageSchemas}>
+
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Ireland · 2026</span>
+      <h1>Back-garden modular homes in Ireland — the complete 2026 guide.</h1>
+      <p class="lead">In April 2026 the Irish Government opened up the single biggest residential property arbitrage of the decade: a 45 m² self-contained home in your back garden, no planning permission, rental income up to €14,000 per year tax-free. Here's how it works — and what to watch for.</p>
+      <p class="byline">By Noel Murphy · Founder, Ériu Sourcing · Irish sourcing agent based in Zhengzhou since 2008 · Last reviewed May 2026</p>
+    </div>
+  </section>
+
+  <!-- HEADLINE NUMBERS -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item">
+          <span class="trust-num">32–45 m²</span>
+          <span class="trust-label">Exempt auxiliary dwelling floor area</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">€14,000</span>
+          <span class="trust-label">Rent-a-Room tax-free annual income</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">~14%</span>
+          <span class="trust-label">Tax-free yield on a €100k unit</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">21 Apr 2026</span>
+          <span class="trust-label">Draft regulations brought to Cabinet</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE LEGISLATION -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">The legislation</span>
+      <h2>What the draft Exempted Development Regulations actually say</h2>
+      <p>On 21 April 2026, Minister for Housing James Browne and Minister of State John Cummins brought a draft of the new Exempted Development Regulations to Cabinet. The intent is to unlock latent residential capacity inside existing housing stock — without the planning bottleneck that has slowed Irish housing supply for a decade.</p>
+      <p>The draft proposes four overlapping exemptions, each targeting a different way to add living space to an existing residential plot:</p>
+
+      <h3>1. Auxiliary habitable dwelling (32–45 m²)</h3>
+      <p>A detached self-contained dwelling in the rear garden of a principal house, between 32 and 45 square metres of floor area, with services (water, electricity, drainage) linked to those of the principal house. No full planning permission required if conditions are met. Crucially, the rental income from this unit is proposed to be <strong>carved out of the Residential Tenancies Acts</strong> — meaning RTB rules, rent-pressure-zone rules and tenancy registration requirements do not apply.</p>
+
+      <h3>2. Sub-division exemption</h3>
+      <p>One additional self-contained unit (minimum 32 m²) can be created inside the existing house envelope without planning permission. Useful for converting a larger family home into the family home plus a rental flat, or providing a self-contained unit for a family member.</p>
+
+      <h3>3. Garden structures raised to 30 m²</h3>
+      <p>The garden structure exemption — for sheds, offices, gyms and studios that are <em>not</em> self-contained habitable dwellings — is raised from 25 to 30 square metres. This is the regulation that covers a garden room or garden office. Garden structures sit under a separate legal category from auxiliary dwellings and do not need to be linked to the principal house's services.</p>
+
+      <h3>4. Principal extension raised to 45 m²</h3>
+      <p>The existing principal extension exemption is raised from 40 to 45 square metres. This is the regulation for an extension to the principal house itself.</p>
+
+      <h3>Timing</h3>
+      <p>The regulations were brought to Cabinet on 21 April 2026 and are subject to environmental assessment before being laid before the Houses of the Oireachtas. The Government has indicated implementation is intended within 2026, but final wording, conditions and effective date are still to be confirmed at the time of writing.</p>
+    </div>
+  </section>
+
+  <!-- THE FINANCIAL CASE -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">The financial case</span>
+      <h2>The €14,000 tax-free yield — explained line by line</h2>
+      <p>This is the single most powerful selling proposition in Irish residential property right now, and it works as follows. Take a €100,000 fully-fitted back-garden modular unit. Rent it to a single tenant or couple under the Rent-a-Room scheme at €1,150 per month — annual gross rent of €13,800, which is below the €14,000 Rent-a-Room annual ceiling.</p>
+      <p>Under the Rent-a-Room scheme, that €13,800 is exempt from:</p>
+      <ul class="exempt-list">
+        <li><strong>Income tax</strong> — saving approximately €5,500 a year for a 40 % rate taxpayer</li>
+        <li><strong>USC (Universal Social Charge)</strong> — saving approximately €1,100 a year</li>
+        <li><strong>PRSI</strong> — saving approximately €550 a year</li>
+      </ul>
+      <p>On the unit cost of €100,000, the net yield is €13,800 ÷ €100,000 = <strong>13.8 percent, tax-free</strong>. Against a 2.5 percent return on cash deposit, the arbitrage is roughly 5.5×. Against a 4 percent investment property mortgage with full income tax on the rent, the arbitrage is even larger.</p>
+      <p>As Keith Lowe of DNG put it in The Irish Times, "this is the kind of return that drives mass adoption." We agree.</p>
+      <p class="callout"><strong>Important caveat.</strong> The Rent-a-Room scheme applies to rooms or self-contained units that share services with the principal house. Linkage to services is the eligibility test. Confirm tax treatment with your accountant against your specific circumstances before relying on the projected return.</p>
+    </div>
+  </section>
+
+  <!-- WHAT TO WATCH FOR -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">What to watch for</span>
+      <h2>Six trust questions every Irish buyer is asking</h2>
+      <p>The same Irish experts who welcomed the legislation also flagged the six issues below — every one of which the SCSI, IPAV and Sherry FitzGerald hammered in the immediate press coverage. Anyone selling back-garden modular homes who doesn't proactively address these six points will leak trust.</p>
+
+      <div class="trust-questions">
+        <div class="trust-question">
+          <h3>1. Planning exemption is not building regulations exemption</h3>
+          <p>Every habitable dwelling in Ireland — auxiliary or not — must still meet the Irish Building Regulations (TGD Parts A to M) and is subject to BER assessment. A modular unit installed under the planning exemption is still subject to structural, fire, ventilation, energy and accessibility requirements. <strong>What Ériu Modular Homes does:</strong> every unit is specified to TGD Parts A to M, with a written compliance pack supplied. A BER assessment is conducted by an Irish-registered assessor on completion.</p>
+        </div>
+
+        <div class="trust-question">
+          <h3>2. The unit gets its own LPT band</h3>
+          <p>Revenue has confirmed that an auxiliary habitable dwelling receives its own property ID and its own LPT band — separate from the principal house. The annual LPT payable depends on the unit's open-market value and the local authority's adjustment factor. <strong>What we do:</strong> we provide an LPT estimate in the briefing pack with every quote.</p>
+        </div>
+
+        <div class="trust-question">
+          <h3>3. Home insurance must be updated</h3>
+          <p>If a new structure is added to a residential plot and the insurer is not notified, cover on the principal house can be invalidated. Most Irish insurers will quote an uplifted premium rather than require a separate policy. <strong>What we do:</strong> we provide a list of insurers known to write cover for principal-plus-auxiliary configurations.</p>
+        </div>
+
+        <div class="trust-question">
+          <h3>4. Mortgage and resale implications</h3>
+          <p>Most main Irish mortgage lenders will not currently extend a mortgage on a property containing a second self-contained dwelling on the same title. This affects resale value and mortgage portability. Many homeowners use a chattel mortgage, personal loan or credit union finance to fund the modular unit specifically to avoid affecting the principal house mortgage. <strong>What we do:</strong> we provide an introductory financing options note with every quote.</p>
+        </div>
+
+        <div class="trust-question">
+          <h3>5. Long-term durability in Irish weather</h3>
+          <p>Imported modular units sometimes carry insulation, finishes and weatherproofing specified for drier or warmer climates. The Irish weather profile — wet, windy, occasional frost — has specific implications for U-values, cladding lap details, roof falls and air-tightness. <strong>What we do:</strong> every unit ordered for an Irish site is specified to Irish-climate weatherproofing standards before production starts.</p>
+        </div>
+
+        <div class="trust-question">
+          <h3>6. Quality of imported MMC units in transport and installation</h3>
+          <p>Imported Modern Methods of Construction (MMC) units can be damaged in transit, particularly when handled by inexperienced installers. <strong>What we do:</strong> every unit is photographically inspected at the factory before sealing, again at Dublin Port, and again on site before craning. A vetted installer network handles foundations, craning, services connection and final sign-off.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPARISON -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Irish-built vs Ériu factory-direct</span>
+      <h2>What changes when the manufacturer is in Henan, not Meath</h2>
+      <p>Three named competitors lead the Irish-built market: Rayco, The Pod Factory in Meath, and Modular Home Ireland. Their pricing on a comparable 2-bed 45 m² unit typically lands between €110,000 and €180,000 fully fitted. Ériu Modular Homes sources direct from Henan Province factories that supply the same expandable container and steel-frame modular categories — at factory-gate prices.</p>
+      <p>The result, on a like-for-like specification: an Irish-installed Ériu Modular Homes Tier 2 Turnkey unit typically lands 25 to 45 percent below the Irish-built equivalent. The savings come from removing the European intermediary stack — not from cheaper finishes. Compliance, BER, insulation specification and warranty are matched or exceeded.</p>
+      <p><strong>What you don't get with factory-direct that you do with Irish-built:</strong> a 9–12 month build window. Ériu modular projects typically install in 14 to 18 weeks from order. For most homeowners that is the bigger advantage.</p>
+      <a href="/modular-homes/models/" class="inline-link">See the model specifications →</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Common questions</span>
+      <h2>Back-garden modular homes — questions answered</h2>
+      <p class="faq-updated">Last reviewed: May 2026</p>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>What is the 45 m² back-garden exemption in Ireland?</summary>
+          <p>The 45 m² exemption refers to the new Exempted Development Regulations brought to Cabinet by Ministers Browne and Cummins on 21 April 2026. It allows a detached self-contained habitable dwelling of between 32 and 45 square metres to be built in the back garden of a principal house without full planning permission, provided the new unit is linked to the services of the principal house and meets the prescribed conditions. The exemption is one of four overlapping measures intended to unlock latent residential capacity in existing housing stock.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How much can a 45 m² back-garden modular home in Ireland cost?</summary>
+          <p>Irish-built back-garden modular homes typically range from €110,000 (basic 2-bed shell) to €180,000 (turnkey luxury) for a 32 to 45 square metre unit. Imported steel-frame and expandable container homes from Henan Province, supplied and installed by Ériu Modular Homes with full Irish Building Regulations compliance, are typically 25 to 45 percent below Irish-built pricing for an equivalent specification. Pricing is project-specific to your site, tier and finish choices.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can I rent out my back-garden modular home?</summary>
+          <p>Yes. The draft 2026 regulations propose carving the auxiliary back-garden dwelling out of the Residential Tenancies Acts, meaning RTB rules and rent-pressure-zone restrictions do not apply. Rental income falls under the Rent-a-Room scheme — up to €14,000 per year is tax-free if the tenant is in the auxiliary dwelling linked to the services of the principal house. On a fully-fitted €100,000 modular unit, this is roughly a 14 percent tax-free yield. Confirm tax treatment with your accountant against your individual circumstances.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Does a 45 m² back-garden home need planning permission?</summary>
+          <p>Under the draft exemption, no — provided the unit meets the conditions (32 to 45 square metres, detached, linked to the services of the principal house, located in the rear garden). However, planning exemption is not building regulations exemption. Every habitable structure in Ireland must still meet the Irish Building Regulations (TGD Parts A to M) and is subject to BER assessment. The Society of Chartered Surveyors Ireland (SCSI) and the Institute of Professional Auctioneers and Valuers (IPAV) have both warned that buyers often confuse the two. Ériu Modular Homes supplies units fully specified for Irish Building Regulations compliance, with the written compliance pack accompanying every order.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What conditions must a back-garden modular home meet to qualify for the exemption?</summary>
+          <p>The draft regulations require: the unit must be detached from the principal house, the floor area must be between 32 and 45 square metres, the unit must be located in the rear garden, services (water, electricity, drainage) must be linked to those of the principal house, and the unit must be a habitable dwelling rather than a commercial unit. Site-specific factors — distance from boundaries, height, overlooking, established trees and Protected Structures — may still trigger a need to consult the local authority. Each Ériu Modular Homes project includes a site eligibility check against the current draft conditions.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How will a back-garden modular home affect my home insurance and mortgage?</summary>
+          <p>Home insurance must be updated to declare the new structure — failing to do so can invalidate cover on the principal house. Most Irish insurers will quote an uplifted premium rather than require a separate policy. On mortgages, most main Irish lenders will not currently extend a mortgage on a property that contains a second self-contained dwelling on the same title — which has resale implications. Some homeowners use chattel mortgages, personal loans or credit union finance to fund the modular unit specifically to avoid affecting the principal house mortgage. Ériu Modular Homes provides a written LPT, insurance and mortgage briefing pack with every quote.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--emerald">
+    <div class="container--narrow" style="text-align: center">
+      <span class="section-eyebrow section-eyebrow--light">Ready to talk?</span>
+      <h2>Get a fixed quote for your back-garden home.</h2>
+      <p>Send us a brief — your site, your tier preference, your timeline. We come back with a factory-direct quote, a compliance pack, an LPT/insurance/mortgage briefing, and an optional factory visit. No obligation.</p>
+      <a href="/contact/" class="btn btn--white-outline" style="margin-top: 1rem">Request a quote →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  .page-hero { background: var(--color-bg-alt); padding: 4.5rem 0 3rem; border-bottom: 1px solid rgba(15,33,49,.08); }
+  .page-hero h1 { font-size: clamp(2rem, 4vw, 3.25rem); margin: .75rem 0 1.25rem; line-height: 1.15; }
+  .lead { font-size: 1.1875rem; color: #3a3a3a; line-height: 1.7; margin: 0 0 1rem; max-width: 64ch; }
+  .byline { font-size: .875rem; color: var(--color-grey); font-style: italic; margin-top: 1.25rem; }
+
+  .trust-bar { background: #fff; border-bottom: 1px solid rgba(15,33,49,.08); padding: 2rem 0; }
+  .trust-grid { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
+  .trust-item { display: flex; flex-direction: column; gap: .25rem; flex: 1; min-width: 160px; }
+  .trust-num { font-size: clamp(1.125rem, 2.2vw, 1.6rem); font-weight: 700; color: var(--color-emerald); line-height: 1; letter-spacing: -.02em; }
+  .trust-label { font-size: .8125rem; color: #5a5a5a; line-height: 1.4; }
+  .trust-divider { width: 1px; height: 40px; background: rgba(15,33,49,.12); flex-shrink: 0; }
+
+  .section h3 { font-size: 1.25rem; margin: 2rem 0 .75rem; color: var(--color-navy); }
+  .section p { color: #3a3a3a; line-height: 1.75; margin-bottom: 1rem; }
+  .exempt-list { list-style: disc; padding-left: 1.5rem; margin: 1rem 0; display: flex; flex-direction: column; gap: .5rem; }
+  .exempt-list li { font-size: .9375rem; color: #3a3a3a; }
+  .callout { padding: 1.25rem 1.5rem; background: rgba(196,122,77,.08); border-left: 4px solid #c47a4d; border-radius: 0 8px 8px 0; font-size: .9375rem; color: #4a4a4a; margin-top: 1.5rem; }
+  .inline-link { color: var(--color-emerald); font-weight: 600; font-size: .9375rem; text-decoration: none; }
+  .inline-link:hover { text-decoration: underline; }
+
+  .trust-questions { display: flex; flex-direction: column; gap: 1.5rem; margin-top: 2rem; }
+  .trust-question { padding: 1.5rem 1.75rem; background: var(--color-white); border: 1px solid rgba(15,33,49,.08); border-radius: 10px; }
+  .trust-question h3 { font-size: 1.0625rem; margin: 0 0 .75rem; color: var(--color-navy); }
+  .trust-question p { font-size: .9375rem; line-height: 1.7; margin: 0; }
+
+  .faq-updated { font-size: .8125rem; color: #888; margin: .25rem 0 1.5rem; }
+  .faq-list { display: flex; flex-direction: column; gap: 0; margin-top: 1rem; }
+  .faq-item { border-bottom: 1px solid rgba(15,33,49,.1); padding: 0; }
+  .faq-item summary { font-weight: 600; font-size: 1rem; color: var(--color-navy); cursor: pointer; padding: 1.25rem 0; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after { content: '+'; font-size: 1.25rem; font-weight: 300; color: var(--color-emerald); flex-shrink: 0; transition: transform .2s ease; }
+  .faq-item[open] summary::after { transform: rotate(45deg); }
+  .faq-item p { padding: 0 0 1.25rem; color: #4a4a4a; font-size: .9375rem; margin: 0; line-height: 1.75; }
+
+  @media (max-width: 900px) {
+    .trust-divider { display: none; }
+  }
+</style>
