@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { sourcingPages } from '../../data/sourcingPages.js';
 
 const title = "Source Products Direct from China to Ireland | Ériu Sourcing";
-const description = "Factory-direct sourcing from China to Ireland across 9 product categories. Electronics, furniture, fashion, construction, hospitality fit-out, bags, pet supplies, modular buildings, and fiber optic cable.";
+const description = "Factory-direct sourcing from China to Ireland across 7 product categories. Electronics, furniture, construction materials, hospitality fit-out, pet supplies, modular buildings, and fiber optic cable.";
 
 const siteUrl = 'https://eriusourcing.com';
 const pageSchemas = [
@@ -17,7 +17,7 @@ const pageSchemas = [
   {
     "@type": "ItemList",
     "name": "China Sourcing Categories — Ireland",
-    "description": "Nine product categories sourced factory-direct from China to Ireland by Ériu Sourcing.",
+    "description": "Seven product categories sourced factory-direct from China to Ireland by Ériu Sourcing.",
     "itemListElement": [
       ...sourcingPages.map((page, i) => ({
         "@type": "ListItem",
@@ -34,7 +34,7 @@ const pageSchemas = [
       {
         "@type": "Question",
         "name": "What product categories can Ériu Sourcing source from China?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Ériu Sourcing works across nine categories: electronics and technology, furniture and furnishings, fashion and apparel, construction and building materials, hospitality fit-out, pet supplies, bags and luggage, modular buildings and sandwich panels, and fiber optic cable (G.657.A2 bend-insensitive fiber and OPGW-24 G.652 ULL optical ground wire). All categories are sourced factory-direct from verified Chinese manufacturers with pre-shipment quality control and CE compliance documentation." }
+        "acceptedAnswer": { "@type": "Answer", "text": "Ériu Sourcing works across seven categories: electronics and technology, furniture and furnishings, construction and building materials, hospitality fit-out, pet supplies, modular buildings and sandwich panels, and fiber optic cable (G.657.A2 bend-insensitive fiber and OPGW-24 G.652 ULL optical ground wire). All categories are sourced factory-direct from verified Chinese manufacturers with pre-shipment quality control and CE compliance documentation." }
       },
       {
         "@type": "Question",
@@ -54,11 +54,9 @@ const pageSchemas = [
 const categoryIcons = {
   'electronics-from-china-ireland': '⚡',
   'furniture-from-china-ireland': '🪑',
-  'fashion-apparel-from-china-ireland': '👗',
   'construction-materials-from-china-ireland': '🏗️',
   'hospitality-fitout-from-china-ireland': '🏨',
   'pet-supplies-from-china-ireland': '🐾',
-  'bags-luggage-from-china-ireland': '👜',
   'modular-buildings-from-china-ireland': '🏠',
 };
 ---
@@ -70,7 +68,7 @@ const categoryIcons = {
     <div class="container--narrow">
       <span class="section-eyebrow">What We Source</span>
       <h1>Factory-direct from China to Ireland — across every category.</h1>
-      <p class="lead">Nine product categories. One point of contact. Pre-shipment QC and CE compliance on every order. No Alibaba resellers, no trading company middlemen.</p>
+      <p class="lead">Seven product categories. One point of contact. Pre-shipment QC and CE compliance on every order. No Alibaba resellers, no trading company middlemen.</p>
       <div class="hero-ctas">
         <a href="/contact" class="btn btn--primary">Get a sourcing quote →</a>
         <a href="/product-categories" class="btn btn--secondary">View all category details</a>
@@ -83,7 +81,7 @@ const categoryIcons = {
     <div class="container">
       <div class="stats-grid">
         <div class="stat-item">
-          <span class="stat-num">9</span>
+          <span class="stat-num">7</span>
           <span class="stat-label">Product categories</span>
         </div>
         <div class="stat-divider"></div>
@@ -193,6 +191,31 @@ const categoryIcons = {
             </tr>
           </tbody>
         </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUYER TYPE SECTION -->
+  <section class="section">
+    <div class="container">
+      <span class="section-eyebrow">Browse by business type</span>
+      <h2>Not sure which category fits? Start here.</h2>
+      <p class="buyer-intro">Two buyer-type guides for businesses that don't fit neatly into a single product category.</p>
+      <div class="buyer-type-grid">
+        <a href="/source/private-label-from-china-ireland/" class="buyer-type-card">
+          <span class="buyer-type-icon" aria-hidden="true">🏷️</span>
+          <div>
+            <h3>Private Label & Custom Manufacturing →</h3>
+            <p>OEM / ODM sourcing for Irish brands. Your spec, your packaging, IP-protected. Cosmetics, supplements, electronics, pet products, apparel.</p>
+          </div>
+        </a>
+        <a href="/source/retail-wholesale-from-china-ireland/" class="buyer-type-card">
+          <span class="buyer-type-icon" aria-hidden="true">📦</span>
+          <div>
+            <h3>Retail & Wholesale Importers →</h3>
+            <p>Stock products, repeat orders, container-scale volume. Save 35–60% on COGS across electronics, pet supplies, furniture, and more.</p>
+          </div>
+        </a>
       </div>
     </div>
   </section>
@@ -482,6 +505,22 @@ const categoryIcons = {
   .moq-table td a:hover {
     text-decoration: underline;
   }
+
+  /* ── BUYER TYPE ── */
+  .buyer-intro { color: var(--color-slate); margin: 0.5rem 0 1.75rem; max-width: 58ch; }
+  .buyer-type-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+  .buyer-type-card {
+    display: flex; align-items: flex-start; gap: 1.25rem;
+    padding: 1.75rem; background: var(--color-white);
+    border: 1px solid rgba(15,33,49,.09); border-radius: 12px;
+    text-decoration: none; color: inherit;
+    transition: border-color .15s ease, box-shadow .15s ease, transform .15s ease;
+  }
+  .buyer-type-card:hover { border-color: var(--color-emerald); box-shadow: 0 4px 16px rgba(26,83,62,.08); transform: translateY(-2px); }
+  .buyer-type-icon { font-size: 1.75rem; line-height: 1; flex-shrink: 0; margin-top: .125rem; }
+  .buyer-type-card h3 { font-size: 1.0625rem; font-weight: 700; color: var(--color-navy); margin: 0 0 .5rem; }
+  .buyer-type-card p { font-size: .9375rem; color: var(--color-slate); margin: 0; line-height: 1.55; }
+  @media (max-width: 700px) { .buyer-type-grid { grid-template-columns: 1fr; } }
 
   /* ── REASONS ── */
   .reasons-grid {
