@@ -1,5 +1,5 @@
 ---
-import Layout from '../../layouts/Layout.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const title = "Factory Visits Ireland — Tour Modular Home Factories in China | Ériu Modular Homes";
 const description = "See your future home built. 3-day factory visit to Henan Province from €1,800 per person — fully credited against your confirmed order. Tour 2–3 factories, sign off the spec on the factory floor.";
@@ -102,7 +102,7 @@ const schema = {
 };
 ---
 
-<Layout title={title} description={description} canonical={canonical}>
+<BaseLayout title={title} description={description} canonical={canonical}>
   <script type="application/ld+json" set:html={JSON.stringify(schema)} />
 
   <!-- ── HERO ── -->
@@ -437,7 +437,7 @@ const schema = {
     </div>
   </section>
 
-</Layout>
+</BaseLayout>
 
 <style>
   /* ── Hero ── */
