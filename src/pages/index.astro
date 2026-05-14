@@ -168,6 +168,63 @@ const pageSchemas = [
   </section>
 
   <!-- ================================================
+       BUYER SEGMENTS — who's it for
+       ================================================ -->
+  <section class="section buyer-section">
+    <div class="container">
+      <div class="buyer-header">
+        <span class="section-eyebrow">Who's it for</span>
+        <h2>Built around the way<br />Irish businesses actually buy</h2>
+        <p class="buyer-intro">Five buyer profiles we work with most. Find the one closest to your business — or get in touch if your model sits across more than one.</p>
+      </div>
+
+      <div class="buyer-grid">
+        <a href="/source/construction-materials-from-china-ireland/" class="buyer-card">
+          <span class="buyer-icon" aria-hidden="true">🏗️</span>
+          <h3>Construction &amp; Building Materials</h3>
+          <p>CE-marked plywood, insulation, fixtures and finishes — verified to EN standards before the container is sealed. No NSAI surprises at Dublin Port.</p>
+          <span class="buyer-link">For contractors &amp; merchants →</span>
+        </a>
+
+        <a href="/source/modular-buildings-from-china-ireland/" class="buyer-card">
+          <span class="buyer-icon" aria-hidden="true">🏠</span>
+          <h3>Modular &amp; Residential Homes</h3>
+          <p>Sandwich panel systems, container-based builds, prefab cabins, and full modular units — engineered to EU spec, shipped flat-pack or fully fitted.</p>
+          <span class="buyer-link">For developers &amp; builders →</span>
+        </a>
+
+        <a href="/source/" class="buyer-card">
+          <span class="buyer-icon" aria-hidden="true">📦</span>
+          <h3>Retail &amp; Wholesale Importers</h3>
+          <p>Stock products, repeat orders, container-scale volume. Factory-direct pricing across electronics, pet supplies, bags, fashion — MOQs typically from €4k.</p>
+          <span class="buyer-link">For retailers &amp; distributors →</span>
+        </a>
+
+        <a href="/source/furniture-from-china-ireland/" class="buyer-card">
+          <span class="buyer-icon" aria-hidden="true">🪑</span>
+          <h3>Furniture — Home, Outdoor &amp; Contract</h3>
+          <p>Direct from the Foshan furniture cluster. Residential, outdoor, and hospitality fit-out — bedroom, FF&amp;E, restaurant, and hotel projects under one supplier base.</p>
+          <span class="buyer-link">For retailers, hotels &amp; fit-out →</span>
+        </a>
+
+        <a href="/contact/?subject=Private+label+%2F+custom+manufacturing+enquiry" class="buyer-card">
+          <span class="buyer-icon" aria-hidden="true">🏷️</span>
+          <h3>Private Label &amp; Custom Manufacturing</h3>
+          <p>Your spec, your branding, your packaging. OEM and ODM sourcing with factory vetting, sample management, and IP-aware supplier selection.</p>
+          <span class="buyer-link">For brands &amp; product owners →</span>
+        </a>
+
+        <a href="/contact/" class="buyer-card buyer-card--neutral">
+          <span class="buyer-icon" aria-hidden="true">💬</span>
+          <h3>Not sure where you fit?</h3>
+          <p>If your business model crosses categories — or you're not seeing yours listed — send a quick brief. Ten minutes is enough to figure out whether direct sourcing is right for you.</p>
+          <span class="buyer-link">Talk it through →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
        QC SECTION — split editorial
        ================================================ -->
   <section class="section qc-section">
@@ -578,6 +635,94 @@ const pageSchemas = [
 
   .why-cta {
     margin-top: 2.5rem;
+  }
+
+  /* ===================== BUYER SEGMENTS ===================== */
+  .buyer-header {
+    max-width: 680px;
+    margin-bottom: 3rem;
+  }
+
+  .buyer-header h2 {
+    margin-bottom: 1rem;
+  }
+
+  .buyer-intro {
+    font-size: var(--text-lg);
+    color: #3a3a3a;
+    margin: 0;
+  }
+
+  .buyer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+  }
+
+  .buyer-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1.875rem;
+    background: var(--color-white);
+    border: 1px solid rgba(15, 33, 49, 0.09);
+    border-radius: 12px;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+  }
+
+  .buyer-card:hover {
+    border-color: #1A533E;
+    box-shadow: 0 6px 24px rgba(26, 83, 62, 0.1);
+    transform: translateY(-2px);
+  }
+
+  .buyer-card--neutral {
+    background: rgba(26, 83, 62, 0.04);
+    border-style: dashed;
+  }
+
+  .buyer-icon {
+    font-size: 1.75rem;
+    line-height: 1;
+  }
+
+  .buyer-card h3 {
+    font-size: 1.0625rem;
+    font-weight: 700;
+    color: #0F2131;
+    margin: 0.25rem 0 0;
+    line-height: 1.3;
+  }
+
+  .buyer-card p {
+    font-size: 0.9375rem;
+    color: #5a5a5a;
+    line-height: 1.65;
+    margin: 0;
+    flex: 1;
+  }
+
+  .buyer-link {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    color: #1A533E;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 0.5rem;
+  }
+
+  @media (max-width: 1024px) {
+    .buyer-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .buyer-grid {
+      grid-template-columns: 1fr;
+    }
   }
 
   /* ===================== QC SECTION ===================== */
