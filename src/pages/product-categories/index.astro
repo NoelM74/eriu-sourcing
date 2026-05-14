@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const title = "What We Source from China | Ériu Sourcing Ireland";
-const description = "Fashion, electronics, furniture, construction materials, hospitality fit-out, pet supplies, bags and modular buildings — sourced factory-direct from China for Irish businesses.";
+const description = "Electronics, furniture, construction materials, hospitality fit-out, pet supplies, modular buildings and more — sourced factory-direct from China for Irish businesses.";
 
 const siteUrl = 'https://eriusourcing.com';
 const pageSchemas = [
@@ -22,14 +22,13 @@ const pageSchemas = [
       "@type": "OfferCatalog",
       "name": "China Sourcing Categories",
       "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fashion & Apparel Sourcing from China" } },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Electronics Sourcing from China" } },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Furniture Sourcing from Foshan, China" } },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Construction Materials Sourcing from China" } },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hospitality Fit-Out Sourcing from China" } },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pet Supplies Sourcing from China" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bags & Luggage Sourcing from China" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Modular Buildings Sourcing from China" } }
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Modular Buildings Sourcing from China" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Expandable Container Homes — Ériu Modular Homes" } }
       ]
     }
   },
@@ -39,7 +38,7 @@ const pageSchemas = [
       {
         "@type": "Question",
         "name": "What products can you source directly from China for Irish businesses?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Ériu Sourcing covers eight major categories: fashion and apparel, electronics and technology, furniture and furnishings, construction and building materials, hospitality fit-out, pet supplies and accessories, bags and luggage, and modular buildings and sandwich panels. Active factory relationships are maintained in the main Chinese manufacturing clusters for each category." }
+        "acceptedAnswer": { "@type": "Answer", "text": "Ériu Sourcing covers six core categories: electronics and technology, furniture and furnishings, construction and building materials, hospitality fit-out, pet supplies and accessories, and modular buildings. A dedicated residential modular homes service operates under the Ériu Modular Homes sub-brand at eriusourcing.com/modular-homes/. Active factory relationships are maintained in the main Chinese manufacturing clusters for each category." }
       },
       {
         "@type": "Question",
@@ -61,16 +60,6 @@ const pageSchemas = [
 ];
 
 const categories = [
-  {
-    id: 'fashion',
-    slug: 'fashion-apparel-from-china-ireland',
-    name: 'Fashion & Apparel',
-    description: 'Garments, sportswear, workwear, uniforms, and accessories sourced direct from Guangzhou, Foshan, and Zhengzhou textile clusters. Lower-cost Henan production available for high-volume basics.',
-    bullets: ['Performance and fashion apparel', 'Uniforms and workwear', 'Home textiles and bedding', 'Sports and outdoor clothing'],
-    image: '/images/fashion-apparel-factory.webp',
-    imageAlt: 'Chinese garment and sportswear factory — fashion and apparel sourced direct for Irish retailers',
-    hubs: 'Guangzhou, Foshan (Guangdong) • Zhengzhou (Henan)',
-  },
   {
     id: 'electronics',
     slug: 'electronics-from-china-ireland',
@@ -122,25 +111,15 @@ const categories = [
     hubs: 'Guangzhou, Zhongshan (Guangdong)',
   },
   {
-    id: 'bags',
-    slug: 'bags-luggage-from-china-ireland',
-    name: 'Bags & Luggage',
-    description: 'Fashion bags, backpacks, luggage, and accessories sourced from Guangzhou and Dongguan — China\'s primary leather goods and bag manufacturing base.',
-    bullets: ['Fashion handbags', 'Backpacks and daypacks', 'Travel luggage', 'Promotional bags', 'Sports bags and equipment'],
-    image: '/images/bags-luggage-factory.webp',
-    imageAlt: 'Bags and leather goods factory in Guangzhou — China direct sourcing for Irish fashion and retail',
-    hubs: 'Guangzhou, Dongguan (Guangdong)',
-  },
-  {
     id: 'modular-buildings',
     slug: 'modular-buildings-from-china-ireland',
     name: 'Modular Buildings & Sandwich Panels',
-    description: 'Steel-framed modular buildings, insulated sandwich panels (PIR, EPS, PUR), and prefabricated structures direct from Chinese manufacturers. CE compliance verified. Full technical documentation provided.',
-    bullets: ['Steel-framed modular buildings', 'PIR and EPS insulated sandwich panels', 'Prefab site offices and canteens', 'Cold store panels', 'Agricultural and industrial buildings', 'CE-compliant structural documentation'],
-    image: '/images/Fold-out-house-20ft.webp',
-    imageAlt: '20ft fold-out modular house — prefabricated structure sourced direct from China for Ireland',
+    description: 'Steel-framed modular buildings, insulated sandwich panels (PIR, EPS, PUR), and prefabricated structures direct from Chinese manufacturers. CE compliance verified. Full technical documentation provided. For residential back-garden homes, see Ériu Modular Homes.',
+    bullets: ['Steel-framed modular buildings (B2B)', 'PIR and EPS insulated sandwich panels', 'Prefab site offices and canteens', 'Cold store panels', 'Agricultural and industrial buildings', 'CE-compliant structural documentation'],
+    image: '/images/modular-homes-20ft-expandable.webp',
+    imageAlt: '20ft expandable container home — prefabricated structure sourced direct from China for Ireland',
     hubs: 'Henan Province • Guangdong Province',
-    note: 'A dedicated site for modular buildings and construction products is in development. For sourcing enquiries, use the contact form below.',
+    note: null,
   },
 ];
 ---
@@ -194,6 +173,37 @@ const categories = [
     </section>
   ))}
 
+  <!-- MODULAR HOMES SPOTLIGHT -->
+  <section class="section modular-spotlight">
+    <div class="container">
+      <div class="modular-spotlight__inner">
+        <div class="modular-spotlight__text">
+          <span class="section-eyebrow">New · Ériu Modular Homes</span>
+          <h2>Back-garden homes sourced factory-direct from Henan Province</h2>
+          <p>Following the April 2026 Irish Exempted Development Regulations, back-garden auxiliary dwellings up to 45 m² no longer require planning permission in most cases. Ériu Modular Homes supplies factory-direct expandable container homes — 20ft, 30ft and 40ft models — from €8,750 + VAT and delivery.</p>
+          <ul class="modular-spotlight__bullets">
+            <li>4 models — 20ft, 30ft, 40ft and 20FT700</li>
+            <li>14–18 week production + 5–6 week freight to Ireland</li>
+            <li>CE marked, Irish Building Regulations compliance pack included</li>
+            <li>Factory visit programme — see your unit built before you pay</li>
+          </ul>
+          <div class="modular-spotlight__actions">
+            <a href="/modular-homes/" class="btn btn--primary">Explore Ériu Modular Homes →</a>
+            <a href="/modular-homes/models/" class="cat-guide-link">View all models →</a>
+          </div>
+        </div>
+        <div class="modular-spotlight__image">
+          <img
+            src="/images/modular-homes-hero-back-garden-ireland.webp"
+            alt="Expandable container home in Irish back garden — Ériu Modular Homes"
+            width="560" height="380" loading="lazy"
+            onerror="this.closest('.modular-spotlight__image').style.background='#1A533E'"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="cta-strip section--emerald">
     <div class="container--narrow" style="text-align:center">
       <span class="section-eyebrow section-eyebrow--light">Not listed?</span>
@@ -230,6 +240,23 @@ const categories = [
   .cat-actions { display: flex; align-items: center; gap: 1.25rem; flex-wrap: wrap; margin-top: 1rem; }
   .cat-guide-link { font-size: .9rem; font-weight: 600; color: var(--color-emerald); text-decoration: none; white-space: nowrap; }
   .cat-guide-link:hover { text-decoration: underline; }
+
+  /* MODULAR SPOTLIGHT */
+  .modular-spotlight { background: #F0F7F4; border-top: 2px solid #1A533E; }
+  .modular-spotlight__inner { display: grid; grid-template-columns: 1fr 1fr; gap: 3.5rem; align-items: center; }
+  .modular-spotlight__text h2 { font-size: clamp(1.5rem, 2.5vw, 2.25rem); margin: .5rem 0 1rem; color: #0F2131; }
+  .modular-spotlight__text p { font-size: .9375rem; line-height: 1.7; color: #3a4a56; margin-bottom: 1.25rem; }
+  .modular-spotlight__bullets { list-style: none; padding: 0; margin: 0 0 1.5rem; display: flex; flex-direction: column; gap: .4rem; }
+  .modular-spotlight__bullets li { font-size: .9375rem; color: #3a4a56; padding-left: 1.25rem; position: relative; }
+  .modular-spotlight__bullets li::before { content: '✓'; position: absolute; left: 0; color: #1A533E; font-weight: 700; }
+  .modular-spotlight__actions { display: flex; align-items: center; gap: 1.25rem; flex-wrap: wrap; }
+  .modular-spotlight__image img { width: 100%; height: 340px; object-fit: cover; border-radius: var(--radius-lg); }
+
+  @media (max-width: 900px) {
+    .modular-spotlight__inner { grid-template-columns: 1fr; }
+    .modular-spotlight__image { order: -1; }
+    .modular-spotlight__image img { height: 240px; }
+  }
 
   .cta-strip { padding: 5rem 0; }
   .cta-strip h2 { font-size: clamp(1.75rem, 4vw, 3rem); margin-bottom: 1rem; }
