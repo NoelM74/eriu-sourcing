@@ -1,8 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
-const title = "Expandable Container Home Models | 20ft, 30ft, 40ft & 700-Wide | Ériu Modular Homes";
-const description = "Browse expandable steel-frame container home models. Full specifications: 20ft, 30ft, 40ft and 700-wide. Folded and expanded dimensions, internal floor area, weight, container loading data, and one-to-three-bedroom floor plans.";
+const title = "Expandable Container Home Models | 20ft, 30ft, 40ft & 20FT700 | Ériu Modular Homes";
+const description = "Browse expandable steel-frame container home models. Full specifications: 20ft, 30ft, 40ft and 20FT700. Folded and expanded dimensions, internal floor area, weight, container loading data, and floor plan layouts.";
 const canonical = "/modular-homes/models/";
 const siteUrl = "https://eriusourcing.com";
 
@@ -10,70 +10,70 @@ const models = [
   {
     id: "20ft",
     name: "20ft Expandable",
-    tagline: "The compact back-garden unit. One or two bedrooms, 32 m² internal.",
+    tagline: "The compact back-garden unit. One to three bedrooms, ~34 m² internal.",
     expanded: "L5,900 × W6,300 × H2,480 mm",
-    internal: "L5,640 × W6,140 × H2,240 mm",
+    internal: "L5,460 × W6,140 × H2,240 mm",
     folded: "L5,900 × W2,200 × H2,480 mm",
-    weight: "2,500 kg",
+    weight: "3,400 kg (3.4 t)",
     loading: "2 sets per 40HQ container",
-    internalArea: "~32 m²",
+    internalArea: "~34 m²",
     image: "/images/modular-homes-20ft-expandable.webp",
-    imageAlt: "20ft expandable container home — folded for transport, then opens to 32 m² in the back garden",
+    imageAlt: "20ft expandable container home exterior — folds to 2.2 m wide for shipping, expands to 6.3 m on site",
     bestFor: "Studio / 1-bed auxiliary dwelling, granny flat, garden office",
-    floorplans: [
-      { src: "/images/modular-homes-floorplan-20ft-empty.webp", label: "20ft empty shell" },
-      { src: "/images/modular-homes-floorplan-20ft-1bed.webp", label: "20ft one-bedroom layout" },
-      { src: "/images/modular-homes-floorplan-20ft-2bed.webp", label: "20ft two-bedroom layout" }
-    ]
+    floorplanImage: "/images/modular-homes-floorplan-20ft-layouts.webp",
+    floorplanAlt: "20ft expandable container home — six available floor plan layouts: 1-bed, 2-bed and 3-bed configurations",
+    floorplanCaption: "Six standard layouts available — 1, 2 or 3 bedrooms with living room and bathroom. Custom partitioning on request."
   },
   {
     id: "30ft",
     name: "30ft Expandable",
-    tagline: "The mid-size unit. Comfortable two-bedroom layout, ~53 m² internal.",
-    expanded: "L9,000 × W6,300 × H2,480 mm",
-    internal: "L8,740 × W6,140 × H2,200 mm",
+    tagline: "The mid-size unit. Comfortable two-bedroom layout, ~52 m² internal.",
+    expanded: "L9,000 × W6,220 × H2,480 mm",
+    internal: "L8,540 × W6,060 × H2,200 mm",
     folded: "L9,000 × W2,200 × H2,480 mm",
-    weight: "3,500 kg",
+    weight: "4,300 kg (4.3 t)",
     loading: "1 set per 40HQ container",
-    internalArea: "~53 m²",
+    internalArea: "~52 m²",
     image: "/images/modular-homes-30ft-expandable.webp",
-    imageAlt: "30ft expandable container home — two-bedroom configuration for Irish back garden or holiday let",
+    imageAlt: "30ft expandable container home exterior — mid-size modular unit for Irish back garden or holiday let",
     bestFor: "2-bed auxiliary dwelling, holiday let, larger granny flat",
-    floorplans: []
+    floorplanImage: null,
+    floorplanAlt: "",
+    floorplanCaption: ""
   },
   {
     id: "40ft",
     name: "40ft Expandable",
     tagline: "The full home. Two or three bedrooms, ~70 m² internal.",
-    expanded: "L11,800 × W6,300 × H2,480 mm",
-    internal: "L11,540 × W6,140 × H2,200 mm",
+    expanded: "L11,800 × W6,220 × H2,480 mm",
+    internal: "L11,540 × W6,060 × H2,200 mm",
     folded: "L11,800 × W2,200 × H2,480 mm",
-    weight: "5,000 kg",
+    weight: "5,900 kg (5.9 t)",
     loading: "1 set per 40HQ container",
     internalArea: "~70 m²",
     image: "/images/modular-homes-40ft-expandable.webp",
-    imageAlt: "40ft expandable container home — three-bedroom family-sized modular unit shipped to Ireland",
+    imageAlt: "40ft expandable container home exterior — full-size 3-bedroom modular unit shipped factory-direct to Ireland",
     bestFor: "3-bed family home, larger holiday let, modular office",
-    floorplans: [
-      { src: "/images/modular-homes-floorplan-40ft-empty.webp", label: "40ft empty shell" },
-      { src: "/images/modular-homes-floorplan-40ft-2bed.webp", label: "40ft two-bedroom layout" },
-      { src: "/images/modular-homes-floorplan-40ft-3bed.webp", label: "40ft three-bedroom layout" }
-    ]
+    floorplanImage: "/images/modular-homes-floorplan-40ft-layouts.webp",
+    floorplanAlt: "40ft expandable container home — four available floor plan layouts: 2-bed and 3-bed configurations at 70 m²",
+    floorplanCaption: "Four standard layouts available — 2 or 3 bedrooms. Custom configurations on request."
   },
   {
-    id: "700-wide",
-    name: "700-Wide Foldable",
+    id: "20ft700",
+    name: "20FT700 Foldable",
     tagline: "The shipping efficiency unit. Six sets per 40HQ container.",
-    expanded: "W4,800 × L5,900 × H2,480 mm",
-    internal: "W4,640 × L5,640 × H2,240 mm",
-    folded: "W700 × L5,900 × H2,480 mm",
-    weight: "2,000 kg",
+    expanded: "L5,900 × W4,800 × H2,480 mm",
+    internal: "L5,460 × W4,640 × H2,240 mm",
+    folded: "L5,900 × W700 × H2,480 mm",
+    weight: "1,950 kg (1.95 t)",
     loading: "6 sets per 40HQ container",
-    internalArea: "~26 m²",
+    internalArea: "~25 m²",
     image: "/images/modular-homes-700-wide.webp",
-    imageAlt: "700-wide foldable modular cabin — six units per 40HQ container, ideal for multi-unit Irish projects",
-    bestFor: "Multi-unit projects, sites, accommodation programmes, holiday parks",
-    floorplans: []
+    imageAlt: "20FT700 foldable modular cabin — folds to just 700 mm wide, six units per 40HQ container",
+    bestFor: "Multi-unit projects, holiday parks, site accommodation, investor programmes",
+    floorplanImage: null,
+    floorplanAlt: "",
+    floorplanCaption: ""
   }
 ];
 
@@ -103,27 +103,27 @@ const pageSchemas = [
       {
         "@type": "Question",
         "name": "What is an expandable container home?",
-        "acceptedAnswer": { "@type": "Answer", "text": "An expandable container home is a steel-frame modular dwelling that ships flat in standard ISO container dimensions, then folds open on site to deliver internal floor area roughly 2.5 to 3 times the folded footprint. The 20ft model folds to 5.9 × 2.2 metres for shipping and expands to approximately 32 square metres of internal living space. The expansion mechanism uses hinged side panels, deployed by crane or a small site team within 1 to 2 days of arrival." }
+        "acceptedAnswer": { "@type": "Answer", "text": "An expandable container home is a steel-frame modular dwelling that ships flat in standard ISO container dimensions, then folds open on site to deliver internal floor area roughly 2.5 to 3 times the folded footprint. The 20ft model folds to 5.9 × 2.2 metres for shipping and expands to approximately 34 square metres of internal living space. The expansion mechanism uses hinged side panels, deployed by crane or a small site team within 1 to 2 days of arrival." }
       },
       {
         "@type": "Question",
         "name": "How many expandable container homes fit in a single 40ft HQ container?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Loading capacity varies by model: the 700-wide foldable unit ships 6 sets per 40HQ container (highest shipping efficiency), the 20ft expandable ships 2 sets per 40HQ, and the 30ft and 40ft expandable models each ship 1 set per 40HQ. For multi-unit projects, the 700-wide model offers dramatically lower per-unit freight cost." }
+        "acceptedAnswer": { "@type": "Answer", "text": "Loading capacity varies by model: the 20FT700 foldable unit ships 6 sets per 40HQ container (highest shipping efficiency), the 20ft expandable ships 2 sets per 40HQ, and the 30ft and 40ft expandable models each ship 1 set per 40HQ. For multi-unit projects, the 20FT700 model offers dramatically lower per-unit freight cost." }
       },
       {
         "@type": "Question",
         "name": "What is the internal ceiling height of an expandable container home?",
-        "acceptedAnswer": { "@type": "Answer", "text": "The 20ft and 700-wide units have an internal clear ceiling height of 2,240 mm (2.24 metres). The 30ft and 40ft units have an internal clear ceiling height of 2,200 mm. All four models exceed the minimum habitable room ceiling height requirements in Irish Building Regulations Technical Guidance Document A." }
+        "acceptedAnswer": { "@type": "Answer", "text": "The 20ft and 20FT700 units have an internal clear ceiling height of 2,240 mm (2.24 metres). The 30ft and 40ft units have an internal clear ceiling height of 2,200 mm. All four models exceed the minimum habitable room ceiling height requirements in Irish Building Regulations Technical Guidance Document A." }
       },
       {
         "@type": "Question",
         "name": "How long does it take to deploy an expandable container home on site in Ireland?",
-        "acceptedAnswer": { "@type": "Answer", "text": "On a prepared foundation, the structural deployment from folded to fully expanded takes 1 to 2 days for the 20ft, 30ft and 40ft models, and a similar timeframe per unit for the 700-wide. Services connection (water, electricity, drainage) and internal fit-out are completed in the following 2 to 3 weeks for a Tier 2 Turnkey specification." }
+        "acceptedAnswer": { "@type": "Answer", "text": "On a prepared foundation, the structural deployment from folded to fully expanded takes 1 to 2 days for the 20ft, 30ft and 40ft models. Services connection (water, electricity, drainage) and internal fit-out are completed in the following 2 to 3 weeks for a Tier 2 Turnkey specification." }
       },
       {
         "@type": "Question",
         "name": "Which model is best for a 45 m² Irish back-garden auxiliary dwelling?",
-        "acceptedAnswer": { "@type": "Answer", "text": "For the 45 m² maximum under the draft Irish Auxiliary Dwelling exemption, the 30ft expandable model is the closest fit at approximately 53 m² internal — it would require minor reduction or be supplied as the more compact 20ft model at 32 m² for a smaller footprint. The 40ft model at ~70 m² exceeds the exemption and would require full planning permission to be used as a habitable dwelling under current Irish rules." }
+        "acceptedAnswer": { "@type": "Answer", "text": "For the 45 m² maximum under the 2026 Irish Auxiliary Dwelling exemption, the 30ft expandable at ~52 m² internal is the closest fit and fits within the exempted footprint with careful siting. The 20ft at ~34 m² is ideal for a single-bedroom unit. The 40ft at ~70 m² exceeds the exempted area and requires full planning permission as a habitable dwelling." }
       }
     ]
   }
@@ -147,7 +147,7 @@ const pageSchemas = [
     <div class="container">
       <span class="section-eyebrow">At a glance</span>
       <h2>Compare all four models</h2>
-      <p class="table-intro">Folded dimensions are the shipping size — what fits in a container. Expanded dimensions are the deployed size on your foundation. Internal dimensions are the usable habitable space.</p>
+      <p class="table-intro">Folded dimensions are the shipping size. Expanded dimensions are the deployed size on your foundation. Internal dimensions are the usable habitable space.</p>
       <div class="models-table-wrap">
         <table class="models-table">
           <thead>
@@ -191,13 +191,54 @@ const pageSchemas = [
     </div>
   </section>
 
+  <!-- BUILD QUALITY -->
+  <section class="section">
+    <div class="container">
+      <span class="section-eyebrow">Build quality</span>
+      <h2>What's inside every unit</h2>
+      <p class="table-intro">Every model in the Ériu range is built to the same structural specification regardless of size.</p>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🏗</div>
+          <h3>9.0 mm channel steel frame</h3>
+          <p>Thicker than standard modular construction. The heavy-gauge channel steel base frame provides structural rigidity during shipping, lifting and long-term load-bearing on Irish foundations.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔩</div>
+          <h3>1.3 mm steel roof plate</h3>
+          <p>Container-grade steel plate on the roof, not composite panel. Rated for the wind and snow loads applicable in Ireland without additional reinforcement.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🧱</div>
+          <h3>18 mm wall thickness</h3>
+          <p>Wall panels at 18 mm connect firmly to the frame at each joint, providing both structural continuity and an effective weather seal at all seams.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💧</div>
+          <h3>Pre-designed drainage system</h3>
+          <p>Rainwater drainage channels are engineered into the roof profile and wall junctions at the factory, not added on site. Connects to standard Irish drainage fittings.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Earthed electrical fittings</h3>
+          <p>All electrical fittings are anti-electric-shock rated, dustproof and waterproof. Wiring is routed through the frame to Irish electrical regulation standards on Tier 2 and Tier 3 units.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔐</div>
+          <h3>Sealed expansion joints</h3>
+          <p>The hinged expansion panels are sealed at all junctions with purpose-made gaskets to prevent air infiltration and water ingress at the fold line — the most common failure point in cheaper expandable units.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- INDIVIDUAL MODELS -->
   {models.map((model, i) => (
     <section class={`section ${i % 2 === 1 ? 'section--alt' : ''}`} id={model.id}>
       <div class="container">
         <div class={`model-grid ${i % 2 === 1 ? 'model-grid--reverse' : ''}`}>
           <div class="model-content">
-            <span class="section-eyebrow">Model {model.name}</span>
+            <span class="section-eyebrow">Model</span>
             <h2>{model.name}</h2>
             <p class="model-tagline">{model.tagline}</p>
             <dl class="model-spec-list">
@@ -230,36 +271,62 @@ const pageSchemas = [
                 <dd>{model.bestFor}</dd>
               </div>
             </dl>
-            <a href={`/contact/?model=${model.id}`} class="btn btn--primary" style="margin-top: 1rem">Request a quote for the {model.name} →</a>
+            <a href={`/contact/?model=${model.id}`} class="btn btn--primary" style="margin-top: 1rem">Get a quote for the {model.name} →</a>
           </div>
           <div class="model-image">
-            <img src={model.image} alt={model.imageAlt} width="640" height="480" loading="lazy" />
+            <img src={model.image} alt={model.imageAlt} width="640" height="480" loading="lazy"
+              onerror="this.closest('.model-image').style.background='#e8f0ed'" />
           </div>
         </div>
 
-        {model.floorplans.length > 0 && (
+        {model.floorplanImage && (
           <div class="floorplans-block">
-            <h3>{model.name} — floor plan layouts</h3>
-            <div class="floorplans-grid">
-              {model.floorplans.map(fp => (
-                <figure class="floorplan-figure">
-                  <img src={fp.src} alt={`${model.name} — ${fp.label} — floor plan render`} width="400" height="320" loading="lazy" />
-                  <figcaption>{fp.label}</figcaption>
-                </figure>
-              ))}
-            </div>
+            <h3>{model.name} — available floor plan layouts</h3>
+            <figure class="floorplan-figure--full">
+              <img src={model.floorplanImage} alt={model.floorplanAlt} width="900" height="600" loading="lazy"
+                onerror="this.closest('figure').style.display='none'" />
+              <figcaption>{model.floorplanCaption}</figcaption>
+            </figure>
           </div>
         )}
       </div>
     </section>
   ))}
 
+  <!-- INTERIOR PHOTOS -->
+  <section class="section section--alt">
+    <div class="container">
+      <span class="section-eyebrow">Inside the unit</span>
+      <h2>Factory-fitted interiors</h2>
+      <p class="table-intro">Tier 2 (Turnkey) and Tier 3 (Furnished Living) units leave the factory with bathroom, kitchen and flooring installed. You connect services on site — no fit-out crew required.</p>
+      <div class="interior-grid">
+        <figure class="interior-figure">
+          <img
+            src="/images/modular-homes-interior-fitted.webp"
+            alt="Expandable container home interior — fitted bathroom with washing machine, vanity unit and toilet; open-plan living area with kitchen and wood-effect flooring"
+            width="800" height="600" loading="lazy"
+            onerror="this.closest('figure').style.display='none'"
+          />
+          <figcaption>Tier 2 fitted interior — bathroom, kitchen units and flooring factory-installed</figcaption>
+        </figure>
+      </div>
+      <div class="interior-features">
+        <div class="int-feature"><strong>Bathroom:</strong> Vanity unit, toilet, shower or bath, mirror cabinet. Washing machine connection included on Tier 3.</div>
+        <div class="int-feature"><strong>Kitchen:</strong> Base units, sink, worktop. Appliances specified at order stage.</div>
+        <div class="int-feature"><strong>Flooring:</strong> Wood-effect SPC flooring throughout — waterproof, durable, warm underfoot.</div>
+        <div class="int-feature"><strong>Partitioning:</strong> Internal walls factory-fitted to your chosen layout. Bedroom and bathroom doors included.</div>
+        <div class="int-feature"><strong>Lighting:</strong> Ceiling LED panels in all rooms. Sockets and switches wired to Irish standards on Tier 2+.</div>
+        <div class="int-feature"><strong>Ceiling:</strong> Finished ceiling panels throughout — no exposed steel.</div>
+      </div>
+    </div>
+  </section>
+
   <!-- COMPLIANCE NOTE -->
   <section class="section section--emerald">
     <div class="container--narrow">
       <span class="section-eyebrow section-eyebrow--light">Compliance</span>
       <h2>Every model. Every order. The Ériu Standard.</h2>
-      <p>Every unit supplied — regardless of model or tier — ships with CE marking under the Construction Products Regulation, a Declaration of Performance referencing the EN harmonised standards relevant to the structure, a written TGD compliance pack covering Parts A to M of the Irish Building Regulations, and an independent pre-shipment QC report signed at the factory floor by Noel Murphy. A BER assessment is conducted by an Irish-registered assessor on completion.</p>
+      <p>Every unit supplied — regardless of model or tier — ships with CE marking under the Construction Products Regulation, a Declaration of Performance referencing the relevant EN harmonised standards, a written TGD compliance pack covering Parts A to M of the Irish Building Regulations, and an independent pre-shipment QC report signed at the factory floor by Noel Murphy. A BER assessment is conducted by an Irish-registered assessor on completion.</p>
       <a href="/modular-homes/" class="btn btn--white-outline" style="margin-top: 1rem">See the full Ériu Standard →</a>
     </div>
   </section>
@@ -273,23 +340,23 @@ const pageSchemas = [
       <div class="faq-list">
         <details class="faq-item">
           <summary>What is an expandable container home?</summary>
-          <p>An expandable container home is a steel-frame modular dwelling that ships flat in standard ISO container dimensions, then folds open on site to deliver internal floor area roughly 2.5 to 3 times the folded footprint. The 20ft model folds to 5.9 × 2.2 metres for shipping and expands to approximately 32 square metres of internal living space. The expansion mechanism uses hinged side panels, deployed by crane or a small site team within 1 to 2 days of arrival.</p>
+          <p>An expandable container home is a steel-frame modular dwelling that ships flat in standard ISO container dimensions, then folds open on site to deliver internal floor area roughly 2.5 to 3 times the folded footprint. The 20ft model folds to 5.9 × 2.2 metres for shipping and expands to approximately 34 square metres of internal living space. The expansion mechanism uses hinged side panels, deployed by crane or a small site team within 1 to 2 days of arrival.</p>
         </details>
         <details class="faq-item">
           <summary>How many expandable container homes fit in a single 40ft HQ container?</summary>
-          <p>Loading capacity varies by model: the 700-wide foldable unit ships 6 sets per 40HQ container (highest shipping efficiency), the 20ft expandable ships 2 sets per 40HQ, and the 30ft and 40ft expandable models each ship 1 set per 40HQ. For multi-unit projects, the 700-wide model offers dramatically lower per-unit freight cost.</p>
+          <p>Loading capacity varies by model: the 20FT700 foldable unit ships 6 sets per 40HQ container (highest shipping efficiency), the 20ft expandable ships 2 sets per 40HQ, and the 30ft and 40ft expandable models each ship 1 set per 40HQ. For multi-unit projects, the 20FT700 model offers dramatically lower per-unit freight cost.</p>
         </details>
         <details class="faq-item">
           <summary>What is the internal ceiling height of an expandable container home?</summary>
-          <p>The 20ft and 700-wide units have an internal clear ceiling height of 2,240 mm (2.24 metres). The 30ft and 40ft units have an internal clear ceiling height of 2,200 mm. All four models exceed the minimum habitable room ceiling height requirements in Irish Building Regulations Technical Guidance Document A.</p>
+          <p>The 20ft and 20FT700 units have an internal clear ceiling height of 2,240 mm (2.24 metres). The 30ft and 40ft units have an internal clear ceiling height of 2,200 mm. All four models exceed the minimum habitable room ceiling height requirements in Irish Building Regulations Technical Guidance Document A.</p>
         </details>
         <details class="faq-item">
           <summary>How long does it take to deploy an expandable container home on site in Ireland?</summary>
-          <p>On a prepared foundation, the structural deployment from folded to fully expanded takes 1 to 2 days for the 20ft, 30ft and 40ft models, and a similar timeframe per unit for the 700-wide. Services connection (water, electricity, drainage) and internal fit-out are completed in the following 2 to 3 weeks for a Tier 2 Turnkey specification.</p>
+          <p>On a prepared foundation, the structural deployment from folded to fully expanded takes 1 to 2 days for the 20ft, 30ft and 40ft models. Services connection (water, electricity, drainage) and internal fit-out are completed in the following 2 to 3 weeks for a Tier 2 Turnkey specification.</p>
         </details>
         <details class="faq-item">
           <summary>Which model is best for a 45 m² Irish back-garden auxiliary dwelling?</summary>
-          <p>For the 45 m² maximum under the draft Irish Auxiliary Dwelling exemption, the 30ft expandable model is the closest fit at approximately 53 m² internal — it would require minor reduction or be supplied as the more compact 20ft model at 32 m² for a smaller footprint. The 40ft model at ~70 m² exceeds the exemption and would require full planning permission to be used as a habitable dwelling under current Irish rules.</p>
+          <p>For the 45 m² maximum under the 2026 Irish Auxiliary Dwelling exemption, the 30ft expandable at ~52 m² internal is the closest fit and sits within the exempted footprint with careful siting. The 20ft at ~34 m² is ideal for a single-bedroom unit. The 40ft at ~70 m² exceeds the exempted area and requires full planning permission as a habitable dwelling.</p>
         </details>
       </div>
     </div>
@@ -332,6 +399,13 @@ const pageSchemas = [
   .models-table tbody tr:nth-child(even) td { background: rgba(15,33,49,.02); }
   .best-for-row td.best-for-cell { font-size: .875rem; color: #4a4a4a; line-height: 1.45; }
 
+  /* BUILD QUALITY FEATURES */
+  .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+  .feature-card { background: #F7F6F2; border: 1px solid rgba(15,33,49,.08); border-radius: 10px; padding: 1.5rem; }
+  .feature-icon { font-size: 1.5rem; margin-bottom: .625rem; }
+  .feature-card h3 { font-size: .9375rem; font-weight: 700; color: #0F2131; margin: 0 0 .5rem; }
+  .feature-card p { font-size: .875rem; line-height: 1.65; color: #3a4a56; margin: 0; }
+
   /* MODEL DETAIL */
   .model-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3.5rem; align-items: center; }
   .model-grid--reverse { direction: rtl; }
@@ -356,10 +430,18 @@ const pageSchemas = [
   /* FLOORPLANS */
   .floorplans-block { margin-top: 3rem; }
   .floorplans-block h3 { font-size: 1.25rem; margin-bottom: 1.25rem; color: var(--color-navy); }
-  .floorplans-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
-  .floorplan-figure { margin: 0; background: var(--color-white); border: 1px solid rgba(15,33,49,.08); border-radius: 8px; overflow: hidden; }
-  .floorplan-figure img { width: 100%; height: auto; display: block; }
-  .floorplan-figure figcaption { padding: .75rem 1rem; font-size: .8125rem; color: var(--color-slate); text-align: center; font-weight: 600; border-top: 1px solid rgba(15,33,49,.05); }
+  .floorplan-figure--full { margin: 0; background: var(--color-white); border: 1px solid rgba(15,33,49,.08); border-radius: 10px; overflow: hidden; }
+  .floorplan-figure--full img { width: 100%; height: auto; display: block; }
+  .floorplan-figure--full figcaption { padding: .875rem 1.25rem; font-size: .875rem; color: var(--color-slate); text-align: center; border-top: 1px solid rgba(15,33,49,.06); }
+
+  /* INTERIORS */
+  .interior-grid { margin-bottom: 2rem; }
+  .interior-figure { margin: 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(15,33,49,.08); }
+  .interior-figure img { width: 100%; height: auto; display: block; max-height: 520px; object-fit: cover; }
+  .interior-figure figcaption { padding: .875rem 1.25rem; font-size: .875rem; color: var(--color-slate); background: var(--color-bg-alt); text-align: center; }
+  .interior-features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+  .int-feature { font-size: .9rem; line-height: 1.6; color: #3a4a56; background: #F7F6F2; border-radius: 8px; padding: 1rem 1.125rem; }
+  .int-feature strong { color: #0F2131; display: block; margin-bottom: .2rem; }
 
   /* FAQ */
   .faq-updated { font-size: .8125rem; color: #888; margin: .25rem 0 1.5rem; }
@@ -374,7 +456,12 @@ const pageSchemas = [
   @media (max-width: 900px) {
     .model-grid, .model-grid--reverse { grid-template-columns: 1fr; gap: 2rem; direction: ltr; }
     .model-image img { height: 320px; }
-    .floorplans-grid { grid-template-columns: 1fr; }
+    .features-grid { grid-template-columns: 1fr 1fr; }
+    .interior-features { grid-template-columns: 1fr 1fr; }
     .spec-row { grid-template-columns: 1fr; gap: .25rem; padding: .625rem 1rem; }
+  }
+
+  @media (max-width: 600px) {
+    .features-grid, .interior-features { grid-template-columns: 1fr; }
   }
 </style>
