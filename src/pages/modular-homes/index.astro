@@ -1,0 +1,588 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = "Modular Homes Ireland | Back-Garden Homes & Container Homes | Ériu Modular Homes";
+const description = "Steel-frame modular homes and expandable container houses for Irish back gardens. CE-compliant, building-regs ready, factory-direct from China with Irish-led QC and optional factory visits. Turnkey delivery nationwide.";
+const canonical = "/modular-homes/";
+const siteUrl = "https://eriusourcing.com";
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Modular Homes", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "Service",
+    "name": "Ériu Modular Homes — Back-Garden & Container Homes for Ireland",
+    "description": description,
+    "provider": { "@type": "ProfessionalService", "@id": `${siteUrl}/#organization` },
+    "areaServed": [
+      { "@type": "Country", "name": "Ireland" },
+      { "@type": "Country", "name": "United Kingdom" }
+    ],
+    "serviceType": "Modular Home Supplier",
+    "dateModified": new Date().toISOString().split('T')[0]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do I need planning permission for a modular home in my back garden in Ireland?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Under the Government's draft Exempted Development Regulations brought to Cabinet on 21 April 2026, a detached auxiliary habitable dwelling of 32–45 square metres can be built in the back garden of a principal house without full planning permission, provided it is connected to the principal house's services and meets the exemption conditions. Planning exemption is not the same as building regulations exemption — every structure must still meet the Irish Building Regulations (TGD Parts A to M), and a BER assessment is required. Ériu Modular Homes supplies units fully specified for Irish Building Regulations compliance."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I rent out a modular home in my back garden tax-free in Ireland?",
+        "acceptedAnswer": { "@type": "Answer", "text": "If the auxiliary dwelling is linked to the services of your principal house, rental income from a tenant in the unit can fall under the Rent-a-Room scheme — meaning up to €14,000 per year is exempt from income tax, USC and PRSI. The draft regulations also propose carving the auxiliary dwelling out of the Residential Tenancies Acts, meaning RTB rules do not apply. This combination delivers roughly a 14% tax-free yield on a fully-fitted €100,000 unit versus a 2.5% deposit return — the single strongest financial case in Irish residential property right now. Tax treatment should always be confirmed with your accountant for your specific circumstances."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between an auxiliary habitable dwelling, a granny flat and a garden room?",
+        "acceptedAnswer": { "@type": "Answer", "text": "An auxiliary habitable dwelling is the precise legal term in the draft April 2026 regulations — a 32–45 square metre detached self-contained home in the back garden of a principal house, linked to its services, exempt from planning under specific conditions. A granny flat is the colloquial name for the same thing — typically intended for a relative. A garden room or garden office is a non-habitable structure (no kitchen or bathroom plumbing for residential use) and falls under the separate 30 square metre garden structure exemption. The legal classification matters for planning, building regs, LPT and insurance — Ériu Modular Homes supplies all three categories with the correct compliance pack for each."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does a modular home cost in Ireland?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Irish-built modular homes from competitors such as Rayco, The Pod Factory and Modular Home Ireland typically range from €110,000 to €180,000 for a finished 2-bed 32–45 square metre unit. Ériu Modular Homes sources direct from Henan Province factories — the same steel-frame and expandable container home manufacturers supplying European projects — and delivers a comparably specified, CE-compliant unit to your Irish address typically 25–45% below Irish-built pricing. Final pricing is project-specific based on size, finish tier, site access and installation requirements. Request a quote for your specific brief."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are Chinese modular homes safe and compliant for the Irish market?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Compliance and quality are the difference between a credible imported modular home and an Alibaba container that fails Irish standards. Every unit supplied by Ériu Modular Homes is CE-marked under the Construction Products Regulation, supplied with a Declaration of Performance (DoP) referencing EN harmonised standards, and built to specifications matching Irish Building Regulations (TGD Parts A to M). Pre-shipment QC is conducted in person by Noel Murphy at the Henan factory before the container is sealed. A representative installer network in Ireland handles foundations, craning, services connection and BER certification on arrival."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I visit the factory in China before placing an order?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes — and we encourage it. Ériu Modular Homes offers a 3-day China factory visit from approximately €1,800 per person (credited in full against a confirmed order). You travel to Zhengzhou, tour two or three shortlisted Henan factories with Noel Murphy on the ground, sign off on your build specification at the factory floor, then visit Shenzhen for finishing materials selection. No other Ireland-facing modular home supplier offers in-person factory verification."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does it take from order to a modular home installed in my Irish back garden?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Typical end-to-end timeline is 14–18 weeks from order confirmation to a habitable structure on your foundation: factory production runs 4–6 weeks, pre-shipment QC and sea freight from China to Dublin Port takes 5–6 weeks, customs clearance and inland transport adds 1 week, foundation works (organised in parallel) and craning installation takes 1–2 weeks, internal fit-out and services connection finishes within a further 2–3 weeks depending on tier. Compared to a 9–12 month conventional back-garden build, modular is a different timeline category."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What about Local Property Tax, insurance and mortgages on a back-garden modular home?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Revenue has confirmed that an auxiliary habitable dwelling receives its own property ID and its own LPT band — separate from the principal house. Home insurance must be updated to declare the new structure or cover on the principal house can be invalidated; most insurers will quote an uplift rather than require a separate policy. Most Irish mortgage lenders will not currently mortgage a property with a second self-contained dwelling on the same title, so resale value and mortgage portability should be considered. Ériu Modular Homes provides a written LPT, insurance and mortgage briefing pack with every quote so the full ownership picture is clear before you commit."
+        }
+      }
+    ]
+  }
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} jsonLd={pageSchemas}>
+
+  <!-- HERO -->
+  <section class="modular-hero">
+    <div class="hero-bg">
+      <img
+        src="/images/modular-homes-hero-back-garden-ireland.webp"
+        alt="Modern steel-frame modular home with timber cladding sourced from China for Irish back garden — Ériu Modular Homes"
+        width="1920"
+        height="900"
+        loading="eager"
+        fetchpriority="high"
+      />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content container">
+      <span class="hero-eyebrow">Ériu Modular Homes — Ireland</span>
+      <h1>Steel-frame modular homes<br />and expandable container houses.<br /><span class="hero-h1-accent">Factory to foundation, delivered worldwide.</span></h1>
+      <p class="hero-sub">Ireland's only end-to-end back-garden home service — sourced, inspected and shipped from China by an Irishman on the ground in Zhengzhou. CE-compliant, Building-Regulations-specified, with an optional factory visit before a single euro is spent on production.</p>
+      <div class="hero-actions">
+        <a href="/contact/" class="btn btn--white">Request a quote →</a>
+        <a href="/modular-homes/factory-visits/" class="btn btn--white-outline">Visit a factory with us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item">
+          <span class="trust-num">32–45 m²</span>
+          <span class="trust-label">Auxiliary dwelling exemption (April 2026)</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">14% yield</span>
+          <span class="trust-label">Rent-a-Room tax-free returns</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">14–18 wks</span>
+          <span class="trust-label">Order to installed in your garden</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">25–45%</span>
+          <span class="trust-label">Below Irish-built pricing for equivalent spec</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE OPPORTUNITY -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="opportunity-grid">
+        <div class="opportunity-content">
+          <span class="section-eyebrow">The 2026 opportunity</span>
+          <h2>The Irish back-garden home market just opened up</h2>
+          <p>On 21 April 2026, Ministers Browne and Cummins brought a draft of the new Exempted Development Regulations to Cabinet. Four overlapping exemptions hit at the same time — and together they create the single most powerful arbitrage in Irish residential property:</p>
+          <ul class="exemption-list">
+            <li><strong>Auxiliary habitable dwelling</strong> — detached 32–45 m² self-contained home in your back garden, no planning permission, services linked to principal house, rental income carved out of the Residential Tenancies Acts.</li>
+            <li><strong>Sub-division exemption</strong> — one additional self-contained unit (min 32 m²) inside your existing house envelope.</li>
+            <li><strong>Garden structures</strong> — exemption raised from 25 m² to 30 m² for sheds, offices, gyms and studios.</li>
+            <li><strong>Principal extension</strong> — raised from 40 m² to 45 m².</li>
+          </ul>
+          <p>The financial logic, as set out by Keith Lowe of DNG in The Irish Times: a €100,000 modular dwelling returning up to €14,000 per year tax-free under the Rent-a-Room scheme is roughly a <strong>14% tax-free yield</strong>. Against 2.5% on deposit, that is the kind of return that drives mass adoption.</p>
+        </div>
+        <div class="opportunity-card">
+          <span class="card-eyebrow">The reality check</span>
+          <h3>Six trust questions every Irish buyer is asking</h3>
+          <ol class="reality-list">
+            <li>Planning exemption is not building regulations exemption.</li>
+            <li>The unit gets its own LPT band — Revenue has confirmed this.</li>
+            <li>Home insurance must be updated or the main policy can be invalidated.</li>
+            <li>Most mortgage lenders will not lend on a property with a second dwelling.</li>
+            <li>Long-term durability in Irish weather has to be specified, not assumed.</li>
+            <li>Quality of imported MMC units during transport and installation matters.</li>
+          </ol>
+          <p>Ériu Modular Homes answers all six in writing with every quote.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THREE TIERS -->
+  <section class="section">
+    <div class="container">
+      <div class="tiers-header">
+        <span class="section-eyebrow">Productised options</span>
+        <h2>Three ways to own your back-garden home</h2>
+        <p>Self-qualify by scope. Specs and pricing are confirmed against your site survey and brief.</p>
+      </div>
+      <div class="tiers-grid">
+        <div class="tier-card">
+          <span class="tier-label">Tier 1</span>
+          <h3>Ériu Shell</h3>
+          <p class="tier-desc">CE-compliant 32–45 m² structural unit, delivered to your site, craned onto your prepared slab. Externally finished — cladding, roof, doors, windows. You arrange foundations, services connection and internal fit-out.</p>
+          <ul class="tier-includes">
+            <li>CE-marked steel-frame envelope</li>
+            <li>Triple-glazed aluminium windows</li>
+            <li>External cladding (timber, composite or steel)</li>
+            <li>Insulated floor, walls, roof to TGD Part L spec</li>
+            <li>Sea freight to Dublin Port + inland transport</li>
+            <li>Crane lift onto your slab</li>
+          </ul>
+          <a href="/contact/?tier=shell" class="tier-cta">Enquire about Shell →</a>
+        </div>
+
+        <div class="tier-card tier-card--featured">
+          <span class="tier-label tier-label--featured">Tier 2 · Most popular</span>
+          <h3>Ériu Turnkey</h3>
+          <p class="tier-desc">Tier 1 plus full internal fit-out to Irish Building Regulations. Kitchen, bathroom, full electrics and plumbing, heat pump, A-rated insulation upgrade, BER certificate. Keys handed over.</p>
+          <ul class="tier-includes">
+            <li>Everything in Tier 1, plus</li>
+            <li>Kitchen units, worktop, sink and tap</li>
+            <li>Bathroom with shower, toilet and basin</li>
+            <li>Full electrical first and second fix to ETCI rules</li>
+            <li>Plumbing and heating to TGD Part J</li>
+            <li>Air-to-water heat pump (A-rated)</li>
+            <li>BER assessment and certificate on completion</li>
+          </ul>
+          <a href="/contact/?tier=turnkey" class="tier-cta">Enquire about Turnkey →</a>
+        </div>
+
+        <div class="tier-card">
+          <span class="tier-label">Tier 3</span>
+          <h3>Ériu Furnished Living</h3>
+          <p class="tier-desc">Tier 2 plus fully-furnished interior and a choice of outdoor package — pergola, composite decking, garden furniture, BBQ, hot tub option. Move-in or rent-out ready.</p>
+          <ul class="tier-includes">
+            <li>Everything in Tier 2, plus</li>
+            <li>Beds, mattresses, sofa, dining set</li>
+            <li>White goods — fridge-freezer, washer, hob, oven</li>
+            <li>Soft furnishings, curtains, lighting</li>
+            <li>Choice of outdoor package (Entertainer / Wellness / Garden Office Plus)</li>
+            <li>Pergola or composite decking included</li>
+          </ul>
+          <a href="/contact/?tier=furnished" class="tier-cta">Enquire about Furnished →</a>
+        </div>
+      </div>
+      <p class="tiers-footnote">Pricing is project-specific. Tier 3 typically lands at the same total cost as a competitor's basic shell from an Irish-built supplier.</p>
+    </div>
+  </section>
+
+  <!-- THE MOAT -->
+  <section class="section section--alt">
+    <div class="container">
+      <span class="section-eyebrow">Why us</span>
+      <h2>Four advantages that are almost impossible to replicate from Ireland</h2>
+      <div class="moat-grid">
+        <div class="moat-card">
+          <span class="moat-num">01</span>
+          <h3>18 years on the ground in China</h3>
+          <p>Dual base in Zhengzhou (steel and modular heartland of Henan Province) and Shenzhen (consumer goods and finishing materials). Active factory relationships in the exact production hubs where steel-frame and expandable container homes are made.</p>
+        </div>
+        <div class="moat-card">
+          <span class="moat-num">02</span>
+          <h3>An Irish principal — Noel Murphy</h3>
+          <p>A named Irish national who can physically walk you through the factory, sign off on your spec in person, and be held accountable on the China side. Not a sales agent passing you to a trading company.</p>
+        </div>
+        <div class="moat-card">
+          <span class="moat-num">03</span>
+          <h3>Factory-gate pricing</h3>
+          <p>Direct relationships with manufacturers — no Alibaba trading-company stack, no European intermediary margin. The same factories supplying the German, French and Dutch modular markets supply Ériu Modular Homes at factory-direct prices.</p>
+        </div>
+        <div class="moat-card">
+          <span class="moat-num">04</span>
+          <h3>Pre-shipment QC at source</h3>
+          <p>Every unit is inspected in person before the container is sealed. CE marking, structural specifications, finishes and compliance documentation verified at the factory floor. Failures stay in China at the factory's cost.</p>
+        </div>
+      </div>
+      <p class="moat-footnote">No other Ireland-facing modular home supplier offers all four. That is the moat.</p>
+    </div>
+  </section>
+
+  <!-- COMPLIANCE -->
+  <section class="section section--emerald">
+    <div class="container--narrow">
+      <span class="section-eyebrow section-eyebrow--light">The Ériu Standard</span>
+      <h2>Compliance built in, not bolted on</h2>
+      <p>What separates a credible imported modular home from an Alibaba container that fails Irish standards is the compliance pack. Every unit supplied by Ériu Modular Homes ships with the same document set:</p>
+      <ul class="compliance-list">
+        <li><strong>CE marking</strong> under the Construction Products Regulation (EU) No 305/2011</li>
+        <li><strong>Declaration of Performance (DoP)</strong> referencing the EN harmonised standards relevant to the structure</li>
+        <li><strong>TGD compliance pack</strong> — written confirmation against Irish Building Regulations Parts A (Structure), B (Fire), C (Damp), D (Materials), E (Sound), F (Ventilation), G (Hygiene), H (Drainage), J (Heat), K (Stairs), L (Fuel & Energy), M (Access)</li>
+        <li><strong>BER assessment partnership</strong> — independent Irish-registered BER assessor issues the certificate on completion</li>
+        <li><strong>Independent QC report</strong> — sealed PDF, photo evidence, signed at the factory floor by Noel Murphy</li>
+        <li><strong>NSAI Agrément pathway</strong> — engagement underway on a representative model for third-party Irish certification</li>
+        <li><strong>Vetted Irish installer network</strong> — foundations, craning, services connection and final sign-off in Dublin, Cork, Galway, Limerick and Waterford</li>
+        <li><strong>Product liability and professional indemnity insurance</strong> — fully covered</li>
+      </ul>
+      <a href="/contact/" class="btn btn--white-outline" style="margin-top: 1.25rem">Ask for the compliance pack →</a>
+    </div>
+  </section>
+
+  <!-- FACTORY VISIT -->
+  <section class="section">
+    <div class="container">
+      <div class="visit-grid">
+        <div class="visit-content">
+          <span class="section-eyebrow">The factory visit</span>
+          <h2>See the factory before you commit a single euro</h2>
+          <p>Ériu Modular Homes is the only Ireland-facing supplier offering an in-person factory tour. A 3-day China trip from approximately €1,800 per person — fully credited against a confirmed order.</p>
+          <p>You meet Noel in Zhengzhou, tour two or three shortlisted Henan factories with him on the ground, sign off on your build specification at the factory floor, then move to Shenzhen for finishing materials. By day three you know exactly who is building your home, what it is being made from and what it will look like — before a euro is paid to a factory.</p>
+          <p>Roughly 5% of clients take up the offer in person. The other 95% take it as a signal that the operation is real.</p>
+          <a href="/modular-homes/factory-visits/" class="inline-link">See the factory visit programme →</a>
+        </div>
+        <div class="visit-image">
+          <img
+            src="/images/modular-homes-factory-zhengzhou-floor.webp"
+            alt="Noel Murphy on the factory floor in Zhengzhou inspecting an expandable container home before shipment to Ireland"
+            width="640"
+            height="480"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPOKES NAVIGATION -->
+  <section class="section section--alt">
+    <div class="container">
+      <span class="section-eyebrow">Explore</span>
+      <h2>Find the right answer for your project</h2>
+      <div class="spokes-grid">
+        <a href="/modular-homes/models/" class="spoke-card">
+          <span class="spoke-icon" aria-hidden="true">🏠</span>
+          <h3>Browse Models →</h3>
+          <p>20ft, 30ft, 40ft and 700-wide expandable container homes. Full specifications, dimensions, floor plans and loading data.</p>
+        </a>
+        <a href="/modular-homes/back-garden-homes-ireland/" class="spoke-card">
+          <span class="spoke-icon" aria-hidden="true">🌿</span>
+          <h3>Back-Garden Homes →</h3>
+          <p>The 45 m² exemption explained in plain English. What qualifies, what doesn't, and how to use it for Rent-a-Room arbitrage.</p>
+        </a>
+        <a href="/modular-homes/auxiliary-dwelling-ireland/" class="spoke-card">
+          <span class="spoke-icon" aria-hidden="true">📋</span>
+          <h3>Auxiliary Dwelling Guide →</h3>
+          <p>The exact legal term in the draft 2026 regulations. The conditions, the tax treatment, the insurance and mortgage angles.</p>
+        </a>
+        <a href="/modular-homes/factory-visits/" class="spoke-card">
+          <span class="spoke-icon" aria-hidden="true">✈️</span>
+          <h3>Factory Visits in China →</h3>
+          <p>A 3-day Zhengzhou and Shenzhen tour. Credited against your order. Nobody else in the Irish market offers this.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Frequently asked</span>
+      <h2>Ireland's modular home questions answered</h2>
+      <p class="faq-updated">Last reviewed: May 2026</p>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Do I need planning permission for a modular home in my back garden in Ireland?</summary>
+          <p>Under the Government's draft Exempted Development Regulations brought to Cabinet on 21 April 2026, a detached auxiliary habitable dwelling of 32–45 square metres can be built in the back garden of a principal house without full planning permission, provided it is connected to the principal house's services and meets the exemption conditions. Planning exemption is not the same as building regulations exemption — every structure must still meet the Irish Building Regulations (TGD Parts A to M), and a BER assessment is required. Ériu Modular Homes supplies units fully specified for Irish Building Regulations compliance.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can I rent out a modular home in my back garden tax-free in Ireland?</summary>
+          <p>If the auxiliary dwelling is linked to the services of your principal house, rental income from a tenant in the unit can fall under the Rent-a-Room scheme — meaning up to €14,000 per year is exempt from income tax, USC and PRSI. The draft regulations also propose carving the auxiliary dwelling out of the Residential Tenancies Acts, meaning RTB rules do not apply. This combination delivers roughly a 14% tax-free yield on a fully-fitted €100,000 unit versus a 2.5% deposit return — the single strongest financial case in Irish residential property right now. Tax treatment should always be confirmed with your accountant for your specific circumstances.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What is the difference between an auxiliary habitable dwelling, a granny flat and a garden room?</summary>
+          <p>An auxiliary habitable dwelling is the precise legal term in the draft April 2026 regulations — a 32–45 square metre detached self-contained home in the back garden of a principal house, linked to its services, exempt from planning under specific conditions. A granny flat is the colloquial name for the same thing — typically intended for a relative. A garden room or garden office is a non-habitable structure (no kitchen or bathroom plumbing for residential use) and falls under the separate 30 square metre garden structure exemption. The legal classification matters for planning, building regs, LPT and insurance — Ériu Modular Homes supplies all three categories with the correct compliance pack for each.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How much does a modular home cost in Ireland?</summary>
+          <p>Irish-built modular homes from competitors such as Rayco, The Pod Factory and Modular Home Ireland typically range from €110,000 to €180,000 for a finished 2-bed 32–45 square metre unit. Ériu Modular Homes sources direct from Henan Province factories — the same steel-frame and expandable container home manufacturers supplying European projects — and delivers a comparably specified, CE-compliant unit to your Irish address typically 25–45% below Irish-built pricing. Final pricing is project-specific based on size, finish tier, site access and installation requirements. Request a quote for your specific brief.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Are Chinese modular homes safe and compliant for the Irish market?</summary>
+          <p>Compliance and quality are the difference between a credible imported modular home and an Alibaba container that fails Irish standards. Every unit supplied by Ériu Modular Homes is CE-marked under the Construction Products Regulation, supplied with a Declaration of Performance (DoP) referencing EN harmonised standards, and built to specifications matching Irish Building Regulations (TGD Parts A to M). Pre-shipment QC is conducted in person by Noel Murphy at the Henan factory before the container is sealed. A representative installer network in Ireland handles foundations, craning, services connection and BER certification on arrival.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can I visit the factory in China before placing an order?</summary>
+          <p>Yes — and we encourage it. Ériu Modular Homes offers a 3-day China factory visit from approximately €1,800 per person (credited in full against a confirmed order). You travel to Zhengzhou, tour two or three shortlisted Henan factories with Noel Murphy on the ground, sign off on your build specification at the factory floor, then visit Shenzhen for finishing materials selection. No other Ireland-facing modular home supplier offers in-person factory verification.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How long does it take from order to a modular home installed in my Irish back garden?</summary>
+          <p>Typical end-to-end timeline is 14–18 weeks from order confirmation to a habitable structure on your foundation: factory production runs 4–6 weeks, pre-shipment QC and sea freight from China to Dublin Port takes 5–6 weeks, customs clearance and inland transport adds 1 week, foundation works (organised in parallel) and craning installation takes 1–2 weeks, internal fit-out and services connection finishes within a further 2–3 weeks depending on tier. Compared to a 9–12 month conventional back-garden build, modular is a different timeline category.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What about Local Property Tax, insurance and mortgages on a back-garden modular home?</summary>
+          <p>Revenue has confirmed that an auxiliary habitable dwelling receives its own property ID and its own LPT band — separate from the principal house. Home insurance must be updated to declare the new structure or cover on the principal house can be invalidated; most insurers will quote an uplift rather than require a separate policy. Most Irish mortgage lenders will not currently mortgage a property with a second self-contained dwelling on the same title, so resale value and mortgage portability should be considered. Ériu Modular Homes provides a written LPT, insurance and mortgage briefing pack with every quote so the full ownership picture is clear before you commit.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--emerald">
+    <div class="container--narrow" style="text-align: center">
+      <span class="section-eyebrow section-eyebrow--light">Ready to start?</span>
+      <h2>Get a fixed quote for your back-garden home.</h2>
+      <p>Tell us your site, your tier preference, and your timeline. We come back with factory-direct pricing, a compliance pack, a delivery timeline, and an optional factory visit — no obligation.</p>
+      <div class="cta-actions">
+        <a href="/contact/" class="btn btn--white">Request a quote →</a>
+        <a href="https://wa.me/353871187806" class="btn btn--white-outline" target="_blank" rel="noopener noreferrer">WhatsApp Noel</a>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  /* HERO */
+  .modular-hero {
+    position: relative;
+    min-height: 78vh;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+  }
+  .hero-bg { position: absolute; inset: 0; }
+  .hero-bg img { width: 100%; height: 100%; object-fit: cover; object-position: center 50%; }
+  .hero-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(10,28,18,.92) 0%, rgba(10,28,18,.5) 55%, rgba(10,28,18,.2) 100%);
+  }
+  .hero-content { position: relative; z-index: 2; padding: 4rem 0 5rem; max-width: 940px; }
+  .hero-eyebrow {
+    font-size: .8125rem; font-weight: 700; color: rgba(255,255,255,.7);
+    text-transform: uppercase; letter-spacing: .12em; margin-bottom: 1.25rem; display: block;
+  }
+  .modular-hero h1 {
+    color: #fff; font-size: clamp(2.25rem, 5vw, 4.25rem); line-height: 1.08;
+    margin-bottom: 1.5rem; letter-spacing: -.03em; font-weight: 700;
+  }
+  .hero-h1-accent { color: #5fd8c4; font-weight: 500; font-size: .8em; }
+  .hero-sub {
+    font-size: clamp(1rem, 1.6vw, 1.25rem); color: rgba(255,255,255,.85);
+    line-height: 1.7; margin-bottom: 2.25rem; max-width: 640px;
+  }
+  .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+  /* TRUST BAR */
+  .trust-bar { background: #fff; border-bottom: 1px solid rgba(15,33,49,.08); padding: 2.5rem 0; }
+  .trust-grid { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
+  .trust-item { display: flex; flex-direction: column; gap: .25rem; flex: 1; min-width: 170px; }
+  .trust-num {
+    font-family: var(--font-body); font-size: clamp(1.25rem, 2.4vw, 1.875rem);
+    font-weight: 700; color: var(--color-emerald); line-height: 1; letter-spacing: -.03em;
+  }
+  .trust-label { font-size: .875rem; color: #5a5a5a; line-height: 1.4; }
+  .trust-divider { width: 1px; height: 48px; background: rgba(15,33,49,.12); flex-shrink: 0; }
+
+  /* OPPORTUNITY */
+  .opportunity-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 3.5rem; align-items: start; }
+  .opportunity-content h2 { margin-bottom: 1.5rem; }
+  .opportunity-content p { color: #3a3a3a; margin-bottom: 1rem; line-height: 1.7; }
+  .exemption-list { list-style: none; padding: 0; margin: 1.5rem 0; display: flex; flex-direction: column; gap: 0.875rem; }
+  .exemption-list li {
+    padding: 1rem 1.25rem; background: var(--color-white);
+    border-left: 3px solid var(--color-emerald); border-radius: 0 8px 8px 0;
+    font-size: .9375rem; line-height: 1.6; color: #3a3a3a;
+  }
+  .opportunity-card {
+    background: var(--color-white); padding: 2rem;
+    border: 1px solid rgba(15,33,49,.1); border-radius: 12px;
+    position: sticky; top: 100px;
+  }
+  .card-eyebrow {
+    font-size: .75rem; font-weight: 700; color: #c47a4d;
+    text-transform: uppercase; letter-spacing: .07em; display: block; margin-bottom: .75rem;
+  }
+  .opportunity-card h3 { font-size: 1.125rem; margin: 0 0 1rem; line-height: 1.35; }
+  .reality-list { padding-left: 1.25rem; margin: 0 0 1rem; display: flex; flex-direction: column; gap: .625rem; }
+  .reality-list li { font-size: .9375rem; color: #4a4a4a; line-height: 1.55; }
+  .opportunity-card p { font-size: .9375rem; color: var(--color-emerald); font-weight: 600; margin: 0; }
+
+  /* TIERS */
+  .tiers-header { max-width: 680px; margin-bottom: 2.5rem; }
+  .tiers-header h2 { margin-bottom: .75rem; }
+  .tiers-header p { color: var(--color-slate); font-size: 1rem; margin: 0; }
+  .tiers-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+  .tier-card {
+    background: var(--color-white); padding: 2rem;
+    border: 1px solid rgba(15,33,49,.1); border-radius: 12px;
+    display: flex; flex-direction: column; gap: .875rem;
+  }
+  .tier-card--featured { border-color: var(--color-emerald); box-shadow: 0 6px 28px rgba(26,83,62,.1); transform: translateY(-8px); }
+  .tier-label {
+    display: inline-block; padding: .25rem .625rem;
+    background: rgba(15,33,49,.06); color: #4a4a4a;
+    border-radius: 4px; font-size: .75rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; width: fit-content;
+  }
+  .tier-label--featured { background: var(--color-emerald); color: #fff; }
+  .tier-card h3 { font-size: 1.5rem; margin: 0; color: var(--color-navy); }
+  .tier-desc { color: #4a4a4a; font-size: .9375rem; line-height: 1.6; margin: 0; }
+  .tier-includes { list-style: none; padding: 0; margin: 0; flex: 1; display: flex; flex-direction: column; gap: .5rem; }
+  .tier-includes li { font-size: .875rem; color: #3a3a3a; padding-left: 1.25rem; position: relative; line-height: 1.5; }
+  .tier-includes li::before { content: '✓'; position: absolute; left: 0; color: var(--color-emerald); font-weight: 700; }
+  .tier-cta {
+    margin-top: 1rem; padding: .75rem 1.25rem;
+    background: var(--color-navy); color: #fff;
+    border-radius: 6px; text-decoration: none; text-align: center;
+    font-weight: 600; font-size: .9375rem;
+    transition: background-color .15s ease;
+  }
+  .tier-cta:hover { background: var(--color-emerald); }
+  .tier-card--featured .tier-cta { background: var(--color-emerald); }
+  .tier-card--featured .tier-cta:hover { background: #134b35; }
+  .tiers-footnote {
+    margin-top: 2rem; text-align: center;
+    font-size: .9375rem; color: var(--color-slate);
+    font-style: italic; max-width: 64ch; margin-left: auto; margin-right: auto;
+  }
+
+  /* MOAT */
+  .moat-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin-top: 2rem; }
+  .moat-card {
+    padding: 1.75rem; background: var(--color-white);
+    border: 1px solid rgba(15,33,49,.08); border-radius: 12px;
+    display: flex; flex-direction: column; gap: .625rem;
+  }
+  .moat-num {
+    font-family: var(--font-body); font-size: 2rem; font-weight: 700;
+    color: var(--color-teal); opacity: .35; line-height: 1; letter-spacing: -.04em;
+  }
+  .moat-card h3 { font-size: 1.0625rem; margin: 0; color: var(--color-navy); line-height: 1.3; }
+  .moat-card p { font-size: .9375rem; color: #4a4a4a; line-height: 1.65; margin: 0; }
+  .moat-footnote { margin-top: 2rem; font-size: 1rem; color: var(--color-emerald); font-weight: 600; font-style: italic; }
+
+  /* COMPLIANCE */
+  .compliance-list { list-style: none; padding: 0; margin: 1.5rem 0 0; display: flex; flex-direction: column; gap: .75rem; }
+  .compliance-list li {
+    padding: .875rem 1.25rem; background: rgba(255,255,255,.08);
+    border-radius: 6px; font-size: .9375rem; line-height: 1.55;
+    color: rgba(255,255,255,.92);
+  }
+  .compliance-list li strong { color: #fff; }
+
+  /* FACTORY VISIT */
+  .visit-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+  .visit-content h2 { margin-bottom: 1.25rem; }
+  .visit-content p { color: #3a3a3a; margin-bottom: 1rem; line-height: 1.7; }
+  .visit-image img { width: 100%; height: 460px; object-fit: cover; border-radius: 12px; }
+  .inline-link { color: var(--color-emerald); font-weight: 600; font-size: .9375rem; text-decoration: none; }
+  .inline-link:hover { text-decoration: underline; }
+
+  /* SPOKES */
+  .spokes-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.25rem; margin-top: 2rem; }
+  .spoke-card {
+    padding: 1.75rem; background: var(--color-white);
+    border: 1px solid rgba(15,33,49,.09); border-radius: 12px;
+    text-decoration: none; color: inherit;
+    display: flex; flex-direction: column; gap: .625rem;
+    transition: border-color .15s ease, box-shadow .15s ease, transform .15s ease;
+  }
+  .spoke-card:hover {
+    border-color: var(--color-emerald);
+    box-shadow: 0 6px 24px rgba(26,83,62,.1);
+    transform: translateY(-2px);
+  }
+  .spoke-icon { font-size: 1.75rem; line-height: 1; }
+  .spoke-card h3 { font-size: 1.0625rem; margin: 0; color: var(--color-navy); line-height: 1.3; }
+  .spoke-card p { font-size: .875rem; color: #5a5a5a; line-height: 1.6; margin: 0; }
+
+  /* FAQ */
+  .faq-updated { font-size: .8125rem; color: #888; margin: .25rem 0 1.5rem; }
+  .faq-list { display: flex; flex-direction: column; gap: 0; margin-top: 1rem; }
+  .faq-item { border-bottom: 1px solid rgba(15,33,49,.1); padding: 0; }
+  .faq-item summary {
+    font-weight: 600; font-size: 1rem; color: var(--color-navy); cursor: pointer;
+    padding: 1.25rem 0; list-style: none; display: flex;
+    justify-content: space-between; align-items: center; gap: 1rem;
+  }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after {
+    content: '+'; font-size: 1.25rem; font-weight: 300; color: var(--color-emerald);
+    flex-shrink: 0; transition: transform .2s ease;
+  }
+  .faq-item[open] summary::after { transform: rotate(45deg); }
+  .faq-item p { padding: 0 0 1.25rem; color: #4a4a4a; font-size: .9375rem; margin: 0; line-height: 1.7; }
+
+  /* CTA */
+  .cta-actions { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem; }
+
+  /* RESPONSIVE */
+  @media (max-width: 1024px) {
+    .tiers-grid { grid-template-columns: 1fr; }
+    .tier-card--featured { transform: none; }
+    .moat-grid { grid-template-columns: 1fr; }
+    .spokes-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 900px) {
+    .opportunity-grid { grid-template-columns: 1fr; }
+    .opportunity-card { position: static; }
+    .visit-grid { grid-template-columns: 1fr; gap: 2rem; }
+    .visit-image img { height: 320px; }
+    .trust-divider { display: none; }
+  }
+  @media (max-width: 600px) {
+    .spokes-grid { grid-template-columns: 1fr; }
+    .hero-actions, .cta-actions { flex-direction: column; }
+    .trust-grid { gap: 1rem; }
+  }
+</style>

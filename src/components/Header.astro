@@ -2,30 +2,50 @@
 // Header.astro — Ériu Sourcing
 // Mobile-first sticky nav. Logo is inline SVG lockup (light-bg variant).
 
-const navLinks = [
+const sourcingNavLinks = [
   { href: '/how-it-works/',      label: 'How It Works' },
   { href: '/product-categories/',label: 'Categories' },
   { href: '/source/',            label: 'Sourcing Guides' },
+  { href: '/modular-homes/',     label: 'Modular Homes' },
   { href: '/why-direct/',        label: 'Why Direct?' },
   { href: '/china-network/',     label: 'China Network' },
   { href: '/case-studies/',      label: 'Case Studies' },
-  { href: '/blog/',              label: 'Blog' },
   { href: '/about/',             label: 'About' },
 ];
 
+const modularNavLinks = [
+  { href: '/modular-homes/',                            label: 'Overview' },
+  { href: '/modular-homes/models/',                     label: 'Models' },
+  { href: '/modular-homes/back-garden-homes-ireland/',  label: 'Back-Garden Homes' },
+  { href: '/modular-homes/auxiliary-dwelling-ireland/', label: 'Auxiliary Dwelling' },
+  { href: '/modular-homes/factory-visits/',             label: 'Factory Visits' },
+  { href: '/',                                          label: '← Ériu Sourcing' },
+];
+
 const pathname = Astro.url.pathname;
+const isModular = pathname.startsWith('/modular-homes');
+const navLinks = isModular ? modularNavLinks : sourcingNavLinks;
 ---
 
 <header class="site-header">
   <div class="header-inner container">
 
-    <!-- Logo — icon mark + wordmark -->
-    <a href="/" class="logo" aria-label="Ériu Sourcing — Home">
-      <img src="/images/eriu-mark.svg" width="36" height="36" alt="" aria-hidden="true" class="logo-mark" />
-      <span class="logo-wordmark">
-        <span class="logo-eriu">ÉRIU</span><span class="logo-sourcing">Sourcing</span>
-      </span>
-    </a>
+    <!-- Logo — icon mark + wordmark (sub-brand swap on /modular-homes/) -->
+    {isModular ? (
+      <a href="/modular-homes/" class="logo logo--modular" aria-label="Ériu Modular Homes — Home">
+        <img src="/images/eriu-modular-mark.svg" width="36" height="36" alt="" aria-hidden="true" class="logo-mark" onerror="this.style.display='none'" />
+        <span class="logo-wordmark">
+          <span class="logo-eriu">Ériu</span><span class="logo-sub">Modular Homes</span>
+        </span>
+      </a>
+    ) : (
+      <a href="/" class="logo" aria-label="Ériu Sourcing — Home">
+        <img src="/images/eriu-mark.svg" width="36" height="36" alt="" aria-hidden="true" class="logo-mark" />
+        <span class="logo-wordmark">
+          <span class="logo-eriu">ÉRIU</span><span class="logo-sourcing">Sourcing</span>
+        </span>
+      </a>
+    )}
 
     <!-- Desktop nav -->
     <nav class="nav-desktop" aria-label="Main navigation">
@@ -171,6 +191,31 @@ const pathname = Astro.url.pathname;
     color: #0F2131;
     letter-spacing: 0.02em;
     line-height: 1;
+  }
+
+  /* Sub-brand: Modular Homes */
+  .logo--modular .logo-eriu {
+    font-family: 'Boska', Georgia, 'Times New Roman', serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #1A533E;
+    letter-spacing: -0.01em;
+  }
+
+  .logo--modular .logo-sub {
+    font-family: 'Satoshi', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #1C7C83;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    line-height: 1;
+  }
+
+  .logo--modular .logo-wordmark {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.125rem;
   }
 
   /* Desktop nav */
