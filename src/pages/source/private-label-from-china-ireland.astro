@@ -1,0 +1,417 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = "Private Label & Custom Manufacturing in China for Irish Brands | Ériu Sourcing";
+const description = "OEM and ODM private-label manufacturing direct from verified Chinese factories. Your spec, your branding, your packaging — with sample management, IP protection, and pre-shipment QC.";
+const canonical = "/source/private-label-from-china-ireland/";
+const siteUrl = 'https://eriusourcing.com';
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "What We Source", "item": `${siteUrl}/source/` },
+      { "@type": "ListItem", "position": 3, "name": "Private Label & Custom Manufacturing", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "Service",
+    "name": "Private Label & Custom Manufacturing — China Direct Sourcing for Ireland",
+    "description": description,
+    "provider": { "@type": "ProfessionalService", "@id": `${siteUrl}/#organization` },
+    "areaServed": [
+      { "@type": "Country", "name": "Ireland" },
+      { "@type": "Country", "name": "United Kingdom" }
+    ],
+    "serviceType": "OEM / ODM Sourcing Agent",
+    "dateModified": new Date().toISOString().split('T')[0]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the difference between OEM and ODM manufacturing in China?",
+        "acceptedAnswer": { "@type": "Answer", "text": "OEM (Original Equipment Manufacturer) means the factory manufactures a product to your design and specification — you control the formulation, materials, dimensions, and engineering. ODM (Original Design Manufacturer) means the factory has an existing product or design that you brand and customise — typically faster and cheaper, but with less differentiation. Ériu Sourcing works with both models depending on the product, budget, and time-to-market requirement." }
+      },
+      {
+        "@type": "Question",
+        "name": "How does Ériu Sourcing protect intellectual property when sourcing private label from China?",
+        "acceptedAnswer": { "@type": "Answer", "text": "We use a combination of factory selection (working with manufacturers who have established Western brand clients and reputations to protect), NNN agreements (Non-disclosure, Non-use, Non-circumvention agreements written under Chinese law and enforceable in Chinese courts), tooling ownership documentation, and selective disclosure of full product specifications. For sensitive products, we split component sourcing across multiple factories so no single supplier holds the complete design." }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the typical minimum order quantity for private label production in China?",
+        "acceptedAnswer": { "@type": "Answer", "text": "MOQs vary significantly by product category. Cosmetics and supplements typically start at 1,000–3,000 units. Branded apparel starts at 200–500 pieces per style. Consumer electronics typically require 500–1,000 units. Branded packaging (boxes, bags, labels) usually adds 1,000–3,000 unit MOQs of its own. We can sometimes negotiate lower MOQs in exchange for higher unit pricing, or by sharing factory production runs with other clients." }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does private label development take from brief to first shipment?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Typical end-to-end timelines: factory shortlisting 1–2 weeks, sample development 2–6 weeks (longer for complex products), sample approval and refinement 2–4 weeks, packaging design sign-off 1–2 weeks, mass production 4–8 weeks, pre-shipment QC and freight 5–6 weeks. From an approved spec to landed goods in Ireland, plan for 16–24 weeks for your first production run. Repeat orders run significantly faster — typically 8–12 weeks total." }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you handle packaging design and branded packaging production?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. We coordinate branded packaging — boxes, sleeves, bags, hang tags, labels, inserts — alongside product manufacturing. Packaging is either produced at the same factory (common for cosmetics, supplements, and food products) or sourced from a specialist packaging factory and shipped to the assembly factory for fitting. We work with your existing design files (PDF, AI, PSD) and handle pre-production printing proofs for approval before production runs." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you source private label for regulated products like cosmetics, supplements, and electronics?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes — these are some of the most common private-label categories sourced through Ériu Sourcing. For cosmetics, we work with factories holding ISO 22716 (GMP for cosmetics) certification and arrange CPNP notification documentation for EU sale. For supplements, we work with HACCP-certified facilities and coordinate ingredient compliance against EU and Irish FSAI requirements. For consumer electronics, CE / UKCA marking, RoHS, and REACH compliance are all verified at the factory and documented before shipment." }
+      }
+    ]
+  }
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} jsonLd={pageSchemas}>
+
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="hero-bg">
+      <img
+        src="/images/private-label-hero-product-samples.webp"
+        alt="Private label product samples ready for Irish brand customisation — Ériu Sourcing"
+        width="1440"
+        height="810"
+        loading="eager"
+        fetchpriority="high"
+      />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content container">
+      <span class="hero-eyebrow">Private Label & Custom Manufacturing</span>
+      <h1>Your spec.<br />Your branding.<br />Manufactured in China.</h1>
+      <p class="hero-sub">OEM and ODM private-label production direct from verified Chinese factories. Sample management, IP-aware supplier selection, branded packaging, and pre-shipment QC — all coordinated from the factory floor.</p>
+      <div class="hero-actions">
+        <a href="/contact" class="btn btn--white">Start your brief →</a>
+        <a href="#process" class="btn btn--white-outline">How it works</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item">
+          <span class="trust-num">OEM + ODM</span>
+          <span class="trust-label">Both production models supported</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">NNN</span>
+          <span class="trust-label">IP-protective agreements (Chinese law)</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">16–24 wks</span>
+          <span class="trust-label">First production to landed goods</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">100%</span>
+          <span class="trust-label">Pre-shipment QC + compliance docs</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OEM VS ODM -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="split-grid">
+        <div class="split-content">
+          <span class="section-eyebrow">OEM or ODM</span>
+          <h2>Two paths to your branded product</h2>
+          <p><strong>OEM (Original Equipment Manufacturer)</strong> — the factory builds to your specification. You own the design, the formulation, the materials. Best when you have a defined product, a unique formulation, or a competitive moat to protect. Higher upfront cost, longer development, full differentiation.</p>
+          <p><strong>ODM (Original Design Manufacturer)</strong> — the factory has an existing product you brand, tweak, and sell as yours. Best for entering a market quickly, testing a category, or filling a private-label SKU without R&D overhead. Faster, cheaper, less differentiated.</p>
+          <p>Most Irish private-label brands use both depending on the SKU — ODM for stock fillers, OEM for hero products. We help you decide which model fits each product in your range.</p>
+        </div>
+        <div class="split-image">
+          <img
+            src="/images/private-label-packaging-design.webp"
+            alt="Branded packaging design proofs at Chinese factory — Ériu Sourcing private label"
+            width="640"
+            height="480"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE PRIVATE LABEL -->
+  <section class="section">
+    <div class="container">
+      <div class="products-layout">
+        <div class="products-header">
+          <span class="section-eyebrow">Common categories</span>
+          <h2>Private label categories we source from China</h2>
+          <p>If you're branding it, packaging it, and selling it under your name — we can probably source the factory for it. The most common categories Irish brands ask us about:</p>
+        </div>
+        <ul class="products-list">
+          <li><span class="product-check">✓</span><span>Cosmetics, skincare, and beauty (ISO 22716 GMP factories, CPNP notification supported)</span></li>
+          <li><span class="product-check">✓</span><span>Supplements, vitamins, and nutraceuticals (HACCP / GMP, FSAI-compliant documentation)</span></li>
+          <li><span class="product-check">✓</span><span>Branded apparel, athleisure, and accessories</span></li>
+          <li><span class="product-check">✓</span><span>Pet products — branded foods, treats, accessories, toys</span></li>
+          <li><span class="product-check">✓</span><span>Consumer electronics and accessories (CE / UKCA / RoHS compliant)</span></li>
+          <li><span class="product-check">✓</span><span>Home goods, kitchenware, and lifestyle products</span></li>
+          <li><span class="product-check">✓</span><span>Branded bags, luggage, and leather goods</span></li>
+          <li><span class="product-check">✓</span><span>Custom packaging — boxes, sleeves, labels, hang tags, inserts</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- IP PROTECTION -->
+  <section class="section section--emerald">
+    <div class="container--narrow">
+      <span class="section-eyebrow section-eyebrow--light">IP Protection</span>
+      <h2>Your design stays your design</h2>
+      <p>Protecting intellectual property in Chinese manufacturing is a discipline, not a document. We use a layered approach: NNN agreements written under Chinese law (Non-disclosure, Non-use, Non-circumvention), selective factory choice (manufacturers with established Western brand clients and reputations to protect), tooling ownership documentation, and component-level supplier separation where the product warrants it.</p>
+      <p>For sensitive products we split sourcing across multiple factories so no single supplier holds the complete design. For most products, working with the right vetted factory is the single biggest protection — far more effective than any agreement after the fact.</p>
+      <a href="/contact" class="btn btn--white-outline" style="margin-top:1rem">Discuss IP for your product →</a>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section" id="process">
+    <div class="container">
+      <span class="section-eyebrow">The process</span>
+      <h2>Brief to first shipment — how private label works</h2>
+      <div class="process-steps">
+        <div class="process-step">
+          <span class="step-num">01</span>
+          <h3>Brief & spec review</h3>
+          <p>You send your product brief, target spec, packaging concept, and target retail price. We review feasibility and recommend OEM or ODM path.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">02</span>
+          <h3>Factory shortlist</h3>
+          <p>We identify and physically vet 2–4 factories with proven capability and Western brand experience. You get a shortlist with pricing, MOQs, and capability notes.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">03</span>
+          <h3>Samples & approval</h3>
+          <p>Initial samples produced and shipped to Ireland for evaluation. Iteration on formulation, materials, finish. NNN agreement executed before any production tooling.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">04</span>
+          <h3>Packaging sign-off</h3>
+          <p>Branded packaging proofs produced and approved. Print colours, materials, structural design — all confirmed before mass production.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">05</span>
+          <h3>Mass production & QC</h3>
+          <p>Production runs with mid-production check and full pre-shipment inspection. CE / GMP / HACCP compliance documentation prepared.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">06</span>
+          <h3>Freight to Ireland</h3>
+          <p>Sea freight from China to Dublin Port with full export documentation. Repeat production runs from approved samples run faster — typically 8–12 weeks total.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DETAIL SPLIT -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="split-grid split-grid--reverse">
+        <div class="split-image">
+          <img
+            src="/images/private-label-label-printing.webp"
+            alt="Custom label printing for Irish private-label brand — Ériu Sourcing"
+            width="640"
+            height="480"
+            loading="lazy"
+          />
+        </div>
+        <div class="split-content">
+          <span class="section-eyebrow">Branded packaging</span>
+          <h2>Packaging is half the product</h2>
+          <p>For private-label brands, packaging carries as much weight as what's inside it. We coordinate branded packaging — boxes, sleeves, bags, hang tags, labels, inserts — alongside product manufacturing.</p>
+          <p>Packaging is either produced at the same factory (common for cosmetics, supplements, food) or sourced from a specialist packaging factory and shipped to the assembly factory for fitting. We work with your existing design files (PDF, AI, PSD) and handle pre-production printing proofs for sign-off before production runs.</p>
+          <p>Compliance markings — ingredients lists, CE marks, RoHS symbols, batch codes, country of origin — are reviewed against EU and Irish requirements before print approval.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FACTORY SPLIT -->
+  <section class="section">
+    <div class="container">
+      <div class="split-grid">
+        <div class="split-content">
+          <span class="section-eyebrow">Factory vetting</span>
+          <h2>The factory makes the brand</h2>
+          <p>For private-label work the factory is more important than for stock sourcing. You're trusting them with your formulation, your packaging design, and your brand's reputation in every unit they produce.</p>
+          <p>We work with factories that hold relevant certifications — ISO 9001, ISO 22716 (cosmetics GMP), HACCP (food and supplements), ISO 13485 (medical devices) — and that have established export experience with Western brands. Physical site visits verify production capacity, hygiene, QC processes, and storage conditions before we recommend any factory.</p>
+          <a href="/china-network" class="inline-link">See our full China network →</a>
+        </div>
+        <div class="split-image">
+          <img
+            src="/images/private-label-factory-oem.webp"
+            alt="OEM private-label factory floor in China — Ériu Sourcing vetted manufacturer"
+            width="640"
+            height="480"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Common questions</span>
+      <h2>Private label sourcing — questions answered</h2>
+      <p class="faq-updated">Last reviewed: May 2026</p>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>What is the difference between OEM and ODM manufacturing in China?</summary>
+          <p>OEM (Original Equipment Manufacturer) means the factory manufactures a product to your design and specification — you control the formulation, materials, dimensions, and engineering. ODM (Original Design Manufacturer) means the factory has an existing product or design that you brand and customise — typically faster and cheaper, but with less differentiation. Ériu Sourcing works with both models depending on the product, budget, and time-to-market requirement.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How does Ériu Sourcing protect intellectual property when sourcing private label from China?</summary>
+          <p>We use a combination of factory selection (working with manufacturers who have established Western brand clients and reputations to protect), NNN agreements (Non-disclosure, Non-use, Non-circumvention agreements written under Chinese law and enforceable in Chinese courts), tooling ownership documentation, and selective disclosure of full product specifications. For sensitive products, we split component sourcing across multiple factories so no single supplier holds the complete design.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What is the typical minimum order quantity for private label production in China?</summary>
+          <p>MOQs vary significantly by product category. Cosmetics and supplements typically start at 1,000–3,000 units. Branded apparel starts at 200–500 pieces per style. Consumer electronics typically require 500–1,000 units. Branded packaging (boxes, bags, labels) usually adds 1,000–3,000 unit MOQs of its own. We can sometimes negotiate lower MOQs in exchange for higher unit pricing, or by sharing factory production runs with other clients.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How long does private label development take from brief to first shipment?</summary>
+          <p>Typical end-to-end timelines: factory shortlisting 1–2 weeks, sample development 2–6 weeks (longer for complex products), sample approval and refinement 2–4 weeks, packaging design sign-off 1–2 weeks, mass production 4–8 weeks, pre-shipment QC and freight 5–6 weeks. From an approved spec to landed goods in Ireland, plan for 16–24 weeks for your first production run. Repeat orders run significantly faster — typically 8–12 weeks total.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Do you handle packaging design and branded packaging production?</summary>
+          <p>Yes. We coordinate branded packaging — boxes, sleeves, bags, hang tags, labels, inserts — alongside product manufacturing. Packaging is either produced at the same factory (common for cosmetics, supplements, and food products) or sourced from a specialist packaging factory and shipped to the assembly factory for fitting. We work with your existing design files (PDF, AI, PSD) and handle pre-production printing proofs for approval before production runs.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can you source private label for regulated products like cosmetics, supplements, and electronics?</summary>
+          <p>Yes — these are some of the most common private-label categories sourced through Ériu Sourcing. For cosmetics, we work with factories holding ISO 22716 (GMP for cosmetics) certification and arrange CPNP notification documentation for EU sale. For supplements, we work with HACCP-certified facilities and coordinate ingredient compliance against EU and Irish FSAI requirements. For consumer electronics, CE / UKCA marking, RoHS, and REACH compliance are all verified at the factory and documented before shipment.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--emerald">
+    <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">Ready to start?</span>
+      <h2>Send your brief. Get factory-direct private label.</h2>
+      <p>Product concept, target spec, packaging idea, target retail price. Ten minutes of writing is enough to get a real shortlist and real factory pricing back.</p>
+      <a href="/contact" class="btn btn--white-outline" style="margin-top:1rem">Start your brief →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  /* HERO */
+  .page-hero {
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+  }
+  .hero-bg { position: absolute; inset: 0; }
+  .hero-bg img { width: 100%; height: 100%; object-fit: cover; object-position: center 40%; }
+  .hero-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(10,28,18,.9) 0%, rgba(10,28,18,.55) 50%, rgba(10,28,18,.2) 100%);
+  }
+  .hero-content { position: relative; z-index: 2; padding: 4rem 0 5rem; max-width: 900px; }
+  .hero-eyebrow {
+    font-size: .8125rem; font-weight: 700; color: rgba(255,255,255,.65);
+    text-transform: uppercase; letter-spacing: .1em; margin-bottom: 1.25rem; display: block;
+  }
+  .hero-content h1 {
+    color: #fff; font-size: clamp(2.25rem, 5vw, 4rem); line-height: 1.05;
+    margin-bottom: 1.5rem; letter-spacing: -.03em;
+  }
+  .hero-sub {
+    font-size: clamp(1rem, 1.5vw, 1.1875rem); color: rgba(255,255,255,.82);
+    line-height: 1.7; margin-bottom: 2rem; max-width: 620px;
+  }
+  .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+  /* TRUST BAR */
+  .trust-bar { background: #fff; border-bottom: 1px solid rgba(15,33,49,.08); padding: 2.5rem 0; }
+  .trust-grid { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
+  .trust-item { display: flex; flex-direction: column; gap: .25rem; flex: 1; min-width: 160px; }
+  .trust-num {
+    font-family: var(--font-body); font-size: clamp(1.25rem, 2.5vw, 1.875rem);
+    font-weight: 700; color: var(--color-emerald); line-height: 1; letter-spacing: -.03em;
+  }
+  .trust-label { font-size: .875rem; color: #5a5a5a; }
+  .trust-divider { width: 1px; height: 48px; background: rgba(15,33,49,.12); flex-shrink: 0; }
+
+  /* SPLIT GRIDS */
+  .split-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+  .split-grid--reverse { direction: rtl; }
+  .split-grid--reverse > * { direction: ltr; }
+  .split-content h2 { margin-bottom: 1.25rem; }
+  .split-content p { color: #3a3a3a; margin-bottom: 1rem; }
+  .split-image img { width: 100%; height: 420px; object-fit: cover; border-radius: 12px; }
+  .inline-link { color: var(--color-emerald); font-weight: 600; font-size: .9375rem; text-decoration: none; }
+  .inline-link:hover { text-decoration: underline; }
+
+  /* PRODUCTS */
+  .products-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+  .products-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .875rem; }
+  .products-list li { display: flex; align-items: flex-start; gap: .75rem; font-size: 1rem; color: var(--color-navy); line-height: 1.5; }
+  .product-check { color: var(--color-emerald); font-weight: 700; flex-shrink: 0; margin-top: .1em; }
+  .products-header p { color: var(--color-slate); margin-top: 1rem; }
+
+  /* PROCESS */
+  .process-steps {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 0;
+    margin-top: 2.5rem; border-top: 2px solid var(--color-emerald);
+  }
+  .process-step { padding: 2rem 1.5rem 2rem 0; border-right: 1px solid rgba(15,33,49,.1); border-bottom: 1px solid rgba(15,33,49,.1); }
+  .process-step:nth-child(3n) { border-right: none; }
+  .process-step:nth-last-child(-n+3) { border-bottom: none; }
+  .step-num {
+    display: block; font-family: var(--font-body); font-size: 2.5rem; font-weight: 700;
+    color: var(--color-teal); opacity: .35; line-height: 1; margin-bottom: .75rem; letter-spacing: -.04em;
+  }
+  .process-step h3 { font-size: 1rem; font-weight: 700; margin-bottom: .5rem; color: var(--color-navy); }
+  .process-step p { font-size: .9375rem; color: #4a4a4a; margin: 0; }
+
+  /* FAQ */
+  .faq-updated { font-size: .8125rem; color: #888; margin: .25rem 0 1.5rem; }
+  .faq-list { display: flex; flex-direction: column; gap: 0; margin-top: 1rem; }
+  .faq-item { border-bottom: 1px solid rgba(15,33,49,.1); padding: 0; }
+  .faq-item summary {
+    font-weight: 600; font-size: 1rem; color: var(--color-navy); cursor: pointer;
+    padding: 1.25rem 0; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+  }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after {
+    content: '+'; font-size: 1.25rem; font-weight: 300; color: var(--color-emerald);
+    flex-shrink: 0; transition: transform .2s ease;
+  }
+  .faq-item[open] summary::after { transform: rotate(45deg); }
+  .faq-item p { padding: 0 0 1.25rem; color: #4a4a4a; font-size: .9375rem; margin: 0; line-height: 1.65; }
+
+  @media (max-width: 900px) {
+    .split-grid, .split-grid--reverse { grid-template-columns: 1fr; gap: 2rem; direction: ltr; }
+    .split-image img { height: 280px; }
+    .products-layout { grid-template-columns: 1fr; gap: 2rem; }
+    .process-steps { grid-template-columns: 1fr 1fr; }
+    .process-step { border-right: none; padding-right: 0; }
+    .process-step:nth-child(2n) { border-right: none; }
+    .trust-divider { display: none; }
+  }
+  @media (max-width: 600px) {
+    .process-steps { grid-template-columns: 1fr; }
+    .hero-actions { flex-direction: column; }
+    .trust-grid { gap: 1rem; }
+  }
+</style>

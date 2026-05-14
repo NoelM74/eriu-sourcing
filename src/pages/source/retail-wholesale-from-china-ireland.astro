@@ -1,0 +1,411 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = "China Sourcing for Irish Retailers & Wholesale Importers | Ériu Sourcing";
+const description = "Factory-direct China sourcing for Irish retailers, eCommerce brands, and wholesale importers. Save 35–60% vs Irish wholesale on stock products — electronics, fashion, pet, bags, furniture, and more.";
+const canonical = "/source/retail-wholesale-from-china-ireland/";
+const siteUrl = 'https://eriusourcing.com';
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "What We Source", "item": `${siteUrl}/source/` },
+      { "@type": "ListItem", "position": 3, "name": "Retail & Wholesale Importers", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "Service",
+    "name": "China Sourcing for Retailers & Wholesale Importers — Ireland",
+    "description": description,
+    "provider": { "@type": "ProfessionalService", "@id": `${siteUrl}/#organization` },
+    "areaServed": [
+      { "@type": "Country", "name": "Ireland" },
+      { "@type": "Country", "name": "United Kingdom" }
+    ],
+    "serviceType": "Retail Sourcing Agent",
+    "dateModified": new Date().toISOString().split('T')[0]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much can Irish retailers save by sourcing direct from China instead of through Irish wholesalers?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Irish retailers typically recover 35–60% on COGS by buying factory-direct instead of through Irish wholesalers. Irish wholesalers usually mark up Chinese goods 40–80% over their landed cost — and the goods have already passed through a Chinese trading company (20–40% margin) and often a European importer (15–30% margin) before reaching them. Factory-direct sourcing removes those layers. The exact saving depends on category and current wholesale pricing, but on most stock SKUs the gap is enough to either rebuild margins, fund discounting against competitors, or both." }
+      },
+      {
+        "@type": "Question",
+        "name": "What minimum order quantity do Irish retailers need to source direct from Chinese factories?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Most retailer orders start meaningfully at €4,000–€10,000 per SKU depending on the product category. Pet supplies, bags, and small electronics start at the lower end (€4k–€8k). Furniture, larger electronics, and fit-out start at €10k–€25k. Below €4k per SKU, factory MOQs become harder to meet without significant price loading. We typically work with retailers running €30k–€500k annual China imports, although first orders can be smaller as a way to test the relationship." }
+      },
+      {
+        "@type": "Question",
+        "name": "How does ordering a full container vs a partial container affect cost?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Full container (FCL) is dramatically more cost-efficient than partial (LCL) on a per-unit basis. A 20ft container holds roughly 28 cubic metres of cargo and ships China-to-Dublin for typically €2,500–€4,500. A 40ft HQ holds roughly 67 cbm for €3,500–€6,000. LCL pricing per cubic metre is usually 2–3x the FCL equivalent. Most retailers reach FCL economics by consolidating multiple SKUs from a single factory or by sharing container space across categories we're sourcing for them in the same window." }
+      },
+      {
+        "@type": "Question",
+        "name": "What product categories work best for retail and wholesale sourcing from China?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Highest-margin recovery is typically in: consumer electronics and accessories, pet supplies and accessories, bags and luggage, fashion and apparel, home goods and kitchenware, beauty and personal care, and small furniture and homewares. These categories carry the highest wholesaler markups in Ireland and have the deepest, most competitive Chinese manufacturing base. Heavy or low-value-density goods (basic packaging, bulky low-margin items) are less suited to factory-direct sourcing because freight cost erodes the margin gain." }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does a typical retail sourcing cycle take from order to landed goods in Ireland?",
+        "acceptedAnswer": { "@type": "Answer", "text": "For stock products from an established factory relationship, typical lead times are 6–10 weeks total: 2–4 weeks production, 4–5 weeks sea freight from China to Dublin Port, 1 week customs clearance and delivery. First orders with a new factory add 2–4 weeks for sampling and approval. Repeat orders run faster because pricing, packing, and shipping are pre-agreed. Urgent restocks can be moved to air freight (5–7 days transit) but pricing increases significantly." }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you handle customs clearance, VAT, and duty for goods arriving in Ireland?",
+        "acceptedAnswer": { "@type": "Answer", "text": "We coordinate full export documentation in China (commercial invoice, packing list, certificate of origin, bill of lading) and work with Irish customs brokers who handle the import-side process at Dublin Port — entering the customs declaration, paying the customs duty (typically 0–12% depending on HS code) and the 23% Irish VAT on the duty-inclusive landed value. The VAT is recoverable for VAT-registered businesses. We provide a landed-cost calculation up-front so there are no surprises on arrival." }
+      }
+    ]
+  }
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} jsonLd={pageSchemas}>
+
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="hero-bg">
+      <img
+        src="/images/retail-wholesale-hero-warehouse.webp"
+        alt="Irish wholesale importer warehouse with Chinese-sourced retail stock — Ériu Sourcing"
+        width="1440"
+        height="810"
+        loading="eager"
+        fetchpriority="high"
+      />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content container">
+      <span class="hero-eyebrow">Retail & Wholesale Importers</span>
+      <h1>Stop buying Chinese stock<br />through Irish wholesalers.</h1>
+      <p class="hero-sub">Factory-direct sourcing for Irish retailers, eCommerce brands, and wholesale importers. Recover 35–60% on COGS, get pre-shipment QC on every container, and CE compliance documented before goods leave China.</p>
+      <div class="hero-actions">
+        <a href="/contact" class="btn btn--white">Get factory pricing →</a>
+        <a href="#categories" class="btn btn--white-outline">See categories</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item">
+          <span class="trust-num">35–60%</span>
+          <span class="trust-label">Typical COGS recovery vs Irish wholesale</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">€4k–€25k</span>
+          <span class="trust-label">Typical SKU order range</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">6–10 wks</span>
+          <span class="trust-label">Repeat order to landed Dublin</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">FCL or LCL</span>
+          <span class="trust-label">Full or shared container, your choice</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE COST CONVERSATION -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="split-grid">
+        <div class="split-content">
+          <span class="section-eyebrow">The cost argument</span>
+          <h2>The wholesale markup is bigger than most retailers realise</h2>
+          <p>A product that costs €10 at the Chinese factory typically reaches an Irish retailer at €17–€24 after passing through a Chinese trading company (+20–40%), a European importer (+15–30%), and an Irish wholesaler (+30–50%). On a €100k annual SKU buy, the markup stack is €70k–€140k of margin that has been added before you took ownership.</p>
+          <p>Factory-direct sourcing — with a service fee, freight, duty, and Irish VAT properly accounted for — typically lands at €10.50–€12 for that same €10 factory unit. The gap goes to your gross margin, your retail price (if you want to undercut competitors), or both.</p>
+          <a href="/why-direct" class="inline-link">See the full cost breakdown →</a>
+        </div>
+        <div class="split-image">
+          <img
+            src="/images/retail-wholesale-invoice-savings.webp"
+            alt="Irish retailer reviewing landed cost vs wholesale invoice savings — Ériu Sourcing"
+            width="640"
+            height="480"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="section" id="categories">
+    <div class="container">
+      <span class="section-eyebrow">Retail-ready categories</span>
+      <h2>The categories where retailers see the biggest gain</h2>
+      <p class="cat-intro">These are the categories where Irish retailer wholesale markups are highest and where the Chinese manufacturing base is deepest. Factory-direct sourcing typically recovers 40–60% on COGS in these areas.</p>
+      <div class="cat-grid">
+        <a href="/source/electronics-from-china-ireland/" class="cat-card">
+          <h3>Electronics & Tech →</h3>
+          <p>Consumer electronics, accessories, small appliances. CE / RoHS verified. 40–55% savings.</p>
+        </a>
+        <a href="/source/pet-supplies-from-china-ireland/" class="cat-card">
+          <h3>Pet Supplies →</h3>
+          <p>Beds, toys, accessories, branded pet products. 40–60% savings. Low entry MOQs.</p>
+        </a>
+        <a href="/source/bags-luggage-from-china-ireland/" class="cat-card">
+          <h3>Bags & Luggage →</h3>
+          <p>Backpacks, handbags, travel luggage, leather goods. 40–60% savings.</p>
+        </a>
+        <a href="/source/fashion-apparel-from-china-ireland/" class="cat-card">
+          <h3>Fashion & Apparel →</h3>
+          <p>Stock fashion and branded apparel. 35–50% savings. 200–500 piece MOQs typical.</p>
+        </a>
+        <a href="/source/furniture-from-china-ireland/" class="cat-card">
+          <h3>Furniture & Homewares →</h3>
+          <p>Residential furniture, outdoor, homewares, kitchenware. 40–55% savings.</p>
+        </a>
+        <a href="/source/" class="cat-card">
+          <h3>All categories →</h3>
+          <p>Browse our full category list — construction, hospitality, modular, fiber optic, and more.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS FOR RETAILERS -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="split-grid split-grid--reverse">
+        <div class="split-image">
+          <img
+            src="/images/retail-wholesale-container-unloading.webp"
+            alt="Container unloading at Dublin Port for Irish wholesale importer — Ériu Sourcing"
+            width="640"
+            height="480"
+            loading="lazy"
+          />
+        </div>
+        <div class="split-content">
+          <span class="section-eyebrow">FCL or LCL</span>
+          <h2>Full container or shared — both work</h2>
+          <p>Full container (FCL) gives the best per-unit freight cost. A 20ft container holds ~28 cubic metres of cargo and ships China-to-Dublin for typically €2,500–€4,500. A 40ft HQ holds ~67 cbm for €3,500–€6,000.</p>
+          <p>If your volume doesn't justify a full container, less-than-container-load (LCL) lets you ship by cubic metre — useful for testing new SKUs or smaller retailers. Per-cbm LCL pricing is typically 2–3× the FCL equivalent.</p>
+          <p>Most retailers we work with hit FCL economics by consolidating multiple SKUs from a single factory, or sharing container space across categories we're sourcing for them in the same window.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE HANDLE -->
+  <section class="section">
+    <div class="container">
+      <div class="products-layout">
+        <div class="products-header">
+          <span class="section-eyebrow">What's included</span>
+          <h2>What Ériu Sourcing handles for retail importers</h2>
+          <p>Everything from factory identification to landed goods in Ireland — managed end-to-end so you can focus on selling, not sourcing.</p>
+        </div>
+        <ul class="products-list">
+          <li><span class="product-check">✓</span><span>Factory shortlisting and on-the-ground vetting</span></li>
+          <li><span class="product-check">✓</span><span>Factory-gate price negotiation</span></li>
+          <li><span class="product-check">✓</span><span>Sample management and approval coordination</span></li>
+          <li><span class="product-check">✓</span><span>Pre-shipment QC inspection (every order)</span></li>
+          <li><span class="product-check">✓</span><span>CE / UKCA / RoHS compliance verification</span></li>
+          <li><span class="product-check">✓</span><span>FCL or LCL freight booking and consolidation</span></li>
+          <li><span class="product-check">✓</span><span>Full export documentation (commercial invoice, BoL, packing list, certificate of origin)</span></li>
+          <li><span class="product-check">✓</span><span>Customs broker coordination at Dublin Port</span></li>
+          <li><span class="product-check">✓</span><span>Landed-cost calculation up-front — no surprises</span></li>
+          <li><span class="product-check">✓</span><span>Reorder management for repeat SKUs</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- IDEAL RETAILER PROFILE -->
+  <section class="section section--emerald">
+    <div class="container--narrow">
+      <span class="section-eyebrow section-eyebrow--light">Who this works best for</span>
+      <h2>Is direct sourcing right for your retail business?</h2>
+      <p>Factory-direct sourcing makes sense when your annual China-sourced purchase volume is at least €30,000–€50,000, when you carry repeat SKUs (or are willing to commit to them), and when your retail or wholesale margins are being squeezed by competitors who buy direct.</p>
+      <p>Common business types we work with: brick-and-mortar retailers replenishing core stock SKUs, eCommerce brands scaling beyond drop-ship economics, wholesale importers serving Irish trade customers, and multi-channel retailers running both physical stores and online platforms.</p>
+      <p>If you're below those volume thresholds, ODM sourcing through Alibaba may still make more sense than us — and we'll tell you that on the first call rather than waste your time.</p>
+      <a href="/contact" class="btn btn--white-outline" style="margin-top:1rem">Ask if direct sourcing fits your business →</a>
+    </div>
+  </section>
+
+  <!-- PRODUCT RANGE IMAGE BREAK -->
+  <section class="section">
+    <div class="container">
+      <div class="split-grid">
+        <div class="split-content">
+          <span class="section-eyebrow">Across the range</span>
+          <h2>One sourcing relationship, multiple categories</h2>
+          <p>Most retailers we work with start with one category — usually their highest-margin stock SKU — and expand into others once the process is proven. The advantage of working with a single sourcing partner across categories is container consolidation, simplified accounting, and one point of contact in China instead of relationships with five different agents.</p>
+          <p>We're equally happy with single-category specialists and multi-category importers. The economics get more attractive the more SKU range you put through the same supply chain.</p>
+          <a href="/case-studies" class="inline-link">See retail case studies →</a>
+        </div>
+        <div class="split-image">
+          <img
+            src="/images/retail-wholesale-product-range.webp"
+            alt="Diverse product range from Chinese factories for Irish retailers — Ériu Sourcing"
+            width="640"
+            height="480"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Common questions</span>
+      <h2>Retail & wholesale sourcing — questions answered</h2>
+      <p class="faq-updated">Last reviewed: May 2026</p>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>How much can Irish retailers save by sourcing direct from China instead of through Irish wholesalers?</summary>
+          <p>Irish retailers typically recover 35–60% on COGS by buying factory-direct instead of through Irish wholesalers. Irish wholesalers usually mark up Chinese goods 40–80% over their landed cost — and the goods have already passed through a Chinese trading company (20–40% margin) and often a European importer (15–30% margin) before reaching them. Factory-direct sourcing removes those layers. The exact saving depends on category and current wholesale pricing, but on most stock SKUs the gap is enough to either rebuild margins, fund discounting against competitors, or both.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What minimum order quantity do Irish retailers need to source direct from Chinese factories?</summary>
+          <p>Most retailer orders start meaningfully at €4,000–€10,000 per SKU depending on the product category. Pet supplies, bags, and small electronics start at the lower end (€4k–€8k). Furniture, larger electronics, and fit-out start at €10k–€25k. Below €4k per SKU, factory MOQs become harder to meet without significant price loading. We typically work with retailers running €30k–€500k annual China imports, although first orders can be smaller as a way to test the relationship.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How does ordering a full container vs a partial container affect cost?</summary>
+          <p>Full container (FCL) is dramatically more cost-efficient than partial (LCL) on a per-unit basis. A 20ft container holds roughly 28 cubic metres of cargo and ships China-to-Dublin for typically €2,500–€4,500. A 40ft HQ holds roughly 67 cbm for €3,500–€6,000. LCL pricing per cubic metre is usually 2–3x the FCL equivalent. Most retailers reach FCL economics by consolidating multiple SKUs from a single factory or by sharing container space across categories we're sourcing for them in the same window.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What product categories work best for retail and wholesale sourcing from China?</summary>
+          <p>Highest-margin recovery is typically in: consumer electronics and accessories, pet supplies and accessories, bags and luggage, fashion and apparel, home goods and kitchenware, beauty and personal care, and small furniture and homewares. These categories carry the highest wholesaler markups in Ireland and have the deepest, most competitive Chinese manufacturing base. Heavy or low-value-density goods (basic packaging, bulky low-margin items) are less suited to factory-direct sourcing because freight cost erodes the margin gain.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How long does a typical retail sourcing cycle take from order to landed goods in Ireland?</summary>
+          <p>For stock products from an established factory relationship, typical lead times are 6–10 weeks total: 2–4 weeks production, 4–5 weeks sea freight from China to Dublin Port, 1 week customs clearance and delivery. First orders with a new factory add 2–4 weeks for sampling and approval. Repeat orders run faster because pricing, packing, and shipping are pre-agreed. Urgent restocks can be moved to air freight (5–7 days transit) but pricing increases significantly.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Do you handle customs clearance, VAT, and duty for goods arriving in Ireland?</summary>
+          <p>We coordinate full export documentation in China (commercial invoice, packing list, certificate of origin, bill of lading) and work with Irish customs brokers who handle the import-side process at Dublin Port — entering the customs declaration, paying the customs duty (typically 0–12% depending on HS code) and the 23% Irish VAT on the duty-inclusive landed value. The VAT is recoverable for VAT-registered businesses. We provide a landed-cost calculation up-front so there are no surprises on arrival.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--emerald">
+    <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">Ready to switch?</span>
+      <h2>See what your next container costs at factory gate.</h2>
+      <p>Send me your top 5 stock SKUs and the wholesale price you're paying. I'll come back with factory-direct pricing for the same products — no obligation, no sales pitch.</p>
+      <a href="/contact" class="btn btn--white-outline" style="margin-top:1rem">Get factory pricing →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  /* HERO */
+  .page-hero {
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+  }
+  .hero-bg { position: absolute; inset: 0; }
+  .hero-bg img { width: 100%; height: 100%; object-fit: cover; object-position: center 40%; }
+  .hero-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(10,28,18,.9) 0%, rgba(10,28,18,.55) 50%, rgba(10,28,18,.2) 100%);
+  }
+  .hero-content { position: relative; z-index: 2; padding: 4rem 0 5rem; max-width: 900px; }
+  .hero-eyebrow {
+    font-size: .8125rem; font-weight: 700; color: rgba(255,255,255,.65);
+    text-transform: uppercase; letter-spacing: .1em; margin-bottom: 1.25rem; display: block;
+  }
+  .hero-content h1 {
+    color: #fff; font-size: clamp(2.25rem, 5vw, 4rem); line-height: 1.05;
+    margin-bottom: 1.5rem; letter-spacing: -.03em;
+  }
+  .hero-sub {
+    font-size: clamp(1rem, 1.5vw, 1.1875rem); color: rgba(255,255,255,.82);
+    line-height: 1.7; margin-bottom: 2rem; max-width: 620px;
+  }
+  .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+  /* TRUST BAR */
+  .trust-bar { background: #fff; border-bottom: 1px solid rgba(15,33,49,.08); padding: 2.5rem 0; }
+  .trust-grid { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
+  .trust-item { display: flex; flex-direction: column; gap: .25rem; flex: 1; min-width: 160px; }
+  .trust-num {
+    font-family: var(--font-body); font-size: clamp(1.25rem, 2.5vw, 1.875rem);
+    font-weight: 700; color: var(--color-emerald); line-height: 1; letter-spacing: -.03em;
+  }
+  .trust-label { font-size: .875rem; color: #5a5a5a; }
+  .trust-divider { width: 1px; height: 48px; background: rgba(15,33,49,.12); flex-shrink: 0; }
+
+  /* SPLITS */
+  .split-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+  .split-grid--reverse { direction: rtl; }
+  .split-grid--reverse > * { direction: ltr; }
+  .split-content h2 { margin-bottom: 1.25rem; }
+  .split-content p { color: #3a3a3a; margin-bottom: 1rem; }
+  .split-image img { width: 100%; height: 420px; object-fit: cover; border-radius: 12px; }
+  .inline-link { color: var(--color-emerald); font-weight: 600; font-size: .9375rem; text-decoration: none; }
+  .inline-link:hover { text-decoration: underline; }
+
+  /* CATEGORIES */
+  .cat-intro { color: var(--color-slate); max-width: 70ch; margin: 1rem 0 2rem; }
+  .cat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+  .cat-card {
+    display: block; padding: 1.5rem; background: var(--color-white);
+    border: 1px solid rgba(15,33,49,.09); border-radius: 12px;
+    text-decoration: none; color: inherit;
+    transition: border-color .15s ease, box-shadow .15s ease, transform .15s ease;
+  }
+  .cat-card:hover { border-color: var(--color-emerald); box-shadow: 0 4px 16px rgba(26,83,62,.08); transform: translateY(-2px); }
+  .cat-card h3 { font-size: 1.0625rem; color: var(--color-navy); margin: 0 0 .5rem; }
+  .cat-card p { font-size: .875rem; color: var(--color-slate); margin: 0; line-height: 1.55; }
+
+  /* PRODUCTS LAYOUT */
+  .products-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+  .products-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .875rem; }
+  .products-list li { display: flex; align-items: flex-start; gap: .75rem; font-size: 1rem; color: var(--color-navy); line-height: 1.5; }
+  .product-check { color: var(--color-emerald); font-weight: 700; flex-shrink: 0; margin-top: .1em; }
+  .products-header p { color: var(--color-slate); margin-top: 1rem; }
+
+  /* FAQ */
+  .faq-updated { font-size: .8125rem; color: #888; margin: .25rem 0 1.5rem; }
+  .faq-list { display: flex; flex-direction: column; gap: 0; margin-top: 1rem; }
+  .faq-item { border-bottom: 1px solid rgba(15,33,49,.1); padding: 0; }
+  .faq-item summary {
+    font-weight: 600; font-size: 1rem; color: var(--color-navy); cursor: pointer;
+    padding: 1.25rem 0; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+  }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after {
+    content: '+'; font-size: 1.25rem; font-weight: 300; color: var(--color-emerald);
+    flex-shrink: 0; transition: transform .2s ease;
+  }
+  .faq-item[open] summary::after { transform: rotate(45deg); }
+  .faq-item p { padding: 0 0 1.25rem; color: #4a4a4a; font-size: .9375rem; margin: 0; line-height: 1.65; }
+
+  @media (max-width: 900px) {
+    .split-grid, .split-grid--reverse { grid-template-columns: 1fr; gap: 2rem; direction: ltr; }
+    .split-image img { height: 280px; }
+    .products-layout { grid-template-columns: 1fr; gap: 2rem; }
+    .cat-grid { grid-template-columns: 1fr 1fr; }
+    .trust-divider { display: none; }
+  }
+  @media (max-width: 600px) {
+    .cat-grid { grid-template-columns: 1fr; }
+    .hero-actions { flex-direction: column; }
+    .trust-grid { gap: 1rem; }
+  }
+</style>
