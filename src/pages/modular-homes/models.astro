@@ -20,9 +20,9 @@ const models = [
     image: "/images/modular-homes-20ft-expandable.webp",
     imageAlt: "20ft expandable container home exterior — folds to 2.2 m wide for shipping, expands to 6.3 m on site",
     bestFor: "Studio / 1-bed auxiliary dwelling, granny flat, garden office",
-    floorplanImage: "/images/modular-homes-floorplan-20ft-layouts.webp",
-    floorplanAlt: "20ft expandable container home — six available floor plan layouts: 1-bed, 2-bed and 3-bed configurations",
-    floorplanCaption: "Six standard layouts available — 1, 2 or 3 bedrooms with living room and bathroom. Custom partitioning on request."
+    floorplanImage: "/images/modular-homes-floorplan-layouts.webp",
+    floorplanAlt: "20ft expandable container home floor plans — empty shell, one-bedroom and two-bedroom layouts",
+    floorplanCaption: "Three standard 20ft layouts — empty shell, 1-bed and 2-bed. Custom partitioning on request."
   },
   {
     id: "30ft",
@@ -54,9 +54,9 @@ const models = [
     image: "/images/modular-homes-40ft-expandable.webp",
     imageAlt: "40ft expandable container home exterior — full-size 3-bedroom modular unit shipped factory-direct to Ireland",
     bestFor: "3-bed family home, larger holiday let, modular office",
-    floorplanImage: "/images/modular-homes-floorplan-40ft-layouts.webp",
-    floorplanAlt: "40ft expandable container home — four available floor plan layouts: 2-bed and 3-bed configurations at 70 m²",
-    floorplanCaption: "Four standard layouts available — 2 or 3 bedrooms. Custom configurations on request."
+    floorplanImage: "/images/modular-homes-floorplan-layouts.webp",
+    floorplanAlt: "40ft expandable container home floor plans — empty shell, two-bedroom and three-bedroom layouts",
+    floorplanCaption: "Three standard 40ft layouts — empty shell, 2-bed and 3-bed. Custom configurations on request."
   },
   {
     id: "20ft700",
@@ -299,15 +299,42 @@ const pageSchemas = [
       <span class="section-eyebrow">Inside the unit</span>
       <h2>Factory-fitted interiors</h2>
       <p class="table-intro">Tier 2 (Turnkey) and Tier 3 (Furnished Living) units leave the factory with bathroom, kitchen and flooring installed. You connect services on site — no fit-out crew required.</p>
-      <div class="interior-grid">
-        <figure class="interior-figure">
+      <div class="interior-grid interior-grid--multi">
+        <figure class="interior-figure interior-figure--main">
           <img
             src="/images/modular-homes-interior-fitted.webp"
-            alt="Expandable container home interior — fitted bathroom with washing machine, vanity unit and toilet; open-plan living area with kitchen and wood-effect flooring"
-            width="800" height="600" loading="lazy"
+            alt="Expandable container home interior — kitchen, corner glazing, open-plan living and dining areas fitted out at factory"
+            width="800" height="560" loading="lazy"
             onerror="this.closest('figure').style.display='none'"
           />
-          <figcaption>Tier 2 fitted interior — bathroom, kitchen units and flooring factory-installed</figcaption>
+          <figcaption>Tier 2 fitted interior — living, kitchen and dining areas</figcaption>
+        </figure>
+        <figure class="interior-figure">
+          <img
+            src="/images/modular-homes-interior-kitchen.webp"
+            alt="Factory-fitted kitchen in expandable container home — grey units, marble-effect worktop, black-frame window"
+            width="560" height="420" loading="lazy"
+            onerror="this.closest('figure').style.display='none'"
+          />
+          <figcaption>Fitted kitchen — units, worktop and sink factory-installed</figcaption>
+        </figure>
+        <figure class="interior-figure">
+          <img
+            src="/images/modular-homes-interior-shell.webp"
+            alt="Container home shell interior — white kitchen cabinets, light wood-effect floor, fitted ceiling panels and windows"
+            width="560" height="420" loading="lazy"
+            onerror="this.closest('figure').style.display='none'"
+          />
+          <figcaption>Shell unit with fitted cabinetry — ready for services connection on site</figcaption>
+        </figure>
+        <figure class="interior-figure interior-figure--wide">
+          <img
+            src="/images/modular-homes-interior-40ft.webp"
+            alt="40ft expandable container home interior corridor — full depth of unit showing multiple rooms and light wood flooring"
+            width="800" height="480" loading="lazy"
+            onerror="this.closest('figure').style.display='none'"
+          />
+          <figcaption>40ft interior depth — full length view showing room partitioning and natural light</figcaption>
         </figure>
       </div>
       <div class="interior-features">
@@ -436,8 +463,13 @@ const pageSchemas = [
 
   /* INTERIORS */
   .interior-grid { margin-bottom: 2rem; }
+  .interior-grid--multi { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .interior-figure--main { grid-column: 1 / -1; }
+  .interior-figure--wide { grid-column: 1 / -1; }
   .interior-figure { margin: 0; border-radius: 12px; overflow: hidden; border: 1px solid rgba(15,33,49,.08); }
-  .interior-figure img { width: 100%; height: auto; display: block; max-height: 520px; object-fit: cover; }
+  .interior-figure img { width: 100%; height: 320px; display: block; object-fit: cover; }
+  .interior-figure--main img { height: 420px; }
+  .interior-figure--wide img { height: 280px; }
   .interior-figure figcaption { padding: .875rem 1.25rem; font-size: .875rem; color: var(--color-slate); background: var(--color-bg-alt); text-align: center; }
   .interior-features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
   .int-feature { font-size: .9rem; line-height: 1.6; color: #3a4a56; background: #F7F6F2; border-radius: 8px; padding: 1rem 1.125rem; }
