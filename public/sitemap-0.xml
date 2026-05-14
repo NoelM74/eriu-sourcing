@@ -6,17 +6,17 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
   <!-- Core pages -->
-  <url><loc>https://eriusourcing.com/</loc><lastmod>2026-04-21</lastmod></url>
-  <url><loc>https://eriusourcing.com/about/</loc><lastmod>2026-04-15</lastmod></url>
-  <url><loc>https://eriusourcing.com/how-it-works/</loc><lastmod>2026-04-15</lastmod></url>
-  <url><loc>https://eriusourcing.com/why-direct/</loc><lastmod>2026-04-15</lastmod></url>
-  <url><loc>https://eriusourcing.com/china-network/</loc><lastmod>2026-04-15</lastmod></url>
-  <url><loc>https://eriusourcing.com/case-studies/</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://eriusourcing.com/</loc><lastmod>2026-05-14</lastmod></url>
+  <url><loc>https://eriusourcing.com/about/</loc><lastmod>2026-05-14</lastmod></url>
+  <url><loc>https://eriusourcing.com/how-it-works/</loc><lastmod>2026-05-14</lastmod></url>
+  <url><loc>https://eriusourcing.com/why-direct/</loc><lastmod>2026-05-14</lastmod></url>
+  <url><loc>https://eriusourcing.com/china-network/</loc><lastmod>2026-05-14</lastmod></url>
+  <url><loc>https://eriusourcing.com/case-studies/</loc><lastmod>2026-05-14</lastmod></url>
   <url><loc>https://eriusourcing.com/contact/</loc><lastmod>2026-04-15</lastmod></url>
-  <url><loc>https://eriusourcing.com/product-categories/</loc><lastmod>2026-04-21</lastmod></url>
+  <url><loc>https://eriusourcing.com/product-categories/</loc><lastmod>2026-05-14</lastmod></url>
 
   <!-- Blog index -->
-  <url><loc>https://eriusourcing.com/blog/</loc><lastmod>2026-04-21</lastmod></url>
+  <url><loc>https://eriusourcing.com/blog/</loc><lastmod>2026-05-14</lastmod></url>
 
   <!-- Blog posts (published only) -->
   <url><loc>https://eriusourcing.com/blog/how-to-source-products-direct-from-china-to-ireland-2026/</loc><lastmod>2026-01-15</lastmod></url>
@@ -30,16 +30,33 @@
   <url><loc>https://eriusourcing.com/blog/private-label-manufacturing-china-irish-brands-oem-vs-odm/</loc><lastmod>2026-04-14</lastmod></url>
   <url><loc>https://eriusourcing.com/blog/shipping-china-to-ireland-freight-customs-2026/</loc><lastmod>2026-01-20</lastmod></url>
   <url><loc>https://eriusourcing.com/blog/how-to-pay-chinese-suppliers-safely-ireland/</loc><lastmod>2026-04-21</lastmod></url>
+  <url><loc>https://eriusourcing.com/blog/pre-shipment-inspection-china-irish-importers-quality-control/</loc><lastmod>2026-04-28</lastmod></url>
+  <url><loc>https://eriusourcing.com/blog/how-to-vet-chinese-suppliers-factory-audit-verification-ireland/</loc><lastmod>2026-05-05</lastmod></url>
+  <url><loc>https://eriusourcing.com/blog/ireland-april-2026-back-garden-home-rules-explained/</loc><lastmod>2026-05-14</lastmod></url>
 
   <!-- Source category pages -->
   <url><loc>https://eriusourcing.com/source/</loc><lastmod>2026-04-15</lastmod></url>
   <url><loc>https://eriusourcing.com/source/electronics-from-china-ireland/</loc><lastmod>2026-04-15</lastmod></url>
   <url><loc>https://eriusourcing.com/source/furniture-from-china-ireland/</loc><lastmod>2026-04-15</lastmod></url>
-  <url><loc>https://eriusourcing.com/source/fashion-apparel-from-china-ireland/</loc><lastmod>2026-04-15</lastmod></url>
   <url><loc>https://eriusourcing.com/source/construction-materials-from-china-ireland/</loc><lastmod>2026-04-15</lastmod></url>
   <url><loc>https://eriusourcing.com/source/hospitality-fitout-from-china-ireland/</loc><lastmod>2026-04-15</lastmod></url>
   <url><loc>https://eriusourcing.com/source/pet-supplies-from-china-ireland/</loc><lastmod>2026-04-15</lastmod></url>
-  <url><loc>https://eriusourcing.com/source/bags-luggage-from-china-ireland/</loc><lastmod>2026-04-15</lastmod></url>
   <url><loc>https://eriusourcing.com/source/modular-buildings-from-china-ireland/</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://eriusourcing.com/source/retail-wholesale-from-china-ireland/</loc><lastmod>2026-05-14</lastmod></url>
+  <url><loc>https://eriusourcing.com/source/private-label-from-china-ireland/</loc><lastmod>2026-05-14</lastmod></url>
+
+  <!-- Fiber optic cable pages -->
+  <url><loc>https://eriusourcing.com/source/fiber-optic-cable/</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://eriusourcing.com/source/fiber-optic-cable/g657a2/</loc><lastmod>2026-04-15</lastmod></url>
+  <url><loc>https://eriusourcing.com/source/fiber-optic-cable/opgw/</loc><lastmod>2026-04-15</lastmod></url>
+
+  <!-- Modular Homes section -->
+  <url><loc>https://eriusourcing.com/modular-homes/</loc><lastmod>2026-05-14</lastmod></url>
+  <url><loc>https://eriusourcing.com/modular-homes/models/</loc><lastmod>2026-05-14</lastmod></url>
+  <url><loc>https://eriusourcing.com/modular-homes/cost/</loc><lastmod>2026-05-14</lastmod></url>
+  <url><loc>https://eriusourcing.com/modular-homes/back-garden-homes-ireland/</loc><lastmod>2026-05-14</lastmod></url>
+  <url><loc>https://eriusourcing.com/modular-homes/auxiliary-dwelling-ireland/</loc><lastmod>2026-05-14</lastmod></url>
+  <url><loc>https://eriusourcing.com/modular-homes/building-regulations-ireland/</loc><lastmod>2026-05-14</lastmod></url>
+  <url><loc>https://eriusourcing.com/modular-homes/factory-visits/</loc><lastmod>2026-05-14</lastmod></url>
 
 </urlset>

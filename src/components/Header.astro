@@ -17,9 +17,9 @@ const modularNavLinks = [
   { href: '/modular-homes/',                              label: 'Overview' },
   { href: '/modular-homes/models/',                       label: 'Models' },
   { href: '/modular-homes/cost/',                         label: 'Cost' },
-  { href: '/modular-homes/back-garden-homes-ireland/',    label: 'Back-Garden Homes' },
+  { href: '/modular-homes/back-garden-homes-ireland/',    label: 'Back Gardens' },
   { href: '/modular-homes/building-regulations-ireland/', label: 'Building Regs' },
-  { href: '/modular-homes/auxiliary-dwelling-ireland/',   label: 'Auxiliary Dwelling' },
+  { href: '/modular-homes/auxiliary-dwelling-ireland/',   label: 'Aux. Dwelling' },
   { href: '/modular-homes/factory-visits/',               label: 'Factory Visits' },
   { href: '/',                                            label: '← Ériu Sourcing' },
 ];
@@ -239,7 +239,7 @@ const navLinks = isModular ? modularNavLinks : sourcingNavLinks;
     font-weight: 500;
     color: #3a3a3a;
     text-decoration: none;
-    padding: 0.5rem 0.625rem;
+    padding: 0.5rem 0.5rem;
     border-radius: 6px;
     min-height: 44px;
     display: flex;
@@ -343,7 +343,7 @@ const navLinks = isModular ? modularNavLinks : sourcingNavLinks;
   }
 
   /* Responsive */
-  @media (max-width: 1020px) {
+  @media (max-width: 1100px) {
     .nav-desktop,
     .nav-cta {
       display: none;

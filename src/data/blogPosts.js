@@ -1500,7 +1500,7 @@ export const blogPosts = [
   {
     slug: 'ireland-april-2026-back-garden-home-rules-explained',
     title: "Ireland's April 2026 Back-Garden Home Rules, Explained",
-    metaTitle: "Ireland's April 2026 Back-Garden Home Rules, Explained | Ériu Modular Homes",
+    metaTitle: "Ireland's April 2026 Back-Garden Home Rules Explained | Ériu",
     metaDescription: "What changed on 21 April 2026 when the Exempted Development Regulations reached Cabinet — the 45 m² auxiliary habitable dwelling, the Rent-a-Room yield, and what planning exemption does and doesn't mean for your project.",
     h1: "Ireland's April 2026 Back-Garden Home Rules, Explained",
     eyebrow: 'Regulations Explained',
@@ -1512,7 +1512,7 @@ export const blogPosts = [
     estimatedWordCount: 2200,
     publishDate: '2026-05-14',
     draft: false,
-    body: `<p>On 21 April 2026, Ministers James Browne and Darragh O'Brien brought a draft of new Exempted Development Regulations to Cabinet. The announcement landed in every Irish property conversation that week — and not without reason. Four overlapping planning exemptions, arriving simultaneously, represent the most significant change to Irish residential planning in a generation.</p>
+    body: `<p>On 21 April 2026, Ministers Browne and Cummins brought a draft of new Exempted Development Regulations to Cabinet. The announcement landed in every Irish property conversation that week — and not without reason. Four overlapping planning exemptions, arriving simultaneously, represent the most significant change to Irish residential planning in a generation.</p>
 
 <p>This guide explains what actually changed, what it means for your back garden, and — critically — what planning exemption does and does not cover.</p>
 
@@ -1560,7 +1560,7 @@ export const blogPosts = [
 <ul>
   <li><strong>You still need a Commencement Notice</strong> — submitted to your local authority through the Building Control Management System (BCMS) at least 14 days before works begin. This is a legal requirement and failure to submit is an offence.</li>
   <li><strong>The unit must comply with TGD Parts A to M</strong> — the Technical Guidance Documents covering structure, fire, moisture, materials, sound, ventilation, hygiene, drainage, heat, stairs, energy and access.</li>
-  <li><strong>A BER certificate at A3 or better is required</strong> — TGD Part L requires every new dwelling to achieve a minimum A3 Building Energy Rating. A BER assessment by an SEAI-registered assessor must be completed before the unit can be lawfully occupied.</li>
+  <li><strong>A BER certificate is required</strong> — TGD Part L requires new dwellings to meet near-zero energy building (NZEB) performance, in practice an A2 rating. A BER assessment by an SEAI-registered assessor must be completed before the unit can be lawfully occupied.</li>
   <li><strong>A Certificate of Compliance is required on completion</strong> — from the assigned certifier confirming the works were carried out in accordance with the Building Regulations.</li>
 </ul>
 
@@ -1627,7 +1627,7 @@ export const blogPosts = [
     faq: [
       { q: 'Do I need planning permission for a modular home in my back garden under the April 2026 regulations?', a: 'No — if the unit is between 32 and 45 m², detached, in the back garden of your principal private residence, and connected to the principal house services, the April 2026 Exempted Development Regulations exempt it from planning permission. You still need a Commencement Notice, Building Regulations compliance, and a BER certificate before occupation.' },
       { q: 'Can I rent out a back-garden modular home tax-free?', a: 'If the auxiliary dwelling is linked to the principal house services and occupied under the Rent-a-Room scheme, rental income up to €14,000 per year is exempt from income tax, USC and PRSI. The draft regulations also propose carving the auxiliary dwelling out of the Residential Tenancies Acts when occupied under Rent-a-Room. Tax treatment should be confirmed with your accountant.' },
-      { q: "Does planning exemption mean I don't need building regulations?", a: 'No. Planning exemption and building regulations exemption are separate legal frameworks. Every back-garden auxiliary habitable dwelling must meet the Irish Building Regulations (TGD Parts A–M), require a Commencement Notice, achieve a BER A3 rating, and have a Certificate of Compliance issued on completion. There is no exemption from building regulations for a residential structure.' },
+      { q: "Does planning exemption mean I don't need building regulations?", a: 'No. Planning exemption and building regulations exemption are separate legal frameworks. Every back-garden auxiliary habitable dwelling must meet the Irish Building Regulations (TGD Parts A–M), require a Commencement Notice, meet near-zero energy building (NZEB) performance for its BER, and have a Certificate of Compliance issued on completion. There is no exemption from building regulations for a residential structure.' },
       { q: 'How much does a back-garden modular home cost in Ireland?', a: 'Irish-built units typically range from €110,000–€180,000 for a finished 2-bed 32–45 m² unit. Factory-direct units from Ériu Modular Homes, sourced from Henan Province and CE-compliant, typically land 25–45% below that figure. Site costs — foundation, crane, services connection, BER — are additional and broadly the same regardless of supplier.' },
     ],
     relatedSlugs: [],
