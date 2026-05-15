@@ -21,29 +21,41 @@ const sourcingNavLinks = [
       { href: '/china-network/', label: 'China Network' },
       { href: '/case-studies/',  label: 'Case Studies' },
       { href: '/about/',         label: 'About' },
+      { href: '/blog/',          label: 'Blog' },
     ],
   },
 ];
 
 const modularNavLinks = [
-  { href: '/modular-homes/',                              label: 'Overview' },
-  { href: '/modular-homes/models/',                       label: 'Models' },
-  { href: '/modular-homes/cost/',                         label: 'Cost' },
-  { href: '/modular-homes/back-garden-homes-ireland/',    label: 'Back Gardens' },
-  { href: '/modular-homes/building-regulations-ireland/', label: 'Building Regs' },
-  { href: '/modular-homes/auxiliary-dwelling-ireland/',   label: 'Aux. Dwelling' },
-  { href: '/modular-homes/factory-visits/',               label: 'Factory Visits' },
-  { href: '/',                                            label: '← Ériu Sourcing' },
+  { href: '/modular-homes/', label: 'Overview', exact: true },
+  {
+    label: 'The Homes',
+    children: [
+      { href: '/modular-homes/models/',         label: 'Models' },
+      { href: '/modular-homes/cost/',           label: 'Cost & Pricing' },
+      { href: '/modular-homes/factory-visits/', label: 'Factory Visits' },
+    ],
+  },
+  {
+    label: 'Planning & Rules',
+    children: [
+      { href: '/modular-homes/back-garden-homes-ireland/',    label: 'Back-Garden Homes' },
+      { href: '/modular-homes/building-regulations-ireland/', label: 'Building Regulations' },
+      { href: '/modular-homes/auxiliary-dwelling-ireland/',   label: 'Auxiliary Dwelling' },
+    ],
+  },
+  { href: '/', label: '← Ériu Sourcing' },
 ];
 
 const pathname = Astro.url.pathname;
 const isModular = pathname.startsWith('/modular-homes');
 const navLinks = isModular ? modularNavLinks : sourcingNavLinks;
 
-const isActive = (href) => {
+const isActive = (href, exact = false) => {
   if (!href) return false;
   if (href === '/') return pathname === '/';
   const base = href.replace(/\/$/, '');
+  if (exact) return pathname === base + '/' || pathname === base;
   return pathname === base + '/' || pathname.startsWith(base + '/');
 };
 const isGroupActive = (link) => !!link.children?.some(c => isActive(c.href));
@@ -98,7 +110,7 @@ const isGroupActive = (link) => !!link.children?.some(c => isActive(c.href));
             </li>
           ) : (
             <li class="nav-item">
-              <a href={link.href} class={isActive(link.href) ? 'active' : ''}>
+              <a href={link.href} class={isActive(link.href, link.exact) ? 'active' : ''}>
                 {link.label}
               </a>
             </li>
@@ -149,7 +161,7 @@ const isGroupActive = (link) => !!link.children?.some(c => isActive(c.href));
           </li>
         ) : (
           <li>
-            <a href={link.href} class={isActive(link.href) ? 'active' : ''}>
+            <a href={link.href} class={isActive(link.href, link.exact) ? 'active' : ''}>
               {link.label}
             </a>
           </li>
