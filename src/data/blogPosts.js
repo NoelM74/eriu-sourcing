@@ -881,6 +881,116 @@ export const blogPosts = [
     estimatedWordCount: 2600,
     publishDate: '2026-05-20',
     draft: true,
+    body: `<p>Most Irish importers can tell you the factory price of the goods they buy from China. Far fewer can tell you the landed cost — and that second number is the one that decides whether the deal actually makes money.</p>
+
+<p>The factory quote is the start of the calculation, not the end of it. Between the factory gate in Guangdong and your stockroom in Ireland sit at least eight separate costs. Importers who do not model them in advance discover them one invoice at a time — and by then the order is already on the water.</p>
+
+<p>This guide breaks down every component of landed cost for goods moving from China to Ireland in 2026, with real figures, and finishes with a worked example on a €50,000 electronics order.</p>
+
+<h2>The components of landed cost (what most people miss)</h2>
+
+<p>Landed cost is the total you have paid per unit by the time goods are sitting in your premises in Ireland, ready to sell or use. It is the only honest basis for a margin calculation.</p>
+
+<p>The full stack looks like this: factory price (usually quoted FOB), international sea or air freight, marine cargo insurance, Irish customs duty, Irish import VAT, pre-shipment inspection, sourcing agent fees where used, customs clearance and brokerage handling, and inland delivery from Dublin Port to your door. Currency movement sits across all of it.</p>
+
+<p>The two costs Irish importers most often forget are duty — because the factory never mentions it — and the cash-flow cost of VAT, which is recoverable but still has to be funded in the meantime. Both are covered below.</p>
+
+<h2>Factory-gate price: how to read an FOB quote</h2>
+
+<p>Almost every quote you receive from a Chinese factory will be FOB — Free On Board — a named Chinese port, usually Shenzhen, Ningbo or Shanghai. FOB means the factory price includes getting the goods to the port, through Chinese export clearance, and loaded onto the vessel. Everything after that point is yours.</p>
+
+<p>That is the figure to anchor on, but read the rest of the quote carefully. Check whether the price includes export packaging suitable for sea freight, whether it is quoted per unit or per carton, what the minimum order quantity is, and what the lead time is from deposit to goods at the port. A low FOB price with a 90-day lead time and flimsy packaging is not the bargain it looks like.</p>
+
+<p>You will occasionally see EXW (Ex Works) quotes, where the price is the goods at the factory door and you pay for inland Chinese transport and export clearance on top. EXW quotes look cheaper than FOB and are not. If you are comparing two factories, make sure you are comparing the same Incoterm.</p>
+
+<figure class="article-figure">
+  <img src="/images/the-fob-handover.webp" alt="Goods loaded onto a vessel at a Chinese port — the FOB handover point between factory and Irish importer" loading="lazy" width="1280" height="720">
+  <figcaption>FOB ends at the ship's rail — every cost after that point belongs to the Irish importer</figcaption>
+</figure>
+
+<h2>Sea freight costs China to Ireland in 2026 (LCL vs FCL)</h2>
+
+<p>For most Irish importers, sea freight is the second-largest line on the landed cost sheet after the goods themselves.</p>
+
+<p>A full container load (FCL) is priced per container. In 2026, a 20ft container from Guangdong ports to Dublin runs roughly €2,500 to €5,500, and a 40ft container roughly €3,500 to €7,000, depending on carrier, season and the state of the freight market. Rates have stabilised well below the Covid-era peaks but remain volatile around Chinese New Year and the pre-Christmas peak.</p>
+
+<p>A less-than-container load (LCL) is used when your order does not fill a container. It is priced per cubic metre — typically €80 to €150 per CBM China to Ireland in 2026 — plus fixed consolidation and deconsolidation fees at each end. LCL also adds five to eight days at the origin port while the container is filled with other shippers' goods.</p>
+
+<p>The crossover point where FCL becomes cheaper per unit than LCL is usually around 13 to 16 CBM. Below that, LCL makes sense; above it, you are paying for air you are not shipping. Ask your freight forwarder to quote both for any borderline shipment.</p>
+
+<p>Add marine cargo insurance to the freight line: typically 0.3 to 0.5 per cent of the shipment value. On a €50,000 shipment that is €150 to €250 — a small cost against the real risk of a container lost or damaged at sea.</p>
+
+<h2>Customs duty rates for Ireland: how to find your commodity code</h2>
+
+<p>Customs duty is the cost the factory will never mention, because the factory does not pay it — you do, at Dublin Port, before the goods are released.</p>
+
+<p>The duty rate is set by the goods' commodity code, also called the HS or TARIC code. Every product category has one, and the rate attached to it ranges from 0 per cent to over 12 per cent. As a rough guide: many raw materials and a good deal of electronics come in at 0 per cent; furniture sits around 0 to 5.6 per cent; clothing and textiles run 8 to 12 per cent; some construction products and finished metal goods reach 10 to 12 per cent. Anti-dumping duties apply to specific categories — certain steel products, e-bikes, ceramics — and can be considerably higher.</p>
+
+<p>You can look up indicative rates on the EU TARIC database or Revenue's classification tool, but the safe route is to have your customs broker confirm the code before the goods ship. Duty is charged on the CIF value — the cost of the goods plus freight plus insurance — not the FOB price alone, so the freight cost increases the duty cost slightly as well.</p>
+
+<p>Misclassifying goods to get a lower rate is not a saving. It is a compliance exposure that Revenue can assess retrospectively, with interest and penalties.</p>
+
+<h2>VAT on imports: how it works and when you reclaim it</h2>
+
+<p>Irish import VAT is charged at 23 per cent for most goods, calculated on the CIF value plus the customs duty. It is the largest single number on the landed cost sheet — and, for VAT-registered businesses, the one that ultimately washes out.</p>
+
+<p>If your business is VAT-registered, import VAT is reclaimable on your next VAT return, the same as VAT on any domestic purchase. The catch is timing. Without any relief in place, you pay the VAT at the port and wait until your next bi-monthly return to recover it. On a large shipment that is a meaningful amount of working capital tied up for weeks.</p>
+
+<p>Postponed VAT Accounting (PVA) solves this. Registered with Revenue, PVA lets you account for the import VAT on your return rather than paying it in cash at the port — you declare it and reclaim it in the same return, so the cash impact is nil. Any Irish business importing regularly should have PVA set up before its first significant shipment lands.</p>
+
+<p>If you are not VAT-registered, the 23 per cent is a real, unrecoverable cost and must sit in your landed cost model as such.</p>
+
+<figure class="article-figure">
+  <img src="/images/dublin-port-container-ship-arrival-gantry-crane-customs-freight-ireland.webp" alt="Container ship arriving at Dublin Port with gantry cranes — the point at which Irish duty and import VAT fall due" loading="lazy" width="1280" height="720">
+  <figcaption>At Dublin Port, duty and import VAT fall due before goods are released — costs the factory quote never showed</figcaption>
+</figure>
+
+<h2>Pre-shipment inspection: cost vs risk calculation</h2>
+
+<p>Pre-shipment inspection (PSI) is a cost most first-time importers try to cut. It is almost always a mistake.</p>
+
+<p>A third-party PSI in China costs roughly €250 to €450 for a standard one-day inspection. The inspector checks the goods against your approved sample, verifies quantities, and confirms packaging and labelling are correct for the Irish market — while the goods are still in the factory and problems can still be fixed.</p>
+
+<p>On a €50,000 order, that inspection is under one per cent of the order value. The risk it covers is a full shipment of goods that do not match the sample, arriving in Dublin five weeks later with your money already paid. Framed as a percentage of the order, PSI is the cheapest insurance in the entire process.</p>
+
+<h2>Sourcing agent fees: what is reasonable</h2>
+
+<p>If you use a sourcing agent, their fee is a landed cost line like any other. Agents charge either a commission — typically 3 to 8 per cent of order value — or a fixed project fee.</p>
+
+<p>A fixed fee is generally better aligned with your interests: a commission agent earns more when your order costs more, which is the wrong incentive when part of their job is to negotiate the price down. Either way, the test is whether the agent's fee is smaller than the value they add — in price negotiation, in catching quality problems before shipment, and in not losing a deposit to a supplier who turns out not to be a factory at all.</p>
+
+<p>For a first order above roughly €15,000, the agent fee usually pays for itself several times over. Below that, many importers manage directly.</p>
+
+<h2>Currency risk and how to manage it</h2>
+
+<p>Chinese factories quote in US dollars far more often than euro. That means the period between agreeing a price and paying the balance is exposed to the EUR/USD rate.</p>
+
+<p>On a typical 60 to 90 day cycle from deposit to final payment, a two to four per cent currency move is entirely normal — and on a €50,000 order, four per cent is €2,000 of margin that has nothing to do with sourcing. For occasional importers this is just noise to be aware of. For businesses importing regularly, it is worth talking to your bank or an FX provider about a forward contract that fixes the rate at the point you agree the order.</p>
+
+<h2>A worked example: electronics order, €50,000 FOB</h2>
+
+<p>Put it together on a real order. An Irish business places a €50,000 FOB Shenzhen order for consumer electronics, shipping FCL in a single 40ft container.</p>
+
+<p>Factory price (FOB Shenzhen): €50,000. Sea freight to Dublin (40ft FCL): €4,500. Marine insurance at 0.4 per cent: €200. The CIF value is therefore €54,700. Customs duty — assume 0 per cent for this electronics category, but always confirm the code: €0. Import VAT at 23 per cent on CIF plus duty: €12,581 — funded at the port, or neutralised entirely with PVA. Pre-shipment inspection: €400. Sourcing agent fixed fee: €2,000. Customs clearance and brokerage: €150. Inland delivery, Dublin Port to premises: €250.</p>
+
+<p>Landed cost excluding recoverable VAT: about €57,500. That is a landed cost multiplier of roughly 1.15 on the FOB price. Change the duty rate to 6 per cent — as it would be for many other categories — and the multiplier moves to about 1.22. Use LCL freight instead of FCL on a part-container order and it climbs further again.</p>
+
+<p>The lesson is not the exact number. It is that the honest cost of this order is 15 to 25 per cent above the figure the factory quoted — and every part of that gap is predictable before you commit.</p>
+
+<figure class="article-figure">
+  <img src="/images/the-irish-importers-landed-cost-calculation.webp" alt="Irish importer working through a landed cost calculation — factory price, freight, duty, VAT and fees" loading="lazy" width="1280" height="720">
+  <figcaption>Build the landed cost model before you commit to a factory price — not after the order is on the water</figcaption>
+</figure>
+
+<h2>When the numbers do not work — and what to do instead</h2>
+
+<p>Sometimes the landed cost model kills the deal. The duty rate is higher than expected, the order is too small to ship economically, or the factory saving is real but thin once freight and VAT financing are layered on. That is the model doing its job.</p>
+
+<p>When the numbers are marginal, there are usually three levers. Increase the order size so freight is spread over more units and FCL economics take over. Consolidate multiple product lines into one shipment. Or revisit the factory price itself — a saving negotiated at the factory gate flows through every line of the landed cost calculation below it.</p>
+
+<p>What you should not do is run the deal on the FOB price and hope the rest stays small. The importers who get into trouble are not the ones whose numbers did not work. They are the ones who never built the numbers.</p>
+
+<p>If you want a landed cost breakdown for a specific product and order size before you commit, <a href="/contact">get in touch</a>. Ériu Sourcing operates from Zhengzhou and Shenzhen and quotes Irish importers on a full landed cost basis — factory price, freight, duty, VAT and all — so the number you plan with is the number you pay.</p>`,
     excerpt: 'Most Irish businesses calculate China import savings on the factory price alone. They forget freight, customs duty, VAT, inspection, currency risk, and the cost of the time it takes. Here is how to build an accurate landed cost model before you commit.',
     image: '/images/hero-china-factory-floor.webp',
     imageAlt: 'China factory floor — calculating the real landed cost of imports to Ireland',
@@ -925,6 +1035,81 @@ export const blogPosts = [
     estimatedWordCount: 1800,
     publishDate: '2026-06-03',
     draft: true,
+    body: `<p>Search for a China sourcing agent and you will find hundreds of websites that look more or less identical. Most promise the same things in the same words. Very few explain what they actually do between the day you brief them and the day your goods arrive in Ireland.</p>
+
+<p>The honest answer is that a good sourcing agent is not a middleman who forwards your emails to a factory and adds a margin. That is a trading company. A sourcing agent is the person standing on the factory floor on your behalf — and the gap between those two things is where Irish importers either save money or lose it.</p>
+
+<h2>What a sourcing agent does (and does not do)</h2>
+
+<p>A sourcing agent works for you, the buyer, and is paid by you. Their job is to get you the right product, from a verified factory, at a fair price, inspected before it ships. They do not own the goods, they do not mark them up, and they do not have a stake in you buying the most expensive option.</p>
+
+<p>A trading company does the opposite. It buys from the factory, sells to you, and the margin is the business model. It is not a criminal arrangement — plenty of trading companies are perfectly reliable — but you are paying an intermediary's margin and you have no direct line to the factory making your goods.</p>
+
+<p>The simplest test: a sourcing agent will tell you which factory is making your product and let you engage with the production reality directly. A trading company keeps the factory's identity to itself, because that relationship is the asset it is selling.</p>
+
+<h2>Factory identification and vetting</h2>
+
+<p>The first real job is finding the right factory — not a reseller listed alongside it on Alibaba. A sourcing agent does this with tools an Irish buyer working from Dublin cannot easily use: reading the Chinese business licence in the original, checking the registered scope of operations to confirm the company actually manufactures rather than trades, and cross-referencing the company on China's national enterprise credit system.</p>
+
+<p>Then they go and look. A genuine sourcing agent visits the factory — sees the machinery, the production staff, the QC process — before you commit a deposit. The factory visit report, with photographs and documentation, is one of the most concrete things you get for the fee.</p>
+
+<figure class="article-figure">
+  <img src="/images/irish-buyer-chinese-factory-manager-supplier-vetting-meeting.webp" alt="Sourcing agent meeting a Chinese factory manager to vet a supplier on behalf of an Irish importer" loading="lazy" width="1280" height="720">
+  <figcaption>A sourcing agent verifies the factory in person — reading the business licence and seeing the production line before any deposit is paid</figcaption>
+</figure>
+
+<h2>Price negotiation — what is realistic</h2>
+
+<p>An agent who knows the category knows what the product should cost at the factory gate. That is the leverage. They can tell when a quote has a trading-company margin built into it, when a price reflects a quiet materials downgrade, and where there is genuine room to move.</p>
+
+<p>What is realistic is a fair factory-direct price and sensible terms — not a miracle. Be wary of any agent who promises dramatic savings before they have seen your specification. The honest value of negotiation is usually in removing the intermediary margin and improving the terms around the order: payment schedule, tooling costs, sample charges, lead time.</p>
+
+<h2>Sampling management</h2>
+
+<p>Before a production order, you need samples — and they need to come from the production line, not the showroom. The agent specifies that in writing to the factory, receives the samples, checks them, and forwards them to you in Ireland.</p>
+
+<p>The sample is not just a yes-or-no on whether you like the product. It becomes the physical benchmark the pre-shipment inspection is measured against. A good agent keeps one approved sample sealed and documented for exactly that purpose.</p>
+
+<h2>Pre-shipment quality control</h2>
+
+<p>This is the single most valuable thing a sourcing agent does, and the thing an Irish importer cannot do remotely. Before the goods leave the factory, the agent — or an inspector they manage — checks a statistically valid sample against the approved specification, verifies quantities, and confirms packaging and labelling are correct.</p>
+
+<p>The point is timing. Inspecting goods while they are still in the factory means problems can be fixed, reworked or rejected before anything is paid in full or loaded into a container. Inspecting them when they arrive in Dublin means discovering the problem with your money already gone.</p>
+
+<figure class="article-figure">
+  <img src="/images/factory-audit-inspector-chinese-manufacturer-production-floor-check.webp" alt="Inspector checking goods on a Chinese production floor before shipment on behalf of an Irish buyer" loading="lazy" width="1280" height="720">
+  <figcaption>Pre-shipment inspection happens in the factory — while problems can still be corrected before the container is sealed</figcaption>
+</figure>
+
+<h2>CE compliance verification</h2>
+
+<p>For regulated product categories, the agent's job extends to compliance. As the Irish importer, you carry the legal responsibility for CE marking — not the Chinese factory. A sourcing agent verifies that the claimed directive actually applies to your product, that any test report comes from a notified body you can find on the EU NANDO database, and that the Declaration of Conformity names the correct responsible person.</p>
+
+<p>A factory that holds a CE certificate but cannot explain the test behind it has a compliance problem, and it becomes your compliance problem the moment the goods land. Catching that in China is far cheaper than catching it at Dublin Port.</p>
+
+<h2>Freight coordination</h2>
+
+<p>Once goods pass inspection, the agent coordinates the move: booking freight, preparing export documentation, and handing a clean set of paperwork to your customs broker in Ireland. A good agent quotes you on a delivered basis where you want it, so you are comparing a real landed number rather than an FOB price with surprises attached.</p>
+
+<p>This is also where the agent chases. Shipments go quiet. Documents go missing. Having someone in the same time zone as the factory, who can pick up the phone in Mandarin, is the difference between a delay you hear about early and one you discover when the container does not arrive.</p>
+
+<h2>How sourcing agents charge (commission vs fee)</h2>
+
+<p>There are two models. Commission-based agents take a percentage of order value, typically 3 to 8 per cent. Fixed-fee agents charge a set amount per project regardless of order size.</p>
+
+<p>For most Irish buyers, a fixed fee is the better structure. A commission agent earns more when your order costs more — which is a quiet conflict of interest when part of their job is to push the price down. A fixed fee aligns the agent with finding the best supplier, not the most expensive one. Whichever model, the fee should be transparent and agreed up front, never a margin hidden inside the product price.</p>
+
+<h2>Red flags: how to spot a fake sourcing agent</h2>
+
+<p>The market is full of trading companies wearing a sourcing agent's language. A few signals separate them.</p>
+
+<p>A real agent has a verifiable physical presence in China and will tell you exactly where they are based. They can provide references from existing clients. They are transparent about how they are paid. They will offer a factory visit report with photographs before you commit. And they will name the factory.</p>
+
+<p>The warning signs are the mirror image: no verifiable address, vague answers about the fee structure, pressure to commit quickly, an inability or unwillingness to visit the factory, and redirecting you back to Alibaba listings. An agent who cannot stand on the factory floor for you is not solving the problem you hired them to solve — they are another layer of it.</p>
+
+<p>The minimum question to ask anyone calling themselves a sourcing agent is simple: can you visit the factory before I place an order, and will you attend the pre-shipment inspection? If the answer to either is no, keep looking.</p>
+
+<p>If you want to know what working with a sourcing agent who is actually on the ground looks like, <a href="/contact">get in touch</a>. Ériu Sourcing operates from Zhengzhou and Shenzhen, visits the factories we recommend, and inspects goods before they ship — for Irish importers, on a fixed-fee basis.</p>`,
     excerpt: 'A sourcing agent is not a middleman who just forwards emails. Done right, they are your eyes on the factory floor — negotiating prices, verifying suppliers, inspecting goods, and managing freight before you ever see the product. Here is what you should actually expect.',
     image: '/images/sourcing-expert-factory-visit.webp',
     imageAlt: 'Sourcing agent visiting Chinese factory — what an agent actually does for Irish importers',
