@@ -175,9 +175,11 @@ const structuredData = {
     )}
 
     <!-- Fonts — loaded async (non-render-blocking) to improve FCP -->
-    <!-- Fontshare: Boska (logo) + Satoshi (body) -->
+    <!-- Fontshare: preconnect to BOTH the API host and the CDN where .woff2 files live -->
     <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin />
     <link rel="dns-prefetch" href="https://api.fontshare.com" />
+    <link rel="dns-prefetch" href="https://cdn.fontshare.com" />
     <link
       rel="preload"
       as="style"
