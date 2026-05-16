@@ -157,7 +157,7 @@ export const blogPosts = [
 
 <p>The businesses that make it work treat China sourcing as a supply chain relationship. They verify the factory. They inspect before shipment. They understand their landed cost before they commit. And they have somebody in China who can act on their behalf when problems arise — because problems arise in every supply chain, and the difference is whether you find out about them in Shenzhen or in Dublin.</p>
 
-<p>If you are looking to start or improve a direct China sourcing operation for an Irish business, <a href="/contact">get in touch</a>. Ériu Sourcing operates from Zhengzhou and Shenzhen and has been working with Irish businesses on direct factory access, QC, CE compliance, and freight since 2007.</p>`,
+<p>If you are looking to start or improve a direct China sourcing operation for an Irish business, <a href="/contact/">get in touch</a>. Ériu Sourcing operates from Zhengzhou and Shenzhen and has been working with Irish businesses on direct factory access, QC, CE compliance, and freight since 2007.</p>`,
     excerpt: 'Sourcing direct from Chinese factories is genuinely achievable for Irish businesses — but only if you approach it the right way. This guide covers every step: finding factories, vetting suppliers, ordering samples, QC before shipment, CE compliance, and landed cost reality.',
     image: '/images/hero-china-factory-floor.webp',
     imageAlt: 'Chinese factory floor — sourcing direct from China to Ireland',
@@ -308,7 +308,7 @@ export const blogPosts = [
 
 <p>The cost of a professional sourcing engagement is typically a fraction of one year's trading company markup on a €50,000-plus import programme. Irish businesses importing €60,000 per year through a trading company are paying €12,000 to €24,000 in invisible margin. A sourcing service at €3,000 to €6,000 that removes that layer pays back in year one and compounds from year two onwards.</p>
 
-<p>If you are importing from China at volume — or planning to — the question is not whether factory-direct is achievable. It is whether you have someone on the ground to make it work. <a href="/contact">Send us a brief</a>. We will tell you exactly what factory access looks like for your specific product and volume.</p>
+<p>If you are importing from China at volume — or planning to — the question is not whether factory-direct is achievable. It is whether you have someone on the ground to make it work. <a href="/contact/">Send us a brief</a>. We will tell you exactly what factory access looks like for your specific product and volume.</p>
 `,
     excerpt: 'Most suppliers on Alibaba are trading companies, not factories. They add 20–40% margin while presenting themselves as manufacturers. Here is how to tell the difference — and what it costs you if you get it wrong.',
     image: '/images/noel-dongguan-factory-visit.webp',
@@ -504,7 +504,7 @@ export const blogPosts = [
 
 <p>The Incoterm is not a detail. It is a financial decision that compounds across every shipment you make.</p>
 
-<p>If you want a side-by-side landed-cost comparison for your specific product, volume, and shipping route, <a href="/contact">send us a brief</a>. We build these calculations for Irish importers every week ÔÇö and the numbers usually surprise people.</p>`,
+<p>If you want a side-by-side landed-cost comparison for your specific product, volume, and shipping route, <a href="/contact/">send us a brief</a>. We build these calculations for Irish importers every week ÔÇö and the numbers usually surprise people.</p>`,
     excerpt: 'Every Chinese supplier quote contains a three-letter code ÔÇö EXW, FOB, CIF, or DAP. That code determines who pays for freight, who carries the risk, and who handles customs. Getting it wrong costs real money. Here is what each term means for Irish importers.',
     image: '/images/the-fob-handover.webp',
     imageAlt: 'Chinese container port with gantry crane loading containers onto a cargo vessel ÔÇö the FOB risk transfer point at the ship\'s rail',
@@ -653,7 +653,7 @@ export const blogPosts = [
 
 <p>Either way, the factory relationship is the variable that determines whether this works. A good factory ÔÇö whether OEM or ODM ÔÇö communicates clearly, delivers on sample quality in production, respects your IP, and treats a Ôé¼15,000 Irish order with the same discipline they apply to a Ôé¼500,000 US order. Finding that factory from Dublin is the hard part.</p>
 
-<p><a href="/contact">Send us a brief</a>. We will tell you whether OEM or ODM makes sense for your product, give you realistic pricing and MOQ expectations for your category, and introduce you to verified factories that match your requirements.</p>`,
+<p><a href="/contact/">Send us a brief</a>. We will tell you whether OEM or ODM makes sense for your product, give you realistic pricing and MOQ expectations for your category, and introduce you to verified factories that match your requirements.</p>`,
     excerpt: 'Irish brands wanting their own product from China have two routes ÔÇö OEM, where you own the design, or ODM, where the factory owns it and you brand it. The decision determines your upfront cost, timeline, MOQ, and whether anyone else can sell the exact same thing.',
     image: '/images/the-oem-product-development-desk.webp',
     imageAlt: 'Top-down flat-lay of a product development workspace with technical CAD drawings, prototype samples, a digital calliper, Pantone swatches, and a laptop showing a 3D CAD render',
@@ -820,7 +820,7 @@ export const blogPosts = [
 
 <p>Discovering a CE problem at the factory gate, before shipment, leaves time to fix it. Discovering it at Dublin Port means absorbing the cost of a shipment you cannot clear.</p>
 
-<p>Ériu Sourcing has been working with Irish businesses on China-sourced goods and CE compliance since 2007. We carry out CE documentation reviews at source, pre-shipment inspections with compliance documentation coverage, and factory audits that include quality management and CE evidence verification. If you are ordering CE-regulated goods from China and are not certain the documentation you have received will clear Irish customs, <a href="/contact">get in touch before the container is sealed</a>.</p>`,
+<p>Ériu Sourcing has been working with Irish businesses on China-sourced goods and CE compliance since 2007. We carry out CE documentation reviews at source, pre-shipment inspections with compliance documentation coverage, and factory audits that include quality management and CE evidence verification. If you are ordering CE-regulated goods from China and are not certain the documentation you have received will clear Irish customs, <a href="/contact/">get in touch before the container is sealed</a>.</p>`,
     excerpt: 'Self-declared CE is not the same as verified CE. Most Irish importers find this out at the worst possible time — at customs, or after a product recall. Here is what CE compliance actually requires for China-sourced goods.',
     image: '/images/ce-marking-pre-shipment-inspection-chinese-factory-quality-control.webp',
     imageAlt: 'QC inspector verifying CE compliance documents at a Chinese factory pre-shipment inspection',
@@ -1277,7 +1277,7 @@ export const blogPosts = [
 
 <p>For your next invoice, verify the bank details on a video call. Pay 30 per cent upfront, demand a pre-shipment inspection, and only release the 70 per cent balance when the inspection report is passed. And route your EUR to USD conversion through an FX specialist to claw back your margin.</p>
 
-<p>If you're unsure about stepping into the complexities of supplier payments and verified inspections, paying a sourcing agent is the safest route. Your agent verifies the factory, signs domestic legal contracts in Mandarin, and acts as your on-the-ground risk manager. If you need help managing sourcing compliance from Ireland, <a href="/contact">contact Ériu Sourcing</a>.</p>`,
+<p>If you're unsure about stepping into the complexities of supplier payments and verified inspections, paying a sourcing agent is the safest route. Your agent verifies the factory, signs domestic legal contracts in Mandarin, and acts as your on-the-ground risk manager. If you need help managing sourcing compliance from Ireland, <a href="/contact/">contact Ériu Sourcing</a>.</p>`,
     sections: [
       'Payment Terms: Why 30/70 is the Gold Standard',
       'The Invoice Interception Scam (Business Email Compromise)',
@@ -1382,7 +1382,7 @@ export const blogPosts = [
 
 <p>The 2026 Ireland logistics pipeline from China is highly mature, but strictly unforgiving of amateur mistakes. Use FOB terms to control your costs, partner with an experienced Irish freight forwarder who uses direct European routing, register your EORI number early, and demand precise commercial documents from the factory.</p>
 
-<p>At Ériu Sourcing, we specialize in bridging the gap between the factory floor in China and the warehouse door in Ireland. We coordinate with elite freight forwarders to ensure goods are shipped cost-effectively and clear customs smoothly. If you require an end-to-end sourcing and logistics solution, <a href="/contact">speak to us today</a>.</p>`,
+<p>At Ériu Sourcing, we specialize in bridging the gap between the factory floor in China and the warehouse door in Ireland. We coordinate with elite freight forwarders to ensure goods are shipped cost-effectively and clear customs smoothly. If you require an end-to-end sourcing and logistics solution, <a href="/contact/">speak to us today</a>.</p>`,
     sections: [
       'Sea Freight: FCL vs LCL and Route Fundamentals',
       'Air Freight and Rail Freight',

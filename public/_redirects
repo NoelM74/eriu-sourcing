@@ -1,4 +1,41 @@
+# ── Renamed page redirects ────────────────────────────────────────────────
 /source/fashion-apparel-from-china-ireland/ /source/private-label-from-china-ireland/ 301
-/source/fashion-apparel-from-china-ireland /source/private-label-from-china-ireland/ 301
-/source/bags-luggage-from-china-ireland/ /source/retail-wholesale-from-china-ireland/ 301
-/source/bags-luggage-from-china-ireland /source/retail-wholesale-from-china-ireland/ 301
+/source/fashion-apparel-from-china-ireland  /source/private-label-from-china-ireland/ 301
+/source/bags-luggage-from-china-ireland/    /source/retail-wholesale-from-china-ireland/ 301
+/source/bags-luggage-from-china-ireland     /source/retail-wholesale-from-china-ireland/ 301
+
+# ── Trailing-slash 301s (Cloudflare Pages uses 307 by default — override) ─
+# Core pages
+/contact              /contact/              301
+/how-it-works         /how-it-works/         301
+/product-categories   /product-categories/   301
+/why-direct           /why-direct/           301
+/blog                 /blog/                 301
+/about                /about/                301
+/china-network        /china-network/        301
+/case-studies         /case-studies/         301
+/source               /source/               301
+/privacy              /privacy/              301
+/terms                /terms/                301
+/modular-homes        /modular-homes/        301
+
+# Modular homes sub-pages
+/modular-homes/cost                      /modular-homes/cost/                      301
+/modular-homes/models                    /modular-homes/models/                    301
+/modular-homes/back-garden-homes-ireland /modular-homes/back-garden-homes-ireland/ 301
+/modular-homes/auxiliary-dwelling-ireland /modular-homes/auxiliary-dwelling-ireland/ 301
+/modular-homes/building-regulations-ireland /modular-homes/building-regulations-ireland/ 301
+/modular-homes/factory-visits            /modular-homes/factory-visits/            301
+
+# Source sub-pages
+/source/electronics-from-china-ireland          /source/electronics-from-china-ireland/          301
+/source/furniture-from-china-ireland            /source/furniture-from-china-ireland/            301
+/source/construction-materials-from-china-ireland /source/construction-materials-from-china-ireland/ 301
+/source/hospitality-fitout-from-china-ireland   /source/hospitality-fitout-from-china-ireland/   301
+/source/pet-supplies-from-china-ireland         /source/pet-supplies-from-china-ireland/         301
+/source/modular-buildings-from-china-ireland    /source/modular-buildings-from-china-ireland/    301
+/source/private-label-from-china-ireland        /source/private-label-from-china-ireland/        301
+/source/retail-wholesale-from-china-ireland     /source/retail-wholesale-from-china-ireland/     301
+/source/fiber-optic-cable                       /source/fiber-optic-cable/                       301
+/source/fiber-optic-cable/g657a2                /source/fiber-optic-cable/g657a2/                301
+/source/fiber-optic-cable/opgw                  /source/fiber-optic-cable/opgw/                  301

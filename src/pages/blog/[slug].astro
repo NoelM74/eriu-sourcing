@@ -77,7 +77,7 @@ const pageSchemas = [
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="/">Home</a>
         <span aria-hidden="true">›</span>
-        <a href="/blog">Blog</a>
+        <a href="/blog/">Blog</a>
         <span aria-hidden="true">›</span>
         <span aria-current="page">{blogCategories[post.category] || post.category}</span>
       </nav>
@@ -133,7 +133,7 @@ const pageSchemas = [
               {post.sections.map(s => <li>{s}</li>)}
             </ul>
             <p>Want to be notified when it's published, or have a specific question in the meantime?</p>
-            <a href="/contact" class="btn btn--primary">Get in touch →</a>
+            <a href="/contact/" class="btn btn--primary">Get in touch →</a>
           </div>
         </div>
       ) : (
@@ -202,7 +202,7 @@ const pageSchemas = [
       <span class="section-eyebrow section-eyebrow--light">Take the next step</span>
       <h2>Send us a brief. We'll find the factory.</h2>
       <p>Product, quantity, timeline — that's all we need to come back with factory-gate pricing and a clear sourcing plan.</p>
-      <a href="/contact" class="btn btn--white-outline" style="margin-top:1rem">Get a sourcing quote →</a>
+      <a href="/contact/" class="btn btn--white-outline" style="margin-top:1rem">Get a sourcing quote →</a>
     </div>
   </section>
 
