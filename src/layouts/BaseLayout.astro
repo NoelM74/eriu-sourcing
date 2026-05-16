@@ -16,6 +16,7 @@ interface Props {
   pageType?: 'home' | 'page' | 'category';
   robots?: string;
   jsonLd?: object | object[];  // page-specific schemas to add to @graph
+  preloadImage?: string;       // hero/LCP image to preload in <head> (improves LCP score)
 }
 
 const {
@@ -27,6 +28,7 @@ const {
   ogType = 'website',
   robots = 'index, follow',
   jsonLd,
+  preloadImage,
 } = Astro.props;
 
 const siteUrl = 'https://eriusourcing.com';
@@ -167,20 +169,36 @@ const structuredData = {
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/favicon.svg" />
 
-    <!-- Fontshare — Boska (logo only) + Satoshi (body) -->
+    <!-- LCP image preload — start fetching hero before browser parses body -->
+    {preloadImage && (
+      <link rel="preload" as="image" href={preloadImage} fetchpriority="high" />
+    )}
+
+    <!-- Fonts — loaded async (non-render-blocking) to improve FCP -->
+    <!-- Fontshare: Boska (logo) + Satoshi (body) -->
     <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
     <link rel="dns-prefetch" href="https://api.fontshare.com" />
     <link
-      rel="stylesheet"
+      rel="preload"
+      as="style"
       href="https://api.fontshare.com/v2/css?f[]=boska@700&f[]=satoshi@400,500,700&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
-    <!-- Google Fonts — Poppins (h1 headings) -->
+    <noscript>
+      <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=boska@700&f[]=satoshi@400,500,700&display=swap" />
+    </noscript>
+    <!-- Google Fonts: Poppins (h1 headings) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="stylesheet"
+      rel="preload"
+      as="style"
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" />
+    </noscript>
 
     <!-- JSON-LD structured data -->
     <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
