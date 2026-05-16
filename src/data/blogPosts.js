@@ -880,7 +880,7 @@ export const blogPosts = [
     targetReader: 'Irish business owners and financial decision-makers calculating whether China sourcing makes commercial sense for their business',
     estimatedWordCount: 2600,
     publishDate: '2026-05-20',
-    draft: true,
+    draft: false,
     excerpt: 'Most Irish businesses calculate China import savings on the factory price alone. They forget freight, customs duty, VAT, inspection, currency risk, and the cost of the time it takes. Here is how to build an accurate landed cost model before you commit.',
     image: '/images/hero-china-factory-floor.webp',
     imageAlt: 'China factory floor — calculating the real landed cost of imports to Ireland',
@@ -896,6 +896,161 @@ export const blogPosts = [
       'A worked example: electronics order, €50,000 FOB',
       'When the numbers do not work — and what to do instead',
     ],
+    body: `<p>Most Irish businesses that source from China calculate their savings on one number: the factory price. They get a quote from Shenzhen, compare it to what they pay their Irish wholesaler, see a 40% gap, and assume that's the profit they're making. It isn't.</p>
+
+<p>By the time goods manufactured in China reach your warehouse in Ireland, four to seven additional cost layers sit between the factory gate and your door. Most importers underestimate at least two of them on their first order. Some underestimate all of them. This guide gives you the full picture — every cost, with real numbers — so your margin calculation is accurate before you commit a deposit.</p>
+
+<h2>The components of landed cost (what most people miss)</h2>
+
+<p>Landed cost is the total cost of a product at its final destination, including all costs incurred to get it there. For goods imported from China to Ireland, the formula is:</p>
+
+<p><strong>Landed cost = FOB factory price + International freight + Cargo insurance + Customs duty + VAT + Pre-shipment inspection + Sourcing agent fee + Destination handling charges + Irish inland delivery</strong></p>
+
+<p>The components most often missed or underestimated are customs duty, destination handling charges, and currency conversion loss. VAT is also frequently forgotten, even though VAT-registered businesses reclaim it — the cash flow impact of paying it upfront at Dublin Port can be significant on a large shipment.</p>
+
+<h2>Factory-gate price: how to read an FOB quote</h2>
+
+<p>Almost all Chinese factory quotes are given on FOB terms — Free On Board — which means the price includes getting the goods to the port of export and loaded onto a vessel. The cost of ocean freight from that point onwards is your responsibility.</p>
+
+<p>The first thing to check on any FOB quote is which port it refers to. A quote from a factory in Zhengzhou (central China) might be FOB Qingdao or FOB Shanghai — two different ports, with meaningfully different inland transport costs already built into the factory price. If the factory is quoting FOB Shenzhen but is based in Dongguan, the trucking to Shenzhen may or may not be included — always confirm.</p>
+
+<p>The second thing to check is whether the quoted price includes export customs clearance. Under FOB, it should. A factory that asks you to pay separately for export documentation is either misquoting the Incoterm or adding a line item that should already be bundled.</p>
+
+<p>MOQ — minimum order quantity — also affects your unit economics directly. A factory quoting €4.80 per unit at 5,000 units may quote €3.90 at 20,000 units. Before you lock in a first order, understand what the pricing curve looks like at volume. That's the number your business model should be modelled on, not the sample price.</p>
+
+<h2>Sea freight costs China to Ireland in 2026 (LCL vs FCL)</h2>
+
+<p>There are two ways to ship by sea: FCL (Full Container Load) or LCL (Less than Container Load).</p>
+
+<p>FCL means you book an entire container — typically a 20ft (roughly 25 CBM usable, 21,700kg payload) or a 40ft (roughly 55 CBM usable). You pay for the whole box regardless of how much of it you fill. Current 2026 rates for FCL from major Chinese ports to Dublin:</p>
+
+<ul>
+  <li><strong>20ft FCL:</strong> approximately €2,500–€4,500 depending on origin port and season</li>
+  <li><strong>40ft FCL:</strong> approximately €3,800–€6,500</li>
+  <li><strong>40ft HC (High Cube):</strong> approximately €4,000–€6,800</li>
+</ul>
+
+<p>LCL means your goods are grouped with other importers' cargo in a shared container. You pay by cubic metre (CBM). Current 2026 LCL rates China to Ireland run at approximately €80–€150 per CBM, though this varies considerably by route and carrier. LCL also adds consolidation and deconsolidation time at each end — add 5–10 days to transit compared to FCL.</p>
+
+<p>The break-even point between LCL and FCL is roughly 12–15 CBM. If your shipment is above that, an FCL is almost always cheaper per unit and faster. Below it, LCL makes sense unless your goods are high-value and you want the security of a dedicated container.</p>
+
+<p>Transit time from major Chinese ports to Dublin is 28–35 days via direct service. Some routings via European transshipment hubs (Rotterdam, Antwerp) add 3–7 days but may offer better rates or availability. Air freight is an option for small, high-value, or urgent shipments — expect approximately €5–€8 per kg door to door, compared to €0.20–€0.50 per kg by sea.</p>
+
+<h2>Customs duty rates for Ireland: how to find your commodity code</h2>
+
+<p>Every product imported into Ireland from outside the EU is subject to a customs duty rate determined by its HS (Harmonised System) commodity code. The rate is applied to the customs value — which is the FOB price of the goods plus the cost of international freight and insurance, known as the CIF value.</p>
+
+<p>Common duty rates for goods imported from China to Ireland in 2026:</p>
+
+<ul>
+  <li><strong>Electronics and electrical goods:</strong> 0% (most categories under ITA agreement)</li>
+  <li><strong>Furniture:</strong> 2.7–5.6% depending on material and type</li>
+  <li><strong>Clothing and textiles:</strong> 6.5–12%</li>
+  <li><strong>Construction materials:</strong> 0–6.7% depending on product</li>
+  <li><strong>Plastic products:</strong> 3.7–6.5%</li>
+  <li><strong>Steel and metal products:</strong> 0–7%, with anti-dumping duties on certain categories</li>
+  <li><strong>Toys:</strong> 4.7%</li>
+  <li><strong>Pet supplies:</strong> 0–6.5%</li>
+</ul>
+
+<p>Anti-dumping duties are a separate issue. The EU has applied additional anti-dumping measures to certain Chinese product categories — notably some steel products, ceramic tiles, solar panels, and specific chemicals. These can add 20–85% on top of the standard duty rate and can make entire categories commercially unviable to import from China. Always check the EU Trade Defence instruments database before committing to a product category.</p>
+
+<p>To find the correct commodity code for your product, use the EU's online TARIC database (ec.europa.eu/taxation_customs/dds2/taric/). Your freight forwarder or customs broker can also classify goods for you — it's worth paying for this on your first import as a misclassification that results in underpaid duty can trigger a Revenue audit and penalty.</p>
+
+<h2>VAT on imports: how it works and when you reclaim it</h2>
+
+<p>Irish import VAT is charged at 23% for most goods, calculated on the customs value (CIF value) plus any applicable customs duty. So on a €50,000 CIF shipment with 5% duty, the VAT calculation is: (€50,000 + €2,500) × 23% = €12,075.</p>
+
+<p>If you are VAT-registered in Ireland, you do not lose this money — but you do have to manage the cash flow. There are two mechanisms:</p>
+
+<p><strong>Standard import VAT payment:</strong> You pay the VAT at customs clearance, and reclaim it on your next VAT-3 return. Depending on your VAT period, this could mean your cash is tied up for 1–3 months.</p>
+
+<p><strong>Postponed VAT Accounting (PVA):</strong> Introduced post-Brexit, PVA allows VAT-registered importers to account for import VAT on their VAT-3 return rather than paying it at the point of customs clearance. The VAT is simultaneously accounted for as both output tax (payable) and input tax (reclaimable), creating a net zero cash flow impact. This is the correct approach for most Irish importers and your customs broker should be setting this up as standard.</p>
+
+<p>If you are not VAT-registered, import VAT is a permanent cost — it does not get reclaimed. Factor the full 23% into your landed cost permanently.</p>
+
+<h2>Pre-shipment inspection: cost vs risk calculation</h2>
+
+<p>A pre-shipment inspection (PSI) involves an independent inspector — either your sourcing agent, a third-party QC firm, or Ériu Sourcing — physically visiting the factory and checking goods against your purchase order before they are loaded into the container.</p>
+
+<p>The cost of a standard PSI through a third-party firm like QIMA or SGS is approximately €250–€400 per man-day, with most inspections taking one day. Through Ériu Sourcing, PSI is included as part of the service fee — it is not charged as a separate line item.</p>
+
+<p>The risk calculation is straightforward: a €350 inspection on a €30,000 order costs 1.2% of the order value. A failed container — goods that arrive damaged, non-compliant, or simply wrong — can cost you the entire value of the shipment plus the cost of return freight, a replacement order, and the downstream revenue you lost while waiting. The PSI is not optional for any serious importer.</p>
+
+<p>What a PSI covers: quantity verification, workmanship and defect rate, packaging and labelling compliance, basic functional testing, and documentation review (CE declarations, test reports, export paperwork). What it does not cover: lab-tested compliance with specific EU directives, which requires samples sent to an accredited testing lab.</p>
+
+<h2>Sourcing agent fees: what is reasonable</h2>
+
+<p>Sourcing agents charge in one of two ways: commission on the order value, or a fixed service fee.</p>
+
+<p>Commission-based agents typically charge 3–8% of the FOB order value. The conflict of interest here is structural — a commission agent earns more when you spend more, which means their incentive is not perfectly aligned with finding you the best factory at the lowest price. For straightforward, repeat product categories, commission agents can work well. For complex or high-value sourcing, the misalignment becomes material.</p>
+
+<p>Fixed-fee agents charge a set amount per project — typically €1,500–€5,000 depending on complexity, number of factories visited, and whether the fee includes PSI. The advantage is that the agent's incentive is to complete the project efficiently, not to inflate the order value.</p>
+
+<p>Ériu Sourcing operates on a fixed-fee model. Our fee covers supplier identification, factory vetting, price negotiation, sample management, pre-shipment inspection, and freight coordination. There is no commission element — our interest is in finding you the right factory at the right price, not the most expensive one.</p>
+
+<p>Be wary of agents who charge nothing upfront and claim to earn only from "rebates" or "commissions from the factory." Those commissions come from your margin — the factory bakes the agent's cut into your unit price. You always pay the agent. The only question is whether it's visible.</p>
+
+<h2>Currency risk and how to manage it</h2>
+
+<p>Most Chinese factory invoices are priced in USD, even when you're an Irish business paying in euros. This introduces currency risk — the EUR/USD rate can move 5–10% over the weeks between a quote and a payment, which on a €100,000 order is €5,000–€10,000 of unexpected cost or saving.</p>
+
+<p>The practical risk management steps:</p>
+
+<p><strong>Use a specialist FX provider, not your Irish bank.</strong> Bank exchange rate markups on EUR/USD typically run at 1.5–2.5%. On a €50,000 payment, that's €750–€1,250 in invisible fees paid to the bank. TransferMate, Revolut Business, or CurrencyFair Business offer interbank rates with flat transfer fees instead.</p>
+
+<p><strong>Consider a forward contract for large orders.</strong> If you have agreed pricing on a large order and need to make a deposit now and a balance payment in 60–90 days, a forward contract locks the exchange rate today for the future payment. Your FX provider can arrange this. The cost is usually a small spread on the locked rate — far cheaper than absorbing a 5% rate move on a large balance payment.</p>
+
+<p><strong>Build a currency buffer into your landed cost model.</strong> If you are not using a forward contract, add 3–5% to your USD costs as a currency buffer when calculating your Irish euro-denominated margin. This is conservative, but it avoids the unpleasant situation of discovering your margin has evaporated because the dollar strengthened before your balance payment.</p>
+
+<h2>A worked example: electronics order, €50,000 FOB</h2>
+
+<p>Here is a realistic landed cost calculation for a medium-sized electronics order from Shenzhen to Dublin in 2026.</p>
+
+<p><strong>Product:</strong> Consumer electronics accessories, 5,000 units<br>
+<strong>FOB Shenzhen price:</strong> €50,000 (€10.00 per unit)<br>
+<strong>Shipment volume:</strong> approximately 8 CBM, LCL</p>
+
+<table>
+  <thead>
+    <tr><th>Cost item</th><th>Amount</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>FOB factory price</td><td>€50,000</td><td>As quoted</td></tr>
+    <tr><td>Sea freight (LCL, 8 CBM)</td><td>€960</td><td>@€120/CBM China to Dublin</td></tr>
+    <tr><td>Cargo insurance</td><td>€275</td><td>0.5% of CIF value</td></tr>
+    <tr><td>Customs duty</td><td>€0</td><td>Electronics: 0% under ITA</td></tr>
+    <tr><td>Import VAT (PVA)</td><td>€0 net</td><td>Reclaimed on VAT-3; cash flow neutral</td></tr>
+    <tr><td>Customs clearance fee</td><td>€185</td><td>Freight forwarder charge</td></tr>
+    <tr><td>Pre-shipment inspection</td><td>€350</td><td>One man-day, included in Ériu fee</td></tr>
+    <tr><td>Sourcing agent fee</td><td>€2,500</td><td>Fixed fee, including PSI above</td></tr>
+    <tr><td>Irish inland delivery</td><td>€320</td><td>LCL deconsolidation + Dublin delivery</td></tr>
+    <tr><td>Currency buffer (3%)</td><td>€1,500</td><td>Conservative EUR/USD provision</td></tr>
+    <tr><td><strong>Total landed cost</strong></td><td><strong>€56,090</strong></td><td></td></tr>
+    <tr><td><strong>Landed cost per unit</strong></td><td><strong>€11.22</strong></td><td>vs €10.00 FOB</td></tr>
+  </tbody>
+</table>
+
+<p>The all-in landed cost is 12.2% above the FOB factory price. Your Irish wholesale competitor is buying the equivalent product at €16–€18 per unit. Even at full landed cost, you are 30–40% below wholesale — and that gap widens significantly on repeat orders at higher volumes.</p>
+
+<p>For products with higher duty rates — furniture at 5%, clothing at 10% — the landed cost multiplier rises to 1.30–1.45× the FOB price. Build your margin model around the full number, not the factory quote.</p>
+
+<h2>When the numbers do not work — and what to do instead</h2>
+
+<p>Not every product category makes commercial sense to import from China. The landed cost model tells you when that's the case — better to discover it on a spreadsheet than after a container arrives at Dublin Port.</p>
+
+<p>Categories where the economics often don't stack up for Irish SMEs:</p>
+
+<ul>
+  <li><strong>Very low-value, high-volume goods</strong> where freight cost per unit is disproportionate to the factory price saving</li>
+  <li><strong>Products subject to EU anti-dumping duties</strong> where the additional levy closes the price gap with European suppliers</li>
+  <li><strong>Highly regulated categories</strong> where the cost of third-party compliance testing (CE lab testing, REACH compliance, etc.) eliminates the margin advantage on small orders</li>
+  <li><strong>Products with very short lead time requirements</strong> where the 35-day sea transit means you'd need to hold 2–3 months of inventory — and the carrying cost of that stock is significant</li>
+</ul>
+
+<p>When the numbers are marginal, there are three levers to pull before abandoning the category. First, increase order volume — the freight cost per unit drops significantly when you move from LCL to FCL, and factory pricing improves at volume. Second, look at air freight for high-value, low-volume items where the per-unit freight cost is manageable. Third, consider a Chinese bonded warehouse or consolidation service that holds inventory in China and ships smaller, more frequent LCL loads as you need stock — smoothing the cash flow and reducing your inventory risk.</p>
+
+<p>If you want a landed cost model built around your specific product, send us the details. We'll come back with factory-gate pricing, the correct freight estimate for your volume, the applicable duty rate, and a clear per-unit landed cost — before you commit anything.</p>`,
     faq: [
       { q: 'How much does it cost to ship a container from China to Ireland?', a: 'Sea freight for a 20ft container (FCL) from major Chinese ports to Dublin typically ranges from €2,500–€5,500 depending on the port of origin, season, and current freight market rates. LCL (less than container load) for smaller orders is calculated per cubic metre, typically at €80–€150/CBM China to Ireland. In 2026, freight rates have stabilised significantly from the Covid-era spikes.' },
       { q: 'What import duty do I pay on goods from China?', a: 'Import duty rates vary by product category and are determined by the HS commodity code. Common rates include 0% for most raw materials and some electronics, 6.5–12% for clothing and textiles, 4–6% for furniture, and up to 12% for some construction materials. Anti-dumping duties apply to specific categories. Your freight forwarder or customs broker can determine the correct commodity code and duty rate for your specific goods.' },
