@@ -3,8 +3,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { blogPosts, blogCategories } from '../../data/blogPosts.js';
 
 export function getStaticPaths() {
+  // Include draft posts so they render as "coming soon" (with noindex)
+  // rather than returning a 404 — important for URLs already indexed by Google.
   return blogPosts
-    .filter(post => !post.draft)
     .map(post => ({
       params: { slug: post.slug },
       props: { post },
