@@ -23,7 +23,7 @@ const pageSchemas = [
         "@type": "ListItem",
         "position": i + 1,
         "name": page.eyebrow,
-        "url": `${siteUrl}/source/${page.slug}`
+        "url": `${siteUrl}/source/${page.slug}/`
       })),
       { "@type": "ListItem", "position": sourcingPages.length + 1, "name": "Fiber Optic Cable", "url": `${siteUrl}/source/fiber-optic-cable/` }
     ]
@@ -112,7 +112,7 @@ const categoryIcons = {
       </div>
       <div class="category-grid">
         {sourcingPages.map(page => (
-          <a href={`/source/${page.slug}`} class="category-card">
+          <a href={`/source/${page.slug}/`} class="category-card">
             <div class="card-top">
               <span class="card-icon" aria-hidden="true">{categoryIcons[page.slug] || '📦'}</span>
               <span class="card-eyebrow">{page.eyebrow}</span>

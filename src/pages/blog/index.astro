@@ -45,7 +45,7 @@ const remainingPosts = sortedPosts.slice(1);
     <section class="section section--alt featured-section">
       <div class="container">
         <span class="section-eyebrow">Latest</span>
-        <a href={`/blog/${featuredPost.slug}`} class="featured-card">
+        <a href={`/blog/${featuredPost.slug}/`} class="featured-card">
           <div class="featured-img">
             <img
               src={featuredPost.image}
@@ -77,7 +77,7 @@ const remainingPosts = sortedPosts.slice(1);
       <div class="container">
         <div class="posts-grid">
           {remainingPosts.map(post => (
-            <a href={`/blog/${post.slug}`} class="post-card">
+            <a href={`/blog/${post.slug}/`} class="post-card">
               <div class="post-img">
                 <img
                   src={post.image}
