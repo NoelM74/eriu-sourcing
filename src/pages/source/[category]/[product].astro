@@ -41,6 +41,13 @@ const pageSchemas = [
     ],
     "serviceType": "China Sourcing Agent",
     "category": product.categoryLabel,
+    "image": {
+      "@type": "ImageObject",
+      "url": `${siteUrl}${product.image}`,
+      "width": product.imageWidth ?? 1400,
+      "height": product.imageHeight ?? 934,
+      "caption": product.imageAlt
+    },
     "dateModified": lastReviewedIso
   },
   {
@@ -121,9 +128,10 @@ const pageSchemas = [
           <img
             src={product.image}
             alt={product.imageAlt}
-            width="560"
-            height="380"
+            width={product.imageWidth ?? 1400}
+            height={product.imageHeight ?? 934}
             loading="lazy"
+            decoding="async"
           />
         </div>
       </div>

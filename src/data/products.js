@@ -89,8 +89,10 @@ export const products = [
         a: 'A 40ft HQ container Shanghai → Dublin currently lands at roughly €3,500–€5,500 all-in (rates fluctuate — confirm at quote stage). Spread across 22+ tonnes of profile, this adds approximately €0.15–€0.25 per kg to the factory price. Full duty and VAT calculation is provided with every Ériu Sourcing quote.',
       },
     ],
-    image: '/images/construction-materials-factory.webp',
-    imageAlt: 'Aluminium window profile extrusion line in Henan — factory-direct aluminium profiles for Ireland',
+    image: '/images/henan-aluminium-extrusion-press-line.webp',
+    imageAlt: 'Aluminium window profile extrusion run-out table in a Henan factory — factory-direct aluminium profiles for Ireland',
+    imageWidth: 1400,
+    imageHeight: 941,
   },
 
   {
@@ -151,8 +153,10 @@ export const products = [
         a: 'Two safeguards. First, Ériu Sourcing books a pre-shipment inspection at the factory — pallets are opened, batch numbers and calibre codes verified, and a chip / corner-damage sample count is documented before the container is sealed. Second, the factory commitment includes a defect tolerance written into the PI (typically ≤ 0.5%) with a credit clause if exceeded. Goods that fail inspection stay in China.',
       },
     ],
-    image: '/images/construction-materials-factory.webp',
-    imageAlt: 'Foshan porcelain tile production line — factory-direct 600x600 floor tile for Ireland',
+    image: '/images/foshan-porcelain-tile-kiln-production.webp',
+    imageAlt: 'Foshan porcelain tile production line with KEDA roller kiln and KUKA palletising robot — factory-direct 600x600 floor tile for Ireland',
+    imageWidth: 1400,
+    imageHeight: 934,
   },
 
   {
@@ -214,7 +218,9 @@ export const products = [
         a: 'Ériu Sourcing books a factory inspection covering: facing-steel gauge and coating thickness (micrometer-measured), core density (cut-and-weigh on a sample panel), bond integrity (peel test), panel geometry (length, width, squareness), and full review of the EN 14509 test pack and DoP. Inspection report and photos are issued before container sealing — defective batches stay in China.',
       },
     ],
-    image: '/images/construction-materials-factory.webp',
-    imageAlt: 'PIR sandwich panel continuous production line in China — factory-direct insulated panels for Ireland',
+    image: '/images/jiangsu-pir-sandwich-panel-continuous-line.webp',
+    imageAlt: 'PIR sandwich panel continuous double-belt production line in Jiangsu — factory-direct insulated panels for Ireland',
+    imageWidth: 1400,
+    imageHeight: 934,
   },
 ];
