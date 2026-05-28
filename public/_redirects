@@ -1,3 +1,6 @@
+# ── Sitemap alias (some crawlers/tools try /sitemap.xml by convention) ────
+/sitemap.xml          /sitemap-index.xml                                   301
+
 # ── Renamed page redirects ────────────────────────────────────────────────
 /source/fashion-apparel-from-china-ireland/ /source/private-label-from-china-ireland/ 301
 /source/fashion-apparel-from-china-ireland  /source/private-label-from-china-ireland/ 301

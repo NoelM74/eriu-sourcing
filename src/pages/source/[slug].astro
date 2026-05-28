@@ -12,6 +12,14 @@ export async function getStaticPaths() {
 const { page } = Astro.props;
 const siteUrl = 'https://eriusourcing.com';
 
+// Build-time review stamp — surfaces a freshness signal to readers and matches
+// the dateModified value emitted in the Service JSON-LD below.
+const lastReviewed = new Date().toLocaleDateString('en-IE', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
 const caseStudyMap: Record<string, { anchor: string; label: string }> = {
   'electronics-from-china-ireland': { anchor: 'electronics', label: 'Electronics Retail case study' },
   'construction-materials-from-china-ireland': { anchor: 'construction', label: 'Construction & Materials case study' },
@@ -70,6 +78,7 @@ const pageSchemas = [
         <a href="/contact/" class="btn btn--primary">Get a sourcing quote →</a>
         <a href={`/product-categories#${page.categoryAnchor}`} class="btn btn--secondary">See full category details</a>
       </div>
+      <p class="last-reviewed">Last reviewed: <time datetime={new Date().toISOString().split('T')[0]}>{lastReviewed}</time></p>
     </div>
   </section>
 
@@ -267,6 +276,17 @@ const pageSchemas = [
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+  }
+
+  .last-reviewed {
+    margin-top: 1.5rem;
+    font-size: 0.8125rem;
+    color: rgba(15, 33, 49, 0.55);
+  }
+
+  .last-reviewed time {
+    font-weight: 600;
+    color: rgba(15, 33, 49, 0.75);
   }
 
   /* ── TRUST BAR ── */

@@ -4,6 +4,7 @@
 
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import WhatsAppFloat from '../components/WhatsAppFloat.astro';
 import '../styles/global.css';
 
 interface Props {
@@ -141,9 +142,9 @@ const structuredData = {
     <meta name="geo.placename" content="Ireland" />
     <meta name="ICBM" content="53.1424, -7.6921" />
 
-    <!-- hreflang -->
+    <!-- hreflang — Ireland-specific copy, so only en-IE + x-default. -->
+    <!-- Add en-gb only once we publish UK-specific content. -->
     <link rel="alternate" hreflang="en-ie" href={canonicalUrl} />
-    <link rel="alternate" hreflang="en-gb" href={canonicalUrl} />
     <link rel="alternate" hreflang="x-default" href={canonicalUrl} />
 
     <!-- Open Graph -->
@@ -214,6 +215,7 @@ const structuredData = {
     <main id="main-content">
       <slot />
     </main>
+    <WhatsAppFloat />
     <Footer />
   </body>
 </html>
