@@ -1,12 +1,21 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { products } from '../data/products.js';
 
 const title = "Get a Quote — China Sourcing from Ireland | Ériu Sourcing";
-const description = "Send your sourcing brief. Product, quantity, timeline. We'll come back with factory-level pricing, a supplier shortlist, and a clear plan. No obligation.";
+const description = "Send your sourcing brief. Product, quantity, timeline. Factory-level pricing and supplier shortlist within 24 hours. WhatsApp Noel direct.";
 
 const FORMSPREE_ID = "xzdkoabw";
 
 const siteUrl = 'https://eriusourcing.com';
+
+// Build a slug -> {label, category} lookup so visitors landing from a product
+// page CTA (/contact/?product=<slug>) get the form pre-filled and their lead
+// tagged with the product they came from.
+const productLookup = Object.fromEntries(
+  products.map(p => [p.slug, { label: p.h1, category: p.categorySlug }])
+);
+
 const pageSchemas = [
   {
     "@type": "BreadcrumbList",
@@ -18,8 +27,32 @@ const pageSchemas = [
   {
     "@type": "ContactPage",
     "name": "Get a Sourcing Quote — Ériu Sourcing",
-    "description": "Send your sourcing brief. Product, quantity, timeline. Factory-level pricing and supplier shortlist provided. No obligation.",
-    "url": `${siteUrl}/contact/`
+    "description": "Contact Ériu Sourcing for factory-direct China sourcing into Ireland. Phone, WhatsApp, email, and online enquiry form. Reply within 24 hours from Noel Murphy.",
+    "url": `${siteUrl}/contact/`,
+    "mainEntity": {
+      "@type": "Organization",
+      "@id": `${siteUrl}/#organization`,
+      "name": "Ériu Sourcing",
+      "telephone": "+353871187806",
+      "email": "hello@eriusourcing.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Springfield, Clonlara",
+        "addressLocality": "Co. Clare",
+        "postalCode": "V94 R2DX",
+        "addressCountry": "IE"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "telephone": "+353871187806",
+          "email": "hello@eriusourcing.com",
+          "areaServed": "IE",
+          "availableLanguage": "English"
+        }
+      ]
+    }
   },
   {
     "@type": "FAQPage",
@@ -32,7 +65,12 @@ const pageSchemas = [
       {
         "@type": "Question",
         "name": "How quickly will I receive a response to my sourcing enquiry?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Sourcing enquiries are typically responded to within 24–48 hours. For standard product categories with existing factory relationships, an initial pricing indication can be provided quickly. For complex or custom products, a factory identification process is outlined in the response." }
+        "acceptedAnswer": { "@type": "Answer", "text": "Sourcing enquiries are typically responded to within 24 hours from Noel Murphy directly. For standard product categories with existing factory relationships, an initial pricing indication is provided in the same response. For complex or custom products, a factory identification process is outlined." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I phone or WhatsApp Ériu Sourcing instead of using the form?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Noel Murphy can be reached on +353 87 118 7806 by phone or WhatsApp. WhatsApp is the fastest route — Ériu Sourcing operates across Irish (IST) and Chinese (CST) time zones, with messages typically answered within working hours of either jurisdiction." }
       }
     ]
   }
@@ -54,6 +92,12 @@ const pageSchemas = [
           </svg>
           WhatsApp: +353 87 118 7806
         </a>
+        <a href="tel:+353871187806" class="contact-option phone">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          Call: +353 87 118 7806
+        </a>
         <a href="mailto:hello@eriusourcing.com" class="contact-option email">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
             <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
@@ -65,8 +109,35 @@ const pageSchemas = [
     </div>
   </section>
 
+  <!-- CONTACT INFO -->
+  <section class="contact-info-section">
+    <div class="container--narrow">
+      <div class="contact-info-grid">
+        <div class="info-card">
+          <span class="info-label">Ireland office</span>
+          <p class="info-value">Springfield, Clonlara<br />Co. Clare, V94 R2DX<br />Ireland</p>
+        </div>
+        <div class="info-card">
+          <span class="info-label">China operations</span>
+          <p class="info-value">Shenzhen (Longhua District)<br />Zhengzhou (Henan)<br />50+ person team since 2008</p>
+        </div>
+        <div class="info-card">
+          <span class="info-label">Hours &amp; response</span>
+          <p class="info-value">Mon–Fri, dual coverage<br />Ireland (IST) + China (CST)<br /><strong>Reply within 24 hours</strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="form-section section section--alt">
     <div class="container--narrow">
+
+      <!-- ?product= banner — populated client-side when a product slug is in the URL -->
+      <div id="product-banner" class="product-banner" hidden>
+        <span class="product-banner-eyebrow">Quote request for</span>
+        <strong id="product-banner-label"></strong>
+      </div>
+
       <!-- Success / error messages — shown/hidden by Formspree via data-fs-success / data-fs-error -->
       <div data-fs-success class="form-msg form-msg--success" role="alert">
         <strong>Enquiry received.</strong> We'll review your details and come back within 24 hours with factory-level options and pricing.
@@ -141,7 +212,10 @@ const pageSchemas = [
           </div>
         </div>
 
+        <!-- Honeypot -->
         <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+        <!-- Product attribution — populated by inline script when ?product= is present -->
+        <input type="hidden" id="product-slug" name="product" value="" />
 
         <div class="form-footer">
           <button type="submit" class="btn btn--primary" data-fs-submit-btn>Send Enquiry</button>
@@ -152,6 +226,54 @@ const pageSchemas = [
   </section>
 
 </BaseLayout>
+
+<!-- Product lookup table — generated at build time from products.js. The
+     inline script below uses this to recognise a ?product= slug in the URL
+     and tag the lead with the product the visitor came from. -->
+<script type="application/json" id="product-lookup" set:html={JSON.stringify(productLookup)} />
+
+<script>
+  // Pre-fill the form when a visitor arrives via /contact/?product=<slug>
+  (function () {
+    const params = new URLSearchParams(window.location.search);
+    const slug = params.get('product');
+    if (!slug) return;
+
+    const lookupEl = document.getElementById('product-lookup');
+    if (!lookupEl) return;
+
+    let lookup = {};
+    try { lookup = JSON.parse(lookupEl.textContent || '{}'); } catch { return; }
+
+    const entry = lookup[slug];
+    if (!entry) return;
+
+    // Banner above the form
+    const banner = document.getElementById('product-banner');
+    const bannerLabel = document.getElementById('product-banner-label');
+    if (banner && bannerLabel) {
+      bannerLabel.textContent = entry.label;
+      banner.hidden = false;
+    }
+
+    // Tag the lead so it lands in Formspree with the product slug attached
+    const hidden = document.getElementById('product-slug');
+    if (hidden) hidden.value = slug;
+
+    // Pre-select category dropdown if it matches one of the option values
+    const categorySelect = document.getElementById('category');
+    if (categorySelect && entry.category) {
+      const opt = Array.from(categorySelect.options).find(o => o.value === entry.category);
+      if (opt) categorySelect.value = entry.category;
+    }
+
+    // Pre-fill the description with a starter sentence the visitor can edit
+    const desc = document.getElementById('description');
+    if (desc && !desc.value) {
+      desc.value = `I'm interested in sourcing ${entry.label}.\n\nQuantity / target order size:\nTimeline:\nAny reference products or specifications:`;
+    }
+  })();
+</script>
 
 <script>
   // Formspree data-attribute initialization (CDN, no bundler)
@@ -171,8 +293,62 @@ const pageSchemas = [
   .contact-option { display: inline-flex; align-items: center; gap: .625rem; font-weight: 600; font-size: .9375rem; text-decoration: none; padding: .625rem 1.25rem; border-radius: var(--radius-md); border: 2px solid; min-height: 44px; transition: all .12s ease; }
   .contact-option.whatsapp { color: #128C7E; border-color: #128C7E; }
   .contact-option.whatsapp:hover { background: #128C7E; color: #fff; }
+  .contact-option.phone { color: var(--color-navy, #0F2131); border-color: rgba(15, 33, 49, 0.25); }
+  .contact-option.phone:hover { background: var(--color-navy, #0F2131); color: #fff; border-color: var(--color-navy, #0F2131); }
   .contact-option.email { color: var(--color-teal); border-color: var(--color-teal); }
   .contact-option.email:hover { background: var(--color-teal); color: #fff; }
+
+  /* Contact info strip */
+  .contact-info-section {
+    background: #fff;
+    border-bottom: 1px solid rgba(15, 33, 49, 0.08);
+    padding: 2.5rem 0;
+  }
+  .contact-info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  .info-card { display: flex; flex-direction: column; gap: .5rem; }
+  .info-label {
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: var(--color-teal, #1C7C83);
+  }
+  .info-value {
+    margin: 0;
+    font-size: .9375rem;
+    line-height: 1.55;
+    color: var(--color-navy, #0F2131);
+  }
+  .info-value strong { color: var(--color-emerald, #1A533E); }
+
+  /* ?product= banner */
+  .product-banner {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    padding: 1rem 1.25rem;
+    background: rgba(26, 83, 62, 0.06);
+    border-left: 3px solid var(--color-emerald, #1A533E);
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+  }
+  .product-banner-eyebrow {
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: var(--color-emerald, #1A533E);
+  }
+  .product-banner strong {
+    font-size: 1rem;
+    color: var(--color-navy, #0F2131);
+    font-weight: 600;
+    line-height: 1.4;
+  }
 
   .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
   .field { display: flex; flex-direction: column; gap: .375rem; }
@@ -210,6 +386,10 @@ const pageSchemas = [
   .form-msg--success { background: #EAF4EF; border: 1.5px solid #A8D5B8; color: #1A533E; }
   .form-msg--error { background: #FEF2F2; border: 1.5px solid #FECACA; color: #991B1B; }
   .form-msg a { color: inherit; font-weight: 600; }
+
+  @media (max-width: 760px) {
+    .contact-info-grid { grid-template-columns: 1fr; gap: 1.25rem; }
+  }
 
   @media (max-width: 600px) {
     .form-grid { grid-template-columns: 1fr; }
