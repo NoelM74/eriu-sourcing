@@ -199,6 +199,7 @@ export const blogPosts = [
     targetReader: 'Irish business owners already using or considering Alibaba who want to understand whether direct sourcing is achievable',
     estimatedWordCount: 2400,
     publishDate: '2026-04-08',
+    dateModified: '2026-05-28',
     draft: false,
     body: `<p>Most Irish importers think they're buying from Chinese factories. They're not. They're buying from trading companies — intermediaries who source from those factories, mark the goods up 20 to 40 percent, and present themselves as manufacturers. Alibaba makes this easy to do and almost impossible to detect from Dublin.</p>
 

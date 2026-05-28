@@ -14,6 +14,7 @@ export function getStaticPaths() {
 
 const { post } = Astro.props;
 const siteUrl = 'https://eriusourcing.com';
+const postUrl = `${siteUrl}/blog/${post.slug}/`;
 
 // Related posts — by slug array defined in data
 const relatedPosts = blogPosts.filter(p => post.relatedSlugs?.includes(p.slug)).slice(0, 3);
@@ -23,18 +24,18 @@ const pageSchemas = [
   {
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
-      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${siteUrl}/blog` },
-      { "@type": "ListItem", "position": 3, "name": post.title, "item": `${siteUrl}/blog/${post.slug}` },
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": `${siteUrl}/` },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": `${siteUrl}/blog/` },
+      { "@type": "ListItem", "position": 3, "name": post.title, "item": postUrl },
     ]
   },
   {
     "@type": "Article",
-    "@id": `${siteUrl}/blog/${post.slug}/#article`,
+    "@id": `${postUrl}#article`,
     "headline": post.title,
     "description": post.metaDescription,
     "datePublished": post.publishDate,
-    "dateModified": post.publishDate,
+    "dateModified": post.dateModified || post.publishDate,
     "author": {
       "@type": "Person",
       "@id": `${siteUrl}/#founder`,
@@ -45,7 +46,7 @@ const pageSchemas = [
     },
     "publisher": { "@id": `${siteUrl}/#organization` },
     "image": `${siteUrl}${post.image}`,
-    "mainEntityOfPage": `${siteUrl}/blog/${post.slug}`,
+    "mainEntityOfPage": postUrl,
     "keywords": [post.primaryKeyword, ...(post.secondaryKeywords || [])].join(', '),
     "wordCount": post.estimatedWordCount,
   },
@@ -101,6 +102,11 @@ const pageSchemas = [
           </svg>
           {new Date(post.publishDate).toLocaleDateString('en-IE', { day: 'numeric', month: 'long', year: 'numeric' })}
         </span>
+        {post.dateModified && post.dateModified !== post.publishDate && (
+          <span class="meta-item">
+            Updated <time datetime={post.dateModified}>{new Date(post.dateModified).toLocaleDateString('en-IE', { day: 'numeric', month: 'long', year: 'numeric' })}</time>
+          </span>
+        )}
         {post.draft && <span class="draft-label">Draft — not yet published</span>}
       </div>
     </div>
@@ -182,7 +188,7 @@ const pageSchemas = [
         <h2>More from the sourcing hub</h2>
         <div class="related-grid">
           {relatedPosts.map(related => (
-            <a href={`/blog/${related.slug}`} class="related-card">
+            <a href={`/blog/${related.slug}/`} class="related-card">
               <div class="related-img">
                 <img src={related.image} alt={related.imageAlt} width="480" height="270" loading="lazy" />
               </div>
