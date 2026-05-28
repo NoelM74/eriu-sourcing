@@ -179,9 +179,9 @@ export const blogPosts = [
     ],
     relatedSlugs: ['alibaba-vs-factory-direct-irish-importers', 'real-landed-cost-importing-from-china-ireland', 'ce-marking-china-imports-ireland'],
     internalLinks: [
-      { text: 'How it works', href: '/how-it-works' },
-      { text: 'Our China network', href: '/china-network' },
-      { text: 'Get a sourcing quote', href: '/contact' },
+      { text: 'How it works', href: '/how-it-works/' },
+      { text: 'Our China network', href: '/china-network/' },
+      { text: 'Get a sourcing quote', href: '/contact/' },
     ],
   },
 
@@ -331,9 +331,9 @@ export const blogPosts = [
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'ce-marking-china-imports-ireland', 'real-landed-cost-importing-from-china-ireland'],
     internalLinks: [
-      { text: 'Why buy factory-direct', href: '/why-direct' },
-      { text: 'Our sourcing process', href: '/how-it-works' },
-      { text: 'Get a quote', href: '/contact' },
+      { text: 'Why buy factory-direct', href: '/why-direct/' },
+      { text: 'Our sourcing process', href: '/how-it-works/' },
+      { text: 'Get a quote', href: '/contact/' },
     ],
   },
 
@@ -518,9 +518,9 @@ export const blogPosts = [
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland', 'alibaba-vs-factory-direct-irish-importers'],
     internalLinks: [
-      { text: 'Get a landed-cost breakdown', href: '/contact' },
-      { text: 'Our China sourcing network', href: '/china-network' },
-      { text: 'How it works', href: '/how-it-works' },
+      { text: 'Get a landed-cost breakdown', href: '/contact/' },
+      { text: 'Our China sourcing network', href: '/china-network/' },
+      { text: 'How it works', href: '/how-it-works/' },
     ],
   },
 
@@ -644,7 +644,7 @@ export const blogPosts = [
 
 <p><strong>For OEM</strong>, the factory selection is capability-first. You need a factory with the machinery, materials expertise, and quality systems to manufacture to your specification. This requires a factory audit ÔÇö not an Alibaba listing review. You need to verify production equipment matches your process requirements, the factory has experience with your material types, quality management systems are in place, and production capacity can accommodate your order volume without your order sitting at the bottom of a queue behind larger clients.</p>
 
-<p>In both cases, the factory verification process described in our <a href="/blog/alibaba-vs-factory-direct-irish-importers">Alibaba vs factory-direct guide</a> applies. Check the business registration on gsxt.gov.cn. Request the business licence. Run a video call from the production floor. Confirm the registered business scope includes þöƒõ║ºÕêÂÚÇá (production and manufacturing).</p>
+<p>In both cases, the factory verification process described in our <a href="/blog/alibaba-vs-factory-direct-irish-importers/">Alibaba vs factory-direct guide</a> applies. Check the business registration on gsxt.gov.cn. Request the business licence. Run a video call from the production floor. Confirm the registered business scope includes þöƒõ║ºÕêÂÚÇá (production and manufacturing).</p>
 
 <h2>Where to start</h2>
 
@@ -667,9 +667,9 @@ export const blogPosts = [
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'alibaba-vs-factory-direct-irish-importers', 'incoterms-explained-irish-importers-fob-cif-exw-dap-china'],
     internalLinks: [
-      { text: 'Get a sourcing quote', href: '/contact' },
-      { text: 'Our sourcing process', href: '/how-it-works' },
-      { text: 'Our China network', href: '/china-network' },
+      { text: 'Get a sourcing quote', href: '/contact/' },
+      { text: 'Our sourcing process', href: '/how-it-works/' },
+      { text: 'Our China network', href: '/china-network/' },
     ],
   },
 
@@ -860,10 +860,10 @@ export const blogPosts = [
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland'],
     internalLinks: [
-      { text: 'CE compliance at source', href: '/why-direct' },
-      { text: 'Construction materials sourcing', href: '/source/construction-materials-from-china-ireland' },
-      { text: 'Electronics sourcing', href: '/source/electronics-from-china-ireland' },
-      { text: 'Get a compliance-verified quote', href: '/contact' },
+      { text: 'CE compliance at source', href: '/why-direct/' },
+      { text: 'Construction materials sourcing', href: '/source/construction-materials-from-china-ireland/' },
+      { text: 'Electronics sourcing', href: '/source/electronics-from-china-ireland/' },
+      { text: 'Get a compliance-verified quote', href: '/contact/' },
     ],
   },
 
@@ -1059,8 +1059,8 @@ export const blogPosts = [
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'alibaba-vs-factory-direct-irish-importers'],
     internalLinks: [
-      { text: 'How it works — our full process', href: '/how-it-works' },
-      { text: 'Get a quote with landed cost breakdown', href: '/contact' },
+      { text: 'How it works — our full process', href: '/how-it-works/' },
+      { text: 'Get a quote with landed cost breakdown', href: '/contact/' },
     ],
   },
 
@@ -1101,9 +1101,9 @@ export const blogPosts = [
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland'],
     internalLinks: [
-      { text: 'About Ériu Sourcing', href: '/china-network' },
-      { text: 'Our process', href: '/how-it-works' },
-      { text: 'Contact us', href: '/contact' },
+      { text: 'About Ériu Sourcing', href: '/china-network/' },
+      { text: 'Our process', href: '/how-it-works/' },
+      { text: 'Contact us', href: '/contact/' },
     ],
   },
 
@@ -1140,8 +1140,8 @@ export const blogPosts = [
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'alibaba-vs-factory-direct-irish-importers'],
     internalLinks: [
-      { text: 'Our China network', href: '/china-network' },
-      { text: 'Source with us instead', href: '/contact' },
+      { text: 'Our China network', href: '/china-network/' },
+      { text: 'Source with us instead', href: '/contact/' },
     ],
   },
 
@@ -1176,9 +1176,9 @@ export const blogPosts = [
     faq: [],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland'],
     internalLinks: [
-      { text: 'Furniture sourcing page', href: '/source/furniture-from-china-ireland' },
-      { text: 'Hospitality fit-out sourcing', href: '/source/hospitality-fitout-from-china-ireland' },
-      { text: 'Get a quote', href: '/contact' },
+      { text: 'Furniture sourcing page', href: '/source/furniture-from-china-ireland/' },
+      { text: 'Hospitality fit-out sourcing', href: '/source/hospitality-fitout-from-china-ireland/' },
+      { text: 'Get a quote', href: '/contact/' },
     ],
   },
 
@@ -1293,8 +1293,8 @@ export const blogPosts = [
     ],
     relatedSlugs: ['alibaba-vs-factory-direct-irish-importers', 'real-landed-cost-importing-from-china-ireland', 'china-sourcing-agent-ireland-what-they-do'],
     internalLinks: [
-      { text: 'How we manage factory payments', href: '/why-direct' },
-      { text: 'Get a sourcing agent quote', href: '/contact' },
+      { text: 'How we manage factory payments', href: '/why-direct/' },
+      { text: 'Get a sourcing agent quote', href: '/contact/' },
     ],
   },
 
@@ -1356,7 +1356,7 @@ export const blogPosts = [
 
 <p>A freight forwarder is a travel agent for cargo. They do not own the ships or the planes. They own the network. A professional Irish freight forwarder will book the vessel space with carriers (like Maersk or MSC), coordinate the trucking in China, arrange the marine insurance, and seamlessly handle the Irish customs declarations upon arrival.</p>
 
-<p>As outlined in our <a href="/blog/incoterms-explained-irish-importers-fob-cif-exw-dap-china">Incoterms guide</a>, Irish businesses should heavily favour purchasing on <strong>FOB (Free On Board)</strong> terms. Under FOB, your supplier handles the Chinese logistics locally, and your Irish freight forwarder takes control of the cargo the moment it is loaded onto the ship. This gives you local Irish accountability. If the ship is delayed, you call a logistics expert in Dublin, not an overworked factory rep in Shenzhen.</p>
+<p>As outlined in our <a href="/blog/incoterms-explained-irish-importers-fob-cif-exw-dap-china/">Incoterms guide</a>, Irish businesses should heavily favour purchasing on <strong>FOB (Free On Board)</strong> terms. Under FOB, your supplier handles the Chinese logistics locally, and your Irish freight forwarder takes control of the cargo the moment it is loaded onto the ship. This gives you local Irish accountability. If the ship is delayed, you call a logistics expert in Dublin, not an overworked factory rep in Shenzhen.</p>
 
 <h2>Customs Clearance in Ireland: The Required Bureaucracy</h2>
 
@@ -1369,7 +1369,7 @@ export const blogPosts = [
 <p><strong>1. Commercial Invoice:</strong> The definitive receipt. It must detail the exact value of the goods, the currency, the Incoterms agreed upon (e.g., FOB Shenzhen), and a clear description of the items.</p>
 <p><strong>2. Packing List:</strong> A highly detailed breakdown of how the goods are packed. It must outline the number of cartons, the gross weight, the net weight, and the dimensions of the pallets. Customs officers use this to verify the physical shipment.</p>
 <p><strong>3. Bill of Lading (B/L):</strong> The title deed to the cargo. Issued by the shipping line, it proves the goods have been loaded. Often handled digitally today via a "Telex Release," meaning you don't need physical couriered paper to claim your goods.</p>
-<p><strong>4. Compliance Documentation:</strong> If importing regulated goods — electronics, toys, machinery — the <a href="/blog/ce-marking-china-imports-ireland">EU Declaration of Conformity and CE test reports</a> must be available. Customs may demand to see them before releasing the container.</p>
+<p><strong>4. Compliance Documentation:</strong> If importing regulated goods — electronics, toys, machinery — the <a href="/blog/ce-marking-china-imports-ireland/">EU Declaration of Conformity and CE test reports</a> must be available. Customs may demand to see them before releasing the container.</p>
 
 <h2>HS Codes and Postponed VAT Accounting (PVA)</h2>
 
@@ -1398,8 +1398,8 @@ export const blogPosts = [
     ],
     relatedSlugs: ['incoterms-explained-irish-importers-fob-cif-exw-dap-china', 'real-landed-cost-importing-from-china-ireland'],
     internalLinks: [
-      { text: 'Get a shipping & landed cost quote', href: '/contact' },
-      { text: 'Our full sourcing pipeline', href: '/how-it-works' },
+      { text: 'Get a shipping & landed cost quote', href: '/contact/' },
+      { text: 'Our full sourcing pipeline', href: '/how-it-works/' },
     ],
   },
 
@@ -1534,9 +1534,9 @@ export const blogPosts = [
     ],
     relatedSlugs: ['ce-marking-china-imports-ireland', 'how-to-pay-chinese-suppliers-safely-ireland', 'incoterms-explained-irish-importers-fob-cif-exw-dap-china'],
     internalLinks: [
-      { text: 'Request pre-shipment QC for your order', href: '/contact' },
-      { text: 'How our sourcing process works', href: '/how-it-works' },
-      { text: 'CE marking for China imports: Irish guide', href: '/blog/ce-marking-china-imports-ireland' },
+      { text: 'Request pre-shipment QC for your order', href: '/contact/' },
+      { text: 'How our sourcing process works', href: '/how-it-works/' },
+      { text: 'CE marking for China imports: Irish guide', href: '/blog/ce-marking-china-imports-ireland/' },
     ],
   },
 
@@ -1645,9 +1645,9 @@ export const blogPosts = [
     ],
     relatedSlugs: ['alibaba-vs-factory-direct-irish-importers', 'pre-shipment-inspection-china-irish-importers-quality-control', 'how-to-pay-chinese-suppliers-safely-ireland'],
     internalLinks: [
-      { text: 'Start a verified sourcing project with Ériu', href: '/contact' },
-      { text: 'How our five-step sourcing process works', href: '/how-it-works' },
-      { text: 'Alibaba vs factory-direct: Irish importer guide', href: '/blog/alibaba-vs-factory-direct-irish-importers' },
+      { text: 'Start a verified sourcing project with Ériu', href: '/contact/' },
+      { text: 'How our five-step sourcing process works', href: '/how-it-works/' },
+      { text: 'Alibaba vs factory-direct: Irish importer guide', href: '/blog/alibaba-vs-factory-direct-irish-importers/' },
     ],
   },
 
