@@ -1,0 +1,419 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { products } from '../../../data/products.js';
+
+export async function getStaticPaths() {
+  return products.map(product => ({
+    params: { category: product.categorySlug, product: product.slug },
+    props: { product },
+  }));
+}
+
+const { product } = Astro.props;
+const siteUrl = 'https://eriusourcing.com';
+const productUrl = `${siteUrl}/source/${product.categorySlug}/${product.slug}/`;
+const categoryUrl = `${siteUrl}/source/${product.categoryFullSlug}/`;
+
+const lastReviewed = new Date().toLocaleDateString('en-IE', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+const lastReviewedIso = new Date().toISOString().split('T')[0];
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "What We Source", "item": `${siteUrl}/source/` },
+      { "@type": "ListItem", "position": 3, "name": product.categoryLabel, "item": categoryUrl },
+      { "@type": "ListItem", "position": 4, "name": product.h1, "item": productUrl }
+    ]
+  },
+  {
+    "@type": "Service",
+    "name": `${product.h1} — China Direct Sourcing for Ireland`,
+    "description": product.description,
+    "provider": { "@type": "ProfessionalService", "@id": `${siteUrl}/#organization` },
+    "areaServed": [
+      { "@type": "Country", "name": "Ireland" }
+    ],
+    "serviceType": "China Sourcing Agent",
+    "category": product.categoryLabel,
+    "dateModified": lastReviewedIso
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": product.faq.map(item => ({
+      "@type": "Question",
+      "name": item.q,
+      "acceptedAnswer": { "@type": "Answer", "text": item.a }
+    }))
+  }
+];
+---
+
+<BaseLayout
+  title={product.title}
+  description={product.description}
+  canonical={`/source/${product.categorySlug}/${product.slug}/`}
+  ogImage={product.image}
+  ogImageAlt={product.imageAlt}
+  jsonLd={pageSchemas}
+>
+
+  <!-- HERO -->
+  <section class="product-hero">
+    <div class="container--narrow">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a>
+        <span aria-hidden="true">/</span>
+        <a href="/source/">What We Source</a>
+        <span aria-hidden="true">/</span>
+        <a href={`/source/${product.categoryFullSlug}/`}>{product.categoryLabel}</a>
+        <span aria-hidden="true">/</span>
+        <span aria-current="page">{product.h1}</span>
+      </nav>
+
+      <span class="section-eyebrow">{product.categoryLabel}</span>
+      <h1>{product.h1}</h1>
+      <p class="lead">{product.intro}</p>
+      <div class="hero-ctas">
+        <a href={`/contact/?product=${encodeURIComponent(product.slug)}`} class="btn btn--primary">Get a sourcing quote →</a>
+        <a href={`/source/${product.categoryFullSlug}/`} class="btn btn--secondary">See {product.categoryLabel.toLowerCase()} category</a>
+      </div>
+      <p class="last-reviewed">Last reviewed: <time datetime={lastReviewedIso}>{lastReviewed}</time></p>
+    </div>
+  </section>
+
+  <!-- AT-A-GLANCE -->
+  <section class="at-a-glance">
+    <div class="container">
+      <div class="glance-grid">
+        <div class="glance-item">
+          <span class="glance-label">Manufacturing region</span>
+          <span class="glance-value">{product.region}</span>
+        </div>
+        <div class="glance-item">
+          <span class="glance-label">Lead time</span>
+          <span class="glance-value">{product.leadTime}</span>
+        </div>
+        <div class="glance-item">
+          <span class="glance-label">Compliance</span>
+          <span class="glance-value">EN-standard, CE + DoP verified at factory</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REGION CONTEXT -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="hub-grid">
+        <div class="hub-content">
+          <span class="section-eyebrow">Where this is made in China</span>
+          <h2>{product.region}</h2>
+          <p>{product.regionContext}</p>
+          <a href="/china-network/" class="inline-link">See our full China network →</a>
+        </div>
+        <div class="hub-image">
+          <img
+            src={product.image}
+            alt={product.imageAlt}
+            width="560"
+            height="380"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO BUYS THIS -->
+  <section class="section">
+    <div class="container">
+      <div class="products-layout">
+        <div class="products-header">
+          <span class="section-eyebrow">Who buys this in Ireland</span>
+          <h2>Built for Irish trade buyers, not consumers</h2>
+        </div>
+        <ul class="products-list">
+          {product.keyBuyers.map(buyer => (
+            <li>
+              <span class="product-check">✓</span>
+              <span>{buyer}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPECIFICATIONS -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Specifications</span>
+      <h2>Technical specification</h2>
+      <table class="spec-table">
+        <tbody>
+          {product.specifications.map(row => (
+            <tr>
+              <th scope="row">{row.label}</th>
+              <td>{row.value}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- COMPLIANCE -->
+  <section class="section section--emerald">
+    <div class="container--narrow">
+      <span class="section-eyebrow section-eyebrow--light">EU & Irish Compliance</span>
+      <h2>What we verify at the factory — before the container is sealed</h2>
+      <ul class="compliance-list">
+        {product.compliance.map(item => (
+          <li>{item}</li>
+        ))}
+      </ul>
+      <p style="margin-top:1.5rem">Goods that fail compliance or pre-shipment QC stay in China at the factory's cost — you do not pay freight on non-compliant product.</p>
+      <a href="/contact/" class="btn btn--white-outline" style="margin-top:1rem">Ask about compliance documentation →</a>
+    </div>
+  </section>
+
+  <!-- PRICING + LOGISTICS -->
+  <section class="section">
+    <div class="container--narrow editorial-body">
+      <span class="section-eyebrow">Landed-cost context</span>
+      <h2>What this lands at in Ireland</h2>
+      <p>{product.pricingContext}</p>
+      <h3>Lead time and logistics</h3>
+      <p><strong>Lead time:</strong> {product.leadTime}.</p>
+      <p>{product.logistics}</p>
+    </div>
+  </section>
+
+  <!-- EDITORIAL BODY -->
+  {product.contentBody && (
+    <section class="section section--alt">
+      <div class="container--narrow editorial-body">
+        <span class="section-eyebrow">In depth</span>
+        <h2>What Irish buyers need to know</h2>
+        <div class="editorial-prose" set:html={product.contentBody} />
+      </div>
+    </section>
+  )}
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Common questions</span>
+      <h2>{product.categoryLabel} — sourcing questions answered</h2>
+      <div class="faq-list">
+        {product.faq.map(item => (
+          <details class="faq-item">
+            <summary>{item.q}</summary>
+            <p>{item.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- BACK TO CATEGORY -->
+  <section class="section">
+    <div class="container--narrow" style="text-align:center">
+      <p style="color:#5a5a5a;margin-bottom:1rem">More from this category</p>
+      <a href={`/source/${product.categoryFullSlug}/`} class="btn btn--secondary">
+        ← Back to {product.categoryLabel}
+      </a>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--emerald">
+    <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">Ready to start?</span>
+      <h2>Get factory-direct pricing for {product.h1.toLowerCase()}</h2>
+      <p>Send a brief — specification, quantity, timeline. We come back with factory-level pricing, a supplier shortlist, and a clear plan. No obligation.</p>
+      <a href={`/contact/?product=${encodeURIComponent(product.slug)}`} class="btn btn--white-outline" style="margin-top:1rem">Get a quote →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  /* Reuse the visual tokens from [slug].astro — duplicated locally to keep
+     this template self-contained until shared partials are extracted. */
+
+  .product-hero {
+    background-color: var(--color-bg-alt);
+    padding: 3.5rem 0 4rem;
+    border-bottom: 1px solid rgba(15,33,49,0.08);
+  }
+
+  .product-hero h1 {
+    margin-top: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .product-hero .lead {
+    font-size: var(--text-lg);
+    color: #3a3a3a;
+    max-width: 64ch;
+    margin-bottom: 2rem;
+  }
+
+  /* Breadcrumb */
+  .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8125rem;
+    color: rgba(15, 33, 49, 0.6);
+    margin-bottom: 1.5rem;
+  }
+
+  .breadcrumb a {
+    color: rgba(15, 33, 49, 0.7);
+    text-decoration: none;
+    transition: color 0.12s ease;
+  }
+
+  .breadcrumb a:hover {
+    color: var(--color-emerald);
+    text-decoration: underline;
+  }
+
+  .breadcrumb [aria-current="page"] {
+    color: var(--color-emerald);
+    font-weight: 600;
+  }
+
+  .hero-ctas {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .last-reviewed {
+    margin-top: 1.5rem;
+    font-size: 0.8125rem;
+    color: rgba(15, 33, 49, 0.55);
+  }
+
+  .last-reviewed time {
+    font-weight: 600;
+    color: rgba(15, 33, 49, 0.75);
+  }
+
+  /* At-a-glance bar (replaces trust bar for product pages) */
+  .at-a-glance {
+    background: #fff;
+    border-bottom: 1px solid rgba(15,33,49,0.08);
+    padding: 2rem 0;
+  }
+
+  .glance-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .glance-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+  }
+
+  .glance-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-teal, #1C7C83);
+  }
+
+  .glance-value {
+    font-size: 1rem;
+    color: #0F2131;
+    line-height: 1.45;
+  }
+
+  /* Spec table */
+  .spec-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+    background: #fff;
+    border: 1px solid rgba(15, 33, 49, 0.1);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .spec-table th,
+  .spec-table td {
+    text-align: left;
+    padding: 0.875rem 1.125rem;
+    font-size: 0.9375rem;
+    border-bottom: 1px solid rgba(15, 33, 49, 0.06);
+    vertical-align: top;
+  }
+
+  .spec-table tr:last-child th,
+  .spec-table tr:last-child td {
+    border-bottom: none;
+  }
+
+  .spec-table th {
+    width: 38%;
+    background: var(--color-bg-alt, #F7F6F2);
+    font-weight: 600;
+    color: #0F2131;
+  }
+
+  .spec-table td {
+    color: #3a3a3a;
+  }
+
+  /* Compliance list */
+  .compliance-list {
+    list-style: none;
+    margin: 1rem 0 0;
+    padding: 0;
+    display: grid;
+    gap: 0.625rem;
+  }
+
+  .compliance-list li {
+    position: relative;
+    padding-left: 1.5rem;
+    font-size: 0.9375rem;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.92);
+  }
+
+  .compliance-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 700;
+  }
+
+  /* Responsive */
+  @media (max-width: 760px) {
+    .glance-grid {
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+
+    .spec-table th {
+      width: 45%;
+    }
+  }
+</style>

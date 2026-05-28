@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { sourcingPages } from '../../data/sourcingPages.js';
+import { products } from '../../data/products.js';
 
 export async function getStaticPaths() {
   return sourcingPages.map(page => ({
@@ -19,6 +20,10 @@ const lastReviewed = new Date().toLocaleDateString('en-IE', {
   month: 'long',
   day: 'numeric',
 });
+
+// Product guides that live under this category (data/products.js).
+// Used to render an internal-linking block on the category hub.
+const categoryProducts = products.filter(p => p.categoryFullSlug === page.slug);
 
 const caseStudyMap: Record<string, { anchor: string; label: string }> = {
   'electronics-from-china-ireland': { anchor: 'electronics', label: 'Electronics Retail case study' },
@@ -152,6 +157,31 @@ const pageSchemas = [
       </div>
     </div>
   </section>
+
+  <!-- PRODUCT GUIDES (deep sub-pages for this category) -->
+  {categoryProducts.length > 0 && (
+    <section class="section section--alt">
+      <div class="container">
+        <span class="section-eyebrow">Product-level sourcing guides</span>
+        <h2>Specific products we source in {page.eyebrow.toLowerCase()}</h2>
+        <p style="max-width:64ch;color:#3a3a3a;margin-bottom:2rem">
+          Deeper, product-specific guides covering manufacturing region, technical specification, EU compliance, and landed-cost context for Ireland.
+        </p>
+        <ul class="product-guide-grid">
+          {categoryProducts.map(p => (
+            <li>
+              <a href={`/source/${p.categorySlug}/${p.slug}/`} class="product-guide-card">
+                <span class="product-guide-eyebrow">{p.region.split('(')[0].trim()}</span>
+                <h3>{p.h1}</h3>
+                <p>{p.description}</p>
+                <span class="product-guide-cta">Read the guide →</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
 
   <!-- CE COMPLIANCE -->
   <section class="section section--emerald">
@@ -610,5 +640,65 @@ const pageSchemas = [
     .process-steps { grid-template-columns: 1fr; }
     .hero-ctas { flex-direction: column; }
     .trust-grid { gap: 1rem; }
+  }
+
+  /* ── PRODUCT GUIDE GRID ── */
+  .product-guide-grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .product-guide-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    padding: 1.5rem;
+    background: #fff;
+    border: 1px solid rgba(15, 33, 49, 0.1);
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
+    transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .product-guide-card:hover {
+    border-color: var(--color-emerald, #1A533E);
+    transform: translateY(-2px);
+    box-shadow: 0 12px 28px rgba(15, 33, 49, 0.08);
+  }
+
+  .product-guide-eyebrow {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-teal, #1C7C83);
+  }
+
+  .product-guide-card h3 {
+    font-size: 1.0625rem;
+    line-height: 1.35;
+    margin: 0;
+    color: #0F2131;
+  }
+
+  .product-guide-card p {
+    font-size: 0.875rem;
+    color: #5a5a5a;
+    line-height: 1.55;
+    margin: 0;
+    flex: 1;
+  }
+
+  .product-guide-cta {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-emerald, #1A533E);
+    margin-top: 0.25rem;
   }
 </style>
