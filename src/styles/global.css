@@ -289,7 +289,7 @@ img {
 /* ============================================
    Responsive helpers
    ============================================ */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .container,
   .container--narrow,
   .container--wide {

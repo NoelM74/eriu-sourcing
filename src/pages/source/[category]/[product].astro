@@ -282,9 +282,42 @@ const pageSchemas = [
   }
 
   /* Responsive */
-  @media (max-width: 760px) {
+  @media (max-width: 900px) {
     .spec-table th {
       width: 45%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    /* Stack spec table label/value vertically on phones — much more
+       readable than a squeezed 2-col layout. Same DOM, just CSS. */
+    .spec-table,
+    .spec-table tbody,
+    .spec-table tr,
+    .spec-table th,
+    .spec-table td {
+      display: block;
+      width: 100%;
+    }
+    .spec-table tr {
+      border-bottom: 1px solid rgba(15, 33, 49, 0.08);
+      padding: 0.75rem 0;
+    }
+    .spec-table tr:last-child {
+      border-bottom: none;
+    }
+    .spec-table th {
+      background: transparent;
+      padding: 0 1.125rem 0.125rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--color-teal);
+    }
+    .spec-table td {
+      padding: 0 1.125rem;
+      border-bottom: none;
     }
   }
 </style>
