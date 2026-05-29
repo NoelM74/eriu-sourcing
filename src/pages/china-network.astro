@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import Breadcrumbs from '../components/Breadcrumbs.astro';
+import PageHero from '../components/PageHero.astro';
+import CtaSection from '../components/CtaSection.astro';
 
 const title = "China Factory Network — Zhengzhou & Shenzhen | Ériu Sourcing";
 const description = "Dual base in Zhengzhou and Shenzhen. Same-day HSR access to Beijing, Shanghai, Xi'an, Wuhan. 18 years of factory-direct relationships across every major sourcing category.";
@@ -61,14 +62,12 @@ const shenzhenClusters = [
 
 <BaseLayout title={title} description={description} canonical="/china-network/" jsonLd={pageSchemas}>
 
-  <section class="page-hero section--lg">
-    <div class="container--narrow">
-      <Breadcrumbs items={[{ label: 'China Network' }]} />
-      <span class="section-eyebrow">Our China Network</span>
-      <h1>Two bases. Reach across every major manufacturing hub.</h1>
-      <p class="lead">Most sourcing agents operate from one city. We're based in both Zhengzhou (Henan Province) and Shenzhen (Guangdong Province) — the two most strategically positioned manufacturing bases in China for Irish buyers.</p>
-    </div>
-  </section>
+  <PageHero
+    breadcrumbs={[{ label: 'China Network' }]}
+    eyebrow="Our China Network"
+    h1="Two bases. Reach across every major manufacturing hub."
+    lead="Most sourcing agents operate from one city. We're based in both Zhengzhou (Henan Province) and Shenzhen (Guangdong Province) — the two most strategically positioned manufacturing bases in China for Irish buyers."
+  />
 
   <section class="zhengzhou-section section section--alt">
     <div class="container">
@@ -203,21 +202,19 @@ const shenzhenClusters = [
     </div>
   </section>
 
-  <section class="cta-strip section--emerald">
-    <div class="container--narrow" style="text-align:center">
-      <span class="section-eyebrow section-eyebrow--light">Factory-level access</span>
-      <h2>Need something from China?</h2>
-      <p>Tell us the product and quantity. We'll identify the right factory — Zhengzhou, Shenzhen, or wherever it's made best.</p>
-      <a href="/contact/" class="btn btn--white">Get a Sourcing Quote →</a>
-    </div>
-  </section>
+  <CtaSection
+    eyebrow="Factory-level access"
+    h2="Need something from China?"
+    body="Tell us the product and quantity. We'll identify the right factory — Zhengzhou, Shenzhen, or wherever it's made best."
+    ctas={[
+      { href: '/contact/', label: 'Get a Sourcing Quote →', variant: 'white' }
+    ]}
+  />
 
 </BaseLayout>
 
 <style>
-  .page-hero { border-bottom: 1px solid rgba(15,33,49,.08); }
-  .page-hero h1 { font-size: clamp(2.25rem, 5vw, 4rem); }
-  .lead { font-size: 1.25rem; color: #5a5a5a; line-height: 1.7; margin: 1rem 0 0; max-width: 58ch; }
+  /* Hero/CTA styles owned by shared components. */
 
   .base-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 3.5rem; align-items: start; }
   .base-grid--reverse { grid-template-columns: 1.2fr 1fr; }
@@ -244,10 +241,6 @@ const shenzhenClusters = [
   .henan-card { padding: 1.75rem; background: var(--color-white); border: 1px solid rgba(15,33,49,.08); border-radius: var(--radius-md); }
   .henan-card h3 { font-size: 1rem; margin-bottom: .625rem; }
   .henan-card p { font-size: .9375rem; color: var(--color-slate); margin: 0; line-height: 1.65; max-width: none; }
-
-  .cta-strip { padding: 5rem 0; }
-  .cta-strip h2 { font-size: clamp(1.75rem, 4vw, 3rem); margin-bottom: 1rem; }
-  .cta-strip p { font-size: 1.125rem; margin: 0 auto 2rem; max-width: 50ch; }
 
   @media (max-width: 900px) {
     .base-grid, .base-grid--reverse { grid-template-columns: 1fr; }
