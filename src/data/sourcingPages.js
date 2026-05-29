@@ -5,8 +5,8 @@
 export const sourcingPages = [
   {
     slug: 'electronics-from-china-ireland',
-    title: 'Electronics Sourcing Agent Ireland — Buy Direct from Shenzhen | Ériu Sourcing',
-    description: 'Source consumer electronics, accessories, IT hardware and smart devices directly from Shenzhen factories. CE certified before shipment. Save 40–55% vs Irish wholesale.',
+    title: 'Electronics Sourcing Agent Ireland — Shenzhen Direct | Ériu',
+    description: 'Source electronics, IT hardware, cables and smart devices direct from Shenzhen factories. CE-verified before shipment — 40–55% below Irish wholesale.',
     h1: 'Source electronics directly from Shenzhen to Ireland',
     eyebrow: 'Electronics & Technology',
     categoryAnchor: 'electronics',
@@ -69,8 +69,8 @@ export const sourcingPages = [
 
   {
     slug: 'furniture-from-china-ireland',
-    title: 'Furniture Sourcing Agent Ireland — Foshan Factory Direct | Ériu Sourcing',
-    description: 'Source residential, office, and hospitality furniture directly from Foshan — the world\'s largest furniture manufacturing cluster. Pre-shipment QC. Delivered to Ireland 40–55% below wholesale.',
+    title: 'Furniture Sourcing Agent Ireland — Foshan Direct | Ériu',
+    description: 'Source residential, office and hospitality furniture direct from the Foshan cluster. Pre-shipment QC, delivered to Ireland 40–55% below wholesale.',
     h1: 'Source furniture directly from Foshan to Ireland',
     eyebrow: 'Furniture & Furnishings',
     categoryAnchor: 'furniture',
@@ -133,8 +133,8 @@ export const sourcingPages = [
 
   {
     slug: 'construction-materials-from-china-ireland',
-    title: 'Construction Materials from China — CE Compliant Ireland | Ériu Sourcing',
-    description: 'Source CE-compliant aluminium profiles, ceramic tiles, sanitaryware, and cladding directly from Chinese factories. Full compliance documentation. Delivered to Ireland 35–55% below Irish trade pricing.',
+    title: 'Construction Materials Sourcing China to Ireland | Ériu',
+    description: 'Source aluminium profiles, tiles, sanitaryware, cladding and fixings direct from Chinese factories. CE-compliant, 35–55% below Irish trade pricing.',
     h1: 'Source CE-compliant construction materials from China to Ireland',
     eyebrow: 'Construction & Building Materials',
     categoryAnchor: 'construction',
@@ -198,8 +198,8 @@ export const sourcingPages = [
 
   {
     slug: 'hospitality-fitout-from-china-ireland',
-    title: 'Hotel & Restaurant Fit-Out Sourcing from China Ireland — FF&E Factory Direct | Ériu Sourcing',
-    description: 'Source hotel furniture, restaurant seating, commercial lighting, ceramics, and FF&E directly from Chinese factories. Full hospitality fit-out packages. 40–50% below Irish trade pricing.',
+    title: 'Hotel & Restaurant Fit-Out Sourcing China–Ireland | Ériu',
+    description: 'Source hotel furniture, seating, lighting, ceramics and FF&E direct from Chinese factories. Full fit-out packages, 40–50% below Irish trade pricing.',
     h1: 'Source hospitality fit-out directly from China for Irish hotels and restaurants',
     eyebrow: 'Hospitality Fit-Out',
     categoryAnchor: 'hospitality',
@@ -263,8 +263,8 @@ export const sourcingPages = [
 
   {
     slug: 'pet-supplies-from-china-ireland',
-    title: 'Pet Supplies Sourcing Agent Ireland — China Factory Direct | Ériu Sourcing',
-    description: 'Source pet accessories, beds, leads, toys, and grooming products directly from Guangzhou manufacturers — the global pet supply capital. 40–60% below Irish wholesale.',
+    title: 'Pet Supplies Sourcing Agent Ireland — China Direct | Ériu',
+    description: 'Source pet beds, leads, toys, accessories and grooming products direct from Guangzhou — the global pet-supply capital. 40–60% below Irish wholesale.',
     h1: 'Source pet supplies directly from China to Ireland',
     eyebrow: 'Pet Supplies & Accessories',
     categoryAnchor: 'pet',
@@ -327,8 +327,8 @@ export const sourcingPages = [
 
   {
     slug: 'modular-buildings-from-china-ireland',
-    title: 'Modular Buildings from China Ireland — CE-Compliant Steel Frame | Ériu Sourcing',
-    description: 'Source CE-compliant steel-frame modular buildings, PIR/EPS sandwich panels, and prefab structures directly from Chinese manufacturers. Full structural documentation. 35–50% below European pricing.',
+    title: 'Modular Buildings China to Ireland — CE Steel Frame | Ériu',
+    description: 'Source CE-compliant steel-frame modular buildings, sandwich panels and prefab structures direct from China. Full documentation, 35–50% below EU pricing.',
     h1: 'Source CE-compliant modular buildings from China to Ireland',
     eyebrow: 'Modular Buildings & Sandwich Panels',
     categoryAnchor: 'modular-buildings',
@@ -392,8 +392,8 @@ export const sourcingPages = [
 
   {
     slug: 'machinery-from-china-ireland',
-    title: 'China Machinery Sourcing for Ireland & UK — Inland-China Direct | Ériu Sourcing',
-    description: 'Source heavy machinery direct from inland-China clusters: concrete machinery (Changsha), crushers (Zhengzhou), tractors (Luoyang), excavators (Xuzhou), forklifts (Hefei). Factory-direct to Ireland and the UK.',
+    title: 'China Machinery Sourcing Ireland & UK — Inland Direct | Ériu',
+    description: 'Source heavy machinery direct from inland-China clusters — concrete, crushing, tractors, excavators, forklifts. To Ireland & UK, 25–45% below dealer.',
     h1: 'Source heavy machinery direct from inland China to Ireland & the UK',
     eyebrow: 'Machinery',
     categoryAnchor: 'machinery',
@@ -452,8 +452,8 @@ export const sourcingPages = [
 
   {
     slug: 'commercial-inflatables-from-china-ireland',
-    title: 'Commercial Inflatables from Henan, China to Ireland & UK | Ériu Sourcing',
-    description: 'Source commercial bounce houses, inflatable water parks, advertising inflatables and event domes direct from Henan — China\'s dominant cluster for standard commercial inflatables. Factory-direct to Irish event hire, holiday parks and leisure operators.',
+    title: 'Commercial Inflatables Henan to Ireland & UK | Ériu',
+    description: 'Source bounce houses, inflatable water parks and event inflatables direct from Henan — China\'s leading cluster. For Irish event-hire and holiday parks.',
     h1: 'Source commercial inflatables direct from Henan, China to Ireland & the UK',
     eyebrow: 'Commercial Inflatables',
     categoryAnchor: 'inflatables',
@@ -512,8 +512,8 @@ export const sourcingPages = [
 
   {
     slug: 'industrial-cutting-tools-from-china-ireland',
-    title: 'Industrial Cutting Tools from Henan, China to Ireland & UK | Ériu Sourcing',
-    description: 'Source diamond saw blades, core drilling bits, CBN tools, grinding discs and industrial cutting tools direct from the Zhecheng-Xuchang Henan cluster — China\'s lab-grown diamond capital (60% of national output). Quality-value B2B tooling for Irish stone, steel and machining trades.',
+    title: 'Diamond & Industrial Cutting Tools China to Ireland | Ériu',
+    description: 'Source diamond saw blades, core bits, CBN and PCD tools direct from the Zhecheng-Xuchang Henan cluster — China\'s lab-grown diamond capital. 30–55% below trade.',
     h1: 'Source industrial cutting tools direct from inland-China cutting-tool clusters',
     eyebrow: 'Industrial Cutting Tools',
     categoryAnchor: 'cutting-tools',
