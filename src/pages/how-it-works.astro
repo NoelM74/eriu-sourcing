@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
 
 const title = "How China Factory-Direct Sourcing Works | Ériu Sourcing";
 const description = "Four steps from brief to delivery: factory identification, price negotiation, pre-shipment QC, and freight to Ireland — all handled from China.";
@@ -133,6 +134,7 @@ const tiers = [
   <!-- PAGE HERO -->
   <section class="page-hero section--lg">
     <div class="container--narrow">
+      <Breadcrumbs items={[{ label: 'How It Works' }]} />
       <span class="section-eyebrow">How It Works</span>
       <h1>From your brief to your goods in Ireland.</h1>
       <p class="lead">Four clear steps. No surprises. Everything managed from the factory floor to your Irish door.</p>

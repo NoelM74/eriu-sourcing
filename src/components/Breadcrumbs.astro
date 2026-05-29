@@ -1,0 +1,112 @@
+---
+// Breadcrumbs.astro — shared visible breadcrumb nav for non-home pages.
+//
+// Renders a horizontal trail (Home › Parent › Current) above the page hero.
+// Each entry except the last is a link; the last is the current page.
+//
+// Usage:
+//   <Breadcrumbs items={[
+//     { label: 'What We Source', href: '/source/' },
+//     { label: 'Construction Materials', href: '/source/construction-materials-from-china-ireland/' },
+//     { label: 'Aluminium window profiles' }   // last item: no href = current page
+//   ]} />
+//
+// The component injects BreadcrumbList JSON-LD automatically so the page
+// template doesn't need to duplicate it. If a page is rendering this AND
+// also passing its own BreadcrumbList in `jsonLd`, drop the page-level one.
+
+interface BreadcrumbItem {
+  label: string;
+  href?: string;
+}
+
+interface Props {
+  items: BreadcrumbItem[];
+  /** Optional override: skip the auto-prepended Home link. Defaults to false. */
+  noHome?: boolean;
+}
+
+const { items, noHome = false } = Astro.props;
+
+const siteUrl = 'https://eriusourcing.com';
+const trail: BreadcrumbItem[] = noHome
+  ? items
+  : [{ label: 'Home', href: '/' }, ...items];
+
+// Emit BreadcrumbList JSON-LD inline so callers don't have to wire it twice.
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": trail.map((item, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "name": item.label,
+    ...(item.href ? { "item": `${siteUrl}${item.href}` } : {}),
+  })),
+};
+---
+
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol>
+    {trail.map((item, i) => {
+      const isLast = i === trail.length - 1;
+      return (
+        <li class={isLast ? 'is-current' : ''}>
+          {item.href && !isLast ? (
+            <a href={item.href}>{item.label}</a>
+          ) : (
+            <span aria-current={isLast ? 'page' : undefined}>{item.label}</span>
+          )}
+          {!isLast && <span class="sep" aria-hidden="true">›</span>}
+        </li>
+      );
+    })}
+  </ol>
+</nav>
+
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+<style>
+  .breadcrumbs {
+    font-size: 0.8125rem;
+    color: rgba(15, 33, 49, 0.6);
+    line-height: 1.4;
+  }
+
+  .breadcrumbs ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .breadcrumbs li {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .breadcrumbs a {
+    color: rgba(15, 33, 49, 0.7);
+    text-decoration: none;
+    transition: color 0.12s ease;
+  }
+
+  .breadcrumbs a:hover {
+    color: var(--color-emerald, #1A533E);
+    text-decoration: underline;
+  }
+
+  .breadcrumbs .is-current span {
+    color: var(--color-emerald, #1A533E);
+    font-weight: 600;
+  }
+
+  .breadcrumbs .sep {
+    color: rgba(15, 33, 49, 0.35);
+    user-select: none;
+  }
+</style>

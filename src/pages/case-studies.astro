@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
 
 const title = "China Sourcing Results for Irish Businesses | Ériu Sourcing";
 const description = "Real results: fashion brand to 8-figure revenue, hotel fit-out at 45% saving, electronics retailer saved 52% on landed cost. Factory-direct from China.";
@@ -90,6 +91,7 @@ const caseStudies = [
 
   <section class="page-hero section--lg">
     <div class="container--narrow">
+      <Breadcrumbs items={[{ label: 'Case Studies' }]} />
       <span class="section-eyebrow">Case Studies</span>
       <h1>What factory-direct actually looks like in practice.</h1>
       <p class="lead">Real results from real sourcing projects. Client names are withheld by agreement, but the numbers and outcomes are real. This is what changes when you remove the middlemen.</p>

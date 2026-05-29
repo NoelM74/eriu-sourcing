@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 
 const title = "What We Source from China | Ériu Sourcing Ireland";
 const description = "Electronics, furniture, construction materials, hospitality fit-out, pet supplies, modular buildings and more — sourced factory-direct from China for Irish businesses.";
@@ -128,6 +129,7 @@ const categories = [
 
   <section class="page-hero section--lg">
     <div class="container--narrow">
+      <Breadcrumbs items={[{ label: 'Product Categories' }]} />
       <span class="section-eyebrow">What We Source</span>
       <h1>Every major category Irish businesses import from China.</h1>
       <p class="lead">Active factory relationships across Shenzhen, Guangzhou, Foshan, Zhongshan, Dongguan, and Zhengzhou — covering the full range of China-Ireland trade categories.</p>

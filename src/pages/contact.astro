@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { products } from '../data/products.js';
 
 const title = "Get a Quote — China Sourcing from Ireland | Ériu Sourcing";
@@ -16,14 +17,8 @@ const productLookup = Object.fromEntries(
   products.map(p => [p.slug, { label: p.h1, category: p.categorySlug }])
 );
 
+// BreadcrumbList JSON-LD is emitted by the <Breadcrumbs> component itself.
 const pageSchemas = [
-  {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
-      { "@type": "ListItem", "position": 2, "name": "Get a Quote", "item": `${siteUrl}/contact/` }
-    ]
-  },
   {
     "@type": "ContactPage",
     "name": "Get a Sourcing Quote — Ériu Sourcing",
@@ -81,6 +76,7 @@ const pageSchemas = [
 
   <section class="contact-hero section--lg">
     <div class="container--narrow">
+      <Breadcrumbs items={[{ label: 'Get a Quote' }]} />
       <span class="section-eyebrow">Get a Quote</span>
       <h1>Tell us what you need.</h1>
       <p class="lead">We'll come back with factory-level pricing, a supplier shortlist, and a timeline — no obligation, no hard sell. Direct reply from Noel within 24 hours.</p>

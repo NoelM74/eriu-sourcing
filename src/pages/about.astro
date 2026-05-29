@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
 
 const title = "About Ériu Sourcing | 18 Years in China | Noel, Founder";
 const description = "Ériu Sourcing was built by an operator who has lived and worked in China for 18 years. We help Irish businesses source factory-direct — with a China-based team, real factory relationships, and verified QC.";
@@ -409,6 +410,7 @@ const pageSchemas = [
 <!-- HERO -->
 <section class="about-hero">
   <div class="container">
+    <Breadcrumbs items={[{ label: 'About' }]} />
     <span class="eyebrow">About Ériu Sourcing</span>
     <h1>Built by someone who has actually lived and worked in China</h1>
     <p>18 years. Multiple businesses. Factories in 14 provinces. Over €100M in goods moved. This is what the operation behind Ériu Sourcing looks like.</p>

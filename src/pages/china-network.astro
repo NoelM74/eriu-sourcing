@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
 
 const title = "China Factory Network — Zhengzhou & Shenzhen | Ériu Sourcing";
 const description = "Dual base in Zhengzhou and Shenzhen. Same-day HSR access to Beijing, Shanghai, Xi'an, Wuhan. 18 years of factory-direct relationships across every major sourcing category.";
@@ -62,6 +63,7 @@ const shenzhenClusters = [
 
   <section class="page-hero section--lg">
     <div class="container--narrow">
+      <Breadcrumbs items={[{ label: 'China Network' }]} />
       <span class="section-eyebrow">Our China Network</span>
       <h1>Two bases. Reach across every major manufacturing hub.</h1>
       <p class="lead">Most sourcing agents operate from one city. We're based in both Zhengzhou (Henan Province) and Shenzhen (Guangdong Province) — the two most strategically positioned manufacturing bases in China for Irish buyers.</p>
