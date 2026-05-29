@@ -1,0 +1,360 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PageHero from '../../../components/PageHero.astro';
+import StatsRow from '../../../components/StatsRow.astro';
+import FAQAccordion from '../../../components/FAQAccordion.astro';
+import CtaSection from '../../../components/CtaSection.astro';
+import { modularHomeModels } from '../../../data/modular-home-models.js';
+
+export async function getStaticPaths() {
+  return modularHomeModels.map(model => ({
+    params: { slug: model.slug },
+    props: { model },
+  }));
+}
+
+const { model } = Astro.props;
+const siteUrl = 'https://eriusourcing.com';
+const modelUrl = `${siteUrl}/modular-homes/models/${model.slug}/`;
+const lastReviewedIso = new Date().toISOString().split('T')[0];
+
+// Cross-link to the other models (not the current one)
+const otherModels = modularHomeModels.filter(m => m.slug !== model.slug);
+
+const pageSchemas = [
+  {
+    "@type": "Product",
+    "name": `${model.name} Container Home — Ireland`,
+    "description": model.metaDescription,
+    "image": `${siteUrl}${model.image}`,
+    "brand": { "@type": "Brand", "name": "Ériu Modular Homes" },
+    "category": "Expandable Container Home / Modular Building",
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": "EUR",
+      "availability": "https://schema.org/InStock",
+      "seller": { "@type": "ProfessionalService", "@id": `${siteUrl}/#organization` }
+    },
+    "additionalProperty": [
+      { "@type": "PropertyValue", "name": "Internal floor area", "value": model.internalArea },
+      { "@type": "PropertyValue", "name": "Expanded dimensions", "value": model.expanded },
+      { "@type": "PropertyValue", "name": "Folded dimensions (shipping)", "value": model.folded },
+      { "@type": "PropertyValue", "name": "Net weight", "value": model.weight },
+      { "@type": "PropertyValue", "name": "Container loading", "value": model.loading }
+    ]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": model.faq.map(item => ({
+      "@type": "Question",
+      "name": item.q,
+      "acceptedAnswer": { "@type": "Answer", "text": item.a }
+    }))
+  }
+];
+---
+
+<BaseLayout
+  title={model.metaTitle}
+  description={model.metaDescription}
+  canonical={`/modular-homes/models/${model.slug}/`}
+  ogImage={model.image}
+  ogImageAlt={model.imageAlt}
+  jsonLd={pageSchemas}
+>
+
+  <PageHero
+    variant="tight"
+    breadcrumbs={[
+      { label: 'Modular Homes', href: '/modular-homes/' },
+      { label: 'Models', href: '/modular-homes/models/' },
+      { label: model.name }
+    ]}
+    eyebrow={model.eyebrow}
+    h1={model.h1}
+    lead={model.lead}
+    ctas={[
+      { href: `/contact/?model=${model.id}`, label: `Get a quote for the ${model.name} →`, variant: 'primary' },
+      { href: '/modular-homes/models/', label: 'Compare all four models', variant: 'secondary' }
+    ]}
+    lastReviewed={lastReviewedIso}
+  />
+
+  <StatsRow items={[
+    { figure: model.internalArea, label: 'Internal floor area' },
+    { figure: model.loading.split(' per ')[0], label: 'Per 40HQ container' },
+    { figure: model.weight.split(' (')[0], label: 'Net weight (empty)' }
+  ]} />
+
+  <!-- HERO IMAGE + SPEC TABLE -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="model-hero-grid">
+        <div class="model-hero-image">
+          <img
+            src={model.image}
+            alt={model.imageAlt}
+            width="720"
+            height="540"
+            loading="eager"
+          />
+        </div>
+        <div class="model-hero-spec">
+          <span class="section-eyebrow">Full specification</span>
+          <h2>{model.name} — dimensions &amp; logistics</h2>
+          <table class="spec-table">
+            <tbody>
+              <tr><th>Expanded (deployed)</th><td>{model.expanded}</td></tr>
+              <tr><th>Internal clear dimensions</th><td>{model.internal}</td></tr>
+              <tr><th>Folded (shipping)</th><td>{model.folded}</td></tr>
+              <tr><th>Internal floor area</th><td><strong>{model.internalArea}</strong></td></tr>
+              <tr><th>Net weight (empty)</th><td>{model.weight}</td></tr>
+              <tr><th>Container loading</th><td>{model.loading}</td></tr>
+              <tr><th>Typical Irish use</th><td>{model.bestFor}</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LONG-FORM EDITORIAL -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">About the {model.name}</span>
+      <h2>What Irish buyers need to know</h2>
+      <div class="model-body">
+        {model.body.map(paragraph => <p>{paragraph}</p>)}
+      </div>
+    </div>
+  </section>
+
+  {model.floorplanImage && (
+    <section class="section section--alt">
+      <div class="container--narrow">
+        <span class="section-eyebrow">Floor plans</span>
+        <h2>{model.name} — available layouts</h2>
+        <figure class="floorplan-figure">
+          <img
+            src={model.floorplanImage}
+            alt={model.floorplanAlt}
+            width="1200"
+            height="800"
+            loading="lazy"
+          />
+          <figcaption>{model.floorplanCaption}</figcaption>
+        </figure>
+      </div>
+    </section>
+  )}
+
+  <!-- BUILD QUALITY (shared message across all models) -->
+  <section class={`section ${model.floorplanImage ? '' : 'section--alt'}`}>
+    <div class="container--narrow">
+      <span class="section-eyebrow">Build quality</span>
+      <h2>The Ériu standard, every model</h2>
+      <p>Every model in the Ériu range is built to the same structural specification regardless of size — a 9.0 mm channel steel base frame, 1.3 mm container-grade steel roof plate, 18 mm sandwich panel walls (rock-wool standard, PIR / PUR upgrade on request to bring Irish Part L compliance into reach), and double-glazed aluminium-framed openings. Production is in the Zhengzhou and Xinxiang Henan corridor, the world's primary cluster for this product type. Every order is inspected at the factory by Ériu QC before the container is sealed.</p>
+      <p><a href="/modular-homes/building-regulations-ireland/" class="inline-link">See the full Irish Building Regulations specification →</a></p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Common questions</span>
+      <h2>{model.name} — questions answered</h2>
+      <FAQAccordion items={model.faq} />
+    </div>
+  </section>
+
+  <!-- CROSS-LINK TO OTHER MODELS -->
+  <section class="section">
+    <div class="container">
+      <span class="section-eyebrow">Other models in the range</span>
+      <h2>Compare the {model.name} with the rest of the Ériu range</h2>
+      <div class="other-models-grid">
+        {otherModels.map(m => (
+          <a href={`/modular-homes/models/${m.slug}/`} class="other-model-card lift">
+            <span class="other-model-eyebrow">{m.eyebrow}</span>
+            <h3>{m.name}</h3>
+            <p>{m.tagline}</p>
+            <span class="other-model-cta">Open the {m.name} spec →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <CtaSection
+    eyebrow={`Ready to spec the ${model.name}?`}
+    h2={`Get a quote for the ${model.name}`}
+    body="Send your site address, principal-dwelling status, and target finish spec. We come back with a delivered-to-site Ireland quote, Henan factory shortlist, and the foundation drawing for your build team."
+    ctas={[
+      { href: `/contact/?model=${model.id}`, label: 'Get a quote →', variant: 'white-outline' }
+    ]}
+  />
+
+</BaseLayout>
+
+<style>
+  .model-hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+  }
+
+  .model-hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    background: var(--color-bg-alt);
+  }
+
+  .model-hero-spec h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .spec-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--color-white);
+    border: 1px solid rgba(15, 33, 49, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .spec-table th,
+  .spec-table td {
+    text-align: left;
+    padding: 0.875rem 1.125rem;
+    font-size: 0.9375rem;
+    border-bottom: 1px solid rgba(15, 33, 49, 0.06);
+    vertical-align: top;
+  }
+
+  .spec-table tr:last-child th,
+  .spec-table tr:last-child td {
+    border-bottom: none;
+  }
+
+  .spec-table th {
+    width: 50%;
+    background: var(--color-bg-alt);
+    font-weight: 600;
+    color: var(--color-navy);
+  }
+
+  .spec-table td {
+    color: #3a3a3a;
+  }
+
+  .model-body p {
+    font-size: 1rem;
+    line-height: 1.75;
+    color: #2a3a47;
+    margin: 0 0 1.25rem;
+    max-width: 68ch;
+  }
+
+  .model-body p:last-child {
+    margin-bottom: 0;
+  }
+
+  .floorplan-figure {
+    margin: 1.5rem 0 0;
+    background: var(--color-white);
+    border: 1px solid rgba(15, 33, 49, 0.08);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .floorplan-figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .floorplan-figure figcaption {
+    padding: 1rem 1.25rem;
+    font-size: 0.875rem;
+    color: var(--color-slate);
+    text-align: center;
+    border-top: 1px solid rgba(15, 33, 49, 0.06);
+    background: var(--color-bg-alt);
+  }
+
+  .other-models-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    margin-top: 2rem;
+  }
+
+  .other-model-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem 1.5rem 1.625rem;
+    background: var(--color-white);
+    border: 1px solid rgba(15, 33, 49, 0.1);
+    border-radius: 10px;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .other-model-eyebrow {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-teal, #1C7C83);
+  }
+
+  .other-model-card h3 {
+    font-size: 1.125rem;
+    margin: 0;
+    color: var(--color-navy);
+  }
+
+  .other-model-card p {
+    font-size: 0.875rem;
+    color: var(--color-slate);
+    line-height: 1.55;
+    margin: 0 0 0.5rem;
+    max-width: none;
+  }
+
+  .other-model-cta {
+    margin-top: auto;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-emerald);
+    border-bottom: 1.5px solid transparent;
+    align-self: flex-start;
+    transition: border-color 0.15s ease;
+  }
+
+  .other-model-card:hover .other-model-cta {
+    border-color: var(--color-emerald);
+  }
+
+  @media (max-width: 900px) {
+    .model-hero-grid {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    .other-models-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .spec-table th {
+      width: 55%;
+    }
+  }
+</style>

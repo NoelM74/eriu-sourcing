@@ -1,0 +1,191 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import FAQAccordion from '../../components/FAQAccordion.astro';
+import CtaSection from '../../components/CtaSection.astro';
+import { sitewideFaqs, buildFaqSchema } from '../../data/sitewideFaqs.js';
+
+const title = "China Sourcing FAQ — Ireland | Process, Pricing, QC, Modular Homes | Ériu";
+const description = "Frequently asked questions about sourcing direct from Chinese factories to Ireland — process, pricing, quality control, CE compliance, shipping, and the new Irish modular-home exempted-development pathway.";
+const canonical = "/faq/";
+const siteUrl = "https://eriusourcing.com";
+const lastReviewedIso = new Date().toISOString().split('T')[0];
+
+const faqSchema = buildFaqSchema();
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "FAQ", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": faqSchema.map(item => ({
+      "@type": "Question",
+      "name": item.q,
+      "acceptedAnswer": { "@type": "Answer", "text": item.a }
+    }))
+  }
+];
+
+// Cross-references — where category-specific FAQ lives elsewhere on the site
+const categoryDeepLinks = [
+  { label: 'Construction materials', href: '/source/construction-materials-from-china-ireland/', detail: 'Construction-specific FAQs on the category page' },
+  { label: 'Modular homes', href: '/modular-homes/', detail: 'Building-regs, factory-visits, cost guides' },
+  { label: 'Electronics', href: '/source/electronics-from-china-ireland/', detail: 'Electronics-specific compliance and lead times' },
+  { label: 'Furniture', href: '/source/furniture-from-china-ireland/', detail: 'Furniture sourcing FAQs' },
+  { label: 'Modular home models', href: '/modular-homes/models/', detail: 'Per-model spec questions (20ft, 30ft, 40ft, 20FT700)' },
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} jsonLd={pageSchemas}>
+
+  <PageHero
+    breadcrumbs={[{ label: 'FAQ' }]}
+    eyebrow="Frequently Asked Questions"
+    h1="China sourcing — questions Irish and UK buyers ask most"
+    lead="Answers to the questions we get most often, organised by topic. Product-specific questions (lead times, MOQs, certifications for a particular category) live on the relevant product or category page — those links are at the foot of this page."
+    lastReviewed={lastReviewedIso}
+  />
+
+  <!-- Section navigation — quick jump links -->
+  <section class="section faq-nav-section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Jump to section</span>
+      <ul class="faq-nav" role="list">
+        {sitewideFaqs.map(section => (
+          <li><a href={`#${section.id}`}>{section.label}</a></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  {sitewideFaqs.map((section, i) => (
+    <section class={`section ${i % 2 === 0 ? 'section--alt' : ''}`} id={section.id}>
+      <div class="container--narrow">
+        <span class="section-eyebrow">{section.label}</span>
+        <h2>{section.label}</h2>
+        <FAQAccordion items={section.questions} />
+      </div>
+    </section>
+  ))}
+
+  <!-- Deep-link to category-specific FAQs -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Category-specific questions</span>
+      <h2>Looking for questions about a specific product category?</h2>
+      <p class="lead-small">Each category and product page on the site carries its own FAQ section with category-specific lead times, regional variations, compliance refs, and MOQ ranges. Open the relevant category page below.</p>
+      <ul class="faq-deeplinks" role="list">
+        {categoryDeepLinks.map(link => (
+          <li>
+            <a href={link.href}>
+              <strong>{link.label}</strong>
+              <span>{link.detail}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <CtaSection
+    eyebrow="Question not answered?"
+    h2="Send it directly — we reply in under 24 hours."
+    body="If your question is specific to your project or category and isn't covered here, send a one-line brief. Noel or the Ériu team answer directly — no chat-bot, no funnel."
+    ctas={[
+      { href: '/contact/', label: 'Send a question →', variant: 'white-outline' }
+    ]}
+  />
+
+</BaseLayout>
+
+<style>
+  .faq-nav-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid rgba(15, 33, 49, 0.06);
+  }
+
+  .faq-nav {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+  }
+
+  .faq-nav a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: var(--color-bg-alt);
+    border: 1px solid rgba(15, 33, 49, 0.08);
+    border-radius: 999px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-navy);
+    text-decoration: none;
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+  }
+
+  .faq-nav a:hover {
+    background: var(--color-emerald);
+    color: #ffffff;
+    border-color: var(--color-emerald);
+  }
+
+  .lead-small {
+    font-size: 1rem;
+    color: var(--color-slate);
+    line-height: 1.7;
+    margin: 0.5rem 0 1.5rem;
+    max-width: 72ch;
+  }
+
+  .faq-deeplinks {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+  }
+
+  .faq-deeplinks a {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 1rem 1.25rem;
+    background: var(--color-white);
+    border: 1px solid rgba(15, 33, 49, 0.1);
+    border-radius: 10px;
+    text-decoration: none;
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+
+  .faq-deeplinks a:hover {
+    border-color: var(--color-emerald);
+    transform: translateY(-2px);
+  }
+
+  .faq-deeplinks strong {
+    color: var(--color-navy);
+    font-size: 1rem;
+  }
+
+  .faq-deeplinks span {
+    color: var(--color-slate);
+    font-size: 0.8125rem;
+    line-height: 1.5;
+  }
+
+  @media (max-width: 900px) {
+    .faq-deeplinks {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

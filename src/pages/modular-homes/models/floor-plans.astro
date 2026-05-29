@@ -1,0 +1,135 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PageHero from '../../../components/PageHero.astro';
+import CtaSection from '../../../components/CtaSection.astro';
+import { modularHomeModels } from '../../../data/modular-home-models.js';
+
+const title = "Modular Home Floor Plans Ireland | 20ft, 30ft, 40ft, 20FT700 | Ériu";
+const description = "Browse available floor plan layouts for all four Ériu modular home models. 20ft (1-bed / 2-bed), 30ft (2-bed), 40ft (2-bed / 3-bed) and 20FT700 (studio) layouts — full dimensions and internal areas for Irish projects.";
+const canonical = "/modular-homes/models/floor-plans/";
+const siteUrl = "https://eriusourcing.com";
+const lastReviewedIso = new Date().toISOString().split('T')[0];
+
+// Only models with a floor plan visual
+const modelsWithPlans = modularHomeModels.filter(m => m.floorplanImage);
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Modular Homes", "item": `${siteUrl}/modular-homes/` },
+      { "@type": "ListItem", "position": 3, "name": "Models", "item": `${siteUrl}/modular-homes/models/` },
+      { "@type": "ListItem", "position": 4, "name": "Floor Plans", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "CollectionPage",
+    "name": "Modular Home Floor Plans for Ireland",
+    "description": description,
+    "url": `${siteUrl}${canonical}`,
+    "dateModified": lastReviewedIso,
+    "isPartOf": { "@id": `${siteUrl}/#website` }
+  }
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} jsonLd={pageSchemas}>
+
+  <PageHero
+    breadcrumbs={[
+      { label: 'Modular Homes', href: '/modular-homes/' },
+      { label: 'Models', href: '/modular-homes/models/' },
+      { label: 'Floor Plans' }
+    ]}
+    eyebrow="Floor plans"
+    h1="Modular home floor plans — 20ft, 30ft, 40ft, 20FT700"
+    lead="Available factory-standard internal layouts across the four Ériu expandable container home models. All plans are buildable as-shown direct from the Henan factory; custom internal partitioning is available with a four-week lead-time addition."
+    ctas={[
+      { href: '/contact/', label: 'Discuss a custom floor plan →', variant: 'primary' },
+      { href: '/modular-homes/models/', label: 'Compare all four models', variant: 'secondary' }
+    ]}
+    lastReviewed={lastReviewedIso}
+  />
+
+  {modelsWithPlans.map(model => (
+    <section class="section">
+      <div class="container--narrow">
+        <span class="section-eyebrow">{model.eyebrow}</span>
+        <h2>{model.name} — available layouts</h2>
+        <p class="model-summary">
+          Internal floor area <strong>{model.internalArea}</strong> · {model.expanded} expanded ·
+          ships <strong>{model.loading.toLowerCase()}</strong> · {model.weight} net weight.
+          <a href={`/modular-homes/models/${model.slug}/`} class="inline-link">Full specification →</a>
+        </p>
+        <figure class="floorplan-figure">
+          <img
+            src={model.floorplanImage}
+            alt={model.floorplanAlt}
+            width="1200"
+            height="800"
+            loading="lazy"
+          />
+          <figcaption>{model.floorplanCaption}</figcaption>
+        </figure>
+      </div>
+    </section>
+  ))}
+
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Custom layouts</span>
+      <h2>Need a layout we don't show?</h2>
+      <p>The factory accepts custom internal partitioning on every model. Typical requests include moving a bathroom from gable-end to centre, splitting a double bedroom into two singles, adding a utility / boot room, or specifying a vaulted ceiling void in the living area. Custom partitioning typically adds three to four weeks to the factory lead time and a moderate cost premium depending on the change.</p>
+      <p>Send a hand sketch or even a description of the changes — we come back with a CAD layout from the factory drawing office for sign-off before production starts.</p>
+      <p><a href="/modular-homes/factory-visits/" class="inline-link">Or visit the factory in person to walk a finished build →</a></p>
+    </div>
+  </section>
+
+  <CtaSection
+    eyebrow="Ready to build?"
+    h2="Pick a layout. We'll build it in Henan."
+    body="Send the layout you want and the site address. We come back with a factory-direct quote, a delivered-to-site price, and the foundation drawing for your build team."
+    ctas={[
+      { href: '/contact/', label: 'Get a quote →', variant: 'white-outline' }
+    ]}
+  />
+
+</BaseLayout>
+
+<style>
+  .model-summary {
+    font-size: 0.9375rem;
+    color: var(--color-slate);
+    line-height: 1.7;
+    margin: 0.5rem 0 1.5rem;
+    max-width: 78ch;
+  }
+
+  .model-summary strong {
+    color: var(--color-navy);
+  }
+
+  .floorplan-figure {
+    margin: 0;
+    background: var(--color-white);
+    border: 1px solid rgba(15, 33, 49, 0.08);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .floorplan-figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .floorplan-figure figcaption {
+    padding: 1rem 1.25rem;
+    font-size: 0.875rem;
+    color: var(--color-slate);
+    text-align: center;
+    border-top: 1px solid rgba(15, 33, 49, 0.06);
+    background: var(--color-bg-alt);
+  }
+</style>

@@ -8,7 +8,14 @@ const sourcingNavLinks = [
   { href: '/how-it-works/', label: 'How It Works' },
   { href: '/source/',        label: 'What We Source' },
   { href: '/modular-homes/', label: 'Modular Homes' },
-  { href: '/blog/',          label: 'Blog' },
+  {
+    label: 'Resources',
+    children: [
+      { href: '/resources/', label: 'Resources Hub' },
+      { href: '/blog/',      label: 'Blog' },
+      { href: '/faq/',       label: 'FAQ' },
+    ],
+  },
   {
     label: 'Why Ériu',
     children: [
@@ -25,9 +32,14 @@ const modularNavLinks = [
   {
     label: 'The Homes',
     children: [
-      { href: '/modular-homes/models/',         label: 'Models' },
-      { href: '/modular-homes/cost/',           label: 'Cost & Pricing' },
-      { href: '/modular-homes/factory-visits/', label: 'Factory Visits' },
+      { href: '/modular-homes/models/',                  label: 'Models — Overview' },
+      { href: '/modular-homes/models/20ft-expandable/',  label: '20ft Expandable' },
+      { href: '/modular-homes/models/30ft-expandable/',  label: '30ft Expandable' },
+      { href: '/modular-homes/models/40ft-expandable/',  label: '40ft Expandable' },
+      { href: '/modular-homes/models/20ft700-foldable/', label: '20FT700 Foldable' },
+      { href: '/modular-homes/models/floor-plans/',      label: 'Floor Plans' },
+      { href: '/modular-homes/cost/',                    label: 'Cost & Pricing' },
+      { href: '/modular-homes/factory-visits/',          label: 'Factory Visits' },
     ],
   },
   {
