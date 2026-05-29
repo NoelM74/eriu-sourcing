@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { sourcingPages } from '../../data/sourcingPages.js';
 import { products } from '../../data/products.js';
 
@@ -32,15 +33,8 @@ const caseStudyMap: Record<string, { anchor: string; label: string }> = {
 };
 const caseStudy = caseStudyMap[page.slug] ?? null;
 
+// BreadcrumbList JSON-LD is emitted by the <Breadcrumbs> component itself.
 const pageSchemas = [
-  {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
-      { "@type": "ListItem", "position": 2, "name": "What We Source", "item": `${siteUrl}/source/` },
-      { "@type": "ListItem", "position": 3, "name": page.eyebrow, "item": `${siteUrl}/source/${page.slug}/` }
-    ]
-  },
   {
     "@type": "Service",
     "name": `${page.eyebrow} — China Direct Sourcing for Ireland`,
@@ -76,12 +70,16 @@ const pageSchemas = [
   <!-- HERO -->
   <section class="source-hero">
     <div class="container--narrow">
+      <Breadcrumbs items={[
+        { label: 'What We Source', href: '/source/' },
+        { label: page.eyebrow }
+      ]} />
       <span class="section-eyebrow">{page.eyebrow}</span>
       <h1>{page.h1}</h1>
       <p class="lead">{page.intro}</p>
       <div class="hero-ctas">
         <a href="/contact/" class="btn btn--primary">Get a sourcing quote →</a>
-        <a href={`/product-categories#${page.categoryAnchor}`} class="btn btn--secondary">See full category details</a>
+        <a href="/why-direct/" class="btn btn--secondary">Why factory-direct →</a>
       </div>
       <p class="last-reviewed">Last reviewed: <time datetime={new Date().toISOString().split('T')[0]}>{lastReviewed}</time></p>
     </div>

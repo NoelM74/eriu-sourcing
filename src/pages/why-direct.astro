@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
 
 const title = "Why Buy Factory-Direct from China? | Ériu Sourcing Ireland";
 const description = "The real cost of buying through Irish wholesalers and Alibaba trading companies. Factory-direct saves 35–60% and eliminates CE compliance risk.";
@@ -45,6 +46,7 @@ const pageSchemas = [
 
   <section class="page-hero section--lg">
     <div class="container--narrow">
+      <Breadcrumbs items={[{ label: 'Why Direct?' }]} />
       <span class="section-eyebrow">Why Buy Direct?</span>
       <h1>Three China sourcing markup layers you're currently paying — and don't need to.</h1>
       <p class="lead">When an Irish retailer buys Chinese goods through an Irish wholesaler, they're paying for the Chinese factory, plus a trading company margin, plus a Chinese export agent, plus an Irish importer's margin. Factory-direct removes all but the first.</p>

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { sourcingPages } from '../../data/sourcingPages.js';
 
 const title = "Source Products Direct from China to Ireland | Ériu Sourcing";
@@ -66,12 +67,13 @@ const categoryIcons = {
   <!-- HERO -->
   <section class="page-hero section--lg">
     <div class="container--narrow">
+      <Breadcrumbs items={[{ label: 'What We Source' }]} />
       <span class="section-eyebrow">What We Source</span>
       <h1>Factory-direct from China to Ireland — across every category.</h1>
       <p class="lead">Seven product categories. One point of contact. Pre-shipment QC and CE compliance on every order. No Alibaba resellers, no trading company middlemen.</p>
       <div class="hero-ctas">
         <a href="/contact/" class="btn btn--primary">Get a sourcing quote →</a>
-        <a href="/product-categories/" class="btn btn--secondary">View all category details</a>
+        <a href="#categories" class="btn btn--secondary">Browse categories ↓</a>
       </div>
     </div>
   </section>
@@ -104,7 +106,7 @@ const categoryIcons = {
   </section>
 
   <!-- CATEGORY GRID -->
-  <section class="section section--alt">
+  <section id="categories" class="section section--alt">
     <div class="container">
       <div class="grid-header">
         <span class="section-eyebrow">All categories</span>

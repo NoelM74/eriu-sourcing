@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { blogPosts, blogCategories } from '../../data/blogPosts.js';
 
 const title = "China Sourcing Guides for Irish Businesses | Ériu Sourcing";
@@ -34,6 +35,7 @@ const remainingPosts = sortedPosts.slice(1);
   <!-- HERO -->
   <section class="blog-hero section">
     <div class="container--narrow">
+      <Breadcrumbs items={[{ label: 'Blog' }]} />
       <span class="section-eyebrow">Content Hub</span>
       <h1>China sourcing — straight from the factory floor.</h1>
       <p class="lead">Practical guides for Irish businesses importing direct from China. No fluff, no Alibaba cheerleading. Written by someone who has been on the ground in Shenzhen and Zhengzhou for 18 years.</p>

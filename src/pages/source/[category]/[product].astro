@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import { products } from '../../../data/products.js';
 
 export async function getStaticPaths() {
@@ -21,16 +22,8 @@ const lastReviewed = new Date().toLocaleDateString('en-IE', {
 });
 const lastReviewedIso = new Date().toISOString().split('T')[0];
 
+// BreadcrumbList JSON-LD is emitted by the <Breadcrumbs> component itself.
 const pageSchemas = [
-  {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
-      { "@type": "ListItem", "position": 2, "name": "What We Source", "item": `${siteUrl}/source/` },
-      { "@type": "ListItem", "position": 3, "name": product.categoryLabel, "item": categoryUrl },
-      { "@type": "ListItem", "position": 4, "name": product.h1, "item": productUrl }
-    ]
-  },
   {
     "@type": "Service",
     "name": `${product.h1} — China Direct Sourcing for Ireland`,
@@ -73,15 +66,11 @@ const pageSchemas = [
   <!-- HERO -->
   <section class="product-hero">
     <div class="container--narrow">
-      <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="/">Home</a>
-        <span aria-hidden="true">/</span>
-        <a href="/source/">What We Source</a>
-        <span aria-hidden="true">/</span>
-        <a href={`/source/${product.categoryFullSlug}/`}>{product.categoryLabel}</a>
-        <span aria-hidden="true">/</span>
-        <span aria-current="page">{product.h1}</span>
-      </nav>
+      <Breadcrumbs items={[
+        { label: 'What We Source', href: '/source/' },
+        { label: product.categoryLabel, href: `/source/${product.categoryFullSlug}/` },
+        { label: product.h1 }
+      ]} />
 
       <span class="section-eyebrow">{product.categoryLabel}</span>
       <h1>{product.h1}</h1>
