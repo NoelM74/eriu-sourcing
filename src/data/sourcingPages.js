@@ -449,4 +449,64 @@ export const sourcingPages = [
       },
     ],
   },
+
+  {
+    slug: 'commercial-inflatables-from-china-ireland',
+    title: 'Commercial Inflatables from Henan, China to Ireland & UK | Ériu Sourcing',
+    description: 'Source commercial bounce houses, inflatable water parks, advertising inflatables and event domes direct from Henan — China\'s dominant cluster for standard commercial inflatables. Factory-direct to Irish event hire, holiday parks and leisure operators.',
+    h1: 'Source commercial inflatables direct from Henan, China to Ireland & the UK',
+    eyebrow: 'Commercial Inflatables',
+    categoryAnchor: 'inflatables',
+    intro: 'Henan Province — particularly the Zhengzhou and Xinxiang corridor — is China\'s dominant cluster for commercial inflatables. Bounce houses, inflatable obstacle courses, commercial water-park installations, advertising inflatables, and inflatable event domes are produced here at world-export scale. Ériu Sourcing operates from Zhengzhou with direct factory access for Irish event-hire businesses, holiday-park operators, water-park developers, and outdoor leisure businesses sourcing commercial-grade inflatable equipment.',
+    hub: 'Zhengzhou + Xinxiang corridor, Henan Province',
+    hubDetail: 'The Henan inflatables cluster covers the corridor between Zhengzhou (Henan provincial capital) and Xinxiang to the north, with large-footprint factories integrating PVC tarpaulin supply, hot-air welding, industrial heavy-duty sewing, and pressure testing on-site. Ériu performs supplier vetting and pre-shipment inspection on the seam quality, fabric weight, and pressure-test certificates of every inflatable order before the container loads.',
+    keyProducts: [
+      'Commercial bounce houses, castles and obstacle courses (event-hire grade)',
+      'Inflatable water parks — modular floating systems (holiday-park / lake)',
+      'Advertising inflatables (event branding, retail, outdoor)',
+      'Inflatable event domes and temporary structures',
+      'Inflatable sports games (sealed-air, IPS / SUP)',
+      'Custom-branded inflatables (logo printing, OEM)',
+    ],
+    savings: '40–60%',
+    savingsNote: 'vs UK or Irish event-equipment hire-trade supplier pricing',
+    ceNote: 'PVC fabric grade (typically 0.55 mm or 0.9 mm 1000-denier), seam welding standard, anchor-point load rating, and blower-unit electrical compliance are all verified at the Henan factory. EN 14960 (inflatable play equipment safety) compliance documentation supplied for European-market units.',
+    minOrder: '€2,500 single unit to €40,000+ multi-unit operator orders',
+    minOrderShort: '€2.5k+',
+    leadTime: '4–7 wks',
+    image: '/images/zhengzhou-henan-commercial-bounce-house-inflatable-factory.webp',
+    imageAlt: 'Commercial inflatables factory floor in the Zhengzhou-Xinxiang Henan corridor — bounce houses and inflatable structures',
+    contentBody: `
+      <p>Commercial inflatables are not a Guangdong industry. The historical PVC tarpaulin supply, hot-air welding capability, and industrial heavy-duty sewing concentration are in central inland China — specifically the Henan corridor between Zhengzhou and Xinxiang. The cluster is the dominant production base for standard commercial bounce houses, obstacle courses, sealed-air water-park systems, and advertising inflatables — products supplied globally to event-hire businesses, holiday parks, schools, and outdoor leisure operators.</p>
+      <p>UK and Irish buyers source commercial inflatables through three main channels: (a) UK-based fabricators (Airquee, Better Bounce, East Inflatables, Bouncy Castle Sales Co.) who themselves source PVC, components, and finished structures from Henan; (b) Alibaba trading companies who add 20–40% to Henan factory prices; (c) factory-direct sourcing — which is what Ériu arranges.</p>
+      <h3>Where the factory-direct saving comes from</h3>
+      <p>The UK domestic-fabricator route delivers fast lead times (1–3 weeks for stock designs) but at a 50–80% premium over the factory-gate price. The Alibaba trading-company route appears cheaper but adds an unverifiable intermediate layer between buyer and factory — pressure-test certificates from trading companies cannot be independently verified, and complaint resolution after shipment is structurally weak.</p>
+      <p>Ériu Sourcing arranges direct purchase from vetted Henan factories with pre-shipment inspection on seam weld integrity (no leakage at rated test pressure), fabric specification (commercial-grade 0.55 mm or 0.9 mm, not consumer-grade 0.35 mm), anchor-point load rating (matched to the wind-load profile of typical Irish outdoor use), and blower-unit electrical compliance. The landed-cost saving for an Irish event-hire business or holiday-park operator typically runs 40–60% below UK-fabricator pricing for equivalent-spec product.</p>
+      <h3>EN 14960 compliance for European-market sale</h3>
+      <p><strong>EN 14960</strong> is the European standard for inflatable play equipment safety — covering design, manufacture, testing, and operation. For commercial inflatables sold or hired in Ireland or the UK, EN 14960 compliance is the de facto safety baseline that liability insurers and local authority licensing require. Ériu Sourcing verifies that the Henan factory produces to EN 14960 standards and supplies the test reports as part of the order pack — including PIPA (Performance Inspections of Play Areas) inspection capability for ongoing UK and Irish event-hire compliance.</p>
+      <blockquote><p>A typical commercial bounce castle (5 m × 5 m, fully enclosed walls, with blower unit) ships factory-direct from Henan at approximately €1,200 to €1,800 FOB factory. Sea freight, duty, VAT and customs clearance add a further €350 to €500 per unit. UK event-hire fabricator pricing for the same specification typically runs €3,000 to €4,500 per unit. The saving compounds for water parks and larger commercial installations.</p></blockquote>
+    `,
+    faq: [
+      {
+        q: 'Are Chinese commercial inflatables EN 14960-compliant and safe for Irish event-hire use?',
+        a: 'Yes — the major Henan factories produce to EN 14960 standards for European-market export. Ériu Sourcing verifies the EN 14960 test documentation at the factory and supplies it with the order pack. Irish event-hire businesses also need ongoing PIPA inspections (Performance Inspections of Play Areas) for ongoing compliance — the Henan-supplied unit ships with the initial test pass, and ongoing PIPA inspection is arranged via UK / Irish inspection bodies.',
+      },
+      {
+        q: 'What PVC fabric specification should I order for commercial use?',
+        a: 'Commercial event-hire bounce houses should be 0.55 mm PVC tarpaulin minimum, 1000-denier scrim base. For inflatable water parks and floating installations 0.9 mm PVC is the commercial standard — heavier, more puncture-resistant, longer service life on water exposure. Lower-spec 0.35 mm PVC is consumer/home grade and does not stand up to commercial multi-event-per-week use cycles.',
+      },
+      {
+        q: 'What is the typical UK landed-cost saving versus Airquee or Bouncy Castle Sales Co.?',
+        a: 'Factory-direct from Henan typically saves 40–60% on landed-Ireland or landed-UK cost versus equivalent-spec product from UK domestic fabricators. The saving is largest on bespoke and large-format inflatables (water parks, obstacle courses, advertising inflatables) and smallest on standard small bounce houses where UK domestic fabricators are pricing competitively against China imports.',
+      },
+      {
+        q: 'How long does a commercial inflatable order take from Henan to Ireland?',
+        a: 'Standard stock designs ship in 2–3 weeks production from order. Custom designs (logo printing, OEM colour schemes, bespoke dimensions) take 4–6 weeks production. Sea freight from Shanghai or Ningbo to Dublin adds 4–5 weeks. For urgent orders Ériu can arrange air freight on small-volume items (5–7 days) at materially higher freight cost.',
+      },
+      {
+        q: 'Can you arrange custom-branded inflatables (event branding, advertising)?',
+        a: 'Yes. The Henan factories produce both stock-design inflatables and fully custom OEM units — bespoke shapes, custom colour PVC, logo printing, integrated brand panels. Custom design typically takes 1–2 weeks for sample approval (digital mockup plus a physical sample) and 4–6 weeks production. Ideal for outdoor event branding, retail activations, and sports-team / festival hire fleet builds.',
+      },
+    ],
+  },
 ];
