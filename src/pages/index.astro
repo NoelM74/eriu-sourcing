@@ -173,9 +173,10 @@ const pageSchemas = [
   <section class="section buyer-section">
     <div class="container">
       <div class="buyer-header">
-        <span class="section-eyebrow">Who's it for</span>
+        <span class="section-eyebrow">Who's it for · What we source</span>
         <h2>Built around the way<br />Irish businesses actually buy</h2>
         <p class="buyer-intro">Five buyer profiles we work with most. Find the one closest to your business — or get in touch if your model sits across more than one.</p>
+        <a href="/source/" class="buyer-header-cta">See every category we source →</a>
       </div>
 
       <div class="buyer-grid">
@@ -225,34 +226,9 @@ const pageSchemas = [
   </section>
 
   <!-- ================================================
-       QC SECTION — split editorial
-       ================================================ -->
-  <section class="section qc-section">
-    <div class="container">
-      <div class="split-grid">
-        <div class="split-content">
-          <span class="section-eyebrow">Quality control</span>
-          <h2>Inspected before it ships.<br />Every single time.</h2>
-          <p>Most sourcing failures happen because no one checks the goods at the factory. By the time the container arrives in Dublin, it's too late and too expensive to fix.</p>
-          <p>Every order through Ériu Sourcing is physically inspected before it leaves China. Product counts, quality checks, CE certification verification — done in person, at the factory, before a container is sealed.</p>
-          <p>If it fails, we resolve it with the factory before it ships. Not after.</p>
-          <a href="/contact/" class="btn btn--primary" style="margin-top: 0.5rem;">Get QC-protected sourcing →</a>
-        </div>
-        <div class="split-image">
-          <img
-            src="/images/qc-inspection-factory.webp"
-            alt="Pre-shipment quality control inspection at Chinese manufacturing factory — Ériu Sourcing"
-            width="640"
-            height="480"
-            loading="lazy"
-          />
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================================================
-       HOW IT WORKS — horizontal steps
+       HOW IT WORKS — horizontal steps (Step 3 covers
+       pre-shipment QC, so we no longer carry a
+       separate "Quality control" section above)
        ================================================ -->
   <section class="section section--alt process-section">
     <div class="container">
@@ -297,43 +273,13 @@ const pageSchemas = [
   </section>
 
   <!-- ================================================
-       WHAT WE SOURCE — clean text list
-       ================================================ -->
-  <section class="section categories-section">
-    <div class="container">
-      <div class="categories-intro">
-        <div>
-          <span class="section-eyebrow">What we source</span>
-          <h2>Ireland's top China<br />import categories</h2>
-          <p>Factory-level relationships across every major category — electronics, furniture, construction, hospitality, pet supplies, and modular buildings.</p>
-          <a href="/source/" class="btn btn--secondary" style="margin-top: 1rem;">See all categories →</a>
-        </div>
-        <div class="categories-image">
-          <img
-            src="/images/foshan-furniture-factory.webp"
-            alt="Foshan furniture factory — direct sourcing for Irish businesses"
-            width="560"
-            height="400"
-            loading="lazy"
-          />
-        </div>
-      </div>
-
-      <ul class="categories-list" role="list">
-        <li><a href="/source/electronics-from-china-ireland/"><span>Electronics</span><span class="cat-arrow">→</span></a></li>
-        <li><a href="/source/furniture-from-china-ireland/"><span>Furniture &amp; Fit-Out</span><span class="cat-arrow">→</span></a></li>
-        <li><a href="/source/construction-materials-from-china-ireland/"><span>Construction Materials</span><span class="cat-arrow">→</span></a></li>
-        <li><a href="/source/hospitality-fitout-from-china-ireland/"><span>Hospitality</span><span class="cat-arrow">→</span></a></li>
-        <li><a href="/source/pet-supplies-from-china-ireland/"><span>Pet Supplies</span><span class="cat-arrow">→</span></a></li>
-        <li><a href="/source/modular-buildings-from-china-ireland/"><span>Modular Buildings</span><span class="cat-arrow">→</span></a></li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- ================================================
        CHINA NETWORK — split with image
+       (buyer section above already lists the 6
+       categories with stronger framing, so we no
+       longer carry a separate flat-list "What we
+       source" section between them)
        ================================================ -->
-  <section class="section section--alt">
+  <section class="section">
     <div class="container">
       <div class="split-grid split-grid--reverse">
         <div class="split-image">
@@ -360,7 +306,7 @@ const pageSchemas = [
   <!-- ================================================
        FAQ — visible Q&A for PAA + GEO signals
        ================================================ -->
-  <section class="section faq-section">
+  <section class="section section--alt faq-section">
     <div class="container">
       <div class="faq-header">
         <span class="section-eyebrow">Common questions</span>
@@ -648,7 +594,22 @@ const pageSchemas = [
   .buyer-intro {
     font-size: var(--text-lg);
     color: #3a3a3a;
-    margin: 0;
+    margin: 0 0 1rem;
+  }
+
+  .buyer-header-cta {
+    display: inline-block;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--color-emerald);
+    text-decoration: none;
+    border-bottom: 1.5px solid transparent;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+
+  .buyer-header-cta:hover {
+    color: var(--color-emerald-dark);
+    border-color: var(--color-emerald);
   }
 
   .buyer-grid {
@@ -813,68 +774,8 @@ const pageSchemas = [
     padding-top: 0.5rem;
   }
 
-  /* ===================== CATEGORIES ===================== */
-  .categories-intro {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    align-items: center;
-    margin-bottom: 3rem;
-  }
-
-  .categories-image img {
-    width: 100%;
-    height: 340px;
-    object-fit: cover;
-    border-radius: 12px;
-  }
-
-  .categories-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    border-top: 1px solid rgba(15, 33, 49, 0.1);
-  }
-
-  .categories-list li {
-    border-bottom: 1px solid rgba(15, 33, 49, 0.1);
-    border-right: 1px solid rgba(15, 33, 49, 0.1);
-  }
-
-  .categories-list li:nth-child(4n) {
-    border-right: none;
-  }
-
-  .categories-list a {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.125rem 1.25rem;
-    font-size: 0.9375rem;
-    font-weight: 600;
-    color: #0F2131;
-    text-decoration: none;
-    min-height: 56px;
-    transition: background-color 0.12s ease, color 0.12s ease;
-  }
-
-  .categories-list a:hover {
-    background-color: rgba(26, 83, 62, 0.05);
-    color: #1A533E;
-  }
-
-  .cat-arrow {
-    color: #9a9a9a;
-    font-size: 1rem;
-    transition: color 0.12s ease, transform 0.12s ease;
-  }
-
-  .categories-list a:hover .cat-arrow {
-    color: #1A533E;
-    transform: translateX(3px);
-  }
+  /* Categories section removed — buyer-section above covers the same
+     6 categories with stronger framing. CSS deleted with it. */
 
   /* ===================== FAQ SECTION ===================== */
   .faq-header {
@@ -952,17 +853,6 @@ const pageSchemas = [
       border-right: 1px solid rgba(15, 33, 49, 0.1);
     }
 
-    .categories-list {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    .categories-list li:nth-child(4n) {
-      border-right: 1px solid rgba(15, 33, 49, 0.1);
-    }
-
-    .categories-list li:nth-child(2n) {
-      border-right: none;
-    }
   }
 
   @media (max-width: 900px) {
@@ -991,19 +881,6 @@ const pageSchemas = [
       border-right: none;
       padding-left: 0;
     }
-
-    .categories-intro {
-      grid-template-columns: 1fr;
-      gap: 2rem;
-    }
-
-    .categories-image {
-      order: -1;
-    }
-
-    .categories-image img {
-      height: 240px;
-    }
   }
 
   @media (max-width: 768px) {
@@ -1031,14 +908,6 @@ const pageSchemas = [
       border-right: none;
       padding-left: 0;
     }
-
-    .categories-list {
-      grid-template-columns: 1fr 1fr;
-    }
-
-    .categories-list li:nth-child(2n) {
-      border-right: none;
-    }
   }
 
   @media (max-width: 480px) {
@@ -1048,14 +917,6 @@ const pageSchemas = [
 
     .hero-content {
       padding-bottom: 3rem;
-    }
-
-    .categories-list {
-      grid-template-columns: 1fr;
-    }
-
-    .categories-list li {
-      border-right: none !important;
     }
 
     .cta-actions {
