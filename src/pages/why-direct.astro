@@ -1,6 +1,8 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import Breadcrumbs from '../components/Breadcrumbs.astro';
+import PageHero from '../components/PageHero.astro';
+import FAQAccordion from '../components/FAQAccordion.astro';
+import CtaSection from '../components/CtaSection.astro';
 
 const title = "Why Buy Factory-Direct from China? | Ériu Sourcing Ireland";
 const description = "The real cost of buying through Irish wholesalers and Alibaba trading companies. Factory-direct saves 35–60% and eliminates CE compliance risk.";
@@ -44,14 +46,12 @@ const pageSchemas = [
 
 <BaseLayout title={title} description={description} canonical="/why-direct/" jsonLd={pageSchemas}>
 
-  <section class="page-hero section--lg">
-    <div class="container--narrow">
-      <Breadcrumbs items={[{ label: 'Why Direct?' }]} />
-      <span class="section-eyebrow">Why Buy Direct?</span>
-      <h1>Three China sourcing markup layers you're currently paying — and don't need to.</h1>
-      <p class="lead">When an Irish retailer buys Chinese goods through an Irish wholesaler, they're paying for the Chinese factory, plus a trading company margin, plus a Chinese export agent, plus an Irish importer's margin. Factory-direct removes all but the first.</p>
-    </div>
-  </section>
+  <PageHero
+    breadcrumbs={[{ label: 'Why Direct?' }]}
+    eyebrow="Why Buy Direct?"
+    h1="Three China sourcing markup layers you're currently paying — and don't need to."
+    lead="When an Irish retailer buys Chinese goods through an Irish wholesaler, they're paying for the Chinese factory, plus a trading company margin, plus a Chinese export agent, plus an Irish importer's margin. Factory-direct removes all but the first."
+  />
 
   <section class="cost-section section section--alt">
     <div class="container">
@@ -145,42 +145,40 @@ const pageSchemas = [
       <span class="section-eyebrow">Common questions</span>
       <h2>China sourcing — questions answered</h2>
       <p class="faq-updated">Last reviewed: May 2026</p>
-      <div class="faq-list">
-        <details class="faq-item">
-          <summary>Why not just buy from Alibaba instead of using a sourcing agent?</summary>
-          <p>Most suppliers on Alibaba are trading companies, not factories. They present themselves as manufacturers but buy from factories and add 20–40% margin. There is no way to verify this from Ireland. A sourcing agent with physical presence in China can visit facilities, verify they are actual factories, negotiate factory-gate prices, and conduct pre-shipment QC — none of which is possible through Alibaba alone.</p>
-        </details>
-        <details class="faq-item">
-          <summary>How do Alibaba trading companies affect the price Irish businesses pay?</summary>
-          <p>A typical Alibaba order passes through two or three markup layers: the actual factory sets a price, a Chinese trading company adds 20–40%, an Alibaba reseller or agent may add another 10–20%, and then customs and shipping are added on top. Factory-direct sourcing eliminates the trading company and reseller layers entirely — which is where the 35–60% saving comes from.</p>
-        </details>
-        <details class="faq-item">
-          <summary>Is it risky to import directly from Chinese factories?</summary>
-          <p>The risk in China sourcing comes from not knowing who you are buying from — not from buying direct in principle. With on-the-ground factory vetting, pre-shipment QC inspection, and CE compliance verification, the risks are substantially lower than ordering through an unknown Alibaba supplier. The risk is in the unknown — not in direct factory purchasing itself.</p>
-        </details>
-        <details class="faq-item">
-          <summary>What markups do Irish wholesalers add to Chinese goods?</summary>
-          <p>Irish wholesalers typically mark up Chinese goods 40–80% over their landed cost. When you buy from an Irish wholesaler, you are paying their purchase price from a European importer (who has also marked up), plus warehousing, distribution, and profit margin. The same goods purchased factory-direct from China and shipped to Ireland typically cost 35–60% less than the Irish wholesale price.</p>
-        </details>
-      </div>
+      <FAQAccordion items={[
+        {
+          q: 'Why not just buy from Alibaba instead of using a sourcing agent?',
+          a: 'Most suppliers on Alibaba are trading companies, not factories. They present themselves as manufacturers but buy from factories and add 20–40% margin. There is no way to verify this from Ireland. A sourcing agent with physical presence in China can visit facilities, verify they are actual factories, negotiate factory-gate prices, and conduct pre-shipment QC — none of which is possible through Alibaba alone.'
+        },
+        {
+          q: 'How do Alibaba trading companies affect the price Irish businesses pay?',
+          a: 'A typical Alibaba order passes through two or three markup layers: the actual factory sets a price, a Chinese trading company adds 20–40%, an Alibaba reseller or agent may add another 10–20%, and then customs and shipping are added on top. Factory-direct sourcing eliminates the trading company and reseller layers entirely — which is where the 35–60% saving comes from.'
+        },
+        {
+          q: 'Is it risky to import directly from Chinese factories?',
+          a: 'The risk in China sourcing comes from not knowing who you are buying from — not from buying direct in principle. With on-the-ground factory vetting, pre-shipment QC inspection, and CE compliance verification, the risks are substantially lower than ordering through an unknown Alibaba supplier. The risk is in the unknown — not in direct factory purchasing itself.'
+        },
+        {
+          q: 'What markups do Irish wholesalers add to Chinese goods?',
+          a: 'Irish wholesalers typically mark up Chinese goods 40–80% over their landed cost. When you buy from an Irish wholesaler, you are paying their purchase price from a European importer (who has also marked up), plus warehousing, distribution, and profit margin. The same goods purchased factory-direct from China and shipped to Ireland typically cost 35–60% less than the Irish wholesale price.'
+        }
+      ]} />
     </div>
   </section>
 
-  <section class="cta-strip section--emerald">
-    <div class="container--narrow" style="text-align:center">
-      <span class="section-eyebrow section-eyebrow--light">The numbers don't lie</span>
-      <h2>Stop paying wholesale margins on factory-priced goods.</h2>
-      <p>Send us what you're importing. We'll show you what it actually costs at factory gate.</p>
-      <a href="/contact/" class="btn btn--white">Get Factory Pricing →</a>
-    </div>
-  </section>
+  <CtaSection
+    eyebrow="The numbers don't lie"
+    h2="Stop paying wholesale margins on factory-priced goods."
+    body="Send us what you're importing. We'll show you what it actually costs at factory gate."
+    ctas={[
+      { href: '/contact/', label: 'Get Factory Pricing →', variant: 'white' }
+    ]}
+  />
 
 </BaseLayout>
 
 <style>
-  .page-hero { border-bottom: 1px solid rgba(15,33,49,.08); }
-  .page-hero h1 { font-size: clamp(2.25rem, 5vw, 4rem); }
-  .lead { font-size: 1.25rem; color: #5a5a5a; line-height: 1.7; margin: 1rem 0 0; max-width: 58ch; }
+  /* Hero/FAQ/CTA styles owned by shared components. */
 
   .cost-table { margin: 2rem 0; border: 1px solid rgba(15,33,49,.1); border-radius: var(--radius-lg); overflow: hidden; }
   .cost-row { display: grid; grid-template-columns: 2fr 1fr 1fr; padding: .875rem 1.5rem; gap: 1rem; align-items: center; border-bottom: 1px solid rgba(15,33,49,.06); }
@@ -203,18 +201,7 @@ const pageSchemas = [
   .compliance-stat blockquote p { font-size: 1.0625rem; font-style: italic; color: var(--color-navy); line-height: 1.65; margin-bottom: 1rem; max-width: none; }
   .compliance-stat cite { font-size: .8125rem; color: var(--color-grey); font-style: normal; font-weight: 700; }
 
-  .cta-strip { padding: 5rem 0; }
-  .cta-strip h2 { font-size: clamp(1.75rem, 4vw, 3rem); margin-bottom: 1rem; }
-  .cta-strip p { font-size: 1.125rem; margin: 0 auto 2rem; max-width: 50ch; }
-
   .faq-updated { font-size: .8125rem; color: var(--color-grey); margin: .25rem 0 1.5rem; }
-  .faq-list { display: flex; flex-direction: column; gap: 0; margin-top: 2rem; }
-  .faq-item { border-bottom: 1px solid rgba(15,33,49,.1); padding: 0; }
-  .faq-item summary { font-weight: 600; font-size: 1rem; color: var(--color-navy); cursor: pointer; padding: 1.25rem 0; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
-  .faq-item summary::-webkit-details-marker { display: none; }
-  .faq-item summary::after { content: '+'; font-size: 1.25rem; font-weight: 300; color: var(--color-emerald); flex-shrink: 0; transition: transform .2s ease; }
-  .faq-item[open] summary::after { transform: rotate(45deg); }
-  .faq-item p { padding: 0 0 1.25rem; color: #4a4a4a; font-size: .9375rem; max-width: 100%; margin: 0; line-height: 1.65; }
 
   @media (max-width: 900px) {
     .problems-grid { grid-template-columns: 1fr; }

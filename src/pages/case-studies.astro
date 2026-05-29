@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import Breadcrumbs from '../components/Breadcrumbs.astro';
+import PageHero from '../components/PageHero.astro';
+import CtaSection from '../components/CtaSection.astro';
 
 const title = "China Sourcing Results for Irish Businesses | Ériu Sourcing";
 const description = "Real results: fashion brand to 8-figure revenue, hotel fit-out at 45% saving, electronics retailer saved 52% on landed cost. Factory-direct from China.";
@@ -89,14 +90,12 @@ const caseStudies = [
 
 <BaseLayout title={title} description={description} canonical="/case-studies/" jsonLd={pageSchemas}>
 
-  <section class="page-hero section--lg">
-    <div class="container--narrow">
-      <Breadcrumbs items={[{ label: 'Case Studies' }]} />
-      <span class="section-eyebrow">Case Studies</span>
-      <h1>What factory-direct actually looks like in practice.</h1>
-      <p class="lead">Real results from real sourcing projects. Client names are withheld by agreement, but the numbers and outcomes are real. This is what changes when you remove the middlemen.</p>
-    </div>
-  </section>
+  <PageHero
+    breadcrumbs={[{ label: 'Case Studies' }]}
+    eyebrow="Case Studies"
+    h1="What factory-direct actually looks like in practice."
+    lead="Real results from real sourcing projects. Client names are withheld by agreement, but the numbers and outcomes are real. This is what changes when you remove the middlemen."
+  />
 
   <section class="cases-section section section--alt">
     <div class="container">
@@ -125,21 +124,19 @@ const caseStudies = [
     </div>
   </section>
 
-  <section class="cta-strip section--emerald">
-    <div class="container--narrow" style="text-align:center">
-      <span class="section-eyebrow section-eyebrow--light">Your turn</span>
-      <h2>Want results like these?</h2>
-      <p>Send us a brief. We'll tell you what your product category actually costs at factory gate — and what you should be paying.</p>
-      <a href="/contact/" class="btn btn--white">Get a Sourcing Quote →</a>
-    </div>
-  </section>
+  <CtaSection
+    eyebrow="Your turn"
+    h2="Want results like these?"
+    body="Send us a brief. We'll tell you what your product category actually costs at factory gate — and what you should be paying."
+    ctas={[
+      { href: '/contact/', label: 'Get a Sourcing Quote →', variant: 'white' }
+    ]}
+  />
 
 </BaseLayout>
 
 <style>
-  .page-hero { border-bottom: 1px solid rgba(15,33,49,.08); }
-  .page-hero h1 { font-size: clamp(2.25rem, 5vw, 4rem); }
-  .lead { font-size: 1.25rem; color: #5a5a5a; line-height: 1.7; margin: 1rem 0 0; max-width: 56ch; }
+  /* Hero/CTA styles owned by shared components. */
 
   .cases-list { display: flex; flex-direction: column; gap: 2.5rem; }
   .case-card { background: var(--color-white); border: 1px solid rgba(15,33,49,.08); border-radius: var(--radius-lg); overflow: hidden; }
@@ -156,9 +153,6 @@ const caseStudies = [
   .case-results li { font-size: .9375rem; color: var(--color-navy); font-weight: 500; padding-left: 1.5rem; position: relative; line-height: 1.45; }
   .case-results li::before { content: '✓'; position: absolute; left: 0; color: var(--color-emerald); font-weight: 700; }
 
-  .cta-strip { padding: 5rem 0; }
-  .cta-strip h2 { font-size: clamp(1.75rem, 4vw, 3rem); margin-bottom: 1rem; }
-  .cta-strip p { font-size: 1.125rem; margin: 0 auto 2rem; max-width: 50ch; }
 
   @media (max-width: 900px) {
     .case-body { grid-template-columns: 1fr; }

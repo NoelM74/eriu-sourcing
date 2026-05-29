@@ -1,6 +1,9 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import PageHero from '../../components/PageHero.astro';
+import StatsRow from '../../components/StatsRow.astro';
+import FAQAccordion from '../../components/FAQAccordion.astro';
+import CtaSection from '../../components/CtaSection.astro';
 import { sourcingPages } from '../../data/sourcingPages.js';
 import { products } from '../../data/products.js';
 
@@ -67,50 +70,27 @@ const pageSchemas = [
   jsonLd={pageSchemas}
 >
 
-  <!-- HERO -->
-  <section class="source-hero">
-    <div class="container--narrow">
-      <Breadcrumbs items={[
-        { label: 'What We Source', href: '/source/' },
-        { label: page.eyebrow }
-      ]} />
-      <span class="section-eyebrow">{page.eyebrow}</span>
-      <h1>{page.h1}</h1>
-      <p class="lead">{page.intro}</p>
-      <div class="hero-ctas">
-        <a href="/contact/" class="btn btn--primary">Get a sourcing quote →</a>
-        <a href="/why-direct/" class="btn btn--secondary">Why factory-direct →</a>
-      </div>
-      <p class="last-reviewed">Last reviewed: <time datetime={new Date().toISOString().split('T')[0]}>{lastReviewed}</time></p>
-    </div>
-  </section>
+  <PageHero
+    breadcrumbs={[
+      { label: 'What We Source', href: '/source/' },
+      { label: page.eyebrow }
+    ]}
+    eyebrow={page.eyebrow}
+    h1={page.h1}
+    lead={page.intro}
+    ctas={[
+      { href: '/contact/', label: 'Get a sourcing quote →', variant: 'primary' },
+      { href: '/why-direct/', label: 'Why factory-direct →', variant: 'secondary' }
+    ]}
+    lastReviewed={new Date().toISOString().split('T')[0]}
+  />
 
-  <!-- TRUST BAR -->
-  <section class="trust-bar">
-    <div class="container">
-      <div class="trust-grid">
-        <div class="trust-item">
-          <span class="trust-num">{page.savings}</span>
-          <span class="trust-label">Typical saving vs Irish wholesale</span>
-        </div>
-        <div class="trust-divider"></div>
-        <div class="trust-item">
-          <span class="trust-num">18 yrs</span>
-          <span class="trust-label">China factory experience</span>
-        </div>
-        <div class="trust-divider"></div>
-        <div class="trust-item">
-          <span class="trust-num">{page.leadTime}</span>
-          <span class="trust-label">Typical lead time to Ireland</span>
-        </div>
-        <div class="trust-divider"></div>
-        <div class="trust-item">
-          <span class="trust-num">{page.minOrderShort}</span>
-          <span class="trust-label">Min. order range</span>
-        </div>
-      </div>
-    </div>
-  </section>
+  <StatsRow items={[
+    { figure: page.savings, label: 'Typical saving vs Irish wholesale' },
+    { figure: '18 yrs', label: 'China factory experience' },
+    { figure: page.leadTime, label: 'Typical lead time to Ireland' },
+    { figure: page.minOrderShort, label: 'Min. order range' }
+  ]} />
 
   <!-- HUB DETAIL -->
   <section class="section section--alt">
@@ -168,7 +148,7 @@ const pageSchemas = [
         <ul class="product-guide-grid">
           {categoryProducts.map(p => (
             <li>
-              <a href={`/source/${p.categorySlug}/${p.slug}/`} class="product-guide-card">
+              <a href={`/source/${p.categorySlug}/${p.slug}/`} class="product-guide-card lift">
                 <span class="product-guide-eyebrow">{p.region.split('(')[0].trim()}</span>
                 <h3>{p.h1}</h3>
                 <p>{p.description}</p>
@@ -257,109 +237,26 @@ const pageSchemas = [
     <div class="container--narrow">
       <span class="section-eyebrow">Common questions</span>
       <h2>{page.eyebrow} — sourcing questions answered</h2>
-      <div class="faq-list">
-        {page.faq.map(item => (
-          <details class="faq-item">
-            <summary>{item.q}</summary>
-            <p>{item.a}</p>
-          </details>
-        ))}
-      </div>
+      <FAQAccordion items={page.faq} />
     </div>
   </section>
 
-  <!-- CTA -->
-  <section class="section section--emerald">
-    <div class="container--narrow" style="text-align:center">
-      <span class="section-eyebrow section-eyebrow--light">Ready to start?</span>
-      <h2>Get factory-direct {page.eyebrow.toLowerCase()} pricing for your business</h2>
-      <p>Send a brief — product, quantity, timeline. We come back with factory-level pricing, a supplier shortlist, and a clear plan. No obligation.</p>
-      <a href="/contact/" class="btn btn--white-outline" style="margin-top:1rem">Get a quote →</a>
-    </div>
-  </section>
+  <CtaSection
+    eyebrow="Ready to start?"
+    h2={`Get factory-direct ${page.eyebrow.toLowerCase()} pricing for your business`}
+    body="Send a brief — product, quantity, timeline. We come back with factory-level pricing, a supplier shortlist, and a clear plan. No obligation."
+    ctas={[
+      { href: '/contact/', label: 'Get a quote →', variant: 'white-outline' }
+    ]}
+  />
 
 </BaseLayout>
 
 <style>
-  /* ── HERO ── */
-  .source-hero {
-    background-color: var(--color-bg-alt);
-    padding: 5rem 0 4rem;
-    border-bottom: 1px solid rgba(15,33,49,0.08);
-  }
-
-  .source-hero h1 {
-    margin-top: 0.75rem;
-    margin-bottom: 1.25rem;
-  }
-
-  .source-hero .lead {
-    font-size: var(--text-lg);
-    color: #3a3a3a;
-    max-width: 64ch;
-    margin-bottom: 2rem;
-  }
-
-  .hero-ctas {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-  }
-
-  .last-reviewed {
-    margin-top: 1.5rem;
-    font-size: 0.8125rem;
-    color: rgba(15, 33, 49, 0.55);
-  }
-
-  .last-reviewed time {
-    font-weight: 600;
-    color: rgba(15, 33, 49, 0.75);
-  }
-
-  /* ── TRUST BAR ── */
-  .trust-bar {
-    background: #fff;
-    border-bottom: 1px solid rgba(15,33,49,0.08);
-    padding: 2.5rem 0;
-  }
-
-  .trust-grid {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1.5rem;
-    flex-wrap: wrap;
-  }
-
-  .trust-item {
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
-    flex: 1;
-    min-width: 160px;
-  }
-
-  .trust-num {
-    font-family: var(--font-body);
-    font-size: clamp(1.5rem, 3vw, 2.25rem);
-    font-weight: 700;
-    color: var(--color-emerald);
-    line-height: 1;
-    letter-spacing: -0.03em;
-  }
-
-  .trust-label {
-    font-size: 0.875rem;
-    color: #5a5a5a;
-  }
-
-  .trust-divider {
-    width: 1px;
-    height: 48px;
-    background: rgba(15,33,49,0.12);
-    flex-shrink: 0;
-  }
+  /* Page-local styles — hero/stats/FAQ/CTA moved into shared components.
+     The remaining styles below own the hub-grid, product list, process
+     steps, editorial body, case-callout, and product-guide grid —
+     category-page-specific patterns not yet extracted. */
 
   /* ── HUB ── */
   .hub-grid {
@@ -508,55 +405,6 @@ const pageSchemas = [
     }
   }
 
-  /* ── FAQ ── */
-  .faq-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-    margin-top: 2rem;
-  }
-
-  .faq-item {
-    border-bottom: 1px solid rgba(15,33,49,0.1);
-    padding: 0;
-  }
-
-  .faq-item summary {
-    font-weight: 600;
-    font-size: var(--text-base);
-    color: var(--color-navy);
-    cursor: pointer;
-    padding: 1.25rem 0;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-  }
-
-  .faq-item summary::-webkit-details-marker { display: none; }
-
-  .faq-item summary::after {
-    content: '+';
-    font-size: 1.25rem;
-    font-weight: 300;
-    color: var(--color-emerald);
-    flex-shrink: 0;
-    transition: transform 0.2s ease;
-  }
-
-  .faq-item[open] summary::after {
-    transform: rotate(45deg);
-  }
-
-  .faq-item p {
-    padding: 0 0 1.25rem;
-    color: #4a4a4a;
-    font-size: 0.9375rem;
-    max-width: 100%;
-    margin: 0;
-  }
-
   /* ── EDITORIAL BODY ── */
   .editorial-body h2 {
     margin-bottom: 1.75rem;
@@ -628,16 +476,10 @@ const pageSchemas = [
     .process-step {
       padding: 1.5rem 0 0;
     }
-
-    .trust-divider { display: none; }
-    .trust-item { min-width: 140px; }
   }
 
   @media (max-width: 600px) {
-    .source-hero { padding: 3rem 0 2.5rem; }
     .process-steps { grid-template-columns: 1fr; }
-    .hero-ctas { flex-direction: column; }
-    .trust-grid { gap: 1rem; }
   }
 
   /* ── PRODUCT GUIDE GRID ── */

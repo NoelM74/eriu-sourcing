@@ -304,3 +304,70 @@ img {
     padding: 5rem 0;
   }
 }
+
+/* ============================================
+   Motion system
+   --------------------------------------------
+   Three utility classes for selective, considered
+   motion. Used by JS-driven IntersectionObserver
+   in BaseLayout to add `.is-visible` on scroll.
+
+   All utilities respect prefers-reduced-motion —
+   motion-sensitive users get static layouts.
+   ============================================ */
+
+/* Lift-on-hover: subtle elevation for cards. Apply to interactive
+   surfaces (category cards, product cards, related-post cards). */
+.lift {
+  transition: transform 0.18s cubic-bezier(0.2, 0.8, 0.2, 1),
+              box-shadow 0.18s cubic-bezier(0.2, 0.8, 0.2, 1),
+              border-color 0.18s ease;
+}
+
+.lift:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 32px rgba(15, 33, 49, 0.10);
+}
+
+/* Fade-up-on-scroll: section reveal as it enters the viewport.
+   Hidden by default; .is-visible is added by IntersectionObserver. */
+.fade-up {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.6s cubic-bezier(0.2, 0.8, 0.2, 1),
+              transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+  will-change: opacity, transform;
+}
+
+.fade-up.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stat count-up baseline: the JS counter writes incrementing values
+   into the element. CSS just ensures the typography is monospaced-tab
+   so the number doesn't jitter as it grows. */
+.count-up {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Respect motion preferences — applied last to override anything above. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .fade-up {
+    opacity: 1;
+    transform: none;
+  }
+
+  .lift:hover {
+    transform: none;
+  }
+}

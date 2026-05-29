@@ -1,6 +1,8 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import Breadcrumbs from '../components/Breadcrumbs.astro';
+import PageHero from '../components/PageHero.astro';
+import FAQAccordion from '../components/FAQAccordion.astro';
+import CtaSection from '../components/CtaSection.astro';
 
 const title = "How China Factory-Direct Sourcing Works | Ériu Sourcing";
 const description = "Four steps from brief to delivery: factory identification, price negotiation, pre-shipment QC, and freight to Ireland — all handled from China.";
@@ -71,9 +73,9 @@ const pageSchemas = [
 const steps = [
   {
     num: '01',
-    title: 'You send me a brief',
+    title: 'You send us a brief',
     body: [
-      'Tell me the product, rough quantity, any spec or reference you have, and your timeline. WhatsApp or email is fine. Ten minutes of your time is enough to get started.',
+      'Tell us the product, rough quantity, any spec or reference you have, and your timeline. WhatsApp or email is fine. Ten minutes of your time is enough to get started.',
       'No long forms. No onboarding process. Just a direct conversation about what you need.',
     ],
     detail: 'What helps: product name or reference, target quantity, any samples or images you have, budget range, and timeline.',
@@ -131,15 +133,12 @@ const tiers = [
 
 <BaseLayout title={title} description={description} canonical="/how-it-works/" jsonLd={pageSchemas}>
 
-  <!-- PAGE HERO -->
-  <section class="page-hero section--lg">
-    <div class="container--narrow">
-      <Breadcrumbs items={[{ label: 'How It Works' }]} />
-      <span class="section-eyebrow">How It Works</span>
-      <h1>From your brief to your goods in Ireland.</h1>
-      <p class="lead">Four clear steps. No surprises. Everything managed from the factory floor to your Irish door.</p>
-    </div>
-  </section>
+  <PageHero
+    breadcrumbs={[{ label: 'How It Works' }]}
+    eyebrow="How It Works"
+    h1="From your brief to your goods in Ireland."
+    lead="Four clear steps. No surprises. Everything managed from the factory floor to your Irish door."
+  />
 
   <!-- STEPS -->
   <section class="section section--alt">
@@ -197,53 +196,36 @@ const tiers = [
       <span class="section-eyebrow">Common questions</span>
       <h2>China sourcing to Ireland — process questions answered</h2>
       <p class="faq-updated">Last reviewed: May 2026</p>
-      <div class="faq-list">
-        <details class="faq-item">
-          <summary>How long does sourcing from China to Ireland take?</summary>
-          <p>The full process — from initial brief to goods landed in Ireland — typically takes 8–14 weeks. Factory identification and pricing takes 1–2 weeks. Sampling and approval takes 1–3 weeks depending on complexity. Production takes 3–6 weeks. Sea freight from China to Ireland takes 4–5 weeks. Air freight is available for urgent orders, reducing transit to 5–7 days.</p>
-        </details>
-        <details class="faq-item">
-          <summary>What information do I need to provide to get a sourcing quote?</summary>
-          <p>To start the process you need: the product name and category, target quantity or annual volume, any existing product references or specifications, quality grade required, target landed price, and your destination in Ireland. A photo or product link is helpful but not essential. The more specific the brief, the more accurate the factory pricing and lead times provided.</p>
-        </details>
-        <details class="faq-item">
-          <summary>How does pre-shipment quality control work?</summary>
-          <p>Pre-shipment QC is a physical inspection of finished goods at the factory before the shipping container is sealed. The inspection checks product specifications against your approved sample, verifies quantities, reviews packaging, and tests product function where applicable. If goods fail inspection, they stay in China at the factory's cost — you do not pay freight on rejected goods. This eliminates the risk of discovering quality problems at Dublin Port.</p>
-        </details>
-      </div>
+      <FAQAccordion items={[
+        {
+          q: 'How long does sourcing from China to Ireland take?',
+          a: 'The full process — from initial brief to goods landed in Ireland — typically takes 8–14 weeks. Factory identification and pricing takes 1–2 weeks. Sampling and approval takes 1–3 weeks depending on complexity. Production takes 3–6 weeks. Sea freight from China to Ireland takes 4–5 weeks. Air freight is available for urgent orders, reducing transit to 5–7 days.'
+        },
+        {
+          q: 'What information do I need to provide to get a sourcing quote?',
+          a: 'To start the process you need: the product name and category, target quantity or annual volume, any existing product references or specifications, quality grade required, target landed price, and your destination in Ireland. A photo or product link is helpful but not essential. The more specific the brief, the more accurate the factory pricing and lead times provided.'
+        },
+        {
+          q: 'How does pre-shipment quality control work?',
+          a: 'Pre-shipment QC is a physical inspection of finished goods at the factory before the shipping container is sealed. The inspection checks product specifications against your approved sample, verifies quantities, reviews packaging, and tests product function where applicable. If goods fail inspection, they stay in China at the factory\'s cost — you do not pay freight on rejected goods. This eliminates the risk of discovering quality problems at Dublin Port.'
+        }
+      ]} />
     </div>
   </section>
 
-  <!-- BOTTOM CTA -->
-  <section class="section--emerald cta-strip">
-    <div class="container--narrow" style="text-align:center">
-      <span class="section-eyebrow section-eyebrow--light">No commitment needed</span>
-      <h2>Ready to start?</h2>
-      <p>Send us a brief. We'll come back with real factory pricing, a supplier shortlist, and a timeline — no obligation. Direct reply from Noel within 24 hours.</p>
-      <a href="/contact/" class="btn btn--white">Get a Quote →</a>
-    </div>
-  </section>
+  <CtaSection
+    eyebrow="No commitment needed"
+    h2="Ready to start?"
+    body="Send us a brief. We'll come back with real factory pricing, a supplier shortlist, and a timeline — no obligation. Direct reply from Noel within 24 hours."
+    ctas={[
+      { href: '/contact/', label: 'Get a Quote →', variant: 'white' }
+    ]}
+  />
 
 </BaseLayout>
 
 <style>
-  /* PAGE HERO */
-  .page-hero {
-    border-bottom: 1px solid rgba(15, 33, 49, 0.08);
-  }
-
-  .page-hero h1 {
-    font-size: clamp(2.25rem, 5vw, 4rem);
-    margin-bottom: 1.25rem;
-  }
-
-  .lead {
-    font-size: 1.25rem;
-    color: #5a5a5a;
-    line-height: 1.7;
-    margin: 0;
-    max-width: 52ch;
-  }
+  /* Page-local styles — hero/FAQ/CTA moved into shared components. */
 
   /* STEPS */
   .steps-list {
@@ -391,31 +373,8 @@ const tiers = [
     padding-top: 0.25rem;
   }
 
-  /* CTA STRIP */
-  .cta-strip {
-    padding: 5rem 0;
-  }
-
-  .cta-strip h2 {
-    font-size: clamp(2rem, 4vw, 3rem);
-    margin-bottom: 1rem;
-  }
-
-  .cta-strip p {
-    font-size: 1.125rem;
-    margin: 0 auto 2rem;
-    max-width: 50ch;
-  }
-
-  /* FAQ */
+  /* FAQ helper text only — accordion styles owned by FAQAccordion component */
   .faq-updated { font-size: 0.8125rem; color: #888; margin: 0.25rem 0 1.5rem; }
-  .faq-list { display: flex; flex-direction: column; gap: 0; margin-top: 2rem; }
-  .faq-item { border-bottom: 1px solid rgba(15, 33, 49, 0.1); padding: 0; }
-  .faq-item summary { font-weight: 600; font-size: 1rem; color: var(--color-navy); cursor: pointer; padding: 1.25rem 0; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
-  .faq-item summary::-webkit-details-marker { display: none; }
-  .faq-item summary::after { content: '+'; font-size: 1.25rem; font-weight: 300; color: var(--color-emerald); flex-shrink: 0; transition: transform 0.2s ease; }
-  .faq-item[open] summary::after { transform: rotate(45deg); }
-  .faq-item p { padding: 0 0 1.25rem; color: #4a4a4a; font-size: 0.9375rem; max-width: 100%; margin: 0; line-height: 1.65; }
 
   /* RESPONSIVE */
   @media (max-width: 900px) {

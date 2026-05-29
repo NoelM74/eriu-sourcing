@@ -1,0 +1,136 @@
+---
+// PageHero.astro — shared hero block for non-home interior pages.
+//
+// Replaces per-template duplication of: .source-hero, .product-hero,
+// .contact-hero, .about-hero, .page-hero, .article-hero, .blog-hero.
+//
+// Layout: container--narrow > Breadcrumbs > eyebrow > h1 > lead > CTAs > meta
+// Optional: variant="dark" inverts colours for emerald-background heroes.
+// Optional: variant="image" reserves a slot for a hero image alongside the text.
+
+import Breadcrumbs from './Breadcrumbs.astro';
+
+interface BreadcrumbItem {
+  label: string;
+  href?: string;
+}
+
+interface CtaItem {
+  href: string;
+  label: string;
+  variant?: 'primary' | 'secondary' | 'white' | 'white-outline';
+}
+
+interface Props {
+  breadcrumbs?: BreadcrumbItem[];
+  eyebrow?: string;
+  h1: string;
+  lead?: string;
+  ctas?: CtaItem[];
+  /** Date string (YYYY-MM-DD) — shows a "Last reviewed: <date>" line below CTAs */
+  lastReviewed?: string;
+  /** Visual variant: "default" (off-white bg), "alt" (warmer bg), "tight" (less vertical padding) */
+  variant?: 'default' | 'alt' | 'tight';
+}
+
+const {
+  breadcrumbs,
+  eyebrow,
+  h1,
+  lead,
+  ctas = [],
+  lastReviewed,
+  variant = 'default',
+} = Astro.props;
+
+const lastReviewedDisplay = lastReviewed
+  ? new Date(lastReviewed).toLocaleDateString('en-IE', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+    })
+  : null;
+---
+
+<section class={`page-hero page-hero--${variant}`}>
+  <div class="container--narrow">
+    {breadcrumbs && breadcrumbs.length > 0 && (
+      <Breadcrumbs items={breadcrumbs} />
+    )}
+    {eyebrow && <span class="section-eyebrow">{eyebrow}</span>}
+    <h1>{h1}</h1>
+    {lead && <p class="lead">{lead}</p>}
+    {ctas.length > 0 && (
+      <div class="hero-ctas">
+        {ctas.map(cta => (
+          <a href={cta.href} class={`btn btn--${cta.variant ?? 'primary'}`}>
+            {cta.label}
+          </a>
+        ))}
+      </div>
+    )}
+    {lastReviewedDisplay && (
+      <p class="last-reviewed">
+        Last reviewed: <time datetime={lastReviewed}>{lastReviewedDisplay}</time>
+      </p>
+    )}
+  </div>
+</section>
+
+<style>
+  .page-hero {
+    background-color: var(--color-bg-alt);
+    padding: 4.5rem 0 3.75rem;
+    border-bottom: 1px solid rgba(15, 33, 49, 0.08);
+  }
+
+  .page-hero--tight {
+    padding: 3.5rem 0 3rem;
+  }
+
+  .page-hero--alt {
+    background-color: var(--color-bg);
+  }
+
+  .page-hero h1 {
+    margin-top: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .page-hero .lead {
+    font-size: var(--text-lg);
+    color: #3a3a3a;
+    max-width: 64ch;
+    margin-bottom: 2rem;
+  }
+
+  .hero-ctas {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .last-reviewed {
+    margin-top: 1.5rem;
+    font-size: 0.8125rem;
+    color: rgba(15, 33, 49, 0.55);
+  }
+
+  .last-reviewed time {
+    font-weight: 600;
+    color: rgba(15, 33, 49, 0.75);
+  }
+
+  @media (max-width: 600px) {
+    .page-hero {
+      padding: 3rem 0 2.5rem;
+    }
+    .hero-ctas {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .hero-ctas .btn {
+      justify-content: center;
+    }
+  }
+</style>
