@@ -1,0 +1,109 @@
+---
+// StatsRow.astro — horizontal stats / at-a-glance strip.
+//
+// Replaces: .stats-row (home), .trust-bar/.trust-grid ([slug] page),
+// .at-a-glance/.glance-grid (product page).
+//
+// Usage:
+//   <StatsRow items={[
+//     { figure: '35–55%', label: 'Saving vs Irish wholesale' },
+//     { figure: '18 yrs', label: 'China factory experience' },
+//     { figure: '6–10 wks', label: 'Typical lead time' },
+//   ]} />
+
+interface StatItem {
+  figure: string;
+  label: string;
+}
+
+interface Props {
+  items: StatItem[];
+  /** Visual variant: "default" white background, "transparent" no background */
+  variant?: 'default' | 'transparent';
+}
+
+const { items, variant = 'default' } = Astro.props;
+---
+
+<section class={`stats-row stats-row--${variant}`}>
+  <div class="container">
+    <ul role="list">
+      {items.map((item, i) => (
+        <>
+          <li class="stat-item">
+            <span class="stat-figure">{item.figure}</span>
+            <span class="stat-label">{item.label}</span>
+          </li>
+          {i < items.length - 1 && <li class="stat-divider" aria-hidden="true" />}
+        </>
+      ))}
+    </ul>
+  </div>
+</section>
+
+<style>
+  .stats-row {
+    padding: 2.5rem 0;
+    border-bottom: 1px solid rgba(15, 33, 49, 0.08);
+  }
+
+  .stats-row--default {
+    background: #ffffff;
+  }
+
+  .stats-row--transparent {
+    background: transparent;
+    border-bottom: none;
+  }
+
+  .stats-row ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+    flex: 1;
+    min-width: 140px;
+    text-align: center;
+  }
+
+  .stat-figure {
+    font-family: var(--font-body);
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 700;
+    color: var(--color-emerald);
+    line-height: 1;
+    letter-spacing: -0.03em;
+  }
+
+  .stat-label {
+    font-size: 0.875rem;
+    color: #5a5a5a;
+    line-height: 1.4;
+  }
+
+  .stat-divider {
+    width: 1px;
+    height: 48px;
+    background-color: rgba(15, 33, 49, 0.12);
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 700px) {
+    .stat-divider {
+      display: none;
+    }
+    .stat-item {
+      min-width: 45%;
+    }
+  }
+</style>

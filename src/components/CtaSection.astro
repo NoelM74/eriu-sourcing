@@ -1,0 +1,105 @@
+---
+// CtaSection.astro — shared dark-emerald CTA band that closes most pages.
+//
+// Replaces per-template duplication of: .cta-section, .section--emerald
+// closing-blocks across homepage, product page, source/[slug], blog/[slug],
+// about, how-it-works, etc.
+//
+// Usage:
+//   <CtaSection
+//     eyebrow="Ready to start?"
+//     h2="Send us a brief. We'll find the factory."
+//     body="Product, quantity, timeline — that's all we need."
+//     ctas={[
+//       { href: '/contact/', label: 'Get a sourcing quote →', variant: 'white-outline' },
+//     ]}
+//   />
+
+interface CtaItem {
+  href: string;
+  label: string;
+  variant?: 'white' | 'white-outline';
+}
+
+interface Props {
+  eyebrow?: string;
+  h2: string;
+  body?: string;
+  ctas: CtaItem[];
+  /** Visual variant: "default" emerald background, "centered" centred text */
+  align?: 'left' | 'center';
+}
+
+const { eyebrow, h2, body, ctas, align = 'center' } = Astro.props;
+---
+
+<section class={`cta-section cta-section--${align}`}>
+  <div class="container--narrow">
+    {eyebrow && <span class="section-eyebrow section-eyebrow--light">{eyebrow}</span>}
+    <h2>{h2}</h2>
+    {body && <p>{body}</p>}
+    <div class="cta-actions">
+      {ctas.map(cta => (
+        <a href={cta.href} class={`btn btn--${cta.variant ?? 'white-outline'}`}>
+          {cta.label}
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .cta-section {
+    background-color: var(--color-emerald);
+    color: #ffffff;
+    padding: var(--space-2xl) 0;
+  }
+
+  .cta-section--center {
+    text-align: center;
+  }
+
+  .cta-section h2 {
+    color: #ffffff;
+    margin: 0.5rem 0 1rem;
+    max-width: 22ch;
+  }
+
+  .cta-section--center h2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cta-section p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: var(--text-lg);
+    line-height: 1.7;
+    margin: 0 0 1.75rem;
+    max-width: 54ch;
+  }
+
+  .cta-section--center p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cta-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .cta-section--center .cta-actions {
+    justify-content: center;
+  }
+
+  @media (max-width: 600px) {
+    .cta-actions {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .cta-actions .btn {
+      justify-content: center;
+    }
+  }
+</style>
