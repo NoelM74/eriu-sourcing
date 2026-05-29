@@ -25,7 +25,7 @@ interface Props {
 const { items, variant = 'default' } = Astro.props;
 ---
 
-<section class={`stats-row stats-row--${variant}`}>
+<section class={`stats-row stats-row--${variant} fade-up`}>
   <div class="container">
     <ul role="list">
       {items.map((item, i) => (

@@ -148,7 +148,7 @@ const pageSchemas = [
         <ul class="product-guide-grid">
           {categoryProducts.map(p => (
             <li>
-              <a href={`/source/${p.categorySlug}/${p.slug}/`} class="product-guide-card">
+              <a href={`/source/${p.categorySlug}/${p.slug}/`} class="product-guide-card lift">
                 <span class="product-guide-eyebrow">{p.region.split('(')[0].trim()}</span>
                 <h3>{p.h1}</h3>
                 <p>{p.description}</p>

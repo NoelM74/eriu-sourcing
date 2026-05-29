@@ -114,7 +114,7 @@ const categoryIcons = {
       </div>
       <div class="category-grid">
         {sourcingPages.map(page => (
-          <a href={`/source/${page.slug}/`} class="category-card">
+          <a href={`/source/${page.slug}/`} class="category-card lift">
             <div class="card-top">
               <span class="card-icon" aria-hidden="true">{categoryIcons[page.slug] || '📦'}</span>
               <span class="card-eyebrow">{page.eyebrow}</span>
@@ -136,7 +136,7 @@ const categoryIcons = {
           </a>
         ))}
         <!-- Fiber Optic Cable — standalone category not in sourcingPages.js -->
-        <a href="/source/fiber-optic-cable/" class="category-card">
+        <a href="/source/fiber-optic-cable/" class="category-card lift">
           <div class="card-top">
             <span class="card-icon" aria-hidden="true">🔌</span>
             <span class="card-eyebrow">Fiber Optic Cable</span>
