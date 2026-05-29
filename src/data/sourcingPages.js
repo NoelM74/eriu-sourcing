@@ -389,4 +389,124 @@ export const sourcingPages = [
       },
     ],
   },
+
+  {
+    slug: 'machinery-from-china-ireland',
+    title: 'China Machinery Sourcing for Ireland & UK — Inland-China Direct | Ériu Sourcing',
+    description: 'Source heavy machinery direct from inland-China clusters: concrete machinery (Changsha), crushers (Zhengzhou), tractors (Luoyang), excavators (Xuzhou), forklifts (Hefei). Factory-direct to Ireland and the UK.',
+    h1: 'Source heavy machinery direct from inland China to Ireland & the UK',
+    eyebrow: 'Machinery',
+    categoryAnchor: 'machinery',
+    intro: 'Inland China produces the world\'s heavy machinery — concrete pumps in Changsha (Sany, Zoomlion), jaw and cone crushers in Zhengzhou (Henan Fote, Baichy), agricultural tractors in Luoyang (YTO, since 1955), crawler excavators in Xuzhou (XCMG), and forklifts in Hefei (Anhui Heli, China\'s number-one forklift maker for 32 consecutive years). Ériu Sourcing operates from Zhengzhou, in the middle of this manufacturing belt, with bullet-train access to every major cluster within four hours.',
+    hub: 'Zhengzhou (Henan) · Changsha (Hunan) · Luoyang (Henan) · Xuzhou (Jiangsu) · Hefei (Anhui)',
+    hubDetail: 'Noel Murphy has been based in Zhengzhou since 2008 — at the geographic centre of the inland-China machinery belt. The five primary clusters that supply UK and Irish machinery buyers — Changsha, Zhengzhou, Luoyang, Xuzhou and Hefei — are all within four hours by high-speed rail from Zhengzhou, which is where Ériu performs factory vetting, production-line inspection, and pre-shipment QC. The coastal sourcing-agent crowd does not have this geographic advantage.',
+    keyProducts: [
+      'Concrete machinery — pumps, mixers, batching plants (Changsha)',
+      'Crushing and mining equipment — jaw, cone, impact crushers (Zhengzhou)',
+      'Agricultural machinery — tractors, balers, harvesters (Luoyang YTO)',
+      'Excavators and earthmoving equipment (Xuzhou XCMG)',
+      'Material handling — forklifts, pallet trucks (Hefei Heli)',
+      'Spare parts and after-sales service for inland-China brands',
+    ],
+    savings: '25–45%',
+    savingsNote: 'vs UK or Irish dealer pricing on equivalent specification',
+    ceNote: 'CE marking under the Machinery Directive (2006/42/EC) verified at the factory before shipment. EU Declaration of Conformity, EC type-examination certificate (where applicable), and the technical file are obtained as part of the order package.',
+    minOrder: '€20,000 single unit to €200,000+ fleet orders',
+    minOrderShort: '€20k+',
+    leadTime: '8–14 wks',
+    image: '/images/changsha-concrete-pump-truck-assembly-line.webp',
+    imageAlt: 'Heavy machinery assembly hall in inland China — Sany concrete pump trucks on the production line in Changsha, Hunan',
+    contentBody: `
+      <p>UK and Irish heavy-machinery buyers have a clear choice between the established Japanese and European brands (CAT, JCB, Komatsu, Hitachi, Volvo) at premium UK dealer pricing, and the rapidly maturing Chinese OEMs at substantially lower factory-direct cost. The Chinese brands are not unknowns — Sany has a UK headquarters in Coatbridge (Glasgow) and a nationwide UK dealer network; XCMG has appointed UK dealers including Cannon XCMG for the UK and Ireland; Anhui Heli forklifts are imported into the UK by Grant Handling (seven regional depots) and into Northern Ireland exclusively by Heyn Forktrucks.</p>
+      <p>The opportunity for direct sourcing sits where the official UK dealer footprint is thin or the value-tier is heavily marked up — typically smaller-fleet buyers in quarrying, recycling, agricultural, plant hire, and warehousing operations who would benefit from factory-gate access without paying the full UK dealer premium.</p>
+      <h3>Why inland China for machinery — and not Guangdong</h3>
+      <p>Heavy machinery is not a Guangdong industry. The historical machine-tool, casting, forging, and structural-steel base of the Chinese heavy-engineering sector concentrates in Henan, Hunan, Jiangsu, Anhui, and the surrounding inland provinces. Zhengzhou hosts the dominant crushing and mining-equipment cluster (Henan Fote, Baichy, Songshan, Fangda). Changsha is the historical home of Sany and Zoomlion — together the world\'s two largest concrete-machinery makers by volume. Luoyang has produced YTO tractors since 1955; YTO now exports to over 100 countries. Xuzhou is the home of XCMG, China\'s largest construction-machinery group by revenue. Hefei is the home of Anhui Heli, the dominant Chinese forklift maker for more than 30 years.</p>
+      <p>Ériu Sourcing\'s permanent base in Zhengzhou puts the team in the middle of this belt — Changsha is ~4 hours south by high-speed rail, Xuzhou is ~2 hours east, Hefei is ~3.5 hours southeast, Luoyang is ~40 minutes west. Every supplier visit, factory audit, and pre-shipment inspection across the inland machinery clusters runs out of Zhengzhou.</p>
+      <h3>CE compliance for Chinese machinery imports to Ireland and the UK</h3>
+      <p><strong>The Machinery Directive (2006/42/EC)</strong> applies to all machinery placed on the EU and Irish markets, and broadly equivalent terms apply for the UK under the UK Conformity Assessed (UKCA) regime — though most UK importers continue to accept CE marking under post-Brexit transitional arrangements. Ériu Sourcing verifies CE compliance at source: the EU Declaration of Conformity must be signed by the manufacturer or EU-authorised representative, must reference the specific harmonised standards (EN ISO 4413 for hydraulics, EN ISO 13849 for safety-related parts of control systems, EN 13718 for transport, plus product-specific standards), and must be backed by a complete technical file held by the manufacturer. For self-propelled machinery this is non-negotiable for legal placement on the Irish or UK market.</p>
+      <blockquote><p>A typical Chinese-brand machinery order — factory-direct from Changsha or Xuzhou — lands in Ireland or the UK at 25–45% below comparable UK-dealer pricing for an equivalent spec from the same Chinese OEMs. The saving flows from removing the UK dealer margin and accessing factory-gate pricing the dealers themselves negotiate.</p></blockquote>
+    `,
+    faq: [
+      {
+        q: 'Can I import CE-compliant heavy machinery from China to Ireland?',
+        a: 'Yes. The Machinery Directive 2006/42/EC applies to all machinery placed on the Irish market. Ériu Sourcing verifies CE compliance at the factory in China — the EU Declaration of Conformity, the EC type-examination certificate where the machinery falls under Annex IV, and the technical file referencing the relevant harmonised standards (EN ISO 4413, EN ISO 13849, plus product-specific standards). Goods that do not meet EU standards stay in China at the factory\'s cost.',
+      },
+      {
+        q: 'Which Chinese machinery brands are most established in the UK and Irish market?',
+        a: 'Sany has a UK headquarters in Coatbridge (Glasgow) and a national UK dealer network for concrete machinery, excavators, and cranes. XCMG has appointed UK dealers including Cannon XCMG for the UK and Ireland market. Anhui Heli forklifts are imported into the UK by Grant Handling and into Northern Ireland by Heyn Forktrucks exclusively. YTO tractors are imported into the UK by Rabtrak and Siromer (over 4,000 units sold since 1999). The established UK presence proves the dealer route works; factory-direct sourcing through Ériu typically saves 25–45% versus equivalent dealer pricing.',
+      },
+      {
+        q: 'How much can Irish or UK businesses save buying machinery factory-direct from China?',
+        a: 'Typical landed-cost savings range from 25% on lower-margin equipment (forklifts, small tractors) to 45% on higher-margin machinery (cranes, concrete pumps, large excavators). The saving comes from removing the UK or Irish dealer margin and accessing factory-gate pricing — the same prices the dealers themselves negotiate. For fleet-scale orders the saving compounds further through bulk-shipment freight efficiency.',
+      },
+      {
+        q: 'How long does a machinery order from China to Ireland take?',
+        a: 'Typical end-to-end timeline is 8–14 weeks: factory production 4–8 weeks depending on the unit, sea freight 4–5 weeks (Shanghai or Ningbo to Dublin), customs clearance and inland delivery 3–5 days. Self-propelled machinery requires CE / UKCA pre-shipment compliance verification — Ériu builds this into the production-end of the schedule so the unit is verified-compliant before it loads.',
+      },
+      {
+        q: 'Do you provide after-sales support and spare parts for Chinese machinery in Ireland?',
+        a: 'Yes — spare-parts sourcing for inland-China brands is part of the standard offer. Original parts ship via air freight (5–7 days) or consolidated sea freight (4–5 weeks) depending on urgency. For larger fleet operators we maintain a recommended parts-list at the time of original order so future spares ship efficiently. Field service in Ireland is sourced via the established UK dealer network for the brand where one exists.',
+      },
+    ],
+  },
+
+  {
+    slug: 'commercial-inflatables-from-china-ireland',
+    title: 'Commercial Inflatables from Henan, China to Ireland & UK | Ériu Sourcing',
+    description: 'Source commercial bounce houses, inflatable water parks, advertising inflatables and event domes direct from Henan — China\'s dominant cluster for standard commercial inflatables. Factory-direct to Irish event hire, holiday parks and leisure operators.',
+    h1: 'Source commercial inflatables direct from Henan, China to Ireland & the UK',
+    eyebrow: 'Commercial Inflatables',
+    categoryAnchor: 'inflatables',
+    intro: 'Henan Province — particularly the Zhengzhou and Xinxiang corridor — is China\'s dominant cluster for commercial inflatables. Bounce houses, inflatable obstacle courses, commercial water-park installations, advertising inflatables, and inflatable event domes are produced here at world-export scale. Ériu Sourcing operates from Zhengzhou with direct factory access for Irish event-hire businesses, holiday-park operators, water-park developers, and outdoor leisure businesses sourcing commercial-grade inflatable equipment.',
+    hub: 'Zhengzhou + Xinxiang corridor, Henan Province',
+    hubDetail: 'The Henan inflatables cluster covers the corridor between Zhengzhou (Henan provincial capital) and Xinxiang to the north, with large-footprint factories integrating PVC tarpaulin supply, hot-air welding, industrial heavy-duty sewing, and pressure testing on-site. Ériu performs supplier vetting and pre-shipment inspection on the seam quality, fabric weight, and pressure-test certificates of every inflatable order before the container loads.',
+    keyProducts: [
+      'Commercial bounce houses, castles and obstacle courses (event-hire grade)',
+      'Inflatable water parks — modular floating systems (holiday-park / lake)',
+      'Advertising inflatables (event branding, retail, outdoor)',
+      'Inflatable event domes and temporary structures',
+      'Inflatable sports games (sealed-air, IPS / SUP)',
+      'Custom-branded inflatables (logo printing, OEM)',
+    ],
+    savings: '40–60%',
+    savingsNote: 'vs UK or Irish event-equipment hire-trade supplier pricing',
+    ceNote: 'PVC fabric grade (typically 0.55 mm or 0.9 mm 1000-denier), seam welding standard, anchor-point load rating, and blower-unit electrical compliance are all verified at the Henan factory. EN 14960 (inflatable play equipment safety) compliance documentation supplied for European-market units.',
+    minOrder: '€2,500 single unit to €40,000+ multi-unit operator orders',
+    minOrderShort: '€2.5k+',
+    leadTime: '4–7 wks',
+    image: '/images/zhengzhou-henan-commercial-bounce-house-inflatable-factory.webp',
+    imageAlt: 'Commercial inflatables factory floor in the Zhengzhou-Xinxiang Henan corridor — bounce houses and inflatable structures',
+    contentBody: `
+      <p>Commercial inflatables are not a Guangdong industry. The historical PVC tarpaulin supply, hot-air welding capability, and industrial heavy-duty sewing concentration are in central inland China — specifically the Henan corridor between Zhengzhou and Xinxiang. The cluster is the dominant production base for standard commercial bounce houses, obstacle courses, sealed-air water-park systems, and advertising inflatables — products supplied globally to event-hire businesses, holiday parks, schools, and outdoor leisure operators.</p>
+      <p>UK and Irish buyers source commercial inflatables through three main channels: (a) UK-based fabricators (Airquee, Better Bounce, East Inflatables, Bouncy Castle Sales Co.) who themselves source PVC, components, and finished structures from Henan; (b) Alibaba trading companies who add 20–40% to Henan factory prices; (c) factory-direct sourcing — which is what Ériu arranges.</p>
+      <h3>Where the factory-direct saving comes from</h3>
+      <p>The UK domestic-fabricator route delivers fast lead times (1–3 weeks for stock designs) but at a 50–80% premium over the factory-gate price. The Alibaba trading-company route appears cheaper but adds an unverifiable intermediate layer between buyer and factory — pressure-test certificates from trading companies cannot be independently verified, and complaint resolution after shipment is structurally weak.</p>
+      <p>Ériu Sourcing arranges direct purchase from vetted Henan factories with pre-shipment inspection on seam weld integrity (no leakage at rated test pressure), fabric specification (commercial-grade 0.55 mm or 0.9 mm, not consumer-grade 0.35 mm), anchor-point load rating (matched to the wind-load profile of typical Irish outdoor use), and blower-unit electrical compliance. The landed-cost saving for an Irish event-hire business or holiday-park operator typically runs 40–60% below UK-fabricator pricing for equivalent-spec product.</p>
+      <h3>EN 14960 compliance for European-market sale</h3>
+      <p><strong>EN 14960</strong> is the European standard for inflatable play equipment safety — covering design, manufacture, testing, and operation. For commercial inflatables sold or hired in Ireland or the UK, EN 14960 compliance is the de facto safety baseline that liability insurers and local authority licensing require. Ériu Sourcing verifies that the Henan factory produces to EN 14960 standards and supplies the test reports as part of the order pack — including PIPA (Performance Inspections of Play Areas) inspection capability for ongoing UK and Irish event-hire compliance.</p>
+      <blockquote><p>A typical commercial bounce castle (5 m × 5 m, fully enclosed walls, with blower unit) ships factory-direct from Henan at approximately €1,200 to €1,800 FOB factory. Sea freight, duty, VAT and customs clearance add a further €350 to €500 per unit. UK event-hire fabricator pricing for the same specification typically runs €3,000 to €4,500 per unit. The saving compounds for water parks and larger commercial installations.</p></blockquote>
+    `,
+    faq: [
+      {
+        q: 'Are Chinese commercial inflatables EN 14960-compliant and safe for Irish event-hire use?',
+        a: 'Yes — the major Henan factories produce to EN 14960 standards for European-market export. Ériu Sourcing verifies the EN 14960 test documentation at the factory and supplies it with the order pack. Irish event-hire businesses also need ongoing PIPA inspections (Performance Inspections of Play Areas) for ongoing compliance — the Henan-supplied unit ships with the initial test pass, and ongoing PIPA inspection is arranged via UK / Irish inspection bodies.',
+      },
+      {
+        q: 'What PVC fabric specification should I order for commercial use?',
+        a: 'Commercial event-hire bounce houses should be 0.55 mm PVC tarpaulin minimum, 1000-denier scrim base. For inflatable water parks and floating installations 0.9 mm PVC is the commercial standard — heavier, more puncture-resistant, longer service life on water exposure. Lower-spec 0.35 mm PVC is consumer/home grade and does not stand up to commercial multi-event-per-week use cycles.',
+      },
+      {
+        q: 'What is the typical UK landed-cost saving versus Airquee or Bouncy Castle Sales Co.?',
+        a: 'Factory-direct from Henan typically saves 40–60% on landed-Ireland or landed-UK cost versus equivalent-spec product from UK domestic fabricators. The saving is largest on bespoke and large-format inflatables (water parks, obstacle courses, advertising inflatables) and smallest on standard small bounce houses where UK domestic fabricators are pricing competitively against China imports.',
+      },
+      {
+        q: 'How long does a commercial inflatable order take from Henan to Ireland?',
+        a: 'Standard stock designs ship in 2–3 weeks production from order. Custom designs (logo printing, OEM colour schemes, bespoke dimensions) take 4–6 weeks production. Sea freight from Shanghai or Ningbo to Dublin adds 4–5 weeks. For urgent orders Ériu can arrange air freight on small-volume items (5–7 days) at materially higher freight cost.',
+      },
+      {
+        q: 'Can you arrange custom-branded inflatables (event branding, advertising)?',
+        a: 'Yes. The Henan factories produce both stock-design inflatables and fully custom OEM units — bespoke shapes, custom colour PVC, logo printing, integrated brand panels. Custom design typically takes 1–2 weeks for sample approval (digital mockup plus a physical sample) and 4–6 weeks production. Ideal for outdoor event branding, retail activations, and sports-team / festival hire fleet builds.',
+      },
+    ],
+  },
 ];

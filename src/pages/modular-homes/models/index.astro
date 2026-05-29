@@ -1,81 +1,13 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { modularHomeModels } from '../../../data/modular-home-models.js';
 
 const title = "Expandable Container Home Models | Ériu Modular Homes";
 const description = "Browse expandable steel-frame container home models. Full specifications: 20ft, 30ft, 40ft and 20FT700. Folded and expanded dimensions, internal floor area, weight, container loading data, and floor plan layouts.";
 const canonical = "/modular-homes/models/";
 const siteUrl = "https://eriusourcing.com";
 
-const models = [
-  {
-    id: "20ft",
-    name: "20ft Expandable",
-    tagline: "The compact back-garden unit. One to three bedrooms, ~34 m² internal.",
-    expanded: "L5,900 × W6,300 × H2,480 mm",
-    internal: "L5,460 × W6,140 × H2,240 mm",
-    folded: "L5,900 × W2,200 × H2,480 mm",
-    weight: "3,400 kg (3.4 t)",
-    loading: "2 sets per 40HQ container",
-    internalArea: "~34 m²",
-    image: "/images/modular-homes-20ft-expandable.webp",
-    imageAlt: "20ft expandable container home exterior — folds to 2.2 m wide for shipping, expands to 6.3 m on site",
-    bestFor: "Studio / 1-bed auxiliary dwelling, granny flat, garden office",
-    floorplanImage: "/images/modular-homes-floorplan-layouts.webp",
-    floorplanAlt: "20ft expandable container home floor plans — empty shell, one-bedroom and two-bedroom layouts",
-    floorplanCaption: "Three standard 20ft layouts — empty shell, 1-bed and 2-bed. Custom partitioning on request."
-  },
-  {
-    id: "30ft",
-    name: "30ft Expandable",
-    tagline: "The mid-size unit. Comfortable two-bedroom layout, ~52 m² internal.",
-    expanded: "L9,000 × W6,220 × H2,480 mm",
-    internal: "L8,540 × W6,060 × H2,200 mm",
-    folded: "L9,000 × W2,200 × H2,480 mm",
-    weight: "4,300 kg (4.3 t)",
-    loading: "1 set per 40HQ container",
-    internalArea: "~52 m²",
-    image: "/images/modular-homes-30ft-expandable.webp",
-    imageAlt: "30ft expandable container home exterior — mid-size modular unit for Irish back garden or holiday let",
-    bestFor: "2-bed auxiliary dwelling, holiday let, larger granny flat",
-    floorplanImage: null,
-    floorplanAlt: "",
-    floorplanCaption: ""
-  },
-  {
-    id: "40ft",
-    name: "40ft Expandable",
-    tagline: "The full home. Two or three bedrooms, ~70 m² internal.",
-    expanded: "L11,800 × W6,220 × H2,480 mm",
-    internal: "L11,540 × W6,060 × H2,200 mm",
-    folded: "L11,800 × W2,200 × H2,480 mm",
-    weight: "5,900 kg (5.9 t)",
-    loading: "1 set per 40HQ container",
-    internalArea: "~70 m²",
-    image: "/images/modular-homes-40ft-expandable.webp",
-    imageAlt: "40ft expandable container home exterior — full-size 3-bedroom modular unit shipped factory-direct to Ireland",
-    bestFor: "3-bed family home, larger holiday let, modular office",
-    floorplanImage: "/images/modular-homes-floorplan-layouts.webp",
-    floorplanAlt: "40ft expandable container home floor plans — empty shell, two-bedroom and three-bedroom layouts",
-    floorplanCaption: "Three standard 40ft layouts — empty shell, 2-bed and 3-bed. Custom configurations on request."
-  },
-  {
-    id: "20ft700",
-    name: "20FT700 Foldable",
-    tagline: "The shipping efficiency unit. Six sets per 40HQ container.",
-    expanded: "L5,900 × W4,800 × H2,480 mm",
-    internal: "L5,460 × W4,640 × H2,240 mm",
-    folded: "L5,900 × W700 × H2,480 mm",
-    weight: "1,950 kg (1.95 t)",
-    loading: "6 sets per 40HQ container",
-    internalArea: "~25 m²",
-    image: "/images/modular-homes-700-wide.webp",
-    imageAlt: "20FT700 foldable modular cabin — folds to just 700 mm wide, six units per 40HQ container",
-    bestFor: "Multi-unit projects, holiday parks, site accommodation, investor programmes",
-    floorplanImage: null,
-    floorplanAlt: "",
-    floorplanCaption: ""
-  }
-];
+const models = modularHomeModels;
 
 const pageSchemas = [
   {
@@ -232,66 +164,38 @@ const pageSchemas = [
     </div>
   </section>
 
-  <!-- INDIVIDUAL MODELS -->
-  {models.map((model, i) => (
-    <section class={`section ${i % 2 === 1 ? 'section--alt' : ''}`} id={model.id}>
-      <div class="container">
-        <div class={`model-grid ${i % 2 === 1 ? 'model-grid--reverse' : ''}`}>
-          <div class="model-content">
-            <span class="section-eyebrow">Model</span>
-            <h2>{model.name}</h2>
-            <p class="model-tagline">{model.tagline}</p>
-            <dl class="model-spec-list">
-              <div class="spec-row">
-                <dt>Internal floor area</dt>
-                <dd><strong>{model.internalArea}</strong></dd>
-              </div>
-              <div class="spec-row">
-                <dt>Expanded (deployed)</dt>
-                <dd>{model.expanded}</dd>
-              </div>
-              <div class="spec-row">
-                <dt>Internal clear</dt>
-                <dd>{model.internal}</dd>
-              </div>
-              <div class="spec-row">
-                <dt>Folded (shipping)</dt>
-                <dd>{model.folded}</dd>
-              </div>
-              <div class="spec-row">
-                <dt>Weight</dt>
-                <dd>{model.weight}</dd>
-              </div>
-              <div class="spec-row">
-                <dt>Container loading</dt>
-                <dd>{model.loading}</dd>
-              </div>
-              <div class="spec-row">
-                <dt>Best for</dt>
-                <dd>{model.bestFor}</dd>
-              </div>
-            </dl>
-            <a href={`/contact/?model=${model.id}`} class="btn btn--primary" style="margin-top: 1rem">Get a quote for the {model.name} →</a>
-          </div>
-          <div class="model-image">
-            <img src={model.image} alt={model.imageAlt} width="640" height="480" loading="lazy"
-              onerror="this.closest('.model-image').style.background='#e8f0ed'" />
-          </div>
-        </div>
-
-        {model.floorplanImage && (
-          <div class="floorplans-block">
-            <h3>{model.name} — available floor plan layouts</h3>
-            <figure class="floorplan-figure--full">
-              <img src={model.floorplanImage} alt={model.floorplanAlt} width="900" height="600" loading="lazy"
-                onerror="this.closest('figure').style.display='none'" />
-              <figcaption>{model.floorplanCaption}</figcaption>
-            </figure>
-          </div>
-        )}
+  <!-- MODEL DETAIL CARDS — link to dedicated SEO landing pages -->
+  <section class="section">
+    <div class="container">
+      <span class="section-eyebrow">Browse by model</span>
+      <h2>Open the full spec sheet for any model</h2>
+      <p class="table-intro">Each model has a dedicated page with the full specification, available floor plans, typical Irish use cases, and model-specific FAQ.</p>
+      <div class="model-cards-grid">
+        {models.map(model => (
+          <a href={`/modular-homes/models/${model.slug}/`} class="model-card lift">
+            <div class="model-card-image">
+              <img src={model.image} alt={model.imageAlt} width="560" height="380" loading="lazy" />
+            </div>
+            <div class="model-card-body">
+              <span class="model-card-eyebrow">{model.eyebrow}</span>
+              <h3>{model.name}</h3>
+              <p class="model-card-tagline">{model.tagline}</p>
+              <ul class="model-card-spec" role="list">
+                <li><strong>{model.internalArea}</strong> internal</li>
+                <li>{model.loading}</li>
+                <li>{model.weight}</li>
+              </ul>
+              <span class="model-card-cta">Open the {model.name} spec sheet →</span>
+            </div>
+          </a>
+        ))}
       </div>
-    </section>
-  ))}
+
+      <div class="floorplans-deep-link">
+        <p><a href="/modular-homes/models/floor-plans/" class="inline-link">See all available floor plan layouts across the four models →</a></p>
+      </div>
+    </div>
+  </section>
 
   <!-- INTERIOR PHOTOS -->
   <section class="section section--alt">
@@ -442,26 +346,31 @@ const pageSchemas = [
   .feature-card h3 { font-size: .9375rem; font-weight: 700; color: #0F2131; margin: 0 0 .5rem; }
   .feature-card p { font-size: .875rem; line-height: 1.65; color: #3a4a56; margin: 0; }
 
-  /* MODEL DETAIL */
-  .model-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3.5rem; align-items: center; }
-  .model-grid--reverse { direction: rtl; }
-  .model-grid--reverse > * { direction: ltr; }
-  .model-content h2 { font-size: clamp(1.75rem, 3vw, 2.5rem); margin: .5rem 0 .75rem; }
-  .model-tagline { font-size: 1.0625rem; color: var(--color-slate); margin: 0 0 1.5rem; line-height: 1.6; }
-  .model-spec-list {
-    display: flex; flex-direction: column; gap: 0;
-    background: var(--color-white); border: 1px solid rgba(15,33,49,.1);
-    border-radius: 12px; overflow: hidden; margin: 0;
+  /* MODEL CARDS GRID (links to detail pages) */
+  .model-cards-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin-top: 2rem; }
+  .model-card {
+    display: flex; flex-direction: column;
+    background: var(--color-white); border: 1px solid rgba(15,33,49,.1); border-radius: 12px;
+    overflow: hidden; text-decoration: none; color: inherit;
   }
-  .spec-row {
-    display: grid; grid-template-columns: 180px 1fr;
-    padding: .75rem 1.25rem; border-bottom: 1px solid rgba(15,33,49,.06);
-    align-items: baseline; gap: 1rem;
+  .model-card-image { aspect-ratio: 4 / 3; background: var(--color-bg-alt); overflow: hidden; }
+  .model-card-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .model-card-body { padding: 1.5rem 1.5rem 1.625rem; display: flex; flex-direction: column; gap: .625rem; }
+  .model-card-eyebrow { font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--color-teal, #1C7C83); }
+  .model-card h3 { font-size: 1.375rem; margin: 0; color: var(--color-navy); }
+  .model-card-tagline { font-size: .9375rem; color: var(--color-slate); line-height: 1.6; margin: 0 0 .25rem; }
+  .model-card-spec { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: .25rem .75rem; font-size: .8125rem; color: #555; }
+  .model-card-spec li::after { content: '·'; margin-left: .75rem; color: #bbb; }
+  .model-card-spec li:last-child::after { content: ''; }
+  .model-card-cta {
+    margin-top: .5rem; font-size: .9375rem; font-weight: 600; color: var(--color-emerald);
+    border-bottom: 1.5px solid transparent; align-self: flex-start;
+    transition: border-color .15s ease;
   }
-  .spec-row:last-child { border-bottom: none; }
-  .spec-row dt { font-size: .8125rem; font-weight: 600; color: var(--color-grey); text-transform: uppercase; letter-spacing: .04em; margin: 0; }
-  .spec-row dd { font-size: .9375rem; color: var(--color-navy); margin: 0; }
-  .model-image img { width: 100%; height: 480px; object-fit: cover; border-radius: 12px; }
+  .model-card:hover .model-card-cta { border-color: var(--color-emerald); }
+
+  .floorplans-deep-link { margin-top: 2.5rem; text-align: center; }
+  .floorplans-deep-link p { font-size: 1rem; color: var(--color-slate); margin: 0; }
 
   /* FLOORPLANS */
   .floorplans-block { margin-top: 3rem; }
@@ -495,11 +404,9 @@ const pageSchemas = [
   .faq-item p { padding: 0 0 1.25rem; color: #4a4a4a; font-size: .9375rem; margin: 0; line-height: 1.7; }
 
   @media (max-width: 900px) {
-    .model-grid, .model-grid--reverse { grid-template-columns: 1fr; gap: 2rem; direction: ltr; }
-    .model-image img { height: 320px; }
+    .model-cards-grid { grid-template-columns: 1fr; }
     .features-grid { grid-template-columns: 1fr 1fr; }
     .interior-features { grid-template-columns: 1fr 1fr; }
-    .spec-row { grid-template-columns: 1fr; gap: .25rem; padding: .625rem 1rem; }
   }
 
   @media (max-width: 600px) {

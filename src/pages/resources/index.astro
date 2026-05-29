@@ -1,0 +1,351 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import CtaSection from '../../components/CtaSection.astro';
+import { blogPosts } from '../../data/blogPosts.js';
+import { sourcingPages } from '../../data/sourcingPages.js';
+
+const title = "China Sourcing Resources for Ireland & UK | Guides, Articles & FAQ | Ériu";
+const description = "The Ériu Sourcing resource library — guides on factory-direct sourcing, CE compliance, modular-home building regulations, landed-cost calculation, and category-by-category sourcing intel for Irish and UK buyers.";
+const canonical = "/resources/";
+const siteUrl = "https://eriusourcing.com";
+const lastReviewedIso = new Date().toISOString().split('T')[0];
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Resources", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "CollectionPage",
+    "name": "Ériu Sourcing Resources",
+    "description": description,
+    "url": `${siteUrl}${canonical}`,
+    "dateModified": lastReviewedIso,
+    "isPartOf": { "@id": `${siteUrl}/#website` }
+  }
+];
+
+// Pillar guides (start here)
+const pillarGuides = [
+  {
+    title: 'How It Works — the full sourcing process',
+    summary: 'The four-step pipeline from your brief to factory-vetted, QC-inspected goods landed in Ireland.',
+    href: '/how-it-works/',
+    label: 'Process',
+  },
+  {
+    title: 'Why Buy Direct? — the cost argument',
+    summary: 'Three China sourcing markup layers you currently pay — and how factory-direct removes them.',
+    href: '/why-direct/',
+    label: 'Strategy',
+  },
+  {
+    title: 'Our China Network — Zhengzhou + Shenzhen',
+    summary: 'Where the team is, how the central-China and Guangdong bases combine, and what each one is best at.',
+    href: '/china-network/',
+    label: 'Network',
+  },
+];
+
+// Process & cost guides
+const processGuides = [
+  { title: 'Modular home cost guide', summary: 'FOB, freight, duty, VAT, foundation, services — landed cost broken down line by line.', href: '/modular-homes/cost/', label: 'Cost' },
+  { title: 'Factory visits — €1,800 programme', summary: 'Three days in central China meeting factory owners on the ground, fully credited to your first order.', href: '/modular-homes/factory-visits/', label: 'Verification' },
+];
+
+// Compliance guides
+const complianceGuides = [
+  { title: 'Irish building regulations for modular homes', summary: 'TGD Parts A to M as applied to expandable container homes for Irish supply.', href: '/modular-homes/building-regulations-ireland/', label: 'Building Regs' },
+  { title: 'Modular auxiliary dwellings in Ireland', summary: 'The 21 April 2026 Exempted Development Regulations and what they mean for back-garden dwellings.', href: '/modular-homes/auxiliary-dwelling-ireland/', label: 'Planning' },
+];
+
+// Modular home library
+const modularGuides = [
+  { title: 'Modular home models — overview', summary: 'Compare 20ft, 30ft, 40ft and 20FT700 across dimensions, container loading, internal area and best use.', href: '/modular-homes/models/', label: 'Models' },
+  { title: 'Floor plans across all four models', summary: 'Standard 1-bed, 2-bed and 3-bed layouts plus shell options.', href: '/modular-homes/models/floor-plans/', label: 'Floor Plans' },
+  { title: 'Back-garden homes in Ireland', summary: 'How the new exemption changes what is possible in a typical Irish back garden.', href: '/modular-homes/back-garden-homes-ireland/', label: 'Use Case' },
+];
+
+// Sort blog by publishDate desc, take top 6 published
+const isDev = import.meta.env.DEV;
+const visiblePosts = isDev ? blogPosts : blogPosts.filter(p => !p.draft);
+const recentPosts = [...visiblePosts]
+  .sort((a, b) => (b.publishDate || '').localeCompare(a.publishDate || ''))
+  .slice(0, 6);
+
+// Top-level category links from sourcingPages.js
+const categoryLinks = sourcingPages.map(p => ({
+  label: p.eyebrow,
+  href: `/source/${p.slug}/`,
+  summary: p.intro,
+}));
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} jsonLd={pageSchemas}>
+
+  <PageHero
+    breadcrumbs={[{ label: 'Resources' }]}
+    eyebrow="Resources Library"
+    h1="China sourcing — every guide, article, and reference in one place"
+    lead="The full Ériu library, organised by what you're trying to do. Whether you're new to factory-direct sourcing, comparing modular-home models, sizing your landed cost, or vetting a specific category — the relevant guide is below."
+    lastReviewed={lastReviewedIso}
+  />
+
+  <!-- Pillar guides -->
+  <section class="section">
+    <div class="container">
+      <span class="section-eyebrow">Start here</span>
+      <h2>The three pillar guides</h2>
+      <div class="resource-grid resource-grid--three">
+        {pillarGuides.map(item => (
+          <a href={item.href} class="resource-card lift">
+            <span class="resource-card-label">{item.label}</span>
+            <h3>{item.title}</h3>
+            <p>{item.summary}</p>
+            <span class="resource-card-cta">Open the guide →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Modular homes -->
+  <section class="section section--alt">
+    <div class="container">
+      <span class="section-eyebrow">Modular homes (April 2026 regulation wave)</span>
+      <h2>Everything on Irish modular homes</h2>
+      <p class="resource-section-intro">The new Exempted Development Regulations changed the auxiliary-dwelling market overnight. These guides cover models, layouts, compliance, and cost.</p>
+      <div class="resource-grid resource-grid--three">
+        {modularGuides.map(item => (
+          <a href={item.href} class="resource-card lift">
+            <span class="resource-card-label">{item.label}</span>
+            <h3>{item.title}</h3>
+            <p>{item.summary}</p>
+            <span class="resource-card-cta">Open the guide →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Process & cost -->
+  <section class="section">
+    <div class="container">
+      <span class="section-eyebrow">Process &amp; cost</span>
+      <h2>Sizing the project and verifying the factory</h2>
+      <div class="resource-grid resource-grid--two">
+        {processGuides.map(item => (
+          <a href={item.href} class="resource-card lift">
+            <span class="resource-card-label">{item.label}</span>
+            <h3>{item.title}</h3>
+            <p>{item.summary}</p>
+            <span class="resource-card-cta">Open the guide →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Compliance -->
+  <section class="section section--alt">
+    <div class="container">
+      <span class="section-eyebrow">Compliance &amp; regulation</span>
+      <h2>Irish building regs and the planning exemption</h2>
+      <div class="resource-grid resource-grid--two">
+        {complianceGuides.map(item => (
+          <a href={item.href} class="resource-card lift">
+            <span class="resource-card-label">{item.label}</span>
+            <h3>{item.title}</h3>
+            <p>{item.summary}</p>
+            <span class="resource-card-cta">Open the guide →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Product categories -->
+  <section class="section">
+    <div class="container">
+      <span class="section-eyebrow">By product category</span>
+      <h2>Category-specific sourcing intel</h2>
+      <p class="resource-section-intro">Each category page covers the dominant Chinese cluster, lead times, MOQ ranges, compliance refs, and Irish landed-cost positioning.</p>
+      <ul class="category-list" role="list">
+        {categoryLinks.map(c => (
+          <li>
+            <a href={c.href}>
+              <strong>{c.label}</strong>
+              <span>{c.summary}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- Recent articles -->
+  <section class="section section--alt">
+    <div class="container">
+      <span class="section-eyebrow">Latest from the blog</span>
+      <h2>Recent articles</h2>
+      <div class="resource-grid resource-grid--three">
+        {recentPosts.map(post => (
+          <a href={`/blog/${post.slug}/`} class="resource-card lift">
+            <span class="resource-card-label">{post.eyebrow || 'Article'}</span>
+            <h3>{post.h1}</h3>
+            <p>{post.metaDescription}</p>
+            <span class="resource-card-cta">Read the article →</span>
+          </a>
+        ))}
+      </div>
+      <p class="recent-more"><a href="/blog/" class="inline-link">See every article in the blog index →</a></p>
+    </div>
+  </section>
+
+  <!-- FAQ deep link -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Quick answers</span>
+      <h2>Looking for a one-line answer?</h2>
+      <p>If you have a specific question — about process, pricing, QC, compliance, modular-home regs, or shipping — the FAQ hub aggregates the most-asked questions across the site in one place.</p>
+      <p><a href="/faq/" class="inline-link">Open the FAQ hub →</a></p>
+    </div>
+  </section>
+
+  <CtaSection
+    eyebrow="Ready to start a project?"
+    h2="Send the brief. We come back with a plan."
+    body="Product, quantity, timeline. WhatsApp or email. Ten minutes of your time is enough."
+    ctas={[
+      { href: '/contact/', label: 'Get a sourcing quote →', variant: 'white-outline' }
+    ]}
+  />
+
+</BaseLayout>
+
+<style>
+  .resource-section-intro {
+    font-size: 1rem;
+    color: var(--color-slate);
+    line-height: 1.7;
+    margin: 0 0 1.5rem;
+    max-width: 72ch;
+  }
+
+  .resource-grid {
+    display: grid;
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+  }
+
+  .resource-grid--two { grid-template-columns: repeat(2, 1fr); }
+  .resource-grid--three { grid-template-columns: repeat(3, 1fr); }
+
+  .resource-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    padding: 1.5rem 1.5rem 1.625rem;
+    background: var(--color-white);
+    border: 1px solid rgba(15, 33, 49, 0.1);
+    border-radius: 12px;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .resource-card-label {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-teal, #1C7C83);
+  }
+
+  .resource-card h3 {
+    font-size: 1.125rem;
+    margin: 0;
+    color: var(--color-navy);
+    line-height: 1.35;
+  }
+
+  .resource-card p {
+    font-size: 0.875rem;
+    color: var(--color-slate);
+    line-height: 1.6;
+    margin: 0 0 0.5rem;
+    max-width: none;
+  }
+
+  .resource-card-cta {
+    margin-top: auto;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-emerald);
+    border-bottom: 1.5px solid transparent;
+    align-self: flex-start;
+    transition: border-color 0.15s ease;
+  }
+
+  .resource-card:hover .resource-card-cta {
+    border-color: var(--color-emerald);
+  }
+
+  /* Category list */
+  .category-list {
+    list-style: none;
+    margin: 1.5rem 0 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+  }
+
+  .category-list a {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 1rem 1.25rem;
+    background: var(--color-white);
+    border: 1px solid rgba(15, 33, 49, 0.1);
+    border-radius: 10px;
+    text-decoration: none;
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+
+  .category-list a:hover {
+    border-color: var(--color-emerald);
+    transform: translateY(-2px);
+  }
+
+  .category-list strong {
+    color: var(--color-navy);
+    font-size: 0.9375rem;
+  }
+
+  .category-list span {
+    color: var(--color-slate);
+    font-size: 0.8125rem;
+    line-height: 1.5;
+    max-width: 60ch;
+  }
+
+  .recent-more {
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+
+  @media (max-width: 900px) {
+    .resource-grid--two,
+    .resource-grid--three {
+      grid-template-columns: 1fr;
+    }
+
+    .category-list {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
