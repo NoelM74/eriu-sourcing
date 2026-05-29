@@ -284,10 +284,10 @@ export const products = [
         a: 'A mid-spec 10–15W IP44 fire-rated downlight with Mean Well driver, 4000K, CRI ≥ 80, dimmable — lands in Ireland at €4–€8 per unit on container volumes (500+ pcs). Irish trade pricing for the equivalent specification is typically €18–€28. Full duty (0% on most LED luminaires under HS 9405.40.39) and 23% Irish VAT are included in the landed figure Ériu Sourcing quotes.',
       },
     ],
-    image: '/images/construction-materials-factory.webp',
-    imageAlt: 'Commercial LED lighting production line in Guzhen, Zhongshan — factory-direct LED fittings for Ireland',
+    image: '/images/guzhen-zhongshan-commercial-led-lighting-hall.webp',
+    imageAlt: 'Commercial LED lighting hall in Guzhen, Zhongshan — factory-direct architectural LED pendants and downlights for Ireland',
     imageWidth: 1400,
-    imageHeight: 934,
+    imageHeight: 933,
   },
 
   {
@@ -351,10 +351,10 @@ export const products = [
         a: 'Three safeguards: (1) pre-shipment inspection — every WC, basin, and bath is unpacked from its corrugated wrapper, visually inspected for hairline cracks, glaze defects, and chips before re-packing; (2) the factory commitment includes a defect tolerance written into the PI (typically ≤ 0.5%) with credit for any exceeding; (3) heat-treated wooden crates rather than carton-only packaging — adds €0.30–€0.50 per piece but eliminates the dominant transit-damage cause.',
       },
     ],
-    image: '/images/construction-materials-factory.webp',
-    imageAlt: 'Vitreous china sanitaryware production in Foshan — factory-direct WCs, basins, and baths for Ireland',
+    image: '/images/foshan-sanitaryware-vitreous-china-glazing-line.webp',
+    imageAlt: 'Foshan vitreous china sanitaryware glazing line with kiln entry — factory-direct WCs, basins, and baths for Ireland',
     imageWidth: 1400,
-    imageHeight: 934,
+    imageHeight: 932,
   },
 
   {
@@ -417,10 +417,10 @@ export const products = [
         a: 'A medium commercial façade project (1,500–2,500 m²) typically fills one 40ft HQ container. Larger projects ship as 2–3 containers staged over the install programme. For small projects (under 1,000 m²), Ériu Sourcing can consolidate the order with other Irish or European buyers to share container weight — this loses some scheduling flexibility but preserves the factory-direct pricing.',
       },
     ],
-    image: '/images/construction-materials-factory.webp',
-    imageAlt: 'Aluminium composite panel production line in Shanghai/Jiangsu — A2 fire-rated cladding for Ireland',
+    image: '/images/jiangsu-acp-cladding-panel-coil-coating-line.webp',
+    imageAlt: 'Aluminium composite panel coil-coating line in Jiangsu — A2 fire-rated cladding panels for Ireland',
     imageWidth: 1400,
-    imageHeight: 934,
+    imageHeight: 933,
   },
 
   {
@@ -483,9 +483,9 @@ export const products = [
         a: 'Yes — this is the standard pattern for merchant stock orders. A 20ft mixed-SKU container typically combines 40–120 different fastener sizes across bolts, nuts, washers, anchors, and screws. Ériu Sourcing coordinates the multi-SKU order with one Yongnian export-trader factory (which itself sub-contracts to specialist mills inside the cluster), consolidates the goods, and ships as a single container with one packing list and one set of customs documents.',
       },
     ],
-    image: '/images/construction-materials-factory.webp',
-    imageAlt: 'Construction fastener production line in Yongnian, Hebei — factory-direct bolts and anchors for Ireland',
+    image: '/images/yongnian-hebei-cold-forming-fastener-production-line.webp',
+    imageAlt: 'Yongnian, Hebei cold-forming fastener production line — factory-direct hot-dip galvanised bolts for Ireland',
     imageWidth: 1400,
-    imageHeight: 934,
+    imageHeight: 933,
   },
 ];
