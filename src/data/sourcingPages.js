@@ -397,9 +397,9 @@ export const sourcingPages = [
     h1: 'Source heavy machinery direct from inland China to Ireland & the UK',
     eyebrow: 'Machinery',
     categoryAnchor: 'machinery',
-    intro: 'Inland China produces the world\'s heavy machinery — concrete pumps in Changsha (Sany, Zoomlion), jaw and cone crushers in Zhengzhou (Henan Fote, Baichy), agricultural tractors in Luoyang (YTO, since 1955), crawler excavators in Xuzhou (XCMG), and forklifts in Hefei (Anhui Heli, China\'s number-one forklift maker for 32 consecutive years). Ériu Sourcing operates from Zhengzhou, in the middle of this manufacturing belt, with bullet-train access to every major cluster within four hours.',
+    intro: 'Inland China is the production base for the world\'s heavy machinery — concrete pumps and cranes out of Changsha, jaw and cone crushers out of Zhengzhou, agricultural tractors out of Luoyang, crawler excavators and earthmoving out of Xuzhou, forklifts and warehouse equipment out of Hefei. Each cluster comprises dozens of manufacturers — Ériu Sourcing evaluates the right factory for each buyer brief on capability, lead time, MOQ, and price, rather than pushing a single brand. Our Zhengzhou base sits at the geographic centre of this belt, with every major cluster within four hours by high-speed rail.',
     hub: 'Zhengzhou (Henan) · Changsha (Hunan) · Luoyang (Henan) · Xuzhou (Jiangsu) · Hefei (Anhui)',
-    hubDetail: 'Noel Murphy has been based in Zhengzhou since 2008 — at the geographic centre of the inland-China machinery belt. The five primary clusters that supply UK and Irish machinery buyers — Changsha, Zhengzhou, Luoyang, Xuzhou and Hefei — are all within four hours by high-speed rail from Zhengzhou, which is where Ériu performs factory vetting, production-line inspection, and pre-shipment QC. The coastal sourcing-agent crowd does not have this geographic advantage.',
+    hubDetail: 'The inland-China machinery belt is what gives the cluster narrative its weight: Changsha alone produced approximately one-third of China\'s construction-machinery output in 2022 and is home to multiple global top-50 manufacturers; Zhengzhou hosts dozens of crusher and mining-equipment producers; Luoyang has been the centre of Chinese tractor production since 1955; Hefei is home to China\'s largest forklift cluster. Bullet-train access from Ériu\'s Zhengzhou base to all of these is part of how we run factory vetting, production audits, and pre-shipment QC across the belt. The coastal sourcing-agent crowd does not have this proximity.',
     keyProducts: [
       'Concrete machinery — pumps, mixers, batching plants (Changsha)',
       'Crushing and mining equipment — jaw, cone, impact crushers (Zhengzhou)',
@@ -417,14 +417,14 @@ export const sourcingPages = [
     image: '/images/changsha-concrete-pump-truck-assembly-line.webp',
     imageAlt: 'Heavy machinery assembly hall in inland China — Sany concrete pump trucks on the production line in Changsha, Hunan',
     contentBody: `
-      <p>UK and Irish heavy-machinery buyers have a clear choice between the established Japanese and European brands (CAT, JCB, Komatsu, Hitachi, Volvo) at premium UK dealer pricing, and the rapidly maturing Chinese OEMs at substantially lower factory-direct cost. The Chinese brands are not unknowns — Sany has a UK headquarters in Coatbridge (Glasgow) and a nationwide UK dealer network; XCMG has appointed UK dealers including Cannon XCMG for the UK and Ireland; Anhui Heli forklifts are imported into the UK by Grant Handling (seven regional depots) and into Northern Ireland exclusively by Heyn Forktrucks.</p>
-      <p>The opportunity for direct sourcing sits where the official UK dealer footprint is thin or the value-tier is heavily marked up — typically smaller-fleet buyers in quarrying, recycling, agricultural, plant hire, and warehousing operations who would benefit from factory-gate access without paying the full UK dealer premium.</p>
+      <p>UK and Irish heavy-machinery buyers have historically been served by the established Japanese and European brands (CAT, JCB, Komatsu, Hitachi, Volvo) at premium dealer pricing. Over the past decade the Chinese inland-China machinery clusters have matured into world-export scale — Hunan\'s construction-machinery export value grew 43.7% in 2023, with multiple firms in the global top 50 by revenue. The opportunity for Irish and UK buyers is buying direct from a vetted factory in the right cluster, at the same factory-gate price the established dealers themselves negotiate.</p>
+      <p>Ériu Sourcing\'s role is independent: we are not tied to any single brand or factory. Every brief gets evaluated against the relevant cluster — typically two to four candidate factories per category — on capability, lead time, MOQ, compliance documentation, after-sales spare-parts access, and price. The buyer gets a shortlist with FOB pricing and inspection data; the buyer chooses; we manage from order to landed.</p>
       <h3>Why inland China for machinery — and not Guangdong</h3>
-      <p>Heavy machinery is not a Guangdong industry. The historical machine-tool, casting, forging, and structural-steel base of the Chinese heavy-engineering sector concentrates in Henan, Hunan, Jiangsu, Anhui, and the surrounding inland provinces. Zhengzhou hosts the dominant crushing and mining-equipment cluster (Henan Fote, Baichy, Songshan, Fangda). Changsha is the historical home of Sany and Zoomlion — together the world\'s two largest concrete-machinery makers by volume. Luoyang has produced YTO tractors since 1955; YTO now exports to over 100 countries. Xuzhou is the home of XCMG, China\'s largest construction-machinery group by revenue. Hefei is the home of Anhui Heli, the dominant Chinese forklift maker for more than 30 years.</p>
-      <p>Ériu Sourcing\'s permanent base in Zhengzhou puts the team in the middle of this belt — Changsha is ~4 hours south by high-speed rail, Xuzhou is ~2 hours east, Hefei is ~3.5 hours southeast, Luoyang is ~40 minutes west. Every supplier visit, factory audit, and pre-shipment inspection across the inland machinery clusters runs out of Zhengzhou.</p>
+      <p>Heavy machinery is not a Guangdong industry. The historical machine-tool, casting, forging, and structural-steel base of the Chinese heavy-engineering sector concentrates in Henan, Hunan, Jiangsu, Anhui, and the surrounding inland provinces. Changsha (Hunan) produces roughly one-third of China\'s construction-machinery output and is home to a cluster anchored by Sany, Zoomlion, CRCHI, Sunward and Sinoboom — all in the global top 50. Zhengzhou (Henan) hosts the country\'s primary crushing-equipment cluster with dozens of producers. Luoyang (Henan) has produced agricultural tractors at scale since 1955. Xuzhou (Jiangsu) is the home of China\'s largest construction-machinery group by revenue. Hefei (Anhui) is home to China\'s largest forklift-manufacturing cluster, with multiple factories serving global export.</p>
+      <p>Ériu Sourcing\'s permanent base in Zhengzhou puts the team at the geographic centre of this belt — Changsha is ~4 hours south by high-speed rail, Xuzhou is ~2 hours east, Hefei is ~3.5 hours southeast, Luoyang is ~40 minutes west. Every supplier visit, factory audit, and pre-shipment inspection across the inland machinery clusters runs out of Zhengzhou.</p>
       <h3>CE compliance for Chinese machinery imports to Ireland and the UK</h3>
       <p><strong>The Machinery Directive (2006/42/EC)</strong> applies to all machinery placed on the EU and Irish markets, and broadly equivalent terms apply for the UK under the UK Conformity Assessed (UKCA) regime — though most UK importers continue to accept CE marking under post-Brexit transitional arrangements. Ériu Sourcing verifies CE compliance at source: the EU Declaration of Conformity must be signed by the manufacturer or EU-authorised representative, must reference the specific harmonised standards (EN ISO 4413 for hydraulics, EN ISO 13849 for safety-related parts of control systems, EN 13718 for transport, plus product-specific standards), and must be backed by a complete technical file held by the manufacturer. For self-propelled machinery this is non-negotiable for legal placement on the Irish or UK market.</p>
-      <blockquote><p>A typical Chinese-brand machinery order — factory-direct from Changsha or Xuzhou — lands in Ireland or the UK at 25–45% below comparable UK-dealer pricing for an equivalent spec from the same Chinese OEMs. The saving flows from removing the UK dealer margin and accessing factory-gate pricing the dealers themselves negotiate.</p></blockquote>
+      <blockquote><p>A typical factory-direct machinery order from the inland-China belt lands in Ireland or the UK at 25–45% below comparable UK trade-channel pricing for an equivalent factory specification. The saving flows from removing the layered dealer / importer / distributor margin and accessing the same factory-gate prices the established dealers themselves negotiate.</p></blockquote>
     `,
     faq: [
       {
@@ -432,8 +432,8 @@ export const sourcingPages = [
         a: 'Yes. The Machinery Directive 2006/42/EC applies to all machinery placed on the Irish market. Ériu Sourcing verifies CE compliance at the factory in China — the EU Declaration of Conformity, the EC type-examination certificate where the machinery falls under Annex IV, and the technical file referencing the relevant harmonised standards (EN ISO 4413, EN ISO 13849, plus product-specific standards). Goods that do not meet EU standards stay in China at the factory\'s cost.',
       },
       {
-        q: 'Which Chinese machinery brands are most established in the UK and Irish market?',
-        a: 'Sany has a UK headquarters in Coatbridge (Glasgow) and a national UK dealer network for concrete machinery, excavators, and cranes. XCMG has appointed UK dealers including Cannon XCMG for the UK and Ireland market. Anhui Heli forklifts are imported into the UK by Grant Handling and into Northern Ireland by Heyn Forktrucks exclusively. YTO tractors are imported into the UK by Rabtrak and Siromer (over 4,000 units sold since 1999). The established UK presence proves the dealer route works; factory-direct sourcing through Ériu typically saves 25–45% versus equivalent dealer pricing.',
+        q: 'How do you evaluate which factory is right for my brief?',
+        a: 'Every brief is matched against the relevant inland-China cluster, not a fixed supplier list. For each category we maintain a working shortlist of vetted factories (typically two to four per product type) and evaluate each against the buyer\'s spec, MOQ, lead time, after-sales spare-parts access, and price. The buyer sees a comparison shortlist with FOB pricing and inspection data before any commitment — Ériu is brand-independent. The major Chinese inland brands (Sany, Zoomlion, CRCHI, Sunward, Sinoboom in Changsha; YTO in Luoyang; XCMG in Xuzhou; Heli in Hefei) are part of these shortlists where their product matches the brief, but they are not the only options and never an exclusive recommendation.',
       },
       {
         q: 'How much can Irish or UK businesses save buying machinery factory-direct from China?',
@@ -506,6 +506,65 @@ export const sourcingPages = [
       {
         q: 'Can you arrange custom-branded inflatables (event branding, advertising)?',
         a: 'Yes. The Henan factories produce both stock-design inflatables and fully custom OEM units — bespoke shapes, custom colour PVC, logo printing, integrated brand panels. Custom design typically takes 1–2 weeks for sample approval (digital mockup plus a physical sample) and 4–6 weeks production. Ideal for outdoor event branding, retail activations, and sports-team / festival hire fleet builds.',
+      },
+    ],
+  },
+
+  {
+    slug: 'industrial-cutting-tools-from-china-ireland',
+    title: 'Industrial Cutting Tools from Henan, China to Ireland & UK | Ériu Sourcing',
+    description: 'Source diamond saw blades, core drilling bits, CBN tools, grinding discs and industrial cutting tools direct from the Zhecheng-Xuchang Henan cluster — China\'s lab-grown diamond capital (60% of national output). Quality-value B2B tooling for Irish stone, steel and machining trades.',
+    h1: 'Source industrial cutting tools direct from inland-China cutting-tool clusters',
+    eyebrow: 'Industrial Cutting Tools',
+    categoryAnchor: 'cutting-tools',
+    intro: 'Henan Province produces approximately 80% of China\'s lab-grown diamond output, with Zhecheng County and Xuchang City sitting at the centre of a 100-billion-yuan superhard-materials industrial cluster. The cluster has integrated forward from raw diamond synthesis into industrial cutting tools — saw blades, core drilling bits, CBN inserts, segmented grinding discs, and diamond wire — supplying machine shops, stone fabricators, and construction contractors globally. Ériu Sourcing accesses the cluster direct for Irish and UK trade buyers seeking quality-value B2B cutting tooling.',
+    hub: 'Zhecheng County · Xuchang City (Henan superhard-materials cluster)',
+    hubDetail: 'Zhecheng County in eastern Henan produces approximately 60% of China\'s lab-grown diamond output (projected ~12 million carats in 2025); Xuchang City hosts one of the world\'s largest synthetic-diamond manufacturing hubs as part of a 100-billion-yuan industrial cluster spanning synthetic diamond, silicon-carbon materials, and power equipment. The forward-integrated tooling cluster produces both metal-bonded and electroplated diamond cutting tools, vitrified-bond CBN grinding wheels, and segmented diamond saw blades — all key categories for the Irish and UK stone, construction, and precision-machining trades.',
+    keyProducts: [
+      'Diamond saw blades (segmented + continuous rim) for stone, concrete, asphalt',
+      'Core drilling bits (wet + dry) for concrete and reinforced masonry',
+      'CBN (cubic boron nitride) inserts and grinding wheels for hardened steel',
+      'Diamond grinding cup wheels and segmented grinding discs',
+      'Diamond wire for stone and concrete cutting',
+      'Specialty: polycrystalline diamond (PCD) tooling for non-ferrous metal',
+    ],
+    savings: '30–55%',
+    savingsNote: 'vs Irish or UK trade-merchant pricing on equivalent diamond / CBN tooling',
+    ceNote: 'Diamond and CBN tooling does not require CE marking under most categories. Ériu verifies factory ISO 9001 quality systems, material certificates on the steel core / blank, and diamond grit grade and concentration specification at the factory before shipment.',
+    minOrder: '€1,500 single-SKU stock orders to €25,000+ fleet / trade-merchant orders',
+    minOrderShort: '€1.5k+',
+    leadTime: '3–6 wks',
+    image: '/images/xuchang-zhecheng-henan-lab-grown-diamond-cutting-tool-saw-blade.webp',
+    imageAlt: 'Lab-grown diamond cutting tool inspection — Zhecheng-Xuchang Henan superhard-materials cluster',
+    contentBody: `
+      <p>Industrial cutting tools are one of the highest-margin product categories in the Irish and UK trade-merchant channel. A 300 mm segmented diamond saw blade for stone or concrete cutting that retails at €85 to €140 through Irish trade merchants typically ships factory-direct from the Henan diamond-tool cluster at €25 to €45 FOB factory. Core drilling bits, CBN grinding wheels, and specialised PCD inserts show similar percentage margins in the Irish trade channel.</p>
+      <p>The Zhecheng County and Xuchang City cluster is unique globally. China holds approximately 80% of global lab-grown diamond production, and Henan holds approximately 80% of China\'s output — making this cluster the single largest concentration of synthetic-diamond manufacturing in the world. Forward integration into tooling means the raw material supply chain sits inside the same industrial cluster as the finished tool fabrication, removing the multiple-handoff margin that drives European tooling prices upward.</p>
+      <h3>Quality-value positioning — not commodity low-cost</h3>
+      <p>Ériu Sourcing operates exclusively at the premium-spec end of the cluster. The Henan diamond-tool cluster produces both low-cost commodity tooling (where the diamond grit concentration is reduced and the steel core is thinner than stated) and genuine premium specification (full-concentration diamond grit, hardened steel core to the stated specification, vitrified-bond CBN systems for the precision-machining trade). Picking the right factory inside the cluster is the difference between a saw blade that lasts 80 hours of stone cutting and one that lasts 240. Ériu\'s value is the vetting and the spec verification, not the cluster access alone.</p>
+      <h3>Irish and UK buyer segments</h3>
+      <p>The natural buyer profiles for cluster-direct cutting tooling include: Irish stone-fabrication businesses (kitchen worktops, monumental stonework, paving), UK precision-machining shops working in hardened steel and exotic alloys, Irish construction contractors with regular core-drilling work (drainage, services penetrations), and trade merchants serving the building and engineering trades. The minimum-order economics work best for trade-merchant stock builds and for contractor fleet orders where a year of consumable tooling can be specified upfront.</p>
+      <blockquote><p>A typical container-load build for an Irish trade merchant — assorted stone-cutting saw blades, core bits, CBN grinding wheels, and PCD inserts at premium specification across SKU range — typically lands in Ireland at 30–55% below Irish trade-merchant cost-of-sale, with the saving largest on small-quantity high-margin CBN and PCD lines.</p></blockquote>
+    `,
+    faq: [
+      {
+        q: 'Are diamond cutting tools from Henan equivalent quality to Tyrolit, Pentax, or Hilti?',
+        a: 'The premium-spec end of the Henan cluster produces tooling comparable to Tyrolit or Diamond Products Limited in cutting performance and service life for stone, concrete, and precision-machining applications. The cluster also produces commodity-grade tooling that is not — distinguishing between the two requires factory vetting and physical sample testing. Ériu Sourcing exclusively sources from the premium-spec end of the cluster and provides material certificates and diamond grit concentration verification on every order.',
+      },
+      {
+        q: 'How much can Irish trade merchants save on diamond and CBN tooling?',
+        a: 'Typical landed-cost saving is 30–55% versus Irish or UK trade-merchant pricing on equivalent premium specification. The saving is largest on small-quantity high-margin lines (CBN grinding wheels, PCD inserts for non-ferrous machining, specialty diamond core bits) where the European tooling channel margin is thickest, and smallest on high-volume commodity saw blades.',
+      },
+      {
+        q: 'Do I need CE marking on industrial cutting tools imported to Ireland?',
+        a: 'Most diamond and CBN industrial cutting tools fall outside the scope of CE marking — they are tools attached to user-controlled machinery, not machinery in their own right. Health and safety responsibilities (PPE for the operator, dust extraction for stone and concrete cutting, RCD protection for wet core drilling) sit with the end-user and Irish workplace HSA compliance. Ériu Sourcing supplies material certificates and diamond grit specification verification with every order for trade-merchant traceability.',
+      },
+      {
+        q: 'What is the typical lead time for a stock order from the Henan cluster?',
+        a: 'Stock-specification standard diamond saw blades and core bits ship in 2–3 weeks from order. Premium-specification or custom-grade tooling (custom diamond grit concentration, custom segment height, custom steel core specification) typically adds 1–2 weeks. Sea freight from Shanghai or Ningbo to Dublin adds 4–5 weeks. For urgent restock orders Ériu can arrange air freight on small-volume items (5–7 days) at materially higher freight cost.',
+      },
+      {
+        q: 'What is the minimum order to access cluster-direct pricing?',
+        a: 'No formal minimum unit count, but mixed-SKU orders below approximately €1,500 FOB make the freight economics weak. The practical sweet spot for trade-merchant stock builds is €5,000–€15,000 per order, which spreads container-share freight efficiently and unlocks volume-tier factory pricing on each line. For contractor fleet orders (a year of consumable tooling specified upfront) the economics tighten further.',
       },
     ],
   },
