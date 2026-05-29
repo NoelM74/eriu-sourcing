@@ -460,6 +460,11 @@ const isGroupActive = (link) => !!link.children?.some(c => isActive(c.href));
     background-color: #F7F6F2;
     border-top: 1px solid rgba(15, 33, 49, 0.08);
     padding: 1.25rem 1.5rem 2rem;
+    max-height: calc(100vh - 72px);
+    max-height: calc(100dvh - 72px);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
   }
 
   .nav-mobile.is-open {
