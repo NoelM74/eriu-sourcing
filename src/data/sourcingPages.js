@@ -509,4 +509,63 @@ export const sourcingPages = [
       },
     ],
   },
+
+  {
+    slug: 'industrial-cutting-tools-from-china-ireland',
+    title: 'Industrial Cutting Tools from Henan, China to Ireland & UK | Ériu Sourcing',
+    description: 'Source diamond saw blades, core drilling bits, CBN tools, grinding discs and industrial cutting tools direct from the Zhecheng-Xuchang Henan cluster — China\'s lab-grown diamond capital (60% of national output). Quality-value B2B tooling for Irish stone, steel and machining trades.',
+    h1: 'Source industrial cutting tools direct from inland-China cutting-tool clusters',
+    eyebrow: 'Industrial Cutting Tools',
+    categoryAnchor: 'cutting-tools',
+    intro: 'Henan Province produces approximately 80% of China\'s lab-grown diamond output, with Zhecheng County and Xuchang City sitting at the centre of a 100-billion-yuan superhard-materials industrial cluster. The cluster has integrated forward from raw diamond synthesis into industrial cutting tools — saw blades, core drilling bits, CBN inserts, segmented grinding discs, and diamond wire — supplying machine shops, stone fabricators, and construction contractors globally. Ériu Sourcing accesses the cluster direct for Irish and UK trade buyers seeking quality-value B2B cutting tooling.',
+    hub: 'Zhecheng County · Xuchang City (Henan superhard-materials cluster)',
+    hubDetail: 'Zhecheng County in eastern Henan produces approximately 60% of China\'s lab-grown diamond output (projected ~12 million carats in 2025); Xuchang City hosts one of the world\'s largest synthetic-diamond manufacturing hubs as part of a 100-billion-yuan industrial cluster spanning synthetic diamond, silicon-carbon materials, and power equipment. The forward-integrated tooling cluster produces both metal-bonded and electroplated diamond cutting tools, vitrified-bond CBN grinding wheels, and segmented diamond saw blades — all key categories for the Irish and UK stone, construction, and precision-machining trades.',
+    keyProducts: [
+      'Diamond saw blades (segmented + continuous rim) for stone, concrete, asphalt',
+      'Core drilling bits (wet + dry) for concrete and reinforced masonry',
+      'CBN (cubic boron nitride) inserts and grinding wheels for hardened steel',
+      'Diamond grinding cup wheels and segmented grinding discs',
+      'Diamond wire for stone and concrete cutting',
+      'Specialty: polycrystalline diamond (PCD) tooling for non-ferrous metal',
+    ],
+    savings: '30–55%',
+    savingsNote: 'vs Irish or UK trade-merchant pricing on equivalent diamond / CBN tooling',
+    ceNote: 'Diamond and CBN tooling does not require CE marking under most categories. Ériu verifies factory ISO 9001 quality systems, material certificates on the steel core / blank, and diamond grit grade and concentration specification at the factory before shipment.',
+    minOrder: '€1,500 single-SKU stock orders to €25,000+ fleet / trade-merchant orders',
+    minOrderShort: '€1.5k+',
+    leadTime: '3–6 wks',
+    image: '/images/xuchang-zhecheng-henan-lab-grown-diamond-cutting-tool-saw-blade.webp',
+    imageAlt: 'Lab-grown diamond cutting tool inspection — Zhecheng-Xuchang Henan superhard-materials cluster',
+    contentBody: `
+      <p>Industrial cutting tools are one of the highest-margin product categories in the Irish and UK trade-merchant channel. A 300 mm segmented diamond saw blade for stone or concrete cutting that retails at €85 to €140 through Irish trade merchants typically ships factory-direct from the Henan diamond-tool cluster at €25 to €45 FOB factory. Core drilling bits, CBN grinding wheels, and specialised PCD inserts show similar percentage margins in the Irish trade channel.</p>
+      <p>The Zhecheng County and Xuchang City cluster is unique globally. China holds approximately 80% of global lab-grown diamond production, and Henan holds approximately 80% of China\'s output — making this cluster the single largest concentration of synthetic-diamond manufacturing in the world. Forward integration into tooling means the raw material supply chain sits inside the same industrial cluster as the finished tool fabrication, removing the multiple-handoff margin that drives European tooling prices upward.</p>
+      <h3>Quality-value positioning — not commodity low-cost</h3>
+      <p>Ériu Sourcing operates exclusively at the premium-spec end of the cluster. The Henan diamond-tool cluster produces both low-cost commodity tooling (where the diamond grit concentration is reduced and the steel core is thinner than stated) and genuine premium specification (full-concentration diamond grit, hardened steel core to the stated specification, vitrified-bond CBN systems for the precision-machining trade). Picking the right factory inside the cluster is the difference between a saw blade that lasts 80 hours of stone cutting and one that lasts 240. Ériu\'s value is the vetting and the spec verification, not the cluster access alone.</p>
+      <h3>Irish and UK buyer segments</h3>
+      <p>The natural buyer profiles for cluster-direct cutting tooling include: Irish stone-fabrication businesses (kitchen worktops, monumental stonework, paving), UK precision-machining shops working in hardened steel and exotic alloys, Irish construction contractors with regular core-drilling work (drainage, services penetrations), and trade merchants serving the building and engineering trades. The minimum-order economics work best for trade-merchant stock builds and for contractor fleet orders where a year of consumable tooling can be specified upfront.</p>
+      <blockquote><p>A typical container-load build for an Irish trade merchant — assorted stone-cutting saw blades, core bits, CBN grinding wheels, and PCD inserts at premium specification across SKU range — typically lands in Ireland at 30–55% below Irish trade-merchant cost-of-sale, with the saving largest on small-quantity high-margin CBN and PCD lines.</p></blockquote>
+    `,
+    faq: [
+      {
+        q: 'Are diamond cutting tools from Henan equivalent quality to Tyrolit, Pentax, or Hilti?',
+        a: 'The premium-spec end of the Henan cluster produces tooling comparable to Tyrolit or Diamond Products Limited in cutting performance and service life for stone, concrete, and precision-machining applications. The cluster also produces commodity-grade tooling that is not — distinguishing between the two requires factory vetting and physical sample testing. Ériu Sourcing exclusively sources from the premium-spec end of the cluster and provides material certificates and diamond grit concentration verification on every order.',
+      },
+      {
+        q: 'How much can Irish trade merchants save on diamond and CBN tooling?',
+        a: 'Typical landed-cost saving is 30–55% versus Irish or UK trade-merchant pricing on equivalent premium specification. The saving is largest on small-quantity high-margin lines (CBN grinding wheels, PCD inserts for non-ferrous machining, specialty diamond core bits) where the European tooling channel margin is thickest, and smallest on high-volume commodity saw blades.',
+      },
+      {
+        q: 'Do I need CE marking on industrial cutting tools imported to Ireland?',
+        a: 'Most diamond and CBN industrial cutting tools fall outside the scope of CE marking — they are tools attached to user-controlled machinery, not machinery in their own right. Health and safety responsibilities (PPE for the operator, dust extraction for stone and concrete cutting, RCD protection for wet core drilling) sit with the end-user and Irish workplace HSA compliance. Ériu Sourcing supplies material certificates and diamond grit specification verification with every order for trade-merchant traceability.',
+      },
+      {
+        q: 'What is the typical lead time for a stock order from the Henan cluster?',
+        a: 'Stock-specification standard diamond saw blades and core bits ship in 2–3 weeks from order. Premium-specification or custom-grade tooling (custom diamond grit concentration, custom segment height, custom steel core specification) typically adds 1–2 weeks. Sea freight from Shanghai or Ningbo to Dublin adds 4–5 weeks. For urgent restock orders Ériu can arrange air freight on small-volume items (5–7 days) at materially higher freight cost.',
+      },
+      {
+        q: 'What is the minimum order to access cluster-direct pricing?',
+        a: 'No formal minimum unit count, but mixed-SKU orders below approximately €1,500 FOB make the freight economics weak. The practical sweet spot for trade-merchant stock builds is €5,000–€15,000 per order, which spreads container-share freight efficiently and unlocks volume-tier factory pricing on each line. For contractor fleet orders (a year of consumable tooling specified upfront) the economics tighten further.',
+      },
+    ],
+  },
 ];
