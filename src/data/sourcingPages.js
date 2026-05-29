@@ -389,4 +389,64 @@ export const sourcingPages = [
       },
     ],
   },
+
+  {
+    slug: 'machinery-from-china-ireland',
+    title: 'China Machinery Sourcing for Ireland & UK — Inland-China Direct | Ériu Sourcing',
+    description: 'Source heavy machinery direct from inland-China clusters: concrete machinery (Changsha), crushers (Zhengzhou), tractors (Luoyang), excavators (Xuzhou), forklifts (Hefei). Factory-direct to Ireland and the UK.',
+    h1: 'Source heavy machinery direct from inland China to Ireland & the UK',
+    eyebrow: 'Machinery',
+    categoryAnchor: 'machinery',
+    intro: 'Inland China produces the world\'s heavy machinery — concrete pumps in Changsha (Sany, Zoomlion), jaw and cone crushers in Zhengzhou (Henan Fote, Baichy), agricultural tractors in Luoyang (YTO, since 1955), crawler excavators in Xuzhou (XCMG), and forklifts in Hefei (Anhui Heli, China\'s number-one forklift maker for 32 consecutive years). Ériu Sourcing operates from Zhengzhou, in the middle of this manufacturing belt, with bullet-train access to every major cluster within four hours.',
+    hub: 'Zhengzhou (Henan) · Changsha (Hunan) · Luoyang (Henan) · Xuzhou (Jiangsu) · Hefei (Anhui)',
+    hubDetail: 'Noel Murphy has been based in Zhengzhou since 2008 — at the geographic centre of the inland-China machinery belt. The five primary clusters that supply UK and Irish machinery buyers — Changsha, Zhengzhou, Luoyang, Xuzhou and Hefei — are all within four hours by high-speed rail from Zhengzhou, which is where Ériu performs factory vetting, production-line inspection, and pre-shipment QC. The coastal sourcing-agent crowd does not have this geographic advantage.',
+    keyProducts: [
+      'Concrete machinery — pumps, mixers, batching plants (Changsha)',
+      'Crushing and mining equipment — jaw, cone, impact crushers (Zhengzhou)',
+      'Agricultural machinery — tractors, balers, harvesters (Luoyang YTO)',
+      'Excavators and earthmoving equipment (Xuzhou XCMG)',
+      'Material handling — forklifts, pallet trucks (Hefei Heli)',
+      'Spare parts and after-sales service for inland-China brands',
+    ],
+    savings: '25–45%',
+    savingsNote: 'vs UK or Irish dealer pricing on equivalent specification',
+    ceNote: 'CE marking under the Machinery Directive (2006/42/EC) verified at the factory before shipment. EU Declaration of Conformity, EC type-examination certificate (where applicable), and the technical file are obtained as part of the order package.',
+    minOrder: '€20,000 single unit to €200,000+ fleet orders',
+    minOrderShort: '€20k+',
+    leadTime: '8–14 wks',
+    image: '/images/changsha-concrete-pump-truck-assembly-line.webp',
+    imageAlt: 'Heavy machinery assembly hall in inland China — Sany concrete pump trucks on the production line in Changsha, Hunan',
+    contentBody: `
+      <p>UK and Irish heavy-machinery buyers have a clear choice between the established Japanese and European brands (CAT, JCB, Komatsu, Hitachi, Volvo) at premium UK dealer pricing, and the rapidly maturing Chinese OEMs at substantially lower factory-direct cost. The Chinese brands are not unknowns — Sany has a UK headquarters in Coatbridge (Glasgow) and a nationwide UK dealer network; XCMG has appointed UK dealers including Cannon XCMG for the UK and Ireland; Anhui Heli forklifts are imported into the UK by Grant Handling (seven regional depots) and into Northern Ireland exclusively by Heyn Forktrucks.</p>
+      <p>The opportunity for direct sourcing sits where the official UK dealer footprint is thin or the value-tier is heavily marked up — typically smaller-fleet buyers in quarrying, recycling, agricultural, plant hire, and warehousing operations who would benefit from factory-gate access without paying the full UK dealer premium.</p>
+      <h3>Why inland China for machinery — and not Guangdong</h3>
+      <p>Heavy machinery is not a Guangdong industry. The historical machine-tool, casting, forging, and structural-steel base of the Chinese heavy-engineering sector concentrates in Henan, Hunan, Jiangsu, Anhui, and the surrounding inland provinces. Zhengzhou hosts the dominant crushing and mining-equipment cluster (Henan Fote, Baichy, Songshan, Fangda). Changsha is the historical home of Sany and Zoomlion — together the world\'s two largest concrete-machinery makers by volume. Luoyang has produced YTO tractors since 1955; YTO now exports to over 100 countries. Xuzhou is the home of XCMG, China\'s largest construction-machinery group by revenue. Hefei is the home of Anhui Heli, the dominant Chinese forklift maker for more than 30 years.</p>
+      <p>Ériu Sourcing\'s permanent base in Zhengzhou puts the team in the middle of this belt — Changsha is ~4 hours south by high-speed rail, Xuzhou is ~2 hours east, Hefei is ~3.5 hours southeast, Luoyang is ~40 minutes west. Every supplier visit, factory audit, and pre-shipment inspection across the inland machinery clusters runs out of Zhengzhou.</p>
+      <h3>CE compliance for Chinese machinery imports to Ireland and the UK</h3>
+      <p><strong>The Machinery Directive (2006/42/EC)</strong> applies to all machinery placed on the EU and Irish markets, and broadly equivalent terms apply for the UK under the UK Conformity Assessed (UKCA) regime — though most UK importers continue to accept CE marking under post-Brexit transitional arrangements. Ériu Sourcing verifies CE compliance at source: the EU Declaration of Conformity must be signed by the manufacturer or EU-authorised representative, must reference the specific harmonised standards (EN ISO 4413 for hydraulics, EN ISO 13849 for safety-related parts of control systems, EN 13718 for transport, plus product-specific standards), and must be backed by a complete technical file held by the manufacturer. For self-propelled machinery this is non-negotiable for legal placement on the Irish or UK market.</p>
+      <blockquote><p>A typical Chinese-brand machinery order — factory-direct from Changsha or Xuzhou — lands in Ireland or the UK at 25–45% below comparable UK-dealer pricing for an equivalent spec from the same Chinese OEMs. The saving flows from removing the UK dealer margin and accessing factory-gate pricing the dealers themselves negotiate.</p></blockquote>
+    `,
+    faq: [
+      {
+        q: 'Can I import CE-compliant heavy machinery from China to Ireland?',
+        a: 'Yes. The Machinery Directive 2006/42/EC applies to all machinery placed on the Irish market. Ériu Sourcing verifies CE compliance at the factory in China — the EU Declaration of Conformity, the EC type-examination certificate where the machinery falls under Annex IV, and the technical file referencing the relevant harmonised standards (EN ISO 4413, EN ISO 13849, plus product-specific standards). Goods that do not meet EU standards stay in China at the factory\'s cost.',
+      },
+      {
+        q: 'Which Chinese machinery brands are most established in the UK and Irish market?',
+        a: 'Sany has a UK headquarters in Coatbridge (Glasgow) and a national UK dealer network for concrete machinery, excavators, and cranes. XCMG has appointed UK dealers including Cannon XCMG for the UK and Ireland market. Anhui Heli forklifts are imported into the UK by Grant Handling and into Northern Ireland by Heyn Forktrucks exclusively. YTO tractors are imported into the UK by Rabtrak and Siromer (over 4,000 units sold since 1999). The established UK presence proves the dealer route works; factory-direct sourcing through Ériu typically saves 25–45% versus equivalent dealer pricing.',
+      },
+      {
+        q: 'How much can Irish or UK businesses save buying machinery factory-direct from China?',
+        a: 'Typical landed-cost savings range from 25% on lower-margin equipment (forklifts, small tractors) to 45% on higher-margin machinery (cranes, concrete pumps, large excavators). The saving comes from removing the UK or Irish dealer margin and accessing factory-gate pricing — the same prices the dealers themselves negotiate. For fleet-scale orders the saving compounds further through bulk-shipment freight efficiency.',
+      },
+      {
+        q: 'How long does a machinery order from China to Ireland take?',
+        a: 'Typical end-to-end timeline is 8–14 weeks: factory production 4–8 weeks depending on the unit, sea freight 4–5 weeks (Shanghai or Ningbo to Dublin), customs clearance and inland delivery 3–5 days. Self-propelled machinery requires CE / UKCA pre-shipment compliance verification — Ériu builds this into the production-end of the schedule so the unit is verified-compliant before it loads.',
+      },
+      {
+        q: 'Do you provide after-sales support and spare parts for Chinese machinery in Ireland?',
+        a: 'Yes — spare-parts sourcing for inland-China brands is part of the standard offer. Original parts ship via air freight (5–7 days) or consolidated sea freight (4–5 weeks) depending on urgency. For larger fleet operators we maintain a recommended parts-list at the time of original order so future spares ship efficiently. Field service in Ireland is sourced via the established UK dealer network for the brand where one exists.',
+      },
+    ],
+  },
 ];
