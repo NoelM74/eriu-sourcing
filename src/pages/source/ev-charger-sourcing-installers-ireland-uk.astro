@@ -1,9 +1,11 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
-const title = "AC & DC EV Charger Sourcing for Installers — Ireland & UK | Ériu";
-const description = "Factory-direct EV charger sourcing for Irish and UK installers and CPOs. Export-grade AC wallboxes and DC fast chargers, CE/IEC-verified, with QC and logistics through Zhengzhou.";
+const title = "EV Charger Sourcing for Installers — Ireland & UK | Ériu";
+const description = "Factory-direct EV charger sourcing for Irish & UK installers and CPOs — AC wallboxes and DC fast chargers, CE/IEC-verified, with QC through Zhengzhou.";
 const canonical = "/source/ev-charger-sourcing-installers-ireland-uk/";
+const ogImage = "/images/ev-charger-production-line-china-ac-dc-hardware.webp";
+const ogImageAlt = "EV charger production line in China — AC wallboxes and DC fast chargers for Irish and UK installers";
 const siteUrl = 'https://eriusourcing.com';
 
 const pageSchemas = [
@@ -60,14 +62,14 @@ const pageSchemas = [
 ];
 ---
 
-<BaseLayout title={title} description={description} canonical={canonical} jsonLd={pageSchemas}>
+<BaseLayout title={title} description={description} canonical={canonical} ogImage={ogImage} ogImageAlt={ogImageAlt} jsonLd={pageSchemas}>
 
   <!-- HERO -->
   <section class="page-hero">
     <div class="hero-bg">
       <img
-        src="/images/shenzhen-electronics-factory-automation.webp"
-        alt="EV charger power-electronics production line in China — factory-direct sourcing for Irish and UK installers"
+        src="/images/ev-charger-production-line-china-ac-dc-hardware.webp"
+        alt="EV charger production line in China — DC fast chargers and AC wallboxes assembled and inspected for export to Ireland and the UK"
         width="1440"
         height="810"
         loading="eager"
@@ -130,8 +132,8 @@ const pageSchemas = [
         </div>
         <div class="split-image">
           <img
-            src="/images/factory-audit-inspector-chinese-manufacturer-production-floor-check.webp"
-            alt="Factory inspector checking EV charger production quality in China before shipment to Ireland and the UK"
+            src="/images/ev-charger-pre-shipment-qc-inspection-china.webp"
+            alt="Pre-shipment QC inspection of an AC wallbox EV charger in China before export to Ireland and the UK"
             width="640"
             height="480"
             loading="lazy"
@@ -167,8 +169,8 @@ const pageSchemas = [
       <div class="split-grid split-grid--reverse">
         <div class="split-image">
           <img
-            src="/images/retail-wholesale-invoice-savings.webp"
-            alt="EV charger installer comparing factory-direct hardware cost against EU distributor pricing"
+            src="/images/ev-charger-installer-cost-comparison.webp"
+            alt="Factory-direct versus local-distributor EV charger pricing — an installer fitting a wallbox at an Irish home"
             width="640"
             height="480"
             loading="lazy"
@@ -249,7 +251,7 @@ const pageSchemas = [
       <h2>A hardware base your authorities and insurers will accept</h2>
       <p>We make sure factories provide CE, RoHS, and the relevant IEC documentation (IEC 61851 / 62196) plus test reports suitable for local authorities and insurers; that warranty terms and spare-part stocks are clear; and that there is a defined technical-support pathway — remote diagnostics and firmware updates — via the manufacturer or your software partner.</p>
       <p>You remain responsible for complying with local electrical regulations, safety checks, and any grant-scheme rules — but we ensure the hardware base is defensible.</p>
-      <a href="/source/ev-chargers-from-china-ireland/#faq" class="btn btn--white-outline" style="margin-top:1rem">Read the full compliance picture →</a>
+      <a href="/source/ev-chargers-from-china-ireland/" class="btn btn--white-outline" style="margin-top:1rem">Read the full compliance picture →</a>
     </div>
   </section>
 

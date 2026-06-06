@@ -593,8 +593,8 @@ export const sourcingPages = [
     minOrder: '€5,000 pilot batch to €250,000+ network rollout orders',
     minOrderShort: '€5k+',
     leadTime: '8–14 wks',
-    image: '/images/shenzhen-electronics-factory-automation.webp',
-    imageAlt: 'EV charger power-electronics assembly line in China — factory-direct AC and DC charger sourcing for Europe',
+    image: '/images/ev-charger-production-line-china-ac-dc-hardware.webp',
+    imageAlt: 'EV charger assembly line at a Chinese factory — rows of DC fast chargers and AC wallboxes built for export to Europe',
     contentBody: `
       <p>Europe has passed the one-million public charge-point milestone and still needs roughly 8.8 million chargers installed by 2030 — over 23,000 new units every week, well above the current rollout rate. The European EV charging station market was valued at around USD 10.8 billion in 2024 and is projected to grow at roughly 29% CAGR into the 2030s, with both AC and DC segments expanding rapidly. The hardware demand curve is sustained, and the bulk of it is met by Chinese manufacturing.</p>
       <h3>Why EV charging hardware is a high-value sourcing category</h3>

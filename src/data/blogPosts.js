@@ -1800,7 +1800,7 @@ export const blogPosts = [
     slug: 'how-to-source-ev-chargers-from-china-europe-2026',
     title: 'How to Source EV Chargers from China for European Projects Safely in 2026',
     metaTitle: 'How to Source EV Chargers from China Safely in 2026 | Ériu Sourcing',
-    metaDescription: 'A 2026 guide for European installers, CPOs and fleets on sourcing AC and DC EV chargers from China safely — types, CE/IEC compliance, supplier selection, and QC.',
+    metaDescription: 'A 2026 guide for European installers, CPOs and fleets on sourcing AC & DC EV chargers from China safely: charger types, CE/IEC compliance, suppliers, and QC.',
     h1: 'How to source EV chargers from China for European projects safely in 2026',
     eyebrow: 'Category Deep Dive',
     category: 'category-guides',
@@ -1820,11 +1820,6 @@ export const blogPosts = [
 <p>China's EV and charger industries scaled domestically first, then turned outward. China is the largest EV market globally and a major exporter of EVs and parts. It hosts numerous charger manufacturers offering AC wallboxes, DC fast chargers, and components with advanced smart features — OCPP, RFID, and app control among them.</p>
 
 <p>Industry practitioners estimate that over 70 per cent of global EV chargers originate from China, with meaningful cost advantages from scale and vertical integration. For European buyers facing tight budgets but ambitious rollout targets, this combination makes China an obvious hardware source — provided quality and compliance are handled correctly.</p>
-
-<figure class="article-figure">
-  <img src="/images/shenzhen-electronics-factory-automation.webp" alt="EV charger power-electronics production line in China — AC and DC charging hardware manufacturing" loading="lazy" width="1280" height="720">
-  <figcaption>China produces over 70% of the world's EV chargers — from AC wallboxes to high-power DC fast chargers and the power modules inside them</figcaption>
-</figure>
 
 <h2>Understanding European EV charging demand</h2>
 
@@ -1849,8 +1844,8 @@ export const blogPosts = [
 <p>Reputable Chinese charger manufacturers can provide test reports from recognised labs, EU Declarations of Conformity, and quality-system certificates (ISO 9001, ISO 14001). Your responsibility is to confirm these documents are genuine, current, and applicable to the exact models you are buying — and to ensure installation complies with local electrical codes and grid-connection approval. A "CE certificate" issued by a Chinese third party is not the same as a manufacturer's EU Declaration of Conformity referencing the correct harmonised standards.</p>
 
 <figure class="article-figure">
-  <img src="/images/non-compliant-ce-goods-detained-customs-european-port-ireland.webp" alt="Non-compliant goods detained at a European port — why EV charger certification must be verified before shipment" loading="lazy" width="1280" height="720">
-  <figcaption>Compliance gaps discovered at customs or grid-connection approval are expensive. Verify CE, RoHS, and IEC documentation at the factory, before shipment.</figcaption>
+  <img src="/images/ev-charger-ce-iec-compliance-test-report.webp" alt="EV charger rating plate showing the CE mark and IEC 61851 rating beside an EVSE third-party test report" loading="lazy" width="1280" height="720">
+  <figcaption>What real compliance looks like: a charger rating plate citing CE and IEC 61851, alongside a third-party EVSE test report. We verify this at the factory — and confirm it matches the exact model you are buying.</figcaption>
 </figure>
 
 <h2>How to select a reliable EV charger supplier in China</h2>
@@ -1877,8 +1872,8 @@ export const blogPosts = [
 <p>Skipping the validation and inspection steps is where most horror stories originate.</p>
 
 <figure class="article-figure">
-  <img src="/images/factory-audit-inspector-chinese-manufacturer-production-floor-check.webp" alt="Inspector checking EV charger build quality on a Chinese factory floor before shipment to Europe" loading="lazy" width="1280" height="720">
-  <figcaption>Pre-shipment inspection at the factory — checking assembly quality, labels, documentation, and packaging while there is still time to correct problems</figcaption>
+  <img src="/images/ev-charger-pre-shipment-qc-inspection-china.webp" alt="Inspector running a pre-shipment inspection on an AC wallbox EV charger at a Chinese factory, with a QC checklist and packing list" loading="lazy" width="1280" height="720">
+  <figcaption>Pre-shipment inspection of an AC wallbox at the factory — visual, function, electrical-safety, and charging tests signed off before the carton is sealed and the order ships.</figcaption>
 </figure>
 
 <h2>The role of a China-based sourcing and QC partner</h2>
@@ -1888,8 +1883,8 @@ export const blogPosts = [
 <p>This is exactly where Ériu Sourcing operates: we sit inside China's NEV ecosystem — including Zhengzhou's new-energy-vehicle industrial parks and major battery investment — and act as your bridge to European projects.</p>
 
 <figure class="article-figure">
-  <img src="/images/zhengzhou-hsr-station.webp" alt="Zhengzhou high-speed rail hub — central-China logistics base for EV charger sourcing and QC" loading="lazy" width="1280" height="720">
-  <figcaption>Zhengzhou's position in central China gives fast access across the NEV cluster for supplier vetting, production audits, and pre-shipment QC</figcaption>
+  <img src="/images/zhengzhou-nev-ev-charger-industrial-park.webp" alt="Zhengzhou New Energy Industrial Park charging-pile manufacturing base in China, with DC chargers staged in the export shipping area" loading="lazy" width="1280" height="720">
+  <figcaption>Inside Zhengzhou's new-energy-vehicle ecosystem: a charging-pile (充电桩) smart-manufacturing base, with finished DC chargers staged in the export shipping area. This is the cluster Ériu Sourcing works from.</figcaption>
 </figure>
 
 <h2>Common mistakes to avoid when importing EV chargers</h2>
@@ -1908,8 +1903,8 @@ export const blogPosts = [
 
 <p>Share your current charger volumes and hardware mix and we will prepare a short EV Charger Sourcing Options memo tailored to your market and business model. <a href="/source/ev-charger-sourcing-installers-ireland-uk/">See our EV charger sourcing service for installers</a>, browse the <a href="/source/ev-chargers-from-china-ireland/">full EV chargers &amp; components category</a>, or <a href="/contact/">get in touch</a>.</p>`,
     excerpt: 'China makes the majority of the world\'s EV chargers, and direct-from-factory hardware often costs 30–50% less than Western-branded units. Here is how European installers, CPOs, and fleets can source AC and DC chargers from China safely in 2026 — types, compliance, supplier selection, and QC.',
-    image: '/images/shenzhen-electronics-factory-automation.webp',
-    imageAlt: 'EV charger production line in China — sourcing AC and DC chargers for European projects',
+    image: '/images/ev-charger-production-line-china-ac-dc-hardware.webp',
+    imageAlt: 'EV charger assembly line in China producing AC wallboxes and DC fast chargers for European projects',
     sections: [
       'Why look to China for EV chargers',
       'Understanding European EV charging demand',
