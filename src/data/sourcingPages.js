@@ -627,4 +627,64 @@ export const sourcingPages = [
       },
     ],
   },
+
+  {
+    slug: 'glamping-pods-cabins-from-china-ireland',
+    title: 'Glamping Pods & Container Cabins from China to Europe | Ériu',
+    description: 'Source glamping pods, container cabins and expandable units direct from the Zhengzhou modular cluster — insulated, CE-documented, ~30–50% below EU prefab.',
+    h1: 'Source glamping pods and container cabins from China for Europe',
+    eyebrow: 'Glamping Pods & Cabins',
+    categoryAnchor: 'glamping',
+    intro: 'Glamping in Europe is now a billion-euro sector, and cabins and pods account for roughly half of all booked accommodation. Rising construction costs, planning constraints, and demand for "Instagrammable" stays are pushing campsite and land owners towards faster, more flexible ways to add high-value units. Ériu Sourcing sits in Zhengzhou, at the heart of China\'s container-house and modular-building ecosystem, giving you direct access to serious prefab manufacturers — plus on-the-ground quality control and logistics for the whole of Europe.',
+    hub: 'Zhengzhou (Henan modular & container-house cluster) • Shenzhen',
+    hubDetail: 'Henan and Zhengzhou host a dense cluster of container-house, porta-cabin and steel-structure manufacturers specialising in export-grade modular buildings — from camping pods and site offices to full container houses and cabins. Many supply European-style designs and offer customisation, insulation packages, and CE-related documentation to match EU expectations. Because Ériu Sourcing is based on the ground in Zhengzhou and also operates in Shenzhen, you get direct factory access, in-person QC, consolidation, and rail/sea routing run by a team that has already operated high-volume logistics and FBA-prep businesses — so you bypass reseller margins and "mystery factories" while still working at European price points.',
+    keyProducts: [
+      'Glamping pods — timber or light-steel, high insulation, ~12–25 m² for 2–4 guests',
+      'Container cabins (20–40 ft) — studios to 1–2 bedroom suites, ~20–70 m²',
+      'Expandable & foldable units — unfold on site for cheaper shipping and fast deployment',
+      'Sanitary blocks — prefab shower/WC units for shared campsite facilities',
+      'Reception, café & service containers — check-in, storage, housekeeping hubs',
+      'Interior fit-out — bed area, kitchenette, ensuite, double glazing, electric heating',
+    ],
+    savings: '30–50%',
+    savingsNote: 'vs European prefab-cabin supply for equivalent spec',
+    ceNote: 'Glamping cabins and container homes are buildings. We work only with factories that can provide structural calculations, CE-related documentation, and energy-performance data suitable for your local architect or engineer to integrate into planning and building-control submissions. Documentation is verified at the factory before shipment. You remain responsible for local planning and compliance; we ensure the factory side is aligned with EU expectations, including near-zero-energy (NZEB) insulation specification.',
+    minOrder: 'Single unit from ~€20,000 ex-factory; 3-pod cluster ~€95,000–€145,000 landed',
+    minOrderShort: '€20k+/unit',
+    leadTime: '12–20 wks',
+    image: '/images/modular-homes-factory-zhengzhou-floor.webp',
+    imageAlt: 'Container-cabin and modular-unit production floor in Zhengzhou, Henan — glamping pods and cabins built for export to Europe',
+    contentBody: `
+      <p>The European glamping market is valued at around USD 1.28–1.3 billion and is projected to grow roughly 8.5–8.6% a year over the next decade. Within it, cabins and pods lead the accommodation category with a share above 45% — guests increasingly prefer solid, weather-safe units over tents. At the same time, prefab container and modular homes in Europe typically cost €25,000–€90,000 per unit depending on size, insulation, and finish, well below many traditional builds on a per-square-metre basis. High demand plus more predictable costs is exactly why pods and cabins are a sweet spot.</p>
+      <h3>Types of units — packages, not boxes</h3>
+      <p>We do not push a single model; we architect packages around your site and market. <strong>Glamping pods</strong> (timber or light-steel, ~12–25 m²) suit 2–4 guests. <strong>Container cabins</strong> (20–40 ft) cover studios to family suites at ~20–70 m². <strong>Expandable and foldable units</strong> unfold on site, cutting shipping cost and speeding deployment for clusters. <strong>Sanitary blocks</strong> let you keep pods simple and share facilities, and <strong>reception, café and service containers</strong> round out a destination site.</p>
+      <h3>Cost and ROI at a glance</h3>
+      <p>Independent analyses put container-based prefab homes in Europe in three bands: roughly <strong>€25,000–€40,000</strong> for 20–30 m² studios, <strong>€45,000–€75,000</strong> for 40–70 m² one- to two-bedroom units, and <strong>€80,000–€120,000</strong> for larger luxury designs — with build times far shorter than traditional construction. Glamping pods in the UK and Europe often rent at £60–£200 per night depending on location and amenities, with occupancy driven by unique design and year-round usability.</p>
+      <h3>Planning, regulations and compliance</h3>
+      <p>In most European countries, container and prefab homes <strong>do require planning permission</strong> when connected to services and used as longer-term accommodation. Energy-performance rules increasingly expect near-zero-energy standards, so insulation, windows, and systems must be specified correctly from day one. We work with factories that can provide structural calculations, CE-related documentation, and energy-performance data your local architect or engineer can fold into a planning submission. You own the local planning process; we make sure the factory side is built to support it.</p>
+      <blockquote><p>Combine factory-direct container or pod supply from China with a coherent site concept and marketing, and a 3-pod cluster can realistically recover its capital outlay in 2–4 seasons in a high-demand tourism region. Our role is to push your unit cost down and your build quality up — so the ROI maths sits heavily in your favour.</p></blockquote>
+    `,
+    faq: [
+      {
+        q: 'How much does a glamping pod or container cabin from China cost?',
+        a: 'Ex-factory, a properly insulated, ensuite glamping cabin typically runs €20,000–€30,000 for a mid-range 18–30 m² unit; larger one- to two-bedroom container units run higher. As a landed reference for Ireland or the UK, a 3-pod cluster — three cabins plus an optional shared sanitary unit, including inland transport, sea/rail freight, insurance, and import — typically lands in the €95,000–€145,000 band before foundations and local groundworks. We provide a full cost breakdown (factory, freight, our fee, contingency) before any commitment.',
+      },
+      {
+        q: 'Do glamping pods and container cabins need planning permission in Ireland, the UK, and the EU?',
+        a: 'In most cases, yes. Once a pod or container cabin is connected to services and used as accommodation, it is generally treated as a building and requires planning permission — and increasingly must meet near-zero-energy (NZEB) performance standards. Rules vary by country (and by local authority in Ireland and the UK), so you should assume formal approval is needed. We supply the structural and energy-performance documentation your local architect or engineer needs for the submission; the planning application itself remains your responsibility.',
+      },
+      {
+        q: 'Are container cabins warm and comfortable enough for year-round glamping?',
+        a: 'Yes, when insulation and detailing are done properly. We specify wall build-ups with 80–150 mm of PU or mineral-wool insulation (heavier for Northern Europe), double or triple glazing, electric heating, and acoustic treatment in the roof to handle rain noise. Thermal bridging at floor edges and corners is the common weak point, so it is resolved at design stage — a poorly detailed unit leads to condensation and guest complaints, which is exactly what factory vetting and pre-shipment QC are there to prevent.',
+      },
+      {
+        q: 'What types of glamping units can you source from China?',
+        a: 'Timber and light-steel glamping pods (~12–25 m²), 20–40 ft container cabins (studios to family suites, ~20–70 m²), expandable and foldable units that unfold on site, prefab sanitary blocks for shared facilities, and reception/café/service container conversions. Interiors can include a bed area, kitchenette, ensuite shower/WC, double glazing, and electric heating, adapted to your site and market.',
+      },
+      {
+        q: 'How long does it take to get glamping cabins from China to a European site?',
+        a: 'Plan for roughly 12–20 weeks end to end: 8–12 weeks production once the design and payment schedule are signed off, then 4–8 weeks for inland transport, sea or rail freight, and EU/UK import clearance. Foundations and services can be prepared in parallel so your local contractor can assemble and connect as soon as the units land. Expandable and foldable designs ship more units per container, improving freight economics on clusters.',
+      },
+    ],
+  },
 ];
