@@ -2287,7 +2287,7 @@ export const blogPosts = [
 <p>This guide explains how to source construction machinery from China safely, rooted in current EU regulation and real market data rather than shortcuts. The scale is genuine: Chinese OEMs sold roughly 131,550 excavators between January and August 2024, with around half exported. The discipline below is what turns that supply into machines you can actually run in Europe.</p>
 
 <figure class="article-figure">
-  <img src="/images/china-mini-excavators-export-yard.webp" alt="Rows of compact Chinese mini excavators in an export yard, tracked machines prepared for shipment overseas" loading="lazy" width="1280" height="720">
+  <img src="/images/mini-excavators-compact-machinery-europe-jobsite.webp" alt="Mini excavators and a compact wheel loader working on a European civil project in a town street, with hi-vis workers" loading="lazy" width="1280" height="720">
   <figcaption>Compact and mini excavators are the fastest-growing excavator segment globally — and the category where Chinese export volume and European demand overlap most clearly.</figcaption>
 </figure>
 
@@ -2304,8 +2304,8 @@ export const blogPosts = [
 <p>For an imported machine this means the engine must be Stage V-approved, with type-approval documentation to prove it. Fitting a random industrial diesel that meets an older regional standard will not pass, and national authorities are increasingly monitoring in-service emissions. Confirm the engine and its paperwork before anything else.</p>
 
 <figure class="article-figure">
-  <img src="/images/excavator-hydraulics-weld-inspection-china.webp" alt="Inspector checking the hydraulic cylinders, hoses and boom welds of an excavator at a Chinese factory during quality control" loading="lazy" width="1280" height="720">
-  <figcaption>Beyond paperwork, hydraulics and welds decide whether a machine lasts — pump and cylinder quality, hose ratings, weld penetration, and reinforcement at the boom, arm and undercarriage.</figcaption>
+  <img src="/images/construction-machinery-ce-stage-v-compliance-docs.webp" alt="Construction machinery compliance documents — engine data plate with CE marking, EU Declaration of Conformity, Stage V type-approval certificate and operation manual, with an engineer checking the details" loading="lazy" width="1280" height="720">
+  <figcaption>EU compliance is non-negotiable: a CE plate backed by a real Declaration of Conformity, and a Stage V type-approval certificate for the engine — verified against the exact machine, not taken on trust.</figcaption>
 </figure>
 
 <h2>Common pitfalls when importing machinery from China</h2>
@@ -2321,7 +2321,7 @@ export const blogPosts = [
 <p>For excavators, loaders and concrete equipment, hydraulic and structural integrity is everything. On <strong>hydraulics</strong>, verify the quality of pumps, valves, cylinders, hoses and seals, ensure components are rated for the pressures and cycles typical of European use, and check CE/EN compliance on hose assemblies and fittings where relevant. On <strong>structure</strong>, inspect weld quality (penetration and finish), steel specifications and stress-relief, and look for robust reinforcement at the boom, arm and undercarriage. On <strong>routing</strong>, make sure hoses and cables are shielded against chafing and damage. Some Chinese OEMs run strong QA and partner with recognised hydraulic suppliers; others cut corners — and differentiating between them is the single most valuable thing a buyer (or their agent) can do.</p>
 
 <figure class="article-figure">
-  <img src="/images/construction-machinery-cost-comparison-europe-china.webp" alt="Cost comparison on a desk of a Western-OEM excavator versus a vetted Chinese machine, with landed-cost figures and a Zhengzhou–Europe route map" loading="lazy" width="1280" height="720">
+  <img src="/images/china-construction-machinery-sourcing-process-europe.webp" alt="European buyer reviewing a China-versus-Europe OEM comparison and a CE/Stage V/hydraulics checklist at a desk, with hydraulic component samples" loading="lazy" width="1280" height="720">
   <figcaption>A vetted Chinese machine might land at €40,000–€55,000 against €65,000–€80,000 for a comparable Western OEM — but the honest comparison is total cost of ownership, not the sticker. Illustrative only.</figcaption>
 </figure>
 
@@ -2335,8 +2335,8 @@ export const blogPosts = [
 
 <p>If you are considering trialling Chinese machinery, send us one specific machine type and we will outline a safe pilot sourcing plan — the regulatory steps, the technical checks, and a realistic cost/benefit read. Browse the <a href="/source/construction-machinery-from-china-ireland/">full construction machinery category</a>, see our <a href="/source/mini-excavators-compact-machinery-from-china/">mini excavator &amp; compact machinery offer</a>, or <a href="/contact/">get in touch</a>.</p>`,
     excerpt: 'Chinese excavators, loaders and concrete equipment offer European contractors a better capex profile — but importing them safely means mastering the Machinery Directive, Stage V emissions and hydraulic quality. Here is a step-by-step process, with honest economics and a safe pilot plan.',
-    image: '/images/china-mini-excavators-export-yard.webp',
-    imageAlt: 'Rows of compact Chinese mini excavators lined up in an export yard, tracked and canopy machines prepared for overseas shipment',
+    image: '/images/china-construction-machinery-fleet-hero.webp',
+    imageAlt: 'Mixed fleet of Chinese construction machinery on a European jobsite — mini and mid excavators, a compact wheel loader and a concrete mixer truck lined up on muddy ground',
     sections: [
       'Understand the EU Machinery Directive and CE marking',
       'Stage V emissions for non-road mobile machinery',

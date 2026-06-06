@@ -836,8 +836,8 @@ export const sourcingPages = [
     minOrder: 'Per project — from a single pilot machine to fleet frameworks',
     minOrderShort: 'Per project / pilot',
     leadTime: '8–16 wks',
-    image: '/images/china-mini-excavators-export-yard.webp',
-    imageAlt: 'Rows of compact Chinese mini excavators lined up in an export yard, tracked and canopy machines prepared for overseas shipment',
+    image: '/images/china-construction-machinery-fleet-hero.webp',
+    imageAlt: 'Mixed fleet of Chinese construction machinery on a European jobsite — mini and mid excavators, a compact wheel loader and a concrete mixer truck lined up on muddy ground beside a tower crane',
     contentBody: `
       <p>We deliberately focus on compact and mid-range equipment that travels well and has clear European use cases — the machines Chinese OEMs already export in volume, increasingly with cleaner engines and proper documentation. The opportunity for European buyers is a better capex profile on these categories, provided compliance, reliability and support are handled properly rather than assumed.</p>
       <h3>Why Chinese machinery is on European radars</h3>
@@ -848,6 +848,10 @@ export const sourcingPages = [
       <p>Bringing machinery into Europe is not a "buy and ship" exercise. The Machinery Directive (2006/42/EC) requires a risk assessment, conformity with harmonised EN/ISO standards, a technical file, an EC Declaration of Conformity and the CE mark before a machine is placed on the market. Stage V (Regulation (EU) 2016/1628) sets stringent particulate and emission limits for engines in non-road mobile machinery across power bands from under 19 kW to over 560 kW. A machine sourced from China must either arrive with a Stage V engine and complete CE documentation, or go through rigorous engineering validation and certification. We work backwards from these requirements on every project.</p>
       <h3>Why Henan and Zhengzhou matter</h3>
       <p>Henan — and the Xingyang cluster near Zhengzhou in particular — is a long-standing home for concrete machinery, batching plants and aggregate equipment, with makers such as Camelway operating there since 1983. The excavators and loaders are built elsewhere, but our Zhengzhou base lets us visit the concrete-equipment factories directly, reach the machine OEMs efficiently, and route finished machines through a genuine rail-air logistics hub — faster than ocean freight when a project timeline is tight, far cheaper than air.</p>
+      <figure style="margin:1.75rem 0">
+        <img src="/images/henan-concrete-machinery-factory-batching-plants.webp" alt="Henan concrete-machinery factory near Zhengzhou assembling batching plants and mixer trucks for export, with aggregate bins, conveyors and palletised goods on the floor" width="1280" height="720" loading="lazy" style="width:100%;height:auto;display:block;border-radius:8px" />
+        <figcaption style="font-size:0.8125rem;color:#9ca3af;font-style:italic;padding-top:0.5rem;line-height:1.5">A Henan concrete-machinery base near Zhengzhou — batching plants and mixer trucks built for export. Our Zhengzhou presence puts this cluster on our doorstep and the machine OEMs within easy reach.</figcaption>
+      </figure>
       <h3>The risk that catches importers out: hydraulics and structure</h3>
       <p>Beyond paperwork, the difference between a good machine and a problem one is usually in the hydraulics and the steel — pump, valve and cylinder quality; hose and seal ratings; weld penetration and finish; reinforcement at the boom, arm and undercarriage. Some Chinese OEMs run strong QA and partner with recognised hydraulic suppliers; others cut corners. Telling them apart is exactly the on-the-ground work we do before you commit to a fleet.</p>
       <blockquote><p>Share your current or planned machinery requirements and we will outline one or two realistic sourcing paths from Henan and neighbouring clusters — including the compliance route, an honest cost band and a sensible pilot plan.</p></blockquote>
