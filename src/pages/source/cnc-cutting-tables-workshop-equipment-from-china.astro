@@ -1,0 +1,385 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = "CNC Cutting Tables & Workshop Equipment Sourcing | Ériu";
+const description = "Source CNC plasma & flame cutting tables, forming and roll-forming machines from China for European fabricators — vetted, FAT-tested, shipped from Henan.";
+const canonical = "/source/cnc-cutting-tables-workshop-equipment-from-china/";
+const ogImage = "/images/china-cnc-plasma-cutting-table-metal-fabrication.webp";
+const ogImageAlt = "CNC plasma cutting table cutting steel plate in a metal fabrication workshop";
+const siteUrl = 'https://eriusourcing.com';
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "What We Source", "item": `${siteUrl}/source/` },
+      { "@type": "ListItem", "position": 3, "name": "CNC Cutting Tables & Workshop Equipment", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "Service",
+    "name": "CNC Cutting Table & Workshop Equipment Sourcing from China — Europe",
+    "description": description,
+    "provider": { "@type": "ProfessionalService", "@id": `${siteUrl}/#organization` },
+    "areaServed": { "@type": "Place", "name": "Europe" },
+    "serviceType": "Industrial Equipment Sourcing Agent",
+    "dateModified": new Date().toISOString().split('T')[0]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Who is this CNC and workshop equipment sourcing service for?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Job shops and fabrication SMEs moving from manual or 2D cutting to CNC; manufacturers bringing plate or profile cutting in-house to control quality and lead times; and installers or integrators building lines that combine cutting, forming and welding. If you are comparing used Western CNC machines against new Chinese tables or subcontract cutting, this gives you a credible 'China-direct, supervised' option." }
+      },
+      {
+        "@type": "Question",
+        "name": "What workshop equipment do you source?",
+        "acceptedAnswer": { "@type": "Answer", "text": "CNC cutting (plasma tables for mild and stainless plate, flame/oxy-fuel for thicker plate, combined plasma/flame gantry systems); forming and general workshop machines (press brakes, shears, plate rolling, gantry milling, shot-blasting, CNC lathes); and cold roll-forming lines (colour-steel roof and wall sheet, C&Z purlin, floor deck, guardrail and sandwich-panel machines). We focus on categories with high Chinese export volume and real engine/CE solutions." }
+      },
+      {
+        "@type": "Question",
+        "name": "How much can I save versus a Western machine?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Indicatively 30–50% on machine capex versus comparable Western or established-brand equipment, but it varies enormously by category and specification, and it only counts if the machine is well-built, compliant and properly supported. We compare on total cost of ownership — equipment, freight, installation, consumables (torch consumables, filter media) and service — and quote against your real workload rather than promising a fixed percentage." }
+      },
+      {
+        "@type": "Question",
+        "name": "Will the machine be CE compliant, and what about the 2027 Machinery Regulation?",
+        "acceptedAnswer": { "@type": "Answer", "text": "CNC and workshop machines fall under the Machinery Directive 2006/42/EC and usually the EMC and Low Voltage directives, with a Declaration of Conformity, CE marking and safety documentation (guards, interlocks, emergency stops). From 20 January 2027 the new Machinery Regulation (EU) 2023/1230 applies, adding software and cybersecurity requirements — relevant because a machine ordered now will be in service well past that date. We verify documentation and electrical standards against the exact configuration, and check manuals are available in the required EU languages." }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you test the machine before it ships?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes — that is the point of the service. We arrange sample cuts on your own DXF files, with material and thickness representative of your workload, and run a Factory Acceptance Test (FAT) on the assembled machine before the balance is paid. We also make sure the cutting machine is linked to appropriate fume and dust extraction, since cutting generates hazardous fume and, in some processes, combustible dust." }
+      }
+    ]
+  }
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} ogImage={ogImage} ogImageAlt={ogImageAlt} jsonLd={pageSchemas}>
+
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="hero-bg">
+      <img
+        src="/images/china-cnc-plasma-cutting-table-metal-fabrication.webp"
+        alt="CNC plasma cutting table cutting a steel plate in a metal fabrication workshop, sparks and gantry visible"
+        width="1440"
+        height="810"
+        loading="eager"
+        fetchpriority="high"
+      />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content container">
+      <span class="hero-eyebrow">CNC Cutting & Workshop Equipment — Fabricators</span>
+      <h1>A new CNC table.<br />Supervised, not gambled.</h1>
+      <p class="hero-sub">A good CNC table changes your whole shop — cycle times, throughput, nested parts, labour profile. From our base in Henan, we connect European fabricators to established Chinese makers of CNC cutting and workshop equipment, with factory vetting, technical filtering, sample cuts on your own files and logistics handled on the ground.</p>
+      <div class="hero-actions">
+        <a href="/contact/" class="btn btn--white">Send us your table specs →</a>
+        <a href="#whatyouget" class="btn btn--white-outline">What we source</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item">
+          <span class="trust-num">Sample cuts</span>
+          <span class="trust-label">On your own DXF files before you buy</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">30–50%</span>
+          <span class="trust-label">Indicative machine capex saving (varies)</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">FAT</span>
+          <span class="trust-label">Factory acceptance test before balance paid</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">CE + 2027</span>
+          <span class="trust-label">Machinery Directive & 2023/1230 ready</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO THIS IS FOR -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="split-grid">
+        <div class="split-content">
+          <span class="section-eyebrow">Who this offer is for</span>
+          <h2>For shops ready to bring cutting in-house</h2>
+          <p>If you are weighing used Western CNC machines against new Chinese tables or subcontract cutting, this offer gives you a viable supervised route:</p>
+          <ul class="tick-list">
+            <li>Job shops and fabrication SMEs moving from manual or 2D cutting to CNC.</li>
+            <li>Manufacturers bringing plate or profile cutting in-house to control quality and lead times.</li>
+            <li>Installers and integrators building lines that combine cutting, forming and welding stages.</li>
+          </ul>
+          <a href="/source/industrial-workshop-equipment-from-china-ireland/" class="inline-link">See the full industrial &amp; workshop equipment category →</a>
+        </div>
+        <div class="split-image">
+          <img
+            src="/images/china-roll-forming-line-purlin-colour-steel.webp"
+            alt="Cold roll-forming line in a Chinese factory producing colour-steel roofing sheet and C/Z purlin sections"
+            width="640"
+            height="480"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT YOU GET -->
+  <section class="section" id="whatyouget">
+    <div class="container">
+      <div class="products-layout">
+        <div class="products-header">
+          <span class="section-eyebrow">What we source</span>
+          <h2>Cutting, forming and roll-forming</h2>
+          <p>We concentrate on the workshop machines Chinese factories already design and export at scale — not whatever is cheapest this week.</p>
+        </div>
+        <ul class="products-list">
+          <li><span class="product-check">✓</span><span>CNC plasma cutting tables for mild steel and stainless plate</span></li>
+          <li><span class="product-check">✓</span><span>CNC flame / oxy-fuel cutting tables for thicker plate</span></li>
+          <li><span class="product-check">✓</span><span>Combined plasma/flame gantry cutting systems for larger shops</span></li>
+          <li><span class="product-check">✓</span><span>Press brakes, shears, plate rolling and copying cutting machines</span></li>
+          <li><span class="product-check">✓</span><span>Moving-beam gantry milling, shot-blasting and CNC lathes</span></li>
+          <li><span class="product-check">✓</span><span>Cold roll-forming — colour-steel roof/wall sheet, C&amp;Z purlin lines</span></li>
+          <li><span class="product-check">✓</span><span>Floor-deck, guardrail and sandwich-panel forming machines</span></li>
+          <li><span class="product-check">✓</span><span>Fume and dust extraction interfaces specified alongside the cutter</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHINESE -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="split-grid split-grid--reverse">
+        <div class="split-image">
+          <img
+            src="/images/henan-metal-fabrication-machinery-factory-export.webp"
+            alt="Henan metal-fabrication machinery factory with cutting tables, press brakes and rolling machines being assembled and crated for export"
+            width="640"
+            height="480"
+            loading="lazy"
+          />
+        </div>
+        <div class="split-content">
+          <span class="section-eyebrow">Why Chinese workshop machines make sense</span>
+          <h2>Export-ready — but vetted, not assumed</h2>
+          <p>Henan is a real metal-machinery cluster, with factories designing and exporting CNC cutting, bending, rolling and cold-forming lines. That engineering capacity and export experience reduces the risk that you are dealing with a small, untested workshop — but it does not remove it, which is why we audit before we recommend.</p>
+          <p>The capex gap versus Western or established-brand machines is real — indicatively 30–50% on the equipment — but it only holds if the build quality, controls, electrical standards and consumable supply stand up. We treat that as conditional and prove it on the ground: factory audit, sample cuts on your files, and a factory acceptance test before any balance is paid.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ECONOMICS -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">The honest economics</span>
+      <h2>New Chinese table vs used Western vs subcontract</h2>
+      <p style="color:#3a3a3a;line-height:1.7;margin-bottom:1rem">There are three realistic options for a shop adding cutting capacity, and the right answer depends on your workload, not a sales pitch:</p>
+      <ul class="tick-list tick-list--lg">
+        <li><strong>New Chinese table, supervised</strong> — lowest capex (indicatively 30–50% under a comparable Western machine), with warranty and current controls, provided it is vetted and supported.</li>
+        <li><strong>Used Western machine</strong> — a known brand and local service, but ageing controls, unknown history and its own consumable costs.</li>
+        <li><strong>Subcontract cutting</strong> — no capex, but no control over quality or lead time, and margin leaving the building on every part.</li>
+      </ul>
+      <p class="fit-note">We don't pretend the Chinese option always wins. We give you a like-for-like comparison on <strong>total cost of ownership</strong> — machine, freight, installation, consumables (torch consumables, filter media) and service — so the capex saving is weighed against the things that actually decide it. We quote against your real workload, not a headline percentage.</p>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section section--alt">
+    <div class="container">
+      <span class="section-eyebrow">How the sourcing process works</span>
+      <h2>From spec to a machine you've already seen cut</h2>
+      <div class="process-steps">
+        <div class="process-step">
+          <span class="step-num">01</span>
+          <h3>Requirement definition</h3>
+          <p>Plate sizes and thicknesses, materials, cut quality and tolerance, daily throughput, nesting complexity, budget and downstream integration.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">02</span>
+          <h3>Shortlist makers</h3>
+          <p>We identify 2–3 CNC/workshop equipment makers with the right machine types and a real export history.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">03</span>
+          <h3>Technical benchmark</h3>
+          <p>We compare torch/gantry quality, drive systems, CNC controls, nesting software, dust/fume interfaces and local consumable support.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">04</span>
+          <h3>Factory audit</h3>
+          <p>We audit (or commission) the factory — quality systems, equipment condition, instrument calibration, operator skill and engineering capacity.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">05</span>
+          <h3>Sample cuts &amp; FAT</h3>
+          <p>Sample cuts on your own DXF files in representative material, then a factory acceptance test on the assembled machine.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">06</span>
+          <h3>Contract, QC &amp; logistics</h3>
+          <p>We negotiate terms, packaging, spares and documentation, oversee pre-shipment inspection, and coordinate shipping and customs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPLIANCE -->
+  <section class="section section--emerald">
+    <div class="container--narrow">
+      <span class="section-eyebrow section-eyebrow--light">Risk &amp; compliance</span>
+      <h2>Documented, safe, and ready for 2027</h2>
+      <p>CNC tables and workshop machines fall under the Machinery Directive 2006/42/EC and usually the EMC and Low Voltage directives. We make sure the machine ships with a Declaration of Conformity, CE marking and safety documentation — guards, interlocks, emergency stops — that the electrical components meet relevant standards and can be supported locally, and that manuals are available in the languages you need.</p>
+      <p>From <strong>20 January 2027</strong> the new Machinery Regulation (EU) 2023/1230 replaces the directive, adding software, update and cybersecurity requirements. A machine ordered now will be in service well past that date, so we factor it in. And we strongly recommend pairing the cutter with appropriate fume and dust extraction from the start — cutting generates hazardous fume, and some processes produce combustible dust.</p>
+      <a href="/source/industrial-workshop-equipment-from-china-ireland/" class="btn btn--white-outline" style="margin-top:1rem">See the full category &amp; compliance picture →</a>
+    </div>
+  </section>
+
+  <!-- IS THIS RIGHT FOR YOU -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Is this offer right for you?</span>
+      <h2>It's a strong fit if…</h2>
+      <ul class="tick-list tick-list--lg">
+        <li>You want a shortlist of 1–3 vetted Chinese options, not a platform full of random quotes.</li>
+        <li>You're ready to commit time to technical evaluation and a pilot run before full rollout.</li>
+        <li>You value on-the-ground representation when placing a five- or six-figure euro order.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Common questions</span>
+      <h2>CNC &amp; workshop sourcing — questions answered</h2>
+      <p class="faq-updated">Last reviewed: June 2026</p>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Who is this CNC and workshop equipment sourcing service for?</summary>
+          <p>Job shops and fabrication SMEs moving from manual or 2D cutting to CNC; manufacturers bringing plate or profile cutting in-house to control quality and lead times; and installers or integrators building lines that combine cutting, forming and welding. If you are comparing used Western CNC machines against new Chinese tables or subcontract cutting, this gives you a credible "China-direct, supervised" option.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What workshop equipment do you source?</summary>
+          <p>CNC cutting (plasma tables for mild and stainless plate, flame/oxy-fuel for thicker plate, combined plasma/flame gantry systems); forming and general workshop machines (press brakes, shears, plate rolling, gantry milling, shot-blasting, CNC lathes); and cold roll-forming lines (colour-steel roof and wall sheet, C&amp;Z purlin, floor deck, guardrail and sandwich-panel machines). We focus on categories with high Chinese export volume and real engineering behind them.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How much can I save versus a Western machine?</summary>
+          <p>Indicatively 30–50% on machine capex versus comparable Western or established-brand equipment, but it varies enormously by category and specification, and it only counts if the machine is well-built, compliant and properly supported. We compare on total cost of ownership — equipment, freight, installation, consumables (torch consumables, filter media) and service — and quote against your real workload rather than promising a fixed percentage.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Will the machine be CE compliant, and what about the 2027 Machinery Regulation?</summary>
+          <p>CNC and workshop machines fall under the Machinery Directive 2006/42/EC and usually the EMC and Low Voltage directives, with a Declaration of Conformity, CE marking and safety documentation (guards, interlocks, emergency stops). From 20 January 2027 the new Machinery Regulation (EU) 2023/1230 applies, adding software and cybersecurity requirements — relevant because a machine ordered now will be in service well past that date. We verify documentation and electrical standards against the exact configuration, and check manuals are available in the required EU languages.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Do you test the machine before it ships?</summary>
+          <p>Yes — that is the point of the service. We arrange sample cuts on your own DXF files, with material and thickness representative of your workload, and run a Factory Acceptance Test (FAT) on the assembled machine before the balance is paid. We also make sure the cutting machine is linked to appropriate fume and dust extraction, since cutting generates hazardous fume and, in some processes, combustible dust.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--emerald">
+    <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">Ready to scope it?</span>
+      <h2>Send your ideal table specs.</h2>
+      <p>Plate size, thickness, materials and budget is enough to start. We'll prepare a shortlist of vetted Chinese machine options and a proposed evaluation plan — including sample cuts on your files — no obligation.</p>
+      <a href="/contact/" class="btn btn--white-outline" style="margin-top:1rem">Outline my CNC sourcing option →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  /* HERO */
+  .page-hero { position: relative; min-height: 70vh; display: flex; align-items: flex-end; overflow: hidden; }
+  .hero-bg { position: absolute; inset: 0; }
+  .hero-bg img { width: 100%; height: 100%; object-fit: cover; object-position: center 40%; }
+  .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(10,28,18,.9) 0%, rgba(10,28,18,.55) 50%, rgba(10,28,18,.2) 100%); }
+  .hero-content { position: relative; z-index: 2; padding: 4rem 0 5rem; max-width: 900px; }
+  .hero-eyebrow { font-size: .8125rem; font-weight: 700; color: rgba(255,255,255,.65); text-transform: uppercase; letter-spacing: .1em; margin-bottom: 1.25rem; display: block; }
+  .hero-content h1 { color: #fff; font-size: clamp(2.25rem, 5vw, 4rem); line-height: 1.05; margin-bottom: 1.5rem; letter-spacing: -.03em; }
+  .hero-sub { font-size: clamp(1rem, 1.5vw, 1.1875rem); color: rgba(255,255,255,.82); line-height: 1.7; margin-bottom: 2rem; max-width: 640px; }
+  .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+  /* TRUST BAR */
+  .trust-bar { background: #fff; border-bottom: 1px solid rgba(15,33,49,.08); padding: 2.5rem 0; }
+  .trust-grid { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
+  .trust-item { display: flex; flex-direction: column; gap: .25rem; flex: 1; min-width: 160px; }
+  .trust-num { font-family: var(--font-body); font-size: clamp(1.25rem, 2.5vw, 1.875rem); font-weight: 700; color: var(--color-emerald); line-height: 1; letter-spacing: -.03em; }
+  .trust-label { font-size: .875rem; color: #5a5a5a; }
+  .trust-divider { width: 1px; height: 48px; background: rgba(15,33,49,.12); flex-shrink: 0; }
+
+  /* SPLITS */
+  .split-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+  .split-grid--reverse { direction: rtl; }
+  .split-grid--reverse > * { direction: ltr; }
+  .split-content h2 { margin-bottom: 1.25rem; }
+  .split-content p { color: #3a3a3a; margin-bottom: 1rem; }
+  .split-image img { width: 100%; height: 420px; object-fit: cover; border-radius: 12px; }
+  .inline-link { color: var(--color-emerald); font-weight: 600; font-size: .9375rem; text-decoration: none; }
+  .inline-link:hover { text-decoration: underline; }
+
+  /* TICK LISTS */
+  .tick-list { list-style: none; margin: 0 0 1.25rem; padding: 0; display: flex; flex-direction: column; gap: .625rem; }
+  .tick-list li { position: relative; padding-left: 1.5rem; color: #3a3a3a; line-height: 1.55; }
+  .tick-list li::before { content: '✓'; position: absolute; left: 0; color: var(--color-emerald); font-weight: 700; }
+  .tick-list--lg li { font-size: 1.0625rem; color: var(--color-navy); }
+  .fit-note { color: var(--color-slate); font-size: .9375rem; margin-top: 1rem; }
+
+  /* PRODUCTS LAYOUT */
+  .products-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+  .products-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .875rem; }
+  .products-list li { display: flex; align-items: flex-start; gap: .75rem; font-size: 1rem; color: var(--color-navy); line-height: 1.5; }
+  .product-check { color: var(--color-emerald); font-weight: 700; flex-shrink: 0; margin-top: .1em; }
+  .products-header p { color: var(--color-slate); margin-top: 1rem; }
+
+  /* PROCESS STEPS */
+  .process-steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem 2.5rem; margin-top: 2.5rem; }
+  .process-step { padding: 1.5rem 1.25rem 0 0; border-top: 2px solid var(--color-emerald); }
+  .step-num { display: block; font-family: var(--font-body); font-size: 2.5rem; font-weight: 700; color: var(--color-teal); opacity: .35; line-height: 1; margin-bottom: .75rem; letter-spacing: -.04em; }
+  .process-step h3 { font-size: 1rem; font-weight: 700; margin-bottom: .5rem; color: var(--color-navy); }
+  .process-step p { font-size: .9375rem; color: #4a4a4a; max-width: 100%; margin: 0; }
+
+  /* FAQ */
+  .faq-updated { font-size: .8125rem; color: #888; margin: .25rem 0 1.5rem; }
+  .faq-list { display: flex; flex-direction: column; gap: 0; margin-top: 1rem; }
+  .faq-item { border-bottom: 1px solid rgba(15,33,49,.1); padding: 0; }
+  .faq-item summary { font-weight: 600; font-size: 1rem; color: var(--color-navy); cursor: pointer; padding: 1.25rem 0; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after { content: '+'; font-size: 1.25rem; font-weight: 300; color: var(--color-emerald); flex-shrink: 0; transition: transform .2s ease; }
+  .faq-item[open] summary::after { transform: rotate(45deg); }
+  .faq-item p { padding: 0 0 1.25rem; color: #4a4a4a; font-size: .9375rem; margin: 0; line-height: 1.65; }
+
+  @media (max-width: 900px) {
+    .split-grid, .split-grid--reverse { grid-template-columns: 1fr; gap: 2rem; direction: ltr; }
+    .split-image img { height: 280px; }
+    .products-layout { grid-template-columns: 1fr; gap: 2rem; }
+    .process-steps { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+    .process-step { padding: 1.25rem 0 0; }
+    .trust-divider { display: none; }
+  }
+  @media (max-width: 600px) {
+    .process-steps { grid-template-columns: 1fr; }
+    .hero-actions { flex-direction: column; }
+    .trust-grid { gap: 1rem; }
+  }
+</style>

@@ -2572,6 +2572,116 @@ export const blogPosts = [
     ],
   },
 
+  {
+    slug: 'vet-chinese-industrial-equipment-suppliers-factory-audit-playbook',
+    title: 'How to Vet Chinese Industrial Equipment Suppliers: A Factory Audit Playbook for SMEs',
+    metaTitle: 'Vetting Chinese Industrial Equipment Suppliers | Ériu',
+    metaDescription: 'A factory-audit playbook for SMEs buying machinery from China — legal checks, capability and QMS, engineering, FAT, and the red flags that end a deal.',
+    h1: 'How to vet Chinese industrial equipment suppliers: a factory audit playbook for SMEs',
+    eyebrow: 'Supplier Due Diligence',
+    category: 'sourcing-guides',
+    primaryKeyword: 'vet Chinese industrial equipment suppliers',
+    secondaryKeywords: ['China factory audit machinery', 'industrial equipment supplier verification', 'factory acceptance test China', 'CNC machine supplier China audit'],
+    intent: 'informational',
+    targetReader: 'European SMEs, fabricators and engineering firms buying CNC, forming, dust-extraction or processing equipment from China who need to audit a factory before committing capex',
+    estimatedWordCount: 2500,
+    publishDate: '2026-06-06',
+    draft: false,
+    excerpt: 'When you are buying a five- or six-figure machine, the biggest risk is not price — it is the wrong supplier. A structured factory audit is the only reliable way to separate a real manufacturer from a trading company or an under-resourced workshop. Here is the playbook for SMEs buying industrial equipment from China.',
+    image: '/images/factory-audit-inspector-chinese-manufacturer-production-floor-check.webp',
+    imageAlt: 'Third-party auditor checking a CNC machine data plate against the factory\'s claimed capabilities on a Chinese production floor',
+    body: `<p>The biggest risk in importing industrial equipment from China is not the price — it is choosing the wrong supplier. A machine built in a factory with weak quality systems or shaky finances can cost far more in downtime, scrap and safety problems than you ever saved on the purchase order.</p>
+
+<p>This is a different exercise from vetting a supplier for a one-off product order. With capital equipment you are buying a relationship that has to survive installation, commissioning, spares and years of service. A structured, evidence-based factory audit is the only reliable way to separate a serious manufacturer from a trading company or an under-resourced workshop. This is the playbook we use, written for SMEs buying CNC, forming, dust-extraction or processing equipment. (If you are at the earlier stage of a first general product order, start with our broader <a href="/blog/how-to-vet-chinese-suppliers-factory-audit-verification-ireland/">guide to vetting Chinese suppliers</a>.)</p>
+
+<h2>Why a factory audit is non-negotiable</h2>
+
+<p>A proper audit answers three questions, and a quick tour with a handshake answers none of them:</p>
+
+<ul>
+  <li><strong>Capability</strong> — can this factory actually build your equipment, to the required quality, at the volume you need?</li>
+  <li><strong>Compliance</strong> — do its safety, labour and environmental practices meet your standards and legal obligations?</li>
+  <li><strong>Viability</strong> — is the business stable enough, financially and operationally, for a multi-year relationship including spares and support?</li>
+</ul>
+
+<p>Everything below is about gathering evidence for those three questions before any deposit moves.</p>
+
+<figure class="article-figure">
+  <img src="/images/chinese-business-licence-samr-registration-supplier-verification-ireland.webp" alt="Chinese business licence with red company chop beside a laptop showing the SAMR business registration database used to verify the supplier" loading="lazy" width="1280" height="720">
+  <figcaption>Step one costs nothing: the business licence and the SAMR registry tell you whether you are talking to a manufacturer or a trading company — before any other question matters.</figcaption>
+</figure>
+
+<h2>Step 1 — Verify the factory's legal identity</h2>
+
+<p>Start with legal verification, because everything else is wasted if the entity is not what it claims. Request the business licence (营业执照) and confirm the legal name, registered address and — critically — the business scope (经营范围). Check those details on China's national enterprise registry, the SAMR system at gsxt.gov.cn, to confirm the company is active and to surface any penalties. Ask whether they can issue a VAT fapiao, which indicates a properly registered business. And make sure the business scope actually covers <em>manufacturing</em> your type of equipment (生产制造), not just trade (贸易). Refusal to share a licence, mismatched names or addresses, or a scope that does not match the claimed activity are all red flags.</p>
+
+<h2>Step 2 — Assess production capability and capacity</h2>
+
+<p>Now confirm they can build your machine. Document the production area, number of lines, and the key machines that make your equipment — CNC cutters, roll formers, welders, presses, test rigs — and their condition. Check current utilisation: a plant running flat out at 95% has little room for a new customer, and your order will queue. Look at the forward order book (the next 60–90 days) to gauge demand and the realistic risk of delay. Count the workforce structure — production workers versus engineers versus QC staff; as a rough rule of thumb, a single QC inspector covering 200 production workers is thin for complex equipment.</p>
+
+<p>For industrial equipment specifically, dig into the specialised processes: for a CNC table, how they machine the bed, align the gantry and calibrate; for a food or grain line, how they handle hygienic design and cleaning. Generic capacity is not the same as capability in <em>your</em> category.</p>
+
+<h2>Step 3 — Review the quality management system</h2>
+
+<p>A real quality management system is one of the strongest predictors of consistent output. Check for valid ISO 9001 certification (and the issuing body — verify it, do not just accept a framed certificate). Review the quality manual, internal audit records, and how non-conforming material is handled. Then look for evidence the system actually runs: incoming quality control on raw materials (is the steel and are the components inspected against documented standards, or do they go straight to the line?), in-process checks on the line rather than only at the end, and final inspection records. Counter-intuitively, realistic logs showing occasional minor issues with corrective actions are more credible than a suspiciously "perfect" record.</p>
+
+<p>For equipment, inspect maintenance and calibration too: maintenance logs for the production machines, and calibration records for the measuring tools (calipers, gauges, levels) that determine whether your machine will actually hold its stated accuracy.</p>
+
+<figure class="article-figure">
+  <img src="/images/pre-shipment-qc-inspector-chinese-factory-product-check-ireland.webp" alt="QC inspector checking a machine and components against specification on the factory floor before shipment" loading="lazy" width="1280" height="720">
+  <figcaption>A quality system you can see running — incoming checks, in-process checkpoints, calibrated instruments — beats any framed certificate on the wall.</figcaption>
+</figure>
+
+<h2>Step 4 — Evaluate engineering and R&D capability</h2>
+
+<p>For machinery, engineering competence is what carries you through customisation and troubleshooting. Check whether the factory uses modern CAD/CAM and has real design control — revision management, proper bills of materials. Ask to see example engineering drawings, wiring diagrams and PLC programs relevant to your machine. Ask about typical timelines for a new model or a customisation, and whether they have engineers dedicated to OEM/ODM work. A factory that only copies existing designs, with no in-house engineering, will struggle the moment your requirement differs from their catalogue or something goes wrong on site.</p>
+
+<h2>Step 5 — Check labour conditions and safety</h2>
+
+<p>Social and safety compliance is risk management and reputation, not box-ticking. Walk the production floor and the welfare facilities. Check for adequate safety equipment — fire extinguishers, clear and unblocked emergency exits, guards on dangerous machines, PPE actually being worn. Review timecards and payroll for compliance with local minimum-wage and overtime law; unpaid or excessive overtime is a red flag. If you have formal ESG requirements, ask for recent third-party social audit reports (BSCI, SA8000 or similar). Serious safety or labour violations are grounds to walk away outright — and a factory that cuts corners on its own workers' safety tells you how it will treat your machine's.</p>
+
+<h2>Step 6 — Evaluate business health and export experience</h2>
+
+<p>Technical capability is not enough; you need a partner that will still be there for spares in three years. Review export history — main markets and sample customers, ideally in Europe. Weigh investment in the facility: an older but well-maintained plant with ongoing reinvestment is more reassuring than a bare-minimum workshop. Ask about ownership, year of establishment and any major restructuring. And confirm they have independent export rights and genuine experience handling shipping, documentation and standards for your destination — not just domestic sales with an agent bolted on.</p>
+
+<h2>Don't skip the Factory Acceptance Test</h2>
+
+<p>This is the step that separates equipment buyers from product buyers, and it is where amateurs lose money. Before the balance is paid and the machine is crated, run a Factory Acceptance Test: the assembled machine is powered up and run on <em>your</em> representative material — your plate thickness, your DXF files, your grain — and measured against the agreed specification. For a CNC table that means sample cuts to your tolerance; for a mill, a test run to the rated throughput and particle size. Document it. A machine that has never been proven on representative material before shipment is a machine you are commissioning blind on your own floor — at ten times the cost of fixing it at the factory.</p>
+
+<h2>Three ways to run an audit</h2>
+
+<p>There are three practical routes, and they are not mutually exclusive. <strong>Visit in person</strong> — the highest insight and the strongest relationship, but time-intensive and dependent on knowing what to look for. <strong>Commission a third-party audit firm</strong> — global QC companies run standardised factory audits, typically for a few hundred dollars per day, giving you an independent report. <strong>Work through a China-based sourcing agent or local partner</strong> — which integrates the audit with sourcing, communication and ongoing QC into one accountable relationship. For higher-value industrial equipment, a local partner combined with a third-party technical audit is often the strongest combination.</p>
+
+<h2>How Ériu Sourcing runs this for industrial equipment</h2>
+
+<p>In this category we pre-filter Henan and other Chinese equipment makers for legal legitimacy, export history and basic capacity before you spend a day on them; coordinate a tailored factory audit — directly or via a third-party QC firm — focused on your specific equipment type; and oversee the factory acceptance test, documentation checks and pre-shipment inspection so the risk of hidden defects or non-compliance is taken off your desk. The SAMR registry is in Chinese, FAT needs someone who can read a machine, and spares depend on a relationship that outlasts the order — which is precisely the work we do on the ground.</p>
+
+<p>If you are weighing up a Chinese industrial equipment supplier, send us the factory name and the equipment type and we will outline a concrete audit and vetting plan before you ever pay a deposit. Browse the <a href="/source/industrial-workshop-equipment-from-china-ireland/">full industrial &amp; workshop equipment category</a>, see our <a href="/source/cnc-cutting-tables-workshop-equipment-from-china/">CNC cutting &amp; workshop equipment offer</a>, or <a href="/contact/">get in touch</a>.</p>`,
+    sections: [
+      'Why a factory audit is non-negotiable',
+      'Step 1 — Verify the factory\'s legal identity',
+      'Step 2 — Assess production capability and capacity',
+      'Step 3 — Review the quality management system',
+      'Step 4 — Evaluate engineering and R&D capability',
+      'Step 5 — Check labour conditions and safety',
+      'Step 6 — Evaluate business health and export experience',
+      'Don\'t skip the Factory Acceptance Test',
+      'Three ways to run an audit',
+    ],
+    faq: [
+      { q: 'How is auditing an equipment supplier different from a normal supplier check?', a: 'With capital equipment you are buying a multi-year relationship, not a one-off order, so the audit goes deeper. Beyond legal verification and quality systems, you assess engineering and R&D capability (can they customise and troubleshoot?), machine calibration records, specialised processes for your equipment type, and — critically — you run a Factory Acceptance Test on your own representative material before paying the balance. Spares and after-sales support also matter far more than for a product order.' },
+      { q: 'What is a Factory Acceptance Test (FAT) and why does it matter?', a: 'A FAT is a documented test of the finished machine, at the factory, run on your representative material before the balance is paid and the machine is shipped — sample cuts to tolerance for a CNC table, a throughput-and-particle-size run for a mill. It is the point at which problems are still cheap to fix, because the factory wants the final payment. A machine that has never been proven on representative material before shipment is one you are commissioning blind on your own floor.' },
+      { q: 'How can I tell a real equipment manufacturer from a trading company?', a: 'Check the business licence business scope (经营范围) on China\'s SAMR registry at gsxt.gov.cn: manufacturing (生产制造) versus trade (贸易). Then confirm capability physically — production lines and key machines for your equipment type, in-house engineering with real drawings and PLC programs, and calibration records. A trading company can resell a machine, but it cannot stand behind the engineering, the customisation or the spares, which is exactly what fails you after delivery.' },
+    ],
+    relatedSlugs: ['how-to-vet-chinese-suppliers-factory-audit-verification-ireland', 'how-to-source-construction-machinery-from-china-2026', 'pre-shipment-inspection-china-irish-importers-quality-control'],
+    internalLinks: [
+      { text: 'Industrial & workshop equipment — what we source', href: '/source/industrial-workshop-equipment-from-china-ireland/' },
+      { text: 'CNC cutting & workshop equipment offer', href: '/source/cnc-cutting-tables-workshop-equipment-from-china/' },
+      { text: 'How our sourcing process works', href: '/how-it-works/' },
+      { text: 'Get a sourcing quote', href: '/contact/' },
+    ],
+  },
+
 ];
 // Helper: get published posts only
 export const publishedPosts = blogPosts.filter(p => !p.draft);

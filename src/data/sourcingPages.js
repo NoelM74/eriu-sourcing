@@ -74,7 +74,7 @@ export const sourcingPages = [
     h1: 'Source furniture directly from Foshan to Ireland',
     eyebrow: 'Furniture & Furnishings',
     categoryAnchor: 'furniture',
-    intro: 'Foshan in Guangdong Province is the world\'s largest furniture manufacturing cluster, producing an estimated 30–40% of all furniture exported globally. Every major furniture style — residential, commercial, hospitality, outdoor — is produced here at scale. Ériu Sourcing operates from Shenzhen, 45 minutes from Foshan, with direct factory relationships built over 18 years.',
+    intro: 'Foshan in Guangdong Province is the world\'s largest furniture manufacturing cluster, producing an estimated 75% of China\'s furniture output and anchoring the largest furniture trading hub on earth. Every major furniture style — residential, commercial, hospitality, outdoor — is produced here at scale. Ériu Sourcing operates from Shenzhen, about 45 minutes from Foshan by high-speed rail, with direct factory relationships built over 18 years.',
     hub: 'Foshan (Guangdong) • Guangzhou (Guangdong)',
     hubDetail: 'Foshan\'s furniture manufacturing zone spans multiple districts including Lecong, Longjiang, and Shunde — each specialising in different categories from upholstered sofas to flat-pack office furniture. Factory prices here are the same prices IKEA and major European furniture chains pay — minus their 150–200% retail markup.',
     keyProducts: [
@@ -95,7 +95,7 @@ export const sourcingPages = [
     imageAlt: 'Foshan furniture factory showroom — direct sourcing agent for Irish retailers and hospitality',
     contentBody: `
       <p>Foshan's furniture manufacturing zone is not one district but a network of specialised clusters — Lecong and Longjiang for upholstered pieces and soft furnishings, Shunde for flat-pack and office furniture, and Dali for high-end residential. A buyer visiting Foshan for the first time faces a market of over 5,000 separate factories across these districts.</p>
-      <p>For Irish retailers and hospitality projects, the practical question is not whether to buy from Foshan — virtually all mid-to-high-volume furniture buyers in Europe do — but how to navigate it without a trading company absorbing the margin. Ériu Sourcing's Shenzhen presence (45 minutes from Foshan by road) means factory visits, sample approvals, and pre-shipment QC are conducted in person, not by video call.</p>
+      <p>For Irish retailers and hospitality projects, the practical question is not whether to buy from Foshan — virtually all mid-to-high-volume furniture buyers in Europe do — but how to navigate it without a trading company absorbing the margin. Ériu Sourcing's Shenzhen presence (about 45 minutes from Foshan by high-speed rail) means factory visits, sample approvals, and pre-shipment QC are conducted in person, not by video call.</p>
       <h3>How a Foshan furniture container works for Irish buyers</h3>
       <p>A standard 40ft high-cube container carries approximately 50–70 CBM of furniture volume, depending on how pieces are flat-packed and bundled. This is typically sufficient for a hotel bedroom programme of 10–15 rooms, a full restaurant seating programme of 40–60 covers, or a retail store stock of 40–60 residential pieces.</p>
       <p><strong>Import duty</strong> on furniture from China to Ireland under current EU tariffs runs at 5.6–6.3% depending on HS code. VAT at 23% applies on the CIF value plus duty. Ériu Sourcing provides a full duty-inclusive landed cost estimate before commitment — so the saving versus Irish trade quotes is calculated on a like-for-like basis.</p>
@@ -876,6 +876,74 @@ export const sourcingPages = [
       {
         q: 'How does a machinery sourcing project run end to end?',
         a: 'We define the use case and map regulatory scope (power band, Stage V applicability, CE category, safety functions), shortlist 2–3 OEMs with genuine export track record and compliant or configurable machines, compare specs, engine approvals, warranties and pricing like for like, arrange pilot units with third-party inspection and field testing, then structure fleet pricing, parts support and training before overseeing production, pre-shipment QC and logistics via Zhengzhou — typically 8–16 weeks per batch depending on configuration and freight mode.',
+      },
+    ],
+  },
+  {
+    slug: 'industrial-workshop-equipment-from-china-ireland',
+    title: 'Industrial & Workshop Equipment from China | Ériu',
+    description: 'Source CNC cutting, forming, dust extraction and grain/food processing equipment from China — CE-scoped, ATEX-aware, audited and QC\'d from Henan.',
+    h1: 'Industrial & workshop equipment from China for European SMEs and fabricators',
+    eyebrow: 'Industrial & Workshop Equipment',
+    categoryAnchor: 'industrial-workshop-equipment',
+    intro: 'China is now a core supplier of the equipment small and mid-sized manufacturers run every day — metal-forming and CNC cutting machines, dust extraction and filtration, and complete grain and food processing lines. Henan, and the Zhengzhou–Kaifeng–Xingyang corridor in particular, is a genuine industrial-machinery cluster with decades of export history. From that base, Ériu Sourcing helps European SMEs and fabricators buy directly from proven factories — with technical filtering, factory audits, QC and logistics handled on the ground, and compliance built into the process rather than bolted on at the end.',
+    hub: 'Henan — Zhengzhou–Kaifeng–Xingyang industrial-machinery cluster + coastal makers',
+    hubDetail: 'This is not a generic "made in China" pitch — it is a specific cluster. The Xingyang district near Zhengzhou has been a base for mineral, cement and heavy-process equipment since the 1950s (one local manufacturer has built kilns, crushers and dust collectors there since 1956), and the wider Henan region exports CNC plasma and flame cutting tables, press brakes and roll-forming lines, baghouse and cartridge dust collectors, and complete wheat and maize milling plants. Some machine categories are made in coastal provinces too, and we work with factories there directly. Operating from Zhengzhou lets us audit the Henan factories on our doorstep and route finished equipment through a national rail-air hub — rail reaches European terminals in roughly 12–18 days against 30–40 by sea.',
+    keyProducts: [
+      'Metal fabrication & forming — CNC plasma/flame cutting tables, press brakes, shears, plate rolls, gantry milling, lathes, shot-blasting',
+      'Cold roll-forming — colour-steel roof/wall sheet, C&Z purlin, floor deck, guardrail and sandwich-panel lines',
+      'Dust extraction & filtration — baghouse and cartridge collectors, cyclones, dry dust-collection sized for workshops and process plants',
+      'Grain & flour milling — complete wheat/maize lines (from ~30 up to 200+ T/D): cleaning, milling, sieving, packing, plus peelers and polishers',
+      'Drying, grinding & process — industrial dryers, food/spice pulverisers, mixers, granulators and packaging equipment',
+    ],
+    savings: '30–50%',
+    savingsNote: 'indicative machine capex vs comparable Western/established-brand equipment — varies enormously by category and spec, and must be weighed against spares, support, longevity and total cost of ownership',
+    ceNote: 'Industrial machinery for the EU is governed by the Machinery Directive 2006/42/EC — and, for machines placed on the market from 20 January 2027, the new Machinery Regulation (EU) 2023/1230, which adds digital, software and cybersecurity requirements. Depending on the machine, EMC, Low Voltage and ATEX (potentially explosive atmospheres) directives also apply, and food/grain equipment carries food-contact-material obligations (Regulation (EC) 1935/2004) and hygienic-design expectations. Combustible dust — including grain and flour dust — makes ATEX a genuine safety issue, not a box-tick. We verify documentation and the underlying machine against the exact configuration; the importer remains responsible for placing it on the market and for safe installation.',
+    minOrder: 'Per machine or per line — from a single CNC table to a complete processing plant',
+    minOrderShort: 'Per machine / line',
+    leadTime: '8–16 wks',
+    image: '/images/henan-metal-fabrication-machinery-factory-export.webp',
+    imageAlt: 'Henan metal-fabrication machinery factory — CNC cutting tables, press brakes and rolling machines assembled and crated for export',
+    contentBody: `
+      <p>We focus on four high-leverage equipment families where Chinese factories already export at scale and often offer OEM/ODM work: metal fabrication and forming, dust extraction and filtration, grain and food milling, and drying/grinding/process equipment. These are categories a European SME can realistically buy direct — provided someone competent filters the suppliers, audits the factory, and verifies the machine and its documentation before it ships.</p>
+      <h3>Why source industrial equipment from China</h3>
+      <p>The pull is capex. China's integrated steel, motor and controls supply chains mean a CNC cutting table, a roll-forming line or a flour mill is typically built at a substantial discount to a comparable Western or established-brand machine — indicatively 30–50% on the equipment itself, though it varies enormously by category and specification. We treat that as real but conditional: the saving only survives if the machine is well-built, properly supported, and compliant. A cheap machine you cannot get spares or service for is not cheap, which is why we compare on total cost of ownership, not the sticker.</p>
+      <h3>The Henan cluster, honestly</h3>
+      <p>The Zhengzhou–Kaifeng–Xingyang corridor is a real industrial-machinery base, not a marketing label. Xingyang has produced mineral, cement and heavy-process equipment — including dust collectors — since the 1950s, and Henan factories export metal-forming machines, roll-forming lines and complete grain-milling plants today. We name the cluster rather than parade a list of supplier logos, because the specific size and export-country claims factories put on their own profiles need verifying case by case — which is exactly the audit work we do before recommending anyone.</p>
+      <figure style="margin:1.75rem 0">
+        <img src="/images/china-wheat-flour-milling-plant-grain-processing-line.webp" alt="Complete wheat flour milling plant in China — cleaning, milling, sieving and packing line with steel ducting and roller mills" width="1280" height="720" loading="lazy" style="width:100%;height:auto;display:block;border-radius:8px" />
+        <figcaption style="font-size:0.8125rem;color:#9ca3af;font-style:italic;padding-top:0.5rem;line-height:1.5">Henan factories build complete wheat and maize milling lines, from compact ~30 T/D plants up to 200+ T/D. Grain and flour dust is explosive, so ATEX-aware design and dust control are part of the specification, not an add-on.</figcaption>
+      </figure>
+      <h3>Compliance is built in, not bolted on</h3>
+      <p>Industrial machinery placed on the EU market needs CE marking under the Machinery Directive 2006/42/EC — and from 20 January 2027, the new Machinery Regulation (EU) 2023/1230, which for the first time folds in software, updates and cybersecurity. Depending on the machine, EMC, Low Voltage and ATEX directives apply, and food and grain equipment carries food-contact-material obligations and hygienic-design expectations. Because production lead times plus shipping can run into months and the equipment then serves for years, the 2027 transition is a live planning issue now, not a future one.</p>
+      <figure style="margin:1.75rem 0">
+        <img src="/images/china-baghouse-dust-collector-extraction-system.webp" alt="Industrial baghouse dust collector and extraction ducting in a Chinese factory, sized for workshop and process-plant dust capture" width="1280" height="720" loading="lazy" style="width:100%;height:auto;display:block;border-radius:8px" />
+        <figcaption style="font-size:0.8125rem;color:#9ca3af;font-style:italic;padding-top:0.5rem;line-height:1.5">Dust extraction is a safety system, not just an environmental one. Where dust is combustible — grinding, mineral processing, grain and flour — ATEX-rated design, explosion isolation and venting must be specified from the start.</figcaption>
+      </figure>
+      <h3>The risk that catches buyers out: support, spares and commissioning</h3>
+      <p>With capital equipment, the machine arriving is only half the job. The failures we see come after delivery — no clear consumable supply (plasma torch consumables, filter bags, mill rolls), thin documentation, electrical components that cannot be serviced locally, or a machine that was never properly accepted before it left the factory. We build in factory acceptance testing on representative material, documentation and consumable checks, and a realistic plan for installation, power and commissioning at your end — because a five- or six-figure machine that sits idle waiting for a part is the most expensive kind of saving.</p>
+      <blockquote><p>If you have an upcoming investment in workshop or processing equipment, share the basics — throughput, material, budget — and we will outline a short list of Chinese options worth considering, with realistic compliance and audit paths and an honest read on total cost.</p></blockquote>
+    `,
+    faq: [
+      {
+        q: 'What industrial and workshop equipment can you source from China?',
+        a: 'Four families: metal fabrication and forming (CNC plasma and flame cutting tables, press brakes, shears, plate rolls, gantry milling, lathes, shot-blasting); cold roll-forming lines (colour-steel sheet, C&Z purlin, floor deck, guardrail, sandwich panel); dust extraction and filtration (baghouse and cartridge collectors, cyclones); and grain, flour and food processing (complete wheat/maize milling lines from around 30 up to 200+ T/D, plus dryers, pulverisers, mixers and packaging). These are categories where Henan and other Chinese factories already export extensively and often offer OEM/ODM work.',
+      },
+      {
+        q: 'How much can an SME really save buying machinery from China?',
+        a: 'Indicatively 30–50% on machine capex versus comparable Western or established-brand equipment, but it varies enormously by category and specification, and it is only a real saving if the machine is well-built, compliant and properly supported. We compare on total cost of ownership — equipment, freight, installation, spares, consumables and service — because a machine you cannot get parts or support for is not cheap at any price. We quote against your actual specification rather than a headline percentage.',
+      },
+      {
+        q: 'Is Chinese industrial equipment CE-compliant for the EU and UK?',
+        a: 'It must be, and the rules are changing. Machinery placed on the EU market needs CE marking under the Machinery Directive 2006/42/EC — and from 20 January 2027, the new Machinery Regulation (EU) 2023/1230, which adds software and cybersecurity requirements. EMC, Low Voltage and ATEX directives apply depending on the machine, and food/grain equipment carries food-contact and hygienic-design obligations. Export-focused factories increasingly hold ISO 9001 and market CE-marked equipment, but we verify the documentation and the machine against the exact configuration rather than trusting a CE label.',
+      },
+      {
+        q: 'Why does ATEX matter for dust collectors and grain mills?',
+        a: 'Because combustible dust explodes. Grain and flour dust, and the dust from grinding and mineral processing, can form explosive atmospheres — there are an estimated 400–500 explosions a year at grain-processing facilities worldwide. That makes ATEX-rated design, explosion isolation and venting a genuine safety requirement on dust-extraction and milling equipment, not an optional extra. We make sure dust and explosion control is specified into the equipment from the start, and that the documentation supports it.',
+      },
+      {
+        q: 'How does an industrial equipment sourcing project run end to end?',
+        a: 'We clarify requirements (throughput, material, product specs, safety/ATEX zones, regulatory environment), identify capable factories in Henan and other provinces by product type and export history, run or commission a factory audit covering quality systems, capacity, engineering and calibration, then coordinate sampling and factory acceptance testing (FAT) on representative material. We oversee production, pre-shipment inspection and documentation checks, and plan logistics via Zhengzhou\'s rail/air corridors or coastal ports — typically 8–16 weeks depending on the machine and freight mode.',
       },
     ],
   },
