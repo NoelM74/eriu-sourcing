@@ -753,4 +753,64 @@ export const sourcingPages = [
       },
     ],
   },
+
+  {
+    slug: 'logistics-warehouse-equipment-from-china-ireland',
+    title: 'Logistics & Warehouse Equipment from China to EU | Ériu',
+    description: 'Source warehouse racking, conveyors, sortation and dock equipment from China — export-grade, documented, routed via Zhengzhou\'s rail-air logistics hub.',
+    h1: 'Logistics & warehouse equipment from China for European 3PLs and e-commerce operations',
+    eyebrow: 'Logistics & Warehouse Equipment',
+    categoryAnchor: 'logistics-equipment',
+    intro: 'Modern logistics runs on engineered hardware — pallet racking, conveyors, sortation and dock equipment — not just cheap floor space. China is now a major global manufacturer and exporter of warehouse racking, storage systems and conveyor/sortation lines, with deep industrial clusters and integrated steel, motor and controls supply chains. From Zhengzhou, one of China\'s national rail-air logistics hubs, Ériu Sourcing connects European 3PLs, e-commerce warehouses and industrial operators directly to proven equipment manufacturers — wrapping sourcing, QC and logistics into one service.',
+    hub: 'Zhengzhou (national rail-air logistics hub) + coastal equipment clusters',
+    hubDetail: 'Zhengzhou is a genuine logistics node, not a label. It is one of China\'s top-ten departure points for China–Europe Railway Express (CR Express) trains, and the national CR Express assembly centre for central and eastern China opened there in 2025; the city\'s Xinzheng airport passed one million tonnes of annual cargo in 2025 (about 825,000 tonnes in 2024). Global developers including Prologis operate large multi-storey distribution centres in the Zhengzhou Airport Economy Zone. Rail reaches European terminals such as Małaszewicze in Poland in roughly 11–13 days — a premium over the 30–40 days of sea freight, but a fraction of the cost of air. Most racking and conveyor manufacturing sits in the coastal clusters (Jiangsu, Shanghai, Guangdong); operating from Zhengzhou lets us combine factory-side presence with efficient multimodal export routing.',
+    keyProducts: [
+      'Warehouse racking — selective pallet, drive-in/through, double-deep, cantilever, shuttle, mezzanine floors',
+      'Conveyor systems — gravity & powered roller, belt, incline/decline, merges and diverts',
+      'Sortation — narrow-belt, cross-belt, sliding-shoe and tilt-tray sorters; DWS (dimension-weight-scan)',
+      'Parcel & carton handling — singulators, carton erectors, sealers, auto-baggers, packing lines',
+      'Dock & loading equipment — dock levellers, shelters, mobile ramps, vehicle restraints',
+      'Safety hardware — rack guards, column protectors, barriers and guard rails',
+    ],
+    savings: '15–25%',
+    savingsNote: 'indicative equipment saving vs European/NA-built systems (varies by category and steel price)',
+    ceNote: 'Racking is supported by load charts, test reports and engineering documentation; conveyors and moving machinery are scoped around CE marking under the Machinery Directive, with manuals, electrical schematics and safety documentation. All of it is verified at the factory before shipment. You remain responsible for installation to national regulations and for final sign-off; we make sure the equipment base and paperwork are strong enough to support it.',
+    minOrder: 'Per project — from a single racking + conveyor kit to multi-site frameworks',
+    minOrderShort: 'Per project',
+    leadTime: '6–14 wks',
+    image: '/images/china-warehouse-racking-factory-export.webp',
+    imageAlt: 'Chinese factory manufacturing export-grade warehouse racking — robotic welding, powder-coating and palletised racking components under ISO quality control',
+    contentBody: `
+      <p>These are categories where Chinese manufacturers already build export-grade products and, increasingly, turnkey systems for logistics and e-commerce. The opportunity for European operators is to buy the racking, the conveyor line, or the sorter at the factory gate, with someone on the ground verifying fabrication, controls and documentation before it ships — and routing it efficiently to your site.</p>
+      <h3>Why source warehouse equipment from China</h3>
+      <p>The pull is structural. China\'s integrated steel, motor and controls supply chains mean racking and conveyor equipment is typically built at lower cost than European or North American equivalents — the figure most commonly cited is in the region of 15–25% on the equipment itself, though it varies by category, configuration and the prevailing steel price. The conveyor and sortation ecosystem is mature, spanning simple gravity lines to complete cross-belt and DWS sorter systems with integrated controls. We treat those advantages as real but not automatic: they only hold once quality and compliance are managed, which is the job we do on the ground.</p>
+      <h3>What the equipment actually costs</h3>
+      <p>Pricing is highly configuration-dependent, so we treat any headline figure as indicative until a factory quotes against your real specification. As a directional guide: simple modular conveyor is commonly quoted from the low hundreds of dollars per metre; parcel sorters run from a few thousand dollars for basic units to tens of thousands for high-capacity cross-belt systems; and complete custom automation lines — conveyor, sortation, DWS and controls integrated — run well into five or six figures. Racking is quoted per project (effectively per pallet position or per tonne of steel), driven by load class, steel grade and coating. The number that matters is the firm quote against your layout, which we obtain and compare for you.</p>
+      <h3>Why Zhengzhou and central China matter</h3>
+      <p>Zhengzhou\'s value here is the export routing. It is one of China\'s top-ten CR Express departure points, with the national assembly centre for central and eastern China opened in 2025 and an airport that passed a million tonnes of cargo in 2025. Rail reaches European terminals in roughly 12–18 days against 30–40 by sea — faster than ocean freight, cheaper than air — which gives genuine flexibility when a project timeline is tight. Most of the equipment is made in the coastal clusters; our Zhengzhou base lets us combine factory-side presence with multimodal routing through a world-class hub.</p>
+      <blockquote><p>Send your next warehouse or depot project and we will outline one or two realistic equipment sourcing routes from China — supplier examples, an honest cost band against your layout, and a clear path to site via sea or rail.</p></blockquote>
+    `,
+    faq: [
+      {
+        q: 'What logistics and warehouse equipment can you source from China?',
+        a: 'Warehouse racking (selective pallet, drive-in/through, double-deep, cantilever, shuttle, and mezzanine floors), conveyor systems (gravity and powered roller, belt, incline/decline, merges and diverts), sortation (narrow-belt, cross-belt, sliding-shoe and tilt-tray sorters, plus DWS), parcel and carton handling (singulators, carton erectors, sealers, auto-baggers, packing lines), and dock/loading equipment (levellers, shelters, mobile ramps, vehicle restraints) with the associated safety hardware.',
+      },
+      {
+        q: 'How much can European operators actually save sourcing warehouse equipment from China?',
+        a: 'The equipment cost advantage versus European or North American-built systems is commonly cited in the region of 15–25%, but it genuinely varies by category, configuration and the steel price at the time, and it is partly offset by freight and your local installation. We give an honest cost band against your specific layout rather than a blanket percentage — and we compare on total cost of ownership (equipment, freight, installation, spares, support), because a cheap line you cannot get spares for is not cheap.',
+      },
+      {
+        q: 'Is Chinese warehouse equipment CE-compliant and properly documented for Europe?',
+        a: 'Reputable export-focused factories supply load charts, test reports and engineering documentation for racking, and CE marking under the Machinery Directive with manuals, electrical schematics and safety documentation for conveyors and moving machinery. We verify that documentation at the factory and against the exact configuration you are buying. You remain responsible for installation to national regulations and for final sign-off; our role is to make the equipment base and paperwork strong enough to support it.',
+      },
+      {
+        q: 'Why route through Zhengzhou when the equipment is made on the coast?',
+        a: 'Most racking and conveyor manufacturing is in the coastal clusters (Jiangsu, Shanghai, Guangdong), and we work with factories there directly. Zhengzhou adds the export routing: it is one of China\'s top-ten China–Europe Railway Express departure points, with a national CR Express assembly centre (opened 2025) and a million-tonne cargo airport. Rail reaches European terminals in roughly 12–18 days versus 30–40 by sea — faster than ocean freight and far cheaper than air — which helps when a project timeline is tight.',
+      },
+      {
+        q: 'How does a warehouse equipment sourcing project run end to end?',
+        a: 'We map requirements (throughput, SKU mix, storage density, MHE, automation level, budget), shortlist and vet racking and conveyor factories with export track records, coordinate layout and specification with your design team, obtain and compare firm quotes, run factory visits and pre-shipment QC (uprights, weld quality, conveyor testing, controls, packaging), and consolidate shipments via Zhengzhou\'s rail/air/road links — typically 6–14 weeks depending on configuration and freight mode.',
+      },
+    ],
+  },
 ];
