@@ -778,8 +778,8 @@ export const sourcingPages = [
     minOrder: 'Per project — from a single racking + conveyor kit to multi-site frameworks',
     minOrderShort: 'Per project',
     leadTime: '6–14 wks',
-    image: '/images/shenzhen-electronics-factory-automation.webp',
-    imageAlt: 'Automated production line in a Chinese factory — placeholder for warehouse racking and conveyor equipment manufacturing',
+    image: '/images/china-warehouse-racking-factory-export.webp',
+    imageAlt: 'Chinese factory manufacturing export-grade warehouse racking — robotic welding, powder-coating and palletised racking components under ISO quality control',
     contentBody: `
       <p>These are categories where Chinese manufacturers already build export-grade products and, increasingly, turnkey systems for logistics and e-commerce. The opportunity for European operators is to buy the racking, the conveyor line, or the sorter at the factory gate, with someone on the ground verifying fabrication, controls and documentation before it ships — and routing it efficiently to your site.</p>
       <h3>Why source warehouse equipment from China</h3>

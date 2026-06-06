@@ -2182,8 +2182,8 @@ export const blogPosts = [
 <p>This guide sets out how to source racking and conveyor systems from China safely and systematically, with an honest read on capabilities, pricing, and what to verify before you commit.</p>
 
 <figure class="article-figure">
-  <img src="/images/retail-wholesale-hero-warehouse.webp" alt="Warehouse interior with pallet racking and storage aisles — racking and conveyor systems for European operators" loading="lazy" width="1280" height="720">
-  <figcaption>Engineered racking and conveyor systems are the backbone of modern fulfilment — and an area where China is now a major global manufacturer.</figcaption>
+  <img src="/images/china-conveyor-parcel-sortation-system.webp" alt="Powered roller conveyor and parcel sortation line moving cartons through a logistics warehouse" loading="lazy" width="1280" height="720">
+  <figcaption>Powered roller conveyor and sortation — the moving backbone of a modern fulfilment operation, and a mature Chinese export category.</figcaption>
 </figure>
 
 <h2>Why look to China for warehouse equipment?</h2>
@@ -2199,8 +2199,8 @@ export const blogPosts = [
 <p>The two need different vetting. Racking is steel-intensive and structurally focused — the risks are load ratings, steel grade and weld quality. Conveyors are electro-mechanical with more complex controls — the risks are motors, sensors, controls integration and safety. A supplier strong in one is not automatically strong in the other.</p>
 
 <figure class="article-figure">
-  <img src="/images/shenzhen-electronics-factory-automation.webp" alt="Automated assembly line inside a Chinese equipment factory — electro-mechanical production relevant to conveyor and sorter systems" loading="lazy" width="1280" height="720">
-  <figcaption>Conveyors and sorters are electro-mechanical systems — vet motors, controls and safety integration, not just the steelwork.</figcaption>
+  <img src="/images/china-warehouse-racking-factory-export.webp" alt="Chinese warehouse-racking factory with robotic welding and palletised beams — steel-intensive fabrication" loading="lazy" width="1280" height="720">
+  <figcaption>Racking is steel-intensive — load ratings, steel grade and weld quality are what to verify; conveyors are electro-mechanical and need motors, controls and safety vetting. Few factories excel at both.</figcaption>
 </figure>
 
 <h2>How to choose racking suppliers in China</h2>
@@ -2216,6 +2216,11 @@ export const blogPosts = [
 <p>Pricing is highly configuration-dependent, and any single figure should be treated as indicative until a factory quotes against your real specification. As a directional guide: simple modular conveyor is commonly quoted from the low hundreds of dollars per metre; parcel sorters range from a few thousand dollars for basic units to tens of thousands for high-capacity cross-belt systems; and complete custom automation lines — conveyor, sortation, DWS and controls integrated — run well into five or six figures. Racking is quoted per project, effectively per pallet position or per tonne of steel, driven by load class, steel grade and coating.</p>
 
 <p>The equipment cost advantage versus European or North American systems is commonly cited in the region of 15–25%, but it varies with category, configuration and the steel price, and is partly offset by freight and local installation. The discipline that protects you is comparing total cost of ownership — equipment, freight, installation, power, maintenance and spares — rather than the headline number.</p>
+
+<figure class="article-figure">
+  <img src="/images/warehouse-layout-cost-comparison-europe-china.webp" alt="Side-by-side local-versus-China warehouse layout and cost comparison on a desk, with a Zhengzhou–Europe logistics route map" loading="lazy" width="1280" height="720">
+  <figcaption>Compare like for like on total cost of ownership — equipment, freight, installation, spares and support — not a headline price. Illustrative only; we quote against your real layout.</figcaption>
+</figure>
 
 <h2>Managing risk: quality, compliance and installation</h2>
 
@@ -2236,8 +2241,8 @@ export const blogPosts = [
 
 <p>Send us a brief on your next warehouse project and we will prepare a short sourcing-options memo — potential Chinese suppliers, solution concepts, and indicative cost ranges against your layout. Browse the <a href="/source/logistics-warehouse-equipment-from-china-ireland/">full logistics &amp; warehouse equipment category</a>, see our <a href="/source/warehouse-racking-conveyor-systems-from-china/">racking &amp; conveyor sourcing offer</a>, or <a href="/contact/">get in touch</a>.</p>`,
     excerpt: 'China is a major manufacturer of warehouse racking and conveyor/sortation systems, and going direct can improve hardware economics for European 3PLs and e-commerce operations. Here is how to do it safely — categories, supplier vetting, honest pricing, compliance, and multimodal logistics via Zhengzhou.',
-    image: '/images/retail-wholesale-hero-warehouse.webp',
-    imageAlt: 'Warehouse interior with pallet racking — sourcing racking and conveyor systems from China for European operations',
+    image: '/images/china-warehouse-racking-conveyors-hero.webp',
+    imageAlt: 'Modern e-commerce warehouse with tall pallet racking and powered roller conveyors, hi-vis workers at packing stations',
     sections: [
       'Why look to China for warehouse equipment',
       'Key categories: racking versus conveyors',
