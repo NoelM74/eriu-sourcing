@@ -687,4 +687,70 @@ export const sourcingPages = [
       },
     ],
   },
+
+  {
+    slug: 'building-materials-production-systems-from-china-ireland',
+    title: 'Building Materials & Production Systems China to EU | Ériu',
+    description: 'Source sandwich panels, precast wall-panel & slab lines, block machines and refractory from Henan — documented, export-grade, 25–45% below Western OEM.',
+    h1: 'Building materials & production systems from China for European developers and manufacturers',
+    eyebrow: 'Building Materials & Production Systems',
+    categoryAnchor: 'building-materials',
+    intro: 'Modular and offsite construction in Europe runs on high-performance materials and the machines that make them: sandwich panels, insulated boards, roofing and cladding systems, precast wall-panel and floor-slab lines, block and paver machines, and the refractory products that line kilns and furnaces. Cost pressure and tighter energy and fire standards are pushing developers and manufacturers towards proven Chinese factories — without giving up quality or documentation. From Zhengzhou, in the middle of Henan\'s panel, precast and refractory clusters, Ériu Sourcing connects European buyers directly to export-grade factories and bundles sourcing, QC, logistics and documentation into one service.',
+    hub: 'Zhengzhou + Henan (panel, precast & refractory clusters)',
+    hubDetail: 'Henan is one of China\'s densest clusters for export-grade building systems. Panel makers in the province turn out millions of square metres of PU/PIR and rockwool sandwich panel a year for Europe, North America, the Middle East and Australasia; precast-machinery firms build complete wall-panel and floor-slab lines; and the Xinmi refractory belt supplies high-alumina brick, castables and fibre to steel, glass, cement and ceramics plants worldwide. Ériu Sourcing is brand-independent — we shortlist against your brief rather than push one factory — but the cluster\'s depth (panel producers such as Haiji Zhitong, BRD New Materials and Tseason; precast-line builders such as Henan Kelai; refractory plants around Xinmi) is what lets us match capability, compliance and price. From Zhengzhou we visit lines in person, verify them, consolidate loads and route via rail or sea more efficiently than agents working only from the coast.',
+    keyProducts: [
+      'Sandwich panels & insulated boards — PU/PIR, EPS and rockwool for walls, roofs, cold rooms and facades',
+      'Roofing & cladding systems — colour-coated steel sheet, roof panels, flashings, light-steel framing',
+      'Precast wall-panel & floor-slab lines — wall-panel extruders, hollow-core slab machines, batching & handling',
+      'Brick, block & paver machines — semi- and fully-automatic plants for hollow/solid blocks, paving and kerbs',
+      'Refractory materials & kiln systems — high-alumina brick, castables, ceramic fibre and kiln furniture',
+      'Ancillary equipment — moulds, reinforcement handling, installation rigs and spare-parts packages',
+    ],
+    savings: '25–45%',
+    savingsNote: 'vs Western OEM lines and European panel production',
+    ceNote: 'Sandwich panels for the EU market are scoped around CE marking, fire classification (EN 13501) and declared thermal performance, with many export-focused Henan makers holding ISO 9001, ISO 14001 and CE/SGS documentation. Production machinery is checked for CE conformity under the Machinery Directive, with the technical file, electrical and guarding standards verified before shipment. All documentation is confirmed at the factory — not at the European port.',
+    minOrder: 'Sandwich panels by the container; block plants & precast lines from ~US$65,000',
+    minOrderShort: 'FCL / US$65k+',
+    leadTime: '8–16 wks',
+    image: '/images/henan-sandwich-panel-factory-export.webp',
+    imageAlt: 'Henan sandwich panel production line manufacturing PU and rockwool export panels in an ISO-certified factory',
+    contentBody: `
+      <p>These are categories where Chinese factories already export at scale to Europe and other developed markets, on established production lines with the certifications to match. The opportunity for European developers and manufacturers is to buy the panel — or the line that makes the panel — at the factory gate, with someone on the ground verifying the build and the paperwork before it ships.</p>
+      <h3>Why source these systems from Henan and central China</h3>
+      <p>Henan\'s building-systems makers are explicitly export-focused. Panel companies in the province produce millions of square metres of PU/PIR and rockwool sandwich panel annually for European and global markets; machinery firms specialise in complete precast wall-panel and floor-slab lines with lifecycle service; and the refractory plants around Xinmi supply high-alumina brick, castables and fibre worldwide. Working from Zhengzhou, Ériu Sourcing can visit factories, verify lines in person, consolidate loads and coordinate rail or sea routes more efficiently than agents operating remotely or only around the coastal ports.</p>
+      <h3>Typical cost and value ranges</h3>
+      <p>Costs vary widely by product and specification, but the pattern is consistent. <strong>Sandwich panels</strong> from export-oriented Henan suppliers routinely undercut European production for comparable specifications while holding ISO 9001, ISO 14001 and CE/SGS documentation. <strong>Precast wall-panel lines</strong> from established Chinese makers deliver full-plant solutions at significantly lower capex than Western OEM equivalents, with customisation and lifecycle support. <strong>Block and paver plants</strong> are a useful benchmark: published European pricing for complete semi- and fully-automatic sets runs roughly US$65,000–US$90,000, for plants producing thousands of blocks a day. Our value is in aligning factory capability and price with your compliance, capacity and budget — not just chasing the lowest quote.</p>
+      <h3>Refractory and kiln systems — a specialist line worth getting right</h3>
+      <p>Refractory is where a wrong specification gets expensive fast. High-alumina brick, castables, ceramic fibre and kiln furniture must be matched to the operating temperature, atmosphere and thermal cycling of your furnace or kiln. The Xinmi refractory belt serves steel, glass, cement and ceramics plants globally, and many producers hold their own export licences and standardised production. We verify grade, alumina content and test data at the factory against your furnace brief before anything loads.</p>
+      <figure style="margin:1.75rem 0">
+        <img src="/images/refractory-bricks-kiln-lining-china.webp" alt="High-alumina refractory bricks being installed to line an industrial kiln, with stacked refractory products in the workshop" width="1280" height="720" loading="lazy" style="width:100%;height:auto;display:block;border-radius:8px" />
+        <figcaption style="font-size:0.8125rem;color:#9ca3af;font-style:italic;padding-top:0.5rem;line-height:1.5">High-alumina brick and castables from the Xinmi refractory belt — grade and test data verified against your furnace or kiln brief before shipment.</figcaption>
+      </figure>
+      <h3>Start with one focused category</h3>
+      <p>Rather than trying to buy everything from China at once, we usually start with a single focused category — sandwich panels for a specific project or product line, one precast wall-panel machine or line, a block or brick machine for a new plant, or a defined set of refractory products for a furnace. From that first successful project, we extend into adjacent materials and equipment.</p>
+      <blockquote><p>Send your current or upcoming project — panels, a production line, or refractory — and we map one or two realistic options from Henan-based suppliers with indicative budgets, compliance notes, and a clear route to your site.</p></blockquote>
+    `,
+    faq: [
+      {
+        q: 'What building materials and production systems can you source from China?',
+        a: 'Sandwich panels and insulated boards (PU/PIR, EPS, rockwool), roofing and cladding systems, precast wall-panel and floor-slab production lines, brick/block/paver machines, and refractory materials and kiln systems (high-alumina brick, castables, ceramic fibre, kiln furniture). We also coordinate the ancillary equipment — moulds, reinforcement handling, installation rigs, and spare-parts packages — that a working line needs.',
+      },
+      {
+        q: 'How much can European buyers save versus Western OEM lines or European panel production?',
+        a: 'It depends on the product and specification, but factory-direct sourcing from Henan typically lands 25–45% below Western OEM production-line capex and below European panel production for comparable specifications — driven by manufacturing scale and integrated steel processing. Complete block plants are a useful benchmark: full European sets are published at roughly US$65,000–US$90,000, and Chinese equipment is competitive once it is correctly specified and supported. The right comparison is total cost of ownership — freight, installation, power, maintenance and spares — not the headline quote.',
+      },
+      {
+        q: 'Are Chinese sandwich panels CE-compliant and fire-rated for European projects?',
+        a: 'Reputable Henan panel makers export to Europe with CE marking, declared thermal performance, and fire classification to EN 13501, and many hold ISO 9001 and ISO 14001 quality systems plus CE/SGS documentation. Rockwool and other non-combustible cores are used where the fire class demands it. We verify the test data and certificates at the factory and against the exact panel build for your project; your engineers and local consultants confirm the detailing meets national codes.',
+      },
+      {
+        q: 'Can you source a complete precast or block-making production line, not just panels?',
+        a: 'Yes. We shortlist credible Henan equipment makers (the cluster includes specialised precast-line builders such as Henan Kelai) and match a complete or modular line to your brief — wall-panel extruders, hollow-core slab machines, beam/column equipment, batching and handling, and installation rigs — customised to your panel dimensions, reinforcement schemes and plant layout. CE conformity, the technical file, and electrical/guarding standards are verified before shipment, with an installation, commissioning and support plan agreed up front.',
+      },
+      {
+        q: 'How does sourcing building systems from Henan via Zhengzhou work end to end?',
+        a: 'We map requirements (standards, performance, capacity), shortlist and audit factories in Henan and adjacent clusters, run samples or trial-line components, oversee production and pre-shipment QC, and plan logistics by sea or rail with EU import coordination. You stay focused on design, installation, production and sales; we handle the China side — typically 8–16 weeks depending on whether it is panels by the container or a full production line.',
+      },
+    ],
+  },
 ];
