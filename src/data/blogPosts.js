@@ -1972,7 +1972,7 @@ export const blogPosts = [
   <li><strong>Luxury or highly customised designs (80+ m²)</strong> — often €80,000–€120,000, with high-end finishes, glass walls, and complex services.</li>
 </ul>
 
-<p>These figures usually cover the factory-built unit but not site-specific costs such as foundations, utility connections, and planning fees, and they are strongly influenced by transport distance to remote or rural areas. For glamping owners, the most relevant band is usually the 20–40 m² range, which maps well to high-yield cabins and pods.</p>
+<p>These figures usually cover the factory-built unit but not site-specific costs such as foundations, utility connections, and planning fees, and they are strongly influenced by transport distance to remote or rural areas. For glamping owners, the most relevant band is usually the 20–40 m² range, which maps well to high-yield cabins and pods. Sourced factory-direct from China, comparable pods and cabins typically come in well below these European figures — often 30–50% less on a landed basis — which is exactly the opening for glamping operators.</p>
 
 <h2>Do container homes always need planning permission?</h2>
 
