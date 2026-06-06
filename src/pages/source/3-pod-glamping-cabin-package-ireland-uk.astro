@@ -1,0 +1,423 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = "3-Pod Glamping Cabin Package — Ireland & UK | Ériu";
+const description = "A ready-to-assemble 3-pod glamping cabin cluster for Irish & UK campsites — export-grade cabins from China, QC'd in Zhengzhou, shipped to your site.";
+const canonical = "/source/3-pod-glamping-cabin-package-ireland-uk/";
+const ogImage = "/images/3-pod-glamping-offer.webp";
+const ogImageAlt = "Three premium glamping pods on a landscaped site — a turnkey 3-pod cluster ready for guest bookings";
+const siteUrl = 'https://eriusourcing.com';
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "What We Source", "item": `${siteUrl}/source/` },
+      { "@type": "ListItem", "position": 3, "name": "3-Pod Glamping Cabin Package", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "Service",
+    "name": "3-Pod Glamping Cabin Package — Ireland & UK",
+    "description": description,
+    "provider": { "@type": "ProfessionalService", "@id": `${siteUrl}/#organization` },
+    "areaServed": [
+      { "@type": "Country", "name": "Ireland" },
+      { "@type": "Country", "name": "United Kingdom" }
+    ],
+    "serviceType": "Glamping Cabin Sourcing Agent",
+    "dateModified": new Date().toISOString().split('T')[0]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What does the 3-Pod Glamping Cabin Package include?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Three fully fitted cabins or pods (approx. 18–25 m² each, for 2–4 guests) with a steel frame or structural insulated panels, timber or composite cladding, climate-appropriate insulation, double-glazed windows, and electric heating; an optional shared sanitary unit with separate male/female showers and WCs; design and specification coordination to your site; on-the-ground QC in China; and logistics coordination to Ireland or the UK. You are responsible for foundations, service connections, and on-site assembly, which we coordinate with your local contractor." }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does a 3-pod glamping package cost landed in Ireland or the UK?",
+        "acceptedAnswer": { "@type": "Answer", "text": "As an illustrative mid-spec scenario: ex-factory cabins at €20,000–€30,000 each, an optional sanitary unit at €20,000–€30,000, and €15,000–€25,000 for inland transport, export, sea freight, insurance, and EU/UK import. That gives an indicative factory-plus-logistics band of roughly €95,000–€145,000 before foundations and local groundworks, assuming a solid mid-level specification. We provide a full breakdown — factory, transport, our fee, contingency — before any commitment." }
+      },
+      {
+        "@type": "Question",
+        "name": "What revenue can three glamping cabins generate?",
+        "acceptedAnswer": { "@type": "Answer", "text": "At typical European glamping nightly rates of £60–£200 per cabin, a well-run 3-unit cluster can feasibly generate €50,000–€100,000+ gross revenue per year if occupancy, pricing, and marketing are handled well. In a high-demand tourism region, that can recover the capital outlay in roughly 2–4 seasons. Actual figures depend on location, design, season length, and how the site is marketed." }
+      },
+      {
+        "@type": "Question",
+        "name": "Do glamping cabins need planning permission in Ireland and the UK?",
+        "acceptedAnswer": { "@type": "Answer", "text": "In Ireland, the UK, and most European countries, cabins and container homes used for glamping require planning permission and must comply with building and energy standards, including nearly-zero-energy-building (NZEB) policies for insulation, windows, and heating. We work only with factories that can provide structural data and energy-performance information your local architect or engineer can embed in planning and building-control submissions. The application itself is your responsibility." }
+      },
+      {
+        "@type": "Question",
+        "name": "How is Ériu Sourcing paid on the 3-pod package?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Transparently: a project fee for design/spec coordination, supplier sourcing, on-site QC, and logistics management, plus a modest margin on factory pricing where we control negotiation and volume. You see the budget broken down — factory, transport, our fee, contingency — with payment milestones tied to production and shipping stages. We do not hide factories or arbitrarily mark up pricing; the value is in the expertise, QC, and risk removal." }
+      }
+    ]
+  }
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} ogImage={ogImage} ogImageAlt={ogImageAlt} jsonLd={pageSchemas}>
+
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="hero-bg">
+      <img
+        src="/images/3-pod-glamping-offer.webp"
+        alt="Three premium glamping pods on a landscaped site — a turnkey 3-pod cluster ready for guest bookings in Ireland or the UK"
+        width="1440"
+        height="810"
+        loading="eager"
+        fetchpriority="high"
+      />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content container">
+      <span class="hero-eyebrow">3-Pod Glamping Cabin Package — Ireland & UK</span>
+      <h1>Turn three empty pitches<br />into high-yield cabins.</h1>
+      <p class="hero-sub">A ready-to-assemble cluster of export-grade glamping cabins, QC'd on the ground in Zhengzhou and shipped to your site in Ireland or the UK — without spending a year wrestling with builders.</p>
+      <div class="hero-actions">
+        <a href="/contact/" class="btn btn--white">Request the 3-Pod spec & budget →</a>
+        <a href="#whatyouget" class="btn btn--white-outline">What's included</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item">
+          <span class="trust-num">3 cabins</span>
+          <span class="trust-label">+ optional shared sanitary unit</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">18–25 m²</span>
+          <span class="trust-label">Per cabin, for 2–4 guests</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">~€95k–€145k</span>
+          <span class="trust-label">Indicative landed cost band</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">12–20 wks</span>
+          <span class="trust-label">Production to delivery</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO THIS IS FOR -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="split-grid">
+        <div class="split-content">
+          <span class="section-eyebrow">Who this package is for</span>
+          <h2>Test glamping demand with three solid units</h2>
+          <p>If you own land and can attract guests at €80–€200 per night, three well-spec'd cabins can become a serious profit centre. The package is designed for:</p>
+          <ul class="tick-list">
+            <li>Campsites that want to test glamping demand before committing to a full park.</li>
+            <li>Farm stays and rural landowners who want year-round, weather-safe accommodation instead of tents.</li>
+            <li>Holiday parks and small hotels experimenting with "nature suites" on nearby land.</li>
+          </ul>
+          <a href="/source/glamping-pods-cabins-from-china-ireland/" class="inline-link">See the full glamping pods & cabins category →</a>
+        </div>
+        <div class="split-image">
+          <img
+            src="/images/glamping-container-pillar-hero.webp"
+            alt="Premium glamping pods and container cabins across a scenic countryside site with decks and a wood-fired hot tub"
+            width="640"
+            height="480"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT YOU GET -->
+  <section class="section" id="whatyouget">
+    <div class="container">
+      <div class="products-layout">
+        <div class="products-header">
+          <span class="section-eyebrow">What's included</span>
+          <h2>What you get in the 3-Pod Package</h2>
+          <p>A complete, ready-to-assemble cluster — coordinated end-to-end so you focus on guests, not factories.</p>
+        </div>
+        <ul class="products-list">
+          <li><span class="product-check">✓</span><span>Three fully fitted cabins/pods, approx. 18–25 m² each, for 2–4 guests</span></li>
+          <li><span class="product-check">✓</span><span>Steel frame or structural insulated panels with timber or composite cladding</span></li>
+          <li><span class="product-check">✓</span><span>Interior: bed area, seating, compact ensuite (shower/WC), kitchenette by design</span></li>
+          <li><span class="product-check">✓</span><span>Climate-matched insulation, double-glazed windows, electric heating options</span></li>
+          <li><span class="product-check">✓</span><span>Optional shared sanitary unit — separate male/female showers and WCs, mechanical ventilation</span></li>
+          <li><span class="product-check">✓</span><span>Design & specification coordination — layout, finishes and openings adapted to your site</span></li>
+          <li><span class="product-check">✓</span><span>On-the-ground QC in China — pre-shipment inspection of structure, fit-out and finish</span></li>
+          <li><span class="product-check">✓</span><span>Logistics to Ireland/UK — inland haul, sea/rail leg, customs assistance, delivery</span></li>
+        </ul>
+      </div>
+      <p class="cat-note">You are responsible for foundations, connection to services, and on-site assembly — but we coordinate closely with your local contractor throughout.</p>
+    </div>
+  </section>
+
+  <!-- COST & ROI -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="split-grid split-grid--reverse">
+        <div class="split-image">
+          <img
+            src="/images/prefab-container-cost-europe.webp"
+            alt="Black container glamping cabin on a European site being assessed for cost and planning by an architect"
+            width="640"
+            height="480"
+            loading="lazy"
+          />
+        </div>
+        <div class="split-content">
+          <span class="section-eyebrow">Cost & ROI example (illustrative)</span>
+          <h2>The numbers on a mid-spec 3-pod cluster</h2>
+          <p>Market guides put well-specified prefab container homes in Europe at €25,000–€40,000 for 20–30 m² units and €45,000–€75,000 for 40–70 m², depending on insulation, finishes, and energy systems. For a 3-pod package into Ireland or the UK, a realistic scenario:</p>
+          <ul class="tick-list">
+            <li><strong>Ex-factory per cabin:</strong> ~€20,000–€30,000 (mid-range, ensuite, properly insulated).</li>
+            <li><strong>Optional sanitary unit ex-factory:</strong> ~€20,000–€30,000 by size and fixtures.</li>
+            <li><strong>Inland logistics, export, sea freight, insurance, import:</strong> ~€15,000–€25,000 for the package.</li>
+          </ul>
+          <p>That gives an indicative factory-plus-logistics band of <strong>€95,000–€145,000</strong> before foundations and local work. At nightly rates of £60–£200 per cabin, a 3-unit cluster can feasibly generate <strong>€50,000–€100,000+</strong> gross revenue per year with good occupancy, pricing, and marketing. Our job is to help you hit the lower end of the cost band and build a site that commands the higher end of the rate band.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW WE GET PAID -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Transparent pricing</span>
+      <h2>How Ériu Sourcing gets paid on this package</h2>
+      <p>We price openly — a project fee for design/spec coordination, supplier sourcing, on-site QC, and logistics management, plus a modest margin on factory pricing where we control negotiation and volume.</p>
+      <p>You see the budget broken down — factory, transport, our fee, contingency — with payment milestones tied to production and shipping stages. We do not hide factories or arbitrarily mark up pricing. The value is in the expertise, the QC, and the risk we take off the table.</p>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section section--alt">
+    <div class="container">
+      <span class="section-eyebrow">From enquiry to first booking</span>
+      <h2>How the 3-Pod Package runs</h2>
+      <div class="process-steps">
+        <div class="process-step">
+          <span class="step-num">01</span>
+          <h3>Discovery call</h3>
+          <p>30–45 minutes on your land, existing business, target nightly rate (ADR), and occupancy.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">02</span>
+          <h3>Feasibility & budget</h3>
+          <p>1–2 design directions and a budget band based on current factory and freight pricing (1–2 weeks).</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">03</span>
+          <h3>Factory & drawings</h3>
+          <p>We shortlist 1–2 Henan/Zhengzhou factories with cabin export experience and work through drawings and spec (2–4 weeks).</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">04</span>
+          <h3>Contract & production</h3>
+          <p>You sign off design and payment schedule; the factory manufactures; we monitor and inspect (8–12 weeks).</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">05</span>
+          <h3>Shipping & delivery</h3>
+          <p>We coordinate loading, sea/rail transport, customs, and final delivery to your site (4–8 weeks).</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">06</span>
+          <h3>Assembly & launch</h3>
+          <p>Your local contractor assembles and connects services; we stay involved for snagging and future phases.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANNING & COMPLIANCE -->
+  <section class="section section--emerald">
+    <div class="container--narrow">
+      <span class="section-eyebrow section-eyebrow--light">Planning & compliance</span>
+      <h2>Build the factory side right for your planning submission</h2>
+      <p>In Ireland, the UK, and most European countries, cabins and container homes used for glamping require planning permission and must comply with building and energy standards. Energy performance is increasingly scrutinised under nearly-zero-energy-building (NZEB) policies, so insulation, windows, and heating must be specified correctly from day one.</p>
+      <p>We work only with factories able to provide structural data and performance information, which your local architect or engineer can embed in planning submissions and building-control documentation. You own the planning process; we make sure the factory side supports it.</p>
+      <a href="/source/glamping-pods-cabins-from-china-ireland/" class="btn btn--white-outline" style="margin-top:1rem">Read the full glamping sourcing picture →</a>
+    </div>
+  </section>
+
+  <!-- IS THIS RIGHT FOR YOU -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Is the 3-Pod Package right for you?</span>
+      <h2>A pragmatic starting point if you want to…</h2>
+      <ul class="tick-list tick-list--lg">
+        <li>Test glamping demand without taking on a 20-unit park.</li>
+        <li>Add weather-proof, high-yield stock to an existing campsite.</li>
+        <li>Start a new farm stay or rural retreat with a clear ROI model.</li>
+      </ul>
+      <p class="fit-note">Planning a larger build? The same process scales to a 6–8 unit mini-park or a 10–20 unit destination, delivered in phases.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Common questions</span>
+      <h2>3-Pod Glamping Cabin Package — questions answered</h2>
+      <p class="faq-updated">Last reviewed: June 2026</p>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>What does the 3-Pod Glamping Cabin Package include?</summary>
+          <p>Three fully fitted cabins or pods (approx. 18–25 m² each, for 2–4 guests) with a steel frame or structural insulated panels, timber or composite cladding, climate-appropriate insulation, double-glazed windows, and electric heating; an optional shared sanitary unit with separate male/female showers and WCs; design and specification coordination to your site; on-the-ground QC in China; and logistics coordination to Ireland or the UK. You are responsible for foundations, service connections, and on-site assembly, which we coordinate with your local contractor.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How much does a 3-pod glamping package cost landed in Ireland or the UK?</summary>
+          <p>As an illustrative mid-spec scenario: ex-factory cabins at €20,000–€30,000 each, an optional sanitary unit at €20,000–€30,000, and €15,000–€25,000 for inland transport, export, sea freight, insurance, and EU/UK import. That gives an indicative factory-plus-logistics band of roughly €95,000–€145,000 before foundations and local groundworks, assuming a solid mid-level specification. We provide a full breakdown — factory, transport, our fee, contingency — before any commitment.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What revenue can three glamping cabins generate?</summary>
+          <p>At typical European glamping nightly rates of £60–£200 per cabin, a well-run 3-unit cluster can feasibly generate €50,000–€100,000+ gross revenue per year if occupancy, pricing, and marketing are handled well. In a high-demand tourism region, that can recover the capital outlay in roughly 2–4 seasons. Actual figures depend on location, design, season length, and how the site is marketed.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Do glamping cabins need planning permission in Ireland and the UK?</summary>
+          <p>In Ireland, the UK, and most European countries, cabins and container homes used for glamping require planning permission and must comply with building and energy standards, including nearly-zero-energy-building (NZEB) policies for insulation, windows, and heating. We work only with factories that can provide structural data and energy-performance information your local architect or engineer can embed in planning and building-control submissions. The application itself is your responsibility.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How is Ériu Sourcing paid on the 3-pod package?</summary>
+          <p>Transparently: a project fee for design/spec coordination, supplier sourcing, on-site QC, and logistics management, plus a modest margin on factory pricing where we control negotiation and volume. You see the budget broken down — factory, transport, our fee, contingency — with payment milestones tied to production and shipping stages. We do not hide factories or arbitrarily mark up pricing; the value is in the expertise, QC, and risk removal.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--emerald">
+    <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">Ready to map your site?</span>
+      <h2>Request the full 3-Pod spec and budget ranges.</h2>
+      <p>Tell us about your land and target guest profile, and we'll send the 3-Pod Glamping Cabin Package spec with budget ranges for your site — no obligation.</p>
+      <a href="/contact/" class="btn btn--white-outline" style="margin-top:1rem">Request the 3-Pod Package details →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  /* HERO */
+  .page-hero {
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+  }
+  .hero-bg { position: absolute; inset: 0; }
+  .hero-bg img { width: 100%; height: 100%; object-fit: cover; object-position: center 40%; }
+  .hero-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(10,28,18,.9) 0%, rgba(10,28,18,.55) 50%, rgba(10,28,18,.2) 100%);
+  }
+  .hero-content { position: relative; z-index: 2; padding: 4rem 0 5rem; max-width: 900px; }
+  .hero-eyebrow {
+    font-size: .8125rem; font-weight: 700; color: rgba(255,255,255,.65);
+    text-transform: uppercase; letter-spacing: .1em; margin-bottom: 1.25rem; display: block;
+  }
+  .hero-content h1 {
+    color: #fff; font-size: clamp(2.25rem, 5vw, 4rem); line-height: 1.05;
+    margin-bottom: 1.5rem; letter-spacing: -.03em;
+  }
+  .hero-sub {
+    font-size: clamp(1rem, 1.5vw, 1.1875rem); color: rgba(255,255,255,.82);
+    line-height: 1.7; margin-bottom: 2rem; max-width: 640px;
+  }
+  .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+  /* TRUST BAR */
+  .trust-bar { background: #fff; border-bottom: 1px solid rgba(15,33,49,.08); padding: 2.5rem 0; }
+  .trust-grid { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
+  .trust-item { display: flex; flex-direction: column; gap: .25rem; flex: 1; min-width: 160px; }
+  .trust-num {
+    font-family: var(--font-body); font-size: clamp(1.25rem, 2.5vw, 1.875rem);
+    font-weight: 700; color: var(--color-emerald); line-height: 1; letter-spacing: -.03em;
+  }
+  .trust-label { font-size: .875rem; color: #5a5a5a; }
+  .trust-divider { width: 1px; height: 48px; background: rgba(15,33,49,.12); flex-shrink: 0; }
+
+  /* SPLITS */
+  .split-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+  .split-grid--reverse { direction: rtl; }
+  .split-grid--reverse > * { direction: ltr; }
+  .split-content h2 { margin-bottom: 1.25rem; }
+  .split-content p { color: #3a3a3a; margin-bottom: 1rem; }
+  .split-image img { width: 100%; height: 420px; object-fit: cover; border-radius: 12px; }
+  .inline-link { color: var(--color-emerald); font-weight: 600; font-size: .9375rem; text-decoration: none; }
+  .inline-link:hover { text-decoration: underline; }
+
+  /* TICK LISTS */
+  .tick-list { list-style: none; margin: 0 0 1.25rem; padding: 0; display: flex; flex-direction: column; gap: .625rem; }
+  .tick-list li { position: relative; padding-left: 1.5rem; color: #3a3a3a; line-height: 1.55; }
+  .tick-list li::before { content: '✓'; position: absolute; left: 0; color: var(--color-emerald); font-weight: 700; }
+  .tick-list--lg li { font-size: 1.0625rem; color: var(--color-navy); }
+  .fit-note { color: var(--color-slate); font-size: .9375rem; margin-top: 1rem; }
+
+  /* NOTE */
+  .cat-note { color: var(--color-slate); font-size: .9375rem; margin-top: 1.5rem; max-width: 70ch; }
+
+  /* PRODUCTS LAYOUT */
+  .products-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+  .products-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .875rem; }
+  .products-list li { display: flex; align-items: flex-start; gap: .75rem; font-size: 1rem; color: var(--color-navy); line-height: 1.5; }
+  .product-check { color: var(--color-emerald); font-weight: 700; flex-shrink: 0; margin-top: .1em; }
+  .products-header p { color: var(--color-slate); margin-top: 1rem; }
+
+  /* PROCESS STEPS */
+  .process-steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem 2.5rem; margin-top: 2.5rem; }
+  .process-step { padding: 1.5rem 1.25rem 0 0; border-top: 2px solid var(--color-emerald); }
+  .step-num {
+    display: block; font-family: var(--font-body); font-size: 2.5rem; font-weight: 700;
+    color: var(--color-teal); opacity: .35; line-height: 1; margin-bottom: .75rem; letter-spacing: -.04em;
+  }
+  .process-step h3 { font-size: 1rem; font-weight: 700; margin-bottom: .5rem; color: var(--color-navy); }
+  .process-step p { font-size: .9375rem; color: #4a4a4a; max-width: 100%; margin: 0; }
+
+  /* FAQ */
+  .faq-updated { font-size: .8125rem; color: #888; margin: .25rem 0 1.5rem; }
+  .faq-list { display: flex; flex-direction: column; gap: 0; margin-top: 1rem; }
+  .faq-item { border-bottom: 1px solid rgba(15,33,49,.1); padding: 0; }
+  .faq-item summary {
+    font-weight: 600; font-size: 1rem; color: var(--color-navy); cursor: pointer;
+    padding: 1.25rem 0; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+  }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after {
+    content: '+'; font-size: 1.25rem; font-weight: 300; color: var(--color-emerald);
+    flex-shrink: 0; transition: transform .2s ease;
+  }
+  .faq-item[open] summary::after { transform: rotate(45deg); }
+  .faq-item p { padding: 0 0 1.25rem; color: #4a4a4a; font-size: .9375rem; margin: 0; line-height: 1.65; }
+
+  @media (max-width: 900px) {
+    .split-grid, .split-grid--reverse { grid-template-columns: 1fr; gap: 2rem; direction: ltr; }
+    .split-image img { height: 280px; }
+    .products-layout { grid-template-columns: 1fr; gap: 2rem; }
+    .process-steps { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+    .process-step { padding: 1.25rem 0 0; }
+    .trust-divider { display: none; }
+  }
+  @media (max-width: 600px) {
+    .process-steps { grid-template-columns: 1fr; }
+    .hero-actions { flex-direction: column; }
+    .trust-grid { gap: 1rem; }
+  }
+</style>
