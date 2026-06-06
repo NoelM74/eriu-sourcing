@@ -1069,8 +1069,8 @@ export const blogPosts = [
   {
     slug: 'china-sourcing-agent-ireland-what-they-do',
     title: 'What Does a China Sourcing Agent Actually Do? (Ireland Edition)',
-    metaTitle: 'China Sourcing Agent Ireland: What They Do & What to Expect | Ériu Sourcing',
-    metaDescription: 'What does a China sourcing agent actually do for Irish businesses? This breaks down the process, the costs, and what separates a useful agent from a middleman with a nice website.',
+    metaTitle: 'What Does a China Sourcing Agent Do? | Ériu Sourcing',
+    metaDescription: 'What does a China sourcing agent actually do for Irish businesses — and what should it cost? The real process, the fees, and how to spot a middleman.',
     h1: 'What does a China sourcing agent actually do? (Ireland edition)',
     eyebrow: 'Industry Explainer',
     category: 'sourcing-guides',
@@ -1080,10 +1080,88 @@ export const blogPosts = [
     targetReader: 'Irish business owners considering using a sourcing agent for the first time and not sure what they get for the fee',
     estimatedWordCount: 1800,
     publishDate: '2026-06-03',
-    draft: true,
+    draft: false,
     excerpt: 'A sourcing agent is not a middleman who just forwards emails. Done right, they are your eyes on the factory floor — negotiating prices, verifying suppliers, inspecting goods, and managing freight before you ever see the product. Here is what you should actually expect.',
     image: '/images/sourcing-expert-factory-visit.webp',
     imageAlt: 'Sourcing agent visiting Chinese factory — what an agent actually does for Irish importers',
+    body: `<p>"Sourcing agent" is one of the most abused terms in international trade. It is claimed by genuine on-the-ground operators with offices, staff and factory relationships in China — and by people with a laptop, a Gmail address and an Alibaba account who simply forward your enquiry to a supplier and add a margin.</p>
+
+<p>The difference matters, because you are trusting this person with your deposit, your specification and your delivery date. This guide explains what a real China sourcing agent actually does for an Irish business, what it should cost, and how to tell the operators from the middlemen before you commit.</p>
+
+<h2>What a sourcing agent does (and does not do)</h2>
+
+<p>A sourcing agent is your representative on the ground in China. Their job is to do the things you cannot do from Ireland: stand in the factory, speak to the owner in Mandarin, inspect the goods before they ship, and manage the relationship through the awkward moments — a failed inspection, a delayed line, a price that needs renegotiating.</p>
+
+<p>What a sourcing agent does <em>not</em> do is act as a passive email relay. If your "agent" only ever sends you supplier quotes and never visits a factory, never produces an inspection report, and cannot tell you the difference between the manufacturer and the trading company you are talking to, you are paying a margin for nothing. A real agent reduces your risk; a middleman just inserts themselves into your supply chain.</p>
+
+<figure class="article-figure">
+  <img src="/images/noel-dongguan-factory-visit.webp" alt="Sourcing agent on a factory floor in Dongguan inspecting production and speaking with the factory team" loading="lazy" width="1280" height="720">
+  <figcaption>The core of the job: physically on the factory floor, not forwarding emails from a desk. This is what separates an agent from a middleman.</figcaption>
+</figure>
+
+<h2>Factory identification and vetting</h2>
+
+<p>Anyone can find a factory on Alibaba. The value is in finding the <em>right</em> one and confirming it is real before you pay. A good agent shortlists suppliers against your actual specification, then verifies each one: checking the business licence and business scope through China's SAMR public registry, confirming export history, running a live video tour of the production floor, and — for larger orders — arranging a physical audit. The output you should receive is a written recommendation, not just a list of names.</p>
+
+<p>This is where local presence is non-negotiable. The SAMR database is in Chinese. Factory owners discuss capacity and lead times candidly with someone who can visit, far less so over email with an overseas buyer. An agent who already knows a factory's reputation has done years of this work before your brief ever arrives.</p>
+
+<h2>Price negotiation — what is realistic</h2>
+
+<p>A sourcing agent will not magically halve your unit price. What they will do is make sure you are paying the factory's real price rather than a trading company's marked-up one, and that the quote is structured fairly — correct Incoterms, sensible MOQ, tooling costs separated out, and payment terms that protect you.</p>
+
+<p>Be wary of anyone promising dramatic savings through "special relationships." The honest version is this: going factory-direct typically removes the layers of margin added by trading companies and importers, and a good agent holds the line on specification so you are not quietly downgraded to cheaper materials to hit a headline price. The saving is real, but it comes from cutting out middlemen and enforcing quality — not from a secret discount.</p>
+
+<h2>Sampling management</h2>
+
+<p>You should never place a production order against a stock sample from a factory's existing range. A competent agent manages the sampling process properly: commissioning a sample made to your specification, evaluating it against a written checklist, and iterating until it is right. The sample stage also tells you something money cannot buy — how responsive and precise the factory is before they have most of your cash.</p>
+
+<h2>Pre-shipment quality control</h2>
+
+<p>This is the single most valuable thing a sourcing agent does, and the step amateur middlemen skip. Before the balance is paid and the goods are loaded, an inspector physically checks the production run against your specification — dimensions, materials, function, finish, packaging and quantity — and produces a report with photographs.</p>
+
+<figure class="article-figure">
+  <img src="/images/pre-shipment-qc-inspector-chinese-factory-product-check-ireland.webp" alt="Inspector conducting a pre-shipment quality control check on a production run at a Chinese factory, with checklist and product samples" loading="lazy" width="1280" height="720">
+  <figcaption>Pre-shipment inspection is the buyer's insurance policy. It happens after production but before the balance is paid and the container is sealed — the only point at which problems are still cheap to fix.</figcaption>
+</figure>
+
+<p>The timing is deliberate. Catching a defect while the goods are still on the factory floor means the factory fixes it because they want the final payment. Catching the same defect when the container arrives in Dublin means an expensive, often hopeless, dispute across 9,000 kilometres.</p>
+
+<h2>CE compliance verification</h2>
+
+<p>For most products entering the Irish and EU market — electronics, machinery, toys, PPE, construction products and more — CE marking is a legal requirement, and responsibility for compliance sits with the importer placing the goods on the market, not the Chinese factory. A genuine sourcing agent verifies that the required conformity documentation actually exists and stands up: the right directives, real test reports, and a Declaration of Conformity — not just a CE logo printed on the box.</p>
+
+<p>This protects you from the worst-case outcome: a container detained at the port, or worse, a product recall after a compliance failure. Verifying documents at the factory, against the exact configuration you are buying, is far cheaper than discovering the gap at customs.</p>
+
+<h2>Freight coordination</h2>
+
+<p>Once goods pass inspection, they have to get to Ireland. A sourcing agent coordinates the freight — consolidating shipments, arranging sea or rail, handling export documentation, and lining up the paperwork your customs broker needs at the Irish end. Done well, this removes a whole category of stress and avoids the demurrage and clearance delays that catch first-time importers.</p>
+
+<figure class="article-figure">
+  <img src="/images/the-fob-handover.webp" alt="Goods being handed over at the port for shipping under FOB terms, containers and freight documentation" loading="lazy" width="1280" height="720">
+  <figcaption>After inspection comes logistics — consolidation, the right Incoterms, and the export paperwork your Irish customs broker will need. An agent manages the handover so a clean inspection does not unravel at the port.</figcaption>
+</figure>
+
+<h2>How sourcing agents charge (commission vs fee)</h2>
+
+<p>There are two models, and the difference affects whose side your agent is really on.</p>
+
+<p><strong>Commission</strong> — typically 3–8% of order value. It is simple, but it carries a structural conflict of interest: the agent earns more when your order costs more, which is the opposite of what you want from someone meant to be driving your price down.</p>
+
+<p><strong>Fixed fee</strong> — a set charge per project or a retainer. This aligns the agent's incentive with yours: they are paid to find the best supplier and the best price, not the most expensive one. For most Irish buyers, a transparent fixed-fee structure is preferable. Whichever model you choose, the fee structure should be stated in writing up front. An agent who is evasive about how they make money is telling you something.</p>
+
+<h2>Red flags: how to spot a fake sourcing agent</h2>
+
+<p>A few signals separate a genuine operator from a middleman with a nice website:</p>
+
+<ul>
+  <li><strong>No verifiable physical presence in China.</strong> A real agent has an address, a team and the ability to be at a factory this week — not just an email account.</li>
+  <li><strong>They cannot or will not visit factories.</strong> If their answer to every question is to forward you an Alibaba link, they are not sourcing anything.</li>
+  <li><strong>No inspection capability.</strong> If they cannot produce a pre-shipment inspection report with photos, they are not managing your quality risk.</li>
+  <li><strong>Opaque fees.</strong> Hidden margins or refusal to explain the commission structure means you do not actually know what you are paying for.</li>
+  <li><strong>Pressure to commit fast.</strong> Legitimate agents let the verification process run its course. Urgency is a sales tactic, not a sourcing one.</li>
+</ul>
+
+<p>Used well, a sourcing agent is the cheapest insurance an importer can buy: someone whose job is to stand between your money and everything that can go wrong between a quote in Shenzhen and a pallet in your warehouse in Ireland. Ériu Sourcing operates from Zhengzhou and Shenzhen with 18 years of factory relationships — if you want to see what that looks like on a live brief, <a href="/how-it-works/">read how our process works</a> or <a href="/contact/">get in touch</a>.</p>`,
     sections: [
       'What a sourcing agent does (and does not do)',
       'Factory identification and vetting',
@@ -1110,8 +1188,8 @@ export const blogPosts = [
   {
     slug: 'canton-fair-guide-irish-buyers-2026',
     title: 'Canton Fair 2026: A Guide for Irish Buyers Attending for the First Time',
-    metaTitle: 'Canton Fair 2026: Guide for Irish and UK Buyers | Ériu Sourcing',
-    metaDescription: 'The Canton Fair is the world\'s largest sourcing event. Here is what Irish buyers need to know before attending — phases, product categories, how to prepare, and what to do after.',
+    metaTitle: 'Canton Fair 2026: Guide for Irish Buyers | Ériu',
+    metaDescription: 'Attending the Canton Fair 2026? What Irish buyers need to know — the three phases and dates, how to prepare, evaluate suppliers, and vet them afterwards.',
     h1: 'Canton Fair 2026: a guide for Irish buyers attending for the first time',
     eyebrow: 'Trade Events',
     category: 'trade-intel',
@@ -1120,11 +1198,68 @@ export const blogPosts = [
     intent: 'informational',
     targetReader: 'Irish business owners or buyers who are attending or considering attending the Canton Fair and want to prepare effectively',
     estimatedWordCount: 2000,
-    publishDate: '2026-06-17',
-    draft: true,
+    publishDate: '2026-06-06',
+    draft: false,
     excerpt: 'The Canton Fair happens twice a year and covers virtually every product category produced in China. For Irish buyers, it is both an extraordinary sourcing opportunity and an easy place to waste a week. Here is how to make it count.',
     image: '/images/hero-china-factory-floor.webp',
     imageAlt: 'Canton Fair Guangzhou — guide for Irish buyers sourcing from China',
+    body: `<p>The Canton Fair — formally the China Import and Export Fair — is the largest trade fair in the world. It runs twice a year in Guangzhou, fills a complex the size of a small town, and brings together tens of thousands of Chinese manufacturers across virtually every product category made in China.</p>
+
+<p>For an Irish buyer it is two things at once: an extraordinary sourcing opportunity, and a remarkably easy place to waste a week, wreck your feet, and come home with a stack of business cards and no verified suppliers. The difference is preparation. Here is how to make it count.</p>
+
+<h2>What the Canton Fair actually is</h2>
+
+<p>The Canton Fair has run in Guangzhou since 1957 and is held every spring and autumn. The Spring 2026 edition is the 139th. It takes place across the Canton Fair Complex (Pazhou) in three phases, each running roughly five days, because no single venue could hold every exhibitor at once. You attend the phase that matches what you buy — not the whole fair.</p>
+
+<p>It is genuinely vast: thousands of booths across multiple halls, with manufacturers showing physical product you can pick up, compare and discuss face to face. That tactile, in-person comparison is the entire point — it is the one thing Alibaba cannot give you.</p>
+
+<figure class="article-figure">
+  <img src="/images/shenzhen-electronics-market.webp" alt="Crowded Chinese sourcing hall with rows of supplier displays and buyers inspecting products" loading="lazy" width="1280" height="720">
+  <figcaption>The scale is the opportunity and the trap. Thousands of exhibitors, real product in hand — but without a tight brief, a week disappears fast.</figcaption>
+</figure>
+
+<h2>Three phases — and which categories each covers</h2>
+
+<p>The fair splits into three phases by category. For Spring 2026 (139th), the published dates are:</p>
+
+<ul>
+  <li><strong>Phase 1 — 15–19 April 2026:</strong> electronics and household electrical appliances, machinery, hardware and tools, vehicles and spare parts, and new energy. This is the industrial and capital-goods phase.</li>
+  <li><strong>Phase 2 — 23–27 April 2026:</strong> home products and furniture, gifts and decorations, houseware, and building materials. The home and interiors phase.</li>
+  <li><strong>Phase 3 — 1–5 May 2026:</strong> consumer goods, textiles and garments, personal care, medical and health supplies, toys, and food. The consumer and lifestyle phase.</li>
+</ul>
+
+<p>Identify your phase before anything else — flights, hotel and registration all hang off it. The autumn edition runs on a similar three-phase structure around October–November. Category groupings and exact dates are occasionally adjusted, so always confirm against the official site, <a href="https://www.cantonfair.org.cn/" rel="nofollow">cantonfair.org.cn</a>, before you book.</p>
+
+<h2>How to register as a buyer</h2>
+
+<p>Overseas buyers register through the official Canton Fair website in advance. You will need your passport details, a business email, and a buyer photo, and you will receive a buyer badge (collected on-site or printed). Register early — on-site registration queues are long and eat into your first morning. A visa for China is required for most Irish passport holders; check the current entry requirements well ahead, as policies change.</p>
+
+<h2>Preparing your brief before you fly</h2>
+
+<p>This is where the trip is won or lost. Before you leave Ireland, write a tight brief: the specific products you are sourcing, target specifications, the quantities and price points you are working to, and the questions you need answered (MOQ, CE compliance, lead time, customisation). Pre-map the halls for your phase from the online exhibitor list and flag priority booths. Bring plenty of business cards, a fast way to log leads (a simple spreadsheet or your phone), and comfortable shoes — you will walk kilometres a day.</p>
+
+<h2>How to evaluate suppliers on the floor</h2>
+
+<p>A booth at the Canton Fair is not proof of anything except that the company paid for a booth. Treat the floor as lead generation, not verification. Ask the questions that separate manufacturers from traders: Are you the factory or a trading company? Where is the factory, and can I visit? What is your MOQ and lead time? Do you hold CE/test documentation for this product? Photograph products and booth signage, staple the business card to your notes, and record your immediate impression while it is fresh. By day three every booth blurs together — your notes are the only thing that will survive the trip home.</p>
+
+<figure class="article-figure">
+  <img src="/images/sourcing-team-meeting-shenzhen.webp" alt="Buyer and sourcing team reviewing supplier options and notes at a meeting table in China" loading="lazy" width="1280" height="720">
+  <figcaption>The fair generates leads; the real work — verifying who is a manufacturer and who is a trader — happens in the conversations on the floor and the vetting afterwards.</figcaption>
+</figure>
+
+<h2>Taking samples from the fair: logistics and customs</h2>
+
+<p>You will accumulate samples and catalogues fast, and they are heavier than you expect. Decide early what you carry and what you ship. For anything bulky, arrange consolidated shipping rather than overloading your luggage. Keep in mind that samples still have to clear Irish customs — declare them honestly, keep the commercial paperwork, and be aware that some categories (food, cosmetics, electronics) carry their own import requirements even as samples.</p>
+
+<h2>After the fair: vetting the suppliers you met</h2>
+
+<p>The promising booths are leads, not partners. Back home, every serious candidate goes through proper verification before a deposit moves: confirm the business licence and business scope through China's SAMR registry, request and check CE/test documentation, run a live video factory tour, and order a specification sample. A good impression at a booth and a verified, production-ready factory are very different things — the gap between them is exactly where first-time importers lose money. Our <a href="/blog/how-to-vet-chinese-suppliers-factory-audit-verification-ireland/">supplier vetting guide</a> walks through the full framework.</p>
+
+<h2>Is the Canton Fair the best use of your time?</h2>
+
+<p>Honestly, it depends. The fair is superb for breadth — discovering categories, comparing many suppliers quickly, and getting hands on physical product. It is less efficient if you already know exactly what you want and from where, in which case a targeted set of factory visits, or a China-based agent doing the legwork, will get you there faster and cheaper than a week in Guangzhou.</p>
+
+<p>If you do go, go prepared. If you would rather skip the flights, the foot-ache and the post-fair vetting marathon, that is precisely the work a sourcing agent does on your behalf — Ériu Sourcing is on the ground in Zhengzhou and Shenzhen year-round. <a href="/contact/">Tell us what you are sourcing</a> and we will tell you honestly whether the fair is worth your week.</p>`,
     sections: [
       'What the Canton Fair actually is',
       'Three phases and which categories each covers',
@@ -1136,7 +1271,8 @@ export const blogPosts = [
       'Is the Canton Fair the best use of your time?',
     ],
     faq: [
-      { q: 'When is the Canton Fair 2026?', a: 'The Canton Fair (China Import and Export Fair) runs twice annually in Guangzhou. Phase 1 covers electronics, machinery, and building materials. Phase 2 covers consumer goods and gifts. Phase 3 covers textiles, apparel, and food products. Exact 2026 dates should be confirmed on the official Canton Fair website at cantonfair.org.cn.' },
+      { q: 'When is the Canton Fair 2026 and what are the phases?', a: 'The Canton Fair (China Import and Export Fair) runs twice a year in Guangzhou, in three phases. The Spring 2026 edition (the 139th) is scheduled for Phase 1 on 15–19 April (electronics, appliances, machinery, hardware and tools, vehicles, new energy), Phase 2 on 23–27 April (home products, furniture, gifts, decorations, building materials), and Phase 3 on 1–5 May (consumer goods, textiles, personal care, health, toys, food). The autumn edition follows a similar structure around October–November. Always confirm exact dates and category placement on the official site, cantonfair.org.cn, before booking.' },
+      { q: 'Is the Canton Fair worth it for a small Irish importer?', a: 'It depends on your goal. The fair is excellent for breadth — discovering product categories, comparing many manufacturers quickly, and handling physical samples in person. It is less efficient if you already know exactly what you want, where a focused set of factory visits or a China-based sourcing agent will get you there faster and cheaper. Either way, a booth is only a lead: every promising supplier still needs full verification — business licence, CE documentation, a video factory tour and a specification sample — before any deposit is paid.' },
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'alibaba-vs-factory-direct-irish-importers'],
     internalLinks: [
@@ -1148,8 +1284,8 @@ export const blogPosts = [
   {
     slug: 'furniture-from-foshan-ireland-complete-guide',
     title: 'Sourcing Furniture from Foshan: A Complete Guide for Irish Buyers',
-    metaTitle: 'Sourcing Furniture from Foshan China to Ireland | Complete Guide | Ériu Sourcing',
-    metaDescription: 'Foshan is the world\'s furniture manufacturing capital. This guide covers how Irish buyers access Foshan factories directly, what to expect, and how the numbers work.',
+    metaTitle: 'Sourcing Furniture from Foshan to Ireland | Ériu',
+    metaDescription: 'Foshan is the world\'s largest furniture hub. How Irish buyers source Foshan factories direct — by district, with honest pricing, fire standards and lead times.',
     h1: 'Sourcing furniture from Foshan: a complete guide for Irish buyers',
     eyebrow: 'Category Deep Dive',
     category: 'category-guides',
@@ -1158,11 +1294,83 @@ export const blogPosts = [
     intent: 'commercial-investigation',
     targetReader: 'Irish interior designers, hospitality operators, retailers, and property developers looking to source furniture direct from China',
     estimatedWordCount: 2200,
-    publishDate: '2026-07-01',
-    draft: true,
-    excerpt: 'Foshan is 45 minutes from Shenzhen and produces an estimated 30% of all furniture exported globally. Here is how Irish buyers access Foshan factories directly, without the European importer markup.',
+    publishDate: '2026-06-06',
+    draft: false,
+    excerpt: 'Foshan produces an estimated 75% of China\'s furniture output and is the largest furniture trading hub in the world. Here is how Irish buyers access Foshan factories directly — by district, with honest pricing and fire-compliance — without the European importer markup.',
     image: '/images/foshan-furniture-factory.webp',
     imageAlt: 'Foshan furniture factory — sourcing direct for Irish buyers',
+    body: `<p>If you have bought furniture for a hotel, a restaurant, a retail range or a property development in Ireland, there is a strong chance it was made in Foshan — whether or not anyone told you. Foshan, in Guangdong Province, is the largest furniture manufacturing cluster on earth, and a great deal of what European importers and retailers sell originates there before the markups are added.</p>
+
+<p>This guide explains why Foshan dominates, how its districts are organised, what factory-gate buying actually looks like, and how an Irish buyer accesses those factories directly — without the European importer's margin stacked on top.</p>
+
+<h2>Why Foshan dominates global furniture production</h2>
+
+<p>The scale is genuinely hard to overstate. Foshan produces an estimated 75% of China's furniture output, and the city's furniture manufacturing is valued at roughly US$70 billion a year (its wider home-furnishings industry, including materials and fittings, is larger still). It is the largest furniture manufacturing base in China and the largest furniture trading hub in the world.</p>
+
+<p>That dominance comes from clustering. Decades of specialisation have concentrated factories, component suppliers, raw materials, hardware, finishing and logistics into one dense ecosystem, so a factory can source foam, frames, fabric, mechanisms and packaging within a short drive. That density is what makes the pricing and the variety possible — and it is why "Foshan" is effectively shorthand for the global furniture supply chain.</p>
+
+<p>For context on access: Ériu Sourcing operates from Shenzhen, about 45 minutes from Foshan by high-speed rail, with Foshan itself sitting immediately alongside Guangzhou in the Greater Bay Area.</p>
+
+<h2>Furniture categories by district: Lecong, Longjiang and Shunde</h2>
+
+<p>Foshan's furniture industry is concentrated in <strong>Shunde District</strong>, and within Shunde the trade is split along a classic "front shop, back factory" model between two towns.</p>
+
+<p><strong>Lecong</strong> is the shop window — home to what is widely described as the world's largest furniture wholesale market, a corridor of showroom malls stretching over ten kilometres with millions of square metres of display space. It is where you see finished product across every conceivable style, from European classical to contemporary, residential to contract.</p>
+
+<p><strong>Longjiang</strong>, a few kilometres away, is the factory floor — a manufacturing base of thousands of furniture factories and the component suppliers that feed them. Lecong sells; Longjiang makes. Understanding this split matters, because a glossy showroom in Lecong is not necessarily the manufacturer — it may be a trading company displaying other factories' products, which is fine as long as you know it and price accordingly.</p>
+
+<figure class="article-figure">
+  <img src="/images/lecong-foshan-sofa-sets-production-wholesale-hall.webp" alt="Sofa sets displayed across a large Foshan furniture wholesale hall in Lecong, Shunde District" loading="lazy" width="1280" height="720">
+  <figcaption>Lecong's wholesale halls are the world's largest furniture showroom — the "front shop" to Longjiang's "back factory". Knowing which one you are standing in decides whether you are talking to a maker or a middleman.</figcaption>
+</figure>
+
+<h2>What factory-gate pricing actually looks like</h2>
+
+<p>The reason to source from Foshan directly is margin. A piece of furniture that reaches an Irish showroom has usually passed through several hands — the factory, an exporter or trading company, a European importer or distributor, and finally the retailer — each adding their cut. Buying closer to the factory removes layers of that stack.</p>
+
+<p>Pricing itself is highly configuration-dependent: the same sofa changes price dramatically with the frame, the foam density, the fabric or leather grade, and the mechanism. So treat any headline number as indicative until a factory quotes against your exact specification. The honest framing is not "Chinese furniture is X% cheaper" — it is that you are paying the factory's real price for a defined specification, instead of paying for everyone in the chain plus their assumptions about what you can afford. We quote against your actual brief and compare on landed cost, not the ex-works sticker.</p>
+
+<figure class="article-figure">
+  <img src="/images/the-irish-importers-landed-cost-calculation.webp" alt="Irish importer calculating the true landed cost of furniture from China including freight, duty and VAT" loading="lazy" width="1280" height="720">
+  <figcaption>The ex-works price is not your cost. Freight, duty, VAT and inland delivery all land on top — so the only number that matters is total landed cost against a fixed specification.</figcaption>
+</figure>
+
+<h2>Custom vs stock: what Foshan factories can do</h2>
+
+<p>Foshan handles both stock and custom, but the commercial reality differs. Buying from a factory's existing range (effectively OEM stock) is fastest and cheapest, with low or no tooling cost — ideal for retailers and fit-outs that can work within an existing catalogue. Custom work — your dimensions, your fabrics, your finish, your branding — is very achievable given the depth of the cluster, but it carries minimum order quantities, sampling time and sometimes tooling costs, and the economics only work above a certain volume.</p>
+
+<p>For hospitality and contract buyers in particular, the ability to specify exactly — fabric grades, fire compliance, dimensions to suit a room — is the real prize, provided the order is large enough to justify a custom run.</p>
+
+<figure class="article-figure">
+  <img src="/images/foshan-hotel-bedroom-furniture-set-fitted-room.webp" alt="Fitted hotel bedroom furniture set manufactured in Foshan — bed, case goods and seating in a finished room" loading="lazy" width="1280" height="720">
+  <figcaption>Contract and hospitality furniture is where custom Foshan production earns its keep — specifying fabric grade, fire compliance and exact dimensions to a room, at volumes that justify a bespoke run.</figcaption>
+</figure>
+
+<h2>Fire resistance and furniture safety standards</h2>
+
+<p>This is the compliance area Irish and UK furniture buyers most often underestimate, and it differs by market. There is no single EU-wide furniture flammability standard, so requirements depend on where the furniture is used and sold:</p>
+
+<ul>
+  <li><strong>UK market:</strong> if you sell into the UK, upholstered furniture must meet the Furniture and Furnishings (Fire) (Safety) Regulations 1988 — among the strictest domestic furniture fire rules anywhere. This is a hard legal requirement, not a nice-to-have.</li>
+  <li><strong>Ireland / EU domestic:</strong> furniture falls under general product safety obligations rather than a single harmonised flammability standard, but contract specifications routinely call up the European upholstery ignition tests EN 1021-1 and EN 1021-2 (resistance to a smouldering cigarette and a match flame).</li>
+  <li><strong>Contract and hospitality:</strong> hotels, restaurants and public buildings typically require higher ignition resistance — for example BS 5852 / Crib 5 — specified by the project, the insurer or the fire strategy.</li>
+</ul>
+
+<p>The practical point: decide the fire standard your project requires <em>before</em> you order, write it into the specification, and verify the factory can supply test evidence for the exact materials used — not a generic certificate for a different fabric. Standards are periodically updated, so confirm the current requirement for your market and use case. This is exactly the kind of detail that is cheap to get right at the specification stage and ruinous to discover after a container has landed.</p>
+
+<h2>Lead times and shipping options to Ireland</h2>
+
+<p>For a custom furniture order, plan on sampling plus production running into a couple of months before goods are ready, then freight on top. Furniture is bulky and largely ships by sea: roughly 30–40 days port to port from South China to Northern Europe, plus inland legs at both ends. Furniture's volume-to-value ratio means freight is a meaningful slice of landed cost, so consolidation and sensible container loading matter — half-empty containers are money thrown away. Build realistic timelines back from your in-store or handover date and add contingency; furniture lead times slip more often than small-goods orders.</p>
+
+<h2>How to organise a Foshan buying trip</h2>
+
+<p>If you visit, structure it. Decide your categories and budget first, then split your time between Lecong (to see breadth and finished product) and the Longjiang factories you actually want to buy from. Book showroom and factory appointments in advance, bring a written specification and your fabric/finish references, and — critically — confirm at each stop whether you are talking to the manufacturer or a trader. Photograph everything against your notes; like the Canton Fair, the showrooms blur together by the second day. And remember a showroom visit is not verification: business licence, factory tour and a specification sample still come before any deposit.</p>
+
+<h2>Working with a sourcing agent vs going direct</h2>
+
+<p>Going direct yourself is entirely possible, and for a confident buyer with time, a clear spec and the appetite to manage Mandarin-language logistics, it can work well. The trade-offs are real, though: distinguishing factories from traders, enforcing fire and quality standards, managing sampling, arranging QC and consolidating freight are all work, and all easier with someone on the ground.</p>
+
+<p>A China-based sourcing agent does that legwork for you — shortlisting and verifying Foshan factories, holding the specification (including fire compliance) through sampling and production, inspecting before shipment, and consolidating the freight to Ireland. Ériu Sourcing has worked with Guangdong factories for 18 years from our base in Shenzhen. If you have a furniture brief — retail range, hospitality fit-out, or a development — <a href="/source/furniture-from-china-ireland/">see how we source furniture</a> or <a href="/contact/">send us the brief</a> and we will map a realistic, honestly-costed route from Foshan.</p>`,
     sections: [
       'Why Foshan dominates global furniture production',
       'Furniture categories by district (Lecong, Longjiang, Shunde)',
@@ -1173,7 +1381,11 @@ export const blogPosts = [
       'How to organise a Foshan buying trip',
       'Working with a sourcing agent vs going direct',
     ],
-    faq: [],
+    faq: [
+      { q: 'Where is Foshan and why is it important for furniture?', a: 'Foshan is a city in Guangdong Province in southern China, immediately alongside Guangzhou in the Greater Bay Area and about 45 minutes from Shenzhen by high-speed rail. It is the largest furniture manufacturing cluster in the world, producing an estimated 75% of China\'s furniture output, with the industry centred on Shunde District — Lecong (the world\'s largest furniture wholesale market) and Longjiang (the manufacturing base that feeds it).' },
+      { q: 'Can Foshan factories meet UK and Irish furniture fire safety standards?', a: 'Yes, but you must specify the standard and verify it. There is no single EU-wide furniture flammability standard. Furniture sold into the UK must meet the Furniture and Furnishings (Fire) (Safety) Regulations 1988; Irish and EU contract specifications routinely call up EN 1021-1 and EN 1021-2 upholstery ignition tests, and hospitality or public-building projects often require higher resistance such as BS 5852 / Crib 5. Decide the requirement before ordering, write it into the specification, and confirm the factory can provide test evidence for the exact materials used.' },
+      { q: 'Is it cheaper to buy furniture direct from Foshan?', a: 'The saving comes from removing margin layers — exporter, European importer, distributor and retailer — rather than from a secret discount, so you pay the factory\'s real price for a defined specification. Actual pricing is highly configuration-dependent (frame, foam density, fabric or leather grade, mechanism), and furniture\'s bulk means freight is a meaningful part of landed cost. The honest comparison is total landed cost against a fixed specification, not the ex-works sticker price.' },
+    ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland'],
     internalLinks: [
       { text: 'Furniture sourcing page', href: '/source/furniture-from-china-ireland/' },
@@ -1544,8 +1756,8 @@ export const blogPosts = [
   {
     slug: 'how-to-vet-chinese-suppliers-factory-audit-verification-ireland',
     title: 'How to Vet a Chinese Supplier: Factory Audit & Verification Guide (2026)',
-    metaTitle: 'How to Vet a Chinese Supplier: Factory Audit & Verification Guide (2026) | Ériu Sourcing',
-    metaDescription: 'How to verify a Chinese factory before placing your first order. Business licence checks, factory audits, the 5-layer verification framework, 7 red flags, and the tools Irish importers use to avoid sourcing scams.',
+    metaTitle: 'How to Vet a Chinese Supplier (2026) | Ériu Sourcing',
+    metaDescription: 'How to verify a Chinese factory before you order — business-licence checks, the 5-layer framework, 7 red flags, and the tools Irish importers use to avoid scams.',
     h1: 'How to Vet a Chinese Supplier: Factory Audits, Verification Checks & Red Flags (2026)',
     eyebrow: 'Supplier Due Diligence',
     category: 'sourcing-guides',
@@ -1554,8 +1766,8 @@ export const blogPosts = [
     intent: 'informational',
     targetReader: 'Irish business owners at the beginning of their sourcing journey who have found a factory on Alibaba or at a trade show but do not know how to verify it is reliable',
     estimatedWordCount: 2600,
-    publishDate: '2026-06-09',
-    draft: true,
+    publishDate: '2026-06-06',
+    draft: false,
     excerpt: 'You found a factory on Alibaba with good prices and fast replies. Now what? Before you wire a deposit, you need to know whether you are talking to a manufacturer, a trading company, or a scammer. Here is the five-layer framework Irish importers use to verify Chinese suppliers before placing an order.',
     image: '/images/irish-buyer-chinese-factory-manager-supplier-vetting-meeting.webp',
     imageAlt: 'Photorealistic medium-wide shot inside a modern Chinese factory sample showroom. A European buyer in his 40s in a light blue Oxford shirt and visitor lanyard holds a white product sample, pointing at a detail while speaking to a Chinese factory manager in his late 40s in a dark navy blazer.',
