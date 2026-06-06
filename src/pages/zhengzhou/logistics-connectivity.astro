@@ -39,6 +39,11 @@ const pageSchemas = [
         "@type": "Question",
         "name": "Can an inland city like Zhengzhou reach seaports efficiently?",
         "acceptedAnswer": { "@type": "Answer", "text": "Yes — via scheduled rail–sea intermodal services. Regular trains run from Zhengzhou to Tianjin Port on the Bohai Rim and from nearby Luoyang to Ningbo Port in the Yangtze River Delta, connecting inland manufacturers to deep-sea container shipping. Combined with a 2-hour high-speed-rail radius reaching hundreds of millions of people and dense expressway grids, Zhengzhou offers genuine multimodal reach from a single base." }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the Zhengzhou–Hungary 'Air Silk Road'?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Hungary is the fastest-growing European end of Zhengzhou's air Silk Road. Henan Airport Group (which operates CGO) and Budapest Airport have built dedicated 'Exclusive Overseas Terminals' at each other's airports, linked by wide-body freighters, and Cainiao — Alibaba's logistics arm — has designated Budapest its East-Central European hub. Institutionally, the Hungarian Export Promotion Agency (HEPA) and the Zhengzhou government jointly opened the China–Hungary (Zhengzhou) International Cooperation and Industrial Technology Application Demonstration Center in 2024. Together they make Zhengzhou–Budapest a primary gateway for Chinese cargo and e-commerce into Central and Eastern Europe." }
       }
     ]
   }
@@ -152,6 +157,21 @@ const modes = [
     </div>
   </section>
 
+  <!-- EUROPE GATEWAY: HUNGARY -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">The European end</span>
+      <h2>Where the Air Silk Road lands: Hungary</h2>
+      <p>Connectivity to Europe is not abstract. Beyond the well-known Zhengzhou–Luxembourg corridor, the fastest-growing European gateway is Hungary — and it is built as a genuine two-ended system. Henan Airport Group (which operates CGO) and Budapest Airport have established dedicated "Exclusive Overseas Terminals" at each other's airports, linked by wide-body freighters, turning Zhengzhou–Budapest into a primary lane for Chinese cargo and e-commerce into Central and Eastern Europe.</p>
+      <div class="gateway-callout">
+        <div class="gw-item"><span class="gw-label">Dual terminals</span><span class="gw-text">A Budapest terminal at Zhengzhou (CGO) and a Zhengzhou terminal at Budapest's Cargo City, linked by dedicated wide-body freighters.</span></div>
+        <div class="gw-item"><span class="gw-label">Cainiao CEE hub</span><span class="gw-text">Alibaba's logistics arm Cainiao has designated Budapest its East-Central European hub for e-commerce distribution.</span></div>
+        <div class="gw-item"><span class="gw-label">Institutional ties</span><span class="gw-text">HEPA (Hungary's export agency) and Zhengzhou jointly opened the China–Hungary (Zhengzhou) Demonstration Center in 2024 — Henan's first official international project of its kind.</span></div>
+      </div>
+      <p class="micro-note">For a European-facing operator that matters: Zhengzhou has a purpose-built, government-backed gateway into the EU's Central-European logistics core — not just a line on a route map.</p>
+    </div>
+  </section>
+
   <!-- FAQ -->
   <section class="section">
     <div class="container--narrow">
@@ -174,6 +194,10 @@ const modes = [
         <details class="faq-item">
           <summary>Can an inland city like Zhengzhou reach seaports efficiently?</summary>
           <p>Yes, via scheduled rail–sea intermodal services to Tianjin Port (Bohai Rim) and Ningbo Port (Yangtze Delta), connecting inland manufacturers to deep-sea shipping. Combined with a 2-hour HSR radius reaching hundreds of millions of people and dense expressway grids, Zhengzhou offers genuine multimodal reach from a single base.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What is the Zhengzhou–Hungary "Air Silk Road"?</summary>
+          <p>Hungary is the fastest-growing European end of Zhengzhou's air Silk Road. Henan Airport Group (operator of CGO) and Budapest Airport have built dedicated "Exclusive Overseas Terminals" at each other's airports, linked by wide-body freighters, and Cainiao — Alibaba's logistics arm — has designated Budapest its East-Central European hub. The Hungarian Export Promotion Agency (HEPA) and Zhengzhou also jointly opened the China–Hungary (Zhengzhou) Demonstration Center in 2024. Together they make Zhengzhou–Budapest a primary gateway for Chinese cargo and e-commerce into Central and Eastern Europe.</p>
         </details>
       </div>
       <p class="source-note">Sources: Zhengzhou Xinzheng airport (CGO) cargo data, 2024–2025; China–Europe Railway Express 2024 operating figures; Henan provincial / Air Silk Road reporting. Route counts and frequencies change over time — we confirm current schedules per shipment.</p>
@@ -213,6 +237,13 @@ const modes = [
   .micro-note { font-size: .875rem; color: #6b7280; font-style: italic; }
   .inline-link { color: var(--color-emerald); font-weight: 600; font-size: .9375rem; text-decoration: none; }
   .inline-link:hover { text-decoration: underline; }
+
+  /* HUNGARY GATEWAY CALLOUT */
+  .gateway-callout { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin: 1.5rem 0; }
+  .gw-item { padding: 1.25rem; background: var(--color-white); border: 1px solid rgba(15,33,49,.1); border-left: 3px solid var(--color-emerald); border-radius: var(--radius-md); display: flex; flex-direction: column; gap: .4rem; }
+  .gw-label { font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--color-emerald); }
+  .gw-text { font-size: .875rem; color: #4a4a4a; line-height: 1.55; }
+  @media (max-width: 760px) { .gateway-callout { grid-template-columns: 1fr; } }
 
   /* FAQ */
   .faq-updated { font-size: .8125rem; color: #888; margin: .25rem 0 1.5rem; }
