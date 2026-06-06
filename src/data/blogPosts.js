@@ -2122,7 +2122,7 @@ export const blogPosts = [
 <p>Good vetting is concrete. Check export history and markets — many Henan suppliers list exports to Europe and North America, which signals experience with higher standards. Review quality systems and certifications: ISO 9001/14001 and CE/SGS/GOST documentation for panel lines, test reports and conformity for machinery. Insist on factory visits or independent audits to see production lines, QC procedures, and storage first-hand. And demand clear technical documentation — panel datasheets, structural tables, machine manuals, and installation guides. The same credibility checks apply across the cluster, including refractory producers such as Henan Lite that emphasise a full industrial base, standardised production, and independent export licences.</p>
 
 <figure class="article-figure">
-  <img src="/images/sandwich-panel-machine-europe-china-comparison.webp" alt="Engineer comparing European and Chinese options for sandwich panels and wall-panel machinery with documentation and cost analysis" loading="lazy" width="1280" height="720">
+  <img src="/images/sandwich-panel-machine-europe-china-comparison.webp" alt="Europe-versus-China sourcing comparison for sandwich panels and wall-panel machinery — cost summaries, standards and a decision-factors checklist" loading="lazy" width="1280" height="720">
   <figcaption>The decision that matters: a like-for-like comparison of European versus Chinese options on configuration, throughput, support, and total cost — not headline price.</figcaption>
 </figure>
 
