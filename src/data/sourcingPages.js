@@ -813,4 +813,66 @@ export const sourcingPages = [
       },
     ],
   },
+  {
+    slug: 'construction-machinery-from-china-ireland',
+    title: 'Construction Machinery from China to EU | Ériu',
+    description: 'Source mini excavators, compact loaders and concrete equipment from China — CE marking, Stage V engines, hydraulics QC and logistics handled from Zhengzhou.',
+    h1: 'Construction machinery from China for European contractors and rental fleets',
+    eyebrow: 'Construction Machinery',
+    categoryAnchor: 'construction-machinery',
+    intro: 'China is now a central player in the global construction machinery market. Between January and August 2024 alone, Chinese OEMs sold roughly 131,550 excavators, with around half of those units exported — a scale that pulls compact and mid-sized machinery onto European radars. From Zhengzhou and the wider Henan industrial base, Ériu Sourcing helps European contractors and rental fleets access cost-effective machines while handling the parts that actually decide success: CE marking, Stage V emissions and hydraulic quality.',
+    hub: 'Zhengzhou + Henan concrete-machinery cluster + coastal OEM bases',
+    hubDetail: 'Henan is a long-standing base for concrete machinery, batching plants and aggregate-processing equipment — the Xingyang district near Zhengzhou is a recognised cluster, home to long-established makers such as Camelway (in business since 1983). Excavators and loaders are largely built in other clusters (Shandong, Anhui, Jiangsu), and we work with factories there directly. Operating from Zhengzhou lets us visit concrete-equipment factories on our doorstep, reach the machine OEMs efficiently, and route finished equipment through one of China\'s national rail-air logistics hubs: Zhengzhou is one of the top-ten China–Europe Railway Express departure points, with rail reaching European terminals in roughly 12–18 days against 30–40 by sea.',
+    keyProducts: [
+      'Mini & mid excavators — 1–3t micro/mini, 3–8t compact, up to ~20t mid for utility, landscaping and urban work',
+      'Compact loaders & skid steers — small wheel loaders and skid-steer loaders for sites, agriculture and snow clearing',
+      'Concrete equipment — mobile and drum mixers, mixer trucks, concrete pumps and batching plants from Henan makers',
+      'Compaction & site machinery — plate compactors, small rollers, site dumpers for roadworks and utilities',
+      'Batching & mixing plants — stationary and mobile plants for ready-mix and on-site concrete',
+    ],
+    savings: '20–40%',
+    savingsNote: 'indicative machine capex vs comparable Western-OEM equipment — varies by category, spec and volume, and must be weighed against parts, support and residual value',
+    ceNote: 'Machines for the EU must carry CE marking under the Machinery Directive (2006/42/EC) — risk assessment, technical file, EC Declaration of Conformity and the mark itself — and, where engines are involved, Stage V approval under Regulation (EU) 2016/1628 with type-approval documentation. We verify these at the factory rather than accept a CE sticker at face value, and avoid "grey" machines designed only for other jurisdictions. You remain responsible for placing the machine on the market and for in-service compliance; our job is to make sure the equipment and paperwork are genuinely there to support it.',
+    minOrder: 'Per project — from a single pilot machine to fleet frameworks',
+    minOrderShort: 'Per project / pilot',
+    leadTime: '8–16 wks',
+    image: '/images/china-mini-excavators-export-yard.webp',
+    imageAlt: 'Rows of compact Chinese mini excavators lined up in an export yard, tracked and canopy machines prepared for overseas shipment',
+    contentBody: `
+      <p>We deliberately focus on compact and mid-range equipment that travels well and has clear European use cases — the machines Chinese OEMs already export in volume, increasingly with cleaner engines and proper documentation. The opportunity for European buyers is a better capex profile on these categories, provided compliance, reliability and support are handled properly rather than assumed.</p>
+      <h3>Why Chinese machinery is on European radars</h3>
+      <p>The scale is hard to ignore. In August 2024, Chinese manufacturers sold about 14,647 excavators, of which 7,953 were exported — up nearly 7% year on year. Loaders showed even stronger export momentum: in July 2024, exports rose more than 30% year on year. At the same time, Europe's own market for mini and mid excavators (up to 20 tonnes) was worth around €/USD 2.09 billion in 2024 — more than 30% of the global mini-excavator market — and is forecast to grow at roughly 3.5% a year to 2031, with compact machines the fastest-growing segment globally. That combination leaves real room for carefully vetted alternative OEMs, as long as compliance and support stack up.</p>
+      <h3>What the equipment actually costs</h3>
+      <p>Pricing is configuration-dependent, so we treat headline figures as indicative until a factory quotes against your spec. As a directional example in the 3–5 tonne mini-excavator class: a well-known Western-OEM machine might land and be prepped at €65,000–€80,000, while a vetted Chinese machine with a Stage V engine and CE documentation might land in the €40,000–€55,000 band including freight and duties, depending on spec and volume. Where reliability, parts availability and residual values hold up, that gap turns into five-figure capex savings per machine — but the number that matters is the firm landed cost against your duty cycle, and the honest comparison is total cost of ownership, not the sticker.</p>
+      <h3>Compliance is the whole game: CE and Stage V</h3>
+      <p>Bringing machinery into Europe is not a "buy and ship" exercise. The Machinery Directive (2006/42/EC) requires a risk assessment, conformity with harmonised EN/ISO standards, a technical file, an EC Declaration of Conformity and the CE mark before a machine is placed on the market. Stage V (Regulation (EU) 2016/1628) sets stringent particulate and emission limits for engines in non-road mobile machinery across power bands from under 19 kW to over 560 kW. A machine sourced from China must either arrive with a Stage V engine and complete CE documentation, or go through rigorous engineering validation and certification. We work backwards from these requirements on every project.</p>
+      <h3>Why Henan and Zhengzhou matter</h3>
+      <p>Henan — and the Xingyang cluster near Zhengzhou in particular — is a long-standing home for concrete machinery, batching plants and aggregate equipment, with makers such as Camelway operating there since 1983. The excavators and loaders are built elsewhere, but our Zhengzhou base lets us visit the concrete-equipment factories directly, reach the machine OEMs efficiently, and route finished machines through a genuine rail-air logistics hub — faster than ocean freight when a project timeline is tight, far cheaper than air.</p>
+      <h3>The risk that catches importers out: hydraulics and structure</h3>
+      <p>Beyond paperwork, the difference between a good machine and a problem one is usually in the hydraulics and the steel — pump, valve and cylinder quality; hose and seal ratings; weld penetration and finish; reinforcement at the boom, arm and undercarriage. Some Chinese OEMs run strong QA and partner with recognised hydraulic suppliers; others cut corners. Telling them apart is exactly the on-the-ground work we do before you commit to a fleet.</p>
+      <blockquote><p>Share your current or planned machinery requirements and we will outline one or two realistic sourcing paths from Henan and neighbouring clusters — including the compliance route, an honest cost band and a sensible pilot plan.</p></blockquote>
+    `,
+    faq: [
+      {
+        q: 'What construction machinery can you source from China?',
+        a: 'We focus on compact and mid-range equipment with clear European use cases: mini and mid excavators (1–3t micro/mini, 3–8t compact, up to ~20t mid), compact wheel loaders and skid steers, concrete equipment (mobile and drum mixers, mixer trucks, concrete pumps and batching plants from Henan makers), and compaction/site machinery such as plate compactors, small rollers and site dumpers. These are categories where Chinese OEMs already have real export volume and engine/CE solutions exist.',
+      },
+      {
+        q: 'How much can European buyers save sourcing machinery from China?',
+        a: 'As a directional guide, a vetted Chinese machine in the 3–5 tonne class with a Stage V engine and CE documentation might land in the €40,000–€55,000 band against €65,000–€80,000 for a comparable Western-OEM machine — roughly a 20–40% capex gap, depending on spec and volume. But that only counts if reliability, parts availability and residual values hold up, so we compare on total cost of ownership and quote against your real duty cycle rather than promising a fixed percentage.',
+      },
+      {
+        q: 'Will the machines be CE-marked and Stage V compliant for the EU?',
+        a: 'They have to be. Any machine placed on the EU market needs CE marking under the Machinery Directive (2006/42/EC) — risk assessment, technical file, EC Declaration of Conformity and the mark — and, where an engine is involved, Stage V approval under Regulation (EU) 2016/1628 with type-approval documentation. We verify this at the factory against the exact configuration and avoid "grey" machines built only for other jurisdictions. Responsibility for placing the machine on the market stays with the importer; our role is to make sure the equipment and paperwork genuinely support it.',
+      },
+      {
+        q: 'How do you protect against poor hydraulics and weak structures?',
+        a: 'This is where machines are won or lost, so it is core to the work. We have a qualified eye review hydraulic schematics and component specs (pumps, valves, cylinders, hoses, seals) and check structural welds, steel grades and reinforcement at the boom, arm and undercarriage. We favour OEMs with documented QA and recognised hydraulic suppliers, and we run pilot units with independent inspection and field testing before any fleet order is placed.',
+      },
+      {
+        q: 'How does a machinery sourcing project run end to end?',
+        a: 'We define the use case and map regulatory scope (power band, Stage V applicability, CE category, safety functions), shortlist 2–3 OEMs with genuine export track record and compliant or configurable machines, compare specs, engine approvals, warranties and pricing like for like, arrange pilot units with third-party inspection and field testing, then structure fleet pricing, parts support and training before overseeing production, pre-shipment QC and logistics via Zhengzhou — typically 8–16 weeks per batch depending on configuration and freight mode.',
+      },
+    ],
+  },
 ];
