@@ -2055,6 +2055,113 @@ export const blogPosts = [
     ],
   },
 
+  {
+    slug: 'source-sandwich-panels-wall-panel-machines-from-china-europe',
+    title: 'How to Source Sandwich Panels and Wall-Panel Machines from China for European Projects',
+    metaTitle: 'Sandwich Panels & Wall-Panel Machines from China | Ériu',
+    metaDescription: 'A 2026 guide to sourcing sandwich panels and precast wall-panel machinery from China for Europe — specs, CE/fire standards, supplier vetting, and QC.',
+    h1: 'How to source sandwich panels and wall-panel machines from China for European projects',
+    eyebrow: 'Category Deep Dive',
+    category: 'category-guides',
+    primaryKeyword: 'source sandwich panels from China',
+    secondaryKeywords: ['wall-panel machine China', 'precast machinery China Europe', 'sandwich panel suppliers Henan', 'PIR rockwool panels China'],
+    intent: 'informational',
+    targetReader: 'European developers, modular/offsite builders, cold-store contractors and precast manufacturers sourcing sandwich panels or wall-panel production machinery from China',
+    estimatedWordCount: 2400,
+    publishDate: '2026-06-06',
+    draft: false,
+    body: `<p>Sandwich panels and precast wall-panel systems have become a backbone of modern industrial buildings, cold stores, and modular construction in Europe. A growing share of those panels — and of the machinery used to produce precast wall systems — comes from China, where manufacturers combine scale, specialised production lines, and real export experience.</p>
+
+<p>This guide walks through how to source both finished sandwich panels and wall-panel production machinery safely from China, using examples from Henan's panel and precast clusters — where Ériu Sourcing is based.</p>
+
+<h2>What are sandwich panels, and why do they matter?</h2>
+
+<p>Sandwich panels are composite building products: two steel (or similar) facings bonded to an insulating core of polyurethane (PU/PIR), EPS, or mineral wool. They earn their place on a project for three reasons — high thermal performance in a slim wall or roof, fast installation with interlocking profiles and long spans, and integrated fire and acoustic performance when a rockwool or comparable non-combustible core is used. Panel makers in Henan produce millions of square metres a year and export to Europe, North America, the Middle East, Africa, and Oceania.</p>
+
+<figure class="article-figure">
+  <img src="/images/henan-sandwich-panel-factory-export.webp" alt="Continuous sandwich panel production line in a Henan factory making PU and rockwool panels for export" loading="lazy" width="1280" height="720">
+  <figcaption>A Henan panel line running continuous PU and rockwool sandwich panel for export — the scale and integrated steel processing behind the price advantage.</figcaption>
+</figure>
+
+<h2>Chinese sandwich panel suppliers: capabilities and certifications</h2>
+
+<p>Export-focused Henan panel manufacturers — the cluster includes names such as Haiji Zhitong, BRD New Materials, and Tseason — typically offer multiple panel types (EPS, PU/PIR, rockwool, decorative insulated boards), steel-structure integration (frames, purlins, prefabricated buildings), and large automated lines capable of thousands of metres of panel a day. Many hold ISO 9001 and ISO 14001 quality systems, and in many cases CE, SGS, and GOST certifications for export markets.</p>
+
+<p>That makes them credible suppliers for industrial buildings, modular houses, cold stores, and cladding projects in Europe — provided the panels are matched to local standards and detailing. The certification on the company profile is the starting point, not the finish line: it has to map to the exact panel build you are buying.</p>
+
+<h2>Precast wall-panel machinery from Henan</h2>
+
+<p>Alongside the panels, Henan has produced specialised suppliers of precast wall-panel and floor-slab machinery — Henan Kelai is one example — offering concrete wall-panel extruders for hollow or solid panels, hollow-core slab machines for floors, precast beam/column and fence-wall equipment, and hydraulic installation and handling systems. These machines are built to support full precast lines and can be customised for panel dimensions, reinforcement configurations, and plant layouts, with lifecycle service positioned as part of the export proposition.</p>
+
+<figure class="article-figure">
+  <img src="/images/precast-wall-panel-production-line-china.webp" alt="Precast wall-panel and floor-slab production line in a Zhengzhou factory with casting beds and reinforcement work" loading="lazy" width="1280" height="720">
+  <figcaption>A precast wall-panel and floor-slab line in Zhengzhou — extruders, casting beds, and reinforcement, customised to the buyer's panel dimensions and codes.</figcaption>
+</figure>
+
+<h2>Cost considerations: panels versus machines</h2>
+
+<p>The two buying decisions behave differently. <strong>Finished sandwich panel</strong> pricing from Chinese exporters is generally below European production for comparable specifications — especially at volume — thanks to economies of scale and integrated steel processing. <strong>Machinery</strong> is a capital decision: complete European block plants are published at roughly US$65,000–US$90,000 for full semi- and fully-automatic sets, and Chinese precast and block equipment is competitive against that once it is correctly specified and supported.</p>
+
+<p>The discipline that protects you on both is comparing total cost of ownership — freight, installation, power, maintenance, and spare parts — rather than the headline panel or machine price alone. A cheap line that cannot get spares into Europe is not cheap.</p>
+
+<h2>Key standards and performance parameters</h2>
+
+<p>Sourcing from China for European use means holding the line on four things:</p>
+
+<ul>
+  <li><strong>Thermal performance (U-values)</strong> — panel thickness and core type must meet local energy codes for walls and roofs.</li>
+  <li><strong>Fire performance</strong> — rockwool or other non-combustible cores are required in many applications, and the European fire class (EN 13501) must be clearly documented.</li>
+  <li><strong>Structural capacity</strong> — panel spans and loads verified for wind, snow, and other local conditions.</li>
+  <li><strong>Machine compatibility</strong> — electrical systems, safety interlocks, and guarding meeting European machinery and workplace requirements.</li>
+</ul>
+
+<p>Reputable suppliers provide test data, certifications, and design assistance; your engineers and local consultants must review and adapt these to your country's regulations. Responsibility for conformity sits with the importer, not the factory.</p>
+
+<h2>How to vet Chinese suppliers for panels and machinery</h2>
+
+<p>Good vetting is concrete. Check export history and markets — many Henan suppliers list exports to Europe and North America, which signals experience with higher standards. Review quality systems and certifications: ISO 9001/14001 and CE/SGS/GOST documentation for panel lines, test reports and conformity for machinery. Insist on factory visits or independent audits to see production lines, QC procedures, and storage first-hand. And demand clear technical documentation — panel datasheets, structural tables, machine manuals, and installation guides. The same credibility checks apply across the cluster, including refractory producers such as Henan Lite that emphasise a full industrial base, standardised production, and independent export licences.</p>
+
+<figure class="article-figure">
+  <img src="/images/sandwich-panel-machine-europe-china-comparison.webp" alt="Europe-versus-China sourcing comparison for sandwich panels and wall-panel machinery — cost summaries, standards and a decision-factors checklist" loading="lazy" width="1280" height="720">
+  <figcaption>The decision that matters: a like-for-like comparison of European versus Chinese options on configuration, throughput, support, and total cost — not headline price.</figcaption>
+</figure>
+
+<h2>Where a Zhengzhou-based sourcing partner helps</h2>
+
+<p>A sourcing and QC partner based in Zhengzhou can identify and filter factories using local knowledge and industrial-park contacts rather than online listings alone; run technical and commercial comparisons tailored to your project; carry out on-site QC and consolidation — particularly important when combining panels, machines, and ancillary components in shared containers; and plan logistics by road, rail, and sea from central China to European ports. This is the role Ériu Sourcing plays: we sit inside the Henan clusters and act as your eyes, ears, and negotiator on the ground — brand-independent, shortlisting against your brief rather than pushing one factory.</p>
+
+<h2>Practical starting points</h2>
+
+<p>The simplest way in is small and specific. Start with a single project — specifying and importing panels for one warehouse or modular building — or a single machine or small line, such as a wall-panel extruder or a block machine for a new plant. From that first project you build confidence, refine your specifications, and expand into more comprehensive supply arrangements.</p>
+
+<p>Outline your upcoming panel or precast project and we will prepare a brief sourcing-options note from Henan — potential suppliers, panel or machine choices, and indicative cost bands. Browse the <a href="/source/building-materials-production-systems-from-china-ireland/">full building materials &amp; production systems category</a>, see our <a href="/source/precast-wall-panel-floor-slab-lines-from-china/">precast wall-panel &amp; floor-slab line sourcing</a>, or <a href="/contact/">get in touch</a>.</p>`,
+    excerpt: 'Sandwich panels and precast wall-panel machinery from China underpin a lot of European industrial building, cold stores, and modular construction. Here is how to source both safely — capabilities and certifications, cost, the standards that matter (U-values, fire class, structural, machine compatibility), supplier vetting, and QC.',
+    image: '/images/sandwich-panels-precast-pillar-hero.webp',
+    imageAlt: 'European construction site installing sandwich panels and precast wall elements with materials staged on site',
+    sections: [
+      'What are sandwich panels and why they matter',
+      'Chinese sandwich panel suppliers: capabilities and certifications',
+      'Precast wall-panel machinery from Henan',
+      'Cost considerations: panels versus machines',
+      'Key standards and performance parameters',
+      'How to vet Chinese suppliers for panels and machinery',
+      'Where a Zhengzhou-based sourcing partner helps',
+      'Practical starting points',
+    ],
+    faq: [
+      { q: 'Are Chinese sandwich panels suitable and CE-compliant for European projects?', a: 'Reputable Henan panel makers export to Europe with CE marking, declared U-values, and fire classification to EN 13501, and many hold ISO 9001 and ISO 14001 plus CE/SGS documentation. Non-combustible rockwool cores are used where the fire class requires it. The key is matching the certificates and test data to the exact panel build for your project, and having your engineers confirm thermal, fire, and structural performance against national codes — responsibility for conformity sits with the importer.' },
+      { q: 'How much cheaper are Chinese sandwich panels and precast machines than European supply?', a: 'Finished sandwich panels from Chinese exporters are generally below European production for comparable specifications, especially at volume, thanks to scale and integrated steel processing. On machinery, complete European block plants are published at roughly US$65,000–US$90,000 for full sets, and Chinese precast and block equipment is competitive against that. Compare on total cost of ownership — freight, installation, power, maintenance, and spares — rather than headline price.' },
+      { q: 'Can I import a single wall-panel machine, or do I need a full line?', a: 'Either. Many buyers start with a single machine — a wall-panel extruder or a block machine for a new plant — or panels for one project, then expand once specs and the supplier relationship are proven. Henan makers build both standalone machines and complete or modular precast lines, customised to your panel dimensions, reinforcement schemes, and plant layout, with CE conformity and the technical file verified before shipment.' },
+    ],
+    relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland', 'ce-marking-china-imports-ireland'],
+    internalLinks: [
+      { text: 'Building materials & production systems — what we source', href: '/source/building-materials-production-systems-from-china-ireland/' },
+      { text: 'Precast wall-panel & floor-slab line sourcing', href: '/source/precast-wall-panel-floor-slab-lines-from-china/' },
+      { text: 'Our China network', href: '/china-network/' },
+      { text: 'Get a sourcing quote', href: '/contact/' },
+    ],
+  },
+
 ];
 // Helper: get published posts only
 export const publishedPosts = blogPosts.filter(p => !p.draft);
