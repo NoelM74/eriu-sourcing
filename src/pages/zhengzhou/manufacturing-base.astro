@@ -1,0 +1,230 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import CtaSection from '../../components/CtaSection.astro';
+
+const title = "Who Manufactures in Zhengzhou | Henan | Ériu";
+const description = "Foxconn, BYD, Yutong and Zhengzhou Nissan already build in Zhengzhou — alongside deep electronics, NEV, machinery and building-materials clusters across Henan.";
+const canonical = "/zhengzhou/manufacturing-base/";
+const siteUrl = 'https://eriusourcing.com';
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Why Zhengzhou", "item": `${siteUrl}/zhengzhou/` },
+      { "@type": "ListItem", "position": 3, "name": "Manufacturing Base", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What major manufacturers are based in Zhengzhou?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Foxconn runs the world's largest iPhone assembly complex in the Zhengzhou Airport Economy Zone (150,000–200,000 workers at peak). BYD's Zhengzhou plant produced 545,000 new-energy vehicles in 2024 and is scaling toward over a million a year. Yutong — the world's largest bus and coach maker, at around 150,000 vehicles a year — is headquartered in Zhengzhou, and Zhengzhou Nissan (Dongfeng-controlled) has built pickups and SUVs there since 1993." }
+      },
+      {
+        "@type": "Question",
+        "name": "What does Henan actually export?",
+        "acceptedAnswer": { "@type": "Answer", "text": "A lot, and increasingly sophisticated. In 2023 Henan's foreign trade topped 810 billion yuan, ranking 9th among Chinese provinces and 1st in Central China for the 12th year running. Smartphones alone made up 45.6% of exports, and mechanical and electrical products 64.9% — so this is a high-volume, increasingly high-complexity manufacturing province, not a low-end inland backwater." }
+      },
+      {
+        "@type": "Question",
+        "name": "Which industrial clusters in Henan matter for sourcing?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Beyond electronics and new-energy vehicles, Henan has genuine cluster depth in areas we source every day: concrete and construction machinery (around Zhengzhou and Xingyang), CNC cutting and metal-forming equipment, complete grain and flour milling plants in central Henan, aluminium processing, refractories around Xinmi, and prefab housing and building-panel production. That breadth means an inbound company finds both supply-side partners and demand-side customers in one region." }
+      }
+    ]
+  }
+];
+
+const employers = [
+  { name: 'Foxconn', sector: 'Electronics', stat: 'World\'s largest iPhone assembly complex in the Airport Economy Zone; 150,000–200,000 workers at peak production.' },
+  { name: 'BYD', sector: 'New-energy vehicles', stat: '545,000 NEVs built at the Zhengzhou plant in 2024 (+169.8%), scaling toward 1M+/year; major battery investment alongside.' },
+  { name: 'Yutong', sector: 'Buses & coaches', stat: 'Headquartered in Zhengzhou — the world\'s largest bus and coach manufacturer, ~150,000 vehicles a year and the leader in electric buses.' },
+  { name: 'Zhengzhou Nissan', sector: 'Automotive', stat: 'Dongfeng-controlled JV, the first Nissan whole-vehicle JV in mainland China (1993); builds pickups and SUVs.' },
+];
+
+const clusters = [
+  { name: 'Electronics & high-tech', detail: 'Anchored by Foxconn; smartphones were 45.6% of Henan\'s 2023 exports. Cables, IT hardware and accessories alongside.' },
+  { name: 'New-energy vehicles & parts', detail: 'BYD plus a dedicated NEV industrial park focused on intelligent manufacturing and green low-carbon supply chains.' },
+  { name: 'Machinery & equipment', detail: 'Concrete and construction machinery (Zhengzhou/Xingyang), CNC cutting and metal-forming, mineral and process equipment.', href: '/source/industrial-workshop-equipment-from-china-ireland/' },
+  { name: 'Grain & food processing', detail: 'Central Henan builds complete wheat and maize milling plants, dryers and pulverisers — a long-standing export specialism.', href: '/source/industrial-workshop-equipment-from-china-ireland/' },
+  { name: 'Building materials & prefab', detail: 'Sandwich panels, precast wall-panel and floor-slab lines, aluminium profiles, refractories around Xinmi, and modular housing.', href: '/source/building-materials-production-systems-from-china-ireland/' },
+  { name: 'Logistics & e-commerce infrastructure', detail: 'Bonded zones, cross-border parks and 3PL players clustered around CGO and the International Land Port.', href: '/source/logistics-warehouse-equipment-from-china-ireland/' },
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} jsonLd={pageSchemas}>
+
+  <PageHero
+    breadcrumbs={[{ label: 'Why Zhengzhou', href: '/zhengzhou/' }, { label: 'Manufacturing Base' }]}
+    eyebrow="Manufacturing Base"
+    h1="You'd be in serious company."
+    lead="The fastest way to gauge an industrial base is to look at who already builds there. In Zhengzhou the answer is Foxconn, BYD, Yutong and Zhengzhou Nissan — and behind those names, deep clusters in electronics, new-energy vehicles, machinery, grain processing and building materials that an inbound company can plug straight into."
+    ctas={[{ href: '/contact/', label: 'Find your factory here →', variant: 'primary' }]}
+  />
+
+  <!-- ANCHOR EMPLOYERS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow">The anchor employers</span>
+        <h2>Some of the world's largest manufacturers chose Zhengzhou</h2>
+        <p class="section-intro">These are not token plants. They are among the highest-volume operations of their kind anywhere — which is exactly why the logistics, supplier base and skilled labour now exist for everyone else.</p>
+      </div>
+      <div class="emp-grid">
+        {employers.map(e => (
+          <div class="emp-card">
+            <div class="emp-top">
+              <span class="emp-name">{e.name}</span>
+              <span class="emp-sector">{e.sector}</span>
+            </div>
+            <p>{e.stat}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPORT SOPHISTICATION -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="split-row">
+        <div class="split-text">
+          <span class="section-eyebrow">Not a low-end backwater</span>
+          <h2>High volume — and increasingly high complexity</h2>
+          <p>Henan's export profile puts the "cheap inland" stereotype to rest. In 2023 the province's foreign trade topped <strong>810 billion yuan</strong>, ranking <strong>9th among Chinese provinces and 1st in Central China for the 12th consecutive year</strong>. Smartphones alone made up <strong>45.6% of exports</strong>, and mechanical and electrical products <strong>64.9%</strong>.</p>
+          <p>Look at the complexity of what Henan ships — metalworking and glass-working machines, specialised chemicals, advanced materials — and you see a province with a real knowledge base, not just assembly labour. For an inbound company that means capable partners up and down the supply chain.</p>
+        </div>
+        <div class="split-media">
+          <img
+            src="/images/zhengzhou-nev-ev-charger-industrial-park.webp"
+            alt="New-energy vehicle and component manufacturing in a Zhengzhou industrial park"
+            width="600" height="450" loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLUSTERS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow">Cluster depth</span>
+        <h2>The clusters you can plug into</h2>
+        <p class="section-intro">Beyond the headline employers, Henan has genuine depth in categories we source every day. Where a cluster maps to a category we already cover, it links through.</p>
+      </div>
+      <div class="cluster-grid">
+        {clusters.map(c => (
+          <div class="cluster-card">
+            <h3>{c.name}</h3>
+            <p>{c.detail}</p>
+            {c.href && <a href={c.href} class="inline-link">What we source here →</a>}
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ÉRIU FIT -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="split-row split-row--reverse">
+        <div class="split-media">
+          <img
+            src="/images/modular-homes-factory-zhengzhou-floor.webp"
+            alt="Production floor of a Zhengzhou factory — the kind of Henan supplier Ériu Sourcing audits and works with"
+            width="600" height="450" loading="lazy"
+          />
+        </div>
+        <div class="split-text">
+          <span class="section-eyebrow">Supply side and demand side</span>
+          <h2>Both your suppliers and your customers are here</h2>
+          <p>That is the quiet advantage of an established industrial base. For an inbound foreign company, Zhengzhou offers <strong>supply-side partners</strong> — factories, contract manufacturers, component makers — and <strong>demand-side customers</strong> — assemblers, OEMs and logistics players — in the same region.</p>
+          <p>We have spent 18 years building relationships across these exact clusters: the machinery makers in Xingyang, the grain-equipment builders in central Henan, the panel and prefab lines, the electronics and NEV supply chains. When you base here, you do not start cold — you start with a vetted network.</p>
+          <a href="/source/" class="inline-link">Browse what we source →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Common questions</span>
+      <h2>Henan's industrial base — questions answered</h2>
+      <p class="faq-updated">Last reviewed: June 2026</p>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>What major manufacturers are based in Zhengzhou?</summary>
+          <p>Foxconn runs the world's largest iPhone assembly complex in the Airport Economy Zone (150,000–200,000 workers at peak). BYD's Zhengzhou plant built 545,000 new-energy vehicles in 2024 and is scaling toward over a million a year. Yutong — the world's largest bus and coach maker (~150,000 vehicles/year) — is headquartered in Zhengzhou, and Zhengzhou Nissan (Dongfeng-controlled) has built pickups and SUVs there since 1993.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What does Henan actually export?</summary>
+          <p>A lot, and increasingly sophisticated. In 2023 Henan's foreign trade topped 810 billion yuan, ranking 9th among Chinese provinces and 1st in Central China for the 12th year running. Smartphones alone made up 45.6% of exports, and mechanical and electrical products 64.9% — a high-volume, increasingly high-complexity manufacturing province, not a low-end inland backwater.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Which industrial clusters in Henan matter for sourcing?</summary>
+          <p>Beyond electronics and NEVs, Henan has real depth in areas we source every day: concrete and construction machinery (Zhengzhou/Xingyang), CNC cutting and metal-forming equipment, complete grain and flour milling plants in central Henan, aluminium processing, refractories around Xinmi, and prefab housing and building-panel production. That breadth means an inbound company finds both supply-side partners and demand-side customers in one region.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <CtaSection
+    eyebrow="Plug into the base"
+    h2="Sourcing or building in Henan?"
+    body="Whether you want a Henan supplier, a contract manufacturer, or a foothold near these clusters, we already know the factories. Tell us the category and we'll map the real options."
+    ctas={[{ href: '/contact/', label: 'Map my options →', variant: 'white' }]}
+  />
+
+</BaseLayout>
+
+<style>
+  .section-head { max-width: 720px; margin-bottom: 2rem; }
+  .section-intro { color: var(--color-slate); margin-top: 1rem; }
+
+  /* EMPLOYER GRID */
+  .emp-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+  .emp-card { padding: 1.75rem; background: var(--color-white); border: 1px solid rgba(15,33,49,.1); border-radius: var(--radius-md); }
+  .emp-top { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: .75rem; flex-wrap: wrap; }
+  .emp-name { font-size: 1.25rem; font-weight: 700; color: var(--color-navy); }
+  .emp-sector { font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--color-emerald); }
+  .emp-card p { color: var(--color-slate); font-size: .9375rem; line-height: 1.6; margin: 0; max-width: none; }
+
+  /* CLUSTER GRID */
+  .cluster-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+  .cluster-card { padding: 1.5rem; background: var(--color-white); border: 1px solid rgba(15,33,49,.08); border-radius: var(--radius-md); }
+  .cluster-card h3 { font-size: 1.0625rem; margin-bottom: .625rem; color: var(--color-navy); }
+  .cluster-card p { font-size: .9375rem; color: var(--color-slate); line-height: 1.6; margin: 0 0 .75rem; max-width: none; }
+
+  /* SPLIT ROW */
+  .split-row { display: grid; grid-template-columns: 1.25fr 1fr; gap: 3.5rem; align-items: center; }
+  .split-row--reverse { grid-template-columns: 1fr 1.25fr; }
+  .split-text h2 { margin-bottom: 1rem; }
+  .split-text p { color: var(--color-slate); margin-bottom: 1rem; }
+  .split-text strong { color: var(--color-navy); }
+  .split-media img { width: 100%; height: auto; border-radius: var(--radius-lg); }
+  .inline-link { color: var(--color-emerald); font-weight: 600; font-size: .9375rem; text-decoration: none; }
+  .inline-link:hover { text-decoration: underline; }
+
+  /* FAQ */
+  .faq-updated { font-size: .8125rem; color: #888; margin: .25rem 0 1.5rem; }
+  .faq-list { display: flex; flex-direction: column; gap: 0; }
+  .faq-item { border-bottom: 1px solid rgba(15,33,49,.1); }
+  .faq-item summary { font-weight: 600; font-size: 1rem; color: var(--color-navy); cursor: pointer; padding: 1.25rem 0; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after { content: '+'; font-size: 1.25rem; font-weight: 300; color: var(--color-emerald); flex-shrink: 0; transition: transform .2s ease; }
+  .faq-item[open] summary::after { transform: rotate(45deg); }
+  .faq-item p { padding: 0 0 1.25rem; color: #4a4a4a; font-size: .9375rem; margin: 0; line-height: 1.65; max-width: none; }
+
+  @media (max-width: 900px) {
+    .emp-grid { grid-template-columns: 1fr; }
+    .cluster-grid { grid-template-columns: 1fr; }
+    .split-row, .split-row--reverse { grid-template-columns: 1fr; gap: 2rem; }
+    .split-media { order: -1; }
+  }
+</style>

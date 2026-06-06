@@ -1,0 +1,207 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import CtaSection from '../../components/CtaSection.astro';
+
+const title = "Zhengzhou vs Coastal China: The Real Cost Comparison | Ériu";
+const description = "Why central China costs less than the coast — wages, land and overhead in Henan vs Shanghai and Shenzhen — and the honest trade-offs of moving inland.";
+const canonical = "/zhengzhou/cost-vs-coastal-china/";
+const siteUrl = 'https://eriusourcing.com';
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Why Zhengzhou", "item": `${siteUrl}/zhengzhou/` },
+      { "@type": "ListItem", "position": 3, "name": "Cost vs Coastal China", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is manufacturing in Henan cheaper than coastal China?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Generally, yes, on total factor cost. Wages in coastal cities like Shanghai, Shenzhen and Guangzhou are typically 20–40% higher than in inland provinces such as Henan, and industrial land is dramatically cheaper inland — Shanghai industrial land has been reported around 1,975 RMB/m² (2021) against far lower inland levels. Land and labour are where central provinces win most clearly, which is why manufacturing has been migrating inland for years." }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is manufacturing moving from the coast to central China?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Rising wages, land prices and taxes on the coast have pushed cost-sensitive production inland. China's six central provinces — Anhui, Henan, Hubei, Jiangxi, Hunan and Shanxi — have actively courted that demand with lower land and labour costs, positioning inland China as an alternative to relocating offshore. Henan stands out because it pairs those lower costs with a Tier-1 air-cargo hub and a major China–Europe rail node, so you are not trading cost for isolation." }
+      },
+      {
+        "@type": "Question",
+        "name": "What do you give up by basing inland instead of on the coast?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Honestly, a few things. The coast still has unmatched supplier density in certain categories (consumer electronics around Shenzhen, furniture around Foshan), deeper pools of specialist engineering talent, and direct deep-sea port access. For some highly specialised supply chains those advantages outweigh the cost gap. The case for Zhengzhou is strongest for land- and labour-intensive operations, logistics-led businesses, and categories where Henan already has cluster depth — which is why the right answer is often a considered split, not a blanket choice." }
+      }
+    ]
+  }
+];
+
+const costRows = [
+  { factor: 'Labour', coastal: 'Higher — Shanghai/Shenzhen/Guangzhou wages typically 20–40% above inland', inland: 'Lower base wage; large, stable workforce', verdict: 'Inland' },
+  { factor: 'Industrial land', coastal: 'Premium — Shanghai industrial land ~1,975 RMB/m² (2021)', inland: 'Dramatically lower; land-use guarantees in key zones', verdict: 'Inland' },
+  { factor: 'Operating overhead', coastal: 'Higher rents, taxes and congestion costs', inland: 'Lower total factor cost for land/labour-intensive work', verdict: 'Inland' },
+  { factor: 'Supplier density (some categories)', coastal: 'Unmatched — e.g. electronics (Shenzhen), furniture (Foshan)', inland: 'Strong in Henan\'s own clusters; thinner in others', verdict: 'Coast' },
+  { factor: 'Deep-sea port access', coastal: 'On the doorstep', inland: 'Via rail–sea to Tianjin / Ningbo, or rail to Europe', verdict: 'Coast' },
+  { factor: 'Air & rail to Europe', coastal: 'Good', inland: 'Excellent — Tier-1 air-cargo hub + China–Europe rail node', verdict: 'Inland' },
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} jsonLd={pageSchemas}>
+
+  <PageHero
+    breadcrumbs={[{ label: 'Why Zhengzhou', href: '/zhengzhou/' }, { label: 'Cost vs Coastal China' }]}
+    eyebrow="Cost vs Coastal China"
+    h1="What you actually save by going inland."
+    lead="For two decades the default was the coast. But rising wages, land and taxes in the Pearl River and Yangtze deltas have made central China a serious alternative for cost-sensitive production. Here is the honest comparison — where Henan wins, where the coast still wins, and how to decide."
+    ctas={[{ href: '/contact/', label: 'Model your costs with us →', variant: 'primary' }]}
+  />
+
+  <!-- THE TREND -->
+  <section class="section">
+    <div class="container">
+      <div class="split-row">
+        <div class="split-text">
+          <span class="section-eyebrow">A real, ongoing shift</span>
+          <h2>Manufacturing has been moving inland for years</h2>
+          <p>This is not a pitch; it is a documented trend. As coastal regions became more expensive — higher wages, dearer land, heavier overhead — China's six central provinces (Anhui, Henan, Hubei, Jiangxi, Hunan and Shanxi) actively courted cost-sensitive production. For many foreign investors, moving inland has become an alternative to relocating offshore entirely.</p>
+          <p>What makes Henan different from a generic "cheaper inland" story is that the cost saving does not come with isolation. Zhengzhou's Tier-1 air-cargo hub and China–Europe rail node mean you keep fast access to European and Eurasian markets while paying inland prices for land and labour.</p>
+          <a href="/zhengzhou/logistics-connectivity/" class="inline-link">See the logistics that make this work →</a>
+        </div>
+        <div class="split-media">
+          <img
+            src="/images/zhengzhou-vs-coastal-china-cost-comparison.webp"
+            alt="Cost comparison illustration — central China (Henan / Zhengzhou) versus coastal China (Shanghai, Shenzhen) on land and labour"
+            width="600" height="450" loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COST TABLE -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow">Factor by factor</span>
+        <h2>Inland vs coastal — where each wins</h2>
+        <p class="section-intro">Cost is not one number. Here is how the main factors compare, and an honest verdict on each — including the ones where the coast is still the better answer.</p>
+      </div>
+      <div class="cost-table">
+        <div class="cost-head">
+          <span>Factor</span><span>Coastal (Shanghai / Shenzhen)</span><span>Inland (Henan / Zhengzhou)</span><span>Edge</span>
+        </div>
+        {costRows.map(r => (
+          <div class="cost-row">
+            <span class="c-factor">{r.factor}</span>
+            <span class="c-coastal">{r.coastal}</span>
+            <span class="c-inland">{r.inland}</span>
+            <span class={`c-verdict c-verdict--${r.verdict === 'Inland' ? 'inland' : 'coast'}`}>{r.verdict}</span>
+          </div>
+        ))}
+      </div>
+      <p class="source-note">Land and wage figures are indicative and dated where noted (e.g. Shanghai industrial land ~1,975 RMB/m², 2021); actual costs vary by city, district, sector and year. We model your specific operation rather than rely on a blanket percentage.</p>
+    </div>
+  </section>
+
+  <!-- LABOUR + LAND DETAIL -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">The two big levers</span>
+      <h2>Labour and land — where the gap is real</h2>
+      <p><strong>Labour.</strong> Wages in the major coastal cities — Shanghai, Shenzhen, Guangzhou — typically run <strong>20–40% higher</strong> than in inland provinces such as Henan. For labour-intensive assembly and processing, that differential compounds across a full workforce and a full year into a material number. Henan also offers a large, comparatively stable labour pool — part of why Foxconn runs its biggest iPhone operation here.</p>
+      <p><strong>Land.</strong> The gap is even starker on industrial land. Shanghai industrial land has been reported around <strong>1,975 RMB/m² (2021)</strong>, with other top-tier coastal cities in a similar band, while inland industrial land sits far below that — and key zones in Henan add land-use guarantees for qualifying projects. For land-intensive operations — large plants, warehousing, processing lines — that is often the single biggest saving.</p>
+      <p class="micro-note">The honest caveat: published land and wage figures move year to year and vary widely by district and sector. Treat them as direction, not precision — and model your own footprint before deciding.</p>
+    </div>
+  </section>
+
+  <!-- WHAT YOU TRADE OFF -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">The honest version</span>
+      <h2>What the coast still does better</h2>
+      <p>A comparison that only listed advantages would not be worth trusting. The coast keeps genuine edges: <strong>supplier density</strong> in specific categories (consumer electronics around Shenzhen, furniture around Foshan), deeper pools of <strong>specialist engineering talent</strong>, and <strong>direct deep-sea port access</strong>. For some highly specialised supply chains, those outweigh the inland cost saving.</p>
+      <p>So the real answer is rarely "all-in on one coast or one inland city." It is a considered split: base cost- and logistics-led operations inland in Zhengzhou, while keeping coastal sourcing where the cluster depth genuinely matters. That is exactly the dual-base model we run ourselves — Zhengzhou and Shenzhen — and it is why we can give you a straight answer about which categories belong where.</p>
+      <a href="/china-network/" class="inline-link">See our dual-base setup →</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Common questions</span>
+      <h2>Inland vs coastal cost — questions answered</h2>
+      <p class="faq-updated">Last reviewed: June 2026</p>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Is manufacturing in Henan cheaper than coastal China?</summary>
+          <p>Generally yes, on total factor cost. Coastal wages (Shanghai, Shenzhen, Guangzhou) are typically 20–40% higher than inland provinces like Henan, and industrial land is dramatically cheaper inland — Shanghai industrial land has been reported around 1,975 RMB/m² (2021) against far lower inland levels. Land and labour are where central provinces win most clearly.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Why is manufacturing moving from the coast to central China?</summary>
+          <p>Rising wages, land prices and taxes on the coast have pushed cost-sensitive production inland. China's six central provinces — Anhui, Henan, Hubei, Jiangxi, Hunan and Shanxi — have actively courted that demand. Henan stands out because it pairs lower costs with a Tier-1 air-cargo hub and a China–Europe rail node, so you are not trading cost for isolation.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What do you give up by basing inland instead of on the coast?</summary>
+          <p>A few things, honestly: the coast still has unmatched supplier density in certain categories (electronics around Shenzhen, furniture around Foshan), deeper specialist engineering talent, and direct deep-sea port access. For some specialised supply chains those outweigh the cost gap. Zhengzhou is strongest for land- and labour-intensive operations, logistics-led businesses, and Henan's own cluster categories — so the right answer is often a considered split, not a blanket choice.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <CtaSection
+    eyebrow="Model it properly"
+    h2="Want the real number for your operation?"
+    body="A blanket percentage is useless. Tell us your footprint — headcount, land, throughput, freight — and we'll model inland vs coastal on total cost of ownership, not a headline."
+    ctas={[{ href: '/contact/', label: 'Get a cost read →', variant: 'white' }]}
+  />
+
+</BaseLayout>
+
+<style>
+  .section-head { max-width: 720px; margin-bottom: 2rem; }
+  .section-intro { color: var(--color-slate); margin-top: 1rem; }
+
+  /* SPLIT ROW */
+  .split-row { display: grid; grid-template-columns: 1.25fr 1fr; gap: 3.5rem; align-items: center; }
+  .split-text h2 { margin-bottom: 1rem; }
+  .split-text p { color: var(--color-slate); margin-bottom: 1rem; }
+  .split-text strong { color: var(--color-navy); }
+  .split-media img { width: 100%; height: auto; border-radius: var(--radius-lg); }
+  .inline-link { color: var(--color-emerald); font-weight: 600; font-size: .9375rem; text-decoration: none; }
+  .inline-link:hover { text-decoration: underline; }
+  .micro-note { font-size: .875rem; color: #6b7280; font-style: italic; }
+
+  /* COST TABLE */
+  .cost-table { border: 1px solid rgba(15,33,49,.1); border-radius: var(--radius-md); overflow: hidden; }
+  .cost-head { display: grid; grid-template-columns: 1fr 1.7fr 1.7fr .7fr; padding: .75rem 1rem; background: var(--color-emerald); color: rgba(255,255,255,.85); font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; gap: 1rem; }
+  .cost-row { display: grid; grid-template-columns: 1fr 1.7fr 1.7fr .7fr; padding: .875rem 1rem; gap: 1rem; border-bottom: 1px solid rgba(15,33,49,.06); font-size: .875rem; align-items: center; }
+  .cost-row:last-child { border-bottom: none; }
+  .c-factor { font-weight: 700; color: var(--color-navy); }
+  .c-coastal, .c-inland { color: #4a4a4a; line-height: 1.5; }
+  .c-verdict { font-weight: 700; font-size: .8125rem; }
+  .c-verdict--inland { color: var(--color-emerald); }
+  .c-verdict--coast { color: var(--color-teal); }
+  .source-note { font-size: .8125rem; color: #8a8a8a; margin-top: 1.5rem; line-height: 1.6; }
+
+  /* FAQ */
+  .faq-updated { font-size: .8125rem; color: #888; margin: .25rem 0 1.5rem; }
+  .faq-list { display: flex; flex-direction: column; gap: 0; }
+  .faq-item { border-bottom: 1px solid rgba(15,33,49,.1); }
+  .faq-item summary { font-weight: 600; font-size: 1rem; color: var(--color-navy); cursor: pointer; padding: 1.25rem 0; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after { content: '+'; font-size: 1.25rem; font-weight: 300; color: var(--color-emerald); flex-shrink: 0; transition: transform .2s ease; }
+  .faq-item[open] summary::after { transform: rotate(45deg); }
+  .faq-item p { padding: 0 0 1.25rem; color: #4a4a4a; font-size: .9375rem; margin: 0; line-height: 1.65; max-width: none; }
+
+  @media (max-width: 900px) {
+    .split-row { grid-template-columns: 1fr; gap: 2rem; }
+    .split-media { order: -1; }
+    .cost-head { display: none; }
+    .cost-row { grid-template-columns: 1fr; gap: .35rem; padding: 1rem; }
+    .c-coastal::before { content: 'Coastal: '; font-weight: 700; color: var(--color-teal); }
+    .c-inland::before { content: 'Inland: '; font-weight: 700; color: var(--color-emerald); }
+  }
+</style>
