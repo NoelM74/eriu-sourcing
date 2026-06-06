@@ -652,8 +652,8 @@ export const sourcingPages = [
     minOrder: 'Single unit from ~€20,000 ex-factory; 3-pod cluster ~€95,000–€145,000 landed',
     minOrderShort: '€20k+/unit',
     leadTime: '12–20 wks',
-    image: '/images/modular-homes-factory-zhengzhou-floor.webp',
-    imageAlt: 'Container-cabin and modular-unit production floor in Zhengzhou, Henan — glamping pods and cabins built for export to Europe',
+    image: '/images/glamping-factory-china.webp',
+    imageAlt: 'Chinese factory assembling glamping pods and container cabins for export — modular-building production with quality-control checks',
     contentBody: `
       <p>The European glamping market is valued at around USD 1.28–1.3 billion and is projected to grow roughly 8.5–8.6% a year over the next decade. Within it, cabins and pods lead the accommodation category with a share above 45% — guests increasingly prefer solid, weather-safe units over tents. At the same time, prefab container and modular homes in Europe typically cost €25,000–€90,000 per unit depending on size, insulation, and finish, well below many traditional builds on a per-square-metre basis. High demand plus more predictable costs is exactly why pods and cabins are a sweet spot.</p>
       <h3>Types of units — packages, not boxes</h3>

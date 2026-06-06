@@ -1954,8 +1954,8 @@ export const blogPosts = [
 <p>Prefab container homes are residential or hospitality units built from new or repurposed shipping containers, factory-modified with insulation, internal framing, services, and finishes, then delivered to site for final assembly and connection to utilities. The core benefits are a modular steel structure, fast factory production, and the ability to scale from single units to multi-storey arrangements. Modern designs can look indistinguishable from conventional architecture — the "industrial box" aesthetic is optional, not a requirement.</p>
 
 <figure class="article-figure">
-  <img src="/images/modular-building-construction.webp" alt="Prefab container modular units being assembled on site — fast deployment compared with traditional construction" loading="lazy" width="1280" height="720">
-  <figcaption>Prefabrication shifts most of the work into the factory, cutting on-site labour and delay — and compressing an 8–14 month build into roughly 8–16 weeks.</figcaption>
+  <img src="/images/glamping-factory-china.webp" alt="Glamping pods and container cabins being assembled and crated inside a Chinese modular-building factory" loading="lazy" width="1280" height="720">
+  <figcaption>Prefabrication shifts most of the work into the factory — assembly, insulation, and quality checks done under cover — compressing an 8–14 month build into roughly 8–16 weeks.</figcaption>
 </figure>
 
 <h2>Why prefab container homes are gaining traction in Europe</h2>
@@ -2004,8 +2004,8 @@ export const blogPosts = [
 <p>Modern container homes can absolutely be comfortable for glamping guests when design and execution are handled properly. The common concerns — rain noise, temperature swings, ceiling height — are addressed through adequate insulation and acoustic treatment in the roof, double-roofing or sloped add-on roofs, and modified internal framing to increase perceived height. Real-world projects such as large container student-housing schemes in Amsterdam show that well-detailed container buildings can last decades with appropriate corrosion protection and maintenance.</p>
 
 <figure class="article-figure">
-  <img src="/images/modular-homes-interior-fitted-2.webp" alt="Fitted container cabin interior with bed area and finished surfaces — comfortable enough for year-round glamping" loading="lazy" width="1280" height="720">
-  <figcaption>Done properly — insulation, glazing, acoustic treatment, and finish — a container cabin reads as a boutique nature suite, not an industrial box.</figcaption>
+  <img src="/images/3-pod-glamping-offer.webp" alt="Three premium glamping pods with decks and seating on a landscaped site at golden hour" loading="lazy" width="1280" height="720">
+  <figcaption>Done properly — insulation, glazing, acoustic treatment, and finish — a container cabin or pod reads as a boutique nature suite, not an industrial box.</figcaption>
 </figure>
 
 <h2>Where container homes fit into glamping strategies</h2>
@@ -2019,8 +2019,8 @@ export const blogPosts = [
 <p>The risks are real, though: quality variation between factories, gaps in documentation (especially structural and energy performance), and logistics complexity with potential damage in transit. This is where a China-based sourcing partner with a permanent presence in Zhengzhou — and experience in logistics, QC, and EU imports — becomes critical. A structured approach typically involves defining your unit types, sizes, and performance requirements; shortlisting and auditing suitable export-experienced factories; coordinating design, samples, and technical documentation; carrying out in-person inspections before shipment; and managing inland transport, export, and import logistics.</p>
 
 <figure class="article-figure">
-  <img src="/images/modular-homes-factory-zhengzhou-floor.webp" alt="Container-cabin and modular-unit production floor in Zhengzhou, Henan — where Ériu Sourcing runs factory vetting and QC" loading="lazy" width="1280" height="720">
-  <figcaption>Inside the Zhengzhou container-house cluster. Ériu Sourcing runs factory vetting, production monitoring, and pre-shipment QC here before any cabin loads for Europe.</figcaption>
+  <img src="/images/glamping-qc-inspection.webp" alt="Inspector checking a glamping cabin door and finish before export at a Chinese factory, with units crated for shipment" loading="lazy" width="1280" height="720">
+  <figcaption>Inside the Chinese modular cluster: pre-shipment inspection of a finished cabin — structure, fit-out, and finish signed off before units are crated and loaded for Europe.</figcaption>
 </figure>
 
 <h2>Next steps: linking your glamping plans to real numbers</h2>
@@ -2029,8 +2029,8 @@ export const blogPosts = [
 
 <p>Share a few details about your land and target guest profile and we will prepare a no-obligation Glamping Container Blueprint with example layouts and cost ranges. Start with the <a href="/source/3-pod-glamping-cabin-package-ireland-uk/">3-pod glamping cabin package</a>, browse the <a href="/source/glamping-pods-cabins-from-china-ireland/">full glamping pods &amp; cabins category</a>, or <a href="/contact/">get in touch</a>.</p>`,
     excerpt: 'Prefab container homes have gone mainstream for tourism and glamping across Europe. Here is the 2026 picture for campsite and land owners — cost bands, planning permission by country, insulation and energy standards, guest comfort, and how to source cabins safely from China.',
-    image: '/images/Fold-out-house-20ft.webp',
-    imageAlt: 'Expandable prefab container cabin — prefab container homes for glamping in Europe',
+    image: '/images/glamping-container-pillar-hero.webp',
+    imageAlt: 'Premium glamping pods and container cabins in a European countryside setting',
     sections: [
       'What are prefab container homes',
       'Why they are gaining traction in Europe',
