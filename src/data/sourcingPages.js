@@ -568,4 +568,63 @@ export const sourcingPages = [
       },
     ],
   },
+
+  {
+    slug: 'ev-chargers-from-china-ireland',
+    title: 'EV Charger Sourcing China to Ireland & UK — AC & DC | Ériu',
+    description: 'Source AC wallboxes, DC fast chargers and charging components direct from Chinese factories. OCPP-enabled, CE/IEC-compliant, 30–50% below Western brands.',
+    h1: 'Source EV chargers and components direct from China to Ireland & the UK',
+    eyebrow: 'EV Chargers & Components',
+    categoryAnchor: 'ev-chargers',
+    intro: 'China produces over 70% of the world\'s EV chargers — AC wallboxes, portable units, DC fast chargers, and the power modules and connectors inside them — and exports them to charge-point operators and installers across Europe. Chinese hardware typically lands 30–50% below equivalent Western-branded units while supporting OCPP, smart billing, and EU-grade certification. From our base inside Zhengzhou\'s new-energy-vehicle ecosystem, Ériu Sourcing connects Irish, UK, and European installers and networks directly to that supply — with factory vetting, pre-shipment QC, and logistics built in.',
+    hub: 'Zhengzhou (Henan NEV cluster) • Shenzhen (power electronics)',
+    hubDetail: 'Zhengzhou is emerging as a new-energy-vehicle hub, with dedicated NEV industrial parks, automotive-parts smart-manufacturing zones, and major battery and EV-component investment by groups such as SAIC Motor. Operating from this base puts Ériu Sourcing inside a broader NEV ecosystem of charger manufacturers and component suppliers — not isolated workshops. Shenzhen and the Pearl River Delta add depth on the power-electronics side: the rectifier modules, contactors, control boards, and OCPP communication stacks that sit inside both AC and DC charging hardware.',
+    keyProducts: [
+      'AC wallboxes — 7.4 kW single-phase, 11 / 22 kW three-phase (OCPP, RFID, app)',
+      'Pedestal and dual-socket AC units for workplaces and car parks',
+      'Compact DC fast chargers — 20–40 kW for car parks and fleet depots',
+      'Highway / fleet DC chargers — 60–200 kW with dual CCS2 outputs',
+      'Modular high-power DC systems up to 360 kW for charging hubs',
+      'Components — Type 2 / CCS2 cables, charge-gun assemblies, power modules, contactors, AC distribution boxes',
+    ],
+    savings: '30–50%',
+    savingsNote: 'on hardware vs Western charger brands',
+    ceNote: 'EV charging hardware is safety-critical. We work only with factories that can provide CE marking, RoHS, and the relevant IEC test reports (IEC 61851 for the charging system, IEC 62196 for connectors), with TÜV / UL documentation where it exists for global markets. Compliance documentation is verified at the factory before shipment — not at the European port.',
+    minOrder: '€5,000 pilot batch to €250,000+ network rollout orders',
+    minOrderShort: '€5k+',
+    leadTime: '8–14 wks',
+    image: '/images/shenzhen-electronics-factory-automation.webp',
+    imageAlt: 'EV charger power-electronics assembly line in China — factory-direct AC and DC charger sourcing for Europe',
+    contentBody: `
+      <p>Europe has passed the one-million public charge-point milestone and still needs roughly 8.8 million chargers installed by 2030 — over 23,000 new units every week, well above the current rollout rate. The European EV charging station market was valued at around USD 10.8 billion in 2024 and is projected to grow at roughly 29% CAGR into the 2030s, with both AC and DC segments expanding rapidly. The hardware demand curve is sustained, and the bulk of it is met by Chinese manufacturing.</p>
+      <h3>Why EV charging hardware is a high-value sourcing category</h3>
+      <p>Regulations such as the EU Alternative Fuels Infrastructure Regulation (AFIR) set minimum requirements for fast-charger availability on core road networks, forcing operators to install high-power DC pools at regular intervals. That creates demand not just for headline DC stations but for the millions of private and semi-public AC chargers in homes, workplaces, and depots. For installers and charge-point operators (CPOs) facing tight budgets but ambitious targets, hardware cost is the single biggest lever on project economics — and it is where the China supply line earns its place.</p>
+      <h3>Why source via Zhengzhou — and what compliance actually requires</h3>
+      <p>Going direct to China without oversight is where the horror stories start: factories without genuine certification, missed spec points on connector standards or metering, and weak after-sales support. The compliance baseline for the EU and UK market is <strong>CE marking</strong>, <strong>RoHS</strong>, and conformity with the relevant <strong>IEC standards</strong> — principally the IEC 61851 series for the charging system and the IEC 62196 series for plugs and connectors (Type 2 and CCS2), usually validated by a recognised third-party lab. Reputable Chinese charger manufacturers can provide test reports, EU Declarations of Conformity, and quality-system certificates (ISO 9001, ISO 14001). Ériu Sourcing verifies that this documentation is genuine, current, and applicable to the exact models being bought — and facilitates third-party lab testing where a pilot deployment warrants it.</p>
+      <p>You remain responsible for local electrical installation regulations, grid-connection approval, and final conformity. Our job is to make the factory-side quality and documentation robust enough to support all three — and to align on warranties (typically 2–5 years on hardware) and spare-parts plans so your network stays supportable.</p>
+      <blockquote><p>A certified AC wallbox that an EU distributor sells to installers at €550–€800 in hardware can be sourced ex-factory in China at roughly €250–€400 depending on spec and volume — landing around €350–€500 once freight, duty, and our fee are included. On a DC site, swapping a €25,000 unit for a quality €15,000–€18,000 equivalent frees several thousand euros per install. The saving funds software, customer experience, and site acquisition — the things that actually differentiate a network.</p></blockquote>
+    `,
+    faq: [
+      {
+        q: 'Can you source CE and IEC-compliant EV chargers from China for the Irish, UK, and EU market?',
+        a: 'Yes. We work only with factories that can provide CE marking, RoHS, and the relevant IEC test reports — IEC 61851 for the charging system and IEC 62196 for Type 2 / CCS2 connectors — typically validated by a recognised third-party lab, with TÜV or UL documentation where it exists. Compliance documentation is verified at the factory before shipment and provided with the order. You remain responsible for local electrical installation regulations and final conformity; we make the factory-side documentation robust enough to support it.',
+      },
+      {
+        q: 'How much can installers and CPOs save sourcing EV chargers direct from China?',
+        a: 'Chinese charging hardware typically lands 30–50% below equivalent Western-branded units, thanks to manufacturing scale and vertical integration. A certified AC wallbox that an EU distributor sells at €550–€800 can land at roughly €350–€500 sourced factory-direct. On DC, a €25,000 unit can often be matched on quality at €15,000–€18,000. The saving is largest on higher-power DC equipment where Western brand margins are thickest.',
+      },
+      {
+        q: 'What types of EV chargers and components can you source?',
+        a: 'AC wallboxes (7.4 kW single-phase, 11 and 22 kW three-phase) with OCPP, RFID, app control and load balancing; pedestal and dual-socket AC units; compact 20–40 kW DC chargers for car parks and depots; 60–200 kW DC for corridor and fleet sites; modular DC systems up to 360 kW for hubs; and components including Type 2 / CCS2 cables and connectors, charge-gun assemblies, power modules, contactors, and AC distribution boxes for charging islands.',
+      },
+      {
+        q: 'Do the chargers support OCPP and smart-charging back-ends?',
+        a: 'Yes. Mature Chinese charger manufacturers support OCPP 1.6 and increasingly OCPP 2.0.1, with RFID, Wi-Fi / Ethernet / 4G connectivity, smart load management, and solar integration on many AC lines. We confirm the exact OCPP version, back-end compatibility, and metering options (including MID-compliant metering where billing accuracy is required) against your software partner\'s requirements before you commit to a production order.',
+      },
+      {
+        q: 'How does a typical EV charger sourcing project run, from RFQ to installed unit?',
+        a: 'We map requirements (AC/DC mix, power levels, connectors, OCPP/software needs, certification), shortlist and physically vet charger factories with an export track record, support sample orders and pilot deployments, agree pricing, MOQs and any custom branding, run pre-shipment QC in the Zhengzhou region and other hubs, and coordinate sea/rail freight to Europe with the documentation needed for customs and grid-connection sign-off.',
+      },
+    ],
+  },
 ];
