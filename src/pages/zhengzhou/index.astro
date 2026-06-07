@@ -50,30 +50,37 @@ const proofPoints = [
   { metric: 'Trade rank', value: '#9 / #1', detail: 'China\'s 9th-largest trading province; #1 in Central China for 12 years running', href: '/zhengzhou/manufacturing-base/' },
 ];
 
+const icons = {
+  globe: '<circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>',
+  euro: '<path d="M4 10h12"/><path d="M4 14h9"/><path d="M19 6a7.7 7.7 0 0 0-5.2-2A7.9 7.9 0 0 0 6 12c0 4.4 3.5 8 7.8 8 2 0 3.8-.8 5.2-2"/>',
+  factory: '<path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M17 18h1"/><path d="M12 18h1"/><path d="M7 18h1"/>',
+  trending: '<polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/>',
+};
+
 const pillars = [
   {
-    icon: '🚄',
+    icon: 'globe',
     title: 'Logistics & connectivity',
     blurb: 'A Tier-1 air-cargo hub, a major China–Europe rail node, rail–sea links to Tianjin and Ningbo, and a 2-hour high-speed-rail radius reaching hundreds of millions of people.',
     href: '/zhengzhou/logistics-connectivity/',
     cta: 'See the logistics picture',
   },
   {
-    icon: '💶',
+    icon: 'euro',
     title: 'Cost vs coastal China',
     blurb: 'Lower land and labour than the Pearl River and Yangtze deltas — without giving up market access. The honest comparison of what you save and what you trade off.',
     href: '/zhengzhou/cost-vs-coastal-china/',
     cta: 'Compare the real costs',
   },
   {
-    icon: '🏭',
+    icon: 'factory',
     title: 'Manufacturing base',
     blurb: 'Foxconn, BYD, Yutong and Zhengzhou Nissan already build here, alongside electronics, NEV, machinery, grain-processing and building-materials clusters.',
     href: '/zhengzhou/manufacturing-base/',
     cta: 'See who builds here',
   },
   {
-    icon: '📈',
+    icon: 'trending',
     title: 'Invest & set up',
     blurb: 'The Airport Economy Zone, the International Land Port, NEV parks and cross-border e-commerce pilot zones — plus a candid look at incentives and the governance risks.',
     href: '/zhengzhou/invest-set-up/',
@@ -142,7 +149,7 @@ const anchors = [
       <div class="pillar-grid">
         {pillars.map(p => (
           <a href={p.href} class="pillar-card">
-            <span class="pillar-icon" aria-hidden="true">{p.icon}</span>
+            <span class="pillar-icon" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" set:html={icons[p.icon]}></svg></span>
             <h3>{p.title}</h3>
             <p>{p.blurb}</p>
             <span class="pillar-cta">{p.cta} →</span>
@@ -246,7 +253,8 @@ const anchors = [
   .pillar-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin-top: 1rem; }
   .pillar-card { display: block; padding: 2rem; background: var(--color-white); border: 1px solid rgba(15,33,49,.1); border-radius: var(--radius-md); text-decoration: none; transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease; }
   .pillar-card:hover { transform: translateY(-2px); border-color: var(--color-emerald); box-shadow: 0 6px 20px rgba(26,83,62,.1); }
-  .pillar-icon { font-size: 2rem; line-height: 1; display: block; margin-bottom: 1rem; }
+  .pillar-icon { color: var(--color-emerald); display: block; margin-bottom: 1rem; line-height: 0; }
+  .pillar-icon svg { width: 30px; height: 30px; }
   .pillar-card h3 { font-size: 1.25rem; margin-bottom: .625rem; color: var(--color-navy); }
   .pillar-card p { color: var(--color-slate); font-size: .9375rem; line-height: 1.6; margin-bottom: 1rem; max-width: none; }
   .pillar-cta { font-weight: 600; color: var(--color-emerald); font-size: .9375rem; }
