@@ -1,0 +1,280 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import CtaSection from '../../components/CtaSection.astro';
+
+const title = "Zhengzhou Logistics: Air, Rail & Sea | Ériu";
+const description = "How Zhengzhou connects from the centre of China — a Tier-1 air-cargo hub, a China–Europe rail node, rail–sea links to the coast, and a 2-hour HSR radius.";
+const canonical = "/zhengzhou/logistics-connectivity/";
+const siteUrl = 'https://eriusourcing.com';
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Why Zhengzhou", "item": `${siteUrl}/zhengzhou/` },
+      { "@type": "ListItem", "position": 3, "name": "Logistics & Connectivity", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How big is Zhengzhou's air-cargo hub?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Zhengzhou Xinzheng International Airport (CGO) handled about 825,000 tonnes of cargo in 2024 and passed one million tonnes in 2025 — only the fifth Chinese airport to reach that level, after Shanghai Pudong, Guangzhou, Shenzhen and Beijing. Cargo throughput grew at roughly 10% a year between 2021 and 2025. Major carriers including Cargolux, SF Express, UPS, DHL and China Southern Cargo operate there." }
+      },
+      {
+        "@type": "Question",
+        "name": "How fast is China–Europe rail from Zhengzhou?",
+        "acceptedAnswer": { "@type": "Answer", "text": "China–Europe Railway Express trains from Zhengzhou typically reach European terminals in roughly 12–18 days, against 30–40 days by sea — slower than air but far cheaper, and faster than ocean freight. Zhengzhou ran 2,052 China–Europe freight-train trips in 2024 (4th-most in China, up 49.2% year on year), and its International Land Port opened in 2024 to consolidate and grow that traffic." }
+      },
+      {
+        "@type": "Question",
+        "name": "Are there passenger flights from Zhengzhou to Europe?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Zhengzhou (CGO) has year-round long-haul passenger service to Europe, including Milan Malpensa (Juneyao Airlines) and London Gatwick (China Southern), both around 11 hours, alongside an extensive all-cargo network. On the freight side, the Zhengzhou–Luxembourg 'Air Silk Road' (Cargolux, in which Henan's HNCA holds a 35% stake) connects onward to cities including London, Milan and Chicago." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can an inland city like Zhengzhou reach seaports efficiently?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes — via scheduled rail–sea intermodal services. Regular trains run from Zhengzhou to Tianjin Port on the Bohai Rim and from nearby Luoyang to Ningbo Port in the Yangtze River Delta, connecting inland manufacturers to deep-sea container shipping. Combined with a 2-hour high-speed-rail radius reaching hundreds of millions of people and dense expressway grids, Zhengzhou offers genuine multimodal reach from a single base." }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the Zhengzhou–Hungary 'Air Silk Road'?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Hungary is the fastest-growing European end of Zhengzhou's air Silk Road. Henan Airport Group (which operates CGO) and Budapest Airport have built dedicated 'Exclusive Overseas Terminals' at each other's airports, linked by wide-body freighters, and Cainiao — Alibaba's logistics arm — has designated Budapest its East-Central European hub. Institutionally, the Hungarian Export Promotion Agency (HEPA) and the Zhengzhou government jointly opened the China–Hungary (Zhengzhou) International Cooperation and Industrial Technology Application Demonstration Center in 2024. Together they make Zhengzhou–Budapest a primary gateway for Chinese cargo and e-commerce into Central and Eastern Europe." }
+      }
+    ]
+  }
+];
+
+const modes = [
+  { mode: 'Air → Europe', detail: 'CGO all-cargo network + Cargolux Air Silk Road to Luxembourg', transit: 'Hours', best: 'High-value, urgent: electronics, pharma, e-commerce' },
+  { mode: 'Rail → Europe', detail: 'China–Europe Railway Express via the International Land Port', transit: '~12–18 days', best: 'Cost-sensitive but time-aware EU & Central Asia freight' },
+  { mode: 'Rail–sea → ports', detail: 'Intermodal to Tianjin (Bohai) and Ningbo (Yangtze Delta)', transit: '+ ocean leg', best: 'Bulk and container volumes to global seaports' },
+  { mode: 'HSR / road → China', detail: '2-hour high-speed-rail radius; national expressway grids', transit: '1.5–3 hrs', best: 'Domestic distribution and supplier visits' },
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} jsonLd={pageSchemas}>
+
+  <PageHero
+    breadcrumbs={[{ label: 'Why Zhengzhou', href: '/zhengzhou/' }, { label: 'Logistics & Connectivity' }]}
+    eyebrow="Logistics & Connectivity"
+    h1="Air, rail and sea — from the centre of China."
+    lead="Zhengzhou's inland location is not a handicap; it is the point. Sitting at China's geographic centre, it pairs a Tier-1 air-cargo hub with a major China–Europe rail node, rail–sea links to the coast, and a high-speed-rail radius reaching hundreds of millions of people. From one base you get genuinely multimodal reach."
+    ctas={[{ href: '/contact/', label: 'Plan a route with us →', variant: 'primary' }]}
+  />
+
+  <!-- PANORAMA BANNER -->
+  <figure class="apron-banner">
+    <img
+      src="/images/zhengzhou-cgo-air-cargo-hub.webp"
+      alt="Panoramic dusk view of the apron at Zhengzhou Xinzheng International Airport (CGO) — cargo and passenger aircraft lined up before the terminal and control tower"
+      width="1600" height="400" loading="lazy"
+    />
+  </figure>
+
+  <!-- FOUR SILK ROADS / MODES TABLE -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow">The "four silk roads"</span>
+        <h2>Multimodal reach from a single inland base</h2>
+        <p class="section-intro">Henan's opening-up strategy is built on four corridors — air, land (rail), sea (via ports) and digital. For an operator, that translates into a choice of mode for every shipment, all from one location.</p>
+      </div>
+      <div class="modes-table">
+        <div class="modes-head">
+          <span>Mode</span><span>How</span><span>Transit</span><span>Best for</span>
+        </div>
+        {modes.map(m => (
+          <div class="modes-row">
+            <span class="m-mode">{m.mode}</span>
+            <span class="m-detail">{m.detail}</span>
+            <span class="m-transit">{m.transit}</span>
+            <span class="m-best">{m.best}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- AIR -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="split-row">
+        <div class="split-text">
+          <span class="section-eyebrow">Air — a Tier-1 cargo hub</span>
+          <h2>CGO: one of China's top air-cargo gateways</h2>
+          <p>Zhengzhou Xinzheng International Airport (CGO) has been built into a genuine global air-logistics hub at the heart of a 415 km² Airport Economy Zone. It handled around <strong>825,000 tonnes of cargo in 2024</strong> and <strong>passed one million tonnes in 2025</strong> — only the fifth Chinese airport ever to do so, after Shanghai Pudong, Guangzhou, Shenzhen and Beijing — with throughput growing roughly 10% a year since 2021.</p>
+          <p>The anchor is the <strong>Zhengzhou–Luxembourg "Air Silk Road"</strong>: Henan's HNCA took a 35% stake in cargo carrier Cargolux in 2014, and the corridor has since moved well over a million tonnes, connecting onward to cities including London, Milan and Chicago. Major express and cargo players — Cargolux, SF Express, UPS, DHL, China Southern Cargo — use CGO as a hub for electronics, auto parts, pharmaceuticals and e-commerce parcels.</p>
+          <p>On passengers, CGO runs year-round long-haul service to Europe, including <strong>Milan Malpensa</strong> (Juneyao) and <strong>London Gatwick</strong> (China Southern), each around 11 hours.</p>
+        </div>
+        <div class="split-media">
+          <img
+            src="/images/zhengzhou-cgo-air-cargo-hub-apron.webp"
+            alt="Freighter aircraft and cargo handling on the apron at Zhengzhou Xinzheng International Airport (CGO), central China's Tier-1 air-cargo hub"
+            width="600" height="450" loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RAIL -->
+  <section class="section">
+    <div class="container">
+      <div class="split-row split-row--reverse">
+        <div class="split-media">
+          <img
+            src="/images/zhengzhou-china-europe-freight-train-land-port.webp"
+            alt="A container freight train hauling stacked containers across a viaduct — China–Europe rail of the kind routed from Zhengzhou"
+            width="600" height="450" loading="lazy"
+          />
+        </div>
+        <div class="split-text">
+          <span class="section-eyebrow">Rail — the land bridge to Europe</span>
+          <h2>A leading China–Europe rail node</h2>
+          <p>Zhengzhou is one of China's principal China–Europe Railway Express hubs. In <strong>2024 it ran 2,052 freight-train trips — the 4th-most of any Chinese city</strong> (after Xi'an, Chengdu and Chongqing), with outbound trips up 49.2% year on year. The network reaches well over 200 cities across some 25 European countries.</p>
+          <p>In 2024 the <strong>Zhengzhou International Land Port</strong> opened — a "one port, seven zones" rail hub whose first-phase consolidation centre alone covers 10,800 mu with 23.6 billion yuan of investment, designed to scale toward thousands of China–Europe trains a year. Rail reaches European terminals in roughly <strong>12–18 days against 30–40 by sea</strong>: slower than air, far cheaper, and a real option when a timeline is tight.</p>
+          <p class="micro-note">A fair caveat: rail typically costs more than sea and less than air — it is the middle option on the cost/speed curve, not the cheapest. We help you pick the mode that actually fits each shipment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RAIL-SEA + DOMESTIC -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="split-row">
+        <div class="split-text">
+          <span class="section-eyebrow">Sea & domestic reach</span>
+          <h2>Inland, but not landlocked</h2>
+          <p>Scheduled <strong>rail–sea intermodal</strong> services connect Zhengzhou to deep-sea shipping: regular trains run to <strong>Tianjin Port</strong> on the Bohai Rim and, from nearby Luoyang, to <strong>Ningbo Port</strong> in the Yangtze River Delta. That gives inland manufacturers a clean path to global container routes without relocating to the coast.</p>
+          <p>Domestically, Zhengzhou is China's most central high-speed-rail hub. A <strong>2-hour HSR radius</strong> reaches a market commonly estimated at around 400 million people, and dense expressway grids link the city into the national road network — which is why it has become such a powerful e-commerce and distribution node.</p>
+          <a href="/china-network/" class="inline-link">See HSR reach from Zhengzhou →</a>
+        </div>
+        <div class="split-media">
+          <img
+            src="/images/zhengzhou-hsr-station.webp"
+            alt="Zhengzhou East Railway Station — China's most central high-speed-rail hub"
+            width="600" height="450" loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EUROPE GATEWAY: HUNGARY -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">The European end</span>
+      <h2>Where the Air Silk Road lands: Hungary</h2>
+      <p>Connectivity to Europe is not abstract. Beyond the well-known Zhengzhou–Luxembourg corridor, the fastest-growing European gateway is Hungary — and it is built as a genuine two-ended system. Henan Airport Group (which operates CGO) and Budapest Airport have established dedicated "Exclusive Overseas Terminals" at each other's airports, linked by wide-body freighters, turning Zhengzhou–Budapest into a primary lane for Chinese cargo and e-commerce into Central and Eastern Europe.</p>
+      <div class="gateway-callout">
+        <div class="gw-item"><span class="gw-label">Dual terminals</span><span class="gw-text">A Budapest terminal at Zhengzhou (CGO) and a Zhengzhou terminal at Budapest's Cargo City, linked by dedicated wide-body freighters.</span></div>
+        <div class="gw-item"><span class="gw-label">Cainiao CEE hub</span><span class="gw-text">Alibaba's logistics arm Cainiao has designated Budapest its East-Central European hub for e-commerce distribution.</span></div>
+        <div class="gw-item"><span class="gw-label">Institutional ties</span><span class="gw-text">HEPA (Hungary's export agency) and Zhengzhou jointly opened the China–Hungary (Zhengzhou) Demonstration Center in 2024 — Henan's first official international project of its kind.</span></div>
+      </div>
+      <p class="micro-note">For a European-facing operator that matters: Zhengzhou has a purpose-built, government-backed gateway into the EU's Central-European logistics core — not just a line on a route map.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Common questions</span>
+      <h2>Zhengzhou logistics — questions answered</h2>
+      <p class="faq-updated">Last reviewed: June 2026</p>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>How big is Zhengzhou's air-cargo hub?</summary>
+          <p>CGO handled about 825,000 tonnes of cargo in 2024 and passed one million tonnes in 2025 — only the fifth Chinese airport to reach that level, after Shanghai Pudong, Guangzhou, Shenzhen and Beijing. Throughput grew at roughly 10% a year between 2021 and 2025, and major carriers including Cargolux, SF Express, UPS, DHL and China Southern Cargo operate there.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How fast is China–Europe rail from Zhengzhou?</summary>
+          <p>Typically 12–18 days to European terminals, against 30–40 days by sea — slower than air but far cheaper, and faster than ocean freight. Zhengzhou ran 2,052 China–Europe freight-train trips in 2024 (4th-most in China, up 49.2% year on year), and its International Land Port opened in 2024 to consolidate and grow that traffic.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Are there passenger flights from Zhengzhou to Europe?</summary>
+          <p>Yes — year-round long-haul service including Milan Malpensa (Juneyao) and London Gatwick (China Southern), both around 11 hours, alongside an extensive all-cargo network. On freight, the Zhengzhou–Luxembourg "Air Silk Road" (Cargolux, 35% owned by Henan's HNCA) connects onward to cities including London, Milan and Chicago.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can an inland city like Zhengzhou reach seaports efficiently?</summary>
+          <p>Yes, via scheduled rail–sea intermodal services to Tianjin Port (Bohai Rim) and Ningbo Port (Yangtze Delta), connecting inland manufacturers to deep-sea shipping. Combined with a 2-hour HSR radius reaching hundreds of millions of people and dense expressway grids, Zhengzhou offers genuine multimodal reach from a single base.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What is the Zhengzhou–Hungary "Air Silk Road"?</summary>
+          <p>Hungary is the fastest-growing European end of Zhengzhou's air Silk Road. Henan Airport Group (operator of CGO) and Budapest Airport have built dedicated "Exclusive Overseas Terminals" at each other's airports, linked by wide-body freighters, and Cainiao — Alibaba's logistics arm — has designated Budapest its East-Central European hub. The Hungarian Export Promotion Agency (HEPA) and Zhengzhou also jointly opened the China–Hungary (Zhengzhou) Demonstration Center in 2024. Together they make Zhengzhou–Budapest a primary gateway for Chinese cargo and e-commerce into Central and Eastern Europe.</p>
+        </details>
+      </div>
+      <p class="source-note">Sources: Zhengzhou Xinzheng airport (CGO) cargo data, 2024–2025; China–Europe Railway Express 2024 operating figures; Henan provincial / Air Silk Road reporting. Route counts and frequencies change over time — we confirm current schedules per shipment.</p>
+    </div>
+  </section>
+
+  <CtaSection
+    eyebrow="Route it from the centre"
+    h2="Need to move goods from China?"
+    body="Air to Europe, rail across Eurasia, or sea via Tianjin and Ningbo — we'll route your freight the way that fits the shipment, from our base in Zhengzhou."
+    ctas={[{ href: '/contact/', label: 'Plan a shipment →', variant: 'white' }]}
+  />
+
+</BaseLayout>
+
+<style>
+  .section-head { max-width: 720px; margin-bottom: 2rem; }
+  .section-intro { color: var(--color-slate); margin-top: 1rem; }
+
+  /* FULL-WIDTH PANORAMA BANNER */
+  .apron-banner { margin: 0; width: 100%; line-height: 0; }
+  .apron-banner img { width: 100%; height: clamp(170px, 26vw, 340px); object-fit: cover; object-position: center; display: block; }
+
+  /* MODES TABLE */
+  .modes-table { border: 1px solid rgba(15,33,49,.1); border-radius: var(--radius-md); overflow: hidden; }
+  .modes-head { display: grid; grid-template-columns: 1fr 1.6fr .8fr 1.6fr; padding: .75rem 1rem; background: var(--color-emerald); color: rgba(255,255,255,.85); font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; gap: 1rem; }
+  .modes-row { display: grid; grid-template-columns: 1fr 1.6fr .8fr 1.6fr; padding: .875rem 1rem; gap: 1rem; border-bottom: 1px solid rgba(15,33,49,.06); font-size: .875rem; align-items: center; }
+  .modes-row:last-child { border-bottom: none; }
+  .m-mode { font-weight: 700; color: var(--color-navy); }
+  .m-detail { color: #4a4a4a; }
+  .m-transit { color: var(--color-teal); font-weight: 700; white-space: nowrap; }
+  .m-best { color: var(--color-slate); }
+
+  /* SPLIT ROW */
+  .split-row { display: grid; grid-template-columns: 1.25fr 1fr; gap: 3.5rem; align-items: center; }
+  .split-row--reverse { grid-template-columns: 1fr 1.25fr; }
+  .split-text h2 { margin-bottom: 1rem; }
+  .split-text p { color: var(--color-slate); margin-bottom: 1rem; }
+  .split-text strong { color: var(--color-navy); }
+  .split-media img { width: 100%; height: auto; border-radius: var(--radius-lg); }
+  .micro-note { font-size: .875rem; color: #6b7280; font-style: italic; }
+  .inline-link { color: var(--color-emerald); font-weight: 600; font-size: .9375rem; text-decoration: none; }
+  .inline-link:hover { text-decoration: underline; }
+
+  /* HUNGARY GATEWAY CALLOUT */
+  .gateway-callout { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin: 1.5rem 0; }
+  .gw-item { padding: 1.25rem; background: var(--color-white); border: 1px solid rgba(15,33,49,.1); border-left: 3px solid var(--color-emerald); border-radius: var(--radius-md); display: flex; flex-direction: column; gap: .4rem; }
+  .gw-label { font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--color-emerald); }
+  .gw-text { font-size: .875rem; color: #4a4a4a; line-height: 1.55; }
+  @media (max-width: 760px) { .gateway-callout { grid-template-columns: 1fr; } }
+
+  /* FAQ */
+  .faq-updated { font-size: .8125rem; color: #888; margin: .25rem 0 1.5rem; }
+  .faq-list { display: flex; flex-direction: column; gap: 0; }
+  .faq-item { border-bottom: 1px solid rgba(15,33,49,.1); }
+  .faq-item summary { font-weight: 600; font-size: 1rem; color: var(--color-navy); cursor: pointer; padding: 1.25rem 0; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after { content: '+'; font-size: 1.25rem; font-weight: 300; color: var(--color-emerald); flex-shrink: 0; transition: transform .2s ease; }
+  .faq-item[open] summary::after { transform: rotate(45deg); }
+  .faq-item p { padding: 0 0 1.25rem; color: #4a4a4a; font-size: .9375rem; margin: 0; line-height: 1.65; max-width: none; }
+  .source-note { font-size: .8125rem; color: #8a8a8a; margin-top: 1.5rem; line-height: 1.6; }
+
+  @media (max-width: 900px) {
+    .modes-head { display: none; }
+    .modes-row { grid-template-columns: 1fr; gap: .25rem; padding: 1rem; }
+    .m-transit { white-space: normal; }
+    .split-row, .split-row--reverse { grid-template-columns: 1fr; gap: 2rem; }
+    .split-row--reverse .split-media { order: -1; }
+    .split-row:not(.split-row--reverse) .split-media { order: -1; }
+  }
+</style>

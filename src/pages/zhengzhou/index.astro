@@ -1,0 +1,285 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import CtaSection from '../../components/CtaSection.astro';
+
+const title = "Why Zhengzhou & Henan: Your Inland China Base | Ériu";
+const description = "Why Zhengzhou and Henan are central China's strongest base for sourcing and manufacturing — lower cost than the coast, Tier-1 air cargo, and China–Europe rail.";
+const canonical = "/zhengzhou/";
+const siteUrl = 'https://eriusourcing.com';
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Why Zhengzhou", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why base a China operation in Zhengzhou rather than the coast?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Zhengzhou sits at the geographic centre of China with a Tier-1 air-cargo hub (Zhengzhou Xinzheng / CGO, which passed one million tonnes of cargo in 2025) and a major China–Europe rail node, while inland costs are materially lower than the coast — wages in coastal cities like Shanghai and Shenzhen are typically 20–40% higher than in inland provinces such as Henan. The result is a base that is cost-competitive but globally connected, rather than a trade-off between cheap and remote." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Henan a real manufacturing province or just a logistics hub?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Both. Henan was China's 9th-largest trading province in 2023 and number one in Central China for 12 consecutive years, with foreign trade over 810 billion yuan. Smartphones alone accounted for 45.6% of its exports (anchored by Foxconn's Zhengzhou campus, the world's largest iPhone assembly base), and the province also hosts BYD's vast Zhengzhou NEV plant, Yutong (the world's largest bus maker) and Zhengzhou Nissan, plus deep machinery, grain-processing and building-materials clusters." }
+      },
+      {
+        "@type": "Question",
+        "name": "What companies already manufacture in Zhengzhou?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Foxconn runs the world's largest iPhone assembly complex in the Zhengzhou Airport Economy Zone (150,000–200,000 workers at peak). BYD's Zhengzhou plant produced 545,000 new-energy vehicles in 2024 and is scaling toward over a million a year. Yutong, the world's largest bus and coach manufacturer, is headquartered in Zhengzhou, and Zhengzhou Nissan (Dongfeng-controlled) has built vehicles there since 1993." }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the risks of basing in Henan, honestly?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The main one is governance and rule-of-law consistency — Henan's business environment is improving and the province actively courts foreign investment, but contract enforcement and dispute resolution still warrant care. The practical answer is to use experienced local counsel for contracts and corporate structure, align activities with encouraged sectors and key zones, and run disciplined supplier vetting and QC. That governance discipline is exactly where a China-based partner adds value." }
+      }
+    ]
+  }
+];
+
+const proofPoints = [
+  { metric: 'Air cargo', value: '1M+ tonnes', detail: 'CGO passed one million tonnes in 2025 — the 5th Chinese airport to do so', href: '/zhengzhou/logistics-connectivity/' },
+  { metric: 'China–Europe rail', value: '2,052 trains', detail: 'Zhengzhou ran 2,052 China–Europe freight trips in 2024, 4th in China (+49.2%)', href: '/zhengzhou/logistics-connectivity/' },
+  { metric: 'Cost vs coast', value: '20–40% lower', detail: 'Coastal wages (Shanghai, Shenzhen) typically run 20–40% above inland Henan', href: '/zhengzhou/cost-vs-coastal-china/' },
+  { metric: 'Trade rank', value: '#9 / #1', detail: 'China\'s 9th-largest trading province; #1 in Central China for 12 years running', href: '/zhengzhou/manufacturing-base/' },
+];
+
+const pillars = [
+  {
+    icon: '🚄',
+    title: 'Logistics & connectivity',
+    blurb: 'A Tier-1 air-cargo hub, a major China–Europe rail node, rail–sea links to Tianjin and Ningbo, and a 2-hour high-speed-rail radius reaching hundreds of millions of people.',
+    href: '/zhengzhou/logistics-connectivity/',
+    cta: 'See the logistics picture',
+  },
+  {
+    icon: '💶',
+    title: 'Cost vs coastal China',
+    blurb: 'Lower land and labour than the Pearl River and Yangtze deltas — without giving up market access. The honest comparison of what you save and what you trade off.',
+    href: '/zhengzhou/cost-vs-coastal-china/',
+    cta: 'Compare the real costs',
+  },
+  {
+    icon: '🏭',
+    title: 'Manufacturing base',
+    blurb: 'Foxconn, BYD, Yutong and Zhengzhou Nissan already build here, alongside electronics, NEV, machinery, grain-processing and building-materials clusters.',
+    href: '/zhengzhou/manufacturing-base/',
+    cta: 'See who builds here',
+  },
+  {
+    icon: '📈',
+    title: 'Invest & set up',
+    blurb: 'The Airport Economy Zone, the International Land Port, NEV parks and cross-border e-commerce pilot zones — plus a candid look at incentives and the governance risks.',
+    href: '/zhengzhou/invest-set-up/',
+    cta: 'Zones, incentives & risks',
+  },
+];
+
+const anchors = [
+  { name: 'Foxconn', note: 'World\'s largest iPhone assembly complex in the Airport Economy Zone — 150,000–200,000 workers at peak.' },
+  { name: 'BYD', note: 'Zhengzhou plant built 545,000 new-energy vehicles in 2024 (+169.8%), scaling toward 1M+/year.' },
+  { name: 'Yutong', note: 'Headquartered in Zhengzhou — the world\'s largest bus and coach manufacturer (~150,000 vehicles/year).' },
+  { name: 'Zhengzhou Nissan', note: 'Dongfeng-controlled JV building pickups and SUVs in Zhengzhou since 1993.' },
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} jsonLd={pageSchemas}>
+
+  <PageHero
+    breadcrumbs={[{ label: 'Why Zhengzhou' }]}
+    eyebrow="Why Zhengzhou & Henan"
+    h1="The inland China base built for cost, logistics and reach."
+    lead="The conventional wisdom says serious China operations live on the coast. It is increasingly wrong. Zhengzhou — the geographic centre of China and capital of Henan — now pairs a Tier-1 air-cargo hub and a major China–Europe rail node with costs well below Shanghai or Shenzhen. Cheap and connected, not cheap and remote."
+    ctas={[{ href: '/contact/', label: 'Make Zhengzhou your base →', variant: 'primary' }]}
+  />
+
+  <!-- HERO IMAGE + THESIS -->
+  <section class="section">
+    <div class="container">
+      <figure class="lead-figure">
+        <img
+          src="/images/zhengzhou-aerotropolis-skyline.webp"
+          alt="Zhengzhou Airport Economy Zone aerotropolis — the airport, cargo terminals and the modern aviation city skyline of central China"
+          width="1280" height="640" loading="eager" fetchpriority="high"
+        />
+        <figcaption>Zhengzhou's Airport Economy Zone has grown from a small town into a 747 km² "aviation city" in barely a decade — the clearest sign of how fast central China's logistics base has scaled.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- PROOF POINTS -->
+  <section class="section section--alt">
+    <div class="container">
+      <span class="section-eyebrow">At a glance</span>
+      <h2>The case in four numbers</h2>
+      <div class="proof-grid">
+        {proofPoints.map(p => (
+          <a href={p.href} class="proof-card">
+            <span class="proof-metric">{p.metric}</span>
+            <span class="proof-value">{p.value}</span>
+            <span class="proof-detail">{p.detail}</span>
+          </a>
+        ))}
+      </div>
+      <p class="source-note">Figures: Zhengzhou Xinzheng airport (CGO) 2025 cargo milestone; China–Europe Railway Express 2024 operating data; coastal–inland wage differentials; Henan customs / provincial trade data. Each is sourced on the relevant section page below.</p>
+    </div>
+  </section>
+
+  <!-- THE FOUR PILLARS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-eyebrow">The full picture</span>
+        <h2>Four reasons Zhengzhou works as a China base</h2>
+        <p class="section-intro">We have run sourcing, QC and logistics from Zhengzhou for 18 years. This is the evidence-based case for building your China operation around the same inland hub — broken into the four things that actually decide it.</p>
+      </div>
+      <div class="pillar-grid">
+        {pillars.map(p => (
+          <a href={p.href} class="pillar-card">
+            <span class="pillar-icon" aria-hidden="true">{p.icon}</span>
+            <h3>{p.title}</h3>
+            <p>{p.blurb}</p>
+            <span class="pillar-cta">{p.cta} →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO ALREADY BUILDS HERE -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="split-row">
+        <div class="split-text">
+          <span class="section-eyebrow">You'd be in serious company</span>
+          <h2>Who already manufactures in Zhengzhou</h2>
+          <p>This is not a frontier bet. Some of the largest manufacturers on earth already run their highest-volume operations from Zhengzhou and the surrounding Airport Economy Zone — which is why the logistics, supplier base and skilled labour exist in the first place.</p>
+          <ul class="anchor-list">
+            {anchors.map(a => (
+              <li><strong>{a.name}.</strong> {a.note}</li>
+            ))}
+          </ul>
+          <a href="/zhengzhou/manufacturing-base/" class="inline-link">See the full industrial base →</a>
+        </div>
+        <div class="split-media">
+          <img
+            src="/images/zhengzhou-nev-ev-charger-industrial-park.webp"
+            alt="A BYD electric car on a water-spray test track at BYD's new-energy vehicle plant in Zhengzhou"
+            width="600" height="450" loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HONESTY + ÉRIU FIT -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">The honest version</span>
+      <h2>The trade-off — and where we fit</h2>
+      <p>We are not going to pretend Zhengzhou is friction-free. The real cost of an inland base is governance: Henan's rule-of-law and contract-enforcement track record still warrants care, and incentives alone are never a reason to commit. The mitigations are well understood — experienced local counsel for contracts and structure, aligning with encouraged sectors and key zones, and disciplined supplier vetting and QC.</p>
+      <p>That last part is precisely what we do. Ériu Sourcing has operated from Zhengzhou for 18 years — sourcing factories, auditing suppliers, inspecting goods before they ship, and moving them to Europe by sea, rail and air. If you are weighing Zhengzhou as a sourcing, manufacturing or logistics base, you do not have to build that on-the-ground capability from scratch. You can start with ours.</p>
+      <a href="/china-network/" class="inline-link">See our China footprint →</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Common questions</span>
+      <h2>Why Zhengzhou — questions answered</h2>
+      <p class="faq-updated">Last reviewed: June 2026</p>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Why base a China operation in Zhengzhou rather than the coast?</summary>
+          <p>Zhengzhou sits at the geographic centre of China with a Tier-1 air-cargo hub (CGO passed one million tonnes of cargo in 2025) and a major China–Europe rail node, while inland costs are materially lower than the coast — wages in Shanghai and Shenzhen are typically 20–40% higher than in inland provinces such as Henan. The result is a base that is cost-competitive but globally connected, rather than a trade-off between cheap and remote.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Is Henan a real manufacturing province or just a logistics hub?</summary>
+          <p>Both. Henan was China's 9th-largest trading province in 2023 and number one in Central China for 12 consecutive years, with foreign trade over 810 billion yuan. Smartphones alone made up 45.6% of its exports (anchored by Foxconn's Zhengzhou campus), and the province also hosts BYD's vast Zhengzhou NEV plant, Yutong and Zhengzhou Nissan, plus deep machinery, grain-processing and building-materials clusters.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What companies already manufacture in Zhengzhou?</summary>
+          <p>Foxconn runs the world's largest iPhone assembly complex in the Airport Economy Zone (150,000–200,000 workers at peak). BYD's Zhengzhou plant produced 545,000 new-energy vehicles in 2024 and is scaling toward over a million a year. Yutong, the world's largest bus and coach manufacturer, is headquartered in Zhengzhou, and Zhengzhou Nissan (Dongfeng-controlled) has built vehicles there since 1993.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What are the risks of basing in Henan, honestly?</summary>
+          <p>The main one is governance and rule-of-law consistency — Henan's business environment is improving and the province actively courts foreign investment, but contract enforcement and dispute resolution still warrant care. The practical answer is experienced local counsel for contracts and structure, aligning with encouraged sectors and key zones, and disciplined supplier vetting and QC. That governance discipline is exactly where a China-based partner adds value.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <CtaSection
+    eyebrow="Your inland basecamp"
+    h2="Thinking about a China base?"
+    body="Tell us what you're trying to do — source, manufacture, or run logistics from China. We'll give you an honest read on whether Zhengzhou fits, from people who've been here 18 years."
+    ctas={[{ href: '/contact/', label: 'Talk to us about Zhengzhou →', variant: 'white' }]}
+  />
+
+</BaseLayout>
+
+<style>
+  .lead-figure { margin: 0; }
+  .lead-figure img { width: 100%; height: auto; border-radius: var(--radius-lg); display: block; }
+  .lead-figure figcaption { font-size: 0.8125rem; color: #6b7280; font-style: italic; padding-top: 0.75rem; line-height: 1.6; max-width: 70ch; }
+
+  .section-head { max-width: 720px; margin-bottom: 2rem; }
+  .section-intro { color: var(--color-slate); margin-top: 1rem; }
+
+  /* PROOF GRID */
+  .proof-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.25rem; margin-top: 1.5rem; }
+  .proof-card { display: flex; flex-direction: column; gap: .375rem; padding: 1.5rem; background: var(--color-white); border: 1px solid rgba(15,33,49,.1); border-radius: var(--radius-md); text-decoration: none; transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease; }
+  .proof-card:hover { transform: translateY(-2px); border-color: var(--color-emerald); box-shadow: 0 6px 20px rgba(26,83,62,.1); }
+  .proof-metric { font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--color-slate); }
+  .proof-value { font-size: 1.75rem; font-weight: 700; color: var(--color-emerald); line-height: 1.05; letter-spacing: -.02em; }
+  .proof-detail { font-size: .875rem; color: #4a4a4a; line-height: 1.5; }
+  .source-note { font-size: .8125rem; color: #8a8a8a; margin-top: 1.5rem; line-height: 1.6; }
+
+  /* PILLAR GRID */
+  .pillar-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin-top: 1rem; }
+  .pillar-card { display: block; padding: 2rem; background: var(--color-white); border: 1px solid rgba(15,33,49,.1); border-radius: var(--radius-md); text-decoration: none; transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease; }
+  .pillar-card:hover { transform: translateY(-2px); border-color: var(--color-emerald); box-shadow: 0 6px 20px rgba(26,83,62,.1); }
+  .pillar-icon { font-size: 2rem; line-height: 1; display: block; margin-bottom: 1rem; }
+  .pillar-card h3 { font-size: 1.25rem; margin-bottom: .625rem; color: var(--color-navy); }
+  .pillar-card p { color: var(--color-slate); font-size: .9375rem; line-height: 1.6; margin-bottom: 1rem; max-width: none; }
+  .pillar-cta { font-weight: 600; color: var(--color-emerald); font-size: .9375rem; }
+
+  /* SPLIT ROW */
+  .split-row { display: grid; grid-template-columns: 1.25fr 1fr; gap: 3.5rem; align-items: center; }
+  .split-text h2 { margin-bottom: 1rem; }
+  .split-text p { color: var(--color-slate); margin-bottom: 1rem; }
+  .split-media img { width: 100%; height: auto; border-radius: var(--radius-lg); }
+  .anchor-list { list-style: none; margin: 1rem 0 1.5rem; padding: 0; display: flex; flex-direction: column; gap: .75rem; }
+  .anchor-list li { position: relative; padding-left: 1.25rem; color: #3a3a3a; line-height: 1.55; font-size: .9375rem; }
+  .anchor-list li::before { content: '▸'; position: absolute; left: 0; color: var(--color-emerald); }
+  .anchor-list strong { color: var(--color-navy); }
+  .inline-link { color: var(--color-emerald); font-weight: 600; font-size: .9375rem; text-decoration: none; }
+  .inline-link:hover { text-decoration: underline; }
+
+  /* FAQ */
+  .faq-updated { font-size: .8125rem; color: #888; margin: .25rem 0 1.5rem; }
+  .faq-list { display: flex; flex-direction: column; gap: 0; }
+  .faq-item { border-bottom: 1px solid rgba(15,33,49,.1); }
+  .faq-item summary { font-weight: 600; font-size: 1rem; color: var(--color-navy); cursor: pointer; padding: 1.25rem 0; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after { content: '+'; font-size: 1.25rem; font-weight: 300; color: var(--color-emerald); flex-shrink: 0; transition: transform .2s ease; }
+  .faq-item[open] summary::after { transform: rotate(45deg); }
+  .faq-item p { padding: 0 0 1.25rem; color: #4a4a4a; font-size: .9375rem; margin: 0; line-height: 1.65; max-width: none; }
+
+  @media (max-width: 900px) {
+    .proof-grid { grid-template-columns: 1fr 1fr; }
+    .pillar-grid { grid-template-columns: 1fr; }
+    .split-row { grid-template-columns: 1fr; gap: 2rem; }
+    .split-media { order: -1; }
+  }
+  @media (max-width: 600px) {
+    .proof-grid { grid-template-columns: 1fr; }
+  }
+</style>
