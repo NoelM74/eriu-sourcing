@@ -71,11 +71,14 @@ const costRows = [
           <a href="/zhengzhou/logistics-connectivity/" class="inline-link">See the logistics that make this work →</a>
         </div>
         <div class="split-media">
-          <img
-            src="/images/zhengzhou-vs-coastal-china-cost-comparison.webp"
-            alt="Cost comparison illustration — central China (Henan / Zhengzhou) versus coastal China (Shanghai, Shenzhen) on land and labour"
-            width="600" height="450" loading="lazy"
-          />
+          <figure class="media-figure">
+            <img
+              src="/images/zhengzhou-vs-coastal-china-cost-comparison.webp"
+              alt="Illustrative landed-cost comparison — Zhengzhou (inland) versus coastal China across labour, factory rent and logistics"
+              width="600" height="450" loading="lazy"
+            />
+            <figcaption>Illustrative only — the figures shown are indicative of the inland cost advantage, not a quote. We model your actual footprint on total cost of ownership.</figcaption>
+          </figure>
         </div>
       </div>
     </div>
@@ -170,6 +173,8 @@ const costRows = [
   .split-text p { color: var(--color-slate); margin-bottom: 1rem; }
   .split-text strong { color: var(--color-navy); }
   .split-media img { width: 100%; height: auto; border-radius: var(--radius-lg); }
+  .media-figure { margin: 0; }
+  .media-figure figcaption { font-size: .8125rem; color: #6b7280; font-style: italic; padding-top: .6rem; line-height: 1.5; }
   .inline-link { color: var(--color-emerald); font-weight: 600; font-size: .9375rem; text-decoration: none; }
   .inline-link:hover { text-decoration: underline; }
   .micro-note { font-size: .875rem; color: #6b7280; font-style: italic; }
