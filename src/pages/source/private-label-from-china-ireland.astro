@@ -1,5 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import TestimonialsSection from '../../components/TestimonialsSection.astro';
+import { getByTags } from '../../data/testimonials.js';
+const privateLabelQuotes = getByTags(['private-label']);
 
 const title = "Private Label Manufacturing in China for Irish Brands | Ériu";
 const description = "OEM and ODM private-label manufacturing direct from verified Chinese factories. Your spec, your branding, your packaging — with sample management, IP protection, and pre-shipment QC.";
@@ -298,6 +301,14 @@ const pageSchemas = [
       </div>
     </div>
   </section>
+
+  <TestimonialsSection
+    items={privateLabelQuotes}
+    layout="grid"
+    eyebrow="Client experience"
+    heading="What brands say about building private label with us"
+    bg="alt"
+  />
 
   <!-- CTA -->
   <section class="section section--emerald">

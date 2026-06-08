@@ -1,7 +1,10 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
+import TestimonialsSection from '../components/TestimonialsSection.astro';
+import { getByTags } from '../data/testimonials.js';
 import { products } from '../data/products.js';
+const contactQuotes = getByTags(['contact-page']);
 
 const title = "Get a Quote — China Sourcing from Ireland | Ériu Sourcing";
 const description = "Send your sourcing brief. Product, quantity, timeline. Factory-level pricing and supplier shortlist within 24 hours. WhatsApp Noel direct.";
@@ -124,6 +127,14 @@ const pageSchemas = [
       </div>
     </div>
   </section>
+
+  <TestimonialsSection
+    items={contactQuotes}
+    layout="strip"
+    eyebrow="Don't take our word for it"
+    heading="What Irish businesses say after their first order."
+    bg="white"
+  />
 
   <section class="form-section section section--alt">
     <div class="container--narrow">

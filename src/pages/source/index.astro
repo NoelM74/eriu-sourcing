@@ -1,7 +1,10 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import TestimonialsSection from '../../components/TestimonialsSection.astro';
+import { getByTags } from '../../data/testimonials.js';
 import { sourcingPages } from '../../data/sourcingPages.js';
+const sourceQuotes = getByTags(['general']);
 
 const title = "Source Products Direct from China to Ireland | Ériu Sourcing";
 const description = "Factory-direct sourcing from China to Ireland across 7 product categories. Electronics, furniture, construction materials, hospitality fit-out, pet supplies, modular buildings, and fiber optic cable.";
@@ -269,6 +272,15 @@ const categoryIcons = {
       </div>
     </div>
   </section>
+
+  <!-- TESTIMONIALS -->
+  <TestimonialsSection
+    items={sourceQuotes}
+    layout="grid"
+    eyebrow="Client results"
+    heading="What Irish businesses achieve with factory-direct sourcing."
+    bg="alt"
+  />
 
   <!-- WHY DIRECT -->
   <section class="section section--alt">

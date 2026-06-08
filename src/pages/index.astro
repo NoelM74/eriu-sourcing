@@ -1,5 +1,8 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import TestimonialsSection from '../components/TestimonialsSection.astro';
+import { getByTags } from '../data/testimonials.js';
+const homepageQuotes = getByTags(['homepage']);
 
 const title = "China Sourcing Agent Ireland | Factory-Direct | Ériu";
 const description = "Buy direct from Chinese factories. No Alibaba middlemen. Pre-shipment QC inspection. CE compliance verified. Save 35–60% vs Irish wholesale.";
@@ -323,6 +326,17 @@ const pageSchemas = [
       </div>
     </div>
   </section>
+
+  <!-- ================================================
+       TESTIMONIALS — rendered only when live quotes exist
+       ================================================ -->
+  <TestimonialsSection
+    items={homepageQuotes}
+    layout="grid"
+    eyebrow="What clients say"
+    heading="Real results, real Irish businesses."
+    bg="white"
+  />
 
   <!-- ================================================
        FAQ — visible Q&A for PAA + GEO signals

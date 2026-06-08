@@ -1,0 +1,310 @@
+---
+/**
+ * TestimonialsSection.astro
+ *
+ * Usage — filter by tag (most common):
+ *   import TestimonialsSection from '../components/TestimonialsSection.astro';
+ *   import { getByTags } from '../data/testimonials.js';
+ *   const quotes = getByTags(['building-materials', 'contact-page']);
+ *   <TestimonialsSection items={quotes} />
+ *
+ * Usage — pin specific testimonials by ID:
+ *   import { getByIds } from '../data/testimonials.js';
+ *   const quotes = getByIds(['sofas-ennis-retail', 'modular-homes-yorkshire']);
+ *   <TestimonialsSection items={quotes} layout="featured" />
+ *
+ * Layouts:
+ *   'grid'     — up to 3 cards in a row (default)
+ *   'featured' — one large card, full-width, quote prominent
+ *   'strip'    — compact single-row cards, good inside existing sections
+ *
+ * Photo modes (auto-detected from item.photos array length):
+ *   0 photos   → initials disc (emerald)
+ *   1 photo    → circular avatar beside attribution
+ *   2–3 photos → inline photo strip below the quote
+ *
+ * The component renders nothing if items is empty — safe to drop on any page.
+ */
+
+interface TestimonialPhoto {
+  src: string;
+  alt: string;
+}
+
+interface TestimonialItem {
+  id: string;
+  name: string;
+  role: string;
+  company: string;
+  location: string;
+  quote: string;
+  photos: TestimonialPhoto[];
+  tags: string[];
+}
+
+interface Props {
+  items: TestimonialItem[];
+  layout?: 'grid' | 'featured' | 'strip';
+  eyebrow?: string;
+  heading?: string;
+  /** bg variant: 'white' | 'alt' (default: 'alt') */
+  bg?: 'white' | 'alt';
+}
+
+const {
+  items,
+  layout = 'grid',
+  eyebrow = 'Client testimonials',
+  heading = 'What our clients say',
+  bg = 'alt',
+} = Astro.props;
+
+if (!items || items.length === 0) {
+  // Render nothing — no live testimonials yet for this filter
+  return;
+}
+
+function initials(name: string, role: string): string {
+  const src = name || role;
+  const parts = src.trim().split(/\s+/);
+  if (parts.length >= 2) return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
+  return src.slice(0, 2).toUpperCase();
+}
+
+function attribution(t: TestimonialItem): string {
+  const nameStr = t.name || t.role;
+  const rest = [t.company, t.location].filter(Boolean).join(', ');
+  return rest ? `${nameStr} — ${rest}` : nameStr;
+}
+---
+
+{items.length > 0 && (
+  <section class={`t-section section ${bg === 'white' ? '' : 'section--alt'}`}>
+    <div class="container">
+      <div class="t-head">
+        {eyebrow && <span class="section-eyebrow">{eyebrow}</span>}
+        {heading && <h2>{heading}</h2>}
+      </div>
+
+      <div class={`t-layout t-layout--${layout}`}>
+        {items.map(t => {
+          const photos = (t.photos ?? []).slice(0, 3);
+          return (
+            <blockquote class={`t-card t-card--${layout} ${photos.length >= 2 ? 't-card--multi-photo' : ''}`}>
+
+              <!-- Quote mark -->
+              <span class="t-quote-mark" aria-hidden="true">"</span>
+
+              <!-- The quote -->
+              <p class="t-text">{t.quote}</p>
+
+              <!-- Multi-photo strip (2–3 images) -->
+              {photos.length >= 2 && (
+                <div class="t-photo-strip">
+                  {photos.map(photo => (
+                    <figure class="t-strip-figure">
+                      <img
+                        src={`/images/${photo.src}`}
+                        alt={photo.alt}
+                        width="220" height="165"
+                        loading="lazy"
+                      />
+                    </figure>
+                  ))}
+                </div>
+              )}
+
+              <!-- Attribution row -->
+              <footer class="t-footer">
+                {photos.length === 1 ? (
+                  <img
+                    class="t-avatar"
+                    src={`/images/${photos[0].src}`}
+                    alt={photos[0].alt}
+                    width="44" height="44"
+                    loading="lazy"
+                  />
+                ) : photos.length === 0 ? (
+                  <span class="t-initials" aria-hidden="true">{initials(t.name, t.role)}</span>
+                ) : null}
+                <cite class="t-cite">{attribution(t)}</cite>
+              </footer>
+
+            </blockquote>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+)}
+
+<style>
+  /* ── SECTION HEAD ── */
+  .t-head { margin-bottom: 2.5rem; max-width: 52ch; }
+  .t-head h2 { margin-top: .5rem; }
+
+  /* ── LAYOUTS ── */
+  .t-layout--grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .t-layout--featured {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 760px;
+    gap: 1.5rem;
+  }
+
+  .t-layout--strip {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.25rem;
+  }
+
+  /* ── CARD BASE ── */
+  .t-card {
+    margin: 0;
+    padding: 2rem;
+    background: var(--color-white);
+    border: 1px solid rgba(15,33,49,.08);
+    border-radius: var(--radius-lg);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+  }
+
+  .t-card--strip {
+    padding: 1.5rem;
+    gap: .875rem;
+  }
+
+  .t-card--featured {
+    padding: 2.5rem;
+    border-left: 4px solid var(--color-emerald);
+    background: rgba(26,83,62,.03);
+  }
+
+  /* ── QUOTE MARK ── */
+  .t-quote-mark {
+    display: block;
+    font-size: 3.5rem;
+    line-height: .7;
+    color: var(--color-emerald);
+    opacity: .25;
+    font-family: Georgia, serif;
+    user-select: none;
+    margin-bottom: -.25rem;
+  }
+
+  .t-card--featured .t-quote-mark {
+    font-size: 5rem;
+    opacity: .2;
+  }
+
+  /* ── QUOTE TEXT ── */
+  .t-text {
+    font-size: .9375rem;
+    color: var(--color-navy);
+    line-height: 1.7;
+    margin: 0;
+    flex: 1;
+    max-width: none;
+  }
+
+  .t-card--featured .t-text {
+    font-size: 1.125rem;
+    line-height: 1.75;
+  }
+
+  .t-card--strip .t-text {
+    font-size: .875rem;
+  }
+
+  /* ── MULTI-PHOTO STRIP ── */
+  .t-photo-strip {
+    display: flex;
+    gap: .625rem;
+    margin-top: .25rem;
+  }
+
+  .t-strip-figure {
+    margin: 0;
+    flex: 1;
+    min-width: 0;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    aspect-ratio: 4 / 3;
+  }
+
+  .t-strip-figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* ── FOOTER / ATTRIBUTION ── */
+  .t-footer {
+    display: flex;
+    align-items: center;
+    gap: .875rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(15,33,49,.07);
+    margin-top: auto;
+  }
+
+  /* Single circular avatar photo */
+  .t-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 2px solid rgba(26,83,62,.15);
+  }
+
+  /* Initials disc — text-only fallback */
+  .t-initials {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--color-emerald);
+    color: #fff;
+    font-size: .8125rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    letter-spacing: .04em;
+  }
+
+  .t-cite {
+    font-size: .8125rem;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--color-slate);
+    line-height: 1.45;
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 900px) {
+    .t-layout--grid,
+    .t-layout--strip {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .t-layout--grid,
+    .t-layout--strip {
+      grid-template-columns: 1fr;
+    }
+    .t-card--featured { padding: 1.5rem; }
+    /* Keep thumbnails in a row on mobile — a stacked column gets too tall */
+    .t-photo-strip { gap: .5rem; }
+  }
+</style>
