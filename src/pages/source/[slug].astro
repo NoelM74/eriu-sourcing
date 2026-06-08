@@ -4,8 +4,10 @@ import PageHero from '../../components/PageHero.astro';
 import StatsRow from '../../components/StatsRow.astro';
 import FAQAccordion from '../../components/FAQAccordion.astro';
 import CtaSection from '../../components/CtaSection.astro';
+import TestimonialsSection from '../../components/TestimonialsSection.astro';
 import { sourcingPages } from '../../data/sourcingPages.js';
 import { products } from '../../data/products.js';
+import { getByTags } from '../../data/testimonials.js';
 
 export async function getStaticPaths() {
   return sourcingPages.map(page => ({
@@ -35,6 +37,18 @@ const caseStudyMap: Record<string, { anchor: string; label: string }> = {
   'hospitality-fitout-from-china-ireland': { anchor: 'hospitality', label: 'Hospitality Fit-Out case study' },
 };
 const caseStudy = caseStudyMap[page.slug] ?? null;
+
+// Pull category-matched client testimonials for this pillar. Pages with no
+// matching live quote render nothing (the component is self-gating).
+const testimonialTagMap: Record<string, string[]> = {
+  'furniture-from-china-ireland': ['furniture'],
+  'construction-materials-from-china-ireland': ['building-materials'],
+  'building-materials-production-systems-from-china-ireland': ['building-materials'],
+  'modular-buildings-from-china-ireland': ['modular-buildings'],
+  'industrial-workshop-equipment-from-china-ireland': ['industrial-equipment'],
+  'logistics-warehouse-equipment-from-china-ireland': ['logistics'],
+};
+const categoryQuotes = getByTags(testimonialTagMap[page.slug] ?? []);
 
 // BreadcrumbList JSON-LD is emitted by the <Breadcrumbs> component itself.
 const pageSchemas = [
@@ -240,6 +254,14 @@ const pageSchemas = [
       <FAQAccordion items={page.faq} />
     </div>
   </section>
+
+  <TestimonialsSection
+    items={categoryQuotes}
+    layout="grid"
+    eyebrow="Client experience"
+    heading={`What buyers say about sourcing ${page.eyebrow.toLowerCase()} with us`}
+    bg="white"
+  />
 
   <CtaSection
     eyebrow="Ready to start?"
