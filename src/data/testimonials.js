@@ -86,7 +86,11 @@ export const testimonials = [
     location: 'Limerick City, Ireland',
     quote: 'Before Brexit we were buying our high-end bathrooms from wholesalers in the UK, but then needed to shift our supply base. Ériu helped us find some amazing products at 30–40% less than we had previously been paying, and helped with every step including the shipping by sea to Ireland. Great company to work with.',
     tags: ['building-materials', 'contact-page'],
-    photos: [],
+    photos: [
+      { src: 'luxury-apartment-ireland-project-1.webp', alt: 'Stone-tiled bathroom in a luxury apartment complex in Ireland, fitted out with interior finishes sourced through Ériu' },
+      { src: 'luxury-apartment-ireland-project-2.webp', alt: 'Marble kitchen island and cabinetry in the luxury Irish apartment fit-out, sourced through Ériu' },
+      { src: 'luxury-apartment-ireland-project-3.webp', alt: 'Stone media wall in the luxury apartment living space, part of the Ériu-sourced interior finishes' },
+    ],
   },
   {
     id: 'modular-yorkshire',
