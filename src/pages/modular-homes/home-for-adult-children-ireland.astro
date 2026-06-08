@@ -7,10 +7,11 @@ const canonical = "/modular-homes/home-for-adult-children-ireland/";
 const siteUrl = "https://eriusourcing.com";
 
 // ── PRICING ─────────────────────────────────────────────────────────────
-// Set `allIn` to the confirmed all-in INSTALLED cost (unit + freight + duty/VAT
-// + foundation + crane + services + BER) for a fully-fitted, compliant A2 unit,
-// e.g. '€64,000'. While null, the page shows a graceful "we'll model it" line —
-// no placeholder is ever published.
+// Installed cost is ALWAYS site-specific (foundation, crane, services and BER
+// vary per build), so there is no single all-in figure to publish — the
+// site-specific "we'll model it for your site" copy below is canonical, not a
+// placeholder. `allIn` stays null by design; the optional fixed-figure branch
+// is retained only if a representative "from €X all-in" is ever agreed.
 const allIn: string | null = null;
 const startPrice = "€25,000";
 const irishBuilt = "€110,000–€180,000";
@@ -70,7 +71,8 @@ const pageSchemas = [
       <span class="section-eyebrow">A home for your son or daughter · on the ground you already own</span>
       <h1>They're 31. They're working. They still can't move out.</h1>
       <p class="lead">You did everything right. So did they. And still the maths won't close: the rent eats the deposit, the deposit never grows, and another year goes by with a grown adult back in the box room.</p>
-      <p>You're not unusual, and neither are they. At the last census, around <strong>41% of Irish adults aged 18 to 34 were still living with their parents</strong> — and among 25-to-29-year-olds, roughly a third. That isn't a failure of effort. It's a country tens of thousands of homes a year short, with rent past €2,000 a month and a deposit that runs faster than anyone can save.</p>
+      <p>You're not unusual, and neither are they. In Census 2022, <strong>41% of Irish adults aged 18 to 34 were living with their parents</strong> — over 440,000 grown adults, up from 32% in 2011. That isn't a failure of effort. It's a country tens of thousands of homes a year short, with rent past €2,000 a month and a deposit that runs faster than anyone can save.</p>
+      <p class="stat-source">Source: <a href="https://www.cso.ie/en/releasesandpublications/ep/p-cpp3/censusofpopulation2022profile3-householdsfamiliesandchildcare/adultslivingwiththeirparents/" rel="nofollow noopener" target="_blank">CSO, Census 2022 — Adults Living with Their Parents</a>.</p>
       <p>For most parents there are only two options, and both hurt. Hand over a deposit you can't really spare — or watch them stay stuck. There is now a third.</p>
       <div class="hero-cta"><a href="/contact/?interest=modular-quote" class="btn btn--primary">Request a site review →</a></div>
     </div>
@@ -126,7 +128,7 @@ const pageSchemas = [
       <span class="section-eyebrow">The honest answer</span>
       <h2>"But is it actually any good?"</h2>
       <p>It's a fair question, and the honest answer is the reason people choose us. Yes, it costs a fraction of the Irish-built price — and no, we did not cut the things that matter.</p>
-      <p>Every unit is specified to the Irish Building Regulations (TGD Parts A–M), carries an A2 BER on a correctly installed unit, and is weatherproofed for the Irish climate before it's built — wet, windy, frost and all. It ships with a written compliance pack, is photographed at the factory, again at Dublin Port, and again on site before craning, and is backed by a {warrantyClaim}.</p>
+      <p>Every unit is specified to the Irish Building Regulations (TGD Parts A–M), carries an A2 BER on a correctly installed unit, and is weatherproofed for the Irish climate before it's built — wet, windy, frost and all. It ships with a written compliance pack, is photographed at the factory, again at Dublin Port, and again on site before craning, and is backed by a {warrantyClaim} — given by the factory and carried by Ériu, so your point of contact stays in Ireland.</p>
       <p>The saving comes from one place only: our founder, Noel, has been an Irish sourcing agent based in Henan since 2008. We buy direct from the factories that build these units, inspect every one in person, and remove the European middleman markup. We didn't make it cheaper. We made it direct.</p>
       <a href="/modular-homes/building-regulations-ireland/" class="inline-link">The full Building Regulations breakdown — what the factory certifies, what happens on site, and how you get your BER →</a>
     </div>
@@ -186,6 +188,8 @@ const pageSchemas = [
   .callout { padding: 1.25rem 1.5rem; background: rgba(196,122,77,.08); border-left: 4px solid #c47a4d; border-radius: 0 8px 8px 0; font-size: .9375rem; color: #4a4a4a; margin-top: 1.5rem; line-height: 1.7; }
   .inline-link { color: var(--color-emerald); font-weight: 600; font-size: .9375rem; text-decoration: none; }
   .inline-link:hover { text-decoration: underline; }
+  .stat-source { font-size: .8125rem; color: #7a7a7a; margin: -.25rem 0 1rem; }
+  .stat-source a { color: #7a7a7a; text-decoration: underline; }
 
   @media (max-width: 900px) { .trust-divider { display: none; } }
 </style>

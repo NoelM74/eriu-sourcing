@@ -7,11 +7,11 @@ const canonical = "/modular-homes/rental-income-garden-home-ireland/";
 const siteUrl = "https://eriusourcing.com";
 
 // ── PRICING / YIELD ─────────────────────────────────────────────────────
-// Set `allInNum` to the confirmed all-in INSTALLED cost (a plain number, e.g.
-// 64000). The yield % and payback then compute and render automatically. While
-// null, the page shows the mechanism + a "we'll model your exact yield" route —
-// never a naked placeholder, and (per policy) the single yield % appears ONLY
-// on this Income page.
+// Installed cost is ALWAYS site-specific, so the yield is modelled per quote
+// rather than published as a fixed %: the "we'll model your exact yield" route
+// below is canonical, not a placeholder. `allInNum` stays null by design; the
+// optional computed branch is retained only if a representative worked example
+// is ever agreed. Per policy, the single yield % lives ONLY on this Income page.
 const allInNum: number | null = null;
 const annualRent = 13800;                 // €1,150/mo, just under the €14,000 ceiling
 const allIn = allInNum ? `€${allInNum.toLocaleString('en-IE')}` : null;
@@ -114,7 +114,7 @@ const pageSchemas = [
       <span class="section-eyebrow">Why this works at all</span>
       <h2>The reason the yield is this strong is the entry price</h2>
       <p>The 20ft Expandable starts at <strong>{startPrice} delivered</strong> and reaches a fully-fitted, rentable, BER-A2 home at a fraction of the {irishBuilt} an Irish-built equivalent costs. The yield maths that follows is simply a function of that.</p>
-      <p>It's possible because our founder has sourced direct from the Henan factories since 2008 and inspects every unit in person. Factory-direct, not corner-cut: same compliance, same A2 BER, same {warrantyClaim}.</p>
+      <p>It's possible because our founder has sourced direct from the Henan factories since 2008 and inspects every unit in person. Factory-direct, not corner-cut: same compliance, same A2 BER, and the same {warrantyClaim} — given by the factory and carried by Ériu, so the cover is held here in Ireland.</p>
       <a href="/modular-homes/cost/" class="inline-link">See the full cost breakdown →</a>
     </div>
   </section>
