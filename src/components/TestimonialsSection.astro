@@ -26,6 +26,11 @@
  * The component renders nothing if items is empty — safe to drop on any page.
  */
 
+interface TestimonialPhoto {
+  src: string;
+  alt: string;
+}
+
 interface TestimonialItem {
   id: string;
   name: string;
@@ -33,7 +38,7 @@ interface TestimonialItem {
   company: string;
   location: string;
   quote: string;
-  photos: string[];
+  photos: TestimonialPhoto[];
   tags: string[];
 }
 
@@ -82,49 +87,52 @@ function attribution(t: TestimonialItem): string {
       </div>
 
       <div class={`t-layout t-layout--${layout}`}>
-        {items.map(t => (
-          <blockquote class={`t-card t-card--${layout} ${t.photos.length >= 2 ? 't-card--multi-photo' : ''}`}>
+        {items.map(t => {
+          const photos = (t.photos ?? []).slice(0, 3);
+          return (
+            <blockquote class={`t-card t-card--${layout} ${photos.length >= 2 ? 't-card--multi-photo' : ''}`}>
 
-            <!-- Quote mark -->
-            <span class="t-quote-mark" aria-hidden="true">"</span>
+              <!-- Quote mark -->
+              <span class="t-quote-mark" aria-hidden="true">"</span>
 
-            <!-- The quote -->
-            <p class="t-text">{t.quote}</p>
+              <!-- The quote -->
+              <p class="t-text">{t.quote}</p>
 
-            <!-- Multi-photo strip (2–3 images) -->
-            {t.photos.length >= 2 && (
-              <div class="t-photo-strip">
-                {t.photos.map((photo, i) => (
-                  <figure class="t-strip-figure">
-                    <img
-                      src={`/images/${photo}`}
-                      alt={`${t.company} — ${t.role}, ${t.location}`}
-                      width="220" height="165"
-                      loading="lazy"
-                    />
-                  </figure>
-                ))}
-              </div>
-            )}
+              <!-- Multi-photo strip (2–3 images) -->
+              {photos.length >= 2 && (
+                <div class="t-photo-strip">
+                  {photos.map(photo => (
+                    <figure class="t-strip-figure">
+                      <img
+                        src={`/images/${photo.src}`}
+                        alt={photo.alt}
+                        width="220" height="165"
+                        loading="lazy"
+                      />
+                    </figure>
+                  ))}
+                </div>
+              )}
 
-            <!-- Attribution row -->
-            <footer class="t-footer">
-              {t.photos.length === 1 ? (
-                <img
-                  class="t-avatar"
-                  src={`/images/${t.photos[0]}`}
-                  alt={`${t.name || t.role}, ${t.company}`}
-                  width="44" height="44"
-                  loading="lazy"
-                />
-              ) : t.photos.length === 0 ? (
-                <span class="t-initials" aria-hidden="true">{initials(t.name, t.role)}</span>
-              ) : null}
-              <cite class="t-cite">{attribution(t)}</cite>
-            </footer>
+              <!-- Attribution row -->
+              <footer class="t-footer">
+                {photos.length === 1 ? (
+                  <img
+                    class="t-avatar"
+                    src={`/images/${photos[0].src}`}
+                    alt={photos[0].alt}
+                    width="44" height="44"
+                    loading="lazy"
+                  />
+                ) : photos.length === 0 ? (
+                  <span class="t-initials" aria-hidden="true">{initials(t.name, t.role)}</span>
+                ) : null}
+                <cite class="t-cite">{attribution(t)}</cite>
+              </footer>
 
-          </blockquote>
-        ))}
+            </blockquote>
+          );
+        })}
       </div>
     </div>
   </section>
@@ -296,7 +304,7 @@ function attribution(t: TestimonialItem): string {
       grid-template-columns: 1fr;
     }
     .t-card--featured { padding: 1.5rem; }
-    .t-photo-strip { flex-direction: column; }
-    .t-strip-figure { aspect-ratio: 16 / 9; }
+    /* Keep thumbnails in a row on mobile — a stacked column gets too tall */
+    .t-photo-strip { gap: .5rem; }
   }
 </style>

@@ -30,7 +30,11 @@ export const testimonials = [
     location: 'Co. Longford, Ireland',
     quote: 'Noel helped us source a large shredder to recycle mattresses. He visited and verified the factory, gave us a walkaround of the production area over WhatsApp, checked the shredder before shipping and also helped us with the shipment to Ireland. It was great to have an Irish person on the ground to explain things to.',
     tags: ['industrial-equipment', 'general', 'homepage'],
-    photos: [],
+    photos: [
+      { src: 'shredder-longford-project-2.webp', alt: "Ériu's Noel beside the green industrial mattress shredder at the manufacturer's factory in Henan, China" },
+      { src: 'shredder-longford-project-1.webp', alt: 'Noel from Ériu Sourcing at the Henan recycling-machinery factory before the shredder shipped to Ireland' },
+      { src: 'shredder-longford-project-3.webp', alt: 'The recycling and material-separation line inspected at the factory before shipment to Co. Longford' },
+    ],
   },
   {
     id: 'building-materials-sydney',
@@ -41,7 +45,11 @@ export const testimonials = [
     location: 'Sydney, Australia',
     quote: "We've been working with Ériu and Noel for a number of years now to source building materials for large commercial and residential projects here in Australia. I visit China twice a year to see the factories, and besides that Noel and his team look after everything else all year round. Highly recommended.",
     tags: ['building-materials', 'general', 'homepage'],
-    photos: [],
+    photos: [
+      { src: 'sydney-building-materials-project-1.webp', alt: 'Cladding and façade materials installed on a commercial building in Sydney, sourced through Ériu' },
+      { src: 'sydney-building-materials-project-2.webp', alt: 'Aluminium-framed glazed doors and window profiles fitted on an Australian building project' },
+      { src: 'sydney-building-materials-project-3.webp', alt: 'Palletised building materials delivered to the Sydney project site' },
+    ],
   },
   {
     id: 'packaging-qc-wicklow',
@@ -52,7 +60,11 @@ export const testimonials = [
     location: 'Co. Wicklow, Ireland',
     quote: "The Ériu team helped us find three manufacturers to trial for our specific product packaging, then shipped us samples by DHL. They also had the packaging tested at a lab to make sure it was really up to the job. We've since enlisted their help finding sustainable shipping packaging to add to our products' eco credentials.",
     tags: ['private-label', 'qc', 'general'],
-    photos: [],
+    photos: [
+      { src: 'wicklow-packaging-project-1.webp', alt: 'Noel from Ériu visiting a shortlisted packaging manufacturer in Dongguan, China' },
+      { src: 'wicklow-packaging-project-2.webp', alt: 'Packaging production line at one of the manufacturers trialled for the Wicklow brand' },
+      { src: 'wicklow-packaging-project-3.webp', alt: 'Packaging machinery used to produce and test the sample runs before shipping to Ireland' },
+    ],
   },
   {
     id: 'promotional-galway',
@@ -85,7 +97,10 @@ export const testimonials = [
     location: 'East Yorkshire, UK',
     quote: "We've been in the modular cabin building business for over 30 years, and were delighted to add Ériu as a supplier 10 years ago. They supply top-quality, certified materials and components. Thanks.",
     tags: ['modular-buildings', 'building-materials'],
-    photos: [],
+    photos: [
+      { src: 'modular-cabin-build-project-1.webp', alt: 'A modular cabin unit being assembled with certified materials and components supplied through Ériu' },
+      { src: 'modular-cabin-build-project-2.webp', alt: 'Steel frame of an expandable modular building under construction at the factory' },
+    ],
   },
   {
     id: 'sofas-midlands',
