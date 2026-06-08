@@ -2009,6 +2009,283 @@ export const blogPosts = [
   },
 
   {
+    slug: 'adult-children-living-at-home-ireland-garden-home',
+    title: "Your Adult Child Can't Move Out. Your Back Garden Might Be the Answer.",
+    metaTitle: "Adult Children Living at Home in Ireland: The Garden Option | Ériu",
+    metaDescription: "41% of Irish 18–34s still live with their parents. A self-contained home in the back garden — from €25,000 delivered, built under the draft 2026 rules — is becoming the third option. Here's how it works.",
+    h1: "Your adult child can't move out. Your back garden might be the answer.",
+    eyebrow: 'The Housing Squeeze',
+    category: 'modular-homes',
+    primaryKeyword: 'adult children living at home Ireland',
+    secondaryKeywords: ['back garden home for son', 'granny flat for adult child Ireland', 'home for grown children Ireland', 'modular home for adult child'],
+    intent: 'commercial',
+    targetReader: 'Parents of working adult children who still live at home because they cannot afford to rent or buy',
+    estimatedWordCount: 1250,
+    publishDate: '2026-06-08',
+    draft: false,
+    body: `<p>They're in their late twenties or early thirties. They're working — maybe doing well. And they're still in the box room they grew up in, because the maths of moving out simply won't close. The rent eats the deposit; the deposit never grows; another year goes by.</p>
+
+<p>If that's your house, the first thing worth saying is: you are not unusual, and neither are they.</p>
+
+<h2>440,000 grown adults, and counting</h2>
+
+<p>In Census 2022, <strong>41% of Irish adults aged 18 to 34 were living with their parents</strong> — more than 440,000 people, up from 32% in 2011 (<a href="https://www.cso.ie/en/releasesandpublications/ep/p-cpp3/censusofpopulation2022profile3-householdsfamiliesandchildcare/adultslivingwiththeirparents/" target="_blank" rel="noopener noreferrer">CSO, Census 2022</a>). That isn't a generation that didn't try hard enough. It's a country tens of thousands of homes a year short, with rents past €2,000 a month in much of the State.</p>
+
+<p>For most parents there have only ever been two responses, and both hurt: hand over a deposit you can't really spare, or watch a capable adult stay stuck. As of 2026, there is a third.</p>
+
+<h2>The third option: a home of their own, twenty steps away</h2>
+
+<p>On 21 April 2026 the Government brought draft Exempted Development Regulations to Cabinet. If enacted as drafted, they create a new category of home — a detached, self-contained dwelling of 32 to 45 m² in the rear garden of a principal house — that would need no full planning permission where the conditions are met, including linking its services to the main house.</p>
+
+<p>That is not a glorified shed. It's a real one-bedroom home: their own front door, their own kitchen, their own bathroom, their own life — close enough that family stays family, independent enough that they're finally living rather than waiting.</p>
+
+<p>It is important to be straight about the status: these regulations are <strong>still in draft and not yet enacted</strong>, and they remain subject to environmental assessment. The sensible first step is always a site review against the current draft conditions — <a href="/modular-homes/auxiliary-dwelling-ireland/">we set out exactly what the rules say here</a>.</p>
+
+<h2>For the price of a small car — not a deposit you'll never see again</h2>
+
+<p>This is what makes it finally realistic for ordinary families: it doesn't cost what a house costs. A unit like the Ériu 20ft Expandable — which opens to roughly 34 m² in a single working day — <strong>starts from €25,000 delivered</strong> for a basic but livable specification, including sea freight and simple furniture, and finishes up to a fully-fitted, compliant, A2-BER home for a fraction of the €110,000–€180,000 an Irish-built equivalent typically costs.</p>
+
+<p>Because the foundation, crane, services connection and BER differ from one garden to the next, there is no single all-in figure to quote honestly — so we model the exact number for your site and itemise every line. What's certain is the comparison most parents come back to: a deposit handed over is gone, while a home built on your own ground is an asset that stays in the family and keeps working long after they've found their feet.</p>
+
+<p>If you want to see the buyer's-eye version of all this — the layouts, the spec, and how families are using it — <a href="/modular-homes/home-for-adult-children-ireland/">we've laid it out on one page here</a>.</p>
+
+<h2>What it takes — told straight</h2>
+
+<p>We would rather you knew this now than after you'd signed. Two things matter most:</p>
+
+<ul>
+  <li><strong>Planning-exempt is not building-regulations-exempt.</strong> Even under the draft rules, a back-garden home still needs a Commencement Notice, services connected from your house, a foundation, and a BER on completion. Every Ériu unit is specified to the Irish Building Regulations (TGD Parts A–M) and ships with a full compliance pack; our vetted Irish installer network handles the site phase. <a href="/modular-homes/building-regulations-ireland/">Here's exactly what that involves.</a></li>
+  <li><strong>The mortgage point.</strong> Most Irish lenders will not currently mortgage a property that has a second self-contained dwelling on the same title, which can affect remortgaging and resale. Many families therefore fund the unit from savings, a credit union loan or a personal loan rather than the house mortgage. We provide a written briefing on this with every quote — and you should confirm the position with your solicitor.</li>
+</ul>
+
+<p>None of that is a reason not to do it. It's the difference between a complete, lawful, occupiable home and a box with a problem attached — which is the whole reason to buy from an Irish-owned company that inspects every unit in person and answers the phone here.</p>
+
+<p>If your back garden is big enough, the box room might not have to be forever.</p>`,
+    excerpt: 'With 41% of Irish 18–34s still living at home, a self-contained back-garden home — built under the draft 2026 rules — has become a realistic third option for parents. What it is, what it costs, and what it takes.',
+    image: '/images/modular-homes-interior.webp',
+    imageAlt: 'A clean, fully-fitted modular kitchen — a self-contained back-garden home for an adult child in Ireland',
+    sections: [
+      'The scale of the problem: 440,000 adults living at home',
+      'The third option: a self-contained back-garden home',
+      'What it costs — and why it is site-specific',
+      'What it takes: building regs, services and the mortgage point',
+    ],
+    faq: [
+      { q: 'Can I legally build a home for my adult child in my back garden?', a: 'Under the draft April 2026 Exempted Development Regulations — which are subject to environmental assessment and not yet enacted — a detached self-contained dwelling of 32 to 45 m² in the rear garden of a principal house could be built without full planning permission where the conditions are met, including linking services to the main house. It must still meet the Irish Building Regulations and carry a BER. Start with a site review against the current draft conditions, and confirm the position with your local authority and solicitor.' },
+      { q: 'How much would a back-garden home for my son or daughter cost?', a: 'A unit like the Ériu 20ft Expandable starts from €25,000 delivered for a basic livable specification and finishes up to a fully-fitted, compliant A2 home for a fraction of the €110,000–€180,000 an Irish-built equivalent costs. Site works — foundation, crane, services, BER — vary per garden, so the all-in installed figure is project-specific and itemised in your quote.' },
+      { q: 'Will building a second home in the garden affect my mortgage?', a: 'Most Irish lenders will not currently mortgage a property that contains a second self-contained dwelling on the same title, which can affect remortgaging and resale. Many families fund the unit from savings or other finance rather than the house mortgage. We provide a written briefing on this with every quote and recommend you confirm the position with your solicitor.' },
+    ],
+    relatedSlugs: ['ireland-april-2026-back-garden-home-rules-explained', 'rent-a-room-garden-home-tax-free-income-ireland', 'downsizing-stay-on-family-land-ireland'],
+    internalLinks: [
+      { text: 'A home for your adult children — see how it works', href: '/modular-homes/home-for-adult-children-ireland/' },
+      { text: 'The April 2026 back-garden rules, explained', href: '/modular-homes/auxiliary-dwelling-ireland/' },
+      { text: 'The 20ft Expandable — layouts and specification', href: '/modular-homes/models/20ft-expandable/' },
+      { text: 'What a back-garden home costs in Ireland', href: '/modular-homes/cost/' },
+      { text: 'Request a site review', href: '/contact/?interest=modular-quote' },
+    ],
+  },
+
+  {
+    slug: 'rent-a-room-garden-home-tax-free-income-ireland',
+    title: "The Quiet Way Irish Homeowners Are Turning a Back Garden Into €14,000 a Year",
+    metaTitle: "Rent-a-Room Garden Home: Tax-Free Income in Ireland | Ériu",
+    metaDescription: "Up to €14,000 a year, tax-free, from a self-contained home on ground you already own — under the Rent-a-Room scheme and the draft 2026 rules. The honest yield maths and the caveats, in the same breath.",
+    h1: "The quiet way Irish homeowners are turning a back garden into €14,000 a year",
+    eyebrow: 'The Income Angle',
+    category: 'modular-homes',
+    primaryKeyword: 'rent a room scheme garden home',
+    secondaryKeywords: ['tax free rental income Ireland', 'garden home rental yield Ireland', 'Rent-a-Room auxiliary dwelling', 'back garden investment Ireland'],
+    intent: 'commercial',
+    targetReader: 'Homeowners with a usable garden and some capital looking for a tax-efficient income from an asset they already own',
+    estimatedWordCount: 1200,
+    publishDate: '2026-06-08',
+    draft: false,
+    body: `<p>There's a shift in Irish property that most people haven't run the numbers on yet. It isn't a new tax break or a clever fund. It's the patch of grass between your kitchen window and the back fence.</p>
+
+<h2>Two rules that have never lined up before</h2>
+
+<p>Draft planning regulations brought to Cabinet in April 2026 would, if enacted as drafted, let you place a self-contained 32–45 m² home in your rear garden with no full planning permission where the conditions are met. Separately, the long-standing Rent-a-Room scheme lets a homeowner earn up to €14,000 a year from a tenant — exempt from income tax, USC and PRSI.</p>
+
+<p>Put a self-contained garden home together with the Rent-a-Room scheme and, for the first time, those two things line up. For a homeowner with a usable garden and some capital, that's not a renovation project. It's an income stream parked on ground you already own.</p>
+
+<p>One honesty note up front, because it matters: these regulations are <strong>still in draft and not yet enacted</strong>, and Rent-a-Room treatment depends on the dwelling being linked to your principal house's services and on your own circumstances. Confirm the tax position with a qualified accountant and the planning position with your solicitor before you rely on any projected return.</p>
+
+<h2>The honest version of the maths</h2>
+
+<p>Let a fully-fitted unit to a single tenant or a couple at, say, €1,150 a month, and that's <strong>€13,800 a year</strong> — just under the €14,000 ceiling. If that income qualifies under the scheme, the saving versus taxed rental income, for a higher-rate taxpayer, is in the order of €5,500 income tax, €1,100 USC and €550 PRSI.</p>
+
+<p>What we will not do is print a single headline "yield %". Here's why that would be dishonest: your yield is simply €13,800 divided by your all-in installed cost, and that cost depends on your foundation, crane, services run and BER — all of which vary from one garden to the next. The only honest figure is the one run against a real quote for your site, so <a href="/modular-homes/rental-income-garden-home-ireland/">we model your exact yield and payback for you</a>, with every cost line shown.</p>
+
+<p>The reason the ratio tends to be strong is the entry price, not spin: a unit like the Ériu 20ft Expandable starts from €25,000 delivered and reaches a fully-fitted, rentable, A2-BER home at a fraction of the €110,000–€180,000 an Irish-built equivalent costs. Lower cost in, same €14,000 ceiling out.</p>
+
+<h2>What a serious investor needs to know — told straight</h2>
+
+<p>An income stream is only as good as its legality and its risks. Three things to weigh:</p>
+
+<ul>
+  <li><strong>The RTA carve-out is proposed, not certain.</strong> The draft rules would carve the auxiliary dwelling out of the Residential Tenancies Acts when let under Rent-a-Room — meaning no RTB registration and no rent-pressure-zone limits. That's a genuine operational advantage over a conventional rental <em>if enacted as drafted</em>. Treat it as proposed until the final wording is law.</li>
+  <li><strong>LPT and insurance.</strong> The unit is expected to get its own LPT band, and your home insurance must be updated to declare the structure — or you risk invalidating cover on the main house. Most insurers quote an uplift rather than a separate policy.</li>
+  <li><strong>Mortgage and resale.</strong> Most Irish lenders will not currently mortgage a property with a second self-contained dwelling on the same title, which has resale and portability implications. Many investors fund the unit through other finance to ring-fence the house mortgage.</li>
+</ul>
+
+<p>We provide a written LPT, insurance and mortgage briefing with every quote, and we'd always say have your solicitor review it. The compliance matters to the income, too: a unit that isn't lawfully occupiable can't be lawfully let, which is why every Ériu home is specified to the Building Regulations and supplied A2-BER-ready with a full compliance pack. <a href="/modular-homes/building-regulations-ireland/">Here's what that covers.</a></p>
+
+<p>The April 2026 rules created the opening. Whether it's a good investment for you comes down to your site and your numbers — so start there, not with a headline.</p>`,
+    excerpt: "Up to €14,000 a year tax-free under the Rent-a-Room scheme, from a self-contained home on ground you already own. The honest yield maths — why we won't print a single headline percentage — and the caveats that matter.",
+    image: '/images/modular-homes-hero-back-garden-ireland.webp',
+    imageAlt: 'A modular back-garden home in Ireland let under the Rent-a-Room scheme — tax-free rental income from an asset you already own',
+    sections: [
+      'Two rules that have never lined up before',
+      'The honest version of the yield maths',
+      'Why we will not print a single headline yield %',
+      'What a serious investor needs to know: RTA, LPT, insurance, mortgage',
+    ],
+    faq: [
+      { q: 'Can I earn tax-free income from a home in my back garden in Ireland?', a: 'Where a self-contained garden dwelling is linked to your principal house services, rental income from a tenant may fall under the Rent-a-Room scheme — up to €14,000 a year exempt from income tax, USC and PRSI. The draft 2026 regulations are also proposed to carve the dwelling out of the Residential Tenancies Acts. The regulations remain in draft and Rent-a-Room treatment depends on your circumstances, so confirm both the planning and tax positions with a qualified accountant and solicitor.' },
+      { q: 'What yield will a garden rental home produce?', a: 'The yield is the tax-free rent (up to €14,000 a year) divided by your all-in installed cost, so it depends on what you spend. Because a factory-direct unit starts from €25,000 delivered and finishes well below an Irish-built equivalent, the ratio is strong — but the only honest figure is the one modelled against a real quote for your site, which we provide.' },
+      { q: 'Do RTB rules and rent-pressure-zone limits apply?', a: 'The draft 2026 regulations are proposed to carve the auxiliary dwelling out of the Residential Tenancies Acts when let under Rent-a-Room — so RTB registration and rent-pressure-zone rules would not apply if enacted as drafted. Treat this as proposed, not certain, until the final wording is enacted, and confirm with your solicitor.' },
+    ],
+    relatedSlugs: ['ireland-april-2026-back-garden-home-rules-explained', 'adult-children-living-at-home-ireland-garden-home', 'downsizing-stay-on-family-land-ireland'],
+    internalLinks: [
+      { text: 'Tax-free rental income from a garden home — and your modelled yield', href: '/modular-homes/rental-income-garden-home-ireland/' },
+      { text: 'The April 2026 back-garden rules, explained', href: '/modular-homes/auxiliary-dwelling-ireland/' },
+      { text: 'Building Regulations and your compliance pack', href: '/modular-homes/building-regulations-ireland/' },
+      { text: 'What a back-garden home costs in Ireland', href: '/modular-homes/cost/' },
+      { text: 'Request your quote and yield breakdown', href: '/contact/?interest=modular-quote' },
+    ],
+  },
+
+  {
+    slug: 'affordable-permanent-home-own-site-ireland',
+    title: "A Real Home, Built to Last 30 Years — for a Fraction of an Irish Build",
+    metaTitle: "Affordable Permanent Modular Home on Your Own Site Ireland | Ériu",
+    metaDescription: "Not a garden room — the actual home, on your own site, built to Irish Building Regulations with an A2 BER and a 30-year warranty, installed in 14–18 weeks for a fraction of a conventional build.",
+    h1: "A real home, built to last 30 years — for a fraction of an Irish build",
+    eyebrow: 'The Self-Build Alternative',
+    category: 'modular-homes',
+    primaryKeyword: 'affordable permanent home own site Ireland',
+    secondaryKeywords: ['permanent modular home Ireland', 'modular home own site Ireland', 'do imported modular homes last', 'first-time buyer modular home Ireland'],
+    intent: 'commercial',
+    targetReader: 'First-time buyers and self-builders who want a permanent home on their own site without a conventional build cost or timeline',
+    estimatedWordCount: 1200,
+    publishDate: '2026-06-08',
+    draft: false,
+    body: `<p>Not everyone wants a garden room. Some people want the actual home — on their own site, with planning, to live in for good. And the thing that has always stood in the way isn't the desire. It's the build.</p>
+
+<p>An Irish-built modular home runs €110,000 to €180,000, takes the best part of a year, and drains the budget before the kitchen is in. For a first-time buyer or a self-builder, that gap is often the difference between a home and a wait. There's now a way to change the price and the timeline without touching the standard.</p>
+
+<h2>What you actually get</h2>
+
+<p>A unit like the Ériu 20ft Expandable arrives folded on one lorry and opens to roughly 34 m² in a single working day. It's specified to the Irish Building Regulations, achieves an A2 BER on a correctly installed unit, and is finished to your tier — a real, warm, permanent home, not a portacabin.</p>
+
+<p>It starts from <strong>€25,000 delivered</strong> and reaches a fully-fitted, compliant home for a fraction of the Irish-built figure. Because the site works vary, the exact all-in number is project-specific and itemised in your quote — but where a conventional build takes nine to twelve months, an Ériu project typically installs in <strong>14 to 18 weeks</strong> from order. For most people, the time saved matters as much as the money. <a href="/modular-homes/permanent-modular-home-ireland/">Here's the full picture for a home on your own site.</a></p>
+
+<p>One honest distinction: on a site of your own, the back-garden auxiliary-dwelling exemption does <strong>not</strong> apply — you will typically need planning permission for a dwelling on its own site. We confirm which route applies at the eligibility review and won't sell you a unit you can't lawfully site.</p>
+
+<h2>The 30-year question: will it last?</h2>
+
+<p>This is the real objection to anything imported, and it deserves a real answer rather than a brochure line.</p>
+
+<p>Every Ériu home is built on a channel-steel base frame, with insulated sandwich panels (upgradeable to PIR for Part L), double-glazed aluminium openings, and — critically — it is specified for the Irish climate <em>before</em> it's built. The U-values, the cladding lap details, the roof falls and the air-tightness are all set for wet, windy, frost-prone conditions, not for somewhere drier.</p>
+
+<p>It carries a <strong>30-year anti-corrosion warranty</strong> — given by the factory and carried by Ériu, so the cover is held here in Ireland. It's photographed at the factory, again at Dublin Port, and again on site before craning, and it's supplied with the full Building Regulations compliance pack. That's the point of buying from an Irish-owned company that inspects every unit in person: when you've a question in year three, you're ringing Ireland, not an anonymous listing.</p>
+
+<h2>How it's this affordable — no mystery, no cut corners</h2>
+
+<p>The saving comes from one place. Our founder, Noel, has been an Irish sourcing agent based in Henan since 2008. We buy direct from the factories that build these homes — the same ones supplying European projects — inspect each one ourselves, and remove the European intermediary margin. Same steel, same insulation, same compliance, direct pricing.</p>
+
+<p>The honest checklist for a home on a site is short and we'll map it before you commit a euro: a foundation to suit your ground, services connected, a Commencement Notice, a BER on completion, and — outside the back-garden exemption — almost always planning permission. Our installer network handles the site works and we co-ordinate the compliance paperwork, so what you end up with is a certified, occupiable home.</p>
+
+<p>A real home doesn't have to mean a real wait, or a price that closes the door before you reach it.</p>`,
+    excerpt: 'The actual home, on your own site — built to the Irish Building Regulations with an A2 BER and a 30-year warranty, installed in 14–18 weeks, for a fraction of a conventional build. Including an honest answer to the durability question.',
+    image: '/images/modular-homes-40ft-expandable.webp',
+    imageAlt: 'A permanent steel-frame modular home on its own site in Ireland — built to last with a 30-year anti-corrosion warranty',
+    sections: [
+      'What you actually get for the money',
+      'The planning distinction on your own site',
+      'The 30-year question: will an imported home last?',
+      'How factory-direct sourcing makes it affordable',
+    ],
+    faq: [
+      { q: 'Can a modular home be a genuine permanent home on my own site?', a: 'Yes. A steel-frame modular home specified to the Irish Building Regulations (TGD Parts A–M) with an A2 BER is a genuine permanent dwelling. On your own site — as opposed to a back garden — the back-garden exemption does not apply and you will typically need planning permission. We confirm which route applies at the eligibility review.' },
+      { q: 'Will an imported modular home survive the Irish climate?', a: 'Every Ériu home is built on a channel-steel base frame with insulated sandwich panels, double-glazed aluminium openings, and is specified for the Irish climate before it is built — U-values, cladding details, roof falls and air-tightness set for wet, windy, frost-prone conditions. It carries a 30-year anti-corrosion warranty, given by the factory and carried by Ériu, and ships with a full compliance pack.' },
+      { q: 'How does the cost and timeline compare with a conventional build?', a: 'A factory-direct unit starts from €25,000 delivered and finishes for a fraction of the €110,000–€180,000 an Irish-built modular home typically costs, installing in around 14 to 18 weeks from order versus the best part of a year for a conventional build. Site works — foundation, services, BER — are additional and itemised in your quote.' },
+    ],
+    relatedSlugs: ['ireland-april-2026-back-garden-home-rules-explained', 'adult-children-living-at-home-ireland-garden-home', 'rent-a-room-garden-home-tax-free-income-ireland'],
+    internalLinks: [
+      { text: 'A permanent home on your own site — see how it works', href: '/modular-homes/permanent-modular-home-ireland/' },
+      { text: 'Building Regulations, BER and the compliance pack', href: '/modular-homes/building-regulations-ireland/' },
+      { text: 'The 20ft Expandable — layouts and specification', href: '/modular-homes/models/20ft-expandable/' },
+      { text: 'What a modular home costs in Ireland', href: '/modular-homes/cost/' },
+      { text: 'Request a quote for your site', href: '/contact/?interest=modular-quote' },
+    ],
+  },
+
+  {
+    slug: 'downsizing-stay-on-family-land-ireland',
+    title: "Downsizing in Ireland Doesn't Have to Mean Leaving",
+    metaTitle: "Downsizing Without Leaving Home: The Garden Option Ireland | Ériu",
+    metaDescription: "Rightsize without giving up the family home or the area. A single-storey, level-access garden home from €25,000 delivered, built under the draft 2026 rules — independence with family a few steps away.",
+    h1: "Downsizing in Ireland doesn't have to mean leaving",
+    eyebrow: 'Rightsizing',
+    category: 'modular-homes',
+    primaryKeyword: 'downsizing without leaving home Ireland',
+    secondaryKeywords: ['granny flat Ireland', 'rightsizing Ireland', 'single storey garden home older people', 'level access modular home Ireland'],
+    intent: 'commercial',
+    targetReader: 'Older homeowners considering downsizing who do not want to leave the family home or the area, and their adult children',
+    estimatedWordCount: 1150,
+    publishDate: '2026-06-08',
+    draft: false,
+    body: `<p>Downsizing in Ireland has usually meant a hard trade: give up the family home, leave the area, move somewhere smaller and further from everyone you know. No wonder so many people put it off for years.</p>
+
+<p>There's a gentler option now — and the State is actively encouraging it. By 2030 there will be <strong>over a million people aged 65 and older</strong> in Ireland, up from around 780,000 in 2022 (<a href="https://www.cso.ie/en/releasesandpublications/ep/p-plfp/populationandlabourforceprojections2023-2057/" target="_blank" rel="noopener noreferrer">CSO, Population &amp; Labour Force Projections 2023–2057</a>), and policy is pushing "rightsizing" to free up larger homes for growing families. The same draft 2026 planning rules that allow a back-garden home make it possible to do that without going anywhere at all.</p>
+
+<h2>Your own home, on the family land</h2>
+
+<p>Picture a self-contained home of about 34 m² — bedroom, bathroom, a proper kitchen-living room — in the garden of a family home. Single-storey, no stairs, a level threshold, and door widths built to the access requirements of the Building Regulations (TGD Part M). Independence and privacy, with family a few steps away rather than a drive across the county.</p>
+
+<p>It can work either way round. A parent moves into the garden home while a son or daughter's family takes the main house; or the parent keeps the main house and the adult child takes the unit. Either way the big house is used, and nobody has to leave the place they've spent a life in. <a href="/modular-homes/downsizing-granny-flat-ireland/">We've set out the full picture for downsizers here.</a></p>
+
+<p>As with any back-garden home, this falls under the draft April 2026 exemption, which is subject to environmental assessment and <strong>not yet enacted</strong> — so we review every site against the current draft conditions first.</p>
+
+<h2>Gentle on a fixed budget</h2>
+
+<p>This matters more when you're not earning what you once did. A unit like the Ériu 20ft Expandable starts from <strong>€25,000 delivered</strong> for a basic livable specification and finishes up to a fully-fitted, compliant A2 home for a fraction of the €110,000–€180,000 an Irish-built unit costs — well within reach of savings or the proceeds of freeing up the main house. The exact installed figure depends on your garden and is itemised in your quote.</p>
+
+<p>Because lenders treat a second dwelling on the same title carefully, we always recommend a quick word with your solicitor, and we provide a written briefing with every quote — but in most cases the family home's title isn't disturbed.</p>
+
+<h2>Warm, easy, and built to last</h2>
+
+<p>A home for later life has to be warm, easy and built to last. Every Ériu unit is specified to the Irish Building Regulations, achieves an A2 BER on a correctly installed unit with a heat pump — warm and cheap to run — is weatherproofed for the Irish climate, and carries a 30-year anti-corrosion warranty, given by the factory and carried by Ériu. Single-storey throughout, with level access designed in.</p>
+
+<p>And it's supplied by an Irish-owned company that inspects every unit in person and answers the phone here — which counts for a great deal when it's a home for someone you love. The site phase — foundation, services from the main house, Commencement Notice and BER — is handled by our vetted Irish installer network, with the paperwork co-ordinated across both phases.</p>
+
+<p>Downsizing shouldn't cost you the people and the place you love. On the family land, it doesn't have to.</p>`,
+    excerpt: "With over a million people aged 65+ by 2030, the State is encouraging rightsizing. A single-storey, level-access garden home lets you downsize without leaving the family home or the area — here's how it works.",
+    image: '/images/granny-flat-auxiliary-dwelling-ireland-back-garden.webp',
+    imageAlt: 'A single-storey, level-access granny flat in an Irish back garden — downsizing without leaving the family land',
+    sections: [
+      'Why downsizing has meant leaving — and why it no longer has to',
+      'Your own home on the family land, either way round',
+      'Gentle on a fixed budget',
+      'Warm, level-access, and built to last',
+    ],
+    faq: [
+      { q: 'Can I build a granny flat in the garden to downsize into?', a: 'Under the draft April 2026 Exempted Development Regulations — subject to environmental assessment and not yet enacted — a detached self-contained dwelling of 32 to 45 m² in the rear garden of a principal house could be built without full planning permission where the conditions are met, including linking services to the main house. It must still meet the Irish Building Regulations and carry a BER. We review every site against the current draft conditions first.' },
+      { q: 'Is a garden home suitable for older people?', a: 'Yes. The unit is single-storey with no stairs, a level threshold, and door widths built to the access requirements of the Building Regulations (TGD Part M). It achieves an A2 BER on a correctly installed unit with a heat pump, so it is warm and cheap to run, and carries a 30-year anti-corrosion warranty.' },
+      { q: 'Will it affect the family home if we put a unit in the garden?', a: 'In most cases the family home title is not disturbed, but because lenders treat a second self-contained dwelling on the same title carefully, we recommend confirming the position with your solicitor. We provide a written briefing on title, LPT, insurance and lender considerations with every quote.' },
+    ],
+    relatedSlugs: ['ireland-april-2026-back-garden-home-rules-explained', 'adult-children-living-at-home-ireland-garden-home', 'rent-a-room-garden-home-tax-free-income-ireland'],
+    internalLinks: [
+      { text: 'Downsizing and granny-flat garden homes — see how it works', href: '/modular-homes/downsizing-granny-flat-ireland/' },
+      { text: 'The April 2026 back-garden rules, explained', href: '/modular-homes/auxiliary-dwelling-ireland/' },
+      { text: 'Building Regulations, BER and the compliance pack', href: '/modular-homes/building-regulations-ireland/' },
+      { text: 'What a back-garden home costs in Ireland', href: '/modular-homes/cost/' },
+      { text: 'Request a site review', href: '/contact/?interest=modular-quote' },
+    ],
+  },
+
+  {
     slug: 'how-to-source-ev-chargers-from-china-europe-2026',
     title: 'How to Source EV Chargers from China for European Projects Safely in 2026',
     metaTitle: 'How to Source EV Chargers from China Safely in 2026 | Ériu Sourcing',
