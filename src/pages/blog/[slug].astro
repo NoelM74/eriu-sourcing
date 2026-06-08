@@ -204,14 +204,25 @@ const pageSchemas = [
   )}
 
   <!-- CTA -->
-  <section class="section section--emerald">
-    <div class="container--narrow" style="text-align:center">
-      <span class="section-eyebrow section-eyebrow--light">Take the next step</span>
-      <h2>Send us a brief. We'll find the factory.</h2>
-      <p>Product, quantity, timeline — that's all we need to come back with factory-gate pricing and a clear sourcing plan.</p>
-      <a href="/contact/" class="btn btn--white-outline" style="margin-top:1rem">Get a sourcing quote →</a>
-    </div>
-  </section>
+  {post.category === 'modular-homes' ? (
+    <section class="section section--emerald">
+      <div class="container--narrow" style="text-align:center">
+        <span class="section-eyebrow section-eyebrow--light">No obligation</span>
+        <h2>Get a site review for your back-garden home.</h2>
+        <p>Tell us your site and county. We'll review your garden against the current draft conditions and come back with a factory-direct quote, the compliance pack, and a plain-English briefing. Direct reply from Noel within 24 hours.</p>
+        <a href="/contact/?interest=modular-quote" class="btn btn--white-outline" style="margin-top:1rem">Request a site review →</a>
+      </div>
+    </section>
+  ) : (
+    <section class="section section--emerald">
+      <div class="container--narrow" style="text-align:center">
+        <span class="section-eyebrow section-eyebrow--light">Take the next step</span>
+        <h2>Send us a brief. We'll find the factory.</h2>
+        <p>Product, quantity, timeline — that's all we need to come back with factory-gate pricing and a clear sourcing plan.</p>
+        <a href="/contact/" class="btn btn--white-outline" style="margin-top:1rem">Get a sourcing quote →</a>
+      </div>
+    </section>
+  )}
 
 </BaseLayout>
 
