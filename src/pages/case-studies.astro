@@ -2,6 +2,9 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PageHero from '../components/PageHero.astro';
 import CtaSection from '../components/CtaSection.astro';
+import TestimonialsSection from '../components/TestimonialsSection.astro';
+import { getByTags } from '../data/testimonials.js';
+const caseQuotes = getByTags(['general', 'homepage', 'contact-page']);
 
 const title = "China Sourcing Results for Irish Businesses | Ériu Sourcing";
 const description = "Real results: fashion brand to 8-figure revenue, hotel fit-out at 45% saving, electronics retailer saved 52% on landed cost. Factory-direct from China.";
@@ -123,6 +126,14 @@ const caseStudies = [
       </div>
     </div>
   </section>
+
+  <TestimonialsSection
+    items={caseQuotes}
+    layout="grid"
+    eyebrow="In their own words"
+    heading="What clients say — not what we say about ourselves."
+    bg="white"
+  />
 
   <CtaSection
     eyebrow="Your turn"
