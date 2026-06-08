@@ -1,0 +1,194 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = "Tax-Free Rental Income from a Garden Home Ireland | Ériu";
+const description = "Up to €14,000 a year tax-free under the Rent-a-Room scheme, from a self-contained garden home on ground you already own. The honest yield maths, the draft 2026 rules, and the caveats — in the same breath.";
+const canonical = "/modular-homes/rental-income-garden-home-ireland/";
+const siteUrl = "https://eriusourcing.com";
+
+// ── PRICING / YIELD ─────────────────────────────────────────────────────
+// Set `allInNum` to the confirmed all-in INSTALLED cost (a plain number, e.g.
+// 64000). The yield % and payback then compute and render automatically. While
+// null, the page shows the mechanism + a "we'll model your exact yield" route —
+// never a naked placeholder, and (per policy) the single yield % appears ONLY
+// on this Income page.
+const allInNum: number | null = null;
+const annualRent = 13800;                 // €1,150/mo, just under the €14,000 ceiling
+const allIn = allInNum ? `€${allInNum.toLocaleString('en-IE')}` : null;
+const yieldPct = allInNum ? ((annualRent / allInNum) * 100).toFixed(1) : null;
+const paybackYrs = allInNum ? Math.round(allInNum / annualRent) : null;
+const startPrice = "€25,000";
+const irishBuilt = "€110,000–€180,000";
+const warrantyClaim = "30-year anti-corrosion warranty"; // ⚠ confirm before merge
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Modular Homes", "item": `${siteUrl}/modular-homes/` },
+      { "@type": "ListItem", "position": 3, "name": "Rental Income Garden Home", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "Product",
+    "name": "Ériu 20ft Expandable — Income Garden Home",
+    "description": "A self-contained 34 m² garden home, specified to Irish Building Regulations with an A2 BER, let under the Rent-a-Room scheme for up to €14,000 a year tax-free where eligible.",
+    "brand": { "@type": "Brand", "name": "Ériu Modular Homes" },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": "25000",
+      "priceValidUntil": "2026-12-31",
+      "availability": "https://schema.org/InStock",
+      "description": "Starting price for a basic livable 20ft Expandable delivered to Ireland; fully-fitted and installed cost is project-specific."
+    }
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Can I earn tax-free rental income from a home in my garden in Ireland?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Where a self-contained garden dwelling is linked to the services of your principal house, rental income from a tenant may fall under the Rent-a-Room scheme — up to €14,000 a year exempt from income tax, USC and PRSI. The draft 2026 regulations are also proposed to carve such an auxiliary dwelling out of the Residential Tenancies Acts, so RTB rules would not apply if enacted as drafted. The regulations remain in draft and Rent-a-Room treatment depends on your circumstances, so confirm both the planning position and the tax treatment with a qualified accountant and solicitor before relying on any projected return." }
+      },
+      {
+        "@type": "Question",
+        "name": "What yield does a garden rental home produce?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The yield is simply the tax-free rent (up to €14,000 a year) divided by your all-in installed cost, so it depends on what you spend. Because the Ériu 20ft Expandable starts from €25,000 delivered and a fully-fitted compliant unit lands at a fraction of the €110,000–€180,000 an Irish-built equivalent costs, the ratio is strong — but the only honest figure is the one calculated against a real quote for your site. We model it for you. Tax treatment depends on the unit qualifying and on your circumstances, and the regulations are still in draft." }
+      },
+      {
+        "@type": "Question",
+        "name": "Do RTB rules and rent-pressure-zone limits apply to a garden rental?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The draft 2026 regulations are proposed to carve the auxiliary dwelling out of the Residential Tenancies Acts when linked to the principal house under the Rent-a-Room scheme — so RTB registration and rent-pressure-zone rules would not apply if enacted as drafted. Treat this as proposed, not certain, until the final wording is enacted, and confirm with your solicitor." }
+      }
+    ]
+  }
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} jsonLd={pageSchemas}>
+
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Up to €14,000 a year · tax-free · on ground you already own</span>
+      <h1>Your back garden could be the best-performing asset you own.</h1>
+      <p class="lead">There's a quiet shift in Irish property most people haven't done the maths on yet.</p>
+      <p>Draft planning rules brought to Cabinet in April 2026 would, <strong>if enacted</strong>, let you place a self-contained 32–45 m² home in your rear garden with no full planning permission. And under the Rent-a-Room scheme, the rent it earns you — up to €14,000 a year — could be exempt from income tax, USC and PRSI.</p>
+      <p>For a homeowner with a usable garden and some capital, that's not a renovation. It's an income stream parked between the kitchen window and the back fence.</p>
+      <div class="hero-cta"><a href="/contact/?interest=modular-quote" class="btn btn--primary">Request your quote + yield breakdown →</a></div>
+    </div>
+  </section>
+
+  <!-- THE NUMBERS -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">The numbers, run honestly</span>
+      <h2>Let's do it properly — the honest version is more persuasive than the hyped one</h2>
+      <p>Let a fully-fitted, compliant Ériu unit to a single tenant or couple at €1,150 a month and that's <strong>€13,800 a year</strong> — just under the €14,000 Rent-a-Room ceiling.</p>
+      <p>If that income qualifies under the scheme, the saving versus taxed rental income, for a higher-rate taxpayer, is roughly:</p>
+      <ul class="exempt-list">
+        <li><strong>~€5,500</strong> income tax</li>
+        <li><strong>~€1,100</strong> USC</li>
+        <li><strong>~€550</strong> PRSI</li>
+      </ul>
+
+      {allInNum ? (
+        <div class="yield-box">
+          <p>On an all-in installed cost of <strong>{allIn}</strong>, €13,800 tax-free is a tax-free yield of <strong>~{yieldPct}%</strong>, with a payback of roughly <strong>{paybackYrs} years</strong> — after which it's largely income. <span class="yield-caveat">The regulations are still in draft and not yet enacted; Rent-a-Room treatment depends on the unit being linked to your principal house's services and on your individual circumstances; the final enacted wording could differ. Confirm the tax position with a qualified accountant before relying on any projected return.</span></p>
+        </div>
+      ) : (
+        <div class="yield-box">
+          <p>Your actual yield is simply <strong>€13,800 ÷ your all-in installed cost</strong>, and the payback is the inverse — so the figure is only honest once it's run against a real quote for your site. <strong>We model your exact yield and payback for you</strong>, with every cost line shown. <span class="yield-caveat">The regulations are still in draft and not yet enacted; Rent-a-Room treatment depends on the unit being linked to your principal house's services and on your individual circumstances; the final enacted wording could differ. Confirm the tax position with a qualified accountant before relying on any projected return.</span></p>
+        </div>
+      )}
+      <p>We'd rather you went in clear-eyed than excited and wrong.</p>
+      <div class="hero-cta"><a href="/contact/?interest=modular-quote" class="btn btn--primary">Get my numbers for my site →</a></div>
+    </div>
+  </section>
+
+  <!-- WHY IT WORKS: ENTRY PRICE -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Why this works at all</span>
+      <h2>The reason the yield is this strong is the entry price</h2>
+      <p>The 20ft Expandable starts at <strong>{startPrice} delivered</strong> and reaches a fully-fitted, rentable, BER-A2 home at a fraction of the {irishBuilt} an Irish-built equivalent costs. The yield maths that follows is simply a function of that.</p>
+      <p>It's possible because our founder has sourced direct from the Henan factories since 2008 and inspects every unit in person. Factory-direct, not corner-cut: same compliance, same A2 BER, same {warrantyClaim}.</p>
+      <a href="/modular-homes/cost/" class="inline-link">See the full cost breakdown →</a>
+    </div>
+  </section>
+
+  <!-- INVESTOR CAVEATS -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Before you sign</span>
+      <h2>What a serious investor needs to know — told straight</h2>
+      <div class="caveat-grid">
+        <div class="caveat-card">
+          <h3>RTA carve-out is proposed, not certain</h3>
+          <p>The draft regulations propose to carve the auxiliary dwelling out of the Residential Tenancies Acts — so RTB registration and rent-pressure-zone rules would not apply. That's a genuine operational advantage over a conventional rental <em>if enacted as drafted</em>. Treat it as proposed, not certain.</p>
+        </div>
+        <div class="caveat-card">
+          <h3>LPT and insurance</h3>
+          <p>The unit is expected to receive its own LPT band separate from your house, and your home insurance must be updated to declare the structure — or you risk invalidating cover on the principal house. Most insurers quote an uplift rather than a separate policy.</p>
+        </div>
+        <div class="caveat-card">
+          <h3>Mortgage and resale</h3>
+          <p>Most Irish lenders will not currently mortgage a property with a second self-contained dwelling on the same title, which has resale and portability implications. Many investors fund the unit through other finance specifically to ring-fence the house mortgage.</p>
+        </div>
+      </div>
+      <p class="callout">We provide a written LPT, insurance and mortgage briefing with every quote, and recommend your solicitor reviews it. <a href="/modular-homes/auxiliary-dwelling-ireland/" class="inline-link">Full detail on the financial and legal treatment is here.</a></p>
+    </div>
+  </section>
+
+  <!-- COMPLIANCE PROTECTS INCOME -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Compliance protects the income</span>
+      <h2>An income stream is only as good as its legality</h2>
+      <p>Every Ériu unit is specified to Building Regulations (TGD Parts A–M), supplied BER-ready to A2, and delivered with a full compliance pack and a path through the Commencement Notice and BER assessment. A unit that isn't lawfully occupiable can't be lawfully let — so the compliance is part of the investment case.</p>
+      <a href="/modular-homes/building-regulations-ireland/" class="inline-link">See exactly what that involves →</a>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--emerald">
+    <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">Every figure shown honestly</span>
+      <h2>Get your site reviewed and your yield modelled.</h2>
+      <p>Send us your site, county and target spec. We'll come back with a factory-direct quote, your specific yield breakdown, and the LPT/insurance/finance briefing. Direct reply from Noel within 24 hours.</p>
+      <a href="/contact/?interest=modular-quote" class="btn btn--white-outline" style="margin-top:1rem">Request your quote + yield breakdown →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  .page-hero { background: var(--color-bg-alt); padding: 4.5rem 0 3rem; border-bottom: 1px solid rgba(15,33,49,.08); }
+  .page-hero h1 { font-size: clamp(2rem, 4vw, 3.25rem); margin: .75rem 0 1.25rem; line-height: 1.15; }
+  .lead { font-size: 1.1875rem; color: var(--color-navy); line-height: 1.7; margin: 0 0 1rem; max-width: 64ch; font-weight: 500; }
+  .page-hero p { color: #3a3a3a; line-height: 1.7; margin: 0 0 1rem; max-width: 64ch; }
+  .hero-cta { margin-top: 1.5rem; }
+
+  .section h2 { margin-bottom: 1rem; }
+  .section h3 { font-size: 1.0625rem; margin: 0 0 .5rem; color: var(--color-navy); }
+  .section p { color: #3a3a3a; line-height: 1.75; margin-bottom: 1rem; }
+  .section--emerald p { color: rgba(255,255,255,0.88); }
+  .section--emerald h2 { color: #fff; }
+  .exempt-list { list-style: disc; padding-left: 1.5rem; margin: 1rem 0; display: flex; flex-direction: column; gap: .4rem; }
+  .exempt-list li { font-size: .9375rem; color: #3a3a3a; }
+  .inline-link { color: var(--color-emerald); font-weight: 600; font-size: .9375rem; text-decoration: none; }
+  .inline-link:hover { text-decoration: underline; }
+  .callout { padding: 1.25rem 1.5rem; background: rgba(196,122,77,.08); border-left: 4px solid #c47a4d; border-radius: 0 8px 8px 0; font-size: .9375rem; color: #4a4a4a; margin-top: 1.5rem; line-height: 1.7; }
+
+  .yield-box { background: rgba(26,83,62,.06); border: 1px solid rgba(26,83,62,.18); border-radius: 10px; padding: 1.25rem 1.5rem; margin: 1.25rem 0; }
+  .yield-box p { margin: 0; color: var(--color-navy); }
+  .yield-caveat { display: block; margin-top: .75rem; font-size: .8125rem; color: #5a5a5a; font-style: italic; line-height: 1.6; }
+
+  .caveat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin: 1.5rem 0; }
+  .caveat-card { padding: 1.5rem; background: var(--color-white); border: 1px solid rgba(15,33,49,.08); border-radius: 10px; }
+  .caveat-card p { font-size: .9rem; line-height: 1.6; margin: 0; }
+
+  @media (max-width: 900px) { .caveat-grid { grid-template-columns: 1fr; } }
+</style>

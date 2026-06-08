@@ -1,0 +1,170 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = "Permanent Modular Home Ireland | Built to Last 30 Years | Ériu";
+const description = "A genuine permanent home on your own site for a fraction of a conventional build — 34 m², expands in a day, specified to Irish Building Regulations and A2 BER, with a 30-year anti-corrosion warranty.";
+const canonical = "/modular-homes/permanent-modular-home-ireland/";
+const siteUrl = "https://eriusourcing.com";
+
+const allIn: string | null = null; // all-in installed; see Family page note
+const startPrice = "€25,000";
+const irishBuilt = "€110,000–€180,000";
+const warrantyClaim = "30-year anti-corrosion warranty"; // ⚠ confirm before merge
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Modular Homes", "item": `${siteUrl}/modular-homes/` },
+      { "@type": "ListItem", "position": 3, "name": "Permanent Modular Home", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "Product",
+    "name": "Ériu 20ft Expandable — Permanent Home",
+    "description": "A 34 m² steel-frame expandable home for siting on your own plot, specified to Irish Building Regulations with an A2 BER and a 30-year anti-corrosion warranty.",
+    "brand": { "@type": "Brand", "name": "Ériu Modular Homes" },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": "25000",
+      "priceValidUntil": "2026-12-31",
+      "availability": "https://schema.org/InStock",
+      "description": "Starting price for a basic livable 20ft Expandable delivered to Ireland; fully-fitted and installed cost is project-specific."
+    }
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Can a modular home be a permanent home on my own site in Ireland?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. A steel-frame modular home specified to the Irish Building Regulations (TGD Parts A–M) with an A2 BER is a genuine permanent dwelling. On your own site — as opposed to a back garden — the planning route differs: the back-garden auxiliary-dwelling exemption does not apply, and you will typically need planning permission for a dwelling on its own site. We confirm which route applies at the eligibility review and will not sell you a unit you cannot lawfully site." }
+      },
+      {
+        "@type": "Question",
+        "name": "Will an imported modular home last in the Irish climate?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Every Ériu home is built on a channel-steel base frame with insulated sandwich panels (upgradeable to PIR for Part L), double-glazed aluminium openings, and is specified for the Irish climate before it is built — the U-values, cladding lap details, roof falls and air-tightness are all set for wet, windy, frost-prone conditions. It carries a 30-year anti-corrosion warranty, is photographed at the factory, at Dublin Port and on site before craning, and ships with the full Building Regulations compliance pack." }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does a permanent modular home cost compared with an Irish build?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The Ériu 20ft Expandable starts from €25,000 delivered and reaches a fully-fitted, compliant home at a fraction of the €110,000–€180,000 an Irish-built modular unit typically costs. An Ériu project typically installs in 14 to 18 weeks from order, against the best part of a year for a conventional build. Site works — foundation, services, BER — are additional and itemised in your quote." }
+      }
+    ]
+  }
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} jsonLd={pageSchemas}>
+
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="container--narrow">
+      <span class="section-eyebrow">A home of your own · on your own site · built to outlast the mortgage</span>
+      <h1>A real home, for a fraction of a conventional build — and built to last 30 years.</h1>
+      <p class="lead">Not everyone wants a garden room. Some people want the actual home — on their own site, with planning, to live in.</p>
+      <p>The trouble has always been the build: {irishBuilt} for a modular unit from an Irish builder, a nine-to-twelve-month wait, and a process that drains the budget before the kitchen's in. For a first-time buyer or a self-builder, that's often the difference between a home and a wait.</p>
+      <p>Ériu changes the price and the timeline — without touching the standard.</p>
+      <div class="hero-cta"><a href="/contact/?interest=modular-quote" class="btn btn--primary">Request a quote →</a></div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item"><span class="trust-num">~34 m²</span><span class="trust-label">Expands on site in one working day</span></div>
+        <div class="trust-divider"></div>
+        <div class="trust-item"><span class="trust-num">From {startPrice}</span><span class="trust-label">Delivered start price</span></div>
+        <div class="trust-divider"></div>
+        <div class="trust-item"><span class="trust-num">30-year</span><span class="trust-label">Anti-corrosion warranty</span></div>
+        <div class="trust-divider"></div>
+        <div class="trust-item"><span class="trust-num">14–18 wks</span><span class="trust-label">Order to installed (vs 9–12 months)</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT YOU GET -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">What you get, and what it costs</span>
+      <h2>A genuine, warm, permanent home</h2>
+      <p>A ~34 m² Ériu home arrives folded on one lorry and expands on site in a single working day. Specified to Irish Building Regulations, BER-A2 on a correctly installed unit, and finished to your tier — it's a real home, not a portacabin.</p>
+      {allIn ? (
+        <p>It starts at <strong>{startPrice} delivered</strong> and reaches a fully-fitted, compliant home at <strong>{allIn}</strong> all-in — against {irishBuilt} Irish-built. And where a conventional build takes the best part of a year, an Ériu project typically installs in 14 to 18 weeks from order.</p>
+      ) : (
+        <p>It starts at <strong>{startPrice} delivered</strong> and reaches a fully-fitted, compliant home at a fraction of the {irishBuilt} an Irish-built equivalent costs — your exact all-in figure is project-specific and itemised in your quote. And where a conventional build takes the best part of a year, an Ériu project typically installs in 14 to 18 weeks from order. For most people, the time saved matters as much as the money. <a href="/modular-homes/cost/" class="inline-link">See the full cost breakdown →</a></p>
+      )}
+      <p class="callout">On a site of your own — as opposed to a back garden — the planning route differs: the back-garden auxiliary-dwelling exemption won't apply, and you'll typically need planning permission for a dwelling on its own site. We'll tell you which route applies to your site at the eligibility review, and we won't sell you a unit you can't lawfully site.</p>
+    </div>
+  </section>
+
+  <!-- THE 30-YEAR QUESTION -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">The real objection, answered</span>
+      <h2>The 30-year question: will it last?</h2>
+      <p>This is the real objection to anything imported, and you deserve a real answer.</p>
+      <p>Every Ériu home is built on a channel-steel base frame, with insulated sandwich panels (upgradeable to PIR for Part L), double-glazed aluminium openings, and — critically — it is specified for the Irish climate before it's built. Wet, windy, frost: the U-values, the cladding lap details, the roof falls and the air-tightness are all set for here, not for somewhere drier.</p>
+      <p>It carries a {warrantyClaim}. It's photographed at the factory, again at Dublin Port, and again on site before craning. And it's supplied with the full Building Regulations compliance pack, because a permanent home has to be right for the long run, not just the day it lands.</p>
+      <p>That's the whole point of buying from an Irish-owned company that inspects every unit in person, rather than an anonymous online listing: when you have a question in year three, you're ringing Ireland.</p>
+      <a href="/modular-homes/building-regulations-ireland/" class="inline-link">The full compliance and durability detail is here →</a>
+    </div>
+  </section>
+
+  <!-- HOW AFFORDABLE -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">No mystery, no cut corners</span>
+      <h2>How it's this affordable</h2>
+      <p>Our founder, Noel, has been an Irish sourcing agent in Henan since 2008. We buy direct from the factories that build these homes, inspect each one ourselves, and remove the European intermediary markup. Same steel, same insulation, same compliance — direct pricing.</p>
+    </div>
+  </section>
+
+  <!-- HONEST CHECKLIST -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Told straight</span>
+      <h2>The honest checklist for a home on a site</h2>
+      <p>A permanent dwelling on your own site means a foundation to suit your ground, services connected (water, drainage, electricity), a Commencement Notice, a BER on completion, and — outside the back-garden exemption — almost always planning permission. Our vetted installer network handles the site works and we co-ordinate the compliance paperwork, so you end up with a certified, occupiable home. We'll map the exact steps for your site before you commit a euro.</p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--emerald">
+    <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">No obligation</span>
+      <h2>Get a quote for your home.</h2>
+      <p>Tell us your site, your county and your timeline. We'll confirm which planning route applies, and come back with a factory-direct quote, the compliance pack, and a site-phase quote from our Irish installer network. Direct reply from Noel within 24 hours.</p>
+      <a href="/contact/?interest=modular-quote" class="btn btn--white-outline" style="margin-top:1rem">Request a quote →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  .page-hero { background: var(--color-bg-alt); padding: 4.5rem 0 3rem; border-bottom: 1px solid rgba(15,33,49,.08); }
+  .page-hero h1 { font-size: clamp(2rem, 4vw, 3.25rem); margin: .75rem 0 1.25rem; line-height: 1.15; }
+  .lead { font-size: 1.1875rem; color: var(--color-navy); line-height: 1.7; margin: 0 0 1rem; max-width: 64ch; font-weight: 500; }
+  .page-hero p { color: #3a3a3a; line-height: 1.7; margin: 0 0 1rem; max-width: 64ch; }
+  .hero-cta { margin-top: 1.5rem; }
+
+  .trust-bar { background: #fff; border-bottom: 1px solid rgba(15,33,49,.08); padding: 2rem 0; }
+  .trust-grid { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
+  .trust-item { display: flex; flex-direction: column; gap: .25rem; flex: 1; min-width: 160px; }
+  .trust-num { font-size: clamp(1.125rem, 2.2vw, 1.6rem); font-weight: 700; color: var(--color-emerald); line-height: 1; letter-spacing: -.02em; }
+  .trust-label { font-size: .8125rem; color: #5a5a5a; line-height: 1.4; }
+  .trust-divider { width: 1px; height: 40px; background: rgba(15,33,49,.12); flex-shrink: 0; }
+
+  .section h2 { margin-bottom: 1rem; }
+  .section p { color: #3a3a3a; line-height: 1.75; margin-bottom: 1rem; }
+  .section--emerald p { color: rgba(255,255,255,0.88); }
+  .section--emerald h2 { color: #fff; }
+  .callout { padding: 1.25rem 1.5rem; background: rgba(196,122,77,.08); border-left: 4px solid #c47a4d; border-radius: 0 8px 8px 0; font-size: .9375rem; color: #4a4a4a; margin-top: 1.5rem; line-height: 1.7; }
+  .inline-link { color: var(--color-emerald); font-weight: 600; font-size: .9375rem; text-decoration: none; }
+  .inline-link:hover { text-decoration: underline; }
+
+  @media (max-width: 900px) { .trust-divider { display: none; } }
+</style>
