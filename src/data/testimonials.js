@@ -75,7 +75,10 @@ export const testimonials = [
     location: 'Co. Galway, Ireland',
     quote: "I've been working with Noel and his team for 13 years on a variety of projects, including large promotional goods orders and custom metal moulds. They are exceptionally professional, and when I visited them in China they helped arrange everything — the visas, hotel bookings and a car to drive us around and show us different suppliers' factories.",
     tags: ['private-label', 'homepage', 'contact-page'],
-    photos: [],
+    photos: [
+      { src: 'galway-promotional-supplier-visit.webp', alt: 'The Galway client meeting a Chinese supplier during a factory visit arranged end-to-end by Ériu' },
+      { src: 'galway-promotional-shipment.webp', alt: "A container being loaded with the Galway client's order for shipment from China to Ireland" },
+    ],
   },
   {
     id: 'bathrooms-limerick',
@@ -115,7 +118,10 @@ export const testimonials = [
     location: 'Midlands, Ireland',
     quote: "When we were looking to import sofas directly from China to Ireland, a friend recommended Ériu Sourcing. It's great to work with another Irish person on the ground in China who understands what we need, can convey that exactly to the factory, and then QC-checks everything before shipping. They even helped us get our branding on the large sofa boxes at no extra cost.",
     tags: ['furniture', 'general', 'contact-page'],
-    photos: [],
+    photos: [
+      { src: 'furniture-sourcing-project-1.webp', alt: 'Buyers meeting suppliers at a furniture sourcing fair in China' },
+      { src: 'furniture-sourcing-project-2.webp', alt: "Inspecting a supplier's facility during a furniture sourcing trip in China" },
+    ],
   },
   {
     id: 'sportswear-tralee',
