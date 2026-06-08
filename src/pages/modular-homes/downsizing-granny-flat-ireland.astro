@@ -1,0 +1,150 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = "Downsizing & Granny-Flat Garden Homes Ireland | Ériu Modular";
+const description = "Rightsize without leaving the family land — a single-storey, level-access 34 m² garden home from €25,000 delivered, specified to Irish Building Regulations with an A2 BER. Built under the draft 2026 exemption.";
+const canonical = "/modular-homes/downsizing-granny-flat-ireland/";
+const siteUrl = "https://eriusourcing.com";
+
+const allIn: string | null = null; // installed cost is always site-specific — null is canonical (see Family page note)
+const startPrice = "€25,000";
+const irishBuilt = "€110,000–€180,000";
+const warrantyClaim = "30-year anti-corrosion warranty"; // ⚠ confirm before merge
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Modular Homes", "item": `${siteUrl}/modular-homes/` },
+      { "@type": "ListItem", "position": 3, "name": "Downsizing & Granny-Flat Homes", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "Product",
+    "name": "Ériu 20ft Expandable — Downsizer / Granny-Flat Home",
+    "description": "A single-storey, level-access 34 m² garden home for rightsizing on the family plot, specified to Irish Building Regulations (including TGD Part M access) with an A2 BER.",
+    "brand": { "@type": "Brand", "name": "Ériu Modular Homes" },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": "25000",
+      "priceValidUntil": "2026-12-31",
+      "availability": "https://schema.org/InStock",
+      "description": "Starting price for a basic livable 20ft Expandable delivered to Ireland; fully-fitted and installed cost is project-specific."
+    }
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Can I build a granny flat in the garden to downsize into in Ireland?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Under the draft Exempted Development Regulations of 21 April 2026 — subject to environmental assessment and not yet enacted — a detached self-contained dwelling of 32 to 45 square metres in the rear garden of a principal house could be built without full planning permission where the conditions are met, including linking services to the principal house. The Ériu 20ft Expandable opens to ~34 m² single-storey with level access. It must still meet the Irish Building Regulations and carry a BER. We review every site against the current draft conditions first." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is a garden home suitable for older people?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. The unit is single-storey with no stairs, a level threshold, and door widths built to the access requirements of the Building Regulations (TGD Part M). It achieves an A2 BER on a correctly installed unit with a heat pump, so it is warm and cheap to run, and is weatherproofed for the Irish climate with a 30-year anti-corrosion warranty." }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does a downsizer garden home cost?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The Ériu 20ft Expandable starts from €25,000 delivered for a basic livable unit and reaches a fully-fitted, compliant A2 home at a fraction of the €110,000–€180,000 an Irish-built unit costs — well within reach of savings or the proceeds of freeing up the main house. Site works are additional and itemised. We provide a written briefing on the title and lender considerations with every quote." }
+      }
+    ]
+  }
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} jsonLd={pageSchemas}>
+
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Stay on the family land · keep your independence · free up the big house</span>
+      <h1>Downsize without leaving the people and the place you love.</h1>
+      <p class="lead">Downsizing in Ireland usually means a hard trade: give up the family home, leave the area, move somewhere smaller and further from everyone. No wonder so many people put it off for years.</p>
+      <p>There's a gentler option now — and the Government is actively encouraging it. By 2030 there will be <strong>over a million people aged 65 and older</strong> in Ireland, up from around 780,000 in 2022, and the State is pushing "rightsizing" to free up larger homes for growing families. The same draft 2026 planning rules that allow a back-garden home make it possible to do that without going anywhere at all.</p>
+      <p class="stat-source">Source: <a href="https://www.cso.ie/en/releasesandpublications/ep/p-plfp/populationandlabourforceprojections2023-2057/" rel="nofollow noopener" target="_blank">CSO, Population &amp; Labour Force Projections 2023–2057</a>.</p>
+      <div class="hero-cta"><a href="/contact/?interest=modular-quote" class="btn btn--primary">Request a site review →</a></div>
+    </div>
+  </section>
+
+  <!-- YOUR OWN HOME -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Your own home, on the family land</span>
+      <h2>Independence and privacy — with family a few steps away</h2>
+      <p>A self-contained ~34 m² home — bedroom, bathroom, proper kitchen-living — in the garden of a family home. Single-storey, no stairs, a level threshold, and door widths built to the access requirements of the Building Regulations (TGD Part M).</p>
+      <p>It means independence and privacy, with family a few steps away rather than a drive across the county. The big house is freed up — for a son or daughter's growing family, or to let. And nobody has to leave the place they've spent a life in.</p>
+      <p>It can work either way round: a parent moves into the garden home while the family takes the main house, or the parent stays in the main house and a son or daughter takes the unit. Either is the same home.</p>
+      <p class="callout">This falls under the draft auxiliary-dwelling exemption of April 2026, subject to environmental assessment and <strong>not yet enacted</strong>. We review every site against the current draft conditions first — <a href="/modular-homes/auxiliary-dwelling-ireland/" class="inline-link">detail here</a>.</p>
+    </div>
+  </section>
+
+  <!-- THE PRICE -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Gentle on a fixed budget</span>
+      <h2>The price, and why it's within reach</h2>
+      <p>This matters more when you're not earning what you once did. The 20ft Expandable starts at <strong>{startPrice} delivered</strong> for a basic livable unit, and reaches a fully-fitted, compliant, A2 home at a fraction of the {irishBuilt} an Irish-built unit costs — well within reach of savings or the proceeds of freeing up the main house.</p>
+      {allIn ? (
+        <p>A fully-fitted, compliant A2 unit comes in all-in at <strong>{allIn}</strong> installed. <a href="/modular-homes/cost/" class="inline-link">See the full cost breakdown →</a></p>
+      ) : (
+        <p>Your exact all-in installed figure is project-specific and itemised in your quote — unit, delivery and every Irish-side cost. <a href="/modular-homes/cost/" class="inline-link">See the full cost breakdown →</a></p>
+      )}
+      <p>It's funded comfortably without disturbing the family home's title in most cases — though because lenders treat a second dwelling on the same title carefully, we always recommend a quick word with your solicitor, and we provide a written briefing with every quote.</p>
+      <div class="hero-cta"><a href="/contact/?interest=modular-quote" class="btn btn--primary">Get a fixed quote →</a></div>
+    </div>
+  </section>
+
+  <!-- BUILT FOR LATER LIFE -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Built for comfort, and for the years ahead</span>
+      <h2>Warm, easy, and built to last</h2>
+      <p>A home for later life has to be warm, easy and built to last. Every Ériu unit is specified to the Irish Building Regulations, achieves an A2 BER on a correctly installed unit with a heat pump (warm and cheap to run), is weatherproofed for the Irish climate, and carries a {warrantyClaim} — given by the factory and carried by Ériu, so the cover is held here in Ireland. Single-storey throughout, with level access designed in.</p>
+      <p>And it's supplied by an Irish-owned company that inspects every unit in person and answers the phone here — which counts for a great deal when it's a home for someone you love.</p>
+      <a href="/modular-homes/building-regulations-ireland/" class="inline-link">Full compliance and BER detail is here →</a>
+    </div>
+  </section>
+
+  <!-- WHAT'S INVOLVED -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Plainly</span>
+      <h2>What's involved</h2>
+      <p>A foundation, services connected from the main house, a Commencement Notice and a BER on completion — handled by our vetted Irish installer network, with the paperwork co-ordinated across both phases. Typical time from order to a finished, occupiable home is a matter of weeks, not the long wait of a conventional build. We'll walk the whole family through every step before anything is decided.</p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--emerald">
+    <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">No obligation</span>
+      <h2>Get a site review.</h2>
+      <p>Tell us your site, your county, and who the home is for. We'll review the garden against the current draft conditions and come back with a factory-direct quote, the compliance pack, and a plain, kind explanation of how it all works. Direct reply from Noel within 24 hours.</p>
+      <a href="/contact/?interest=modular-quote" class="btn btn--white-outline" style="margin-top:1rem">Request a site review →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  .page-hero { background: var(--color-bg-alt); padding: 4.5rem 0 3rem; border-bottom: 1px solid rgba(15,33,49,.08); }
+  .page-hero h1 { font-size: clamp(2rem, 4vw, 3.25rem); margin: .75rem 0 1.25rem; line-height: 1.15; }
+  .lead { font-size: 1.1875rem; color: var(--color-navy); line-height: 1.7; margin: 0 0 1rem; max-width: 64ch; font-weight: 500; }
+  .page-hero p { color: #3a3a3a; line-height: 1.7; margin: 0 0 1rem; max-width: 64ch; }
+  .hero-cta { margin-top: 1.5rem; }
+
+  .section h2 { margin-bottom: 1rem; }
+  .section p { color: #3a3a3a; line-height: 1.75; margin-bottom: 1rem; }
+  .section--emerald p { color: rgba(255,255,255,0.88); }
+  .section--emerald h2 { color: #fff; }
+  .callout { padding: 1.25rem 1.5rem; background: rgba(196,122,77,.08); border-left: 4px solid #c47a4d; border-radius: 0 8px 8px 0; font-size: .9375rem; color: #4a4a4a; margin-top: 1.5rem; line-height: 1.7; }
+  .inline-link { color: var(--color-emerald); font-weight: 600; font-size: .9375rem; text-decoration: none; }
+  .inline-link:hover { text-decoration: underline; }
+  .stat-source { font-size: .8125rem; color: #7a7a7a; margin: -.25rem 0 1rem; }
+  .stat-source a { color: #7a7a7a; text-decoration: underline; }
+</style>

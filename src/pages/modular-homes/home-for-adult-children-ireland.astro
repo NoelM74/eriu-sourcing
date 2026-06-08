@@ -1,0 +1,195 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = "A Home for Your Adult Children in Ireland | Ériu Modular";
+const description = "A self-contained 34 m² home in your back garden for a grown son or daughter — from €25,000 delivered, specified to Irish Building Regulations with an A2 BER. Built under the draft 2026 exemption.";
+const canonical = "/modular-homes/home-for-adult-children-ireland/";
+const siteUrl = "https://eriusourcing.com";
+
+// ── PRICING ─────────────────────────────────────────────────────────────
+// Installed cost is ALWAYS site-specific (foundation, crane, services and BER
+// vary per build), so there is no single all-in figure to publish — the
+// site-specific "we'll model it for your site" copy below is canonical, not a
+// placeholder. `allIn` stays null by design; the optional fixed-figure branch
+// is retained only if a representative "from €X all-in" is ever agreed.
+const allIn: string | null = null;
+const startPrice = "€25,000";
+const irishBuilt = "€110,000–€180,000";
+const warrantyClaim = "30-year anti-corrosion warranty"; // ⚠ confirm before merge
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Modular Homes", "item": `${siteUrl}/modular-homes/` },
+      { "@type": "ListItem", "position": 3, "name": "A Home for Adult Children", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "Product",
+    "name": "Ériu 20ft Expandable — Back-Garden Home",
+    "description": "A detached, self-contained 34 m² back-garden home specified to Irish Building Regulations with an A2 BER, for housing an adult child on the family plot.",
+    "brand": { "@type": "Brand", "name": "Ériu Modular Homes" },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": "25000",
+      "priceValidUntil": "2026-12-31",
+      "availability": "https://schema.org/InStock",
+      "description": "Starting price for a basic livable 20ft Expandable delivered to Ireland; fully-fitted and installed cost is project-specific."
+    }
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Can I build a home for my adult child in my back garden in Ireland?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Under the draft Exempted Development Regulations brought to Cabinet on 21 April 2026 — which are subject to environmental assessment and not yet enacted — a detached self-contained dwelling of 32 to 45 square metres in the rear garden of a principal house could be built without full planning permission where the conditions are met, including linking services to the principal house. The Ériu 20ft Expandable opens to ~34 m² and sits inside that band. Planning exemption is not building-regulations exemption: the unit must still meet the Irish Building Regulations and carry a BER. We start every project with a site eligibility review against the current draft conditions." }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does a back-garden home for an adult child cost?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The Ériu 20ft Expandable starts from €25,000 delivered for a basic but livable unit (including sea freight and simple furniture), with finish upgradeable from there. A fully-fitted, compliant, A2-BER home is project-specific once Irish-side site works — foundation, crane, services connection and BER — are added, but lands at a fraction of the €110,000–€180,000 an Irish-built equivalent typically costs. We provide an itemised all-in quote for your site." }
+      },
+      {
+        "@type": "Question",
+        "name": "Will a second home in the garden affect my mortgage?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Most Irish lenders will not currently extend a mortgage on a property that contains a second self-contained dwelling on the same title, which can affect remortgaging and resale. Many families therefore fund the unit from savings, a credit union loan or a personal loan rather than the house mortgage. We provide a written briefing on this with every quote and recommend you confirm the position with your solicitor." }
+      }
+    ]
+  }
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} jsonLd={pageSchemas}>
+
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="container--narrow">
+      <span class="section-eyebrow">A home for your son or daughter · on the ground you already own</span>
+      <h1>They're 31. They're working. They still can't move out.</h1>
+      <p class="lead">You did everything right. So did they. And still the maths won't close: the rent eats the deposit, the deposit never grows, and another year goes by with a grown adult back in the box room.</p>
+      <p>You're not unusual, and neither are they. In Census 2022, <strong>41% of Irish adults aged 18 to 34 were living with their parents</strong> — over 440,000 grown adults, up from 32% in 2011. That isn't a failure of effort. It's a country tens of thousands of homes a year short, with rent past €2,000 a month and a deposit that runs faster than anyone can save.</p>
+      <p class="stat-source">Source: <a href="https://www.cso.ie/en/releasesandpublications/ep/p-cpp3/censusofpopulation2022profile3-householdsfamiliesandchildcare/adultslivingwiththeirparents/" rel="nofollow noopener" target="_blank">CSO, Census 2022 — Adults Living with Their Parents</a>.</p>
+      <p>For most parents there are only two options, and both hurt. Hand over a deposit you can't really spare — or watch them stay stuck. There is now a third.</p>
+      <div class="hero-cta"><a href="/contact/?interest=modular-quote" class="btn btn--primary">Request a site review →</a></div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item"><span class="trust-num">~34 m²</span><span class="trust-label">A real one-bed home — expands in a day</span></div>
+        <div class="trust-divider"></div>
+        <div class="trust-item"><span class="trust-num">From {startPrice}</span><span class="trust-label">Delivered start price</span></div>
+        <div class="trust-divider"></div>
+        <div class="trust-item"><span class="trust-num">A2 BER</span><span class="trust-label">On a correctly installed unit</span></div>
+        <div class="trust-divider"></div>
+        <div class="trust-item"><span class="trust-num">14–18 wks</span><span class="trust-label">Typical order to installed</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- A HOME OF THEIR OWN -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">The third option</span>
+      <h2>A home of their own. Twenty steps from your back door.</h2>
+      <p>In April 2026 the Government brought draft planning regulations to Cabinet that, <strong>if enacted as drafted</strong>, create a new category of home — a detached self-contained dwelling of 32 to 45 m² in the rear garden of a principal house — that would need no full planning permission where the conditions are met.</p>
+      <p>That's not a glorified shed. That's a real one-bedroom home: their own front door, their own kitchen, their own bathroom, their own life. Close enough that family stays family. Independent enough that they're finally living, not waiting.</p>
+      <p>The <strong>Ériu 20ft Expandable</strong> was built for exactly this. It arrives folded on one lorry, expands to a full ~34 m² in a single working day, and is specified to meet Irish Building Regulations with an A2 BER on completion. Bedroom, bathroom, kitchen-living — finished and warm.</p>
+      <p class="callout">The exemption is set out in the draft Exempted Development Regulations of 21 April 2026, which are subject to environmental assessment and <strong>not yet enacted</strong>. We start every project with a site eligibility review against the current draft conditions — <a href="/modular-homes/auxiliary-dwelling-ireland/" class="inline-link">see the full legal detail here</a>.</p>
+    </div>
+  </section>
+
+  <!-- THE PRICE -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">The cost</span>
+      <h2>For the price of a small car — not a deposit you'll never see again.</h2>
+      <p>Here's what makes this finally realistic: it doesn't cost what a home costs. The 20ft Expandable starts at <strong>{startPrice} delivered</strong> — small-car money — for a basic but livable unit, including sea freight and simple furniture, with finish upgradeable from there.</p>
+      {allIn ? (
+        <p>Specified to a fully-fitted, compliant, BER-A2 home ready for them to move into, the all-in installed cost is <strong>{allIn}</strong> — a fraction of a deposit, and a fraction of the {irishBuilt} an Irish-built equivalent runs to.</p>
+      ) : (
+        <p>Specified up to a fully-fitted, compliant, BER-A2 home ready for them to move into, the all-in installed cost is project-specific to your site — but lands at a fraction of the {irishBuilt} an Irish-built equivalent runs to. Tell us your site and we'll give you the exact figure, with the unit, delivery and every Irish-side cost itemised. <a href="/modular-homes/cost/" class="inline-link">See the full cost breakdown →</a></p>
+      )}
+      <p>Put it side by side with the alternative. A deposit handed over is gone — you'll likely never see it again. A home built on your own ground is an asset that stays in the family, adds usable space to your property, and keeps working long after they've found their feet.</p>
+      <p>Most parents tell us the same thing: it was never really about whether they could afford to do it. It was whether they could afford to keep watching them wait.</p>
+      <div class="hero-cta"><a href="/contact/?interest=modular-quote" class="btn btn--primary">Get a fixed quote for your family's home →</a></div>
+    </div>
+  </section>
+
+  <!-- IS IT ANY GOOD -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">The honest answer</span>
+      <h2>"But is it actually any good?"</h2>
+      <p>It's a fair question, and the honest answer is the reason people choose us. Yes, it costs a fraction of the Irish-built price — and no, we did not cut the things that matter.</p>
+      <p>Every unit is specified to the Irish Building Regulations (TGD Parts A–M), carries an A2 BER on a correctly installed unit, and is weatherproofed for the Irish climate before it's built — wet, windy, frost and all. It ships with a written compliance pack, is photographed at the factory, again at Dublin Port, and again on site before craning, and is backed by a {warrantyClaim} — given by the factory and carried by Ériu, so your point of contact stays in Ireland.</p>
+      <p>The saving comes from one place only: our founder, Noel, has been an Irish sourcing agent based in Henan since 2008. We buy direct from the factories that build these units, inspect every one in person, and remove the European middleman markup. We didn't make it cheaper. We made it direct.</p>
+      <a href="/modular-homes/building-regulations-ireland/" class="inline-link">The full Building Regulations breakdown — what the factory certifies, what happens on site, and how you get your BER →</a>
+    </div>
+  </section>
+
+  <!-- WHAT IT TAKES -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Told straight</span>
+      <h2>What it takes — so there are no surprises</h2>
+      <p>We'd rather you knew this now than after you'd signed. A back-garden home would be exempt from planning under the draft rules — but never from building regulations. That means a Commencement Notice, services connected from your house, a foundation, and a BER on completion. Our vetted Irish installer network handles the site phase and we co-ordinate the paperwork across both phases, so you end up with a complete, lawful, occupiable home — not a box and a problem.</p>
+      <p>One thing to factor in early if your child might one day buy their own place: most Irish lenders won't currently mortgage a property that has a second self-contained dwelling on the same title, so many families fund the unit through savings, a credit union loan or a personal loan rather than the house mortgage. We provide a written briefing on this with every quote — and we'd always say confirm it with your solicitor.</p>
+    </div>
+  </section>
+
+  <!-- LAYOUTS -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Three standard layouts</span>
+      <h2>One home, three ways</h2>
+      <p>A ~34 m² unit comes three ways: an open-plan studio, a one-bedroom (bedroom, bathroom, kitchen-living), or a two-bedroom. Custom partitioning is available. Most families housing one adult child choose the one-bed; couples and young families lean to the two-bed.</p>
+      <a href="/modular-homes/models/20ft-expandable/" class="inline-link">See the model specifications →</a>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--emerald">
+    <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">No obligation</span>
+      <h2>Get a site review for your family's home.</h2>
+      <p>Tell us your site, your county, and which of your family it's for. We'll review your garden against the current draft conditions, and come back with a factory-direct quote, the compliance pack, and a plain-English briefing on the things that matter. Direct reply from Noel within 24 hours.</p>
+      <a href="/contact/?interest=modular-quote" class="btn btn--white-outline" style="margin-top:1rem">Request a site review →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  .page-hero { background: var(--color-bg-alt); padding: 4.5rem 0 3rem; border-bottom: 1px solid rgba(15,33,49,.08); }
+  .page-hero h1 { font-size: clamp(2rem, 4vw, 3.25rem); margin: .75rem 0 1.25rem; line-height: 1.15; }
+  .lead { font-size: 1.1875rem; color: var(--color-navy); line-height: 1.7; margin: 0 0 1rem; max-width: 64ch; font-weight: 500; }
+  .page-hero p { color: #3a3a3a; line-height: 1.7; margin: 0 0 1rem; max-width: 64ch; }
+  .hero-cta { margin-top: 1.5rem; }
+
+  .trust-bar { background: #fff; border-bottom: 1px solid rgba(15,33,49,.08); padding: 2rem 0; }
+  .trust-grid { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
+  .trust-item { display: flex; flex-direction: column; gap: .25rem; flex: 1; min-width: 160px; }
+  .trust-num { font-size: clamp(1.125rem, 2.2vw, 1.6rem); font-weight: 700; color: var(--color-emerald); line-height: 1; letter-spacing: -.02em; }
+  .trust-label { font-size: .8125rem; color: #5a5a5a; line-height: 1.4; }
+  .trust-divider { width: 1px; height: 40px; background: rgba(15,33,49,.12); flex-shrink: 0; }
+
+  .section h2 { margin-bottom: 1rem; }
+  .section h3 { font-size: 1.25rem; margin: 2rem 0 .75rem; color: var(--color-navy); }
+  .section p { color: #3a3a3a; line-height: 1.75; margin-bottom: 1rem; }
+  .section--emerald p { color: rgba(255,255,255,0.88); }
+  .section--emerald h2 { color: #fff; }
+  .callout { padding: 1.25rem 1.5rem; background: rgba(196,122,77,.08); border-left: 4px solid #c47a4d; border-radius: 0 8px 8px 0; font-size: .9375rem; color: #4a4a4a; margin-top: 1.5rem; line-height: 1.7; }
+  .inline-link { color: var(--color-emerald); font-weight: 600; font-size: .9375rem; text-decoration: none; }
+  .inline-link:hover { text-decoration: underline; }
+  .stat-source { font-size: .8125rem; color: #7a7a7a; margin: -.25rem 0 1rem; }
+  .stat-source a { color: #7a7a7a; text-decoration: underline; }
+
+  @media (max-width: 900px) { .trust-divider { display: none; } }
+</style>
