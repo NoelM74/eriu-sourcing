@@ -1,0 +1,44 @@
+---
+// Single full-width media figure used across the modular funnel pages.
+// Plain <img> for now (matches site convention); structured so it can be
+// swapped to astro:assets/srcset in one place later.
+interface Props {
+  src: string;
+  alt: string;
+  caption?: string;
+  eager?: boolean;
+  ratio?: string;        // CSS aspect-ratio, e.g. "16 / 9" (default) or "3 / 2"
+  rounded?: boolean;
+}
+const { src, alt, caption, eager = false, ratio = '16 / 9', rounded = true } = Astro.props;
+---
+<figure class:list={['media-figure', { 'is-rounded': rounded }]}>
+  <img
+    src={src}
+    alt={alt}
+    loading={eager ? 'eager' : 'lazy'}
+    decoding="async"
+    style={`aspect-ratio:${ratio}`}
+  />
+  {caption && <figcaption>{caption}</figcaption>}
+</figure>
+
+<style>
+  .media-figure { margin: 1.75rem 0; }
+  .media-figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    background: #e9e7e0;
+  }
+  .media-figure.is-rounded img { border-radius: 16px; }
+  .media-figure figcaption {
+    font-size: 0.8125rem;
+    color: #8a8a8a;
+    text-align: center;
+    padding: 0.75rem 1rem 0;
+    font-style: italic;
+    line-height: 1.5;
+  }
+</style>

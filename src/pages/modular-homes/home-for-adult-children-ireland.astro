@@ -1,5 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import MediaFigure from '../../components/MediaFigure.astro';
+import MediaStrip from '../../components/MediaStrip.astro';
 
 const title = "A Home for Your Adult Children in Ireland | Ériu Modular";
 const description = "A self-contained 34 m² home in your back garden for a grown son or daughter — from €25,000 delivered, specified to Irish Building Regulations with an A2 BER. Built under the draft 2026 exemption.";
@@ -17,15 +20,8 @@ const startPrice = "€25,000";
 const irishBuilt = "€110,000–€180,000";
 const warrantyClaim = "30-year anti-corrosion warranty"; // ⚠ confirm before merge
 
+// NB: BreadcrumbList is emitted by the <Breadcrumbs> component below.
 const pageSchemas = [
-  {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
-      { "@type": "ListItem", "position": 2, "name": "Modular Homes", "item": `${siteUrl}/modular-homes/` },
-      { "@type": "ListItem", "position": 3, "name": "A Home for Adult Children", "item": `${siteUrl}${canonical}` }
-    ]
-  },
   {
     "@type": "Product",
     "name": "Ériu 20ft Expandable — Back-Garden Home",
@@ -69,6 +65,7 @@ const pageSchemas = [
   <!-- HERO -->
   <section class="page-hero">
     <div class="container--narrow">
+      <Breadcrumbs items={[{ label: 'Modular Homes', href: '/modular-homes/' }, { label: 'A Home for Adult Children' }]} />
       <span class="section-eyebrow">A home for your son or daughter · on the ground you already own</span>
       <h1>They're 31. They're working. They still can't move out.</h1>
       <p class="lead">You did everything right. So did they. And still the maths won't close: the rent eats the deposit, the deposit never grows, and another year goes by with a grown adult back in the box room.</p>
@@ -91,6 +88,17 @@ const pageSchemas = [
         <div class="trust-divider"></div>
         <div class="trust-item"><span class="trust-num">14–18 wks</span><span class="trust-label">Typical order to installed</span></div>
       </div>
+    </div>
+  </section>
+
+  <!-- SHOWCASE -->
+  <section class="section media-section">
+    <div class="container--narrow">
+      <MediaFigure
+        src="/images/modular-homes-hero-back-garden-ireland.webp"
+        alt="A self-contained Ériu modular home in an Irish back garden — a complete one-bedroom home for an adult child"
+        caption="A complete one-bedroom home — their own front door, twenty steps from yours."
+      />
     </div>
   </section>
 
@@ -131,6 +139,14 @@ const pageSchemas = [
       <p>It's a fair question, and the honest answer is the reason people choose us. Yes, it costs a fraction of the Irish-built price — and no, we did not cut the things that matter.</p>
       <p>Every unit is specified to the Irish Building Regulations (TGD Parts A–M), carries an A2 BER on a correctly installed unit, and is weatherproofed for the Irish climate before it's built — wet, windy, frost and all. It ships with a written compliance pack, is photographed at the factory, again at Dublin Port, and again on site before craning, and is backed by a {warrantyClaim} — given by the factory and carried by Ériu, so your point of contact stays in Ireland.</p>
       <p>The saving comes from one place only: our founder, Noel, has been an Irish sourcing agent based in Henan since 2008. We buy direct from the factories that build these units, inspect every one in person, and remove the European middleman markup. We didn't make it cheaper. We made it direct.</p>
+      <MediaStrip
+        items={[
+          { src: '/images/modular-homes-interior.webp', alt: 'Fitted modular home kitchen with stone-effect worktop and full-height window' },
+          { src: '/images/modular-homes-interior-fitted.webp', alt: 'Fully-fitted modular home bathroom and utility area' },
+          { src: '/images/modular-homes-interior-40ft.webp', alt: 'Bright modular home living space with wood-effect flooring' },
+        ]}
+        caption="Real fitted interiors — kitchen, bathroom and living space, finished and warm."
+      />
       <a href="/modular-homes/building-regulations-ireland/" class="inline-link">The full Building Regulations breakdown — what the factory certifies, what happens on site, and how you get your BER →</a>
     </div>
   </section>
@@ -151,6 +167,12 @@ const pageSchemas = [
       <span class="section-eyebrow">Three standard layouts</span>
       <h2>One home, three ways</h2>
       <p>A ~34 m² unit comes three ways: an open-plan studio, a one-bedroom (bedroom, bathroom, kitchen-living), or a two-bedroom. Custom partitioning is available. Most families housing one adult child choose the one-bed; couples and young families lean to the two-bed.</p>
+      <MediaFigure
+        src="/images/modular-homes-floorplan-20ft-layouts.webp"
+        alt="Floor-plan layouts for the Ériu 20ft Expandable — studio, one-bedroom and two-bedroom configurations"
+        ratio="3 / 2"
+        caption="The 20ft Expandable, laid out three ways."
+      />
       <a href="/modular-homes/models/20ft-expandable/" class="inline-link">See the model specifications →</a>
     </div>
   </section>
