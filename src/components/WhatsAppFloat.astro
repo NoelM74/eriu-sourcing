@@ -16,6 +16,24 @@
   <span class="wa-float-label">WhatsApp</span>
 </a>
 
+<script>
+  // Fade the floating button out while the footer is on screen, so it never
+  // sits on top of the footer's legal links / final CTA. Progressive
+  // enhancement: with JS off, the button simply stays visible as before.
+  (() => {
+    const fab = document.querySelector('.wa-float');
+    const footer = document.querySelector('.site-footer');
+    if (!fab || !footer || !('IntersectionObserver' in window)) return;
+    const io = new IntersectionObserver(
+      (entries) => {
+        for (const e of entries) fab.classList.toggle('is-tucked', e.isIntersecting);
+      },
+      { rootMargin: '0px 0px -8% 0px' }
+    );
+    io.observe(footer);
+  })();
+</script>
+
 <style>
   .wa-float {
     position: fixed;
@@ -34,7 +52,7 @@
     font-size: 0.9375rem;
     font-weight: 600;
     box-shadow: 0 10px 28px rgba(15, 33, 49, 0.24);
-    transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+    transition: transform 0.2s ease, box-shadow 0.15s ease, background-color 0.15s ease, opacity 0.2s ease, visibility 0.2s ease;
   }
 
   .wa-float:hover,
@@ -47,6 +65,18 @@
   .wa-float:focus-visible {
     outline: 3px solid #1A533E;
     outline-offset: 3px;
+  }
+
+  /* Tucked away while the footer is in view (set by the script above). */
+  .wa-float.is-tucked {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(12px);
+    pointer-events: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .wa-float { transition: opacity 0.15s ease, visibility 0.15s ease; }
   }
 
   @media (max-width: 600px) {
