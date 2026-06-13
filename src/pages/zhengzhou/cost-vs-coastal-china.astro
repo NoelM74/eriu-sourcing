@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHero from '../../components/PageHero.astro';
 import CtaSection from '../../components/CtaSection.astro';
+import ZhengzhouNav from '../../components/ZhengzhouNav.astro';
 
 const title = "Zhengzhou vs Coastal China: The Real Cost Comparison | Ériu";
 const description = "Why central China costs less than the coast — wages, land and overhead in Henan vs Shanghai and Shenzhen — and the honest trade-offs of moving inland.";
@@ -153,6 +154,8 @@ const costRows = [
       </div>
     </div>
   </section>
+
+  <ZhengzhouNav current="cost-vs-coastal-china" />
 
   <CtaSection
     eyebrow="Model it properly"
