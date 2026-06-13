@@ -18,6 +18,23 @@ const siteUrl = 'https://eriusourcing.com';
 const productUrl = `${siteUrl}/source/${product.categorySlug}/${product.slug}/`;
 const categoryUrl = `${siteUrl}/source/${product.categoryFullSlug}/`;
 
+// Sibling products in the same category — contextual internal links so deep
+// product pages aren't reachable only from their parent category page.
+// Use a rotating window (the N items *after* this one, wrapping) so coverage
+// is even — every product ends up linked by the same number of siblings,
+// rather than only the first few in array order.
+const categoryProducts = products.filter(p => p.categorySlug === product.categorySlug);
+const selfIndex = categoryProducts.findIndex(p => p.slug === product.slug);
+const siblings = [];
+for (let k = 1; k <= 8 && k < categoryProducts.length; k++) {
+  const p = categoryProducts[(selfIndex + k) % categoryProducts.length];
+  if (p.slug === product.slug) continue;
+  siblings.push({
+    href: `/source/${p.categorySlug}/${p.slug}/`,
+    label: (p.h1.split('—')[0] || p.h1).trim(),
+  });
+}
+
 const lastReviewedIso = new Date().toISOString().split('T')[0];
 
 // BreadcrumbList JSON-LD is emitted by the <Breadcrumbs> component itself.
@@ -193,12 +210,20 @@ const pageSchemas = [
     </div>
   </section>
 
-  <!-- BACK TO CATEGORY -->
+  <!-- MORE IN CATEGORY -->
   <section class="section">
-    <div class="container--narrow" style="text-align:center">
-      <p style="color:#5a5a5a;margin-bottom:1rem">More from this category</p>
-      <a href={`/source/${product.categoryFullSlug}/`} class="btn btn--secondary">
-        ← Back to {product.categoryLabel}
+    <div class="container--narrow">
+      <span class="section-eyebrow">More in {product.categoryLabel}</span>
+      <h2>Related products you can source direct</h2>
+      {siblings.length > 0 && (
+        <ul class="sibling-links">
+          {siblings.map(s => (
+            <li><a href={s.href}>{s.label} <span aria-hidden="true">→</span></a></li>
+          ))}
+        </ul>
+      )}
+      <a href={`/source/${product.categoryFullSlug}/`} class="btn btn--secondary" style="margin-top:1.75rem">
+        ← Back to all {product.categoryLabel}
       </a>
     </div>
   </section>
@@ -218,6 +243,34 @@ const pageSchemas = [
   /* Page-local styles — hero/stats/FAQ/CTA moved into shared components.
      The remaining styles here own the spec table and compliance list,
      which haven't been extracted yet (product-page-specific patterns). */
+
+  /* Sibling / related links */
+  .sibling-links {
+    list-style: none;
+    margin: 1.25rem 0 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+  }
+  .sibling-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 0.875rem;
+    background: var(--color-bg-alt, #F7F6F2);
+    border: 1px solid rgba(15, 33, 49, 0.1);
+    border-radius: 999px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-emerald, #1A533E);
+    text-decoration: none;
+    transition: border-color 0.15s ease, background 0.15s ease;
+  }
+  .sibling-links a:hover {
+    border-color: var(--color-emerald, #1A533E);
+    background: #fff;
+  }
 
   /* Spec table */
   .spec-table {

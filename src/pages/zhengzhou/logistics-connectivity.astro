@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHero from '../../components/PageHero.astro';
 import CtaSection from '../../components/CtaSection.astro';
+import ZhengzhouNav from '../../components/ZhengzhouNav.astro';
 
 const title = "Zhengzhou Logistics: Air, Rail & Sea | Ériu";
 const description = "How Zhengzhou connects from the centre of China — a Tier-1 air-cargo hub, a China–Europe rail node, rail–sea links to the coast, and a 2-hour HSR radius.";
@@ -212,6 +213,8 @@ const modes = [
       <p class="source-note">Sources: Zhengzhou Xinzheng airport (CGO) cargo data, 2024–2025; China–Europe Railway Express 2024 operating figures; Henan provincial / Air Silk Road reporting. Route counts and frequencies change over time — we confirm current schedules per shipment.</p>
     </div>
   </section>
+
+  <ZhengzhouNav current="logistics-connectivity" />
 
   <CtaSection
     eyebrow="Route it from the centre"

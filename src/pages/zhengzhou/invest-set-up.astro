@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHero from '../../components/PageHero.astro';
 import CtaSection from '../../components/CtaSection.astro';
+import ZhengzhouNav from '../../components/ZhengzhouNav.astro';
 
 const title = "Basing in Zhengzhou: Zones, Incentives & Risks | Ériu";
 const description = "The zones and incentives behind Zhengzhou's foreign-investment push — Airport Economy Zone, Land Port, NEV parks and e-commerce — plus the honest risks.";
@@ -162,6 +163,8 @@ const zones = [
       </div>
     </div>
   </section>
+
+  <ZhengzhouNav current="invest-set-up" />
 
   <CtaSection
     eyebrow="Set up sensibly"
