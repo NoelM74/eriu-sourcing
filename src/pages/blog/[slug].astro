@@ -93,7 +93,7 @@ const pageSchemas = [
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
             <path d="M7 1a6 6 0 100 12A6 6 0 007 1zm0 1a5 5 0 110 10A5 5 0 017 2zm-.5 2.5v3.25l2.5 1.5.5-.87-2-1.2V4.5h-1z" fill="currentColor"/>
           </svg>
-          {post.estimatedWordCount.toLocaleString()} words
+          {Math.max(1, Math.round(post.estimatedWordCount / 225))} min read
         </span>
         <span class="meta-item">
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
