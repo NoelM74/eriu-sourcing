@@ -10,6 +10,8 @@
 /source/fashion-apparel-from-china-ireland  /source/private-label-from-china-ireland/ 301
 /source/bags-luggage-from-china-ireland/    /source/retail-wholesale-from-china-ireland/ 301
 /source/bags-luggage-from-china-ireland     /source/retail-wholesale-from-china-ireland/ 301
+/testimonials/                              /case-studies/ 301
+/testimonials                               /case-studies/ 301
 
 # ── Trailing-slash 301s (Cloudflare Pages uses 307 by default — override) ─
 # Core pages

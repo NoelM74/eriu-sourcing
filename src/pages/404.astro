@@ -1,0 +1,79 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = "Page not found (404) | Ériu Sourcing";
+const description = "The page you were looking for can't be found. Here are the most useful places to pick up where you left off.";
+
+const links = [
+  { href: '/', label: 'Home', note: 'Factory-direct sourcing, start here' },
+  { href: '/modular-homes/', label: 'Modular Homes', note: 'Back-garden & permanent homes for Ireland' },
+  { href: '/source/', label: 'What We Source', note: 'Every product category we cover' },
+  { href: '/blog/', label: 'Blog', note: 'Sourcing guides & market intelligence' },
+  { href: '/case-studies/', label: 'Case Studies', note: 'Real results from Irish clients' },
+  { href: '/contact/', label: 'Contact', note: 'Send a brief, get a quote in 24h' },
+];
+---
+
+<BaseLayout title={title} description={description} canonical="/404/" robots="noindex, follow">
+  <section class="nf">
+    <div class="container--narrow">
+      <span class="nf-code">404</span>
+      <h1>This page has moved on — or never existed.</h1>
+      <p class="nf-lead">No harm done. The link may be old, or there's a typo in the address. Here's where most people are headed.</p>
+
+      <div class="nf-grid">
+        {links.map(l => (
+          <a href={l.href} class="nf-card">
+            <span class="nf-card-label">{l.label} <span aria-hidden="true">→</span></span>
+            <span class="nf-card-note">{l.note}</span>
+          </a>
+        ))}
+      </div>
+
+      <p class="nf-help">Still stuck, or looking for something specific? <a href="/contact/">Tell us what you need</a> and we'll point you straight to it.</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .nf { padding: 4.5rem 0 5rem; background: var(--color-bg-alt); }
+  .nf-code {
+    display: inline-block;
+    font-weight: 700;
+    font-size: clamp(2.5rem, 7vw, 4rem);
+    color: var(--color-emerald);
+    letter-spacing: -.04em;
+    line-height: 1;
+    margin-bottom: .5rem;
+  }
+  .nf h1 { font-size: clamp(1.6rem, 3.5vw, 2.5rem); margin: 0 0 1rem; line-height: 1.15; }
+  .nf-lead { font-size: 1.0625rem; color: #3a3a3a; line-height: 1.7; max-width: 56ch; margin: 0 0 2.25rem; }
+
+  .nf-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .875rem;
+    margin-bottom: 2rem;
+  }
+  .nf-card {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    padding: 1.125rem 1.25rem;
+    background: #fff;
+    border: 1px solid rgba(15,33,49,.09);
+    border-radius: 12px;
+    text-decoration: none;
+    transition: border-color .15s ease, transform .15s ease;
+  }
+  .nf-card:hover { border-color: var(--color-emerald); transform: translateY(-2px); }
+  .nf-card-label { font-weight: 600; color: var(--color-navy); font-size: 1rem; }
+  .nf-card-note { font-size: .875rem; color: #6a6a6a; line-height: 1.4; }
+
+  .nf-help { font-size: .9375rem; color: #4a4a4a; }
+  .nf-help a { color: var(--color-emerald); font-weight: 600; }
+
+  @media (max-width: 560px) {
+    .nf-grid { grid-template-columns: 1fr; }
+  }
+</style>

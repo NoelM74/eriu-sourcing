@@ -1,5 +1,9 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import MediaFigure from '../../components/MediaFigure.astro';
+import MediaStrip from '../../components/MediaStrip.astro';
+import ProofBar from '../../components/ProofBar.astro';
 
 const title = "Permanent Modular Home Ireland | Built to Last 30 Years | Ériu";
 const description = "A genuine permanent home on your own site for a fraction of a conventional build — 34 m², expands in a day, specified to Irish Building Regulations and A2 BER, with a 30-year anti-corrosion warranty.";
@@ -11,15 +15,8 @@ const startPrice = "€25,000";
 const irishBuilt = "€110,000–€180,000";
 const warrantyClaim = "30-year anti-corrosion warranty"; // ⚠ confirm before merge
 
+// NB: BreadcrumbList is emitted by the <Breadcrumbs> component below.
 const pageSchemas = [
-  {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
-      { "@type": "ListItem", "position": 2, "name": "Modular Homes", "item": `${siteUrl}/modular-homes/` },
-      { "@type": "ListItem", "position": 3, "name": "Permanent Modular Home", "item": `${siteUrl}${canonical}` }
-    ]
-  },
   {
     "@type": "Product",
     "name": "Ériu 20ft Expandable — Permanent Home",
@@ -63,6 +60,7 @@ const pageSchemas = [
   <!-- HERO -->
   <section class="page-hero">
     <div class="container--narrow">
+      <Breadcrumbs items={[{ label: 'Modular Homes', href: '/modular-homes/' }, { label: 'Permanent Modular Home' }]} />
       <span class="section-eyebrow">A home of your own · on your own site · built to outlast the mortgage</span>
       <h1>A real home, for a fraction of a conventional build — and built to last 30 years.</h1>
       <p class="lead">Not everyone wants a garden room. Some people want the actual home — on their own site, with planning, to live in.</p>
@@ -87,6 +85,17 @@ const pageSchemas = [
     </div>
   </section>
 
+  <!-- SHOWCASE -->
+  <section class="section media-section">
+    <div class="container--narrow">
+      <MediaFigure
+        src="/images/modular-homes-40ft-expandable.webp"
+        alt="A permanent Ériu modular home on its own site in Ireland — steel-frame, fully clad and finished"
+        caption="A genuine permanent home — sited, clad and finished to Irish Building Regulations."
+      />
+    </div>
+  </section>
+
   <!-- WHAT YOU GET -->
   <section class="section section--alt">
     <div class="container--narrow">
@@ -98,6 +107,12 @@ const pageSchemas = [
       ) : (
         <p>It starts at <strong>{startPrice} delivered</strong> and reaches a fully-fitted, compliant home at a fraction of the {irishBuilt} an Irish-built equivalent costs — your exact all-in figure is project-specific and itemised in your quote. And where a conventional build takes the best part of a year, an Ériu project typically installs in 14 to 18 weeks from order. For most people, the time saved matters as much as the money. <a href="/modular-homes/cost/" class="inline-link">See the full cost breakdown →</a></p>
       )}
+      <MediaFigure
+        src="/images/modular-homes-floorplan-layouts.webp"
+        alt="Floor-plan layouts for Ériu expandable modular homes — studio through two-bedroom"
+        ratio="3 / 2"
+        caption="Standard layouts, from studio to two-bedroom — custom partitioning available."
+      />
       <p class="callout">On a site of your own — as opposed to a back garden — the planning route differs: the back-garden auxiliary-dwelling exemption won't apply, and you'll typically need planning permission for a dwelling on its own site. We'll tell you which route applies to your site at the eligibility review, and we won't sell you a unit you can't lawfully site.</p>
     </div>
   </section>
@@ -111,6 +126,14 @@ const pageSchemas = [
       <p>Every Ériu home is built on a channel-steel base frame, with insulated sandwich panels (upgradeable to PIR for Part L), double-glazed aluminium openings, and — critically — it is specified for the Irish climate before it's built. Wet, windy, frost: the U-values, the cladding lap details, the roof falls and the air-tightness are all set for here, not for somewhere drier.</p>
       <p>It carries a {warrantyClaim} — given by the factory and carried by Ériu, so the cover is held here in Ireland. It's photographed at the factory, again at Dublin Port, and again on site before craning. And it's supplied with the full Building Regulations compliance pack, because a permanent home has to be right for the long run, not just the day it lands.</p>
       <p>That's the whole point of buying from an Irish-owned company that inspects every unit in person, rather than an anonymous online listing: when you have a question in year three, you're ringing Ireland.</p>
+      <MediaStrip
+        items={[
+          { src: '/images/modular-cabin-build-project-1.webp', alt: 'Ériu modular home being installed on a prepared foundation in Ireland' },
+          { src: '/images/modular-homes-interior-shell.webp', alt: 'Steel-frame structural shell of a modular home before fit-out' },
+          { src: '/images/modular-homes-interior-40ft.webp', alt: 'Finished modular home interior with wood-effect flooring' },
+        ]}
+        caption="From structural shell to finished home — built for the Irish climate, not a drier one."
+      />
       <a href="/modular-homes/building-regulations-ireland/" class="inline-link">The full compliance and durability detail is here →</a>
     </div>
   </section>
@@ -130,6 +153,13 @@ const pageSchemas = [
       <span class="section-eyebrow">Told straight</span>
       <h2>The honest checklist for a home on a site</h2>
       <p>A permanent dwelling on your own site means a foundation to suit your ground, services connected (water, drainage, electricity), a Commencement Notice, a BER on completion, and — outside the back-garden exemption — almost always planning permission. Our vetted installer network handles the site works and we co-ordinate the compliance paperwork, so you end up with a certified, occupiable home. We'll map the exact steps for your site before you commit a euro.</p>
+    </div>
+  </section>
+
+  <!-- PROOF -->
+  <section class="section media-section">
+    <div class="container--narrow">
+      <ProofBar />
     </div>
   </section>
 

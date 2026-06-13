@@ -1,0 +1,48 @@
+---
+// A 2–3 image strip used to show real interiors/builds on the modular pages.
+interface Item { src: string; alt: string; }
+interface Props {
+  items: Item[];
+  caption?: string;
+}
+const { items, caption } = Astro.props;
+---
+<figure class="media-strip">
+  <div class="media-strip-grid" data-count={items.length}>
+    {items.map(it => (
+      <img src={it.src} alt={it.alt} loading="lazy" decoding="async" />
+    ))}
+  </div>
+  {caption && <figcaption>{caption}</figcaption>}
+</figure>
+
+<style>
+  .media-strip { margin: 1.75rem 0; }
+  .media-strip-grid {
+    display: grid;
+    gap: 0.75rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .media-strip-grid[data-count="2"] { grid-template-columns: repeat(2, 1fr); }
+  .media-strip-grid img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    background: #e9e7e0;
+  }
+  .media-strip figcaption {
+    font-size: 0.8125rem;
+    color: #8a8a8a;
+    text-align: center;
+    padding: 0.75rem 1rem 0;
+    font-style: italic;
+    line-height: 1.5;
+  }
+  @media (max-width: 700px) {
+    .media-strip-grid,
+    .media-strip-grid[data-count="2"] { grid-template-columns: 1fr 1fr; }
+  }
+</style>

@@ -1,5 +1,9 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import MediaFigure from '../../components/MediaFigure.astro';
+import MediaStrip from '../../components/MediaStrip.astro';
+import ProofBar from '../../components/ProofBar.astro';
 
 const title = "Downsizing & Granny-Flat Garden Homes Ireland | Ériu Modular";
 const description = "Rightsize without leaving the family land — a single-storey, level-access 34 m² garden home from €25,000 delivered, specified to Irish Building Regulations with an A2 BER. Built under the draft 2026 exemption.";
@@ -11,15 +15,8 @@ const startPrice = "€25,000";
 const irishBuilt = "€110,000–€180,000";
 const warrantyClaim = "30-year anti-corrosion warranty"; // ⚠ confirm before merge
 
+// NB: BreadcrumbList is emitted by the <Breadcrumbs> component below.
 const pageSchemas = [
-  {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
-      { "@type": "ListItem", "position": 2, "name": "Modular Homes", "item": `${siteUrl}/modular-homes/` },
-      { "@type": "ListItem", "position": 3, "name": "Downsizing & Granny-Flat Homes", "item": `${siteUrl}${canonical}` }
-    ]
-  },
   {
     "@type": "Product",
     "name": "Ériu 20ft Expandable — Downsizer / Granny-Flat Home",
@@ -63,12 +60,24 @@ const pageSchemas = [
   <!-- HERO -->
   <section class="page-hero">
     <div class="container--narrow">
+      <Breadcrumbs items={[{ label: 'Modular Homes', href: '/modular-homes/' }, { label: 'Downsizing & Granny-Flat Homes' }]} />
       <span class="section-eyebrow">Stay on the family land · keep your independence · free up the big house</span>
       <h1>Downsize without leaving the people and the place you love.</h1>
       <p class="lead">Downsizing in Ireland usually means a hard trade: give up the family home, leave the area, move somewhere smaller and further from everyone. No wonder so many people put it off for years.</p>
       <p>There's a gentler option now — and the Government is actively encouraging it. By 2030 there will be <strong>over a million people aged 65 and older</strong> in Ireland, up from around 780,000 in 2022, and the State is pushing "rightsizing" to free up larger homes for growing families. The same draft 2026 planning rules that allow a back-garden home make it possible to do that without going anywhere at all.</p>
       <p class="stat-source">Source: <a href="https://www.cso.ie/en/releasesandpublications/ep/p-plfp/populationandlabourforceprojections2023-2057/" rel="nofollow noopener" target="_blank">CSO, Population &amp; Labour Force Projections 2023–2057</a>.</p>
       <div class="hero-cta"><a href="/contact/?interest=modular-quote" class="btn btn--primary">Request a site review →</a></div>
+    </div>
+  </section>
+
+  <!-- SHOWCASE -->
+  <section class="section media-section">
+    <div class="container--narrow">
+      <MediaFigure
+        src="/images/granny-flat-auxiliary-dwelling-ireland-back-garden.webp"
+        alt="A single-storey, level-access Ériu granny flat in an Irish back garden"
+        caption="A single-storey home on the family land — independence, a few steps from the back door."
+      />
     </div>
   </section>
 
@@ -107,6 +116,14 @@ const pageSchemas = [
       <h2>Warm, easy, and built to last</h2>
       <p>A home for later life has to be warm, easy and built to last. Every Ériu unit is specified to the Irish Building Regulations, achieves an A2 BER on a correctly installed unit with a heat pump (warm and cheap to run), is weatherproofed for the Irish climate, and carries a {warrantyClaim} — given by the factory and carried by Ériu, so the cover is held here in Ireland. Single-storey throughout, with level access designed in.</p>
       <p>And it's supplied by an Irish-owned company that inspects every unit in person and answers the phone here — which counts for a great deal when it's a home for someone you love.</p>
+      <MediaStrip
+        items={[
+          { src: '/images/modular-homes-interior.webp', alt: 'Level-access fitted kitchen in a single-storey modular granny flat' },
+          { src: '/images/modular-homes-interior-fitted.webp', alt: 'Accessible fitted bathroom in a modular granny flat' },
+          { src: '/images/modular-homes-interior-fitted-2.webp', alt: 'Warm furnished living space in a single-storey modular home' },
+        ]}
+        caption="Warm, level-access living — single-storey throughout, no stairs."
+      />
       <a href="/modular-homes/building-regulations-ireland/" class="inline-link">Full compliance and BER detail is here →</a>
     </div>
   </section>
@@ -117,6 +134,13 @@ const pageSchemas = [
       <span class="section-eyebrow">Plainly</span>
       <h2>What's involved</h2>
       <p>A foundation, services connected from the main house, a Commencement Notice and a BER on completion — handled by our vetted Irish installer network, with the paperwork co-ordinated across both phases. Typical time from order to a finished, occupiable home is a matter of weeks, not the long wait of a conventional build. We'll walk the whole family through every step before anything is decided.</p>
+    </div>
+  </section>
+
+  <!-- PROOF -->
+  <section class="section media-section">
+    <div class="container--narrow">
+      <ProofBar />
     </div>
   </section>
 

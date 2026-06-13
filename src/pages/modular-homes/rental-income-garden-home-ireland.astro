@@ -1,5 +1,9 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import MediaFigure from '../../components/MediaFigure.astro';
+import MediaStrip from '../../components/MediaStrip.astro';
+import ProofBar from '../../components/ProofBar.astro';
 
 const title = "Tax-Free Rental Income from a Garden Home Ireland | Ériu";
 const description = "Up to €14,000 a year tax-free under the Rent-a-Room scheme, from a self-contained garden home on ground you already own. The honest yield maths, the draft 2026 rules, and the caveats — in the same breath.";
@@ -21,15 +25,8 @@ const startPrice = "€25,000";
 const irishBuilt = "€110,000–€180,000";
 const warrantyClaim = "30-year anti-corrosion warranty"; // ⚠ confirm before merge
 
+// NB: BreadcrumbList is emitted by the <Breadcrumbs> component below.
 const pageSchemas = [
-  {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
-      { "@type": "ListItem", "position": 2, "name": "Modular Homes", "item": `${siteUrl}/modular-homes/` },
-      { "@type": "ListItem", "position": 3, "name": "Rental Income Garden Home", "item": `${siteUrl}${canonical}` }
-    ]
-  },
   {
     "@type": "Product",
     "name": "Ériu 20ft Expandable — Income Garden Home",
@@ -73,12 +70,24 @@ const pageSchemas = [
   <!-- HERO -->
   <section class="page-hero">
     <div class="container--narrow">
+      <Breadcrumbs items={[{ label: 'Modular Homes', href: '/modular-homes/' }, { label: 'Rental Income Garden Home' }]} />
       <span class="section-eyebrow">Up to €14,000 a year · tax-free · on ground you already own</span>
       <h1>Your back garden could be the best-performing asset you own.</h1>
       <p class="lead">There's a quiet shift in Irish property most people haven't done the maths on yet.</p>
       <p>Draft planning rules brought to Cabinet in April 2026 would, <strong>if enacted</strong>, let you place a self-contained 32–45 m² home in your rear garden with no full planning permission. And under the Rent-a-Room scheme, the rent it earns you — up to €14,000 a year — could be exempt from income tax, USC and PRSI.</p>
       <p>For a homeowner with a usable garden and some capital, that's not a renovation. It's an income stream parked between the kitchen window and the back fence.</p>
       <div class="hero-cta"><a href="/contact/?interest=modular-quote" class="btn btn--primary">Request your quote + yield breakdown →</a></div>
+    </div>
+  </section>
+
+  <!-- SHOWCASE -->
+  <section class="section media-section">
+    <div class="container--narrow">
+      <MediaFigure
+        src="/images/modular-homes-20ft-expandable.webp"
+        alt="The Ériu 20ft Expandable — a self-contained garden home let under the Rent-a-Room scheme"
+        caption="The 20ft Expandable — a tax-free income unit on ground you already own."
+      />
     </div>
   </section>
 
@@ -116,6 +125,14 @@ const pageSchemas = [
       <h2>The reason the yield is this strong is the entry price</h2>
       <p>The 20ft Expandable starts at <strong>{startPrice} delivered</strong> and reaches a fully-fitted, rentable, BER-A2 home at a fraction of the {irishBuilt} an Irish-built equivalent costs. The yield maths that follows is simply a function of that.</p>
       <p>It's possible because our founder has sourced direct from the Henan factories since 2008 and inspects every unit in person. Factory-direct, not corner-cut: same compliance, same A2 BER, and the same {warrantyClaim} — given by the factory and carried by Ériu, so the cover is held here in Ireland.</p>
+      <MediaStrip
+        items={[
+          { src: '/images/modular-homes-interior.webp', alt: 'Fitted modular home kitchen — the standard a tenant rents' },
+          { src: '/images/modular-homes-interior-fitted-2.webp', alt: 'Furnished modular home living and dining space' },
+          { src: '/images/modular-homes-hero-back-garden-ireland.webp', alt: 'Self-contained modular rental home sited in an Irish back garden' },
+        ]}
+        caption="A rentable, A2-BER home — finished to a standard a tenant pays for."
+      />
       <a href="/modular-homes/cost/" class="inline-link">See the full cost breakdown →</a>
     </div>
   </section>
@@ -150,6 +167,13 @@ const pageSchemas = [
       <h2>An income stream is only as good as its legality</h2>
       <p>Every Ériu unit is specified to Building Regulations (TGD Parts A–M), supplied BER-ready to A2, and delivered with a full compliance pack and a path through the Commencement Notice and BER assessment. A unit that isn't lawfully occupiable can't be lawfully let — so the compliance is part of the investment case.</p>
       <a href="/modular-homes/building-regulations-ireland/" class="inline-link">See exactly what that involves →</a>
+    </div>
+  </section>
+
+  <!-- PROOF -->
+  <section class="section media-section">
+    <div class="container--narrow">
+      <ProofBar />
     </div>
   </section>
 
