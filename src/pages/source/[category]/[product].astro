@@ -1,10 +1,12 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { Image } from 'astro:assets';
 import PageHero from '../../../components/PageHero.astro';
 import StatsRow from '../../../components/StatsRow.astro';
 import FAQAccordion from '../../../components/FAQAccordion.astro';
 import CtaSection from '../../../components/CtaSection.astro';
 import { products } from '../../../data/products.js';
+import { resolveImage, responsiveWidths } from '../../../lib/optimizedImages';
 
 export async function getStaticPaths() {
   return products.map(product => ({
@@ -17,6 +19,11 @@ const { product } = Astro.props;
 const siteUrl = 'https://eriusourcing.com';
 const productUrl = `${siteUrl}/source/${product.categorySlug}/${product.slug}/`;
 const categoryUrl = `${siteUrl}/source/${product.categoryFullSlug}/`;
+
+// Build-optimised hero image when a copy exists under src/assets/images;
+// otherwise the raw /public <img> is used (graceful, per-image migration).
+const heroImg = resolveImage(product.image);
+const heroWidths = heroImg ? responsiveWidths(heroImg, [400, 600, 900, 1200]) : [];
 
 // Sibling products in the same category — contextual internal links so deep
 // product pages aren't reachable only from their parent category page.
@@ -112,14 +119,25 @@ const pageSchemas = [
           <a href="/china-network/" class="inline-link">See our full China network →</a>
         </div>
         <div class="hub-image">
-          <img
-            src={product.image}
-            alt={product.imageAlt}
-            width={product.imageWidth ?? 1400}
-            height={product.imageHeight ?? 934}
-            loading="lazy"
-            decoding="async"
-          />
+          {heroImg ? (
+            <Image
+              src={heroImg}
+              alt={product.imageAlt}
+              widths={heroWidths}
+              sizes="(max-width: 900px) 100vw, 600px"
+              loading="lazy"
+              decoding="async"
+            />
+          ) : (
+            <img
+              src={product.image}
+              alt={product.imageAlt}
+              width={product.imageWidth ?? 1400}
+              height={product.imageHeight ?? 934}
+              loading="lazy"
+              decoding="async"
+            />
+          )}
         </div>
       </div>
     </div>
