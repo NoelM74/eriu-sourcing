@@ -1,4 +1,4 @@
-// sitewideFaqs.js — curated, categorised FAQ corpus for the /faq/ hub.
+// sitewideFaqs.js, curated, categorised FAQ corpus for the /faq/ hub.
 //
 // Source policy: questions here are the highest-frequency, site-wide
 // questions that are NOT already answered on a specific product or
@@ -15,19 +15,19 @@ export const sitewideFaqs = [
     questions: [
       {
         q: 'What does a China sourcing agent actually do?',
-        a: 'A China sourcing agent acts as your on-the-ground representative in China — identifying factories rather than trading companies, vetting suppliers physically, negotiating direct factory-gate pricing, conducting pre-shipment quality control, and coordinating freight. Ériu Sourcing operates from Zhengzhou (Henan, central China) and Shenzhen (Guangdong, south China) with 18 years of established factory relationships across construction, modular building, machinery, furniture and consumer goods.',
+        a: 'A China sourcing agent acts as your on-the-ground representative in China, identifying factories rather than trading companies, vetting suppliers physically, negotiating direct factory-gate pricing, conducting pre-shipment quality control, and coordinating freight. Ériu Sourcing operates from Zhengzhou (Henan, central China) and Shenzhen (Guangdong, south China) with 18 years of established factory relationships across construction, modular building, machinery, furniture and consumer goods.',
       },
       {
         q: 'How is Ériu different from Alibaba?',
-        a: 'Most suppliers on Alibaba are trading companies, not factories — they add 20–40% margin while presenting themselves as manufacturers. There is no physical verification, no pre-shipment inspection, and no CE compliance check possible through Alibaba alone. Ériu provides direct factory access with physical on-site visits, factory-gate price negotiation, and independent pre-shipment QC before a container is sealed. The price difference flows through to Irish landed cost as a 35–60% saving on equivalent product.',
+        a: 'Most suppliers on Alibaba are trading companies, not factories, they add 20–40% margin while presenting themselves as manufacturers. There is no physical verification, no pre-shipment inspection, and no CE compliance check possible through Alibaba alone. Ériu provides direct factory access with physical on-site visits, factory-gate price negotiation, and independent pre-shipment QC before a container is sealed. The price difference flows through to Irish landed cost as a 35–60% saving on equivalent product.',
       },
       {
         q: 'How long has the team been in China?',
-        a: 'Noel Murphy, founder, moved to Zhengzhou in 2008 and has operated continuously from there since. The wider Ériu team is 50+ people across Zhengzhou (Henan) and Shenzhen (Guangdong), built on the operational base of PFC Express — Noel\'s previous logistics business which scaled to €30M+ annual revenue and which provides the warehouse, QC, and freight infrastructure that Ériu sourcing clients access today.',
+        a: 'Noel Murphy, founder, moved to Zhengzhou in 2008 and has operated continuously from there since. The wider Ériu team is 50+ people across Zhengzhou (Henan) and Shenzhen (Guangdong), built on the operational base of PFC Express, Noel\'s previous logistics business which scaled to €30M+ annual revenue and which provides the warehouse, QC, and freight infrastructure that Ériu sourcing clients access today.',
       },
       {
         q: 'Why central China? Why not just Shenzhen or Shanghai?',
-        a: 'Central China — Henan, Hubei, Hunan and the surrounding provinces — is the production heartland for the categories Irish and UK buyers import in serious volume: modular homes (Zhengzhou / Xinxiang), construction materials including aluminium profiles and fasteners, machinery (Changsha concrete equipment, Zhengzhou crushing equipment, Luoyang agricultural machinery), refractory products (Xinmi), and commercial inflatables. Shenzhen and Guangdong dominate consumer electronics and premium furniture — Ériu sources from those clusters too, but central China is where the structural cost advantage and Noel\'s 18-year ground knowledge concentrate.',
+        a: 'Central China, Henan, Hubei, Hunan and the surrounding provinces, is the production heartland for the categories Irish and UK buyers import in serious volume: modular homes (Zhengzhou / Xinxiang), construction materials including aluminium profiles and fasteners, machinery (Changsha concrete equipment, Zhengzhou crushing equipment, Luoyang agricultural machinery), refractory products (Xinmi), and commercial inflatables. Shenzhen and Guangdong dominate consumer electronics and premium furniture, Ériu sources from those clusters too, but central China is where the structural cost advantage and Noel\'s 18-year ground knowledge concentrate.',
       },
     ],
   },
@@ -37,7 +37,7 @@ export const sitewideFaqs = [
     questions: [
       {
         q: 'How much can I save buying direct from Chinese factories?',
-        a: 'Irish businesses typically save 35–60% compared to buying through Irish wholesalers or Alibaba trading companies. These savings come from eliminating two or three layers of margin: the Chinese trading company markup (20–40%), the European importer markup, and the Irish distributor margin. The exact saving depends on product category, volume, and your current wholesale pricing — for high-margin categories like construction materials and modular homes, savings of 50%+ are typical.',
+        a: 'Irish businesses typically save 35–60% compared to buying through Irish wholesalers or Alibaba trading companies. These savings come from eliminating two or three layers of margin: the Chinese trading company markup (20–40%), the European importer markup, and the Irish distributor margin. The exact saving depends on product category, volume, and your current wholesale pricing, for high-margin categories like construction materials and modular homes, savings of 50%+ are typical.',
       },
       {
         q: 'What does a sourcing quote include?',
@@ -45,11 +45,11 @@ export const sitewideFaqs = [
       },
       {
         q: 'What is the minimum order to use Ériu Sourcing?',
-        a: 'Ériu works with businesses across all sizes. Minimum order quantities are set by individual factories and vary by product category — typically ranging from €3,000 to €10,000 per order for consumer goods, €15,000+ for construction materials, and €25,000+ for modular homes (one unit). Factory-specific MOQs are advised as part of the initial brief stage, before any commitment is made.',
+        a: 'Ériu works with businesses across all sizes. Minimum order quantities are set by individual factories and vary by product category, typically ranging from €3,000 to €10,000 per order for consumer goods, €15,000+ for construction materials, and €25,000+ for modular homes (one unit). Factory-specific MOQs are advised as part of the initial brief stage, before any commitment is made.',
       },
       {
         q: 'Is there a fee for the initial sourcing quote?',
-        a: 'No. The initial brief-to-quote conversation is free. Ériu earns from sourcing-agent commission once a buyer commits to placing an order through us — typically structured as a percentage of order value, disclosed upfront in the quote, and substantially smaller than the import-channel margin we remove.',
+        a: 'No. The initial brief-to-quote conversation is free. Ériu earns from sourcing-agent commission once a buyer commits to placing an order through us, typically structured as a percentage of order value, disclosed upfront in the quote, and substantially smaller than the import-channel margin we remove.',
       },
     ],
   },
@@ -59,11 +59,11 @@ export const sitewideFaqs = [
     questions: [
       {
         q: 'How does pre-shipment quality control work?',
-        a: 'Pre-shipment QC is a physical inspection of finished goods at the factory before the shipping container is sealed. The inspection checks product specifications against your approved sample, verifies quantities, reviews packaging, and tests product function where applicable. If goods fail inspection, they stay in China at the factory\'s cost — you do not pay freight on rejected goods. This eliminates the risk of discovering quality problems at Dublin Port.',
+        a: 'Pre-shipment QC is a physical inspection of finished goods at the factory before the shipping container is sealed. The inspection checks product specifications against your approved sample, verifies quantities, reviews packaging, and tests product function where applicable. If goods fail inspection, they stay in China at the factory\'s cost, you do not pay freight on rejected goods. This eliminates the risk of discovering quality problems at Dublin Port.',
       },
       {
         q: 'Do you handle CE marking and EU compliance for Chinese imports?',
-        a: 'Yes. CE compliance is verified at source — at the factory in China — before any goods leave the country. We check certification documentation, test reports, and product specifications against EU and Irish standards. For construction materials, electronics, and apparel, full compliance documentation is provided with every order. The "CE" mark on Chinese product is not always the EU CE mark; we verify the documentation chain and reject China Export-marked goods being presented as EU CE-compliant.',
+        a: 'Yes. CE compliance is verified at source, at the factory in China, before any goods leave the country. We check certification documentation, test reports, and product specifications against EU and Irish standards. For construction materials, electronics, and apparel, full compliance documentation is provided with every order. The "CE" mark on Chinese product is not always the EU CE mark; we verify the documentation chain and reject China Export-marked goods being presented as EU CE-compliant.',
       },
       {
         q: 'What is AQL and what level should I specify for my order?',
@@ -71,7 +71,7 @@ export const sitewideFaqs = [
       },
       {
         q: 'What happens if goods fail inspection?',
-        a: 'If a pre-shipment inspection finds defects above the agreed AQL threshold, the order is held at the factory and not loaded. Ériu negotiates rework or replacement with the factory at no cost to you. Rework typically adds three to ten days to lead time depending on the defect scope. You only pay for goods that pass QC and load — never for failed-inspection units.',
+        a: 'If a pre-shipment inspection finds defects above the agreed AQL threshold, the order is held at the factory and not loaded. Ériu negotiates rework or replacement with the factory at no cost to you. Rework typically adds three to ten days to lead time depending on the defect scope. You only pay for goods that pass QC and load, never for failed-inspection units.',
       },
     ],
   },
@@ -81,11 +81,11 @@ export const sitewideFaqs = [
     questions: [
       {
         q: 'How long does sourcing from China to Ireland take end-to-end?',
-        a: 'The full process — from initial brief to goods landed in Ireland — typically takes 8–14 weeks. Factory identification and pricing takes one to two weeks. Sampling and approval takes one to three weeks depending on complexity. Production takes three to six weeks. Sea freight from China to Ireland takes four to five weeks. Air freight is available for urgent orders, reducing transit to five to seven days but at substantially higher per-kg cost.',
+        a: 'The full process, from initial brief to goods landed in Ireland, typically takes 8–14 weeks. Factory identification and pricing takes one to two weeks. Sampling and approval takes one to three weeks depending on complexity. Production takes three to six weeks. Sea freight from China to Ireland takes four to five weeks. Air freight is available for urgent orders, reducing transit to five to seven days but at substantially higher per-kg cost.',
       },
       {
         q: 'What is the difference between FOB and CIF in a quote?',
-        a: 'FOB (Free On Board) is the price at the Chinese port — the goods loaded onto the ship but freight, insurance and Irish-side duty / VAT are added on top. CIF (Cost, Insurance, Freight) includes ocean freight to the destination port and basic transit insurance. For Irish buyers, FOB quotes give the cleanest view of factory-gate cost; the Irish landed cost adds shipping, marine insurance, Irish customs duty (where applicable), VAT at 23%, and inland transport from Dublin or Cork port to your premises.',
+        a: 'FOB (Free On Board) is the price at the Chinese port, the goods loaded onto the ship but freight, insurance and Irish-side duty / VAT are added on top. CIF (Cost, Insurance, Freight) includes ocean freight to the destination port and basic transit insurance. For Irish buyers, FOB quotes give the cleanest view of factory-gate cost; the Irish landed cost adds shipping, marine insurance, Irish customs duty (where applicable), VAT at 23%, and inland transport from Dublin or Cork port to your premises.',
       },
       {
         q: 'Do you handle the customs clearance into Ireland?',
@@ -99,7 +99,7 @@ export const sitewideFaqs = [
     questions: [
       {
         q: 'Do I need planning permission for a modular home in my back garden in Ireland?',
-        a: 'Under the Government\'s draft Exempted Development Regulations brought to Cabinet on 21 April 2026, a detached auxiliary habitable dwelling of 32–45 square metres can be built in the back garden of a principal house without full planning permission, provided it is connected to the principal house\'s services and meets the exemption conditions. Planning exemption is not the same as building-regulations exemption — every structure must still meet Irish Building Regs (TGD Parts A to M), and a BER assessment is required.',
+        a: 'Under the Government\'s draft Exempted Development Regulations brought to Cabinet on 21 April 2026, a detached auxiliary habitable dwelling of 32–45 square metres can be built in the back garden of a principal house without full planning permission, provided it is connected to the principal house\'s services and meets the exemption conditions. Planning exemption is not the same as building-regulations exemption, every structure must still meet Irish Building Regs (TGD Parts A to M), and a BER assessment is required.',
       },
       {
         q: 'Which model fits the new exempted-development envelope?',

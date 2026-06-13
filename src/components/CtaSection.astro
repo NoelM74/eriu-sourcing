@@ -1,5 +1,5 @@
 ---
-// CtaSection.astro — shared dark-emerald CTA band that closes most pages.
+// CtaSection.astro, shared dark-emerald CTA band that closes most pages.
 //
 // Replaces per-template duplication of: .cta-section, .section--emerald
 // closing-blocks across homepage, product page, source/[slug], blog/[slug],
@@ -9,7 +9,7 @@
 //   <CtaSection
 //     eyebrow="Ready to start?"
 //     h2="Send us a brief. We'll find the factory."
-//     body="Product, quantity, timeline — that's all we need."
+//     body="Product, quantity, timeline, that's all we need."
 //     ctas={[
 //       { href: '/contact/', label: 'Get a sourcing quote →', variant: 'white-outline' },
 //     ]}
@@ -71,7 +71,7 @@ const { eyebrow, h2, body, ctas, align = 'center' } = Astro.props;
   }
 
   .cta-section p {
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255,255,255, 0.85);
     font-size: var(--text-lg);
     line-height: 1.7;
     margin: 0 0 1.75rem;

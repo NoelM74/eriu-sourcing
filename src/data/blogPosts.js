@@ -1,4 +1,4 @@
-﻿// blogPosts.js — Ériu Sourcing content hub
+﻿// blogPosts.js, Ériu Sourcing content hub
 // Each entry is a fully-specified article brief.
 // Published articles replace `draft: true` with `draft: false` and add full `body` content.
 // URL pattern: /blog/[slug]
@@ -11,7 +11,7 @@ export const blogPosts = [
     slug: 'how-to-source-products-direct-from-china-to-ireland-2026',
     title: 'How to Source Products Direct from China to Ireland in 2026',
     metaTitle: 'How to Source Products Direct from China to Ireland in 2026 | Ériu Sourcing',
-    metaDescription: 'How Irish businesses source factory-direct from China in 2026 — factory vetting, QC, CE compliance, freight and landed cost, explained step by step.',
+    metaDescription: 'How Irish businesses source factory-direct from China in 2026, factory vetting, QC, CE compliance, freight and landed cost, explained step by step.',
     h1: 'How to source products direct from China to Ireland in 2026',
     eyebrow: 'Complete Guide',
     category: 'sourcing-guides',
@@ -22,30 +22,30 @@ export const blogPosts = [
     estimatedWordCount: 3200,
     publishDate: '2026-04-15',
     draft: false,
-    body: `<p>Most Irish businesses that import from China pay more than they need to. Not by a little — by 30 to 50 per cent above what the same goods would cost bought directly from the factory that makes them.</p>
+    body: `<p>Most Irish businesses that import from China pay more than they need to. Not by a little, by 30 to 50 per cent above what the same goods would cost bought directly from the factory that makes them.</p>
 
-<p>The reason is structural. Most suppliers visible on Alibaba and B2B trade directories are trading companies — intermediaries who buy from factories and resell with a margin attached. By the time an Irish importer receives a quote, they are already looking at a price with one or two middlemen built in.</p>
+<p>The reason is structural. Most suppliers visible on Alibaba and B2B trade directories are trading companies, intermediaries who buy from factories and resell with a margin attached. By the time an Irish importer receives a quote, they are already looking at a price with one or two middlemen built in.</p>
 
 <p>This guide covers how to remove that layer. It walks through how to identify the right factory, verify it, sample it, inspect goods before they leave China, navigate Irish customs, and calculate what you will actually pay once goods land in Ireland. Whether you are approaching China sourcing for the first time or looking to cut costs from an existing import operation, the process is the same.</p>
 
 <h2>Why factory-direct beats Alibaba and trading companies</h2>
 
-<p>Alibaba is not a factory directory. It is a marketplace where anyone can list — factories, trading companies, wholesalers, and agents all appear side by side, often using identical language. Alibaba's own data suggests fewer than 20 per cent of its listed suppliers are genuine manufacturers. The remainder are intermediaries.</p>
+<p>Alibaba is not a factory directory. It is a marketplace where anyone can list, factories, trading companies, wholesalers, and agents all appear side by side, often using identical language. Alibaba's own data suggests fewer than 20 per cent of its listed suppliers are genuine manufacturers. The remainder are intermediaries.</p>
 
 <p>Trading companies on Alibaba typically add 30 to 50 per cent to the factory-gate price. On a €60,000 order, that is €18,000 to €30,000 paid to an intermediary who added nothing to the product. They did not manufacture it. They did not inspect it. They handled the paperwork between you and the factory that did the work.</p>
 
-<p>Factory-direct sourcing removes this layer entirely. Irish businesses moving to direct factory access typically see savings of 35 to 55 per cent compared to equivalent wholesale prices for the same goods sourced through European importers. The exact figure depends on the product category, order volume, and negotiating leverage — but the direction is always the same.</p>
+<p>Factory-direct sourcing removes this layer entirely. Irish businesses moving to direct factory access typically see savings of 35 to 55 per cent compared to equivalent wholesale prices for the same goods sourced through European importers. The exact figure depends on the product category, order volume, and negotiating leverage, but the direction is always the same.</p>
 
 <p>Control is the other advantage. When you buy through a trading company, your access to the production line ends at that company's door. Quality issues, production delays, and material substitutions happen invisible to you. Direct factory access means you can inspect the facility, approve materials, witness production, and sign off on goods before they move.</p>
 
 <figure class="article-figure">
   <img src="/images/hero-china-factory-floor.webp" alt="Modern Chinese factory floor with workers in navy and emerald uniforms at production workstations" loading="lazy" width="1280" height="720">
-  <figcaption>Factory-direct access gives Irish importers visibility at the production line — not just the warehouse door</figcaption>
+  <figcaption>Factory-direct access gives Irish importers visibility at the production line, not just the warehouse door</figcaption>
 </figure>
 
 <h2>How to identify the right factory, not a reseller</h2>
 
-<p>The first filter is the business licence. Every Chinese manufacturer holds a 营业执照 (yíngyè zhízhào) — a business registration document specifying the company's registered scope of operations. A genuine manufacturer's licence will list production or manufacturing activities. A trading company's will list import/export trade, wholesale, or distribution.</p>
+<p>The first filter is the business licence. Every Chinese manufacturer holds a 营业执照 (yíngyè zhízhào), a business registration document specifying the company's registered scope of operations. A genuine manufacturer's licence will list production or manufacturing activities. A trading company's will list import/export trade, wholesale, or distribution.</p>
 
 <p>Chinese companies publish their business licences through the National Enterprise Credit Information Publicity System at gsxt.gov.cn. You can search any company by name and retrieve the registered details. A supplier who refuses to share their business licence number is a significant red flag.</p>
 
@@ -67,71 +67,71 @@ export const blogPosts = [
 
 <h2>Sampling: what to ask for and what to test</h2>
 
-<p>Before any production order, you need samples. The purpose is not simply to see whether you like the product — it is to verify that the factory can produce your specification consistently, and to establish the physical benchmark against which goods will be inspected before shipment.</p>
+<p>Before any production order, you need samples. The purpose is not simply to see whether you like the product, it is to verify that the factory can produce your specification consistently, and to establish the physical benchmark against which goods will be inspected before shipment.</p>
 
-<p>Request samples from the production line, not from the factory showroom. Showroom samples are often hand-finished and do not represent production quality. Specify in writing that you want samples produced using the same materials, processes, and finishes that will be used in the production run. Request three samples — keep one unsealed as your reference unit for the pre-shipment inspection later.</p>
+<p>Request samples from the production line, not from the factory showroom. Showroom samples are often hand-finished and do not represent production quality. Specify in writing that you want samples produced using the same materials, processes, and finishes that will be used in the production run. Request three samples, keep one unsealed as your reference unit for the pre-shipment inspection later.</p>
 
-<p>Once samples arrive in Ireland, test them against your actual requirements. For products subject to CE marking, engage an accredited testing body — the NSAI, TÜV, or a NANDO-listed notified body — to verify compliance before you commit to production quantities. Do not rely solely on test reports provided by the factory. Test reports can be fabricated, and the accreditation of the testing body matters under EU product safety law.</p>
+<p>Once samples arrive in Ireland, test them against your actual requirements. For products subject to CE marking, engage an accredited testing body, the NSAI, TÜV, or a NANDO-listed notified body, to verify compliance before you commit to production quantities. Do not rely solely on test reports provided by the factory. Test reports can be fabricated, and the accreditation of the testing body matters under EU product safety law.</p>
 
 <p>Document the approved sample with photographs, measurements, and material specifications. This documentation becomes the inspection standard your pre-shipment QC inspector will use on the production run.</p>
 
 <figure class="article-figure">
   <img src="/images/article-factory-qc-inspection.webp" alt="Quality control inspector in emerald hi-vis vest checking products on Chinese factory production line with clipboard" loading="lazy" width="1280" height="720">
-  <figcaption>Pre-shipment inspection at the factory — while there is still time to correct problems before goods leave China</figcaption>
+  <figcaption>Pre-shipment inspection at the factory, while there is still time to correct problems before goods leave China</figcaption>
 </figure>
 
 <h2>Pre-shipment QC: what good inspection looks like</h2>
 
-<p>Pre-shipment inspection (PSI) is the single most important risk control in China sourcing. It is the point at which goods are physically checked before they leave the factory — while there is still time to fix problems, request rework, or reject the shipment.</p>
+<p>Pre-shipment inspection (PSI) is the single most important risk control in China sourcing. It is the point at which goods are physically checked before they leave the factory, while there is still time to fix problems, request rework, or reject the shipment.</p>
 
-<p>A standard PSI covers three elements. Quantity verification confirms that the number of units packed matches the order. Quality inspection checks a statistically valid sample of goods — typically using AQL sampling standards — against your approved sample specification. Packing and labelling review verifies that carton marking, product labelling, barcodes, and shipping marks are correct for the Irish and EU market.</p>
+<p>A standard PSI covers three elements. Quantity verification confirms that the number of units packed matches the order. Quality inspection checks a statistically valid sample of goods, typically using AQL sampling standards, against your approved sample specification. Packing and labelling review verifies that carton marking, product labelling, barcodes, and shipping marks are correct for the Irish and EU market.</p>
 
 <p>For CE-regulated products, the inspection must additionally verify that the CE mark is correctly applied, that the Declaration of Conformity is present in the shipment documentation, and that any required technical files are included. CE-marked goods arriving in Ireland without the correct documentation can be held at Dublin Port while customs awaits compliance evidence.</p>
 
-<p>Third-party PSI through firms like QIMA, Bureau Veritas, or SGS costs approximately €250 to €450 per man-day. Most standard inspections take one day. For a €50,000 shipment, the inspection fee is less than one per cent of the order value — against the risk of a full container of defective goods reaching the Irish market.</p>
+<p>Third-party PSI through firms like QIMA, Bureau Veritas, or SGS costs approximately €250 to €450 per man-day. Most standard inspections take one day. For a €50,000 shipment, the inspection fee is less than one per cent of the order value, against the risk of a full container of defective goods reaching the Irish market.</p>
 
-<p>PSI should happen when goods are 80 to 100 per cent complete and are being packed. Do not accept an invitation to inspect "when goods are ready to ship" — by that point, factory staff have left the building and corrective action is no longer practical.</p>
+<p>PSI should happen when goods are 80 to 100 per cent complete and are being packed. Do not accept an invitation to inspect "when goods are ready to ship", by that point, factory staff have left the building and corrective action is no longer practical.</p>
 
 <h2>CE compliance: what you must have before Irish customs</h2>
 
-<p>CE marking is a legal requirement, not a quality endorsement. For products in regulated categories, goods without valid CE documentation cannot legally be placed on the Irish or EU market. As the Irish importer, you carry legal responsibility for CE compliance — not the Chinese supplier who made the product.</p>
+<p>CE marking is a legal requirement, not a quality endorsement. For products in regulated categories, goods without valid CE documentation cannot legally be placed on the Irish or EU market. As the Irish importer, you carry legal responsibility for CE compliance, not the Chinese supplier who made the product.</p>
 
 <p>Categories requiring CE in Ireland include: electronic and electrical equipment (Low Voltage Directive, EMC Directive), machinery (Machinery Directive), personal protective equipment (PPE Regulation), toys (Toy Safety Directive), construction products (CPR), medical devices (MDR), radio equipment (RED), and pressure equipment (PED). The NSAI website publishes the full list of relevant EU directives and their Irish transposition.</p>
 
-<p>CE compliance involves more than applying a mark to the product. For most regulated categories, it requires a Declaration of Conformity (DoC) — a legal document signed by the manufacturer or EU importer declaring the product meets the relevant directive. For higher-risk categories, it also requires testing by a notified body — an accredited third party registered on the EU NANDO database.</p>
+<p>CE compliance involves more than applying a mark to the product. For most regulated categories, it requires a Declaration of Conformity (DoC), a legal document signed by the manufacturer or EU importer declaring the product meets the relevant directive. For higher-risk categories, it also requires testing by a notified body, an accredited third party registered on the EU NANDO database.</p>
 
-<p>When a Chinese supplier claims CE certification, verify four things. Does the claimed directive actually apply to your product — not just any CE mark, but the right directive? Is the test report from a body you can find on the NANDO database? Does the DoC identify the correct responsible person — for goods manufactured outside the EU, the Irish importer is typically the responsible person? Are the technical files up to date for the current production specification?</p>
+<p>When a Chinese supplier claims CE certification, verify four things. Does the claimed directive actually apply to your product, not just any CE mark, but the right directive? Is the test report from a body you can find on the NANDO database? Does the DoC identify the correct responsible person, for goods manufactured outside the EU, the Irish importer is typically the responsible person? Are the technical files up to date for the current production specification?</p>
 
-<p>Self-declared CE — where the factory issues its own DoC without third-party testing — is permissible for lower-risk product categories, but the Irish importer still carries full legal responsibility for the accuracy of that declaration. If goods are later found non-compliant, the business faces potential seizure, product recall liability, and fines from the CCPC or relevant Irish market surveillance authority.</p>
+<p>Self-declared CE, where the factory issues its own DoC without third-party testing, is permissible for lower-risk product categories, but the Irish importer still carries full legal responsibility for the accuracy of that declaration. If goods are later found non-compliant, the business faces potential seizure, product recall liability, and fines from the CCPC or relevant Irish market surveillance authority.</p>
 
 <h2>Freight options and realistic lead times in 2026</h2>
 
-<p>Sea freight from major Chinese ports to Dublin takes 25 to 40 days, depending on the routing and service type. Shenzhen to Dublin runs 28 to 32 days on direct or single-transship services. Ningbo and Shanghai add two to four days. Northern China ports — Tianjin, Qingdao — add five to eight days.</p>
+<p>Sea freight from major Chinese ports to Dublin takes 25 to 40 days, depending on the routing and service type. Shenzhen to Dublin runs 28 to 32 days on direct or single-transship services. Ningbo and Shanghai add two to four days. Northern China ports, Tianjin, Qingdao, add five to eight days.</p>
 
 <p>In 2026, a 20ft FCL (full container load) from Guangdong ports to Dublin costs approximately $1,600 to $3,500 depending on the carrier and market conditions. A 40ft container runs $2,500 to $5,500. These are ocean freight costs only. Port handling at Dublin, Irish customs clearance handling, and inland delivery to your premises are additional.</p>
 
-<p>LCL (less than container load) is used when your shipment does not fill a full container. It is priced per cubic metre — typically $65 to $90 per CBM on China-Ireland routes in 2026. LCL adds a consolidation period at the origin port (five to eight days) and a deconsolidation period at destination, extending total transit to 35 to 45 days. The threshold at which FCL becomes cheaper than LCL is typically around 15 to 18 CBM — your freight forwarder can calculate the crossover for a specific shipment.</p>
+<p>LCL (less than container load) is used when your shipment does not fill a full container. It is priced per cubic metre, typically $65 to $90 per CBM on China-Ireland routes in 2026. LCL adds a consolidation period at the origin port (five to eight days) and a deconsolidation period at destination, extending total transit to 35 to 45 days. The threshold at which FCL becomes cheaper than LCL is typically around 15 to 18 CBM, your freight forwarder can calculate the crossover for a specific shipment.</p>
 
-<p>Air freight cuts transit to five to seven days but costs five to eight times the sea freight rate. It makes commercial sense for high-value, low-volume, or time-sensitive goods — samples, urgent replenishment, or seasonal stock where the cost of delay outweighs the freight premium.</p>
+<p>Air freight cuts transit to five to seven days but costs five to eight times the sea freight rate. It makes commercial sense for high-value, low-volume, or time-sensitive goods, samples, urgent replenishment, or seasonal stock where the cost of delay outweighs the freight premium.</p>
 
-<p>Ask your freight forwarder to quote on a DAP (Delivered at Place) basis. DAP means all costs are covered until goods arrive at your premises in Ireland. FOB quotes from Chinese factories exclude all shipping costs — if you receive an FOB quote and a separate freight quote, add them together before comparing to any other basis. Compare always on a total landed cost basis.</p>
+<p>Ask your freight forwarder to quote on a DAP (Delivered at Place) basis. DAP means all costs are covered until goods arrive at your premises in Ireland. FOB quotes from Chinese factories exclude all shipping costs, if you receive an FOB quote and a separate freight quote, add them together before comparing to any other basis. Compare always on a total landed cost basis.</p>
 
 <figure class="article-figure">
-  <img src="/images/article-shipping-freight-ireland.webp" alt="Container ship docked at port with stacked intermodal shipping containers — China to Ireland freight" loading="lazy" width="1280" height="720">
-  <figcaption>Sea freight from major Chinese ports to Dublin takes 25 to 40 days in 2026 — FCL or LCL depending on order volume</figcaption>
+  <img src="/images/article-shipping-freight-ireland.webp" alt="Container ship docked at port with stacked intermodal shipping containers, China to Ireland freight" loading="lazy" width="1280" height="720">
+  <figcaption>Sea freight from major Chinese ports to Dublin takes 25 to 40 days in 2026, FCL or LCL depending on order volume</figcaption>
 </figure>
 
 <h2>Understanding your real landed cost</h2>
 
-<p>The most common mistake in Ireland-China sourcing is calculating savings against the factory FOB price alone. The number that determines your margin is the landed cost — what you pay per unit once goods are in your premises in Ireland, including every cost between the factory gate and your stock room.</p>
+<p>The most common mistake in Ireland-China sourcing is calculating savings against the factory FOB price alone. The number that determines your margin is the landed cost, what you pay per unit once goods are in your premises in Ireland, including every cost between the factory gate and your stock room.</p>
 
-<p>A landed cost calculation for goods from China to Ireland includes: the factory price (FOB), international freight (sea or air), marine cargo insurance (typically 0.3 to 0.5% of shipment value), Irish customs duty (0 to 12% depending on the HS commodity code), Irish import VAT at 23% — reclaimed quarterly if you are VAT-registered — pre-shipment inspection, sourcing agent fees where used, and Irish customs clearance handling (typically €100 to €200 per shipment).</p>
+<p>A landed cost calculation for goods from China to Ireland includes: the factory price (FOB), international freight (sea or air), marine cargo insurance (typically 0.3 to 0.5% of shipment value), Irish customs duty (0 to 12% depending on the HS commodity code), Irish import VAT at 23%, reclaimed quarterly if you are VAT-registered, pre-shipment inspection, sourcing agent fees where used, and Irish customs clearance handling (typically €100 to €200 per shipment).</p>
 
-<p>A worked example. An Irish hospitality operator orders €40,000 FOB of furniture from Foshan. Sea freight (FCL) to Dublin adds €3,200. Marine insurance adds €160. Irish customs duty at 2.7% adds €1,080. Import VAT at 23% on the combined value adds approximately €10,000 — but this is reclaimed on the next quarterly VAT return. Pre-shipment inspection adds €400. Customs clearance handling adds €150. Total landed cost before VAT recovery: approximately €54,990. Landed cost multiplier on the FOB price: 1.37.</p>
+<p>A worked example. An Irish hospitality operator orders €40,000 FOB of furniture from Foshan. Sea freight (FCL) to Dublin adds €3,200. Marine insurance adds €160. Irish customs duty at 2.7% adds €1,080. Import VAT at 23% on the combined value adds approximately €10,000, but this is reclaimed on the next quarterly VAT return. Pre-shipment inspection adds €400. Customs clearance handling adds €150. Total landed cost before VAT recovery: approximately €54,990. Landed cost multiplier on the FOB price: 1.37.</p>
 
 <p>For VAT-registered Irish businesses, Postponed VAT Accounting (PVA) allows you to defer import VAT to your next VAT return rather than paying it at customs. This materially improves cash flow on large shipments. PVA should be set up with Revenue.ie before your first significant import shipment arrives at Dublin Port.</p>
 
-<p>Your customs broker or freight forwarder can determine the correct commodity code for your goods using the TARIC database. The commodity code determines your duty rate. Getting this wrong at customs — either under-declaring or misclassifying — creates compliance problems. The €100 to €200 customs broker fee for a professional declaration is a worthwhile cost.</p>
+<p>Your customs broker or freight forwarder can determine the correct commodity code for your goods using the TARIC database. The commodity code determines your duty rate. Getting this wrong at customs, either under-declaring or misclassifying, creates compliance problems. The €100 to €200 customs broker fee for a professional declaration is a worthwhile cost.</p>
 
 <p>Build your landed cost model before committing to a factory price and order quantity. Not after. Decisions made on FOB price alone frequently look attractive in China and expensive in Ireland once full costs are assembled.</p>
 
@@ -139,28 +139,28 @@ export const blogPosts = [
 
 <p>The question of whether to use a sourcing agent or handle China sourcing yourself comes down to one thing: do you have eyes on the factory floor?</p>
 
-<p>Every significant failure mode in China sourcing — substandard materials, production shortcuts, CE documentation problems, shipment delays — has the same root cause. The Irish buyer could not verify what was actually happening at the factory. A business managing a China import from Dublin has no way to spot a material substitution mid-production, confirm that a factory's CE test report is genuine, or catch a quality problem before it is packed into a container and sealed.</p>
+<p>Every significant failure mode in China sourcing, substandard materials, production shortcuts, CE documentation problems, shipment delays, has the same root cause. The Irish buyer could not verify what was actually happening at the factory. A business managing a China import from Dublin has no way to spot a material substitution mid-production, confirm that a factory's CE test report is genuine, or catch a quality problem before it is packed into a container and sealed.</p>
 
-<p>A sourcing agent with physical presence in China resolves this. They visit the factory. They attend the pre-shipment inspection. They read the business licence in the original Mandarin. They follow up when a shipment goes quiet. The value is not in identifying suppliers — it is in the ongoing verification and quality management that makes a China sourcing relationship reliable over time.</p>
+<p>A sourcing agent with physical presence in China resolves this. They visit the factory. They attend the pre-shipment inspection. They read the business licence in the original Mandarin. They follow up when a shipment goes quiet. The value is not in identifying suppliers, it is in the ongoing verification and quality management that makes a China sourcing relationship reliable over time.</p>
 
 <p>The cost of a sourcing agent is typically three to eight per cent of order value, or a fixed project fee depending on complexity. For a €50,000 order, this is €1,500 to €4,000. Against potential savings of €15,000 to €25,000 versus the equivalent cost through a European importer or trading company, the decision is usually straightforward.</p>
 
-<p>Going direct — without a China-based agent — is viable for buyers who travel regularly to China, have existing verified factory relationships, or are experienced enough to conduct their own supplier vetting and inspection. For first-time or occasional importers, the risk of getting it wrong on a significant order consistently outweighs the agent fee.</p>
+<p>Going direct, without a China-based agent, is viable for buyers who travel regularly to China, have existing verified factory relationships, or are experienced enough to conduct their own supplier vetting and inspection. For first-time or occasional importers, the risk of getting it wrong on a significant order consistently outweighs the agent fee.</p>
 
 <p>The minimum viable question to ask any potential sourcing partner is: can you visit the factory before I place an order, and can you attend the pre-shipment inspection? If the answer is no to either, you are not working with a sourcing agent. You are working with another layer of the problem you were trying to solve.</p>
 
 <h2>Next steps for Irish businesses</h2>
 
-<p>Factory-direct sourcing from China is achievable for Irish businesses of all sizes. The order minimums that make sea freight viable — typically €5,000 to €15,000 depending on the product category — are within reach for most SMEs. The process is learnable. The risks are manageable with the right controls in place.</p>
+<p>Factory-direct sourcing from China is achievable for Irish businesses of all sizes. The order minimums that make sea freight viable, typically €5,000 to €15,000 depending on the product category, are within reach for most SMEs. The process is learnable. The risks are manageable with the right controls in place.</p>
 
 <p>The businesses that get into difficulty are those that treat China sourcing as a price exercise rather than an operational one. They find a low price, order without verifying the factory, skip the pre-shipment inspection, and discover on arrival that the goods do not match the sample, or fail CE testing, or simply are not what was agreed.</p>
 
-<p>The businesses that make it work treat China sourcing as a supply chain relationship. They verify the factory. They inspect before shipment. They understand their landed cost before they commit. And they have somebody in China who can act on their behalf when problems arise — because problems arise in every supply chain, and the difference is whether you find out about them in Shenzhen or in Dublin.</p>
+<p>The businesses that make it work treat China sourcing as a supply chain relationship. They verify the factory. They inspect before shipment. They understand their landed cost before they commit. And they have somebody in China who can act on their behalf when problems arise, because problems arise in every supply chain, and the difference is whether you find out about them in Shenzhen or in Dublin.</p>
 
 <p>If you are looking to start or improve a direct China sourcing operation for an Irish business, <a href="/contact/">get in touch</a>. Ériu Sourcing operates from Zhengzhou and Shenzhen and has been working with Irish businesses on direct factory access, QC, CE compliance, and freight since 2007.</p>`,
-    excerpt: 'Sourcing direct from Chinese factories is genuinely achievable for Irish businesses — but only if you approach it the right way. This guide covers every step: finding factories, vetting suppliers, ordering samples, QC before shipment, CE compliance, and landed cost reality.',
+    excerpt: 'Sourcing direct from Chinese factories is genuinely achievable for Irish businesses, but only if you approach it the right way. This guide covers every step: finding factories, vetting suppliers, ordering samples, QC before shipment, CE compliance, and landed cost reality.',
     image: '/images/hero-china-factory-floor.webp',
-    imageAlt: 'Chinese factory floor — sourcing direct from China to Ireland',
+    imageAlt: 'Chinese factory floor, sourcing direct from China to Ireland',
     sections: [
       'Why direct sourcing beats Alibaba and trading companies',
       'How to identify the right factory (not a reseller)',
@@ -174,7 +174,7 @@ export const blogPosts = [
     ],
     faq: [
       { q: 'How do I find factories in China without using Alibaba?', a: 'The most reliable routes are trade shows (Canton Fair, industry-specific fairs), direct referrals from people with existing China relationships, and sourcing agents with on-the-ground factory access. A vetted sourcing agent can identify verified manufacturers across all major product categories without the trading company layer that dominates Alibaba.' },
-      { q: 'Do I need a sourcing agent to import from China to Ireland?', a: 'Not strictly, but having someone physically in China — either a trusted agent or your own staff — dramatically reduces risk. The single biggest cause of China import failures is the inability to verify factory claims and inspect goods before shipment. A sourcing agent solves both.' },
+      { q: 'Do I need a sourcing agent to import from China to Ireland?', a: 'Not strictly, but having someone physically in China, either a trusted agent or your own staff, dramatically reduces risk. The single biggest cause of China import failures is the inability to verify factory claims and inspect goods before shipment. A sourcing agent solves both.' },
       { q: 'How much does it cost to source products from China?', a: 'Minimum viable orders are typically €5,000–€15,000 depending on category, driven by container economics for sea freight. Within that, factory-gate pricing is typically 35–55% below the equivalent Irish wholesale price for the same product. The full landed cost includes factory price, pre-shipment QC, freight, duty, and Irish VAT.' },
     ],
     relatedSlugs: ['alibaba-vs-factory-direct-irish-importers', 'real-landed-cost-importing-from-china-ireland', 'ce-marking-china-imports-ireland'],
@@ -189,7 +189,7 @@ export const blogPosts = [
     slug: 'alibaba-vs-factory-direct-irish-importers',
     title: 'Alibaba vs Factory-Direct: What Irish Importers Need to Know',
     metaTitle: 'Alibaba vs Factory-Direct Sourcing for Irish Businesses | Ériu Sourcing',
-    metaDescription: 'Alibaba is not factory-direct. Here is what Irish importers actually need to know about the difference — and why it costs more than most people realise.',
+    metaDescription: 'Alibaba is not factory-direct. Here is what Irish importers actually need to know about the difference, and why it costs more than most people realise.',
     h1: 'Alibaba vs factory-direct: what Irish importers need to know',
     eyebrow: 'Sourcing Intelligence',
     category: 'sourcing-guides',
@@ -201,17 +201,17 @@ export const blogPosts = [
     publishDate: '2026-04-08',
     dateModified: '2026-05-28',
     draft: false,
-    body: `<p>Most Irish importers think they're buying from Chinese factories. They're not. They're buying from trading companies — intermediaries who source from those factories, mark the goods up 20 to 40 percent, and present themselves as manufacturers. Alibaba makes this easy to do and almost impossible to detect from Dublin.</p>
+    body: `<p>Most Irish importers think they're buying from Chinese factories. They're not. They're buying from trading companies, intermediaries who source from those factories, mark the goods up 20 to 40 percent, and present themselves as manufacturers. Alibaba makes this easy to do and almost impossible to detect from Dublin.</p>
 
-<p>This is not a minor inefficiency. On a €60,000 annual import programme, that markup layer costs you €12,000 to €24,000 a year in invisible margin paid to a company that adds no value to the product. Over five years, it's the price of a new factory relationship, a sourcing agent, and a quality control programme — combined.</p>
+<p>This is not a minor inefficiency. On a €60,000 annual import programme, that markup layer costs you €12,000 to €24,000 a year in invisible margin paid to a company that adds no value to the product. Over five years, it's the price of a new factory relationship, a sourcing agent, and a quality control programme, combined.</p>
 
 <p>Here is what Alibaba actually is, how the deception works, and how to source without paying for it.</p>
 
 <h2>What Alibaba actually is</h2>
 
-<p>Alibaba is an advertising platform. Suppliers pay to appear. The "Gold Supplier" badge means a supplier has paid for a premium listing tier — it does not mean they manufacture anything. "Verified Manufacturer" means Alibaba or a third party visited a premises at some point. It does not mean the premises you visited is the one making your order.</p>
+<p>Alibaba is an advertising platform. Suppliers pay to appear. The "Gold Supplier" badge means a supplier has paid for a premium listing tier, it does not mean they manufacture anything. "Verified Manufacturer" means Alibaba or a third party visited a premises at some point. It does not mean the premises you visited is the one making your order.</p>
 
-<p>Alibaba's own data has historically shown fewer than 20% of its B2B suppliers are genuine manufacturers. The rest are trading companies, wholesalers, sourcing agents, and resellers of various sizes. Many list under names like "XXX Manufacturing Co., Ltd" — because that is a legal company name format in China, not a description of what the company actually does.</p>
+<p>Alibaba's own data has historically shown fewer than 20% of its B2B suppliers are genuine manufacturers. The rest are trading companies, wholesalers, sourcing agents, and resellers of various sizes. Many list under names like "XXX Manufacturing Co., Ltd", because that is a legal company name format in China, not a description of what the company actually does.</p>
 
 <p>The platform exists to connect buyers with sellers. It has no commercial incentive to distinguish factories from traders. Both pay listing fees. Both generate transaction volume. Both satisfy the platform's metrics.</p>
 
@@ -221,28 +221,28 @@ export const blogPosts = [
 
 <p>A trading company that wants to appear as a factory on Alibaba has several tools available.</p>
 
-<p>The most common is borrowing factory photos. They either visit a factory they source from and photograph the production floor, or they use generic stock images of Chinese manufacturing environments. Reverse image search catches some of this — most buyers never run it.</p>
+<p>The most common is borrowing factory photos. They either visit a factory they source from and photograph the production floor, or they use generic stock images of Chinese manufacturing environments. Reverse image search catches some of this, most buyers never run it.</p>
 
-<p>The second is the company name. "Shenzhen Xinlong Manufacturing Co., Ltd" is a legal entity name, not a verified description. China's company registration system allows manufacturing-adjacent names for trading companies. Checking the actual business registration on <a href="https://www.gsxt.gov.cn" target="_blank" rel="noopener">gsxt.gov.cn</a> — China's national enterprise credit system — shows the registered business scope. A trading company scope reads 批发销售 (wholesale trade) or 进出口贸易 (import/export trade). A manufacturer reads 生产制造 (production and manufacturing).</p>
+<p>The second is the company name. "Shenzhen Xinlong Manufacturing Co., Ltd" is a legal entity name, not a verified description. China's company registration system allows manufacturing-adjacent names for trading companies. Checking the actual business registration on <a href="https://www.gsxt.gov.cn" target="_blank" rel="noopener">gsxt.gov.cn</a>, China's national enterprise credit system, shows the registered business scope. A trading company scope reads 批发销售 (wholesale trade) or 进出口贸易 (import/export trade). A manufacturer reads 生产制造 (production and manufacturing).</p>
 
-<p>The third tell is product breadth. A real factory makes one thing well. A furniture factory makes furniture. A trading company on Alibaba often lists cables, furniture, cosmetics, sports equipment, and consumer electronics — because they source from multiple factories and act as a single export point. If a supplier's catalogue spans five unrelated product categories, you are talking to a trader.</p>
+<p>The third tell is product breadth. A real factory makes one thing well. A furniture factory makes furniture. A trading company on Alibaba often lists cables, furniture, cosmetics, sports equipment, and consumer electronics, because they source from multiple factories and act as a single export point. If a supplier's catalogue spans five unrelated product categories, you are talking to a trader.</p>
 
 <p>Low MOQ (minimum order quantity) is another indicator, though not definitive. Real factories run production in batches. They need volume to justify a production run setup. Trading companies can offer lower MOQs because they hold stock or aggregate orders across multiple buyers. If a "factory" offers you 50 units of a custom product with a 2-week lead time, the supply chain behind that claim is worth questioning.</p>
 
 <figure class="article-figure">
-  <img src="/images/article-alibaba-trading-company.webp" alt="Chinese trading company office-showroom in Shenzhen — product samples across unrelated categories, sales staff, no production equipment" width="1200" height="630" loading="lazy" />
+  <img src="/images/article-alibaba-trading-company.webp" alt="Chinese trading company office-showroom in Shenzhen, product samples across unrelated categories, sales staff, no production equipment" width="1200" height="630" loading="lazy" />
   <figcaption>A trading company showroom: product samples across unrelated categories, sales staff, supplier certificates on the wall. No production floor, no workers, no machinery.</figcaption>
 </figure>
 
 <h2>The real cost of the markup layer</h2>
 
-<p>Trading companies typically operate on 20 to 40 percent margin above factory gate price. The range depends on product type, order size, and how competitive the category is. Commodity items — generic fasteners, standard packaging, basic electronics accessories — tend toward the lower end. Customised or branded products, where the trading company needs to manage specifications across multiple factories, tend toward the higher end.</p>
+<p>Trading companies typically operate on 20 to 40 percent margin above factory gate price. The range depends on product type, order size, and how competitive the category is. Commodity items, generic fasteners, standard packaging, basic electronics accessories, tend toward the lower end. Customised or branded products, where the trading company needs to manage specifications across multiple factories, tend toward the higher end.</p>
 
-<p>Walk through a real example. An Irish homeware retailer imports decorative ceramic giftware. They spend €80,000 per year with an Alibaba supplier they have used for three years. The supplier is a Guangdong trading company sourcing from three factories in Chaozhou — the ceramics capital of southern China.</p>
+<p>Walk through a real example. An Irish homeware retailer imports decorative ceramic giftware. They spend €80,000 per year with an Alibaba supplier they have used for three years. The supplier is a Guangdong trading company sourcing from three factories in Chaozhou, the ceramics capital of southern China.</p>
 
 <p>Factory gate price for their annual volume: approximately €52,000. The trading company takes €28,000 in margin. Over three years: €84,000 paid to a company that organised emails, managed the orders, and coordinated shipment. The actual manufacturing skill, tooling investment, and quality control expertise sat inside the factories they never knew existed.</p>
 
-<p>The margin cost compounds when you factor in what the trading company cannot do for you. They will not allow a third-party QC inspector into the factory during production — because revealing the factory would eliminate their value. They cannot commit to specification changes below a certain volume because they do not control the production line. They cannot guarantee consistency across orders because they may switch factories when pricing changes. You are not their only client at that factory, and you have no visibility into where you sit in the production queue.</p>
+<p>The margin cost compounds when you factor in what the trading company cannot do for you. They will not allow a third-party QC inspector into the factory during production, because revealing the factory would eliminate their value. They cannot commit to specification changes below a certain volume because they do not control the production line. They cannot guarantee consistency across orders because they may switch factories when pricing changes. You are not their only client at that factory, and you have no visibility into where you sit in the production queue.</p>
 
 <h2>How to identify a real factory</h2>
 
@@ -250,7 +250,7 @@ export const blogPosts = [
 
 <p>Ask for a photo of their 营业执照 (business licence). Every Chinese company is legally required to hold one and display it at their registered address. The licence shows the company name, registration number, legal representative, registered address, and business scope. A legitimate factory will send this without hesitation. A trading company trying to present as a factory will stall, send something cropped, or send a licence that clearly shows a trading scope.</p>
 
-<p>Request a live video call from the production floor — not the office, not the showroom. Ask them to walk you through the machinery and show you workers at the line. Real factories will do this within a day. Trading companies either decline or show you a borrowed facility they have no relationship with after the call.</p>
+<p>Request a live video call from the production floor, not the office, not the showroom. Ask them to walk you through the machinery and show you workers at the line. Real factories will do this within a day. Trading companies either decline or show you a borrowed facility they have no relationship with after the call.</p>
 
 <p>Check the specialisation. Ask what percentage of their output is the product category you are buying. A real furniture factory makes furniture. If they start mentioning kitchen equipment, sports goods, or electronics as part of their range, that is a trading company breadth, not a factory's depth.</p>
 
@@ -258,7 +258,7 @@ export const blogPosts = [
 
 <h2>What factory-direct actually means in practice</h2>
 
-<p>Factory-direct means you negotiate with the people who run the production line — the factory owner, the production director, or the export manager employed directly by the manufacturer. There is no intermediary between your specification and the person responsible for executing it.</p>
+<p>Factory-direct means you negotiate with the people who run the production line, the factory owner, the production director, or the export manager employed directly by the manufacturer. There is no intermediary between your specification and the person responsible for executing it.</p>
 
 <figure class="article-figure">
   <img src="/images/article-factory-direct-production.webp" alt="Western buyer meeting with factory management on production floor of Chinese furniture factory, reviewing specifications with workers and machinery in background" width="1200" height="630" loading="lazy" />
@@ -267,31 +267,31 @@ export const blogPosts = [
 
 <p>In practice, this means several things change.</p>
 
-<p>Specification control improves. You can discuss tolerances, materials, and finishes directly with the production team. Changes that a trading company would quote a 6-week lead time on — because they need to go back to their factory and renegotiate — happen in a single factory meeting.</p>
+<p>Specification control improves. You can discuss tolerances, materials, and finishes directly with the production team. Changes that a trading company would quote a 6-week lead time on, because they need to go back to their factory and renegotiate, happen in a single factory meeting.</p>
 
-<p>Quality control becomes possible. A third-party QC inspector can attend the production line during manufacturing — not just at final inspection. Pre-shipment inspection catches 80% of defect issues after the damage is done. Inline inspection during production catches the same issues before 5,000 units are finished and packed.</p>
+<p>Quality control becomes possible. A third-party QC inspector can attend the production line during manufacturing, not just at final inspection. Pre-shipment inspection catches 80% of defect issues after the damage is done. Inline inspection during production catches the same issues before 5,000 units are finished and packed.</p>
 
-<p>Pricing improves over time. Trading companies take consistent margin and have little incentive to pass factory price reductions to you. A direct factory relationship means you benefit from economies of scale as your volume grows — and you can negotiate annual price reviews based on your cumulative spend.</p>
+<p>Pricing improves over time. Trading companies take consistent margin and have little incentive to pass factory price reductions to you. A direct factory relationship means you benefit from economies of scale as your volume grows, and you can negotiate annual price reviews based on your cumulative spend.</p>
 
-<p>Intellectual property is protected by a direct agreement with the manufacturer, not filtered through a trading company whose interests are not aligned with yours. If you are developing a product with custom packaging, a proprietary formulation, or a patented design, a trading company NDA protects you only as far as the trading company's relationship with their suppliers — which is entirely outside your control.</p>
+<p>Intellectual property is protected by a direct agreement with the manufacturer, not filtered through a trading company whose interests are not aligned with yours. If you are developing a product with custom packaging, a proprietary formulation, or a patented design, a trading company NDA protects you only as far as the trading company's relationship with their suppliers, which is entirely outside your control.</p>
 
 <h2>When Alibaba makes sense</h2>
 
 <p>There are legitimate uses for Alibaba, and dismissing it entirely misses the point. It is a useful discovery tool at the right stage.</p>
 
-<p>For initial market research — understanding what products exist, what the general price range looks like, and who the major suppliers are in a category — Alibaba is efficient. You can cover a category in an afternoon that would take weeks of cold factory outreach to map.</p>
+<p>For initial market research, understanding what products exist, what the general price range looks like, and who the major suppliers are in a category, Alibaba is efficient. You can cover a category in an afternoon that would take weeks of cold factory outreach to map.</p>
 
-<p>For sample procurement at the very start of a product development process, it is acceptable. You are not placing a production order — you are evaluating materials, dimensions, and basic quality before deciding whether to invest in a direct factory relationship. The 30% premium you pay on a sample order is noise relative to the decision you are making.</p>
+<p>For sample procurement at the very start of a product development process, it is acceptable. You are not placing a production order, you are evaluating materials, dimensions, and basic quality before deciding whether to invest in a direct factory relationship. The 30% premium you pay on a sample order is noise relative to the decision you are making.</p>
 
-<p>For genuinely small, non-custom orders — under €3,000 in value, commodity products, no brand requirements — the economics of hiring a sourcing agent or building a direct factory relationship do not stack up. Alibaba's convenience premium is worth paying at that scale.</p>
+<p>For genuinely small, non-custom orders, under €3,000 in value, commodity products, no brand requirements, the economics of hiring a sourcing agent or building a direct factory relationship do not stack up. Alibaba's convenience premium is worth paying at that scale.</p>
 
-<p>The mistake is treating Alibaba as a long-term production partner for volume orders with quality and customisation requirements. That is the use case where the markup layer's costs — financial and operational — compound every year.</p>
+<p>The mistake is treating Alibaba as a long-term production partner for volume orders with quality and customisation requirements. That is the use case where the markup layer's costs, financial and operational, compound every year.</p>
 
 <h2>The verification gap: why you cannot trust what you cannot see</h2>
 
-<p>The core problem with sourcing from China remotely — whether through Alibaba or any other platform — is that verification is difficult from 9,000 kilometres away. This is not a technology problem. It is a physical presence problem.</p>
+<p>The core problem with sourcing from China remotely, whether through Alibaba or any other platform, is that verification is difficult from 9,000 kilometres away. This is not a technology problem. It is a physical presence problem.</p>
 
-<p>Third-party factory audit reports can be purchased. ISO certificates are available for €500 to €2,000 from consultancies that visit premises, run a compliance exercise, and issue a certificate. BSCI audits, SA8000 certifications, and various other social compliance reports exist in abundance for Chinese factories — and the audit industry that generates them is not uniformly rigorous. Alibaba Gold Supplier audits are conducted by Alibaba-commissioned third parties whose commercial relationship is with Alibaba, not with you.</p>
+<p>Third-party factory audit reports can be purchased. ISO certificates are available for €500 to €2,000 from consultancies that visit premises, run a compliance exercise, and issue a certificate. BSCI audits, SA8000 certifications, and various other social compliance reports exist in abundance for Chinese factories, and the audit industry that generates them is not uniformly rigorous. Alibaba Gold Supplier audits are conducted by Alibaba-commissioned third parties whose commercial relationship is with Alibaba, not with you.</p>
 
 <p>The only reliable verification is a physical visit to the actual production facility by someone who knows what they are looking at. This means checking that the registered address matches the factory location, that the production equipment matches the claimed capability, that the workers and management team are permanent employees rather than a staged demonstration, and that the factory is genuinely capable of producing to your specification and volume.</p>
 
@@ -301,17 +301,17 @@ export const blogPosts = [
 
 <h2>How a sourcing agent bridges the gap</h2>
 
-<p>A sourcing agent based in China closes the verification gap for you. Their value is not the ability to find suppliers — Alibaba can do that. Their value is the ability to verify, negotiate, and manage those suppliers in person, in Mandarin, with commercial leverage you cannot build remotely.</p>
+<p>A sourcing agent based in China closes the verification gap for you. Their value is not the ability to find suppliers, Alibaba can do that. Their value is the ability to verify, negotiate, and manage those suppliers in person, in Mandarin, with commercial leverage you cannot build remotely.</p>
 
-<p>At Ériu Sourcing, our team operates from Zhengzhou in Henan and Shenzhen in Guangdong — two of China's primary sourcing hubs. We run the same gsxt.gov.cn registration check as part of every supplier qualification. We visit the factory before you commit to a production order. We run the video call from the production floor, not from a sales office. We negotiate directly with factory management in Mandarin, which removes the export sales rep layer and gives you access to the factory's actual pricing authority.</p>
+<p>At Ériu Sourcing, our team operates from Zhengzhou in Henan and Shenzhen in Guangdong, two of China's primary sourcing hubs. We run the same gsxt.gov.cn registration check as part of every supplier qualification. We visit the factory before you commit to a production order. We run the video call from the production floor, not from a sales office. We negotiate directly with factory management in Mandarin, which removes the export sales rep layer and gives you access to the factory's actual pricing authority.</p>
 
-<p>We install a QC inspector during production for orders above threshold — not just at pre-shipment. For high-value or safety-critical orders, we run inline checks at 30%, 60%, and 90% of production completion. Problems found at 30% cost a fraction of what they cost at final inspection.</p>
+<p>We install a QC inspector during production for orders above threshold, not just at pre-shipment. For high-value or safety-critical orders, we run inline checks at 30%, 60%, and 90% of production completion. Problems found at 30% cost a fraction of what they cost at final inspection.</p>
 
 <p>The cost of a professional sourcing engagement is typically a fraction of one year's trading company markup on a €50,000-plus import programme. Irish businesses importing €60,000 per year through a trading company are paying €12,000 to €24,000 in invisible margin. A sourcing service at €3,000 to €6,000 that removes that layer pays back in year one and compounds from year two onwards.</p>
 
-<p>If you are importing from China at volume — or planning to — the question is not whether factory-direct is achievable. It is whether you have someone on the ground to make it work. <a href="/contact/">Send us a brief</a>. We will tell you exactly what factory access looks like for your specific product and volume.</p>
+<p>If you are importing from China at volume, or planning to, the question is not whether factory-direct is achievable. It is whether you have someone on the ground to make it work. <a href="/contact/">Send us a brief</a>. We will tell you exactly what factory access looks like for your specific product and volume.</p>
 `,
-    excerpt: 'Most suppliers on Alibaba are trading companies, not factories. They add 20–40% margin while presenting themselves as manufacturers. Here is how to tell the difference — and what it costs you if you get it wrong.',
+    excerpt: 'Most suppliers on Alibaba are trading companies, not factories. They add 20–40% margin while presenting themselves as manufacturers. Here is how to tell the difference, and what it costs you if you get it wrong.',
     image: '/images/noel-dongguan-factory-visit.webp',
     imageAlt: 'Noel on the production floor during a factory inspection visit in Dongguan, China',
     sections: [
@@ -320,13 +320,13 @@ export const blogPosts = [
       'The real cost of the Alibaba markup layer',
       'How to identify a real factory on Alibaba',
       'What factory-direct actually means in practice',
-      'When Alibaba makes sense — and when it does not',
+      'When Alibaba makes sense, and when it does not',
       'The verification gap: why you cannot trust without visiting',
       'How a sourcing agent bridges the gap',
     ],
     faq: [
       { q: 'Are Alibaba suppliers real factories?', a: 'The majority of Alibaba suppliers are trading companies, not factories. Alibaba itself estimates that less than 20% of its suppliers are genuine manufacturers. The rest are intermediaries who purchase from factories and resell with a 20–40% markup. Gold Supplier status and "Verified" badges do not distinguish between factories and traders.' },
-      { q: 'Can I get CE-certified products through Alibaba?', a: 'Alibaba suppliers can claim CE certification, but the ability to verify those claims without a physical factory visit is extremely limited. A sourcing agent with direct factory access can verify CE compliance documentation at source — including reviewing test reports, Declaration of Conformity, and production line standards — before any goods are shipped.' },
+      { q: 'Can I get CE-certified products through Alibaba?', a: 'Alibaba suppliers can claim CE certification, but the ability to verify those claims without a physical factory visit is extremely limited. A sourcing agent with direct factory access can verify CE compliance documentation at source, including reviewing test reports, Declaration of Conformity, and production line standards, before any goods are shipped.' },
       { q: 'How much more expensive is Alibaba than buying factory-direct?', a: 'Trading companies on Alibaba typically add 20–40% to the factory gate price. For a €50,000 product order, that is €10,000–€20,000 in invisible margin paid to an intermediary who adds no value to the product. Factory-direct sourcing, with a professional sourcing agent, removes this layer entirely.' },
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'ce-marking-china-imports-ireland', 'real-landed-cost-importing-from-china-ireland'],
@@ -342,7 +342,7 @@ export const blogPosts = [
     slug: 'incoterms-explained-irish-importers-fob-cif-exw-dap-china',
     title: 'Incoterms Explained for Irish Importers: FOB, CIF, EXW & DAP on China Shipments',
     metaTitle: 'Incoterms Explained for Irish Importers: FOB, CIF, EXW & DAP | Ériu Sourcing',
-    metaDescription: 'Incoterms on China shipments explained for Irish importers. FOB, CIF, EXW, DAP — what each one actually costs you, who carries the risk, and which one to use.',
+    metaDescription: 'Incoterms on China shipments explained for Irish importers. FOB, CIF, EXW, DAP, what each one actually costs you, who carries the risk, and which one to use.',
     h1: 'Incoterms explained for Irish importers: FOB, CIF, EXW and DAP on China shipments',
     eyebrow: 'Trade Intelligence',
     category: 'economics',
@@ -353,49 +353,49 @@ export const blogPosts = [
     estimatedWordCount: 2600,
     publishDate: '2026-03-11',
     draft: false,
-    body: `<p>Every Chinese supplier quote you receive contains a three-letter code. EXW Shenzhen. FOB Ningbo. CIF Dublin. DAP Dublin Port. That code determines who pays for shipping, who pays for insurance, who clears the goods through customs, and — critically — who carries the financial risk if a container of your product falls into the South China Sea.</p>
+    body: `<p>Every Chinese supplier quote you receive contains a three-letter code. EXW Shenzhen. FOB Ningbo. CIF Dublin. DAP Dublin Port. That code determines who pays for shipping, who pays for insurance, who clears the goods through customs, and, critically, who carries the financial risk if a container of your product falls into the South China Sea.</p>
 
 <p>Most Irish importers treat these codes as shipping jargon. They are not. They are legal terms governed by the International Chamber of Commerce under the Incoterms 2020 framework. They define the exact point at which cost and risk transfer from the seller to you. Getting this wrong does not mean a minor administrative headache. It means paying for goods that were destroyed in transit, discovering your insurance does not cover the leg of the journey where the damage occurred, or arriving at Dublin Port with a customs bill you did not budget for.</p>
 
-<p>This is what each term means in practice when you are importing from China to Ireland — and which one you should actually be using.</p>
+<p>This is what each term means in practice when you are importing from China to Ireland, and which one you should actually be using.</p>
 
 <h2>What Incoterms are and why they exist</h2>
 
-<p>Incoterms — International Commercial Terms — are a standardised set of rules published by the International Chamber of Commerce (ICC). The current version is Incoterms 2020. There are eleven terms in total. Four of them account for approximately 90 percent of China-to-Ireland trade: EXW, FOB, CIF, and DAP.</p>
+<p>Incoterms, International Commercial Terms, are a standardised set of rules published by the International Chamber of Commerce (ICC). The current version is Incoterms 2020. There are eleven terms in total. Four of them account for approximately 90 percent of China-to-Ireland trade: EXW, FOB, CIF, and DAP.</p>
 
-<p>Each term defines three things. First, who pays for what — inland transport in China, port charges, ocean freight, insurance, Irish customs duties, and last-mile delivery. Second, where risk transfers from the seller to the buyer — the precise physical point at which the goods become your financial responsibility. Third, who handles the administrative burden — export clearance in China, import clearance in Ireland, and all the documentation in between.</p>
+<p>Each term defines three things. First, who pays for what, inland transport in China, port charges, ocean freight, insurance, Irish customs duties, and last-mile delivery. Second, where risk transfers from the seller to the buyer, the precise physical point at which the goods become your financial responsibility. Third, who handles the administrative burden, export clearance in China, import clearance in Ireland, and all the documentation in between.</p>
 
-<p>The term you agree to in your purchase order is not a suggestion. It is a binding contractual allocation of cost and risk. If your contract says FOB Ningbo and the goods are damaged after loading onto the vessel at Ningbo port, that damage is your problem — financially and legally. If your contract says CIF Dublin and the same damage occurs, the cost allocation is different, but the risk transfer point is identical to FOB. This is the distinction that trips up most buyers, and we will come back to it.</p>
+<p>The term you agree to in your purchase order is not a suggestion. It is a binding contractual allocation of cost and risk. If your contract says FOB Ningbo and the goods are damaged after loading onto the vessel at Ningbo port, that damage is your problem, financially and legally. If your contract says CIF Dublin and the same damage occurs, the cost allocation is different, but the risk transfer point is identical to FOB. This is the distinction that trips up most buyers, and we will come back to it.</p>
 
-<h2>EXW — Ex Works</h2>
+<h2>EXW, Ex Works</h2>
 
-<p><strong>What it means:</strong> The supplier makes the goods available at their premises — their factory gate or warehouse in China. That is the full extent of their obligation. Everything else is your responsibility.</p>
+<p><strong>What it means:</strong> The supplier makes the goods available at their premises, their factory gate or warehouse in China. That is the full extent of their obligation. Everything else is your responsibility.</p>
 
 <p><strong>Who pays for what:</strong> You pay for collection from the factory, inland transport to the Chinese port, export customs clearance in China, loading charges, ocean freight, marine insurance, Irish import customs clearance, Irish customs duties and VAT, and delivery from Dublin Port to your warehouse.</p>
 
-<p><strong>Where risk transfers:</strong> At the supplier's premises. The moment the goods are ready for collection at their factory door, the risk is yours. If the truck from the factory to Ningbo port has an accident, you carry the loss. If the goods are held at Chinese customs because the export documentation is wrong — documentation the supplier had no obligation to prepare — you carry the cost.</p>
+<p><strong>Where risk transfers:</strong> At the supplier's premises. The moment the goods are ready for collection at their factory door, the risk is yours. If the truck from the factory to Ningbo port has an accident, you carry the loss. If the goods are held at Chinese customs because the export documentation is wrong, documentation the supplier had no obligation to prepare, you carry the cost.</p>
 
 <p><strong>The problem for Irish importers:</strong> EXW requires you to manage Chinese inland logistics and Chinese export clearance. Unless you have a freight forwarder or agent in China handling this, you are managing a supply chain in a country where you do not speak the language, do not hold an export licence, and have no commercial relationships with domestic transport providers.</p>
 
-<p>Chinese export customs clearance requires a Chinese-registered entity. As an Irish business, you cannot legally clear goods for export from China yourself. You need a Chinese customs broker or a freight forwarder with a Chinese entity to do it on your behalf. This means EXW is not truly "ex works" for most Irish buyers — you still need a Chinese intermediary for the export leg.</p>
+<p>Chinese export customs clearance requires a Chinese-registered entity. As an Irish business, you cannot legally clear goods for export from China yourself. You need a Chinese customs broker or a freight forwarder with a Chinese entity to do it on your behalf. This means EXW is not truly "ex works" for most Irish buyers, you still need a Chinese intermediary for the export leg.</p>
 
 <p>EXW also creates a VAT issue in China. The supplier may not be able to claim their Chinese export VAT refund under EXW because they are not technically the exporter of record. Some suppliers offset this by quoting a higher EXW price. You end up paying for a cost advantage that does not materialise.</p>
 
 <p><strong>When it makes sense:</strong> Almost never for Irish SMEs importing from China. EXW is designed for domestic transactions or situations where the buyer has a sophisticated logistics operation in the seller's country. If you are running a sourcing office in Shenzhen with your own freight contracts, EXW gives you maximum control. If you are managing imports from Dublin, it gives you maximum exposure.</p>
 
-<h2>FOB — Free On Board</h2>
+<h2>FOB, Free On Board</h2>
 
-<p><strong>What it means:</strong> The supplier delivers the goods on board the vessel at the named Chinese port — typically FOB Shenzhen, FOB Ningbo, or FOB Shanghai. They handle everything up to and including loading onto the ship. From that point, you take over.</p>
+<p><strong>What it means:</strong> The supplier delivers the goods on board the vessel at the named Chinese port, typically FOB Shenzhen, FOB Ningbo, or FOB Shanghai. They handle everything up to and including loading onto the ship. From that point, you take over.</p>
 
 <p><strong>Who pays for what:</strong> The supplier pays for inland transport from their factory to the port, export customs clearance, and loading charges. You pay for ocean freight, marine insurance, Irish import customs clearance, duties, VAT, and last-mile delivery.</p>
 
 <p><strong>Where risk transfers:</strong> When the goods are on board the vessel at the named port. Once loaded, the risk is yours.</p>
 
-<p><strong>Why FOB is the standard for China imports:</strong> FOB is the most commonly used Incoterm for sea freight from China to Ireland, and for good reason. It draws a clean, practical line. The supplier handles everything in China — the part of the supply chain they understand, control, and can execute efficiently. You handle everything from the vessel onwards — the part of the supply chain where your Irish freight forwarder, customs broker, and logistics provider operate.</p>
+<p><strong>Why FOB is the standard for China imports:</strong> FOB is the most commonly used Incoterm for sea freight from China to Ireland, and for good reason. It draws a clean, practical line. The supplier handles everything in China, the part of the supply chain they understand, control, and can execute efficiently. You handle everything from the vessel onwards, the part of the supply chain where your Irish freight forwarder, customs broker, and logistics provider operate.</p>
 
-<p>FOB also gives you control over the ocean freight booking. This matters more than most importers realise. When the supplier controls the freight booking — as they do under CIF — they choose the shipping line, the routing, and the transit time. They may also mark up the freight cost. Under FOB, you or your freight forwarder book the vessel, choose the carrier, negotiate the rate, and control the schedule. For an Irish importer shipping into Dublin Port, this means you can consolidate shipments from multiple suppliers onto a single vessel, negotiate volume rates with your preferred carrier, and avoid the supplier's freight markup.</p>
+<p>FOB also gives you control over the ocean freight booking. This matters more than most importers realise. When the supplier controls the freight booking, as they do under CIF, they choose the shipping line, the routing, and the transit time. They may also mark up the freight cost. Under FOB, you or your freight forwarder book the vessel, choose the carrier, negotiate the rate, and control the schedule. For an Irish importer shipping into Dublin Port, this means you can consolidate shipments from multiple suppliers onto a single vessel, negotiate volume rates with your preferred carrier, and avoid the supplier's freight markup.</p>
 
-<p>A real example. An Irish consumer goods importer was paying CIF Dublin on a quarterly shipment from Guangdong. The CIF price included ocean freight at $2,800 per 20-foot container. They switched to FOB Shenzhen and booked directly through their Irish freight forwarder. The freight cost dropped to $1,900 per container — a saving of $900 per shipment, $3,600 per year on four shipments. The supplier's CIF quote had included a freight margin of roughly 47 percent.</p>
+<p>A real example. An Irish consumer goods importer was paying CIF Dublin on a quarterly shipment from Guangdong. The CIF price included ocean freight at $2,800 per 20-foot container. They switched to FOB Shenzhen and booked directly through their Irish freight forwarder. The freight cost dropped to $1,900 per container, a saving of $900 per shipment, $3,600 per year on four shipments. The supplier's CIF quote had included a freight margin of roughly 47 percent.</p>
 
 <p><strong>When it makes sense:</strong> For the majority of Irish importers buying from China by sea freight. FOB gives you cost transparency, freight control, and a clean risk boundary at a point in the supply chain where you have the infrastructure to manage it.</p>
 
@@ -404,46 +404,46 @@ export const blogPosts = [
   <figcaption>FOB in one image. Everything below the ship's rail is the supplier's cost and risk. Everything above it is yours. That line is the most important boundary in your China import programme.</figcaption>
 </figure>
 
-<h2>CIF — Cost, Insurance, and Freight</h2>
+<h2>CIF, Cost, Insurance, and Freight</h2>
 
-<p><strong>What it means:</strong> The supplier pays for ocean freight and marine insurance to the named destination port — CIF Dublin, for example. They deliver the goods on board the vessel in China, arrange and pay for the freight, and provide a minimum level of insurance coverage.</p>
+<p><strong>What it means:</strong> The supplier pays for ocean freight and marine insurance to the named destination port, CIF Dublin, for example. They deliver the goods on board the vessel in China, arrange and pay for the freight, and provide a minimum level of insurance coverage.</p>
 
 <p><strong>Who pays for what:</strong> The supplier pays for everything FOB covers, plus ocean freight to Dublin and marine cargo insurance. You pay for Irish import customs clearance, duties, VAT, unloading at Dublin Port (in some cases), and last-mile delivery.</p>
 
-<p><strong>Where risk transfers:</strong> This is the part that costs Irish importers money. Despite the supplier paying for freight and insurance to Dublin, risk still transfers at the Chinese port — the same point as FOB. CIF is not "delivered to Dublin at the supplier's risk." It is "delivered to Dublin at the supplier's cost, but at the buyer's risk from the Chinese port onwards."</p>
+<p><strong>Where risk transfers:</strong> This is the part that costs Irish importers money. Despite the supplier paying for freight and insurance to Dublin, risk still transfers at the Chinese port, the same point as FOB. CIF is not "delivered to Dublin at the supplier's risk." It is "delivered to Dublin at the supplier's cost, but at the buyer's risk from the Chinese port onwards."</p>
 
-<p>Read that again. Under CIF, the goods are your risk from the moment they are loaded onto the vessel in China. The supplier has paid for the freight and arranged insurance — but the insurance is for your benefit, covering your risk, at a coverage level the supplier chose.</p>
+<p>Read that again. Under CIF, the goods are your risk from the moment they are loaded onto the vessel in China. The supplier has paid for the freight and arranged insurance, but the insurance is for your benefit, covering your risk, at a coverage level the supplier chose.</p>
 
-<p><strong>The insurance problem:</strong> Under Incoterms 2020, the seller's insurance obligation under CIF is Institute Cargo Clauses (C) — the minimum available coverage. Clauses (C) cover defined risks only: fire, explosion, vessel sinking, collision, and jettison. They do not cover theft, pilferage, water damage from rain or condensation, breakage, or a container falling from the deck in a storm. For a container of ceramics, electronics, or any moisture-sensitive product, Clauses (C) coverage is close to worthless against the risks that actually occur on a 30-day sea voyage from Shenzhen to Dublin.</p>
+<p><strong>The insurance problem:</strong> Under Incoterms 2020, the seller's insurance obligation under CIF is Institute Cargo Clauses (C), the minimum available coverage. Clauses (C) cover defined risks only: fire, explosion, vessel sinking, collision, and jettison. They do not cover theft, pilferage, water damage from rain or condensation, breakage, or a container falling from the deck in a storm. For a container of ceramics, electronics, or any moisture-sensitive product, Clauses (C) coverage is close to worthless against the risks that actually occur on a 30-day sea voyage from Shenzhen to Dublin.</p>
 
-<p>Most Irish importers who buy CIF assume the supplier's insurance covers everything. It does not. It covers the minimum. If your Ôé¼40,000 container of product arrives water-damaged at Dublin Port, you may find the CIF insurance does not pay out — because water ingress from condensation is not a covered peril under Clauses (C). You paid for insurance you thought was comprehensive. It was not.</p>
+<p>Most Irish importers who buy CIF assume the supplier's insurance covers everything. It does not. It covers the minimum. If your Ôé¼40,000 container of product arrives water-damaged at Dublin Port, you may find the CIF insurance does not pay out, because water ingress from condensation is not a covered peril under Clauses (C). You paid for insurance you thought was comprehensive. It was not.</p>
 
-<p><strong>When it makes sense:</strong> Rarely, for experienced importers. CIF can work if you understand the risk transfer point, you supplement the supplier's minimum insurance with your own Clauses (A) policy covering all risks, and you do not mind losing control of the freight booking. For a first-time importer who wants the supplier to handle logistics, CIF feels simpler — but that simplicity comes with a hidden freight markup and an insurance gap that can be financially devastating on a single shipment.</p>
+<p><strong>When it makes sense:</strong> Rarely, for experienced importers. CIF can work if you understand the risk transfer point, you supplement the supplier's minimum insurance with your own Clauses (A) policy covering all risks, and you do not mind losing control of the freight booking. For a first-time importer who wants the supplier to handle logistics, CIF feels simpler, but that simplicity comes with a hidden freight markup and an insurance gap that can be financially devastating on a single shipment.</p>
 
 <figure class="article-figure">
   <img src="/images/the-cif-insurance-document-close-up.webp" alt="Overhead flat-lay photograph of a marine cargo insurance certificate with 'Institute Cargo Clauses (C)' highlighted in yellow marker. A red sticky note reads 'Minimum Cover Only.' A shipping bill of lading showing Ningbo to Dublin sits alongside fanned Euro banknotes." loading="lazy" width="1280" height="720">
-  <figcaption>What CIF insurance actually looks like. Institute Cargo Clauses (C) — the minimum the seller is required to provide. It does not cover water damage, theft, or breakage. On a 30-day sea voyage from Ningbo to Dublin, those are the risks that actually happen.</figcaption>
+  <figcaption>What CIF insurance actually looks like. Institute Cargo Clauses (C), the minimum the seller is required to provide. It does not cover water damage, theft, or breakage. On a 30-day sea voyage from Ningbo to Dublin, those are the risks that actually happen.</figcaption>
 </figure>
 
-<h2>DAP — Delivered at Place</h2>
+<h2>DAP, Delivered at Place</h2>
 
-<p><strong>What it means:</strong> The supplier delivers the goods to a named destination — your warehouse, your 3PL facility, or a specified address in Ireland. They pay for and arrange all transport and bear all risk until the goods arrive at that location. The one thing they do not do is clear the goods through Irish customs or pay import duties and VAT.</p>
+<p><strong>What it means:</strong> The supplier delivers the goods to a named destination, your warehouse, your 3PL facility, or a specified address in Ireland. They pay for and arrange all transport and bear all risk until the goods arrive at that location. The one thing they do not do is clear the goods through Irish customs or pay import duties and VAT.</p>
 
-<p><strong>Who pays for what:</strong> The supplier pays for everything — inland transport in China, export clearance, ocean freight, insurance, and transport from Dublin Port to the named delivery address. You pay for Irish import customs clearance, customs duties, and VAT.</p>
+<p><strong>Who pays for what:</strong> The supplier pays for everything, inland transport in China, export clearance, ocean freight, insurance, and transport from Dublin Port to the named delivery address. You pay for Irish import customs clearance, customs duties, and VAT.</p>
 
-<p><strong>Where risk transfers:</strong> At the named place of delivery in Ireland. This is the critical difference from FOB and CIF. Under DAP, the supplier carries the risk across the entire journey — from their factory in China to the doorstep of your warehouse in Cork or your 3PL in Dublin. If the container is damaged at sea, lost in transit, or delayed beyond the shipping schedule, it is the supplier's problem until it reaches your named address.</p>
+<p><strong>Where risk transfers:</strong> At the named place of delivery in Ireland. This is the critical difference from FOB and CIF. Under DAP, the supplier carries the risk across the entire journey, from their factory in China to the doorstep of your warehouse in Cork or your 3PL in Dublin. If the container is damaged at sea, lost in transit, or delayed beyond the shipping schedule, it is the supplier's problem until it reaches your named address.</p>
 
 <p><strong>The appeal and the cost:</strong> DAP transfers maximum risk to the supplier and gives you a simple landed-cost calculation. You know the goods will arrive at your door, and you know the only additional costs are customs clearance, duties, and VAT. For importers who want certainty, that is attractive.</p>
 
-<p>The cost of that certainty is built into the DAP price. The supplier is taking on freight risk, transit risk, and last-mile logistics in a country they do not operate in. They will price for that risk — typically by adding 15 to 25 percent above what you would pay under FOB if you managed your own freight. They will also use their own freight forwarder, who may not prioritise your shipment's transit time the way your own agent would.</p>
+<p>The cost of that certainty is built into the DAP price. The supplier is taking on freight risk, transit risk, and last-mile logistics in a country they do not operate in. They will price for that risk, typically by adding 15 to 25 percent above what you would pay under FOB if you managed your own freight. They will also use their own freight forwarder, who may not prioritise your shipment's transit time the way your own agent would.</p>
 
-<p>DAP also creates a customs clearance gap. The supplier delivers the goods to your address but does not clear them through Irish customs. If the goods arrive at Dublin Port and you have not arranged customs clearance, they sit in the port accumulating storage charges. The supplier has fulfilled their DAP obligation by getting the goods to Ireland — customs clearance is explicitly your responsibility.</p>
+<p>DAP also creates a customs clearance gap. The supplier delivers the goods to your address but does not clear them through Irish customs. If the goods arrive at Dublin Port and you have not arranged customs clearance, they sit in the port accumulating storage charges. The supplier has fulfilled their DAP obligation by getting the goods to Ireland, customs clearance is explicitly your responsibility.</p>
 
 <p><strong>When it makes sense:</strong> For importers with low volume, limited freight forwarding relationships, and a strong preference for cost certainty over cost optimisation. DAP is a convenience term. You pay a premium for the supplier to handle the logistics. If your annual import spend is under Ôé¼20,000, the premium may be worth the simplicity. Above that, the cumulative cost of the supplier's freight margin makes FOB with your own freight forwarder significantly cheaper.</p>
 
 <h2>Which Incoterm should you use?</h2>
 
-<p>For the majority of Irish SMEs importing from China by sea freight, FOB is the correct default. It gives you cost transparency on freight, control over your shipping schedule, the ability to arrange your own all-risks insurance, and a clean division of responsibility at a logical geographic boundary — China-side handled by the supplier, sea and Ireland-side handled by you and your freight forwarder.</p>
+<p>For the majority of Irish SMEs importing from China by sea freight, FOB is the correct default. It gives you cost transparency on freight, control over your shipping schedule, the ability to arrange your own all-risks insurance, and a clean division of responsibility at a logical geographic boundary, China-side handled by the supplier, sea and Ireland-side handled by you and your freight forwarder.</p>
 
 <table class="article-table">
   <thead>
@@ -482,38 +482,38 @@ export const blogPosts = [
   </tbody>
 </table>
 
-<h2>The customs and VAT layer — regardless of Incoterm</h2>
+<h2>The customs and VAT layer, regardless of Incoterm</h2>
 
 <p>Whatever Incoterm you agree with your Chinese supplier, Irish customs duties and VAT are always your responsibility as the importer of record. No Incoterm transfers customs duty or import VAT to the seller. Even under DAP or DDP, the practical reality of Irish customs clearance sits with you or your customs broker.</p>
 
-<p>Irish import VAT is currently 23 percent on most goods. It is calculated on the customs value — which is the price paid for the goods plus freight and insurance costs to the EU border. Customs duty varies by product category and HS code, typically ranging from 0 to 12 percent for goods imported from China. Anti-dumping duties may apply on specific product categories — ceramics, steel, aluminium, and certain textiles have historically attracted additional duties on Chinese imports into the EU.</p>
+<p>Irish import VAT is currently 23 percent on most goods. It is calculated on the customs value, which is the price paid for the goods plus freight and insurance costs to the EU border. Customs duty varies by product category and HS code, typically ranging from 0 to 12 percent for goods imported from China. Anti-dumping duties may apply on specific product categories, ceramics, steel, aluminium, and certain textiles have historically attracted additional duties on Chinese imports into the EU.</p>
 
 <p>The total landed cost for an Irish importer is the product cost plus freight plus insurance plus customs duty plus VAT. On a Ôé¼50,000 FOB order with Ôé¼3,000 in freight and Ôé¼500 in insurance, assuming a 5 percent customs duty rate and 23 percent VAT: customs value Ôé¼53,500, customs duty Ôé¼2,675, VAT base Ôé¼56,175, VAT at 23 percent Ôé¼12,920, total landed cost approximately Ôé¼69,095.</p>
 
-<p>That calculation is the same whether you buy FOB, CIF, or DAP — the Incoterm changes who pays for the freight and insurance line items, not the overall customs assessment.</p>
+<p>That calculation is the same whether you buy FOB, CIF, or DAP, the Incoterm changes who pays for the freight and insurance line items, not the overall customs assessment.</p>
 
 <figure class="article-figure">
-  <img src="/images/the-irish-importers-landed-cost-calculation.webp" alt="Infographic titled 'Landed Cost Breakdown — FOB China to Dublin' with six proportional bars: Product Cost FOB Ôé¼50,000, Ocean Freight Ôé¼3,000, Marine Insurance Ôé¼500, Customs Duty 5% Ôé¼2,675, Irish VAT 23% Ôé¼12,920, Total Landed Cost Ôé¼69,095. Ériu Sourcing logo bottom right." loading="lazy" width="1280" height="720">
-  <figcaption>The real number. A Ôé¼50,000 FOB order lands in Dublin at Ôé¼69,095 once you add freight, insurance, customs duty, and VAT. The Incoterm you choose determines who pays for the freight and insurance lines — but the total customs assessment is yours regardless.</figcaption>
+  <img src="/images/the-irish-importers-landed-cost-calculation.webp" alt="Infographic titled 'Landed Cost Breakdown, FOB China to Dublin' with six proportional bars: Product Cost FOB Ôé¼50,000, Ocean Freight Ôé¼3,000, Marine Insurance Ôé¼500, Customs Duty 5% Ôé¼2,675, Irish VAT 23% Ôé¼12,920, Total Landed Cost Ôé¼69,095. Ériu Sourcing logo bottom right." loading="lazy" width="1280" height="720">
+  <figcaption>The real number. A Ôé¼50,000 FOB order lands in Dublin at Ôé¼69,095 once you add freight, insurance, customs duty, and VAT. The Incoterm you choose determines who pays for the freight and insurance lines, but the total customs assessment is yours regardless.</figcaption>
 </figure>
 
 <h2>What this means for your next China order</h2>
 
-<p>The next time a Chinese supplier sends you a quote, look at the three-letter code before you look at the unit price. A quote of Ôé¼4.20 EXW Shenzhen and a quote of Ôé¼5.10 FOB Ningbo are not comparable without understanding what each price includes and excludes. The EXW price looks cheaper. Once you add Chinese inland transport, export clearance, and port handling charges, it may be more expensive — and it definitely carries more operational risk.</p>
+<p>The next time a Chinese supplier sends you a quote, look at the three-letter code before you look at the unit price. A quote of Ôé¼4.20 EXW Shenzhen and a quote of Ôé¼5.10 FOB Ningbo are not comparable without understanding what each price includes and excludes. The EXW price looks cheaper. Once you add Chinese inland transport, export clearance, and port handling charges, it may be more expensive, and it definitely carries more operational risk.</p>
 
-<p>Ask for FOB pricing as your baseline. Compare it against CIF only after you have separated the freight and insurance components. If the supplier quotes CIF Dublin at Ôé¼6.00 per unit and FOB Shenzhen at Ôé¼4.80 per unit, the implied freight and insurance cost is Ôé¼1.20 per unit. Check that against your own freight forwarder's quote. If your forwarder can move the same goods for Ôé¼0.85 per unit, the supplier is taking a Ôé¼0.35-per-unit freight margin — money you are paying for convenience you do not need.</p>
+<p>Ask for FOB pricing as your baseline. Compare it against CIF only after you have separated the freight and insurance components. If the supplier quotes CIF Dublin at Ôé¼6.00 per unit and FOB Shenzhen at Ôé¼4.80 per unit, the implied freight and insurance cost is Ôé¼1.20 per unit. Check that against your own freight forwarder's quote. If your forwarder can move the same goods for Ôé¼0.85 per unit, the supplier is taking a Ôé¼0.35-per-unit freight margin, money you are paying for convenience you do not need.</p>
 
 <p>The Incoterm is not a detail. It is a financial decision that compounds across every shipment you make.</p>
 
-<p>If you want a side-by-side landed-cost comparison for your specific product, volume, and shipping route, <a href="/contact/">send us a brief</a>. We build these calculations for Irish importers every week — and the numbers usually surprise people.</p>`,
-    excerpt: 'Every Chinese supplier quote contains a three-letter code — EXW, FOB, CIF, or DAP. That code determines who pays for freight, who carries the risk, and who handles customs. Getting it wrong costs real money. Here is what each term means for Irish importers.',
+<p>If you want a side-by-side landed-cost comparison for your specific product, volume, and shipping route, <a href="/contact/">send us a brief</a>. We build these calculations for Irish importers every week, and the numbers usually surprise people.</p>`,
+    excerpt: 'Every Chinese supplier quote contains a three-letter code, EXW, FOB, CIF, or DAP. That code determines who pays for freight, who carries the risk, and who handles customs. Getting it wrong costs real money. Here is what each term means for Irish importers.',
     image: '/images/the-fob-handover.webp',
-    imageAlt: 'Chinese container port with gantry crane loading containers onto a cargo vessel — the FOB risk transfer point at the ship\'s rail',
+    imageAlt: 'Chinese container port with gantry crane loading containers onto a cargo vessel, the FOB risk transfer point at the ship\'s rail',
     faq: [
-      { q: 'What is the best Incoterm for importing from China to Ireland?', a: 'For most Irish importers shipping by sea freight, FOB (Free On Board) is the best default. It gives you control over the ocean freight booking, allows you to arrange your own comprehensive insurance, and draws a clean boundary — the supplier handles China-side logistics, you handle everything from the vessel onwards through your Irish freight forwarder.' },
-      { q: 'What does CIF mean on a Chinese supplier quote?', a: 'CIF stands for Cost, Insurance, and Freight. The supplier pays for ocean freight and arranges marine insurance to the named destination port. However, risk still transfers to you at the Chinese port — not Dublin — exactly the same as FOB. The insurance provided is also the minimum level (Institute Cargo Clauses C), which does not cover water damage, theft, or breakage.' },
+      { q: 'What is the best Incoterm for importing from China to Ireland?', a: 'For most Irish importers shipping by sea freight, FOB (Free On Board) is the best default. It gives you control over the ocean freight booking, allows you to arrange your own comprehensive insurance, and draws a clean boundary, the supplier handles China-side logistics, you handle everything from the vessel onwards through your Irish freight forwarder.' },
+      { q: 'What does CIF mean on a Chinese supplier quote?', a: 'CIF stands for Cost, Insurance, and Freight. The supplier pays for ocean freight and arranges marine insurance to the named destination port. However, risk still transfers to you at the Chinese port, not Dublin, exactly the same as FOB. The insurance provided is also the minimum level (Institute Cargo Clauses C), which does not cover water damage, theft, or breakage.' },
       { q: 'Why is EXW a problem for Irish importers buying from China?', a: 'EXW (Ex Works) requires you to manage Chinese inland transport and export customs clearance. As an Irish business, you cannot legally clear goods for export from China without a Chinese-registered entity. EXW also creates a Chinese VAT recovery issue for the supplier, which often results in a higher EXW price. For most Irish SMEs, EXW gives the appearance of a low price but transfers maximum operational risk to the buyer.' },
-      { q: 'What is the difference between FOB and DAP for Irish importers?', a: 'Under FOB, risk transfers at the Chinese port — you take on freight risk and arrange your own insurance. Under DAP, the supplier carries all risk until delivery to your named address in Ireland. DAP is simpler but the supplier typically adds 15–25% to the price to cover the additional risk and logistics. For importers shipping above Ôé¼20,000 per year, FOB with your own freight forwarder is significantly cheaper.' },
+      { q: 'What is the difference between FOB and DAP for Irish importers?', a: 'Under FOB, risk transfers at the Chinese port, you take on freight risk and arrange your own insurance. Under DAP, the supplier carries all risk until delivery to your named address in Ireland. DAP is simpler but the supplier typically adds 15–25% to the price to cover the additional risk and logistics. For importers shipping above Ôé¼20,000 per year, FOB with your own freight forwarder is significantly cheaper.' },
       { q: 'Do Irish customs duties still apply under CIF or DAP?', a: 'Yes. Regardless of Incoterm, Irish customs duties and VAT are always the importer\'s responsibility. No Incoterm transfers these costs to the seller. Irish import VAT is 23% on most goods, calculated on the customs value (product cost plus freight and insurance to the EU border). Duty rates vary by HS code, typically 0–12% for goods from China.' },
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland', 'alibaba-vs-factory-direct-irish-importers'],
@@ -528,7 +528,7 @@ export const blogPosts = [
     slug: 'private-label-manufacturing-china-irish-brands-oem-vs-odm',
     title: 'Private Label Manufacturing in China for Irish Brands: OEM vs ODM',
     metaTitle: 'Private Label Manufacturing China for Irish Brands: OEM vs ODM | Ériu Sourcing',
-    metaDescription: 'Private-label manufacturing in China for Irish brands. OEM vs ODM — what each costs, how long it takes, minimum order quantities, and which fits your business.',
+    metaDescription: 'Private-label manufacturing in China for Irish brands. OEM vs ODM, what each costs, how long it takes, minimum order quantities, and which fits your business.',
     h1: 'Private label manufacturing in China for Irish brands: OEM vs ODM',
     eyebrow: 'Manufacturing Guide',
     category: 'sourcing-guides',
@@ -539,7 +539,7 @@ export const blogPosts = [
     estimatedWordCount: 2500,
     publishDate: '2026-03-18',
     draft: false,
-    body: `<p>Irish brands that want their own product — their name on the box, their formulation inside it, their design on the shelf — have two routes into Chinese manufacturing. OEM, where you bring the design and the factory builds it. ODM, where the factory already has a design and you put your brand on it. The distinction is not academic. It determines your upfront investment, your minimum order quantities, your timeline to market, your control over the product, and whether anyone else in Ireland can sell the exact same thing.</p>
+    body: `<p>Irish brands that want their own product, their name on the box, their formulation inside it, their design on the shelf, have two routes into Chinese manufacturing. OEM, where you bring the design and the factory builds it. ODM, where the factory already has a design and you put your brand on it. The distinction is not academic. It determines your upfront investment, your minimum order quantities, your timeline to market, your control over the product, and whether anyone else in Ireland can sell the exact same thing.</p>
 
 <p>Most Irish businesses starting out in private label get this decision wrong. They over-invest in full OEM when ODM would get them to market in a quarter of the time. Or they under-invest in ODM customisation and end up selling a product identical to three other brands on the same shelf.</p>
 
@@ -547,82 +547,82 @@ export const blogPosts = [
 
 <h2>What private label actually means in a China sourcing context</h2>
 
-<p>Private label means a product manufactured by one company and sold under another company's brand. The manufacturer does not appear on the packaging. The brand owner — in this case, your Irish business — owns the customer relationship, the brand identity, and (depending on the agreement) varying degrees of the product specification.</p>
+<p>Private label means a product manufactured by one company and sold under another company's brand. The manufacturer does not appear on the packaging. The brand owner, in this case, your Irish business, owns the customer relationship, the brand identity, and (depending on the agreement) varying degrees of the product specification.</p>
 
-<p>In China, private label manufacturing operates across a spectrum. At one end, a factory makes a completely standard product and puts your logo on it — this is the simplest form of ODM. At the other end, you design a product from scratch, develop tooling, engineer specifications, and the factory produces exclusively to your drawings — this is full OEM.</p>
+<p>In China, private label manufacturing operates across a spectrum. At one end, a factory makes a completely standard product and puts your logo on it, this is the simplest form of ODM. At the other end, you design a product from scratch, develop tooling, engineer specifications, and the factory produces exclusively to your drawings, this is full OEM.</p>
 
-<p>Everything in between is where most Irish brands actually sit. You want some customisation — a specific material, a colour range, a packaging format — but you do not need or cannot afford a ground-up product development programme. Understanding where you sit on this spectrum is the first decision that matters.</p>
+<p>Everything in between is where most Irish brands actually sit. You want some customisation, a specific material, a colour range, a packaging format, but you do not need or cannot afford a ground-up product development programme. Understanding where you sit on this spectrum is the first decision that matters.</p>
 
 <h2>OEM: Original Equipment Manufacturer</h2>
 
-<p><strong>What it means in practice:</strong> You own the product design. You provide the factory with detailed specifications — engineering drawings, material specifications, tolerances, packaging requirements, and performance criteria. The factory's job is to manufacture to your specification. They contribute production capability, not design input.</p>
+<p><strong>What it means in practice:</strong> You own the product design. You provide the factory with detailed specifications, engineering drawings, material specifications, tolerances, packaging requirements, and performance criteria. The factory's job is to manufacture to your specification. They contribute production capability, not design input.</p>
 
-<p><strong>What you need to bring:</strong> A complete or near-complete product specification. For a physical product, this means CAD files or technical drawings with dimensions and tolerances, a bill of materials specifying exact materials and grades, packaging specifications including box dimensions, insert design, and print files, and compliance requirements for your target market — CE marking, EU safety directives, REACH compliance for chemicals, or food contact material regulations for anything touching food.</p>
+<p><strong>What you need to bring:</strong> A complete or near-complete product specification. For a physical product, this means CAD files or technical drawings with dimensions and tolerances, a bill of materials specifying exact materials and grades, packaging specifications including box dimensions, insert design, and print files, and compliance requirements for your target market, CE marking, EU safety directives, REACH compliance for chemicals, or food contact material regulations for anything touching food.</p>
 
-<p>If you are developing a formulated product — cosmetics, supplements, cleaning products — OEM means you provide the formulation. The factory manufactures to your formula with your specified ingredients at your specified concentrations. They do not modify the formulation without your approval.</p>
+<p>If you are developing a formulated product, cosmetics, supplements, cleaning products, OEM means you provide the formulation. The factory manufactures to your formula with your specified ingredients at your specified concentrations. They do not modify the formulation without your approval.</p>
 
 <p><strong>What it costs:</strong> OEM carries higher upfront costs than ODM because you are paying for exclusivity and specification control.</p>
 
 <p>Tooling and moulds are the largest upfront cost for any product requiring custom injection moulding, die-casting, or stamping. A single injection mould for a moderately complex plastic component costs Ôé¼3,000 to Ôé¼15,000 depending on the number of cavities, the steel grade, and the complexity of the part geometry. A complete product with four or five moulded components can require Ôé¼20,000 to Ôé¼60,000 in tooling before a single production unit rolls off the line.</p>
 
-<p>Sample development typically runs through three to five iterations. Each iteration costs Ôé¼200 to Ôé¼2,000 depending on the product category. Budget for at least three rounds — initial prototype, revised sample, and a pre-production sample that represents final output.</p>
+<p>Sample development typically runs through three to five iterations. Each iteration costs Ôé¼200 to Ôé¼2,000 depending on the product category. Budget for at least three rounds, initial prototype, revised sample, and a pre-production sample that represents final output.</p>
 
 <p>Minimum order quantities for OEM are higher than ODM because the factory is setting up a production line specifically for your product. Typical OEM MOQs for Chinese factories range from 1,000 to 5,000 units for consumer goods, 500 to 3,000 units for more complex or higher-value products, and 3,000 to 10,000 units for low-cost commodity items where the margin per unit requires volume to justify the production setup.</p>
 
 <p><strong>Timeline:</strong> From initial specification to first production shipment, full OEM typically takes four to eight months. That includes sample development and approval (six to twelve weeks), tooling manufacture (four to eight weeks for injection moulds), pilot production run (two to four weeks), quality inspection and approval (one to two weeks), and production and shipping (four to eight weeks depending on order size and shipping method).</p>
 
-<p><strong>The advantage:</strong> Exclusivity. If you invest in OEM, the product specification is yours. No other buyer gets the same product from that factory unless they independently develop an identical specification — which, for a tooled product, is economically impractical. Your intellectual property sits in the design, and a properly structured manufacturing agreement protects it.</p>
+<p><strong>The advantage:</strong> Exclusivity. If you invest in OEM, the product specification is yours. No other buyer gets the same product from that factory unless they independently develop an identical specification, which, for a tooled product, is economically impractical. Your intellectual property sits in the design, and a properly structured manufacturing agreement protects it.</p>
 
-<p><strong>The risk:</strong> You are the product designer. If the specification is wrong — the material is not durable enough, the dimensions do not work, the packaging does not protect the product during shipping — those are your mistakes to fix, at your cost. OEM requires genuine product development expertise or access to it.</p>
+<p><strong>The risk:</strong> You are the product designer. If the specification is wrong, the material is not durable enough, the dimensions do not work, the packaging does not protect the product during shipping, those are your mistakes to fix, at your cost. OEM requires genuine product development expertise or access to it.</p>
 
 <figure class="article-figure">
   <img src="/images/the-oem-product-development-desk.webp" alt="Top-down flat-lay of a product development workspace with A3 technical CAD drawings, three prototype samples in different materials, a digital calliper, a Pantone swatch fan, and a laptop showing a 3D CAD render on a light birch desk." loading="lazy" width="1280" height="720">
-  <figcaption>OEM means you own every detail. The engineering drawings, the material choice, the Pantone colour, the tolerance on every dimension. The factory builds what you specify — and every revision costs time and money before production begins.</figcaption>
+  <figcaption>OEM means you own every detail. The engineering drawings, the material choice, the Pantone colour, the tolerance on every dimension. The factory builds what you specify, and every revision costs time and money before production begins.</figcaption>
 </figure>
 
 <h2>ODM: Original Design Manufacturer</h2>
 
-<p><strong>What it means in practice:</strong> The factory already has a product. They designed it, they engineered it, they hold the tooling, and they are already manufacturing it — potentially for multiple brands. Your job is to select the product, apply your branding, and optionally request modifications within the factory's existing design framework.</p>
+<p><strong>What it means in practice:</strong> The factory already has a product. They designed it, they engineered it, they hold the tooling, and they are already manufacturing it, potentially for multiple brands. Your job is to select the product, apply your branding, and optionally request modifications within the factory's existing design framework.</p>
 
-<p><strong>What you need to bring:</strong> A brand identity — your logo, your packaging design, your colour palette — and a clear understanding of what modifications you want. ODM does not require engineering drawings or material specifications. The factory provides those because the product already exists.</p>
+<p><strong>What you need to bring:</strong> A brand identity, your logo, your packaging design, your colour palette, and a clear understanding of what modifications you want. ODM does not require engineering drawings or material specifications. The factory provides those because the product already exists.</p>
 
-<p>The level of customisation available under ODM varies by factory and product category. At the basic level, you get logo placement and packaging design — your brand on an existing product in existing colours. One step up, you can typically change colours, finishes, and surface treatments. Further up, some ODM factories allow material substitutions, minor dimensional changes, or the addition of accessories. Beyond that, you are effectively moving into OEM territory and the factory will price accordingly.</p>
+<p>The level of customisation available under ODM varies by factory and product category. At the basic level, you get logo placement and packaging design, your brand on an existing product in existing colours. One step up, you can typically change colours, finishes, and surface treatments. Further up, some ODM factories allow material substitutions, minor dimensional changes, or the addition of accessories. Beyond that, you are effectively moving into OEM territory and the factory will price accordingly.</p>
 
 <p><strong>What it costs:</strong> ODM is significantly cheaper to start than OEM because you are not paying for tooling or product development. The factory amortised those costs across their existing order book. Your cost is essentially the unit manufacturing cost plus the factory's margin, plus any customisation charges.</p>
 
-<p>Logo and packaging customisation typically adds Ôé¼0.10 to Ôé¼0.50 per unit on top of the base product cost for simple logo application — pad printing, silk screening, or label application. Custom packaging — your own box design, insert, and print — adds Ôé¼0.20 to Ôé¼1.50 per unit depending on the packaging complexity and print run size.</p>
+<p>Logo and packaging customisation typically adds Ôé¼0.10 to Ôé¼0.50 per unit on top of the base product cost for simple logo application, pad printing, silk screening, or label application. Custom packaging, your own box design, insert, and print, adds Ôé¼0.20 to Ôé¼1.50 per unit depending on the packaging complexity and print run size.</p>
 
-<p>Minimum order quantities for ODM are lower than OEM. Because the production line is already set up and the tooling already exists, the factory's incremental cost of running your order is lower. Typical ODM MOQs are 200 to 1,000 units for consumer products — sometimes lower for higher-value items. Some ODM factories will run an initial order of 300 to 500 units to let you test the market before committing to larger volumes.</p>
+<p>Minimum order quantities for ODM are lower than OEM. Because the production line is already set up and the tooling already exists, the factory's incremental cost of running your order is lower. Typical ODM MOQs are 200 to 1,000 units for consumer products, sometimes lower for higher-value items. Some ODM factories will run an initial order of 300 to 500 units to let you test the market before committing to larger volumes.</p>
 
-<p><strong>Timeline:</strong> Much faster than OEM. Because the product already exists, sample development is often a single iteration — the factory sends you their existing product with your branding applied, you approve or request adjustments. From initial enquiry to first shipment, ODM typically runs six to twelve weeks. If you are using the product as-is with simple branding, it can be as fast as four weeks.</p>
+<p><strong>Timeline:</strong> Much faster than OEM. Because the product already exists, sample development is often a single iteration, the factory sends you their existing product with your branding applied, you approve or request adjustments. From initial enquiry to first shipment, ODM typically runs six to twelve weeks. If you are using the product as-is with simple branding, it can be as fast as four weeks.</p>
 
 <p><strong>The advantage:</strong> Speed and capital efficiency. An Irish brand can go from concept to shippable product in under three months with a total upfront investment of Ôé¼2,000 to Ôé¼10,000 depending on order size. For market testing, product line extensions, or categories where you do not need design differentiation, ODM is the rational choice.</p>
 
-<p><strong>The risk:</strong> Non-exclusivity. The product you are selling may be identical — functionally and visually — to products sold by other brands sourced from the same factory. In competitive retail categories, this means your only differentiation is brand, packaging, and marketing. If a competitor sources the same ODM product and undercuts your price, you have no product-level moat.</p>
+<p><strong>The risk:</strong> Non-exclusivity. The product you are selling may be identical, functionally and visually, to products sold by other brands sourced from the same factory. In competitive retail categories, this means your only differentiation is brand, packaging, and marketing. If a competitor sources the same ODM product and undercuts your price, you have no product-level moat.</p>
 
-<p>There is also an IP exposure. If you share your packaging design, brand elements, or market positioning with an ODM factory, that information is accessible to the factory's sales team — who also work with your competitors. An ODM factory that sees strong demand for a particular product configuration from an Irish brand will proactively offer that configuration to other Western buyers.</p>
+<p>There is also an IP exposure. If you share your packaging design, brand elements, or market positioning with an ODM factory, that information is accessible to the factory's sales team, who also work with your competitors. An ODM factory that sees strong demand for a particular product configuration from an Irish brand will proactively offer that configuration to other Western buyers.</p>
 
 <figure class="article-figure">
   <img src="/images/the-odm-showroom-shelf-six-brand.webp" alt="Factory showroom shelf displaying six identical vacuum-insulated water bottles in a row, each with a different brand logo and colour scheme. A shelf label shows a Chinese factory model number. All six brands are selling the same ODM product with different branding applied." loading="lazy" width="1280" height="720">
-  <figcaption>ODM reality: six different brands, one product, one factory model number. The bottles are physically identical — the only difference is the logo and the colour. If your competitor finds the same factory, they are selling the same thing.</figcaption>
+  <figcaption>ODM reality: six different brands, one product, one factory model number. The bottles are physically identical, the only difference is the logo and the colour. If your competitor finds the same factory, they are selling the same thing.</figcaption>
 </figure>
 
 <h2>OEM vs ODM: the decision framework for Irish brands</h2>
 
-<p>The decision is not which model is "better." It is which model matches your current situation across five variables — capital available, time to market, product differentiation required, volume expectations, and category competitiveness.</p>
+<p>The decision is not which model is "better." It is which model matches your current situation across five variables, capital available, time to market, product differentiation required, volume expectations, and category competitiveness.</p>
 
 <p><strong>Choose ODM if</strong> your priority is speed to market and capital efficiency. You are testing a new product category. You do not have a unique product design or proprietary specification. Your brand's value proposition is built on marketing, positioning, and customer experience rather than product-level innovation. Your first order budget is under Ôé¼10,000. Your target launch is within three months.</p>
 
 <p>This describes the majority of Irish brands entering a new product category for the first time. A Dublin skincare brand launching a jade roller. A Cork homeware retailer adding a branded line of kitchen utensils. A Galway outdoor brand testing a new category of insulated drinkware. In each case, the product is not proprietary. The brand is. ODM gets the product to market while you build the sales data to justify a future OEM investment.</p>
 
-<p><strong>Choose OEM if</strong> you have a product design that is genuinely differentiated — a novel mechanism, a proprietary formulation, a patented feature, or a design that cannot be achieved by modifying an existing product. You have the capital to invest Ôé¼15,000 to Ôé¼60,000 in tooling and development before seeing a single unit of revenue. You have six to twelve months of runway before you need product on shelves. Your competitive advantage depends on the product itself, not just the brand around it.</p>
+<p><strong>Choose OEM if</strong> you have a product design that is genuinely differentiated, a novel mechanism, a proprietary formulation, a patented feature, or a design that cannot be achieved by modifying an existing product. You have the capital to invest Ôé¼15,000 to Ôé¼60,000 in tooling and development before seeing a single unit of revenue. You have six to twelve months of runway before you need product on shelves. Your competitive advantage depends on the product itself, not just the brand around it.</p>
 
-<p><strong>The hybrid approach that works for most Irish SMEs:</strong> Start with ODM. Use the first twelve to eighteen months to validate the market, build sales volume, understand your customer's preferences, and generate the revenue to fund an OEM development programme. Then invest in OEM for version two — a genuinely differentiated product informed by real market data rather than assumptions.</p>
+<p><strong>The hybrid approach that works for most Irish SMEs:</strong> Start with ODM. Use the first twelve to eighteen months to validate the market, build sales volume, understand your customer's preferences, and generate the revenue to fund an OEM development programme. Then invest in OEM for version two, a genuinely differentiated product informed by real market data rather than assumptions.</p>
 
 <p>This is not a compromise. It is how most successful product brands are built. You do not design the perfect product in isolation. You sell a good enough product, learn from the market response, and design a better product with that knowledge. ODM is the market-testing phase. OEM is the scaling phase. The brands that skip ODM and go straight to OEM with an unvalidated product concept are the ones that end up with 8,000 units of unsold inventory in a warehouse outside Naas.</p>
 
 <figure class="article-figure">
-  <img src="/images/the-oem-vs-odm-decision-split.webp" alt="Clean split-screen comparison infographic. Left half labelled OEM — Your Design: full specification required, timeline 4–8 months, upfront cost Ôé¼15,000–Ôé¼60,000, high IP protection. Right half labelled ODM — Their Design, Your Brand: logo and packaging only, timeline 6–12 weeks, upfront cost Ôé¼2,000–Ôé¼10,000, lower IP protection. Ériu Sourcing logo at bottom." loading="lazy" width="1280" height="720">
+  <img src="/images/the-oem-vs-odm-decision-split.webp" alt="Clean split-screen comparison infographic. Left half labelled OEM, Your Design: full specification required, timeline 4–8 months, upfront cost Ôé¼15,000–Ôé¼60,000, high IP protection. Right half labelled ODM, Their Design, Your Brand: logo and packaging only, timeline 6–12 weeks, upfront cost Ôé¼2,000–Ôé¼10,000, lower IP protection. Ériu Sourcing logo at bottom." loading="lazy" width="1280" height="720">
   <figcaption>The decision at a glance. OEM gives you ownership and exclusivity at higher cost and longer timelines. ODM gives you speed and capital efficiency with shared product risk. Most Irish brands should start right and graduate left.</figcaption>
 </figure>
 
@@ -630,39 +630,39 @@ export const blogPosts = [
 
 <p>Whether you go OEM or ODM, three legal protections are non-negotiable when manufacturing in China.</p>
 
-<p><strong>Register your trademark in China</strong> — not just in Ireland or the EU. China operates a first-to-file system. If someone else registers your brand name in China before you do, they own it in that jurisdiction — and your factory is legally obligated to respect that registration, not yours. Chinese trademark registration costs approximately Ôé¼300 to Ôé¼600 through a local agent and takes twelve to eighteen months. File before you place your first production order, not after.</p>
+<p><strong>Register your trademark in China</strong>, not just in Ireland or the EU. China operates a first-to-file system. If someone else registers your brand name in China before you do, they own it in that jurisdiction, and your factory is legally obligated to respect that registration, not yours. Chinese trademark registration costs approximately Ôé¼300 to Ôé¼600 through a local agent and takes twelve to eighteen months. File before you place your first production order, not after.</p>
 
-<p><strong>Use a manufacturing agreement</strong> — not just a purchase order. The agreement should specify who owns the tooling (you, if you paid for it), who owns the product design and specifications, what happens to the tooling if you stop ordering, non-disclosure provisions covering your product specifications and branding, and the factory's obligation not to sell your product (OEM) or your customised version (ODM) to third parties.</p>
+<p><strong>Use a manufacturing agreement</strong>, not just a purchase order. The agreement should specify who owns the tooling (you, if you paid for it), who owns the product design and specifications, what happens to the tooling if you stop ordering, non-disclosure provisions covering your product specifications and branding, and the factory's obligation not to sell your product (OEM) or your customised version (ODM) to third parties.</p>
 
-<p><strong>For OEM products with novel designs, file a Chinese design patent.</strong> Chinese design patents are inexpensive — Ôé¼500 to Ôé¼1,500 including agent fees — and provide six months of priority filing rights under the Paris Convention, allowing you to file in other jurisdictions later. They are also enforceable within China, which is where the manufacturing and the IP risk both sit.</p>
+<p><strong>For OEM products with novel designs, file a Chinese design patent.</strong> Chinese design patents are inexpensive, Ôé¼500 to Ôé¼1,500 including agent fees, and provide six months of priority filing rights under the Paris Convention, allowing you to file in other jurisdictions later. They are also enforceable within China, which is where the manufacturing and the IP risk both sit.</p>
 
 <h2>How to find the right factory for either model</h2>
 
 <p>The process for identifying ODM and OEM factories is different, and most Irish importers conflate them.</p>
 
-<p><strong>For ODM</strong>, the factory selection is product-first. You are looking for a factory that already makes a product you want to sell. Start with product-level search — on Alibaba for initial research, at Canton Fair for hands-on product evaluation, or through a sourcing agent who can visit factory showrooms in the relevant manufacturing cluster. Evaluate the existing product on quality, finish, and compliance. Request samples from three to five factories making comparable products. Compare.</p>
+<p><strong>For ODM</strong>, the factory selection is product-first. You are looking for a factory that already makes a product you want to sell. Start with product-level search, on Alibaba for initial research, at Canton Fair for hands-on product evaluation, or through a sourcing agent who can visit factory showrooms in the relevant manufacturing cluster. Evaluate the existing product on quality, finish, and compliance. Request samples from three to five factories making comparable products. Compare.</p>
 
-<p><strong>For OEM</strong>, the factory selection is capability-first. You need a factory with the machinery, materials expertise, and quality systems to manufacture to your specification. This requires a factory audit — not an Alibaba listing review. You need to verify production equipment matches your process requirements, the factory has experience with your material types, quality management systems are in place, and production capacity can accommodate your order volume without your order sitting at the bottom of a queue behind larger clients.</p>
+<p><strong>For OEM</strong>, the factory selection is capability-first. You need a factory with the machinery, materials expertise, and quality systems to manufacture to your specification. This requires a factory audit, not an Alibaba listing review. You need to verify production equipment matches your process requirements, the factory has experience with your material types, quality management systems are in place, and production capacity can accommodate your order volume without your order sitting at the bottom of a queue behind larger clients.</p>
 
 <p>In both cases, the factory verification process described in our <a href="/blog/alibaba-vs-factory-direct-irish-importers/">Alibaba vs factory-direct guide</a> applies. Check the business registration on gsxt.gov.cn. Request the business licence. Run a video call from the production floor. Confirm the registered business scope includes þöƒõ║ºÕêÂÚÇá (production and manufacturing).</p>
 
 <h2>Where to start</h2>
 
-<p>If you are an Irish brand considering private label manufacturing in China and you are not sure whether OEM or ODM is the right starting point, the answer is almost always ODM — with a clear plan to graduate to OEM once you have market validation and the capital to invest in product development.</p>
+<p>If you are an Irish brand considering private label manufacturing in China and you are not sure whether OEM or ODM is the right starting point, the answer is almost always ODM, with a clear plan to graduate to OEM once you have market validation and the capital to invest in product development.</p>
 
-<p>The exception is if you already have a differentiated product design, the engineering documentation to support it, and the budget to fund tooling. In that case, OEM from day one makes sense — and the right factory partner will walk you through the development process from sample to production.</p>
+<p>The exception is if you already have a differentiated product design, the engineering documentation to support it, and the budget to fund tooling. In that case, OEM from day one makes sense, and the right factory partner will walk you through the development process from sample to production.</p>
 
-<p>Either way, the factory relationship is the variable that determines whether this works. A good factory — whether OEM or ODM — communicates clearly, delivers on sample quality in production, respects your IP, and treats a Ôé¼15,000 Irish order with the same discipline they apply to a Ôé¼500,000 US order. Finding that factory from Dublin is the hard part.</p>
+<p>Either way, the factory relationship is the variable that determines whether this works. A good factory, whether OEM or ODM, communicates clearly, delivers on sample quality in production, respects your IP, and treats a Ôé¼15,000 Irish order with the same discipline they apply to a Ôé¼500,000 US order. Finding that factory from Dublin is the hard part.</p>
 
 <p><a href="/contact/">Send us a brief</a>. We will tell you whether OEM or ODM makes sense for your product, give you realistic pricing and MOQ expectations for your category, and introduce you to verified factories that match your requirements.</p>`,
-    excerpt: 'Irish brands wanting their own product from China have two routes — OEM, where you own the design, or ODM, where the factory owns it and you brand it. The decision determines your upfront cost, timeline, MOQ, and whether anyone else can sell the exact same thing.',
+    excerpt: 'Irish brands wanting their own product from China have two routes, OEM, where you own the design, or ODM, where the factory owns it and you brand it. The decision determines your upfront cost, timeline, MOQ, and whether anyone else can sell the exact same thing.',
     image: '/images/the-oem-product-development-desk.webp',
     imageAlt: 'Top-down flat-lay of a product development workspace with technical CAD drawings, prototype samples, a digital calliper, Pantone swatches, and a laptop showing a 3D CAD render',
     faq: [
-      { q: 'What is the difference between OEM and ODM manufacturing in China?', a: 'OEM (Original Equipment Manufacturer) means you own and provide the product design — the factory manufactures to your specification. ODM (Original Design Manufacturer) means the factory already has a product and you apply your brand to it. OEM gives you exclusivity and full IP control but requires higher upfront investment (Ôé¼15,000–Ôé¼60,000) and longer timelines (4–8 months). ODM gets you to market in 6–12 weeks with Ôé¼2,000–Ôé¼10,000 upfront but the product may be non-exclusive.' },
-      { q: 'What minimum order quantity should I expect for private label manufacturing in China?', a: 'For OEM, expect MOQs of 1,000–5,000 units for consumer goods — higher for low-cost items, lower for complex or premium products. For ODM, MOQs are typically 200–1,000 units since tooling and production setup already exist. Some ODM factories accept initial orders of 300–500 units for market testing before you commit to larger volumes.' },
+      { q: 'What is the difference between OEM and ODM manufacturing in China?', a: 'OEM (Original Equipment Manufacturer) means you own and provide the product design, the factory manufactures to your specification. ODM (Original Design Manufacturer) means the factory already has a product and you apply your brand to it. OEM gives you exclusivity and full IP control but requires higher upfront investment (Ôé¼15,000–Ôé¼60,000) and longer timelines (4–8 months). ODM gets you to market in 6–12 weeks with Ôé¼2,000–Ôé¼10,000 upfront but the product may be non-exclusive.' },
+      { q: 'What minimum order quantity should I expect for private label manufacturing in China?', a: 'For OEM, expect MOQs of 1,000–5,000 units for consumer goods, higher for low-cost items, lower for complex or premium products. For ODM, MOQs are typically 200–1,000 units since tooling and production setup already exist. Some ODM factories accept initial orders of 300–500 units for market testing before you commit to larger volumes.' },
       { q: 'How long does OEM manufacturing take in China from concept to shipment?', a: 'Full OEM typically takes four to eight months from initial specification to first production shipment. This covers sample development and approval (6–12 weeks), tooling manufacture for injection moulds (4–8 weeks), pilot production run, quality inspection, and ocean freight to Ireland. ODM is significantly faster at 6–12 weeks total, sometimes as little as four weeks for simple logo and packaging applications.' },
-      { q: 'How do I protect my brand when private label manufacturing in China?', a: 'Three protections are essential: register your trademark in China before placing your first order (China is first-to-file — if someone else registers your name first, they own it there); use a manufacturing agreement specifying tooling ownership, IP rights, and non-disclosure provisions; and for OEM products with novel designs, file a Chinese design patent (Ôé¼500–Ôé¼1,500) which is enforceable in China where the manufacturing risk sits.' },
+      { q: 'How do I protect my brand when private label manufacturing in China?', a: 'Three protections are essential: register your trademark in China before placing your first order (China is first-to-file, if someone else registers your name first, they own it there); use a manufacturing agreement specifying tooling ownership, IP rights, and non-disclosure provisions; and for OEM products with novel designs, file a Chinese design patent (Ôé¼500–Ôé¼1,500) which is enforceable in China where the manufacturing risk sits.' },
       { q: 'Should an Irish brand start with OEM or ODM manufacturing?', a: 'For most Irish brands, ODM is the right starting point. It gets you to market in under three months with Ôé¼2,000–Ôé¼10,000 upfront, letting you validate demand before committing to OEM tooling costs of Ôé¼15,000–Ôé¼60,000. Once you have sales data, customer feedback, and revenue to reinvest, develop a differentiated OEM product for version two. The brands that go straight to OEM with an unvalidated concept are the ones that end up with thousands of units of unsold stock.' },
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'alibaba-vs-factory-direct-irish-importers', 'incoterms-explained-irish-importers-fob-cif-exw-dap-china'],
@@ -677,7 +677,7 @@ export const blogPosts = [
     slug: 'ce-marking-china-imports-ireland',
     title: 'CE Marking and China Imports: What Irish Businesses Get Wrong',
     metaTitle: 'CE Marking China Imports Ireland: What to Know | Ériu Sourcing',
-    metaDescription: 'CE marking on China imports is widely misunderstood by Irish businesses. What you need to know before you import — and what gets goods detained at Dublin Port.',
+    metaDescription: 'CE marking on China imports is widely misunderstood by Irish businesses. What you need to know before you import, and what gets goods detained at Dublin Port.',
     h1: 'CE marking and China imports: what Irish businesses get wrong',
     eyebrow: 'Compliance & Risk',
     category: 'compliance',
@@ -688,83 +688,83 @@ export const blogPosts = [
     estimatedWordCount: 2800,
     publishDate: '2026-04-12',
     draft: false,
-    body: `<p>The CE mark on a product from a Chinese factory is one of the most misunderstood documents in international trade. Irish importers see it and assume compliance. Often, that assumption is wrong — and the consequences land at Dublin Port, not at the factory gate where the problem started.</p>
+    body: `<p>The CE mark on a product from a Chinese factory is one of the most misunderstood documents in international trade. Irish importers see it and assume compliance. Often, that assumption is wrong, and the consequences land at Dublin Port, not at the factory gate where the problem started.</p>
 
 <p>This is not primarily about catching dishonest suppliers, though that matters too. It is about understanding what CE compliance actually requires, what it does not require, and what the Irish importer is legally responsible for when goods carrying that mark arrive in Ireland. The importer's responsibility under EU product safety law does not disappear because the factory issued a document saying it should not.</p>
 
-<h2>What CE marking actually means — and what it does not</h2>
+<h2>What CE marking actually means, and what it does not</h2>
 
-<p>CE marking is a manufacturer's declaration that a product meets the requirements of the EU directives that apply to it. No government body issues it, tests it, or verifies it at source. The legal weight of that declaration rests entirely on the evidence behind it — and the mark on the product looks identical whether that evidence is solid or absent.</p>
+<p>CE marking is a manufacturer's declaration that a product meets the requirements of the EU directives that apply to it. No government body issues it, tests it, or verifies it at source. The legal weight of that declaration rests entirely on the evidence behind it, and the mark on the product looks identical whether that evidence is solid or absent.</p>
 
-<p>When a product carries a CE mark legitimately, it means the manufacturer has identified which EU directives apply, ensured the product meets the essential requirements of those directives, prepared or obtained a technical file documenting that assessment, and issued a Declaration of Conformity. For lower-risk product categories, this process can be completed internally by the manufacturer. For higher-risk categories, it requires testing by a notified body — an accredited third party registered on the EU NANDO database.</p>
+<p>When a product carries a CE mark legitimately, it means the manufacturer has identified which EU directives apply, ensured the product meets the essential requirements of those directives, prepared or obtained a technical file documenting that assessment, and issued a Declaration of Conformity. For lower-risk product categories, this process can be completed internally by the manufacturer. For higher-risk categories, it requires testing by a notified body, an accredited third party registered on the EU NANDO database.</p>
 
 <p>The mark has no bearing on quality, durability, or performance beyond the minimum safety threshold. A product can be CE-marked and still be poorly made. It can be CE-marked under one directive while failing the requirements of another that also applies. And it can carry a mark that visually resembles the official EU CE mark while meaning nothing under EU law.</p>
 
-<p>That last point matters more than most Irish importers realise. The China Export mark — a different symbol produced by some Chinese manufacturers — uses the same two letters in a compressed form. The letters are positioned closer together than in the official EU mark. To the untrained eye, they look identical. To an Irish customs officer or market surveillance inspector, they are not.</p>
+<p>That last point matters more than most Irish importers realise. The China Export mark, a different symbol produced by some Chinese manufacturers, uses the same two letters in a compressed form. The letters are positioned closer together than in the official EU mark. To the untrained eye, they look identical. To an Irish customs officer or market surveillance inspector, they are not.</p>
 
 <figure class="article-figure">
   <img src="/images/ce-mark-vs-china-export-mark-visual-comparison-irish-importers.webp" alt="Side-by-side comparison of the official EU CE mark and the similar-looking China Export mark" loading="lazy" width="1280" height="720">
-  <figcaption>The difference is millimetres — and it is worth thousands. The EU CE mark on the left means the product has been assessed against EU safety directives. The China Export mark on the right means absolutely nothing. If the letters on your product are touching, you do not have CE compliance. You have a label.</figcaption>
+  <figcaption>The difference is millimetres, and it is worth thousands. The EU CE mark on the left means the product has been assessed against EU safety directives. The China Export mark on the right means absolutely nothing. If the letters on your product are touching, you do not have CE compliance. You have a label.</figcaption>
 </figure>
 
 <p>The visual difference is a matter of spacing. In the official EU CE mark, the C and E are correctly proportioned with a specific gap between them, defined in the annex to EU directives. In the China Export mark, the letters are compressed together. If the letters on your product are touching, you do not have CE compliance. You have a label that looks like one.</p>
 
 <h2>Self-declared CE versus verified CE</h2>
 
-<p>EU directives divide products into risk categories, and the level of conformity assessment required depends on where a product falls. For lower-risk products — many categories under the Low Voltage Directive, for example — a manufacturer can carry out the conformity assessment themselves, produce the technical file, and issue a Declaration of Conformity without third-party involvement. This is called self-declaration, or Module A conformity assessment.</p>
+<p>EU directives divide products into risk categories, and the level of conformity assessment required depends on where a product falls. For lower-risk products, many categories under the Low Voltage Directive, for example, a manufacturer can carry out the conformity assessment themselves, produce the technical file, and issue a Declaration of Conformity without third-party involvement. This is called self-declaration, or Module A conformity assessment.</p>
 
-<p>For higher-risk products — medical devices, certain machinery, PPE rated for life-critical applications, radio equipment in specific categories — the directive requires involvement of a notified body. A notified body is an organisation accredited by a national authority and listed on the European Commission's NANDO database. Only products tested and certified by a listed notified body can validly carry the CE mark in those categories.</p>
+<p>For higher-risk products, medical devices, certain machinery, PPE rated for life-critical applications, radio equipment in specific categories, the directive requires involvement of a notified body. A notified body is an organisation accredited by a national authority and listed on the European Commission's NANDO database. Only products tested and certified by a listed notified body can validly carry the CE mark in those categories.</p>
 
 <p>Both self-declared and notified-body-verified products carry the same mark. There is no visual difference on the product between a CE mark backed by a full technical file and third-party testing, and a CE mark placed there by a factory with a printer and an optimistic attitude to European safety law.</p>
 
-<p>The Declaration of Conformity, the test report, and the name of the testing body tell you far more than the mark itself — assuming those documents are genuine and the product in the container matches what was tested.</p>
+<p>The Declaration of Conformity, the test report, and the name of the testing body tell you far more than the mark itself, assuming those documents are genuine and the product in the container matches what was tested.</p>
 
 <h2>Which product categories require CE marking in Ireland</h2>
 
 <p>CE marking applies to products sold in Ireland and across the EU that fall within specific regulated categories. The categories most relevant to Irish importers sourcing from China include:</p>
 
-<p>Electrical and electronic equipment — regulated under the Low Voltage Directive (LVD) and the Electromagnetic Compatibility Directive (EMC). This covers the vast majority of powered consumer and commercial electrical products: power tools, lighting, heating equipment, consumer electronics, and anything that runs on mains electricity or connects to it.</p>
+<p>Electrical and electronic equipment, regulated under the Low Voltage Directive (LVD) and the Electromagnetic Compatibility Directive (EMC). This covers the vast majority of powered consumer and commercial electrical products: power tools, lighting, heating equipment, consumer electronics, and anything that runs on mains electricity or connects to it.</p>
 
-<p>Machinery — regulated under the Machinery Directive. Covers powered machinery including construction equipment, production machinery, and certain motorised tools. The Machinery Directive was revised in 2023, with a transition period running to 2027 — machinery imported during this window may need to comply with either the original or revised directive depending on its certification date.</p>
+<p>Machinery, regulated under the Machinery Directive. Covers powered machinery including construction equipment, production machinery, and certain motorised tools. The Machinery Directive was revised in 2023, with a transition period running to 2027, machinery imported during this window may need to comply with either the original or revised directive depending on its certification date.</p>
 
-<p>Radio equipment — regulated under the Radio Equipment Directive (RED). Covers any product that transmits or receives radio waves, including Bluetooth devices, WiFi-enabled equipment, drones, and wireless peripherals. RED requires notified body involvement for certain product types and introduced specific software security requirements for connected devices in 2024.</p>
+<p>Radio equipment, regulated under the Radio Equipment Directive (RED). Covers any product that transmits or receives radio waves, including Bluetooth devices, WiFi-enabled equipment, drones, and wireless peripherals. RED requires notified body involvement for certain product types and introduced specific software security requirements for connected devices in 2024.</p>
 
-<p>Personal protective equipment — regulated under the PPE Regulation. Covers gloves, helmets, eye protection, respiratory equipment, and other safety gear. PPE is divided into three categories based on the severity of risk addressed, with Category III — life-critical protection — requiring notified body testing.</p>
+<p>Personal protective equipment, regulated under the PPE Regulation. Covers gloves, helmets, eye protection, respiratory equipment, and other safety gear. PPE is divided into three categories based on the severity of risk addressed, with Category III, life-critical protection, requiring notified body testing.</p>
 
-<p>Toys — regulated under the Toy Safety Directive. Covers products designed for use by children under 14. Extensive physical, chemical, and mechanical safety requirements apply, and most categories require notified body involvement.</p>
+<p>Toys, regulated under the Toy Safety Directive. Covers products designed for use by children under 14. Extensive physical, chemical, and mechanical safety requirements apply, and most categories require notified body involvement.</p>
 
-<p>Construction products — regulated under the Construction Products Regulation (CPR). This differs from other CE directives: construction products carry a CE mark alongside a Declaration of Performance, not a Declaration of Conformity. The Declaration of Performance declares the product's measured performance against harmonised technical specifications — not simply that it meets a standard, but what values it achieves.</p>
+<p>Construction products, regulated under the Construction Products Regulation (CPR). This differs from other CE directives: construction products carry a CE mark alongside a Declaration of Performance, not a Declaration of Conformity. The Declaration of Performance declares the product's measured performance against harmonised technical specifications, not simply that it meets a standard, but what values it achieves.</p>
 
-<p>Medical devices — regulated under the Medical Device Regulation (MDR). Class I devices can be self-certified; Class IIa, IIb, and Class III require notified body involvement. The MDR transition from the older MDD framework completed in 2024, and devices still carrying certification under the older regime may no longer be legally placed on the Irish market.</p>
+<p>Medical devices, regulated under the Medical Device Regulation (MDR). Class I devices can be self-certified; Class IIa, IIb, and Class III require notified body involvement. The MDR transition from the older MDD framework completed in 2024, and devices still carrying certification under the older regime may no longer be legally placed on the Irish market.</p>
 
 <p>Categories where CE is not required include most food products, cosmetics, pharmaceuticals, and motor vehicles. Textiles and apparel do not require CE marking but are subject to REACH chemical safety regulations, discussed separately below.</p>
 
 <h2>Why Chinese supplier CE claims cannot be taken at face value</h2>
 
-<p>The problem is structural rather than uniquely a question of Chinese supplier honesty. The CE mark system depends on accurate self-declaration, and there is limited enforcement upstream in the supply chain. Pressure to provide documentation that enables a sale creates predictable incentives to provide documentation — whether or not it accurately reflects the product.</p>
+<p>The problem is structural rather than uniquely a question of Chinese supplier honesty. The CE mark system depends on accurate self-declaration, and there is limited enforcement upstream in the supply chain. Pressure to provide documentation that enables a sale creates predictable incentives to provide documentation, whether or not it accurately reflects the product.</p>
 
 <p>The most common CE compliance failures Irish importers encounter fall into four categories.</p>
 
-<p>The first is the fabricated test report. Third-party test reports — the documents showing a product was tested by an accredited laboratory and passed — can be copied, modified, and reissued with different product details. The accreditation number on the report can be checked against the NANDO database, but the specific report cannot be verified without contacting the laboratory directly. Several of the larger accredited laboratories now offer online report verification tools. Use them.</p>
+<p>The first is the fabricated test report. Third-party test reports, the documents showing a product was tested by an accredited laboratory and passed, can be copied, modified, and reissued with different product details. The accreditation number on the report can be checked against the NANDO database, but the specific report cannot be verified without contacting the laboratory directly. Several of the larger accredited laboratories now offer online report verification tools. Use them.</p>
 
 <p>The second is the misapplied directive. A factory may hold genuine CE documentation for one directive while additional directives that also apply to the product have never been assessed. A powered wireless device might carry CE marking for the Low Voltage Directive while the EMC and Radio Equipment Directive requirements have gone unaddressed. The mark is present; the compliance is partial.</p>
 
-<p>The third is the outdated certification. CE certification relates to a specific product specification at a specific point in time. Factories that make specification changes — materials substituted, components sourced from different suppliers, production processes modified — may not update their CE documentation to reflect those changes. The certificate remains valid for the original product. The product in your container may no longer match it.</p>
+<p>The third is the outdated certification. CE certification relates to a specific product specification at a specific point in time. Factories that make specification changes, materials substituted, components sourced from different suppliers, production processes modified, may not update their CE documentation to reflect those changes. The certificate remains valid for the original product. The product in your container may no longer match it.</p>
 
-<p>The fourth is the China Export mark described above. In some cases the factory is not making any claim of EU compliance — they are marking goods with a symbol that matches their own brand or export mark. Whether this represents deliberate deception or a genuine misunderstanding of EU requirements varies by supplier. The outcome for the Irish importer is the same either way.</p>
+<p>The fourth is the China Export mark described above. In some cases the factory is not making any claim of EU compliance, they are marking goods with a symbol that matches their own brand or export mark. Whether this represents deliberate deception or a genuine misunderstanding of EU requirements varies by supplier. The outcome for the Irish importer is the same either way.</p>
 
 <h2>What happens when non-compliant goods reach Ireland</h2>
 
-<p>Non-compliant goods entering Ireland face enforcement at two stages. Customs at Dublin Port can identify and hold shipments when there is reason to suspect non-compliance — triggered by documentation that does not align, a commodity flag in the customs intelligence system, or a random sampling exercise on a regulated product category. Goods that cannot be cleared by production of compliant documentation can be refused entry, returned to origin at the importer's cost, or destroyed in Ireland at the importer's expense.</p>
+<p>Non-compliant goods entering Ireland face enforcement at two stages. Customs at Dublin Port can identify and hold shipments when there is reason to suspect non-compliance, triggered by documentation that does not align, a commodity flag in the customs intelligence system, or a random sampling exercise on a regulated product category. Goods that cannot be cleared by production of compliant documentation can be refused entry, returned to origin at the importer's cost, or destroyed in Ireland at the importer's expense.</p>
 
 <figure class="article-figure">
   <img src="/images/non-compliant-ce-goods-detained-customs-european-port-ireland.webp" alt="Shipping container held under customs detention at a European port for non-compliant CE goods" loading="lazy" width="1280" height="720">
-  <figcaption>This is what non-compliance looks like at the port. A container detained, goods held, customs officers pulling samples. The cost is not just the inspection — it is storage charges, destruction fees, re-export costs, and the shipment you cannot sell. Every week this container sits here costs money. CE verification at the factory in China costs a fraction of what this costs in Dublin.</figcaption>
+  <figcaption>This is what non-compliance looks like at the port. A container detained, goods held, customs officers pulling samples. The cost is not just the inspection, it is storage charges, destruction fees, re-export costs, and the shipment you cannot sell. Every week this container sits here costs money. CE verification at the factory in China costs a fraction of what this costs in Dublin.</figcaption>
 </figure>
 
-<p>Goods that pass customs and reach the Irish market face market surveillance. The Competition and Consumer Protection Commission (CCPC) and sector-specific authorities — the NSAI, the Health and Safety Authority, and others depending on the product category — conduct market surveillance and can order product recalls, prohibit sale, and impose financial penalties on the importer of record.</p>
+<p>Goods that pass customs and reach the Irish market face market surveillance. The Competition and Consumer Protection Commission (CCPC) and sector-specific authorities, the NSAI, the Health and Safety Authority, and others depending on the product category, conduct market surveillance and can order product recalls, prohibit sale, and impose financial penalties on the importer of record.</p>
 
-<p>The importer of record in Ireland carries full legal responsibility under EU product safety law. Not the Chinese factory. Not the freight forwarder. Not the sourcing agent. If goods bearing a false or invalid CE mark reach Irish consumers and cause harm, the Irish business that imported them carries the liability. The CCPC publishes recall notices and enforcement actions on its website — the products on those lists are often sourced from China, and the businesses named are Irish importers, not Chinese manufacturers.</p>
+<p>The importer of record in Ireland carries full legal responsibility under EU product safety law. Not the Chinese factory. Not the freight forwarder. Not the sourcing agent. If goods bearing a false or invalid CE mark reach Irish consumers and cause harm, the Irish business that imported them carries the liability. The CCPC publishes recall notices and enforcement actions on its website, the products on those lists are often sourced from China, and the businesses named are Irish importers, not Chinese manufacturers.</p>
 
 <p>The commercial cost of a non-compliance failure at Dublin Port is predictable: detention charges, storage fees while a decision is made, potential destruction costs, freight costs for any return shipment, and the loss of the entire order value. On a container of goods worth €60,000, a compliance failure can cost €75,000 to €90,000 before legal fees. CE verification at the factory in China costs less than one per cent of that figure.</p>
 
@@ -774,72 +774,72 @@ export const blogPosts = [
 
 <figure class="article-figure">
   <img src="/images/ce-marking-pre-shipment-inspection-chinese-factory-quality-control.webp" alt="Photorealistic photograph inside a Chinese factory quality control station. A QC inspector in a white lab coat and blue nitrile gloves examines a small white electronics product while holding an EU Declaration of Conformity document. On the stainless steel inspection table: a digital multimeter, magnifying loupe, bound test reports, an open shipping carton with the CE mark visible, and a clipboard with a pre-shipment inspection checklist showing green ticks and yellow highlights. Sealed cartons stacked on a pallet in the blurred background. Fluorescent overhead lighting, 50mm lens, documentary photography style." loading="lazy" width="1280" height="720">
-  <figcaption>CE compliance is verified here — on the factory floor in China, before the container is sealed — or it is not verified at all. A Declaration of Conformity, matching test reports, and a physical product inspection at the source is the only way to know what is inside those cartons before they arrive at Dublin Port.</figcaption>
+  <figcaption>CE compliance is verified here, on the factory floor in China, before the container is sealed, or it is not verified at all. A Declaration of Conformity, matching test reports, and a physical product inspection at the source is the only way to know what is inside those cartons before they arrive at Dublin Port.</figcaption>
 </figure>
 
 <p>Verification covers four things.</p>
 
-<p>First, confirm that the directive cited in the Declaration of Conformity actually applies to your product. CE marking is directive-specific — a DoC citing the Low Voltage Directive for a product that is also regulated under the Radio Equipment Directive is incomplete compliance. If you are uncertain which directives apply, the NSAI can advise on the applicable legislation for your specific product category.</p>
+<p>First, confirm that the directive cited in the Declaration of Conformity actually applies to your product. CE marking is directive-specific, a DoC citing the Low Voltage Directive for a product that is also regulated under the Radio Equipment Directive is incomplete compliance. If you are uncertain which directives apply, the NSAI can advise on the applicable legislation for your specific product category.</p>
 
 <p>Second, check the test report against the NANDO database. The NANDO database at ec.europa.eu/growth/tools-databases/nando lists every accredited notified body in Europe. Take the notified body identification number from the test report, search it on NANDO, and confirm the body is listed and that its scope of accreditation covers the directive and product type referenced in the report. If the number does not appear on NANDO, the test report is not from an accredited notified body.</p>
 
-<p>Third, check that the Declaration of Conformity identifies the correct responsible person. For goods manufactured outside the EU and imported by an Irish business, the Irish importer is typically the responsible party — not the Chinese manufacturer. A DoC that names only the Chinese factory as responsible party may be invalid for an Irish import, depending on the directive and how it has been transposed into Irish law. The NSAI can confirm the correct approach for your product category.</p>
+<p>Third, check that the Declaration of Conformity identifies the correct responsible person. For goods manufactured outside the EU and imported by an Irish business, the Irish importer is typically the responsible party, not the Chinese manufacturer. A DoC that names only the Chinese factory as responsible party may be invalid for an Irish import, depending on the directive and how it has been transposed into Irish law. The NSAI can confirm the correct approach for your product category.</p>
 
-<p>Fourth, conduct a pre-shipment inspection that specifically covers CE documentation. A qualified QC inspector attending the factory before shipment should review the Declaration of Conformity, cross-reference it against the product specification being shipped, verify that the CE mark is correctly applied to the product and packaging, and confirm that the correct documentation — including the DoC and instructions for use in English — is packed in each carton. CE-marked goods sold in Ireland must include instructions in English as a minimum requirement under most directives.</p>
+<p>Fourth, conduct a pre-shipment inspection that specifically covers CE documentation. A qualified QC inspector attending the factory before shipment should review the Declaration of Conformity, cross-reference it against the product specification being shipped, verify that the CE mark is correctly applied to the product and packaging, and confirm that the correct documentation, including the DoC and instructions for use in English, is packed in each carton. CE-marked goods sold in Ireland must include instructions in English as a minimum requirement under most directives.</p>
 
 <h2>Construction materials: specific CE requirements under CPR</h2>
 
-<p>Construction products imported from China carry different CE requirements from most other product categories. Under the Construction Products Regulation, CE marking on a construction product does not mean the product meets a safety threshold — it means the manufacturer has declared the product's performance against a harmonised technical specification. CE marking on a construction product without a valid Declaration of Performance is not a compliance document.</p>
+<p>Construction products imported from China carry different CE requirements from most other product categories. Under the Construction Products Regulation, CE marking on a construction product does not mean the product meets a safety threshold, it means the manufacturer has declared the product's performance against a harmonised technical specification. CE marking on a construction product without a valid Declaration of Performance is not a compliance document.</p>
 
-<p>Irish construction projects procured under public contracts, those subject to BCAR (Building Control Amendment Regulations), and projects requiring sign-off from an assigned certifier require evidence of declared performance characteristics, not simply a CE mark on the box. Structural steel, insulation, cladding, windows, doors, and roofing products all fall within CPR scope. The Declaration of Performance must specify the declared performance levels for the relevant characteristics — not simply state that the product meets a standard, but what values it achieves.</p>
+<p>Irish construction projects procured under public contracts, those subject to BCAR (Building Control Amendment Regulations), and projects requiring sign-off from an assigned certifier require evidence of declared performance characteristics, not simply a CE mark on the box. Structural steel, insulation, cladding, windows, doors, and roofing products all fall within CPR scope. The Declaration of Performance must specify the declared performance levels for the relevant characteristics, not simply state that the product meets a standard, but what values it achieves.</p>
 
-<p>For Irish importers of construction materials from China, Declarations of Performance produced by Chinese factories are often incomplete, cite harmonised standards that have since been superseded, or declare performance levels that are not substantiated by current third-party testing. A pre-order review of the Declaration of Performance — the NSAI Technical Assessment Body can assist — is the right control before committing to a production order.</p>
+<p>For Irish importers of construction materials from China, Declarations of Performance produced by Chinese factories are often incomplete, cite harmonised standards that have since been superseded, or declare performance levels that are not substantiated by current third-party testing. A pre-order review of the Declaration of Performance, the NSAI Technical Assessment Body can assist, is the right control before committing to a production order.</p>
 
 <h2>Electronics and electrical goods: LVD, EMC, and RoHS</h2>
 
-<p>Electronics and electrical goods from China typically need to comply with three overlapping frameworks. The Low Voltage Directive covers electrical safety for equipment operating at voltages between 50V and 1,000V AC or 75V and 1,500V DC. The Electromagnetic Compatibility Directive covers the equipment's ability to function without creating interference and to resist interference from its environment. Both require CE marking and a Declaration of Conformity. RoHS — the Restriction of Hazardous Substances Directive — restricts the use of specific substances including lead, mercury, cadmium, and several phthalates, and requires its own compliance documentation, separate from CE.</p>
+<p>Electronics and electrical goods from China typically need to comply with three overlapping frameworks. The Low Voltage Directive covers electrical safety for equipment operating at voltages between 50V and 1, 000V AC or 75V and 1, 500V DC. The Electromagnetic Compatibility Directive covers the equipment's ability to function without creating interference and to resist interference from its environment. Both require CE marking and a Declaration of Conformity. RoHS, the Restriction of Hazardous Substances Directive, restricts the use of specific substances including lead, mercury, cadmium, and several phthalates, and requires its own compliance documentation, separate from CE.</p>
 
-<p>CE compliance for electronics is not a single document — it is a package. A product needs a Declaration of Conformity that correctly cites both the LVD and EMC directives, test reports for both, and a separate RoHS declaration with supporting substance analysis. Chinese suppliers often provide CE documentation covering one directive while the others are unaddressed, or provide RoHS declarations that are self-declared with no substance testing behind them.</p>
+<p>CE compliance for electronics is not a single document, it is a package. A product needs a Declaration of Conformity that correctly cites both the LVD and EMC directives, test reports for both, and a separate RoHS declaration with supporting substance analysis. Chinese suppliers often provide CE documentation covering one directive while the others are unaddressed, or provide RoHS declarations that are self-declared with no substance testing behind them.</p>
 
-<p>For products that include any wireless communication capability — Bluetooth, WiFi, cellular, or otherwise — the Radio Equipment Directive also applies. Adding wireless functionality to an otherwise straightforward electrical product triggers RED requirements, including in some categories notified body testing. Chinese electronics factories sometimes add wireless capability as a standard feature without updating their CE documentation to reflect it. The result is a product that is partially CE-compliant and partially not, with a mark that gives no indication of which category it falls into.</p>
+<p>For products that include any wireless communication capability, Bluetooth, WiFi, cellular, or otherwise, the Radio Equipment Directive also applies. Adding wireless functionality to an otherwise straightforward electrical product triggers RED requirements, including in some categories notified body testing. Chinese electronics factories sometimes add wireless capability as a standard feature without updating their CE documentation to reflect it. The result is a product that is partially CE-compliant and partially not, with a mark that gives no indication of which category it falls into.</p>
 
 <h2>Apparel and textiles: REACH and chemical safety</h2>
 
-<p>Clothing, textiles, and accessories sourced from China do not require CE marking. They are, however, subject to REACH — the EU regulation on chemicals — which carries its own compliance requirements and its own enforcement consequences if breached.</p>
+<p>Clothing, textiles, and accessories sourced from China do not require CE marking. They are, however, subject to REACH, the EU regulation on chemicals, which carries its own compliance requirements and its own enforcement consequences if breached.</p>
 
 <p>REACH restricts or prohibits specific substances in products placed on the EU market. For textiles and apparel, the most relevant restrictions involve azo dyes that can release carcinogenic aromatic amines, formaldehyde content in treated fabrics, nickel release from metal accessories in direct contact with skin, and restricted phthalates in coatings, prints, or trims. These restrictions apply to finished goods regardless of where they were manufactured.</p>
 
-<p>Chinese textile factories routinely use dyes, finishes, and treatments that are permissible in their domestic market but restricted or prohibited under REACH. A factory can produce a REACH compliance declaration — many do, as a matter of course. Whether that declaration is backed by actual substance analysis of their specific dye batches and fabric treatments is a different question entirely.</p>
+<p>Chinese textile factories routinely use dyes, finishes, and treatments that are permissible in their domestic market but restricted or prohibited under REACH. A factory can produce a REACH compliance declaration, many do, as a matter of course. Whether that declaration is backed by actual substance analysis of their specific dye batches and fabric treatments is a different question entirely.</p>
 
-<p>For Irish importers of clothing or textiles, third-party substance testing before shipment is the appropriate control. REACH testing on a textile sample costs approximately €150 to €400 depending on the number of substances tested and the laboratory used. This is not a discretionary spend — REACH compliance is a legal requirement for goods placed on the Irish market, and market surveillance testing can happen without prior notice.</p>
+<p>For Irish importers of clothing or textiles, third-party substance testing before shipment is the appropriate control. REACH testing on a textile sample costs approximately €150 to €400 depending on the number of substances tested and the laboratory used. This is not a discretionary spend, REACH compliance is a legal requirement for goods placed on the Irish market, and market surveillance testing can happen without prior notice.</p>
 
 <h2>What to do before your next shipment</h2>
 
 <p>CE compliance resolved at Dublin Port is already late. By that point, you either clear customs with the documentation you have, or you deal with the cost of not having it.</p>
 
-<p>The controls that prevent compliance failures are upstream: verify CE documentation before placing an order, include a CE document review as a specific item in your pre-shipment inspection brief, check the NANDO database for every notified body reference in your test reports, and understand which directives apply to your specific product — not CE marking in general, but the exact framework your product sits within.</p>
+<p>The controls that prevent compliance failures are upstream: verify CE documentation before placing an order, include a CE document review as a specific item in your pre-shipment inspection brief, check the NANDO database for every notified body reference in your test reports, and understand which directives apply to your specific product, not CE marking in general, but the exact framework your product sits within.</p>
 
 <p>Discovering a CE problem at the factory gate, before shipment, leaves time to fix it. Discovering it at Dublin Port means absorbing the cost of a shipment you cannot clear.</p>
 
 <p>Ériu Sourcing has been working with Irish businesses on China-sourced goods and CE compliance since 2007. We carry out CE documentation reviews at source, pre-shipment inspections with compliance documentation coverage, and factory audits that include quality management and CE evidence verification. If you are ordering CE-regulated goods from China and are not certain the documentation you have received will clear Irish customs, <a href="/contact/">get in touch before the container is sealed</a>.</p>`,
-    excerpt: 'Self-declared CE is not the same as verified CE. Most Irish importers find this out at the worst possible time — at customs, or after a product recall. Here is what CE compliance actually requires for China-sourced goods.',
+    excerpt: 'Self-declared CE is not the same as verified CE. Most Irish importers find this out at the worst possible time, at customs, or after a product recall. Here is what CE compliance actually requires for China-sourced goods.',
     image: '/images/ce-marking-pre-shipment-inspection-chinese-factory-quality-control.webp',
     imageAlt: 'QC inspector verifying CE compliance documents at a Chinese factory pre-shipment inspection',
     images: [
       {
         src: '/images/ce-mark-vs-china-export-mark-visual-comparison-irish-importers.webp',
         alt: 'Side-by-side visual comparison of the EU CE mark and China Export mark showing letter spacing difference',
-        caption: 'The difference is millimetres — and it is worth thousands. The EU CE mark on the left means the product has been assessed against EU safety directives. The China Export mark on the right means absolutely nothing. If the letters on your product are touching, you do not have CE compliance. You have a label.',
+        caption: 'The difference is millimetres, and it is worth thousands. The EU CE mark on the left means the product has been assessed against EU safety directives. The China Export mark on the right means absolutely nothing. If the letters on your product are touching, you do not have CE compliance. You have a label.',
       },
       {
         src: '/images/ce-marking-pre-shipment-inspection-chinese-factory-quality-control.webp',
         alt: 'QC inspector checking CE compliance documentation and product at Chinese factory inspection station',
-        caption: 'CE compliance is verified here — on the factory floor in China, before the container is sealed — or it is not verified at all. A Declaration of Conformity, matching test reports, and a physical product inspection at the source is the only way to know what is inside those cartons before they arrive at Dublin Port.',
+        caption: 'CE compliance is verified here, on the factory floor in China, before the container is sealed, or it is not verified at all. A Declaration of Conformity, matching test reports, and a physical product inspection at the source is the only way to know what is inside those cartons before they arrive at Dublin Port.',
       },
       {
         src: '/images/non-compliant-ce-goods-detained-customs-european-port-ireland.webp',
         alt: 'Shipping container detained at European port customs for non-compliant imported goods',
-        caption: 'This is what non-compliance looks like at the port. A container detained, goods held, customs officers pulling samples. The cost is not just the inspection — it is storage charges, destruction fees, re-export costs, and the shipment you cannot sell. Every week this container sits here costs money. CE verification at the factory in China costs a fraction of what this costs in Dublin.',
+        caption: 'This is what non-compliance looks like at the port. A container detained, goods held, customs officers pulling samples. The cost is not just the inspection, it is storage charges, destruction fees, re-export costs, and the shipment you cannot sell. Every week this container sits here costs money. CE verification at the factory in China costs a fraction of what this costs in Dublin.',
       },
     ],
     sections: [
@@ -854,9 +854,9 @@ export const blogPosts = [
       'Apparel and textiles: REACH and chemical safety',
     ],
     faq: [
-      { q: 'Do all products imported from China to Ireland need CE marking?', a: 'CE marking is required for specific product categories regulated by EU directives, including electronics, electrical equipment, machinery, construction products, personal protective equipment, toys, and certain medical devices. For these categories, CE marking is a legal requirement for sale in Ireland and the EU — not optional.' },
+      { q: 'Do all products imported from China to Ireland need CE marking?', a: 'CE marking is required for specific product categories regulated by EU directives, including electronics, electrical equipment, machinery, construction products, personal protective equipment, toys, and certain medical devices. For these categories, CE marking is a legal requirement for sale in Ireland and the EU, not optional.' },
       { q: 'Can I trust CE documents provided by a Chinese factory?', a: 'Factory-provided CE documents should always be independently verified. Test reports can be fabricated, and Declaration of Conformity documents can be issued by the factory itself without third-party verification. Pre-shipment inspection by a qualified agent or third-party testing body provides a far higher level of assurance than documentation alone.' },
-      { q: 'What happens if non-CE-compliant goods arrive in Ireland?', a: 'Non-compliant goods can be seized by customs, refused entry, or destroyed at the importer\'s cost. If non-compliant goods reach the market, the Irish importer is legally responsible and faces potential fines, forced product recall, and liability for any harm caused. The importer — not the Chinese factory — bears legal responsibility under EU product safety law.' },
+      { q: 'What happens if non-CE-compliant goods arrive in Ireland?', a: 'Non-compliant goods can be seized by customs, refused entry, or destroyed at the importer\'s cost. If non-compliant goods reach the market, the Irish importer is legally responsible and faces potential fines, forced product recall, and liability for any harm caused. The importer, not the Chinese factory, bears legal responsibility under EU product safety law.' },
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland'],
     internalLinks: [
@@ -871,7 +871,7 @@ export const blogPosts = [
     slug: 'real-landed-cost-importing-from-china-ireland',
     title: 'The Real Landed Cost of Importing from China to Ireland',
     metaTitle: 'Real Landed Cost: Importing from China to Ireland in 2026 | Ériu Sourcing',
-    metaDescription: 'Irish importers underestimate the true landed cost of goods from China. We break down freight, duty, VAT, inspection and agent fees — with real numbers.',
+    metaDescription: 'Irish importers underestimate the true landed cost of goods from China. We break down freight, duty, VAT, inspection and agent fees, with real numbers.',
     h1: 'The real landed cost of importing from China to Ireland',
     eyebrow: 'Cost & Economics',
     category: 'economics',
@@ -884,7 +884,7 @@ export const blogPosts = [
     draft: false,
     excerpt: 'Most Irish businesses calculate China import savings on the factory price alone. They forget freight, customs duty, VAT, inspection, currency risk, and the cost of the time it takes. Here is how to build an accurate landed cost model before you commit.',
     image: '/images/hero-china-factory-floor.webp',
-    imageAlt: 'China factory floor — calculating the real landed cost of imports to Ireland',
+    imageAlt: 'China factory floor, calculating the real landed cost of imports to Ireland',
     sections: [
       'The components of landed cost (what most people miss)',
       'Factory-gate price: how to read an FOB quote',
@@ -895,11 +895,11 @@ export const blogPosts = [
       'Sourcing agent fees: what is reasonable',
       'Currency risk and how to manage it',
       'A worked example: electronics order, €50,000 FOB',
-      'When the numbers do not work — and what to do instead',
+      'When the numbers do not work, and what to do instead',
     ],
     body: `<p>Most Irish businesses that source from China calculate their savings on one number: the factory price. They get a quote from Shenzhen, compare it to what they pay their Irish wholesaler, see a 40% gap, and assume that's the profit they're making. It isn't.</p>
 
-<p>By the time goods manufactured in China reach your warehouse in Ireland, four to seven additional cost layers sit between the factory gate and your door. Most importers underestimate at least two of them on their first order. Some underestimate all of them. This guide gives you the full picture — every cost, with real numbers — so your margin calculation is accurate before you commit a deposit.</p>
+<p>By the time goods manufactured in China reach your warehouse in Ireland, four to seven additional cost layers sit between the factory gate and your door. Most importers underestimate at least two of them on their first order. Some underestimate all of them. This guide gives you the full picture, every cost, with real numbers, so your margin calculation is accurate before you commit a deposit.</p>
 
 <h2>The components of landed cost (what most people miss)</h2>
 
@@ -907,23 +907,23 @@ export const blogPosts = [
 
 <p><strong>Landed cost = FOB factory price + International freight + Cargo insurance + Customs duty + VAT + Pre-shipment inspection + Sourcing agent fee + Destination handling charges + Irish inland delivery</strong></p>
 
-<p>The components most often missed or underestimated are customs duty, destination handling charges, and currency conversion loss. VAT is also frequently forgotten, even though VAT-registered businesses reclaim it — the cash flow impact of paying it upfront at Dublin Port can be significant on a large shipment.</p>
+<p>The components most often missed or underestimated are customs duty, destination handling charges, and currency conversion loss. VAT is also frequently forgotten, even though VAT-registered businesses reclaim it, the cash flow impact of paying it upfront at Dublin Port can be significant on a large shipment.</p>
 
 <h2>Factory-gate price: how to read an FOB quote</h2>
 
-<p>Almost all Chinese factory quotes are given on FOB terms — Free On Board — which means the price includes getting the goods to the port of export and loaded onto a vessel. The cost of ocean freight from that point onwards is your responsibility.</p>
+<p>Almost all Chinese factory quotes are given on FOB terms, Free On Board, which means the price includes getting the goods to the port of export and loaded onto a vessel. The cost of ocean freight from that point onwards is your responsibility.</p>
 
-<p>The first thing to check on any FOB quote is which port it refers to. A quote from a factory in Zhengzhou (central China) might be FOB Qingdao or FOB Shanghai — two different ports, with meaningfully different inland transport costs already built into the factory price. If the factory is quoting FOB Shenzhen but is based in Dongguan, the trucking to Shenzhen may or may not be included — always confirm.</p>
+<p>The first thing to check on any FOB quote is which port it refers to. A quote from a factory in Zhengzhou (central China) might be FOB Qingdao or FOB Shanghai, two different ports, with meaningfully different inland transport costs already built into the factory price. If the factory is quoting FOB Shenzhen but is based in Dongguan, the trucking to Shenzhen may or may not be included, always confirm.</p>
 
 <p>The second thing to check is whether the quoted price includes export customs clearance. Under FOB, it should. A factory that asks you to pay separately for export documentation is either misquoting the Incoterm or adding a line item that should already be bundled.</p>
 
-<p>MOQ — minimum order quantity — also affects your unit economics directly. A factory quoting €4.80 per unit at 5,000 units may quote €3.90 at 20,000 units. Before you lock in a first order, understand what the pricing curve looks like at volume. That's the number your business model should be modelled on, not the sample price.</p>
+<p>MOQ, minimum order quantity, also affects your unit economics directly. A factory quoting €4.80 per unit at 5,000 units may quote €3.90 at 20,000 units. Before you lock in a first order, understand what the pricing curve looks like at volume. That's the number your business model should be modelled on, not the sample price.</p>
 
 <h2>Sea freight costs China to Ireland in 2026 (LCL vs FCL)</h2>
 
 <p>There are two ways to ship by sea: FCL (Full Container Load) or LCL (Less than Container Load).</p>
 
-<p>FCL means you book an entire container — typically a 20ft (roughly 25 CBM usable, 21,700kg payload) or a 40ft (roughly 55 CBM usable). You pay for the whole box regardless of how much of it you fill. Current 2026 rates for FCL from major Chinese ports to Dublin:</p>
+<p>FCL means you book an entire container, typically a 20ft (roughly 25 CBM usable, 21, 700kg payload) or a 40ft (roughly 55 CBM usable). You pay for the whole box regardless of how much of it you fill. Current 2026 rates for FCL from major Chinese ports to Dublin:</p>
 
 <ul>
   <li><strong>20ft FCL:</strong> approximately €2,500–€4,500 depending on origin port and season</li>
@@ -931,15 +931,15 @@ export const blogPosts = [
   <li><strong>40ft HC (High Cube):</strong> approximately €4,000–€6,800</li>
 </ul>
 
-<p>LCL means your goods are grouped with other importers' cargo in a shared container. You pay by cubic metre (CBM). Current 2026 LCL rates China to Ireland run at approximately €80–€150 per CBM, though this varies considerably by route and carrier. LCL also adds consolidation and deconsolidation time at each end — add 5–10 days to transit compared to FCL.</p>
+<p>LCL means your goods are grouped with other importers' cargo in a shared container. You pay by cubic metre (CBM). Current 2026 LCL rates China to Ireland run at approximately €80–€150 per CBM, though this varies considerably by route and carrier. LCL also adds consolidation and deconsolidation time at each end, add 5–10 days to transit compared to FCL.</p>
 
 <p>The break-even point between LCL and FCL is roughly 12–15 CBM. If your shipment is above that, an FCL is almost always cheaper per unit and faster. Below it, LCL makes sense unless your goods are high-value and you want the security of a dedicated container.</p>
 
-<p>Transit time from major Chinese ports to Dublin is 28–35 days via direct service. Some routings via European transshipment hubs (Rotterdam, Antwerp) add 3–7 days but may offer better rates or availability. Air freight is an option for small, high-value, or urgent shipments — expect approximately €5–€8 per kg door to door, compared to €0.20–€0.50 per kg by sea.</p>
+<p>Transit time from major Chinese ports to Dublin is 28–35 days via direct service. Some routings via European transshipment hubs (Rotterdam, Antwerp) add 3–7 days but may offer better rates or availability. Air freight is an option for small, high-value, or urgent shipments, expect approximately €5–€8 per kg door to door, compared to €0.20–€0.50 per kg by sea.</p>
 
 <h2>Customs duty rates for Ireland: how to find your commodity code</h2>
 
-<p>Every product imported into Ireland from outside the EU is subject to a customs duty rate determined by its HS (Harmonised System) commodity code. The rate is applied to the customs value — which is the FOB price of the goods plus the cost of international freight and insurance, known as the CIF value.</p>
+<p>Every product imported into Ireland from outside the EU is subject to a customs duty rate determined by its HS (Harmonised System) commodity code. The rate is applied to the customs value, which is the FOB price of the goods plus the cost of international freight and insurance, known as the CIF value.</p>
 
 <p>Common duty rates for goods imported from China to Ireland in 2026:</p>
 
@@ -954,29 +954,29 @@ export const blogPosts = [
   <li><strong>Pet supplies:</strong> 0–6.5%</li>
 </ul>
 
-<p>Anti-dumping duties are a separate issue. The EU has applied additional anti-dumping measures to certain Chinese product categories — notably some steel products, ceramic tiles, solar panels, and specific chemicals. These can add 20–85% on top of the standard duty rate and can make entire categories commercially unviable to import from China. Always check the EU Trade Defence instruments database before committing to a product category.</p>
+<p>Anti-dumping duties are a separate issue. The EU has applied additional anti-dumping measures to certain Chinese product categories, notably some steel products, ceramic tiles, solar panels, and specific chemicals. These can add 20–85% on top of the standard duty rate and can make entire categories commercially unviable to import from China. Always check the EU Trade Defence instruments database before committing to a product category.</p>
 
-<p>To find the correct commodity code for your product, use the EU's online TARIC database (ec.europa.eu/taxation_customs/dds2/taric/). Your freight forwarder or customs broker can also classify goods for you — it's worth paying for this on your first import as a misclassification that results in underpaid duty can trigger a Revenue audit and penalty.</p>
+<p>To find the correct commodity code for your product, use the EU's online TARIC database (ec.europa.eu/taxation_customs/dds2/taric/). Your freight forwarder or customs broker can also classify goods for you, it's worth paying for this on your first import as a misclassification that results in underpaid duty can trigger a Revenue audit and penalty.</p>
 
 <h2>VAT on imports: how it works and when you reclaim it</h2>
 
 <p>Irish import VAT is charged at 23% for most goods, calculated on the customs value (CIF value) plus any applicable customs duty. So on a €50,000 CIF shipment with 5% duty, the VAT calculation is: (€50,000 + €2,500) × 23% = €12,075.</p>
 
-<p>If you are VAT-registered in Ireland, you do not lose this money — but you do have to manage the cash flow. There are two mechanisms:</p>
+<p>If you are VAT-registered in Ireland, you do not lose this money, but you do have to manage the cash flow. There are two mechanisms:</p>
 
 <p><strong>Standard import VAT payment:</strong> You pay the VAT at customs clearance, and reclaim it on your next VAT-3 return. Depending on your VAT period, this could mean your cash is tied up for 1–3 months.</p>
 
 <p><strong>Postponed VAT Accounting (PVA):</strong> Introduced post-Brexit, PVA allows VAT-registered importers to account for import VAT on their VAT-3 return rather than paying it at the point of customs clearance. The VAT is simultaneously accounted for as both output tax (payable) and input tax (reclaimable), creating a net zero cash flow impact. This is the correct approach for most Irish importers and your customs broker should be setting this up as standard.</p>
 
-<p>If you are not VAT-registered, import VAT is a permanent cost — it does not get reclaimed. Factor the full 23% into your landed cost permanently.</p>
+<p>If you are not VAT-registered, import VAT is a permanent cost, it does not get reclaimed. Factor the full 23% into your landed cost permanently.</p>
 
 <h2>Pre-shipment inspection: cost vs risk calculation</h2>
 
-<p>A pre-shipment inspection (PSI) involves an independent inspector — either your sourcing agent, a third-party QC firm, or Ériu Sourcing — physically visiting the factory and checking goods against your purchase order before they are loaded into the container.</p>
+<p>A pre-shipment inspection (PSI) involves an independent inspector, either your sourcing agent, a third-party QC firm, or Ériu Sourcing, physically visiting the factory and checking goods against your purchase order before they are loaded into the container.</p>
 
-<p>The cost of a standard PSI through a third-party firm like QIMA or SGS is approximately €250–€400 per man-day, with most inspections taking one day. Through Ériu Sourcing, PSI is included as part of the service fee — it is not charged as a separate line item.</p>
+<p>The cost of a standard PSI through a third-party firm like QIMA or SGS is approximately €250–€400 per man-day, with most inspections taking one day. Through Ériu Sourcing, PSI is included as part of the service fee, it is not charged as a separate line item.</p>
 
-<p>The risk calculation is straightforward: a €350 inspection on a €30,000 order costs 1.2% of the order value. A failed container — goods that arrive damaged, non-compliant, or simply wrong — can cost you the entire value of the shipment plus the cost of return freight, a replacement order, and the downstream revenue you lost while waiting. The PSI is not optional for any serious importer.</p>
+<p>The risk calculation is straightforward: a €350 inspection on a €30,000 order costs 1.2% of the order value. A failed container, goods that arrive damaged, non-compliant, or simply wrong, can cost you the entire value of the shipment plus the cost of return freight, a replacement order, and the downstream revenue you lost while waiting. The PSI is not optional for any serious importer.</p>
 
 <p>What a PSI covers: quantity verification, workmanship and defect rate, packaging and labelling compliance, basic functional testing, and documentation review (CE declarations, test reports, export paperwork). What it does not cover: lab-tested compliance with specific EU directives, which requires samples sent to an accredited testing lab.</p>
 
@@ -984,23 +984,23 @@ export const blogPosts = [
 
 <p>Sourcing agents charge in one of two ways: commission on the order value, or a fixed service fee.</p>
 
-<p>Commission-based agents typically charge 3–8% of the FOB order value. The conflict of interest here is structural — a commission agent earns more when you spend more, which means their incentive is not perfectly aligned with finding you the best factory at the lowest price. For straightforward, repeat product categories, commission agents can work well. For complex or high-value sourcing, the misalignment becomes material.</p>
+<p>Commission-based agents typically charge 3–8% of the FOB order value. The conflict of interest here is structural, a commission agent earns more when you spend more, which means their incentive is not perfectly aligned with finding you the best factory at the lowest price. For straightforward, repeat product categories, commission agents can work well. For complex or high-value sourcing, the misalignment becomes material.</p>
 
-<p>Fixed-fee agents charge a set amount per project — typically €1,500–€5,000 depending on complexity, number of factories visited, and whether the fee includes PSI. The advantage is that the agent's incentive is to complete the project efficiently, not to inflate the order value.</p>
+<p>Fixed-fee agents charge a set amount per project, typically €1,500–€5,000 depending on complexity, number of factories visited, and whether the fee includes PSI. The advantage is that the agent's incentive is to complete the project efficiently, not to inflate the order value.</p>
 
-<p>Ériu Sourcing operates on a fixed-fee model. Our fee covers supplier identification, factory vetting, price negotiation, sample management, pre-shipment inspection, and freight coordination. There is no commission element — our interest is in finding you the right factory at the right price, not the most expensive one.</p>
+<p>Ériu Sourcing operates on a fixed-fee model. Our fee covers supplier identification, factory vetting, price negotiation, sample management, pre-shipment inspection, and freight coordination. There is no commission element, our interest is in finding you the right factory at the right price, not the most expensive one.</p>
 
-<p>Be wary of agents who charge nothing upfront and claim to earn only from "rebates" or "commissions from the factory." Those commissions come from your margin — the factory bakes the agent's cut into your unit price. You always pay the agent. The only question is whether it's visible.</p>
+<p>Be wary of agents who charge nothing upfront and claim to earn only from "rebates" or "commissions from the factory." Those commissions come from your margin, the factory bakes the agent's cut into your unit price. You always pay the agent. The only question is whether it's visible.</p>
 
 <h2>Currency risk and how to manage it</h2>
 
-<p>Most Chinese factory invoices are priced in USD, even when you're an Irish business paying in euros. This introduces currency risk — the EUR/USD rate can move 5–10% over the weeks between a quote and a payment, which on a €100,000 order is €5,000–€10,000 of unexpected cost or saving.</p>
+<p>Most Chinese factory invoices are priced in USD, even when you're an Irish business paying in euros. This introduces currency risk, the EUR/USD rate can move 5–10% over the weeks between a quote and a payment, which on a €100,000 order is €5,000–€10,000 of unexpected cost or saving.</p>
 
 <p>The practical risk management steps:</p>
 
 <p><strong>Use a specialist FX provider, not your Irish bank.</strong> Bank exchange rate markups on EUR/USD typically run at 1.5–2.5%. On a €50,000 payment, that's €750–€1,250 in invisible fees paid to the bank. TransferMate, Revolut Business, or CurrencyFair Business offer interbank rates with flat transfer fees instead.</p>
 
-<p><strong>Consider a forward contract for large orders.</strong> If you have agreed pricing on a large order and need to make a deposit now and a balance payment in 60–90 days, a forward contract locks the exchange rate today for the future payment. Your FX provider can arrange this. The cost is usually a small spread on the locked rate — far cheaper than absorbing a 5% rate move on a large balance payment.</p>
+<p><strong>Consider a forward contract for large orders.</strong> If you have agreed pricing on a large order and need to make a deposit now and a balance payment in 60–90 days, a forward contract locks the exchange rate today for the future payment. Your FX provider can arrange this. The cost is usually a small spread on the locked rate, far cheaper than absorbing a 5% rate move on a large balance payment.</p>
 
 <p><strong>Build a currency buffer into your landed cost model.</strong> If you are not using a forward contract, add 3–5% to your USD costs as a currency buffer when calculating your Irish euro-denominated margin. This is conservative, but it avoids the unpleasant situation of discovering your margin has evaporated because the dollar strengthened before your balance payment.</p>
 
@@ -1032,13 +1032,13 @@ export const blogPosts = [
   </tbody>
 </table>
 
-<p>The all-in landed cost is 12.2% above the FOB factory price. Your Irish wholesale competitor is buying the equivalent product at €16–€18 per unit. Even at full landed cost, you are 30–40% below wholesale — and that gap widens significantly on repeat orders at higher volumes.</p>
+<p>The all-in landed cost is 12.2% above the FOB factory price. Your Irish wholesale competitor is buying the equivalent product at €16–€18 per unit. Even at full landed cost, you are 30–40% below wholesale, and that gap widens significantly on repeat orders at higher volumes.</p>
 
-<p>For products with higher duty rates — furniture at 5%, clothing at 10% — the landed cost multiplier rises to 1.30–1.45× the FOB price. Build your margin model around the full number, not the factory quote.</p>
+<p>For products with higher duty rates, furniture at 5%, clothing at 10%, the landed cost multiplier rises to 1.30–1.45× the FOB price. Build your margin model around the full number, not the factory quote.</p>
 
-<h2>When the numbers do not work — and what to do instead</h2>
+<h2>When the numbers do not work, and what to do instead</h2>
 
-<p>Not every product category makes commercial sense to import from China. The landed cost model tells you when that's the case — better to discover it on a spreadsheet than after a container arrives at Dublin Port.</p>
+<p>Not every product category makes commercial sense to import from China. The landed cost model tells you when that's the case, better to discover it on a spreadsheet than after a container arrives at Dublin Port.</p>
 
 <p>Categories where the economics often don't stack up for Irish SMEs:</p>
 
@@ -1046,12 +1046,12 @@ export const blogPosts = [
   <li><strong>Very low-value, high-volume goods</strong> where freight cost per unit is disproportionate to the factory price saving</li>
   <li><strong>Products subject to EU anti-dumping duties</strong> where the additional levy closes the price gap with European suppliers</li>
   <li><strong>Highly regulated categories</strong> where the cost of third-party compliance testing (CE lab testing, REACH compliance, etc.) eliminates the margin advantage on small orders</li>
-  <li><strong>Products with very short lead time requirements</strong> where the 35-day sea transit means you'd need to hold 2–3 months of inventory — and the carrying cost of that stock is significant</li>
+  <li><strong>Products with very short lead time requirements</strong> where the 35-day sea transit means you'd need to hold 2–3 months of inventory, and the carrying cost of that stock is significant</li>
 </ul>
 
-<p>When the numbers are marginal, there are three levers to pull before abandoning the category. First, increase order volume — the freight cost per unit drops significantly when you move from LCL to FCL, and factory pricing improves at volume. Second, look at air freight for high-value, low-volume items where the per-unit freight cost is manageable. Third, consider a Chinese bonded warehouse or consolidation service that holds inventory in China and ships smaller, more frequent LCL loads as you need stock — smoothing the cash flow and reducing your inventory risk.</p>
+<p>When the numbers are marginal, there are three levers to pull before abandoning the category. First, increase order volume, the freight cost per unit drops significantly when you move from LCL to FCL, and factory pricing improves at volume. Second, look at air freight for high-value, low-volume items where the per-unit freight cost is manageable. Third, consider a Chinese bonded warehouse or consolidation service that holds inventory in China and ships smaller, more frequent LCL loads as you need stock, smoothing the cash flow and reducing your inventory risk.</p>
 
-<p>If you want a landed cost model built around your specific product, send us the details. We'll come back with factory-gate pricing, the correct freight estimate for your volume, the applicable duty rate, and a clear per-unit landed cost — before you commit anything.</p>`,
+<p>If you want a landed cost model built around your specific product, send us the details. We'll come back with factory-gate pricing, the correct freight estimate for your volume, the applicable duty rate, and a clear per-unit landed cost, before you commit anything.</p>`,
     faq: [
       { q: 'How much does it cost to ship a container from China to Ireland?', a: 'Sea freight for a 20ft container (FCL) from major Chinese ports to Dublin typically ranges from €2,500–€5,500 depending on the port of origin, season, and current freight market rates. LCL (less than container load) for smaller orders is calculated per cubic metre, typically at €80–€150/CBM China to Ireland. In 2026, freight rates have stabilised significantly from the Covid-era spikes.' },
       { q: 'What import duty do I pay on goods from China?', a: 'Import duty rates vary by product category and are determined by the HS commodity code. Common rates include 0% for most raw materials and some electronics, 6.5–12% for clothing and textiles, 4–6% for furniture, and up to 12% for some construction materials. Anti-dumping duties apply to specific categories. Your freight forwarder or customs broker can determine the correct commodity code and duty rate for your specific goods.' },
@@ -1059,7 +1059,7 @@ export const blogPosts = [
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'alibaba-vs-factory-direct-irish-importers'],
     internalLinks: [
-      { text: 'How it works — our full process', href: '/how-it-works/' },
+      { text: 'How it works, our full process', href: '/how-it-works/' },
       { text: 'Get a quote with landed cost breakdown', href: '/contact/' },
     ],
   },
@@ -1070,7 +1070,7 @@ export const blogPosts = [
     slug: 'china-sourcing-agent-ireland-what-they-do',
     title: 'What Does a China Sourcing Agent Actually Do? (Ireland Edition)',
     metaTitle: 'What Does a China Sourcing Agent Do? | Ériu Sourcing',
-    metaDescription: 'What does a China sourcing agent actually do for Irish businesses — and what should it cost? The real process, the fees, and how to spot a middleman.',
+    metaDescription: 'What does a China sourcing agent actually do for Irish businesses, and what should it cost? The real process, the fees, and how to spot a middleman.',
     h1: 'What does a China sourcing agent actually do? (Ireland edition)',
     eyebrow: 'Industry Explainer',
     category: 'sourcing-guides',
@@ -1081,16 +1081,16 @@ export const blogPosts = [
     estimatedWordCount: 1800,
     publishDate: '2026-06-03',
     draft: false,
-    excerpt: 'A sourcing agent is not a middleman who just forwards emails. Done right, they are your eyes on the factory floor — negotiating prices, verifying suppliers, inspecting goods, and managing freight before you ever see the product. Here is what you should actually expect.',
+    excerpt: 'A sourcing agent is not a middleman who just forwards emails. Done right, they are your eyes on the factory floor, negotiating prices, verifying suppliers, inspecting goods, and managing freight before you ever see the product. Here is what you should actually expect.',
     image: '/images/sourcing-expert-factory-visit.webp',
-    imageAlt: 'Sourcing agent visiting Chinese factory — what an agent actually does for Irish importers',
-    body: `<p>"Sourcing agent" is one of the most abused terms in international trade. It is claimed by genuine on-the-ground operators with offices, staff and factory relationships in China — and by people with a laptop, a Gmail address and an Alibaba account who simply forward your enquiry to a supplier and add a margin.</p>
+    imageAlt: 'Sourcing agent visiting Chinese factory, what an agent actually does for Irish importers',
+    body: `<p>"Sourcing agent" is one of the most abused terms in international trade. It is claimed by genuine on-the-ground operators with offices, staff and factory relationships in China, and by people with a laptop, a Gmail address and an Alibaba account who simply forward your enquiry to a supplier and add a margin.</p>
 
 <p>The difference matters, because you are trusting this person with your deposit, your specification and your delivery date. This guide explains what a real China sourcing agent actually does for an Irish business, what it should cost, and how to tell the operators from the middlemen before you commit.</p>
 
 <h2>What a sourcing agent does (and does not do)</h2>
 
-<p>A sourcing agent is your representative on the ground in China. Their job is to do the things you cannot do from Ireland: stand in the factory, speak to the owner in Mandarin, inspect the goods before they ship, and manage the relationship through the awkward moments — a failed inspection, a delayed line, a price that needs renegotiating.</p>
+<p>A sourcing agent is your representative on the ground in China. Their job is to do the things you cannot do from Ireland: stand in the factory, speak to the owner in Mandarin, inspect the goods before they ship, and manage the relationship through the awkward moments, a failed inspection, a delayed line, a price that needs renegotiating.</p>
 
 <p>What a sourcing agent does <em>not</em> do is act as a passive email relay. If your "agent" only ever sends you supplier quotes and never visits a factory, never produces an inspection report, and cannot tell you the difference between the manufacturer and the trading company you are talking to, you are paying a margin for nothing. A real agent reduces your risk; a middleman just inserts themselves into your supply chain.</p>
 
@@ -1101,71 +1101,71 @@ export const blogPosts = [
 
 <h2>Factory identification and vetting</h2>
 
-<p>Anyone can find a factory on Alibaba. The value is in finding the <em>right</em> one and confirming it is real before you pay. A good agent shortlists suppliers against your actual specification, then verifies each one: checking the business licence and business scope through China's SAMR public registry, confirming export history, running a live video tour of the production floor, and — for larger orders — arranging a physical audit. The output you should receive is a written recommendation, not just a list of names.</p>
+<p>Anyone can find a factory on Alibaba. The value is in finding the <em>right</em> one and confirming it is real before you pay. A good agent shortlists suppliers against your actual specification, then verifies each one: checking the business licence and business scope through China's SAMR public registry, confirming export history, running a live video tour of the production floor, and, for larger orders, arranging a physical audit. The output you should receive is a written recommendation, not just a list of names.</p>
 
 <p>This is where local presence is non-negotiable. The SAMR database is in Chinese. Factory owners discuss capacity and lead times candidly with someone who can visit, far less so over email with an overseas buyer. An agent who already knows a factory's reputation has done years of this work before your brief ever arrives.</p>
 
-<h2>Price negotiation — what is realistic</h2>
+<h2>Price negotiation, what is realistic</h2>
 
-<p>A sourcing agent will not magically halve your unit price. What they will do is make sure you are paying the factory's real price rather than a trading company's marked-up one, and that the quote is structured fairly — correct Incoterms, sensible MOQ, tooling costs separated out, and payment terms that protect you.</p>
+<p>A sourcing agent will not magically halve your unit price. What they will do is make sure you are paying the factory's real price rather than a trading company's marked-up one, and that the quote is structured fairly, correct Incoterms, sensible MOQ, tooling costs separated out, and payment terms that protect you.</p>
 
-<p>Be wary of anyone promising dramatic savings through "special relationships." The honest version is this: going factory-direct typically removes the layers of margin added by trading companies and importers, and a good agent holds the line on specification so you are not quietly downgraded to cheaper materials to hit a headline price. The saving is real, but it comes from cutting out middlemen and enforcing quality — not from a secret discount.</p>
+<p>Be wary of anyone promising dramatic savings through "special relationships." The honest version is this: going factory-direct typically removes the layers of margin added by trading companies and importers, and a good agent holds the line on specification so you are not quietly downgraded to cheaper materials to hit a headline price. The saving is real, but it comes from cutting out middlemen and enforcing quality, not from a secret discount.</p>
 
 <h2>Sampling management</h2>
 
-<p>You should never place a production order against a stock sample from a factory's existing range. A competent agent manages the sampling process properly: commissioning a sample made to your specification, evaluating it against a written checklist, and iterating until it is right. The sample stage also tells you something money cannot buy — how responsive and precise the factory is before they have most of your cash.</p>
+<p>You should never place a production order against a stock sample from a factory's existing range. A competent agent manages the sampling process properly: commissioning a sample made to your specification, evaluating it against a written checklist, and iterating until it is right. The sample stage also tells you something money cannot buy, how responsive and precise the factory is before they have most of your cash.</p>
 
 <h2>Pre-shipment quality control</h2>
 
-<p>This is the single most valuable thing a sourcing agent does, and the step amateur middlemen skip. Before the balance is paid and the goods are loaded, an inspector physically checks the production run against your specification — dimensions, materials, function, finish, packaging and quantity — and produces a report with photographs.</p>
+<p>This is the single most valuable thing a sourcing agent does, and the step amateur middlemen skip. Before the balance is paid and the goods are loaded, an inspector physically checks the production run against your specification, dimensions, materials, function, finish, packaging and quantity, and produces a report with photographs.</p>
 
 <figure class="article-figure">
   <img src="/images/pre-shipment-qc-inspector-chinese-factory-product-check-ireland.webp" alt="Inspector conducting a pre-shipment quality control check on a production run at a Chinese factory, with checklist and product samples" loading="lazy" width="1280" height="720">
-  <figcaption>Pre-shipment inspection is the buyer's insurance policy. It happens after production but before the balance is paid and the container is sealed — the only point at which problems are still cheap to fix.</figcaption>
+  <figcaption>Pre-shipment inspection is the buyer's insurance policy. It happens after production but before the balance is paid and the container is sealed, the only point at which problems are still cheap to fix.</figcaption>
 </figure>
 
 <p>The timing is deliberate. Catching a defect while the goods are still on the factory floor means the factory fixes it because they want the final payment. Catching the same defect when the container arrives in Dublin means an expensive, often hopeless, dispute across 9,000 kilometres.</p>
 
 <h2>CE compliance verification</h2>
 
-<p>For most products entering the Irish and EU market — electronics, machinery, toys, PPE, construction products and more — CE marking is a legal requirement, and responsibility for compliance sits with the importer placing the goods on the market, not the Chinese factory. A genuine sourcing agent verifies that the required conformity documentation actually exists and stands up: the right directives, real test reports, and a Declaration of Conformity — not just a CE logo printed on the box.</p>
+<p>For most products entering the Irish and EU market, electronics, machinery, toys, PPE, construction products and more, CE marking is a legal requirement, and responsibility for compliance sits with the importer placing the goods on the market, not the Chinese factory. A genuine sourcing agent verifies that the required conformity documentation actually exists and stands up: the right directives, real test reports, and a Declaration of Conformity, not just a CE logo printed on the box.</p>
 
 <p>This protects you from the worst-case outcome: a container detained at the port, or worse, a product recall after a compliance failure. Verifying documents at the factory, against the exact configuration you are buying, is far cheaper than discovering the gap at customs.</p>
 
 <h2>Freight coordination</h2>
 
-<p>Once goods pass inspection, they have to get to Ireland. A sourcing agent coordinates the freight — consolidating shipments, arranging sea or rail, handling export documentation, and lining up the paperwork your customs broker needs at the Irish end. Done well, this removes a whole category of stress and avoids the demurrage and clearance delays that catch first-time importers.</p>
+<p>Once goods pass inspection, they have to get to Ireland. A sourcing agent coordinates the freight, consolidating shipments, arranging sea or rail, handling export documentation, and lining up the paperwork your customs broker needs at the Irish end. Done well, this removes a whole category of stress and avoids the demurrage and clearance delays that catch first-time importers.</p>
 
 <figure class="article-figure">
   <img src="/images/the-fob-handover.webp" alt="Goods being handed over at the port for shipping under FOB terms, containers and freight documentation" loading="lazy" width="1280" height="720">
-  <figcaption>After inspection comes logistics — consolidation, the right Incoterms, and the export paperwork your Irish customs broker will need. An agent manages the handover so a clean inspection does not unravel at the port.</figcaption>
+  <figcaption>After inspection comes logistics, consolidation, the right Incoterms, and the export paperwork your Irish customs broker will need. An agent manages the handover so a clean inspection does not unravel at the port.</figcaption>
 </figure>
 
 <h2>How sourcing agents charge (commission vs fee)</h2>
 
 <p>There are two models, and the difference affects whose side your agent is really on.</p>
 
-<p><strong>Commission</strong> — typically 3–8% of order value. It is simple, but it carries a structural conflict of interest: the agent earns more when your order costs more, which is the opposite of what you want from someone meant to be driving your price down.</p>
+<p><strong>Commission</strong>, typically 3–8% of order value. It is simple, but it carries a structural conflict of interest: the agent earns more when your order costs more, which is the opposite of what you want from someone meant to be driving your price down.</p>
 
-<p><strong>Fixed fee</strong> — a set charge per project or a retainer. This aligns the agent's incentive with yours: they are paid to find the best supplier and the best price, not the most expensive one. For most Irish buyers, a transparent fixed-fee structure is preferable. Whichever model you choose, the fee structure should be stated in writing up front. An agent who is evasive about how they make money is telling you something.</p>
+<p><strong>Fixed fee</strong>, a set charge per project or a retainer. This aligns the agent's incentive with yours: they are paid to find the best supplier and the best price, not the most expensive one. For most Irish buyers, a transparent fixed-fee structure is preferable. Whichever model you choose, the fee structure should be stated in writing up front. An agent who is evasive about how they make money is telling you something.</p>
 
 <h2>Red flags: how to spot a fake sourcing agent</h2>
 
 <p>A few signals separate a genuine operator from a middleman with a nice website:</p>
 
 <ul>
-  <li><strong>No verifiable physical presence in China.</strong> A real agent has an address, a team and the ability to be at a factory this week — not just an email account.</li>
+  <li><strong>No verifiable physical presence in China.</strong> A real agent has an address, a team and the ability to be at a factory this week, not just an email account.</li>
   <li><strong>They cannot or will not visit factories.</strong> If their answer to every question is to forward you an Alibaba link, they are not sourcing anything.</li>
   <li><strong>No inspection capability.</strong> If they cannot produce a pre-shipment inspection report with photos, they are not managing your quality risk.</li>
   <li><strong>Opaque fees.</strong> Hidden margins or refusal to explain the commission structure means you do not actually know what you are paying for.</li>
   <li><strong>Pressure to commit fast.</strong> Legitimate agents let the verification process run its course. Urgency is a sales tactic, not a sourcing one.</li>
 </ul>
 
-<p>Used well, a sourcing agent is the cheapest insurance an importer can buy: someone whose job is to stand between your money and everything that can go wrong between a quote in Shenzhen and a pallet in your warehouse in Ireland. Ériu Sourcing operates from Zhengzhou and Shenzhen with 18 years of factory relationships — if you want to see what that looks like on a live brief, <a href="/how-it-works/">read how our process works</a> or <a href="/contact/">get in touch</a>.</p>`,
+<p>Used well, a sourcing agent is the cheapest insurance an importer can buy: someone whose job is to stand between your money and everything that can go wrong between a quote in Shenzhen and a pallet in your warehouse in Ireland. Ériu Sourcing operates from Zhengzhou and Shenzhen with 18 years of factory relationships, if you want to see what that looks like on a live brief, <a href="/how-it-works/">read how our process works</a> or <a href="/contact/">get in touch</a>.</p>`,
     sections: [
       'What a sourcing agent does (and does not do)',
       'Factory identification and vetting',
-      'Price negotiation — what is realistic',
+      'Price negotiation, what is realistic',
       'Sampling management',
       'Pre-shipment quality control',
       'CE compliance verification',
@@ -1174,7 +1174,7 @@ export const blogPosts = [
       'Red flags: how to spot a fake sourcing agent',
     ],
     faq: [
-      { q: 'How much does a China sourcing agent charge?', a: 'Sourcing agents typically charge either a percentage commission (3–8% of order value) or a fixed service fee per project. Commission-based agents present a conflict of interest — they earn more when order values are higher. Fixed-fee agents are generally preferable for Irish buyers as their incentive is aligned with finding the best supplier, not the most expensive one.' },
+      { q: 'How much does a China sourcing agent charge?', a: 'Sourcing agents typically charge either a percentage commission (3–8% of order value) or a fixed service fee per project. Commission-based agents present a conflict of interest, they earn more when order values are higher. Fixed-fee agents are generally preferable for Irish buyers as their incentive is aligned with finding the best supplier, not the most expensive one.' },
       { q: 'How do I know if a China sourcing agent is legitimate?', a: 'Legitimate sourcing agents have a physical presence in China (verifiable address), can provide references from existing clients, are transparent about their fee structure, and do not pressure you into rapid commitments. They will offer to provide a factory visit report with photos and documentation. Agents who cannot visit factories or who redirect you to Alibaba are not sourcing agents.' },
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland'],
@@ -1189,7 +1189,7 @@ export const blogPosts = [
     slug: 'canton-fair-guide-irish-buyers-2026',
     title: 'Canton Fair 2026: A Guide for Irish Buyers Attending for the First Time',
     metaTitle: 'Canton Fair 2026: Guide for Irish Buyers | Ériu',
-    metaDescription: 'Attending the Canton Fair 2026? What Irish buyers need to know — the three phases and dates, how to prepare, evaluate suppliers, and vet them afterwards.',
+    metaDescription: 'Attending the Canton Fair 2026? What Irish buyers need to know, the three phases and dates, how to prepare, evaluate suppliers, and vet them afterwards.',
     h1: 'Canton Fair 2026: a guide for Irish buyers attending for the first time',
     eyebrow: 'Trade Events',
     category: 'trade-intel',
@@ -1202,64 +1202,64 @@ export const blogPosts = [
     draft: false,
     excerpt: 'The Canton Fair happens twice a year and covers virtually every product category produced in China. For Irish buyers, it is both an extraordinary sourcing opportunity and an easy place to waste a week. Here is how to make it count.',
     image: '/images/hero-china-factory-floor.webp',
-    imageAlt: 'Canton Fair Guangzhou — guide for Irish buyers sourcing from China',
-    body: `<p>The Canton Fair — formally the China Import and Export Fair — is the largest trade fair in the world. It runs twice a year in Guangzhou, fills a complex the size of a small town, and brings together tens of thousands of Chinese manufacturers across virtually every product category made in China.</p>
+    imageAlt: 'Canton Fair Guangzhou, guide for Irish buyers sourcing from China',
+    body: `<p>The Canton Fair, formally the China Import and Export Fair, is the largest trade fair in the world. It runs twice a year in Guangzhou, fills a complex the size of a small town, and brings together tens of thousands of Chinese manufacturers across virtually every product category made in China.</p>
 
 <p>For an Irish buyer it is two things at once: an extraordinary sourcing opportunity, and a remarkably easy place to waste a week, wreck your feet, and come home with a stack of business cards and no verified suppliers. The difference is preparation. Here is how to make it count.</p>
 
 <h2>What the Canton Fair actually is</h2>
 
-<p>The Canton Fair has run in Guangzhou since 1957 and is held every spring and autumn. The Spring 2026 edition is the 139th. It takes place across the Canton Fair Complex (Pazhou) in three phases, each running roughly five days, because no single venue could hold every exhibitor at once. You attend the phase that matches what you buy — not the whole fair.</p>
+<p>The Canton Fair has run in Guangzhou since 1957 and is held every spring and autumn. The Spring 2026 edition is the 139th. It takes place across the Canton Fair Complex (Pazhou) in three phases, each running roughly five days, because no single venue could hold every exhibitor at once. You attend the phase that matches what you buy, not the whole fair.</p>
 
-<p>It is genuinely vast: thousands of booths across multiple halls, with manufacturers showing physical product you can pick up, compare and discuss face to face. That tactile, in-person comparison is the entire point — it is the one thing Alibaba cannot give you.</p>
+<p>It is genuinely vast: thousands of booths across multiple halls, with manufacturers showing physical product you can pick up, compare and discuss face to face. That tactile, in-person comparison is the entire point, it is the one thing Alibaba cannot give you.</p>
 
 <figure class="article-figure">
   <img src="/images/shenzhen-electronics-market.webp" alt="Crowded Chinese sourcing hall with rows of supplier displays and buyers inspecting products" loading="lazy" width="1280" height="720">
-  <figcaption>The scale is the opportunity and the trap. Thousands of exhibitors, real product in hand — but without a tight brief, a week disappears fast.</figcaption>
+  <figcaption>The scale is the opportunity and the trap. Thousands of exhibitors, real product in hand, but without a tight brief, a week disappears fast.</figcaption>
 </figure>
 
-<h2>Three phases — and which categories each covers</h2>
+<h2>Three phases, and which categories each covers</h2>
 
 <p>The fair splits into three phases by category. For Spring 2026 (139th), the published dates are:</p>
 
 <ul>
-  <li><strong>Phase 1 — 15–19 April 2026:</strong> electronics and household electrical appliances, machinery, hardware and tools, vehicles and spare parts, and new energy. This is the industrial and capital-goods phase.</li>
-  <li><strong>Phase 2 — 23–27 April 2026:</strong> home products and furniture, gifts and decorations, houseware, and building materials. The home and interiors phase.</li>
-  <li><strong>Phase 3 — 1–5 May 2026:</strong> consumer goods, textiles and garments, personal care, medical and health supplies, toys, and food. The consumer and lifestyle phase.</li>
+  <li><strong>Phase 1, 15–19 April 2026:</strong> electronics and household electrical appliances, machinery, hardware and tools, vehicles and spare parts, and new energy. This is the industrial and capital-goods phase.</li>
+  <li><strong>Phase 2, 23–27 April 2026:</strong> home products and furniture, gifts and decorations, houseware, and building materials. The home and interiors phase.</li>
+  <li><strong>Phase 3, 1–5 May 2026:</strong> consumer goods, textiles and garments, personal care, medical and health supplies, toys, and food. The consumer and lifestyle phase.</li>
 </ul>
 
-<p>Identify your phase before anything else — flights, hotel and registration all hang off it. The autumn edition runs on a similar three-phase structure around October–November. Category groupings and exact dates are occasionally adjusted, so always confirm against the official site, <a href="https://www.cantonfair.org.cn/" rel="nofollow">cantonfair.org.cn</a>, before you book.</p>
+<p>Identify your phase before anything else, flights, hotel and registration all hang off it. The autumn edition runs on a similar three-phase structure around October–November. Category groupings and exact dates are occasionally adjusted, so always confirm against the official site, <a href="https://www.cantonfair.org.cn/" rel="nofollow">cantonfair.org.cn</a>, before you book.</p>
 
 <h2>How to register as a buyer</h2>
 
-<p>Overseas buyers register through the official Canton Fair website in advance. You will need your passport details, a business email, and a buyer photo, and you will receive a buyer badge (collected on-site or printed). Register early — on-site registration queues are long and eat into your first morning. A visa for China is required for most Irish passport holders; check the current entry requirements well ahead, as policies change.</p>
+<p>Overseas buyers register through the official Canton Fair website in advance. You will need your passport details, a business email, and a buyer photo, and you will receive a buyer badge (collected on-site or printed). Register early, on-site registration queues are long and eat into your first morning. A visa for China is required for most Irish passport holders; check the current entry requirements well ahead, as policies change.</p>
 
 <h2>Preparing your brief before you fly</h2>
 
-<p>This is where the trip is won or lost. Before you leave Ireland, write a tight brief: the specific products you are sourcing, target specifications, the quantities and price points you are working to, and the questions you need answered (MOQ, CE compliance, lead time, customisation). Pre-map the halls for your phase from the online exhibitor list and flag priority booths. Bring plenty of business cards, a fast way to log leads (a simple spreadsheet or your phone), and comfortable shoes — you will walk kilometres a day.</p>
+<p>This is where the trip is won or lost. Before you leave Ireland, write a tight brief: the specific products you are sourcing, target specifications, the quantities and price points you are working to, and the questions you need answered (MOQ, CE compliance, lead time, customisation). Pre-map the halls for your phase from the online exhibitor list and flag priority booths. Bring plenty of business cards, a fast way to log leads (a simple spreadsheet or your phone), and comfortable shoes, you will walk kilometres a day.</p>
 
 <h2>How to evaluate suppliers on the floor</h2>
 
-<p>A booth at the Canton Fair is not proof of anything except that the company paid for a booth. Treat the floor as lead generation, not verification. Ask the questions that separate manufacturers from traders: Are you the factory or a trading company? Where is the factory, and can I visit? What is your MOQ and lead time? Do you hold CE/test documentation for this product? Photograph products and booth signage, staple the business card to your notes, and record your immediate impression while it is fresh. By day three every booth blurs together — your notes are the only thing that will survive the trip home.</p>
+<p>A booth at the Canton Fair is not proof of anything except that the company paid for a booth. Treat the floor as lead generation, not verification. Ask the questions that separate manufacturers from traders: Are you the factory or a trading company? Where is the factory, and can I visit? What is your MOQ and lead time? Do you hold CE/test documentation for this product? Photograph products and booth signage, staple the business card to your notes, and record your immediate impression while it is fresh. By day three every booth blurs together, your notes are the only thing that will survive the trip home.</p>
 
 <figure class="article-figure">
   <img src="/images/sourcing-team-meeting-shenzhen.webp" alt="Buyer and sourcing team reviewing supplier options and notes at a meeting table in China" loading="lazy" width="1280" height="720">
-  <figcaption>The fair generates leads; the real work — verifying who is a manufacturer and who is a trader — happens in the conversations on the floor and the vetting afterwards.</figcaption>
+  <figcaption>The fair generates leads; the real work, verifying who is a manufacturer and who is a trader, happens in the conversations on the floor and the vetting afterwards.</figcaption>
 </figure>
 
 <h2>Taking samples from the fair: logistics and customs</h2>
 
-<p>You will accumulate samples and catalogues fast, and they are heavier than you expect. Decide early what you carry and what you ship. For anything bulky, arrange consolidated shipping rather than overloading your luggage. Keep in mind that samples still have to clear Irish customs — declare them honestly, keep the commercial paperwork, and be aware that some categories (food, cosmetics, electronics) carry their own import requirements even as samples.</p>
+<p>You will accumulate samples and catalogues fast, and they are heavier than you expect. Decide early what you carry and what you ship. For anything bulky, arrange consolidated shipping rather than overloading your luggage. Keep in mind that samples still have to clear Irish customs, declare them honestly, keep the commercial paperwork, and be aware that some categories (food, cosmetics, electronics) carry their own import requirements even as samples.</p>
 
 <h2>After the fair: vetting the suppliers you met</h2>
 
-<p>The promising booths are leads, not partners. Back home, every serious candidate goes through proper verification before a deposit moves: confirm the business licence and business scope through China's SAMR registry, request and check CE/test documentation, run a live video factory tour, and order a specification sample. A good impression at a booth and a verified, production-ready factory are very different things — the gap between them is exactly where first-time importers lose money. Our <a href="/blog/how-to-vet-chinese-suppliers-factory-audit-verification-ireland/">supplier vetting guide</a> walks through the full framework.</p>
+<p>The promising booths are leads, not partners. Back home, every serious candidate goes through proper verification before a deposit moves: confirm the business licence and business scope through China's SAMR registry, request and check CE/test documentation, run a live video factory tour, and order a specification sample. A good impression at a booth and a verified, production-ready factory are very different things, the gap between them is exactly where first-time importers lose money. Our <a href="/blog/how-to-vet-chinese-suppliers-factory-audit-verification-ireland/">supplier vetting guide</a> walks through the full framework.</p>
 
 <h2>Is the Canton Fair the best use of your time?</h2>
 
-<p>Honestly, it depends. The fair is superb for breadth — discovering categories, comparing many suppliers quickly, and getting hands on physical product. It is less efficient if you already know exactly what you want and from where, in which case a targeted set of factory visits, or a China-based agent doing the legwork, will get you there faster and cheaper than a week in Guangzhou.</p>
+<p>Honestly, it depends. The fair is superb for breadth, discovering categories, comparing many suppliers quickly, and getting hands on physical product. It is less efficient if you already know exactly what you want and from where, in which case a targeted set of factory visits, or a China-based agent doing the legwork, will get you there faster and cheaper than a week in Guangzhou.</p>
 
-<p>If you do go, go prepared. If you would rather skip the flights, the foot-ache and the post-fair vetting marathon, that is precisely the work a sourcing agent does on your behalf — Ériu Sourcing is on the ground in Zhengzhou and Shenzhen year-round. <a href="/contact/">Tell us what you are sourcing</a> and we will tell you honestly whether the fair is worth your week.</p>`,
+<p>If you do go, go prepared. If you would rather skip the flights, the foot-ache and the post-fair vetting marathon, that is precisely the work a sourcing agent does on your behalf, Ériu Sourcing is on the ground in Zhengzhou and Shenzhen year-round. <a href="/contact/">Tell us what you are sourcing</a> and we will tell you honestly whether the fair is worth your week.</p>`,
     sections: [
       'What the Canton Fair actually is',
       'Three phases and which categories each covers',
@@ -1272,7 +1272,7 @@ export const blogPosts = [
     ],
     faq: [
       { q: 'When is the Canton Fair 2026 and what are the phases?', a: 'The Canton Fair (China Import and Export Fair) runs twice a year in Guangzhou, in three phases. The Spring 2026 edition (the 139th) is scheduled for Phase 1 on 15–19 April (electronics, appliances, machinery, hardware and tools, vehicles, new energy), Phase 2 on 23–27 April (home products, furniture, gifts, decorations, building materials), and Phase 3 on 1–5 May (consumer goods, textiles, personal care, health, toys, food). The autumn edition follows a similar structure around October–November. Always confirm exact dates and category placement on the official site, cantonfair.org.cn, before booking.' },
-      { q: 'Is the Canton Fair worth it for a small Irish importer?', a: 'It depends on your goal. The fair is excellent for breadth — discovering product categories, comparing many manufacturers quickly, and handling physical samples in person. It is less efficient if you already know exactly what you want, where a focused set of factory visits or a China-based sourcing agent will get you there faster and cheaper. Either way, a booth is only a lead: every promising supplier still needs full verification — business licence, CE documentation, a video factory tour and a specification sample — before any deposit is paid.' },
+      { q: 'Is the Canton Fair worth it for a small Irish importer?', a: 'It depends on your goal. The fair is excellent for breadth, discovering product categories, comparing many manufacturers quickly, and handling physical samples in person. It is less efficient if you already know exactly what you want, where a focused set of factory visits or a China-based sourcing agent will get you there faster and cheaper. Either way, a booth is only a lead: every promising supplier still needs full verification, business licence, CE documentation, a video factory tour and a specification sample, before any deposit is paid.' },
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'alibaba-vs-factory-direct-irish-importers'],
     internalLinks: [
@@ -1285,7 +1285,7 @@ export const blogPosts = [
     slug: 'furniture-from-foshan-ireland-complete-guide',
     title: 'Sourcing Furniture from Foshan: A Complete Guide for Irish Buyers',
     metaTitle: 'Sourcing Furniture from Foshan to Ireland | Ériu',
-    metaDescription: 'Foshan is the world\'s largest furniture hub. How Irish buyers source Foshan factories direct — by district, with honest pricing, fire standards and lead times.',
+    metaDescription: 'Foshan is the world\'s largest furniture hub. How Irish buyers source Foshan factories direct, by district, with honest pricing, fire standards and lead times.',
     h1: 'Sourcing furniture from Foshan: a complete guide for Irish buyers',
     eyebrow: 'Category Deep Dive',
     category: 'category-guides',
@@ -1296,18 +1296,18 @@ export const blogPosts = [
     estimatedWordCount: 2200,
     publishDate: '2026-06-06',
     draft: false,
-    excerpt: 'Foshan produces an estimated 75% of China\'s furniture output and is the largest furniture trading hub in the world. Here is how Irish buyers access Foshan factories directly — by district, with honest pricing and fire-compliance — without the European importer markup.',
+    excerpt: 'Foshan produces an estimated 75% of China\'s furniture output and is the largest furniture trading hub in the world. Here is how Irish buyers access Foshan factories directly, by district, with honest pricing and fire-compliance, without the European importer markup.',
     image: '/images/foshan-furniture-factory.webp',
-    imageAlt: 'Foshan furniture factory — sourcing direct for Irish buyers',
-    body: `<p>If you have bought furniture for a hotel, a restaurant, a retail range or a property development in Ireland, there is a strong chance it was made in Foshan — whether or not anyone told you. Foshan, in Guangdong Province, is the largest furniture manufacturing cluster on earth, and a great deal of what European importers and retailers sell originates there before the markups are added.</p>
+    imageAlt: 'Foshan furniture factory, sourcing direct for Irish buyers',
+    body: `<p>If you have bought furniture for a hotel, a restaurant, a retail range or a property development in Ireland, there is a strong chance it was made in Foshan, whether or not anyone told you. Foshan, in Guangdong Province, is the largest furniture manufacturing cluster on earth, and a great deal of what European importers and retailers sell originates there before the markups are added.</p>
 
-<p>This guide explains why Foshan dominates, how its districts are organised, what factory-gate buying actually looks like, and how an Irish buyer accesses those factories directly — without the European importer's margin stacked on top.</p>
+<p>This guide explains why Foshan dominates, how its districts are organised, what factory-gate buying actually looks like, and how an Irish buyer accesses those factories directly, without the European importer's margin stacked on top.</p>
 
 <h2>Why Foshan dominates global furniture production</h2>
 
 <p>The scale is genuinely hard to overstate. Foshan produces an estimated 75% of China's furniture output, and the city's furniture manufacturing is valued at roughly US$70 billion a year (its wider home-furnishings industry, including materials and fittings, is larger still). It is the largest furniture manufacturing base in China and the largest furniture trading hub in the world.</p>
 
-<p>That dominance comes from clustering. Decades of specialisation have concentrated factories, component suppliers, raw materials, hardware, finishing and logistics into one dense ecosystem, so a factory can source foam, frames, fabric, mechanisms and packaging within a short drive. That density is what makes the pricing and the variety possible — and it is why "Foshan" is effectively shorthand for the global furniture supply chain.</p>
+<p>That dominance comes from clustering. Decades of specialisation have concentrated factories, component suppliers, raw materials, hardware, finishing and logistics into one dense ecosystem, so a factory can source foam, frames, fabric, mechanisms and packaging within a short drive. That density is what makes the pricing and the variety possible, and it is why "Foshan" is effectively shorthand for the global furniture supply chain.</p>
 
 <p>For context on access: Ériu Sourcing operates from Shenzhen, about 45 minutes from Foshan by high-speed rail, with Foshan itself sitting immediately alongside Guangzhou in the Greater Bay Area.</p>
 
@@ -1315,35 +1315,35 @@ export const blogPosts = [
 
 <p>Foshan's furniture industry is concentrated in <strong>Shunde District</strong>, and within Shunde the trade is split along a classic "front shop, back factory" model between two towns.</p>
 
-<p><strong>Lecong</strong> is the shop window — home to what is widely described as the world's largest furniture wholesale market, a corridor of showroom malls stretching over ten kilometres with millions of square metres of display space. It is where you see finished product across every conceivable style, from European classical to contemporary, residential to contract.</p>
+<p><strong>Lecong</strong> is the shop window, home to what is widely described as the world's largest furniture wholesale market, a corridor of showroom malls stretching over ten kilometres with millions of square metres of display space. It is where you see finished product across every conceivable style, from European classical to contemporary, residential to contract.</p>
 
-<p><strong>Longjiang</strong>, a few kilometres away, is the factory floor — a manufacturing base of thousands of furniture factories and the component suppliers that feed them. Lecong sells; Longjiang makes. Understanding this split matters, because a glossy showroom in Lecong is not necessarily the manufacturer — it may be a trading company displaying other factories' products, which is fine as long as you know it and price accordingly.</p>
+<p><strong>Longjiang</strong>, a few kilometres away, is the factory floor, a manufacturing base of thousands of furniture factories and the component suppliers that feed them. Lecong sells; Longjiang makes. Understanding this split matters, because a glossy showroom in Lecong is not necessarily the manufacturer, it may be a trading company displaying other factories' products, which is fine as long as you know it and price accordingly.</p>
 
 <figure class="article-figure">
   <img src="/images/lecong-foshan-sofa-sets-production-wholesale-hall.webp" alt="Sofa sets displayed across a large Foshan furniture wholesale hall in Lecong, Shunde District" loading="lazy" width="1280" height="720">
-  <figcaption>Lecong's wholesale halls are the world's largest furniture showroom — the "front shop" to Longjiang's "back factory". Knowing which one you are standing in decides whether you are talking to a maker or a middleman.</figcaption>
+  <figcaption>Lecong's wholesale halls are the world's largest furniture showroom, the "front shop" to Longjiang's "back factory". Knowing which one you are standing in decides whether you are talking to a maker or a middleman.</figcaption>
 </figure>
 
 <h2>What factory-gate pricing actually looks like</h2>
 
-<p>The reason to source from Foshan directly is margin. A piece of furniture that reaches an Irish showroom has usually passed through several hands — the factory, an exporter or trading company, a European importer or distributor, and finally the retailer — each adding their cut. Buying closer to the factory removes layers of that stack.</p>
+<p>The reason to source from Foshan directly is margin. A piece of furniture that reaches an Irish showroom has usually passed through several hands, the factory, an exporter or trading company, a European importer or distributor, and finally the retailer, each adding their cut. Buying closer to the factory removes layers of that stack.</p>
 
-<p>Pricing itself is highly configuration-dependent: the same sofa changes price dramatically with the frame, the foam density, the fabric or leather grade, and the mechanism. So treat any headline number as indicative until a factory quotes against your exact specification. The honest framing is not "Chinese furniture is X% cheaper" — it is that you are paying the factory's real price for a defined specification, instead of paying for everyone in the chain plus their assumptions about what you can afford. We quote against your actual brief and compare on landed cost, not the ex-works sticker.</p>
+<p>Pricing itself is highly configuration-dependent: the same sofa changes price dramatically with the frame, the foam density, the fabric or leather grade, and the mechanism. So treat any headline number as indicative until a factory quotes against your exact specification. The honest framing is not "Chinese furniture is X% cheaper", it is that you are paying the factory's real price for a defined specification, instead of paying for everyone in the chain plus their assumptions about what you can afford. We quote against your actual brief and compare on landed cost, not the ex-works sticker.</p>
 
 <figure class="article-figure">
   <img src="/images/the-irish-importers-landed-cost-calculation.webp" alt="Irish importer calculating the true landed cost of furniture from China including freight, duty and VAT" loading="lazy" width="1280" height="720">
-  <figcaption>The ex-works price is not your cost. Freight, duty, VAT and inland delivery all land on top — so the only number that matters is total landed cost against a fixed specification.</figcaption>
+  <figcaption>The ex-works price is not your cost. Freight, duty, VAT and inland delivery all land on top, so the only number that matters is total landed cost against a fixed specification.</figcaption>
 </figure>
 
 <h2>Custom vs stock: what Foshan factories can do</h2>
 
-<p>Foshan handles both stock and custom, but the commercial reality differs. Buying from a factory's existing range (effectively OEM stock) is fastest and cheapest, with low or no tooling cost — ideal for retailers and fit-outs that can work within an existing catalogue. Custom work — your dimensions, your fabrics, your finish, your branding — is very achievable given the depth of the cluster, but it carries minimum order quantities, sampling time and sometimes tooling costs, and the economics only work above a certain volume.</p>
+<p>Foshan handles both stock and custom, but the commercial reality differs. Buying from a factory's existing range (effectively OEM stock) is fastest and cheapest, with low or no tooling cost, ideal for retailers and fit-outs that can work within an existing catalogue. Custom work, your dimensions, your fabrics, your finish, your branding, is very achievable given the depth of the cluster, but it carries minimum order quantities, sampling time and sometimes tooling costs, and the economics only work above a certain volume.</p>
 
-<p>For hospitality and contract buyers in particular, the ability to specify exactly — fabric grades, fire compliance, dimensions to suit a room — is the real prize, provided the order is large enough to justify a custom run.</p>
+<p>For hospitality and contract buyers in particular, the ability to specify exactly, fabric grades, fire compliance, dimensions to suit a room, is the real prize, provided the order is large enough to justify a custom run.</p>
 
 <figure class="article-figure">
-  <img src="/images/foshan-hotel-bedroom-furniture-set-fitted-room.webp" alt="Fitted hotel bedroom furniture set manufactured in Foshan — bed, case goods and seating in a finished room" loading="lazy" width="1280" height="720">
-  <figcaption>Contract and hospitality furniture is where custom Foshan production earns its keep — specifying fabric grade, fire compliance and exact dimensions to a room, at volumes that justify a bespoke run.</figcaption>
+  <img src="/images/foshan-hotel-bedroom-furniture-set-fitted-room.webp" alt="Fitted hotel bedroom furniture set manufactured in Foshan, bed, case goods and seating in a finished room" loading="lazy" width="1280" height="720">
+  <figcaption>Contract and hospitality furniture is where custom Foshan production earns its keep, specifying fabric grade, fire compliance and exact dimensions to a room, at volumes that justify a bespoke run.</figcaption>
 </figure>
 
 <h2>Fire resistance and furniture safety standards</h2>
@@ -1351,26 +1351,26 @@ export const blogPosts = [
 <p>This is the compliance area Irish and UK furniture buyers most often underestimate, and it differs by market. There is no single EU-wide furniture flammability standard, so requirements depend on where the furniture is used and sold:</p>
 
 <ul>
-  <li><strong>UK market:</strong> if you sell into the UK, upholstered furniture must meet the Furniture and Furnishings (Fire) (Safety) Regulations 1988 — among the strictest domestic furniture fire rules anywhere. This is a hard legal requirement, not a nice-to-have.</li>
+  <li><strong>UK market:</strong> if you sell into the UK, upholstered furniture must meet the Furniture and Furnishings (Fire) (Safety) Regulations 1988, among the strictest domestic furniture fire rules anywhere. This is a hard legal requirement, not a nice-to-have.</li>
   <li><strong>Ireland / EU domestic:</strong> furniture falls under general product safety obligations rather than a single harmonised flammability standard, but contract specifications routinely call up the European upholstery ignition tests EN 1021-1 and EN 1021-2 (resistance to a smouldering cigarette and a match flame).</li>
-  <li><strong>Contract and hospitality:</strong> hotels, restaurants and public buildings typically require higher ignition resistance — for example BS 5852 / Crib 5 — specified by the project, the insurer or the fire strategy.</li>
+  <li><strong>Contract and hospitality:</strong> hotels, restaurants and public buildings typically require higher ignition resistance, for example BS 5852 / Crib 5, specified by the project, the insurer or the fire strategy.</li>
 </ul>
 
-<p>The practical point: decide the fire standard your project requires <em>before</em> you order, write it into the specification, and verify the factory can supply test evidence for the exact materials used — not a generic certificate for a different fabric. Standards are periodically updated, so confirm the current requirement for your market and use case. This is exactly the kind of detail that is cheap to get right at the specification stage and ruinous to discover after a container has landed.</p>
+<p>The practical point: decide the fire standard your project requires <em>before</em> you order, write it into the specification, and verify the factory can supply test evidence for the exact materials used, not a generic certificate for a different fabric. Standards are periodically updated, so confirm the current requirement for your market and use case. This is exactly the kind of detail that is cheap to get right at the specification stage and ruinous to discover after a container has landed.</p>
 
 <h2>Lead times and shipping options to Ireland</h2>
 
-<p>For a custom furniture order, plan on sampling plus production running into a couple of months before goods are ready, then freight on top. Furniture is bulky and largely ships by sea: roughly 30–40 days port to port from South China to Northern Europe, plus inland legs at both ends. Furniture's volume-to-value ratio means freight is a meaningful slice of landed cost, so consolidation and sensible container loading matter — half-empty containers are money thrown away. Build realistic timelines back from your in-store or handover date and add contingency; furniture lead times slip more often than small-goods orders.</p>
+<p>For a custom furniture order, plan on sampling plus production running into a couple of months before goods are ready, then freight on top. Furniture is bulky and largely ships by sea: roughly 30–40 days port to port from South China to Northern Europe, plus inland legs at both ends. Furniture's volume-to-value ratio means freight is a meaningful slice of landed cost, so consolidation and sensible container loading matter, half-empty containers are money thrown away. Build realistic timelines back from your in-store or handover date and add contingency; furniture lead times slip more often than small-goods orders.</p>
 
 <h2>How to organise a Foshan buying trip</h2>
 
-<p>If you visit, structure it. Decide your categories and budget first, then split your time between Lecong (to see breadth and finished product) and the Longjiang factories you actually want to buy from. Book showroom and factory appointments in advance, bring a written specification and your fabric/finish references, and — critically — confirm at each stop whether you are talking to the manufacturer or a trader. Photograph everything against your notes; like the Canton Fair, the showrooms blur together by the second day. And remember a showroom visit is not verification: business licence, factory tour and a specification sample still come before any deposit.</p>
+<p>If you visit, structure it. Decide your categories and budget first, then split your time between Lecong (to see breadth and finished product) and the Longjiang factories you actually want to buy from. Book showroom and factory appointments in advance, bring a written specification and your fabric/finish references, and, critically, confirm at each stop whether you are talking to the manufacturer or a trader. Photograph everything against your notes; like the Canton Fair, the showrooms blur together by the second day. And remember a showroom visit is not verification: business licence, factory tour and a specification sample still come before any deposit.</p>
 
 <h2>Working with a sourcing agent vs going direct</h2>
 
 <p>Going direct yourself is entirely possible, and for a confident buyer with time, a clear spec and the appetite to manage Mandarin-language logistics, it can work well. The trade-offs are real, though: distinguishing factories from traders, enforcing fire and quality standards, managing sampling, arranging QC and consolidating freight are all work, and all easier with someone on the ground.</p>
 
-<p>A China-based sourcing agent does that legwork for you — shortlisting and verifying Foshan factories, holding the specification (including fire compliance) through sampling and production, inspecting before shipment, and consolidating the freight to Ireland. Ériu Sourcing has worked with Guangdong factories for 18 years from our base in Shenzhen. If you have a furniture brief — retail range, hospitality fit-out, or a development — <a href="/source/furniture-from-china-ireland/">see how we source furniture</a> or <a href="/contact/">send us the brief</a> and we will map a realistic, honestly-costed route from Foshan.</p>`,
+<p>A China-based sourcing agent does that legwork for you, shortlisting and verifying Foshan factories, holding the specification (including fire compliance) through sampling and production, inspecting before shipment, and consolidating the freight to Ireland. Ériu Sourcing has worked with Guangdong factories for 18 years from our base in Shenzhen. If you have a furniture brief, retail range, hospitality fit-out, or a development, <a href="/source/furniture-from-china-ireland/">see how we source furniture</a> or <a href="/contact/">send us the brief</a> and we will map a realistic, honestly-costed route from Foshan.</p>`,
     sections: [
       'Why Foshan dominates global furniture production',
       'Furniture categories by district (Lecong, Longjiang, Shunde)',
@@ -1382,9 +1382,9 @@ export const blogPosts = [
       'Working with a sourcing agent vs going direct',
     ],
     faq: [
-      { q: 'Where is Foshan and why is it important for furniture?', a: 'Foshan is a city in Guangdong Province in southern China, immediately alongside Guangzhou in the Greater Bay Area and about 45 minutes from Shenzhen by high-speed rail. It is the largest furniture manufacturing cluster in the world, producing an estimated 75% of China\'s furniture output, with the industry centred on Shunde District — Lecong (the world\'s largest furniture wholesale market) and Longjiang (the manufacturing base that feeds it).' },
+      { q: 'Where is Foshan and why is it important for furniture?', a: 'Foshan is a city in Guangdong Province in southern China, immediately alongside Guangzhou in the Greater Bay Area and about 45 minutes from Shenzhen by high-speed rail. It is the largest furniture manufacturing cluster in the world, producing an estimated 75% of China\'s furniture output, with the industry centred on Shunde District, Lecong (the world\'s largest furniture wholesale market) and Longjiang (the manufacturing base that feeds it).' },
       { q: 'Can Foshan factories meet UK and Irish furniture fire safety standards?', a: 'Yes, but you must specify the standard and verify it. There is no single EU-wide furniture flammability standard. Furniture sold into the UK must meet the Furniture and Furnishings (Fire) (Safety) Regulations 1988; Irish and EU contract specifications routinely call up EN 1021-1 and EN 1021-2 upholstery ignition tests, and hospitality or public-building projects often require higher resistance such as BS 5852 / Crib 5. Decide the requirement before ordering, write it into the specification, and confirm the factory can provide test evidence for the exact materials used.' },
-      { q: 'Is it cheaper to buy furniture direct from Foshan?', a: 'The saving comes from removing margin layers — exporter, European importer, distributor and retailer — rather than from a secret discount, so you pay the factory\'s real price for a defined specification. Actual pricing is highly configuration-dependent (frame, foam density, fabric or leather grade, mechanism), and furniture\'s bulk means freight is a meaningful part of landed cost. The honest comparison is total landed cost against a fixed specification, not the ex-works sticker price.' },
+      { q: 'Is it cheaper to buy furniture direct from Foshan?', a: 'The saving comes from removing margin layers, exporter, European importer, distributor and retailer, rather than from a secret discount, so you pay the factory\'s real price for a defined specification. Actual pricing is highly configuration-dependent (frame, foam density, fabric or leather grade, mechanism), and furniture\'s bulk means freight is a meaningful part of landed cost. The honest comparison is total landed cost against a fixed specification, not the ex-works sticker price.' },
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland'],
     internalLinks: [
@@ -1422,7 +1422,7 @@ export const blogPosts = [
 
 <p>In China sourcing, he who holds the money holds the leverage. Once you pay 100 percent upfront, your ability to negotiate rework, demand quality corrections, or enforce delivery timelines drops to zero.</p>
 
-<p>The standard, universally accepted payment structure for OEM and ODM production in China is "30/70 TT" — a 30 per cent deposit before production begins, and the remaining 70 per cent balance paid only after the goods have passed pre-shipment inspection but before they are loaded onto the vessel.</p>
+<p>The standard, universally accepted payment structure for OEM and ODM production in China is "30/70 TT", a 30 per cent deposit before production begins, and the remaining 70 per cent balance paid only after the goods have passed pre-shipment inspection but before they are loaded onto the vessel.</p>
 
 <p>The 30 per cent deposit serves a specific commercial purpose for the factory: it covers the cost of raw materials and specifically confirms the order. The 70 per cent balance is your insurance policy. If the pre-shipment inspection reveals that the product fails CE compliance, the colour matches poorly, or the dimensions are wrong, the factory will fix the issue because they need the final 70 per cent of their money. If you paid 100 per cent upfront, fixing the problem is a cost they are highly incentivised to avoid.</p>
 
@@ -1432,7 +1432,7 @@ export const blogPosts = [
 
 <p>This is the single most common way Irish importers lose money in China. It is not perpetrated by the factory. It is perpetrated by hackers who have compromised the email account of either the factory's sales rep or your own business.</p>
 
-<p>The scam works like this: You negotiate an order via email. The supplier sends a proforma invoice. Then, just before you make payment, you receive another email from the same supplier — perhaps from the exact same email address, or one off by a single letter. The email states: <em>"We are currently updating our company bank accounts for the annual tax audit. Please send the payment to this alternative account in Hong Kong."</em></p>
+<p>The scam works like this: You negotiate an order via email. The supplier sends a proforma invoice. Then, just before you make payment, you receive another email from the same supplier, perhaps from the exact same email address, or one off by a single letter. The email states: <em>"We are currently updating our company bank accounts for the annual tax audit. Please send the payment to this alternative account in Hong Kong."</em></p>
 
 <p>You update the beneficiary details, authorise the transfer at your bank, and the money clears. Two weeks later, the real factory emails asking where the deposit is. Your money is gone, sitting in a burner account in Hong Kong or Singapore, and the factory never received it.</p>
 
@@ -1461,7 +1461,7 @@ export const blogPosts = [
 
 <figure class="article-figure">
   <img src="/images/eur-usd-cny-currency-exchange-rate-dashboard-irish-importer-fx-risk.webp" alt="Photorealistic close-up of a curved ultrawide monitor displaying a dark-mode foreign exchange dashboard" loading="lazy" width="1280" height="720">
-  <figcaption>The exchange rate your Irish bank quotes you is not the exchange rate. EUR/USD moved 3.4 percent in the last three weeks of this chart — on a €50,000 payment, that is €1,700 gained or lost depending on your timing. This section of the article shows you how to stop treating FX as a fixed cost and start managing it as a variable you can control.</figcaption>
+  <figcaption>The exchange rate your Irish bank quotes you is not the exchange rate. EUR/USD moved 3.4 percent in the last three weeks of this chart, on a €50,000 payment, that is €1,700 gained or lost depending on your timing. This section of the article shows you how to stop treating FX as a fixed cost and start managing it as a variable you can control.</figcaption>
 </figure>
 
 <h2>The Hidden Cost of High Street Banks</h2>
@@ -1514,7 +1514,7 @@ export const blogPosts = [
     slug: 'shipping-china-to-ireland-freight-customs-2026',
     title: 'Shipping from China to Ireland: Freight Routes, Brexit & Customs (2026)',
     metaTitle: 'Shipping from China to Ireland 2026 | Freight & Customs Guide',
-    metaDescription: 'The complete guide to shipping goods from China to Ireland in 2026 — post-Brexit logistics, sea vs air freight, HS codes, and clearing Dublin Port customs.',
+    metaDescription: 'The complete guide to shipping goods from China to Ireland in 2026, post-Brexit logistics, sea vs air freight, HS codes, and clearing Dublin Port customs.',
     h1: 'Shipping from China to Ireland: Freight forwarders, Brexit, and customs clearance (2026)',
     eyebrow: 'Logistics',
     category: 'economics',
@@ -1532,7 +1532,7 @@ export const blogPosts = [
 
 <p>Today, moving goods bound for the Republic of Ireland through the UK customs jurisdiction is a bureaucratic liability. Irish importers now overwhelmingly bypass the UK, relying on direct maritime routes originating from continental European hubs like Rotterdam, Antwerp, or Le Havre, sailing directly into Dublin, Cork, or Rosslare.</p>
 
-<p>Understanding this new geography is critical to forecasting your transit times. However, the physical shipping route is only part of the challenge. The paperwork — clearing Irish customs, correctly classifying Harmonised System (HS) codes, and managing import VAT — is where most first-time importers experience expensive delays.</p>
+<p>Understanding this new geography is critical to forecasting your transit times. However, the physical shipping route is only part of the challenge. The paperwork, clearing Irish customs, correctly classifying Harmonised System (HS) codes, and managing import VAT, is where most first-time importers experience expensive delays.</p>
 
 <p>This guide explains exactly how freight moves from China to Ireland in 2026, the documents you absolutely must have, and how to navigate the Revenue process without delays.</p>
 
@@ -1555,9 +1555,9 @@ export const blogPosts = [
 
 <h2>Air Freight and Rail Freight</h2>
 
-<p><strong>Air Freight</strong> from China to Dublin (often routed through DUB or occasionally Shannon) takes 5 to 8 days door-to-door. It is extremely reliable but exorbitantly expensive — often 5 to 10 times the price of sea freight per kilogram. Air freight is calculated on "chargeable weight," which means you pay for whichever is greater: the actual weight of the goods, or the volumetric weight (the space the box takes up). It is only commercially viable for high-margin electronics, urgent samples, or late seasonal stock that missed the sea freight cutoff.</p>
+<p><strong>Air Freight</strong> from China to Dublin (often routed through DUB or occasionally Shannon) takes 5 to 8 days door-to-door. It is extremely reliable but exorbitantly expensive, often 5 to 10 times the price of sea freight per kilogram. Air freight is calculated on "chargeable weight, " which means you pay for whichever is greater: the actual weight of the goods, or the volumetric weight (the space the box takes up). It is only commercially viable for high-margin electronics, urgent samples, or late seasonal stock that missed the sea freight cutoff.</p>
 
-<p><strong>Rail freight</strong> has emerged as a middle ground via the "New Silk Road." Goods travel by rail from China, across Russia/Central Asia, into Germany or Poland, and are then trucked across Europe and ferried directly into Ireland. It offers transit times of roughly 22 to 26 days — faster than the sea, slower than the air, at a price point right in between. However, geopolitical friction in Eastern Europe has occasionally disrupted these routes, so your freight forwarder must advise on current viability.</p>
+<p><strong>Rail freight</strong> has emerged as a middle ground via the "New Silk Road." Goods travel by rail from China, across Russia/Central Asia, into Germany or Poland, and are then trucked across Europe and ferried directly into Ireland. It offers transit times of roughly 22 to 26 days, faster than the sea, slower than the air, at a price point right in between. However, geopolitical friction in Eastern Europe has occasionally disrupted these routes, so your freight forwarder must advise on current viability.</p>
 
 <figure class="article-figure">
   <img src="/images/customs-clearance-documents-china-ireland-bill-of-lading-commercial-invoice.webp" alt="Close up of a Commercial Invoice and Bill of Lading required for Irish Customs clearance" loading="lazy" width="1280" height="720">
@@ -1580,14 +1580,14 @@ export const blogPosts = [
 
 <p><strong>1. Commercial Invoice:</strong> The definitive receipt. It must detail the exact value of the goods, the currency, the Incoterms agreed upon (e.g., FOB Shenzhen), and a clear description of the items.</p>
 <p><strong>2. Packing List:</strong> A highly detailed breakdown of how the goods are packed. It must outline the number of cartons, the gross weight, the net weight, and the dimensions of the pallets. Customs officers use this to verify the physical shipment.</p>
-<p><strong>3. Bill of Lading (B/L):</strong> The title deed to the cargo. Issued by the shipping line, it proves the goods have been loaded. Often handled digitally today via a "Telex Release," meaning you don't need physical couriered paper to claim your goods.</p>
-<p><strong>4. Compliance Documentation:</strong> If importing regulated goods — electronics, toys, machinery — the <a href="/blog/ce-marking-china-imports-ireland/">EU Declaration of Conformity and CE test reports</a> must be available. Customs may demand to see them before releasing the container.</p>
+<p><strong>3. Bill of Lading (B/L):</strong> The title deed to the cargo. Issued by the shipping line, it proves the goods have been loaded. Often handled digitally today via a "Telex Release, " meaning you don't need physical couriered paper to claim your goods.</p>
+<p><strong>4. Compliance Documentation:</strong> If importing regulated goods, electronics, toys, machinery, the <a href="/blog/ce-marking-china-imports-ireland/">EU Declaration of Conformity and CE test reports</a> must be available. Customs may demand to see them before releasing the container.</p>
 
 <h2>HS Codes and Postponed VAT Accounting (PVA)</h2>
 
 <p>Irish Customs charges duty based on the 10-digit Harmonised System (HS) code classification of your product. This code defines precisely what the item is and applies the correct tariff rate (determined by the EU TARIC database). A wooden chair faces a different duty percentage than an upholstered chair. Deliberately misclassifying an HS code to secure a lower duty rate is customs fraud and carries severe penalties.</p>
 
-<p>Import VAT is then applied at the standard Irish rate (currently 23 per cent) across the total "Customs Value" — which is the value of the goods, PLUS the shipping cost, PLUS the customs duty.</p>
+<p>Import VAT is then applied at the standard Irish rate (currently 23 per cent) across the total "Customs Value", which is the value of the goods, PLUS the shipping cost, PLUS the customs duty.</p>
 
 <p>However, the cash flow burden of paying massive VAT bills at the port has been resolved for VAT-registered Irish businesses. <strong>Postponed VAT Accounting (PVA)</strong> allows you to declare the import VAT on your bi-monthly VAT return rather than paying it physically at the harbor. By simultaneously declaring it as a liability and an input credit on the same return, the cash flow impact is neutralised. Ensure your customs broker knows you want to utilize PVA.</p>
 
@@ -1621,7 +1621,7 @@ export const blogPosts = [
     slug: 'pre-shipment-inspection-china-irish-importers-quality-control',
     title: 'Pre-Shipment Inspection China: Quality Control Guide for Irish Importers',
     metaTitle: "Pre-Shipment Inspection China: Irish Importer's Guide | Ériu",
-    metaDescription: 'How to inspect goods at a Chinese factory before they ship — AQL sampling, defect classes, what a QC inspector checks, and what happens when goods fail.',
+    metaDescription: 'How to inspect goods at a Chinese factory before they ship, AQL sampling, defect classes, what a QC inspector checks, and what happens when goods fail.',
     h1: 'Pre-Shipment Inspection China: How Irish Importers Check Quality Before It Ships',
     eyebrow: 'Quality Control',
     category: 'sourcing-guides',
@@ -1638,14 +1638,14 @@ export const blogPosts = [
     sections: [
       'Why pre-shipment inspection is non-negotiable for Irish importers',
       'What is AQL sampling and how does it work?',
-      'Critical, Major, and Minor defects — classifications explained',
+      'Critical, Major, and Minor defects, classifications explained',
       'What a QC inspector actually checks at the factory',
       'Who should conduct your inspection?',
       'What happens when goods fail inspection',
     ],
-    body: `<p>Your production run is finishing this week. The factory says everything looks good. Your 30% deposit has gone, your 70% balance is waiting. In three weeks, a sealed container leaves Shenzhen Port. When that container opens in Dublin, you are legally and financially responsible for every unit inside — whether they match your spec or not.</p>
+    body: `<p>Your production run is finishing this week. The factory says everything looks good. Your 30% deposit has gone, your 70% balance is waiting. In three weeks, a sealed container leaves Shenzhen Port. When that container opens in Dublin, you are legally and financially responsible for every unit inside, whether they match your spec or not.</p>
 
-<p>This is the moment that pre-shipment inspection exists to protect. It is the only window in the entire supply chain where you can catch defects, quantify failure rates, demand rework, and legally refuse to release payment — all while your goods are still in China, at the factory's door.</p>
+<p>This is the moment that pre-shipment inspection exists to protect. It is the only window in the entire supply chain where you can catch defects, quantify failure rates, demand rework, and legally refuse to release payment, all while your goods are still in China, at the factory's door.</p>
 
 <p>Once that container is sealed and on a ship, your leverage drops to near zero. The goods are yours. The shipping costs are yours. The customs duties are yours. And the defects are yours.</p>
 
@@ -1653,7 +1653,7 @@ export const blogPosts = [
 
 <h2>Why Pre-Shipment Inspection is Non-Negotiable</h2>
 
-<p>The prevailing Irish business assumption about Chinese manufacturing defects is that they happen to other people. They do not. Defect rates exist on a spectrum across every factory, every product category, and every production run. The variables are not random — they are predictable based on the quality controls in place.</p>
+<p>The prevailing Irish business assumption about Chinese manufacturing defects is that they happen to other people. They do not. Defect rates exist on a spectrum across every factory, every product category, and every production run. The variables are not random, they are predictable based on the quality controls in place.</p>
 
 <p>Factories without external QC oversight self-certify. The same factory workers who made the goods are asked to check the goods. Production line supervisors face pressure to ship on time and hit output targets. When those incentives conflict with quality standards, output wins.</p>
 
@@ -1661,14 +1661,14 @@ export const blogPosts = [
 
 <figure class="article-figure">
   <img src="/images/pre-shipment-qc-inspector-chinese-factory-product-check-ireland.webp" alt="Photorealistic medium close-up of a Chinese QC inspector in a white shirt and cotton inspection gloves examining a small white electronics product held at eye level inside a clean factory. His brow is furrowed in concentration as he studies the product surface. Behind him, a production line of seated workers in pale blue smocks assembles products under magnifying work lamps." loading="lazy" width="1280" height="720">
-  <figcaption>This is what stands between your purchase order and your container being sealed. A QC inspector, on the factory floor, product in hand, checking every specification line on your checklist. The red marks on that clipboard are the defects he has found. This is the inspection that happens before your goods ship — or does not happen, and you find the defects in Dublin.</figcaption>
+  <figcaption>This is what stands between your purchase order and your container being sealed. A QC inspector, on the factory floor, product in hand, checking every specification line on your checklist. The red marks on that clipboard are the defects he has found. This is the inspection that happens before your goods ship, or does not happen, and you find the defects in Dublin.</figcaption>
 </figure>
 
 <h2>What Is AQL Sampling?</h2>
 
-<p>AQL stands for Acceptable Quality Limit. It is the internationally used statistical framework for determining how many units to inspect from a batch and at what defect rate a batch is rejected. AQL is not a guarantee of perfection — it is a statistically valid method of making a judgment about an entire production run based on a representative sample.</p>
+<p>AQL stands for Acceptable Quality Limit. It is the internationally used statistical framework for determining how many units to inspect from a batch and at what defect rate a batch is rejected. AQL is not a guarantee of perfection, it is a statistically valid method of making a judgment about an entire production run based on a representative sample.</p>
 
-<p>In practice, AQL works as follows. The inspection standard most commonly used is ISO 2859-1. You specify a sample size based on your total production quantity and an inspection level (typically General Inspection Level II for consumer goods). The AQL table then tells your inspector how many units to pull, and at what defect count threshold — split between Major and Minor defects — the batch passes or fails.</p>
+<p>In practice, AQL works as follows. The inspection standard most commonly used is ISO 2859-1. You specify a sample size based on your total production quantity and an inspection level (typically General Inspection Level II for consumer goods). The AQL table then tells your inspector how many units to pull, and at what defect count threshold, split between Major and Minor defects, the batch passes or fails.</p>
 
 <p>For a production run of 5,000 units at AQL 2.5 (a common standard for consumer goods), your inspector will typically examine around 200 units. If more than 14 units show Major defects, the batch fails. If more than 21 show Minor defects, the batch also fails.</p>
 
@@ -1676,20 +1676,20 @@ export const blogPosts = [
 
 <p><strong>Critical defects</strong> are zero-tolerance. A Critical defect is anything that poses a safety risk to the end user, violates regulatory requirements (such as CE marking), or makes the product completely non-functional. In Ireland and the EU, a product with a Critical defect cannot legally be placed on the market. One Critical defect in your inspected sample fails the entire batch. Non-negotiable.</p>
 
-<p><strong>Major defects</strong> are defects that would cause the product to be returned or lead to significant customer dissatisfaction — visible surface scratches on a premium product, incorrect colour against your approved Pantone spec, assembly defects that affect function, missing components. Major defects fail the batch at the AQL threshold.</p>
+<p><strong>Major defects</strong> are defects that would cause the product to be returned or lead to significant customer dissatisfaction, visible surface scratches on a premium product, incorrect colour against your approved Pantone spec, assembly defects that affect function, missing components. Major defects fail the batch at the AQL threshold.</p>
 
 <p><strong>Minor defects</strong> are imperfections that would not typically cause a return but deviate from specification. Slight variations in finish, minor packaging inconsistencies, small cosmetic deviations within agreed tolerances. These are tracked and counted, but the AQL threshold is more lenient.</p>
 
 <figure class="article-figure">
   <img src="/images/aql-inspection-defect-report-chinese-factory-failed-goods-ireland.webp" alt="Overhead flat-lay photograph of a pre-shipment inspection report stamped FAILED in bright red ink on a brushed stainless steel inspection table. The report shows a defect log table listing surface scratches, colour mismatch, assembly gaps, and a missing screw, with 14 major defects in red and 23 minor defects in amber." loading="lazy" width="1280" height="720">
-  <figcaption>A failed pre-shipment inspection. 14 major defects in a sample of 200 units — surface scratches, colour variance, assembly gaps, missing hardware. AQL 2.5 says this batch does not ship. Without this inspection, those 5,000 units would be in a container on their way to Dublin, and you would find the defects when you opened the boxes in your warehouse. The inspection costs a few hundred Euro. The defective shipment costs your entire order.</figcaption>
+  <figcaption>A failed pre-shipment inspection. 14 major defects in a sample of 200 units, surface scratches, colour variance, assembly gaps, missing hardware. AQL 2.5 says this batch does not ship. Without this inspection, those 5,000 units would be in a container on their way to Dublin, and you would find the defects when you opened the boxes in your warehouse. The inspection costs a few hundred Euro. The defective shipment costs your entire order.</figcaption>
 </figure>
 
 <h2>What a QC Inspector Actually Checks</h2>
 
 <p>A professional pre-shipment inspection is a structured, documented audit against a specific checklist derived from your purchase order and product specification. The checklist should be agreed between you and your inspector before the inspection date. The areas covered include:</p>
 
-<p><strong>Quantity verification:</strong> The inspector physically counts cartons, verifies inner pack quantities, and confirms that what was ordered is what is in the warehouse ready to ship. Quantity errors — short shipments and overshipments — are common and are caught here.</p>
+<p><strong>Quantity verification:</strong> The inspector physically counts cartons, verifies inner pack quantities, and confirms that what was ordered is what is in the warehouse ready to ship. Quantity errors, short shipments and overshipments, are common and are caught here.</p>
 
 <p><strong>Product appearance and workmanship:</strong> Every sampled unit is examined for surface defects, colour consistency against your approved sample or Pantone reference, texture and finish quality, and any visible assembly defects.</p>
 
@@ -1707,7 +1707,7 @@ export const blogPosts = [
 
 <p><strong>Independent third-party inspection company</strong> (QIMA, Intertek, Bureau Veritas): The gold standard. The inspector has no relationship with the factory, legal obligation to provide an accurate report, and professional liability. Reports include photographic evidence. Cost: typically €250–€400 per man-day for a standard inspection.</p>
 
-<p><strong>Sourcing agent QC inspection:</strong> If you are working with a sourcing agent like Ériu Sourcing with a China-based team, our QC inspectors conduct pre-shipment inspections as part of the sourcing service. This combines factory relationship knowledge with independent QC — we know the factory's historical failure patterns and check accordingly.</p>
+<p><strong>Sourcing agent QC inspection:</strong> If you are working with a sourcing agent like Ériu Sourcing with a China-based team, our QC inspectors conduct pre-shipment inspections as part of the sourcing service. This combines factory relationship knowledge with independent QC, we know the factory's historical failure patterns and check accordingly.</p>
 
 <p><strong>Factory self-inspection:</strong> This is not an independent inspection. The factory inspecting its own goods is an internal quality process. It is better than nothing, but never substitute factory QC certificates for independent inspection on orders above €5,000.</p>
 
@@ -1724,7 +1724,7 @@ export const blogPosts = [
 
 <p><strong>Partial shipment:</strong> If the failing rate is concentrated in specific batches or if the deadline is critical, a partial shipment of passing units may be agreed while rework is completed on the remainder.</p>
 
-<p><strong>Rejection and replacement:</strong> For severe failures — Critical defects, major specification non-conformance, or where the factory is unwilling to rework — you reject the batch and demand replacement production. Under a correctly structured purchase agreement, replacement production is at the factory's cost.</p>
+<p><strong>Rejection and replacement:</strong> For severe failures, Critical defects, major specification non-conformance, or where the factory is unwilling to rework, you reject the batch and demand replacement production. Under a correctly structured purchase agreement, replacement production is at the factory's cost.</p>
 
 <h2>The Cost Calculation</h2>
 
@@ -1736,7 +1736,7 @@ export const blogPosts = [
 
 <h2>How Ériu Sourcing Handles QC</h2>
 
-<p>With Ériu Sourcing managing your production order, pre-shipment inspection is built into the standard process. Our China-based team conducts factory floor visits during production — not just at final inspection — to identify quality deviations before they become systemic defects across the entire run. Final pre-shipment inspection is conducted against your approved product specification before we authorise container loading.</p>
+<p>With Ériu Sourcing managing your production order, pre-shipment inspection is built into the standard process. Our China-based team conducts factory floor visits during production, not just at final inspection, to identify quality deviations before they become systemic defects across the entire run. Final pre-shipment inspection is conducted against your approved product specification before we authorise container loading.</p>
 
 <p>Failed inspections trigger immediate communication with full photographic evidence. Rework requirements are communicated to the factory in Chinese, with a written reinspection schedule. You retain full payment leverage throughout.</p>`,
     faq: [
@@ -1757,7 +1757,7 @@ export const blogPosts = [
     slug: 'how-to-vet-chinese-suppliers-factory-audit-verification-ireland',
     title: 'How to Vet a Chinese Supplier: Factory Audit & Verification Guide (2026)',
     metaTitle: 'How to Vet a Chinese Supplier (2026) | Ériu Sourcing',
-    metaDescription: 'How to verify a Chinese factory before you order — licence checks, a 5-layer framework, 7 red flags, and the tools Irish importers use to avoid scams.',
+    metaDescription: 'How to verify a Chinese factory before you order, licence checks, a 5-layer framework, 7 red flags, and the tools Irish importers use to avoid scams.',
     h1: 'How to Vet a Chinese Supplier: Factory Audits, Verification Checks & Red Flags (2026)',
     eyebrow: 'Supplier Due Diligence',
     category: 'sourcing-guides',
@@ -1784,7 +1784,7 @@ export const blogPosts = [
 
 <p>None of that tells you whether this factory is real, financially stable, capable of meeting your specifications, or the same entity that will receive your wire transfer.</p>
 
-<p>Supplier vetting is the process of verifying all of that before you commit money. It is not optional. It is not bureaucratic. It is risk management — specifically, the risk of losing your entire order value to a factory that cannot deliver, or losing your deposit to a trading company that was never going to manufacture anything at all.</p>
+<p>Supplier vetting is the process of verifying all of that before you commit money. It is not optional. It is not bureaucratic. It is risk management, specifically, the risk of losing your entire order value to a factory that cannot deliver, or losing your deposit to a trading company that was never going to manufacture anything at all.</p>
 
 <p>This guide gives you a structured five-layer framework for vetting any Chinese supplier before placing an order, including the red flags that end a supplier relationship at any stage of the process.</p>
 
@@ -1794,44 +1794,44 @@ export const blogPosts = [
 
 <p>The 8% you saved on unit price relative to the second-cheapest quote is irrelevant when you are shipping on DHL Express at ten times the cost of sea freight because the factory delayed production by four weeks. Or when your container arrives and the goods are 15% underweight because the factory substituted cheaper materials.</p>
 
-<p>Vetting costs time — typically two to four weeks for a full verification. That time is the cheapest insurance you will ever buy against a five-figure loss on your first import order.</p>
+<p>Vetting costs time, typically two to four weeks for a full verification. That time is the cheapest insurance you will ever buy against a five-figure loss on your first import order.</p>
 
 <figure class="article-figure">
   <img src="/images/irish-buyer-chinese-factory-manager-supplier-vetting-meeting.webp" alt="Photorealistic medium-wide shot inside a modern Chinese factory sample showroom. A European buyer in his 40s in a light blue Oxford shirt and visitor lanyard holds a white product sample, pointing at a detail while speaking to a Chinese factory manager in his late 40s in a dark navy blazer and company badge, who leans in studying the product while holding a printed specification sheet." loading="lazy" width="1280" height="720">
-  <figcaption>Supplier vetting starts here — face to face, in the factory's own showroom, with the production floor visible through the glass behind you. The product is in your hand. The specification sheet is in theirs. The factory that made both is ten metres away. This is what "verified" actually looks like, and it is the visit that separates a real manufacturing partner from a trading company with a nice website.</figcaption>
+  <figcaption>Supplier vetting starts here, face to face, in the factory's own showroom, with the production floor visible through the glass behind you. The product is in your hand. The specification sheet is in theirs. The factory that made both is ten metres away. This is what "verified" actually looks like, and it is the visit that separates a real manufacturing partner from a trading company with a nice website.</figcaption>
 </figure>
 
 <h2>The 5-Layer Verification Framework</h2>
 
-<p>Each layer builds on the previous one. Layers 1 and 2 take hours and are free. Layers 3 and 4 take days to weeks and cost a sample order. Layer 5 — a physical factory audit — takes a week and costs €800–€2,000. Not every order requires all five layers. The appropriate depth of vetting scales with your order value and the duration of the intended relationship.</p>
+<p>Each layer builds on the previous one. Layers 1 and 2 take hours and are free. Layers 3 and 4 take days to weeks and cost a sample order. Layer 5, a physical factory audit, takes a week and costs €800–€2,000. Not every order requires all five layers. The appropriate depth of vetting scales with your order value and the duration of the intended relationship.</p>
 
-<p><strong>Layer 1: Basic online verification.</strong> Before making contact, spend 30 minutes on basic checks. Search the company name on Chinese customs trade data platforms (Panjiva, ImportYeti, Volza) to verify that this factory has actually exported goods — and to which countries and buyers. A factory claiming five years of export experience with no visible trade history is a significant red flag. Check the Alibaba Gold Supplier membership age (older is more credible). Cross-reference the claimed factory location with satellite imagery — the factory should physically exist at the address they provide.</p>
+<p><strong>Layer 1: Basic online verification.</strong> Before making contact, spend 30 minutes on basic checks. Search the company name on Chinese customs trade data platforms (Panjiva, ImportYeti, Volza) to verify that this factory has actually exported goods, and to which countries and buyers. A factory claiming five years of export experience with no visible trade history is a significant red flag. Check the Alibaba Gold Supplier membership age (older is more credible). Cross-reference the claimed factory location with satellite imagery, the factory should physically exist at the address they provide.</p>
 
-<p><strong>Layer 2: Document verification.</strong> Request the Business Licence (营业执照), Export Licence, relevant product certification (CE certificates, ISO 9001, BSCI audit report), and a sample commercial invoice showing bank account details. Critically, cross-reference the Business Licence registration number through China's State Administration for Market Regulation (SAMR) free public database at gsxt.gov.cn. This confirms the company legally exists, its registration status, legal representative, and — critically — its business scope, which tells you whether you are talking to a manufacturer or a trader.</p>
+<p><strong>Layer 2: Document verification.</strong> Request the Business Licence (营业执照), Export Licence, relevant product certification (CE certificates, ISO 9001, BSCI audit report), and a sample commercial invoice showing bank account details. Critically, cross-reference the Business Licence registration number through China's State Administration for Market Regulation (SAMR) free public database at gsxt.gov.cn. This confirms the company legally exists, its registration status, legal representative, and, critically, its business scope, which tells you whether you are talking to a manufacturer or a trader.</p>
 
 <figure class="article-figure">
   <img src="/images/chinese-business-licence-samr-registration-supplier-verification-ireland.webp" alt="Photorealistic close-up of an official Chinese business registration document on a clean desk. The document has a red official stamp visible, Chinese text, the 18-digit unified social credit code, and a gold government seal. A laptop screen beside it shows the SAMR business registration verification website." loading="lazy" width="1280" height="720">
-  <figcaption>The document that tells you whether your supplier is a manufacturer or a trading company. The 营业执照 — business licence — shows the company name, registration number, legal representative, and critically, the 经营范围 (business scope). If the scope says 生产制造 (production and manufacturing), you are talking to a factory. If it says 贸易 or 销售 (trade or sales), you are talking to a middleman. The GSXT database on the laptop confirms whether the physical document in front of you is genuine. This check takes ten minutes and costs nothing.</figcaption>
+  <figcaption>The document that tells you whether your supplier is a manufacturer or a trading company. The 营业执照, business licence, shows the company name, registration number, legal representative, and critically, the 经营范围 (business scope). If the scope says 生产制造 (production and manufacturing), you are talking to a factory. If it says 贸易 or 销售 (trade or sales), you are talking to a middleman. The GSXT database on the laptop confirms whether the physical document in front of you is genuine. This check takes ten minutes and costs nothing.</figcaption>
 </figure>
 
-<p><strong>Layer 3: Live video call factory tour.</strong> Request a live WeChat or WhatsApp video call factory tour. Minimum 20 minutes. Ask to see: the production floor where your specific product would be made, raw material storage, the QC inspection area, and the warehouse. Ask them to show you machinery nameplates (model, year, capacity). Ask them to show you a product currently in production — preferably similar to your category. A legitimate factory does this without hesitation. A trading company will make excuses, use pre-recorded footage, or claim the factory is "too busy."</p>
+<p><strong>Layer 3: Live video call factory tour.</strong> Request a live WeChat or WhatsApp video call factory tour. Minimum 20 minutes. Ask to see: the production floor where your specific product would be made, raw material storage, the QC inspection area, and the warehouse. Ask them to show you machinery nameplates (model, year, capacity). Ask them to show you a product currently in production, preferably similar to your category. A legitimate factory does this without hesitation. A trading company will make excuses, use pre-recorded footage, or claim the factory is "too busy."</p>
 
-<p><strong>Layer 4: Sample order.</strong> Never place a production order without receiving and evaluating a physical sample manufactured to your specification — not a stock sample from their existing range. Evaluate against your product requirement checklist. Test function, check materials, measure dimensions. The sample also confirms payment reliability and production communication quality — two things you need to know before committing production funds.</p>
+<p><strong>Layer 4: Sample order.</strong> Never place a production order without receiving and evaluating a physical sample manufactured to your specification, not a stock sample from their existing range. Evaluate against your product requirement checklist. Test function, check materials, measure dimensions. The sample also confirms payment reliability and production communication quality, two things you need to know before committing production funds.</p>
 
 <p><strong>Layer 5: Physical factory audit.</strong> For orders above €50,000, or suppliers intended as long-term manufacturing partners, an independent factory audit (Sedex, BSCI, SGS) is strongly recommended. An audit verifies production capacity, machine inventory, labour force size, financial stability, environmental and social compliance, and sub-contracting practices. Factories that sub-contract your production to third parties without disclosure are a serious quality and compliance risk.</p>
 
 <figure class="article-figure">
   <img src="/images/factory-audit-inspector-chinese-manufacturer-production-floor-check.webp" alt="Photorealistic wide-angle shot of a Chinese factory production floor. A third-party auditor in a white polo, white hard hat, and blue lanyard ID badge stands beside a large CNC machine, studying its manufacturer data plate while holding a clipboard audit checklist. A factory production supervisor in a dark blue uniform stands behind with hands clasped, observing." loading="lazy" width="1280" height="720">
-  <figcaption>A factory audit in progress. The auditor is verifying the machine specification plate against the factory's claimed production capabilities — model, serial number, year, capacity. The production line behind them is running — this is not a staged visit, it is a check of what the factory can actually do. If the machine data does not match what the factory claimed in their qualification documents, that discrepancy goes on the audit report.</figcaption>
+  <figcaption>A factory audit in progress. The auditor is verifying the machine specification plate against the factory's claimed production capabilities, model, serial number, year, capacity. The production line behind them is running, this is not a staged visit, it is a check of what the factory can actually do. If the machine data does not match what the factory claimed in their qualification documents, that discrepancy goes on the audit report.</figcaption>
 </figure>
 
 <h2>The 7 Red Flags That End a Supplier Relationship</h2>
 
-<p>These are absolute disqualifiers at any stage of the vetting process — not negotiating points.</p>
+<p>These are absolute disqualifiers at any stage of the vetting process, not negotiating points.</p>
 
 <p><strong>1. The price drops significantly without a credible explanation.</strong> If a supplier reduces their price by more than 10% within the first three exchanges without changes to specification, quantity, or Incoterms, they are padding the initial quote or are about to reduce material quality to compensate.</p>
 
-<p><strong>2. They cannot provide a Business Licence.</strong> Every legitimate Chinese manufacturer has one. Any excuse for not providing it — "it is being renewed," "our director is abroad," "we will send it after you place the order" — is disqualifying.</p>
+<p><strong>2. They cannot provide a Business Licence.</strong> Every legitimate Chinese manufacturer has one. Any excuse for not providing it, "it is being renewed, " "our director is abroad, " "we will send it after you place the order", is disqualifying.</p>
 
 <p><strong>3. The business scope shows trade, not manufacturing.</strong> You may choose to work with a trading company, but you must know that is what they are. A supplier claiming to be a factory whose Business Licence shows 贸易 (trade) as their primary business scope is misrepresenting themselves.</p>
 
@@ -1847,12 +1847,12 @@ export const blogPosts = [
 
 <p>The 5-layer verification framework requires Mandarin-language capability for document checks (the SAMR database is in Chinese), Chinese business network knowledge to interpret audit results, and physical presence in China for Layers 3 and 5.</p>
 
-<p>A China-based sourcing agent like Ériu Sourcing conducts the full verification on your behalf. We have 18 years of factory relationships across Guangdong, Henan, and Zhejiang — which means we already know many factories' reputations and production histories before your brief arrives. For factories outside our existing network, we run the full five-layer process and provide a written sourcing recommendation before any order is placed.</p>
+<p>A China-based sourcing agent like Ériu Sourcing conducts the full verification on your behalf. We have 18 years of factory relationships across Guangdong, Henan, and Zhejiang, which means we already know many factories' reputations and production histories before your brief arrives. For factories outside our existing network, we run the full five-layer process and provide a written sourcing recommendation before any order is placed.</p>
 
-<p>You get the result of the vetting — a verified, production-ready factory — without weeks of Mandarin-language research or the cost of a flight to Shenzhen.</p>`,
+<p>You get the result of the vetting, a verified, production-ready factory, without weeks of Mandarin-language research or the cost of a flight to Shenzhen.</p>`,
     faq: [
-      { q: 'How do I verify if a Chinese supplier on Alibaba is a real factory or a trading company?', a: 'The definitive check is the Chinese Business Licence (营业执照). Request a copy and check the business scope (经营范围). If it shows 生产制造 (manufacturing/production), they are a factory. If it shows 贸易 or 销售 (trade or sales), they are a trading company. You can verify the licence is genuine by searching the company\'s 18-digit Unified Social Credit Code on China\'s SAMR public database at gsxt.gov.cn. A live video call factory tour is the second critical verification — a real factory will show you around without hesitation.' },
-      { q: 'What is a factory audit and do I need one for my first China order?', a: 'A factory audit is an independent assessment of a factory\'s production capabilities, quality systems, workforce, and compliance status — conducted by a third-party auditor such as Sedex, BSCI, or SGS. For a first order below €30,000, a full factory audit is generally not cost-effective — focus on Layers 1 through 4 of the verification framework. For orders above €50,000 or for long-term suppliers, a factory audit is strongly recommended. Cost is typically €800–€2,000 for a standard audit in Guangdong or Zhejiang.' },
+      { q: 'How do I verify if a Chinese supplier on Alibaba is a real factory or a trading company?', a: 'The definitive check is the Chinese Business Licence (营业执照). Request a copy and check the business scope (经营范围). If it shows 生产制造 (manufacturing/production), they are a factory. If it shows 贸易 or 销售 (trade or sales), they are a trading company. You can verify the licence is genuine by searching the company\'s 18-digit Unified Social Credit Code on China\'s SAMR public database at gsxt.gov.cn. A live video call factory tour is the second critical verification, a real factory will show you around without hesitation.' },
+      { q: 'What is a factory audit and do I need one for my first China order?', a: 'A factory audit is an independent assessment of a factory\'s production capabilities, quality systems, workforce, and compliance status, conducted by a third-party auditor such as Sedex, BSCI, or SGS. For a first order below €30,000, a full factory audit is generally not cost-effective, focus on Layers 1 through 4 of the verification framework. For orders above €50,000 or for long-term suppliers, a factory audit is strongly recommended. Cost is typically €800–€2,000 for a standard audit in Guangdong or Zhejiang.' },
       { q: 'How long does it take to properly vet a Chinese supplier before placing an order?', a: 'Layers 1 and 2 (online checks and document verification) can be completed in 2–3 days. A video call factory tour can be arranged within a week. Receiving and evaluating a production sample typically takes 2–4 weeks including manufacturing, shipping, and evaluation time. A physical factory audit takes 1–2 weeks to schedule. Full five-layer verification therefore takes 4–8 weeks before production begins. Factor this into your sourcing timeline.' },
     ],
     relatedSlugs: ['alibaba-vs-factory-direct-irish-importers', 'pre-shipment-inspection-china-irish-importers-quality-control', 'how-to-pay-chinese-suppliers-safely-ireland'],
@@ -1869,7 +1869,7 @@ export const blogPosts = [
     slug: 'ireland-april-2026-back-garden-home-rules-explained',
     title: "Ireland's April 2026 Back-Garden Home Rules, Explained",
     metaTitle: "Ireland's April 2026 Back-Garden Home Rules Explained | Ériu",
-    metaDescription: "What changed when Ireland's draft Exempted Development Regulations reached Cabinet on 21 April 2026 — the 45 m² auxiliary dwelling and the Rent-a-Room yield.",
+    metaDescription: "What changed when Ireland's draft Exempted Development Regulations reached Cabinet on 21 April 2026, the 45 m² auxiliary dwelling and the Rent-a-Room yield.",
     h1: "Ireland's April 2026 Back-Garden Home Rules, Explained",
     eyebrow: 'Regulations Explained',
     category: 'modular-homes',
@@ -1880,15 +1880,15 @@ export const blogPosts = [
     estimatedWordCount: 2200,
     publishDate: '2026-05-14',
     draft: false,
-    body: `<p>On 21 April 2026, Ministers Browne and Cummins brought a draft of new Exempted Development Regulations to Cabinet. The announcement landed in every Irish property conversation that week — and not without reason. Four overlapping planning exemptions, arriving simultaneously, represent the most significant change to Irish residential planning in a generation.</p>
+    body: `<p>On 21 April 2026, Ministers Browne and Cummins brought a draft of new Exempted Development Regulations to Cabinet. The announcement landed in every Irish property conversation that week, and not without reason. Four overlapping planning exemptions, arriving simultaneously, represent the most significant change to Irish residential planning in a generation.</p>
 
-<p>This guide explains what actually changed, what it means for your back garden, and — critically — what planning exemption does and does not cover.</p>
+<p>This guide explains what actually changed, what it means for your back garden, and, critically, what planning exemption does and does not cover.</p>
 
 <h2>What the April 2026 regulations actually say</h2>
 
-<p>The draft regulations create four new exemptions from planning permission. They are separate measures, but they stack — a homeowner can potentially avail of all four on the same property.</p>
+<p>The draft regulations create four new exemptions from planning permission. They are separate measures, but they stack, a homeowner can potentially avail of all four on the same property.</p>
 
-<p><strong>1. The auxiliary habitable dwelling (32–45 m²)</strong> — a detached self-contained home in your back garden, exempt from planning permission provided it:</p>
+<p><strong>1. The auxiliary habitable dwelling (32–45 m²)</strong>, a detached self-contained home in your back garden, exempt from planning permission provided it:</p>
 <ul>
   <li>Is between 32 and 45 square metres in footprint</li>
   <li>Is located in the back garden of a principal private residence</li>
@@ -1896,43 +1896,43 @@ export const blogPosts = [
   <li>Meets all conditions set out in the regulations, including set-back distances and height restrictions</li>
 </ul>
 
-<p><strong>2. Sub-division of the principal house</strong> — one additional self-contained unit of minimum 32 m² can be created within the existing footprint of the house without planning permission. This targets houses large enough to accommodate a separate dwelling inside the existing walls.</p>
+<p><strong>2. Sub-division of the principal house</strong>, one additional self-contained unit of minimum 32 m² can be created within the existing footprint of the house without planning permission. This targets houses large enough to accommodate a separate dwelling inside the existing walls.</p>
 
-<p><strong>3. Garden structures</strong> — the exemption limit for outbuildings, sheds, offices and garden rooms is raised from 25 m² to 30 m². This covers non-habitable structures — no kitchen or bathroom as a primary dwelling.</p>
+<p><strong>3. Garden structures</strong>, the exemption limit for outbuildings, sheds, offices and garden rooms is raised from 25 m² to 30 m². This covers non-habitable structures, no kitchen or bathroom as a primary dwelling.</p>
 
-<p><strong>4. Principal house extension</strong> — the rear extension exemption is raised from 40 m² to 45 m², meaning a larger single-storey rear extension can proceed without planning permission.</p>
+<p><strong>4. Principal house extension</strong>, the rear extension exemption is raised from 40 m² to 45 m², meaning a larger single-storey rear extension can proceed without planning permission.</p>
 
-<p>It is the first exemption — the auxiliary habitable dwelling — that is driving the modular home conversation. A 32–45 m² detached unit in your back garden, no planning application, no An Bord Pleanála queue, no neighbour objection period.</p>
+<p>It is the first exemption, the auxiliary habitable dwelling, that is driving the modular home conversation. A 32–45 m² detached unit in your back garden, no planning application, no An Bord Pleanála queue, no neighbour objection period.</p>
 
 <h2>The financial case: why this matters right now</h2>
 
-<p>The return potential is what drove the coverage. As <a href="https://www.irishtimes.com/business/2026/05/19/how-much-can-i-earn-tax-free-from-a-home-in-my-garden/" target="_blank" rel="noopener noreferrer">Keith Lowe of DNG put it in <em>The Irish Times</em></a>, "this is the kind of return that drives mass adoption." The mechanism is simple: because Rent-a-Room income is exempt from income tax, USC and PRSI, up to €14,000 a year received tax-free goes a long way against the cost of a back-garden unit. The actual yield, though, depends entirely on your all-in installed cost — so treat any single headline percentage with caution and run the numbers against a real quote for your own site.</p>
+<p>The return potential is what drove the coverage. As <a href="https://www.irishtimes.com/business/2026/05/19/how-much-can-i-earn-tax-free-from-a-home-in-my-garden/" target="_blank" rel="noopener noreferrer">Keith Lowe of DNG put it in <em>The Irish Times</em></a>, "this is the kind of return that drives mass adoption." The mechanism is simple: because Rent-a-Room income is exempt from income tax, USC and PRSI, up to €14,000 a year received tax-free goes a long way against the cost of a back-garden unit. The actual yield, though, depends entirely on your all-in installed cost, so treat any single headline percentage with caution and run the numbers against a real quote for your own site.</p>
 
-<p>The Rent-a-Room scheme allows homeowners to earn up to €14,000 per year in rental income from a tenant sharing their home — free of income tax, USC and PRSI. The draft April 2026 regulations propose that an auxiliary habitable dwelling, because it is linked to the principal house's services, would qualify as part of that principal residence for Rent-a-Room purposes. They are also drafted to carve the auxiliary dwelling out of the Residential Tenancies Acts — so RTB rules, notice periods and rent-increase restrictions would not apply when the dwelling is occupied under the Rent-a-Room scheme, if the regulations are enacted as drafted.</p>
+<p>The Rent-a-Room scheme allows homeowners to earn up to €14,000 per year in rental income from a tenant sharing their home, free of income tax, USC and PRSI. The draft April 2026 regulations propose that an auxiliary habitable dwelling, because it is linked to the principal house's services, would qualify as part of that principal residence for Rent-a-Room purposes. They are also drafted to carve the auxiliary dwelling out of the Residential Tenancies Acts, so RTB rules, notice periods and rent-increase restrictions would not apply when the dwelling is occupied under the Rent-a-Room scheme, if the regulations are enacted as drafted.</p>
 
-<p>This combination — planning-exempt construction, tax-free rental income, and no RTB obligations — is the specific set of conditions that has not previously coexisted in Irish property law.</p>
+<p>This combination, planning-exempt construction, tax-free rental income, and no RTB obligations, is the specific set of conditions that has not previously coexisted in Irish property law.</p>
 
 <figure class="article-figure">
-  <img src="/images/modular-homes-hero-back-garden-ireland.webp" alt="Modern steel-frame modular home in an Irish back garden — the April 2026 exempted development regulations have opened this market" loading="lazy" width="1280" height="720">
-  <figcaption>A 32–45 m² auxiliary habitable dwelling in the back garden of a principal house — exempt from planning under the April 2026 draft regulations</figcaption>
+  <img src="/images/modular-homes-hero-back-garden-ireland.webp" alt="Modern steel-frame modular home in an Irish back garden, the April 2026 exempted development regulations have opened this market" loading="lazy" width="1280" height="720">
+  <figcaption>A 32–45 m² auxiliary habitable dwelling in the back garden of a principal house, exempt from planning under the April 2026 draft regulations</figcaption>
 </figure>
 
 <h2>What planning exemption does not mean</h2>
 
 <p>This is the point where the market commentary has been least precise, and where buyers risk making an expensive mistake.</p>
 
-<p><strong>Exempt from planning does not mean exempt from building regulations.</strong> These are two completely separate legal frameworks. The Exempted Development Regulations address the planning system — specifically, whether you need to apply for planning permission. The Irish Building Regulations 1997–2021 are a different body of law entirely, and they apply to every structure intended for human habitation regardless of planning status.</p>
+<p><strong>Exempt from planning does not mean exempt from building regulations.</strong> These are two completely separate legal frameworks. The Exempted Development Regulations address the planning system, specifically, whether you need to apply for planning permission. The Irish Building Regulations 1997–2021 are a different body of law entirely, and they apply to every structure intended for human habitation regardless of planning status.</p>
 
 <p>What this means in practice:</p>
 
 <ul>
-  <li><strong>You still need a Commencement Notice</strong> — submitted to your local authority through the Building Control Management System (BCMS) at least 14 days before works begin. This is a legal requirement and failure to submit is an offence.</li>
-  <li><strong>The unit must comply with TGD Parts A to M</strong> — the Technical Guidance Documents covering structure, fire, moisture, materials, sound, ventilation, hygiene, drainage, heat, stairs, energy and access.</li>
-  <li><strong>A BER certificate is required</strong> — TGD Part L requires new dwellings to meet near-zero energy building (NZEB) performance, in practice an A2 rating. A BER assessment by an SEAI-registered assessor must be completed before the unit can be lawfully occupied.</li>
-  <li><strong>A Certificate of Compliance is required on completion</strong> — from the assigned certifier confirming the works were carried out in accordance with the Building Regulations.</li>
+  <li><strong>You still need a Commencement Notice</strong>, submitted to your local authority through the Building Control Management System (BCMS) at least 14 days before works begin. This is a legal requirement and failure to submit is an offence.</li>
+  <li><strong>The unit must comply with TGD Parts A to M</strong>, the Technical Guidance Documents covering structure, fire, moisture, materials, sound, ventilation, hygiene, drainage, heat, stairs, energy and access.</li>
+  <li><strong>A BER certificate is required</strong>, TGD Part L requires new dwellings to meet near-zero energy building (NZEB) performance, in practice an A2 rating. A BER assessment by an SEAI-registered assessor must be completed before the unit can be lawfully occupied.</li>
+  <li><strong>A Certificate of Compliance is required on completion</strong>, from the assigned certifier confirming the works were carried out in accordance with the Building Regulations.</li>
 </ul>
 
-<p>Some online sellers of modular units — particularly those operating without Irish regulatory expertise — describe their product as "no planning required" in a way that implies it is ready to install with no further process. It is not. A factory-built unit that has not been CE-marked, specified to Irish Building Regulations, and supplied with the correct compliance documentation creates significant legal and insurance exposure for the owner.</p>
+<p>Some online sellers of modular units, particularly those operating without Irish regulatory expertise, describe their product as "no planning required" in a way that implies it is ready to install with no further process. It is not. A factory-built unit that has not been CE-marked, specified to Irish Building Regulations, and supplied with the correct compliance documentation creates significant legal and insurance exposure for the owner.</p>
 
 <h2>The conditions that make a site eligible</h2>
 
@@ -1940,25 +1940,25 @@ export const blogPosts = [
 
 <ul>
   <li>The principal house must be in residential use and the homeowner's principal private residence</li>
-  <li>The auxiliary dwelling must be detached — not attached to the principal house or converted from an existing structure</li>
+  <li>The auxiliary dwelling must be detached, not attached to the principal house or converted from an existing structure</li>
   <li>The unit must be between 32 m² and 45 m² in gross floor area</li>
   <li>Minimum set-back from the rear boundary (specific distances to be confirmed in the gazette)</li>
-  <li>Height restrictions apply — typically equivalent to single-storey residential scale</li>
+  <li>Height restrictions apply, typically equivalent to single-storey residential scale</li>
   <li>The unit must be connected to the principal house's water and sewerage services (not a separate connection to the main)</li>
-  <li>The exemption does not apply in areas with specific planning restrictions (special amenity areas, conservation areas, etc. — check with your local authority)</li>
+  <li>The exemption does not apply in areas with specific planning restrictions (special amenity areas, conservation areas, etc., check with your local authority)</li>
 </ul>
 
-<p>If a site does not meet the exemption conditions, full planning permission is required. A planning application is still possible and in many cases straightforward for a well-designed auxiliary dwelling — the exemption is a shortcut, not the only route.</p>
+<p>If a site does not meet the exemption conditions, full planning permission is required. A planning application is still possible and in many cases straightforward for a well-designed auxiliary dwelling, the exemption is a shortcut, not the only route.</p>
 
 <h2>The insurance, LPT and mortgage angles</h2>
 
 <p>Three financial and legal considerations that are consistently underweighted in the public discussion of back-garden homes:</p>
 
-<p><strong>Local Property Tax.</strong> The draft regulations indicate that an auxiliary habitable dwelling would receive its own property ID and its own LPT valuation band — separate from the principal house. The LPT liability would depend on the valuation of the unit, set on the same basis as any other residential property. The final treatment follows the enacted regulations.</p>
+<p><strong>Local Property Tax.</strong> The draft regulations indicate that an auxiliary habitable dwelling would receive its own property ID and its own LPT valuation band, separate from the principal house. The LPT liability would depend on the valuation of the unit, set on the same basis as any other residential property. The final treatment follows the enacted regulations.</p>
 
-<p><strong>Home insurance.</strong> The principal house home insurance policy must be updated to declare the new structure. Failure to notify your insurer can invalidate cover on the principal house. Most insurers will quote an uplift to the existing policy rather than requiring a separate policy for the auxiliary dwelling — but the declaration must be made before the unit is installed.</p>
+<p><strong>Home insurance.</strong> The principal house home insurance policy must be updated to declare the new structure. Failure to notify your insurer can invalidate cover on the principal house. Most insurers will quote an uplift to the existing policy rather than requiring a separate policy for the auxiliary dwelling, but the declaration must be made before the unit is installed.</p>
 
-<p><strong>Mortgages and resale.</strong> Most Irish mortgage lenders will not currently mortgage a property with a second self-contained dwelling on the same title. This affects both the original owner's ability to remortgage and any future buyer's ability to get a mortgage on the property. It is an important consideration for anyone who may need to remortgage or intends to sell within the medium term. The market position of lenders may change as the scale of auxiliary dwelling construction grows — but it has not changed yet.</p>
+<p><strong>Mortgages and resale.</strong> Most Irish mortgage lenders will not currently mortgage a property with a second self-contained dwelling on the same title. This affects both the original owner's ability to remortgage and any future buyer's ability to get a mortgage on the property. It is an important consideration for anyone who may need to remortgage or intends to sell within the medium term. The market position of lenders may change as the scale of auxiliary dwelling construction grows, but it has not changed yet.</p>
 
 <h2>Who is the right buyer for this right now?</h2>
 
@@ -1966,7 +1966,7 @@ export const blogPosts = [
 
 <ul>
   <li><strong>Homeowners with a large back garden in a suburban location</strong> where the exemption conditions are straightforwardly met and rental demand is strong</li>
-  <li><strong>Parents of adult children</strong> who want affordable housing on the same site — the granny flat use case, extended to the next generation</li>
+  <li><strong>Parents of adult children</strong> who want affordable housing on the same site, the granny flat use case, extended to the next generation</li>
   <li><strong>Homeowners approaching retirement</strong> who want to generate tax-free income from an asset they already own (the land) without selling the property</li>
   <li><strong>Property investors who own their own home</strong> and want a tax-efficient yield vehicle that does not require purchasing a second property</li>
 </ul>
@@ -1975,33 +1975,33 @@ export const blogPosts = [
 
 <h2>Why factory-direct from China makes the numbers work</h2>
 
-<p>The financial case for a back-garden auxiliary dwelling turns entirely on the total project cost versus the rental yield. At €110,000 to €180,000 for an Irish-built finished unit, the payback period extends to seven to thirteen years of tax-free Rent-a-Room income. At €60,000 to €90,000 for a comparably specified factory-direct unit — CE-marked, Building-Regulations-compliant, craned into your garden in 14–18 weeks — the payback period is roughly four to six years. That assumes the unit qualifies for the full €14,000 Rent-a-Room exemption each year and the draft regulations are enacted as proposed — both of which you should confirm with your accountant and solicitor before relying on the figures.</p>
+<p>The financial case for a back-garden auxiliary dwelling turns entirely on the total project cost versus the rental yield. At €110,000 to €180,000 for an Irish-built finished unit, the payback period extends to seven to thirteen years of tax-free Rent-a-Room income. At €60,000 to €90,000 for a comparably specified factory-direct unit, CE-marked, Building-Regulations-compliant, craned into your garden in 14–18 weeks, the payback period is roughly four to six years. That assumes the unit qualifies for the full €14,000 Rent-a-Room exemption each year and the draft regulations are enacted as proposed, both of which you should confirm with your accountant and solicitor before relying on the figures.</p>
 
-<p>The saving is not on compliance — every Ériu Modular Homes unit ships CE-marked and Building-Regulations-specified. The saving is on the structural unit itself, sourced direct from the Henan Province factories that supply the same product to German, Dutch and French buyers at factory-gate prices, without a European intermediary margin.</p>
+<p>The saving is not on compliance, every Ériu Modular Homes unit ships CE-marked and Building-Regulations-specified. The saving is on the structural unit itself, sourced direct from the Henan Province factories that supply the same product to German, Dutch and French buyers at factory-gate prices, without a European intermediary margin.</p>
 
-<p>The April 2026 regulations created the market. Factory-direct sourcing makes the economics work at a scale that is genuinely accessible to the typical Irish homeowner — not just property developers.</p>`,
+<p>The April 2026 regulations created the market. Factory-direct sourcing makes the economics work at a scale that is genuinely accessible to the typical Irish homeowner, not just property developers.</p>`,
     excerpt: 'What actually changed on 21 April 2026, what the 45 m² auxiliary habitable dwelling exemption means in practice, why planning-exempt is not the same as building-regulations-exempt, and how to make the financial case work.',
     image: '/images/modular-homes-hero-back-garden-ireland.webp',
-    imageAlt: 'Modern modular back-garden home in Ireland — April 2026 exempted development regulations explained',
+    imageAlt: 'Modern modular back-garden home in Ireland, April 2026 exempted development regulations explained',
     sections: [
       'What the April 2026 regulations actually say',
       'The financial case: the Rent-a-Room yield',
-      'What planning exemption does not mean — building regulations still apply',
+      'What planning exemption does not mean, building regulations still apply',
       'The conditions that make a site eligible',
       'Insurance, LPT and mortgage angles',
       'Who is the right buyer for this right now?',
       'Why factory-direct from China makes the numbers work',
     ],
     faq: [
-      { q: 'Do I need planning permission for a modular home in my back garden under the April 2026 regulations?', a: 'Not under the draft regulations — if the unit is between 32 and 45 m², detached, in the back garden of your principal private residence, and connected to the principal house services, the draft April 2026 Exempted Development Regulations would exempt it from planning permission. The regulations remain in draft and are not yet enacted, so confirm the current position before you start. Either way you still need a Commencement Notice, Building Regulations compliance, and a BER certificate before occupation.' },
+      { q: 'Do I need planning permission for a modular home in my back garden under the April 2026 regulations?', a: 'Not under the draft regulations, if the unit is between 32 and 45 m², detached, in the back garden of your principal private residence, and connected to the principal house services, the draft April 2026 Exempted Development Regulations would exempt it from planning permission. The regulations remain in draft and are not yet enacted, so confirm the current position before you start. Either way you still need a Commencement Notice, Building Regulations compliance, and a BER certificate before occupation.' },
       { q: 'Can I rent out a back-garden modular home tax-free?', a: 'If the auxiliary dwelling is linked to the principal house services and occupied under the Rent-a-Room scheme, rental income up to €14,000 per year is exempt from income tax, USC and PRSI. The draft regulations are also proposed to carve the auxiliary dwelling out of the Residential Tenancies Acts when occupied under Rent-a-Room, though this depends on the final enacted wording. Confirm both the planning position and the tax treatment with your solicitor and accountant.' },
       { q: "Does planning exemption mean I don't need building regulations?", a: 'No. Planning exemption and building regulations exemption are separate legal frameworks. Every back-garden auxiliary habitable dwelling must meet the Irish Building Regulations (TGD Parts A–M), require a Commencement Notice, meet near-zero energy building (NZEB) performance for its BER, and have a Certificate of Compliance issued on completion. There is no exemption from building regulations for a residential structure.' },
-      { q: 'How much does a back-garden modular home cost in Ireland?', a: 'Irish-built units typically range from €110,000–€180,000 for a finished 2-bed 32–45 m² unit. Factory-direct units from Ériu Modular Homes, sourced from Henan Province and CE-compliant, typically land 25–45% below that figure. Site costs — foundation, crane, services connection, BER — are additional and broadly the same regardless of supplier.' },
+      { q: 'How much does a back-garden modular home cost in Ireland?', a: 'Irish-built units typically range from €110,000–€180,000 for a finished 2-bed 32–45 m² unit. Factory-direct units from Ériu Modular Homes, sourced from Henan Province and CE-compliant, typically land 25–45% below that figure. Site costs, foundation, crane, services connection, BER, are additional and broadly the same regardless of supplier.' },
     ],
     relatedSlugs: [],
     internalLinks: [
       { text: 'Modular home models and specifications', href: '/modular-homes/models/' },
-      { text: 'Back-garden homes — the planning exemption in detail', href: '/modular-homes/back-garden-homes-ireland/' },
+      { text: 'Back-garden homes, the planning exemption in detail', href: '/modular-homes/back-garden-homes-ireland/' },
       { text: 'Irish Building Regulations and modular homes', href: '/modular-homes/building-regulations-ireland/' },
       { text: 'What a modular home costs in Ireland 2026', href: '/modular-homes/cost/' },
       { text: 'Request a quote for your back-garden home', href: '/contact/' },
@@ -2012,7 +2012,7 @@ export const blogPosts = [
     slug: 'adult-children-living-at-home-ireland-garden-home',
     title: "Your Adult Child Can't Move Out. Your Back Garden Might Be the Answer.",
     metaTitle: "Adult Children Living at Home in Ireland: The Garden Option | Ériu",
-    metaDescription: "41% of Irish 18–34s still live with parents. A self-contained back-garden home — from €25,000, under the draft 2026 rules — is becoming the third option.",
+    metaDescription: "41% of Irish 18–34s still live with parents. A self-contained back-garden home, from €25,000, under the draft 2026 rules, is becoming the third option.",
     h1: "Your adult child can't move out. Your back garden might be the answer.",
     eyebrow: 'The Housing Squeeze',
     category: 'modular-homes',
@@ -2023,63 +2023,63 @@ export const blogPosts = [
     estimatedWordCount: 1250,
     publishDate: '2026-06-08',
     draft: false,
-    body: `<p>They're in their late twenties or early thirties. They're working — maybe doing well. And they're still in the box room they grew up in, because the maths of moving out simply won't close. The rent eats the deposit; the deposit never grows; another year goes by.</p>
+    body: `<p>They're in their late twenties or early thirties. They're working, maybe doing well. And they're still in the box room they grew up in, because the maths of moving out simply won't close. The rent eats the deposit; the deposit never grows; another year goes by.</p>
 
 <p>If that's your house, the first thing worth saying is: you are not unusual, and neither are they.</p>
 
 <h2>440,000 grown adults, and counting</h2>
 
-<p>In Census 2022, <strong>41% of Irish adults aged 18 to 34 were living with their parents</strong> — more than 440,000 people, up from 32% in 2011 (<a href="https://www.cso.ie/en/releasesandpublications/ep/p-cpp3/censusofpopulation2022profile3-householdsfamiliesandchildcare/adultslivingwiththeirparents/" target="_blank" rel="noopener noreferrer">CSO, Census 2022</a>). That isn't a generation that didn't try hard enough. It's a country tens of thousands of homes a year short, with rents past €2,000 a month in much of the State.</p>
+<p>In Census 2022, <strong>41% of Irish adults aged 18 to 34 were living with their parents</strong>, more than 440,000 people, up from 32% in 2011 (<a href="https://www.cso.ie/en/releasesandpublications/ep/p-cpp3/censusofpopulation2022profile3-householdsfamiliesandchildcare/adultslivingwiththeirparents/" target="_blank" rel="noopener noreferrer">CSO, Census 2022</a>). That isn't a generation that didn't try hard enough. It's a country tens of thousands of homes a year short, with rents past €2,000 a month in much of the State.</p>
 
 <p>For most parents there have only ever been two responses, and both hurt: hand over a deposit you can't really spare, or watch a capable adult stay stuck. As of 2026, there is a third.</p>
 
 <h2>The third option: a home of their own, twenty steps away</h2>
 
-<p>On 21 April 2026 the Government brought draft Exempted Development Regulations to Cabinet. If enacted as drafted, they create a new category of home — a detached, self-contained dwelling of 32 to 45 m² in the rear garden of a principal house — that would need no full planning permission where the conditions are met, including linking its services to the main house.</p>
+<p>On 21 April 2026 the Government brought draft Exempted Development Regulations to Cabinet. If enacted as drafted, they create a new category of home, a detached, self-contained dwelling of 32 to 45 m² in the rear garden of a principal house, that would need no full planning permission where the conditions are met, including linking its services to the main house.</p>
 
-<p>That is not a glorified shed. It's a real one-bedroom home: their own front door, their own kitchen, their own bathroom, their own life — close enough that family stays family, independent enough that they're finally living rather than waiting.</p>
+<p>That is not a glorified shed. It's a real one-bedroom home: their own front door, their own kitchen, their own bathroom, their own life, close enough that family stays family, independent enough that they're finally living rather than waiting.</p>
 
-<p>It is important to be straight about the status: these regulations are <strong>still in draft and not yet enacted</strong>, and they remain subject to environmental assessment. The sensible first step is always a site review against the current draft conditions — <a href="/modular-homes/auxiliary-dwelling-ireland/">we set out exactly what the rules say here</a>.</p>
+<p>It is important to be straight about the status: these regulations are <strong>still in draft and not yet enacted</strong>, and they remain subject to environmental assessment. The sensible first step is always a site review against the current draft conditions, <a href="/modular-homes/auxiliary-dwelling-ireland/">we set out exactly what the rules say here</a>.</p>
 
-<h2>For the price of a small car — not a deposit you'll never see again</h2>
+<h2>For the price of a small car, not a deposit you'll never see again</h2>
 
-<p>This is what makes it finally realistic for ordinary families: it doesn't cost what a house costs. A unit like the Ériu 20ft Expandable — which opens to roughly 34 m² in a single working day — <strong>starts from €25,000 delivered</strong> for a basic but livable specification, including sea freight and simple furniture, and finishes up to a fully-fitted, compliant, A2-BER home for a fraction of the €110,000–€180,000 an Irish-built equivalent typically costs.</p>
+<p>This is what makes it finally realistic for ordinary families: it doesn't cost what a house costs. A unit like the Ériu 20ft Expandable, which opens to roughly 34 m² in a single working day, <strong>starts from €25,000 delivered</strong> for a basic but livable specification, including sea freight and simple furniture, and finishes up to a fully-fitted, compliant, A2-BER home for a fraction of the €110,000–€180,000 an Irish-built equivalent typically costs.</p>
 
-<p>Because the foundation, crane, services connection and BER differ from one garden to the next, there is no single all-in figure to quote honestly — so we model the exact number for your site and itemise every line. What's certain is the comparison most parents come back to: a deposit handed over is gone, while a home built on your own ground is an asset that stays in the family and keeps working long after they've found their feet.</p>
+<p>Because the foundation, crane, services connection and BER differ from one garden to the next, there is no single all-in figure to quote honestly, so we model the exact number for your site and itemise every line. What's certain is the comparison most parents come back to: a deposit handed over is gone, while a home built on your own ground is an asset that stays in the family and keeps working long after they've found their feet.</p>
 
-<p>If you want to see the buyer's-eye version of all this — the layouts, the spec, and how families are using it — <a href="/modular-homes/home-for-adult-children-ireland/">we've laid it out on one page here</a>.</p>
+<p>If you want to see the buyer's-eye version of all this, the layouts, the spec, and how families are using it, <a href="/modular-homes/home-for-adult-children-ireland/">we've laid it out on one page here</a>.</p>
 
-<h2>What it takes — told straight</h2>
+<h2>What it takes, told straight</h2>
 
 <p>We would rather you knew this now than after you'd signed. Two things matter most:</p>
 
 <ul>
   <li><strong>Planning-exempt is not building-regulations-exempt.</strong> Even under the draft rules, a back-garden home still needs a Commencement Notice, services connected from your house, a foundation, and a BER on completion. Every Ériu unit is specified to the Irish Building Regulations (TGD Parts A–M) and ships with a full compliance pack; our vetted Irish installer network handles the site phase. <a href="/modular-homes/building-regulations-ireland/">Here's exactly what that involves.</a></li>
-  <li><strong>The mortgage point.</strong> Most Irish lenders will not currently mortgage a property that has a second self-contained dwelling on the same title, which can affect remortgaging and resale. Many families therefore fund the unit from savings, a credit union loan or a personal loan rather than the house mortgage. We provide a written briefing on this with every quote — and you should confirm the position with your solicitor.</li>
+  <li><strong>The mortgage point.</strong> Most Irish lenders will not currently mortgage a property that has a second self-contained dwelling on the same title, which can affect remortgaging and resale. Many families therefore fund the unit from savings, a credit union loan or a personal loan rather than the house mortgage. We provide a written briefing on this with every quote, and you should confirm the position with your solicitor.</li>
 </ul>
 
-<p>None of that is a reason not to do it. It's the difference between a complete, lawful, occupiable home and a box with a problem attached — which is the whole reason to buy from an Irish-owned company that inspects every unit in person and answers the phone here.</p>
+<p>None of that is a reason not to do it. It's the difference between a complete, lawful, occupiable home and a box with a problem attached, which is the whole reason to buy from an Irish-owned company that inspects every unit in person and answers the phone here.</p>
 
 <p>If your back garden is big enough, the box room might not have to be forever.</p>`,
-    excerpt: 'With 41% of Irish 18–34s still living at home, a self-contained back-garden home — built under the draft 2026 rules — has become a realistic third option for parents. What it is, what it costs, and what it takes.',
+    excerpt: 'With 41% of Irish 18–34s still living at home, a self-contained back-garden home, built under the draft 2026 rules, has become a realistic third option for parents. What it is, what it costs, and what it takes.',
     image: '/images/modular-homes-interior.webp',
-    imageAlt: 'A clean, fully-fitted modular kitchen — a self-contained back-garden home for an adult child in Ireland',
+    imageAlt: 'A clean, fully-fitted modular kitchen, a self-contained back-garden home for an adult child in Ireland',
     sections: [
       'The scale of the problem: 440,000 adults living at home',
       'The third option: a self-contained back-garden home',
-      'What it costs — and why it is site-specific',
+      'What it costs, and why it is site-specific',
       'What it takes: building regs, services and the mortgage point',
     ],
     faq: [
-      { q: 'Can I legally build a home for my adult child in my back garden?', a: 'Under the draft April 2026 Exempted Development Regulations — which are subject to environmental assessment and not yet enacted — a detached self-contained dwelling of 32 to 45 m² in the rear garden of a principal house could be built without full planning permission where the conditions are met, including linking services to the main house. It must still meet the Irish Building Regulations and carry a BER. Start with a site review against the current draft conditions, and confirm the position with your local authority and solicitor.' },
-      { q: 'How much would a back-garden home for my son or daughter cost?', a: 'A unit like the Ériu 20ft Expandable starts from €25,000 delivered for a basic livable specification and finishes up to a fully-fitted, compliant A2 home for a fraction of the €110,000–€180,000 an Irish-built equivalent costs. Site works — foundation, crane, services, BER — vary per garden, so the all-in installed figure is project-specific and itemised in your quote.' },
+      { q: 'Can I legally build a home for my adult child in my back garden?', a: 'Under the draft April 2026 Exempted Development Regulations, which are subject to environmental assessment and not yet enacted, a detached self-contained dwelling of 32 to 45 m² in the rear garden of a principal house could be built without full planning permission where the conditions are met, including linking services to the main house. It must still meet the Irish Building Regulations and carry a BER. Start with a site review against the current draft conditions, and confirm the position with your local authority and solicitor.' },
+      { q: 'How much would a back-garden home for my son or daughter cost?', a: 'A unit like the Ériu 20ft Expandable starts from €25,000 delivered for a basic livable specification and finishes up to a fully-fitted, compliant A2 home for a fraction of the €110,000–€180,000 an Irish-built equivalent costs. Site works, foundation, crane, services, BER, vary per garden, so the all-in installed figure is project-specific and itemised in your quote.' },
       { q: 'Will building a second home in the garden affect my mortgage?', a: 'Most Irish lenders will not currently mortgage a property that contains a second self-contained dwelling on the same title, which can affect remortgaging and resale. Many families fund the unit from savings or other finance rather than the house mortgage. We provide a written briefing on this with every quote and recommend you confirm the position with your solicitor.' },
     ],
     relatedSlugs: ['ireland-april-2026-back-garden-home-rules-explained', 'rent-a-room-garden-home-tax-free-income-ireland', 'downsizing-stay-on-family-land-ireland'],
     internalLinks: [
-      { text: 'A home for your adult children — see how it works', href: '/modular-homes/home-for-adult-children-ireland/' },
+      { text: 'A home for your adult children, see how it works', href: '/modular-homes/home-for-adult-children-ireland/' },
       { text: 'The April 2026 back-garden rules, explained', href: '/modular-homes/auxiliary-dwelling-ireland/' },
-      { text: 'The 20ft Expandable — layouts and specification', href: '/modular-homes/models/20ft-expandable/' },
+      { text: 'The 20ft Expandable, layouts and specification', href: '/modular-homes/models/20ft-expandable/' },
       { text: 'What a back-garden home costs in Ireland', href: '/modular-homes/cost/' },
       { text: 'Request a site review', href: '/contact/?interest=modular-quote' },
     ],
@@ -2104,7 +2104,7 @@ export const blogPosts = [
 
 <h2>Two rules that have never lined up before</h2>
 
-<p>Draft planning regulations brought to Cabinet in April 2026 would, if enacted as drafted, let you place a self-contained 32–45 m² home in your rear garden with no full planning permission where the conditions are met. Separately, the long-standing Rent-a-Room scheme lets a homeowner earn up to €14,000 a year from a tenant — exempt from income tax, USC and PRSI.</p>
+<p>Draft planning regulations brought to Cabinet in April 2026 would, if enacted as drafted, let you place a self-contained 32–45 m² home in your rear garden with no full planning permission where the conditions are met. Separately, the long-standing Rent-a-Room scheme lets a homeowner earn up to €14,000 a year from a tenant, exempt from income tax, USC and PRSI.</p>
 
 <p>Put a self-contained garden home together with the Rent-a-Room scheme and, for the first time, those two things line up. For a homeowner with a usable garden and some capital, that's not a renovation project. It's an income stream parked on ground you already own.</p>
 
@@ -2112,28 +2112,28 @@ export const blogPosts = [
 
 <h2>The honest version of the maths</h2>
 
-<p>Let a fully-fitted unit to a single tenant or a couple at, say, €1,150 a month, and that's <strong>€13,800 a year</strong> — just under the €14,000 ceiling. If that income qualifies under the scheme, the saving versus taxed rental income, for a higher-rate taxpayer, is in the order of €5,500 income tax, €1,100 USC and €550 PRSI.</p>
+<p>Let a fully-fitted unit to a single tenant or a couple at, say, €1,150 a month, and that's <strong>€13,800 a year</strong>, just under the €14,000 ceiling. If that income qualifies under the scheme, the saving versus taxed rental income, for a higher-rate taxpayer, is in the order of €5,500 income tax, €1,100 USC and €550 PRSI.</p>
 
-<p>What we will not do is print a single headline "yield %". Here's why that would be dishonest: your yield is simply €13,800 divided by your all-in installed cost, and that cost depends on your foundation, crane, services run and BER — all of which vary from one garden to the next. The only honest figure is the one run against a real quote for your site, so <a href="/modular-homes/rental-income-garden-home-ireland/">we model your exact yield and payback for you</a>, with every cost line shown.</p>
+<p>What we will not do is print a single headline "yield %". Here's why that would be dishonest: your yield is simply €13,800 divided by your all-in installed cost, and that cost depends on your foundation, crane, services run and BER, all of which vary from one garden to the next. The only honest figure is the one run against a real quote for your site, so <a href="/modular-homes/rental-income-garden-home-ireland/">we model your exact yield and payback for you</a>, with every cost line shown.</p>
 
 <p>The reason the ratio tends to be strong is the entry price, not spin: a unit like the Ériu 20ft Expandable starts from €25,000 delivered and reaches a fully-fitted, rentable, A2-BER home at a fraction of the €110,000–€180,000 an Irish-built equivalent costs. Lower cost in, same €14,000 ceiling out.</p>
 
-<h2>What a serious investor needs to know — told straight</h2>
+<h2>What a serious investor needs to know, told straight</h2>
 
 <p>An income stream is only as good as its legality and its risks. Three things to weigh:</p>
 
 <ul>
-  <li><strong>The RTA carve-out is proposed, not certain.</strong> The draft rules would carve the auxiliary dwelling out of the Residential Tenancies Acts when let under Rent-a-Room — meaning no RTB registration and no rent-pressure-zone limits. That's a genuine operational advantage over a conventional rental <em>if enacted as drafted</em>. Treat it as proposed until the final wording is law.</li>
-  <li><strong>LPT and insurance.</strong> The unit is expected to get its own LPT band, and your home insurance must be updated to declare the structure — or you risk invalidating cover on the main house. Most insurers quote an uplift rather than a separate policy.</li>
+  <li><strong>The RTA carve-out is proposed, not certain.</strong> The draft rules would carve the auxiliary dwelling out of the Residential Tenancies Acts when let under Rent-a-Room, meaning no RTB registration and no rent-pressure-zone limits. That's a genuine operational advantage over a conventional rental <em>if enacted as drafted</em>. Treat it as proposed until the final wording is law.</li>
+  <li><strong>LPT and insurance.</strong> The unit is expected to get its own LPT band, and your home insurance must be updated to declare the structure, or you risk invalidating cover on the main house. Most insurers quote an uplift rather than a separate policy.</li>
   <li><strong>Mortgage and resale.</strong> Most Irish lenders will not currently mortgage a property with a second self-contained dwelling on the same title, which has resale and portability implications. Many investors fund the unit through other finance to ring-fence the house mortgage.</li>
 </ul>
 
 <p>We provide a written LPT, insurance and mortgage briefing with every quote, and we'd always say have your solicitor review it. The compliance matters to the income, too: a unit that isn't lawfully occupiable can't be lawfully let, which is why every Ériu home is specified to the Building Regulations and supplied A2-BER-ready with a full compliance pack. <a href="/modular-homes/building-regulations-ireland/">Here's what that covers.</a></p>
 
-<p>The April 2026 rules created the opening. Whether it's a good investment for you comes down to your site and your numbers — so start there, not with a headline.</p>`,
-    excerpt: "Up to €14,000 a year tax-free under the Rent-a-Room scheme, from a self-contained home on ground you already own. The honest yield maths — why we won't print a single headline percentage — and the caveats that matter.",
+<p>The April 2026 rules created the opening. Whether it's a good investment for you comes down to your site and your numbers, so start there, not with a headline.</p>`,
+    excerpt: "Up to €14,000 a year tax-free under the Rent-a-Room scheme, from a self-contained home on ground you already own. The honest yield maths, why we won't print a single headline percentage, and the caveats that matter.",
     image: '/images/modular-homes-hero-back-garden-ireland.webp',
-    imageAlt: 'A modular back-garden home in Ireland let under the Rent-a-Room scheme — tax-free rental income from an asset you already own',
+    imageAlt: 'A modular back-garden home in Ireland let under the Rent-a-Room scheme, tax-free rental income from an asset you already own',
     sections: [
       'Two rules that have never lined up before',
       'The honest version of the yield maths',
@@ -2141,13 +2141,13 @@ export const blogPosts = [
       'What a serious investor needs to know: RTA, LPT, insurance, mortgage',
     ],
     faq: [
-      { q: 'Can I earn tax-free income from a home in my back garden in Ireland?', a: 'Where a self-contained garden dwelling is linked to your principal house services, rental income from a tenant may fall under the Rent-a-Room scheme — up to €14,000 a year exempt from income tax, USC and PRSI. The draft 2026 regulations are also proposed to carve the dwelling out of the Residential Tenancies Acts. The regulations remain in draft and Rent-a-Room treatment depends on your circumstances, so confirm both the planning and tax positions with a qualified accountant and solicitor.' },
-      { q: 'What yield will a garden rental home produce?', a: 'The yield is the tax-free rent (up to €14,000 a year) divided by your all-in installed cost, so it depends on what you spend. Because a factory-direct unit starts from €25,000 delivered and finishes well below an Irish-built equivalent, the ratio is strong — but the only honest figure is the one modelled against a real quote for your site, which we provide.' },
-      { q: 'Do RTB rules and rent-pressure-zone limits apply?', a: 'The draft 2026 regulations are proposed to carve the auxiliary dwelling out of the Residential Tenancies Acts when let under Rent-a-Room — so RTB registration and rent-pressure-zone rules would not apply if enacted as drafted. Treat this as proposed, not certain, until the final wording is enacted, and confirm with your solicitor.' },
+      { q: 'Can I earn tax-free income from a home in my back garden in Ireland?', a: 'Where a self-contained garden dwelling is linked to your principal house services, rental income from a tenant may fall under the Rent-a-Room scheme, up to €14,000 a year exempt from income tax, USC and PRSI. The draft 2026 regulations are also proposed to carve the dwelling out of the Residential Tenancies Acts. The regulations remain in draft and Rent-a-Room treatment depends on your circumstances, so confirm both the planning and tax positions with a qualified accountant and solicitor.' },
+      { q: 'What yield will a garden rental home produce?', a: 'The yield is the tax-free rent (up to €14,000 a year) divided by your all-in installed cost, so it depends on what you spend. Because a factory-direct unit starts from €25,000 delivered and finishes well below an Irish-built equivalent, the ratio is strong, but the only honest figure is the one modelled against a real quote for your site, which we provide.' },
+      { q: 'Do RTB rules and rent-pressure-zone limits apply?', a: 'The draft 2026 regulations are proposed to carve the auxiliary dwelling out of the Residential Tenancies Acts when let under Rent-a-Room, so RTB registration and rent-pressure-zone rules would not apply if enacted as drafted. Treat this as proposed, not certain, until the final wording is enacted, and confirm with your solicitor.' },
     ],
     relatedSlugs: ['ireland-april-2026-back-garden-home-rules-explained', 'adult-children-living-at-home-ireland-garden-home', 'downsizing-stay-on-family-land-ireland'],
     internalLinks: [
-      { text: 'Tax-free rental income from a garden home — and your modelled yield', href: '/modular-homes/rental-income-garden-home-ireland/' },
+      { text: 'Tax-free rental income from a garden home, and your modelled yield', href: '/modular-homes/rental-income-garden-home-ireland/' },
       { text: 'The April 2026 back-garden rules, explained', href: '/modular-homes/auxiliary-dwelling-ireland/' },
       { text: 'Building Regulations and your compliance pack', href: '/modular-homes/building-regulations-ireland/' },
       { text: 'What a back-garden home costs in Ireland', href: '/modular-homes/cost/' },
@@ -2157,10 +2157,10 @@ export const blogPosts = [
 
   {
     slug: 'affordable-permanent-home-own-site-ireland',
-    title: "A Real Home, Built to Last 30 Years — for a Fraction of an Irish Build",
+    title: "A Real Home, Built to Last 30 Years, for a Fraction of an Irish Build",
     metaTitle: "Affordable Permanent Modular Home on Your Own Site Ireland | Ériu",
-    metaDescription: "Not a garden room — the actual home on your own site. Irish Building Regs, A2 BER, a 30-year warranty, in 14–18 weeks for a fraction of a conventional build.",
-    h1: "A real home, built to last 30 years — for a fraction of an Irish build",
+    metaDescription: "Not a garden room, the actual home on your own site. Irish Building Regs, A2 BER, a 30-year warranty, in 14–18 weeks for a fraction of a conventional build.",
+    h1: "A real home, built to last 30 years, for a fraction of an Irish build",
     eyebrow: 'The Self-Build Alternative',
     category: 'modular-homes',
     primaryKeyword: 'affordable permanent home own site Ireland',
@@ -2170,36 +2170,36 @@ export const blogPosts = [
     estimatedWordCount: 1200,
     publishDate: '2026-06-08',
     draft: false,
-    body: `<p>Not everyone wants a garden room. Some people want the actual home — on their own site, with planning, to live in for good. And the thing that has always stood in the way isn't the desire. It's the build.</p>
+    body: `<p>Not everyone wants a garden room. Some people want the actual home, on their own site, with planning, to live in for good. And the thing that has always stood in the way isn't the desire. It's the build.</p>
 
 <p>An Irish-built modular home runs €110,000 to €180,000, takes the best part of a year, and drains the budget before the kitchen is in. For a first-time buyer or a self-builder, that gap is often the difference between a home and a wait. There's now a way to change the price and the timeline without touching the standard.</p>
 
 <h2>What you actually get</h2>
 
-<p>A unit like the Ériu 20ft Expandable arrives folded on one lorry and opens to roughly 34 m² in a single working day. It's specified to the Irish Building Regulations, achieves an A2 BER on a correctly installed unit, and is finished to your tier — a real, warm, permanent home, not a portacabin.</p>
+<p>A unit like the Ériu 20ft Expandable arrives folded on one lorry and opens to roughly 34 m² in a single working day. It's specified to the Irish Building Regulations, achieves an A2 BER on a correctly installed unit, and is finished to your tier, a real, warm, permanent home, not a portacabin.</p>
 
-<p>It starts from <strong>€25,000 delivered</strong> and reaches a fully-fitted, compliant home for a fraction of the Irish-built figure. Because the site works vary, the exact all-in number is project-specific and itemised in your quote — but where a conventional build takes nine to twelve months, an Ériu project typically installs in <strong>14 to 18 weeks</strong> from order. For most people, the time saved matters as much as the money. <a href="/modular-homes/permanent-modular-home-ireland/">Here's the full picture for a home on your own site.</a></p>
+<p>It starts from <strong>€25,000 delivered</strong> and reaches a fully-fitted, compliant home for a fraction of the Irish-built figure. Because the site works vary, the exact all-in number is project-specific and itemised in your quote, but where a conventional build takes nine to twelve months, an Ériu project typically installs in <strong>14 to 18 weeks</strong> from order. For most people, the time saved matters as much as the money. <a href="/modular-homes/permanent-modular-home-ireland/">Here's the full picture for a home on your own site.</a></p>
 
-<p>One honest distinction: on a site of your own, the back-garden auxiliary-dwelling exemption does <strong>not</strong> apply — you will typically need planning permission for a dwelling on its own site. We confirm which route applies at the eligibility review and won't sell you a unit you can't lawfully site.</p>
+<p>One honest distinction: on a site of your own, the back-garden auxiliary-dwelling exemption does <strong>not</strong> apply, you will typically need planning permission for a dwelling on its own site. We confirm which route applies at the eligibility review and won't sell you a unit you can't lawfully site.</p>
 
 <h2>The 30-year question: will it last?</h2>
 
 <p>This is the real objection to anything imported, and it deserves a real answer rather than a brochure line.</p>
 
-<p>Every Ériu home is built on a channel-steel base frame, with insulated sandwich panels (upgradeable to PIR for Part L), double-glazed aluminium openings, and — critically — it is specified for the Irish climate <em>before</em> it's built. The U-values, the cladding lap details, the roof falls and the air-tightness are all set for wet, windy, frost-prone conditions, not for somewhere drier.</p>
+<p>Every Ériu home is built on a channel-steel base frame, with insulated sandwich panels (upgradeable to PIR for Part L), double-glazed aluminium openings, and, critically, it is specified for the Irish climate <em>before</em> it's built. The U-values, the cladding lap details, the roof falls and the air-tightness are all set for wet, windy, frost-prone conditions, not for somewhere drier.</p>
 
-<p>It carries a <strong>30-year anti-corrosion warranty</strong> — given by the factory and carried by Ériu, so the cover is held here in Ireland. It's photographed at the factory, again at Dublin Port, and again on site before craning, and it's supplied with the full Building Regulations compliance pack. That's the point of buying from an Irish-owned company that inspects every unit in person: when you've a question in year three, you're ringing Ireland, not an anonymous listing.</p>
+<p>It carries a <strong>30-year anti-corrosion warranty</strong>, given by the factory and carried by Ériu, so the cover is held here in Ireland. It's photographed at the factory, again at Dublin Port, and again on site before craning, and it's supplied with the full Building Regulations compliance pack. That's the point of buying from an Irish-owned company that inspects every unit in person: when you've a question in year three, you're ringing Ireland, not an anonymous listing.</p>
 
-<h2>How it's this affordable — no mystery, no cut corners</h2>
+<h2>How it's this affordable, no mystery, no cut corners</h2>
 
-<p>The saving comes from one place. Our founder, Noel, has been an Irish sourcing agent based in Henan since 2008. We buy direct from the factories that build these homes — the same ones supplying European projects — inspect each one ourselves, and remove the European intermediary margin. Same steel, same insulation, same compliance, direct pricing.</p>
+<p>The saving comes from one place. Our founder, Noel, has been an Irish sourcing agent based in Henan since 2008. We buy direct from the factories that build these homes, the same ones supplying European projects, inspect each one ourselves, and remove the European intermediary margin. Same steel, same insulation, same compliance, direct pricing.</p>
 
-<p>The honest checklist for a home on a site is short and we'll map it before you commit a euro: a foundation to suit your ground, services connected, a Commencement Notice, a BER on completion, and — outside the back-garden exemption — almost always planning permission. Our installer network handles the site works and we co-ordinate the compliance paperwork, so what you end up with is a certified, occupiable home.</p>
+<p>The honest checklist for a home on a site is short and we'll map it before you commit a euro: a foundation to suit your ground, services connected, a Commencement Notice, a BER on completion, and, outside the back-garden exemption, almost always planning permission. Our installer network handles the site works and we co-ordinate the compliance paperwork, so what you end up with is a certified, occupiable home.</p>
 
 <p>A real home doesn't have to mean a real wait, or a price that closes the door before you reach it.</p>`,
-    excerpt: 'The actual home, on your own site — built to the Irish Building Regulations with an A2 BER and a 30-year warranty, installed in 14–18 weeks, for a fraction of a conventional build. Including an honest answer to the durability question.',
+    excerpt: 'The actual home, on your own site, built to the Irish Building Regulations with an A2 BER and a 30-year warranty, installed in 14–18 weeks, for a fraction of a conventional build. Including an honest answer to the durability question.',
     image: '/images/modular-homes-40ft-expandable.webp',
-    imageAlt: 'A permanent steel-frame modular home on its own site in Ireland — built to last with a 30-year anti-corrosion warranty',
+    imageAlt: 'A permanent steel-frame modular home on its own site in Ireland, built to last with a 30-year anti-corrosion warranty',
     sections: [
       'What you actually get for the money',
       'The planning distinction on your own site',
@@ -2207,15 +2207,15 @@ export const blogPosts = [
       'How factory-direct sourcing makes it affordable',
     ],
     faq: [
-      { q: 'Can a modular home be a genuine permanent home on my own site?', a: 'Yes. A steel-frame modular home specified to the Irish Building Regulations (TGD Parts A–M) with an A2 BER is a genuine permanent dwelling. On your own site — as opposed to a back garden — the back-garden exemption does not apply and you will typically need planning permission. We confirm which route applies at the eligibility review.' },
-      { q: 'Will an imported modular home survive the Irish climate?', a: 'Every Ériu home is built on a channel-steel base frame with insulated sandwich panels, double-glazed aluminium openings, and is specified for the Irish climate before it is built — U-values, cladding details, roof falls and air-tightness set for wet, windy, frost-prone conditions. It carries a 30-year anti-corrosion warranty, given by the factory and carried by Ériu, and ships with a full compliance pack.' },
-      { q: 'How does the cost and timeline compare with a conventional build?', a: 'A factory-direct unit starts from €25,000 delivered and finishes for a fraction of the €110,000–€180,000 an Irish-built modular home typically costs, installing in around 14 to 18 weeks from order versus the best part of a year for a conventional build. Site works — foundation, services, BER — are additional and itemised in your quote.' },
+      { q: 'Can a modular home be a genuine permanent home on my own site?', a: 'Yes. A steel-frame modular home specified to the Irish Building Regulations (TGD Parts A–M) with an A2 BER is a genuine permanent dwelling. On your own site, as opposed to a back garden, the back-garden exemption does not apply and you will typically need planning permission. We confirm which route applies at the eligibility review.' },
+      { q: 'Will an imported modular home survive the Irish climate?', a: 'Every Ériu home is built on a channel-steel base frame with insulated sandwich panels, double-glazed aluminium openings, and is specified for the Irish climate before it is built, U-values, cladding details, roof falls and air-tightness set for wet, windy, frost-prone conditions. It carries a 30-year anti-corrosion warranty, given by the factory and carried by Ériu, and ships with a full compliance pack.' },
+      { q: 'How does the cost and timeline compare with a conventional build?', a: 'A factory-direct unit starts from €25,000 delivered and finishes for a fraction of the €110,000–€180,000 an Irish-built modular home typically costs, installing in around 14 to 18 weeks from order versus the best part of a year for a conventional build. Site works, foundation, services, BER, are additional and itemised in your quote.' },
     ],
     relatedSlugs: ['ireland-april-2026-back-garden-home-rules-explained', 'adult-children-living-at-home-ireland-garden-home', 'rent-a-room-garden-home-tax-free-income-ireland'],
     internalLinks: [
-      { text: 'A permanent home on your own site — see how it works', href: '/modular-homes/permanent-modular-home-ireland/' },
+      { text: 'A permanent home on your own site, see how it works', href: '/modular-homes/permanent-modular-home-ireland/' },
       { text: 'Building Regulations, BER and the compliance pack', href: '/modular-homes/building-regulations-ireland/' },
-      { text: 'The 20ft Expandable — layouts and specification', href: '/modular-homes/models/20ft-expandable/' },
+      { text: 'The 20ft Expandable, layouts and specification', href: '/modular-homes/models/20ft-expandable/' },
       { text: 'What a modular home costs in Ireland', href: '/modular-homes/cost/' },
       { text: 'Request a quote for your site', href: '/contact/?interest=modular-quote' },
     ],
@@ -2225,7 +2225,7 @@ export const blogPosts = [
     slug: 'downsizing-stay-on-family-land-ireland',
     title: "Downsizing in Ireland Doesn't Have to Mean Leaving",
     metaTitle: "Downsizing Without Leaving Home: The Garden Option Ireland | Ériu",
-    metaDescription: "Rightsize without giving up the family home or the area — a single-storey, level-access garden home from €25,000, built under the draft 2026 rules.",
+    metaDescription: "Rightsize without giving up the family home or the area, a single-storey, level-access garden home from €25,000, built under the draft 2026 rules.",
     h1: "Downsizing in Ireland doesn't have to mean leaving",
     eyebrow: 'Rightsizing',
     category: 'modular-homes',
@@ -2238,46 +2238,46 @@ export const blogPosts = [
     draft: false,
     body: `<p>Downsizing in Ireland has usually meant a hard trade: give up the family home, leave the area, move somewhere smaller and further from everyone you know. No wonder so many people put it off for years.</p>
 
-<p>There's a gentler option now — and the State is actively encouraging it. By 2030 there will be <strong>over a million people aged 65 and older</strong> in Ireland, up from around 780,000 in 2022 (<a href="https://www.cso.ie/en/releasesandpublications/ep/p-plfp/populationandlabourforceprojections2023-2057/" target="_blank" rel="noopener noreferrer">CSO, Population &amp; Labour Force Projections 2023–2057</a>), and policy is pushing "rightsizing" to free up larger homes for growing families. The same draft 2026 planning rules that allow a back-garden home make it possible to do that without going anywhere at all.</p>
+<p>There's a gentler option now, and the State is actively encouraging it. By 2030 there will be <strong>over a million people aged 65 and older</strong> in Ireland, up from around 780,000 in 2022 (<a href="https://www.cso.ie/en/releasesandpublications/ep/p-plfp/populationandlabourforceprojections2023-2057/" target="_blank" rel="noopener noreferrer">CSO, Population &amp; Labour Force Projections 2023–2057</a>), and policy is pushing "rightsizing" to free up larger homes for growing families. The same draft 2026 planning rules that allow a back-garden home make it possible to do that without going anywhere at all.</p>
 
 <h2>Your own home, on the family land</h2>
 
-<p>Picture a self-contained home of about 34 m² — bedroom, bathroom, a proper kitchen-living room — in the garden of a family home. Single-storey, no stairs, a level threshold, and door widths built to the access requirements of the Building Regulations (TGD Part M). Independence and privacy, with family a few steps away rather than a drive across the county.</p>
+<p>Picture a self-contained home of about 34 m², bedroom, bathroom, a proper kitchen-living room, in the garden of a family home. Single-storey, no stairs, a level threshold, and door widths built to the access requirements of the Building Regulations (TGD Part M). Independence and privacy, with family a few steps away rather than a drive across the county.</p>
 
 <p>It can work either way round. A parent moves into the garden home while a son or daughter's family takes the main house; or the parent keeps the main house and the adult child takes the unit. Either way the big house is used, and nobody has to leave the place they've spent a life in. <a href="/modular-homes/downsizing-granny-flat-ireland/">We've set out the full picture for downsizers here.</a></p>
 
-<p>As with any back-garden home, this falls under the draft April 2026 exemption, which is subject to environmental assessment and <strong>not yet enacted</strong> — so we review every site against the current draft conditions first.</p>
+<p>As with any back-garden home, this falls under the draft April 2026 exemption, which is subject to environmental assessment and <strong>not yet enacted</strong>, so we review every site against the current draft conditions first.</p>
 
 <h2>Gentle on a fixed budget</h2>
 
-<p>This matters more when you're not earning what you once did. A unit like the Ériu 20ft Expandable starts from <strong>€25,000 delivered</strong> for a basic livable specification and finishes up to a fully-fitted, compliant A2 home for a fraction of the €110,000–€180,000 an Irish-built unit costs — well within reach of savings or the proceeds of freeing up the main house. The exact installed figure depends on your garden and is itemised in your quote.</p>
+<p>This matters more when you're not earning what you once did. A unit like the Ériu 20ft Expandable starts from <strong>€25,000 delivered</strong> for a basic livable specification and finishes up to a fully-fitted, compliant A2 home for a fraction of the €110,000–€180,000 an Irish-built unit costs, well within reach of savings or the proceeds of freeing up the main house. The exact installed figure depends on your garden and is itemised in your quote.</p>
 
-<p>Because lenders treat a second dwelling on the same title carefully, we always recommend a quick word with your solicitor, and we provide a written briefing with every quote — but in most cases the family home's title isn't disturbed.</p>
+<p>Because lenders treat a second dwelling on the same title carefully, we always recommend a quick word with your solicitor, and we provide a written briefing with every quote, but in most cases the family home's title isn't disturbed.</p>
 
 <h2>Warm, easy, and built to last</h2>
 
-<p>A home for later life has to be warm, easy and built to last. Every Ériu unit is specified to the Irish Building Regulations, achieves an A2 BER on a correctly installed unit with a heat pump — warm and cheap to run — is weatherproofed for the Irish climate, and carries a 30-year anti-corrosion warranty, given by the factory and carried by Ériu. Single-storey throughout, with level access designed in.</p>
+<p>A home for later life has to be warm, easy and built to last. Every Ériu unit is specified to the Irish Building Regulations, achieves an A2 BER on a correctly installed unit with a heat pump, warm and cheap to run, is weatherproofed for the Irish climate, and carries a 30-year anti-corrosion warranty, given by the factory and carried by Ériu. Single-storey throughout, with level access designed in.</p>
 
-<p>And it's supplied by an Irish-owned company that inspects every unit in person and answers the phone here — which counts for a great deal when it's a home for someone you love. The site phase — foundation, services from the main house, Commencement Notice and BER — is handled by our vetted Irish installer network, with the paperwork co-ordinated across both phases.</p>
+<p>And it's supplied by an Irish-owned company that inspects every unit in person and answers the phone here, which counts for a great deal when it's a home for someone you love. The site phase, foundation, services from the main house, Commencement Notice and BER, is handled by our vetted Irish installer network, with the paperwork co-ordinated across both phases.</p>
 
 <p>Downsizing shouldn't cost you the people and the place you love. On the family land, it doesn't have to.</p>`,
-    excerpt: "With over a million people aged 65+ by 2030, the State is encouraging rightsizing. A single-storey, level-access garden home lets you downsize without leaving the family home or the area — here's how it works.",
+    excerpt: "With over a million people aged 65+ by 2030, the State is encouraging rightsizing. A single-storey, level-access garden home lets you downsize without leaving the family home or the area, here's how it works.",
     image: '/images/granny-flat-auxiliary-dwelling-ireland-back-garden.webp',
-    imageAlt: 'A single-storey, level-access granny flat in an Irish back garden — downsizing without leaving the family land',
+    imageAlt: 'A single-storey, level-access granny flat in an Irish back garden, downsizing without leaving the family land',
     sections: [
-      'Why downsizing has meant leaving — and why it no longer has to',
+      'Why downsizing has meant leaving, and why it no longer has to',
       'Your own home on the family land, either way round',
       'Gentle on a fixed budget',
       'Warm, level-access, and built to last',
     ],
     faq: [
-      { q: 'Can I build a granny flat in the garden to downsize into?', a: 'Under the draft April 2026 Exempted Development Regulations — subject to environmental assessment and not yet enacted — a detached self-contained dwelling of 32 to 45 m² in the rear garden of a principal house could be built without full planning permission where the conditions are met, including linking services to the main house. It must still meet the Irish Building Regulations and carry a BER. We review every site against the current draft conditions first.' },
+      { q: 'Can I build a granny flat in the garden to downsize into?', a: 'Under the draft April 2026 Exempted Development Regulations, subject to environmental assessment and not yet enacted, a detached self-contained dwelling of 32 to 45 m² in the rear garden of a principal house could be built without full planning permission where the conditions are met, including linking services to the main house. It must still meet the Irish Building Regulations and carry a BER. We review every site against the current draft conditions first.' },
       { q: 'Is a garden home suitable for older people?', a: 'Yes. The unit is single-storey with no stairs, a level threshold, and door widths built to the access requirements of the Building Regulations (TGD Part M). It achieves an A2 BER on a correctly installed unit with a heat pump, so it is warm and cheap to run, and carries a 30-year anti-corrosion warranty.' },
       { q: 'Will it affect the family home if we put a unit in the garden?', a: 'In most cases the family home title is not disturbed, but because lenders treat a second self-contained dwelling on the same title carefully, we recommend confirming the position with your solicitor. We provide a written briefing on title, LPT, insurance and lender considerations with every quote.' },
     ],
     relatedSlugs: ['ireland-april-2026-back-garden-home-rules-explained', 'adult-children-living-at-home-ireland-garden-home', 'rent-a-room-garden-home-tax-free-income-ireland'],
     internalLinks: [
-      { text: 'Downsizing and granny-flat garden homes — see how it works', href: '/modular-homes/downsizing-granny-flat-ireland/' },
+      { text: 'Downsizing and granny-flat garden homes, see how it works', href: '/modular-homes/downsizing-granny-flat-ireland/' },
       { text: 'The April 2026 back-garden rules, explained', href: '/modular-homes/auxiliary-dwelling-ireland/' },
       { text: 'Building Regulations, BER and the compliance pack', href: '/modular-homes/building-regulations-ireland/' },
       { text: 'What a back-garden home costs in Ireland', href: '/modular-homes/cost/' },
@@ -2289,7 +2289,7 @@ export const blogPosts = [
     slug: 'how-to-source-ev-chargers-from-china-europe-2026',
     title: 'How to Source EV Chargers from China for European Projects Safely in 2026',
     metaTitle: 'How to Source EV Chargers from China Safely in 2026 | Ériu Sourcing',
-    metaDescription: 'A 2026 guide for European installers, CPOs and fleets sourcing AC and DC EV chargers from China safely — charger types, CE/IEC compliance, suppliers and QC.',
+    metaDescription: 'A 2026 guide for European installers, CPOs and fleets sourcing AC and DC EV chargers from China safely, charger types, CE/IEC compliance, suppliers and QC.',
     h1: 'How to source EV chargers from China for European projects safely in 2026',
     eyebrow: 'Category Deep Dive',
     category: 'category-guides',
@@ -2302,19 +2302,19 @@ export const blogPosts = [
     draft: false,
     body: `<p>Europe needs roughly 8.8 million chargers installed by 2030, and installation rates are still behind target. With over a million public charge points already deployed and the market growing fast, hardware demand will stay strong for years. China produces the majority of the world's EV chargers, and hardware sourced directly from Chinese factories often costs 30 to 50 per cent less than comparable Western-branded units.</p>
 
-<p>But going direct without a plan can lead to non-compliant products, damaged reputations, and expensive rework. This guide shows how European installers, CPOs, and fleet operators can source EV chargers from China safely in 2026 — using current market data and the same best practices we apply on the ground from our base in Zhengzhou.</p>
+<p>But going direct without a plan can lead to non-compliant products, damaged reputations, and expensive rework. This guide shows how European installers, CPOs, and fleet operators can source EV chargers from China safely in 2026, using current market data and the same best practices we apply on the ground from our base in Zhengzhou.</p>
 
 <h2>Why look to China for EV chargers?</h2>
 
-<p>China's EV and charger industries scaled domestically first, then turned outward. China is the largest EV market globally and a major exporter of EVs and parts. It hosts numerous charger manufacturers offering AC wallboxes, DC fast chargers, and components with advanced smart features — OCPP, RFID, and app control among them.</p>
+<p>China's EV and charger industries scaled domestically first, then turned outward. China is the largest EV market globally and a major exporter of EVs and parts. It hosts numerous charger manufacturers offering AC wallboxes, DC fast chargers, and components with advanced smart features, OCPP, RFID, and app control among them.</p>
 
-<p>Industry practitioners estimate that over 70 per cent of global EV chargers originate from China, with meaningful cost advantages from scale and vertical integration. For European buyers facing tight budgets but ambitious rollout targets, this combination makes China an obvious hardware source — provided quality and compliance are handled correctly.</p>
+<p>Industry practitioners estimate that over 70 per cent of global EV chargers originate from China, with meaningful cost advantages from scale and vertical integration. For European buyers facing tight budgets but ambitious rollout targets, this combination makes China an obvious hardware source, provided quality and compliance are handled correctly.</p>
 
 <h2>Understanding European EV charging demand</h2>
 
 <p>To decide what to source, you need to understand demand. Europe now has over one million public charge points, with total charging capacity growing sharply year on year, driven especially by DC fast charging. Industry outlooks project the European EV charging station market to grow from around USD 10.8 billion in 2024 at roughly a 29 per cent CAGR, with AC installations rising from a base of about USD 3.1 billion.</p>
 
-<p>By 2035, Europe's charging demand is expected to reach around 200 TWh, served by some 55 million installed charge points — roughly 50 million private AC units and 5 million public DC units. The implication is clear: the bulk of units will be AC, but public and semi-public DC hardware will represent a disproportionate share of hardware spend and technical complexity.</p>
+<p>By 2035, Europe's charging demand is expected to reach around 200 TWh, served by some 55 million installed charge points, roughly 50 million private AC units and 5 million public DC units. The implication is clear: the bulk of units will be AC, but public and semi-public DC hardware will represent a disproportionate share of hardware spend and technical complexity.</p>
 
 <h2>Types of chargers you can import</h2>
 
@@ -2322,54 +2322,54 @@ export const blogPosts = [
 
 <p><strong>AC chargers.</strong> 3.7–7.4 kW residential wallboxes; 11 and 22 kW three-phase units for workplaces and parking garages; options with OCPP 1.6/2.0, RFID, Wi-Fi/Ethernet, and smart load management.</p>
 
-<p><strong>DC chargers.</strong> 20–40 kW compact DC chargers suited to smaller sites — European retailers show 20–40 kW DC stations priced in the €6,000–€13,000 band depending on features; 60–200 kW units for highway sites, fleets, and urban hubs, with European examples priced upwards of €20,000.</p>
+<p><strong>DC chargers.</strong> 20–40 kW compact DC chargers suited to smaller sites, European retailers show 20–40 kW DC stations priced in the €6,000–€13,000 band depending on features; 60–200 kW units for highway sites, fleets, and urban hubs, with European examples priced upwards of €20,000.</p>
 
 <p><strong>Components.</strong> Charging cables, connectors, plugs, and gun assemblies; power modules, contactors, and AC distribution boxes designed specifically for charging projects. Deciding your mix up front avoids over-ordering niche variants that are harder to deploy.</p>
 
 <h2>Key compliance and certification requirements</h2>
 
-<p>For Europe, you should expect at least CE marking and conformity with the relevant EU directives, RoHS compliance for hazardous substances, and conformity with the relevant IEC standards for AC and DC chargers — principally the IEC 61851 and IEC 62196 series — often validated by a third-party lab.</p>
+<p>For Europe, you should expect at least CE marking and conformity with the relevant EU directives, RoHS compliance for hazardous substances, and conformity with the relevant IEC standards for AC and DC chargers, principally the IEC 61851 and IEC 62196 series, often validated by a third-party lab.</p>
 
-<p>Reputable Chinese charger manufacturers can provide test reports from recognised labs, EU Declarations of Conformity, and quality-system certificates (ISO 9001, ISO 14001). Your responsibility is to confirm these documents are genuine, current, and applicable to the exact models you are buying — and to ensure installation complies with local electrical codes and grid-connection approval. A "CE certificate" issued by a Chinese third party is not the same as a manufacturer's EU Declaration of Conformity referencing the correct harmonised standards.</p>
+<p>Reputable Chinese charger manufacturers can provide test reports from recognised labs, EU Declarations of Conformity, and quality-system certificates (ISO 9001, ISO 14001). Your responsibility is to confirm these documents are genuine, current, and applicable to the exact models you are buying, and to ensure installation complies with local electrical codes and grid-connection approval. A "CE certificate" issued by a Chinese third party is not the same as a manufacturer's EU Declaration of Conformity referencing the correct harmonised standards.</p>
 
 <figure class="article-figure">
   <img src="/images/ev-charger-ce-iec-compliance-test-report.webp" alt="EV charger rating plate showing the CE mark and IEC 61851 rating beside an EVSE third-party test report" loading="lazy" width="1280" height="720">
-  <figcaption>What real compliance looks like: a charger rating plate citing CE and IEC 61851, alongside a third-party EVSE test report. We verify this at the factory — and confirm it matches the exact model you are buying.</figcaption>
+  <figcaption>What real compliance looks like: a charger rating plate citing CE and IEC 61851, alongside a third-party EVSE test report. We verify this at the factory, and confirm it matches the exact model you are buying.</figcaption>
 </figure>
 
 <h2>How to select a reliable EV charger supplier in China</h2>
 
-<p>Experienced importers and industry guides recommend a layered approach. Use B2B platforms and specialised directories to find suppliers, but validate them well beyond their profile pages. Attend — or virtually visit — relevant trade fairs (power electronics, NEV expos) to meet manufacturers and compare offerings. And request detailed product catalogues, full specification sheets, and certification documents with export history.</p>
+<p>Experienced importers and industry guides recommend a layered approach. Use B2B platforms and specialised directories to find suppliers, but validate them well beyond their profile pages. Attend, or virtually visit, relevant trade fairs (power electronics, NEV expos) to meet manufacturers and compare offerings. And request detailed product catalogues, full specification sheets, and certification documents with export history.</p>
 
-<p>Factory visits — or trusted local agents doing them — are crucial to verifying that you are dealing with a genuine manufacturer rather than a thin trading company. The gap becomes obvious quickly when you ask specific questions about power-module sourcing, OCPP version support, and test-lab relationships.</p>
+<p>Factory visits, or trusted local agents doing them, are crucial to verifying that you are dealing with a genuine manufacturer rather than a thin trading company. The gap becomes obvious quickly when you ask specific questions about power-module sourcing, OCPP version support, and test-lab relationships.</p>
 
 <h2>A typical sourcing process for EV chargers</h2>
 
 <p>A common sourcing flow looks like this:</p>
 
 <ol>
-  <li><strong>Requirements brief</strong> — define power levels, connectors, communications, and aesthetics.</li>
-  <li><strong>Request for quotation (RFQ)</strong> — send specs and volumes to 3–5 shortlisted factories.</li>
-  <li><strong>Quotation and negotiation</strong> — compare prices, terms, MOQs, lead times, and branding options.</li>
-  <li><strong>Sample orders</strong> — test several units for 2–4 weeks under real conditions.</li>
-  <li><strong>Contract and deposit</strong> — agree the contract and place a deposit (often around 30%).</li>
-  <li><strong>Production and interim QC</strong> — monitor production, ideally with mid-production checks.</li>
-  <li><strong>Pre-shipment inspection</strong> — verify build quality and documentation before final payment.</li>
-  <li><strong>Shipping and logistics</strong> — choose sea, rail, or air depending on urgency and volume.</li>
+  <li><strong>Requirements brief</strong>, define power levels, connectors, communications, and aesthetics.</li>
+  <li><strong>Request for quotation (RFQ)</strong>, send specs and volumes to 3–5 shortlisted factories.</li>
+  <li><strong>Quotation and negotiation</strong>, compare prices, terms, MOQs, lead times, and branding options.</li>
+  <li><strong>Sample orders</strong>, test several units for 2–4 weeks under real conditions.</li>
+  <li><strong>Contract and deposit</strong>, agree the contract and place a deposit (often around 30%).</li>
+  <li><strong>Production and interim QC</strong>, monitor production, ideally with mid-production checks.</li>
+  <li><strong>Pre-shipment inspection</strong>, verify build quality and documentation before final payment.</li>
+  <li><strong>Shipping and logistics</strong>, choose sea, rail, or air depending on urgency and volume.</li>
 </ol>
 
 <p>Skipping the validation and inspection steps is where most horror stories originate.</p>
 
 <figure class="article-figure">
   <img src="/images/ev-charger-pre-shipment-qc-inspection-china.webp" alt="Inspector running a pre-shipment inspection on an AC wallbox EV charger at a Chinese factory, with a QC checklist and packing list" loading="lazy" width="1280" height="720">
-  <figcaption>Pre-shipment inspection of an AC wallbox at the factory — visual, function, electrical-safety, and charging tests signed off before the carton is sealed and the order ships.</figcaption>
+  <figcaption>Pre-shipment inspection of an AC wallbox at the factory, visual, function, electrical-safety, and charging tests signed off before the carton is sealed and the order ships.</figcaption>
 </figure>
 
 <h2>The role of a China-based sourcing and QC partner</h2>
 
-<p>A strong sourcing partner embedded in China can dramatically de-risk this process. Supplier discovery and vetting uses local networks and industrial-park operators — for example the NEV industrial parks in Zhengzhou — to identify serious charger and component manufacturers. On-site QC means factory visits and pre-shipment inspections that check assembly quality, labels, documentation, and packaging. And logistics integration bundles charger shipments with other imports, optimising routes via rail and sea to Europe.</p>
+<p>A strong sourcing partner embedded in China can dramatically de-risk this process. Supplier discovery and vetting uses local networks and industrial-park operators, for example the NEV industrial parks in Zhengzhou, to identify serious charger and component manufacturers. On-site QC means factory visits and pre-shipment inspections that check assembly quality, labels, documentation, and packaging. And logistics integration bundles charger shipments with other imports, optimising routes via rail and sea to Europe.</p>
 
-<p>This is exactly where Ériu Sourcing operates: we sit inside China's NEV ecosystem — including Zhengzhou's new-energy-vehicle industrial parks and major battery investment — and act as your bridge to European projects.</p>
+<p>This is exactly where Ériu Sourcing operates: we sit inside China's NEV ecosystem, including Zhengzhou's new-energy-vehicle industrial parks and major battery investment, and act as your bridge to European projects.</p>
 
 <figure class="article-figure">
   <img src="/images/zhengzhou-nev-ev-charger-industrial-park.webp" alt="Zhengzhou New Energy Industrial Park charging-pile manufacturing base in China, with DC chargers staged in the export shipping area" loading="lazy" width="1280" height="720">
@@ -2378,20 +2378,20 @@ export const blogPosts = [
 
 <h2>Common mistakes to avoid when importing EV chargers</h2>
 
-<p>Industry veterans point to several recurring errors. <strong>Choosing purely on price</strong> — the absolute cheapest suppliers often cut corners on components and QC. <strong>Not aligning on certifications early</strong> — discovering compliance gaps at customs or during grid-connection approval. <strong>Underestimating lead times and holidays</strong> — Chinese New Year and Golden Week can add weeks of delay if not planned for. And <strong>skipping extended testing</strong> — failing to run chargers under real-world conditions before bulk orders. Building a standard test and acceptance protocol protects your brand and your customers.</p>
+<p>Industry veterans point to several recurring errors. <strong>Choosing purely on price</strong>, the absolute cheapest suppliers often cut corners on components and QC. <strong>Not aligning on certifications early</strong>, discovering compliance gaps at customs or during grid-connection approval. <strong>Underestimating lead times and holidays</strong>, Chinese New Year and Golden Week can add weeks of delay if not planned for. And <strong>skipping extended testing</strong>, failing to run chargers under real-world conditions before bulk orders. Building a standard test and acceptance protocol protects your brand and your customers.</p>
 
 <h2>Turning a hardware pipeline into a competitive advantage</h2>
 
-<p>For European installers and network operators, a well-managed Chinese supply line can improve hardware margins — freeing cash for software, customer experience, and site acquisition — support stronger bundled offers (PV + charger + storage) with superior economics, and provide brand-able chargers that differentiate you from "me-too" offerings.</p>
+<p>For European installers and network operators, a well-managed Chinese supply line can improve hardware margins, freeing cash for software, customer experience, and site acquisition, support stronger bundled offers (PV + charger + storage) with superior economics, and provide brand-able chargers that differentiate you from "me-too" offerings.</p>
 
-<p>Combine that with smart site selection, user-centric digital services, and energy optimisation — which strategic analyses consistently flag as critical for profitable growth — and you are better positioned in a maturing but still fast-growing industry.</p>
+<p>Combine that with smart site selection, user-centric digital services, and energy optimisation, which strategic analyses consistently flag as critical for profitable growth, and you are better positioned in a maturing but still fast-growing industry.</p>
 
 <h2>Next step: sanity-check your EV hardware strategy</h2>
 
 <p>Before committing to another year of buying chargers through standard European distributors, it is worth mapping what a supervised China supply line could look like: potential savings, risks, and implementation steps. From our position in Zhengzhou's NEV clusters, and with long-standing logistics and QC experience, Ériu Sourcing can design that plan and, if it makes sense, help you execute it.</p>
 
 <p>Share your current charger volumes and hardware mix and we will prepare a short EV Charger Sourcing Options memo tailored to your market and business model. <a href="/source/ev-charger-sourcing-installers-ireland-uk/">See our EV charger sourcing service for installers</a>, browse the <a href="/source/ev-chargers-from-china-ireland/">full EV chargers &amp; components category</a>, or <a href="/contact/">get in touch</a>.</p>`,
-    excerpt: 'China makes the majority of the world\'s EV chargers, and direct-from-factory hardware often costs 30–50% less than Western-branded units. Here is how European installers, CPOs, and fleets can source AC and DC chargers from China safely in 2026 — types, compliance, supplier selection, and QC.',
+    excerpt: 'China makes the majority of the world\'s EV chargers, and direct-from-factory hardware often costs 30–50% less than Western-branded units. Here is how European installers, CPOs, and fleets can source AC and DC chargers from China safely in 2026, types, compliance, supplier selection, and QC.',
     image: '/images/ev-charger-production-line-china-ac-dc-hardware.webp',
     imageAlt: 'EV charger assembly line in China producing AC wallboxes and DC fast chargers for European projects',
     sections: [
@@ -2406,13 +2406,13 @@ export const blogPosts = [
       'Turning a hardware pipeline into a competitive advantage',
     ],
     faq: [
-      { q: 'Is it cheaper to import EV chargers from China?', a: 'Yes — hardware sourced directly from Chinese factories typically costs 30–50% less than comparable Western-branded units, thanks to manufacturing scale and vertical integration. The saving is largest on higher-power DC equipment. The genuine cost comparison should be made on a landed basis, including freight, duty, VAT, and any sourcing fee — and weighed against the compliance and QC oversight needed to source safely.' },
-      { q: 'What certifications do EV chargers need for the European market?', a: 'At minimum: CE marking with conformity to the relevant EU directives, RoHS compliance, and conformity with the relevant IEC standards — principally IEC 61851 for the charging system and IEC 62196 for Type 2 / CCS2 connectors — usually validated by a recognised third-party lab. Reputable manufacturers can also provide ISO 9001 / ISO 14001 certificates and EU Declarations of Conformity. Confirm the documents are genuine, current, and tied to the exact models you are buying.' },
+      { q: 'Is it cheaper to import EV chargers from China?', a: 'Yes, hardware sourced directly from Chinese factories typically costs 30–50% less than comparable Western-branded units, thanks to manufacturing scale and vertical integration. The saving is largest on higher-power DC equipment. The genuine cost comparison should be made on a landed basis, including freight, duty, VAT, and any sourcing fee, and weighed against the compliance and QC oversight needed to source safely.' },
+      { q: 'What certifications do EV chargers need for the European market?', a: 'At minimum: CE marking with conformity to the relevant EU directives, RoHS compliance, and conformity with the relevant IEC standards, principally IEC 61851 for the charging system and IEC 62196 for Type 2 / CCS2 connectors, usually validated by a recognised third-party lab. Reputable manufacturers can also provide ISO 9001 / ISO 14001 certificates and EU Declarations of Conformity. Confirm the documents are genuine, current, and tied to the exact models you are buying.' },
       { q: 'What is the safest way to source EV chargers from China?', a: 'Define your spec and compliance requirements up front, shortlist genuine manufacturers (not trading companies), order and field-test samples for 2–4 weeks, align on certifications before contracting, and run interim and pre-shipment QC before final payment. A China-based sourcing and QC partner who can physically visit the factory and attend inspections removes most of the risk that comes from sourcing remotely.' },
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'ce-marking-china-imports-ireland', 'real-landed-cost-importing-from-china-ireland'],
     internalLinks: [
-      { text: 'EV chargers & components — what we source', href: '/source/ev-chargers-from-china-ireland/' },
+      { text: 'EV chargers & components, what we source', href: '/source/ev-chargers-from-china-ireland/' },
       { text: 'EV charger sourcing for Ireland & UK installers', href: '/source/ev-charger-sourcing-installers-ireland-uk/' },
       { text: 'Our China network', href: '/china-network/' },
       { text: 'Get a sourcing quote', href: '/contact/' },
@@ -2434,44 +2434,44 @@ export const blogPosts = [
     estimatedWordCount: 2400,
     publishDate: '2026-06-06',
     draft: false,
-    body: `<p>Prefab container homes have moved from quirky experiments to a mainstream option for housing, tourism cabins, and glamping across Europe — pushed by rising construction costs and tighter sustainability rules. For campsite and land owners, understanding how container homes are priced, regulated, and deployed is essential before committing to cabins or pods.</p>
+    body: `<p>Prefab container homes have moved from quirky experiments to a mainstream option for housing, tourism cabins, and glamping across Europe, pushed by rising construction costs and tighter sustainability rules. For campsite and land owners, understanding how container homes are priced, regulated, and deployed is essential before committing to cabins or pods.</p>
 
 <p>This guide distils current industry data into a glamping-focused playbook, and shows where a China-based sourcing partner like Ériu Sourcing fits in.</p>
 
 <h2>What are prefab container homes?</h2>
 
-<p>Prefab container homes are residential or hospitality units built from new or repurposed shipping containers, factory-modified with insulation, internal framing, services, and finishes, then delivered to site for final assembly and connection to utilities. The core benefits are a modular steel structure, fast factory production, and the ability to scale from single units to multi-storey arrangements. Modern designs can look indistinguishable from conventional architecture — the "industrial box" aesthetic is optional, not a requirement.</p>
+<p>Prefab container homes are residential or hospitality units built from new or repurposed shipping containers, factory-modified with insulation, internal framing, services, and finishes, then delivered to site for final assembly and connection to utilities. The core benefits are a modular steel structure, fast factory production, and the ability to scale from single units to multi-storey arrangements. Modern designs can look indistinguishable from conventional architecture, the "industrial box" aesthetic is optional, not a requirement.</p>
 
 <figure class="article-figure">
   <img src="/images/glamping-factory-china.webp" alt="Glamping pods and container cabins being assembled and crated inside a Chinese modular-building factory" loading="lazy" width="1280" height="720">
-  <figcaption>Prefabrication shifts most of the work into the factory — assembly, insulation, and quality checks done under cover — compressing an 8–14 month build into roughly 8–16 weeks.</figcaption>
+  <figcaption>Prefabrication shifts most of the work into the factory, assembly, insulation, and quality checks done under cover, compressing an 8–14 month build into roughly 8–16 weeks.</figcaption>
 </figure>
 
 <h2>Why prefab container homes are gaining traction in Europe</h2>
 
-<p>Three forces are pushing container and modular homes into the mainstream. <strong>Rising construction costs:</strong> Eurostat data shows construction costs in many EU states have climbed more than 30% over the past five years, making traditional builds harder to justify — and prefabrication cuts on-site labour and delay. <strong>Sustainability and energy policy:</strong> the European Green Deal and national energy rules push for efficient, low-carbon buildings, and container homes can be designed with thick insulation, high-performance glazing, and integrated renewables. <strong>Speed of deployment:</strong> traditional builds can take 8–14 months, whereas prefab container homes can often be specified, manufactured, and delivered in 8–16 weeks — which matters in tourism regions where the season is tight.</p>
+<p>Three forces are pushing container and modular homes into the mainstream. <strong>Rising construction costs:</strong> Eurostat data shows construction costs in many EU states have climbed more than 30% over the past five years, making traditional builds harder to justify, and prefabrication cuts on-site labour and delay. <strong>Sustainability and energy policy:</strong> the European Green Deal and national energy rules push for efficient, low-carbon buildings, and container homes can be designed with thick insulation, high-performance glazing, and integrated renewables. <strong>Speed of deployment:</strong> traditional builds can take 8–14 months, whereas prefab container homes can often be specified, manufactured, and delivered in 8–16 weeks, which matters in tourism regions where the season is tight.</p>
 
 <h2>Cost ranges for prefab container homes in Europe (2026)</h2>
 
 <p>Recent analyses of container-home deployments across Europe give a useful 2026 reference band:</p>
 
 <ul>
-  <li><strong>Basic studio units (20–30 m²)</strong> — typically €25,000–€40,000 depending on insulation, finishes, and bathroom/kitchen configuration.</li>
-  <li><strong>One- to two-bedroom modular units (40–70 m²)</strong> — typically €45,000–€75,000, often formed from two containers or extended frames.</li>
-  <li><strong>Luxury or highly customised designs (80+ m²)</strong> — often €80,000–€120,000, with high-end finishes, glass walls, and complex services.</li>
+  <li><strong>Basic studio units (20–30 m²)</strong>, typically €25,000–€40,000 depending on insulation, finishes, and bathroom/kitchen configuration.</li>
+  <li><strong>One- to two-bedroom modular units (40–70 m²)</strong>, typically €45,000–€75,000, often formed from two containers or extended frames.</li>
+  <li><strong>Luxury or highly customised designs (80+ m²)</strong>, often €80,000–€120,000, with high-end finishes, glass walls, and complex services.</li>
 </ul>
 
-<p>These figures usually cover the factory-built unit but not site-specific costs such as foundations, utility connections, and planning fees, and they are strongly influenced by transport distance to remote or rural areas. For glamping owners, the most relevant band is usually the 20–40 m² range, which maps well to high-yield cabins and pods. Sourced factory-direct from China, comparable pods and cabins typically come in well below these European figures — often 30–50% less on a landed basis — which is exactly the opening for glamping operators.</p>
+<p>These figures usually cover the factory-built unit but not site-specific costs such as foundations, utility connections, and planning fees, and they are strongly influenced by transport distance to remote or rural areas. For glamping owners, the most relevant band is usually the 20–40 m² range, which maps well to high-yield cabins and pods. Sourced factory-direct from China, comparable pods and cabins typically come in well below these European figures, often 30–50% less on a landed basis, which is exactly the opening for glamping operators.</p>
 
 <h2>Do container homes always need planning permission?</h2>
 
-<p>In most European countries, yes — once a container home is connected to services and used as longer-term accommodation, it is treated as a building and requires planning permission. Recent guidance illustrates the pattern:</p>
+<p>In most European countries, yes, once a container home is connected to services and used as longer-term accommodation, it is treated as a building and requires planning permission. Recent guidance illustrates the pattern:</p>
 
 <ul>
-  <li><strong>Germany</strong> — container homes typically require a full building permit (Baugenehmigung).</li>
-  <li><strong>France</strong> — structures over 20 m² require planning permission; smaller units may still need authorisation depending on use and permanence.</li>
-  <li><strong>Spain</strong> — municipal approval is generally required.</li>
-  <li><strong>Netherlands</strong> — zoning and environmental constraints are strict, especially for permanent housing.</li>
+  <li><strong>Germany</strong>, container homes typically require a full building permit (Baugenehmigung).</li>
+  <li><strong>France</strong>, structures over 20 m² require planning permission; smaller units may still need authorisation depending on use and permanence.</li>
+  <li><strong>Spain</strong>, municipal approval is generally required.</li>
+  <li><strong>Netherlands</strong>, zoning and environmental constraints are strict, especially for permanent housing.</li>
 </ul>
 
 <p>Even where small "mobile" units sometimes fall into grey areas, once you connect services and market them as permanent glamping accommodation, you should assume formal approval will be needed. In Ireland and the UK the same logic applies, with the detail set locally.</p>
@@ -2486,38 +2486,38 @@ export const blogPosts = [
   <li>~0.15–0.18 W/m²K for 150 mm high-density insulation (Northern Europe, including Ireland and the UK)</li>
 </ul>
 
-<p>Thermal bridging at floor edges and corners is a common weak point; poor detailing there causes condensation and guest complaints, so it must be resolved at design stage — not discovered after delivery.</p>
+<p>Thermal bridging at floor edges and corners is a common weak point; poor detailing there causes condensation and guest complaints, so it must be resolved at design stage, not discovered after delivery.</p>
 
 <h2>Are container homes comfortable enough for glamping?</h2>
 
-<p>Modern container homes can absolutely be comfortable for glamping guests when design and execution are handled properly. The common concerns — rain noise, temperature swings, ceiling height — are addressed through adequate insulation and acoustic treatment in the roof, double-roofing or sloped add-on roofs, and modified internal framing to increase perceived height. Real-world projects such as large container student-housing schemes in Amsterdam show that well-detailed container buildings can last decades with appropriate corrosion protection and maintenance.</p>
+<p>Modern container homes can absolutely be comfortable for glamping guests when design and execution are handled properly. The common concerns, rain noise, temperature swings, ceiling height, are addressed through adequate insulation and acoustic treatment in the roof, double-roofing or sloped add-on roofs, and modified internal framing to increase perceived height. Real-world projects such as large container student-housing schemes in Amsterdam show that well-detailed container buildings can last decades with appropriate corrosion protection and maintenance.</p>
 
 <figure class="article-figure">
   <img src="/images/3-pod-glamping-offer.webp" alt="Three premium glamping pods with decks and seating on a landscaped site at golden hour" loading="lazy" width="1280" height="720">
-  <figcaption>Done properly — insulation, glazing, acoustic treatment, and finish — a container cabin or pod reads as a boutique nature suite, not an industrial box.</figcaption>
+  <figcaption>Done properly, insulation, glazing, acoustic treatment, and finish, a container cabin or pod reads as a boutique nature suite, not an industrial box.</figcaption>
 </figure>
 
 <h2>Where container homes fit into glamping strategies</h2>
 
-<p>For glamping and campsite owners, container homes and cabins offer higher nightly rates than tents or standard pitches — often €80–€200 per night with ensuite bathrooms and unique designs — plus extended-season operation, because insulated units work in shoulder seasons and winter, and real design flexibility, from simple studio pods to stacked or cantilevered cabins overlooking a view. They integrate well with existing campsites adding premium stock, farm stays diversifying income, and standalone boutique cabin projects.</p>
+<p>For glamping and campsite owners, container homes and cabins offer higher nightly rates than tents or standard pitches, often €80–€200 per night with ensuite bathrooms and unique designs, plus extended-season operation, because insulated units work in shoulder seasons and winter, and real design flexibility, from simple studio pods to stacked or cantilevered cabins overlooking a view. They integrate well with existing campsites adding premium stock, farm stays diversifying income, and standalone boutique cabin projects.</p>
 
 <h2>How to source container cabins safely (and where China fits in)</h2>
 
 <p>Many European glamping operators now look to China for cabins and container homes because of competitive factory pricing and the maturity of the modular industry. Henan and Zhengzhou in particular host multiple container-use and steel-structure manufacturers focused on export markets and capable of supporting customisation.</p>
 
-<p>The risks are real, though: quality variation between factories, gaps in documentation (especially structural and energy performance), and logistics complexity with potential damage in transit. This is where a China-based sourcing partner with a permanent presence in Zhengzhou — and experience in logistics, QC, and EU imports — becomes critical. A structured approach typically involves defining your unit types, sizes, and performance requirements; shortlisting and auditing suitable export-experienced factories; coordinating design, samples, and technical documentation; carrying out in-person inspections before shipment; and managing inland transport, export, and import logistics.</p>
+<p>The risks are real, though: quality variation between factories, gaps in documentation (especially structural and energy performance), and logistics complexity with potential damage in transit. This is where a China-based sourcing partner with a permanent presence in Zhengzhou, and experience in logistics, QC, and EU imports, becomes critical. A structured approach typically involves defining your unit types, sizes, and performance requirements; shortlisting and auditing suitable export-experienced factories; coordinating design, samples, and technical documentation; carrying out in-person inspections before shipment; and managing inland transport, export, and import logistics.</p>
 
 <figure class="article-figure">
   <img src="/images/glamping-qc-inspection.webp" alt="Inspector checking a glamping cabin door and finish before export at a Chinese factory, with units crated for shipment" loading="lazy" width="1280" height="720">
-  <figcaption>Inside the Chinese modular cluster: pre-shipment inspection of a finished cabin — structure, fit-out, and finish signed off before units are crated and loaded for Europe.</figcaption>
+  <figcaption>Inside the Chinese modular cluster: pre-shipment inspection of a finished cabin, structure, fit-out, and finish signed off before units are crated and loaded for Europe.</figcaption>
 </figure>
 
 <h2>Next steps: linking your glamping plans to real numbers</h2>
 
-<p>If you are planning to add cabins or pods in the next 12–24 months, now is the time to pin down cost bands, planning constraints, and realistic sourcing options. Ériu Sourcing can translate your site concept into a concrete unit mix, supplier shortlist, and budget range — using our base in Zhengzhou's container-house cluster and our logistics/QC background in China–EU trade.</p>
+<p>If you are planning to add cabins or pods in the next 12–24 months, now is the time to pin down cost bands, planning constraints, and realistic sourcing options. Ériu Sourcing can translate your site concept into a concrete unit mix, supplier shortlist, and budget range, using our base in Zhengzhou's container-house cluster and our logistics/QC background in China–EU trade.</p>
 
 <p>Share a few details about your land and target guest profile and we will prepare a no-obligation Glamping Container Blueprint with example layouts and cost ranges. Start with the <a href="/source/3-pod-glamping-cabin-package-ireland-uk/">3-pod glamping cabin package</a>, browse the <a href="/source/glamping-pods-cabins-from-china-ireland/">full glamping pods &amp; cabins category</a>, or <a href="/contact/">get in touch</a>.</p>`,
-    excerpt: 'Prefab container homes have gone mainstream for tourism and glamping across Europe. Here is the 2026 picture for campsite and land owners — cost bands, planning permission by country, insulation and energy standards, guest comfort, and how to source cabins safely from China.',
+    excerpt: 'Prefab container homes have gone mainstream for tourism and glamping across Europe. Here is the 2026 picture for campsite and land owners, cost bands, planning permission by country, insulation and energy standards, guest comfort, and how to source cabins safely from China.',
     image: '/images/glamping-container-pillar-hero.webp',
     imageAlt: 'Premium glamping pods and container cabins in a European countryside setting',
     sections: [
@@ -2528,16 +2528,16 @@ export const blogPosts = [
       'Energy performance and insulation for cabins',
       'Are container homes comfortable enough for glamping?',
       'Where container homes fit into glamping strategies',
-      'How to source container cabins safely — and where China fits in',
+      'How to source container cabins safely, and where China fits in',
     ],
     faq: [
       { q: 'How much does a prefab container home cost in Europe in 2026?', a: 'Typical 2026 bands: €25,000–€40,000 for a basic 20–30 m² studio, €45,000–€75,000 for a one- to two-bedroom 40–70 m² unit, and €80,000–€120,000 for a luxury 80 m²+ design. These usually cover the factory-built unit but not foundations, utility connections, or planning fees, and transport distance to rural sites affects the total. For glamping, the 20–40 m² band is usually the most relevant.' },
-      { q: 'Do glamping pods and container cabins need planning permission?', a: 'In most European countries — and in Ireland and the UK — once a container cabin is connected to services and used as accommodation, it is treated as a building and requires planning permission, with energy-performance (NZEB) standards increasingly enforced. Rules vary by country and local authority, so assume formal approval is needed. A sourcing partner can supply the structural and energy documentation your architect needs, but the application itself is yours.' },
+      { q: 'Do glamping pods and container cabins need planning permission?', a: 'In most European countries, and in Ireland and the UK, once a container cabin is connected to services and used as accommodation, it is treated as a building and requires planning permission, with energy-performance (NZEB) standards increasingly enforced. Rules vary by country and local authority, so assume formal approval is needed. A sourcing partner can supply the structural and energy documentation your architect needs, but the application itself is yours.' },
       { q: 'Can container cabins be used year-round for glamping?', a: 'Yes, with proper insulation and detailing. A typical wall build-up uses 80–150 mm of PU or mineral-wool insulation (heavier for Northern Europe, Ireland and the UK), targeting U-values around 0.15–0.35 W/m²K depending on climate, plus high-performance glazing, heating, and roof acoustic treatment. Resolving thermal bridging at floor edges and corners at design stage is what prevents condensation and guest complaints later.' },
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland', 'ce-marking-china-imports-ireland'],
     internalLinks: [
-      { text: 'Glamping pods & container cabins — what we source', href: '/source/glamping-pods-cabins-from-china-ireland/' },
+      { text: 'Glamping pods & container cabins, what we source', href: '/source/glamping-pods-cabins-from-china-ireland/' },
       { text: '3-pod glamping cabin package (Ireland & UK)', href: '/source/3-pod-glamping-cabin-package-ireland-uk/' },
       { text: 'Our China network', href: '/china-network/' },
       { text: 'Get a sourcing quote', href: '/contact/' },
@@ -2548,7 +2548,7 @@ export const blogPosts = [
     slug: 'source-sandwich-panels-wall-panel-machines-from-china-europe',
     title: 'How to Source Sandwich Panels and Wall-Panel Machines from China for European Projects',
     metaTitle: 'Sandwich Panels & Wall-Panel Machines from China | Ériu',
-    metaDescription: 'A 2026 guide to sourcing sandwich panels and precast wall-panel machinery from China for Europe — specs, CE/fire standards, supplier vetting, and QC.',
+    metaDescription: 'A 2026 guide to sourcing sandwich panels and precast wall-panel machinery from China for Europe, specs, CE/fire standards, supplier vetting, and QC.',
     h1: 'How to source sandwich panels and wall-panel machines from China for European projects',
     eyebrow: 'Category Deep Dive',
     category: 'category-guides',
@@ -2559,72 +2559,72 @@ export const blogPosts = [
     estimatedWordCount: 2400,
     publishDate: '2026-06-06',
     draft: false,
-    body: `<p>Sandwich panels and precast wall-panel systems have become a backbone of modern industrial buildings, cold stores, and modular construction in Europe. A growing share of those panels — and of the machinery used to produce precast wall systems — comes from China, where manufacturers combine scale, specialised production lines, and real export experience.</p>
+    body: `<p>Sandwich panels and precast wall-panel systems have become a backbone of modern industrial buildings, cold stores, and modular construction in Europe. A growing share of those panels, and of the machinery used to produce precast wall systems, comes from China, where manufacturers combine scale, specialised production lines, and real export experience.</p>
 
-<p>This guide walks through how to source both finished sandwich panels and wall-panel production machinery safely from China, using examples from Henan's panel and precast clusters — where Ériu Sourcing is based.</p>
+<p>This guide walks through how to source both finished sandwich panels and wall-panel production machinery safely from China, using examples from Henan's panel and precast clusters, where Ériu Sourcing is based.</p>
 
 <h2>What are sandwich panels, and why do they matter?</h2>
 
-<p>Sandwich panels are composite building products: two steel (or similar) facings bonded to an insulating core of polyurethane (PU/PIR), EPS, or mineral wool. They earn their place on a project for three reasons — high thermal performance in a slim wall or roof, fast installation with interlocking profiles and long spans, and integrated fire and acoustic performance when a rockwool or comparable non-combustible core is used. Panel makers in Henan produce millions of square metres a year and export to Europe, North America, the Middle East, Africa, and Oceania.</p>
+<p>Sandwich panels are composite building products: two steel (or similar) facings bonded to an insulating core of polyurethane (PU/PIR), EPS, or mineral wool. They earn their place on a project for three reasons, high thermal performance in a slim wall or roof, fast installation with interlocking profiles and long spans, and integrated fire and acoustic performance when a rockwool or comparable non-combustible core is used. Panel makers in Henan produce millions of square metres a year and export to Europe, North America, the Middle East, Africa, and Oceania.</p>
 
 <figure class="article-figure">
   <img src="/images/henan-sandwich-panel-factory-export.webp" alt="Continuous sandwich panel production line in a Henan factory making PU and rockwool panels for export" loading="lazy" width="1280" height="720">
-  <figcaption>A Henan panel line running continuous PU and rockwool sandwich panel for export — the scale and integrated steel processing behind the price advantage.</figcaption>
+  <figcaption>A Henan panel line running continuous PU and rockwool sandwich panel for export, the scale and integrated steel processing behind the price advantage.</figcaption>
 </figure>
 
 <h2>Chinese sandwich panel suppliers: capabilities and certifications</h2>
 
-<p>Export-focused Henan panel manufacturers — the cluster includes names such as Haiji Zhitong, BRD New Materials, and Tseason — typically offer multiple panel types (EPS, PU/PIR, rockwool, decorative insulated boards), steel-structure integration (frames, purlins, prefabricated buildings), and large automated lines capable of thousands of metres of panel a day. Many hold ISO 9001 and ISO 14001 quality systems, and in many cases CE, SGS, and GOST certifications for export markets.</p>
+<p>Export-focused Henan panel manufacturers, the cluster includes names such as Haiji Zhitong, BRD New Materials, and Tseason, typically offer multiple panel types (EPS, PU/PIR, rockwool, decorative insulated boards), steel-structure integration (frames, purlins, prefabricated buildings), and large automated lines capable of thousands of metres of panel a day. Many hold ISO 9001 and ISO 14001 quality systems, and in many cases CE, SGS, and GOST certifications for export markets.</p>
 
-<p>That makes them credible suppliers for industrial buildings, modular houses, cold stores, and cladding projects in Europe — provided the panels are matched to local standards and detailing. The certification on the company profile is the starting point, not the finish line: it has to map to the exact panel build you are buying.</p>
+<p>That makes them credible suppliers for industrial buildings, modular houses, cold stores, and cladding projects in Europe, provided the panels are matched to local standards and detailing. The certification on the company profile is the starting point, not the finish line: it has to map to the exact panel build you are buying.</p>
 
 <h2>Precast wall-panel machinery from Henan</h2>
 
-<p>Alongside the panels, Henan has produced specialised suppliers of precast wall-panel and floor-slab machinery — Henan Kelai is one example — offering concrete wall-panel extruders for hollow or solid panels, hollow-core slab machines for floors, precast beam/column and fence-wall equipment, and hydraulic installation and handling systems. These machines are built to support full precast lines and can be customised for panel dimensions, reinforcement configurations, and plant layouts, with lifecycle service positioned as part of the export proposition.</p>
+<p>Alongside the panels, Henan has produced specialised suppliers of precast wall-panel and floor-slab machinery, Henan Kelai is one example, offering concrete wall-panel extruders for hollow or solid panels, hollow-core slab machines for floors, precast beam/column and fence-wall equipment, and hydraulic installation and handling systems. These machines are built to support full precast lines and can be customised for panel dimensions, reinforcement configurations, and plant layouts, with lifecycle service positioned as part of the export proposition.</p>
 
 <figure class="article-figure">
   <img src="/images/precast-wall-panel-production-line-china.webp" alt="Precast wall-panel and floor-slab production line in a Zhengzhou factory with casting beds and reinforcement work" loading="lazy" width="1280" height="720">
-  <figcaption>A precast wall-panel and floor-slab line in Zhengzhou — extruders, casting beds, and reinforcement, customised to the buyer's panel dimensions and codes.</figcaption>
+  <figcaption>A precast wall-panel and floor-slab line in Zhengzhou, extruders, casting beds, and reinforcement, customised to the buyer's panel dimensions and codes.</figcaption>
 </figure>
 
 <h2>Cost considerations: panels versus machines</h2>
 
-<p>The two buying decisions behave differently. <strong>Finished sandwich panel</strong> pricing from Chinese exporters is generally below European production for comparable specifications — especially at volume — thanks to economies of scale and integrated steel processing. <strong>Machinery</strong> is a capital decision: complete European block plants are published at roughly US$65,000–US$90,000 for full semi- and fully-automatic sets, and Chinese precast and block equipment is competitive against that once it is correctly specified and supported.</p>
+<p>The two buying decisions behave differently. <strong>Finished sandwich panel</strong> pricing from Chinese exporters is generally below European production for comparable specifications, especially at volume, thanks to economies of scale and integrated steel processing. <strong>Machinery</strong> is a capital decision: complete European block plants are published at roughly US$65,000–US$90,000 for full semi- and fully-automatic sets, and Chinese precast and block equipment is competitive against that once it is correctly specified and supported.</p>
 
-<p>The discipline that protects you on both is comparing total cost of ownership — freight, installation, power, maintenance, and spare parts — rather than the headline panel or machine price alone. A cheap line that cannot get spares into Europe is not cheap.</p>
+<p>The discipline that protects you on both is comparing total cost of ownership, freight, installation, power, maintenance, and spare parts, rather than the headline panel or machine price alone. A cheap line that cannot get spares into Europe is not cheap.</p>
 
 <h2>Key standards and performance parameters</h2>
 
 <p>Sourcing from China for European use means holding the line on four things:</p>
 
 <ul>
-  <li><strong>Thermal performance (U-values)</strong> — panel thickness and core type must meet local energy codes for walls and roofs.</li>
-  <li><strong>Fire performance</strong> — rockwool or other non-combustible cores are required in many applications, and the European fire class (EN 13501) must be clearly documented.</li>
-  <li><strong>Structural capacity</strong> — panel spans and loads verified for wind, snow, and other local conditions.</li>
-  <li><strong>Machine compatibility</strong> — electrical systems, safety interlocks, and guarding meeting European machinery and workplace requirements.</li>
+  <li><strong>Thermal performance (U-values)</strong>, panel thickness and core type must meet local energy codes for walls and roofs.</li>
+  <li><strong>Fire performance</strong>, rockwool or other non-combustible cores are required in many applications, and the European fire class (EN 13501) must be clearly documented.</li>
+  <li><strong>Structural capacity</strong>, panel spans and loads verified for wind, snow, and other local conditions.</li>
+  <li><strong>Machine compatibility</strong>, electrical systems, safety interlocks, and guarding meeting European machinery and workplace requirements.</li>
 </ul>
 
 <p>Reputable suppliers provide test data, certifications, and design assistance; your engineers and local consultants must review and adapt these to your country's regulations. Responsibility for conformity sits with the importer, not the factory.</p>
 
 <h2>How to vet Chinese suppliers for panels and machinery</h2>
 
-<p>Good vetting is concrete. Check export history and markets — many Henan suppliers list exports to Europe and North America, which signals experience with higher standards. Review quality systems and certifications: ISO 9001/14001 and CE/SGS/GOST documentation for panel lines, test reports and conformity for machinery. Insist on factory visits or independent audits to see production lines, QC procedures, and storage first-hand. And demand clear technical documentation — panel datasheets, structural tables, machine manuals, and installation guides. The same credibility checks apply across the cluster, including refractory producers such as Henan Lite that emphasise a full industrial base, standardised production, and independent export licences.</p>
+<p>Good vetting is concrete. Check export history and markets, many Henan suppliers list exports to Europe and North America, which signals experience with higher standards. Review quality systems and certifications: ISO 9001/14001 and CE/SGS/GOST documentation for panel lines, test reports and conformity for machinery. Insist on factory visits or independent audits to see production lines, QC procedures, and storage first-hand. And demand clear technical documentation, panel datasheets, structural tables, machine manuals, and installation guides. The same credibility checks apply across the cluster, including refractory producers such as Henan Lite that emphasise a full industrial base, standardised production, and independent export licences.</p>
 
 <figure class="article-figure">
-  <img src="/images/sandwich-panel-machine-europe-china-comparison.webp" alt="Europe-versus-China sourcing comparison for sandwich panels and wall-panel machinery — cost summaries, standards and a decision-factors checklist" loading="lazy" width="1280" height="720">
-  <figcaption>The decision that matters: a like-for-like comparison of European versus Chinese options on configuration, throughput, support, and total cost — not headline price.</figcaption>
+  <img src="/images/sandwich-panel-machine-europe-china-comparison.webp" alt="Europe-versus-China sourcing comparison for sandwich panels and wall-panel machinery, cost summaries, standards and a decision-factors checklist" loading="lazy" width="1280" height="720">
+  <figcaption>The decision that matters: a like-for-like comparison of European versus Chinese options on configuration, throughput, support, and total cost, not headline price.</figcaption>
 </figure>
 
 <h2>Where a Zhengzhou-based sourcing partner helps</h2>
 
-<p>A sourcing and QC partner based in Zhengzhou can identify and filter factories using local knowledge and industrial-park contacts rather than online listings alone; run technical and commercial comparisons tailored to your project; carry out on-site QC and consolidation — particularly important when combining panels, machines, and ancillary components in shared containers; and plan logistics by road, rail, and sea from central China to European ports. This is the role Ériu Sourcing plays: we sit inside the Henan clusters and act as your eyes, ears, and negotiator on the ground — brand-independent, shortlisting against your brief rather than pushing one factory.</p>
+<p>A sourcing and QC partner based in Zhengzhou can identify and filter factories using local knowledge and industrial-park contacts rather than online listings alone; run technical and commercial comparisons tailored to your project; carry out on-site QC and consolidation, particularly important when combining panels, machines, and ancillary components in shared containers; and plan logistics by road, rail, and sea from central China to European ports. This is the role Ériu Sourcing plays: we sit inside the Henan clusters and act as your eyes, ears, and negotiator on the ground, brand-independent, shortlisting against your brief rather than pushing one factory.</p>
 
 <h2>Practical starting points</h2>
 
-<p>The simplest way in is small and specific. Start with a single project — specifying and importing panels for one warehouse or modular building — or a single machine or small line, such as a wall-panel extruder or a block machine for a new plant. From that first project you build confidence, refine your specifications, and expand into more comprehensive supply arrangements.</p>
+<p>The simplest way in is small and specific. Start with a single project, specifying and importing panels for one warehouse or modular building, or a single machine or small line, such as a wall-panel extruder or a block machine for a new plant. From that first project you build confidence, refine your specifications, and expand into more comprehensive supply arrangements.</p>
 
-<p>Outline your upcoming panel or precast project and we will prepare a brief sourcing-options note from Henan — potential suppliers, panel or machine choices, and indicative cost bands. Browse the <a href="/source/building-materials-production-systems-from-china-ireland/">full building materials &amp; production systems category</a>, see our <a href="/source/precast-wall-panel-floor-slab-lines-from-china/">precast wall-panel &amp; floor-slab line sourcing</a>, or <a href="/contact/">get in touch</a>.</p>`,
-    excerpt: 'Sandwich panels and precast wall-panel machinery from China underpin a lot of European industrial building, cold stores, and modular construction. Here is how to source both safely — capabilities and certifications, cost, the standards that matter (U-values, fire class, structural, machine compatibility), supplier vetting, and QC.',
+<p>Outline your upcoming panel or precast project and we will prepare a brief sourcing-options note from Henan, potential suppliers, panel or machine choices, and indicative cost bands. Browse the <a href="/source/building-materials-production-systems-from-china-ireland/">full building materials &amp; production systems category</a>, see our <a href="/source/precast-wall-panel-floor-slab-lines-from-china/">precast wall-panel &amp; floor-slab line sourcing</a>, or <a href="/contact/">get in touch</a>.</p>`,
+    excerpt: 'Sandwich panels and precast wall-panel machinery from China underpin a lot of European industrial building, cold stores, and modular construction. Here is how to source both safely, capabilities and certifications, cost, the standards that matter (U-values, fire class, structural, machine compatibility), supplier vetting, and QC.',
     image: '/images/sandwich-panels-precast-pillar-hero.webp',
     imageAlt: 'European construction site installing sandwich panels and precast wall elements with materials staged on site',
     sections: [
@@ -2638,13 +2638,13 @@ export const blogPosts = [
       'Practical starting points',
     ],
     faq: [
-      { q: 'Are Chinese sandwich panels suitable and CE-compliant for European projects?', a: 'Reputable Henan panel makers export to Europe with CE marking, declared U-values, and fire classification to EN 13501, and many hold ISO 9001 and ISO 14001 plus CE/SGS documentation. Non-combustible rockwool cores are used where the fire class requires it. The key is matching the certificates and test data to the exact panel build for your project, and having your engineers confirm thermal, fire, and structural performance against national codes — responsibility for conformity sits with the importer.' },
-      { q: 'How much cheaper are Chinese sandwich panels and precast machines than European supply?', a: 'Finished sandwich panels from Chinese exporters are generally below European production for comparable specifications, especially at volume, thanks to scale and integrated steel processing. On machinery, complete European block plants are published at roughly US$65,000–US$90,000 for full sets, and Chinese precast and block equipment is competitive against that. Compare on total cost of ownership — freight, installation, power, maintenance, and spares — rather than headline price.' },
-      { q: 'Can I import a single wall-panel machine, or do I need a full line?', a: 'Either. Many buyers start with a single machine — a wall-panel extruder or a block machine for a new plant — or panels for one project, then expand once specs and the supplier relationship are proven. Henan makers build both standalone machines and complete or modular precast lines, customised to your panel dimensions, reinforcement schemes, and plant layout, with CE conformity and the technical file verified before shipment.' },
+      { q: 'Are Chinese sandwich panels suitable and CE-compliant for European projects?', a: 'Reputable Henan panel makers export to Europe with CE marking, declared U-values, and fire classification to EN 13501, and many hold ISO 9001 and ISO 14001 plus CE/SGS documentation. Non-combustible rockwool cores are used where the fire class requires it. The key is matching the certificates and test data to the exact panel build for your project, and having your engineers confirm thermal, fire, and structural performance against national codes, responsibility for conformity sits with the importer.' },
+      { q: 'How much cheaper are Chinese sandwich panels and precast machines than European supply?', a: 'Finished sandwich panels from Chinese exporters are generally below European production for comparable specifications, especially at volume, thanks to scale and integrated steel processing. On machinery, complete European block plants are published at roughly US$65,000–US$90,000 for full sets, and Chinese precast and block equipment is competitive against that. Compare on total cost of ownership, freight, installation, power, maintenance, and spares, rather than headline price.' },
+      { q: 'Can I import a single wall-panel machine, or do I need a full line?', a: 'Either. Many buyers start with a single machine, a wall-panel extruder or a block machine for a new plant, or panels for one project, then expand once specs and the supplier relationship are proven. Henan makers build both standalone machines and complete or modular precast lines, customised to your panel dimensions, reinforcement schemes, and plant layout, with CE conformity and the technical file verified before shipment.' },
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland', 'ce-marking-china-imports-ireland'],
     internalLinks: [
-      { text: 'Building materials & production systems — what we source', href: '/source/building-materials-production-systems-from-china-ireland/' },
+      { text: 'Building materials & production systems, what we source', href: '/source/building-materials-production-systems-from-china-ireland/' },
       { text: 'Precast wall-panel & floor-slab line sourcing', href: '/source/precast-wall-panel-floor-slab-lines-from-china/' },
       { text: 'Our China network', href: '/china-network/' },
       { text: 'Get a sourcing quote', href: '/contact/' },
@@ -2655,7 +2655,7 @@ export const blogPosts = [
     slug: 'source-warehouse-racking-conveyor-systems-from-china-2026',
     title: 'How to Source Warehouse Racking and Conveyor Systems from China Safely in 2026',
     metaTitle: 'Warehouse Racking & Conveyor Sourcing from China | Ériu',
-    metaDescription: 'A 2026 guide to sourcing warehouse racking and conveyor/sortation systems from China safely — categories, vetting, honest pricing, compliance, and logistics.',
+    metaDescription: 'A 2026 guide to sourcing warehouse racking and conveyor/sortation systems from China safely, categories, vetting, honest pricing, compliance, and logistics.',
     h1: 'How to source warehouse racking and conveyor systems from China safely in 2026',
     eyebrow: 'Category Deep Dive',
     category: 'category-guides',
@@ -2666,18 +2666,18 @@ export const blogPosts = [
     estimatedWordCount: 2400,
     publishDate: '2026-06-06',
     draft: false,
-    body: `<p>Chinese manufacturers now play a central role in supplying warehouse racking and conveyor/sortation systems for logistics, e-commerce and manufacturing worldwide. For European operators, going direct to China can materially improve hardware economics — but it introduces risk around quality, compliance and project execution that has to be managed deliberately.</p>
+    body: `<p>Chinese manufacturers now play a central role in supplying warehouse racking and conveyor/sortation systems for logistics, e-commerce and manufacturing worldwide. For European operators, going direct to China can materially improve hardware economics, but it introduces risk around quality, compliance and project execution that has to be managed deliberately.</p>
 
 <p>This guide sets out how to source racking and conveyor systems from China safely and systematically, with an honest read on capabilities, pricing, and what to verify before you commit.</p>
 
 <figure class="article-figure">
   <img src="/images/china-conveyor-parcel-sortation-system.webp" alt="Powered roller conveyor and parcel sortation line moving cartons through a logistics warehouse" loading="lazy" width="1280" height="720">
-  <figcaption>Powered roller conveyor and sortation — the moving backbone of a modern fulfilment operation, and a mature Chinese export category.</figcaption>
+  <figcaption>Powered roller conveyor and sortation, the moving backbone of a modern fulfilment operation, and a mature Chinese export category.</figcaption>
 </figure>
 
 <h2>Why look to China for warehouse equipment?</h2>
 
-<p>Three things make China worth a serious look. <strong>Scale and export focus</strong> — China is a major global manufacturer and exporter of warehouse racking, storage and conveyor/sortation equipment, and leading factories run design, production and installation under one roof. <strong>A broad conveyor and sorter ecosystem</strong> — suppliers span simple roller conveyors to cross-belt and tilt-tray sorters and integrated logistics automation. <strong>Cost and speed</strong> — integrated steel, motor and controls supply chains typically bring lower equipment cost than Western-built equivalents.</p>
+<p>Three things make China worth a serious look. <strong>Scale and export focus</strong>, China is a major global manufacturer and exporter of warehouse racking, storage and conveyor/sortation equipment, and leading factories run design, production and installation under one roof. <strong>A broad conveyor and sorter ecosystem</strong>, suppliers span simple roller conveyors to cross-belt and tilt-tray sorters and integrated logistics automation. <strong>Cost and speed</strong>, integrated steel, motor and controls supply chains typically bring lower equipment cost than Western-built equivalents.</p>
 
 <p>A note on the numbers you will see quoted: individual Chinese suppliers often advertise two decades of experience, exports to dozens of countries, and four-figure client counts. Treat those as supplier marketing to verify per factory, not as facts about the industry as a whole. The structural cost advantage is real; the specific boast on a homepage needs checking.</p>
 
@@ -2685,30 +2685,30 @@ export const blogPosts = [
 
 <p><strong>Racking</strong> covers selective pallet racking (the standard for most pallets), drive-in/through and deep-lane systems for dense storage, cantilever racks for timber, tubing and long products, and mezzanines or multi-tier pick towers. <strong>Conveyors and sortation</strong> cover gravity and powered roller conveyors for cartons and totes, belt conveyors for long runs and inclines, and sorters (narrow-belt, cross-belt, sliding-shoe, tilt-tray) for parcel and tote sorting.</p>
 
-<p>The two need different vetting. Racking is steel-intensive and structurally focused — the risks are load ratings, steel grade and weld quality. Conveyors are electro-mechanical with more complex controls — the risks are motors, sensors, controls integration and safety. A supplier strong in one is not automatically strong in the other.</p>
+<p>The two need different vetting. Racking is steel-intensive and structurally focused, the risks are load ratings, steel grade and weld quality. Conveyors are electro-mechanical with more complex controls, the risks are motors, sensors, controls integration and safety. A supplier strong in one is not automatically strong in the other.</p>
 
 <figure class="article-figure">
-  <img src="/images/china-warehouse-racking-factory-export.webp" alt="Chinese warehouse-racking factory with robotic welding and palletised beams — steel-intensive fabrication" loading="lazy" width="1280" height="720">
-  <figcaption>Racking is steel-intensive — load ratings, steel grade and weld quality are what to verify; conveyors are electro-mechanical and need motors, controls and safety vetting. Few factories excel at both.</figcaption>
+  <img src="/images/china-warehouse-racking-factory-export.webp" alt="Chinese warehouse-racking factory with robotic welding and palletised beams, steel-intensive fabrication" loading="lazy" width="1280" height="720">
+  <figcaption>Racking is steel-intensive, load ratings, steel grade and weld quality are what to verify; conveyors are electro-mechanical and need motors, controls and safety vetting. Few factories excel at both.</figcaption>
 </figure>
 
 <h2>How to choose racking suppliers in China</h2>
 
-<p>For racking, look for a real export track record into regulated markets, genuine in-house engineering (load calculations, CAD drawings, and seismic/wind design where needed), relevant quality certifications (ISO 9001, ISO 14001) with documented QA/QC procedures, and credible project references for large warehouses, complex mezzanines and shuttle systems. Factories with proven export experience generally offer better documentation, packaging and after-sales support than purely domestic suppliers — but confirm it rather than assume it.</p>
+<p>For racking, look for a real export track record into regulated markets, genuine in-house engineering (load calculations, CAD drawings, and seismic/wind design where needed), relevant quality certifications (ISO 9001, ISO 14001) with documented QA/QC procedures, and credible project references for large warehouses, complex mezzanines and shuttle systems. Factories with proven export experience generally offer better documentation, packaging and after-sales support than purely domestic suppliers, but confirm it rather than assume it.</p>
 
 <h2>How to choose conveyor and sorting system suppliers</h2>
 
-<p>For conveyors and sorters, vet technical capability (can they design and integrate a complete system — layout, controls, WMS interface, sensors?), facility and equipment (assembly space, dedicated testing zones, in-house fabrication), and quality and compliance (ISO 9001, CE marking for export, and test reports for load capacity, noise and safety). Service indicators worth asking about — on-time delivery rates, response times, and reorder rates — are useful signals when you can substantiate them; the better suppliers can show you the evidence. Some leading manufacturers provide genuinely turnkey solutions including layout design, mechanical and electrical integration, and on-site commissioning.</p>
+<p>For conveyors and sorters, vet technical capability (can they design and integrate a complete system, layout, controls, WMS interface, sensors?), facility and equipment (assembly space, dedicated testing zones, in-house fabrication), and quality and compliance (ISO 9001, CE marking for export, and test reports for load capacity, noise and safety). Service indicators worth asking about, on-time delivery rates, response times, and reorder rates, are useful signals when you can substantiate them; the better suppliers can show you the evidence. Some leading manufacturers provide genuinely turnkey solutions including layout design, mechanical and electrical integration, and on-site commissioning.</p>
 
 <h2>Honest pricing and what drives it</h2>
 
-<p>Pricing is highly configuration-dependent, and any single figure should be treated as indicative until a factory quotes against your real specification. As a directional guide: simple modular conveyor is commonly quoted from the low hundreds of dollars per metre; parcel sorters range from a few thousand dollars for basic units to tens of thousands for high-capacity cross-belt systems; and complete custom automation lines — conveyor, sortation, DWS and controls integrated — run well into five or six figures. Racking is quoted per project, effectively per pallet position or per tonne of steel, driven by load class, steel grade and coating.</p>
+<p>Pricing is highly configuration-dependent, and any single figure should be treated as indicative until a factory quotes against your real specification. As a directional guide: simple modular conveyor is commonly quoted from the low hundreds of dollars per metre; parcel sorters range from a few thousand dollars for basic units to tens of thousands for high-capacity cross-belt systems; and complete custom automation lines, conveyor, sortation, DWS and controls integrated, run well into five or six figures. Racking is quoted per project, effectively per pallet position or per tonne of steel, driven by load class, steel grade and coating.</p>
 
-<p>The equipment cost advantage versus European or North American systems is commonly cited in the region of 15–25%, but it varies with category, configuration and the steel price, and is partly offset by freight and local installation. The discipline that protects you is comparing total cost of ownership — equipment, freight, installation, power, maintenance and spares — rather than the headline number.</p>
+<p>The equipment cost advantage versus European or North American systems is commonly cited in the region of 15–25%, but it varies with category, configuration and the steel price, and is partly offset by freight and local installation. The discipline that protects you is comparing total cost of ownership, equipment, freight, installation, power, maintenance and spares, rather than the headline number.</p>
 
 <figure class="article-figure">
   <img src="/images/warehouse-layout-cost-comparison-europe-china.webp" alt="Side-by-side local-versus-China warehouse layout and cost comparison on a desk, with a Zhengzhou–Europe logistics route map" loading="lazy" width="1280" height="720">
-  <figcaption>Compare like for like on total cost of ownership — equipment, freight, installation, spares and support — not a headline price. Illustrative only; we quote against your real layout.</figcaption>
+  <figcaption>Compare like for like on total cost of ownership, equipment, freight, installation, spares and support, not a headline price. Illustrative only; we quote against your real layout.</figcaption>
 </figure>
 
 <h2>Managing risk: quality, compliance and installation</h2>
@@ -2717,19 +2717,19 @@ export const blogPosts = [
 
 <h2>Where a Zhengzhou-based sourcing partner adds value</h2>
 
-<p>A partner embedded in China — and in a genuine logistics hub like Zhengzhou — can identify reliable factories from real-world performance rather than platform listings; visit and audit suppliers, checking fabrication, welding, powder coating and controls; coordinate multi-factory orders, consolidating racking, conveyors and ancillaries into optimised shipments; and use multimodal routes from Zhengzhou to Europe. Zhengzhou is one of China's top-ten China–Europe Railway Express departure points, with rail reaching European terminals in roughly 12–18 days against 30–40 by sea — faster than ocean freight and far cheaper than air. This is the role Ériu Sourcing plays for European 3PLs and warehouse operators.</p>
+<p>A partner embedded in China, and in a genuine logistics hub like Zhengzhou, can identify reliable factories from real-world performance rather than platform listings; visit and audit suppliers, checking fabrication, welding, powder coating and controls; coordinate multi-factory orders, consolidating racking, conveyors and ancillaries into optimised shipments; and use multimodal routes from Zhengzhou to Europe. Zhengzhou is one of China's top-ten China–Europe Railway Express departure points, with rail reaching European terminals in roughly 12–18 days against 30–40 by sea, faster than ocean freight and far cheaper than air. This is the role Ériu Sourcing plays for European 3PLs and warehouse operators.</p>
 
 <figure class="article-figure">
-  <img src="/images/zhengzhou-hsr-station.webp" alt="Zhengzhou rail hub — multimodal China–Europe routing for warehouse equipment shipments" loading="lazy" width="1280" height="720">
-  <figcaption>Zhengzhou is one of China's top-ten China–Europe Railway Express departure points — rail reaches European terminals in about 12–18 days versus 30–40 by sea.</figcaption>
+  <img src="/images/zhengzhou-hsr-station.webp" alt="Zhengzhou rail hub, multimodal China–Europe routing for warehouse equipment shipments" loading="lazy" width="1280" height="720">
+  <figcaption>Zhengzhou is one of China's top-ten China–Europe Railway Express departure points, rail reaches European terminals in about 12–18 days versus 30–40 by sea.</figcaption>
 </figure>
 
 <h2>First practical steps</h2>
 
 <p>If you are considering sourcing racking or conveyors from China, identify one concrete project (a new warehouse, a refit, or a conveyor upgrade), document your loads, volumes and flows clearly, and decide whether you want simple equipment (racking only) or system-level integration (racking plus conveyors and sortation). Then engage a China-side partner to build a short list of two or three viable suppliers and honest initial budgets.</p>
 
-<p>Send us a brief on your next warehouse project and we will prepare a short sourcing-options memo — potential Chinese suppliers, solution concepts, and indicative cost ranges against your layout. Browse the <a href="/source/logistics-warehouse-equipment-from-china-ireland/">full logistics &amp; warehouse equipment category</a>, see our <a href="/source/warehouse-racking-conveyor-systems-from-china/">racking &amp; conveyor sourcing offer</a>, or <a href="/contact/">get in touch</a>.</p>`,
-    excerpt: 'China is a major manufacturer of warehouse racking and conveyor/sortation systems, and going direct can improve hardware economics for European 3PLs and e-commerce operations. Here is how to do it safely — categories, supplier vetting, honest pricing, compliance, and multimodal logistics via Zhengzhou.',
+<p>Send us a brief on your next warehouse project and we will prepare a short sourcing-options memo, potential Chinese suppliers, solution concepts, and indicative cost ranges against your layout. Browse the <a href="/source/logistics-warehouse-equipment-from-china-ireland/">full logistics &amp; warehouse equipment category</a>, see our <a href="/source/warehouse-racking-conveyor-systems-from-china/">racking &amp; conveyor sourcing offer</a>, or <a href="/contact/">get in touch</a>.</p>`,
+    excerpt: 'China is a major manufacturer of warehouse racking and conveyor/sortation systems, and going direct can improve hardware economics for European 3PLs and e-commerce operations. Here is how to do it safely, categories, supplier vetting, honest pricing, compliance, and multimodal logistics via Zhengzhou.',
     image: '/images/china-warehouse-racking-conveyors-hero.webp',
     imageAlt: 'Modern e-commerce warehouse with tall pallet racking and powered roller conveyors, hi-vis workers at packing stations',
     sections: [
@@ -2743,13 +2743,13 @@ export const blogPosts = [
       'First practical steps',
     ],
     faq: [
-      { q: 'How much cheaper is warehouse racking and conveyor equipment from China?', a: 'The equipment cost advantage versus European or North American-built systems is commonly cited in the region of 15–25%, but it genuinely varies by category, configuration and the steel price, and is partly offset by freight and local installation. Pricing is configuration-dependent — simple modular conveyor from the low hundreds of dollars per metre, parcel sorters from a few thousand to tens of thousands, full automation lines into five or six figures — so compare firm quotes against your real layout on total cost of ownership.' },
-      { q: 'Is Chinese warehouse equipment CE-compliant and safe for European use?', a: 'Reputable export-focused factories supply load charts, test reports and engineering documentation for racking, and CE marking under the Machinery Directive with manuals, electrical schematics and safety documentation for conveyors and moving machinery. Verify it against the exact configuration, and engage local structural and electrical engineers for installation and national compliance — responsibility for sign-off sits with the operator, not the factory.' },
+      { q: 'How much cheaper is warehouse racking and conveyor equipment from China?', a: 'The equipment cost advantage versus European or North American-built systems is commonly cited in the region of 15–25%, but it genuinely varies by category, configuration and the steel price, and is partly offset by freight and local installation. Pricing is configuration-dependent, simple modular conveyor from the low hundreds of dollars per metre, parcel sorters from a few thousand to tens of thousands, full automation lines into five or six figures, so compare firm quotes against your real layout on total cost of ownership.' },
+      { q: 'Is Chinese warehouse equipment CE-compliant and safe for European use?', a: 'Reputable export-focused factories supply load charts, test reports and engineering documentation for racking, and CE marking under the Machinery Directive with manuals, electrical schematics and safety documentation for conveyors and moving machinery. Verify it against the exact configuration, and engage local structural and electrical engineers for installation and national compliance, responsibility for sign-off sits with the operator, not the factory.' },
       { q: 'Should I vet racking and conveyor suppliers the same way?', a: 'No. Racking is steel-intensive and structural, so the priorities are load ratings, steel grade, weld quality and engineering capability. Conveyors and sorters are electro-mechanical, so the priorities are motors, controls, sensors, WMS integration and safety. A supplier strong in one is not automatically strong in the other, which is why structured RFQs, samples or mock-ups, and a factory audit matter on both.' },
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland', 'incoterms-explained-irish-importers-fob-cif-exw-dap-china'],
     internalLinks: [
-      { text: 'Logistics & warehouse equipment — what we source', href: '/source/logistics-warehouse-equipment-from-china-ireland/' },
+      { text: 'Logistics & warehouse equipment, what we source', href: '/source/logistics-warehouse-equipment-from-china-ireland/' },
       { text: 'Warehouse racking & conveyor sourcing offer', href: '/source/warehouse-racking-conveyor-systems-from-china/' },
       { text: 'Our China network', href: '/china-network/' },
       { text: 'Get a sourcing quote', href: '/contact/' },
@@ -2760,7 +2760,7 @@ export const blogPosts = [
     slug: 'how-to-source-construction-machinery-from-china-2026',
     title: 'How to Source Construction Machinery from China Safely: CE, Stage V and Hydraulics in 2026',
     metaTitle: 'Sourcing Construction Machinery from China | Ériu',
-    metaDescription: 'A 2026 guide to importing excavators, loaders and concrete machinery from China safely — the Machinery Directive, Stage V engines and hydraulics QC.',
+    metaDescription: 'A 2026 guide to importing excavators, loaders and concrete machinery from China safely, the Machinery Directive, Stage V engines and hydraulics QC.',
     h1: 'How to source construction machinery from China safely: CE, Stage V and hydraulics in 2026',
     eyebrow: 'Category Deep Dive',
     category: 'category-guides',
@@ -2771,61 +2771,61 @@ export const blogPosts = [
     estimatedWordCount: 2400,
     publishDate: '2026-06-06',
     draft: false,
-    body: `<p>Chinese construction machinery can be a powerful lever for European contractors and rental fleets — but importing excavators, loaders and concrete equipment is nothing like importing hand tools or furniture. You are dealing with the EU Machinery Directive, Stage V emissions, hydraulic-system quality, documentation and long-term support, and any one of them can sink a project.</p>
+    body: `<p>Chinese construction machinery can be a powerful lever for European contractors and rental fleets, but importing excavators, loaders and concrete equipment is nothing like importing hand tools or furniture. You are dealing with the EU Machinery Directive, Stage V emissions, hydraulic-system quality, documentation and long-term support, and any one of them can sink a project.</p>
 
 <p>This guide explains how to source construction machinery from China safely, rooted in current EU regulation and real market data rather than shortcuts. The scale is genuine: Chinese OEMs sold roughly 131,550 excavators between January and August 2024, with around half exported. The discipline below is what turns that supply into machines you can actually run in Europe.</p>
 
 <figure class="article-figure">
   <img src="/images/mini-excavators-compact-machinery-europe-jobsite.webp" alt="Mini excavators and a compact wheel loader working on a European civil project in a town street, with hi-vis workers" loading="lazy" width="1280" height="720">
-  <figcaption>Compact and mini excavators are the fastest-growing excavator segment globally — and the category where Chinese export volume and European demand overlap most clearly.</figcaption>
+  <figcaption>Compact and mini excavators are the fastest-growing excavator segment globally, and the category where Chinese export volume and European demand overlap most clearly.</figcaption>
 </figure>
 
 <h2>Understand the EU Machinery Directive and CE marking</h2>
 
 <p>The Machinery Directive (2006/42/EC) governs machinery placed on the EU market, aiming to guarantee both free circulation and a high level of safety. It requires the manufacturer to undertake a risk assessment, demonstrate conformity with the Essential Health and Safety Requirements of Annex I (usually via harmonised EN/ISO standards), compile a technical file of drawings, calculations, test reports and instructions, issue an EC Declaration of Conformity, and affix the CE mark and machine identification.</p>
 
-<p>Most construction machinery follows the "internal checks" conformity route; only certain higher-risk categories require a Notified Body, but the manufacturer remains fully responsible either way. When sourcing from China, the job is to verify the OEM has genuinely done this work — not merely added a CE sticker to a machine built for another market.</p>
+<p>Most construction machinery follows the "internal checks" conformity route; only certain higher-risk categories require a Notified Body, but the manufacturer remains fully responsible either way. When sourcing from China, the job is to verify the OEM has genuinely done this work, not merely added a CE sticker to a machine built for another market.</p>
 
 <h2>Stage V emissions for non-road mobile machinery</h2>
 
-<p>Stage V (Regulation (EU) 2016/1628) sets stringent emission limits for engines used in non-road mobile machinery such as excavators, loaders and construction equipment. It applies across a wide power range — from under 19 kW to over 560 kW — with implementation staged from 2018 for type approval and 2020 for placing engines on the market, and it focuses hard on particulate matter and particle number, driving diesel particulate filters even into smaller engines.</p>
+<p>Stage V (Regulation (EU) 2016/1628) sets stringent emission limits for engines used in non-road mobile machinery such as excavators, loaders and construction equipment. It applies across a wide power range, from under 19 kW to over 560 kW, with implementation staged from 2018 for type approval and 2020 for placing engines on the market, and it focuses hard on particulate matter and particle number, driving diesel particulate filters even into smaller engines.</p>
 
 <p>For an imported machine this means the engine must be Stage V-approved, with type-approval documentation to prove it. Fitting a random industrial diesel that meets an older regional standard will not pass, and national authorities are increasingly monitoring in-service emissions. Confirm the engine and its paperwork before anything else.</p>
 
 <figure class="article-figure">
-  <img src="/images/construction-machinery-ce-stage-v-compliance-docs.webp" alt="Construction machinery compliance documents — engine data plate with CE marking, EU Declaration of Conformity, Stage V type-approval certificate and operation manual, with an engineer checking the details" loading="lazy" width="1280" height="720">
-  <figcaption>EU compliance is non-negotiable: a CE plate backed by a real Declaration of Conformity, and a Stage V type-approval certificate for the engine — verified against the exact machine, not taken on trust.</figcaption>
+  <img src="/images/construction-machinery-ce-stage-v-compliance-docs.webp" alt="Construction machinery compliance documents, engine data plate with CE marking, EU Declaration of Conformity, Stage V type-approval certificate and operation manual, with an engineer checking the details" loading="lazy" width="1280" height="720">
+  <figcaption>EU compliance is non-negotiable: a CE plate backed by a real Declaration of Conformity, and a Stage V type-approval certificate for the engine, verified against the exact machine, not taken on trust.</figcaption>
 </figure>
 
 <h2>Common pitfalls when importing machinery from China</h2>
 
-<p>Experienced importers see the same issues recur. <strong>Fake or incomplete CE marking</strong> — a CE logo with no real risk assessment, technical file or conformity behind it. <strong>Non-compliant engines</strong> — meeting older Chinese or other regional standards but not Stage V. <strong>Weak documentation</strong> — missing manuals, incomplete technical files, or paperwork not available in the required EU languages. <strong>Hydraulic and structural weaknesses</strong> — underspecified hoses, fittings, seals, welds and structural members that do not meet European operational expectations. Any one of these can lead to refused import, a stalled site, insurance problems or a serious safety incident.</p>
+<p>Experienced importers see the same issues recur. <strong>Fake or incomplete CE marking</strong>, a CE logo with no real risk assessment, technical file or conformity behind it. <strong>Non-compliant engines</strong>, meeting older Chinese or other regional standards but not Stage V. <strong>Weak documentation</strong>, missing manuals, incomplete technical files, or paperwork not available in the required EU languages. <strong>Hydraulic and structural weaknesses</strong>, underspecified hoses, fittings, seals, welds and structural members that do not meet European operational expectations. Any one of these can lead to refused import, a stalled site, insurance problems or a serious safety incident.</p>
 
 <h2>A safe sourcing process, step by step</h2>
 
-<p><strong>1. Define application and regulatory scope.</strong> Specify the machine's use, power range and duty cycle, and confirm whether it falls under NRMM Stage V and any additional directives (EMC, noise, ATEX). <strong>2. Pre-qualify OEMs on compliance.</strong> Ask for evidence of the CE process — a risk-assessment summary, test reports, a sample Declaration of Conformity — and for engine Stage V type-approval certificates and emission data. <strong>3. Do technical due diligence.</strong> Have a qualified engineer review drawings, hydraulic schematics, component specs and protection systems, and check that harmonised standards are actually used. <strong>4. Pilot and inspect independently.</strong> Import a single machine or small batch, commission independent inspection (hydraulics, welds, structure) and run it in the field. <strong>5. Document and standardise.</strong> Verify manuals, labels and documentation meet the Directive and keep them in your technical file. <strong>6. Scale cautiously.</strong> Only after a successful pilot — and any remedial improvements — should larger fleet orders follow.</p>
+<p><strong>1. Define application and regulatory scope.</strong> Specify the machine's use, power range and duty cycle, and confirm whether it falls under NRMM Stage V and any additional directives (EMC, noise, ATEX). <strong>2. Pre-qualify OEMs on compliance.</strong> Ask for evidence of the CE process, a risk-assessment summary, test reports, a sample Declaration of Conformity, and for engine Stage V type-approval certificates and emission data. <strong>3. Do technical due diligence.</strong> Have a qualified engineer review drawings, hydraulic schematics, component specs and protection systems, and check that harmonised standards are actually used. <strong>4. Pilot and inspect independently.</strong> Import a single machine or small batch, commission independent inspection (hydraulics, welds, structure) and run it in the field. <strong>5. Document and standardise.</strong> Verify manuals, labels and documentation meet the Directive and keep them in your technical file. <strong>6. Scale cautiously.</strong> Only after a successful pilot, and any remedial improvements, should larger fleet orders follow.</p>
 
 <h2>Hydraulics and structural quality: what to watch for</h2>
 
-<p>For excavators, loaders and concrete equipment, hydraulic and structural integrity is everything. On <strong>hydraulics</strong>, verify the quality of pumps, valves, cylinders, hoses and seals, ensure components are rated for the pressures and cycles typical of European use, and check CE/EN compliance on hose assemblies and fittings where relevant. On <strong>structure</strong>, inspect weld quality (penetration and finish), steel specifications and stress-relief, and look for robust reinforcement at the boom, arm and undercarriage. On <strong>routing</strong>, make sure hoses and cables are shielded against chafing and damage. Some Chinese OEMs run strong QA and partner with recognised hydraulic suppliers; others cut corners — and differentiating between them is the single most valuable thing a buyer (or their agent) can do.</p>
+<p>For excavators, loaders and concrete equipment, hydraulic and structural integrity is everything. On <strong>hydraulics</strong>, verify the quality of pumps, valves, cylinders, hoses and seals, ensure components are rated for the pressures and cycles typical of European use, and check CE/EN compliance on hose assemblies and fittings where relevant. On <strong>structure</strong>, inspect weld quality (penetration and finish), steel specifications and stress-relief, and look for robust reinforcement at the boom, arm and undercarriage. On <strong>routing</strong>, make sure hoses and cables are shielded against chafing and damage. Some Chinese OEMs run strong QA and partner with recognised hydraulic suppliers; others cut corners, and differentiating between them is the single most valuable thing a buyer (or their agent) can do.</p>
 
 <figure class="article-figure">
   <img src="/images/china-construction-machinery-sourcing-process-europe.webp" alt="European buyer reviewing a China-versus-Europe OEM comparison and a CE/Stage V/hydraulics checklist at a desk, with hydraulic component samples" loading="lazy" width="1280" height="720">
-  <figcaption>A vetted Chinese machine might land at €40,000–€55,000 against €65,000–€80,000 for a comparable Western OEM — but the honest comparison is total cost of ownership, not the sticker. Illustrative only.</figcaption>
+  <figcaption>A vetted Chinese machine might land at €40,000–€55,000 against €65,000–€80,000 for a comparable Western OEM, but the honest comparison is total cost of ownership, not the sticker. Illustrative only.</figcaption>
 </figure>
 
 <h2>Why a Zhengzhou-based sourcing and QC partner matters</h2>
 
-<p>Being physically present in China — near both equipment clusters and a major logistics hub — changes what is possible. It enables factory visits and audits focused on the CE process, QA/QC and component sourcing; live verification of Stage V engines and their documentation rather than PDF claims; on-site testing and pre-shipment inspection that catch issues before they ship; and efficient logistics from a national hub. Zhengzhou is one of China's top-ten China–Europe Railway Express departure points, with rail reaching European terminals in roughly 12–18 days against 30–40 by sea — faster than ocean freight and far cheaper than air. This is the role Ériu Sourcing plays: regulatory awareness, engineering common sense and on-the-ground presence to filter OEMs and supervise projects.</p>
+<p>Being physically present in China, near both equipment clusters and a major logistics hub, changes what is possible. It enables factory visits and audits focused on the CE process, QA/QC and component sourcing; live verification of Stage V engines and their documentation rather than PDF claims; on-site testing and pre-shipment inspection that catch issues before they ship; and efficient logistics from a national hub. Zhengzhou is one of China's top-ten China–Europe Railway Express departure points, with rail reaching European terminals in roughly 12–18 days against 30–40 by sea, faster than ocean freight and far cheaper than air. This is the role Ériu Sourcing plays: regulatory awareness, engineering common sense and on-the-ground presence to filter OEMs and supervise projects.</p>
 
 <h2>Where to start if you are new to Chinese machinery</h2>
 
-<p>If you have never imported machinery from China, start with non-critical categories — auxiliary equipment or a specific compact machine — rather than your core fleet workhorses. Keep pilot projects small and tightly monitored, and use them to test OEM responsiveness, parts availability and support as much as raw machine performance. Once you have evidence that a specific OEM or category works, you can expand exposure, always inside the framework of EU regulation and sound engineering.</p>
+<p>If you have never imported machinery from China, start with non-critical categories, auxiliary equipment or a specific compact machine, rather than your core fleet workhorses. Keep pilot projects small and tightly monitored, and use them to test OEM responsiveness, parts availability and support as much as raw machine performance. Once you have evidence that a specific OEM or category works, you can expand exposure, always inside the framework of EU regulation and sound engineering.</p>
 
-<p>If you are considering trialling Chinese machinery, send us one specific machine type and we will outline a safe pilot sourcing plan — the regulatory steps, the technical checks, and a realistic cost/benefit read. Browse the <a href="/source/construction-machinery-from-china-ireland/">full construction machinery category</a>, see our <a href="/source/mini-excavators-compact-machinery-from-china/">mini excavator &amp; compact machinery offer</a>, or <a href="/contact/">get in touch</a>.</p>`,
-    excerpt: 'Chinese excavators, loaders and concrete equipment offer European contractors a better capex profile — but importing them safely means mastering the Machinery Directive, Stage V emissions and hydraulic quality. Here is a step-by-step process, with honest economics and a safe pilot plan.',
+<p>If you are considering trialling Chinese machinery, send us one specific machine type and we will outline a safe pilot sourcing plan, the regulatory steps, the technical checks, and a realistic cost/benefit read. Browse the <a href="/source/construction-machinery-from-china-ireland/">full construction machinery category</a>, see our <a href="/source/mini-excavators-compact-machinery-from-china/">mini excavator &amp; compact machinery offer</a>, or <a href="/contact/">get in touch</a>.</p>`,
+    excerpt: 'Chinese excavators, loaders and concrete equipment offer European contractors a better capex profile, but importing them safely means mastering the Machinery Directive, Stage V emissions and hydraulic quality. Here is a step-by-step process, with honest economics and a safe pilot plan.',
     image: '/images/china-construction-machinery-fleet-hero.webp',
-    imageAlt: 'Mixed fleet of Chinese construction machinery on a European jobsite — mini and mid excavators, a compact wheel loader and a concrete mixer truck lined up on muddy ground',
+    imageAlt: 'Mixed fleet of Chinese construction machinery on a European jobsite, mini and mid excavators, a compact wheel loader and a concrete mixer truck lined up on muddy ground',
     sections: [
       'Understand the EU Machinery Directive and CE marking',
       'Stage V emissions for non-road mobile machinery',
@@ -2836,13 +2836,13 @@ export const blogPosts = [
       'Where to start if you are new to Chinese machinery',
     ],
     faq: [
-      { q: 'Is construction machinery from China cheaper than Western OEMs?', a: 'Usually, on capex. As a directional guide, a vetted Chinese machine in the 3–5 tonne class with a Stage V engine and CE documentation might land at €40,000–€55,000 against €65,000–€80,000 for a comparable Western-OEM machine — roughly a 20–40% gap, depending on spec and volume. But that only counts if reliability, parts and residual values hold up, so compare on total cost of ownership against your real duty cycle, not the sticker price.' },
-      { q: 'What does a machine need to be legal on a European site?', a: 'CE marking under the Machinery Directive (2006/42/EC) — backed by a real risk assessment, technical file and EC Declaration of Conformity, not just a sticker — and, for the engine, Stage V approval under Regulation (EU) 2016/1628 with type-approval documentation. The importer placing the machine on the market is responsible for compliance, so verify both the machinery file and the engine paperwork against the exact configuration before you commit.' },
+      { q: 'Is construction machinery from China cheaper than Western OEMs?', a: 'Usually, on capex. As a directional guide, a vetted Chinese machine in the 3–5 tonne class with a Stage V engine and CE documentation might land at €40,000–€55,000 against €65,000–€80,000 for a comparable Western-OEM machine, roughly a 20–40% gap, depending on spec and volume. But that only counts if reliability, parts and residual values hold up, so compare on total cost of ownership against your real duty cycle, not the sticker price.' },
+      { q: 'What does a machine need to be legal on a European site?', a: 'CE marking under the Machinery Directive (2006/42/EC), backed by a real risk assessment, technical file and EC Declaration of Conformity, not just a sticker, and, for the engine, Stage V approval under Regulation (EU) 2016/1628 with type-approval documentation. The importer placing the machine on the market is responsible for compliance, so verify both the machinery file and the engine paperwork against the exact configuration before you commit.' },
       { q: 'How do I avoid buying a machine with weak hydraulics or welds?', a: 'Treat hydraulics and structure as the main event. Have a qualified engineer review hydraulic schematics and component specs (pumps, valves, cylinders, hoses, seals) and inspect weld penetration, steel grades and reinforcement at the boom, arm and undercarriage. Favour OEMs with documented QA and recognised hydraulic suppliers, and run a pilot machine with independent inspection and field testing before any fleet order.' },
     ],
     relatedSlugs: ['source-warehouse-racking-conveyor-systems-from-china-2026', 'real-landed-cost-importing-from-china-ireland', 'incoterms-explained-irish-importers-fob-cif-exw-dap-china'],
     internalLinks: [
-      { text: 'Construction machinery — what we source', href: '/source/construction-machinery-from-china-ireland/' },
+      { text: 'Construction machinery, what we source', href: '/source/construction-machinery-from-china-ireland/' },
       { text: 'Mini excavator & compact machinery offer', href: '/source/mini-excavators-compact-machinery-from-china/' },
       { text: 'Our China network', href: '/china-network/' },
       { text: 'Get a sourcing quote', href: '/contact/' },
@@ -2853,7 +2853,7 @@ export const blogPosts = [
     slug: 'vet-chinese-industrial-equipment-suppliers-factory-audit-playbook',
     title: 'How to Vet Chinese Industrial Equipment Suppliers: A Factory Audit Playbook for SMEs',
     metaTitle: 'Vetting Chinese Industrial Equipment Suppliers | Ériu',
-    metaDescription: 'A factory-audit playbook for SMEs buying machinery from China — legal checks, capability and QMS, engineering, FAT, and the red flags that end a deal.',
+    metaDescription: 'A factory-audit playbook for SMEs buying machinery from China, legal checks, capability and QMS, engineering, FAT, and the red flags that end a deal.',
     h1: 'How to vet Chinese industrial equipment suppliers: a factory audit playbook for SMEs',
     eyebrow: 'Supplier Due Diligence',
     category: 'sourcing-guides',
@@ -2864,10 +2864,10 @@ export const blogPosts = [
     estimatedWordCount: 2500,
     publishDate: '2026-06-06',
     draft: false,
-    excerpt: 'When you are buying a five- or six-figure machine, the biggest risk is not price — it is the wrong supplier. A structured factory audit is the only reliable way to separate a real manufacturer from a trading company or an under-resourced workshop. Here is the playbook for SMEs buying industrial equipment from China.',
+    excerpt: 'When you are buying a five- or six-figure machine, the biggest risk is not price, it is the wrong supplier. A structured factory audit is the only reliable way to separate a real manufacturer from a trading company or an under-resourced workshop. Here is the playbook for SMEs buying industrial equipment from China.',
     image: '/images/factory-audit-inspector-chinese-manufacturer-production-floor-check.webp',
     imageAlt: 'Third-party auditor checking a CNC machine data plate against the factory\'s claimed capabilities on a Chinese production floor',
-    body: `<p>The biggest risk in importing industrial equipment from China is not the price — it is choosing the wrong supplier. A machine built in a factory with weak quality systems or shaky finances can cost far more in downtime, scrap and safety problems than you ever saved on the purchase order.</p>
+    body: `<p>The biggest risk in importing industrial equipment from China is not the price, it is choosing the wrong supplier. A machine built in a factory with weak quality systems or shaky finances can cost far more in downtime, scrap and safety problems than you ever saved on the purchase order.</p>
 
 <p>This is a different exercise from vetting a supplier for a one-off product order. With capital equipment you are buying a relationship that has to survive installation, commissioning, spares and years of service. A structured, evidence-based factory audit is the only reliable way to separate a serious manufacturer from a trading company or an under-resourced workshop. This is the playbook we use, written for SMEs buying CNC, forming, dust-extraction or processing equipment. (If you are at the earlier stage of a first general product order, start with our broader <a href="/blog/how-to-vet-chinese-suppliers-factory-audit-verification-ireland/">guide to vetting Chinese suppliers</a>.)</p>
 
@@ -2876,83 +2876,83 @@ export const blogPosts = [
 <p>A proper audit answers three questions, and a quick tour with a handshake answers none of them:</p>
 
 <ul>
-  <li><strong>Capability</strong> — can this factory actually build your equipment, to the required quality, at the volume you need?</li>
-  <li><strong>Compliance</strong> — do its safety, labour and environmental practices meet your standards and legal obligations?</li>
-  <li><strong>Viability</strong> — is the business stable enough, financially and operationally, for a multi-year relationship including spares and support?</li>
+  <li><strong>Capability</strong>, can this factory actually build your equipment, to the required quality, at the volume you need?</li>
+  <li><strong>Compliance</strong>, do its safety, labour and environmental practices meet your standards and legal obligations?</li>
+  <li><strong>Viability</strong>, is the business stable enough, financially and operationally, for a multi-year relationship including spares and support?</li>
 </ul>
 
 <p>Everything below is about gathering evidence for those three questions before any deposit moves.</p>
 
 <figure class="article-figure">
   <img src="/images/chinese-business-licence-samr-registration-supplier-verification-ireland.webp" alt="Chinese business licence with red company chop beside a laptop showing the SAMR business registration database used to verify the supplier" loading="lazy" width="1280" height="720">
-  <figcaption>Step one costs nothing: the business licence and the SAMR registry tell you whether you are talking to a manufacturer or a trading company — before any other question matters.</figcaption>
+  <figcaption>Step one costs nothing: the business licence and the SAMR registry tell you whether you are talking to a manufacturer or a trading company, before any other question matters.</figcaption>
 </figure>
 
-<h2>Step 1 — Verify the factory's legal identity</h2>
+<h2>Step 1, Verify the factory's legal identity</h2>
 
-<p>Start with legal verification, because everything else is wasted if the entity is not what it claims. Request the business licence (营业执照) and confirm the legal name, registered address and — critically — the business scope (经营范围). Check those details on China's national enterprise registry, the SAMR system at gsxt.gov.cn, to confirm the company is active and to surface any penalties. Ask whether they can issue a VAT fapiao, which indicates a properly registered business. And make sure the business scope actually covers <em>manufacturing</em> your type of equipment (生产制造), not just trade (贸易). Refusal to share a licence, mismatched names or addresses, or a scope that does not match the claimed activity are all red flags.</p>
+<p>Start with legal verification, because everything else is wasted if the entity is not what it claims. Request the business licence (营业执照) and confirm the legal name, registered address and, critically, the business scope (经营范围). Check those details on China's national enterprise registry, the SAMR system at gsxt.gov.cn, to confirm the company is active and to surface any penalties. Ask whether they can issue a VAT fapiao, which indicates a properly registered business. And make sure the business scope actually covers <em>manufacturing</em> your type of equipment (生产制造), not just trade (贸易). Refusal to share a licence, mismatched names or addresses, or a scope that does not match the claimed activity are all red flags.</p>
 
-<h2>Step 2 — Assess production capability and capacity</h2>
+<h2>Step 2, Assess production capability and capacity</h2>
 
-<p>Now confirm they can build your machine. Document the production area, number of lines, and the key machines that make your equipment — CNC cutters, roll formers, welders, presses, test rigs — and their condition. Check current utilisation: a plant running flat out at 95% has little room for a new customer, and your order will queue. Look at the forward order book (the next 60–90 days) to gauge demand and the realistic risk of delay. Count the workforce structure — production workers versus engineers versus QC staff; as a rough rule of thumb, a single QC inspector covering 200 production workers is thin for complex equipment.</p>
+<p>Now confirm they can build your machine. Document the production area, number of lines, and the key machines that make your equipment, CNC cutters, roll formers, welders, presses, test rigs, and their condition. Check current utilisation: a plant running flat out at 95% has little room for a new customer, and your order will queue. Look at the forward order book (the next 60–90 days) to gauge demand and the realistic risk of delay. Count the workforce structure, production workers versus engineers versus QC staff; as a rough rule of thumb, a single QC inspector covering 200 production workers is thin for complex equipment.</p>
 
 <p>For industrial equipment specifically, dig into the specialised processes: for a CNC table, how they machine the bed, align the gantry and calibrate; for a food or grain line, how they handle hygienic design and cleaning. Generic capacity is not the same as capability in <em>your</em> category.</p>
 
-<h2>Step 3 — Review the quality management system</h2>
+<h2>Step 3, Review the quality management system</h2>
 
-<p>A real quality management system is one of the strongest predictors of consistent output. Check for valid ISO 9001 certification (and the issuing body — verify it, do not just accept a framed certificate). Review the quality manual, internal audit records, and how non-conforming material is handled. Then look for evidence the system actually runs: incoming quality control on raw materials (is the steel and are the components inspected against documented standards, or do they go straight to the line?), in-process checks on the line rather than only at the end, and final inspection records. Counter-intuitively, realistic logs showing occasional minor issues with corrective actions are more credible than a suspiciously "perfect" record.</p>
+<p>A real quality management system is one of the strongest predictors of consistent output. Check for valid ISO 9001 certification (and the issuing body, verify it, do not just accept a framed certificate). Review the quality manual, internal audit records, and how non-conforming material is handled. Then look for evidence the system actually runs: incoming quality control on raw materials (is the steel and are the components inspected against documented standards, or do they go straight to the line?), in-process checks on the line rather than only at the end, and final inspection records. Counter-intuitively, realistic logs showing occasional minor issues with corrective actions are more credible than a suspiciously "perfect" record.</p>
 
 <p>For equipment, inspect maintenance and calibration too: maintenance logs for the production machines, and calibration records for the measuring tools (calipers, gauges, levels) that determine whether your machine will actually hold its stated accuracy.</p>
 
 <figure class="article-figure">
   <img src="/images/pre-shipment-qc-inspector-chinese-factory-product-check-ireland.webp" alt="QC inspector checking a machine and components against specification on the factory floor before shipment" loading="lazy" width="1280" height="720">
-  <figcaption>A quality system you can see running — incoming checks, in-process checkpoints, calibrated instruments — beats any framed certificate on the wall.</figcaption>
+  <figcaption>A quality system you can see running, incoming checks, in-process checkpoints, calibrated instruments, beats any framed certificate on the wall.</figcaption>
 </figure>
 
-<h2>Step 4 — Evaluate engineering and R&D capability</h2>
+<h2>Step 4, Evaluate engineering and R&D capability</h2>
 
-<p>For machinery, engineering competence is what carries you through customisation and troubleshooting. Check whether the factory uses modern CAD/CAM and has real design control — revision management, proper bills of materials. Ask to see example engineering drawings, wiring diagrams and PLC programs relevant to your machine. Ask about typical timelines for a new model or a customisation, and whether they have engineers dedicated to OEM/ODM work. A factory that only copies existing designs, with no in-house engineering, will struggle the moment your requirement differs from their catalogue or something goes wrong on site.</p>
+<p>For machinery, engineering competence is what carries you through customisation and troubleshooting. Check whether the factory uses modern CAD/CAM and has real design control, revision management, proper bills of materials. Ask to see example engineering drawings, wiring diagrams and PLC programs relevant to your machine. Ask about typical timelines for a new model or a customisation, and whether they have engineers dedicated to OEM/ODM work. A factory that only copies existing designs, with no in-house engineering, will struggle the moment your requirement differs from their catalogue or something goes wrong on site.</p>
 
-<h2>Step 5 — Check labour conditions and safety</h2>
+<h2>Step 5, Check labour conditions and safety</h2>
 
-<p>Social and safety compliance is risk management and reputation, not box-ticking. Walk the production floor and the welfare facilities. Check for adequate safety equipment — fire extinguishers, clear and unblocked emergency exits, guards on dangerous machines, PPE actually being worn. Review timecards and payroll for compliance with local minimum-wage and overtime law; unpaid or excessive overtime is a red flag. If you have formal ESG requirements, ask for recent third-party social audit reports (BSCI, SA8000 or similar). Serious safety or labour violations are grounds to walk away outright — and a factory that cuts corners on its own workers' safety tells you how it will treat your machine's.</p>
+<p>Social and safety compliance is risk management and reputation, not box-ticking. Walk the production floor and the welfare facilities. Check for adequate safety equipment, fire extinguishers, clear and unblocked emergency exits, guards on dangerous machines, PPE actually being worn. Review timecards and payroll for compliance with local minimum-wage and overtime law; unpaid or excessive overtime is a red flag. If you have formal ESG requirements, ask for recent third-party social audit reports (BSCI, SA8000 or similar). Serious safety or labour violations are grounds to walk away outright, and a factory that cuts corners on its own workers' safety tells you how it will treat your machine's.</p>
 
-<h2>Step 6 — Evaluate business health and export experience</h2>
+<h2>Step 6, Evaluate business health and export experience</h2>
 
-<p>Technical capability is not enough; you need a partner that will still be there for spares in three years. Review export history — main markets and sample customers, ideally in Europe. Weigh investment in the facility: an older but well-maintained plant with ongoing reinvestment is more reassuring than a bare-minimum workshop. Ask about ownership, year of establishment and any major restructuring. And confirm they have independent export rights and genuine experience handling shipping, documentation and standards for your destination — not just domestic sales with an agent bolted on.</p>
+<p>Technical capability is not enough; you need a partner that will still be there for spares in three years. Review export history, main markets and sample customers, ideally in Europe. Weigh investment in the facility: an older but well-maintained plant with ongoing reinvestment is more reassuring than a bare-minimum workshop. Ask about ownership, year of establishment and any major restructuring. And confirm they have independent export rights and genuine experience handling shipping, documentation and standards for your destination, not just domestic sales with an agent bolted on.</p>
 
 <h2>Don't skip the Factory Acceptance Test</h2>
 
-<p>This is the step that separates equipment buyers from product buyers, and it is where amateurs lose money. Before the balance is paid and the machine is crated, run a Factory Acceptance Test: the assembled machine is powered up and run on <em>your</em> representative material — your plate thickness, your DXF files, your grain — and measured against the agreed specification. For a CNC table that means sample cuts to your tolerance; for a mill, a test run to the rated throughput and particle size. Document it. A machine that has never been proven on representative material before shipment is a machine you are commissioning blind on your own floor — at ten times the cost of fixing it at the factory.</p>
+<p>This is the step that separates equipment buyers from product buyers, and it is where amateurs lose money. Before the balance is paid and the machine is crated, run a Factory Acceptance Test: the assembled machine is powered up and run on <em>your</em> representative material, your plate thickness, your DXF files, your grain, and measured against the agreed specification. For a CNC table that means sample cuts to your tolerance; for a mill, a test run to the rated throughput and particle size. Document it. A machine that has never been proven on representative material before shipment is a machine you are commissioning blind on your own floor, at ten times the cost of fixing it at the factory.</p>
 
 <h2>Three ways to run an audit</h2>
 
-<p>There are three practical routes, and they are not mutually exclusive. <strong>Visit in person</strong> — the highest insight and the strongest relationship, but time-intensive and dependent on knowing what to look for. <strong>Commission a third-party audit firm</strong> — global QC companies run standardised factory audits, typically for a few hundred dollars per day, giving you an independent report. <strong>Work through a China-based sourcing agent or local partner</strong> — which integrates the audit with sourcing, communication and ongoing QC into one accountable relationship. For higher-value industrial equipment, a local partner combined with a third-party technical audit is often the strongest combination.</p>
+<p>There are three practical routes, and they are not mutually exclusive. <strong>Visit in person</strong>, the highest insight and the strongest relationship, but time-intensive and dependent on knowing what to look for. <strong>Commission a third-party audit firm</strong>, global QC companies run standardised factory audits, typically for a few hundred dollars per day, giving you an independent report. <strong>Work through a China-based sourcing agent or local partner</strong>, which integrates the audit with sourcing, communication and ongoing QC into one accountable relationship. For higher-value industrial equipment, a local partner combined with a third-party technical audit is often the strongest combination.</p>
 
 <h2>How Ériu Sourcing runs this for industrial equipment</h2>
 
-<p>In this category we pre-filter Henan and other Chinese equipment makers for legal legitimacy, export history and basic capacity before you spend a day on them; coordinate a tailored factory audit — directly or via a third-party QC firm — focused on your specific equipment type; and oversee the factory acceptance test, documentation checks and pre-shipment inspection so the risk of hidden defects or non-compliance is taken off your desk. The SAMR registry is in Chinese, FAT needs someone who can read a machine, and spares depend on a relationship that outlasts the order — which is precisely the work we do on the ground.</p>
+<p>In this category we pre-filter Henan and other Chinese equipment makers for legal legitimacy, export history and basic capacity before you spend a day on them; coordinate a tailored factory audit, directly or via a third-party QC firm, focused on your specific equipment type; and oversee the factory acceptance test, documentation checks and pre-shipment inspection so the risk of hidden defects or non-compliance is taken off your desk. The SAMR registry is in Chinese, FAT needs someone who can read a machine, and spares depend on a relationship that outlasts the order, which is precisely the work we do on the ground.</p>
 
 <p>If you are weighing up a Chinese industrial equipment supplier, send us the factory name and the equipment type and we will outline a concrete audit and vetting plan before you ever pay a deposit. Browse the <a href="/source/industrial-workshop-equipment-from-china-ireland/">full industrial &amp; workshop equipment category</a>, see our <a href="/source/cnc-cutting-tables-workshop-equipment-from-china/">CNC cutting &amp; workshop equipment offer</a>, or <a href="/contact/">get in touch</a>.</p>`,
     sections: [
       'Why a factory audit is non-negotiable',
-      'Step 1 — Verify the factory\'s legal identity',
-      'Step 2 — Assess production capability and capacity',
-      'Step 3 — Review the quality management system',
-      'Step 4 — Evaluate engineering and R&D capability',
-      'Step 5 — Check labour conditions and safety',
-      'Step 6 — Evaluate business health and export experience',
+      'Step 1, Verify the factory\'s legal identity',
+      'Step 2, Assess production capability and capacity',
+      'Step 3, Review the quality management system',
+      'Step 4, Evaluate engineering and R&D capability',
+      'Step 5, Check labour conditions and safety',
+      'Step 6, Evaluate business health and export experience',
       'Don\'t skip the Factory Acceptance Test',
       'Three ways to run an audit',
     ],
     faq: [
-      { q: 'How is auditing an equipment supplier different from a normal supplier check?', a: 'With capital equipment you are buying a multi-year relationship, not a one-off order, so the audit goes deeper. Beyond legal verification and quality systems, you assess engineering and R&D capability (can they customise and troubleshoot?), machine calibration records, specialised processes for your equipment type, and — critically — you run a Factory Acceptance Test on your own representative material before paying the balance. Spares and after-sales support also matter far more than for a product order.' },
-      { q: 'What is a Factory Acceptance Test (FAT) and why does it matter?', a: 'A FAT is a documented test of the finished machine, at the factory, run on your representative material before the balance is paid and the machine is shipped — sample cuts to tolerance for a CNC table, a throughput-and-particle-size run for a mill. It is the point at which problems are still cheap to fix, because the factory wants the final payment. A machine that has never been proven on representative material before shipment is one you are commissioning blind on your own floor.' },
-      { q: 'How can I tell a real equipment manufacturer from a trading company?', a: 'Check the business licence business scope (经营范围) on China\'s SAMR registry at gsxt.gov.cn: manufacturing (生产制造) versus trade (贸易). Then confirm capability physically — production lines and key machines for your equipment type, in-house engineering with real drawings and PLC programs, and calibration records. A trading company can resell a machine, but it cannot stand behind the engineering, the customisation or the spares, which is exactly what fails you after delivery.' },
+      { q: 'How is auditing an equipment supplier different from a normal supplier check?', a: 'With capital equipment you are buying a multi-year relationship, not a one-off order, so the audit goes deeper. Beyond legal verification and quality systems, you assess engineering and R&D capability (can they customise and troubleshoot?), machine calibration records, specialised processes for your equipment type, and, critically, you run a Factory Acceptance Test on your own representative material before paying the balance. Spares and after-sales support also matter far more than for a product order.' },
+      { q: 'What is a Factory Acceptance Test (FAT) and why does it matter?', a: 'A FAT is a documented test of the finished machine, at the factory, run on your representative material before the balance is paid and the machine is shipped, sample cuts to tolerance for a CNC table, a throughput-and-particle-size run for a mill. It is the point at which problems are still cheap to fix, because the factory wants the final payment. A machine that has never been proven on representative material before shipment is one you are commissioning blind on your own floor.' },
+      { q: 'How can I tell a real equipment manufacturer from a trading company?', a: 'Check the business licence business scope (经营范围) on China\'s SAMR registry at gsxt.gov.cn: manufacturing (生产制造) versus trade (贸易). Then confirm capability physically, production lines and key machines for your equipment type, in-house engineering with real drawings and PLC programs, and calibration records. A trading company can resell a machine, but it cannot stand behind the engineering, the customisation or the spares, which is exactly what fails you after delivery.' },
     ],
     relatedSlugs: ['how-to-vet-chinese-suppliers-factory-audit-verification-ireland', 'how-to-source-construction-machinery-from-china-2026', 'pre-shipment-inspection-china-irish-importers-quality-control'],
     internalLinks: [
-      { text: 'Industrial & workshop equipment — what we source', href: '/source/industrial-workshop-equipment-from-china-ireland/' },
+      { text: 'Industrial & workshop equipment, what we source', href: '/source/industrial-workshop-equipment-from-china-ireland/' },
       { text: 'CNC cutting & workshop equipment offer', href: '/source/cnc-cutting-tables-workshop-equipment-from-china/' },
       { text: 'How our sourcing process works', href: '/how-it-works/' },
       { text: 'Get a sourcing quote', href: '/contact/' },

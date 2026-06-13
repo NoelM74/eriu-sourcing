@@ -6,7 +6,7 @@ import { blogPosts, blogCategories } from '../../data/blogPosts.js';
 
 export function getStaticPaths() {
   // Include draft posts so they render as "coming soon" (with noindex)
-  // rather than returning a 404 — important for URLs already indexed by Google.
+  // rather than returning a 404, important for URLs already indexed by Google.
   return blogPosts
     .map(post => ({
       params: { slug: post.slug },
@@ -20,9 +20,9 @@ const postUrl = `${siteUrl}/blog/${post.slug}/`;
 
 // Build-optimised hero (LCP) when migrated to src/assets; else raw + preload.
 const heroImg = resolveImage(post.image);
-const heroWidths = heroImg ? responsiveWidths(heroImg, [480, 800, 1200]) : [];
+const heroWidths = heroImg ? responsiveWidths(heroImg, [480,800, 1200]) : [];
 
-// Related posts — by slug array defined in data
+// Related posts, by slug array defined in data
 const relatedPosts = blogPosts.filter(p => post.relatedSlugs?.includes(p.slug)).slice(0, 3);
 
 // Schema
@@ -113,7 +113,7 @@ const pageSchemas = [
             Updated <time datetime={post.dateModified}>{new Date(post.dateModified).toLocaleDateString('en-IE', { day: 'numeric', month: 'long', year: 'numeric' })}</time>
           </span>
         )}
-        {post.draft && <span class="draft-label">Draft — not yet published</span>}
+        {post.draft && <span class="draft-label">Draft, not yet published</span>}
       </div>
     </div>
   </section>
@@ -165,7 +165,7 @@ const pageSchemas = [
         <div class="article-content" set:html={post.body} />
       )}
 
-      {/* FAQ section — always show if data exists */}
+      {/* FAQ section, always show if data exists */}
       {post.faq && post.faq.length > 0 && (
         <div class="faq-section">
           <h2>Frequently asked questions</h2>
@@ -235,7 +235,7 @@ const pageSchemas = [
       <div class="container--narrow" style="text-align:center">
         <span class="section-eyebrow section-eyebrow--light">Take the next step</span>
         <h2>Send us a brief. We'll find the factory.</h2>
-        <p>Product, quantity, timeline — that's all we need to come back with factory-gate pricing and a clear sourcing plan.</p>
+        <p>Product, quantity, timeline, that's all we need to come back with factory-gate pricing and a clear sourcing plan.</p>
         <a href="/contact/" class="btn btn--white-outline" style="margin-top:1rem">Get a sourcing quote →</a>
       </div>
     </section>
@@ -247,7 +247,7 @@ const pageSchemas = [
   /* HERO */
   .article-hero {
     background-color: var(--color-bg-alt);
-    border-bottom: 1px solid rgba(15,33,49,0.08);
+    border-bottom: 1px solid rgba(15, 33, 49, 0.08);
     padding: 3rem 0 2.5rem;
   }
 
@@ -297,7 +297,7 @@ const pageSchemas = [
     text-transform: uppercase;
     letter-spacing: 0.06em;
     color: var(--color-teal);
-    background: rgba(28,124,131,0.1);
+    background: rgba(28,124,131, 0.1);
     padding: 0.2rem 0.625rem;
     border-radius: 4px;
   }
@@ -306,7 +306,7 @@ const pageSchemas = [
   .article-hero-img {
     background: var(--color-bg-alt);
     padding-bottom: 3rem;
-    border-bottom: 1px solid rgba(15,33,49,0.07);
+    border-bottom: 1px solid rgba(15, 33, 49, 0.07);
   }
 
   .article-hero-img img {
@@ -325,7 +325,7 @@ const pageSchemas = [
   /* COMING SOON */
   .coming-soon {
     background: var(--color-bg-alt);
-    border: 1px solid rgba(15,33,49,0.09);
+    border: 1px solid rgba(15, 33, 49, 0.09);
     border-radius: 12px;
     padding: 2.5rem;
   }
@@ -398,7 +398,7 @@ const pageSchemas = [
   }
   .article-content a:hover { color: var(--color-teal); }
 
-  /* Inline article figures — use :global() so styles reach into set:html content */
+  /* Inline article figures, use :global() so styles reach into set:html content */
   .article-content :global(figure),
   .article-content :global(.article-figure) {
     margin: 2rem 0 2.5rem;
@@ -421,7 +421,7 @@ const pageSchemas = [
     padding: 0.625rem 1rem 0;
     font-style: italic;
     line-height: 1.55;
-    border-top: 1px solid rgba(15,33,49,0.08);
+    border-top: 1px solid rgba(15, 33, 49, 0.08);
     margin-top: 0.625rem;
     letter-spacing: 0.01em;
   }
@@ -430,7 +430,7 @@ const pageSchemas = [
   .faq-section {
     margin-top: 3.5rem;
     padding-top: 3rem;
-    border-top: 1px solid rgba(15,33,49,0.1);
+    border-top: 1px solid rgba(15, 33, 49, 0.1);
   }
 
   .faq-section h2 {
@@ -440,7 +440,7 @@ const pageSchemas = [
   .faq-list { display: flex; flex-direction: column; gap: 0; }
 
   .faq-item {
-    border-bottom: 1px solid rgba(15,33,49,0.08);
+    border-bottom: 1px solid rgba(15, 33, 49, 0.08);
   }
 
   .faq-q {
@@ -484,8 +484,8 @@ const pageSchemas = [
   /* INTERNAL LINKS */
   .internal-links-box {
     margin-top: 3rem;
-    background: rgba(26,83,62,0.05);
-    border: 1px solid rgba(26,83,62,0.15);
+    background: rgba(26, 83, 62, 0.05);
+    border: 1px solid rgba(26, 83, 62, 0.15);
     border-left: 3px solid var(--color-emerald);
     border-radius: 0 8px 8px 0;
     padding: 1.25rem 1.5rem;
@@ -536,7 +536,7 @@ const pageSchemas = [
     color: inherit;
     display: flex;
     flex-direction: column;
-    border: 1px solid rgba(15,33,49,0.09);
+    border: 1px solid rgba(15, 33, 49, 0.09);
     border-radius: 10px;
     overflow: hidden;
     transition: border-color 0.15s, transform 0.15s;

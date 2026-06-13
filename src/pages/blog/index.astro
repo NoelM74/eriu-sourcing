@@ -4,7 +4,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { blogPosts, blogCategories } from '../../data/blogPosts.js';
 
 const title = "China Sourcing Guides for Irish Businesses | Ériu Sourcing";
-const description = "Practical guides on sourcing from China to Ireland — CE compliance, landed cost, factory-direct vs Alibaba — from someone with 18 years on the ground.";
+const description = "Practical guides on sourcing from China to Ireland, CE compliance, landed cost, factory-direct vs Alibaba, from someone with 18 years on the ground.";
 
 const siteUrl = 'https://eriusourcing.com';
 const pageSchemas = [
@@ -37,7 +37,7 @@ const remainingPosts = sortedPosts.slice(1);
     <div class="container--narrow">
       <Breadcrumbs items={[{ label: 'Blog' }]} />
       <span class="section-eyebrow">Content Hub</span>
-      <h1>China sourcing — straight from the factory floor.</h1>
+      <h1>China sourcing, straight from the factory floor.</h1>
       <p class="lead">Practical guides for Irish businesses importing direct from China. No fluff, no Alibaba cheerleading. Written by someone who has been on the ground in Shenzhen and Zhengzhou for 18 years.</p>
     </div>
   </section>
@@ -93,7 +93,7 @@ const remainingPosts = sortedPosts.slice(1);
               <div class="post-content">
                 <span class="card-eyebrow">{blogCategories[post.category] || post.category}</span>
                 <h3>{post.h1}</h3>
-                <p class="post-excerpt">{post.excerpt.slice(0, 130).trim()}…</p>
+                <p class="post-excerpt">{post.excerpt.slice(0,130).trim()}…</p>
                 <div class="card-meta-row">
                   <span class="meta-pill">{post.estimatedWordCount.toLocaleString()} words</span>
                   <span class="meta-pill">{new Date(post.publishDate).toLocaleDateString('en-IE', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
@@ -111,7 +111,7 @@ const remainingPosts = sortedPosts.slice(1);
     <div class="container--narrow" style="text-align:center">
       <span class="section-eyebrow section-eyebrow--light">Ready to source?</span>
       <h2>Reading about it is a start. Doing it is better.</h2>
-      <p>Send us a brief — product, quantity, timeline. We come back with factory-level pricing and a clear plan.</p>
+      <p>Send us a brief, product, quantity, timeline. We come back with factory-level pricing and a clear plan.</p>
       <a href="/contact/" class="btn btn--white-outline" style="margin-top:1rem">Get a sourcing quote →</a>
     </div>
   </section>
@@ -121,7 +121,7 @@ const remainingPosts = sortedPosts.slice(1);
 <style>
   /* HERO */
   .blog-hero {
-    border-bottom: 1px solid rgba(15,33,49,0.08);
+    border-bottom: 1px solid rgba(15, 33, 49, 0.08);
   }
 
   .blog-hero h1 {
@@ -195,7 +195,7 @@ const remainingPosts = sortedPosts.slice(1);
     position: absolute;
     top: 0.75rem;
     left: 0.75rem;
-    background: rgba(28, 124, 131, 0.9);
+    background: rgba(28,124,131, 0.9);
     color: white;
     font-size: 0.6875rem;
     font-weight: 700;
@@ -217,7 +217,7 @@ const remainingPosts = sortedPosts.slice(1);
     font-size: 0.75rem;
     font-weight: 500;
     color: #6b6b6b;
-    background: rgba(15,33,49,0.06);
+    background: rgba(15, 33, 49, 0.06);
     padding: 0.2rem 0.625rem;
     border-radius: 99px;
   }
@@ -235,7 +235,7 @@ const remainingPosts = sortedPosts.slice(1);
     text-decoration: none;
     color: inherit;
     background: #fff;
-    border: 1px solid rgba(15,33,49,0.09);
+    border: 1px solid rgba(15, 33, 49, 0.09);
     border-radius: var(--radius-lg);
     overflow: hidden;
     transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
@@ -243,7 +243,7 @@ const remainingPosts = sortedPosts.slice(1);
 
   .post-card:hover {
     border-color: var(--color-emerald);
-    box-shadow: 0 4px 20px rgba(26,83,62,0.08);
+    box-shadow: 0 4px 20px rgba(26, 83, 62, 0.08);
     transform: translateY(-2px);
   }
 

@@ -19,7 +19,7 @@ export async function getStaticPaths() {
 const { page } = Astro.props;
 const siteUrl = 'https://eriusourcing.com';
 
-// Build-time review stamp — surfaces a freshness signal to readers and matches
+// Build-time review stamp, surfaces a freshness signal to readers and matches
 // the dateModified value emitted in the Service JSON-LD below.
 const lastReviewed = new Date().toLocaleDateString('en-IE', {
   year: 'numeric',
@@ -54,7 +54,7 @@ const categoryQuotes = getByTags(testimonialTagMap[page.slug] ?? []);
 const pageSchemas = [
   {
     "@type": "Service",
-    "name": `${page.eyebrow} — China Direct Sourcing for Ireland`,
+    "name": `${page.eyebrow}, China Direct Sourcing for Ireland`,
     "description": page.description,
     "provider": { "@type": "ProfessionalService", "@id": `${siteUrl}/#organization` },
     "areaServed": [
@@ -136,7 +136,7 @@ const pageSchemas = [
       <div class="products-layout">
         <div class="products-header">
           <span class="section-eyebrow">What we source</span>
-          <h2>{page.eyebrow} — products we source directly</h2>
+          <h2>{page.eyebrow}, products we source directly</h2>
         </div>
         <ul class="products-list">
           {page.keyProducts.map(product => (
@@ -179,9 +179,9 @@ const pageSchemas = [
   <section class="section section--emerald">
     <div class="container--narrow">
       <span class="section-eyebrow section-eyebrow--light">EU & Irish Compliance</span>
-      <h2>CE compliance verified at source — not at Dublin Port</h2>
+      <h2>CE compliance verified at source, not at Dublin Port</h2>
       <p>{page.ceNote}</p>
-      <p>Every order includes full compliance documentation. Goods that do not meet Irish and EU standards stay in China at the factory's cost — you do not pay freight on non-compliant products.</p>
+      <p>Every order includes full compliance documentation. Goods that do not meet Irish and EU standards stay in China at the factory's cost, you do not pay freight on non-compliant products.</p>
       <a href="/contact/" class="btn btn--white-outline" style="margin-top:1rem">Ask about compliance documentation →</a>
     </div>
   </section>
@@ -224,7 +224,7 @@ const pageSchemas = [
     <section class="section">
       <div class="container--narrow editorial-body">
         <span class="section-eyebrow">What buyers need to know</span>
-        <h2>Sourcing {page.eyebrow.toLowerCase()} from China — the full picture</h2>
+        <h2>Sourcing {page.eyebrow.toLowerCase()} from China, the full picture</h2>
         <div class="editorial-prose" set:html={page.contentBody} />
       </div>
     </section>
@@ -250,7 +250,7 @@ const pageSchemas = [
   <section class="section section--alt">
     <div class="container--narrow">
       <span class="section-eyebrow">Common questions</span>
-      <h2>{page.eyebrow} — sourcing questions answered</h2>
+      <h2>{page.eyebrow}, sourcing questions answered</h2>
       <FAQAccordion items={page.faq} />
     </div>
   </section>
@@ -266,7 +266,7 @@ const pageSchemas = [
   <CtaSection
     eyebrow="Ready to start?"
     h2={`Get factory-direct ${page.eyebrow.toLowerCase()} pricing for your business`}
-    body="Send a brief — product, quantity, timeline. We come back with factory-level pricing, a supplier shortlist, and a clear plan. No obligation."
+    body="Send a brief, product, quantity, timeline. We come back with factory-level pricing, a supplier shortlist, and a clear plan. No obligation."
     ctas={[
       { href: '/contact/', label: 'Get a quote →', variant: 'white-outline' }
     ]}
@@ -275,7 +275,7 @@ const pageSchemas = [
 </BaseLayout>
 
 <style>
-  /* Page-local styles — hero/stats/FAQ/CTA moved into shared components.
+  /* Page-local styles, hero/stats/FAQ/CTA moved into shared components.
      The remaining styles below own the hub-grid, product list, process
      steps, editorial body, case-callout, and product-guide grid —
      category-page-specific patterns not yet extracted. */
@@ -403,7 +403,7 @@ const pageSchemas = [
     gap: 2rem;
     padding: 2rem 2.5rem;
     background: var(--color-white);
-    border: 1px solid rgba(15,33,49,0.1);
+    border: 1px solid rgba(15, 33, 49, 0.1);
     border-left: 4px solid var(--color-teal);
     border-radius: 0 var(--radius-md) var(--radius-md) 0;
   }
@@ -467,7 +467,7 @@ const pageSchemas = [
   }
 
   .editorial-prose blockquote {
-    background: rgba(26,83,62,0.05);
+    background: rgba(26, 83, 62, 0.05);
     border-left: 3px solid var(--color-emerald);
     padding: 1rem 1.25rem;
     margin: 1.5rem 0;

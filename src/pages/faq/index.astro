@@ -5,8 +5,8 @@ import FAQAccordion from '../../components/FAQAccordion.astro';
 import CtaSection from '../../components/CtaSection.astro';
 import { sitewideFaqs, buildFaqSchema } from '../../data/sitewideFaqs.js';
 
-const title = "China Sourcing FAQ — Ireland | Process, Pricing, QC, Modular Homes | Ériu";
-const description = "Answers on sourcing direct from Chinese factories to Ireland — process, pricing, QC, CE compliance, shipping, and the new modular-home exemption pathway.";
+const title = "China Sourcing FAQ, Ireland | Process, Pricing, QC, Modular Homes | Ériu";
+const description = "Answers on sourcing direct from Chinese factories to Ireland, process, pricing, QC, CE compliance, shipping, and the new modular-home exemption pathway.";
 const canonical = "/faq/";
 const siteUrl = "https://eriusourcing.com";
 const lastReviewedIso = new Date().toISOString().split('T')[0];
@@ -31,7 +31,7 @@ const pageSchemas = [
   }
 ];
 
-// Cross-references — where category-specific FAQ lives elsewhere on the site
+// Cross-references, where category-specific FAQ lives elsewhere on the site
 const categoryDeepLinks = [
   { label: 'Construction materials', href: '/source/construction-materials-from-china-ireland/', detail: 'Construction-specific FAQs on the category page' },
   { label: 'Modular homes', href: '/modular-homes/', detail: 'Building-regs, factory-visits, cost guides' },
@@ -46,12 +46,12 @@ const categoryDeepLinks = [
   <PageHero
     breadcrumbs={[{ label: 'FAQ' }]}
     eyebrow="Frequently Asked Questions"
-    h1="China sourcing — questions Irish and UK buyers ask most"
-    lead="Answers to the questions we get most often, organised by topic. Product-specific questions (lead times, MOQs, certifications for a particular category) live on the relevant product or category page — those links are at the foot of this page."
+    h1="China sourcing, questions Irish and UK buyers ask most"
+    lead="Answers to the questions we get most often, organised by topic. Product-specific questions (lead times, MOQs, certifications for a particular category) live on the relevant product or category page, those links are at the foot of this page."
     lastReviewed={lastReviewedIso}
   />
 
-  <!-- Section navigation — quick jump links -->
+  <!-- Section navigation, quick jump links -->
   <section class="section faq-nav-section">
     <div class="container--narrow">
       <span class="section-eyebrow">Jump to section</span>
@@ -94,8 +94,8 @@ const categoryDeepLinks = [
 
   <CtaSection
     eyebrow="Question not answered?"
-    h2="Send it directly — we reply in under 24 hours."
-    body="If your question is specific to your project or category and isn't covered here, send a one-line brief. Noel or the Ériu team answer directly — no chat-bot, no funnel."
+    h2="Send it directly, we reply in under 24 hours."
+    body="If your question is specific to your project or category and isn't covered here, send a one-line brief. Noel or the Ériu team answer directly, no chat-bot, no funnel."
     ctas={[
       { href: '/contact/', label: 'Send a question →', variant: 'white-outline' }
     ]}

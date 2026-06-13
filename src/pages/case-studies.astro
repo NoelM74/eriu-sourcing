@@ -57,7 +57,7 @@ const caseStudies = [
     results: [
       '45% below Irish wholesale across all FF&E categories',
       'CE compliance verified across all products before shipment',
-      'Full container delivery coordinated to site — no Irish importer middleman',
+      'Full container delivery coordinated to site, no Irish importer middleman',
       'Project delivered on schedule across all three properties',
     ],
     note: 'Total project value: €800,000+. Client identity withheld.',
@@ -131,14 +131,14 @@ const caseStudies = [
     items={caseQuotes}
     layout="grid"
     eyebrow="In their own words"
-    heading="What clients say — not what we say about ourselves."
+    heading="What clients say, not what we say about ourselves."
     bg="white"
   />
 
   <CtaSection
     eyebrow="Your turn"
     h2="Want results like these?"
-    body="Send us a brief. We'll tell you what your product category actually costs at factory gate — and what you should be paying."
+    body="Send us a brief. We'll tell you what your product category actually costs at factory gate, and what you should be paying."
     ctas={[
       { href: '/contact/', label: 'Get a Sourcing Quote →', variant: 'white' }
     ]}
@@ -150,15 +150,15 @@ const caseStudies = [
   /* Hero/CTA styles owned by shared components. */
 
   .cases-list { display: flex; flex-direction: column; gap: 2.5rem; }
-  .case-card { background: var(--color-white); border: 1px solid rgba(15,33,49,.08); border-radius: var(--radius-lg); overflow: hidden; }
-  .case-header { padding: 2rem 2rem 1.25rem; border-bottom: 1px solid rgba(15,33,49,.07); }
+  .case-card { background: var(--color-white); border: 1px solid rgba(15, 33, 49, .08); border-radius: var(--radius-lg); overflow: hidden; }
+  .case-header { padding: 2rem 2rem 1.25rem; border-bottom: 1px solid rgba(15, 33, 49, .07); }
   .case-label { display: inline-block; font-size: .75rem; font-weight: 700; color: var(--color-teal); text-transform: uppercase; letter-spacing: .07em; margin-bottom: .625rem; }
   .case-header h2 { font-size: 1.375rem; margin: 0; }
   .case-body { display: grid; grid-template-columns: 1.4fr 1fr; gap: 0; }
-  .case-summary { padding: 1.75rem 2rem; border-right: 1px solid rgba(15,33,49,.07); }
+  .case-summary { padding: 1.75rem 2rem; border-right: 1px solid rgba(15, 33, 49, .07); }
   .case-summary p { color: var(--color-slate); font-size: .9375rem; line-height: 1.7; margin-bottom: .875rem; max-width: none; }
   .case-note { font-size: .8125rem; color: var(--color-grey); font-style: italic; margin-bottom: 0 !important; }
-  .case-results { padding: 1.75rem 2rem; background: rgba(26,83,62,.03); }
+  .case-results { padding: 1.75rem 2rem; background: rgba(26, 83, 62, .03); }
   .case-results h3 { font-size: .875rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--color-grey); margin-bottom: 1rem; }
   .case-results ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .75rem; }
   .case-results li { font-size: .9375rem; color: var(--color-navy); font-weight: 500; padding-left: 1.5rem; position: relative; line-height: 1.45; }
@@ -167,7 +167,7 @@ const caseStudies = [
 
   @media (max-width: 900px) {
     .case-body { grid-template-columns: 1fr; }
-    .case-summary { border-right: none; border-bottom: 1px solid rgba(15,33,49,.07); }
+    .case-summary { border-right: none; border-bottom: 1px solid rgba(15, 33, 49, .07); }
   }
   @media (max-width: 600px) {
     .case-header, .case-summary, .case-results { padding: 1.25rem; }
