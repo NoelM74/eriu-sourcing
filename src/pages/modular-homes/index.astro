@@ -1,5 +1,10 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Image } from 'astro:assets';
+import { resolveImage, responsiveWidths } from '../../lib/optimizedImages';
+
+const heroImg = resolveImage('/images/modular-homes-hero-back-garden-ireland.webp');
+const heroWidths = heroImg ? responsiveWidths(heroImg, [640, 960, 1280, 1600, 1920]) : [];
 
 const title = "Modular Homes Ireland | Back-Garden & Container Homes | Ériu";
 const description = "Steel-frame modular & expandable container homes for Irish back gardens — building-regs-ready, A2 BER, factory-direct from China with Irish-led QC.";
@@ -87,14 +92,25 @@ const pageSchemas = [
   <!-- HERO -->
   <section class="modular-hero">
     <div class="hero-bg">
-      <img
-        src="/images/modular-homes-hero-back-garden-ireland.webp"
-        alt="Modern steel-frame modular home with timber cladding sourced from China for Irish back garden — Ériu Modular Homes"
-        width="1920"
-        height="900"
-        loading="eager"
-        fetchpriority="high"
-      />
+      {heroImg ? (
+        <Image
+          src={heroImg}
+          alt="Modern steel-frame modular home with timber cladding sourced from China for Irish back garden — Ériu Modular Homes"
+          widths={heroWidths}
+          sizes="100vw"
+          loading="eager"
+          fetchpriority="high"
+        />
+      ) : (
+        <img
+          src="/images/modular-homes-hero-back-garden-ireland.webp"
+          alt="Modern steel-frame modular home with timber cladding sourced from China for Irish back garden — Ériu Modular Homes"
+          width="1920"
+          height="900"
+          loading="eager"
+          fetchpriority="high"
+        />
+      )}
       <div class="hero-overlay"></div>
     </div>
     <div class="hero-content container">

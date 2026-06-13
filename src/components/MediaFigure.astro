@@ -1,7 +1,10 @@
 ---
 // Single full-width media figure used across the modular funnel pages.
-// Plain <img> for now (matches site convention); structured so it can be
-// swapped to astro:assets/srcset in one place later.
+// Uses astro:assets <Image> (build-time resize + srcset) when an optimized
+// copy exists under src/assets/images; falls back to a raw <img> otherwise.
+import { Image } from 'astro:assets';
+import { resolveImage, responsiveWidths } from '../lib/optimizedImages';
+
 interface Props {
   src: string;
   alt: string;
@@ -11,15 +14,31 @@ interface Props {
   rounded?: boolean;
 }
 const { src, alt, caption, eager = false, ratio = '16 / 9', rounded = true } = Astro.props;
+
+const optimized = resolveImage(src);
+const sizes = '(max-width: 800px) 100vw, 760px';
+const widths = optimized ? responsiveWidths(optimized, [400, 760, 1140, 1520]) : [];
 ---
 <figure class:list={['media-figure', { 'is-rounded': rounded }]}>
-  <img
-    src={src}
-    alt={alt}
-    loading={eager ? 'eager' : 'lazy'}
-    decoding="async"
-    style={`aspect-ratio:${ratio}`}
-  />
+  {optimized ? (
+    <Image
+      src={optimized}
+      alt={alt}
+      widths={widths}
+      sizes={sizes}
+      loading={eager ? 'eager' : 'lazy'}
+      decoding="async"
+      style={`aspect-ratio:${ratio}`}
+    />
+  ) : (
+    <img
+      src={src}
+      alt={alt}
+      loading={eager ? 'eager' : 'lazy'}
+      decoding="async"
+      style={`aspect-ratio:${ratio}`}
+    />
+  )}
   {caption && <figcaption>{caption}</figcaption>}
 </figure>
 
