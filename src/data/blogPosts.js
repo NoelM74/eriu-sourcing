@@ -1873,7 +1873,7 @@ export const blogPosts = [
     h1: "Ireland's April 2026 Back-Garden Home Rules, Explained",
     eyebrow: 'Regulations Explained',
     category: 'modular-homes',
-    primaryKeyword: 'back garden home Ireland 2026',
+    primaryKeyword: 'exempted development regulations 2026',
     secondaryKeywords: ['auxiliary habitable dwelling Ireland', 'exempted development regulations 2026', 'modular home back garden Ireland', 'Rent-a-Room back garden', 'planning permission back garden home Ireland'],
     intent: 'informational',
     targetReader: 'Irish homeowners researching the April 2026 Exempted Development Regulations and their implications for building a modular home or granny flat in their back garden',
