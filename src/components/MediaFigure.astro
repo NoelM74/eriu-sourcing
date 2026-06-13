@@ -17,7 +17,7 @@ const { src, alt, caption, eager = false, ratio = '16 / 9', rounded = true } = A
 
 const optimized = resolveImage(src);
 const sizes = '(max-width: 800px) 100vw, 760px';
-const widths = optimized ? responsiveWidths(optimized, [400, 760, 1140, 1520]) : [];
+const widths = optimized ? responsiveWidths(optimized, [400,760, 1140, 1520]) : [];
 ---
 <figure class:list={['media-figure', { 'is-rounded': rounded }]}>
   {optimized ? (

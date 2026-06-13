@@ -1,5 +1,5 @@
 ---
-// PageHero.astro — shared hero block for non-home interior pages.
+// PageHero.astro, shared hero block for non-home interior pages.
 //
 // Replaces per-template duplication of: .source-hero, .product-hero,
 // .contact-hero, .about-hero, .page-hero, .article-hero, .blog-hero.
@@ -27,7 +27,7 @@ interface Props {
   h1: string;
   lead?: string;
   ctas?: CtaItem[];
-  /** Date string (YYYY-MM-DD) — shows a "Last reviewed: <date>" line below CTAs */
+  /** Date string (YYYY-MM-DD), shows a "Last reviewed: <date>" line below CTAs */
   lastReviewed?: string;
   /** Visual variant: "default" (off-white bg), "alt" (warmer bg), "tight" (less vertical padding) */
   variant?: 'default' | 'alt' | 'tight';

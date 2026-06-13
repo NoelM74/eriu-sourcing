@@ -22,9 +22,9 @@ const lastReviewedIso = new Date().toISOString().split('T')[0];
 
 // Build-optimised hero + floor-plan images when migrated to src/assets.
 const heroImg = resolveImage(model.image);
-const heroWidths = heroImg ? responsiveWidths(heroImg, [360, 540, 720, 960]) : [];
+const heroWidths = heroImg ? responsiveWidths(heroImg, [360,540,720,960]) : [];
 const floorImg = resolveImage(model.floorplanImage);
-const floorWidths = floorImg ? responsiveWidths(floorImg, [480, 800, 1200]) : [];
+const floorWidths = floorImg ? responsiveWidths(floorImg, [480,800, 1200]) : [];
 
 // Cross-link to the other models (not the current one)
 const otherModels = modularHomeModels.filter(m => m.slug !== model.slug);
@@ -32,7 +32,7 @@ const otherModels = modularHomeModels.filter(m => m.slug !== model.slug);
 const pageSchemas = [
   {
     "@type": "Product",
-    "name": `${model.name} Container Home — Ireland`,
+    "name": `${model.name} Container Home, Ireland`,
     "description": model.metaDescription,
     "image": `${siteUrl}${model.image}`,
     "brand": { "@type": "Brand", "name": "Ériu Modular Homes" },
@@ -120,7 +120,7 @@ const pageSchemas = [
         </div>
         <div class="model-hero-spec">
           <span class="section-eyebrow">Full specification</span>
-          <h2>{model.name} — dimensions &amp; logistics</h2>
+          <h2>{model.name}, dimensions &amp; logistics</h2>
           <table class="spec-table">
             <tbody>
               <tr><th>Expanded (deployed)</th><td>{model.expanded}</td></tr>
@@ -152,7 +152,7 @@ const pageSchemas = [
     <section class="section section--alt">
       <div class="container--narrow">
         <span class="section-eyebrow">Floor plans</span>
-        <h2>{model.name} — available layouts</h2>
+        <h2>{model.name}, available layouts</h2>
         <figure class="floorplan-figure">
           {floorImg ? (
             <Image
@@ -183,7 +183,7 @@ const pageSchemas = [
     <div class="container--narrow">
       <span class="section-eyebrow">Build quality</span>
       <h2>The Ériu standard, every model</h2>
-      <p>Every model in the Ériu range is built to the same structural specification regardless of size — a 9.0 mm channel steel base frame, 1.3 mm container-grade steel roof plate, 18 mm sandwich panel walls (rock-wool standard, PIR / PUR upgrade on request to bring Irish Part L compliance into reach), and double-glazed aluminium-framed openings. Production is in the Zhengzhou and Xinxiang Henan corridor, the world's primary cluster for this product type. Every order is inspected at the factory by Ériu QC before the container is sealed.</p>
+      <p>Every model in the Ériu range is built to the same structural specification regardless of size, a 9.0 mm channel steel base frame, 1.3 mm container-grade steel roof plate, 18 mm sandwich panel walls (rock-wool standard, PIR / PUR upgrade on request to bring Irish Part L compliance into reach), and double-glazed aluminium-framed openings. Production is in the Zhengzhou and Xinxiang Henan corridor, the world's primary cluster for this product type. Every order is inspected at the factory by Ériu QC before the container is sealed.</p>
       <p><a href="/modular-homes/building-regulations-ireland/" class="inline-link">See the full Irish Building Regulations specification →</a></p>
     </div>
   </section>
@@ -192,7 +192,7 @@ const pageSchemas = [
   <section class="section section--alt">
     <div class="container--narrow">
       <span class="section-eyebrow">Common questions</span>
-      <h2>{model.name} — questions answered</h2>
+      <h2>{model.name}, questions answered</h2>
       <FAQAccordion items={model.faq} />
     </div>
   </section>

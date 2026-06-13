@@ -1,11 +1,11 @@
 ---
-// FAQAccordion.astro — shared FAQ accordion using <details>/<summary>.
+// FAQAccordion.astro, shared FAQ accordion using <details>/<summary>.
 //
 // Replaces per-template .faq-list + .faq-item duplication across:
 // home page, source/[slug], source/[category]/[product], blog/[slug].
 //
-// Pure HTML/CSS — no JS needed for open/close (native details element).
-// Emits no JSON-LD — the page-level FAQPage schema is still emitted from
+// Pure HTML/CSS, no JS needed for open/close (native details element).
+// Emits no JSON-LD, the page-level FAQPage schema is still emitted from
 // the page template (since it lives in the page's @graph).
 
 interface FaqItem {

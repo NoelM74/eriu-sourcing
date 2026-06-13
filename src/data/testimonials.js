@@ -1,12 +1,12 @@
 /**
- * Testimonials data — single source of truth.
+ * Testimonials data, single source of truth.
  *
  * INSTRUCTIONS FOR FILLING IN:
  *   1. Set draft: false when the quote is ready to go live.
  *   2. Fill in quote with the client's exact words (lightly spell/grammar
- *      checked — never change the meaning or invent claims).
+ *      checked, never change the meaning or invent claims).
  *   3. For clients who want anonymity: leave name empty, fill role/company/location.
- *   4. photos: [] — add filenames from /public/images/. Order matters:
+ *   4. photos: [], add filenames from /public/images/. Order matters:
  *      - 0 photos  → emerald initials disc
  *      - 1 photo   → circular avatar
  *      - 2–3 photos → inline photo strip below the quote
@@ -17,7 +17,7 @@
  *
  * NOTE: quotes below are the clients' own words, lightly corrected for spelling
  * and grammar only. The "company" field is a factual sector descriptor drawn
- * from the quote — no company names are invented or implied.
+ * from the quote, no company names are invented or implied.
  */
 
 export const testimonials = [
@@ -73,7 +73,7 @@ export const testimonials = [
     role: '',
     company: 'Promotional goods & custom manufacturing',
     location: 'Co. Galway, Ireland',
-    quote: "I've been working with Noel and his team for 13 years on a variety of projects, including large promotional goods orders and custom metal moulds. They are exceptionally professional, and when I visited them in China they helped arrange everything — the visas, hotel bookings and a car to drive us around and show us different suppliers' factories.",
+    quote: "I've been working with Noel and his team for 13 years on a variety of projects, including large promotional goods orders and custom metal moulds. They are exceptionally professional, and when I visited them in China they helped arrange everything, the visas, hotel bookings and a car to drive us around and show us different suppliers' factories.",
     tags: ['private-label', 'homepage', 'contact-page'],
     photos: [
       { src: 'galway-promotional-supplier-visit.webp', alt: 'The Galway client meeting a Chinese supplier during a factory visit arranged end-to-end by Ériu' },

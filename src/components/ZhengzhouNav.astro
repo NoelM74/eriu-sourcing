@@ -1,12 +1,12 @@
 ---
-// ZhengzhouNav.astro — cross-links the Zhengzhou pillar + sub-pages so each
+// ZhengzhouNav.astro, cross-links the Zhengzhou pillar + sub-pages so each
 // deep page is reachable from its siblings, not just the pillar.
 // Pass `current` (the page's slug) to omit the current page from the list.
 interface Props { current?: string; }
 const { current = '' } = Astro.props;
 
 const links = [
-  { slug: '', href: '/zhengzhou/', label: 'Why Zhengzhou — the overview' },
+  { slug: '', href: '/zhengzhou/', label: 'Why Zhengzhou, the overview' },
   { slug: 'manufacturing-base', href: '/zhengzhou/manufacturing-base/', label: 'The manufacturing base' },
   { slug: 'logistics-connectivity', href: '/zhengzhou/logistics-connectivity/', label: 'Logistics & connectivity' },
   { slug: 'cost-vs-coastal-china', href: '/zhengzhou/cost-vs-coastal-china/', label: 'Cost vs coastal China' },

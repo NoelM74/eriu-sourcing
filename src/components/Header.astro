@@ -1,5 +1,5 @@
 ---
-// Header.astro — Ériu Sourcing
+// Header.astro, Ériu Sourcing
 // Mobile-first sticky nav. Logo is inline SVG lockup (light-bg variant).
 // Desktop nav supports two item types: flat links, and dropdown groups
 // (an item with a `children` array).
@@ -33,7 +33,7 @@ const modularNavLinks = [
   {
     label: 'The Homes',
     children: [
-      { href: '/modular-homes/models/',                  label: 'Models — Overview' },
+      { href: '/modular-homes/models/',                  label: 'Models, Overview' },
       { href: '/modular-homes/models/20ft-expandable/',  label: '20ft Expandable' },
       { href: '/modular-homes/models/30ft-expandable/',  label: '30ft Expandable' },
       { href: '/modular-homes/models/40ft-expandable/',  label: '40ft Expandable' },
@@ -71,16 +71,16 @@ const isGroupActive = (link) => !!link.children?.some(c => isActive(c.href));
 <header class="site-header">
   <div class="header-inner container">
 
-    <!-- Logo — icon mark + wordmark (sub-brand swap on /modular-homes/) -->
+    <!-- Logo, icon mark + wordmark (sub-brand swap on /modular-homes/) -->
     {isModular ? (
-      <a href="/modular-homes/" class="logo logo--modular" aria-label="Ériu Modular Homes — Home">
+      <a href="/modular-homes/" class="logo logo--modular" aria-label="Ériu Modular Homes, Home">
         <img src="/images/eriu-modular-mark.svg" width="36" height="36" alt="" aria-hidden="true" class="logo-mark" onerror="this.style.display='none'" />
         <span class="logo-wordmark">
           <span class="logo-eriu">Ériu</span><span class="logo-sub">Modular Homes</span>
         </span>
       </a>
     ) : (
-      <a href="/" class="logo" aria-label="Ériu Sourcing — Home">
+      <a href="/" class="logo" aria-label="Ériu Sourcing, Home">
         <img src="/images/eriu-mark.svg" width="36" height="36" alt="" aria-hidden="true" class="logo-mark" />
         <span class="logo-wordmark">
           <span class="logo-eriu">ÉRIU</span><span class="logo-sourcing">Sourcing</span>
@@ -206,7 +206,7 @@ const isGroupActive = (link) => !!link.children?.some(c => isActive(c.href));
     });
   });
 
-  // Desktop dropdowns — hover and keyboard focus are handled in CSS.
+  // Desktop dropdowns, hover and keyboard focus are handled in CSS.
   // This adds click-to-toggle (touch / explicit click) plus outside-click
   // and Escape to close, keeping aria-expanded in sync.
   const dropdownToggles = document.querySelectorAll<HTMLButtonElement>('.nav-dropdown-toggle');

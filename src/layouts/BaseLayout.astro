@@ -1,5 +1,5 @@
 ---
-// BaseLayout.astro — Ériu Sourcing
+// BaseLayout.astro, Ériu Sourcing
 // Provides: SEO meta, GEO targeting, JSON-LD, Fontshare fonts, dark mode, Header + Footer
 
 import Header from '../components/Header.astro';
@@ -25,7 +25,7 @@ const {
   description,
   canonical,
   ogImage = '/images/hero-china-factory-floor.webp',
-  ogImageAlt = 'Ériu Sourcing — Factory-direct from China to Ireland',
+  ogImageAlt = 'Ériu Sourcing, Factory-direct from China to Ireland',
   ogType = 'website',
   robots = 'index, follow',
   jsonLd,
@@ -33,7 +33,7 @@ const {
 } = Astro.props;
 
 const siteUrl = 'https://eriusourcing.com';
-// Always use trailing-slash canonical — matches Cloudflare Pages 200 URL and sitemap
+// Always use trailing-slash canonical, matches Cloudflare Pages 200 URL and sitemap
 function withTrailingSlash(path: string): string {
   if (path === '/') return path;
   return path.endsWith('/') ? path : path + '/';
@@ -41,7 +41,7 @@ function withTrailingSlash(path: string): string {
 const rawPath = canonical ?? Astro.url.pathname;
 const canonicalUrl = `${siteUrl}${withTrailingSlash(rawPath)}`;
 
-// Base org schema — always present on every page
+// Base org schema, always present on every page
 const orgSchema = {
   "@type": ["LocalBusiness", "ProfessionalService"],
   "@id": `${siteUrl}/#organization`,
@@ -63,7 +63,7 @@ const orgSchema = {
   "location": [
     {
       "@type": "Place",
-      "name": "Ériu Sourcing — Shenzhen Office",
+      "name": "Ériu Sourcing, Shenzhen Office",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "3rd Floor Building D, Minle Industrial Park, Meiban Rd, Longhua",
@@ -74,7 +74,7 @@ const orgSchema = {
     },
     {
       "@type": "Place",
-      "name": "Ériu Sourcing — Zhengzhou Office",
+      "name": "Ériu Sourcing, Zhengzhou Office",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "2206 Unit 2, Nanyang Road, Huji",
@@ -85,7 +85,7 @@ const orgSchema = {
   ],
   "telephone": "+353871187806",
   "priceRange": "€€",
-  "slogan": "Factory-direct China sourcing for Irish and UK businesses — without the middlemen.",
+  "slogan": "Factory-direct China sourcing for Irish and UK businesses, without the middlemen.",
   "founder": {
     "@type": "Person",
     "@id": `${siteUrl}/#founder`,
@@ -144,7 +144,7 @@ const structuredData = {
     <meta name="geo.placename" content="Ireland" />
     <meta name="ICBM" content="53.1424, -7.6921" />
 
-    <!-- hreflang — Ireland-specific copy, so only en-IE + x-default. -->
+    <!-- hreflang, Ireland-specific copy, so only en-IE + x-default. -->
     <!-- Add en-gb only once we publish UK-specific content. -->
     <link rel="alternate" hreflang="en-ie" href={canonicalUrl} />
     <link rel="alternate" hreflang="x-default" href={canonicalUrl} />
@@ -172,12 +172,12 @@ const structuredData = {
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/favicon.svg" />
 
-    <!-- LCP image preload — start fetching hero before browser parses body -->
+    <!-- LCP image preload, start fetching hero before browser parses body -->
     {preloadImage && (
       <link rel="preload" as="image" href={preloadImage} fetchpriority="high" />
     )}
 
-    <!-- Fonts — loaded async (non-render-blocking) to improve FCP -->
+    <!-- Fonts, loaded async (non-render-blocking) to improve FCP -->
     <!-- Fontshare: preconnect to BOTH the API host and the CDN where .woff2 files live -->
     <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
     <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin />
@@ -288,7 +288,7 @@ const structuredData = {
           );
           document.querySelectorAll('.count-up[data-target]').forEach((el) => countObs.observe(el));
         } else {
-          // No IntersectionObserver — show everything statically.
+          // No IntersectionObserver, show everything statically.
           document.querySelectorAll('.fade-up').forEach((el) => el.classList.add('is-visible'));
         }
       })();

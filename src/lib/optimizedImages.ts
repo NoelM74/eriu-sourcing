@@ -1,4 +1,4 @@
-// optimizedImages.ts — resolves a /public-style image path (e.g.
+// optimizedImages.ts, resolves a /public-style image path (e.g.
 // "/images/foo.webp") to a build-optimized ImageMetadata object, IF a copy of
 // that file exists under /src/assets/images. Lets components keep taking plain
 // string paths while opting into astro:assets optimization where available,
@@ -6,7 +6,7 @@
 import type { ImageMetadata } from 'astro';
 
 const map = import.meta.glob<{ default: ImageMetadata }>(
-  '/src/assets/images/**/*.{webp,jpg,jpeg,png,avif}',
+  '/src/assets/images/**/*.{webp, jpg, jpeg, png, avif}',
   { eager: true }
 );
 
