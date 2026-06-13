@@ -1,5 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { Image } from 'astro:assets';
+import { resolveImage, responsiveWidths } from '../../../lib/optimizedImages';
 import PageHero from '../../../components/PageHero.astro';
 import StatsRow from '../../../components/StatsRow.astro';
 import FAQAccordion from '../../../components/FAQAccordion.astro';
@@ -17,6 +19,12 @@ const { model } = Astro.props;
 const siteUrl = 'https://eriusourcing.com';
 const modelUrl = `${siteUrl}/modular-homes/models/${model.slug}/`;
 const lastReviewedIso = new Date().toISOString().split('T')[0];
+
+// Build-optimised hero + floor-plan images when migrated to src/assets.
+const heroImg = resolveImage(model.image);
+const heroWidths = heroImg ? responsiveWidths(heroImg, [360, 540, 720, 960]) : [];
+const floorImg = resolveImage(model.floorplanImage);
+const floorWidths = floorImg ? responsiveWidths(floorImg, [480, 800, 1200]) : [];
 
 // Cross-link to the other models (not the current one)
 const otherModels = modularHomeModels.filter(m => m.slug !== model.slug);
@@ -91,13 +99,24 @@ const pageSchemas = [
     <div class="container">
       <div class="model-hero-grid">
         <div class="model-hero-image">
-          <img
-            src={model.image}
-            alt={model.imageAlt}
-            width="720"
-            height="540"
-            loading="eager"
-          />
+          {heroImg ? (
+            <Image
+              src={heroImg}
+              alt={model.imageAlt}
+              widths={heroWidths}
+              sizes="(max-width: 900px) 100vw, 720px"
+              loading="eager"
+              fetchpriority="high"
+            />
+          ) : (
+            <img
+              src={model.image}
+              alt={model.imageAlt}
+              width="720"
+              height="540"
+              loading="eager"
+            />
+          )}
         </div>
         <div class="model-hero-spec">
           <span class="section-eyebrow">Full specification</span>
@@ -135,13 +154,24 @@ const pageSchemas = [
         <span class="section-eyebrow">Floor plans</span>
         <h2>{model.name} — available layouts</h2>
         <figure class="floorplan-figure">
-          <img
-            src={model.floorplanImage}
-            alt={model.floorplanAlt}
-            width="1200"
-            height="800"
-            loading="lazy"
-          />
+          {floorImg ? (
+            <Image
+              src={floorImg}
+              alt={model.floorplanAlt}
+              widths={floorWidths}
+              sizes="(max-width: 800px) 100vw, 760px"
+              loading="lazy"
+              decoding="async"
+            />
+          ) : (
+            <img
+              src={model.floorplanImage}
+              alt={model.floorplanAlt}
+              width="1200"
+              height="800"
+              loading="lazy"
+            />
+          )}
           <figcaption>{model.floorplanCaption}</figcaption>
         </figure>
       </div>

@@ -7,7 +7,7 @@ _Last updated: 2026-06-13. Internal notes (not built into the site — lives out
 - **Two business lines:** factory-direct China sourcing (original) + **Modular Homes** (`/modular-homes/` silo).
 - **Dev branch:** `claude/vigilant-cerf-izAZG`.
 - **Ship workflow:** commit to branch → PR to `main` → **squash-merge** → `git merge origin/main` to reconcile branch (the "Reconcile branch with squash-merged main (#NN)" commits are expected). User has authorised live merges throughout.
-- **Build:** `npm run build` (currently **116 pages**). Preview: `npx astro preview --port <port>`.
+- **Build:** `npm run build` (currently **121 pages**). Preview: `npx astro preview --port <port>`.
 - Commit footer: `https://claude.ai/code/session_013N3ikcjpB8BSkkk3CwCi6X`. Model id `claude-opus-4-8` — **never** put in commits/PRs/artifacts.
 
 ## What shipped this session (all live on main)
@@ -19,6 +19,9 @@ _Last updated: 2026-06-13. Internal notes (not built into the site — lives out
 6. **SEO: 43 meta descriptions trimmed to 70–160 chars + mojibake fix** (PR #57). Fixed UTF-8 corruption in `blogPosts.js`: `ÔÇö`→— (×102), `ÔÇô`→– (×19), `├ë`→É (×3) — the **Incoterms** post (title+desc+body) and **private-label** post (title+desc) rendered garbage.
 7. **SEO P2: internal-linking pass** (PR #58). Source product template now has a "More in {category}" sibling block (rotating window of 8, even coverage → construction-materials pages 1→9 inbound, machinery fully cross-linked). New `ZhengzhouNav.astro` cross-links the Zhengzhou pillar + 4 subs (1→4 inbound each).
 8. **SEO P1: responsive images Phase 1** (PR #59). `astro:assets` build-time resize + srcset for the modular **funnel imagery + hub hero** (LCP). Hero 336kB→212kB + 640–1280w variants.
+9. **SEO: back-garden cannibalisation resolved** (PR #60). `/back-garden-homes-ireland/` = canonical guide; `/auxiliary-dwelling-ireland/` links UP to it (stays legal-definition ref); guide links DOWN to it; the April-2026 blog re-targeted from "back garden home Ireland 2026" → "exempted development regulations 2026".
+10. **SEO Tier 1: Electronics cluster** (PR #61). Added **5 product spokes** under `/source/electronics/` (cctv-ip-security-cameras, network-switches-equipment, smart-home-iot-devices, digital-signage-displays, pos-hardware-barcode-scanners). Full schema; accurate compliance hooks (RED 2022/30 cyber for IoT, EPREL for signage, PCI-PTS/EMV for POS, ITA 0% duty for networking). Dropped cables + batteries (low margin, per user). Pillar auto-links them via its template.
+11. **SEO P1: responsive images Phase 2** (PR #62). Source `[product]` hero → `<Image>` via resolver (fallback to raw `<img>`). The 5 Electronics images copied to `src/assets/images` and optimised; networking hero (was 6016px raw) now 400–1200w variants.
 
 ## Hard policies / integrity rules (DO NOT VIOLATE)
 - **Pricing:** installed cost is **always site-specific** → **no single all-in number**. Pages show "we'll model your exact figure". `allIn`/`allInNum` stay **null by design** (canonical, not placeholder). Real anchors only: **€25,000 delivered** start; Irish-built **€110,000–€180,000**; **14–18 wks**; **A2 BER on a correctly installed unit**.
@@ -36,28 +39,30 @@ _Last updated: 2026-06-13. Internal notes (not built into the site — lives out
 
 ## Content model (for SEO/strategy work)
 - **Source category pillars** (`src/data/sourcingPages.js`): electronics, furniture, construction-materials, hospitality-fitout, pet-supplies, modular-buildings, machinery.
-- **Source product spokes** (`src/data/products.js`, rendered by `source/[category]/[product].astro`): construction-materials **21**, machinery 5, inflatables 2, furniture 2, cutting-tools 1. **electronics / hospitality-fitout / pet-supplies / modular-buildings have 0 spokes** (thin clusters).
+- **Source product spokes** (`src/data/products.js`, rendered by `source/[category]/[product].astro`): construction-materials **21**, machinery 5, **electronics 5 (NEW, PR #61)**, inflatables 2, furniture 2, cutting-tools 1. **hospitality-fitout / pet-supplies / modular-buildings still have 0 spokes** (next clusters to build). The pillar template auto-renders linked cards for any product whose `categoryFullSlug` matches the pillar — so adding spokes needs NO template change.
 - **Offer/BOFU pages** (`src/pages/source/*.astro`): glamping, cnc-cutting-tables, ev-charger, mini-excavators, precast, private-label, retail-wholesale, warehouse-racking; + `fiber-optic-cable/` cluster.
 - **Blog** (`src/data/blogPosts.js`, 24 posts): mostly informational/TOFU + commercial-investigation/MOFU; 4 modular advertorials are "commercial".
 - **Authority:** `/china-network/`, `/zhengzhou/` (pillar + 4 subs), `/how-it-works/`, `/why-direct/`, `/case-studies/`, `/about/`.
 
-## SEO STRATEGY AUDIT — findings & roadmap (delivered 2026-06-13, not yet actioned)
+## SEO STRATEGY AUDIT — findings & roadmap (delivered 2026-06-13)
 **Tier 1 (biggest authority upside):**
-1. **Build the Electronics cluster** — empty pillar, huge Shenzhen-sourcing demand, site has the base. 5–8 product spokes + BOFU. *Highest ROI.*
-2. **Fill the other 3 empty pillars** (hospitality fit-out, pet supplies, modular buildings) — 3–5 spokes each.
+1. ✅ **DONE (PR #61) — Electronics cluster** built (5 spokes). Electronics pillar now `electronics` has 5 product spokes.
+2. **Fill the other 3 empty pillars** (hospitality fit-out, pet supplies, modular buildings) — 3–5 spokes each. ⏭ next, same playbook as Electronics.
 
 **Tier 2 (capture & convert):**
-3. **Resolve back-garden cannibalisation** — 3 pages compete on the theme: `/modular-homes/back-garden-homes-ireland/` (make canonical "money" page), `/modular-homes/auxiliary-dwelling-ireland/` (legal sub-intent), `/blog/ireland-april-2026-back-garden-home-rules-explained/` (news). Link sub-pages UP to canonical. *Quickest win.*
-4. **Add BOFU "supplier/buy" landing pages** for deep categories (mirror the modular spoke model).
-5. **Fix geo-targeting:** hreflang is **en-IE only** but several posts target "Europe"/"UK" (EV chargers, fiber optic, sandwich panels, glamping). Decide Ireland-only vs Ireland+UK+EU and align hreflang + content angle.
+3. ✅ **DONE (PR #60) — back-garden cannibalisation** resolved (canonical hierarchy).
+4. **Add BOFU "supplier/buy" landing pages** for deep categories (mirror the modular spoke model). ⏭
+5. **Fix geo-targeting:** hreflang is **en-IE only** but several posts target "Europe"/"UK" (EV chargers, fiber optic, sandwich panels, glamping). ⏭ **AWAITING USER DECISION: Ireland-only (recommended) vs Ireland+UK+EU** — drives whether to re-angle the ~3 Europe posts or add en-GB hreflang.
 
 **Tier 3 (strategic):**
 6. **Two-domain question:** modular vs sourcing split domain-level topical authority — decide if modular stays or eventually spins to its own domain before scaling further.
 7. **Pre-build "regulations enacted" content** — April 2026 modular rules are still DRAFT; when enacted, that's a major SERP moment — have updates ready across the modular cluster.
 
-## Responsive images — remaining phases (after PR #59)
-- **Phase 2:** roll the `optimizedImages` resolver across data-driven templates (`source/[category]/[product]`, `blog/[slug]`, `modular-homes/models/[slug]` heroes) — bulk of the remaining ~31MB. Note blog/model heroes use `preloadImage` in BaseLayout (string path) — preload must point at the emitted URL or be dropped.
-- **Phase 3:** zhengzhou skyline (644kB) + QC blog heroes (need preload handling); then de-dupe `/public` copies of migrated images.
+## Responsive images — status & remaining
+- ✅ **Phase 1 (PR #59):** modular funnel imagery + hub hero.
+- ✅ **Phase 2 (PR #62):** source `[product]` hero template converted to `<Image>` via resolver (raw-`<img>` fallback); **5 Electronics images migrated** to `src/assets/images` + optimised.
+- ⏭ **Remaining:** copy the other ~31 product images into `src/assets/images` (template already handles them on copy — no code change needed). Then `blog/[slug]` + `modular-homes/models/[slug]` heroes — these use `preloadImage` in BaseLayout (string path), so the preload must point at the emitted URL or be dropped. Then zhengzhou skyline (644kB) + QC blog heroes; finally de-dupe `/public` copies (note: `/public` originals must stay for any image used in OG/schema absolute URLs).
+- **Migration recipe:** `cp public/images/X.webp src/assets/images/` → template's `resolveImage()` picks it up automatically.
 
 ## Other pending / minor
 - **Titles >60 chars (23):** minor truncation, mostly the `| Ériu Sourcing` suffix — trim on the worst.
@@ -65,7 +70,7 @@ _Last updated: 2026-06-13. Internal notes (not built into the site — lives out
 - **View transitions:** deferred — Astro `ClientRouter` would break the count-up + `.fade-up` scripts unless rewired to `astro:page-load` first.
 - **`dtc-advertorial-builder`:** user asked if I used it — I did NOT (no such skill in this env). If they share the builder/spec, redo the 4 advertorials through it.
 - **Search Console:** after deploy, re-test the 4 spoke Product schemas validate (image fix) and request indexing for the 8 new URLs. Submit `https://eriusourcing.com/sitemap-index.xml` (robots.txt already points to it).
-- **Watch first Cloudflare prod build after PR #59** — confirm the `▶ /_astro/...webp (before/after)` image-optimisation step runs in their env (Sharp 0.34.5 is in the lockfile, so it should).
+- **Cloudflare prod build:** image optimisation (Sharp 0.34.5, in lockfile) runs locally on every build (#59/#62). Worth a one-time glance at a Cloudflare deploy log to confirm the `▶ /_astro/...webp` step runs in their env — not yet visually confirmed.
 
 ## Environment gotchas
 - Screenshots: `npm i -D playwright-core`; chromium at `/opt/pw-browsers/chromium-1194/chrome-linux/chrome` with `--no-sandbox`; **uninstall playwright-core + `git checkout -- package.json package-lock.json` before committing**. Disable `scroll-behavior:smooth` (`global.css`) when scripting scroll screenshots.

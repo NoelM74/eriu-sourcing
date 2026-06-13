@@ -1,5 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Image } from 'astro:assets';
+import { resolveImage, responsiveWidths } from '../../lib/optimizedImages';
 import { blogPosts, blogCategories } from '../../data/blogPosts.js';
 
 export function getStaticPaths() {
@@ -15,6 +17,10 @@ export function getStaticPaths() {
 const { post } = Astro.props;
 const siteUrl = 'https://eriusourcing.com';
 const postUrl = `${siteUrl}/blog/${post.slug}/`;
+
+// Build-optimised hero (LCP) when migrated to src/assets; else raw + preload.
+const heroImg = resolveImage(post.image);
+const heroWidths = heroImg ? responsiveWidths(heroImg, [480, 800, 1200]) : [];
 
 // Related posts — by slug array defined in data
 const relatedPosts = blogPosts.filter(p => post.relatedSlugs?.includes(p.slug)).slice(0, 3);
@@ -70,7 +76,7 @@ const pageSchemas = [
   ogType="article"
   jsonLd={pageSchemas}
   robots={post.draft ? 'noindex, nofollow' : 'index, follow'}
-  preloadImage={post.image}
+  preloadImage={heroImg ? undefined : post.image}
 >
 
   <!-- ARTICLE HERO -->
@@ -115,13 +121,24 @@ const pageSchemas = [
   <!-- HERO IMAGE -->
   <div class="article-hero-img">
     <div class="container--wide">
-      <img
-        src={post.image}
-        alt={post.imageAlt}
-        width="1200"
-        height="630"
-        loading="eager"
-      />
+      {heroImg ? (
+        <Image
+          src={heroImg}
+          alt={post.imageAlt}
+          widths={heroWidths}
+          sizes="(max-width: 1200px) 100vw, 1200px"
+          loading="eager"
+          fetchpriority="high"
+        />
+      ) : (
+        <img
+          src={post.image}
+          alt={post.imageAlt}
+          width="1200"
+          height="630"
+          loading="eager"
+        />
+      )}
     </div>
   </div>
 
