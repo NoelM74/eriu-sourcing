@@ -6,7 +6,7 @@
 import type { ImageMetadata } from 'astro';
 
 const map = import.meta.glob<{ default: ImageMetadata }>(
-  '/src/assets/images/**/*.{webp, jpg, jpeg, png, avif}',
+  '/src/assets/images/**/*.{webp,jpg,jpeg,png,avif}',
   { eager: true }
 );
 
