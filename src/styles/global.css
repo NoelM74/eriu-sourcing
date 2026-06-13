@@ -329,6 +329,21 @@ img {
 }
 
 /* ============================================
+   Touch-target sizing (WCAG 2.5.x) — comfortable
+   hit areas for navigational links on small screens.
+   Inline body-copy links are intentionally excluded.
+   ============================================ */
+@media (max-width: 640px) {
+  .footer-col a,
+  .footer-legal a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+  .footer-legal { display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem 0.75rem; }
+}
+
+/* ============================================
    Responsive helpers
    ============================================ */
 @media (max-width: 900px) {

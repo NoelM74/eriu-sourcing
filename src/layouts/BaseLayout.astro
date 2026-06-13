@@ -264,14 +264,19 @@ const structuredData = {
                 }
                 const prefix = el.getAttribute('data-prefix') || '';
                 const suffix = el.getAttribute('data-suffix') || '';
-                const duration = 1100;
+                // Integer targets count in whole numbers (e.g. "2 bases" must
+                // never read "0.8"); only genuinely fractional targets animate
+                // with a decimal. Keep it short so a fast scroll lands on the
+                // final value, not a mid-count fraction.
+                const isInt = Number.isInteger(target);
+                const duration = 700;
                 const start = performance.now();
                 const step = (now) => {
                   const t = Math.min(1, (now - start) / duration);
                   // ease-out cubic
                   const eased = 1 - Math.pow(1 - t, 3);
                   const value = target * eased;
-                  const display = target >= 10 ? Math.round(value) : value.toFixed(1);
+                  const display = isInt ? String(Math.round(value)) : value.toFixed(1);
                   el.textContent = `${prefix}${display}${suffix}`;
                   if (t < 1) requestAnimationFrame(step);
                 };
