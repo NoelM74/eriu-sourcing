@@ -1,16 +1,31 @@
 ---
 // A 2–3 image strip used to show real interiors/builds on the modular pages.
+// Uses astro:assets <Image> (resize + srcset) when an optimized copy exists,
+// else a raw <img> fallback.
+import { Image } from 'astro:assets';
+import { resolveImage, responsiveWidths } from '../lib/optimizedImages';
+
 interface Item { src: string; alt: string; }
 interface Props {
   items: Item[];
   caption?: string;
 }
 const { items, caption } = Astro.props;
+
+const sizes = '(max-width: 700px) 50vw, 240px';
+const resolved = items.map(it => {
+  const meta = resolveImage(it.src);
+  return { ...it, meta, widths: meta ? responsiveWidths(meta, [240, 480, 720]) : [] };
+});
 ---
 <figure class="media-strip">
   <div class="media-strip-grid" data-count={items.length}>
-    {items.map(it => (
-      <img src={it.src} alt={it.alt} loading="lazy" decoding="async" />
+    {resolved.map(it => (
+      it.meta ? (
+        <Image src={it.meta} alt={it.alt} widths={it.widths} sizes={sizes} loading="lazy" decoding="async" />
+      ) : (
+        <img src={it.src} alt={it.alt} loading="lazy" decoding="async" />
+      )
     ))}
   </div>
   {caption && <figcaption>{caption}</figcaption>}
