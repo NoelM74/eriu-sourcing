@@ -226,7 +226,7 @@ const pageSchemas = [
       <div class="container--narrow" style="text-align:center">
         <span class="section-eyebrow section-eyebrow--light">No obligation</span>
         <h2>Get a site review for your back-garden home.</h2>
-        <p>Tell us your site and county. We'll review your garden against the current draft conditions and come back with a factory-direct quote, the compliance pack, and a plain-English briefing. Direct reply from Noel within 24 hours.</p>
+        <p>Tell us your site and county. We'll review your garden against the Class 3A conditions and come back with a factory-direct quote, the compliance pack, and a plain-English briefing. Direct reply from Noel within 24 hours.</p>
         <a href="/contact/?interest=modular-quote" class="btn btn--white-outline" style="margin-top:1rem">Request a site review →</a>
       </div>
     </section>
@@ -374,29 +374,50 @@ const pageSchemas = [
     max-width: 72ch;
   }
 
-  .article-content h2 {
+  .article-content :global(h2) {
     margin: 2.5rem 0 1rem;
     font-size: clamp(1.375rem, 2.5vw, 1.75rem);
   }
 
-  .article-content h3 {
+  .article-content :global(h3) {
     margin: 2rem 0 0.75rem;
     font-size: 1.1875rem;
   }
 
-  .article-content p { margin: 0 0 1.25rem; }
-  .article-content ul, .article-content ol {
+  .article-content :global(p) { margin: 0 0 1.25rem; }
+  .article-content :global(ul), .article-content :global(ol) {
     margin: 0 0 1.25rem;
     padding-left: 1.5rem;
   }
-  .article-content li { margin-bottom: 0.375rem; }
+  .article-content :global(li) { margin-bottom: 0.375rem; }
 
-  .article-content a {
+  .article-content :global(a) {
     color: var(--color-emerald);
     text-decoration: underline;
     text-underline-offset: 2px;
   }
-  .article-content a:hover { color: var(--color-teal); }
+  .article-content :global(a:hover) { color: var(--color-teal); }
+
+  /* Answer-first summary box: the direct answer up front, for readers and AI answer engines */
+  .article-content :global(.article-summary) {
+    background: var(--color-teal-light);
+    border-left: 4px solid var(--color-emerald);
+    border-radius: 0 10px 10px 0;
+    padding: 1.125rem 1.375rem;
+    margin: 0 0 2rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-navy);
+  }
+
+  .article-content :global(.article-note) {
+    font-size: 0.875rem;
+    color: #6b6b6b;
+    font-style: italic;
+    border-top: 1px solid rgba(15, 33, 49, 0.1);
+    padding-top: 1rem;
+    margin-top: 2rem;
+  }
 
   /* Inline article figures, use :global() so styles reach into set:html content */
   .article-content :global(figure),

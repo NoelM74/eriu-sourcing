@@ -5,8 +5,8 @@ import MediaFigure from '../../components/MediaFigure.astro';
 import MediaStrip from '../../components/MediaStrip.astro';
 import ProofBar from '../../components/ProofBar.astro';
 
-const title = "Tax-Free Rental Income from a Garden Home Ireland | Ériu";
-const description = "Up to €14,000 a year tax-free under Rent-a-Room, from a self-contained garden home on ground you already own, the honest yield maths and the caveats.";
+const title = "Rental Income from a Garden Home in Ireland | Ériu";
+const description = "Rent out a Class 3A garden home long-term, outside the RTB's remit, on ground you already own. The honest yield and tax maths, and the caveats.";
 const canonical = "/modular-homes/rental-income-garden-home-ireland/";
 const siteUrl = "https://eriusourcing.com";
 
@@ -17,7 +17,7 @@ const siteUrl = "https://eriusourcing.com";
 // optional computed branch is retained only if a representative worked example
 // is ever agreed. Per policy, the single yield % lives ONLY on this Income page.
 const allInNum: number | null = null;
-const annualRent = 13800;                 // €1,150/mo, just under the €14,000 ceiling
+const annualRent = 13800;                 // €1,150/mo long-term let, gross before tax
 const allIn = allInNum ? `€${allInNum.toLocaleString('en-IE')}` : null;
 const yieldPct = allInNum ? ((annualRent / allInNum) * 100).toFixed(1) : null;
 const paybackYrs = allInNum ? Math.round(allInNum / annualRent) : null;
@@ -31,7 +31,7 @@ const pageSchemas = [
     "@type": "Product",
     "name": "Ériu 20ft Expandable, Income Garden Home",
     "image": [`${siteUrl}/images/modular-homes-20ft-expandable.webp`, `${siteUrl}/images/modular-homes-hero-back-garden-ireland.webp`],
-    "description": "A self-contained 34 m² garden home, specified to Irish Building Regulations with an A2 BER, let under the Rent-a-Room scheme for up to €14,000 a year tax-free where eligible.",
+    "description": "A self-contained 34 m² garden home, specified to Irish Building Regulations with an A2 BER, for a long-term let under the Class 3A exemption, outside the RTB's remit.",
     "brand": { "@type": "Brand", "name": "Ériu Modular Homes" },
     "offers": {
       "@type": "Offer",
@@ -47,18 +47,18 @@ const pageSchemas = [
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Can I earn tax-free rental income from a home in my garden in Ireland?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Where a self-contained garden dwelling is linked to the services of your principal house, rental income from a tenant may fall under the Rent-a-Room scheme, up to €14,000 a year exempt from income tax, USC and PRSI. The draft 2026 regulations are also proposed to carve such an auxiliary dwelling out of the Residential Tenancies Acts, so RTB rules would not apply if enacted as drafted. The regulations remain in draft and Rent-a-Room treatment depends on your circumstances, so confirm both the planning position and the tax treatment with a qualified accountant and solicitor before relying on any projected return." }
+        "name": "Can I earn rental income from a home in my garden in Ireland?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes, from a long-term let. A garden home built under Class 3A of S.I. No. 340 of 2026, in force since 27 July 2026, can be rented out, but not for short-term letting, and it must be occupied with the main house and can't be sold separately. Plan on the rent being taxable: Revenue's Rent-a-Room guidance states that a self-contained unit not attached to the property cannot qualify for the relief, so the rent is ordinary rental income with allowable expenses deducted. Confirm the tax position with a qualified accountant before relying on any projected return." }
       },
       {
         "@type": "Question",
         "name": "What yield does a garden rental home produce?",
-        "acceptedAnswer": { "@type": "Answer", "text": "The yield is simply the tax-free rent (up to €14,000 a year) divided by your all-in installed cost, so it depends on what you spend. Because the Ériu 20ft Expandable starts from €25,000 delivered and a fully-fitted compliant unit lands at a fraction of the €110,000–€180,000 an Irish-built equivalent costs, the ratio is strong, but the only honest figure is the one calculated against a real quote for your site. We model it for you. Tax treatment depends on the unit qualifying and on your circumstances, and the regulations are still in draft." }
+        "acceptedAnswer": { "@type": "Answer", "text": "The gross yield is simply the annual rent divided by your all-in installed cost, so it depends on what you spend. Let at €1,150 a month, a unit earns €13,800 a year before tax. Because the Ériu 20ft Expandable starts from €25,000 delivered and a fully-fitted compliant unit lands at a fraction of the €110,000–€180,000 an Irish-built equivalent costs, the ratio is strong, but the only honest figure is the one calculated against a real quote for your site. We model it for you, gross and after tax at your rate." }
       },
       {
         "@type": "Question",
         "name": "Do RTB rules and rent-pressure-zone limits apply to a garden rental?",
-        "acceptedAnswer": { "@type": "Answer", "text": "The draft 2026 regulations are proposed to carve the auxiliary dwelling out of the Residential Tenancies Acts when linked to the principal house under the Rent-a-Room scheme, so RTB registration and rent-pressure-zone rules would not apply if enacted as drafted. Treat this as proposed, not certain, until the final wording is enacted, and confirm with your solicitor." }
+        "acceptedAnswer": { "@type": "Answer", "text": "The RTB has stated that renting a qualifying Class 3A garden home does not come under its remit and does not need to be registered with the RTB. That only applies where the unit meets every Class 3A condition, and short-term letting is not permitted. Confirm your position with your solicitor before letting." }
       }
     ]
   }
@@ -71,10 +71,10 @@ const pageSchemas = [
   <section class="page-hero">
     <div class="container--narrow">
       <Breadcrumbs items={[{ label: 'Modular Homes', href: '/modular-homes/' }, { label: 'Rental Income Garden Home' }]} />
-      <span class="section-eyebrow">Up to €14,000 a year · tax-free · on ground you already own</span>
+      <span class="section-eyebrow">Long-term let · outside the RTB · on ground you already own</span>
       <h1>Your back garden could be the best-performing asset you own.</h1>
       <p class="lead">There's a quiet shift in Irish property most people haven't done the maths on yet.</p>
-      <p>Draft planning rules brought to Cabinet in April 2026 would, <strong>if enacted</strong>, let you place a self-contained 32–45 m² home in your rear garden with no full planning permission. And under the Rent-a-Room scheme, the rent it earns you, up to €14,000 a year, could be exempt from income tax, USC and PRSI.</p>
+      <p>Since 27 July 2026, the Class 3A exemption lets you place a self-contained 32–45 m² home in your rear garden with no planning application, where the conditions are met. Let it long-term and, the RTB has stated, the tenancy sits outside its remit: no RTB registration. Let at €1,150 a month, that's €13,800 a year in rent.</p>
       <p>For a homeowner with a usable garden and some capital, that's not a renovation. It's an income stream parked between the kitchen window and the back fence.</p>
       <div class="hero-cta"><a href="/contact/?interest=modular-quote" class="btn btn--primary">Request your quote + yield breakdown →</a></div>
     </div>
@@ -85,8 +85,8 @@ const pageSchemas = [
     <div class="container--narrow">
       <MediaFigure
         src="/images/modular-homes-20ft-expandable.webp"
-        alt="The Ériu 20ft Expandable, a self-contained garden home let under the Rent-a-Room scheme"
-        caption="The 20ft Expandable, a tax-free income unit on ground you already own."
+        alt="The Ériu 20ft Expandable, a self-contained garden home for a long-term let"
+        caption="The 20ft Expandable, an income unit on ground you already own."
       />
     </div>
   </section>
@@ -96,21 +96,20 @@ const pageSchemas = [
     <div class="container--narrow">
       <span class="section-eyebrow">The numbers, run honestly</span>
       <h2>Let's do it properly, the honest version is more persuasive than the hyped one</h2>
-      <p>Let a fully-fitted, compliant Ériu unit to a single tenant or couple at €1,150 a month and that's <strong>€13,800 a year</strong>, just under the €14,000 Rent-a-Room ceiling.</p>
-      <p>If that income qualifies under the scheme, the saving versus taxed rental income, for a higher-rate taxpayer, is roughly:</p>
+      <p>Let a fully-fitted, compliant Ériu unit to a single tenant or couple at €1,150 a month and that's <strong>€13,800 a year</strong> in gross rent.</p>
+      <p>Now the tax, told straight. When the draft rules came out in April, a lot of the coverage, ours included, expected this rent to be tax-free under Rent-a-Room. Revenue's published guidance says a self-contained unit <strong>not attached to the property cannot qualify</strong>, so plan on it being taxed as ordinary rental income, with allowable expenses deducted. Roughly, before expenses:</p>
       <ul class="exempt-list">
-        <li><strong>~€5,500</strong> income tax</li>
-        <li><strong>~€1,100</strong> USC</li>
-        <li><strong>~€550</strong> PRSI</li>
+        <li><strong>Higher-rate taxpayer:</strong> about €7,100 a year after income tax, USC and PRSI</li>
+        <li><strong>Standard-rate taxpayer:</strong> about €9,900 a year after tax</li>
       </ul>
 
       {allInNum ? (
         <div class="yield-box">
-          <p>On an all-in installed cost of <strong>{allIn}</strong>, €13,800 tax-free is a tax-free yield of <strong>~{yieldPct}%</strong>, with a payback of roughly <strong>{paybackYrs} years</strong>, after which it's largely income. <span class="yield-caveat">The regulations are still in draft and not yet enacted; Rent-a-Room treatment depends on the unit being linked to your principal house's services and on your individual circumstances; the final enacted wording could differ. Confirm the tax position with a qualified accountant before relying on any projected return.</span></p>
+          <p>On an all-in installed cost of <strong>{allIn}</strong>, €13,800 is a gross yield of <strong>~{yieldPct}%</strong> before tax, with a payback of roughly <strong>{paybackYrs} years</strong>, after which it's largely income. <span class="yield-caveat">Figures are illustrative and assume the rent is taxable, in line with Revenue's current Rent-a-Room guidance, and that the unit meets every Class 3A condition. Your net return depends on your marginal rate and allowable expenses. Confirm the tax position with a qualified accountant before relying on any projected return.</span></p>
         </div>
       ) : (
         <div class="yield-box">
-          <p>Your actual yield is simply <strong>€13,800 ÷ your all-in installed cost</strong>, and the payback is the inverse, so the figure is only honest once it's run against a real quote for your site. <strong>We model your exact yield and payback for you</strong>, with every cost line shown. <span class="yield-caveat">The regulations are still in draft and not yet enacted; Rent-a-Room treatment depends on the unit being linked to your principal house's services and on your individual circumstances; the final enacted wording could differ. Confirm the tax position with a qualified accountant before relying on any projected return.</span></p>
+          <p>Your gross yield is simply <strong>€13,800 ÷ your all-in installed cost</strong>, and the payback is the inverse, so the figure is only honest once it's run against a real quote for your site. <strong>We model your exact yield and payback for you</strong>, gross and after tax at your rate, with every cost line shown. <span class="yield-caveat">Figures are illustrative and assume the rent is taxable, in line with Revenue's current Rent-a-Room guidance, and that the unit meets every Class 3A condition. Your net return depends on your marginal rate and allowable expenses. Confirm the tax position with a qualified accountant before relying on any projected return.</span></p>
         </div>
       )}
       <p>We'd rather you went in clear-eyed than excited and wrong.</p>
@@ -144,12 +143,12 @@ const pageSchemas = [
       <h2>What a serious investor needs to know, told straight</h2>
       <div class="caveat-grid">
         <div class="caveat-card">
-          <h3>RTA carve-out is proposed, not certain</h3>
-          <p>The draft regulations propose to carve the auxiliary dwelling out of the Residential Tenancies Acts, so RTB registration and rent-pressure-zone rules would not apply. That's a genuine operational advantage over a conventional rental <em>if enacted as drafted</em>. Treat it as proposed, not certain.</p>
+          <h3>Outside the RTB, long-term only</h3>
+          <p>The RTB has stated that renting a qualifying Class 3A unit does not come under its remit and needs no RTB registration. That's a genuine operational advantage over a conventional rental. The trade-off: <strong>no short-term letting</strong>, the unit stays with the main house, and it can't be sold separately.</p>
         </div>
         <div class="caveat-card">
           <h3>LPT and insurance</h3>
-          <p>The unit is expected to receive its own LPT band separate from your house, and your home insurance must be updated to declare the structure, or you risk invalidating cover on the principal house. Most insurers quote an uplift rather than a separate policy.</p>
+          <p>Revenue has confirmed the unit attracts its own LPT charge, separate from your house and payable even when empty, and your home insurance must be updated to declare the structure, or you risk invalidating cover on the principal house. Most insurers quote an uplift rather than a separate policy.</p>
         </div>
         <div class="caveat-card">
           <h3>Mortgage and resale</h3>
