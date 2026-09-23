@@ -25,6 +25,15 @@ const startPrice = "€25,000";
 const irishBuilt = "€110,000–€180,000";
 const warrantyClaim = "30-year anti-corrosion warranty"; // ⚠ confirm before merge
 
+// FAQ: single source for both the FAQPage schema and the visible section below.
+const faqs = [
+  { q: 'Can I earn rental income from a home in my garden in Ireland?', a: 'Yes, from a long-term let. A garden home built under Class 3A of S.I. No. 340 of 2026, in force since 27 July 2026, can be rented out, but not for short-term letting, and it must be occupied with the main house and can\'t be sold separately. Plan on the rent being taxable: Revenue\'s Rent-a-Room guidance states that a self-contained unit not attached to the property cannot qualify for the relief, so the rent is ordinary rental income with allowable expenses deducted. Confirm the tax position with a qualified accountant before relying on any projected return.' },
+  { q: 'Is rent from a garden home tax-free under Rent-a-Room?', a: 'Plan on it not being tax-free. Revenue\'s Rent-a-Room guidance states that a self-contained unit which is not attached to the property cannot qualify for the relief, and a Class 3A garden home is detached. Taxed as ordinary rental income, €13,800 a year works out at roughly €7,100 after tax for a higher-rate taxpayer and roughly €9,900 for a standard-rate taxpayer, before allowable expenses. Confirm your own position with an accountant.' },
+  { q: 'What yield does a garden rental home produce?', a: 'The gross yield is simply the annual rent divided by your all-in installed cost, so it depends on what you spend. Let at €1,150 a month, a unit earns €13,800 a year before tax. Because the Ériu 20ft Expandable starts from €25,000 delivered and a fully-fitted compliant unit lands at a fraction of the €110,000–€180,000 an Irish-built equivalent costs, the ratio is strong, but the only honest figure is the one calculated against a real quote for your site. We model it for you, gross and after tax at your rate.' },
+  { q: 'Do RTB rules and rent-pressure-zone limits apply to a garden rental?', a: 'The RTB has stated that renting a qualifying Class 3A garden home does not come under its remit and does not need to be registered with the RTB. That only applies where the unit meets every Class 3A condition, and short-term letting is not permitted. Confirm your position with your solicitor before letting.' },
+  { q: 'Does a rented garden home pay Local Property Tax?', a: 'Yes. Revenue has confirmed that a permanent garden home suitable for use as a separate dwelling attracts its own LPT charge. It is valued in its own right, gets its own property ID, and LPT is payable even when it is empty. Your home insurance must also be updated to declare the structure.' },
+];
+
 // NB: BreadcrumbList is emitted by the <Breadcrumbs> component below.
 const pageSchemas = [
   {
@@ -44,23 +53,11 @@ const pageSchemas = [
   },
   {
     "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Can I earn rental income from a home in my garden in Ireland?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Yes, from a long-term let. A garden home built under Class 3A of S.I. No. 340 of 2026, in force since 27 July 2026, can be rented out, but not for short-term letting, and it must be occupied with the main house and can't be sold separately. Plan on the rent being taxable: Revenue's Rent-a-Room guidance states that a self-contained unit not attached to the property cannot qualify for the relief, so the rent is ordinary rental income with allowable expenses deducted. Confirm the tax position with a qualified accountant before relying on any projected return." }
-      },
-      {
-        "@type": "Question",
-        "name": "What yield does a garden rental home produce?",
-        "acceptedAnswer": { "@type": "Answer", "text": "The gross yield is simply the annual rent divided by your all-in installed cost, so it depends on what you spend. Let at €1,150 a month, a unit earns €13,800 a year before tax. Because the Ériu 20ft Expandable starts from €25,000 delivered and a fully-fitted compliant unit lands at a fraction of the €110,000–€180,000 an Irish-built equivalent costs, the ratio is strong, but the only honest figure is the one calculated against a real quote for your site. We model it for you, gross and after tax at your rate." }
-      },
-      {
-        "@type": "Question",
-        "name": "Do RTB rules and rent-pressure-zone limits apply to a garden rental?",
-        "acceptedAnswer": { "@type": "Answer", "text": "The RTB has stated that renting a qualifying Class 3A garden home does not come under its remit and does not need to be registered with the RTB. That only applies where the unit meets every Class 3A condition, and short-term letting is not permitted. Confirm your position with your solicitor before letting." }
-      }
-    ]
+    "mainEntity": faqs.map(f => ({
+      "@type": "Question",
+      "name": f.q,
+      "acceptedAnswer": { "@type": "Answer", "text": f.a }
+    }))
   }
 ];
 ---
@@ -169,6 +166,23 @@ const pageSchemas = [
     </div>
   </section>
 
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Common questions</span>
+      <h2>Renting out a garden home, questions answered</h2>
+      <p class="faq-updated">Last reviewed: September 2026</p>
+      <div class="faq-list">
+        {faqs.map(f => (
+          <details class="faq-item">
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
   <!-- PROOF -->
   <section class="section media-section">
     <div class="container--narrow">
@@ -215,4 +229,14 @@ const pageSchemas = [
   .caveat-card p { font-size: .9rem; line-height: 1.6; margin: 0; }
 
   @media (max-width: 900px) { .caveat-grid { grid-template-columns: 1fr; } }
+
+  /* FAQ */
+  .faq-updated { font-size: .8125rem; color: #888; margin: .25rem 0 1.5rem; }
+  .faq-list { display: flex; flex-direction: column; gap: 0; margin-top: 1rem; }
+  .faq-item { border-bottom: 1px solid rgba(15, 33, 49, .1); padding: 0; }
+  .faq-item summary { font-weight: 600; font-size: 1rem; color: var(--color-navy); cursor: pointer; padding: 1.25rem 0; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after { content: '+'; font-size: 1.25rem; font-weight: 300; color: var(--color-emerald); flex-shrink: 0; transition: transform .2s ease; }
+  .faq-item[open] summary::after { transform: rotate(45deg); }
+  .faq-item p { padding: 0 0 1.25rem; color: #4a4a4a; font-size: .9375rem; margin: 0; line-height: 1.75; }
 </style>
