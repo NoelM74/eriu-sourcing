@@ -5,6 +5,7 @@
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import WhatsAppFloat from '../components/WhatsAppFloat.astro';
+import CookieBanner from '../components/CookieBanner.astro';
 import '../styles/global.css';
 
 interface Props {
@@ -132,11 +133,28 @@ const structuredData = {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Google tag (gtag.js) -->
-    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-DSRB3TSKEG"></script>
+    <!-- Google Consent Mode v2: everything denied until the visitor accepts
+         (CookieBanner.astro). A stored "granted" choice is restored here,
+         before gtag.js loads, so returning visitors are not asked again. -->
     <script is:inline>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        analytics_storage: 'denied'
+      });
+      try {
+        if (localStorage.getItem('eriu-consent') === 'granted') {
+          gtag('consent', 'update', { analytics_storage: 'granted' });
+        }
+      } catch (e) {}
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-DSRB3TSKEG"></script>
+    <script is:inline>
       gtag('js', new Date());
 
       gtag('config', 'G-DSRB3TSKEG');
@@ -229,6 +247,7 @@ const structuredData = {
       <slot />
     </main>
     <WhatsAppFloat />
+    <CookieBanner />
     <Footer />
 
     <!-- Motion system: reveal-on-scroll + stat count-up.
