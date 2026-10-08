@@ -1,0 +1,118 @@
+---
+// Cookie consent banner for Google Consent Mode v2.
+// BaseLayout sets every consent signal to "denied" before gtag loads and
+// restores a stored "granted" choice. This banner asks visitors who have not
+// chosen yet, saves the answer in localStorage and updates consent.
+// Any element with [data-cookie-settings] reopens it (footer link).
+---
+
+<div class="cookie-banner" id="cookie-banner" role="region" aria-label="Cookie consent" hidden>
+  <p class="cookie-text">
+    We use Google Analytics cookies to see how visitors use this site. Nothing is tracked unless you accept.
+    <a href="/privacy/">Privacy policy</a>
+  </p>
+  <div class="cookie-actions">
+    <button type="button" class="cookie-btn" data-consent="denied">Reject</button>
+    <button type="button" class="cookie-btn" data-consent="granted">Accept</button>
+  </div>
+</div>
+
+<script is:inline>
+  (function () {
+    var KEY = 'eriu-consent';
+    var banner = document.getElementById('cookie-banner');
+    if (!banner) return;
+
+    function stored() {
+      try { return localStorage.getItem(KEY); } catch (e) { return null; }
+    }
+    function show() {
+      banner.hidden = false;
+      document.documentElement.classList.add('cookie-open');
+    }
+    function hide() {
+      banner.hidden = true;
+      document.documentElement.classList.remove('cookie-open');
+    }
+
+    // Switching from Accept to Reject: remove the _ga cookies already set.
+    function clearGaCookies() {
+      var host = location.hostname.replace(/^www\./, '');
+      document.cookie.split(';').forEach(function (c) {
+        var name = c.split('=')[0].trim();
+        if (name.indexOf('_ga') !== 0) return;
+        ['', '; domain=' + host, '; domain=.' + host].forEach(function (d) {
+          document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/' + d;
+        });
+      });
+    }
+
+    banner.addEventListener('click', function (e) {
+      var btn = e.target.closest('[data-consent]');
+      if (!btn) return;
+      var choice = btn.getAttribute('data-consent');
+      try { localStorage.setItem(KEY, choice); } catch (err) {}
+      if (typeof gtag === 'function') {
+        gtag('consent', 'update', { analytics_storage: choice });
+      }
+      if (choice === 'denied') clearGaCookies();
+      hide();
+    });
+
+    document.addEventListener('click', function (e) {
+      if (e.target.closest('[data-cookie-settings]')) {
+        e.preventDefault();
+        show();
+      }
+    });
+
+    var s = stored();
+    if (s !== 'granted' && s !== 'denied') show();
+  })();
+</script>
+
+<style>
+  .cookie-banner {
+    position: fixed;
+    left: 1.25rem;
+    bottom: 1.25rem;
+    z-index: 95;
+    max-width: 26rem;
+    padding: 1rem 1.125rem;
+    background: var(--color-navy, #0F2131);
+    color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 12px 32px rgba(15, 33, 49, 0.28);
+    font-family: var(--font-body, sans-serif);
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+  .cookie-banner[hidden] { display: none; }
+
+  .cookie-text { margin: 0 0 0.75rem; }
+  .cookie-text a { color: #ffffff; text-decoration: underline; text-underline-offset: 2px; }
+
+  .cookie-actions { display: flex; gap: 0.5rem; }
+
+  /* Equal weight for both choices: no nudging towards Accept. */
+  .cookie-btn {
+    flex: 1;
+    padding: 0.55rem 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    background: transparent;
+    color: #ffffff;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+  }
+  .cookie-btn:hover { background: rgba(255, 255, 255, 0.12); }
+  .cookie-btn:focus-visible { outline: 3px solid #7ff0dc; outline-offset: 2px; }
+
+  @media (max-width: 640px) {
+    .cookie-banner { left: 0.75rem; right: 0.75rem; bottom: 0.75rem; max-width: none; }
+    /* Keep the WhatsApp button from sitting on top of the banner. */
+    :global(html.cookie-open .wa-float) { visibility: hidden; }
+  }
+</style>
