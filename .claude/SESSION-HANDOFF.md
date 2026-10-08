@@ -1,14 +1,14 @@
 # Session Handoff — Ériu modular funnel, UX & SEO work
 
-_Last updated: 2026-06-15. Internal notes (not built into the site — lives outside `src/`/`public/`)._
+_Last updated: 2026-10-08. Internal notes (not built into the site — lives outside `src/`/`public/`)._
 
 ## Repo & workflow
 - **Repo:** `noelm74/eriu-sourcing` — Astro 6 + Tailwind v4 + Cloudflare Pages (static SSG, no adapter). Site: `https://eriusourcing.com`.
 - **Two business lines:** factory-direct China sourcing (original) + **Modular Homes** (`/modular-homes/` silo).
 - **Dev branch:** `claude/vigilant-cerf-izAZG`.
 - **Ship workflow:** commit to branch → PR to `main` → **squash-merge** → `git merge origin/main` to reconcile branch (the "Reconcile branch with squash-merged main (#NN)" commits are expected). User has authorised live merges throughout.
-- **Build:** `npm run build` (currently **126 pages**). Preview: `npx astro preview --port <port>`.
-- Commit footer: `https://claude.ai/code/session_013N3ikcjpB8BSkkk3CwCi6X`. Model id `claude-opus-4-8` — **never** put in commits/PRs/artifacts.
+- **Build:** `npm run build` (currently **128 pages**). Preview: `npx astro preview --port <port>`.
+- Commit footer: `https://claude.ai/code/session_013N3ikcjpB8BSkkk3CwCi6X`. Model ids — **never** put in commits/PRs/artifacts.
 
 ## What shipped this session (all live on main)
 1. **4 modular conversion spokes** (PR #52): `/modular-homes/home-for-adult-children-ireland/` (Family), `/rental-income-garden-home-ireland/` (Income — only page with a yield %), `/permanent-modular-home-ireland/` (Permanent), `/downsizing-granny-flat-ireland/` (Downsizing).
@@ -27,6 +27,8 @@ _Last updated: 2026-06-15. Internal notes (not built into the site — lives out
 14. **Fix: image-resolver glob** (PR #65). De-slop had spaced the glob brace `{webp, jpg…}` → restored `{webp,jpg,jpeg,png,avif}` (webp still matched, so no visible breakage).
 15. **Content polish** (PR #66). 6 `minOrderShort` ranges → en-dash; fixed the 4 genuine comma-splices the de-slop left on money pages (family, permanent ×2, homepage FAQ).
 16. **SEO Tier 1: Hospitality Fit-Out cluster** (PR #67). **5 spokes** under `/source/hospitality/`: hotel-bedroom-furniture, restaurant-bar-seating, lounge-lobby-sofas-soft-seating, hospitality-lighting, commercial-outdoor-furniture. Foshan/Lecong/Zhongshan; compliance hooks EN 1021 / EN 16139 / EN 581 / CE-LVD-EMC. Distinct from construction-materials (no tiles/functional LED). Images copied + optimised.
+17. **Google Analytics 4** (PR #70). Tag `G-DSRB3TSKEG` in `BaseLayout.astro` `<head>` (`is:inline`), on every page. Privacy policy now discloses GA4 (it previously said "no analytics cookies").
+18. **Cookie consent + Google Consent Mode v2** (PR #71). All consent signals default `denied` before gtag loads; `CookieBanner.astro` (equal-weight Reject/Accept) stores the choice in `localStorage` key `eriu-consent`; Accept grants `analytics_storage` only (ad signals stay denied). Footer "Cookie settings" (`[data-cookie-settings]`) reopens it; Reject clears `_ga` cookies. Privacy `#cookies` section explains it. Mode = "advanced" (cookieless pings when denied); offered the owner a stricter "don't load gtag until Accept" option, no answer yet.
 
 ## Hard policies / integrity rules (DO NOT VIOLATE)
 - **Pricing:** installed cost is **always site-specific** → **no single all-in number**. Pages show "we'll model your exact figure". `allIn`/`allInNum` stay **null by design** (canonical, not placeholder). Real anchors only: **€25,000 delivered** start; Irish-built **€110,000–€180,000**; **14–18 wks**; **A2 BER on a correctly installed unit**.
