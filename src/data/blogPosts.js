@@ -10,7 +10,7 @@ export const blogPosts = [
   {
     slug: 'how-to-source-products-direct-from-china-to-ireland-2026',
     title: 'How to Source Products Direct from China to Ireland in 2026',
-    metaTitle: 'How to Source Products Direct from China to Ireland in 2026 | Ériu Sourcing',
+    metaTitle: 'Source Products Direct from China to Ireland (2026) | Ériu',
     metaDescription: 'How Irish businesses source factory-direct from China in 2026, factory vetting, QC, CE compliance, freight and landed cost, explained step by step.',
     h1: 'How to source products direct from China to Ireland in 2026',
     eyebrow: 'Complete Guide',
@@ -188,7 +188,7 @@ export const blogPosts = [
   {
     slug: 'alibaba-vs-factory-direct-irish-importers',
     title: 'Alibaba vs Factory-Direct: What Irish Importers Need to Know',
-    metaTitle: 'Alibaba vs Factory-Direct Sourcing for Irish Businesses | Ériu Sourcing',
+    metaTitle: 'Alibaba vs Factory-Direct Sourcing for Irish Buyers | Ériu',
     metaDescription: 'Alibaba is not factory-direct. Here is what Irish importers actually need to know about the difference, and why it costs more than most people realise.',
     h1: 'Alibaba vs factory-direct: what Irish importers need to know',
     eyebrow: 'Sourcing Intelligence',
@@ -341,7 +341,7 @@ export const blogPosts = [
   {
     slug: 'incoterms-explained-irish-importers-fob-cif-exw-dap-china',
     title: 'Incoterms Explained for Irish Importers: FOB, CIF, EXW & DAP on China Shipments',
-    metaTitle: 'Incoterms Explained for Irish Importers: FOB, CIF, EXW & DAP | Ériu Sourcing',
+    metaTitle: 'Incoterms for Irish Importers: FOB, CIF, EXW, DAP | Ériu',
     metaDescription: 'Incoterms on China shipments explained for Irish importers. FOB, CIF, EXW, DAP, what each one actually costs you, who carries the risk, and which one to use.',
     h1: 'Incoterms explained for Irish importers: FOB, CIF, EXW and DAP on China shipments',
     eyebrow: 'Trade Intelligence',
@@ -527,7 +527,7 @@ export const blogPosts = [
   {
     slug: 'private-label-manufacturing-china-irish-brands-oem-vs-odm',
     title: 'Private Label Manufacturing in China for Irish Brands: OEM vs ODM',
-    metaTitle: 'Private Label Manufacturing China for Irish Brands: OEM vs ODM | Ériu Sourcing',
+    metaTitle: 'Private Label Manufacturing in China: OEM vs ODM | Ériu',
     metaDescription: 'Private-label manufacturing in China for Irish brands. OEM vs ODM, what each costs, how long it takes, minimum order quantities, and which fits your business.',
     h1: 'Private label manufacturing in China for Irish brands: OEM vs ODM',
     eyebrow: 'Manufacturing Guide',
@@ -676,7 +676,7 @@ export const blogPosts = [
   {
     slug: 'ce-marking-china-imports-ireland',
     title: 'CE Marking and China Imports: What Irish Businesses Get Wrong',
-    metaTitle: 'CE Marking China Imports Ireland: What to Know | Ériu Sourcing',
+    metaTitle: 'CE Marking on China Imports: What Irish Firms Need | Ériu',
     metaDescription: 'CE marking on China imports is widely misunderstood by Irish businesses. What you need to know before you import, and what gets goods detained at Dublin Port.',
     h1: 'CE marking and China imports: what Irish businesses get wrong',
     eyebrow: 'Compliance & Risk',
@@ -870,7 +870,7 @@ export const blogPosts = [
   {
     slug: 'real-landed-cost-importing-from-china-ireland',
     title: 'The Real Landed Cost of Importing from China to Ireland',
-    metaTitle: 'Real Landed Cost: Importing from China to Ireland in 2026 | Ériu Sourcing',
+    metaTitle: 'Real Landed Cost of Importing from China to Ireland | Ériu',
     metaDescription: 'Irish importers underestimate the true landed cost of goods from China. We break down freight, duty, VAT, inspection and agent fees, with real numbers.',
     h1: 'The real landed cost of importing from China to Ireland',
     eyebrow: 'Cost & Economics',
@@ -881,6 +881,7 @@ export const blogPosts = [
     targetReader: 'Irish business owners and financial decision-makers calculating whether China sourcing makes commercial sense for their business',
     estimatedWordCount: 2600,
     publishDate: '2026-05-20',
+    dateModified: '2026-09-23',
     draft: false,
     excerpt: 'Most Irish businesses calculate China import savings on the factory price alone. They forget freight, customs duty, VAT, inspection, currency risk, and the cost of the time it takes. Here is how to build an accurate landed cost model before you commit.',
     image: '/images/hero-china-factory-floor.webp',
@@ -908,6 +909,8 @@ export const blogPosts = [
 <p><strong>Landed cost = FOB factory price + International freight + Cargo insurance + Customs duty + VAT + Pre-shipment inspection + Sourcing agent fee + Destination handling charges + Irish inland delivery</strong></p>
 
 <p>The components most often missed or underestimated are customs duty, destination handling charges, and currency conversion loss. VAT is also frequently forgotten, even though VAT-registered businesses reclaim it, the cash flow impact of paying it upfront at Dublin Port can be significant on a large shipment.</p>
+
+<p><strong>Buying in small parcels?</strong> Since 1 July 2026 the EU's €150 duty exemption is gone, and low-value parcels from China carry a flat €3 duty per item category. Commercial shipments by sea or air freight are unaffected, as they clear on a normal customs entry at the commodity-code rate. But if you restock through marketplace parcels, <a href="/blog/eu-de-minimis-ends-3-euro-duty-china-parcels-ireland/">the end of de minimis</a> has probably tipped the numbers toward one consolidated shipment.</p>
 
 <h2>Factory-gate price: how to read an FOB quote</h2>
 
@@ -1057,7 +1060,7 @@ export const blogPosts = [
       { q: 'What import duty do I pay on goods from China?', a: 'Import duty rates vary by product category and are determined by the HS commodity code. Common rates include 0% for most raw materials and some electronics, 6.5–12% for clothing and textiles, 4–6% for furniture, and up to 12% for some construction materials. Anti-dumping duties apply to specific categories. Your freight forwarder or customs broker can determine the correct commodity code and duty rate for your specific goods.' },
       { q: 'How do I calculate my real margin after importing from China?', a: 'Landed cost = Factory FOB price + International freight + Insurance + Customs duty + VAT (reclaimed if VAT-registered) + Pre-shipment inspection + Sourcing agent fee + Import handling charges + Irish delivery. Your margin calculation should use this full landed cost, not the factory price. A typical Ireland-landed cost is factory FOB price × 1.25–1.45 depending on product category and freight terms.' },
     ],
-    relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'alibaba-vs-factory-direct-irish-importers'],
+    relatedSlugs: ['eu-de-minimis-ends-3-euro-duty-china-parcels-ireland', 'shipping-china-to-ireland-freight-customs-2026', 'how-to-source-products-direct-from-china-to-ireland-2026'],
     internalLinks: [
       { text: 'How it works, our full process', href: '/how-it-works/' },
       { text: 'Get a quote with landed cost breakdown', href: '/contact/' },
@@ -1187,10 +1190,10 @@ export const blogPosts = [
 
   {
     slug: 'canton-fair-guide-irish-buyers-2026',
-    title: 'Canton Fair 2026: A Guide for Irish Buyers Attending for the First Time',
-    metaTitle: 'Canton Fair 2026: Guide for Irish Buyers | Ériu',
-    metaDescription: 'Attending the Canton Fair 2026? What Irish buyers need to know, the three phases and dates, how to prepare, evaluate suppliers, and vet them afterwards.',
-    h1: 'Canton Fair 2026: a guide for Irish buyers attending for the first time',
+    title: 'Canton Fair Autumn 2026: A Guide for Irish Buyers Attending for the First Time',
+    metaTitle: 'Canton Fair Autumn 2026: Guide for Irish Buyers | Ériu',
+    metaDescription: 'Canton Fair autumn 2026 runs 15 October to 4 November in Guangzhou. Phase dates and categories, visa-free entry for Irish buyers, and how to vet the suppliers you meet.',
+    h1: 'Canton Fair autumn 2026: a guide for Irish buyers attending for the first time',
     eyebrow: 'Trade Events',
     category: 'trade-intel',
     primaryKeyword: 'Canton Fair 2026 guide',
@@ -1199,6 +1202,7 @@ export const blogPosts = [
     targetReader: 'Irish business owners or buyers who are attending or considering attending the Canton Fair and want to prepare effectively',
     estimatedWordCount: 2000,
     publishDate: '2026-06-06',
+    dateModified: '2026-09-23',
     draft: false,
     excerpt: 'The Canton Fair happens twice a year and covers virtually every product category produced in China. For Irish buyers, it is both an extraordinary sourcing opportunity and an easy place to waste a week. Here is how to make it count.',
     image: '/images/hero-china-factory-floor.webp',
@@ -1209,7 +1213,7 @@ export const blogPosts = [
 
 <h2>What the Canton Fair actually is</h2>
 
-<p>The Canton Fair has run in Guangzhou since 1957 and is held every spring and autumn. The Spring 2026 edition is the 139th. It takes place across the Canton Fair Complex (Pazhou) in three phases, each running roughly five days, because no single venue could hold every exhibitor at once. You attend the phase that matches what you buy, not the whole fair.</p>
+<p>The Canton Fair has run in Guangzhou since 1957 and is held every spring and autumn. The spring 2026 edition was the 139th; the autumn 2026 edition, running from 15 October to 4 November, is the 140th. It takes place across the Canton Fair Complex (Pazhou) in three phases, each running roughly five days, because no single venue could hold every exhibitor at once. You attend the phase that matches what you buy, not the whole fair.</p>
 
 <p>It is genuinely vast: thousands of booths across multiple halls, with manufacturers showing physical product you can pick up, compare and discuss face to face. That tactile, in-person comparison is the entire point, it is the one thing Alibaba cannot give you.</p>
 
@@ -1220,19 +1224,19 @@ export const blogPosts = [
 
 <h2>Three phases, and which categories each covers</h2>
 
-<p>The fair splits into three phases by category. For Spring 2026 (139th), the published dates are:</p>
+<p>The fair splits into three phases by category. For the <strong>autumn 2026 (140th)</strong> edition, the dates are:</p>
 
 <ul>
-  <li><strong>Phase 1, 15–19 April 2026:</strong> electronics and household electrical appliances, machinery, hardware and tools, vehicles and spare parts, and new energy. This is the industrial and capital-goods phase.</li>
-  <li><strong>Phase 2, 23–27 April 2026:</strong> home products and furniture, gifts and decorations, houseware, and building materials. The home and interiors phase.</li>
-  <li><strong>Phase 3, 1–5 May 2026:</strong> consumer goods, textiles and garments, personal care, medical and health supplies, toys, and food. The consumer and lifestyle phase.</li>
+  <li><strong>Phase 1, 15–19 October 2026:</strong> electronics and household electrical appliances, manufacturing and machinery, vehicles and two-wheelers, lighting and electrical, hardware and tools. This is the industrial and capital-goods phase.</li>
+  <li><strong>Phase 2, 23–27 October 2026:</strong> houseware, gifts and decorations, building materials and furniture. The home, interiors and fit-out phase.</li>
+  <li><strong>Phase 3, 31 October–4 November 2026:</strong> toys, baby and maternity products, fashion, home textiles, stationery, and health and recreation. The consumer and lifestyle phase.</li>
 </ul>
 
-<p>Identify your phase before anything else, flights, hotel and registration all hang off it. The autumn edition runs on a similar three-phase structure around October–November. Category groupings and exact dates are occasionally adjusted, so always confirm against the official site, <a href="https://www.cantonfair.org.cn/" rel="nofollow">cantonfair.org.cn</a>, before you book.</p>
+<p>Identify your phase before anything else, flights, hotel and registration all hang off it. The spring 2027 edition will follow the same three-phase pattern in April and May. Category groupings and exact dates are occasionally adjusted, so always confirm against the official site, <a href="https://www.cantonfair.org.cn/" rel="nofollow">cantonfair.org.cn</a>, before you book.</p>
 
 <h2>How to register as a buyer</h2>
 
-<p>Overseas buyers register through the official Canton Fair website in advance. You will need your passport details, a business email, and a buyer photo, and you will receive a buyer badge (collected on-site or printed). Register early, on-site registration queues are long and eat into your first morning. A visa for China is required for most Irish passport holders; check the current entry requirements well ahead, as policies change.</p>
+<p>Overseas buyers register through the official Canton Fair website in advance. You will need your passport details, a business email, and a buyer photo, and you will receive a buyer badge (collected on-site or printed). Register early, on-site registration queues are long and eat into your first morning. Irish passport holders can currently enter China visa-free for stays of up to 30 days, which covers a trip to the fair and a few factory visits afterwards. Check the current rules before you book, as they have changed several times.</p>
 
 <h2>Preparing your brief before you fly</h2>
 
@@ -1249,7 +1253,7 @@ export const blogPosts = [
 
 <h2>Taking samples from the fair: logistics and customs</h2>
 
-<p>You will accumulate samples and catalogues fast, and they are heavier than you expect. Decide early what you carry and what you ship. For anything bulky, arrange consolidated shipping rather than overloading your luggage. Keep in mind that samples still have to clear Irish customs, declare them honestly, keep the commercial paperwork, and be aware that some categories (food, cosmetics, electronics) carry their own import requirements even as samples.</p>
+<p>You will accumulate samples and catalogues fast, and they are heavier than you expect. Decide early what you carry and what you ship. For anything bulky, arrange consolidated shipping rather than overloading your luggage. Keep in mind that samples still have to clear Irish customs, declare them honestly, keep the commercial paperwork, and be aware that some categories (food, cosmetics, electronics) carry their own import requirements even as samples. Since 1 July 2026, low-value parcels from China also carry a flat €3 EU customs duty per item category, so couriered samples cost slightly more than they did. <a href="/blog/eu-de-minimis-ends-3-euro-duty-china-parcels-ireland/">Here is how the new duty works</a>.</p>
 
 <h2>After the fair: vetting the suppliers you met</h2>
 
@@ -1271,10 +1275,11 @@ export const blogPosts = [
       'Is the Canton Fair the best use of your time?',
     ],
     faq: [
-      { q: 'When is the Canton Fair 2026 and what are the phases?', a: 'The Canton Fair (China Import and Export Fair) runs twice a year in Guangzhou, in three phases. The Spring 2026 edition (the 139th) is scheduled for Phase 1 on 15–19 April (electronics, appliances, machinery, hardware and tools, vehicles, new energy), Phase 2 on 23–27 April (home products, furniture, gifts, decorations, building materials), and Phase 3 on 1–5 May (consumer goods, textiles, personal care, health, toys, food). The autumn edition follows a similar structure around October–November. Always confirm exact dates and category placement on the official site, cantonfair.org.cn, before booking.' },
+      { q: 'When is the Canton Fair autumn 2026 and what are the phases?', a: 'The autumn 2026 Canton Fair (the 140th China Import and Export Fair) runs in three phases at the Pazhou complex in Guangzhou: Phase 1 on 15–19 October (electronics, appliances, machinery, vehicles, lighting, hardware and tools), Phase 2 on 23–27 October (houseware, gifts, decorations, building materials and furniture), and Phase 3 on 31 October–4 November (toys, baby, fashion, home textiles, stationery, health and recreation). Confirm exact dates on cantonfair.org.cn before booking.' },
+      { q: 'Do Irish citizens need a visa for the Canton Fair?', a: 'Not for a short visit. Irish passport holders can currently enter China visa-free for stays of up to 30 days, which covers the fair and follow-up factory visits. Check the current rules before you book.' },
       { q: 'Is the Canton Fair worth it for a small Irish importer?', a: 'It depends on your goal. The fair is excellent for breadth, discovering product categories, comparing many manufacturers quickly, and handling physical samples in person. It is less efficient if you already know exactly what you want, where a focused set of factory visits or a China-based sourcing agent will get you there faster and cheaper. Either way, a booth is only a lead: every promising supplier still needs full verification, business licence, CE documentation, a video factory tour and a specification sample, before any deposit is paid.' },
     ],
-    relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'alibaba-vs-factory-direct-irish-importers'],
+    relatedSlugs: ['how-to-vet-chinese-suppliers-factory-audit-verification-ireland', 'china-sourcing-agent-ireland-what-they-do', 'eu-de-minimis-ends-3-euro-duty-china-parcels-ireland'],
     internalLinks: [
       { text: 'Our China network', href: '/china-network/' },
       { text: 'Source with us instead', href: '/contact/' },
@@ -1397,7 +1402,7 @@ export const blogPosts = [
   {
     slug: 'how-to-pay-chinese-suppliers-safely-ireland',
     title: 'How to Pay Chinese Suppliers Safely from Ireland: T/T, L/C, & Scams',
-    metaTitle: 'How to Pay Chinese Suppliers Safely from Ireland | Ériu Sourcing',
+    metaTitle: 'How to Pay Chinese Suppliers Safely from Ireland | Ériu',
     metaDescription: 'A complete guide to paying Chinese suppliers safely for Irish importers. T/T vs Trade Assurance, avoiding invoice interception scams, and reducing FX fees.',
     h1: 'How to pay Chinese suppliers safely from Ireland: T/T, L/C, and avoiding scams',
     eyebrow: 'Cost & Economics',
@@ -1513,7 +1518,7 @@ export const blogPosts = [
   {
     slug: 'shipping-china-to-ireland-freight-customs-2026',
     title: 'Shipping from China to Ireland: Freight Routes, Brexit & Customs (2026)',
-    metaTitle: 'Shipping from China to Ireland 2026 | Freight & Customs Guide',
+    metaTitle: 'Shipping China to Ireland: Freight & Customs 2026 | Ériu',
     metaDescription: 'The complete guide to shipping goods from China to Ireland in 2026, post-Brexit logistics, sea vs air freight, HS codes, and clearing Dublin Port customs.',
     h1: 'Shipping from China to Ireland: Freight forwarders, Brexit, and customs clearance (2026)',
     eyebrow: 'Logistics',
@@ -1867,152 +1872,159 @@ export const blogPosts = [
 
   {
     slug: 'ireland-april-2026-back-garden-home-rules-explained',
-    title: "Ireland's April 2026 Back-Garden Home Rules, Explained",
-    metaTitle: "Ireland's April 2026 Back-Garden Home Rules Explained | Ériu",
-    metaDescription: "What changed when Ireland's draft Exempted Development Regulations reached Cabinet on 21 April 2026, the 45 m² auxiliary dwelling and the Rent-a-Room yield.",
-    h1: "Ireland's April 2026 Back-Garden Home Rules, Explained",
+    title: "Ireland's Back-Garden Home Exemption (Class 3A), Explained",
+    metaTitle: 'Class 3A Back-Garden Exemption Ireland, Explained | Ériu',
+    metaDescription: "Class 3A has been law since 27 July 2026. Every condition for a 32–45 m² garden home without planning permission, the 14-day notice, and what changed from the draft.",
+    h1: "Ireland's back-garden home exemption (Class 3A), explained",
     eyebrow: 'Regulations Explained',
     category: 'modular-homes',
     primaryKeyword: 'exempted development regulations 2026',
-    secondaryKeywords: ['auxiliary habitable dwelling Ireland', 'exempted development regulations 2026', 'modular home back garden Ireland', 'Rent-a-Room back garden', 'planning permission back garden home Ireland'],
+    secondaryKeywords: ['Class 3A exemption Ireland', 'S.I. 340 of 2026', 'auxiliary dwelling Ireland', 'garden home no planning permission Ireland', '45m2 exemption Ireland', 'planning permission back garden home Ireland'],
     intent: 'informational',
-    targetReader: 'Irish homeowners researching the April 2026 Exempted Development Regulations and their implications for building a modular home or granny flat in their back garden',
-    estimatedWordCount: 2200,
+    targetReader: 'Irish homeowners checking what the Exempted Development Regulations 2026 actually say now they are law, and whether a garden home or granny flat qualifies under Class 3A',
+    estimatedWordCount: 2100,
     publishDate: '2026-05-14',
+    dateModified: '2026-09-23',
     draft: false,
-    body: `<p>On 21 April 2026, Ministers Browne and Cummins brought a draft of new Exempted Development Regulations to Cabinet. The announcement landed in every Irish property conversation that week, and not without reason. Four overlapping planning exemptions, arriving simultaneously, represent the most significant change to Irish residential planning in a generation.</p>
+    body: `<p class="article-summary"><strong>The short answer:</strong> since 27 July 2026, Irish homeowners can build a detached home of 32 to 45 m² in the rear garden of the house they live in without a planning application. This is Class 3A of S.I. No. 340 of 2026. You must notify your council at least 14 days before work starts, stay within the height limits, keep the unit tied to the main house (no separate sale, no short-term letting) and finish by 31 December 2030. Building regulations still apply in full, and rent from the unit should be treated as taxable.</p>
 
-<p>This guide explains what actually changed, what it means for your back garden, and, critically, what planning exemption does and does not cover.</p>
+<p>When this article first ran in May, the rules were a draft that Ministers Browne and Cummins had brought to Cabinet on 21 April 2026. The regulations were signed on 16 July 2026 and came into operation on 27 July. Some of the detail changed along the way, and one widely repeated assumption about tax, which this article also made, turned out to be wrong. This is the updated version.</p>
 
-<h2>What the April 2026 regulations actually say</h2>
+<h2>What is the Class 3A exemption?</h2>
 
-<p>The draft regulations create four new exemptions from planning permission. They are separate measures, but they stack, a homeowner can potentially avail of all four on the same property.</p>
+<p>Class 3A is a new class of exempted development in the Planning and Development (Exempted Development (Act of 2000)) (No. 3) Regulations 2026, S.I. No. 340 of 2026. It covers a permanent, detached, self-contained home in the rear garden of an existing house. Government material calls it an auxiliary dwelling. Estate agents call it a garden home, and most families call it a granny flat. In law it is one thing: a Class 3A detached auxiliary dwelling.</p>
 
-<p><strong>1. The auxiliary habitable dwelling (32–45 m²)</strong>, a detached self-contained home in your back garden, exempt from planning permission provided it:</p>
+<p>The same regulations made three other changes worth knowing:</p>
+
 <ul>
-  <li>Is between 32 and 45 square metres in footprint</li>
-  <li>Is located in the back garden of a principal private residence</li>
-  <li>Is connected to the services (water, sewerage, electricity) of the principal house</li>
-  <li>Meets all conditions set out in the regulations, including set-back distances and height restrictions</li>
+  <li><strong>Class 1A, subdivision.</strong> One extra self-contained unit of at least 32 m² can be created inside the existing house, subject to the same notification rule.</li>
+  <li><strong>Garden structures up to 30 m².</strong> The exemption for sheds, garden offices, gyms and studios rises from 25 m² to 30 m². These are non-habitable structures, not homes.</li>
+  <li><strong>Rear extensions up to 45 m².</strong> The single-storey rear extension limit rises from 40 m² to 45 m², counting previous extensions.</li>
 </ul>
 
-<p><strong>2. Sub-division of the principal house</strong>, one additional self-contained unit of minimum 32 m² can be created within the existing footprint of the house without planning permission. This targets houses large enough to accommodate a separate dwelling inside the existing walls.</p>
+<h2>What conditions does a Class 3A garden home have to meet?</h2>
 
-<p><strong>3. Garden structures</strong>, the exemption limit for outbuildings, sheds, offices and garden rooms is raised from 25 m² to 30 m². This covers non-habitable structures, no kitchen or bathroom as a primary dwelling.</p>
+<p>Every condition must be met. Miss one and the project needs a planning application. In plain English, the conditions that matter most are:</p>
 
-<p><strong>4. Principal house extension</strong>, the rear extension exemption is raised from 40 m² to 45 m², meaning a larger single-storey rear extension can proceed without planning permission.</p>
+<ul>
+  <li><strong>Size:</strong> between 32 m² and 45 m² of floor area.</li>
+  <li><strong>Location:</strong> detached, and in the rear garden of the principal house.</li>
+  <li><strong>Your home:</strong> the principal house must be the owner's sole or main residence when work begins. A landlord cannot add a Class 3A unit behind a rented-out house.</li>
+  <li><strong>Services:</strong> water, electricity and drainage are linked to those of the principal house.</li>
+  <li><strong>Height:</strong> no more than 4 metres with a pitched tiled or slated roof, or 3 metres for any other roof.</li>
+  <li><strong>Garden space:</strong> the unit counts together with existing garden structures, and a minimum area of private garden must remain.</li>
+  <li><strong>Notice:</strong> the planning authority must be told at least 14 days before development starts. Most councils now publish a Class 3A notification form.</li>
+  <li><strong>Occupancy:</strong> the unit may only be occupied with the main house. It cannot be sold or subdivided separately, and it cannot be used for short-term letting.</li>
+  <li><strong>Time limit:</strong> works must be started and finished by 31 December 2030, when the exemption currently expires.</li>
+</ul>
 
-<p>It is the first exemption, the auxiliary habitable dwelling, that is driving the modular home conversation. A 32–45 m² detached unit in your back garden, no planning application, no An Bord Pleanála queue, no neighbour objection period.</p>
-
-<h2>The financial case: why this matters right now</h2>
-
-<p>The return potential is what drove the coverage. As <a href="https://www.irishtimes.com/business/2026/05/19/how-much-can-i-earn-tax-free-from-a-home-in-my-garden/" target="_blank" rel="noopener noreferrer">Keith Lowe of DNG put it in <em>The Irish Times</em></a>, "this is the kind of return that drives mass adoption." The mechanism is simple: because Rent-a-Room income is exempt from income tax, USC and PRSI, up to €14,000 a year received tax-free goes a long way against the cost of a back-garden unit. The actual yield, though, depends entirely on your all-in installed cost, so treat any single headline percentage with caution and run the numbers against a real quote for your own site.</p>
-
-<p>The Rent-a-Room scheme allows homeowners to earn up to €14,000 per year in rental income from a tenant sharing their home, free of income tax, USC and PRSI. The draft April 2026 regulations propose that an auxiliary habitable dwelling, because it is linked to the principal house's services, would qualify as part of that principal residence for Rent-a-Room purposes. They are also drafted to carve the auxiliary dwelling out of the Residential Tenancies Acts, so RTB rules, notice periods and rent-increase restrictions would not apply when the dwelling is occupied under the Rent-a-Room scheme, if the regulations are enacted as drafted.</p>
-
-<p>This combination, planning-exempt construction, tax-free rental income, and no RTB obligations, is the specific set of conditions that has not previously coexisted in Irish property law.</p>
+<p>This is a summary, not the statutory text. Protected Structures, some designated areas and other site factors can take a project outside the exemption, so check the regulations or ask your local authority before you commit.</p>
 
 <figure class="article-figure">
-  <img src="/images/modular-homes-hero-back-garden-ireland.webp" alt="Modern steel-frame modular home in an Irish back garden, the April 2026 exempted development regulations have opened this market" loading="lazy" width="1280" height="720">
-  <figcaption>A 32–45 m² auxiliary habitable dwelling in the back garden of a principal house, exempt from planning under the April 2026 draft regulations</figcaption>
+  <img src="/images/modular-homes-hero-back-garden-ireland.webp" alt="Modern modular home in an Irish back garden, the type of 32–45 m² detached garden home covered by the Class 3A exemption" loading="lazy" width="1280" height="720">
+  <figcaption>A 32–45 m² detached garden home can now be built without a planning application, provided every Class 3A condition is met</figcaption>
 </figure>
 
-<h2>What planning exemption does not mean</h2>
+<h2>What changed between the April draft and the final rules?</h2>
 
-<p>This is the point where the market commentary has been least precise, and where buyers risk making an expensive mistake.</p>
-
-<p><strong>Exempt from planning does not mean exempt from building regulations.</strong> These are two completely separate legal frameworks. The Exempted Development Regulations address the planning system, specifically, whether you need to apply for planning permission. The Irish Building Regulations 1997–2021 are a different body of law entirely, and they apply to every structure intended for human habitation regardless of planning status.</p>
-
-<p>What this means in practice:</p>
+<p>Three things are clearer now than they were in April:</p>
 
 <ul>
-  <li><strong>You still need a Commencement Notice</strong>, submitted to your local authority through the Building Control Management System (BCMS) at least 14 days before works begin. This is a legal requirement and failure to submit is an offence.</li>
-  <li><strong>The unit must comply with TGD Parts A to M</strong>, the Technical Guidance Documents covering structure, fire, moisture, materials, sound, ventilation, hygiene, drainage, heat, stairs, energy and access.</li>
-  <li><strong>A BER certificate is required</strong>, TGD Part L requires new dwellings to meet near-zero energy building (NZEB) performance, in practice an A2 rating. A BER assessment by an SEAI-registered assessor must be completed before the unit can be lawfully occupied.</li>
-  <li><strong>A Certificate of Compliance is required on completion</strong>, from the assigned certifier confirming the works were carried out in accordance with the Building Regulations.</li>
+  <li><strong>It is law.</strong> The exemption no longer depends on environmental assessment or final wording. It has applied since 27 July 2026.</li>
+  <li><strong>There is a notification step.</strong> The 14-day notice to the planning authority is mandatory. Skip it and the exemption does not apply.</li>
+  <li><strong>The occupancy rules are tight.</strong> No separate sale, no subdivision, no short-term letting, and the main house must be your home when work begins.</li>
 </ul>
 
-<p>Some online sellers of modular units, particularly those operating without Irish regulatory expertise, describe their product as "no planning required" in a way that implies it is ready to install with no further process. It is not. A factory-built unit that has not been CE-marked, specified to Irish Building Regulations, and supplied with the correct compliance documentation creates significant legal and insurance exposure for the owner.</p>
+<p>One thing turned out differently from the early coverage: tax. More on that below.</p>
 
-<h2>The conditions that make a site eligible</h2>
+<h2>Does exempt from planning mean exempt from building regulations?</h2>
 
-<p>The April 2026 regulations set specific conditions that must be met for a back-garden auxiliary habitable dwelling to qualify for the planning exemption. While the final regulations were not fully gazetted as of the time of writing, the draft conditions include:</p>
+<p>No, and this is still where buyers are most likely to make an expensive mistake. Planning and building control are two separate legal systems. Class 3A removes the need for a planning application. It does nothing to the Building Regulations, which apply to every new home regardless of planning status. As The Irish Times put it in August, no planning permission is required, but construction regulations still apply.</p>
+
+<p>For a Class 3A garden home that means:</p>
 
 <ul>
-  <li>The principal house must be in residential use and the homeowner's principal private residence</li>
-  <li>The auxiliary dwelling must be detached, not attached to the principal house or converted from an existing structure</li>
-  <li>The unit must be between 32 m² and 45 m² in gross floor area</li>
-  <li>Minimum set-back from the rear boundary (specific distances to be confirmed in the gazette)</li>
-  <li>Height restrictions apply, typically equivalent to single-storey residential scale</li>
-  <li>The unit must be connected to the principal house's water and sewerage services (not a separate connection to the main)</li>
-  <li>The exemption does not apply in areas with specific planning restrictions (special amenity areas, conservation areas, etc., check with your local authority)</li>
+  <li><strong>A Commencement Notice</strong> lodged through the Building Control Management System before work starts.</li>
+  <li><strong>Compliance with TGD Parts A to M</strong>, covering structure, fire, moisture, materials, sound, ventilation, hygiene, drainage, heat, stairs, energy and access.</li>
+  <li><strong>A BER at NZEB standard</strong>, in practice an A-rated home, assessed by an SEAI-registered assessor.</li>
+  <li><strong>A Certificate of Compliance on Completion</strong> from the assigned certifier.</li>
 </ul>
 
-<p>If a site does not meet the exemption conditions, full planning permission is required. A planning application is still possible and in many cases straightforward for a well-designed auxiliary dwelling, the exemption is a shortcut, not the only route.</p>
+<p>So there are two separate notices: the 14-day Class 3A notification to the planning authority, and the Commencement Notice to building control. You need both.</p>
 
-<h2>The insurance, LPT and mortgage angles</h2>
+<h2>Can you rent it out, and is the rent tax-free?</h2>
 
-<p>Three financial and legal considerations that are consistently underweighted in the public discussion of back-garden homes:</p>
+<p>You can rent it out long-term. Short-term letting is prohibited, so holiday-let platforms are out. For long-term lets, the RTB has stated that renting a qualifying Class 3A unit does not come under its remit and does not need to be registered with the RTB. That makes a garden home simpler to let than a conventional tenancy.</p>
 
-<p><strong>Local Property Tax.</strong> The draft regulations indicate that an auxiliary habitable dwelling would receive its own property ID and its own LPT valuation band, separate from the principal house. The LPT liability would depend on the valuation of the unit, set on the same basis as any other residential property. The final treatment follows the enacted regulations.</p>
+<p>The tax is where the early coverage went wrong. In April, much of the commentary, this article included, assumed rent from a garden home linked to the main house's services would be tax-free under the Rent-a-Room scheme. Revenue's published Rent-a-Room guidance says that a self-contained unit which is not attached to the property cannot qualify for the relief. Unless Revenue changes that position, plan on the rent being taxed as ordinary rental income, with allowable expenses deducted. We cover the numbers in detail in <a href="/blog/rent-a-room-garden-home-tax-free-income-ireland/">is rent from a garden home tax-free?</a></p>
 
-<p><strong>Home insurance.</strong> The principal house home insurance policy must be updated to declare the new structure. Failure to notify your insurer can invalidate cover on the principal house. Most insurers will quote an uplift to the existing policy rather than requiring a separate policy for the auxiliary dwelling, but the declaration must be made before the unit is installed.</p>
+<h2>What about Local Property Tax, insurance and mortgages?</h2>
 
-<p><strong>Mortgages and resale.</strong> Most Irish mortgage lenders will not currently mortgage a property with a second self-contained dwelling on the same title. This affects both the original owner's ability to remortgage and any future buyer's ability to get a mortgage on the property. It is an important consideration for anyone who may need to remortgage or intends to sell within the medium term. The market position of lenders may change as the scale of auxiliary dwelling construction grows, but it has not changed yet.</p>
+<p><strong>Local Property Tax.</strong> Revenue has confirmed that a permanent garden home suitable for use as a separate dwelling attracts its own LPT charge. It is valued in its own right, gets its own property ID, and LPT is payable even when it is empty.</p>
 
-<h2>Who is the right buyer for this right now?</h2>
+<p><strong>Home insurance.</strong> Declare the new structure to your insurer before it is installed. An undeclared dwelling can invalidate cover on the main house. Most insurers quote an uplift rather than a separate policy.</p>
 
-<p>The April 2026 regulations create an opportunity that is most compelling for a specific profile of homeowner:</p>
+<p><strong>Mortgages and resale.</strong> Many Irish lenders remain cautious about a property with a second self-contained home on the same title. That can affect remortgaging and a future buyer's mortgage. Because a Class 3A unit cannot be sold separately, it adds value only as part of the whole property. Talk to your lender first if you expect to remortgage or sell in the medium term.</p>
+
+<h2>Which modular home sizes fit Class 3A?</h2>
+
+<p>Floor area decides it. Of the four expandable models Ériu supplies:</p>
 
 <ul>
-  <li><strong>Homeowners with a large back garden in a suburban location</strong> where the exemption conditions are straightforwardly met and rental demand is strong</li>
-  <li><strong>Parents of adult children</strong> who want affordable housing on the same site, the granny flat use case, extended to the next generation</li>
-  <li><strong>Homeowners approaching retirement</strong> who want to generate tax-free income from an asset they already own (the land) without selling the property</li>
-  <li><strong>Property investors who own their own home</strong> and want a tax-efficient yield vehicle that does not require purchasing a second property</li>
+  <li><strong>20ft Expandable:</strong> about 34 m² internal, 2.48 m high. Inside the 32–45 m² band and well under the 3 m flat-roof limit. This is the Class 3A unit.</li>
+  <li><strong>30ft Expandable:</strong> about 52 m². Over the 45 m² cap, so it needs a planning application.</li>
+  <li><strong>40ft Expandable:</strong> about 70 m². Needs a planning application.</li>
+  <li><strong>20FT700 Foldable:</strong> about 25 m². Below the 32 m² minimum for a Class 3A home, though it can work as a garden structure or on a site with permission.</li>
 </ul>
 
-<p>The opportunity is less compelling for homeowners in conservation areas or with planning restrictions, those with small or overlooked gardens where the exemption conditions cannot be met, or those who need to remortgage and have a lender that will not accept a second dwelling on title.</p>
+<p>Existing sheds and garden rooms count toward the limits, so a large shed can squeeze what's left. We check this against your site plan before quoting. <a href="/modular-homes/models/20ft-expandable/">See the 20ft Expandable specification</a>.</p>
 
-<h2>Why factory-direct from China makes the numbers work</h2>
+<h2>Who is Class 3A right for?</h2>
 
-<p>The financial case for a back-garden auxiliary dwelling turns entirely on the total project cost versus the rental yield. At €110,000 to €180,000 for an Irish-built finished unit, the payback period extends to seven to thirteen years of tax-free Rent-a-Room income. At €60,000 to €90,000 for a comparably specified factory-direct unit, CE-marked, Building-Regulations-compliant, craned into your garden in 14–18 weeks, the payback period is roughly four to six years. That assumes the unit qualifies for the full €14,000 Rent-a-Room exemption each year and the draft regulations are enacted as proposed, both of which you should confirm with your accountant and solicitor before relying on the figures.</p>
+<ul>
+  <li><strong>Families housing an adult child or an older parent</strong> on the same site. This is the use with the fewest complications: no tenant, no rental tax question.</li>
+  <li><strong>Homeowners with a good-sized rear garden</strong> in areas with strong long-term rental demand.</li>
+  <li><strong>People planning to rightsize</strong> without leaving the family home or the area.</li>
+</ul>
 
-<p>The saving is not on compliance, every Ériu Modular Homes unit ships CE-marked and Building-Regulations-specified. The saving is on the structural unit itself, sourced direct from the Henan Province factories that supply the same product to German, Dutch and French buyers at factory-gate prices, without a European intermediary margin.</p>
+<p>It is a harder fit for small or tightly overlooked gardens, Protected Structures, houses that are not the owner's main home, and anyone who needs to remortgage soon with a lender that won't accept a second dwelling on title.</p>
 
-<p>The April 2026 regulations created the market. Factory-direct sourcing makes the economics work at a scale that is genuinely accessible to the typical Irish homeowner, not just property developers.</p>`,
-    excerpt: 'What actually changed on 21 April 2026, what the 45 m² auxiliary habitable dwelling exemption means in practice, why planning-exempt is not the same as building-regulations-exempt, and how to make the financial case work.',
+<p>If you want to know whether your garden qualifies, <a href="/contact/?interest=modular-quote">send us your site details</a>. We check the unit against the Class 3A conditions, including height and garden space, and come back with a factory-direct quote and a compliance pack.</p>`,
+    excerpt: "Class 3A has been law since 27 July 2026. Every condition for building a 32–45 m² garden home without planning permission, the 14-day notice, what changed from the April draft, and why building regulations still apply in full.",
     image: '/images/modular-homes-hero-back-garden-ireland.webp',
-    imageAlt: 'Modern modular back-garden home in Ireland, April 2026 exempted development regulations explained',
+    imageAlt: 'Modern modular back-garden home in Ireland, the Class 3A planning exemption explained',
     sections: [
-      'What the April 2026 regulations actually say',
-      'The financial case: the Rent-a-Room yield',
-      'What planning exemption does not mean, building regulations still apply',
-      'The conditions that make a site eligible',
-      'Insurance, LPT and mortgage angles',
-      'Who is the right buyer for this right now?',
-      'Why factory-direct from China makes the numbers work',
+      'What is the Class 3A exemption?',
+      'What conditions does a Class 3A garden home have to meet?',
+      'What changed between the April draft and the final rules?',
+      'Does exempt from planning mean exempt from building regulations?',
+      'Can you rent it out, and is the rent tax-free?',
+      'What about Local Property Tax, insurance and mortgages?',
+      'Which modular home sizes fit Class 3A?',
+      'Who is Class 3A right for?',
     ],
     faq: [
-      { q: 'Do I need planning permission for a modular home in my back garden under the April 2026 regulations?', a: 'Not under the draft regulations, if the unit is between 32 and 45 m², detached, in the back garden of your principal private residence, and connected to the principal house services, the draft April 2026 Exempted Development Regulations would exempt it from planning permission. The regulations remain in draft and are not yet enacted, so confirm the current position before you start. Either way you still need a Commencement Notice, Building Regulations compliance, and a BER certificate before occupation.' },
-      { q: 'Can I rent out a back-garden modular home tax-free?', a: 'If the auxiliary dwelling is linked to the principal house services and occupied under the Rent-a-Room scheme, rental income up to €14,000 per year is exempt from income tax, USC and PRSI. The draft regulations are also proposed to carve the auxiliary dwelling out of the Residential Tenancies Acts when occupied under Rent-a-Room, though this depends on the final enacted wording. Confirm both the planning position and the tax treatment with your solicitor and accountant.' },
-      { q: "Does planning exemption mean I don't need building regulations?", a: 'No. Planning exemption and building regulations exemption are separate legal frameworks. Every back-garden auxiliary habitable dwelling must meet the Irish Building Regulations (TGD Parts A–M), require a Commencement Notice, meet near-zero energy building (NZEB) performance for its BER, and have a Certificate of Compliance issued on completion. There is no exemption from building regulations for a residential structure.' },
-      { q: 'How much does a back-garden modular home cost in Ireland?', a: 'Irish-built units typically range from €110,000–€180,000 for a finished 2-bed 32–45 m² unit. Factory-direct units from Ériu Modular Homes, sourced from Henan Province and CE-compliant, typically land 25–45% below that figure. Site costs, foundation, crane, services connection, BER, are additional and broadly the same regardless of supplier.' },
+      { q: 'Do I need planning permission for a garden home in Ireland?', a: 'Not if it qualifies under Class 3A of S.I. No. 340 of 2026, in force since 27 July 2026. A detached home of 32 to 45 m² in the rear garden of the house you live in can be built without a planning application, provided it is linked to the main house services, stays within the height limits (4 m for a pitched tiled or slated roof, 3 m otherwise), you notify the council at least 14 days before work starts, and the works are finished by 31 December 2030.' },
+      { q: 'Do I need to notify the council before building a Class 3A garden home?', a: 'Yes. You must notify the planning authority at least 14 days before development starts. This is separate from the Commencement Notice required under the Building Control Regulations, which you also need.' },
+      { q: 'Is rent from a Class 3A garden home tax-free?', a: 'Plan on it being taxable. Revenue guidance states that a self-contained unit not attached to the property cannot qualify for Rent-a-Room relief. The RTB has stated that renting a qualifying Class 3A unit is outside its remit and needs no RTB registration. Short-term letting is not permitted.' },
+      { q: "Does planning exemption mean I don't need building regulations?", a: 'No. Every Class 3A garden home must meet the Irish Building Regulations (TGD Parts A to M), needs a Commencement Notice, must reach an NZEB-standard BER, and needs a Certificate of Compliance on Completion.' },
+      { q: 'Can I sell a Class 3A garden home separately from my house?', a: 'No. A Class 3A unit must be occupied with the main house and cannot be sold or subdivided separately from it.' },
     ],
-    relatedSlugs: [],
+    relatedSlugs: ['rent-a-room-garden-home-tax-free-income-ireland', 'adult-children-living-at-home-ireland-garden-home', 'downsizing-stay-on-family-land-ireland'],
     internalLinks: [
-      { text: 'Modular home models and specifications', href: '/modular-homes/models/' },
-      { text: 'Back-garden homes, the planning exemption in detail', href: '/modular-homes/back-garden-homes-ireland/' },
+      { text: 'Back-garden homes, the full buyer\'s guide', href: '/modular-homes/back-garden-homes-ireland/' },
+      { text: 'Auxiliary dwelling, the legal definition', href: '/modular-homes/auxiliary-dwelling-ireland/' },
       { text: 'Irish Building Regulations and modular homes', href: '/modular-homes/building-regulations-ireland/' },
-      { text: 'What a modular home costs in Ireland 2026', href: '/modular-homes/cost/' },
-      { text: 'Request a quote for your back-garden home', href: '/contact/' },
+      { text: 'Modular home models and specifications', href: '/modular-homes/models/' },
+      { text: 'What a modular home costs in Ireland', href: '/modular-homes/cost/' },
     ],
   },
 
   {
     slug: 'adult-children-living-at-home-ireland-garden-home',
     title: "Your Adult Child Can't Move Out. Your Back Garden Might Be the Answer.",
-    metaTitle: "Adult Children Living at Home in Ireland: The Garden Option | Ériu",
-    metaDescription: "41% of Irish 18–34s still live with parents. A self-contained back-garden home, from €25,000, under the draft 2026 rules, is becoming the third option.",
+    metaTitle: 'Adult Children Living at Home? The Garden Option | Ériu',
+    metaDescription: "41% of Irish 18–34s still live with parents. A self-contained back-garden home, from €25,000, under the Class 3A exemption now in force, is becoming the third option.",
     h1: "Your adult child can't move out. Your back garden might be the answer.",
     eyebrow: 'The Housing Squeeze',
     category: 'modular-homes',
@@ -2022,6 +2034,7 @@ export const blogPosts = [
     targetReader: 'Parents of working adult children who still live at home because they cannot afford to rent or buy',
     estimatedWordCount: 1250,
     publishDate: '2026-06-08',
+    dateModified: '2026-09-23',
     draft: false,
     body: `<p>They're in their late twenties or early thirties. They're working, maybe doing well. And they're still in the box room they grew up in, because the maths of moving out simply won't close. The rent eats the deposit; the deposit never grows; another year goes by.</p>
 
@@ -2035,11 +2048,11 @@ export const blogPosts = [
 
 <h2>The third option: a home of their own, twenty steps away</h2>
 
-<p>On 21 April 2026 the Government brought draft Exempted Development Regulations to Cabinet. If enacted as drafted, they create a new category of home, a detached, self-contained dwelling of 32 to 45 m² in the rear garden of a principal house, that would need no full planning permission where the conditions are met, including linking its services to the main house.</p>
+<p>Since 27 July 2026, Irish planning law has a new category of home: a detached, self-contained dwelling of 32 to 45 m² in the rear garden of the house you live in, which needs no planning application where the Class 3A conditions are met, including linking its services to the main house and giving your council 14 days' notice before work starts.</p>
 
 <p>That is not a glorified shed. It's a real one-bedroom home: their own front door, their own kitchen, their own bathroom, their own life, close enough that family stays family, independent enough that they're finally living rather than waiting.</p>
 
-<p>It is important to be straight about the status: these regulations are <strong>still in draft and not yet enacted</strong>, and they remain subject to environmental assessment. The sensible first step is always a site review against the current draft conditions, <a href="/modular-homes/auxiliary-dwelling-ireland/">we set out exactly what the rules say here</a>.</p>
+<p>It is important to be straight about the conditions: the exemption is <strong>law since 27 July 2026</strong> (S.I. No. 340 of 2026), but it only applies where every condition is met, and the home must stay with the main house rather than be sold separately. The sensible first step is always a site review against the Class 3A conditions, <a href="/modular-homes/auxiliary-dwelling-ireland/">we set out exactly what the rules say here</a>.</p>
 
 <h2>For the price of a small car, not a deposit you'll never see again</h2>
 
@@ -2054,14 +2067,14 @@ export const blogPosts = [
 <p>We would rather you knew this now than after you'd signed. Two things matter most:</p>
 
 <ul>
-  <li><strong>Planning-exempt is not building-regulations-exempt.</strong> Even under the draft rules, a back-garden home still needs a Commencement Notice, services connected from your house, a foundation, and a BER on completion. Every Ériu unit is specified to the Irish Building Regulations (TGD Parts A–M) and ships with a full compliance pack; our vetted Irish installer network handles the site phase. <a href="/modular-homes/building-regulations-ireland/">Here's exactly what that involves.</a></li>
+  <li><strong>Planning-exempt is not building-regulations-exempt.</strong> Even under Class 3A, a back-garden home still needs a Commencement Notice, services connected from your house, a foundation, and a BER on completion. Every Ériu unit is specified to the Irish Building Regulations (TGD Parts A–M) and ships with a full compliance pack; our vetted Irish installer network handles the site phase. <a href="/modular-homes/building-regulations-ireland/">Here's exactly what that involves.</a></li>
   <li><strong>The mortgage point.</strong> Most Irish lenders will not currently mortgage a property that has a second self-contained dwelling on the same title, which can affect remortgaging and resale. Many families therefore fund the unit from savings, a credit union loan or a personal loan rather than the house mortgage. We provide a written briefing on this with every quote, and you should confirm the position with your solicitor.</li>
 </ul>
 
 <p>None of that is a reason not to do it. It's the difference between a complete, lawful, occupiable home and a box with a problem attached, which is the whole reason to buy from an Irish-owned company that inspects every unit in person and answers the phone here.</p>
 
 <p>If your back garden is big enough, the box room might not have to be forever.</p>`,
-    excerpt: 'With 41% of Irish 18–34s still living at home, a self-contained back-garden home, built under the draft 2026 rules, has become a realistic third option for parents. What it is, what it costs, and what it takes.',
+    excerpt: 'With 41% of Irish 18–34s still living at home, a self-contained back-garden home, built under the Class 3A exemption now in force, has become a realistic third option for parents. What it is, what it costs, and what it takes.',
     image: '/images/modular-homes-interior.webp',
     imageAlt: 'A clean, fully-fitted modular kitchen, a self-contained back-garden home for an adult child in Ireland',
     sections: [
@@ -2071,7 +2084,7 @@ export const blogPosts = [
       'What it takes: building regs, services and the mortgage point',
     ],
     faq: [
-      { q: 'Can I legally build a home for my adult child in my back garden?', a: 'Under the draft April 2026 Exempted Development Regulations, which are subject to environmental assessment and not yet enacted, a detached self-contained dwelling of 32 to 45 m² in the rear garden of a principal house could be built without full planning permission where the conditions are met, including linking services to the main house. It must still meet the Irish Building Regulations and carry a BER. Start with a site review against the current draft conditions, and confirm the position with your local authority and solicitor.' },
+      { q: 'Can I legally build a home for my adult child in my back garden?', a: 'Yes, under Class 3A of S.I. No. 340 of 2026, in force since 27 July 2026. A detached self-contained home of 32 to 45 m² in the rear garden of the house you live in can be built without a planning application where every condition is met, including linking services to the main house and notifying your council at least 14 days before work starts. It must still meet the Irish Building Regulations and carry a BER. Start with a site review against the Class 3A conditions, and confirm the position with your local authority and solicitor.' },
       { q: 'How much would a back-garden home for my son or daughter cost?', a: 'A unit like the Ériu 20ft Expandable starts from €25,000 delivered for a basic livable specification and finishes up to a fully-fitted, compliant A2 home for a fraction of the €110,000–€180,000 an Irish-built equivalent costs. Site works, foundation, crane, services, BER, vary per garden, so the all-in installed figure is project-specific and itemised in your quote.' },
       { q: 'Will building a second home in the garden affect my mortgage?', a: 'Most Irish lenders will not currently mortgage a property that contains a second self-contained dwelling on the same title, which can affect remortgaging and resale. Many families fund the unit from savings or other finance rather than the house mortgage. We provide a written briefing on this with every quote and recommend you confirm the position with your solicitor.' },
     ],
@@ -2087,70 +2100,90 @@ export const blogPosts = [
 
   {
     slug: 'rent-a-room-garden-home-tax-free-income-ireland',
-    title: "The Quiet Way Irish Homeowners Are Turning a Back Garden Into €14,000 a Year",
-    metaTitle: "Rent-a-Room Garden Home: Tax-Free Income in Ireland | Ériu",
-    metaDescription: "Up to €14,000 a year tax-free under the Rent-a-Room scheme, from a self-contained home on ground you already own. The honest yield maths and the caveats.",
-    h1: "The quiet way Irish homeowners are turning a back garden into €14,000 a year",
+    title: 'Is Rent from a Garden Home Tax-Free in Ireland? What Revenue Actually Says',
+    metaTitle: 'Garden Home Rent & Rent-a-Room: What Revenue Says | Ériu',
+    metaDescription: 'Is rent from a back-garden home tax-free under Rent-a-Room? Revenue says a unit not attached to the house cannot qualify. The real after-tax numbers, and the RTB position.',
+    h1: 'Is rent from a garden home tax-free in Ireland? What Revenue actually says',
     eyebrow: 'The Income Angle',
     category: 'modular-homes',
     primaryKeyword: 'rent a room scheme garden home',
-    secondaryKeywords: ['tax free rental income Ireland', 'garden home rental yield Ireland', 'Rent-a-Room auxiliary dwelling', 'back garden investment Ireland'],
-    intent: 'commercial',
-    targetReader: 'Homeowners with a usable garden and some capital looking for a tax-efficient income from an asset they already own',
-    estimatedWordCount: 1200,
+    secondaryKeywords: ['is rent from a garden home tax free Ireland', 'Rent-a-Room detached unit', 'garden home rental yield Ireland', 'Class 3A rental RTB', 'back garden investment Ireland'],
+    intent: 'informational',
+    targetReader: 'Homeowners weighing up a back-garden home as a rental who need a straight answer on Rent-a-Room relief, the RTB and the after-tax return',
+    estimatedWordCount: 1300,
     publishDate: '2026-06-08',
+    dateModified: '2026-09-23',
     draft: false,
-    body: `<p>There's a shift in Irish property that most people haven't run the numbers on yet. It isn't a new tax break or a clever fund. It's the patch of grass between your kitchen window and the back fence.</p>
+    body: `<p class="article-summary"><strong>The short answer:</strong> probably not. Revenue's Rent-a-Room guidance states that a self-contained unit which is not attached to the property cannot qualify for the relief. A detached back-garden home built under the Class 3A exemption is, by definition, not attached. So plan on the rent being taxed as ordinary rental income. The good news: the RTB has stated that renting a qualifying Class 3A unit is outside its remit, with no RTB registration, and the numbers can still work well.</p>
 
-<h2>Two rules that have never lined up before</h2>
+<p>When this article first ran in June, it said the opposite. Like much of the coverage at the time, including The Irish Times, we expected rent from a garden home linked to the main house's services to fall within Rent-a-Room relief, up to €14,000 a year free of income tax, USC and PRSI. Revenue's published guidance does not support that, so we have rewritten this piece. If you read the earlier version, this is the one to rely on.</p>
 
-<p>Draft planning regulations brought to Cabinet in April 2026 would, if enacted as drafted, let you place a self-contained 32–45 m² home in your rear garden with no full planning permission where the conditions are met. Separately, the long-standing Rent-a-Room scheme lets a homeowner earn up to €14,000 a year from a tenant, exempt from income tax, USC and PRSI.</p>
+<h2>What does Revenue say about Rent-a-Room and detached units?</h2>
 
-<p>Put a self-contained garden home together with the Rent-a-Room scheme and, for the first time, those two things line up. For a homeowner with a usable garden and some capital, that's not a renovation project. It's an income stream parked on ground you already own.</p>
+<p>Rent-a-Room relief lets you earn up to €14,000 a year tax-free from renting a room or rooms in your sole or main residence. Revenue's guidance on what type of residence qualifies says the rented space can be a self-contained unit within the house, such as a basement flat or a converted garage. It then adds that if the unit is not attached to the property, it cannot qualify.</p>
 
-<p>One honesty note up front, because it matters: these regulations are <strong>still in draft and not yet enacted</strong>, and Rent-a-Room treatment depends on the dwelling being linked to your principal house's services and on your own circumstances. Confirm the tax position with a qualified accountant and the planning position with your solicitor before you rely on any projected return.</p>
+<p>A Class 3A home is a detached dwelling in the rear garden. However closely its services are linked to the main house, it is not attached. On Revenue's current guidance, the relief does not apply.</p>
 
-<h2>The honest version of the maths</h2>
+<p>Two caveats. Revenue could update its guidance for Class 3A homes, and your accountant may know of circumstances that change the picture for you. But no one should buy a garden home on the assumption that the rent will be tax-free.</p>
 
-<p>Let a fully-fitted unit to a single tenant or a couple at, say, €1,150 a month, and that's <strong>€13,800 a year</strong>, just under the €14,000 ceiling. If that income qualifies under the scheme, the saving versus taxed rental income, for a higher-rate taxpayer, is in the order of €5,500 income tax, €1,100 USC and €550 PRSI.</p>
+<h2>What does the RTB say?</h2>
 
-<p>What we will not do is print a single headline "yield %". Here's why that would be dishonest: your yield is simply €13,800 divided by your all-in installed cost, and that cost depends on your foundation, crane, services run and BER, all of which vary from one garden to the next. The only honest figure is the one run against a real quote for your site, so <a href="/modular-homes/rental-income-garden-home-ireland/">we model your exact yield and payback for you</a>, with every cost line shown.</p>
+<p>This is the part that did go the way the early coverage expected. The RTB has stated that where a garden home added from 27 July 2026 qualifies under the Class 3A exemption, renting it out does not come under the RTB's remit and does not need to be registered with the RTB.</p>
 
-<p>The reason the ratio tends to be strong is the entry price, not spin: a unit like the Ériu 20ft Expandable starts from €25,000 delivered and reaches a fully-fitted, rentable, A2-BER home at a fraction of the €110,000–€180,000 an Irish-built equivalent costs. Lower cost in, same €14,000 ceiling out.</p>
+<p>The trade-off sits in the planning conditions. A Class 3A home cannot be used for short-term letting, must be occupied with the main house, and cannot be sold or subdivided separately. So the realistic uses are a long-term tenant or family.</p>
 
-<h2>What a serious investor needs to know, told straight</h2>
+<h2>What are the real numbers after tax?</h2>
 
-<p>An income stream is only as good as its legality and its risks. Three things to weigh:</p>
+<p>Take a unit let long-term to a single tenant or a couple at €1,150 a month. That's €13,800 a year in gross rent. Taxed as ordinary rental income, before allowable expenses, that's roughly:</p>
 
 <ul>
-  <li><strong>The RTA carve-out is proposed, not certain.</strong> The draft rules would carve the auxiliary dwelling out of the Residential Tenancies Acts when let under Rent-a-Room, meaning no RTB registration and no rent-pressure-zone limits. That's a genuine operational advantage over a conventional rental <em>if enacted as drafted</em>. Treat it as proposed until the final wording is law.</li>
-  <li><strong>LPT and insurance.</strong> The unit is expected to get its own LPT band, and your home insurance must be updated to declare the structure, or you risk invalidating cover on the main house. Most insurers quote an uplift rather than a separate policy.</li>
-  <li><strong>Mortgage and resale.</strong> Most Irish lenders will not currently mortgage a property with a second self-contained dwelling on the same title, which has resale and portability implications. Many investors fund the unit through other finance to ring-fence the house mortgage.</li>
+  <li><strong>Higher-rate taxpayer:</strong> about €7,100 a year after income tax, USC and PRSI.</li>
+  <li><strong>Standard-rate taxpayer:</strong> about €9,900 a year after tax.</li>
 </ul>
 
-<p>We provide a written LPT, insurance and mortgage briefing with every quote, and we'd always say have your solicitor review it. The compliance matters to the income, too: a unit that isn't lawfully occupiable can't be lawfully let, which is why every Ériu home is specified to the Building Regulations and supplied A2-BER-ready with a full compliance pack. <a href="/modular-homes/building-regulations-ireland/">Here's what that covers.</a></p>
+<p>Allowable expenses such as insurance, repairs and some finance costs reduce the taxable amount, so the real figure for your situation can be better. Your accountant can run it properly.</p>
 
-<p>The April 2026 rules created the opening. Whether it's a good investment for you comes down to your site and your numbers, so start there, not with a headline.</p>`,
-    excerpt: "Up to €14,000 a year tax-free under the Rent-a-Room scheme, from a self-contained home on ground you already own. The honest yield maths, why we won't print a single headline percentage, and the caveats that matter.",
+<p>We still won't print a single headline yield percentage, because it would be meaningless without your figure. Your gross yield is simply the annual rent divided by your all-in installed cost, and that cost depends on your foundation, crane access, services run and BER. What we can say is that the entry price is what makes the ratio strong. A 20ft Expandable starts from €25,000 delivered and reaches a fully fitted, A2-BER home at a fraction of the €110,000–€180,000 an Irish-built equivalent costs. Lower cost in means a better return, taxed or not.</p>
+
+<h2>Does it still make sense as an investment?</h2>
+
+<p>For the right homeowner, yes, just not as a tax shelter. Compared with a conventional buy-to-let, a garden home needs no second property, no second mortgage and, for a qualifying Class 3A unit, no RTB registration. Compared with money on deposit, even the after-tax return on a low-cost unit is attractive.</p>
+
+<p>It makes less sense if you were counting on the full €14,000 tax-free, if your garden can't meet the Class 3A conditions, or if you need to remortgage soon with a lender that won't accept a second self-contained home on the title.</p>
+
+<p>For many families the better answer isn't a tenant at all. Housing an adult son or daughter, or an older parent, at the end of the garden avoids the rental tax question entirely.</p>
+
+<h2>What else should an investor check?</h2>
+
+<ul>
+  <li><strong>LPT.</strong> Revenue has confirmed a permanent garden home suitable for use as a separate dwelling attracts its own LPT charge, payable even when empty.</li>
+  <li><strong>Insurance.</strong> Declare the structure to your home insurer before installation, or you risk invalidating cover on the main house.</li>
+  <li><strong>Mortgage and resale.</strong> Many lenders remain cautious about a second self-contained home on the same title. Many owners fund the unit separately to ring-fence the house mortgage.</li>
+  <li><strong>Compliance.</strong> A unit that isn't lawfully occupiable can't be lawfully let. Every Class 3A home still needs a Commencement Notice, full Building Regulations compliance, an NZEB-standard BER and a Certificate of Compliance on Completion.</li>
+</ul>
+
+<p>If you want the numbers run for your own site, gross and after tax at your rate, <a href="/contact/?interest=modular-quote">send us your site details</a>. We'll come back with a factory-direct quote, an itemised all-in cost and a straight answer on whether your garden qualifies.</p>`,
+    excerpt: "Is rent from a back-garden home tax-free under Rent-a-Room? Revenue's guidance says a unit not attached to the house cannot qualify. What that means for the after-tax return, the RTB position for Class 3A homes, and whether the numbers still work.",
     image: '/images/modular-homes-hero-back-garden-ireland.webp',
-    imageAlt: 'A modular back-garden home in Ireland let under the Rent-a-Room scheme, tax-free rental income from an asset you already own',
+    imageAlt: 'A modular back-garden home in Ireland let long-term, the Rent-a-Room and tax position explained',
     sections: [
-      'Two rules that have never lined up before',
-      'The honest version of the yield maths',
-      'Why we will not print a single headline yield %',
-      'What a serious investor needs to know: RTA, LPT, insurance, mortgage',
+      'What does Revenue say about Rent-a-Room and detached units?',
+      'What does the RTB say?',
+      'What are the real numbers after tax?',
+      'Does it still make sense as an investment?',
+      'What else should an investor check?',
     ],
     faq: [
-      { q: 'Can I earn tax-free income from a home in my back garden in Ireland?', a: 'Where a self-contained garden dwelling is linked to your principal house services, rental income from a tenant may fall under the Rent-a-Room scheme, up to €14,000 a year exempt from income tax, USC and PRSI. The draft 2026 regulations are also proposed to carve the dwelling out of the Residential Tenancies Acts. The regulations remain in draft and Rent-a-Room treatment depends on your circumstances, so confirm both the planning and tax positions with a qualified accountant and solicitor.' },
-      { q: 'What yield will a garden rental home produce?', a: 'The yield is the tax-free rent (up to €14,000 a year) divided by your all-in installed cost, so it depends on what you spend. Because a factory-direct unit starts from €25,000 delivered and finishes well below an Irish-built equivalent, the ratio is strong, but the only honest figure is the one modelled against a real quote for your site, which we provide.' },
-      { q: 'Do RTB rules and rent-pressure-zone limits apply?', a: 'The draft 2026 regulations are proposed to carve the auxiliary dwelling out of the Residential Tenancies Acts when let under Rent-a-Room, so RTB registration and rent-pressure-zone rules would not apply if enacted as drafted. Treat this as proposed, not certain, until the final wording is enacted, and confirm with your solicitor.' },
+      { q: 'Is rent from a back-garden home tax-free under Rent-a-Room in Ireland?', a: "Plan on it not being tax-free. Revenue's Rent-a-Room guidance states that a self-contained unit which is not attached to the property cannot qualify for the relief. A detached Class 3A garden home is not attached, so its rent should be treated as ordinary taxable rental income, with allowable expenses deducted. Confirm your position with an accountant." },
+      { q: 'Do I need to register a Class 3A garden home rental with the RTB?', a: 'No. The RTB has stated that renting a qualifying Class 3A garden home added from 27 July 2026 does not come under its remit and does not need to be registered. Short-term letting is not permitted under Class 3A.' },
+      { q: 'How much would I keep from renting a garden home?', a: 'At €1,150 a month, €13,800 a year gross, a higher-rate taxpayer keeps roughly €7,100 after income tax, USC and PRSI, and a standard-rate taxpayer roughly €9,900, before allowable expenses. Your gross yield depends on your all-in installed cost, which we model against a real quote for your site.' },
     ],
     relatedSlugs: ['ireland-april-2026-back-garden-home-rules-explained', 'adult-children-living-at-home-ireland-garden-home', 'downsizing-stay-on-family-land-ireland'],
     internalLinks: [
-      { text: 'Tax-free rental income from a garden home, and your modelled yield', href: '/modular-homes/rental-income-garden-home-ireland/' },
-      { text: 'The April 2026 back-garden rules, explained', href: '/modular-homes/auxiliary-dwelling-ireland/' },
+      { text: 'Rental income from a garden home, and your modelled yield', href: '/modular-homes/rental-income-garden-home-ireland/' },
+      { text: 'The Class 3A back-garden rules, explained', href: '/blog/ireland-april-2026-back-garden-home-rules-explained/' },
+      { text: 'Auxiliary dwelling: definition, tax, LPT and insurance', href: '/modular-homes/auxiliary-dwelling-ireland/' },
       { text: 'Building Regulations and your compliance pack', href: '/modular-homes/building-regulations-ireland/' },
-      { text: 'What a back-garden home costs in Ireland', href: '/modular-homes/cost/' },
       { text: 'Request your quote and yield breakdown', href: '/contact/?interest=modular-quote' },
     ],
   },
@@ -2158,7 +2191,7 @@ export const blogPosts = [
   {
     slug: 'affordable-permanent-home-own-site-ireland',
     title: "A Real Home, Built to Last 30 Years, for a Fraction of an Irish Build",
-    metaTitle: "Affordable Permanent Modular Home on Your Own Site Ireland | Ériu",
+    metaTitle: 'Affordable Permanent Modular Home, Your Own Site | Ériu',
     metaDescription: "Not a garden room, the actual home on your own site. Irish Building Regs, A2 BER, a 30-year warranty, in 14–18 weeks for a fraction of a conventional build.",
     h1: "A real home, built to last 30 years, for a fraction of an Irish build",
     eyebrow: 'The Self-Build Alternative',
@@ -2224,8 +2257,8 @@ export const blogPosts = [
   {
     slug: 'downsizing-stay-on-family-land-ireland',
     title: "Downsizing in Ireland Doesn't Have to Mean Leaving",
-    metaTitle: "Downsizing Without Leaving Home: The Garden Option Ireland | Ériu",
-    metaDescription: "Rightsize without giving up the family home or the area, a single-storey, level-access garden home from €25,000, built under the draft 2026 rules.",
+    metaTitle: 'Downsizing Without Leaving Home: The Garden Option | Ériu',
+    metaDescription: "Rightsize without giving up the family home or the area, a single-storey, level-access garden home from €25,000, built under the Class 3A exemption now in force.",
     h1: "Downsizing in Ireland doesn't have to mean leaving",
     eyebrow: 'Rightsizing',
     category: 'modular-homes',
@@ -2235,10 +2268,11 @@ export const blogPosts = [
     targetReader: 'Older homeowners considering downsizing who do not want to leave the family home or the area, and their adult children',
     estimatedWordCount: 1150,
     publishDate: '2026-06-08',
+    dateModified: '2026-09-23',
     draft: false,
     body: `<p>Downsizing in Ireland has usually meant a hard trade: give up the family home, leave the area, move somewhere smaller and further from everyone you know. No wonder so many people put it off for years.</p>
 
-<p>There's a gentler option now, and the State is actively encouraging it. By 2030 there will be <strong>over a million people aged 65 and older</strong> in Ireland, up from around 780,000 in 2022 (<a href="https://www.cso.ie/en/releasesandpublications/ep/p-plfp/populationandlabourforceprojections2023-2057/" target="_blank" rel="noopener noreferrer">CSO, Population &amp; Labour Force Projections 2023–2057</a>), and policy is pushing "rightsizing" to free up larger homes for growing families. The same draft 2026 planning rules that allow a back-garden home make it possible to do that without going anywhere at all.</p>
+<p>There's a gentler option now, and the State is actively encouraging it. By 2030 there will be <strong>over a million people aged 65 and older</strong> in Ireland, up from around 780,000 in 2022 (<a href="https://www.cso.ie/en/releasesandpublications/ep/p-plfp/populationandlabourforceprojections2023-2057/" target="_blank" rel="noopener noreferrer">CSO, Population &amp; Labour Force Projections 2023–2057</a>), and policy is pushing "rightsizing" to free up larger homes for growing families. The Class 3A planning exemption, in force since 27 July 2026, makes it possible to do that without going anywhere at all.</p>
 
 <h2>Your own home, on the family land</h2>
 
@@ -2246,7 +2280,7 @@ export const blogPosts = [
 
 <p>It can work either way round. A parent moves into the garden home while a son or daughter's family takes the main house; or the parent keeps the main house and the adult child takes the unit. Either way the big house is used, and nobody has to leave the place they've spent a life in. <a href="/modular-homes/downsizing-granny-flat-ireland/">We've set out the full picture for downsizers here.</a></p>
 
-<p>As with any back-garden home, this falls under the draft April 2026 exemption, which is subject to environmental assessment and <strong>not yet enacted</strong>, so we review every site against the current draft conditions first.</p>
+<p>As with any back-garden home, this falls under the Class 3A exemption, in force since 27 July 2026, which requires <strong>14 days' notice to your council</strong> before work starts, so we review every site against the Class 3A conditions first.</p>
 
 <h2>Gentle on a fixed budget</h2>
 
@@ -2271,7 +2305,7 @@ export const blogPosts = [
       'Warm, level-access, and built to last',
     ],
     faq: [
-      { q: 'Can I build a granny flat in the garden to downsize into?', a: 'Under the draft April 2026 Exempted Development Regulations, subject to environmental assessment and not yet enacted, a detached self-contained dwelling of 32 to 45 m² in the rear garden of a principal house could be built without full planning permission where the conditions are met, including linking services to the main house. It must still meet the Irish Building Regulations and carry a BER. We review every site against the current draft conditions first.' },
+      { q: 'Can I build a granny flat in the garden to downsize into?', a: 'Yes, under Class 3A of S.I. No. 340 of 2026, in force since 27 July 2026. A detached self-contained home of 32 to 45 m² in the rear garden of the house you live in can be built without a planning application where every condition is met, including linking services to the main house and notifying your council at least 14 days before work starts. It must still meet the Irish Building Regulations and carry a BER. We review every site against the Class 3A conditions first.' },
       { q: 'Is a garden home suitable for older people?', a: 'Yes. The unit is single-storey with no stairs, a level threshold, and door widths built to the access requirements of the Building Regulations (TGD Part M). It achieves an A2 BER on a correctly installed unit with a heat pump, so it is warm and cheap to run, and carries a 30-year anti-corrosion warranty.' },
       { q: 'Will it affect the family home if we put a unit in the garden?', a: 'In most cases the family home title is not disturbed, but because lenders treat a second self-contained dwelling on the same title carefully, we recommend confirming the position with your solicitor. We provide a written briefing on title, LPT, insurance and lender considerations with every quote.' },
     ],
@@ -2288,7 +2322,7 @@ export const blogPosts = [
   {
     slug: 'how-to-source-ev-chargers-from-china-europe-2026',
     title: 'How to Source EV Chargers from China for European Projects Safely in 2026',
-    metaTitle: 'How to Source EV Chargers from China Safely in 2026 | Ériu Sourcing',
+    metaTitle: 'How to Source EV Chargers from China Safely (2026) | Ériu',
     metaDescription: 'A 2026 guide for European installers, CPOs and fleets sourcing AC and DC EV chargers from China safely, charger types, CE/IEC compliance, suppliers and QC.',
     h1: 'How to source EV chargers from China for European projects safely in 2026',
     eyebrow: 'Category Deep Dive',
@@ -2422,7 +2456,7 @@ export const blogPosts = [
   {
     slug: 'prefab-container-homes-europe-cost-regulations-glamping-2026',
     title: 'Prefab Container Homes in Europe: Cost, Regulations and How Glamping Owners Can Use Them in 2026',
-    metaTitle: 'Container Homes in Europe 2026: Cost, Rules & Glamping | Ériu',
+    metaTitle: 'Container Homes in Europe 2026: Cost, Rules, Glamping | Ériu',
     metaDescription: 'A 2026 guide to prefab container homes in Europe for glamping owners: cost bands, planning rules, insulation/energy standards, and how to source cabins safely.',
     h1: 'Prefab container homes in Europe: cost, regulations and how glamping owners can use them in 2026',
     eyebrow: 'Category Deep Dive',
@@ -2959,6 +2993,212 @@ export const blogPosts = [
     ],
   },
 
+
+  {
+    slug: 'eu-de-minimis-ends-3-euro-duty-china-parcels-ireland',
+    title: "The End of De Minimis: What the EU's €3 Parcel Duty Means for Irish Businesses Buying from China",
+    metaTitle: 'EU €3 Parcel Duty & De Minimis: Irish Importer Guide | Ériu',
+    metaDescription: "The EU's €150 duty exemption ended on 1 July 2026. What the €3 duty on low-value parcels means for Irish businesses buying from China, and when bulk importing wins.",
+    h1: "The end of de minimis: what the EU's €3 parcel duty means for Irish businesses buying from China",
+    eyebrow: 'Trade Intelligence',
+    category: 'trade-intel',
+    primaryKeyword: 'EU de minimis €3 duty Ireland',
+    secondaryKeywords: ['€3 customs duty parcels EU', 'de minimis abolished EU 2026', 'low value parcels China Ireland duty', 'import small parcels from China Ireland', 'Temu Shein duty Ireland business'],
+    intent: 'informational',
+    targetReader: 'Irish e-commerce sellers, retailers and small businesses that buy stock from China in small parcels and want to know how the end of the €150 exemption changes their costs',
+    estimatedWordCount: 1600,
+    publishDate: '2026-09-23',
+    draft: false,
+    body: `<p class="article-summary"><strong>The short answer:</strong> on 1 July 2026 the EU abolished the €150 customs duty exemption for low-value parcels. Parcels from non-EU sellers worth under €150 now carry a flat €3 customs duty, charged per item category in the parcel, on top of the import VAT that already applied. The flat rate is an interim measure, meant to run until normal tariff rates take over in 2028. For Irish businesses buying cheap stock from China in small parcels, the cost per unit has jumped, and the case for one consolidated bulk shipment has got much stronger.</p>
+
+<h2>What was de minimis, and what changed?</h2>
+
+<p>Until this summer, goods arriving in the EU in consignments worth €150 or less paid no customs duty. Import VAT has applied to every import since July 2021, usually collected through the IOSS scheme at checkout, but duty did not. That €150 relief is what made it cheap to ship single orders straight from Chinese warehouses to Irish doors.</p>
+
+<p>The scale was huge. Around 4.6 billion low-value parcels entered the EU in 2024, and more than 91 per cent came from China. EU ministers agreed to close the gap, and from 1 July 2026 a flat €3 customs duty applies to low-value parcels from non-EU sellers. Irish MEP Barry Andrews welcomed the deal and said the rate should rise if it fails to slow the flood of cheap deliveries.</p>
+
+<p>Three details matter for businesses:</p>
+
+<ul>
+  <li><strong>It is charged per item category, not per parcel.</strong> A parcel with three different types of product attracts €3 for each type. Check how your carrier or customs broker applies it to mixed consignments.</li>
+  <li><strong>The importer pays.</strong> The duty is a cost to whoever is the importer of record, which for a business buying stock is usually you.</li>
+  <li><strong>It is temporary by design.</strong> The flat €3 is meant to be replaced by normal tariff-line duty rates for low-value goods once the EU customs data hub is ready, currently expected in 2028. A separate EU handling fee on low-value parcels is also in the pipeline, so confirm the current position with your forwarder.</li>
+</ul>
+
+<h2>Who does it hit hardest?</h2>
+
+<p>€3 is small on a €120 parcel and very large on a €4 one. The businesses most exposed buy low-value goods in many small shipments:</p>
+
+<ul>
+  <li><strong>Irish e-commerce and dropshipping sellers</strong> shipping orders direct from Chinese warehouses or marketplaces to Irish customers.</li>
+  <li><strong>Small retailers restocking through marketplace apps</strong> in frequent small orders instead of a planned shipment.</li>
+  <li><strong>Businesses buying low-cost accessories and consumables</strong>, such as phone cases, cables, packaging, craft supplies and pet accessories, where each item is worth a few euro.</li>
+</ul>
+
+<p>It barely touches businesses already importing by the pallet or the container. Commercial shipments over €150 were never covered by the relief and already paid normal duty on their commodity code.</p>
+
+<figure class="article-figure">
+  <img src="/images/customs-clearance-documents-china-ireland-bill-of-lading-commercial-invoice.webp" alt="Customs clearance documents for a China to Ireland shipment, commercial invoice and bill of lading" loading="lazy" width="1280" height="720">
+  <figcaption>A consolidated shipment clears customs once, on one set of documents, at the duty rate for its commodity code</figcaption>
+</figure>
+
+<h2>The maths: small parcels versus one bulk shipment</h2>
+
+<p>Take an Irish online seller who sells 500 phone cases a quarter, bought at €2 each from a Chinese supplier.</p>
+
+<p><strong>Shipped as 500 individual parcels to customers,</strong> each parcel now carries €3 in duty. That's €1,500 in duty per quarter on €1,000 worth of goods, before postage, VAT or any handling fee. The duty alone costs more than the product.</p>
+
+<p><strong>Imported as one consolidated shipment,</strong> the same €1,000 of goods travels by sea or air freight, clears Irish customs once, and pays the ordinary duty rate for its commodity code. For many plastic and textile accessories that rate is in the low single digits: tens of euro, not hundreds. The seller then ships Irish orders from Irish stock, which is also faster for the customer.</p>
+
+<p>Consolidation has its own costs: freight, a customs broker, storage, and cash tied up in stock. But the €3 duty has moved the break-even point a long way. For low-value goods the question is no longer whether bulk importing is cheaper. It's how small an order can be and still justify it.</p>
+
+<h2>What should Irish businesses do now?</h2>
+
+<ol>
+  <li><strong>Audit your parcel volume.</strong> Count your sub-€150 parcels from last quarter and the product categories in them. Multiply by €3. That is your new exposure.</li>
+  <li><strong>Price a consolidated shipment.</strong> For your best-selling lines, get a quote for one shipment every one to three months: LCL sea freight for a few cubic metres, air freight for fast-moving or high-value goods. Compare on a full <a href="/blog/real-landed-cost-importing-from-china-ireland/">landed cost</a> basis.</li>
+  <li><strong>Check your commodity codes.</strong> Once you import commercially, your duty depends on the TARIC code. Have a customs broker confirm it before the first shipment.</li>
+  <li><strong>Set up Postponed VAT Accounting.</strong> If you are VAT-registered, PVA stops import VAT tying up your cash at the port on a bigger shipment.</li>
+  <li><strong>Buy from the factory, not the marketplace.</strong> The €3 duty lands hardest on goods bought at retail-style prices from marketplace sellers. Buying the same product from the factory that makes it, in a planned quantity, lowers both the unit price and the duty cost.</li>
+</ol>
+
+<h2>Is this a reason to stop buying from China?</h2>
+
+<p>No. It is a reason to stop buying from China the way a consumer does. The €3 duty targets the direct-to-door parcel model: millions of single consignments that each escaped duty. Businesses that buy from Chinese factories in planned, consolidated orders, with proper customs entries, pay the same commodity-code duty they always did.</p>
+
+<p>If anything, the change narrows the gap between marketplace buying and a properly run import operation. A small Irish business that moves from 2,000 parcels a year to four planned shipments pays less duty, holds Irish stock, and deals with a verified factory instead of an anonymous listing.</p>
+
+<p>If you are working out whether consolidated importing makes sense for your range, <a href="/contact/">get in touch</a>. Ériu Sourcing works from Shenzhen and Zhengzhou and helps Irish businesses move from marketplace buying to factory-direct orders, with QC before shipment and a full landed-cost quote before you commit.</p>`,
+    excerpt: "The EU's €150 duty exemption ended on 1 July 2026. Low-value parcels from China now carry a €3 duty per item category. Who it hits, the maths on small parcels versus one bulk shipment, and what Irish businesses should do now.",
+    image: '/images/customs-clearance-documents-china-ireland-bill-of-lading-commercial-invoice.webp',
+    imageAlt: "Customs documents for a China to Ireland shipment, the EU's €3 parcel duty explained for Irish businesses",
+    sections: [
+      'What was de minimis, and what changed?',
+      'Who does it hit hardest?',
+      'The maths: small parcels versus one bulk shipment',
+      'What should Irish businesses do now?',
+      'Is this a reason to stop buying from China?',
+    ],
+    faq: [
+      { q: 'When did the EU €150 de minimis exemption end?', a: 'The EU abolished the €150 customs duty exemption for low-value parcels on 1 July 2026. Since then, parcels worth under €150 from non-EU sellers carry a flat €3 customs duty, charged per item category in the parcel.' },
+      { q: 'Who pays the €3 duty on parcels from China?', a: 'The importer pays, typically the seller or the business receiving the goods, not the carrier. It is separate from import VAT, which has applied to all imports since July 2021.' },
+      { q: 'Is the €3 parcel duty permanent?', a: 'No. The flat €3 duty is an interim measure. The EU intends to replace it with normal tariff-line duty rates for low-value goods once its customs data hub is running, currently expected in 2028.' },
+      { q: 'Does the €3 duty apply to container or pallet shipments from China?', a: 'No. Commercial consignments over €150 were never covered by the de minimis relief. They clear customs on a normal declaration and pay the duty rate for their commodity code.' },
+    ],
+    relatedSlugs: ['real-landed-cost-importing-from-china-ireland', 'shipping-china-to-ireland-freight-customs-2026', 'alibaba-vs-factory-direct-irish-importers'],
+    internalLinks: [
+      { text: 'The real landed cost of importing from China', href: '/blog/real-landed-cost-importing-from-china-ireland/' },
+      { text: 'Retail and wholesale sourcing from China', href: '/source/retail-wholesale-from-china-ireland/' },
+      { text: 'Get a landed-cost quote', href: '/contact/' },
+    ],
+  },
+
+  {
+    slug: 'cbam-irish-importers-chinese-steel-aluminium-2026',
+    title: 'CBAM for Irish Importers: What the EU Carbon Border Tax Means for Steel and Aluminium from China',
+    metaTitle: 'CBAM for Irish Importers of Chinese Steel (2026) | Ériu',
+    metaDescription: "CBAM's definitive phase began on 1 January 2026. Which Chinese steel and aluminium goods are covered, the 50-tonne exemption, authorised declarant status, and what it costs.",
+    h1: 'CBAM for Irish importers: what the EU carbon border tax means for steel and aluminium from China',
+    eyebrow: 'Compliance',
+    category: 'compliance',
+    primaryKeyword: 'CBAM Ireland importers',
+    secondaryKeywords: ['CBAM steel imports China', 'authorised CBAM declarant Ireland', 'CBAM 50 tonne threshold', 'carbon border adjustment mechanism Ireland', 'CBAM certificates 2027'],
+    intent: 'informational',
+    targetReader: 'Irish businesses importing steel structures, racking, fasteners, aluminium profiles or other metal goods from China who need to know whether CBAM applies to them',
+    estimatedWordCount: 1500,
+    publishDate: '2026-09-23',
+    draft: false,
+    body: `<p class="article-summary"><strong>The short answer:</strong> since 1 January 2026, the EU's Carbon Border Adjustment Mechanism (CBAM) puts a carbon cost on imports of iron and steel, aluminium, cement, fertilisers, hydrogen and electricity. If your business imports <strong>50 tonnes or less</strong> of these goods a year in total, you are exempt. Above that, you must be an authorised CBAM declarant before you cross the threshold, report the embedded emissions, and buy CBAM certificates. Certificates go on sale on 1 February 2027, and the first ones for 2026 imports must be surrendered by 30 September 2027. In Ireland, the EPA runs authorisation and Revenue enforces it at the border.</p>
+
+<p>Most Irish SMEs buying finished consumer goods from China will never touch CBAM. But several categories we source for Irish buyers are squarely inside it: warehouse racking and steel structures, steel fasteners, steel tube and pipe, and aluminium profiles and extrusions. If you import those in any volume, this is worth ten minutes now rather than a surprise at Dublin Port.</p>
+
+<h2>What is CBAM?</h2>
+
+<p>CBAM is the EU's carbon border tax. EU manufacturers of steel, aluminium and cement pay for their carbon emissions under the EU Emissions Trading System. CBAM applies a matching cost to the same goods made outside the EU, so imports don't undercut EU producers simply by coming from places with cheaper carbon.</p>
+
+<p>From October 2023 to the end of 2025 it ran in a transitional phase: importers reported emissions, but paid nothing. The definitive phase started on 1 January 2026. Now there is a real financial obligation, although the first payment isn't due until 2027.</p>
+
+<h2>Which goods from China are covered?</h2>
+
+<p>CBAM applies to specific customs codes, not to "anything made of steel". The groups most relevant to Irish buyers sourcing from China are:</p>
+
+<ul>
+  <li><strong>Iron and steel:</strong> steel products, tubes and pipes, and many articles of steel, including structures and parts of structures (the heading that covers most pallet racking and steel frameworks), screws, bolts and other fasteners, and a range of other steel articles.</li>
+  <li><strong>Aluminium:</strong> unwrought aluminium, bars, rods and profiles, plates and foil, tubes, and aluminium structures and parts of structures.</li>
+  <li><strong>Cement, fertilisers, hydrogen and electricity</strong>, which are rarely part of a typical Irish SME order from China.</li>
+</ul>
+
+<p>Plenty of steel-containing goods are outside the list: machinery, vehicles, most finished consumer products, and prefabricated buildings classified as complete buildings. Classification is everything. The same steel frame can fall inside or outside CBAM depending on whether it's declared as a prefabricated building or as steel structures shipped in parts. Get your commodity codes confirmed by a customs broker before you order. The Commission has also proposed extending CBAM to more downstream products from 2028, so the list may grow.</p>
+
+<figure class="article-figure">
+  <img src="/images/china-warehouse-racking-factory-export.webp" alt="Steel warehouse racking being prepared for export at a Chinese factory, a product group covered by the EU CBAM" loading="lazy" width="1280" height="720">
+  <figcaption>Steel structures such as warehouse racking fall inside CBAM, so importers over 50 tonnes a year need authorised declarant status</figcaption>
+</figure>
+
+<h2>Does the 50-tonne exemption cover you?</h2>
+
+<p>The EU's 2025 simplification package added a mass-based threshold. If the total weight of all your CBAM goods, excluding electricity and hydrogen, stays at <strong>50 tonnes or less per calendar year</strong>, you are exempt from CBAM reporting, declarations and certificates.</p>
+
+<p>Fifty tonnes sounds like a lot until you import steel. A full 40ft container of steel racking or structural steel can easily weigh 20 tonnes or more. So two or three containers a year can take you over the line. Fasteners and aluminium profiles are lighter per order but add up quickly over a year.</p>
+
+<p>The threshold is cumulative across the calendar year and across all your CBAM goods. Track it from your first shipment in January, not when you think you might be close.</p>
+
+<h2>What if you import more than 50 tonnes?</h2>
+
+<p>Then you need to be an <strong>authorised CBAM declarant</strong>, and you must apply before you exceed the threshold. In Ireland, the Environmental Protection Agency is the national CBAM authority and assesses applications. Revenue will not release CBAM goods above the threshold to an importer who isn't authorised. Importers who applied by 31 March 2026 could keep importing while their application was assessed. If you're applying now, apply before the shipment that would take you over 50 tonnes.</p>
+
+<p>Once authorised, you must:</p>
+
+<ol>
+  <li><strong>Collect emissions data from your Chinese supplier.</strong> Every CBAM good has embedded emissions from its production. You need verified actual figures from the factory or, where those aren't available, the EU's default values, which are deliberately set high.</li>
+  <li><strong>File an annual CBAM declaration</strong> covering the goods you imported in the previous year and their embedded emissions.</li>
+  <li><strong>Buy and surrender CBAM certificates</strong> to cover those emissions. Sales open on 1 February 2027, and certificates for 2026 imports are due by 30 September 2027. The price tracks the EU carbon price.</li>
+</ol>
+
+<h2>How much will CBAM cost?</h2>
+
+<p>Less than many importers fear in the early years, rising steadily after that. The CBAM charge phases in as the EU withdraws free carbon allowances from its own producers between 2026 and 2034. In 2026 only a small share of the embedded emissions actually needs covering, and that share rises every year.</p>
+
+<p>Two things make the biggest difference to your bill. First, <strong>actual emissions data from the factory</strong>: default values are designed to be punitive, so a supplier who can document real, lower emissions saves you money. Second, <strong>any carbon price already paid in China</strong> can be deducted, where it can be evidenced.</p>
+
+<h2>What should Irish importers of Chinese steel do now?</h2>
+
+<ol>
+  <li><strong>Check your codes.</strong> List every product you import and confirm with your broker which fall under CBAM headings.</li>
+  <li><strong>Weigh last year's imports.</strong> If your CBAM goods came to more than 50 tonnes in total, you need authorised declarant status for this year.</li>
+  <li><strong>Apply through the EPA</strong> before your next shipment takes you over the threshold.</li>
+  <li><strong>Ask your factories for emissions data now.</strong> Chinese steel and aluminium producers that export to Europe are increasingly used to this request. A factory that can't or won't provide it will cost you more under default values.</li>
+  <li><strong>Build CBAM into landed cost.</strong> For 2026 onwards, add a CBAM line to your <a href="/blog/real-landed-cost-importing-from-china-ireland/">landed cost model</a> for any covered goods, even if the first payment isn't until 2027.</li>
+</ol>
+
+<p>Getting emissions data out of a Chinese factory, in a form an EU verifier will accept, is exactly the kind of job that's hard to do from Dublin. If you import racking, steel structures, fasteners or aluminium profiles from China, <a href="/contact/">talk to us</a>. Ériu Sourcing works with steel and aluminium factories in Henan and Guangdong and can request the data you need as part of the order.</p>
+
+<p class="article-note">This article is general guidance, not legal or tax advice. CBAM rules are still being refined, so check the current position with the EPA, Revenue or your customs broker before you rely on it.</p>`,
+    excerpt: "CBAM's definitive phase started on 1 January 2026. Which steel and aluminium goods from China are covered, whether the 50-tonne exemption applies to you, how to become an authorised CBAM declarant in Ireland, and what it will cost.",
+    image: '/images/henan-aluminium-extrusion-press-line.webp',
+    imageAlt: 'Aluminium extrusion press line in a Henan factory, CBAM for Irish importers of Chinese steel and aluminium',
+    sections: [
+      'What is CBAM?',
+      'Which goods from China are covered?',
+      'Does the 50-tonne exemption cover you?',
+      'What if you import more than 50 tonnes?',
+      'How much will CBAM cost?',
+      'What should Irish importers of Chinese steel do now?',
+    ],
+    faq: [
+      { q: 'Does CBAM apply to small Irish importers?', a: 'Not if your total imports of CBAM goods (iron and steel, aluminium, cement and fertilisers) are 50 tonnes or less in a calendar year. Below that threshold you are exempt from CBAM reporting, declarations and certificates.' },
+      { q: 'Who runs CBAM in Ireland?', a: 'The Environmental Protection Agency is the national competent authority and assesses applications for authorised CBAM declarant status. Revenue enforces it at import and will not release CBAM goods above the 50-tonne threshold to an importer who is not authorised.' },
+      { q: 'When do CBAM certificates have to be bought?', a: 'CBAM certificates go on sale on 1 February 2027. Certificates covering goods imported during 2026 must be surrendered by 30 September 2027.' },
+      { q: 'Is warehouse racking from China covered by CBAM?', a: 'Usually, yes. Steel racking is normally classified as steel structures or parts of structures, which is a CBAM heading. Confirm the exact commodity code with your customs broker.' },
+    ],
+    relatedSlugs: ['real-landed-cost-importing-from-china-ireland', 'source-warehouse-racking-conveyor-systems-from-china-2026', 'ce-marking-china-imports-ireland'],
+    internalLinks: [
+      { text: 'Warehouse racking and conveyor systems from China', href: '/source/warehouse-racking-conveyor-systems-from-china/' },
+      { text: 'Construction materials from China', href: '/source/construction-materials-from-china-ireland/' },
+      { text: 'The real landed cost of importing from China', href: '/blog/real-landed-cost-importing-from-china-ireland/' },
+      { text: 'Get a quote with landed cost', href: '/contact/' },
+    ],
+  },
 ];
 // Helper: get published posts only
 export const publishedPosts = blogPosts.filter(p => !p.draft);

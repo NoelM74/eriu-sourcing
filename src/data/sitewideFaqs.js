@@ -99,11 +99,11 @@ export const sitewideFaqs = [
     questions: [
       {
         q: 'Do I need planning permission for a modular home in my back garden in Ireland?',
-        a: 'Under the Government\'s draft Exempted Development Regulations brought to Cabinet on 21 April 2026, a detached auxiliary habitable dwelling of 32–45 square metres can be built in the back garden of a principal house without full planning permission, provided it is connected to the principal house\'s services and meets the exemption conditions. Planning exemption is not the same as building-regulations exemption, every structure must still meet Irish Building Regs (TGD Parts A to M), and a BER assessment is required.',
+        a: 'Not if it qualifies under Class 3A of S.I. No. 340 of 2026, in force since 27 July 2026. A detached home of 32–45 square metres can be built in the rear garden of the house you live in without a planning application, provided it is connected to the principal house\'s services, meets the height and occupancy conditions, and you notify the council at least 14 days before work starts. Planning exemption is not the same as building-regulations exemption, every structure must still meet Irish Building Regs (TGD Parts A to M), and a BER assessment is required.',
       },
       {
         q: 'Which model fits the new exempted-development envelope?',
-        a: 'The 20ft Expandable (~34 m² internal) sits inside the 32–45 m² band drafted in the April 2026 exemption. The 30ft (~52 m²) and 40ft (~70 m²) models exceed the upper bound and so require full planning permission. The 20FT700 (~25 m²) sits below the lower bound. See the dedicated 20ft Expandable spec sheet for the typical Irish exemption use case.',
+        a: 'The 20ft Expandable (~34 m² internal) sits inside the 32–45 m² band of the Class 3A exemption, in force since 27 July 2026. The 30ft (~52 m²) and 40ft (~70 m²) models exceed the upper bound and so require full planning permission. The 20FT700 (~25 m²) sits below the lower bound. See the dedicated 20ft Expandable spec sheet for the typical Irish exemption use case.',
       },
       {
         q: 'How long does a modular home take from order to delivered?',

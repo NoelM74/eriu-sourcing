@@ -17,7 +17,7 @@ export const modularHomeModels = [
     id: '20ft',
     name: '20ft Expandable',
     h1: '20ft Expandable Container Home, Spec Sheet for Ireland',
-    metaTitle: '20ft Expandable Container Home Ireland, Specs, Floor Plans & Price | Ériu',
+    metaTitle: '20ft Expandable Container Home Ireland: Specs & Price | Ériu',
     metaDescription: 'The 20ft expandable container home, folds to 2.2 m, opens to 6.3 m on site for ~34 m². A compact back-garden auxiliary dwelling, compliant with Irish regs.',
     eyebrow: '20ft Expandable Model',
     tagline: 'The compact back-garden unit. One to three bedrooms, ~34 m² internal.',
@@ -39,7 +39,7 @@ export const modularHomeModels = [
 
     // Long-form editorial (rendered as <p> paragraphs on the detail page)
     body: [
-      'The 20ft Expandable is the smallest model in the Ériu range. It is also the model most Irish buyers ask about first, because it sits comfortably inside the size envelope drafted in the 21 April 2026 Exempted Development Regulations, a back-garden auxiliary dwelling of 32 to 45 square metres, connected to the principal house services, with no full planning permission required where the exemption conditions are met.',
+      'The 20ft Expandable is the smallest model in the Ériu range. It is also the model most Irish buyers ask about first, because it sits comfortably inside the size envelope of the Class 3A exemption in force since 27 July 2026 (S.I. No. 340 of 2026): a back-garden auxiliary dwelling of 32 to 45 square metres, connected to the principal house services, with no planning application required where the exemption conditions are met.',
       'Shipped folded to 2.2 m wide so two units load to a single 40HQ ocean container, the 20ft unit arrives at port at standard container width and rolls onto a flatbed for inland delivery anywhere in Ireland. On site the steel-frame side walls fold down hydraulically to form the long faces of the dwelling, the roof lifts onto its expanded position, and the unit reaches its full 5.9 × 6.3 m footprint within a single day.',
       'The factory base for the 20ft Expandable is the Zhengzhou and Xinxiang expandable-container cluster in Henan, the production heartland for this product type globally. Ériu has direct relationships with the three largest producers there and inspects every unit at the factory before the container is sealed. Wall and roof panels are 75 mm rock-wool sandwich panel as standard; upgrades to PIR or PUR are available for higher U-values where Irish Part L compliance demands it.',
     ],
@@ -47,7 +47,7 @@ export const modularHomeModels = [
     faq: [
       {
         q: 'Does the 20ft Expandable fit inside the new Irish exempted-development size limit?',
-        a: 'Yes. At ~34 m² internal floor area the 20ft Expandable sits inside the 32–45 m² band drafted in the Government\'s 21 April 2026 Exempted Development Regulations for back-garden auxiliary dwellings. Planning exemption is not the same as building-regulations exemption, every unit must still meet TGD Parts A to M and carry a BER. Ériu supplies the 20ft Expandable fully specified for Irish Building Regs compliance.',
+        a: 'Yes. At ~34 m² internal floor area the 20ft Expandable sits inside the 32–45 m² band set by the Class 3A exemption for back-garden auxiliary dwellings, in force since 27 July 2026 (S.I. No. 340 of 2026). At 2.48 m high it is also well inside the 3 m height limit for a flat roof. You still need to notify your council at least 14 days before work starts. Planning exemption is not the same as building-regulations exemption, every unit must still meet TGD Parts A to M and carry a BER. Ériu supplies the 20ft Expandable fully specified for Irish Building Regs compliance.',
       },
       {
         q: 'How many 20ft Expandable units fit in one 40HQ shipping container?',
@@ -73,7 +73,7 @@ export const modularHomeModels = [
     id: '30ft',
     name: '30ft Expandable',
     h1: '30ft Expandable Container Home, Spec Sheet for Ireland',
-    metaTitle: '30ft Expandable Container Home Ireland, Specs, Floor Plans & Price | Ériu',
+    metaTitle: '30ft Expandable Container Home Ireland: Specs & Price | Ériu',
     metaDescription: 'The 30ft expandable container home, ~52 m² internal, a comfortable 2-bed layout. The mid-size step up from the 20ft for auxiliary dwellings and holiday lets.',
     eyebrow: '30ft Expandable Model',
     tagline: 'The mid-size unit. Comfortable two-bedroom layout, ~52 m² internal.',
@@ -95,14 +95,14 @@ export const modularHomeModels = [
 
     body: [
       'The 30ft Expandable is the most flexible model in the Ériu range. At ~52 m² internal floor area it is large enough to accommodate a two-bedroom layout with separate living and kitchen areas, but compact enough that the shipping cost per unit and the on-site expansion remain straightforward.',
-      'Because the 30ft sits above the 45 m² ceiling drafted in the April 2026 Exempted Development Regulations, Irish buyers using the 30ft model are typically pursuing full planning permission rather than relying on the exemption. The most common application is a rural cottage on a site that already has a dwelling, a holiday-let unit on a working farm, or a larger family-supporting auxiliary dwelling where the buyer wants the comfort margin that the 20ft Expandable cannot quite deliver.',
+      'Because the 30ft sits above the 45 m² ceiling of the Class 3A exemption (S.I. No. 340 of 2026), Irish buyers using the 30ft model are typically pursuing full planning permission rather than relying on the exemption. The most common application is a rural cottage on a site that already has a dwelling, a holiday-let unit on a working farm, or a larger family-supporting auxiliary dwelling where the buyer wants the comfort margin that the 20ft Expandable cannot quite deliver.',
       'One 30ft unit loads per 40HQ ocean container, the shipping cost per unit is roughly twice the 20ft, but the resulting internal floor area is roughly 50% larger. Same Henan central-China factory base, same QC programme, same on-site expansion process, the 30ft unfolds in the same single day with the same two-person crew.',
     ],
 
     faq: [
       {
         q: 'Can the 30ft Expandable be planning-exempt in Ireland?',
-        a: 'No. The 30ft model at ~52 m² internal floor area is above the 45 m² ceiling in the April 2026 Exempted Development Regulations for back-garden auxiliary dwellings. Buyers pursuing the 30ft are typically going through full planning permission, for a rural cottage, a holiday let, or a larger family-supporting dwelling on a site that already has principal accommodation.',
+        a: 'No. The 30ft model at ~52 m² internal floor area is above the 45 m² ceiling of the Class 3A exemption (S.I. No. 340 of 2026) for back-garden auxiliary dwellings. Buyers pursuing the 30ft are typically going through full planning permission, for a rural cottage, a holiday let, or a larger family-supporting dwelling on a site that already has principal accommodation.',
       },
       {
         q: 'Is the 30ft Expandable suitable for short-term let / Airbnb use in Ireland?',
@@ -120,7 +120,7 @@ export const modularHomeModels = [
     id: '40ft',
     name: '40ft Expandable',
     h1: '40ft Expandable Container Home, Spec Sheet for Ireland',
-    metaTitle: '40ft Expandable Container Home Ireland, Specs, Floor Plans & Price | Ériu',
+    metaTitle: '40ft Expandable Container Home Ireland: Specs & Price | Ériu',
     metaDescription: 'The 40ft expandable container home, ~70 m² internal, a 2 or 3-bed family layout. The full-size modular home, factory-direct from central China to Ireland.',
     eyebrow: '40ft Expandable Model',
     tagline: 'The full home. Two or three bedrooms, ~70 m² internal.',
@@ -167,7 +167,7 @@ export const modularHomeModels = [
     id: '20ft700',
     name: '20FT700 Foldable',
     h1: '20FT700 Foldable Modular Cabin, Spec Sheet for Ireland',
-    metaTitle: '20FT700 Foldable Modular Cabin Ireland, Six Units Per Container | Ériu',
+    metaTitle: '20FT700 Foldable Cabin Ireland: 6 per Container | Ériu',
     metaDescription: 'The 20FT700 foldable cabin, folds to 700 mm so six units load one 40HQ container. The shipping-efficiency model for multi-unit projects and holiday parks.',
     eyebrow: '20FT700 Foldable Model',
     tagline: 'The shipping efficiency unit. Six sets per 40HQ container.',
@@ -204,7 +204,7 @@ export const modularHomeModels = [
       },
       {
         q: 'Is the 20FT700 suitable for Irish back-garden auxiliary dwelling use?',
-        a: 'Possible but unusual. At ~25 m² internal the 20FT700 sits below the lower bound (32 m²) drafted in the April 2026 Exempted Development Regulations, which means it would not qualify for the planning exemption. For single-unit back-garden auxiliary dwellings the 20ft Expandable is the standard recommendation. The 20FT700 makes sense when shipping cost matters more than maximum internal floor area, typically when the buyer is ordering multiple units.',
+        a: 'Possible but unusual. At ~25 m² internal the 20FT700 sits below the lower bound (32 m²) of the Class 3A exemption (S.I. No. 340 of 2026), which means it would not qualify for the planning exemption. For single-unit back-garden auxiliary dwellings the 20ft Expandable is the standard recommendation. The 20FT700 makes sense when shipping cost matters more than maximum internal floor area, typically when the buyer is ordering multiple units.',
       },
     ],
   },
