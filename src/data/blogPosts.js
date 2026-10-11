@@ -3199,6 +3199,132 @@ export const blogPosts = [
       { text: 'Get a quote with landed cost', href: '/contact/' },
     ],
   },
+
+  {
+    slug: 'phone-screen-grades-incell-hard-oled-soft-oled-explained',
+    title: 'Phone Screen Grades Explained: In-Cell vs Hard OLED vs Soft OLED vs Genuine Pulls',
+    metaTitle: 'Phone Screen Grades: In-Cell vs OLED Explained | Ériu',
+    metaDescription: 'In-cell, hard OLED, soft OLED or a genuine pull? What each replacement screen grade is, how it performs and how repair shops can buy them without surprises.',
+    h1: 'Phone screen grades explained: in-cell, hard OLED, soft OLED and genuine pulls',
+    eyebrow: 'Repair Parts Guide',
+    category: 'category-guides',
+    primaryKeyword: 'phone screen grades explained',
+    secondaryKeywords: ['in-cell vs OLED screen', 'soft OLED vs hard OLED', 'iPhone replacement screen grades', 'phone repair parts supplier Ireland'],
+    intent: 'informational',
+    targetReader: 'Owners and technicians at Irish phone repair shops choosing which replacement screen grades to stock',
+    estimatedWordCount: 1400,
+    publishDate: '2026-10-11',
+    draft: false,
+    body: `<p class="article-summary"><strong>The short answer:</strong> in-cell is an LCD with the touch layer built in, the cheapest grade but thicker and duller than the original OLED. Hard OLED is a real OLED panel on a rigid glass base, a good mid-price option. Soft OLED is built on a flexible base like the original and is the best aftermarket grade. Genuine pulls are original panels taken from donor phones. Grade names are not standardised between suppliers, so test before you buy in volume.</p>
+
+<p>Screens are the repair that keeps most phone shops busy. One repair-industry dataset put screen damage at around 70% of phone repairs, and most shops we speak to see a similar split. That makes the screen grade you choose the biggest single decision in your parts buying. Get it wrong and you pay twice: once for the part and again for the comeback.</p>
+
+<p>This guide explains what each grade is, how it performs, what your customer will notice, and how to buy them without surprises.</p>
+
+<h2>Why screen grades exist</h2>
+
+<p>Most current iPhones and Samsung flagships use OLED screens. Original OLED panels are expensive and made by a handful of panel makers, so the aftermarket offers several cheaper ways to rebuild the same display. Each grade is a different trade-off between price, picture quality, thickness, battery draw and durability.</p>
+
+<p>The catch is that grade names are a market convention, not a standard. The same label can mean different things from different suppliers in Shenzhen's Huaqiangbei market, where most of these screens are sold. That is why testing matters more than the label.</p>
+
+<figure class="article-figure">
+  <img src="/images/huaqiangbei-phone-parts-market-stalls.webp" alt="Phone parts stalls in Shenzhen's Huaqiangbei electronics market, with traders testing replacement screens at the counter" loading="lazy" width="1216" height="832">
+  <figcaption>Most replacement screens sold in Europe start in Shenzhen's Huaqiangbei market, where the same grade name can cover very different quality</figcaption>
+</figure>
+
+<h2>In-cell LCD: the budget grade</h2>
+
+<p>An in-cell screen is an LCD panel with the touch sensor built into the display layer. It is the cheapest way to replace an OLED screen and it works, but the differences are visible:</p>
+
+<ul>
+<li>It is thicker than the OLED it replaces, which can affect how the screen sits in the frame.</li>
+<li>Blacks are grey rather than true black, because an LCD needs a backlight.</li>
+<li>Colours are less vivid, and viewing angles are narrower.</li>
+<li>Battery draw is usually higher, because the backlight is always on.</li>
+</ul>
+
+<p>In-cell suits price-sensitive customers, older phones that are not worth much, and phones going for resale where the price is what matters. Tell the customer what they are getting.</p>
+
+<h2>Hard OLED: the mid-price grade</h2>
+
+<p>A hard OLED is a real OLED panel built on a rigid glass base. Picture quality is close to the original, with true blacks and good colour, at a lower price than soft OLED.</p>
+
+<p>The trade-off is durability under flex. Because the base is rigid, a hard OLED tolerates frame bending and pressure less well than a soft one. For most customers, though, it is the sensible middle option: it looks like the original and costs noticeably less.</p>
+
+<h2>Soft OLED: the premium aftermarket grade</h2>
+
+<p>A soft OLED is built on a flexible polymer base, like the original panel. That lets it match the original's thickness and fit more closely, and it copes better with the small flexes a phone takes in a pocket.</p>
+
+<p>Soft OLED is the grade to offer customers who want the closest thing to the original without paying for a genuine part. It costs more than hard OLED, and quality varies between makers more than the label suggests.</p>
+
+<figure class="article-figure">
+  <img src="/images/shenzhen-phone-screen-qc-testing-replacement-oled.webp" alt="Inspector in Shenzhen testing a replacement phone screen on a test fixture, with trays of screens waiting to be checked" loading="lazy" width="1216" height="832">
+  <figcaption>The only reliable way to know a screen's real grade and condition is to power it up and test it before it ships</figcaption>
+</figure>
+
+<h2>Genuine pulls and refurbished originals</h2>
+
+<p>Genuine pulled screens are original panels taken out of donor phones, for example phones with a broken motherboard but a good screen. Refurbished originals usually keep the original display and touch layer but have new cover glass fitted.</p>
+
+<p>These give the best picture quality because they are the original panel. They are graded on cosmetic condition, typically A, B or C, but again there is no common standard between sellers, so ask what each grade allows (light scratches, burn-in, tint).</p>
+
+<h2>What the customer will see on an iPhone</h2>
+
+<p>On recent iPhones, a screen that is not a new genuine Apple part shows a notice in Settings. Apple's own support pages describe "Unknown Part" messages for displays that are not genuine or have not been verified, and a "Used" message on iPhone 15 and later when a display has been in another iPhone. The phone keeps working.</p>
+
+<p>Features such as True Tone and auto-brightness depend on the screen and on the iOS version, and the picture has shifted more than once since iOS 18 introduced Repair Assistant. Do not rely on last year's answer: test current stock on the current iOS, and tell customers in advance what they will see.</p>
+
+<h2>How to choose which grades to stock</h2>
+
+<p>Most shops do well with two or three tiers per popular model:</p>
+
+<ul>
+<li><strong>Budget:</strong> in-cell, for older models and price-led customers.</li>
+<li><strong>Standard:</strong> hard or soft OLED, for most repairs on current phones.</li>
+<li><strong>Premium:</strong> genuine pulls or soft OLED, for customers who want the closest match to the original.</li>
+</ul>
+
+<p>Price each tier clearly and write the grade on the repair ticket. It protects you under Irish consumer law, and it means a customer comparing quotes understands why yours is different.</p>
+
+<h2>How to buy screens without surprises</h2>
+
+<p>Whether you buy from a distributor or direct from Shenzhen, the same rules apply:</p>
+
+<ul>
+<li><strong>Test samples first</strong> from any new supplier, on the iOS or Android version your customers are running.</li>
+<li><strong>Test every screen in volume orders,</strong> not just a sample: dead pixels, uniformity, the full touch grid, and frame fit.</li>
+<li><strong>Keep batch records,</strong> so a run of failures can be traced back and claimed.</li>
+<li><strong>Avoid logo-copied parts.</strong> Aftermarket parts should be described as compatible, not dressed up as the brand's own.</li>
+</ul>
+
+<p>Ériu Sourcing does this on the ground in Shenzhen for Irish phone shops: we buy screens by grade, test every one before it is packed, reject failures there, and ship the rest to Ireland with the test record. See our <a href="/source/phone-repair-parts-supplier-ireland/">phone repair parts service for Irish shops</a>, or go straight to <a href="/source/electronics/phone-replacement-screens-china-ireland/">replacement screens</a>.</p>`,
+    excerpt: 'In-cell, hard OLED, soft OLED or a genuine pull? What each replacement phone screen grade is, how it performs, what iPhone customers will see, and how repair shops can buy screens without surprises.',
+    image: '/images/shenzhen-phone-screen-qc-testing-replacement-oled.webp',
+    imageAlt: 'Replacement phone screens being tested in Shenzhen before shipment to Irish repair shops',
+    sections: [
+      'Why screen grades exist',
+      'In-cell LCD: the budget grade',
+      'Hard OLED: the mid-price grade',
+      'Soft OLED: the premium aftermarket grade',
+      'Genuine pulls and refurbished originals',
+      'What the customer will see on an iPhone',
+      'How to choose which grades to stock',
+      'How to buy screens without surprises',
+    ],
+    faq: [
+      { q: 'What is the difference between in-cell and OLED replacement screens?', a: 'In-cell is an LCD with the touch layer built in. It is cheaper but thicker, with grey rather than true blacks and usually higher battery draw. OLED replacements (hard or soft) use a real OLED panel, so they look much closer to the original.' },
+      { q: 'Is soft OLED better than hard OLED?', a: 'Generally, yes. Soft OLED is built on a flexible base like the original panel, so it matches the original fit more closely and copes better with flex. Hard OLED uses a rigid glass base: similar picture quality at a lower price, but less tolerant of frame bending.' },
+      { q: 'Will a replacement screen show a message on an iPhone?', a: 'On recent iPhones, a screen that is not a new genuine Apple part shows a notice in Settings, which Apple describes as an "Unknown Part" message (or "Used" on iPhone 15 and later if it came from another iPhone). The phone keeps working; True Tone behaviour depends on the screen and iOS version.' },
+      { q: 'What is a genuine pulled screen?', a: 'An original display taken from a donor phone, then graded on cosmetic condition. It gives the best picture quality, but grade definitions (A, B, C) vary between sellers, so check what each allows.' },
+    ],
+    relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'ce-marking-china-imports-ireland', 'real-landed-cost-importing-from-china-ireland'],
+    internalLinks: [
+      { text: 'Phone repair parts for Irish shops', href: '/source/phone-repair-parts-supplier-ireland/' },
+      { text: 'Replacement screens, tested in Shenzhen', href: '/source/electronics/phone-replacement-screens-china-ireland/' },
+      { text: 'Replacement batteries', href: '/source/electronics/phone-replacement-batteries-china-ireland/' },
+      { text: 'Get a parts quote', href: '/contact/' },
+    ],
+  },
 ];
 // Helper: get published posts only
 export const publishedPosts = blogPosts.filter(p => !p.draft);

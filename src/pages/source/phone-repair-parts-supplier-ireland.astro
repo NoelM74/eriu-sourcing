@@ -1,0 +1,408 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = "Phone Repair Parts Supplier for Irish Shops | Ériu";
+const description = "Screens, batteries and repair parts for iPhone and Samsung, bought in Shenzhen and tested before they ship to Irish phone shops. Accessories on the same order.";
+const canonical = "/source/phone-repair-parts-supplier-ireland/";
+const ogImage = "/images/shenzhen-phone-screen-qc-testing-replacement-oled.webp";
+const ogImageAlt = "Replacement phone screens being tested in Shenzhen before shipment to Irish phone repair shops";
+const siteUrl = 'https://eriusourcing.com';
+
+const faqs = [
+  {
+    q: "Why buy phone parts through Ériu rather than straight from Huaqiangbei?",
+    a: "You can buy direct, but grade names are not standardised, one stall's soft OLED is another's hard OLED, and you only find the bad screens after you fit them. We buy on the ground in Shenzhen, test before we pay, reject weak batches there and ship what passed. You get Shenzhen pricing without carrying the risk of a bad batch yourself.",
+  },
+  {
+    q: "What do you test before the parts ship?",
+    a: "Every screen is powered up and checked for dead pixels, colour and brightness uniformity, a full touch-grid response and frame and connector fit. Batteries are capacity-tested against their rating, with cycle count, date code and swelling checked. Charging ports and cameras are function-tested by sample per batch, and accessories go through AQL sampling inspection. Failures are rejected in Shenzhen and you receive the test record with the packing list.",
+  },
+  {
+    q: "Will aftermarket screens and batteries show a message on iPhones?",
+    a: "On recent iPhones, yes. A part that is not a new genuine Apple part shows a notice in Settings, and Apple's support pages describe 'Unknown Part' and 'Used' messages. The phone keeps working. What else changes (True Tone, battery health display) depends on the part and the iOS version, so we test current stock against the current iOS and tell you what each grade does before you order. Your customer should be told which grade went in.",
+  },
+  {
+    q: "How long does it take for parts to reach Ireland?",
+    a: "Common screens and parts are usually in stock in Shenzhen, so they can be tested and packed within days, then reach Ireland in roughly one to two weeks by air express. Batteries travel as dangerous goods on approved routes, which can take a little longer.",
+  },
+  {
+    q: "What is the minimum order?",
+    a: "First orders typically start from around €3,000, mixed across models, grades and part types. That is what makes the testing and consolidated freight worth it. If you only need a handful of screens a month, a local distributor will be quicker, and we will tell you so.",
+  },
+  {
+    q: "Do you supply counterfeit or logo-copied parts?",
+    a: "No. Aftermarket parts are described as compatible ('for iPhone 14'), genuine pulled parts are described as genuine pulls, and we do not ship parts or accessories carrying copied brand logos. Logo-copied goods can be seized by customs, and they put your shop's name at risk.",
+  },
+];
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "What We Source", "item": `${siteUrl}/source/` },
+      { "@type": "ListItem", "position": 3, "name": "Phone Repair Parts for Irish Shops", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "Service",
+    "name": "Phone repair parts sourcing and pre-shipment testing for Irish phone shops",
+    "description": description,
+    "provider": { "@type": "ProfessionalService", "@id": `${siteUrl}/#organization` },
+    "areaServed": { "@type": "Country", "name": "Ireland" },
+    "serviceType": "Phone Repair Parts Sourcing",
+    "dateModified": new Date().toISOString().split('T')[0]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((f) => ({
+      "@type": "Question",
+      "name": f.q,
+      "acceptedAnswer": { "@type": "Answer", "text": f.a }
+    }))
+  }
+];
+
+const lines = [
+  { href: '/source/electronics/phone-replacement-screens-china-ireland/', h: 'Replacement screens', p: 'iPhone and Samsung. In-cell, hard OLED, soft OLED and genuine pulls, every screen tested before packing.' },
+  { href: '/source/electronics/phone-replacement-batteries-china-ireland/', h: 'Replacement batteries', p: 'Capacity-tested, date-coded, UN38.3-documented and shipped legally as dangerous goods.' },
+  { href: '/source/electronics/phone-charging-ports-back-glass-cameras-china-ireland/', h: 'Ports, glass, cameras & small parts', p: 'Charging-port flexes, back glass, cameras, speakers, flexes, screws and adhesive on the same order.' },
+  { href: '/source/electronics/phone-accessories-wholesale-china-ireland/', h: 'Accessories', p: 'Tempered glass, cases, USB-C chargers and earbuds, own-brand if you want it, with charger rules checked.' },
+  { href: '/source/electronics/smartwatches-wearables-china-ireland/', h: 'Smartwatches & wearables', p: 'Smartwatches, fitness bands, kids\' GPS watches and straps, with RED cybersecurity checked.' },
+  { href: '/source/electronics/action-cameras-wearable-cameras-china-ireland/', h: 'Action & wearable cameras', p: 'Action cameras, clip-on body cameras and dash cams, compared on samples before you order.' },
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} ogImage={ogImage} ogImageAlt={ogImageAlt} jsonLd={pageSchemas}>
+
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="hero-bg">
+      <img
+        src="/images/shenzhen-phone-screen-qc-testing-replacement-oled.webp"
+        alt="Inspector in Shenzhen testing a replacement phone screen, with trays of screens waiting to be checked before shipment to Ireland"
+        width="1216"
+        height="832"
+        loading="eager"
+        fetchpriority="high"
+      />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content container">
+      <span class="hero-eyebrow">Phone repair parts for Irish phone shops</span>
+      <h1>Phone parts, tested in Shenzhen before they reach your bench.</h1>
+      <p class="hero-sub">Screens, batteries and repair parts for iPhone and Samsung, bought in Huaqiangbei and checked one by one before they ship. Accessories, smartwatches and gadgets on the same order. Bad batches stay in China, not on your shelf.</p>
+      <div class="hero-actions">
+        <a href="/contact/" class="btn btn--white">Send us your parts list →</a>
+        <a href="#tested" class="btn btn--white-outline">See what we test</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item">
+          <span class="trust-num">~70%</span>
+          <span class="trust-label">of phone repairs are screens (industry data)</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">Every screen</span>
+          <span class="trust-label">Function-tested before it is packed</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">1–2 weeks</span>
+          <span class="trust-label">Shenzhen to Ireland by air express</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">From €3,000</span>
+          <span class="trust-label">Typical first order, mixed models and grades</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE PROBLEM -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="split-grid">
+        <div class="split-content">
+          <span class="section-eyebrow">Why parts go wrong</span>
+          <h2>You find a bad screen after you have fitted it</h2>
+          <p>Most replacement parts sold in Ireland and the UK start in Shenzhen's Huaqiangbei market. The problem is not where they come from. It is that nobody checks them before they leave.</p>
+          <ul class="tick-list">
+            <li>Grade names are not standardised. One stall's "soft OLED" is another's hard OLED.</li>
+            <li>Batches get mixed. Ten good screens and two with dead pixels or a weak touch layer.</li>
+            <li>Batteries can be old stock or under their rated capacity, and they need dangerous-goods paperwork to ship legally.</li>
+            <li>Logo-copied parts can be seized by customs and put your shop's name at risk.</li>
+          </ul>
+          <p>Every comeback costs you the part, the labour and the customer's trust. We put the testing where it is cheapest: in Shenzhen, before anything is paid for or shipped.</p>
+        </div>
+        <div class="split-image">
+          <img
+            src="/images/huaqiangbei-phone-parts-market-stalls.webp"
+            alt="Phone parts stalls in Shenzhen's Huaqiangbei electronics market, with traders testing replacement screens at the counter"
+            width="1216"
+            height="832"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT LINES -->
+  <section class="section" id="lines">
+    <div class="container">
+      <span class="section-eyebrow">What we supply</span>
+      <h2>Everything a phone shop buys, on one consolidated order</h2>
+      <p class="cat-intro">Screens are the core. Batteries and small parts keep the bench running, and accessories and gadgets are the counter sale. Order them together and they arrive together.</p>
+      <div class="cat-grid">
+        {lines.map((l) => (
+          <a href={l.href} class="cat-card cat-card--link">
+            <h3>{l.h} →</h3>
+            <p>{l.p}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE TEST -->
+  <section class="section section--alt" id="tested">
+    <div class="container">
+      <div class="products-layout">
+        <div class="products-header">
+          <span class="section-eyebrow">Checked and verified before shipping</span>
+          <h2>What we test before anything leaves Shenzhen</h2>
+          <p>Parts that fail are rejected in China and never reach you. You get the test record with every packing list, so a warranty claim can be traced back to its batch.</p>
+        </div>
+        <ul class="products-list">
+          <li><span class="product-check">✓</span><span><strong>Screens, every unit:</strong> dead pixels, colour and brightness uniformity, full touch-grid test, frame and connector fit</span></li>
+          <li><span class="product-check">✓</span><span><strong>Batteries, every unit:</strong> capacity against rated mAh, cycle count, cell date code, no swelling</span></li>
+          <li><span class="product-check">✓</span><span><strong>Ports and cameras:</strong> function test by sample on each batch</span></li>
+          <li><span class="product-check">✓</span><span><strong>Accessories:</strong> AQL sampling inspection; chargers and earbuds function-tested</span></li>
+          <li><span class="product-check">✓</span><span><strong>Grade labelling:</strong> every part labelled by model and grade, so you know exactly what you are fitting</span></li>
+          <li><span class="product-check">✓</span><span><strong>Paperwork:</strong> UN38.3 reports for batteries, CE and RED documents for chargers and gadgets</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section">
+    <div class="container">
+      <span class="section-eyebrow">How it works</span>
+      <h2>From your parts list to your bench</h2>
+      <div class="process-steps">
+        <div class="process-step">
+          <span class="step-num">01</span>
+          <h3>Send your list</h3>
+          <p>The models you repair most, the grades you fit and rough monthly quantities. A spreadsheet or a WhatsApp photo is fine.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">02</span>
+          <h3>Landed quote</h3>
+          <p>Price per model and grade, delivered to Ireland, with freight, duty and 23% VAT included.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">03</span>
+          <h3>Buy and test</h3>
+          <p>We buy in Shenzhen, test every screen and battery, and reject anything that fails.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">04</span>
+          <h3>Ship</h3>
+          <p>Air express for screens and parts. Batteries on dangerous-goods-approved routes with the right paperwork.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">05</span>
+          <h3>Reorder</h3>
+          <p>Keep a standing list and top it up as you sell through, so your best sellers never run out.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REGULATION CONTEXT -->
+  <section class="section section--emerald">
+    <div class="container--narrow">
+      <span class="section-eyebrow section-eyebrow--light">The rules are moving towards repair</span>
+      <h2>A good time to be an independent repairer</h2>
+      <p>Since 20 June 2025, EU ecodesign rules require phone makers to keep spare parts available to professional repairers for seven years after a model stops being sold. Ireland's Right to Repair regulations came into force on 31 July 2026, and the CCPC's guidance says a manufacturer cannot refuse a repair just because an independent repairer has worked on the phone before.</p>
+      <p>Customers are keeping phones longer and fixing them more. The shops that win that work are the ones with reliable parts at a fair price, and with an honest answer about which grade went into the phone.</p>
+    </div>
+  </section>
+
+  <!-- FIT -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Is this right for you?</span>
+      <h2>This is a good fit if…</h2>
+      <ul class="tick-list tick-list--lg">
+        <li>You fit screens every day and are tired of returns from bad batches.</li>
+        <li>You buy through UK or EU parts distributors and want to cut out a layer of margin.</li>
+        <li>You want accessories, smartwatches or gadgets on the same shipment as your parts.</li>
+        <li>You run more than one shop and want one supply line for all of them.</li>
+      </ul>
+      <p class="fit-note">If you only need a few screens a month, a local distributor will be quicker and simpler, and we will tell you that on the first call.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Common questions</span>
+      <h2>Phone repair parts from Shenzhen, questions answered</h2>
+      <p class="faq-updated">Last reviewed: October 2026</p>
+      <div class="faq-list">
+        {faqs.map((f) => (
+          <details class="faq-item">
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+      <p class="fit-note">New to screen grades? Read <a href="/blog/phone-screen-grades-incell-hard-oled-soft-oled-explained/" class="inline-link">in-cell vs hard OLED vs soft OLED, explained for repair shops</a>.</p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--emerald">
+    <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">Ready to price it up?</span>
+      <h2>Send us your parts list.</h2>
+      <p>Tell us the models you repair most and roughly how many screens you fit a month. We will come back with landed prices by model and grade, no obligation.</p>
+      <a href="/contact/" class="btn btn--white-outline" style="margin-top:1rem">Get a parts quote →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  /* HERO */
+  .page-hero {
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+  }
+  .hero-bg { position: absolute; inset: 0; }
+  .hero-bg img { width: 100%; height: 100%; object-fit: cover; object-position: center 40%; }
+  .hero-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(10, 28, 18, .9) 0%, rgba(10, 28, 18, .55) 50%, rgba(10, 28, 18, .2) 100%);
+  }
+  .hero-content { position: relative; z-index: 2; padding-block: 4rem 5rem; max-width: 900px; }
+  .hero-eyebrow {
+    font-size: .8125rem; font-weight: 700; color: rgba(255,255,255, .65);
+    text-transform: uppercase; letter-spacing: .1em; margin-bottom: 1.25rem; display: block;
+  }
+  .hero-content h1 {
+    color: #fff; font-size: clamp(2.25rem, 5vw, 4rem); line-height: 1.05;
+    margin-bottom: 1.5rem; letter-spacing: -.03em;
+  }
+  .hero-sub {
+    font-size: clamp(1rem, 1.5vw, 1.1875rem); color: rgba(255,255,255, .82);
+    line-height: 1.7; margin-bottom: 2rem; max-width: 640px;
+  }
+  .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+  /* TRUST BAR */
+  .trust-bar { background: #fff; border-bottom: 1px solid rgba(15, 33, 49, .08); padding: 2.5rem 0; }
+  .trust-grid { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
+  .trust-item { display: flex; flex-direction: column; gap: .25rem; flex: 1; min-width: 160px; }
+  .trust-num {
+    font-family: var(--font-body); font-size: clamp(1.25rem, 2.5vw, 1.875rem);
+    font-weight: 700; color: var(--color-emerald); line-height: 1; letter-spacing: -.03em;
+  }
+  .trust-label { font-size: .875rem; color: #5a5a5a; }
+  .trust-divider { width: 1px; height: 48px; background: rgba(15, 33, 49, .12); flex-shrink: 0; }
+
+  /* SPLITS */
+  .split-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+  .split-grid--reverse { direction: rtl; }
+  .split-grid--reverse > * { direction: ltr; }
+  .split-content h2 { margin-bottom: 1.25rem; }
+  .split-content p { color: #3a3a3a; margin-bottom: 1rem; }
+  .split-image img { width: 100%; height: 420px; object-fit: cover; border-radius: 12px; }
+  .inline-link { color: var(--color-emerald); font-weight: 600; font-size: .9375rem; text-decoration: none; }
+  .inline-link:hover { text-decoration: underline; }
+
+  /* TICK LISTS */
+  .tick-list { list-style: none; margin: 0 0 1.25rem; padding: 0; display: flex; flex-direction: column; gap: .625rem; }
+  .tick-list li { position: relative; padding-left: 1.5rem; color: #3a3a3a; line-height: 1.55; }
+  .tick-list li::before { content: '✓'; position: absolute; left: 0; color: var(--color-emerald); font-weight: 700; }
+  .tick-list--lg li { font-size: 1.0625rem; color: var(--color-navy); }
+  .fit-note { color: var(--color-slate); font-size: .9375rem; margin-top: 1rem; }
+
+  /* HARDWARE CARDS */
+  .cat-intro { color: var(--color-slate); max-width: 70ch; margin: 1rem 0 2rem; }
+  .cat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+  .cat-grid--2 { grid-template-columns: 1fr 1fr; }
+  .cat-card {
+    display: block; padding: 1.5rem; background: var(--color-white);
+    border: 1px solid rgba(15, 33, 49, .09); border-radius: 12px;
+    text-decoration: none; color: inherit;
+  }
+  .cat-card--link { transition: border-color .15s ease, transform .15s ease; }
+  .cat-card--link:hover { border-color: var(--color-emerald); transform: translateY(-2px); }
+  .cat-card--link h3 { font-size: 1.0625rem; color: var(--color-emerald); margin: 0 0 .625rem; }
+  .cat-card--link p { font-size: .9375rem; color: #3a3a3a; margin: 0; line-height: 1.6; }
+  .cat-card--static h3 { font-size: 1.0625rem; color: var(--color-navy); margin: 0 0 .625rem; }
+  .cat-card--static p { font-size: .9375rem; color: #3a3a3a; margin: 0; line-height: 1.6; }
+  .cat-note { color: var(--color-slate); font-size: .9375rem; margin-top: 1.5rem; max-width: 70ch; }
+
+  /* PRODUCTS LAYOUT */
+  .products-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+  .products-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .875rem; }
+  .products-list li { display: flex; align-items: flex-start; gap: .75rem; font-size: 1rem; color: var(--color-navy); line-height: 1.5; }
+  .product-check { color: var(--color-emerald); font-weight: 700; flex-shrink: 0; margin-top: .1em; }
+  .products-header p { color: var(--color-slate); margin-top: 1rem; }
+
+  /* PROCESS STEPS */
+  .process-steps { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; margin-top: 2.5rem; }
+  .process-step { padding: 2rem 1.25rem 2rem 0; border-top: 2px solid var(--color-emerald); }
+  .step-num {
+    display: block; font-family: var(--font-body); font-size: 2.5rem; font-weight: 700;
+    color: var(--color-teal); opacity: .35; line-height: 1; margin-bottom: .75rem; letter-spacing: -.04em;
+  }
+  .process-step h3 { font-size: 1rem; font-weight: 700; margin-bottom: .5rem; color: var(--color-navy); }
+  .process-step p { font-size: .9375rem; color: #4a4a4a; max-width: 100%; margin: 0; }
+
+  /* FAQ */
+  .faq-updated { font-size: .8125rem; color: #888; margin: .25rem 0 1.5rem; }
+  .faq-list { display: flex; flex-direction: column; gap: 0; margin-top: 1rem; }
+  .faq-item { border-bottom: 1px solid rgba(15, 33, 49, .1); padding: 0; }
+  .faq-item summary {
+    font-weight: 600; font-size: 1rem; color: var(--color-navy); cursor: pointer;
+    padding: 1.25rem 0; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+  }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after {
+    content: '+'; font-size: 1.25rem; font-weight: 300; color: var(--color-emerald);
+    flex-shrink: 0; transition: transform .2s ease;
+  }
+  .faq-item[open] summary::after { transform: rotate(45deg); }
+  .faq-item p { padding: 0 0 1.25rem; color: #4a4a4a; font-size: .9375rem; margin: 0; line-height: 1.65; }
+
+  @media (max-width: 900px) {
+    .split-grid, .split-grid--reverse { grid-template-columns: 1fr; gap: 2rem; direction: ltr; }
+    .split-image img { height: 280px; }
+    .products-layout { grid-template-columns: 1fr; gap: 2rem; }
+    .cat-grid, .cat-grid--2 { grid-template-columns: 1fr; }
+    .process-steps { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+    .process-step { padding: 1.5rem 0 0; }
+    .trust-divider { display: none; }
+  }
+  @media (max-width: 600px) {
+    .process-steps { grid-template-columns: 1fr; }
+    .hero-actions { flex-direction: column; }
+    .trust-grid { gap: 1rem; }
+  }
+</style>

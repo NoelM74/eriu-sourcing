@@ -1,13 +1,13 @@
 # Session Handoff — Ériu modular funnel, UX & SEO work
 
-_Last updated: 2026-10-08. Internal notes (not built into the site — lives outside `src/`/`public/`)._
+_Last updated: 2026-10-11. Internal notes (not built into the site — lives outside `src/`/`public/`)._
 
 ## Repo & workflow
 - **Repo:** `noelm74/eriu-sourcing` — Astro 6 + Tailwind v4 + Cloudflare Pages (static SSG, no adapter). Site: `https://eriusourcing.com`.
 - **Two business lines:** factory-direct China sourcing (original) + **Modular Homes** (`/modular-homes/` silo).
 - **Dev branch:** `claude/vigilant-cerf-izAZG`.
 - **Ship workflow:** commit to branch → PR to `main` → **squash-merge** → `git merge origin/main` to reconcile branch (the "Reconcile branch with squash-merged main (#NN)" commits are expected). User has authorised live merges throughout.
-- **Build:** `npm run build` (currently **128 pages**). Preview: `npx astro preview --port <port>`.
+- **Build:** `npm run build` (currently **135 pages**). Preview: `npx astro preview --port <port>`.
 - Commit footer: `https://claude.ai/code/session_013N3ikcjpB8BSkkk3CwCi6X`. Model ids — **never** put in commits/PRs/artifacts.
 
 ## What shipped this session (all live on main)
@@ -29,6 +29,9 @@ _Last updated: 2026-10-08. Internal notes (not built into the site — lives out
 16. **SEO Tier 1: Hospitality Fit-Out cluster** (PR #67). **5 spokes** under `/source/hospitality/`: hotel-bedroom-furniture, restaurant-bar-seating, lounge-lobby-sofas-soft-seating, hospitality-lighting, commercial-outdoor-furniture. Foshan/Lecong/Zhongshan; compliance hooks EN 1021 / EN 16139 / EN 581 / CE-LVD-EMC. Distinct from construction-materials (no tiles/functional LED). Images copied + optimised.
 17. **Google Analytics 4** (PR #70). Tag `G-DSRB3TSKEG` in `BaseLayout.astro` `<head>` (`is:inline`), on every page. Privacy policy now discloses GA4 (it previously said "no analytics cookies").
 18. **Cookie consent + Google Consent Mode v2** (PR #71). All consent signals default `denied` before gtag loads; `CookieBanner.astro` (equal-weight Reject/Accept) stores the choice in `localStorage` key `eriu-consent`; Accept grants `analytics_storage` only (ad signals stay denied). Footer "Cookie settings" (`[data-cookie-settings]`) reopens it; Reject clears `_ga` cookies. Privacy `#cookies` section explains it. Mode = "advanced" (cookieless pings when denied); offered the owner a stricter "don't load gtag until Accept" option, no answer yet.
+19. **Phone shop / Shenzhen parts cluster** (this PR). Landing page `/source/phone-repair-parts-supplier-ireland/` (also a buyer-type card on `/source/`) + 6 electronics spokes: phone-replacement-screens, phone-replacement-batteries, phone-charging-ports-back-glass-cameras, phone-accessories-wholesale, smartwatches-wearables, action-cameras-wearable-cameras (all `-china-ireland`) + blog `phone-screen-grades-incell-hard-oled-soft-oled-explained`. 7 Flux-generated images (no logos) in `public/images` + `src/assets/images`. Also fixed a site-wide offer-page bug: `.hero-content` used `padding: 4rem 0 5rem`, wiping the container's side gutter on mobile; now `padding-block` (9 pages).
+    - **Service promises on these pages the owner must be able to deliver:** every screen and every battery function-tested in Shenzhen before packing; ports/cameras tested by sample per batch; AQL on accessories; test record sent with each packing list; first orders "from around €3,000" mixed; "roughly one to two weeks" Shenzhen to Ireland by air express; no logo-copied parts.
+    - **Sourced facts used:** ~70% of repairs are screens (OnsiteGo 2020 dataset, presented as "industry data"); EU ecodesign for phones from 20 June 2025 (spare parts 7 yrs after end of sales); Irish Right to Repair Regs in force 31 July 2026 (CCPC guidance); Common Charger Directive USB-C from 28 Dec 2024; RED cyber DR 2022/30 from 1 Aug 2025; batteries UN3480 (loose) / UN3481 (in equipment). No duty % quoted for these lines (classification-dependent).
 
 ## Hard policies / integrity rules (DO NOT VIOLATE)
 - **Pricing:** installed cost is **always site-specific** → **no single all-in number**. Pages show "we'll model your exact figure". `allIn`/`allInNum` stay **null by design** (canonical, not placeholder). Real anchors only: **€25,000 delivered** start; Irish-built **€110,000–€180,000**; **14–18 wks**; **A2 BER on a correctly installed unit**.
@@ -46,7 +49,7 @@ _Last updated: 2026-10-08. Internal notes (not built into the site — lives out
 
 ## Content model (for SEO/strategy work)
 - **Source category pillars** (`src/data/sourcingPages.js`): electronics, furniture, construction-materials, hospitality-fitout, pet-supplies, modular-buildings, machinery.
-- **Source product spokes** (`src/data/products.js`, rendered by `source/[category]/[product].astro`): construction-materials **21**, machinery 5, **electronics 5 (PR #61)**, **hospitality 5 (PR #67)**, inflatables 2, furniture 2, cutting-tools 1. **pet-supplies & modular-buildings still have 0 spokes.** ⚠ Recommend SKIPPING/careful-differentiating "modular-buildings" — it risks cannibalising the consumer `/modular-homes/` business. The pillar template auto-renders linked cards for any product whose `categoryFullSlug` matches the pillar — so adding spokes needs NO template change. **Recipe:** add product objects with `categorySlug`/`categoryFullSlug`/`categoryLabel` matching the pillar; copy hero image to `src/assets/images`.
+- **Source product spokes** (`src/data/products.js`, rendered by `source/[category]/[product].astro`): construction-materials **21**, machinery 5, **electronics 11 (5 PR #61 + 6 phone-shop spokes)**, **hospitality 5 (PR #67)**, inflatables 2, furniture 2, cutting-tools 1. **pet-supplies & modular-buildings still have 0 spokes.** ⚠ Recommend SKIPPING/careful-differentiating "modular-buildings" — it risks cannibalising the consumer `/modular-homes/` business. The pillar template auto-renders linked cards for any product whose `categoryFullSlug` matches the pillar — so adding spokes needs NO template change. **Recipe:** add product objects with `categorySlug`/`categoryFullSlug`/`categoryLabel` matching the pillar; copy hero image to `src/assets/images`.
   - Hospitality used `categorySlug: 'hospitality'`, `categoryFullSlug: 'hospitality-fitout-from-china-ireland'`. Pet supplies pillar slug = `pet-supplies-from-china-ireland` (Spark Paws is a listed client brand = useful proof for that cluster).
 - **Offer/BOFU pages** (`src/pages/source/*.astro`): glamping, cnc-cutting-tables, ev-charger, mini-excavators, precast, private-label, retail-wholesale, warehouse-racking; + `fiber-optic-cable/` cluster.
 - **Blog** (`src/data/blogPosts.js`, 24 posts): mostly informational/TOFU + commercial-investigation/MOFU; 4 modular advertorials are "commercial".
