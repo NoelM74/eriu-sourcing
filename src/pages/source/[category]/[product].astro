@@ -74,6 +74,13 @@ const pageSchemas = [
     }))
   }
 ];
+
+// Stat-bar figure: a short region name. Long cluster descriptions fall back
+// to the trailing provinces so the stat never renders as a paragraph.
+let regionFigure = product.regionShort ?? product.region.split('(')[0].trim().replace(/ Provinces?$/, '');
+while (!product.regionShort && regionFigure.length > 24 && regionFigure.includes(',')) {
+  regionFigure = regionFigure.slice(regionFigure.indexOf(',') + 1).trim();
+}
 ---
 
 <BaseLayout
@@ -103,8 +110,8 @@ const pageSchemas = [
   />
 
   <StatsRow items={[
-    { figure: product.region.split('(')[0].trim(), label: 'Manufacturing region' },
-    { figure: product.leadTime.split(/[+]/)[0].trim(), label: 'Production lead time' },
+    { figure: regionFigure, label: 'Manufacturing region' },
+    { figure: product.leadTimeShort ?? product.leadTime.split(/[+;(]/)[0].trim(), label: product.leadTimeLabel ?? 'Production lead time' },
     { figure: 'EN + CE', label: 'Compliance verified at factory' }
   ]} />
 

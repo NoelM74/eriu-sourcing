@@ -29,6 +29,9 @@
 //   image             /images/... (reuse a category image until a product photo exists)
 //   imageAlt          alt text including the keyword + 'Ireland'
 //   contentBody       optional editorial HTML block for the long-form section
+//   leadTimeShort     optional short stat-bar figure (else leadTime up to the first + ; or ()
+//   leadTimeLabel     optional label for that stat (default 'Production lead time')
+//   regionShort       optional short stat-bar region (else derived from region)
 
 export const products = [
   {
@@ -2418,6 +2421,8 @@ export const products = [
       'Customers are told in writing which grade is in their phone, in line with Irish consumer law',
     ],
     pricingContext: 'Screen prices move with grade more than anything else. Genuine pulled OLEDs cost the most, soft OLED sits a step below, hard OLED below that and in-cell LCD is the budget option. Buying in Shenzhen removes the European distributor\'s margin, and testing before shipment removes the cost of returns. We quote by model and grade for your actual mix, with landed cost including freight, duty and 23% VAT.',
+    leadTimeShort: '1–2 weeks',
+    leadTimeLabel: 'To Ireland by air, in-stock models',
     leadTime: 'Common models are usually in stock in Shenzhen; tested and packed within days, then roughly one to two weeks to Ireland by air express',
     logistics: 'Screens ship by air express, boxed in anti-static trays inside rigid cartons to stop pressure damage. Each shipment carries a packing list by model and grade and the per-screen test record.',
     faq: [
@@ -2476,6 +2481,8 @@ export const products = [
       'Producer registration for batteries in Ireland (directly or through a compliance scheme) for the importer of record',
     ],
     pricingContext: 'High-capacity and tag-on batteries cost more than standard packs, and dangerous-goods freight costs more than general cargo. Batteries are usually best combined with a screen and parts order so the DG shipping cost is spread. We quote landed cost including DG freight, duty and 23% VAT.',
+    leadTimeShort: 'In stock',
+    leadTimeLabel: 'Common models, then DG shipping',
     leadTime: 'Common models usually in stock; tested and packed within days, then shipped on a dangerous-goods-approved route (allow extra time versus screens)',
     logistics: 'Lithium-ion batteries packed on their own ship as UN3480 dangerous goods: limited state of charge, individual short-circuit protection, Class 9 labels and a DG declaration. Not every carrier or route accepts them, so we book batteries on approved routes rather than slipping them into a general parcel.',
     faq: [
@@ -2532,6 +2539,8 @@ export const products = [
       'Batch records so a faulty lot can be traced and replaced',
     ],
     pricingContext: 'Small parts are low cost per unit, so their value is in reliability and in riding along with a larger screen order. Consolidating everything into one shipment keeps freight per part low. We quote landed cost for the full mix including freight, duty and 23% VAT.',
+    leadTimeShort: '1–2 weeks',
+    leadTimeLabel: 'To Ireland by air, in-stock parts',
     leadTime: 'Common parts usually in stock; checked and packed within days, then roughly one to two weeks to Ireland by air express',
     logistics: 'Small parts are bagged and labelled by model and part, packed in compartment boxes and shipped together with your screens. Camera modules and flexes travel in anti-static packaging.',
     faq: [
@@ -2587,6 +2596,8 @@ export const products = [
       'No logo-copied branded accessories',
     ],
     pricingContext: 'Accessories carry the best margins in a phone shop, and buying from the factory rather than a European wholesaler widens that further, especially with your own brand on the box. Branded packaging raises the minimum order. We quote landed cost per line including freight, duty and 23% VAT.',
+    leadTimeShort: '2–4 weeks',
+    leadTimeLabel: 'Own-brand packaging; stock lines in days',
     leadTime: 'Stock lines within days; own-brand packaging usually 2–4 weeks production, then air express or sea freight depending on volume',
     logistics: 'Accessories ship cartonised and barcoded to your spec. Smaller mixed orders travel by air express with your parts; larger own-brand runs go by sea to keep the cost per unit down.',
     faq: [
@@ -2644,6 +2655,8 @@ export const products = [
       'Health features sold as wellness features, not as medical devices, unless the product holds a medical-device certification',
     ],
     pricingContext: 'Own-brand wearables bought from the factory cost a fraction of the big-brand equivalents, and the margin sits with you rather than the brand. Price depends mostly on screen type, sensors, GPS and the app. We quote landed cost per model including freight, duty and 23% VAT.',
+    leadTimeShort: '1–2 weeks',
+    leadTimeLabel: 'Stock models; own-brand 3–6 weeks',
     leadTime: 'Stock models within 1–2 weeks; own-brand packaging and watch faces typically 3–6 weeks, then air express or sea freight',
     logistics: 'Wearables ship retail-packed and cartonised. Built-in lithium batteries ship as batteries contained in equipment (UN3481), which is simpler than loose batteries but still needs the right declaration.',
     faq: [
@@ -2697,6 +2710,8 @@ export const products = [
       'GDPR: businesses using body-worn cameras to record people must meet data-protection rules; we source the features (encryption, access control) that make that easier',
     ],
     pricingContext: 'Own-brand action and body cameras from the factory cost a fraction of the big-brand equivalents. Price depends on sensor, stabilisation, storage security and battery. Import duty depends on how the camera is classified, so we confirm the code and give you a landed cost including freight, duty and 23% VAT before you order.',
+    leadTimeShort: '1–2 weeks',
+    leadTimeLabel: 'Stock models; own-brand 3–5 weeks',
     leadTime: 'Stock models within 1–2 weeks; own-brand packaging typically 3–5 weeks, then air express or sea freight',
     logistics: 'Cameras ship retail-packed and cartonised. Built-in or packed-with batteries ship under UN3481 with the right declaration. Spare batteries sold separately are handled as dangerous goods.',
     faq: [
@@ -2752,6 +2767,8 @@ export const products = [
       'VAT: import VAT is charged on the full value at entry. Revenue has challenged dealers applying the margin scheme to second-hand phones they imported themselves, so take VAT advice before pricing on a margin basis',
     ],
     pricingContext: 'Refurbished phone prices move weekly with model, storage, grade and battery health. We quote per model, storage and grade for the mix you want, as a landed cost including freight, duty and import VAT, and we tell you which grades are good value that week.',
+    leadTimeShort: '1–2 weeks',
+    leadTimeLabel: 'To source and check a mixed order',
     leadTime: 'Typically 1–2 weeks to source and check a mixed order, then roughly one to two weeks to Ireland by air express',
     logistics: 'Phones ship by air express with built-in batteries declared correctly (UN3481). Each carton carries a packing list by IMEI so you can book stock in phone by phone.',
     faq: [
@@ -2812,6 +2829,8 @@ export const products = [
       'WEEE and battery producer registration in Ireland for the importer of record',
     ],
     pricingContext: 'Battery and inverter prices from the factory sit well below branded European distribution, and the gap is widest on the battery modules. Freight is a real cost because batteries ship as dangerous goods, so orders work best by the pallet or container. We quote landed cost including DG freight, duty and 23% VAT.',
+    leadTimeShort: '1–3 weeks',
+    leadTimeLabel: 'Stock models, then DG sea freight',
     leadTime: 'Stock models 1–3 weeks; custom branding 4–6 weeks; then dangerous-goods sea freight (book ahead, as not every sailing accepts batteries)',
     logistics: 'Battery modules ship as Class 9 dangerous goods (UN3480) by sea, usually on pallets in a full or shared container booked with a DG-approved carrier. Inverters ship as general cargo and can travel with the batteries. Ériu Sourcing supplies and ships only; installation is done by your own registered electrical contractor.',
     faq: [
@@ -2874,6 +2893,8 @@ export const products = [
       'WEEE and battery producer registration in Ireland for the importer of record',
     ],
     pricingContext: 'Own-brand and factory-brand power stations cost far less than the big consumer brands for the same rated capacity, but rated capacity is where weak factories cut corners, so we test it. Larger units ship as dangerous goods. We quote landed cost including freight, duty and 23% VAT.',
+    leadTimeShort: '1–2 weeks',
+    leadTimeLabel: 'Stock models; own-brand 3–5 weeks',
     leadTime: 'Stock models 1–2 weeks; own-brand packaging 3–5 weeks; then sea freight as dangerous goods',
     logistics: 'Power stations ship as lithium-battery dangerous goods (UN3480 or UN3481, depending on how the model is classified) with the right declaration, usually by sea on pallets. Folding solar panels ship as general cargo in the same container.',
     faq: [
