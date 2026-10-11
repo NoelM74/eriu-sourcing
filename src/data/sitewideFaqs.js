@@ -107,11 +107,11 @@ export const sitewideFaqs = [
       },
       {
         q: 'How long does a modular home take from order to delivered?',
-        a: 'Typical end-to-end timeline for an Ériu expandable container home: two weeks factory production, four to five weeks sea freight from China to Dublin, one week port-to-site transit and on-site expansion. Total: approximately seven to eight weeks from production start. Foundation, services, and finishes are usually delivered in parallel by your Irish build team.',
+        a: 'Typical end-to-end timeline for an Ériu expandable container home: two weeks factory production, four to five weeks sea freight from China to Dublin, one week port-to-site transit and on-site expansion. Total: approximately seven to eight weeks from production start. Shipping from the Chinese port onwards is handled by your own Irish freight forwarder and customs broker, and foundation, services and finishes are done in parallel by your own build team.',
       },
       {
         q: 'What is the typical landed cost for a 20ft Expandable in Ireland?',
-        a: 'A 20ft Expandable from the Henan factory base, fully specified for Irish building-regs compliance (PIR-upgraded panel walls, double-glazed openings, internal partitioning to a standard 1-bed layout), is typically €18,000–€26,000 FOB factory. Sea freight from China to Dublin (two units per 40HQ container) adds approximately €1,500 per unit. Irish customs duty, 23% VAT and inland delivery add a further 35–40% to the FOB price. A complete delivered-to-site Irish landed cost is typically €32,000–€42,000 per unit, exclusive of site groundworks, services connection, and internal fit-out.',
+        a: 'A 20ft Expandable from the Henan factory base, fully specified for Irish building-regs compliance (PIR-upgraded panel walls, double-glazed openings, internal partitioning to a standard 1-bed layout), is typically €18,000–€26,000 FOB factory. Sea freight from China to Dublin (two units per 40HQ container) adds approximately €1,500 per unit. Irish customs duty, 23% VAT and inland delivery add a further 35–40% to the FOB price. A complete landed cost at your site is typically €32,000–€42,000 per unit, exclusive of site groundworks, services connection, and internal fit-out.',
       },
     ],
   },

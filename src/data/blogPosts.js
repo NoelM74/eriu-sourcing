@@ -416,7 +416,7 @@ export const blogPosts = [
 
 <p><strong>The insurance problem:</strong> Under Incoterms 2020, the seller's insurance obligation under CIF is Institute Cargo Clauses (C), the minimum available coverage. Clauses (C) cover defined risks only: fire, explosion, vessel sinking, collision, and jettison. They do not cover theft, pilferage, water damage from rain or condensation, breakage, or a container falling from the deck in a storm. For a container of ceramics, electronics, or any moisture-sensitive product, Clauses (C) coverage is close to worthless against the risks that actually occur on a 30-day sea voyage from Shenzhen to Dublin.</p>
 
-<p>Most Irish importers who buy CIF assume the supplier's insurance covers everything. It does not. It covers the minimum. If your Ôé¼40,000 container of product arrives water-damaged at Dublin Port, you may find the CIF insurance does not pay out, because water ingress from condensation is not a covered peril under Clauses (C). You paid for insurance you thought was comprehensive. It was not.</p>
+<p>Most Irish importers who buy CIF assume the supplier's insurance covers everything. It does not. It covers the minimum. If your €40,000 container of product arrives water-damaged at Dublin Port, you may find the CIF insurance does not pay out, because water ingress from condensation is not a covered peril under Clauses (C). You paid for insurance you thought was comprehensive. It was not.</p>
 
 <p><strong>When it makes sense:</strong> Rarely, for experienced importers. CIF can work if you understand the risk transfer point, you supplement the supplier's minimum insurance with your own Clauses (A) policy covering all risks, and you do not mind losing control of the freight booking. For a first-time importer who wants the supplier to handle logistics, CIF feels simpler, but that simplicity comes with a hidden freight markup and an insurance gap that can be financially devastating on a single shipment.</p>
 
@@ -439,7 +439,7 @@ export const blogPosts = [
 
 <p>DAP also creates a customs clearance gap. The supplier delivers the goods to your address but does not clear them through Irish customs. If the goods arrive at Dublin Port and you have not arranged customs clearance, they sit in the port accumulating storage charges. The supplier has fulfilled their DAP obligation by getting the goods to Ireland, customs clearance is explicitly your responsibility.</p>
 
-<p><strong>When it makes sense:</strong> For importers with low volume, limited freight forwarding relationships, and a strong preference for cost certainty over cost optimisation. DAP is a convenience term. You pay a premium for the supplier to handle the logistics. If your annual import spend is under Ôé¼20,000, the premium may be worth the simplicity. Above that, the cumulative cost of the supplier's freight margin makes FOB with your own freight forwarder significantly cheaper.</p>
+<p><strong>When it makes sense:</strong> For importers with low volume, limited freight forwarding relationships, and a strong preference for cost certainty over cost optimisation. DAP is a convenience term. You pay a premium for the supplier to handle the logistics. If your annual import spend is under €20,000, the premium may be worth the simplicity. Above that, the cumulative cost of the supplier's freight margin makes FOB with your own freight forwarder significantly cheaper.</p>
 
 <h2>Which Incoterm should you use?</h2>
 
@@ -455,12 +455,12 @@ export const blogPosts = [
   </thead>
   <tbody>
     <tr>
-      <td>Annual import spend above Ôé¼30,000, regular shipments</td>
+      <td>Annual import spend above €30,000, regular shipments</td>
       <td>FOB</td>
       <td>Control freight costs, choose carrier, arrange proper insurance</td>
     </tr>
     <tr>
-      <td>First import, single shipment, under Ôé¼10,000</td>
+      <td>First import, single shipment, under €10,000</td>
       <td>DAP</td>
       <td>Simplicity outweighs freight premium at this scale</td>
     </tr>
@@ -488,20 +488,20 @@ export const blogPosts = [
 
 <p>Irish import VAT is currently 23 percent on most goods. It is calculated on the customs value, which is the price paid for the goods plus freight and insurance costs to the EU border. Customs duty varies by product category and HS code, typically ranging from 0 to 12 percent for goods imported from China. Anti-dumping duties may apply on specific product categories, ceramics, steel, aluminium, and certain textiles have historically attracted additional duties on Chinese imports into the EU.</p>
 
-<p>The total landed cost for an Irish importer is the product cost plus freight plus insurance plus customs duty plus VAT. On a Ôé¼50,000 FOB order with Ôé¼3,000 in freight and Ôé¼500 in insurance, assuming a 5 percent customs duty rate and 23 percent VAT: customs value Ôé¼53,500, customs duty Ôé¼2,675, VAT base Ôé¼56,175, VAT at 23 percent Ôé¼12,920, total landed cost approximately Ôé¼69,095.</p>
+<p>The total landed cost for an Irish importer is the product cost plus freight plus insurance plus customs duty plus VAT. On a €50,000 FOB order with €3,000 in freight and €500 in insurance, assuming a 5 percent customs duty rate and 23 percent VAT: customs value €53,500, customs duty €2,675, VAT base €56,175, VAT at 23 percent €12,920, total landed cost approximately €69,095.</p>
 
 <p>That calculation is the same whether you buy FOB, CIF, or DAP, the Incoterm changes who pays for the freight and insurance line items, not the overall customs assessment.</p>
 
 <figure class="article-figure">
-  <img src="/images/the-irish-importers-landed-cost-calculation.webp" alt="Infographic titled 'Landed Cost Breakdown, FOB China to Dublin' with six proportional bars: Product Cost FOB Ôé¼50,000, Ocean Freight Ôé¼3,000, Marine Insurance Ôé¼500, Customs Duty 5% Ôé¼2,675, Irish VAT 23% Ôé¼12,920, Total Landed Cost Ôé¼69,095. Ériu Sourcing logo bottom right." loading="lazy" width="1280" height="720">
-  <figcaption>The real number. A Ôé¼50,000 FOB order lands in Dublin at Ôé¼69,095 once you add freight, insurance, customs duty, and VAT. The Incoterm you choose determines who pays for the freight and insurance lines, but the total customs assessment is yours regardless.</figcaption>
+  <img src="/images/the-irish-importers-landed-cost-calculation.webp" alt="Infographic titled 'Landed Cost Breakdown, FOB China to Dublin' with six proportional bars: Product Cost FOB €50,000, Ocean Freight €3,000, Marine Insurance €500, Customs Duty 5% €2,675, Irish VAT 23% €12,920, Total Landed Cost €69,095. Ériu Sourcing logo bottom right." loading="lazy" width="1280" height="720">
+  <figcaption>The real number. A €50,000 FOB order lands in Dublin at €69,095 once you add freight, insurance, customs duty, and VAT. The Incoterm you choose determines who pays for the freight and insurance lines, but the total customs assessment is yours regardless.</figcaption>
 </figure>
 
 <h2>What this means for your next China order</h2>
 
-<p>The next time a Chinese supplier sends you a quote, look at the three-letter code before you look at the unit price. A quote of Ôé¼4.20 EXW Shenzhen and a quote of Ôé¼5.10 FOB Ningbo are not comparable without understanding what each price includes and excludes. The EXW price looks cheaper. Once you add Chinese inland transport, export clearance, and port handling charges, it may be more expensive, and it definitely carries more operational risk.</p>
+<p>The next time a Chinese supplier sends you a quote, look at the three-letter code before you look at the unit price. A quote of €4.20 EXW Shenzhen and a quote of €5.10 FOB Ningbo are not comparable without understanding what each price includes and excludes. The EXW price looks cheaper. Once you add Chinese inland transport, export clearance, and port handling charges, it may be more expensive, and it definitely carries more operational risk.</p>
 
-<p>Ask for FOB pricing as your baseline. Compare it against CIF only after you have separated the freight and insurance components. If the supplier quotes CIF Dublin at Ôé¼6.00 per unit and FOB Shenzhen at Ôé¼4.80 per unit, the implied freight and insurance cost is Ôé¼1.20 per unit. Check that against your own freight forwarder's quote. If your forwarder can move the same goods for Ôé¼0.85 per unit, the supplier is taking a Ôé¼0.35-per-unit freight margin, money you are paying for convenience you do not need.</p>
+<p>Ask for FOB pricing as your baseline. Compare it against CIF only after you have separated the freight and insurance components. If the supplier quotes CIF Dublin at €6.00 per unit and FOB Shenzhen at €4.80 per unit, the implied freight and insurance cost is €1.20 per unit. Check that against your own freight forwarder's quote. If your forwarder can move the same goods for €0.85 per unit, the supplier is taking a €0.35-per-unit freight margin, money you are paying for convenience you do not need.</p>
 
 <p>The Incoterm is not a detail. It is a financial decision that compounds across every shipment you make.</p>
 
@@ -513,7 +513,7 @@ export const blogPosts = [
       { q: 'What is the best Incoterm for importing from China to Ireland?', a: 'For most Irish importers shipping by sea freight, FOB (Free On Board) is the best default. It gives you control over the ocean freight booking, allows you to arrange your own comprehensive insurance, and draws a clean boundary, the supplier handles China-side logistics, you handle everything from the vessel onwards through your Irish freight forwarder.' },
       { q: 'What does CIF mean on a Chinese supplier quote?', a: 'CIF stands for Cost, Insurance, and Freight. The supplier pays for ocean freight and arranges marine insurance to the named destination port. However, risk still transfers to you at the Chinese port, not Dublin, exactly the same as FOB. The insurance provided is also the minimum level (Institute Cargo Clauses C), which does not cover water damage, theft, or breakage.' },
       { q: 'Why is EXW a problem for Irish importers buying from China?', a: 'EXW (Ex Works) requires you to manage Chinese inland transport and export customs clearance. As an Irish business, you cannot legally clear goods for export from China without a Chinese-registered entity. EXW also creates a Chinese VAT recovery issue for the supplier, which often results in a higher EXW price. For most Irish SMEs, EXW gives the appearance of a low price but transfers maximum operational risk to the buyer.' },
-      { q: 'What is the difference between FOB and DAP for Irish importers?', a: 'Under FOB, risk transfers at the Chinese port, you take on freight risk and arrange your own insurance. Under DAP, the supplier carries all risk until delivery to your named address in Ireland. DAP is simpler but the supplier typically adds 15–25% to the price to cover the additional risk and logistics. For importers shipping above Ôé¼20,000 per year, FOB with your own freight forwarder is significantly cheaper.' },
+      { q: 'What is the difference between FOB and DAP for Irish importers?', a: 'Under FOB, risk transfers at the Chinese port, you take on freight risk and arrange your own insurance. Under DAP, the supplier carries all risk until delivery to your named address in Ireland. DAP is simpler but the supplier typically adds 15–25% to the price to cover the additional risk and logistics. For importers shipping above €20,000 per year, FOB with your own freight forwarder is significantly cheaper.' },
       { q: 'Do Irish customs duties still apply under CIF or DAP?', a: 'Yes. Regardless of Incoterm, Irish customs duties and VAT are always the importer\'s responsibility. No Incoterm transfers these costs to the seller. Irish import VAT is 23% on most goods, calculated on the customs value (product cost plus freight and insurance to the EU border). Duty rates vary by HS code, typically 0–12% for goods from China.' },
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland', 'alibaba-vs-factory-direct-irish-importers'],
@@ -563,9 +563,9 @@ export const blogPosts = [
 
 <p><strong>What it costs:</strong> OEM carries higher upfront costs than ODM because you are paying for exclusivity and specification control.</p>
 
-<p>Tooling and moulds are the largest upfront cost for any product requiring custom injection moulding, die-casting, or stamping. A single injection mould for a moderately complex plastic component costs Ôé¼3,000 to Ôé¼15,000 depending on the number of cavities, the steel grade, and the complexity of the part geometry. A complete product with four or five moulded components can require Ôé¼20,000 to Ôé¼60,000 in tooling before a single production unit rolls off the line.</p>
+<p>Tooling and moulds are the largest upfront cost for any product requiring custom injection moulding, die-casting, or stamping. A single injection mould for a moderately complex plastic component costs €3,000 to €15,000 depending on the number of cavities, the steel grade, and the complexity of the part geometry. A complete product with four or five moulded components can require €20,000 to €60,000 in tooling before a single production unit rolls off the line.</p>
 
-<p>Sample development typically runs through three to five iterations. Each iteration costs Ôé¼200 to Ôé¼2,000 depending on the product category. Budget for at least three rounds, initial prototype, revised sample, and a pre-production sample that represents final output.</p>
+<p>Sample development typically runs through three to five iterations. Each iteration costs €200 to €2,000 depending on the product category. Budget for at least three rounds, initial prototype, revised sample, and a pre-production sample that represents final output.</p>
 
 <p>Minimum order quantities for OEM are higher than ODM because the factory is setting up a production line specifically for your product. Typical OEM MOQs for Chinese factories range from 1,000 to 5,000 units for consumer goods, 500 to 3,000 units for more complex or higher-value products, and 3,000 to 10,000 units for low-cost commodity items where the margin per unit requires volume to justify the production setup.</p>
 
@@ -590,13 +590,13 @@ export const blogPosts = [
 
 <p><strong>What it costs:</strong> ODM is significantly cheaper to start than OEM because you are not paying for tooling or product development. The factory amortised those costs across their existing order book. Your cost is essentially the unit manufacturing cost plus the factory's margin, plus any customisation charges.</p>
 
-<p>Logo and packaging customisation typically adds Ôé¼0.10 to Ôé¼0.50 per unit on top of the base product cost for simple logo application, pad printing, silk screening, or label application. Custom packaging, your own box design, insert, and print, adds Ôé¼0.20 to Ôé¼1.50 per unit depending on the packaging complexity and print run size.</p>
+<p>Logo and packaging customisation typically adds €0.10 to €0.50 per unit on top of the base product cost for simple logo application, pad printing, silk screening, or label application. Custom packaging, your own box design, insert, and print, adds €0.20 to €1.50 per unit depending on the packaging complexity and print run size.</p>
 
 <p>Minimum order quantities for ODM are lower than OEM. Because the production line is already set up and the tooling already exists, the factory's incremental cost of running your order is lower. Typical ODM MOQs are 200 to 1,000 units for consumer products, sometimes lower for higher-value items. Some ODM factories will run an initial order of 300 to 500 units to let you test the market before committing to larger volumes.</p>
 
 <p><strong>Timeline:</strong> Much faster than OEM. Because the product already exists, sample development is often a single iteration, the factory sends you their existing product with your branding applied, you approve or request adjustments. From initial enquiry to first shipment, ODM typically runs six to twelve weeks. If you are using the product as-is with simple branding, it can be as fast as four weeks.</p>
 
-<p><strong>The advantage:</strong> Speed and capital efficiency. An Irish brand can go from concept to shippable product in under three months with a total upfront investment of Ôé¼2,000 to Ôé¼10,000 depending on order size. For market testing, product line extensions, or categories where you do not need design differentiation, ODM is the rational choice.</p>
+<p><strong>The advantage:</strong> Speed and capital efficiency. An Irish brand can go from concept to shippable product in under three months with a total upfront investment of €2,000 to €10,000 depending on order size. For market testing, product line extensions, or categories where you do not need design differentiation, ODM is the rational choice.</p>
 
 <p><strong>The risk:</strong> Non-exclusivity. The product you are selling may be identical, functionally and visually, to products sold by other brands sourced from the same factory. In competitive retail categories, this means your only differentiation is brand, packaging, and marketing. If a competitor sources the same ODM product and undercuts your price, you have no product-level moat.</p>
 
@@ -611,18 +611,18 @@ export const blogPosts = [
 
 <p>The decision is not which model is "better." It is which model matches your current situation across five variables, capital available, time to market, product differentiation required, volume expectations, and category competitiveness.</p>
 
-<p><strong>Choose ODM if</strong> your priority is speed to market and capital efficiency. You are testing a new product category. You do not have a unique product design or proprietary specification. Your brand's value proposition is built on marketing, positioning, and customer experience rather than product-level innovation. Your first order budget is under Ôé¼10,000. Your target launch is within three months.</p>
+<p><strong>Choose ODM if</strong> your priority is speed to market and capital efficiency. You are testing a new product category. You do not have a unique product design or proprietary specification. Your brand's value proposition is built on marketing, positioning, and customer experience rather than product-level innovation. Your first order budget is under €10,000. Your target launch is within three months.</p>
 
 <p>This describes the majority of Irish brands entering a new product category for the first time. A Dublin skincare brand launching a jade roller. A Cork homeware retailer adding a branded line of kitchen utensils. A Galway outdoor brand testing a new category of insulated drinkware. In each case, the product is not proprietary. The brand is. ODM gets the product to market while you build the sales data to justify a future OEM investment.</p>
 
-<p><strong>Choose OEM if</strong> you have a product design that is genuinely differentiated, a novel mechanism, a proprietary formulation, a patented feature, or a design that cannot be achieved by modifying an existing product. You have the capital to invest Ôé¼15,000 to Ôé¼60,000 in tooling and development before seeing a single unit of revenue. You have six to twelve months of runway before you need product on shelves. Your competitive advantage depends on the product itself, not just the brand around it.</p>
+<p><strong>Choose OEM if</strong> you have a product design that is genuinely differentiated, a novel mechanism, a proprietary formulation, a patented feature, or a design that cannot be achieved by modifying an existing product. You have the capital to invest €15,000 to €60,000 in tooling and development before seeing a single unit of revenue. You have six to twelve months of runway before you need product on shelves. Your competitive advantage depends on the product itself, not just the brand around it.</p>
 
 <p><strong>The hybrid approach that works for most Irish SMEs:</strong> Start with ODM. Use the first twelve to eighteen months to validate the market, build sales volume, understand your customer's preferences, and generate the revenue to fund an OEM development programme. Then invest in OEM for version two, a genuinely differentiated product informed by real market data rather than assumptions.</p>
 
 <p>This is not a compromise. It is how most successful product brands are built. You do not design the perfect product in isolation. You sell a good enough product, learn from the market response, and design a better product with that knowledge. ODM is the market-testing phase. OEM is the scaling phase. The brands that skip ODM and go straight to OEM with an unvalidated product concept are the ones that end up with 8,000 units of unsold inventory in a warehouse outside Naas.</p>
 
 <figure class="article-figure">
-  <img src="/images/the-oem-vs-odm-decision-split.webp" alt="Clean split-screen comparison infographic. Left half labelled OEM, Your Design: full specification required, timeline 4–8 months, upfront cost Ôé¼15,000–Ôé¼60,000, high IP protection. Right half labelled ODM, Their Design, Your Brand: logo and packaging only, timeline 6–12 weeks, upfront cost Ôé¼2,000–Ôé¼10,000, lower IP protection. Ériu Sourcing logo at bottom." loading="lazy" width="1280" height="720">
+  <img src="/images/the-oem-vs-odm-decision-split.webp" alt="Clean split-screen comparison infographic. Left half labelled OEM, Your Design: full specification required, timeline 4–8 months, upfront cost €15,000–€60,000, high IP protection. Right half labelled ODM, Their Design, Your Brand: logo and packaging only, timeline 6–12 weeks, upfront cost €2,000–€10,000, lower IP protection. Ériu Sourcing logo at bottom." loading="lazy" width="1280" height="720">
   <figcaption>The decision at a glance. OEM gives you ownership and exclusivity at higher cost and longer timelines. ODM gives you speed and capital efficiency with shared product risk. Most Irish brands should start right and graduate left.</figcaption>
 </figure>
 
@@ -630,11 +630,11 @@ export const blogPosts = [
 
 <p>Whether you go OEM or ODM, three legal protections are non-negotiable when manufacturing in China.</p>
 
-<p><strong>Register your trademark in China</strong>, not just in Ireland or the EU. China operates a first-to-file system. If someone else registers your brand name in China before you do, they own it in that jurisdiction, and your factory is legally obligated to respect that registration, not yours. Chinese trademark registration costs approximately Ôé¼300 to Ôé¼600 through a local agent and takes twelve to eighteen months. File before you place your first production order, not after.</p>
+<p><strong>Register your trademark in China</strong>, not just in Ireland or the EU. China operates a first-to-file system. If someone else registers your brand name in China before you do, they own it in that jurisdiction, and your factory is legally obligated to respect that registration, not yours. Chinese trademark registration costs approximately €300 to €600 through a local agent and takes twelve to eighteen months. File before you place your first production order, not after.</p>
 
 <p><strong>Use a manufacturing agreement</strong>, not just a purchase order. The agreement should specify who owns the tooling (you, if you paid for it), who owns the product design and specifications, what happens to the tooling if you stop ordering, non-disclosure provisions covering your product specifications and branding, and the factory's obligation not to sell your product (OEM) or your customised version (ODM) to third parties.</p>
 
-<p><strong>For OEM products with novel designs, file a Chinese design patent.</strong> Chinese design patents are inexpensive, Ôé¼500 to Ôé¼1,500 including agent fees, and provide six months of priority filing rights under the Paris Convention, allowing you to file in other jurisdictions later. They are also enforceable within China, which is where the manufacturing and the IP risk both sit.</p>
+<p><strong>For OEM products with novel designs, file a Chinese design patent.</strong> Chinese design patents are inexpensive, €500 to €1,500 including agent fees, and provide six months of priority filing rights under the Paris Convention, allowing you to file in other jurisdictions later. They are also enforceable within China, which is where the manufacturing and the IP risk both sit.</p>
 
 <h2>How to find the right factory for either model</h2>
 
@@ -652,18 +652,18 @@ export const blogPosts = [
 
 <p>The exception is if you already have a differentiated product design, the engineering documentation to support it, and the budget to fund tooling. In that case, OEM from day one makes sense, and the right factory partner will walk you through the development process from sample to production.</p>
 
-<p>Either way, the factory relationship is the variable that determines whether this works. A good factory, whether OEM or ODM, communicates clearly, delivers on sample quality in production, respects your IP, and treats a Ôé¼15,000 Irish order with the same discipline they apply to a Ôé¼500,000 US order. Finding that factory from Dublin is the hard part.</p>
+<p>Either way, the factory relationship is the variable that determines whether this works. A good factory, whether OEM or ODM, communicates clearly, delivers on sample quality in production, respects your IP, and treats a €15,000 Irish order with the same discipline they apply to a €500,000 US order. Finding that factory from Dublin is the hard part.</p>
 
 <p><a href="/contact/">Send us a brief</a>. We will tell you whether OEM or ODM makes sense for your product, give you realistic pricing and MOQ expectations for your category, and introduce you to verified factories that match your requirements.</p>`,
     excerpt: 'Irish brands wanting their own product from China have two routes, OEM, where you own the design, or ODM, where the factory owns it and you brand it. The decision determines your upfront cost, timeline, MOQ, and whether anyone else can sell the exact same thing.',
     image: '/images/the-oem-product-development-desk.webp',
     imageAlt: 'Top-down flat-lay of a product development workspace with technical CAD drawings, prototype samples, a digital calliper, Pantone swatches, and a laptop showing a 3D CAD render',
     faq: [
-      { q: 'What is the difference between OEM and ODM manufacturing in China?', a: 'OEM (Original Equipment Manufacturer) means you own and provide the product design, the factory manufactures to your specification. ODM (Original Design Manufacturer) means the factory already has a product and you apply your brand to it. OEM gives you exclusivity and full IP control but requires higher upfront investment (Ôé¼15,000–Ôé¼60,000) and longer timelines (4–8 months). ODM gets you to market in 6–12 weeks with Ôé¼2,000–Ôé¼10,000 upfront but the product may be non-exclusive.' },
+      { q: 'What is the difference between OEM and ODM manufacturing in China?', a: 'OEM (Original Equipment Manufacturer) means you own and provide the product design, the factory manufactures to your specification. ODM (Original Design Manufacturer) means the factory already has a product and you apply your brand to it. OEM gives you exclusivity and full IP control but requires higher upfront investment (€15,000–€60,000) and longer timelines (4–8 months). ODM gets you to market in 6–12 weeks with €2,000–€10,000 upfront but the product may be non-exclusive.' },
       { q: 'What minimum order quantity should I expect for private label manufacturing in China?', a: 'For OEM, expect MOQs of 1,000–5,000 units for consumer goods, higher for low-cost items, lower for complex or premium products. For ODM, MOQs are typically 200–1,000 units since tooling and production setup already exist. Some ODM factories accept initial orders of 300–500 units for market testing before you commit to larger volumes.' },
       { q: 'How long does OEM manufacturing take in China from concept to shipment?', a: 'Full OEM typically takes four to eight months from initial specification to first production shipment. This covers sample development and approval (6–12 weeks), tooling manufacture for injection moulds (4–8 weeks), pilot production run, quality inspection, and ocean freight to Ireland. ODM is significantly faster at 6–12 weeks total, sometimes as little as four weeks for simple logo and packaging applications.' },
-      { q: 'How do I protect my brand when private label manufacturing in China?', a: 'Three protections are essential: register your trademark in China before placing your first order (China is first-to-file, if someone else registers your name first, they own it there); use a manufacturing agreement specifying tooling ownership, IP rights, and non-disclosure provisions; and for OEM products with novel designs, file a Chinese design patent (Ôé¼500–Ôé¼1,500) which is enforceable in China where the manufacturing risk sits.' },
-      { q: 'Should an Irish brand start with OEM or ODM manufacturing?', a: 'For most Irish brands, ODM is the right starting point. It gets you to market in under three months with Ôé¼2,000–Ôé¼10,000 upfront, letting you validate demand before committing to OEM tooling costs of Ôé¼15,000–Ôé¼60,000. Once you have sales data, customer feedback, and revenue to reinvest, develop a differentiated OEM product for version two. The brands that go straight to OEM with an unvalidated concept are the ones that end up with thousands of units of unsold stock.' },
+      { q: 'How do I protect my brand when private label manufacturing in China?', a: 'Three protections are essential: register your trademark in China before placing your first order (China is first-to-file, if someone else registers your name first, they own it there); use a manufacturing agreement specifying tooling ownership, IP rights, and non-disclosure provisions; and for OEM products with novel designs, file a Chinese design patent (€500–€1,500) which is enforceable in China where the manufacturing risk sits.' },
+      { q: 'Should an Irish brand start with OEM or ODM manufacturing?', a: 'For most Irish brands, ODM is the right starting point. It gets you to market in under three months with €2,000–€10,000 upfront, letting you validate demand before committing to OEM tooling costs of €15,000–€60,000. Once you have sales data, customer feedback, and revenue to reinvest, develop a differentiated OEM product for version two. The brands that go straight to OEM with an unvalidated concept are the ones that end up with thousands of units of unsold stock.' },
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'alibaba-vs-factory-direct-irish-importers', 'incoterms-explained-irish-importers-fob-cif-exw-dap-china'],
     internalLinks: [
@@ -2221,7 +2221,7 @@ export const blogPosts = [
 
 <p>Every Ériu home is built on a channel-steel base frame, with insulated sandwich panels (upgradeable to PIR for Part L), double-glazed aluminium openings, and, critically, it is specified for the Irish climate <em>before</em> it's built. The U-values, the cladding lap details, the roof falls and the air-tightness are all set for wet, windy, frost-prone conditions, not for somewhere drier.</p>
 
-<p>It carries a <strong>30-year anti-corrosion warranty</strong>, given by the factory and carried by Ériu, so the cover is held here in Ireland. It's photographed at the factory and again at Dublin Port, and it's supplied with the full Building Regulations compliance pack. That's the point of buying from an Irish-owned company that inspects every unit in person: when you've a question in year three, you're ringing Ireland, not an anonymous listing.</p>
+<p>It carries a <strong>30-year anti-corrosion warranty</strong>, given by the factory and carried by Ériu, so the cover is held here in Ireland. It's photographed at the factory before it is sealed and loaded, and it's supplied with the full Building Regulations compliance pack. That's the point of buying from an Irish-owned company that inspects every unit in person: when you've a question in year three, you're ringing Ireland, not an anonymous listing.</p>
 
 <h2>How it's this affordable, no mystery, no cut corners</h2>
 
