@@ -6,6 +6,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import WhatsAppFloat from '../components/WhatsAppFloat.astro';
 import CookieBanner from '../components/CookieBanner.astro';
+import { translations } from '../data/i18n.js';
 import '../styles/global.css';
 
 interface Props {
@@ -42,6 +43,13 @@ function withTrailingSlash(path: string): string {
 const rawPath = canonical ?? Astro.url.pathname;
 const canonicalUrl = `${siteUrl}${withTrailingSlash(rawPath)}`;
 
+// Language: everything under /de/ is German for Germany and Austria.
+const canonicalPath = withTrailingSlash(rawPath);
+const isGerman = canonicalPath.startsWith('/de/');
+const pair = translations.find((t) => t.en === canonicalPath || t.de === canonicalPath);
+const enAlt = isGerman ? pair?.en : canonicalPath;
+const deAlt = isGerman ? canonicalPath : pair?.de;
+
 // Base org schema, always present on every page
 const orgSchema = {
   "@type": ["LocalBusiness", "ProfessionalService"],
@@ -52,7 +60,9 @@ const orgSchema = {
   "image": `${siteUrl}/images/hero-china-factory-floor.webp`,
   "areaServed": [
     { "@type": "Country", "name": "Ireland" },
-    { "@type": "Country", "name": "United Kingdom" }
+    { "@type": "Country", "name": "United Kingdom" },
+    { "@type": "Country", "name": "Germany" },
+    { "@type": "Country", "name": "Austria" }
   ],
   "address": {
     "@type": "PostalAddress",
@@ -128,7 +138,7 @@ const structuredData = {
 ---
 
 <!doctype html>
-<html lang="en-IE">
+<html lang={isGerman ? "de" : "en-IE"}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -167,15 +177,16 @@ const structuredData = {
     <meta name="author" content="Ériu Sourcing" />
     <link rel="canonical" href={canonicalUrl} />
 
-    <!-- GEO targeting -->
-    <meta name="geo.region" content="IE" />
-    <meta name="geo.placename" content="Ireland" />
-    <meta name="ICBM" content="53.1424, -7.6921" />
+    <!-- GEO targeting (English pages are Ireland-specific) -->
+    {!isGerman && <meta name="geo.region" content="IE" />}
+    {!isGerman && <meta name="geo.placename" content="Ireland" />}
+    {!isGerman && <meta name="ICBM" content="53.1424, -7.6921" />}
 
-    <!-- hreflang, Ireland-specific copy, so only en-IE + x-default. -->
-    <!-- Add en-gb only once we publish UK-specific content. -->
-    <link rel="alternate" hreflang="en-ie" href={canonicalUrl} />
-    <link rel="alternate" hreflang="x-default" href={canonicalUrl} />
+    <!-- hreflang: English pages are en-IE; German pages (/de/) target DE + AT.
+         Pairs come from src/data/i18n.js so both versions point at each other. -->
+    {enAlt && <link rel="alternate" hreflang="en-ie" href={`${siteUrl}${enAlt}`} />}
+    {deAlt && <link rel="alternate" hreflang="de" href={`${siteUrl}${deAlt}`} />}
+    {enAlt && <link rel="alternate" hreflang="x-default" href={`${siteUrl}${enAlt}`} />}
 
     <!-- Open Graph -->
     <meta property="og:type" content={ogType} />
@@ -186,7 +197,8 @@ const structuredData = {
     <meta property="og:image:alt" content={ogImageAlt} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:locale" content="en_IE" />
+    <meta property="og:locale" content={isGerman ? "de_DE" : "en_IE"} />
+    {isGerman && <meta property="og:locale:alternate" content="de_AT" />}
     <meta property="og:site_name" content="Ériu Sourcing" />
 
     <!-- Twitter -->
@@ -247,7 +259,7 @@ const structuredData = {
       <slot />
     </main>
     <WhatsAppFloat />
-    <CookieBanner />
+    <CookieBanner lang={isGerman ? "de" : "en"} />
     <Footer />
 
     <!-- Motion system: reveal-on-scroll + stat count-up.
