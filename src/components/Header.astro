@@ -3,6 +3,9 @@
 // Mobile-first sticky nav. Logo is inline SVG lockup (light-bg variant).
 // Desktop nav supports two item types: flat links, and dropdown groups
 // (an item with a `children` array).
+// /de/ pages get their own German menu, CTA and labels.
+
+import { translations } from '../data/i18n.js';
 
 const sourcingNavLinks = [
   { href: '/how-it-works/', label: 'How It Works' },
@@ -56,7 +59,51 @@ const modularNavLinks = [
 
 const pathname = Astro.url.pathname;
 const isModular = pathname.startsWith('/modular-homes');
-const navLinks = isModular ? modularNavLinks : sourcingNavLinks;
+const isGerman = pathname.startsWith('/de/');
+
+// "English" in the German menu goes to the English twin of the current page
+// when there is one (src/data/i18n.js), otherwise to the English homepage.
+const enTwin = translations.find((t) => t.de === pathname)?.en ?? '/';
+
+const germanNavLinks = [
+  { href: '/de/', label: 'Startseite', exact: true },
+  {
+    label: 'Handy & Reparatur',
+    children: [
+      { href: '/de/handy-ersatzteile-grosshandel/',      label: 'Handy-Ersatzteile' },
+      { href: '/de/refurbished-smartphones-grosshandel/', label: 'Refurbished Smartphones' },
+      { href: '/de/handyzubehoer-gadgets-grosshandel/',   label: 'Zubehör & Gadgets' },
+    ],
+  },
+  {
+    label: 'Energie',
+    children: [
+      { href: '/de/balkonkraftwerk-grosshandel-china/',      label: 'Balkonkraftwerke' },
+      { href: '/de/stromspeicher-heimspeicher-grosshandel/', label: 'Stromspeicher' },
+    ],
+  },
+  {
+    label: 'Smart Home & Sicherheit',
+    children: [
+      { href: '/de/smart-home-white-label-china/', label: 'Smart Home' },
+      { href: '/de/ip-kameras-grosshandel-china/', label: 'IP-Kameras' },
+    ],
+  },
+  {
+    label: 'Ratgeber',
+    children: [
+      { href: '/de/ratgeber/handy-display-qualitaeten-incell-oled/',          label: 'Display-Qualitäten erklärt' },
+      { href: '/de/ratgeber/refurbished-smartphones-grosshandel-einkaufen/', label: 'Refurbished einkaufen' },
+      { href: '/de/impressum/',                                               label: 'Impressum' },
+    ],
+  },
+  { href: enTwin, label: 'English', lang: 'en' },
+];
+
+const navLinks = isGerman ? germanNavLinks : isModular ? modularNavLinks : sourcingNavLinks;
+const ui = isGerman
+  ? { home: '/de/', homeLabel: 'Ériu Sourcing, Startseite', main: 'Hauptnavigation', mobile: 'Mobile Navigation', open: 'Menü öffnen', close: 'Menü schließen', ctaHref: '/de/kontakt/', cta: 'Anfrage senden' }
+  : { home: '/', homeLabel: 'Ériu Sourcing, Home', main: 'Main navigation', mobile: 'Mobile navigation', open: 'Open menu', close: 'Close menu', ctaHref: '/contact/', cta: 'Get a Quote' };
 
 const isActive = (href, exact = false) => {
   if (!href) return false;
@@ -80,7 +127,7 @@ const isGroupActive = (link) => !!link.children?.some(c => isActive(c.href));
         </span>
       </a>
     ) : (
-      <a href="/" class="logo" aria-label="Ériu Sourcing, Home">
+      <a href={ui.home} class="logo" aria-label={ui.homeLabel}>
         <img src="/images/eriu-mark.svg" width="36" height="36" alt="" aria-hidden="true" class="logo-mark" />
         <span class="logo-wordmark">
           <span class="logo-eriu">ÉRIU</span><span class="logo-sourcing">Sourcing</span>
@@ -89,7 +136,7 @@ const isGroupActive = (link) => !!link.children?.some(c => isActive(c.href));
     )}
 
     <!-- Desktop nav -->
-    <nav class="nav-desktop" aria-label="Main navigation">
+    <nav class="nav-desktop" aria-label={ui.main}>
       <ul role="list">
         {navLinks.map(link => (
           link.children ? (
@@ -117,7 +164,7 @@ const isGroupActive = (link) => !!link.children?.some(c => isActive(c.href));
             </li>
           ) : (
             <li class="nav-item">
-              <a href={link.href} class={isActive(link.href, link.exact) ? 'active' : ''}>
+              <a href={link.href} lang={link.lang} hreflang={link.lang} class={isActive(link.href, link.exact) ? 'active' : ''}>
                 {link.label}
               </a>
             </li>
@@ -127,7 +174,7 @@ const isGroupActive = (link) => !!link.children?.some(c => isActive(c.href));
     </nav>
 
     <!-- CTA -->
-    <a href="/contact/" class="btn btn--primary nav-cta">Get a Quote</a>
+    <a href={ui.ctaHref} class="btn btn--primary nav-cta">{ui.cta}</a>
 
     <!-- Hamburger -->
     <button
@@ -135,7 +182,9 @@ const isGroupActive = (link) => !!link.children?.some(c => isActive(c.href));
       id="nav-toggle"
       aria-expanded="false"
       aria-controls="mobile-nav"
-      aria-label="Open menu"
+      aria-label={ui.open}
+      data-label-open={ui.open}
+      data-label-close={ui.close}
     >
       <span></span>
       <span></span>
@@ -148,7 +197,7 @@ const isGroupActive = (link) => !!link.children?.some(c => isActive(c.href));
   <nav
     class="nav-mobile"
     id="mobile-nav"
-    aria-label="Mobile navigation"
+    aria-label={ui.mobile}
     aria-hidden="true"
   >
     <ul role="list">
@@ -168,14 +217,14 @@ const isGroupActive = (link) => !!link.children?.some(c => isActive(c.href));
           </li>
         ) : (
           <li>
-            <a href={link.href} class={isActive(link.href, link.exact) ? 'active' : ''}>
+            <a href={link.href} lang={link.lang} hreflang={link.lang} class={isActive(link.href, link.exact) ? 'active' : ''}>
               {link.label}
             </a>
           </li>
         )
       ))}
       <li class="mobile-cta-item">
-        <a href="/contact/" class="btn btn--primary mobile-cta-btn">Get a Quote</a>
+        <a href={ui.ctaHref} class="btn btn--primary mobile-cta-btn">{ui.cta}</a>
       </li>
     </ul>
   </nav>
@@ -188,7 +237,7 @@ const isGroupActive = (link) => !!link.children?.some(c => isActive(c.href));
   toggle?.addEventListener('click', () => {
     const isOpen = toggle.getAttribute('aria-expanded') === 'true';
     toggle.setAttribute('aria-expanded', String(!isOpen));
-    toggle.setAttribute('aria-label', isOpen ? 'Open menu' : 'Close menu');
+    toggle.setAttribute('aria-label', (isOpen ? toggle.dataset.labelOpen : toggle.dataset.labelClose) || '');
     mobileNav?.setAttribute('aria-hidden', String(isOpen));
     mobileNav?.classList.toggle('is-open');
     toggle.classList.toggle('is-open');
@@ -198,7 +247,7 @@ const isGroupActive = (link) => !!link.children?.some(c => isActive(c.href));
   mobileNav?.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
       toggle?.setAttribute('aria-expanded', 'false');
-      toggle?.setAttribute('aria-label', 'Open menu');
+      toggle?.setAttribute('aria-label', toggle.dataset.labelOpen || 'Open menu');
       mobileNav.setAttribute('aria-hidden', 'true');
       mobileNav.classList.remove('is-open');
       toggle?.classList.remove('is-open');
