@@ -111,7 +111,7 @@ export const sitewideFaqs = [
       },
       {
         q: 'What is the typical landed cost for a 20ft Expandable in Ireland?',
-        a: 'A 20ft Expandable from the Henan factory base, fully specified for Irish building-regs compliance (PIR-upgraded panel walls, double-glazed openings, internal partitioning to a standard 1-bed layout), is typically €18,000–€26,000 FOB factory. Sea freight from China to Dublin (two units per 40HQ container) adds approximately €1,500 per unit. Irish customs duty, 23% VAT and inland delivery add a further 35–40% to the FOB price. A complete landed cost at your site is typically €32,000–€42,000 per unit, exclusive of site groundworks, services connection, and internal fit-out.',
+        a: 'The 20ft Expandable starts from €12,995 FOB China for a basic livable unit, loaded at the Chinese port, with fit-out and finish upgrades priced on top. From there your own Irish freight forwarder and customs broker add sea freight to Dublin (two units share a 40HQ container), Irish customs duty, 23% import VAT on the unit plus freight, and inland delivery. Site groundworks, services connection and any remaining fit-out are priced by your own contractor. We give you indicative ranges for each line so you can budget the full landed and installed cost.',
       },
     ],
   },

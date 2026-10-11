@@ -2024,7 +2024,7 @@ export const blogPosts = [
     slug: 'adult-children-living-at-home-ireland-garden-home',
     title: "Your Adult Child Can't Move Out. Your Back Garden Might Be the Answer.",
     metaTitle: 'Adult Children Living at Home? The Garden Option | Ériu',
-    metaDescription: "41% of Irish 18–34s still live with parents. A self-contained back-garden home, from €25,000, under the Class 3A exemption now in force, is becoming the third option.",
+    metaDescription: "41% of Irish 18–34s live with parents. A back-garden home from €12,995 FOB China, under the Class 3A exemption now in force, is becoming the third option.",
     h1: "Your adult child can't move out. Your back garden might be the answer.",
     eyebrow: 'The Housing Squeeze',
     category: 'modular-homes',
@@ -2056,7 +2056,7 @@ export const blogPosts = [
 
 <h2>For the price of a small car, not a deposit you'll never see again</h2>
 
-<p>This is what makes it finally realistic for ordinary families: it doesn't cost what a house costs. A unit like the Ériu 20ft Expandable, which opens to roughly 34 m² in a single working day, <strong>starts from €25,000 delivered</strong> for a basic but livable specification, including sea freight and simple furniture, and finishes up to a fully-fitted, compliant, A2-BER home for a fraction of the €110,000–€180,000 an Irish-built equivalent typically costs.</p>
+<p>This is what makes it finally realistic for ordinary families: it doesn't cost what a house costs. A unit like the Ériu 20ft Expandable, which opens to roughly 34 m² in a single working day, <strong>starts from €12,995 FOB China</strong> for a basic but livable specification and finishes up to a fully-fitted, compliant, A2-BER home for a fraction of the €110,000–€180,000 an Irish-built equivalent typically costs.</p>
 
 <p>Because the foundation, crane, services connection and BER differ from one garden to the next, there is no single all-in figure to quote honestly, so we model the exact number for your site and itemise every line. What's certain is the comparison most parents come back to: a deposit handed over is gone, while a home built on your own ground is an asset that stays in the family and keeps working long after they've found their feet.</p>
 
@@ -2085,7 +2085,7 @@ export const blogPosts = [
     ],
     faq: [
       { q: 'Can I legally build a home for my adult child in my back garden?', a: 'Yes, under Class 3A of S.I. No. 340 of 2026, in force since 27 July 2026. A detached self-contained home of 32 to 45 m² in the rear garden of the house you live in can be built without a planning application where every condition is met, including linking services to the main house and notifying your council at least 14 days before work starts. It must still meet the Irish Building Regulations and carry a BER. Start with a site review against the Class 3A conditions, and confirm the position with your local authority and solicitor.' },
-      { q: 'How much would a back-garden home for my son or daughter cost?', a: 'A unit like the Ériu 20ft Expandable starts from €25,000 delivered for a basic livable specification and finishes up to a fully-fitted, compliant A2 home for a fraction of the €110,000–€180,000 an Irish-built equivalent costs. Site works, foundation, crane, services, BER, vary per garden and are priced by your own contractor, so the all-in installed figure is project-specific.' },
+      { q: 'How much would a back-garden home for my son or daughter cost?', a: 'A unit like the Ériu 20ft Expandable starts from €12,995 FOB China for a basic livable specification and finishes up to a fully-fitted, compliant A2 home for a fraction of the €110,000–€180,000 an Irish-built equivalent costs. Site works, foundation, crane, services, BER, vary per garden and are priced by your own contractor, so the all-in installed figure is project-specific.' },
       { q: 'Will building a second home in the garden affect my mortgage?', a: 'Most Irish lenders will not currently mortgage a property that contains a second self-contained dwelling on the same title, which can affect remortgaging and resale. Many families fund the unit from savings or other finance rather than the house mortgage. We provide a written briefing on this with every quote and recommend you confirm the position with your solicitor.' },
     ],
     relatedSlugs: ['ireland-april-2026-back-garden-home-rules-explained', 'rent-a-room-garden-home-tax-free-income-ireland', 'downsizing-stay-on-family-land-ireland'],
@@ -2143,7 +2143,7 @@ export const blogPosts = [
 
 <p>Allowable expenses such as insurance, repairs and some finance costs reduce the taxable amount, so the real figure for your situation can be better. Your accountant can run it properly.</p>
 
-<p>We still won't print a single headline yield percentage, because it would be meaningless without your figure. Your gross yield is simply the annual rent divided by your all-in installed cost, and that cost depends on your foundation, crane access, services run and BER. What we can say is that the entry price is what makes the ratio strong. A 20ft Expandable starts from €25,000 delivered and reaches a fully fitted, A2-BER home at a fraction of the €110,000–€180,000 an Irish-built equivalent costs. Lower cost in means a better return, taxed or not.</p>
+<p>We still won't print a single headline yield percentage, because it would be meaningless without your figure. Your gross yield is simply the annual rent divided by your all-in installed cost, and that cost depends on your foundation, crane access, services run and BER. What we can say is that the entry price is what makes the ratio strong. A 20ft Expandable starts from €12,995 FOB China and reaches a fully fitted, A2-BER home at a fraction of the €110,000–€180,000 an Irish-built equivalent costs. Lower cost in means a better return, taxed or not.</p>
 
 <h2>Does it still make sense as an investment?</h2>
 
@@ -2211,7 +2211,7 @@ export const blogPosts = [
 
 <p>A unit like the Ériu 20ft Expandable arrives folded on one lorry and opens to roughly 34 m² in a single working day. It's specified to the Irish Building Regulations, achieves an A2 BER on a correctly installed unit, and is finished to your tier, a real, warm, permanent home, not a portacabin.</p>
 
-<p>It starts from <strong>€25,000 delivered</strong> and reaches a fully-fitted, compliant home for a fraction of the Irish-built figure. Because the site works vary and are priced by your own contractor, the exact all-in number is project-specific, but where a conventional build takes nine to twelve months, a typical Ériu project takes <strong>14 to 18 weeks</strong> from order to move-in, including your own contractor's site works. For most people, the time saved matters as much as the money. <a href="/modular-homes/permanent-modular-home-ireland/">Here's the full picture for a home on your own site.</a></p>
+<p>It starts from <strong>€12,995 FOB China</strong> and reaches a fully-fitted, compliant home for a fraction of the Irish-built figure. Because the site works vary and are priced by your own contractor, the exact all-in number is project-specific, but where a conventional build takes nine to twelve months, a typical Ériu project takes <strong>14 to 18 weeks</strong> from order to move-in, including your own contractor's site works. For most people, the time saved matters as much as the money. <a href="/modular-homes/permanent-modular-home-ireland/">Here's the full picture for a home on your own site.</a></p>
 
 <p>One honest distinction: on a site of your own, the back-garden auxiliary-dwelling exemption does <strong>not</strong> apply, you will typically need planning permission for a dwelling on its own site. We confirm which route applies at the eligibility review and won't sell you a unit you can't lawfully site.</p>
 
@@ -2242,7 +2242,7 @@ export const blogPosts = [
     faq: [
       { q: 'Can a modular home be a genuine permanent home on my own site?', a: 'Yes. A steel-frame modular home specified to the Irish Building Regulations (TGD Parts A–M) with an A2 BER is a genuine permanent dwelling. On your own site, as opposed to a back garden, the back-garden exemption does not apply and you will typically need planning permission. We confirm which route applies at the eligibility review.' },
       { q: 'Will an imported modular home survive the Irish climate?', a: 'Every Ériu home is built on a channel-steel base frame with insulated sandwich panels, double-glazed aluminium openings, and is specified for the Irish climate before it is built, U-values, cladding details, roof falls and air-tightness set for wet, windy, frost-prone conditions. It carries a 30-year anti-corrosion warranty, given by the factory and carried by Ériu, and ships with a full compliance pack.' },
-      { q: 'How does the cost and timeline compare with a conventional build?', a: 'A factory-direct unit starts from €25,000 delivered and finishes for a fraction of the €110,000–€180,000 an Irish-built modular home typically costs, installing in around 14 to 18 weeks from order versus the best part of a year for a conventional build. Site works, foundation, services, BER, are additional and priced by your own contractor; we give you indicative ranges up front.' },
+      { q: 'How does the cost and timeline compare with a conventional build?', a: 'A factory-direct unit starts from €12,995 FOB China and finishes for a fraction of the €110,000–€180,000 an Irish-built modular home typically costs, installing in around 14 to 18 weeks from order versus the best part of a year for a conventional build. Site works, foundation, services, BER, are additional and priced by your own contractor; we give you indicative ranges up front.' },
     ],
     relatedSlugs: ['ireland-april-2026-back-garden-home-rules-explained', 'adult-children-living-at-home-ireland-garden-home', 'rent-a-room-garden-home-tax-free-income-ireland'],
     internalLinks: [
@@ -2258,7 +2258,7 @@ export const blogPosts = [
     slug: 'downsizing-stay-on-family-land-ireland',
     title: "Downsizing in Ireland Doesn't Have to Mean Leaving",
     metaTitle: 'Downsizing Without Leaving Home: The Garden Option | Ériu',
-    metaDescription: "Rightsize without giving up the family home or the area, a single-storey, level-access garden home from €25,000, built under the Class 3A exemption now in force.",
+    metaDescription: "Rightsize without leaving the area: a single-storey, level-access garden home from €12,995 FOB, built under the Class 3A exemption now in force.",
     h1: "Downsizing in Ireland doesn't have to mean leaving",
     eyebrow: 'Rightsizing',
     category: 'modular-homes',
@@ -2284,7 +2284,7 @@ export const blogPosts = [
 
 <h2>Gentle on a fixed budget</h2>
 
-<p>This matters more when you're not earning what you once did. A unit like the Ériu 20ft Expandable starts from <strong>€25,000 delivered</strong> for a basic livable specification and finishes up to a fully-fitted, compliant A2 home for a fraction of the €110,000–€180,000 an Irish-built unit costs, well within reach of savings or the proceeds of freeing up the main house. The exact installed figure depends on your garden and your contractor's price for the site works.</p>
+<p>This matters more when you're not earning what you once did. A unit like the Ériu 20ft Expandable starts from <strong>€12,995 FOB China</strong> for a basic livable specification and finishes up to a fully-fitted, compliant A2 home for a fraction of the €110,000–€180,000 an Irish-built unit costs, well within reach of savings or the proceeds of freeing up the main house. The exact installed figure depends on your garden and your contractor's price for the site works.</p>
 
 <p>Because lenders treat a second dwelling on the same title carefully, we always recommend a quick word with your solicitor, and we provide a written briefing with every quote, but in most cases the family home's title isn't disturbed.</p>
 

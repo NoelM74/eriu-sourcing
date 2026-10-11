@@ -6,12 +6,12 @@ import MediaStrip from '../../components/MediaStrip.astro';
 import ProofBar from '../../components/ProofBar.astro';
 
 const title = "Downsizing & Granny-Flat Garden Homes Ireland | Ériu Modular";
-const description = "Rightsize without leaving the family land, a single-storey, level-access 34 m² garden home from €25,000, built to Irish Building Regs with an A2 BER.";
+const description = "Rightsize without leaving the family land, a single-storey, level-access 34 m² garden home from €12,995 FOB, built to Irish Building Regs with an A2 BER.";
 const canonical = "/modular-homes/downsizing-granny-flat-ireland/";
 const siteUrl = "https://eriusourcing.com";
 
 const allIn: string | null = null; // installed cost is always site-specific, null is canonical (see Family page note)
-const startPrice = "€25,000";
+const startPrice = "€12,995";
 const irishBuilt = "€110,000–€180,000";
 const warrantyClaim = "30-year anti-corrosion warranty"; // ⚠ confirm before merge
 
@@ -26,10 +26,10 @@ const pageSchemas = [
     "offers": {
       "@type": "Offer",
       "priceCurrency": "EUR",
-      "price": "25000",
+      "price": "12995",
       "priceValidUntil": "2026-12-31",
       "availability": "https://schema.org/InStock",
-      "description": "Starting price for a basic livable 20ft Expandable delivered to Ireland; fully-fitted and installed cost is project-specific."
+      "description": "Starting price for a basic livable 20ft Expandable, FOB China port; freight, customs, fit-out and installation are extra and project-specific."
     }
   },
   {
@@ -48,7 +48,7 @@ const pageSchemas = [
       {
         "@type": "Question",
         "name": "How much does a downsizer garden home cost?",
-        "acceptedAnswer": { "@type": "Answer", "text": "The Ériu 20ft Expandable starts from €25,000 delivered for a basic livable unit and reaches a fully-fitted, compliant A2 home at a fraction of the €110,000–€180,000 an Irish-built unit costs, well within reach of savings or the proceeds of freeing up the main house. Site works are additional and itemised. We provide a written briefing on the title and lender considerations with every quote." }
+        "acceptedAnswer": { "@type": "Answer", "text": "The Ériu 20ft Expandable starts from €12,995 FOB China for a basic livable unit and reaches a fully-fitted, compliant A2 home at a fraction of the €110,000–€180,000 an Irish-built unit costs, well within reach of savings or the proceeds of freeing up the main house. Site works are additional and itemised. We provide a written briefing on the title and lender considerations with every quote." }
       }
     ]
   }
@@ -98,7 +98,7 @@ const pageSchemas = [
     <div class="container--narrow">
       <span class="section-eyebrow">Gentle on a fixed budget</span>
       <h2>The price, and why it's within reach</h2>
-      <p>This matters more when you're not earning what you once did. The 20ft Expandable starts at <strong>{startPrice} delivered</strong> for a basic livable unit, and reaches a fully-fitted, compliant, A2 home at a fraction of the {irishBuilt} an Irish-built unit costs, well within reach of savings or the proceeds of freeing up the main house.</p>
+      <p>This matters more when you're not earning what you once did. The 20ft Expandable starts at <strong>{startPrice} FOB China</strong> for a basic livable unit, and reaches a fully-fitted, compliant, A2 home at a fraction of the {irishBuilt} an Irish-built unit costs, well within reach of savings or the proceeds of freeing up the main house.</p>
       {allIn ? (
         <p>A fully-fitted, compliant A2 unit comes in all-in at <strong>{allIn}</strong> installed. <a href="/modular-homes/cost/" class="inline-link">See the full cost breakdown →</a></p>
       ) : (
