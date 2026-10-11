@@ -6,7 +6,7 @@ import MediaStrip from '../../components/MediaStrip.astro';
 import ProofBar from '../../components/ProofBar.astro';
 
 const title = "A Home for Your Adult Children in Ireland | Ériu Modular";
-const description = "A self-contained 34 m² back-garden home for an adult son or daughter, from €25,000 delivered, built to Irish Building Regs with an A2 BER. Class 3A, no planning application.";
+const description = "A self-contained 34 m² back-garden home for an adult son or daughter, from €12,995 FOB China, built to Irish Building Regs. Class 3A, no planning application.";
 const canonical = "/modular-homes/home-for-adult-children-ireland/";
 const siteUrl = "https://eriusourcing.com";
 
@@ -17,7 +17,7 @@ const siteUrl = "https://eriusourcing.com";
 // placeholder. `allIn` stays null by design; the optional fixed-figure branch
 // is retained only if a representative "from €X all-in" is ever agreed.
 const allIn: string | null = null;
-const startPrice = "€25,000";
+const startPrice = "€12,995";
 const irishBuilt = "€110,000–€180,000";
 const warrantyClaim = "30-year anti-corrosion warranty"; // ⚠ confirm before merge
 
@@ -32,10 +32,10 @@ const pageSchemas = [
     "offers": {
       "@type": "Offer",
       "priceCurrency": "EUR",
-      "price": "25000",
+      "price": "12995",
       "priceValidUntil": "2026-12-31",
       "availability": "https://schema.org/InStock",
-      "description": "Starting price for a basic livable 20ft Expandable delivered to Ireland; fully-fitted and installed cost is project-specific."
+      "description": "Starting price for a basic livable 20ft Expandable, FOB China port; freight, customs, fit-out and installation are extra and project-specific."
     }
   },
   {
@@ -49,7 +49,7 @@ const pageSchemas = [
       {
         "@type": "Question",
         "name": "How much does a back-garden home for an adult child cost?",
-        "acceptedAnswer": { "@type": "Answer", "text": "The Ériu 20ft Expandable starts from €25,000 delivered for a basic but livable unit (including sea freight and simple furniture), with finish upgradeable from there. A fully-fitted, compliant, A2-BER home is project-specific once Irish-side site works, foundation, crane, services connection and BER, are added, but lands at a fraction of the €110,000–€180,000 an Irish-built equivalent typically costs. We provide an itemised all-in quote for your site." }
+        "acceptedAnswer": { "@type": "Answer", "text": "The Ériu 20ft Expandable starts from €12,995 FOB China for a basic but livable unit, with finish upgradeable from there. A fully-fitted, compliant, A2-BER home is project-specific once Irish-side site works, foundation, crane, services connection and BER, are added, but lands at a fraction of the €110,000–€180,000 an Irish-built equivalent typically costs. We provide an itemised all-in quote for your site." }
       },
       {
         "@type": "Question",
@@ -83,7 +83,7 @@ const pageSchemas = [
       <div class="trust-grid">
         <div class="trust-item"><span class="trust-num">~34 m²</span><span class="trust-label">A real one-bed home, expands in a day</span></div>
         <div class="trust-divider"></div>
-        <div class="trust-item"><span class="trust-num">From {startPrice}</span><span class="trust-label">Delivered start price</span></div>
+        <div class="trust-item"><span class="trust-num">From {startPrice}</span><span class="trust-label">FOB China start price</span></div>
         <div class="trust-divider"></div>
         <div class="trust-item"><span class="trust-num">A2 BER</span><span class="trust-label">On a correctly installed unit</span></div>
         <div class="trust-divider"></div>
@@ -120,7 +120,7 @@ const pageSchemas = [
     <div class="container--narrow">
       <span class="section-eyebrow">The cost</span>
       <h2>For the price of a small car, not a deposit you'll never see again.</h2>
-      <p>Here's what makes this finally realistic: it doesn't cost what a home costs. The 20ft Expandable starts at <strong>{startPrice} delivered</strong>, small-car money, for a basic but livable unit, including sea freight and simple furniture, with finish upgradeable from there.</p>
+      <p>Here's what makes this finally realistic: it doesn't cost what a home costs. The 20ft Expandable starts at <strong>{startPrice} FOB China</strong>, small-car money, for a basic but livable unit, with finish upgradeable from there.</p>
       {allIn ? (
         <p>Specified to a fully-fitted, compliant, BER-A2 home ready for them to move into, the all-in installed cost is <strong>{allIn}</strong>, a fraction of a deposit, and a fraction of the {irishBuilt} an Irish-built equivalent runs to.</p>
       ) : (

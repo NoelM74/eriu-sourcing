@@ -21,7 +21,7 @@ const annualRent = 13800;                 // €1,150/mo long-term let, gross be
 const allIn = allInNum ? `€${allInNum.toLocaleString('en-IE')}` : null;
 const yieldPct = allInNum ? ((annualRent / allInNum) * 100).toFixed(1) : null;
 const paybackYrs = allInNum ? Math.round(allInNum / annualRent) : null;
-const startPrice = "€25,000";
+const startPrice = "€12,995";
 const irishBuilt = "€110,000–€180,000";
 const warrantyClaim = "30-year anti-corrosion warranty"; // ⚠ confirm before merge
 
@@ -29,7 +29,7 @@ const warrantyClaim = "30-year anti-corrosion warranty"; // ⚠ confirm before m
 const faqs = [
   { q: 'Can I earn rental income from a home in my garden in Ireland?', a: 'Yes, from a long-term let. A garden home built under Class 3A of S.I. No. 340 of 2026, in force since 27 July 2026, can be rented out, but not for short-term letting, and it must be occupied with the main house and can\'t be sold separately. Plan on the rent being taxable: Revenue\'s Rent-a-Room guidance states that a self-contained unit not attached to the property cannot qualify for the relief, so the rent is ordinary rental income with allowable expenses deducted. Confirm the tax position with a qualified accountant before relying on any projected return.' },
   { q: 'Is rent from a garden home tax-free under Rent-a-Room?', a: 'Plan on it not being tax-free. Revenue\'s Rent-a-Room guidance states that a self-contained unit which is not attached to the property cannot qualify for the relief, and a Class 3A garden home is detached. Taxed as ordinary rental income, €13,800 a year works out at roughly €7,100 after tax for a higher-rate taxpayer and roughly €9,900 for a standard-rate taxpayer, before allowable expenses. Confirm your own position with an accountant.' },
-  { q: 'What yield does a garden rental home produce?', a: 'The gross yield is simply the annual rent divided by your all-in installed cost, so it depends on what you spend. Let at €1,150 a month, a unit earns €13,800 a year before tax. Because the Ériu 20ft Expandable starts from €25,000 delivered and a fully-fitted compliant unit lands at a fraction of the €110,000–€180,000 an Irish-built equivalent costs, the ratio is strong, but the only honest figure is the one calculated against a real quote for your site. We model it for you, gross and after tax at your rate.' },
+  { q: 'What yield does a garden rental home produce?', a: 'The gross yield is simply the annual rent divided by your all-in installed cost, so it depends on what you spend. Let at €1,150 a month, a unit earns €13,800 a year before tax. Because the Ériu 20ft Expandable starts from €12,995 FOB China and a fully-fitted compliant unit lands at a fraction of the €110,000–€180,000 an Irish-built equivalent costs, the ratio is strong, but the only honest figure is the one calculated against a real quote for your site. We model it for you, gross and after tax at your rate.' },
   { q: 'Do RTB rules and rent-pressure-zone limits apply to a garden rental?', a: 'The RTB has stated that renting a qualifying Class 3A garden home does not come under its remit and does not need to be registered with the RTB. That only applies where the unit meets every Class 3A condition, and short-term letting is not permitted. Confirm your position with your solicitor before letting.' },
   { q: 'Does a rented garden home pay Local Property Tax?', a: 'Yes. Revenue has confirmed that a permanent garden home suitable for use as a separate dwelling attracts its own LPT charge. It is valued in its own right, gets its own property ID, and LPT is payable even when it is empty. Your home insurance must also be updated to declare the structure.' },
 ];
@@ -45,10 +45,10 @@ const pageSchemas = [
     "offers": {
       "@type": "Offer",
       "priceCurrency": "EUR",
-      "price": "25000",
+      "price": "12995",
       "priceValidUntil": "2026-12-31",
       "availability": "https://schema.org/InStock",
-      "description": "Starting price for a basic livable 20ft Expandable delivered to Ireland; fully-fitted and installed cost is project-specific."
+      "description": "Starting price for a basic livable 20ft Expandable, FOB China port; freight, customs, fit-out and installation are extra and project-specific."
     }
   },
   {
@@ -119,7 +119,7 @@ const pageSchemas = [
     <div class="container--narrow">
       <span class="section-eyebrow">Why this works at all</span>
       <h2>The reason the yield is this strong is the entry price</h2>
-      <p>The 20ft Expandable starts at <strong>{startPrice} delivered</strong> and reaches a fully-fitted, rentable, BER-A2 home at a fraction of the {irishBuilt} an Irish-built equivalent costs. The yield maths that follows is simply a function of that.</p>
+      <p>The 20ft Expandable starts at <strong>{startPrice} FOB China</strong> and reaches a fully-fitted, rentable, BER-A2 home at a fraction of the {irishBuilt} an Irish-built equivalent costs. The yield maths that follows is simply a function of that.</p>
       <p>It's possible because our founder has sourced direct from the Henan factories since 2008 and inspects every unit in person. Factory-direct, not corner-cut: same compliance, same A2 BER, and the same {warrantyClaim}, given by the factory and carried by Ériu, so the cover is held here in Ireland.</p>
       <MediaStrip
         items={[

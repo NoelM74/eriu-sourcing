@@ -11,7 +11,7 @@ const canonical = "/modular-homes/permanent-modular-home-ireland/";
 const siteUrl = "https://eriusourcing.com";
 
 const allIn: string | null = null; // installed cost is always site-specific, null is canonical (see Family page note)
-const startPrice = "€25,000";
+const startPrice = "€12,995";
 const irishBuilt = "€110,000–€180,000";
 const warrantyClaim = "30-year anti-corrosion warranty"; // ⚠ confirm before merge
 
@@ -26,10 +26,10 @@ const pageSchemas = [
     "offers": {
       "@type": "Offer",
       "priceCurrency": "EUR",
-      "price": "25000",
+      "price": "12995",
       "priceValidUntil": "2026-12-31",
       "availability": "https://schema.org/InStock",
-      "description": "Starting price for a basic livable 20ft Expandable delivered to Ireland; fully-fitted and installed cost is project-specific."
+      "description": "Starting price for a basic livable 20ft Expandable, FOB China port; freight, customs, fit-out and installation are extra and project-specific."
     }
   },
   {
@@ -48,7 +48,7 @@ const pageSchemas = [
       {
         "@type": "Question",
         "name": "How much does a permanent modular home cost compared with an Irish build?",
-        "acceptedAnswer": { "@type": "Answer", "text": "The Ériu 20ft Expandable starts from €25,000 delivered and reaches a fully-fitted, compliant home at a fraction of the €110,000–€180,000 an Irish-built modular unit typically costs. A typical project takes 14 to 18 weeks from order to move-in, including your own contractor's site works, against the best part of a year for a conventional build. Site works, foundation, services, BER, are additional and priced by your own contractor; we give you indicative ranges up front." }
+        "acceptedAnswer": { "@type": "Answer", "text": "The Ériu 20ft Expandable starts from €12,995 FOB China and reaches a fully-fitted, compliant home at a fraction of the €110,000–€180,000 an Irish-built modular unit typically costs. A typical project takes 14 to 18 weeks from order to move-in, including your own contractor's site works, against the best part of a year for a conventional build. Site works, foundation, services, BER, are additional and priced by your own contractor; we give you indicative ranges up front." }
       }
     ]
   }
@@ -76,7 +76,7 @@ const pageSchemas = [
       <div class="trust-grid">
         <div class="trust-item"><span class="trust-num">~34 m²</span><span class="trust-label">Expands on site in one working day</span></div>
         <div class="trust-divider"></div>
-        <div class="trust-item"><span class="trust-num">From {startPrice}</span><span class="trust-label">Delivered start price</span></div>
+        <div class="trust-item"><span class="trust-num">From {startPrice}</span><span class="trust-label">FOB China start price</span></div>
         <div class="trust-divider"></div>
         <div class="trust-item"><span class="trust-num">30-year</span><span class="trust-label">Anti-corrosion warranty</span></div>
         <div class="trust-divider"></div>
@@ -103,9 +103,9 @@ const pageSchemas = [
       <h2>A genuine, warm, permanent home</h2>
       <p>A ~34 m² Ériu home arrives folded on one lorry and expands on site in a single working day. Specified to Irish Building Regulations, BER-A2 on a correctly installed unit, and finished to your tier. It's a real home, not a portacabin.</p>
       {allIn ? (
-        <p>It starts at <strong>{startPrice} delivered</strong> and reaches a fully-fitted, compliant home at <strong>{allIn}</strong> all-in, against {irishBuilt} Irish-built. And where a conventional build takes the best part of a year, a typical Ériu project takes 14 to 18 weeks from order to move-in, including your own contractor's site works.</p>
+        <p>It starts at <strong>{startPrice} FOB China</strong> and reaches a fully-fitted, compliant home at <strong>{allIn}</strong> all-in, against {irishBuilt} Irish-built. And where a conventional build takes the best part of a year, a typical Ériu project takes 14 to 18 weeks from order to move-in, including your own contractor's site works.</p>
       ) : (
-        <p>It starts at <strong>{startPrice} delivered</strong> and reaches a fully-fitted, compliant home at a fraction of the {irishBuilt} an Irish-built equivalent costs. Your exact all-in figure is project-specific: our quote covers the unit FOB China, your own Irish freight forwarder and customs broker quotes shipping and customs, and your contractor prices the site works. And where a conventional build takes the best part of a year, a typical Ériu project takes 14 to 18 weeks from order to move-in, including your own contractor's site works. For most people, the time saved matters as much as the money. <a href="/modular-homes/cost/" class="inline-link">See the full cost breakdown →</a></p>
+        <p>It starts at <strong>{startPrice} FOB China</strong> and reaches a fully-fitted, compliant home at a fraction of the {irishBuilt} an Irish-built equivalent costs. Your exact all-in figure is project-specific: our quote covers the unit FOB China, your own Irish freight forwarder and customs broker quotes shipping and customs, and your contractor prices the site works. And where a conventional build takes the best part of a year, a typical Ériu project takes 14 to 18 weeks from order to move-in, including your own contractor's site works. For most people, the time saved matters as much as the money. <a href="/modular-homes/cost/" class="inline-link">See the full cost breakdown →</a></p>
       )}
       <MediaFigure
         src="/images/modular-homes-floorplan-layouts.webp"
