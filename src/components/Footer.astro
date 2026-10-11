@@ -3,6 +3,8 @@
 // Emerald brand footer, warm off-white top band + deep emerald lower section
 
 const currentYear = new Date().getFullYear();
+// German pages (/de/) get a German contact strip pointing at the German form.
+const isGerman = Astro.url.pathname.startsWith('/de/');
 ---
 
 <footer class="site-footer">
@@ -12,8 +14,8 @@ const currentYear = new Date().getFullYear();
     <div class="container">
       <div class="footer-top-inner">
         <div class="footer-contact-line">
-          <span>Ready to start sourcing direct?</span>
-          <a href="tel:+353871187806" class="tel-btn" aria-label="Call Noel on +353 87 118 7806">
+          <span>{isGerman ? 'Bereit, direkt ab Fabrik einzukaufen?' : 'Ready to start sourcing direct?'}</span>
+          <a href="tel:+353871187806" class="tel-btn" aria-label={isGerman ? "Noel anrufen: +353 87 118 7806" : "Call Noel on +353 87 118 7806"}>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
             +353 87 118 7806
           </a>
@@ -23,7 +25,9 @@ const currentYear = new Date().getFullYear();
             </svg>
             WhatsApp Noel
           </a>
-          <a href="/contact/" class="quote-btn">Get a Quote →</a>
+          {isGerman
+            ? <a href="/de/kontakt/" class="quote-btn">Anfrage senden →</a>
+            : <a href="/contact/" class="quote-btn">Get a Quote →</a>}
         </div>
       </div>
     </div>
@@ -104,7 +108,7 @@ const currentYear = new Date().getFullYear();
 
       <div class="footer-bottom">
         <p>&copy; {currentYear} Ériu Sourcing. All rights reserved. · Springfield, Clonlara, Co. Clare, Ireland<br />
-          <span class="footer-company">Ériu Sourcing is a trading name of Springfield Tectop Limited, registered in Ireland, no. 571256. Registered office: Ennis Road, Co. Limerick.</span></p>
+          <span class="footer-company">Ériu Sourcing is a trading name of Springfield Tectop Limited, registered in Ireland, no. 571256. Registered office: Clareview Business Center, Ennis Road, Co. Limerick, V94 EA3A.</span></p>
         <p class="footer-legal">
           <a href="/privacy/">Privacy Policy</a>
           <span aria-hidden="true">·</span>
