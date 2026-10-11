@@ -1,0 +1,360 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = "Custom Packaging & Printing from China | Ériu";
+const description = "Custom retail boxes, mailer boxes, rigid gift boxes and inserts printed in Dongguan and Shenzhen for Irish brands, with EU packaging rules checked before print.";
+const canonical = "/source/custom-packaging-printing-china-ireland/";
+const ogImage = "/images/dongguan-packaging-printing-retail-boxes.webp";
+const ogImageAlt = "Printed retail box sheets being checked against a colour proof in a Dongguan packaging factory";
+const siteUrl = 'https://eriusourcing.com';
+
+const faqs = [
+  {
+    q: "What does the EU Packaging Regulation mean for imported packaging?",
+    a: "The EU Packaging and Packaging Waste Regulation (EU) 2025/40 applies in Ireland from 12 August 2026, with more requirements phasing in later, including harmonised labelling and recyclability and recycled-content rules. Importers have to check packaging conforms before placing it on the market, keep the documentation, and put their name and contact details on the packaging or with it. We build those requirements into the artwork check and the supplier documents.",
+  },
+  {
+    q: "Do I need to join Repak?",
+    a: "If your business places packaged goods on the Irish market, you will usually have packaging producer responsibility obligations, which most businesses meet by joining Repak. Check your obligations with Repak; we give you the packaging weights and materials by component so reporting is straightforward.",
+  },
+  {
+    q: "How do you make sure the colours match?",
+    a: "We work from your print-ready files and Pantone references, get a printed proof for sign-off, and check the first production sheets against the approved proof under a light booth before the run continues. For repeat orders we keep the approved proof as the standard.",
+  },
+  {
+    q: "What is the minimum order for custom boxes?",
+    a: "It depends on the box type and print. Printed folding cartons and mailer boxes usually start in the low thousands of units; rigid boxes and special finishes cost more per unit at low volumes. We quote a few quantity breaks so you can see where the price per box drops.",
+  },
+  {
+    q: "Can the packaging go straight to the factory making my product?",
+    a: "Yes, and that is usually the best route. Packaging printed in Dongguan or Shenzhen can be delivered to the product factory, filled and inspected there, and shipped to Ireland as finished goods.",
+  },
+];
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "What We Source", "item": `${siteUrl}/source/` },
+      { "@type": "ListItem", "position": 3, "name": "Custom Packaging & Printing", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "Service",
+    "name": "Custom packaging and printing sourcing from China for Irish brands",
+    "description": description,
+    "provider": { "@type": "ProfessionalService", "@id": `${siteUrl}/#organization` },
+    "areaServed": { "@type": "Country", "name": "Ireland" },
+    "serviceType": "Packaging Sourcing",
+    "dateModified": new Date().toISOString().split('T')[0]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((f) => ({
+      "@type": "Question",
+      "name": f.q,
+      "acceptedAnswer": { "@type": "Answer", "text": f.a }
+    }))
+  }
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} ogImage={ogImage} ogImageAlt={ogImageAlt} jsonLd={pageSchemas}>
+
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="hero-bg">
+      <img
+        src="/images/dongguan-packaging-printing-retail-boxes.webp"
+        alt="Printed retail box sheets being checked against a colour proof in a Dongguan packaging factory, with rigid boxes stacked nearby"
+        width="1216"
+        height="832"
+        loading="eager"
+        fetchpriority="high"
+      />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content container">
+      <span class="hero-eyebrow">Custom packaging &amp; printing, Dongguan and Shenzhen</span>
+      <h1>The box sells the product. Get it printed where the products are made.</h1>
+      <p class="hero-sub">Folding cartons, mailer boxes, rigid gift boxes, inserts, labels and sleeves for Irish brands, printed in Dongguan and Shenzhen. Colour proofs signed off before the run, EU packaging rules checked in the artwork, and boxes delivered straight to your product factory.</p>
+      <div class="hero-actions">
+        <a href="/contact/" class="btn btn--white">Get a packaging quote →</a>
+        <a href="#types" class="btn btn--white-outline">See packaging types</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item">
+          <span class="trust-num">Proof first</span>
+          <span class="trust-label">Printed proof signed off before production</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">PPWR</span>
+          <span class="trust-label">EU Packaging Regulation applies from 12 Aug 2026</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">Direct</span>
+          <span class="trust-label">Delivered to your product factory and filled there</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">By weight</span>
+          <span class="trust-label">Material and weight per component for Repak reporting</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TYPES -->
+  <section class="section" id="types">
+    <div class="container">
+      <span class="section-eyebrow">What we print</span>
+      <h2>Packaging for retail, e-commerce and gifting</h2>
+      <div class="cat-grid">
+        <div class="cat-card cat-card--static">
+          <h3>Folding cartons</h3>
+          <p>Printed retail boxes for cosmetics, supplements, electronics and accessories, with window, foil, emboss and spot-UV options.</p>
+        </div>
+        <div class="cat-card cat-card--static">
+          <h3>Mailer and shipping boxes</h3>
+          <p>Printed corrugated mailers for e-commerce and subscription boxes, sized to your product to cut void fill and freight.</p>
+        </div>
+        <div class="cat-card cat-card--static">
+          <h3>Rigid gift boxes</h3>
+          <p>Magnetic-lid, drawer and lift-off rigid boxes for premium products and gift sets.</p>
+        </div>
+        <div class="cat-card cat-card--static">
+          <h3>Inserts and trays</h3>
+          <p>Paper-pulp, card and foam inserts. Moulded pulp is often the easier choice under the new recyclability rules.</p>
+        </div>
+        <div class="cat-card cat-card--static">
+          <h3>Labels, sleeves and tags</h3>
+          <p>Product labels, belly bands, sleeves, hang tags and printed instruction leaflets.</p>
+        </div>
+        <div class="cat-card cat-card--static">
+          <h3>Bags and paper packaging</h3>
+          <p>Printed paper carrier bags, pouches and tissue for retail and events.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RULES -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="split-grid">
+        <div class="split-content">
+          <span class="section-eyebrow">The rules changed in August 2026</span>
+          <h2>Packaging now has its own EU regulation</h2>
+          <p>The EU Packaging and Packaging Waste Regulation (EU) 2025/40 applies in Ireland from 12 August 2026. Importers must check packaging conforms before it goes on the market, keep the supporting documents, and show their name and contact details on the packaging or with it. Harmonised labelling and recyclability rules follow over the next few years.</p>
+          <p>That makes artwork and material choices a compliance job, not just a design job. We check the importer details, material marks and any required symbols in your artwork before print, collect the supplier documents, and record the material and weight of every component so your Repak reporting is simple.</p>
+        </div>
+        <div class="split-image">
+          <img
+            src="/images/private-label-packaging-design.webp"
+            alt="Branded packaging design proofs reviewed at a Chinese packaging factory"
+            width="640"
+            height="480"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section">
+    <div class="container">
+      <span class="section-eyebrow">How it works</span>
+      <h2>From dieline to delivered boxes</h2>
+      <div class="process-steps">
+        <div class="process-step">
+          <span class="step-num">01</span>
+          <h3>Brief</h3>
+          <p>Product sizes, box style, quantities and finishes. We supply dielines if you do not have them.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">02</span>
+          <h3>Quote</h3>
+          <p>Price per box at several quantity breaks, with material and finish options side by side.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">03</span>
+          <h3>Artwork check</h3>
+          <p>Files checked for print and for EU packaging requirements before a proof is made.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">04</span>
+          <h3>Proof</h3>
+          <p>Printed proof or white sample signed off by you; production matched to it.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">05</span>
+          <h3>Deliver</h3>
+          <p>To your product factory for filling, or shipped flat to Ireland with your other goods.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Common questions</span>
+      <h2>Custom packaging from China, questions answered</h2>
+      <p class="faq-updated">Last reviewed: October 2026</p>
+      <div class="faq-list">
+        {faqs.map((f) => (
+          <details class="faq-item">
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+      <p class="fit-note">Making the product too? See <a href="/source/injection-moulding-tooling-china-ireland/" class="inline-link">injection moulding and tooling</a> or <a href="/source/private-label-from-china-ireland/" class="inline-link">private label manufacturing</a>.</p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--emerald">
+    <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">Ready to quote?</span>
+      <h2>Get a packaging quote.</h2>
+      <p>Send your product sizes, the box style you have in mind and rough quantities. We will come back with prices at several quantity breaks and material options.</p>
+      <a href="/contact/" class="btn btn--white-outline" style="margin-top:1rem">Get a packaging quote →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  /* HERO */
+  .page-hero {
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+  }
+  .hero-bg { position: absolute; inset: 0; }
+  .hero-bg img { width: 100%; height: 100%; object-fit: cover; object-position: center 40%; }
+  .hero-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(10, 28, 18, .9) 0%, rgba(10, 28, 18, .55) 50%, rgba(10, 28, 18, .2) 100%);
+  }
+  .hero-content { position: relative; z-index: 2; padding-block: 4rem 5rem; max-width: 900px; }
+  .hero-eyebrow {
+    font-size: .8125rem; font-weight: 700; color: rgba(255,255,255, .65);
+    text-transform: uppercase; letter-spacing: .1em; margin-bottom: 1.25rem; display: block;
+  }
+  .hero-content h1 {
+    color: #fff; font-size: clamp(2.25rem, 5vw, 4rem); line-height: 1.05;
+    margin-bottom: 1.5rem; letter-spacing: -.03em;
+  }
+  .hero-sub {
+    font-size: clamp(1rem, 1.5vw, 1.1875rem); color: rgba(255,255,255, .82);
+    line-height: 1.7; margin-bottom: 2rem; max-width: 640px;
+  }
+  .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+  /* TRUST BAR */
+  .trust-bar { background: #fff; border-bottom: 1px solid rgba(15, 33, 49, .08); padding: 2.5rem 0; }
+  .trust-grid { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
+  .trust-item { display: flex; flex-direction: column; gap: .25rem; flex: 1; min-width: 160px; }
+  .trust-num {
+    font-family: var(--font-body); font-size: clamp(1.25rem, 2.5vw, 1.875rem);
+    font-weight: 700; color: var(--color-emerald); line-height: 1; letter-spacing: -.03em;
+  }
+  .trust-label { font-size: .875rem; color: #5a5a5a; }
+  .trust-divider { width: 1px; height: 48px; background: rgba(15, 33, 49, .12); flex-shrink: 0; }
+
+  /* SPLITS */
+  .split-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+  .split-grid--reverse { direction: rtl; }
+  .split-grid--reverse > * { direction: ltr; }
+  .split-content h2 { margin-bottom: 1.25rem; }
+  .split-content p { color: #3a3a3a; margin-bottom: 1rem; }
+  .split-image img { width: 100%; height: 420px; object-fit: cover; border-radius: 12px; }
+  .inline-link { color: var(--color-emerald); font-weight: 600; font-size: .9375rem; text-decoration: none; }
+  .inline-link:hover { text-decoration: underline; }
+
+  /* TICK LISTS */
+  .tick-list { list-style: none; margin: 0 0 1.25rem; padding: 0; display: flex; flex-direction: column; gap: .625rem; }
+  .tick-list li { position: relative; padding-left: 1.5rem; color: #3a3a3a; line-height: 1.55; }
+  .tick-list li::before { content: '✓'; position: absolute; left: 0; color: var(--color-emerald); font-weight: 700; }
+  .tick-list--lg li { font-size: 1.0625rem; color: var(--color-navy); }
+  .fit-note { color: var(--color-slate); font-size: .9375rem; margin-top: 1rem; }
+
+  /* HARDWARE CARDS */
+  .cat-intro { color: var(--color-slate); max-width: 70ch; margin: 1rem 0 2rem; }
+  .cat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+  .cat-grid--2 { grid-template-columns: 1fr 1fr; }
+  .cat-card {
+    display: block; padding: 1.5rem; background: var(--color-white);
+    border: 1px solid rgba(15, 33, 49, .09); border-radius: 12px;
+    text-decoration: none; color: inherit;
+  }
+  .cat-card--link { transition: border-color .15s ease, transform .15s ease; }
+  .cat-card--link:hover { border-color: var(--color-emerald); transform: translateY(-2px); }
+  .cat-card--link h3 { font-size: 1.0625rem; color: var(--color-emerald); margin: 0 0 .625rem; }
+  .cat-card--link p { font-size: .9375rem; color: #3a3a3a; margin: 0; line-height: 1.6; }
+  .cat-card--static h3 { font-size: 1.0625rem; color: var(--color-navy); margin: 0 0 .625rem; }
+  .cat-card--static p { font-size: .9375rem; color: #3a3a3a; margin: 0; line-height: 1.6; }
+  .cat-note { color: var(--color-slate); font-size: .9375rem; margin-top: 1.5rem; max-width: 70ch; }
+
+  /* PRODUCTS LAYOUT */
+  .products-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+  .products-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .875rem; }
+  .products-list li { display: flex; align-items: flex-start; gap: .75rem; font-size: 1rem; color: var(--color-navy); line-height: 1.5; }
+  .product-check { color: var(--color-emerald); font-weight: 700; flex-shrink: 0; margin-top: .1em; }
+  .products-header p { color: var(--color-slate); margin-top: 1rem; }
+
+  /* PROCESS STEPS */
+  .process-steps { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; margin-top: 2.5rem; }
+  .process-step { padding: 2rem 1.25rem 2rem 0; border-top: 2px solid var(--color-emerald); }
+  .step-num {
+    display: block; font-family: var(--font-body); font-size: 2.5rem; font-weight: 700;
+    color: var(--color-teal); opacity: .35; line-height: 1; margin-bottom: .75rem; letter-spacing: -.04em;
+  }
+  .process-step h3 { font-size: 1rem; font-weight: 700; margin-bottom: .5rem; color: var(--color-navy); }
+  .process-step p { font-size: .9375rem; color: #4a4a4a; max-width: 100%; margin: 0; }
+
+  /* FAQ */
+  .faq-updated { font-size: .8125rem; color: #888; margin: .25rem 0 1.5rem; }
+  .faq-list { display: flex; flex-direction: column; gap: 0; margin-top: 1rem; }
+  .faq-item { border-bottom: 1px solid rgba(15, 33, 49, .1); padding: 0; }
+  .faq-item summary {
+    font-weight: 600; font-size: 1rem; color: var(--color-navy); cursor: pointer;
+    padding: 1.25rem 0; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+  }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after {
+    content: '+'; font-size: 1.25rem; font-weight: 300; color: var(--color-emerald);
+    flex-shrink: 0; transition: transform .2s ease;
+  }
+  .faq-item[open] summary::after { transform: rotate(45deg); }
+  .faq-item p { padding: 0 0 1.25rem; color: #4a4a4a; font-size: .9375rem; margin: 0; line-height: 1.65; }
+
+  @media (max-width: 900px) {
+    .split-grid, .split-grid--reverse { grid-template-columns: 1fr; gap: 2rem; direction: ltr; }
+    .split-image img { height: 280px; }
+    .products-layout { grid-template-columns: 1fr; gap: 2rem; }
+    .cat-grid, .cat-grid--2 { grid-template-columns: 1fr; }
+    .process-steps { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+    .process-step { padding: 1.5rem 0 0; }
+    .trust-divider { display: none; }
+  }
+  @media (max-width: 600px) {
+    .process-steps { grid-template-columns: 1fr; }
+    .hero-actions { flex-direction: column; }
+    .trust-grid { gap: 1rem; }
+  }
+</style>

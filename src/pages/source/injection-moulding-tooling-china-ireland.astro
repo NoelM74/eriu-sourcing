@@ -1,0 +1,363 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = "Injection Moulding & Tooling in China | Ériu";
+const description = "Injection moulds and plastic parts made in Dongguan for Irish product companies: DFM, tool steel, T1 samples, mould ownership in writing and QC on the ground.";
+const canonical = "/source/injection-moulding-tooling-china-ireland/";
+const ogImage = "/images/dongguan-injection-moulding-machine-open-mould.webp";
+const ogImageAlt = "Injection moulding machine with an open steel mould in a Dongguan factory";
+const siteUrl = 'https://eriusourcing.com';
+
+const faqs = [
+  {
+    q: "Who owns the mould if I pay for it in China?",
+    a: "You should, but only if the contract says so. A common dispute is a buyer who paid for a mould, then finds the factory will not release it, charges a transfer fee, or uses it for someone else. We put ownership, the right to move the tool, and a non-use clause in a written tooling agreement before the first payment, and we mark and photograph the mould once it is made.",
+  },
+  {
+    q: "Which tool steel do I need?",
+    a: "It depends on how many parts you will make over the mould's life. Pre-hardened steels such as P20 or 718 are the usual choice for lower and mid volumes, typically quoted for a few hundred thousand shots. Hardened steels such as H13 or S136 cost more but are specified for higher volumes, glass-filled materials or high-polish and medical-style finishes. We get the steel, shot-life guarantee and cavity count written into the quote.",
+  },
+  {
+    q: "What are T1 samples?",
+    a: "T1 samples are the first parts shot from the new mould. They almost always need small changes. We measure T1 parts against your drawing, list the corrections, and repeat (T2, T3) until the parts are right, then you approve golden samples before production starts.",
+  },
+  {
+    q: "How do you protect my design?",
+    a: "We use a China-specific NNN agreement (non-disclosure, non-use, non-circumvention) that covers the factory's affiliates and subcontractors, a written tooling agreement, and where the product warrants it, we split parts across more than one factory. Registering your design and trade marks in China adds a further layer, and we recommend it for valuable products.",
+  },
+  {
+    q: "Can you handle assembly and packaging as well as the moulded parts?",
+    a: "Yes. Dongguan has the full chain within a short drive: moulding, metal parts, electronics assembly and packaging printing. We can take a product from moulded parts through assembly, testing and retail packaging, and ship it finished to Ireland.",
+  },
+];
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "What We Source", "item": `${siteUrl}/source/` },
+      { "@type": "ListItem", "position": 3, "name": "Injection Moulding & Tooling", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "Service",
+    "name": "Injection mould tooling and plastic parts manufacturing in China for Irish companies",
+    "description": description,
+    "provider": { "@type": "ProfessionalService", "@id": `${siteUrl}/#organization` },
+    "areaServed": { "@type": "Country", "name": "Ireland" },
+    "serviceType": "Contract Manufacturing Sourcing",
+    "dateModified": new Date().toISOString().split('T')[0]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((f) => ({
+      "@type": "Question",
+      "name": f.q,
+      "acceptedAnswer": { "@type": "Answer", "text": f.a }
+    }))
+  }
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} ogImage={ogImage} ogImageAlt={ogImageAlt} jsonLd={pageSchemas}>
+
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="hero-bg">
+      <img
+        src="/images/dongguan-injection-moulding-machine-open-mould.webp"
+        alt="Injection moulding machine with an open multi-cavity steel mould and freshly moulded parts in a Dongguan factory"
+        width="1216"
+        height="832"
+        loading="eager"
+        fetchpriority="high"
+      />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content container">
+      <span class="hero-eyebrow">Injection moulding &amp; tooling, Dongguan</span>
+      <h1>Your mould. Your parts. Made in Dongguan, owned by you.</h1>
+      <p class="hero-sub">Injection moulds and plastic parts for Irish product companies, made in China's mould-making heartland. Design-for-manufacture review, the right tool steel, T1 samples measured against your drawing, and mould ownership in writing before you pay.</p>
+      <div class="hero-actions">
+        <a href="/contact/" class="btn btn--white">Send us your drawings →</a>
+        <a href="#process" class="btn btn--white-outline">See how it works</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item">
+          <span class="trust-num">DFM first</span>
+          <span class="trust-label">Design reviewed before any steel is cut</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">In writing</span>
+          <span class="trust-label">Mould ownership and non-use agreed before payment</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">T1 → golden</span>
+          <span class="trust-label">Samples measured until parts match your drawing</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">One region</span>
+          <span class="trust-label">Moulding, assembly and packaging in Dongguan</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY DONGGUAN -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="split-grid">
+        <div class="split-content">
+          <span class="section-eyebrow">Why Dongguan</span>
+          <h2>China's mould-making town, with the whole supply chain next door</h2>
+          <p>Chang'an town in Dongguan is known across China for mould making. Toolrooms, moulders, metal shops, electronics assemblers and packaging printers sit within a short drive of each other, between Shenzhen and Guangzhou.</p>
+          <p>For an Irish product company, that means one region can take you from a CAD file to a finished, boxed product. It also means plenty of choice, which is the problem: quality ranges from excellent toolrooms to workshops that cut corners on steel and cooling. Picking the right one is most of the job.</p>
+          <ul class="tick-list">
+            <li>Irish hardware start-ups and product companies</li>
+            <li>Brands moving a product from 3D printing or soft tooling to volume</li>
+            <li>Manufacturers moving a tool or part away from a European moulder</li>
+            <li>Own-label brands that need custom parts, not catalogue products</li>
+          </ul>
+        </div>
+        <div class="split-image">
+          <img
+            src="/images/dongguan-mould-toolroom-steel-insert-measurement.webp"
+            alt="Toolmaker measuring a machined steel mould insert in a Dongguan toolroom, with CNC machines behind"
+            width="1216"
+            height="832"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE TRAPS -->
+  <section class="section">
+    <div class="container">
+      <div class="products-layout">
+        <div class="products-header">
+          <span class="section-eyebrow">Where tooling goes wrong</span>
+          <h2>The mould is the asset. Most problems start with the contract.</h2>
+          <p>Buyers who go direct without someone on the ground tend to hit the same problems. Each one is avoidable if it is dealt with before the first payment.</p>
+        </div>
+        <ul class="products-list">
+          <li><span class="product-check">✓</span><span><strong>Ownership:</strong> the factory treats the mould as theirs, charges to release it, or uses it for another customer. We put ownership and transfer rights in a written tooling agreement.</span></li>
+          <li><span class="product-check">✓</span><span><strong>Cheap steel:</strong> a softer steel than quoted wears out early. Steel grade and shot-life guarantee go in the quote and are checked.</span></li>
+          <li><span class="product-check">✓</span><span><strong>Skipped DFM:</strong> draft angles, wall thickness and gate positions not reviewed, so parts warp or show sink marks.</span></li>
+          <li><span class="product-check">✓</span><span><strong>Unmeasured samples:</strong> T1 parts approved by photo. We measure against your drawing and keep golden samples.</span></li>
+          <li><span class="product-check">✓</span><span><strong>Material swaps:</strong> a cheaper resin used in production. Resin grade and supplier are specified and spot-checked.</span></li>
+          <li><span class="product-check">✓</span><span><strong>IP leaks:</strong> a China-specific NNN agreement covering affiliates and subcontractors, not a generic Western NDA.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section section--alt" id="process">
+    <div class="container">
+      <span class="section-eyebrow">How it works</span>
+      <h2>From CAD file to production parts</h2>
+      <div class="process-steps">
+        <div class="process-step">
+          <span class="step-num">01</span>
+          <h3>Brief and NNN</h3>
+          <p>You send drawings and volumes; NNN agreement signed with shortlisted toolrooms before files are shared in full.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">02</span>
+          <h3>DFM and quote</h3>
+          <p>Design-for-manufacture report, steel, cavities, shot life and part price quoted side by side.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">03</span>
+          <h3>Tooling</h3>
+          <p>Tooling agreement signed, steel cut, progress photographed. Ownership stays with you.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">04</span>
+          <h3>T1 to golden sample</h3>
+          <p>Samples measured against your drawing, corrections made, golden samples approved by you.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">05</span>
+          <h3>Production</h3>
+          <p>Parts made to the golden sample, inspected before shipment, assembled and packed if you want.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PACKAGING TIE-IN -->
+  <section class="section section--emerald">
+    <div class="container--narrow">
+      <span class="section-eyebrow section-eyebrow--light">Finish the product</span>
+      <h2>Parts, assembly and the box, from one region</h2>
+      <p>Most moulded products need assembly and a retail box. Dongguan's printers produce folding cartons, rigid gift boxes, mailer boxes and inserts a short drive from the moulders, so the finished product can be packed and inspected in one place before it ships.</p>
+      <a href="/source/custom-packaging-printing-china-ireland/" class="btn btn--white-outline" style="margin-top:1rem">Custom packaging &amp; printing →</a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Common questions</span>
+      <h2>Moulding and tooling in China, questions answered</h2>
+      <p class="faq-updated">Last reviewed: October 2026</p>
+      <div class="faq-list">
+        {faqs.map((f) => (
+          <details class="faq-item">
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+      <p class="fit-note">Building an own-label range rather than a custom part? See <a href="/source/private-label-from-china-ireland/" class="inline-link">private label and custom manufacturing</a>.</p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--emerald">
+    <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">Ready to quote?</span>
+      <h2>Send us your drawings.</h2>
+      <p>STEP or IGES files, expected annual volumes and the material you have in mind. We will come back with a DFM review and side-by-side toolroom quotes, under NNN.</p>
+      <a href="/contact/" class="btn btn--white-outline" style="margin-top:1rem">Send your drawings →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  /* HERO */
+  .page-hero {
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+  }
+  .hero-bg { position: absolute; inset: 0; }
+  .hero-bg img { width: 100%; height: 100%; object-fit: cover; object-position: center 40%; }
+  .hero-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(10, 28, 18, .9) 0%, rgba(10, 28, 18, .55) 50%, rgba(10, 28, 18, .2) 100%);
+  }
+  .hero-content { position: relative; z-index: 2; padding-block: 4rem 5rem; max-width: 900px; }
+  .hero-eyebrow {
+    font-size: .8125rem; font-weight: 700; color: rgba(255,255,255, .65);
+    text-transform: uppercase; letter-spacing: .1em; margin-bottom: 1.25rem; display: block;
+  }
+  .hero-content h1 {
+    color: #fff; font-size: clamp(2.25rem, 5vw, 4rem); line-height: 1.05;
+    margin-bottom: 1.5rem; letter-spacing: -.03em;
+  }
+  .hero-sub {
+    font-size: clamp(1rem, 1.5vw, 1.1875rem); color: rgba(255,255,255, .82);
+    line-height: 1.7; margin-bottom: 2rem; max-width: 640px;
+  }
+  .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+  /* TRUST BAR */
+  .trust-bar { background: #fff; border-bottom: 1px solid rgba(15, 33, 49, .08); padding: 2.5rem 0; }
+  .trust-grid { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
+  .trust-item { display: flex; flex-direction: column; gap: .25rem; flex: 1; min-width: 160px; }
+  .trust-num {
+    font-family: var(--font-body); font-size: clamp(1.25rem, 2.5vw, 1.875rem);
+    font-weight: 700; color: var(--color-emerald); line-height: 1; letter-spacing: -.03em;
+  }
+  .trust-label { font-size: .875rem; color: #5a5a5a; }
+  .trust-divider { width: 1px; height: 48px; background: rgba(15, 33, 49, .12); flex-shrink: 0; }
+
+  /* SPLITS */
+  .split-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+  .split-grid--reverse { direction: rtl; }
+  .split-grid--reverse > * { direction: ltr; }
+  .split-content h2 { margin-bottom: 1.25rem; }
+  .split-content p { color: #3a3a3a; margin-bottom: 1rem; }
+  .split-image img { width: 100%; height: 420px; object-fit: cover; border-radius: 12px; }
+  .inline-link { color: var(--color-emerald); font-weight: 600; font-size: .9375rem; text-decoration: none; }
+  .inline-link:hover { text-decoration: underline; }
+
+  /* TICK LISTS */
+  .tick-list { list-style: none; margin: 0 0 1.25rem; padding: 0; display: flex; flex-direction: column; gap: .625rem; }
+  .tick-list li { position: relative; padding-left: 1.5rem; color: #3a3a3a; line-height: 1.55; }
+  .tick-list li::before { content: '✓'; position: absolute; left: 0; color: var(--color-emerald); font-weight: 700; }
+  .tick-list--lg li { font-size: 1.0625rem; color: var(--color-navy); }
+  .fit-note { color: var(--color-slate); font-size: .9375rem; margin-top: 1rem; }
+
+  /* HARDWARE CARDS */
+  .cat-intro { color: var(--color-slate); max-width: 70ch; margin: 1rem 0 2rem; }
+  .cat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+  .cat-grid--2 { grid-template-columns: 1fr 1fr; }
+  .cat-card {
+    display: block; padding: 1.5rem; background: var(--color-white);
+    border: 1px solid rgba(15, 33, 49, .09); border-radius: 12px;
+    text-decoration: none; color: inherit;
+  }
+  .cat-card--link { transition: border-color .15s ease, transform .15s ease; }
+  .cat-card--link:hover { border-color: var(--color-emerald); transform: translateY(-2px); }
+  .cat-card--link h3 { font-size: 1.0625rem; color: var(--color-emerald); margin: 0 0 .625rem; }
+  .cat-card--link p { font-size: .9375rem; color: #3a3a3a; margin: 0; line-height: 1.6; }
+  .cat-card--static h3 { font-size: 1.0625rem; color: var(--color-navy); margin: 0 0 .625rem; }
+  .cat-card--static p { font-size: .9375rem; color: #3a3a3a; margin: 0; line-height: 1.6; }
+  .cat-note { color: var(--color-slate); font-size: .9375rem; margin-top: 1.5rem; max-width: 70ch; }
+
+  /* PRODUCTS LAYOUT */
+  .products-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+  .products-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .875rem; }
+  .products-list li { display: flex; align-items: flex-start; gap: .75rem; font-size: 1rem; color: var(--color-navy); line-height: 1.5; }
+  .product-check { color: var(--color-emerald); font-weight: 700; flex-shrink: 0; margin-top: .1em; }
+  .products-header p { color: var(--color-slate); margin-top: 1rem; }
+
+  /* PROCESS STEPS */
+  .process-steps { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; margin-top: 2.5rem; }
+  .process-step { padding: 2rem 1.25rem 2rem 0; border-top: 2px solid var(--color-emerald); }
+  .step-num {
+    display: block; font-family: var(--font-body); font-size: 2.5rem; font-weight: 700;
+    color: var(--color-teal); opacity: .35; line-height: 1; margin-bottom: .75rem; letter-spacing: -.04em;
+  }
+  .process-step h3 { font-size: 1rem; font-weight: 700; margin-bottom: .5rem; color: var(--color-navy); }
+  .process-step p { font-size: .9375rem; color: #4a4a4a; max-width: 100%; margin: 0; }
+
+  /* FAQ */
+  .faq-updated { font-size: .8125rem; color: #888; margin: .25rem 0 1.5rem; }
+  .faq-list { display: flex; flex-direction: column; gap: 0; margin-top: 1rem; }
+  .faq-item { border-bottom: 1px solid rgba(15, 33, 49, .1); padding: 0; }
+  .faq-item summary {
+    font-weight: 600; font-size: 1rem; color: var(--color-navy); cursor: pointer;
+    padding: 1.25rem 0; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+  }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after {
+    content: '+'; font-size: 1.25rem; font-weight: 300; color: var(--color-emerald);
+    flex-shrink: 0; transition: transform .2s ease;
+  }
+  .faq-item[open] summary::after { transform: rotate(45deg); }
+  .faq-item p { padding: 0 0 1.25rem; color: #4a4a4a; font-size: .9375rem; margin: 0; line-height: 1.65; }
+
+  @media (max-width: 900px) {
+    .split-grid, .split-grid--reverse { grid-template-columns: 1fr; gap: 2rem; direction: ltr; }
+    .split-image img { height: 280px; }
+    .products-layout { grid-template-columns: 1fr; gap: 2rem; }
+    .cat-grid, .cat-grid--2 { grid-template-columns: 1fr; }
+    .process-steps { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+    .process-step { padding: 1.5rem 0 0; }
+    .trust-divider { display: none; }
+  }
+  @media (max-width: 600px) {
+    .process-steps { grid-template-columns: 1fr; }
+    .hero-actions { flex-direction: column; }
+    .trust-grid { gap: 1rem; }
+  }
+</style>

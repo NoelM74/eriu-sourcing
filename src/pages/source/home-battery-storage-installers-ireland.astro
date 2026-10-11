@@ -1,0 +1,380 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = "Home Battery Storage for Irish Installers | Ériu";
+const description = "LiFePO4 home batteries and hybrid inverters for Irish solar and EV installers, factory-direct from Huizhou and Shenzhen, with ESB and EU battery rules checked.";
+const canonical = "/source/home-battery-storage-installers-ireland/";
+const ogImage = "/images/home-battery-storage-lifepo4-production-line-china.webp";
+const ogImageAlt = "Home battery units on a production and test line in a Guangdong battery factory";
+const siteUrl = 'https://eriusourcing.com';
+
+const faqs = [
+  {
+    q: "Is there a grant for home batteries in Ireland?",
+    a: "A residential battery grant of up to €600 was reported to take effect from 6 October 2026, alongside the solar PV grant of up to €1,800 and wider eligibility for homes built and occupied before 2025. Grant-funded jobs come with SEAI rules on installers and equipment, so check SEAI's current requirements for each model before you quote. We supply the certificates and datasheets you need for that check.",
+  },
+  {
+    q: "What does ESB Networks need for the inverter?",
+    a: "For microgeneration, ESB Networks requires the inverter to comply with IS EN 50549-1 with current Irish settings, and the installer's NC6 notification must be accompanied by a type-test certificate. Systems above roughly 6 kVA single phase or 11 kVA three phase move into a different connection process. We check the certificate covers the exact inverter model and Irish settings before you order.",
+  },
+  {
+    q: "How are home batteries shipped from China to Ireland?",
+    a: "As Class 9 dangerous goods (UN3480), usually by sea on pallets. Each battery model needs a UN38.3 test report, correct packing and labelling, and a dangerous-goods declaration, and the booking has to go with a carrier that accepts them. We handle all of that and ship inverters in the same container.",
+  },
+  {
+    q: "What do the EU battery rules mean for an installer importing batteries?",
+    a: "Whoever places the batteries on the Irish market takes on producer obligations under the EU Battery Regulation: labelling, safety documentation for stationary storage, and producer registration. Industrial batteries over 2 kWh also need a digital battery passport from 18 February 2027, and stationary storage batteries are generally treated as industrial batteries. We check how each supplier will meet these before you commit to a range.",
+  },
+  {
+    q: "What order size makes sense?",
+    a: "Because batteries ship as dangerous goods, freight per unit drops sharply when you order by the pallet or container. Many installers start with a pallet-sized trial to prove the batteries, inverters and support, then move to rolling orders. If you only fit a handful of batteries a year, a local distributor will make more sense, and we will tell you that.",
+  },
+];
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "What We Source", "item": `${siteUrl}/source/` },
+      { "@type": "ListItem", "position": 3, "name": "Home Battery Storage for Installers", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "Service",
+    "name": "Home battery storage and hybrid inverter sourcing for Irish installers",
+    "description": description,
+    "provider": { "@type": "ProfessionalService", "@id": `${siteUrl}/#organization` },
+    "areaServed": { "@type": "Country", "name": "Ireland" },
+    "serviceType": "Battery Storage Sourcing Agent",
+    "dateModified": new Date().toISOString().split('T')[0]
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((f) => ({
+      "@type": "Question",
+      "name": f.q,
+      "acceptedAnswer": { "@type": "Answer", "text": f.a }
+    }))
+  }
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} ogImage={ogImage} ogImageAlt={ogImageAlt} jsonLd={pageSchemas}>
+
+  <!-- HERO -->
+  <section class="page-hero">
+    <div class="hero-bg">
+      <img
+        src="/images/home-battery-storage-lifepo4-production-line-china.webp"
+        alt="Wall-mounted home battery units on a production and test line in a Guangdong battery factory"
+        width="1216"
+        height="832"
+        loading="eager"
+        fetchpriority="high"
+      />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content container">
+      <span class="hero-eyebrow">Home battery storage, Irish installers</span>
+      <h1>Every solar job is now a battery job. Buy the batteries direct.</h1>
+      <p class="hero-sub">LiFePO4 home batteries and hybrid inverters from the Huizhou and Shenzhen battery cluster, with ESB Networks, EU battery and dangerous-goods paperwork checked before anything ships. For solar, EV-charger and electrical installers who want the margin on storage.</p>
+      <div class="hero-actions">
+        <a href="/contact/" class="btn btn--white">Get installer pricing →</a>
+        <a href="#compliance" class="btn btn--white-outline">See what we check</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <section class="trust-bar">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item">
+          <span class="trust-num">€600</span>
+          <span class="trust-label">New residential battery grant, reported from 6 Oct 2026</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">LiFePO4</span>
+          <span class="trust-label">Cell source documented for every model</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">EN 50549-1</span>
+          <span class="trust-label">Inverter type-test certificates checked for Irish settings</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <span class="trust-num">UN38.3</span>
+          <span class="trust-label">Batteries shipped legally as dangerous goods</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY NOW -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="split-grid">
+        <div class="split-content">
+          <span class="section-eyebrow">Why now</span>
+          <h2>Storage has moved from upsell to standard</h2>
+          <p>From 6 October 2026, a new grant of up to €600 for residential batteries was reported to sit alongside the solar PV grant of up to €1,800, with PV eligibility widened to homes built and occupied before 2025 and fully funded solar-plus-storage for medically vulnerable households. More customers will ask for a battery on the first quote.</p>
+          <p>Most of the batteries and hybrid inverters sold in Ireland are made in Guangdong. Huizhou is home to major lithium cell makers, and Shenzhen and Dongguan build the packs and inverters behind many European brands. Buying from those factories, with the right checks, moves the brand importer's margin onto your side of the quote.</p>
+          <a href="/source/electronics/home-battery-storage-systems-china-ireland/" class="inline-link">See home battery systems in detail →</a>
+        </div>
+        <div class="split-image">
+          <img
+            src="/images/portable-power-station-qc-inspection-shenzhen.webp"
+            alt="Inspector testing a battery unit under load on an inspection bench in Shenzhen"
+            width="1216"
+            height="832"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE SUPPLY -->
+  <section class="section">
+    <div class="container">
+      <span class="section-eyebrow">What we supply</span>
+      <h2>The storage kit an installer actually fits</h2>
+      <div class="cat-grid cat-grid--2">
+        <div class="cat-card cat-card--static">
+          <h3>Batteries and inverters</h3>
+          <p><strong>LiFePO4 home batteries</strong>, wall-mounted or stackable, typically 5–15 kWh, in low- and high-voltage formats. <strong>Hybrid inverters</strong>, single and three phase, with EN 50549-1 certificates for Irish settings and app monitoring.</p>
+        </div>
+        <div class="cat-card cat-card--static">
+          <h3>Portable power and accessories</h3>
+          <p><strong>Portable power stations</strong> and folding solar panels for customers who want backup without a fixed install, plus <strong>EV chargers</strong>, cabling, isolators and mounting kits on the same order. <a href="/source/electronics/portable-power-stations-china-ireland/" class="inline-link">Portable power stations →</a></p>
+        </div>
+      </div>
+      <p class="cat-note">Already sourcing EV chargers with us, or thinking about it? Storage and chargers ship well together. See <a href="/source/ev-charger-sourcing-installers-ireland-uk/" class="inline-link">EV charger sourcing for installers</a>.</p>
+    </div>
+  </section>
+
+  <!-- COMPLIANCE -->
+  <section class="section section--alt" id="compliance">
+    <div class="container">
+      <div class="products-layout">
+        <div class="products-header">
+          <span class="section-eyebrow">What we check before it ships</span>
+          <h2>Storage is regulated. That is why buying direct needs a partner on the ground.</h2>
+          <p>A battery that cannot be connected, insured or legally shipped is worth nothing to an installer. These checks happen before you pay the balance, not after the container lands.</p>
+        </div>
+        <ul class="products-list">
+          <li><span class="product-check">✓</span><span><strong>ESB Networks:</strong> inverter type-test certificate to IS EN 50549-1 with current Irish settings, for the exact model</span></li>
+          <li><span class="product-check">✓</span><span><strong>Battery safety:</strong> safety test reports for stationary storage (for example IEC 62619) and the EU Battery Regulation's requirements</span></li>
+          <li><span class="product-check">✓</span><span><strong>Transport:</strong> UN38.3 report for every battery model, DG packing, labelling and declaration</span></li>
+          <li><span class="product-check">✓</span><span><strong>CE:</strong> LVD and EMC for batteries and inverters, RED (including cybersecurity) for wireless monitoring</span></li>
+          <li><span class="product-check">✓</span><span><strong>Cells:</strong> cell maker and grade documented, so you know what is inside the box</span></li>
+          <li><span class="product-check">✓</span><span><strong>Support:</strong> warranty terms, spare stock and the RMA route agreed in writing before the first order</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section">
+    <div class="container">
+      <span class="section-eyebrow">How it works</span>
+      <h2>From first call to rolling orders</h2>
+      <div class="process-steps">
+        <div class="process-step">
+          <span class="step-num">01</span>
+          <h3>Scope</h3>
+          <p>Your typical systems, single or three phase, annual volume and the monitoring platform you prefer.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">02</span>
+          <h3>Shortlist</h3>
+          <p>Two or three vetted battery and inverter pairings, with certificates, datasheets and landed pricing.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">03</span>
+          <h3>Trial</h3>
+          <p>A pallet-sized trial order to prove the kit, the paperwork and the support on real installs.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">04</span>
+          <h3>Ship</h3>
+          <p>Dangerous-goods sea freight booked with a carrier that accepts batteries; inverters in the same container.</p>
+        </div>
+        <div class="process-step">
+          <span class="step-num">05</span>
+          <h3>Roll out</h3>
+          <p>Forecast your season, and we group orders and production slots so stock is ready when your installs are.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FIT -->
+  <section class="section section--alt">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Is this right for you?</span>
+      <h2>This is a good fit if…</h2>
+      <ul class="tick-list tick-list--lg">
+        <li>You fit solar every week and storage is becoming part of most quotes.</li>
+        <li>You buy batteries through a distributor and want that margin back.</li>
+        <li>You already buy EV chargers or solar kit and want one supply line.</li>
+      </ul>
+      <p class="fit-note">If you only fit a handful of batteries a year, a local distributor will be simpler, and we will tell you that on the first call. You remain responsible for your installation standards, ESB notification and any grant-scheme rules; we make sure the equipment and paperwork you start from are right.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Common questions</span>
+      <h2>Home battery sourcing, questions answered</h2>
+      <p class="faq-updated">Last reviewed: October 2026</p>
+      <div class="faq-list">
+        {faqs.map((f) => (
+          <details class="faq-item">
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--emerald">
+    <div class="container--narrow" style="text-align:center">
+      <span class="section-eyebrow section-eyebrow--light">Ready to price it up?</span>
+      <h2>Get installer pricing on storage.</h2>
+      <p>Tell us your typical system sizes and how many batteries you fit a year. We will come back with certified battery and inverter options and landed prices, no obligation.</p>
+      <a href="/contact/" class="btn btn--white-outline" style="margin-top:1rem">Get installer pricing →</a>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  /* HERO */
+  .page-hero {
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+  }
+  .hero-bg { position: absolute; inset: 0; }
+  .hero-bg img { width: 100%; height: 100%; object-fit: cover; object-position: center 40%; }
+  .hero-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(10, 28, 18, .9) 0%, rgba(10, 28, 18, .55) 50%, rgba(10, 28, 18, .2) 100%);
+  }
+  .hero-content { position: relative; z-index: 2; padding-block: 4rem 5rem; max-width: 900px; }
+  .hero-eyebrow {
+    font-size: .8125rem; font-weight: 700; color: rgba(255,255,255, .65);
+    text-transform: uppercase; letter-spacing: .1em; margin-bottom: 1.25rem; display: block;
+  }
+  .hero-content h1 {
+    color: #fff; font-size: clamp(2.25rem, 5vw, 4rem); line-height: 1.05;
+    margin-bottom: 1.5rem; letter-spacing: -.03em;
+  }
+  .hero-sub {
+    font-size: clamp(1rem, 1.5vw, 1.1875rem); color: rgba(255,255,255, .82);
+    line-height: 1.7; margin-bottom: 2rem; max-width: 640px;
+  }
+  .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+  /* TRUST BAR */
+  .trust-bar { background: #fff; border-bottom: 1px solid rgba(15, 33, 49, .08); padding: 2.5rem 0; }
+  .trust-grid { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
+  .trust-item { display: flex; flex-direction: column; gap: .25rem; flex: 1; min-width: 160px; }
+  .trust-num {
+    font-family: var(--font-body); font-size: clamp(1.25rem, 2.5vw, 1.875rem);
+    font-weight: 700; color: var(--color-emerald); line-height: 1; letter-spacing: -.03em;
+  }
+  .trust-label { font-size: .875rem; color: #5a5a5a; }
+  .trust-divider { width: 1px; height: 48px; background: rgba(15, 33, 49, .12); flex-shrink: 0; }
+
+  /* SPLITS */
+  .split-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+  .split-grid--reverse { direction: rtl; }
+  .split-grid--reverse > * { direction: ltr; }
+  .split-content h2 { margin-bottom: 1.25rem; }
+  .split-content p { color: #3a3a3a; margin-bottom: 1rem; }
+  .split-image img { width: 100%; height: 420px; object-fit: cover; border-radius: 12px; }
+  .inline-link { color: var(--color-emerald); font-weight: 600; font-size: .9375rem; text-decoration: none; }
+  .inline-link:hover { text-decoration: underline; }
+
+  /* TICK LISTS */
+  .tick-list { list-style: none; margin: 0 0 1.25rem; padding: 0; display: flex; flex-direction: column; gap: .625rem; }
+  .tick-list li { position: relative; padding-left: 1.5rem; color: #3a3a3a; line-height: 1.55; }
+  .tick-list li::before { content: '✓'; position: absolute; left: 0; color: var(--color-emerald); font-weight: 700; }
+  .tick-list--lg li { font-size: 1.0625rem; color: var(--color-navy); }
+  .fit-note { color: var(--color-slate); font-size: .9375rem; margin-top: 1rem; }
+
+  /* HARDWARE CARDS */
+  .cat-intro { color: var(--color-slate); max-width: 70ch; margin: 1rem 0 2rem; }
+  .cat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+  .cat-grid--2 { grid-template-columns: 1fr 1fr; }
+  .cat-card {
+    display: block; padding: 1.5rem; background: var(--color-white);
+    border: 1px solid rgba(15, 33, 49, .09); border-radius: 12px;
+    text-decoration: none; color: inherit;
+  }
+  .cat-card--link { transition: border-color .15s ease, transform .15s ease; }
+  .cat-card--link:hover { border-color: var(--color-emerald); transform: translateY(-2px); }
+  .cat-card--link h3 { font-size: 1.0625rem; color: var(--color-emerald); margin: 0 0 .625rem; }
+  .cat-card--link p { font-size: .9375rem; color: #3a3a3a; margin: 0; line-height: 1.6; }
+  .cat-card--static h3 { font-size: 1.0625rem; color: var(--color-navy); margin: 0 0 .625rem; }
+  .cat-card--static p { font-size: .9375rem; color: #3a3a3a; margin: 0; line-height: 1.6; }
+  .cat-note { color: var(--color-slate); font-size: .9375rem; margin-top: 1.5rem; max-width: 70ch; }
+
+  /* PRODUCTS LAYOUT */
+  .products-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+  .products-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .875rem; }
+  .products-list li { display: flex; align-items: flex-start; gap: .75rem; font-size: 1rem; color: var(--color-navy); line-height: 1.5; }
+  .product-check { color: var(--color-emerald); font-weight: 700; flex-shrink: 0; margin-top: .1em; }
+  .products-header p { color: var(--color-slate); margin-top: 1rem; }
+
+  /* PROCESS STEPS */
+  .process-steps { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0; margin-top: 2.5rem; }
+  .process-step { padding: 2rem 1.25rem 2rem 0; border-top: 2px solid var(--color-emerald); }
+  .step-num {
+    display: block; font-family: var(--font-body); font-size: 2.5rem; font-weight: 700;
+    color: var(--color-teal); opacity: .35; line-height: 1; margin-bottom: .75rem; letter-spacing: -.04em;
+  }
+  .process-step h3 { font-size: 1rem; font-weight: 700; margin-bottom: .5rem; color: var(--color-navy); }
+  .process-step p { font-size: .9375rem; color: #4a4a4a; max-width: 100%; margin: 0; }
+
+  /* FAQ */
+  .faq-updated { font-size: .8125rem; color: #888; margin: .25rem 0 1.5rem; }
+  .faq-list { display: flex; flex-direction: column; gap: 0; margin-top: 1rem; }
+  .faq-item { border-bottom: 1px solid rgba(15, 33, 49, .1); padding: 0; }
+  .faq-item summary {
+    font-weight: 600; font-size: 1rem; color: var(--color-navy); cursor: pointer;
+    padding: 1.25rem 0; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+  }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after {
+    content: '+'; font-size: 1.25rem; font-weight: 300; color: var(--color-emerald);
+    flex-shrink: 0; transition: transform .2s ease;
+  }
+  .faq-item[open] summary::after { transform: rotate(45deg); }
+  .faq-item p { padding: 0 0 1.25rem; color: #4a4a4a; font-size: .9375rem; margin: 0; line-height: 1.65; }
+
+  @media (max-width: 900px) {
+    .split-grid, .split-grid--reverse { grid-template-columns: 1fr; gap: 2rem; direction: ltr; }
+    .split-image img { height: 280px; }
+    .products-layout { grid-template-columns: 1fr; gap: 2rem; }
+    .cat-grid, .cat-grid--2 { grid-template-columns: 1fr; }
+    .process-steps { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+    .process-step { padding: 1.5rem 0 0; }
+    .trust-divider { display: none; }
+  }
+  @media (max-width: 600px) {
+    .process-steps { grid-template-columns: 1fr; }
+    .hero-actions { flex-direction: column; }
+    .trust-grid { gap: 1rem; }
+  }
+</style>
