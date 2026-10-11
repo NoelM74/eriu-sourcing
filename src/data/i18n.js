@@ -12,4 +12,5 @@ export const translations = [
   { en: '/source/electronics/phone-accessories-wholesale-china-ireland/', de: '/de/handyzubehoer-gadgets-grosshandel/' },
   { en: '/blog/phone-screen-grades-incell-hard-oled-soft-oled-explained/', de: '/de/ratgeber/handy-display-qualitaeten-incell-oled/' },
   { en: '/blog/buying-refurbished-phones-wholesale-grades-imei-vat-ireland/', de: '/de/ratgeber/refurbished-smartphones-grosshandel-einkaufen/' },
+  { en: '/contact/', de: '/de/kontakt/' },
 ];
