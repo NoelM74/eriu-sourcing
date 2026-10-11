@@ -3325,6 +3325,100 @@ export const blogPosts = [
       { text: 'Get a parts quote', href: '/contact/' },
     ],
   },
+
+  {
+    slug: 'buying-refurbished-phones-wholesale-grades-imei-vat-ireland',
+    title: 'Buying Refurbished Phones Wholesale: Grades, IMEI Checks and VAT for Irish Phone Shops',
+    metaTitle: 'Buying Refurbished Phones Wholesale in Ireland | Ériu',
+    metaDescription: 'What refurbished phone grades really mean, how to check IMEI, locks and battery health before you buy, and the VAT trap on imported second-hand phones.',
+    h1: 'Buying refurbished phones wholesale: grades, IMEI checks and VAT for Irish phone shops',
+    eyebrow: 'Phone Shop Guide',
+    category: 'category-guides',
+    primaryKeyword: 'buy refurbished phones wholesale Ireland',
+    secondaryKeywords: ['refurbished phone grades explained', 'IMEI blacklist check', 'margin scheme second-hand phones Ireland', 'wholesale refurbished iPhones'],
+    intent: 'commercial',
+    targetReader: 'Irish phone shop owners deciding whether and how to buy refurbished phones in bulk',
+    estimatedWordCount: 1300,
+    publishDate: '2026-10-11',
+    draft: false,
+    body: `<p class="article-summary"><strong>The short answer:</strong> a grade (A, B, C) only describes how a phone looks, and every seller defines it differently. Before you buy refurbished phones in bulk, agree written grade definitions, then check every phone for IMEI blacklist status, activation and network locks, battery health and full function. And price carefully: import VAT is charged on the full value of phones you import from outside the EU, and Revenue has challenged dealers who applied the margin scheme to phones they imported themselves.</p>
+
+<p>Refurbished phones are the biggest ticket a phone shop buys after repair parts. Done well, they bring in customers who would never pay for a new flagship, and they sell alongside cases, screen protectors and repairs. Done badly, one bad batch of locked or blacklisted phones wipes out months of margin.</p>
+
+<p>This guide covers what to check, where the stock really comes from, and the VAT point that catches importers out.</p>
+
+<h2>Where wholesale refurbished phones come from</h2>
+
+<p>Hong Kong sits at the centre of the global trade in used phones. Trade-in and returned phones from the US, Europe and Asia are traded there in bulk, and much of the grading, repair and refurbishing happens across the border in Shenzhen. By the time a "Grade A" phone reaches an Irish shop through a European wholesaler, it has usually passed through two or three traders, each adding a margin.</p>
+
+<p>Buying closer to the source cuts those margins out. It also means nobody else has checked the phones for you, so the checks below become your job, or your agent's.</p>
+
+<figure class="article-figure">
+  <img src="/images/shenzhen-refurbished-phone-grading-testing-centre.webp" alt="Technicians grading and testing refurbished smartphones at benches in a Shenzhen refurbishment centre" loading="lazy" width="1216" height="832">
+  <figcaption>Grading and testing happens phone by phone. The grade on the invoice is only as good as the checks behind it.</figcaption>
+</figure>
+
+<h2>What grades A, B and C actually mean</h2>
+
+<p>Grades describe cosmetic condition, not function. One industry testing firm puts it bluntly: the grade does not tell you the battery health, whether the phone is unlocked, or even whether it is stolen. And definitions vary. Some sellers tie a battery-health minimum to each grade, others do not mention battery at all.</p>
+
+<p>So do not buy on someone else's grade. Write your own definitions and buy against them:</p>
+
+<ul>
+<li><strong>Cosmetics:</strong> what marks are allowed on the screen, frame and back, and from what viewing distance.</li>
+<li><strong>Battery health:</strong> the minimum you accept for each grade.</li>
+<li><strong>Parts:</strong> whether replaced screens or batteries are acceptable, and how they must be declared.</li>
+</ul>
+
+<h2>The checks every phone needs</h2>
+
+<ul>
+<li><strong>IMEI blacklist status.</strong> Check every IMEI against blacklist databases and reject any phone reported lost, stolen or unpaid. A blacklisted phone may not work on Irish networks, and selling it is a problem you do not want.</li>
+<li><strong>Activation and account locks.</strong> A phone still tied to a previous owner's Apple or Google account is close to worthless. Reject it.</li>
+<li><strong>Network lock.</strong> Buy network-unlocked stock unless you have a specific reason not to.</li>
+<li><strong>Battery health.</strong> Read it and record it per phone against your minimum.</li>
+<li><strong>Full function test.</strong> Screen and touch, cameras, speakers, microphones, charging, Wi-Fi, Bluetooth, Face ID or fingerprint, buttons.</li>
+<li><strong>Parts history.</strong> On recent iPhones, Settings shows a Parts and Service History. Record what each phone shows so your customers are not surprised.</li>
+</ul>
+
+<p>Ask for the results as a per-phone report: IMEI, grade, battery health and test result. It is your stock list, your warranty record and your proof of where each phone came from.</p>
+
+<h2>The VAT trap on imported second-hand phones</h2>
+
+<p>Many Irish phone shops sell second-hand phones under the VAT margin scheme, which charges VAT on the difference between buying and selling price rather than the full price. Revenue's guidance says the scheme is optional and is generally for goods bought from people who could not reclaim VAT, typically private individuals.</p>
+
+<p>Imports are different. When phones come into Ireland from outside the EU, import VAT is charged on their full value at the border. A 2026 Tax Appeals Commission determination concerned a Revenue assessment of over €9 million against a company that applied the margin scheme to second-hand phones and electronics it imported from the UK. Whatever the outcome of an individual case, the message is clear: do not assume the margin scheme applies to phones you import yourself. Get VAT advice before you set your prices.</p>
+
+<h2>Waste rules: why testing records matter</h2>
+
+<p>Used electronics that have not been tested can be treated as waste rather than goods, and waste shipping rules are strict. EU rules expect evidence that used equipment has been tested and works. A per-phone test report is what shows your shipment is stock, not e-waste.</p>
+
+<h2>How Ériu Sourcing buys refurbished phones</h2>
+
+<p>We buy graded stock through the Shenzhen and Hong Kong trade against your written grade definitions, check every phone (IMEI, locks, battery health, full function, parts history) before it is packed, reject anything that fails, and ship to Ireland with a per-phone report. See <a href="/source/electronics/refurbished-phones-wholesale-china-ireland/">wholesale refurbished phones</a>, or our full <a href="/source/phone-repair-parts-supplier-ireland/">phone shop supply service</a> for parts, accessories and gadgets on the same order.</p>`,
+    excerpt: 'Grades only describe how a phone looks. Here is what to check on every refurbished phone before you buy in bulk (IMEI, locks, battery, function) and the VAT trap on second-hand phones imported from outside the EU.',
+    image: '/images/shenzhen-refurbished-phone-grading-testing-centre.webp',
+    imageAlt: 'Refurbished smartphones being graded and tested in a Shenzhen refurbishment centre',
+    sections: [
+      'Where wholesale refurbished phones come from',
+      'What grades A, B and C actually mean',
+      'The checks every phone needs',
+      'The VAT trap on imported second-hand phones',
+      'Waste rules: why testing records matter',
+      'How Ériu Sourcing buys refurbished phones',
+    ],
+    faq: [
+      { q: 'What does Grade A mean on a refurbished phone?', a: 'It describes cosmetic condition only, usually few or no visible marks, and every seller defines it differently. It says nothing about battery health, locks or whether the phone is stolen, so agree written definitions and check every phone.' },
+      { q: 'How do I check a refurbished phone is not stolen?', a: 'Check its IMEI against blacklist databases before buying and reject anything reported lost or stolen. Also reject phones that are activation-locked to a previous owner\'s account.' },
+      { q: 'Can I use the margin scheme on refurbished phones I import?', a: 'Be careful. Import VAT is charged on the full value of phones imported from outside the EU, and Revenue has challenged dealers who applied the margin scheme to second-hand phones they imported themselves. Take VAT advice before pricing on a margin basis.' },
+    ],
+    relatedSlugs: ['phone-screen-grades-incell-hard-oled-soft-oled-explained', 'real-landed-cost-importing-from-china-ireland', 'how-to-source-products-direct-from-china-to-ireland-2026'],
+    internalLinks: [
+      { text: 'Wholesale refurbished phones', href: '/source/electronics/refurbished-phones-wholesale-china-ireland/' },
+      { text: 'Phone shop supply: parts, accessories and gadgets', href: '/source/phone-repair-parts-supplier-ireland/' },
+      { text: 'Get a quote', href: '/contact/' },
+    ],
+  },
 ];
 // Helper: get published posts only
 export const publishedPosts = blogPosts.filter(p => !p.draft);
