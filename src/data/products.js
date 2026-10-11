@@ -2813,8 +2813,12 @@ export const products = [
     ],
     pricingContext: 'Battery and inverter prices from the factory sit well below branded European distribution, and the gap is widest on the battery modules. Freight is a real cost because batteries ship as dangerous goods, so orders work best by the pallet or container. We quote landed cost including DG freight, duty and 23% VAT.',
     leadTime: 'Stock models 1–3 weeks; custom branding 4–6 weeks; then dangerous-goods sea freight (book ahead, as not every sailing accepts batteries)',
-    logistics: 'Battery modules ship as Class 9 dangerous goods (UN3480) by sea, usually on pallets in a full or shared container booked with a DG-approved carrier. Inverters ship as general cargo and can travel with the batteries.',
+    logistics: 'Battery modules ship as Class 9 dangerous goods (UN3480) by sea, usually on pallets in a full or shared container booked with a DG-approved carrier. Inverters ship as general cargo and can travel with the batteries. Ériu Sourcing supplies and ships only; installation is done by your own registered electrical contractor.',
     faq: [
+      {
+        q: 'Does Ériu Sourcing install home batteries?',
+        a: 'No. We source, check and ship batteries and inverters from China to installers and businesses in Ireland, and we do not install anything. Homeowners should go to an SEAI-registered installer; installers can buy from us.',
+      },
       {
         q: 'Can installers use batteries from China on SEAI grant jobs?',
         a: 'A new residential battery grant of up to €600 was reported to take effect from 6 October 2026, alongside the solar PV grant of up to €1,800. Grant jobs come with SEAI rules on installers and equipment, so check SEAI\'s current product and installer requirements for each model before you quote. We supply the certificates and datasheets you need for that check.',
