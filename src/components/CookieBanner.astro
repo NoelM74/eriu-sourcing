@@ -4,16 +4,21 @@
 // restores a stored "granted" choice. This banner asks visitors who have not
 // chosen yet, saves the answer in localStorage and updates consent.
 // Any element with [data-cookie-settings] reopens it (footer link).
+interface Props { lang?: 'en' | 'de' }
+const { lang = 'en' } = Astro.props;
+const t = lang === 'de'
+  ? { region: 'Cookie-Einwilligung', text: 'Wir verwenden Google-Analytics-Cookies, um zu sehen, wie Besucher diese Website nutzen. Ohne Ihre Zustimmung wird nichts erfasst.', privacy: 'Datenschutzerklärung (Englisch)', reject: 'Ablehnen', accept: 'Akzeptieren' }
+  : { region: 'Cookie consent', text: 'We use Google Analytics cookies to see how visitors use this site. Nothing is tracked unless you accept.', privacy: 'Privacy policy', reject: 'Reject', accept: 'Accept' };
 ---
 
-<div class="cookie-banner" id="cookie-banner" role="region" aria-label="Cookie consent" hidden>
+<div class="cookie-banner" id="cookie-banner" role="region" aria-label={t.region} hidden>
   <p class="cookie-text">
-    We use Google Analytics cookies to see how visitors use this site. Nothing is tracked unless you accept.
-    <a href="/privacy/">Privacy policy</a>
+    {t.text}
+    <a href="/privacy/">{t.privacy}</a>
   </p>
   <div class="cookie-actions">
-    <button type="button" class="cookie-btn" data-consent="denied">Reject</button>
-    <button type="button" class="cookie-btn" data-consent="granted">Accept</button>
+    <button type="button" class="cookie-btn" data-consent="denied">{t.reject}</button>
+    <button type="button" class="cookie-btn" data-consent="granted">{t.accept}</button>
   </div>
 </div>
 
