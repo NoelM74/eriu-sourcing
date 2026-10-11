@@ -2067,7 +2067,7 @@ export const blogPosts = [
 <p>We would rather you knew this now than after you'd signed. Two things matter most:</p>
 
 <ul>
-  <li><strong>Planning-exempt is not building-regulations-exempt.</strong> Even under Class 3A, a back-garden home still needs a Commencement Notice, services connected from your house, a foundation, and a BER on completion. Every Ériu unit is specified to the Irish Building Regulations (TGD Parts A–M) and ships with a full compliance pack; our vetted Irish installer network handles the site phase. <a href="/modular-homes/building-regulations-ireland/">Here's exactly what that involves.</a></li>
+  <li><strong>Planning-exempt is not building-regulations-exempt.</strong> Even under Class 3A, a back-garden home still needs a Commencement Notice, services connected from your house, a foundation, and a BER on completion. Every Ériu unit is specified to the Irish Building Regulations (TGD Parts A–M) and ships with a full compliance pack; the site phase is carried out by your own Irish contractor. <a href="/modular-homes/building-regulations-ireland/">Here's exactly what that involves.</a></li>
   <li><strong>The mortgage point.</strong> Most Irish lenders will not currently mortgage a property that has a second self-contained dwelling on the same title, which can affect remortgaging and resale. Many families therefore fund the unit from savings, a credit union loan or a personal loan rather than the house mortgage. We provide a written briefing on this with every quote, and you should confirm the position with your solicitor.</li>
 </ul>
 
@@ -2085,7 +2085,7 @@ export const blogPosts = [
     ],
     faq: [
       { q: 'Can I legally build a home for my adult child in my back garden?', a: 'Yes, under Class 3A of S.I. No. 340 of 2026, in force since 27 July 2026. A detached self-contained home of 32 to 45 m² in the rear garden of the house you live in can be built without a planning application where every condition is met, including linking services to the main house and notifying your council at least 14 days before work starts. It must still meet the Irish Building Regulations and carry a BER. Start with a site review against the Class 3A conditions, and confirm the position with your local authority and solicitor.' },
-      { q: 'How much would a back-garden home for my son or daughter cost?', a: 'A unit like the Ériu 20ft Expandable starts from €25,000 delivered for a basic livable specification and finishes up to a fully-fitted, compliant A2 home for a fraction of the €110,000–€180,000 an Irish-built equivalent costs. Site works, foundation, crane, services, BER, vary per garden, so the all-in installed figure is project-specific and itemised in your quote.' },
+      { q: 'How much would a back-garden home for my son or daughter cost?', a: 'A unit like the Ériu 20ft Expandable starts from €25,000 delivered for a basic livable specification and finishes up to a fully-fitted, compliant A2 home for a fraction of the €110,000–€180,000 an Irish-built equivalent costs. Site works, foundation, crane, services, BER, vary per garden and are priced by your own contractor, so the all-in installed figure is project-specific.' },
       { q: 'Will building a second home in the garden affect my mortgage?', a: 'Most Irish lenders will not currently mortgage a property that contains a second self-contained dwelling on the same title, which can affect remortgaging and resale. Many families fund the unit from savings or other finance rather than the house mortgage. We provide a written briefing on this with every quote and recommend you confirm the position with your solicitor.' },
     ],
     relatedSlugs: ['ireland-april-2026-back-garden-home-rules-explained', 'rent-a-room-garden-home-tax-free-income-ireland', 'downsizing-stay-on-family-land-ireland'],
@@ -2211,7 +2211,7 @@ export const blogPosts = [
 
 <p>A unit like the Ériu 20ft Expandable arrives folded on one lorry and opens to roughly 34 m² in a single working day. It's specified to the Irish Building Regulations, achieves an A2 BER on a correctly installed unit, and is finished to your tier, a real, warm, permanent home, not a portacabin.</p>
 
-<p>It starts from <strong>€25,000 delivered</strong> and reaches a fully-fitted, compliant home for a fraction of the Irish-built figure. Because the site works vary, the exact all-in number is project-specific and itemised in your quote, but where a conventional build takes nine to twelve months, an Ériu project typically installs in <strong>14 to 18 weeks</strong> from order. For most people, the time saved matters as much as the money. <a href="/modular-homes/permanent-modular-home-ireland/">Here's the full picture for a home on your own site.</a></p>
+<p>It starts from <strong>€25,000 delivered</strong> and reaches a fully-fitted, compliant home for a fraction of the Irish-built figure. Because the site works vary and are priced by your own contractor, the exact all-in number is project-specific, but where a conventional build takes nine to twelve months, a typical Ériu project takes <strong>14 to 18 weeks</strong> from order to move-in, including your own contractor's site works. For most people, the time saved matters as much as the money. <a href="/modular-homes/permanent-modular-home-ireland/">Here's the full picture for a home on your own site.</a></p>
 
 <p>One honest distinction: on a site of your own, the back-garden auxiliary-dwelling exemption does <strong>not</strong> apply, you will typically need planning permission for a dwelling on its own site. We confirm which route applies at the eligibility review and won't sell you a unit you can't lawfully site.</p>
 
@@ -2221,16 +2221,16 @@ export const blogPosts = [
 
 <p>Every Ériu home is built on a channel-steel base frame, with insulated sandwich panels (upgradeable to PIR for Part L), double-glazed aluminium openings, and, critically, it is specified for the Irish climate <em>before</em> it's built. The U-values, the cladding lap details, the roof falls and the air-tightness are all set for wet, windy, frost-prone conditions, not for somewhere drier.</p>
 
-<p>It carries a <strong>30-year anti-corrosion warranty</strong>, given by the factory and carried by Ériu, so the cover is held here in Ireland. It's photographed at the factory, again at Dublin Port, and again on site before craning, and it's supplied with the full Building Regulations compliance pack. That's the point of buying from an Irish-owned company that inspects every unit in person: when you've a question in year three, you're ringing Ireland, not an anonymous listing.</p>
+<p>It carries a <strong>30-year anti-corrosion warranty</strong>, given by the factory and carried by Ériu, so the cover is held here in Ireland. It's photographed at the factory and again at Dublin Port, and it's supplied with the full Building Regulations compliance pack. That's the point of buying from an Irish-owned company that inspects every unit in person: when you've a question in year three, you're ringing Ireland, not an anonymous listing.</p>
 
 <h2>How it's this affordable, no mystery, no cut corners</h2>
 
 <p>The saving comes from one place. Our founder, Noel, has been an Irish sourcing agent based in Henan since 2008. We buy direct from the factories that build these homes, the same ones supplying European projects, inspect each one ourselves, and remove the European intermediary margin. Same steel, same insulation, same compliance, direct pricing.</p>
 
-<p>The honest checklist for a home on a site is short and we'll map it before you commit a euro: a foundation to suit your ground, services connected, a Commencement Notice, a BER on completion, and, outside the back-garden exemption, almost always planning permission. Our installer network handles the site works and we co-ordinate the compliance paperwork, so what you end up with is a certified, occupiable home.</p>
+<p>The honest checklist for a home on a site is short and we'll map it before you commit a euro: a foundation to suit your ground, services connected, a Commencement Notice, a BER on completion, and, outside the back-garden exemption, almost always planning permission. Your own contractor handles the site works, and the compliance pack we supply gives them and your certifier everything they need for a certified, occupiable home.</p>
 
 <p>A real home doesn't have to mean a real wait, or a price that closes the door before you reach it.</p>`,
-    excerpt: 'The actual home, on your own site, built to the Irish Building Regulations with an A2 BER and a 30-year warranty, installed in 14–18 weeks, for a fraction of a conventional build. Including an honest answer to the durability question.',
+    excerpt: 'The actual home, on your own site, built to the Irish Building Regulations with an A2 BER and a 30-year warranty, ready in 14–18 weeks with your own contractor\'s site works, for a fraction of a conventional build. Including an honest answer to the durability question.',
     image: '/images/modular-homes-40ft-expandable.webp',
     imageAlt: 'A permanent steel-frame modular home on its own site in Ireland, built to last with a 30-year anti-corrosion warranty',
     sections: [
@@ -2242,7 +2242,7 @@ export const blogPosts = [
     faq: [
       { q: 'Can a modular home be a genuine permanent home on my own site?', a: 'Yes. A steel-frame modular home specified to the Irish Building Regulations (TGD Parts A–M) with an A2 BER is a genuine permanent dwelling. On your own site, as opposed to a back garden, the back-garden exemption does not apply and you will typically need planning permission. We confirm which route applies at the eligibility review.' },
       { q: 'Will an imported modular home survive the Irish climate?', a: 'Every Ériu home is built on a channel-steel base frame with insulated sandwich panels, double-glazed aluminium openings, and is specified for the Irish climate before it is built, U-values, cladding details, roof falls and air-tightness set for wet, windy, frost-prone conditions. It carries a 30-year anti-corrosion warranty, given by the factory and carried by Ériu, and ships with a full compliance pack.' },
-      { q: 'How does the cost and timeline compare with a conventional build?', a: 'A factory-direct unit starts from €25,000 delivered and finishes for a fraction of the €110,000–€180,000 an Irish-built modular home typically costs, installing in around 14 to 18 weeks from order versus the best part of a year for a conventional build. Site works, foundation, services, BER, are additional and itemised in your quote.' },
+      { q: 'How does the cost and timeline compare with a conventional build?', a: 'A factory-direct unit starts from €25,000 delivered and finishes for a fraction of the €110,000–€180,000 an Irish-built modular home typically costs, installing in around 14 to 18 weeks from order versus the best part of a year for a conventional build. Site works, foundation, services, BER, are additional and priced by your own contractor; we give you indicative ranges up front.' },
     ],
     relatedSlugs: ['ireland-april-2026-back-garden-home-rules-explained', 'adult-children-living-at-home-ireland-garden-home', 'rent-a-room-garden-home-tax-free-income-ireland'],
     internalLinks: [
@@ -2284,7 +2284,7 @@ export const blogPosts = [
 
 <h2>Gentle on a fixed budget</h2>
 
-<p>This matters more when you're not earning what you once did. A unit like the Ériu 20ft Expandable starts from <strong>€25,000 delivered</strong> for a basic livable specification and finishes up to a fully-fitted, compliant A2 home for a fraction of the €110,000–€180,000 an Irish-built unit costs, well within reach of savings or the proceeds of freeing up the main house. The exact installed figure depends on your garden and is itemised in your quote.</p>
+<p>This matters more when you're not earning what you once did. A unit like the Ériu 20ft Expandable starts from <strong>€25,000 delivered</strong> for a basic livable specification and finishes up to a fully-fitted, compliant A2 home for a fraction of the €110,000–€180,000 an Irish-built unit costs, well within reach of savings or the proceeds of freeing up the main house. The exact installed figure depends on your garden and your contractor's price for the site works.</p>
 
 <p>Because lenders treat a second dwelling on the same title carefully, we always recommend a quick word with your solicitor, and we provide a written briefing with every quote, but in most cases the family home's title isn't disturbed.</p>
 
@@ -2292,7 +2292,7 @@ export const blogPosts = [
 
 <p>A home for later life has to be warm, easy and built to last. Every Ériu unit is specified to the Irish Building Regulations, achieves an A2 BER on a correctly installed unit with a heat pump, warm and cheap to run, is weatherproofed for the Irish climate, and carries a 30-year anti-corrosion warranty, given by the factory and carried by Ériu. Single-storey throughout, with level access designed in.</p>
 
-<p>And it's supplied by an Irish-owned company that inspects every unit in person and answers the phone here, which counts for a great deal when it's a home for someone you love. The site phase, foundation, services from the main house, Commencement Notice and BER, is handled by our vetted Irish installer network, with the paperwork co-ordinated across both phases.</p>
+<p>And it's supplied by an Irish-owned company that inspects every unit in person and answers the phone here, which counts for a great deal when it's a home for someone you love. The site phase, foundation, services from the main house, Commencement Notice and BER, is carried out by your own Irish contractor and certifier, working from the compliance pack we supply with the unit.</p>
 
 <p>Downsizing shouldn't cost you the people and the place you love. On the family land, it doesn't have to.</p>`,
     excerpt: "With over a million people aged 65+ by 2030, the State is encouraging rightsizing. A single-storey, level-access garden home lets you downsize without leaving the family home or the area, here's how it works.",

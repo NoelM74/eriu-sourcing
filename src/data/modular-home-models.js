@@ -96,7 +96,7 @@ export const modularHomeModels = [
     body: [
       'The 30ft Expandable is the most flexible model in the Ériu range. At ~52 m² internal floor area it is large enough to accommodate a two-bedroom layout with separate living and kitchen areas, but compact enough that the shipping cost per unit and the on-site expansion remain straightforward.',
       'Because the 30ft sits above the 45 m² ceiling of the Class 3A exemption (S.I. No. 340 of 2026), Irish buyers using the 30ft model are typically pursuing full planning permission rather than relying on the exemption. The most common application is a rural cottage on a site that already has a dwelling, a holiday-let unit on a working farm, or a larger family-supporting auxiliary dwelling where the buyer wants the comfort margin that the 20ft Expandable cannot quite deliver.',
-      'One 30ft unit loads per 40HQ ocean container, the shipping cost per unit is roughly twice the 20ft, but the resulting internal floor area is roughly 50% larger. Same Henan central-China factory base, same QC programme, same on-site expansion process, the 30ft unfolds in the same single day with the same two-person crew.',
+      'One 30ft unit loads per 40HQ ocean container, the shipping cost per unit is roughly twice the 20ft, but the resulting internal floor area is roughly 50% larger. Same Henan central-China factory base, same QC programme, same on-site expansion process, the 30ft unfolds in the same single day with a two-person crew.',
     ],
 
     faq: [
