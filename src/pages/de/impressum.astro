@@ -1,0 +1,62 @@
+---
+// Impressum (company details) for the German-language pages.
+// Company facts confirmed by the owner on 2026-10-11.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = "Impressum | Ériu Sourcing";
+const description = "Anbieterkennzeichnung von Ériu Sourcing, einem Handelsnamen der Springfield Tectop Limited, eingetragen in Irland unter der Nummer 571256.";
+---
+
+<BaseLayout title={title} description={description} canonical="/de/impressum/">
+  <section class="imprint">
+    <div class="container--narrow">
+      <span class="section-eyebrow">Rechtliches</span>
+      <h1>Impressum</h1>
+
+      <h2>Anbieter</h2>
+      <p>Ériu Sourcing ist ein Handelsname der<br />
+      <strong>Springfield Tectop Limited</strong><br />
+      Ennis Road<br />
+      Co. Limerick<br />
+      Irland</p>
+
+      <h2>Registereintrag</h2>
+      <dl>
+        <dt>Rechtsform</dt><dd>Private Company Limited by Shares (Gesellschaft mit beschränkter Haftung nach irischem Recht)</dd>
+        <dt>Register</dt><dd>Companies Registration Office (CRO), Irland</dd>
+        <dt>Registernummer</dt><dd>571256</dd>
+        <dt>Gegründet</dt><dd>5. November 2015</dd>
+        <dt>Eingetragener Sitz</dt><dd>Ennis Road, Co. Limerick, Irland</dd>
+      </dl>
+
+      <h2>Kontakt</h2>
+      <dl>
+        <dt>Telefon und WhatsApp</dt><dd><a href="tel:+353871187806">+353 87 118 7806</a></dd>
+        <dt>E-Mail</dt><dd><a href="mailto:hello@eriusourcing.com">hello@eriusourcing.com</a></dd>
+        <dt>Büroanschrift</dt><dd>Springfield, Clonlara, Co. Clare, V94 R2DX, Irland</dd>
+      </dl>
+      <p>Anfragen auf Deutsch sind willkommen; unser Team antwortet auf Englisch. <a href="/de/kontakt/">Zum Anfrageformular</a>.</p>
+
+      <h2>Zielgruppe</h2>
+      <p>Die Angebote auf den deutschsprachigen Seiten richten sich an Unternehmen (B2B). Ériu Sourcing beschafft und prüft Waren in China und liefert FOB China oder auf Wunsch geliefert; Installationsleistungen erbringen wir nicht.</p>
+
+      <h2>Datenschutz</h2>
+      <p>Informationen zur Verarbeitung personenbezogener Daten finden Sie in unserer <a href="/privacy/">Datenschutzerklärung (Englisch)</a>.</p>
+
+      <p class="note"><a href="/de/">Zurück zur deutschen Startseite</a></p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .imprint { padding: 3.5rem 0 5rem; }
+  .imprint h1 { margin: .5rem 0 2rem; }
+  .imprint h2 { font-size: 1.25rem; margin: 2rem 0 .75rem; }
+  .imprint p { color: #3a3a3a; line-height: 1.7; }
+  .imprint dl { display: grid; grid-template-columns: max-content 1fr; gap: .5rem 1.5rem; margin: 0; }
+  .imprint dt { font-weight: 600; color: var(--color-navy); }
+  .imprint dd { margin: 0; color: #3a3a3a; }
+  .imprint a { color: var(--color-emerald); }
+  .note { margin-top: 2.5rem; font-size: .9375rem; }
+  @media (max-width: 560px) { .imprint dl { grid-template-columns: 1fr; gap: .125rem; } .imprint dd { margin-bottom: .75rem; } }
+</style>

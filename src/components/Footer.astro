@@ -103,7 +103,8 @@ const currentYear = new Date().getFullYear();
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; {currentYear} Ériu Sourcing. All rights reserved. · Springfield, Clonlara, Co. Clare, Ireland</p>
+        <p>&copy; {currentYear} Ériu Sourcing. All rights reserved. · Springfield, Clonlara, Co. Clare, Ireland<br />
+          <span class="footer-company">Ériu Sourcing is a trading name of Springfield Tectop Limited, registered in Ireland, no. 571256. Registered office: Ennis Road, Co. Limerick.</span></p>
         <p class="footer-legal">
           <a href="/privacy/">Privacy Policy</a>
           <span aria-hidden="true">·</span>
@@ -112,6 +113,8 @@ const currentYear = new Date().getFullYear();
           <a href="/privacy/#cookies" data-cookie-settings>Cookie settings</a>
           <span aria-hidden="true">·</span>
           <a href="/de/" hreflang="de" lang="de">Deutsch</a>
+          <span aria-hidden="true">·</span>
+          <a href="/de/impressum/" lang="de">Impressum</a>
         </p>
       </div>
     </div>
@@ -270,6 +273,8 @@ const currentYear = new Date().getFullYear();
   }
 
   .footer-legal a:hover { color: #ffffff; }
+
+  .footer-company { display: inline-block; margin-top: .25rem; font-size: .75rem; opacity: .75; }
 
   .footer-col h3 {
     font-family: var(--font-body, sans-serif);
