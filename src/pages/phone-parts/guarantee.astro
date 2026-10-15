@@ -1,0 +1,80 @@
+---
+// The Bench-Proof Guarantee, in full.
+import PartsLayout from '../../layouts/PartsLayout.astro';
+import GuaranteeSeal from '../../components/parts/GuaranteeSeal.astro';
+import WaButton from '../../components/parts/WaButton.astro';
+import { guarantee } from '../../data/parts.js';
+
+const title = "The Bench-Proof Guarantee | Ériu Phone Parts";
+const description = "See your batch tested on video before you pay the balance, and any part that arrives dead or fails spec is replaced or credited. How the Ériu guarantee works.";
+const canonical = "/phone-parts/guarantee/";
+const siteUrl = 'https://eriusourcing.com';
+
+const faqs = [
+  { q: 'How do I claim for a part that arrived dead?', a: 'Send us a photo or a short video of the fault within 14 days of delivery, by WhatsApp or email, with your order reference. If it arrived dead or fails our stated test spec, we replace it free on your next order or credit it.' },
+  { q: 'What is not covered?', a: 'Parts damaged while being fitted. That is the only exclusion.' },
+  { q: 'What if I do not like what I see in the batch video?', a: 'Tell us before you pay the balance. We will pull and replace the parts you are not happy with, or we will talk through the options before anything ships.' },
+];
+
+const pageSchemas = [
+  { "@type": "BreadcrumbList", "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Ériu Sourcing", "item": siteUrl },
+    { "@type": "ListItem", "position": 2, "name": "Phone Parts", "item": `${siteUrl}/phone-parts/` },
+    { "@type": "ListItem", "position": 3, "name": "Guarantee", "item": `${siteUrl}${canonical}` } ] },
+  { "@type": "FAQPage", "mainEntity": faqs.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })) }
+];
+---
+
+<PartsLayout title={title} description={description} canonical={canonical} ogImage="/images/phone-parts-express-cartons-test-report.webp" jsonLd={pageSchemas}>
+  <section class="pp-hero pp-dark">
+    <div class="container pp-guarantee">
+      <GuaranteeSeal />
+      <div>
+        <span class="pp-eyebrow">{guarantee.name}</span>
+        <h1>Buying parts from the other side of the world should not be a gamble. <span class="pp-accent">So we took the gamble out.</span></h1>
+        <p class="pp-lead">Two promises on every order, including your first.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pp-section">
+    <div class="container">
+      <div class="pp-promises" style="margin-top:0">
+        <div class="pp-promise" style="background:#fff;border-color:rgba(15,33,49,.12)">
+          <span class="pp-promise-num" style="color:var(--color-emerald)">PROMISE 01</span>
+          <h3 style="color:var(--color-navy)">{guarantee.one.h}</h3>
+          <p style="color:#3a3a3a">{guarantee.one.p}</p>
+        </div>
+        <div class="pp-promise" style="background:#fff;border-color:rgba(15,33,49,.12)">
+          <span class="pp-promise-num" style="color:var(--color-emerald)">PROMISE 02</span>
+          <h3 style="color:var(--color-navy)">{guarantee.two.h}</h3>
+          <p style="color:#3a3a3a">{guarantee.two.p}</p>
+        </div>
+      </div>
+      <p style="margin-top:1.5rem;color:#4a4a4a">{guarantee.fine}</p>
+    </div>
+  </section>
+
+  <section class="pp-section pp-alt">
+    <div class="container pp-prose">
+      <span class="pp-eyebrow">Why we can afford to promise this</span>
+      <h2 class="pp-h2">Because the parts that would fail never leave Shenzhen.</h2>
+      <p>A guarantee is only expensive if a lot of parts come back. Ours are tested before they are packed, so the ones most likely to fail are pulled before they ever reach you. The guarantee is the proof that we believe in the test.</p>
+      <p>And it is the honest way to earn a new customer's first order. You don't have to trust us. You can watch.</p>
+    </div>
+  </section>
+
+  <section class="pp-section">
+    <div class="container">
+      <h2 class="pp-h2">Guarantee questions.</h2>
+      <div class="pp-faq">{faqs.map((f) => (<details><summary>{f.q}</summary><p>{f.a}</p></details>))}</div>
+    </div>
+  </section>
+
+  <section class="pp-section pp-dark pp-final">
+    <div class="container">
+      <h2 class="pp-h2">Start with a first order of any size.</h2>
+      <div class="pp-actions"><WaButton /><a href="/phone-parts/quote/" class="pp-btn pp-btn--light">Get prices →</a></div>
+    </div>
+  </section>
+</PartsLayout>

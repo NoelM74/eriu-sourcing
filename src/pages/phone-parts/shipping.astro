@@ -1,0 +1,73 @@
+---
+// Worldwide shipping for Ériu Phone Parts.
+import PartsLayout from '../../layouts/PartsLayout.astro';
+import WaButton from '../../components/parts/WaButton.astro';
+
+const title = "Worldwide Shipping for Wholesale Phone Parts | Ériu";
+const description = "How wholesale phone parts ship from Shenzhen: door-to-door express worldwide, duties paid where available, FOB China for big orders, batteries as dangerous goods.";
+const canonical = "/phone-parts/shipping/";
+const siteUrl = 'https://eriusourcing.com';
+
+const faqs = [
+  { q: 'How long does express delivery take?', a: 'Air express from Shenzhen typically reaches most of Europe, the UK and North America in around a week, and other regions vary. Your quote shows the service and expected transit time for your country.' },
+  { q: 'Will I have to pay duties when the parts arrive?', a: 'In many countries we can quote duties paid (DDP), so there is nothing to pay on arrival. Where that is not available, import duties and taxes are paid by you on arrival, and we tell you that upfront in your quote.' },
+  { q: 'Can I use my own freight forwarder?', a: 'Yes. For larger orders we can hand over FOB China to your forwarder, with export documents.' },
+  { q: 'Can batteries ship by air?', a: 'Often, on dangerous-goods-approved services, depending on your country. Where they cannot, they travel by sea with a larger order. We confirm the route before you pay.' },
+];
+
+const pageSchemas = [
+  { "@type": "BreadcrumbList", "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Ériu Sourcing", "item": siteUrl },
+    { "@type": "ListItem", "position": 2, "name": "Phone Parts", "item": `${siteUrl}/phone-parts/` },
+    { "@type": "ListItem", "position": 3, "name": "Shipping", "item": `${siteUrl}${canonical}` } ] },
+  { "@type": "FAQPage", "mainEntity": faqs.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })) }
+];
+---
+
+<PartsLayout title={title} description={description} canonical={canonical} ogImage="/images/phone-parts-express-cartons-test-report.webp" jsonLd={pageSchemas}>
+  <section class="pp-hero pp-dark">
+    <div class="pp-hero-bg"><img src="/images/huaqiangbei-shenzhen-night-street.webp" alt="" width="1344" height="768" loading="eager" /></div>
+    <div class="container" style="position:relative;z-index:1"><div style="max-width:820px">
+      <span class="pp-eyebrow">Worldwide shipping</span>
+      <h1>From Shenzhen to your bench, <span class="pp-accent">wherever your bench is.</span></h1>
+      <p class="pp-lead">Door-to-door express for most orders, duties paid where available. FOB China for larger orders and your own forwarder. Batteries on routes that legally accept them.</p>
+      <div class="pp-actions"><WaButton label="Ask about shipping to your country" text="Hi Noel, I run a repair shop in [city, country]. How would parts ship to me, and how long would it take?" /></div>
+    </div></div>
+  </section>
+
+  <section class="pp-section">
+    <div class="container">
+      <div class="pp-cards">
+        <div class="pp-card" style="padding:1.6rem"><h3>Door-to-door express</h3><p>DHL, FedEx or UPS express from Shenzhen to your shop. Typically around a week to most of Europe, the UK and North America. Parts arrive in labelled anti-static trays with your test record.</p></div>
+        <div class="pp-card" style="padding:1.6rem"><h3>Duties paid, where available</h3><p>In many countries we can quote delivered duties paid, so nothing to pay on arrival. Where not, we tell you upfront that import duty and tax are paid by you.</p></div>
+        <div class="pp-card" style="padding:1.6rem"><h3>FOB China</h3><p>For larger orders, we hand over to your own forwarder at the Chinese port or airport, with export documents. You control the freight.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pp-section pp-alt">
+    <div class="container pp-split">
+      <div class="pp-prose">
+        <span class="pp-eyebrow">Batteries</span>
+        <h2 class="pp-h2">Lithium batteries are dangerous goods. We ship them like it.</h2>
+        <p>Loose replacement batteries ship as UN3480 Class 9 dangerous goods: a UN38.3 report for the model, the right packing and labels, a dangerous-goods declaration and a carrier service that accepts them. Not every express service to every country does.</p>
+        <p>We book batteries only on routes that accept them and tell you the options for your country before you pay. Where air is not possible, they travel by sea with a larger order.</p>
+      </div>
+      <img src="/images/phone-replacement-battery-capacity-testing-shenzhen.webp" alt="Replacement phone batteries on a capacity-testing rack in Shenzhen" width="1216" height="832" loading="lazy" class="pp-img" />
+    </div>
+  </section>
+
+  <section class="pp-section">
+    <div class="container">
+      <h2 class="pp-h2">Shipping questions.</h2>
+      <div class="pp-faq">{faqs.map((f) => (<details><summary>{f.q}</summary><p>{f.a}</p></details>))}</div>
+    </div>
+  </section>
+
+  <section class="pp-section pp-dark pp-final">
+    <div class="container">
+      <h2 class="pp-h2">Tell us where you are. We'll tell you how it gets there.</h2>
+      <div class="pp-actions"><WaButton /><a href="/phone-parts/quote/" class="pp-btn pp-btn--light">Get prices →</a></div>
+    </div>
+  </section>
+</PartsLayout>

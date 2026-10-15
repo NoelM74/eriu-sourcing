@@ -1,0 +1,95 @@
+---
+// Proof page: the testing protocol behind Ériu Phone Parts.
+import PartsLayout from '../../layouts/PartsLayout.astro';
+import ScreenTest from '../../components/parts/ScreenTest.astro';
+import BatchBoard from '../../components/parts/BatchBoard.astro';
+import WaButton from '../../components/parts/WaButton.astro';
+
+const title = "How We Test Phone Parts Before They Ship | Ériu";
+const description = "The testing protocol behind every Ériu phone part: screens and batteries tested one by one in Shenzhen, small parts by batch, with a video of your batch.";
+const canonical = "/phone-parts/how-we-test/";
+const siteUrl = 'https://eriusourcing.com';
+
+const protocols = [
+  { h: 'Screens: every unit', items: ['Powered up on a test board for the exact model', 'Dead and stuck pixels on white, black and colour fields', 'Brightness and colour uniformity, tint and burn-in', 'Full touch grid edge to edge, plus multi-touch', 'Frame, flex and connector fit', 'Graded, labelled by model and grade, recorded'] },
+  { h: 'Batteries: every unit', items: ['Capacity tested against the rated mAh', 'Cycle count read: new cells only', 'Cell date code checked: no old stock', 'Swelling, connector and flex inspected', 'UN38.3 report for the model on file', 'Transport state of charge set, terminals protected'] },
+  { h: 'Small parts: every batch', items: ['Charging ports function-tested from every batch', 'Cameras tested for focus and image', 'Speakers and earpieces sound-tested', 'Glass and housings checked for fit and finish', 'Bagged and labelled by model and part', 'Batch records kept for traceability'] },
+  { h: 'Refurbished phones: every phone', items: ['IMEI checked against blacklist databases', 'Activation and account lock checked', 'Network lock checked', 'Battery health read and recorded', 'Full function test, all hardware', 'Parts and service history recorded'] },
+];
+
+const pageSchemas = [
+  { "@type": "BreadcrumbList", "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Ériu Sourcing", "item": siteUrl },
+    { "@type": "ListItem", "position": 2, "name": "Phone Parts", "item": `${siteUrl}/phone-parts/` },
+    { "@type": "ListItem", "position": 3, "name": "How We Test", "item": `${siteUrl}${canonical}` } ] },
+  { "@type": "HowTo", "name": "How Ériu tests replacement phone screens before shipping", "step": protocols[0].items.map((t, i) => ({ "@type": "HowToStep", "position": i + 1, "text": t })) }
+];
+---
+
+<PartsLayout title={title} description={description} canonical={canonical} ogImage="/images/shenzhen-phone-screen-qc-testing-replacement-oled.webp" jsonLd={pageSchemas}>
+
+  <section class="pp-hero pp-dark">
+    <div class="container pp-hero-grid">
+      <div>
+        <span class="pp-eyebrow">How we test</span>
+        <h1>"Tested" is a word every supplier uses. <span class="pp-accent">Here's what it means here.</span></h1>
+        <p class="pp-lead">Screens and batteries are tested one by one. Small parts are tested from every batch. Every failure is pulled in Shenzhen, and every pass is recorded against your order. Then you see it on video before you pay the balance.</p>
+        <div class="pp-actions"><WaButton label="Ask for a sample test video" text="Hi Noel, could you send me an example of your batch test video? I run a repair shop in [city, country]." /></div>
+      </div>
+      <div class="pp-hero-visual"><ScreenTest /></div>
+    </div>
+  </section>
+
+  <section class="pp-section">
+    <div class="container">
+      <p class="pp-answer"><strong>The short answer:</strong> every replacement screen is powered up on a test board and checked for pixels, uniformity, the full touch grid and fit before it is packed. Every battery is capacity-tested and date-checked. Small parts are function-tested from every batch. Parts that fail stay in Shenzhen, and you receive the test record and a video of your batch before you pay the balance.</p>
+    </div>
+  </section>
+
+  <section class="pp-section pp-alt">
+    <div class="container">
+      <span class="pp-eyebrow">The protocol</span>
+      <h2 class="pp-h2">What happens to your parts before they're packed.</h2>
+      <div class="pp-cards" style="grid-template-columns:repeat(2,1fr)">
+        {protocols.map((g) => (
+          <div class="pp-card" style="padding:1.5rem 1.6rem">
+            <h3>{g.h}</h3>
+            <ul class="pp-checks">{g.items.map((t) => <li>{t}</li>)}</ul>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="pp-section">
+    <div class="container pp-split pp-split--top">
+      <div class="pp-prose">
+        <span class="pp-eyebrow">Failures stay in China</span>
+        <h2 class="pp-h2">You never pay to ship a part that failed.</h2>
+        <p>Testing happens after we buy in the market and before anything is packed. A screen with a dead line or a weak touch layer is pulled from your batch there and then. It never gets a label, a box or an air waybill with your name on it.</p>
+        <p>That is the whole idea: move the moment of discovery from your bench, with a customer waiting, to ours, a few kilometres from where the part was made.</p>
+      </div>
+      <BatchBoard />
+    </div>
+  </section>
+
+  <section class="pp-section pp-dark">
+    <div class="container pp-split">
+      <div class="pp-prose">
+        <span class="pp-eyebrow">Your proof, not ours</span>
+        <h2 class="pp-h2">A video of your batch. A record for every part.</h2>
+        <p>Before you pay the balance, you receive a video of your actual parts being tested and the test record for the batch: models, grades, quantities, results. Keep it. If a part ever gives you trouble, the record tells us which batch it came from.</p>
+        <div class="pp-actions"><a href="/phone-parts/guarantee/" class="pp-btn pp-btn--light">Read the guarantee →</a></div>
+      </div>
+      <img src="/images/phone-parts-express-cartons-test-report.webp" alt="Packed cartons of tested phone parts with the packing list and test record on top" width="1344" height="768" loading="lazy" class="pp-img" />
+    </div>
+  </section>
+
+  <section class="pp-section pp-final">
+    <div class="container">
+      <h2 class="pp-h2">See it for yourself on your first order.</h2>
+      <p class="pp-lead">No minimum. Send a list, watch your batch get tested, then decide.</p>
+      <div class="pp-actions"><WaButton /><a href="/phone-parts/quote/" class="pp-btn pp-btn--dark">Get prices →</a></div>
+    </div>
+  </section>
+</PartsLayout>
