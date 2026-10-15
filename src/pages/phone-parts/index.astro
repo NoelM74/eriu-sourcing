@@ -1,0 +1,266 @@
+---
+// Ériu Phone Parts hub: worldwide wholesale phone parts, long-form DR page.
+import PartsLayout from '../../layouts/PartsLayout.astro';
+import ScreenTest from '../../components/parts/ScreenTest.astro';
+import BatchBoard from '../../components/parts/BatchBoard.astro';
+import GuaranteeSeal from '../../components/parts/GuaranteeSeal.astro';
+import WaButton from '../../components/parts/WaButton.astro';
+import { partsProducts, guarantee } from '../../data/parts.js';
+
+const title = "Wholesale Phone Parts Supplier, Tested in Shenzhen | Ériu";
+const description = "Wholesale iPhone and Samsung screens, batteries and repair parts, each tested in Shenzhen and shipped worldwide. See your batch on video before you pay.";
+const canonical = "/phone-parts/";
+const siteUrl = 'https://eriusourcing.com';
+
+const cardImg = {
+  'iphone-screens-wholesale': '/images/phone-parts-oled-screen-test-macro.webp',
+  'samsung-screens-wholesale': '/images/shenzhen-phone-screen-qc-testing-replacement-oled.webp',
+  'phone-batteries-wholesale': '/images/phone-replacement-battery-capacity-testing-shenzhen.webp',
+  'phone-repair-parts-wholesale': '/images/phone-repair-spare-parts-charging-ports-cameras-trays.webp',
+  'refurbished-iphones-wholesale': '/images/shenzhen-refurbished-phone-grading-testing-centre.webp',
+  'phone-accessories-wholesale': '/images/phone-shop-accessories-wall-display.webp',
+};
+
+const faqs = [
+  { q: 'Is there a minimum order?', a: 'No minimum on your first order. Order enough to judge the quality for yourself on your own bench. That is the point.' },
+  { q: 'Which countries do you ship to?', a: 'Worldwide, wherever express carriers and the law allow. Most orders ship door to door by DHL, FedEx or UPS express; larger orders can go FOB China to your own forwarder. In many countries we can quote duties paid, so there is nothing to pay on arrival. We confirm the route and cost for your country in your quote.' },
+  { q: 'How does payment work?', a: 'You pay a deposit, we buy and test your batch in Shenzhen, and we send you the test video and the test record for your parts. You pay the balance only when you are happy with what you have seen. Then we ship.' },
+  { q: 'What happens if a part arrives dead?', a: 'Send us a photo or a short video within 14 days. If the part arrived dead or fails our stated test spec, we replace it free on your next order or credit it. Parts damaged while being fitted are not covered.' },
+  { q: 'Can batteries be shipped by express?', a: 'Often yes, on dangerous-goods-approved services, depending on your country. Batteries need a UN38.3 report, correct packing, Class 9 labels and a declaration, which we handle. Where express is not possible they travel by sea with a larger order.' },
+  { q: 'Will aftermarket iPhone screens show a message?', a: 'On recent iPhones, a screen that is not a new genuine Apple part shows a notice in Settings, and the phone keeps working. What else changes depends on the grade and iOS version, so we tell you exactly what each grade shows on the current iOS before you order.' },
+  { q: 'Do you sell copied brand parts?', a: 'No. Aftermarket parts are sold as compatible ("for iPhone 14"), genuine pulls are described as genuine pulls, and we do not ship anything carrying a copied brand logo. Copies get seized at customs and damage your name.' },
+  { q: 'Who answers when I message?', a: 'Noel Murphy and the Ériu team, in plain English, usually within 24 hours. WhatsApp is the fastest way to reach us.' },
+];
+
+const pageSchemas = [
+  {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Ériu Sourcing", "item": siteUrl },
+      { "@type": "ListItem", "position": 2, "name": "Phone Parts", "item": `${siteUrl}${canonical}` }
+    ]
+  },
+  {
+    "@type": "Service",
+    "name": "Wholesale phone parts, tested in Shenzhen, shipped worldwide",
+    "serviceType": "Wholesale phone repair parts supplier",
+    "description": description,
+    "provider": { "@type": "ProfessionalService", "@id": `${siteUrl}/#organization` },
+    "areaServed": "Worldwide",
+    "offers": {
+      "@type": "Offer",
+      "description": "No minimum on the first order. Batch test video before the balance is paid. Dead-on-arrival parts replaced or credited within 14 days."
+    }
+  },
+  {
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
+  }
+];
+---
+
+<PartsLayout title={title} description={description} canonical={canonical} ogImage="/images/phone-parts-oled-screen-test-macro.webp" ogImageAlt="A replacement phone screen glowing with a white test pattern on a test board in Shenzhen" jsonLd={pageSchemas}>
+
+  <!-- HERO -->
+  <section class="pp-hero pp-dark">
+    <div class="pp-hero-bg"><img src="/images/phone-parts-oled-screen-test-macro.webp" alt="" width="1344" height="768" loading="eager" fetchpriority="high" /></div>
+    <div class="container pp-hero-grid">
+      <div>
+        <span class="pp-eyebrow">Wholesale phone parts · Shipped worldwide from Shenzhen</span>
+        <h1>Every screen is switched on and tested before it leaves Shenzhen. <span class="pp-accent">If one still arrives dead, it's on us.</span></h1>
+        <p class="pp-lead">iPhone and Samsung screens, batteries and repair parts for repair shops anywhere in the world. You watch your own batch being tested on video before you pay the balance. No minimum on your first order.</p>
+        <div class="pp-actions">
+          <WaButton />
+          <a href="/phone-parts/quote/" class="pp-btn pp-btn--line">Get prices →</a>
+        </div>
+        <p class="pp-micro">Reply within 24 hours from Noel Murphy and the Ériu team, in plain English.</p>
+      </div>
+      <div class="pp-hero-visual"><ScreenTest /></div>
+    </div>
+  </section>
+
+  <!-- PROOF STRIP -->
+  <section class="pp-proof">
+    <div class="container pp-proof-grid">
+      <div class="pp-proof-item"><strong>Every screen</strong><span>powered on and tested, not sampled</span></div>
+      <div class="pp-proof-item"><strong>Your batch on video</strong><span>before you pay the balance</span></div>
+      <div class="pp-proof-item"><strong>Dead on arrival?</strong><span>replaced or credited, 14 days</span></div>
+      <div class="pp-proof-item"><strong>No minimum</strong><span>on your first order</span></div>
+      <div class="pp-proof-item"><strong>Door to door</strong><span>express worldwide, or FOB China</span></div>
+    </div>
+  </section>
+
+  <!-- STORY -->
+  <section class="pp-section">
+    <div class="container pp-split">
+      <div class="pp-prose fade-up">
+        <span class="pp-eyebrow">You know this moment</span>
+        <h2 class="pp-h2">Three days after the repair, she's back at your counter.</h2>
+        <p>The screen you fitted on Tuesday has a dead strip down one side. Or the touch jumps on its own. Or it went black in her pocket. She isn't angry yet. She just wants it fixed, and she's quietly wondering whether she should have gone to the shop down the road.</p>
+        <p>So you open it up again. Another screen from your stock, another half hour on the bench, no charge, and a little less margin on every repair that week. If you're lucky, she never mentions it online. If you're not, it's the review everyone reads first.</p>
+        <p><strong>Here's what makes it worse: that screen was faulty before it ever reached you.</strong> Nobody switched it on at the stall in Shenzhen. Nobody switched it on at the wholesaler. Nobody switched it on at the courier depot. You were the first person to test it, and you tested it inside your customer's phone.</p>
+      </div>
+      <div class="fade-up">
+        <img src="/images/phone-repair-shop-owner-customer-handover.webp" alt="A phone repair shop owner handing a repaired phone back to a happy customer" width="1344" height="768" loading="lazy" class="pp-img" />
+      </div>
+    </div>
+  </section>
+
+  <!-- MECHANISM -->
+  <section class="pp-section pp-alt">
+    <div class="container pp-split pp-split--top">
+      <div class="pp-prose fade-up">
+        <span class="pp-eyebrow">Why it keeps happening</span>
+        <h2 class="pp-h2">The phone parts trade has no test bench in it. So we built one.</h2>
+        <p>Most replacement screens sold anywhere in the world start in one place: Shenzhen's Huaqiangbei electronics market. From there they pass through traders and wholesalers, each adding a margin and none adding a test. Grade names aren't standardised, so one stall's "soft OLED" is another's hard OLED. Batches get mixed. Batteries sit on shelves for months.</p>
+        <p>Ériu Phone Parts puts a test bench between the market and your bench. We buy in Shenzhen, and every screen is powered up and checked <strong>before we pay for it and before it's packed</strong>. The ones that fail stay in China. You only ever pay to ship parts that passed.</p>
+        <a href="/phone-parts/how-we-test/" class="pp-card-cta">See exactly how we test →</a>
+      </div>
+      <div class="fade-up"><BatchBoard /></div>
+    </div>
+  </section>
+
+  <!-- WHAT WE CHECK -->
+  <section class="pp-section">
+    <div class="container pp-split">
+      <div class="fade-up">
+        <img src="/images/shenzhen-phone-screen-qc-testing-replacement-oled.webp" alt="An inspector in Shenzhen testing replacement phone screens, with trays waiting to be checked" width="1216" height="832" loading="lazy" class="pp-img" />
+      </div>
+      <div class="fade-up">
+        <span class="pp-eyebrow">What "tested" means here</span>
+        <h2 class="pp-h2">Six checks on every screen. You get the record.</h2>
+        <ul class="pp-checks">
+          <li>Powered up on a test board: dead and stuck pixels</li>
+          <li>Colour and brightness uniformity on white, black and colour fields</li>
+          <li>Full touch grid, edge to edge, plus multi-touch</li>
+          <li>Frame, flex and connector fit against the model</li>
+          <li>Graded honestly, labelled by model and grade</li>
+          <li>Recorded against your batch, so any claim can be traced</li>
+        </ul>
+        <p style="margin-top:1.25rem;color:#4a4a4a">Batteries are capacity-tested and date-checked one by one. Small parts are function-tested from every batch.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GUARANTEE -->
+  <section class="pp-section pp-dark" id="guarantee">
+    <div class="container pp-guarantee">
+      <GuaranteeSeal />
+      <div>
+        <span class="pp-eyebrow">{guarantee.name}</span>
+        <h2 class="pp-h2">Two promises, so the risk sits with us, not you.</h2>
+        <div class="pp-promises">
+          <div class="pp-promise">
+            <span class="pp-promise-num">PROMISE 01</span>
+            <h3>{guarantee.one.h}</h3>
+            <p>{guarantee.one.p}</p>
+          </div>
+          <div class="pp-promise">
+            <span class="pp-promise-num">PROMISE 02</span>
+            <h3>{guarantee.two.h}</h3>
+            <p>{guarantee.two.p}</p>
+          </div>
+        </div>
+        <p class="pp-fine">{guarantee.fine} <a href="/phone-parts/guarantee/" style="color:#7ff0dc">Read the guarantee in full →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="pp-section pp-alt" id="parts">
+    <div class="container">
+      <span class="pp-eyebrow">What you can order</span>
+      <h2 class="pp-h2">Everything your bench and your counter need, on one shipment.</h2>
+      <div class="pp-cards">
+        {partsProducts.map((p) => (
+          <a href={`/phone-parts/${p.slug}/`} class="pp-card fade-up">
+            <img src={cardImg[p.slug]} alt="" width="1216" height="760" loading="lazy" />
+            <div class="pp-card-body">
+              <h3>{p.nav}</h3>
+              <p>{p.description}</p>
+              <span class="pp-card-cta">See {p.nav.toLowerCase()} →</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW ORDERING WORKS -->
+  <section class="pp-section pp-alt" style="padding-top:0">
+    <div class="container">
+      <span class="pp-eyebrow">How an order works</span>
+      <h2 class="pp-h2">From a photo of your list to parts on your bench.</h2>
+      <div class="pp-steps">
+        <div class="pp-step"><h3>Send your list</h3><p>WhatsApp a photo or a spreadsheet: models, grades, rough quantities.</p></div>
+        <div class="pp-step"><h3>Get prices</h3><p>Per model and grade, shipped to your door or FOB China.</p></div>
+        <div class="pp-step"><h3>Pay a deposit</h3><p>We buy your parts in Shenzhen and test every one.</p></div>
+        <div class="pp-step"><h3>Watch your batch</h3><p>Test video and record of your parts. Happy? Pay the balance.</p></div>
+        <div class="pp-step"><h3>Fit with confidence</h3><p>Express to your door, labelled by model and grade.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOUNDER / ACCOUNTABILITY -->
+  <section class="pp-section">
+    <div class="container pp-founder">
+      <div class="fade-up">
+        <img src="/images/noel-warehouse-china.webp" alt="Noel Murphy in the Ériu warehouse in China" width="867" height="566" loading="lazy" class="pp-img" />
+      </div>
+      <div class="pp-prose fade-up">
+        <span class="pp-eyebrow">Who's behind it</span>
+        <h2 class="pp-h2">A name you can hold to account.</h2>
+        <p>Ériu Phone Parts is run by Noel Murphy, an Irishman who has lived and worked in China for 18 years. The operation behind it has run a logistics and fulfilment business in Shenzhen since 2011, with a 53-person team in China and warehouse space it owns and operates.</p>
+        <p>So when we say your parts were tested before they shipped, it isn't a subcontracted promise from someone you'll never reach. We're there, and you can message me directly.</p>
+        <p class="pp-sign">Noel Murphy, Ériu Sourcing</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOT FOR -->
+  <section class="pp-section pp-alt">
+    <div class="container pp-split pp-split--top">
+      <div>
+        <span class="pp-eyebrow">Straight talk</span>
+        <h2 class="pp-h2">Who this is for, and who it isn't.</h2>
+      </div>
+      <div>
+        <ul class="pp-checks">
+          <li>You fix phones every day and you are tired of paying twice for one repair.</li>
+          <li>You want to quote a warranty on your repairs and mean it.</li>
+          <li>You buy through wholesalers and want to be one step closer to the source.</li>
+        </ul>
+        <ul class="pp-checks pp-x">
+          <li>You need one screen today. Buy locally; express from China can't beat the shop down the road.</li>
+          <li>You only want the cheapest part, tested or not. We're not the cheapest. We're the ones that work.</li>
+          <li>You want parts with copied brand logos. We don't sell them.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="pp-section">
+    <div class="container">
+      <span class="pp-eyebrow">Questions shop owners ask</span>
+      <h2 class="pp-h2">Before you send your first list.</h2>
+      <div class="pp-faq">
+        {faqs.map((f) => (<details><summary>{f.q}</summary><p>{f.a}</p></details>))}
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="pp-section pp-dark pp-final">
+    <div class="container">
+      <span class="pp-eyebrow">Your first order, on your terms</span>
+      <h2 class="pp-h2">Send your list. Watch your batch get tested. Then decide.</h2>
+      <p class="pp-lead">No minimum. No balance until you have seen your parts pass. And if one still arrives dead, it's on us.</p>
+      <div class="pp-actions">
+        <WaButton />
+        <a href="/phone-parts/quote/" class="pp-btn pp-btn--light">Get prices →</a>
+      </div>
+    </div>
+  </section>
+
+</PartsLayout>

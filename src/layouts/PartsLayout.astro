@@ -1,0 +1,29 @@
+---
+// Layout for the Ériu Phone Parts sub-brand (/phone-parts/).
+// Wraps BaseLayout, loads the section design system and adds a sticky
+// mobile action bar (WhatsApp with a pre-filled message + Get prices).
+import BaseLayout from './BaseLayout.astro';
+import { wa, WA_DEFAULT } from '../data/parts.js';
+import '../styles/parts.css';
+
+interface Props {
+  title: string;
+  description: string;
+  canonical: string;
+  ogImage?: string;
+  ogImageAlt?: string;
+  jsonLd?: object | object[];
+  waText?: string;
+  preloadImage?: string;
+}
+const { waText = WA_DEFAULT, ...rest } = Astro.props;
+---
+<BaseLayout {...rest}>
+  <div class="pp">
+    <slot />
+  </div>
+  <div class="pp-sticky" role="region" aria-label="Quick contact">
+    <a href={wa(waText)} target="_blank" rel="noopener noreferrer" class="pp-sticky-wa">WhatsApp us</a>
+    <a href="/phone-parts/quote/" class="pp-sticky-quote">Get prices</a>
+  </div>
+</BaseLayout>

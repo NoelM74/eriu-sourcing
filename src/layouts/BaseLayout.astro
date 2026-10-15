@@ -46,6 +46,8 @@ const canonicalUrl = `${siteUrl}${withTrailingSlash(rawPath)}`;
 // Language: everything under /de/ is German for Germany and Austria.
 const canonicalPath = withTrailingSlash(rawPath);
 const isGerman = canonicalPath.startsWith('/de/');
+// Ériu Phone Parts targets English-speaking buyers worldwide, not just Ireland.
+const isGlobal = canonicalPath.startsWith('/phone-parts/');
 const pair = translations.find((t) => t.en === canonicalPath || t.de === canonicalPath);
 const enAlt = isGerman ? pair?.en : canonicalPath;
 const deAlt = isGerman ? canonicalPath : pair?.de;
@@ -141,7 +143,7 @@ const structuredData = {
 ---
 
 <!doctype html>
-<html lang={isGerman ? "de" : "en-IE"}>
+<html lang={isGerman ? "de" : isGlobal ? "en" : "en-IE"}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -181,13 +183,13 @@ const structuredData = {
     <link rel="canonical" href={canonicalUrl} />
 
     <!-- GEO targeting (English pages are Ireland-specific) -->
-    {!isGerman && <meta name="geo.region" content="IE" />}
-    {!isGerman && <meta name="geo.placename" content="Ireland" />}
-    {!isGerman && <meta name="ICBM" content="53.1424, -7.6921" />}
+    {!isGerman && !isGlobal && <meta name="geo.region" content="IE" />}
+    {!isGerman && !isGlobal && <meta name="geo.placename" content="Ireland" />}
+    {!isGerman && !isGlobal && <meta name="ICBM" content="53.1424, -7.6921" />}
 
     <!-- hreflang: English pages are en-IE; German pages (/de/) target DE + AT.
          Pairs come from src/data/i18n.js so both versions point at each other. -->
-    {enAlt && <link rel="alternate" hreflang="en-ie" href={`${siteUrl}${enAlt}`} />}
+    {enAlt && <link rel="alternate" hreflang={isGlobal ? 'en' : 'en-ie'} href={`${siteUrl}${enAlt}`} />}
     {deAlt && <link rel="alternate" hreflang="de" href={`${siteUrl}${deAlt}`} />}
     {enAlt && <link rel="alternate" hreflang="x-default" href={`${siteUrl}${enAlt}`} />}
 
@@ -200,7 +202,7 @@ const structuredData = {
     <meta property="og:image:alt" content={ogImageAlt} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:locale" content={isGerman ? "de_DE" : "en_IE"} />
+    <meta property="og:locale" content={isGerman ? "de_DE" : isGlobal ? "en_GB" : "en_IE"} />
     {isGerman && <meta property="og:locale:alternate" content="de_AT" />}
     <meta property="og:site_name" content="Ériu Sourcing" />
 

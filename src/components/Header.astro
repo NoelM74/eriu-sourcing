@@ -11,6 +11,7 @@ const sourcingNavLinks = [
   { href: '/how-it-works/', label: 'How It Works' },
   { href: '/source/',        label: 'What We Source' },
   { href: '/modular-homes/', label: 'Modular Homes' },
+  { href: '/phone-parts/',   label: 'Phone Parts' },
   {
     label: 'Resources',
     children: [
@@ -60,6 +61,30 @@ const modularNavLinks = [
 const pathname = Astro.url.pathname;
 const isModular = pathname.startsWith('/modular-homes');
 const isGerman = pathname.startsWith('/de/');
+const isParts = pathname.startsWith('/phone-parts');
+
+const partsNavLinks = [
+  { href: '/phone-parts/', label: 'Overview', exact: true },
+  {
+    label: 'Screens',
+    children: [
+      { href: '/phone-parts/iphone-screens-wholesale/',  label: 'iPhone Screens' },
+      { href: '/phone-parts/samsung-screens-wholesale/', label: 'Samsung Screens' },
+    ],
+  },
+  {
+    label: 'Parts & Devices',
+    children: [
+      { href: '/phone-parts/phone-batteries-wholesale/',     label: 'Batteries' },
+      { href: '/phone-parts/phone-repair-parts-wholesale/',  label: 'Ports, Glass & Cameras' },
+      { href: '/phone-parts/refurbished-iphones-wholesale/', label: 'Refurbished Phones' },
+      { href: '/phone-parts/phone-accessories-wholesale/',   label: 'Accessories' },
+    ],
+  },
+  { href: '/phone-parts/how-we-test/', label: 'How We Test' },
+  { href: '/phone-parts/guarantee/',   label: 'Guarantee' },
+  { href: '/phone-parts/shipping/',    label: 'Shipping' },
+];
 
 // "English" in the German menu goes to the English twin of the current page
 // when there is one (src/data/i18n.js), otherwise to the English homepage.
@@ -100,9 +125,11 @@ const germanNavLinks = [
   { href: enTwin, label: 'English', lang: 'en' },
 ];
 
-const navLinks = isGerman ? germanNavLinks : isModular ? modularNavLinks : sourcingNavLinks;
+const navLinks = isGerman ? germanNavLinks : isParts ? partsNavLinks : isModular ? modularNavLinks : sourcingNavLinks;
 const ui = isGerman
   ? { home: '/de/', homeLabel: 'Ériu Sourcing, Startseite', main: 'Hauptnavigation', mobile: 'Mobile Navigation', open: 'Menü öffnen', close: 'Menü schließen', ctaHref: '/de/kontakt/', cta: 'Anfrage senden' }
+  : isParts
+  ? { home: '/phone-parts/', homeLabel: 'Ériu Phone Parts, Home', main: 'Main navigation', mobile: 'Mobile navigation', open: 'Open menu', close: 'Close menu', ctaHref: '/phone-parts/quote/', cta: 'Get prices' }
   : { home: '/', homeLabel: 'Ériu Sourcing, Home', main: 'Main navigation', mobile: 'Mobile navigation', open: 'Open menu', close: 'Close menu', ctaHref: '/contact/', cta: 'Get a Quote' };
 
 const isActive = (href, exact = false) => {
@@ -130,7 +157,7 @@ const isGroupActive = (link) => !!link.children?.some(c => isActive(c.href));
       <a href={ui.home} class="logo" aria-label={ui.homeLabel}>
         <img src="/images/eriu-mark.svg" width="36" height="36" alt="" aria-hidden="true" class="logo-mark" />
         <span class="logo-wordmark">
-          <span class="logo-eriu">ÉRIU</span><span class="logo-sourcing">Sourcing</span>
+          <span class="logo-eriu">ÉRIU</span><span class="logo-sourcing">{isParts ? 'Phone Parts' : 'Sourcing'}</span>
         </span>
       </a>
     )}
