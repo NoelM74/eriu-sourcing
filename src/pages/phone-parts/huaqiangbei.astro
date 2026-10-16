@@ -1,0 +1,159 @@
+---
+// Huaqiangbei sourcing page. Owner fact (2026-10-16): Ériu has a full-time
+// buyer working the Huaqiangbei market floors in Shenzhen.
+// Market history: SEG Electronics Market opened in 1988 (Wikipedia, Huaqiangbei).
+import PartsLayout from '../../layouts/PartsLayout.astro';
+import WaButton from '../../components/parts/WaButton.astro';
+import PhotoCredit from '../../components/parts/PhotoCredit.astro';
+
+const title = "Huaqiangbei Sourcing Agent for Phones and Parts | Ériu";
+const description = "Our full-time buyer works Shenzhen's Huaqiangbei market every day, buying used iPhones, Android phones and parts, then testing them before they ship worldwide.";
+const canonical = "/phone-parts/huaqiangbei/";
+const siteUrl = 'https://eriusourcing.com';
+const waText = "Hi Noel, I'd like your buyer in Huaqiangbei to find me: ";
+
+const faqs = [
+  { q: 'What is Huaqiangbei?', a: 'Huaqiangbei is the electronics market district in Futian, Shenzhen. It grew out of the SEG electronics market, which opened in 1988, and is now a district of multi-storey malls trading phones, tablets, screens, batteries, components and accessories. It is widely described as the largest electronics market in the world.' },
+  { q: 'Why use a buyer instead of messaging Huaqiangbei traders directly?', a: 'You can message traders directly, but you cannot pick up the phone, compare ten counters, or test the stock before you pay. A buyer on the floor can. We also consolidate stock from many counters into one tested shipment, pay the traders locally, and handle the export paperwork.' },
+  { q: 'Is Huaqiangbei only for phone parts?', a: 'No. It trades used and new phones, tablets, smartwatches, earbuds, accessories and electronic components. Our buyer covers phones, tablets, wearables, screens, batteries and repair parts for phone shops and repair businesses.' },
+  { q: 'Can I visit Huaqiangbei myself?', a: 'Yes. It is in central Shenzhen, served by the Huaqiang Road and Huaqiangbei metro stations. If you are planning a trip, tell us and we can walk the floors with you.' },
+  { q: 'Do you sell copies or fake branded products from Huaqiangbei?', a: 'No. The market has plenty of them. We buy genuine used devices, sealed new phones and honestly described compatible parts, and we reject anything with a copied brand logo.' },
+];
+
+const pageSchemas = [
+  { "@type": "BreadcrumbList", "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Ériu Sourcing", "item": siteUrl },
+    { "@type": "ListItem", "position": 2, "name": "Phones & Parts", "item": `${siteUrl}/phone-parts/` },
+    { "@type": "ListItem", "position": 3, "name": "Huaqiangbei", "item": `${siteUrl}${canonical}` } ] },
+  {
+    "@type": "Service",
+    "name": "Huaqiangbei buying and testing service for phones and phone parts",
+    "serviceType": "Huaqiangbei sourcing agent",
+    "description": description,
+    "provider": { "@type": "ProfessionalService", "@id": `${siteUrl}/#organization` },
+    "areaServed": "Worldwide",
+    "about": { "@type": "Place", "name": "Huaqiangbei electronics market", "address": { "@type": "PostalAddress", "addressLocality": "Futian District, Shenzhen", "addressRegion": "Guangdong", "addressCountry": "CN" } }
+  },
+  { "@type": "FAQPage", "mainEntity": faqs.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })) }
+];
+---
+
+<PartsLayout title={title} description={description} canonical={canonical} ogImage="/images/shenzhen-phone-mall-atrium-trading-floors.webp" ogImageAlt="Several floors of phone trading counters in a Shenzhen phone mall" jsonLd={pageSchemas} waText={waText}>
+
+  <section class="pp-hero pp-dark">
+    <div class="pp-hero-bg"><img src="/images/shenzhen-phone-mall-atrium-trading-floors.webp" alt="" width="1024" height="768" loading="eager" fetchpriority="high" /></div>
+    <div class="container" style="position:relative;z-index:1"><div style="max-width:900px">
+      <span class="pp-eyebrow">Huaqiangbei, Shenzhen</span>
+      <h1>The phones are traded on these floors. <span class="pp-accent">Our buyer is on them every working day.</span></h1>
+      <p class="pp-lead">Huaqiangbei is where China's phone trade happens. We don't buy it from a price list in another city. We have a full-time buyer in the market, picking up the stock, comparing counters and walking away from the bad batches, then testing everything before it ships to you.</p>
+      <div class="pp-actions">
+        <WaButton text={waText} label="Tell our buyer what you need" />
+        <a href="/phone-parts/quote/" class="pp-btn pp-btn--line">Get prices →</a>
+      </div>
+    </div></div>
+    <PhotoCredit id="oskay-08" overlay />
+  </section>
+
+  <section class="pp-section">
+    <div class="container">
+      <p class="pp-answer"><strong>The short answer:</strong> Ériu has its own buyer working the Huaqiangbei electronics market in Shenzhen full time. He buys used iPhones, Samsung and Android phones, tablets, wearables, screens, batteries and repair parts against your list, every unit is tested on our bench in Shenzhen, and you see your batch on video before you pay the balance. We ship worldwide, door to door or FOB China.</p>
+    </div>
+  </section>
+
+  <section class="pp-section pp-alt">
+    <div class="container pp-split">
+      <div class="pp-prose fade-up">
+        <span class="pp-eyebrow">Why being there matters</span>
+        <h2 class="pp-h2">Prices change by the day. Quality changes by the counter.</h2>
+        <p>Two counters twenty metres apart can sell the "same" Grade A iPhone 13 with very different batteries, or the "same" soft OLED screen from very different factories. A price list can't show you that. A photo on WhatsApp can't either.</p>
+        <p>Someone standing at the counter can. He can pick the phone up, look at the battery health, check the screen on a grey background, and put it back. He knows which traders grade honestly, because he has bought from them before and tested what they sold.</p>
+        <p><strong>That is the job our buyer does for you, every working day.</strong></p>
+      </div>
+      <div class="fade-up">
+        <figure style="margin:0"><img src="/images/huaqiangbei-electronics-market-floor.webp" alt="Rows of electronics counters on a crowded trading floor in Huaqiangbei, Shenzhen" width="1024" height="768" loading="lazy" class="pp-img" /><PhotoCredit id="whitwell" /></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="pp-section">
+    <div class="container">
+      <span class="pp-eyebrow">What you get from a buyer on the floor</span>
+      <h2 class="pp-h2">Four things you can't get by messaging a stranger.</h2>
+      <div class="pp-cards pp-cards--2">
+        <div class="pp-card" style="padding:1.5rem 1.6rem"><h3>He sees the stock</h3><p>Not a stock photo, not last month's video. The actual phones and parts in your order, in his hands, before anyone is paid.</p></div>
+        <div class="pp-card" style="padding:1.5rem 1.6rem"><h3>He compares counters</h3><p>The same model is on sale at dozens of counters. He finds the right grade at the right price instead of taking the first offer.</p></div>
+        <div class="pp-card" style="padding:1.5rem 1.6rem"><h3>Everything gets tested</h3><p>Stock goes from the market to our bench in Shenzhen. Every phone is IMEI-checked and lock-checked, every screen is powered up. Failures go back.</p></div>
+        <div class="pp-card" style="padding:1.5rem 1.6rem"><h3>One box, not twenty</h3><p>Phones from one counter, screens from another, batteries from a third: consolidated, checked, packed and shipped as one order with one invoice.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pp-section pp-alt">
+    <div class="container">
+      <span class="pp-eyebrow">How an order moves</span>
+      <h2 class="pp-h2">From your list to the market floor to your door.</h2>
+      <div class="pp-steps">
+        <div class="pp-step"><h3>Your list</h3><p>WhatsApp or the quote form: models, grades, storage, quantities.</p></div>
+        <div class="pp-step"><h3>Prices</h3><p>Current market prices from the floor, per model and grade, shipped or FOB.</p></div>
+        <div class="pp-step"><h3>The floor</h3><p>After your deposit, our buyer sources your order across the market.</p></div>
+        <div class="pp-step"><h3>The bench</h3><p>Every unit tested in Shenzhen. You get the video and the record.</p></div>
+        <div class="pp-step"><h3>Your door</h3><p>Happy? Pay the balance. Express to your door, or FOB China.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pp-section">
+    <div class="container pp-split pp-split--top">
+      <div>
+        <span class="pp-eyebrow">Straight talk</span>
+        <h2 class="pp-h2">Huaqiangbei has traps. Knowing them is the job.</h2>
+        <figure style="margin:1.5rem 0 0"><img src="/images/huaqiangbei-phone-stall-traders.webp" alt="Traders working at a small phone counter inside a Huaqiangbei mobile phone market" width="1024" height="768" loading="lazy" class="pp-img" /><PhotoCredit id="whitwell-stall" /></figure>
+      </div>
+      <ul class="pp-checks pp-x">
+        <li><strong>Copies.</strong> Lookalike earbuds, watches and branded parts are everywhere. We don't buy them.</li>
+        <li><strong>Mixed grades.</strong> A "Grade A" lot with a few Bs and Cs tucked in. Every phone is graded again on our bench.</li>
+        <li><strong>Locked phones.</strong> iCloud, Google account and company-managed devices that can never be resold. Every one is checked and rejected.</li>
+        <li><strong>Flashed China versions.</strong> China-market phones with modified global software, sold as global. We confirm the version before we buy.</li>
+        <li><strong>Old batteries.</strong> Cells that sat on a shelf for a year. Every battery is date-checked and capacity-tested.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="pp-section pp-alt">
+    <div class="container pp-split">
+      <div class="fade-up">
+        <figure style="margin:0"><img src="/images/huaqiangbei-walking-street-shenzhen.webp" alt="Huaqiangbei walking street in Shenzhen, lined with electronics malls" width="1600" height="1000" loading="lazy" class="pp-img" /><PhotoCredit id="granger" /></figure>
+      </div>
+      <div class="pp-prose fade-up">
+        <span class="pp-eyebrow">The market</span>
+        <h2 class="pp-h2">A short guide to Huaqiangbei.</h2>
+        <p>Huaqiangbei sits in Futian District, in the middle of Shenzhen. It grew out of the SEG electronics market, which opened in 1988, and today it is a pedestrian street lined with multi-storey malls, each floor packed with counters.</p>
+        <p>Some malls specialise in phones and tablets, new and used. Others are full of screens, batteries and repair parts, or components, LEDs and accessories. Most of what a phone shop sells, anywhere in the world, has passed through here at some point.</p>
+        <p>It is open to anyone, and a fascinating place to walk. Buying well there is another thing: it takes the language, local payment, relationships with honest traders and a test bench nearby. That is what we provide.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pp-section">
+    <div class="container">
+      <span class="pp-eyebrow">Questions</span>
+      <h2 class="pp-h2">Buying in Huaqiangbei, answered.</h2>
+      <div class="pp-faq">
+        {faqs.map((f) => (<details><summary>{f.q}</summary><p>{f.a}</p></details>))}
+      </div>
+    </div>
+  </section>
+
+  <section class="pp-section pp-dark pp-final">
+    <div class="container">
+      <span class="pp-eyebrow">Put a buyer on the floor for you</span>
+      <h2 class="pp-h2">Send your list. Our buyer takes it to the counters.</h2>
+      <p class="pp-lead">No minimum on your first order. No balance until you've seen your batch pass.</p>
+      <div class="pp-actions">
+        <WaButton text={waText} />
+        <a href="/phone-parts/quote/" class="pp-btn pp-btn--light">Get prices →</a>
+      </div>
+    </div>
+  </section>
+
+</PartsLayout>

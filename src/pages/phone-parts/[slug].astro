@@ -1,10 +1,12 @@
 ---
-// Ériu Phone Parts product pages, data in src/data/parts.js.
+// Ériu Phones & Parts product pages, data in src/data/parts.js.
 import PartsLayout from '../../layouts/PartsLayout.astro';
 import GuaranteeSeal from '../../components/parts/GuaranteeSeal.astro';
 import WaButton from '../../components/parts/WaButton.astro';
 import BatchBoard from '../../components/parts/BatchBoard.astro';
+import PhotoCredit from '../../components/parts/PhotoCredit.astro';
 import { partsProducts, guarantee } from '../../data/parts.js';
+import { partsGuides } from '../../data/partsGuides.js';
 
 export function getStaticPaths() {
   return partsProducts.map((p) => ({ params: { slug: p.slug }, props: { p } }));
@@ -15,13 +17,14 @@ const siteUrl = 'https://eriusourcing.com';
 const canonical = `/phone-parts/${p.slug}/`;
 const related = p.related.map((s) => partsProducts.find((x) => x.slug === s)).filter(Boolean);
 const showBoard = p.slug.includes('screens');
+const guides = (p.guides ?? []).map((s) => partsGuides.find((g) => g.slug === s)).filter(Boolean);
 
 const pageSchemas = [
   {
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Ériu Sourcing", "item": siteUrl },
-      { "@type": "ListItem", "position": 2, "name": "Phone Parts", "item": `${siteUrl}/phone-parts/` },
+      { "@type": "ListItem", "position": 2, "name": "Phones & Parts", "item": `${siteUrl}/phone-parts/` },
       { "@type": "ListItem", "position": 3, "name": p.nav, "item": `${siteUrl}${canonical}` }
     ]
   },
@@ -46,7 +49,7 @@ const pageSchemas = [
   <section class="pp-hero pp-dark">
     <div class="pp-hero-bg"><img src={p.image} alt="" width="1216" height="832" loading="eager" fetchpriority="high" /></div>
     <div class="container" style="position:relative;z-index:1"><div style="max-width:880px">
-      <nav class="pp-crumbs" aria-label="Breadcrumb"><a href="/phone-parts/">Phone Parts</a> / {p.nav}</nav>
+      <nav class="pp-crumbs" aria-label="Breadcrumb"><a href="/phone-parts/">Phones &amp; Parts</a> / {p.nav}</nav>
       <span class="pp-eyebrow">{p.eyebrow}</span>
       <h1>{p.h1}</h1>
       <p class="pp-lead">{p.sub}</p>
@@ -54,8 +57,9 @@ const pageSchemas = [
         <WaButton text={p.wa} label={`WhatsApp for ${p.nav.toLowerCase()} prices`} />
         <a href="/phone-parts/quote/" class="pp-btn pp-btn--line">Get prices →</a>
       </div>
-      <p class="pp-micro">No minimum on your first order · Batch video before you pay the balance · Dead on arrival replaced or credited</p>
+      <p class="pp-micro">{p.group === 'devices' ? 'Bought on the floor in Huaqiangbei · ' : ''}No minimum on your first order · Batch video before you pay the balance · Dead on arrival replaced or credited</p>
     </div></div>
+    <PhotoCredit id={p.credit} overlay />
   </section>
 
   <section class="pp-section">
@@ -67,7 +71,7 @@ const pageSchemas = [
       <div class="fade-up">
         {showBoard
           ? <BatchBoard />
-          : <img src={p.image} alt={p.imageAlt} width="1216" height="832" loading="lazy" class="pp-img" />}
+          : <figure style="margin:0"><img src={p.image} alt={p.imageAlt} width="1216" height="832" loading="lazy" class="pp-img" /><PhotoCredit id={p.credit} /></figure>}
       </div>
     </div>
   </section>
@@ -89,8 +93,14 @@ const pageSchemas = [
     <div class="container pp-split pp-split--top">
       <div>
         <span class="pp-eyebrow">Checked before it ships</span>
-        <h2 class="pp-h2">What we check, and you get the record.</h2>
+        <h2 class="pp-h2">{p.group === 'devices' ? 'What we check on every device. You get the record.' : 'What we check, and you get the record.'}</h2>
         <a href="/phone-parts/how-we-test/" class="pp-card-cta">See the full testing protocol →</a>
+        {guides.length > 0 && (
+          <div class="pp-guides">
+            <span class="pp-guides-label">Buyer guides</span>
+            {guides.map((g) => <a href={`/phone-parts/guides/${g.slug}/`}>{g.h1}</a>)}
+          </div>
+        )}
       </div>
       <ul class="pp-checks">
         {p.tests.map((t) => <li>{t}</li>)}
@@ -163,4 +173,7 @@ const pageSchemas = [
 <style>
   .pp-crumbs { font-size: .8125rem; color: rgba(255,255,255,.55); margin-bottom: 1rem; }
   .pp-crumbs a { color: rgba(255,255,255,.75); }
+  .pp-guides { margin-top: 1.75rem; padding: 1rem 1.25rem; border-left: 3px solid var(--color-emerald, #0f8a6a); background: rgba(15,138,106,.06); border-radius: 0 10px 10px 0; display: grid; gap: .5rem; }
+  .pp-guides-label { font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #5a5a5a; }
+  .pp-guides a { color: var(--color-navy, #0F2131); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
 </style>

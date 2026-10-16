@@ -1,0 +1,17 @@
+---
+// Visible credit for openly licensed real photos (src/data/parts.js photoCredits).
+import { photoCredits } from '../../data/parts.js';
+interface Props { id?: string; overlay?: boolean; }
+const { id, overlay = false } = Astro.props;
+const c = id ? photoCredits[id] : null;
+---
+{c && (
+  <p class:list={['pp-credit', { 'pp-credit--overlay': overlay }]}>
+    Photo: <a href={c.src} rel="noopener nofollow" target="_blank">{c.by}</a>, <a href={c.licenseUrl} rel="noopener nofollow license" target="_blank">{c.license}</a>
+  </p>
+)}
+<style>
+  .pp-credit { font-size: .6875rem; line-height: 1.4; color: #6b7280; margin: .375rem 0 0; }
+  .pp-credit a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+  .pp-credit--overlay { position: absolute; right: .75rem; bottom: .5rem; z-index: 2; margin: 0; color: rgba(255,255,255,.6); }
+</style>

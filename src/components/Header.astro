@@ -11,7 +11,7 @@ const sourcingNavLinks = [
   { href: '/how-it-works/', label: 'How It Works' },
   { href: '/source/',        label: 'What We Source' },
   { href: '/modular-homes/', label: 'Modular Homes' },
-  { href: '/phone-parts/',   label: 'Phone Parts' },
+  { href: '/phone-parts/',   label: 'Phones & Parts' },
   {
     label: 'Resources',
     children: [
@@ -66,24 +66,37 @@ const isParts = pathname.startsWith('/phone-parts');
 const partsNavLinks = [
   { href: '/phone-parts/', label: 'Overview', exact: true },
   {
-    label: 'Screens',
+    label: 'Phones',
     children: [
-      { href: '/phone-parts/iphone-screens-wholesale/',  label: 'iPhone Screens' },
-      { href: '/phone-parts/samsung-screens-wholesale/', label: 'Samsung Screens' },
+      { href: '/phone-parts/used-iphones-wholesale/',        label: 'Used iPhones' },
+      { href: '/phone-parts/used-samsung-phones-wholesale/', label: 'Used Samsung' },
+      { href: '/phone-parts/refurbished-iphones-wholesale/', label: 'Refurbished Phones' },
+      { href: '/phone-parts/new-android-phones-wholesale/',  label: 'New Android Phones' },
+      { href: '/phone-parts/tablets-wholesale/',             label: 'Tablets & iPads' },
+      { href: '/phone-parts/smartwatches-earbuds-wholesale/', label: 'Watches & Earbuds' },
+      { href: '/phone-parts/low-moq-phone-wholesale/',       label: 'Mixed Orders, No Minimum' },
     ],
   },
   {
-    label: 'Parts & Devices',
+    label: 'Parts',
     children: [
-      { href: '/phone-parts/phone-batteries-wholesale/',     label: 'Batteries' },
-      { href: '/phone-parts/phone-repair-parts-wholesale/',  label: 'Ports, Glass & Cameras' },
-      { href: '/phone-parts/refurbished-iphones-wholesale/', label: 'Refurbished Phones' },
-      { href: '/phone-parts/phone-accessories-wholesale/',   label: 'Accessories' },
+      { href: '/phone-parts/iphone-screens-wholesale/',     label: 'iPhone Screens' },
+      { href: '/phone-parts/samsung-screens-wholesale/',    label: 'Samsung Screens' },
+      { href: '/phone-parts/phone-batteries-wholesale/',    label: 'Batteries' },
+      { href: '/phone-parts/phone-repair-parts-wholesale/', label: 'Ports, Glass & Cameras' },
+      { href: '/phone-parts/phone-accessories-wholesale/',  label: 'Accessories' },
     ],
   },
-  { href: '/phone-parts/how-we-test/', label: 'How We Test' },
-  { href: '/phone-parts/guarantee/',   label: 'Guarantee' },
-  { href: '/phone-parts/shipping/',    label: 'Shipping' },
+  { href: '/phone-parts/huaqiangbei/', label: 'Huaqiangbei' },
+  {
+    label: 'How It Works',
+    children: [
+      { href: '/phone-parts/how-we-test/', label: 'How We Test' },
+      { href: '/phone-parts/guarantee/',   label: 'Guarantee' },
+      { href: '/phone-parts/shipping/',    label: 'Worldwide Shipping' },
+      { href: '/phone-parts/guides/',      label: 'Buyer Guides' },
+    ],
+  },
 ];
 
 // "English" in the German menu goes to the English twin of the current page
@@ -129,7 +142,7 @@ const navLinks = isGerman ? germanNavLinks : isParts ? partsNavLinks : isModular
 const ui = isGerman
   ? { home: '/de/', homeLabel: 'Ériu Sourcing, Startseite', main: 'Hauptnavigation', mobile: 'Mobile Navigation', open: 'Menü öffnen', close: 'Menü schließen', ctaHref: '/de/kontakt/', cta: 'Anfrage senden' }
   : isParts
-  ? { home: '/phone-parts/', homeLabel: 'Ériu Phone Parts, Home', main: 'Main navigation', mobile: 'Mobile navigation', open: 'Open menu', close: 'Close menu', ctaHref: '/phone-parts/quote/', cta: 'Get prices' }
+  ? { home: '/phone-parts/', homeLabel: 'Ériu Phones & Parts, Home', main: 'Main navigation', mobile: 'Mobile navigation', open: 'Open menu', close: 'Close menu', ctaHref: '/phone-parts/quote/', cta: 'Get prices' }
   : { home: '/', homeLabel: 'Ériu Sourcing, Home', main: 'Main navigation', mobile: 'Mobile navigation', open: 'Open menu', close: 'Close menu', ctaHref: '/contact/', cta: 'Get a Quote' };
 
 const isActive = (href, exact = false) => {
@@ -157,7 +170,7 @@ const isGroupActive = (link) => !!link.children?.some(c => isActive(c.href));
       <a href={ui.home} class="logo" aria-label={ui.homeLabel}>
         <img src="/images/eriu-mark.svg" width="36" height="36" alt="" aria-hidden="true" class="logo-mark" />
         <span class="logo-wordmark">
-          <span class="logo-eriu">ÉRIU</span><span class="logo-sourcing">{isParts ? 'Phone Parts' : 'Sourcing'}</span>
+          <span class="logo-eriu">ÉRIU</span><span class="logo-sourcing">{isParts ? 'Phones & Parts' : 'Sourcing'}</span>
         </span>
       </a>
     )}

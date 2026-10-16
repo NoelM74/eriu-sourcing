@@ -1,0 +1,31 @@
+---
+// Credits for openly licensed real photos used on the site
+// (data in src/data/parts.js photoCredits).
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { photoCredits } from '../data/parts.js';
+const title = "Photo Credits | Ériu Sourcing";
+const description = "Credits and licences for the openly licensed photographs used on the Ériu Sourcing website, including Huaqiangbei and Shenzhen phone market photos.";
+const credits = Object.values(photoCredits);
+---
+
+<BaseLayout title={title} description={description} canonical="/photo-credits/">
+<section class="section">
+  <div class="container--narrow">
+    <span class="section-eyebrow">Legal</span>
+    <h1>Photo credits</h1>
+    <p>Some photographs on this site are openly licensed work by other photographers. We are grateful to them. Each is credited below with its licence. Photos not listed here are our own or created for this site.</p>
+    <ul class="credits">
+      {credits.map((c) => (
+        <li><a href={c.src} rel="noopener nofollow">{c.title}</a> by {c.by}, licensed <a href={c.licenseUrl} rel="noopener nofollow license">{c.license}</a>. Resized and cropped for this site.</li>
+      ))}
+    </ul>
+  </div>
+</section>
+</BaseLayout>
+
+<style>
+  h1 { margin: .5rem 0 1rem; }
+  .credits { margin: 1.5rem 0 3rem; padding-left: 1.25rem; line-height: 1.7; }
+  .credits li { margin-bottom: .5rem; }
+  .credits a { color: var(--color-emerald); }
+</style>

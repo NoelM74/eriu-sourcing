@@ -34,8 +34,8 @@ export const dePages = [
         'Teile mit kopierten Markenlogos können vom Zoll beschlagnahmt werden und schaden Ihrem Ruf.',
       ],
       after: 'Jede Reklamation kostet Sie das Teil, die Arbeitszeit und das Vertrauen des Kunden. Wir prüfen dort, wo es am günstigsten ist: in Shenzhen, bevor bezahlt und verschickt wird.',
-      image: '/images/huaqiangbei-phone-parts-market-stalls.webp',
-      imageAlt: 'Ersatzteilstände im Elektronikmarkt Huaqiangbei in Shenzhen, Händler testen Displays an der Theke',
+      image: '/images/huaqiangbei-walking-street-shenzhen.webp',
+      imageAlt: 'Die Fußgängerzone Huaqiangbei in Shenzhen mit ihren Elektronik-Kaufhäusern',
     },
     lines: [
       { href: '/de/refurbished-smartphones-grosshandel/', h: 'Refurbished Smartphones', p: 'Geprüfte iPhones und Samsungs: IMEI, Sperren, Akkuzustand und Funktion, Gerät für Gerät.' },
