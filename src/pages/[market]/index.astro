@@ -1,0 +1,150 @@
+---
+// Country hub pages (international expansion). Data: src/data/markets.js.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { markets } from '../../data/markets.js';
+import { marketLines } from '../../data/marketLines.js';
+import { wa } from '../../data/parts.js';
+
+export function getStaticPaths() {
+  return markets.map((m) => ({ params: { market: m.slug }, props: { m } }));
+}
+
+const { m } = Astro.props;
+const fill = (t) => t.replaceAll('{country}', m.name).replaceAll('{demonym}', m.demonym).replaceAll('{short}', m.short);
+const siteUrl = 'https://eriusourcing.com';
+const canonical = `/${m.slug}/`;
+const waLink = wa(`Hi Noel, I'm in ${m.name} and want to source from China: `);
+const others = markets.filter((x) => x.slug !== m.slug);
+const pageSchemas = [
+  { "@type": "BreadcrumbList", "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Ériu Sourcing", "item": siteUrl },
+    { "@type": "ListItem", "position": 2, "name": m.label, "item": `${siteUrl}${canonical}` } ] },
+  {
+    "@type": "Service",
+    "name": `China sourcing agent for ${m.name}`,
+    "serviceType": "China sourcing agent",
+    "description": m.hubDescription,
+    "provider": { "@type": "ProfessionalService", "@id": `${siteUrl}/#organization` },
+    "areaServed": m.schemaArea
+  },
+  { "@type": "FAQPage", "mainEntity": (m.faqs.common ?? []).map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })) }
+];
+---
+
+<BaseLayout title={m.hubTitle} description={m.hubDescription} canonical={canonical} ogImage="/images/noel-dongguan-factory-visit.webp" ogImageAlt="Noel Murphy of Ériu Sourcing on a factory floor in Dongguan, China" jsonLd={pageSchemas}>
+  <section class="hb-hero">
+    <div class="container hb-grid">
+      <div>
+        <span class="hb-eyebrow">China sourcing for {m.name}</span>
+        <h1>{m.hubH1}</h1>
+        <p class="hb-lead">{m.hubLead}</p>
+        <div class="hb-actions">
+          <a href={waLink} class="btn btn--white" target="_blank" rel="noopener noreferrer">WhatsApp Noel →</a>
+          <a href="/contact/" class="btn btn--white-outline">Get a quote</a>
+        </div>
+      </div>
+      <figure class="hb-photo">
+        <img src="/images/noel-dongguan-factory-visit.webp" alt="Noel Murphy of Ériu Sourcing with a factory owner and project manager in Dongguan" width="2048" height="1152" loading="eager" fetchpriority="high" />
+        <figcaption><strong>Noel Murphy</strong>, founder, on a factory floor in Dongguan.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <span class="section-eyebrow">What we source for {m.demonym} businesses</span>
+      <h2>Three ways we help {m.demonym} importers buy direct.</h2>
+      <div class="hb-cards">
+        {marketLines.map((l) => (
+          <a href={`/${m.slug}/${l.slug}/`} class="hb-card">
+            <img src={l.image} alt="" width="1600" height="900" loading="lazy" />
+            <div><h3>{l.nav}</h3><p>{fill(l.descTpl)}</p><span>See {l.nav.toLowerCase()} for {m.name} →</span></div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container">
+      <span class="section-eyebrow">Importing into {m.name}</span>
+      <h2>The essentials, in plain English.</h2>
+      <div class="hb-facts">
+        {m.tax.map((f) => <div class="hb-fact"><h3>{f.h}</h3><p>{f.p}</p>{f.src && <a href={f.src} rel="noopener nofollow" target="_blank">Source</a>}</div>)}
+      </div>
+      <div class="hb-ship">{m.shipping.map((p) => <p>{p}</p>)}</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container hb-proof">
+      <img src="/images/pfc-office-team-china.webp" alt="The Shenzhen-based Ériu team in their office in China" width="2690" height="1793" loading="lazy" />
+      <div>
+        <span class="section-eyebrow">Why Ériu</span>
+        <h2>Irish-run. On the ground in China. Answerable to you.</h2>
+        <ul class="hb-list">
+          <li>Noel Murphy has lived and worked in China since 2008.</li>
+          <li>53 people on the ground: 47 in Shenzhen, 6 in Zhengzhou.</li>
+          <li>Our own full-time buyer in the Huaqiangbei electronics market.</li>
+          <li>Every order inspected before it ships. Problems fixed in China, not after they land in {m.name}.</li>
+          <li>A registered company you can check: Springfield Tectop Limited, Ireland, no. 571256.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  {(m.faqs.common ?? []).length > 0 && (
+    <section class="section section--alt">
+      <div class="container--narrow">
+        <span class="section-eyebrow">Questions</span>
+        <h2>Sourcing from China for {m.name}, answered.</h2>
+        <div class="hb-faq">{m.faqs.common.map((f) => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}</div>
+      </div>
+    </section>
+  )}
+
+  <section class="section">
+    <div class="container">
+      <span class="section-eyebrow">Other markets we serve</span>
+      <div class="hb-markets">{others.map((o) => <a href={`/${o.slug}/`}>{o.label}</a>)}<a href="/">Ireland</a><a href="/de/" hreflang="de" lang="de">Deutschland &amp; Österreich</a></div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hb-hero { background: linear-gradient(135deg, #0d1b26, #12382c); color: #fff; padding: clamp(3rem, 6vw, 5.5rem) 0 clamp(3.5rem, 6vw, 5.5rem); }
+  .hb-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: clamp(2rem, 4vw, 4rem); align-items: center; }
+  .hb-eyebrow { display: inline-block; font-size: .78rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #7ff0dc; margin-bottom: 1rem; }
+  .hb-hero h1 { color: #fff; font-size: clamp(2rem, 4.4vw, 3.5rem); line-height: 1.08; letter-spacing: -.02em; margin: 0 0 1.25rem; }
+  .hb-lead { color: rgba(255,255,255,.88); font-size: clamp(1rem, 1.5vw, 1.2rem); line-height: 1.7; margin-bottom: 2rem; }
+  .hb-actions { display: flex; flex-wrap: wrap; gap: .875rem; }
+  .hb-photo { margin: 0; position: relative; }
+  .hb-photo img { width: 100%; height: auto; border-radius: 16px; display: block; box-shadow: 0 30px 70px rgba(0,0,0,.4); }
+  .hb-photo figcaption { position: absolute; left: 1rem; right: 1rem; bottom: -1.1rem; background: #fff; color: #23313d; font-size: .8125rem; padding: .65rem .9rem; border-radius: 10px; }
+  .hb-photo figcaption strong { color: var(--color-emerald); }
+  .hb-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-top: 2rem; }
+  .hb-card { display: grid; grid-template-rows: auto 1fr; border-radius: 14px; overflow: hidden; background: #fff; border: 1px solid rgba(15,33,49,.08); text-decoration: none; color: inherit; transition: transform .2s ease, box-shadow .2s ease; }
+  .hb-card:hover { transform: translateY(-3px); box-shadow: 0 14px 34px rgba(15,33,49,.12); }
+  .hb-card img { width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block; }
+  .hb-card div { padding: 1.25rem 1.375rem 1.5rem; display: grid; gap: .5rem; align-content: start; }
+  .hb-card h3 { margin: 0; font-size: 1.1875rem; }
+  .hb-card p { margin: 0; color: #4a4a4a; line-height: 1.6; font-size: .9688rem; }
+  .hb-card span { color: var(--color-emerald); font-weight: 700; font-size: .9375rem; margin-top: .25rem; }
+  .hb-facts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: 1.75rem; }
+  .hb-fact { background: #fff; border: 1px solid rgba(15,33,49,.08); border-radius: 12px; padding: 1.125rem 1.25rem; }
+  .hb-fact h3 { margin: 0 0 .4rem; font-size: 1.0313rem; }
+  .hb-fact p { margin: 0 0 .5rem; color: #3a3a3a; line-height: 1.6; font-size: .9688rem; }
+  .hb-fact a { font-size: .78rem; color: var(--color-emerald); }
+  .hb-ship { margin-top: 1.75rem; max-width: 75ch; }
+  .hb-ship p { color: #333; line-height: 1.75; }
+  .hb-proof { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1.5rem, 4vw, 3.5rem); align-items: center; }
+  .hb-proof img { width: 100%; height: auto; border-radius: 14px; display: block; }
+  .hb-list { padding-left: 1.2rem; line-height: 1.8; color: #333; }
+  .hb-faq details { border-bottom: 1px solid rgba(15,33,49,.1); }
+  .hb-faq summary { font-weight: 600; cursor: pointer; padding: 1.1rem 0; color: var(--color-navy); }
+  .hb-faq p { margin: 0 0 1.1rem; color: #444; line-height: 1.65; }
+  .hb-markets { display: flex; flex-wrap: wrap; gap: .625rem; margin-top: 1rem; }
+  .hb-markets a { padding: .55rem 1rem; border-radius: 999px; border: 1px solid rgba(15,33,49,.15); color: var(--color-navy); text-decoration: none; font-weight: 600; font-size: .9375rem; }
+  .hb-markets a:hover { border-color: var(--color-emerald); color: var(--color-emerald); }
+  @media (max-width: 900px) { .hb-grid, .hb-cards, .hb-facts, .hb-proof { grid-template-columns: 1fr; } .hb-photo { margin-bottom: 1.5rem; } }
+</style>
