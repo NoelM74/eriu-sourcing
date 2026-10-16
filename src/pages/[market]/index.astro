@@ -14,6 +14,7 @@ const fill = (t) => t.replaceAll('{country}', m.name).replaceAll('{demonym}', m.
 const siteUrl = 'https://eriusourcing.com';
 const canonical = `/${m.slug}/`;
 const waLink = wa(`Hi Noel, I'm in ${m.name} and want to source from China: `);
+const notes = (m.notes ?? []).filter((n) => new Date() < new Date(n.showUntil));
 const others = markets.filter((x) => x.slug !== m.slug);
 const pageSchemas = [
   { "@type": "BreadcrumbList", "itemListElement": [
@@ -69,6 +70,7 @@ const pageSchemas = [
     <div class="container">
       <span class="section-eyebrow">Importing into {m.name}</span>
       <h2>The essentials, in plain English.</h2>
+      {notes.map((n) => <p class="hb-update"><strong>Update, {n.date}:</strong> {n.text}{n.src && <Fragment> <a href={n.src} rel="noopener nofollow" target="_blank">Source</a></Fragment>}</p>)}
       <div class="hb-facts">
         {m.tax.map((f) => <div class="hb-fact"><h3>{f.h}</h3><p>{f.p}</p>{f.src && <a href={f.src} rel="noopener nofollow" target="_blank">Source</a>}</div>)}
       </div>
@@ -135,6 +137,8 @@ const pageSchemas = [
   .hb-fact h3 { margin: 0 0 .4rem; font-size: 1.0313rem; }
   .hb-fact p { margin: 0 0 .5rem; color: #3a3a3a; line-height: 1.6; font-size: .9688rem; }
   .hb-fact a { font-size: .78rem; color: var(--color-emerald); }
+  .hb-update { background: #fff8e6; border: 1px solid #f0d78c; border-radius: 10px; padding: .75rem 1rem; font-size: .9375rem; line-height: 1.6; color: #4a3b0b; max-width: 80ch; }
+  .hb-update a { color: inherit; text-decoration: underline; }
   .hb-ship { margin-top: 1.75rem; max-width: 75ch; }
   .hb-ship p { color: #333; line-height: 1.75; }
   .hb-proof { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1.5rem, 4vw, 3.5rem); align-items: center; }

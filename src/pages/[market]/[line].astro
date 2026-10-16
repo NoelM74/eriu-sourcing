@@ -22,6 +22,8 @@ const compliance = m.compliance[l.key] ?? [];
 const faqs = [...(m.faqs[l.key] ?? []), ...(m.faqs.common ?? [])];
 const waLink = wa(fill(l.waTpl));
 const others = marketLines.filter((x) => x.key !== l.key);
+const notes = (m.notes ?? []).filter((n) => new Date() < new Date(n.showUntil));
+const extra = m.extra?.[l.key] ?? null;
 const checked = new Date(m.lastChecked).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 
 const pageSchemas = [
@@ -76,10 +78,23 @@ const pageSchemas = [
     </div>
   </section>
 
-  <section class="section">
+  {extra && (
+    <section class="section">
+      <div class="container--narrow mk-prose">
+        <span class="section-eyebrow">The opportunity</span>
+        <h2>{extra.h2}</h2>
+        {extra.paras.map((p) => <p>{p}</p>)}
+        {extra.src && <p><a href={extra.src} rel="noopener nofollow" target="_blank" class="mk-src">ITAC notice on used-cellphone permits</a></p>}
+        <a href={waLink} class="btn btn--primary" target="_blank" rel="noopener noreferrer">Plan a used-phone order with us →</a>
+      </div>
+    </section>
+  )}
+
+  <section class={extra ? 'section section--alt' : 'section'}>
     <div class="container">
       <span class="section-eyebrow">Importing into {m.name}</span>
       <h2>What applies when you bring {l.nav.toLowerCase()} into {m.name}.</h2>
+      {notes.map((n) => <p class="mk-update"><strong>Update, {n.date}:</strong> {n.text}{n.src && <Fragment> <a href={n.src} rel="noopener nofollow" target="_blank">Source</a></Fragment>}</p>)}
       <p class="mk-note">Checked {checked}. Rules change, so we confirm what applies to your exact products and HS codes in your quote. This is general guidance, not legal or tax advice.</p>
       <div class="mk-facts">
         {m.tax.map((f) => (
@@ -188,6 +203,8 @@ const pageSchemas = [
   .mk-benefits strong { color: var(--color-emerald); }
   .mk-benefits span { color: #444; line-height: 1.6; font-size: .9688rem; }
   .mk-note { color: #666; font-size: .9rem; max-width: 70ch; }
+  .mk-update { background: #fff8e6; border: 1px solid #f0d78c; border-radius: 10px; padding: .75rem 1rem; font-size: .9375rem; line-height: 1.6; color: #4a3b0b; max-width: 80ch; }
+  .mk-update a { color: inherit; text-decoration: underline; }
   .mk-facts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: 1.75rem; }
   .mk-fact { border: 1px solid rgba(15,33,49,.1); border-radius: 12px; padding: 1.125rem 1.25rem; background: #fff; }
   .mk-fact h3 { font-size: 1.0313rem; margin: 0 0 .4rem; color: var(--color-navy); }

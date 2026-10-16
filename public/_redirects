@@ -13,6 +13,26 @@
 /testimonials/                              /case-studies/ 301
 /testimonials                               /case-studies/ 301
 
+# ── Electronics spokes made market-neutral (2026-10-16) ─────────────────
+/source/electronics/cctv-ip-security-cameras-china-ireland/ /source/electronics/cctv-ip-security-cameras-from-china/ 301
+/source/electronics/cctv-ip-security-cameras-china-ireland  /source/electronics/cctv-ip-security-cameras-from-china/ 301
+/source/electronics/network-switches-equipment-china-ireland/ /source/electronics/network-switches-equipment-from-china/ 301
+/source/electronics/network-switches-equipment-china-ireland  /source/electronics/network-switches-equipment-from-china/ 301
+/source/electronics/smart-home-iot-devices-china-ireland/ /source/electronics/smart-home-iot-devices-from-china/ 301
+/source/electronics/smart-home-iot-devices-china-ireland  /source/electronics/smart-home-iot-devices-from-china/ 301
+/source/electronics/digital-signage-displays-china-ireland/ /source/electronics/digital-signage-displays-from-china/ 301
+/source/electronics/digital-signage-displays-china-ireland  /source/electronics/digital-signage-displays-from-china/ 301
+/source/electronics/pos-hardware-barcode-scanners-china-ireland/ /source/electronics/pos-hardware-barcode-scanners-from-china/ 301
+/source/electronics/pos-hardware-barcode-scanners-china-ireland  /source/electronics/pos-hardware-barcode-scanners-from-china/ 301
+/source/electronics/smartwatches-wearables-china-ireland/ /source/electronics/smartwatches-wearables-from-china/ 301
+/source/electronics/smartwatches-wearables-china-ireland  /source/electronics/smartwatches-wearables-from-china/ 301
+/source/electronics/action-cameras-wearable-cameras-china-ireland/ /source/electronics/action-cameras-wearable-cameras-from-china/ 301
+/source/electronics/action-cameras-wearable-cameras-china-ireland  /source/electronics/action-cameras-wearable-cameras-from-china/ 301
+/source/electronics/home-battery-storage-systems-china-ireland/ /source/electronics/home-battery-storage-systems-from-china/ 301
+/source/electronics/home-battery-storage-systems-china-ireland  /source/electronics/home-battery-storage-systems-from-china/ 301
+/source/electronics/portable-power-stations-china-ireland/ /source/electronics/portable-power-stations-from-china/ 301
+/source/electronics/portable-power-stations-china-ireland  /source/electronics/portable-power-stations-from-china/ 301
+
 # ── Trailing-slash 301s (Cloudflare Pages uses 307 by default — override) ─
 # Core pages
 /contact              /contact/              301
