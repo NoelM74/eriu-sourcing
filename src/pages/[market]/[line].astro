@@ -1,0 +1,218 @@
+---
+// Country x product-line pages (international expansion). Data:
+// src/data/markets.js (country facts, sourced) + src/data/marketLines.js.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PhotoCredit from '../../components/parts/PhotoCredit.astro';
+import GuaranteeSeal from '../../components/parts/GuaranteeSeal.astro';
+import { markets } from '../../data/markets.js';
+import { marketLines } from '../../data/marketLines.js';
+import { guarantee, wa } from '../../data/parts.js';
+
+export function getStaticPaths() {
+  return markets.flatMap((m) => marketLines.map((l) => ({ params: { market: m.slug, line: l.slug }, props: { m, l } })));
+}
+
+const { m, l } = Astro.props;
+const fill = (t) => t.replaceAll('{country}', m.name).replaceAll('{demonym}', m.demonym).replaceAll('{short}', m.short);
+const siteUrl = 'https://eriusourcing.com';
+const canonical = `/${m.slug}/${l.slug}/`;
+const title = fill(l.titleTpl);
+const description = fill(l.descTpl);
+const compliance = m.compliance[l.key] ?? [];
+const faqs = [...(m.faqs[l.key] ?? []), ...(m.faqs.common ?? [])];
+const waLink = wa(fill(l.waTpl));
+const others = marketLines.filter((x) => x.key !== l.key);
+const checked = new Date(m.lastChecked).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+
+const pageSchemas = [
+  { "@type": "BreadcrumbList", "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Ériu Sourcing", "item": siteUrl },
+    { "@type": "ListItem", "position": 2, "name": m.label, "item": `${siteUrl}/${m.slug}/` },
+    { "@type": "ListItem", "position": 3, "name": l.nav, "item": `${siteUrl}${canonical}` } ] },
+  {
+    "@type": "Service",
+    "name": fill(l.h1Tpl),
+    "serviceType": `${l.nav} sourcing from China`,
+    "description": description,
+    "provider": { "@type": "ProfessionalService", "@id": `${siteUrl}/#organization` },
+    "areaServed": m.schemaArea
+  },
+  ...(faqs.length ? [{ "@type": "FAQPage", "mainEntity": faqs.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })) }] : [])
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} ogImage={l.image} ogImageAlt={l.imageAlt} jsonLd={pageSchemas}>
+  <section class="mk-hero">
+    <div class="mk-hero-bg"><img src={l.image} alt="" width="1600" height="900" loading="eager" fetchpriority="high" /></div>
+    <div class="container mk-hero-inner">
+      <nav class="mk-crumbs" aria-label="Breadcrumb"><a href={`/${m.slug}/`}>{m.label}</a> / {l.nav}</nav>
+      <span class="mk-eyebrow">{m.label} · {l.nav}</span>
+      <h1>{fill(l.h1Tpl)}</h1>
+      <p class="mk-lead">{fill(l.subTpl)}</p>
+      <div class="mk-actions">
+        <a href={waLink} class="btn btn--white" target="_blank" rel="noopener noreferrer">WhatsApp Noel →</a>
+        <a href={l.ctaHref} class="btn btn--white-outline">Get prices</a>
+      </div>
+    </div>
+    <PhotoCredit id={l.credit} overlay />
+  </section>
+
+  <section class="section">
+    <div class="container--narrow">
+      <p class="mk-answer"><strong>The short answer:</strong> {fill(m.shortAnswer[l.key])}</p>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container mk-split">
+      <div class="mk-prose">
+        <span class="section-eyebrow">The problem</span>
+        <h2>{fill(l.pain.h2)}</h2>
+        {l.pain.paras.map((p) => <p>{fill(p)}</p>)}
+      </div>
+      <ul class="mk-benefits">
+        {l.benefits.map(([h, p]) => <li><strong>{h}</strong><span>{fill(p)}</span></li>)}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <span class="section-eyebrow">Importing into {m.name}</span>
+      <h2>What applies when you bring {l.nav.toLowerCase()} into {m.name}.</h2>
+      <p class="mk-note">Checked {checked}. Rules change, so we confirm what applies to your exact products and HS codes in your quote. This is general guidance, not legal or tax advice.</p>
+      <div class="mk-facts">
+        {m.tax.map((f) => (
+          <div class="mk-fact"><h3>{f.h}</h3><p>{f.p}</p>{f.src && <a href={f.src} rel="noopener nofollow" target="_blank" class="mk-src">Source</a>}</div>
+        ))}
+        {compliance.map((f) => (
+          <div class="mk-fact"><h3>{f.h}</h3><p>{f.p}</p>{f.src && <a href={f.src} rel="noopener nofollow" target="_blank" class="mk-src">Source</a>}</div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container mk-split">
+      <div class="mk-prose">
+        <span class="section-eyebrow">Getting it to you</span>
+        <h2>Shipping from Shenzhen to {m.name}.</h2>
+        {m.shipping.map((p) => <p>{p}</p>)}
+      </div>
+      <div class="mk-links">
+        <h3>Go deeper</h3>
+        <ul>{l.links.map(([t, h]) => <li><a href={h}>{t} →</a></li>)}</ul>
+      </div>
+    </div>
+  </section>
+
+  {l.guarantee && (
+    <section class="section mk-guarantee">
+      <div class="container mk-g">
+        <GuaranteeSeal />
+        <div>
+          <span class="section-eyebrow">{guarantee.name}</span>
+          <h2>The risk sits with us, not you.</h2>
+          <p><strong>{guarantee.one.h}</strong> {guarantee.one.p}</p>
+          <p><strong>{guarantee.two.h}</strong> {guarantee.two.p}</p>
+          <p class="mk-fine">{guarantee.fine}</p>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="section section--alt">
+    <div class="container">
+      <span class="section-eyebrow">Who you deal with</span>
+      <h2>An Irish-run team on the ground in China.</h2>
+      <div class="mk-split">
+        <figure class="mk-fig"><img src="/images/pfc-office-team-china.webp" alt="The Shenzhen-based Ériu team in their office in China" width="2690" height="1793" loading="lazy" /></figure>
+        <div class="mk-prose">
+          <p>Ériu is run by Noel Murphy, an Irishman who has lived and worked in China since 2008. The team behind it is 53 people on the ground, 47 in Shenzhen and 6 in Zhengzhou, with warehouse space of our own.</p>
+          <p>You deal with us in plain English, on WhatsApp, from first message to delivery. We are in the same city as your factory, not on the other side of the world from it.</p>
+          <a href="/about/" class="btn btn--secondary">About the team →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {faqs.length > 0 && (
+    <section class="section">
+      <div class="container--narrow">
+        <span class="section-eyebrow">Questions</span>
+        <h2>{l.nav} for {m.name}, answered.</h2>
+        <div class="mk-faq">{faqs.map((f) => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}</div>
+      </div>
+    </section>
+  )}
+
+  <section class="section section--alt">
+    <div class="container">
+      <span class="section-eyebrow">Also for {m.name}</span>
+      <div class="mk-more">
+        {others.map((o) => <a href={`/${m.slug}/${o.slug}/`} class="mk-more-card"><strong>{o.nav}</strong><span>{fill(o.descTpl)}</span></a>)}
+        <a href={`/${m.slug}/`} class="mk-more-card"><strong>Sourcing for {m.name}</strong><span>Everything we do for {m.demonym} businesses, in one place.</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section--emerald mk-cta">
+    <div class="container--narrow">
+      <h2>Tell us what you want to buy.</h2>
+      <p>We reply within 24 hours with factory pricing and the landed cost to {m.name}.</p>
+      <div class="mk-actions" style="justify-content:center">
+        <a href={waLink} class="btn btn--white" target="_blank" rel="noopener noreferrer">WhatsApp Noel →</a>
+        <a href={l.ctaHref} class="btn btn--white-outline">Get prices</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .mk-hero { position: relative; overflow: hidden; background: #0d1b26; color: #fff; padding: clamp(3rem, 7vw, 6rem) 0 clamp(3rem, 6vw, 5rem); }
+  .mk-hero-bg { position: absolute; inset: 0; }
+  .mk-hero-bg img { width: 100%; height: 100%; object-fit: cover; opacity: .3; }
+  .mk-hero-bg::after { content: ''; position: absolute; inset: 0; background: linear-gradient(100deg, #0d1b26 35%, rgba(13,27,38,.6)); }
+  .mk-hero-inner { position: relative; z-index: 1; max-width: 900px; }
+  .mk-crumbs { font-size: .8125rem; color: rgba(255,255,255,.6); margin-bottom: 1rem; }
+  .mk-crumbs a { color: rgba(255,255,255,.8); }
+  .mk-eyebrow { display: inline-block; font-size: .78rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #7ff0dc; margin-bottom: 1rem; }
+  .mk-hero h1 { color: #fff; font-size: clamp(2rem, 4.6vw, 3.5rem); line-height: 1.08; letter-spacing: -.02em; margin: 0 0 1.25rem; }
+  .mk-lead { font-size: clamp(1rem, 1.5vw, 1.2rem); line-height: 1.7; color: rgba(255,255,255,.9); max-width: 66ch; margin-bottom: 2rem; }
+  .mk-actions { display: flex; flex-wrap: wrap; gap: .875rem; }
+  .mk-answer { background: var(--color-teal-light); border-left: 4px solid var(--color-emerald); border-radius: 0 10px 10px 0; padding: 1.125rem 1.375rem; margin: 0; line-height: 1.7; color: var(--color-navy); }
+  .mk-split { display: grid; grid-template-columns: 1.1fr .9fr; gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+  .mk-prose p { line-height: 1.75; color: #333; }
+  .mk-benefits { list-style: none; margin: 0; padding: 0; display: grid; gap: .875rem; }
+  .mk-benefits li { background: #fff; border: 1px solid rgba(15,33,49,.08); border-radius: 12px; padding: 1rem 1.25rem; display: grid; gap: .3rem; }
+  .mk-benefits strong { color: var(--color-emerald); }
+  .mk-benefits span { color: #444; line-height: 1.6; font-size: .9688rem; }
+  .mk-note { color: #666; font-size: .9rem; max-width: 70ch; }
+  .mk-facts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: 1.75rem; }
+  .mk-fact { border: 1px solid rgba(15,33,49,.1); border-radius: 12px; padding: 1.125rem 1.25rem; background: #fff; }
+  .mk-fact h3 { font-size: 1.0313rem; margin: 0 0 .4rem; color: var(--color-navy); }
+  .mk-fact p { margin: 0 0 .5rem; color: #3a3a3a; line-height: 1.6; font-size: .9688rem; }
+  .mk-src { font-size: .78rem; color: var(--color-emerald); text-decoration: underline; text-underline-offset: 2px; }
+  .mk-links { background: #fff; border-radius: 12px; padding: 1.25rem 1.5rem; border: 1px solid rgba(15,33,49,.08); }
+  .mk-links h3 { margin: 0 0 .75rem; font-size: 1.0625rem; }
+  .mk-links ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; }
+  .mk-links a { color: var(--color-emerald); font-weight: 600; }
+  .mk-g { display: grid; grid-template-columns: auto 1fr; gap: 2rem; align-items: center; }
+  .mk-fine { font-size: .875rem; color: #666; }
+  .mk-fig { margin: 0; }
+  .mk-fig img { width: 100%; height: auto; border-radius: 14px; display: block; }
+  .mk-faq details { border-bottom: 1px solid rgba(15,33,49,.1); }
+  .mk-faq summary { font-weight: 600; cursor: pointer; padding: 1.1rem 0; color: var(--color-navy); }
+  .mk-faq p { margin: 0 0 1.1rem; color: #444; line-height: 1.65; }
+  .mk-more { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1.25rem; }
+  .mk-more-card { display: grid; gap: .4rem; padding: 1.25rem; border-radius: 12px; background: #fff; border: 1px solid rgba(15,33,49,.08); text-decoration: none; color: inherit; }
+  .mk-more-card strong { color: var(--color-emerald); }
+  .mk-more-card span { color: #555; font-size: .9375rem; line-height: 1.55; }
+  .mk-more-card:hover { border-color: var(--color-emerald); }
+  .mk-cta { text-align: center; padding: 4rem 0; }
+  .mk-cta h2, .mk-cta p { color: #fff; }
+  @media (max-width: 900px) {
+    .mk-split, .mk-facts, .mk-more { grid-template-columns: 1fr; }
+    .mk-g { grid-template-columns: 1fr; }
+  }
+</style>

@@ -1,12 +1,12 @@
 # Ériu Sourcing
 
-> Irish-run China sourcing company. Ériu Sourcing helps businesses buy direct from China: supplier verification, price negotiation, pre-shipment quality control, compliance checks and freight. Founded by Noel Murphy, who has lived and worked in China since 2008, with teams in Shenzhen (Guangdong) and Zhengzhou (Henan). Three divisions: China sourcing for Irish and UK businesses; Ériu Phones & Parts, a worldwide wholesale supplier of used and new phones, tablets and phone parts bought in Shenzhen's Huaqiangbei market; and Ériu Modular Homes, expandable steel-frame homes sold FOB China. German-language pages serve buyers in Germany and Austria.
+> Irish-run China sourcing company serving importers in Ireland, the UK, the EU, the US, Canada, Australia, the UAE and South Africa. Ériu Sourcing helps businesses buy direct from China: supplier verification, price negotiation, pre-shipment quality control, compliance checks and freight. Founded by Noel Murphy, who has lived and worked in China since 2008, with teams in Shenzhen (Guangdong) and Zhengzhou (Henan). Three divisions: China sourcing for Irish and UK businesses; Ériu Phones & Parts, a worldwide wholesale supplier of used and new phones, tablets and phone parts bought in Shenzhen's Huaqiangbei market; and Ériu Modular Homes, expandable steel-frame homes sold FOB China. German-language pages serve buyers in Germany and Austria.
 
 Key facts:
 - Company: Ériu Sourcing is a trading name of Springfield Tectop Limited, registered in Ireland, company no. 571256, incorporated 5 November 2015. Registered office: Clareview Business Center, Ennis Road, Co. Limerick, V94 EA3A, Ireland.
 - Supply and ship only: Ériu supplies and ships goods from China. It does not install anything.
 - China bases: Shenzhen (electronics, phones and phone parts, consumer goods; logistics and fulfilment operation since 2011) and Zhengzhou, Henan (steel, modular buildings, machinery, construction materials).
-- Service areas: Ireland and the UK (general sourcing), worldwide (Ériu Phones & Parts), Germany and Austria (German-language technology pages).
+- Service areas: Ireland, the UK, the EU, the US, Canada, Australia, the UAE and South Africa (general sourcing, with country pages covering local import rules); worldwide (Ériu Phones & Parts); Germany and Austria (German-language pages).
 - Contact: +353 87 118 7806 (phone and WhatsApp) · https://eriusourcing.com/contact/
 
 ## Ériu Phones & Parts (worldwide wholesale)
@@ -43,6 +43,19 @@ Buyer guides:
 - [Used iPhone grades explained: A+, A, B, C](https://eriusourcing.com/phone-parts/guides/used-iphone-grades-explained/)
 - [Global vs China version phones](https://eriusourcing.com/phone-parts/guides/global-vs-china-version-phones/)
 - [How to check used iPhones before buying wholesale: a 9-point checklist](https://eriusourcing.com/phone-parts/guides/how-to-check-used-iphones-wholesale/)
+
+## Country markets
+
+Each country hub covers local import VAT/GST, duty, registration and certification (sources cited on the page, checked 16 Oct 2026), plus three product lines.
+
+- [United Kingdom](https://eriusourcing.com/uk/): [Phones & parts](https://eriusourcing.com/uk/wholesale-phones-parts/) · [Electronics from China](https://eriusourcing.com/uk/electronics-from-china/) · [Private label](https://eriusourcing.com/uk/private-label-manufacturing/)
+- [Europe (EU)](https://eriusourcing.com/europe/): [Phones & parts](https://eriusourcing.com/europe/wholesale-phones-parts/) · [Electronics from China](https://eriusourcing.com/europe/electronics-from-china/) · [Private label](https://eriusourcing.com/europe/private-label-manufacturing/)
+- [United States](https://eriusourcing.com/usa/): [Phones & parts](https://eriusourcing.com/usa/wholesale-phones-parts/) · [Electronics from China](https://eriusourcing.com/usa/electronics-from-china/) · [Private label](https://eriusourcing.com/usa/private-label-manufacturing/)
+- [Canada](https://eriusourcing.com/canada/): [Phones & parts](https://eriusourcing.com/canada/wholesale-phones-parts/) · [Electronics from China](https://eriusourcing.com/canada/electronics-from-china/) · [Private label](https://eriusourcing.com/canada/private-label-manufacturing/)
+- [Australia](https://eriusourcing.com/australia/): [Phones & parts](https://eriusourcing.com/australia/wholesale-phones-parts/) · [Electronics from China](https://eriusourcing.com/australia/electronics-from-china/) · [Private label](https://eriusourcing.com/australia/private-label-manufacturing/)
+- [UAE and Gulf](https://eriusourcing.com/uae/): [Phones & parts](https://eriusourcing.com/uae/wholesale-phones-parts/) · [Electronics from China](https://eriusourcing.com/uae/electronics-from-china/) · [Private label](https://eriusourcing.com/uae/private-label-manufacturing/)
+- [South Africa](https://eriusourcing.com/south-africa/): [Phones & parts](https://eriusourcing.com/south-africa/wholesale-phones-parts/) · [Electronics from China](https://eriusourcing.com/south-africa/electronics-from-china/) · [Private label](https://eriusourcing.com/south-africa/private-label-manufacturing/)
+- [China sourcing glossary](https://eriusourcing.com/resources/glossary/): 66 import and sourcing terms defined
 
 ## Sourcing services
 

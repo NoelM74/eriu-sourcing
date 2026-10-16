@@ -27,7 +27,7 @@ const {
   description,
   canonical,
   ogImage = '/images/hero-china-factory-floor.webp',
-  ogImageAlt = 'Ériu Sourcing, Factory-direct from China to Ireland',
+  ogImageAlt = 'Ériu Sourcing, Irish-run, factory-direct from China',
   ogType = 'website',
   robots = 'index, follow',
   jsonLd,
@@ -47,7 +47,18 @@ const canonicalUrl = `${siteUrl}${withTrailingSlash(rawPath)}`;
 const canonicalPath = withTrailingSlash(rawPath);
 const isGerman = canonicalPath.startsWith('/de/');
 // Ériu Phone Parts targets English-speaking buyers worldwide, not just Ireland.
-const isGlobal = canonicalPath.startsWith('/phone-parts/');
+// Country market sections (international expansion, 2026-10-16).
+const marketLocales = {
+  '/uk/': { lang: 'en-GB', og: 'en_GB', region: 'GB' },
+  '/australia/': { lang: 'en-AU', og: 'en_AU', region: 'AU' },
+  '/usa/': { lang: 'en-US', og: 'en_US', region: 'US' },
+  '/canada/': { lang: 'en-CA', og: 'en_CA', region: 'CA' },
+  '/uae/': { lang: 'en-AE', og: 'en_GB', region: 'AE' },
+  '/south-africa/': { lang: 'en-ZA', og: 'en_ZA', region: 'ZA' },
+  '/europe/': { lang: 'en', og: 'en_GB', region: null },
+};
+const market = Object.entries(marketLocales).find(([prefix]) => canonicalPath.startsWith(prefix))?.[1] ?? null;
+const isGlobal = canonicalPath.startsWith('/phone-parts/') || canonicalPath === '/' || canonicalPath.startsWith('/resources/glossary/') || !!market;
 const pair = translations.find((t) => t.en === canonicalPath || t.de === canonicalPath);
 const enAlt = isGerman ? pair?.en : canonicalPath;
 const deAlt = isGerman ? canonicalPath : pair?.de;
@@ -60,7 +71,7 @@ const orgSchema = {
   "legalName": "Springfield Tectop Limited",
   "foundingDate": "2015-11-05",
   "identifier": { "@type": "PropertyValue", "propertyID": "CRO (Ireland) company number", "value": "571256" },
-  "description": "Factory-direct sourcing from China to Ireland. Supplier identification, QC inspection, CE compliance, logistics management. 18 years China experience.",
+  "description": "Irish-run, factory-direct sourcing from China for importers in Ireland, the UK, Europe, North America, Australia, the Gulf and South Africa. Supplier identification, QC inspection, compliance checks, logistics. 18 years China experience.",
   "url": siteUrl,
   "image": `${siteUrl}/images/noel-dongguan-factory-visit.webp`,
   "numberOfEmployees": { "@type": "QuantitativeValue", "value": 53 },
@@ -68,7 +79,13 @@ const orgSchema = {
     { "@type": "Country", "name": "Ireland" },
     { "@type": "Country", "name": "United Kingdom" },
     { "@type": "Country", "name": "Germany" },
-    { "@type": "Country", "name": "Austria" }
+    { "@type": "Country", "name": "Austria" },
+    { "@type": "Place", "name": "European Union" },
+    { "@type": "Country", "name": "United States" },
+    { "@type": "Country", "name": "Canada" },
+    { "@type": "Country", "name": "Australia" },
+    { "@type": "Country", "name": "United Arab Emirates" },
+    { "@type": "Country", "name": "South Africa" }
   ],
   "address": {
     "@type": "PostalAddress",
@@ -146,7 +163,7 @@ const structuredData = {
 ---
 
 <!doctype html>
-<html lang={isGerman ? "de" : isGlobal ? "en" : "en-IE"}>
+<html lang={isGerman ? "de" : market ? market.lang : isGlobal ? "en" : "en-IE"}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -189,10 +206,11 @@ const structuredData = {
     {!isGerman && !isGlobal && <meta name="geo.region" content="IE" />}
     {!isGerman && !isGlobal && <meta name="geo.placename" content="Ireland" />}
     {!isGerman && !isGlobal && <meta name="ICBM" content="53.1424, -7.6921" />}
+    {market?.region && <meta name="geo.region" content={market.region} />}
 
     <!-- hreflang: English pages are en-IE; German pages (/de/) target DE + AT.
          Pairs come from src/data/i18n.js so both versions point at each other. -->
-    {enAlt && <link rel="alternate" hreflang={isGlobal ? 'en' : 'en-ie'} href={`${siteUrl}${enAlt}`} />}
+    {enAlt && <link rel="alternate" hreflang={(enAlt === '/' || enAlt.startsWith('/phone-parts/')) ? 'en' : 'en-ie'} href={`${siteUrl}${enAlt}`} />}
     {deAlt && <link rel="alternate" hreflang="de" href={`${siteUrl}${deAlt}`} />}
     {enAlt && <link rel="alternate" hreflang="x-default" href={`${siteUrl}${enAlt}`} />}
 
@@ -205,7 +223,7 @@ const structuredData = {
     <meta property="og:image:alt" content={ogImageAlt} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:locale" content={isGerman ? "de_DE" : isGlobal ? "en_GB" : "en_IE"} />
+    <meta property="og:locale" content={isGerman ? "de_DE" : market ? market.og : isGlobal ? "en_GB" : "en_IE"} />
     {isGerman && <meta property="og:locale:alternate" content="de_AT" />}
     <meta property="og:site_name" content="Ériu Sourcing" />
 
