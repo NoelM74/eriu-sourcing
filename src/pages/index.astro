@@ -38,7 +38,7 @@ const pageSchemas = [
 ];
 ---
 
-<BaseLayout title={title} description={description} canonical="/" jsonLd={pageSchemas} preloadImage="/images/hero-china-factory-floor.webp">
+<BaseLayout title={title} description={description} canonical="/" jsonLd={pageSchemas} preloadImage="/images/noel-dongguan-factory-visit.webp">
 
   <!-- ================================================
        HERO, full-bleed image, text overlay
@@ -46,16 +46,17 @@ const pageSchemas = [
   <section class="hero">
     <div class="hero-bg">
       <img
-        src="/images/hero-china-factory-floor.webp"
-        alt="Chinese electronics manufacturing factory, Ériu Sourcing sources directly from facilities like this"
-        width="1440"
-        height="810"
+        src="/images/noel-dongguan-factory-visit.webp"
+        alt="Noel Murphy of Ériu Sourcing with the factory owner and our project manager on a production floor in Dongguan, China"
+        width="2048"
+        height="1152"
         loading="eager"
         fetchpriority="high"
       />
       <div class="hero-overlay"></div>
     </div>
-    <div class="hero-content container">
+    <div class="hero-grid container">
+    <div class="hero-content">
       <p class="hero-eyebrow">China Direct Sourcing, Ireland</p>
       <h1>Skip the middlemen.<br />Pay the factory price.</h1>
       <p class="hero-sub">Buy direct from the factory floor in China, and cut 35–60% off Irish wholesale prices. QC before it ships, no Alibaba middlemen, no trading-company markups. An Irish-led team sourcing direct for Irish businesses.</p>
@@ -63,6 +64,11 @@ const pageSchemas = [
         <a href="/contact/" class="btn btn--white">Get Factory Pricing →</a>
         <a href="/how-it-works/" class="btn btn--white-outline">See How It Works</a>
       </div>
+    </div>
+    <figure class="hero-photo">
+      <img src="/images/noel-dongguan-factory-visit.webp" alt="" width="2048" height="1152" loading="eager" />
+      <figcaption><strong>Noel Murphy</strong>, founder, on a factory floor in Dongguan. Real photo, real factory.</figcaption>
+    </figure>
     </div>
   </section>
 
@@ -308,8 +314,41 @@ const pageSchemas = [
           <h2>Two bases.<br />Reach across all of China.</h2>
           <p>Zhengzhou puts our team in the centre of Eastern China's manufacturing heartland. Every major industrial city, Beijing, Shanghai, Xi'an, Wuhan, is within 2–3 hours by high-speed rail.</p>
           <p>Shenzhen gives direct access to Guangdong's consumer goods cluster: electronics in Huaqiangbei, furniture in Foshan, pet accessories in Guangzhou, hardware in Dongguan.</p>
-          <p>No other Ireland-facing sourcing service has this dual-province setup.</p>
+          <p>One team covering both the coastal consumer-goods clusters and the inland heavy-industry belt, so you never have to hand your order to a stranger in another province.</p>
           <a href="/china-network/" class="btn btn--secondary" style="margin-top: 0.5rem;">See the full network →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       PROOF YOU CAN CHECK: real team, timeline, registration
+       ================================================ -->
+  <section class="section section--alt proof-section">
+    <div class="container">
+      <div class="proof-head">
+        <span class="section-eyebrow">Proof you can check</span>
+        <h2>Real people, a real company,<br />a track record you can verify.</h2>
+        <p>Anyone can build a sourcing website in a weekend. Before you send a deposit to anyone, including us, check who is actually behind it. Here is everything you need to check us.</p>
+      </div>
+      <div class="proof-grid">
+        <figure class="proof-photo">
+          <img src="/images/pfc-office-team-china.webp" alt="The 53-person Shenzhen-based team behind Ériu Sourcing, photographed in their office in China" width="2690" height="1793" loading="lazy" />
+          <figcaption>Our team in Shenzhen. Not stock, not a render: these are the people who inspect your goods.</figcaption>
+        </figure>
+        <div class="proof-side">
+          <ol class="timeline">
+            <li><span class="tl-year">2008</span><span class="tl-text">Noel Murphy moves to China and starts working directly with factories in Guangdong, Henan, Zhejiang and Fujian.</span></li>
+            <li><span class="tl-year">2011</span><span class="tl-text">Co-founds PFC Express, a fulfilment and logistics business in Shenzhen that grew to over €30M in annual revenue.</span></li>
+            <li><span class="tl-year">2015</span><span class="tl-text">Springfield Tectop Limited incorporated in Ireland (company no. 571256). Ériu Sourcing is its trading name.</span></li>
+            <li><span class="tl-year">Today</span><span class="tl-text">A 53-person team on the ground, 47 in Shenzhen and 6 in Zhengzhou, with our own warehouse space.</span></li>
+          </ol>
+          <ul class="verify-list">
+            <li><strong>Company register:</strong> search no. 571256 on the <a href="https://core.cro.ie/" rel="noopener" target="_blank">Irish CRO register</a>.</li>
+            <li><strong>Registered office:</strong> Clareview Business Center, Ennis Road, Co. Limerick, V94 EA3A.</li>
+            <li><strong>Talk to the founder:</strong> <a href="https://wa.me/353871187806" rel="noopener" target="_blank">WhatsApp Noel directly</a> on +353 87 118 7806.</li>
+          </ul>
+          <a href="/about/" class="btn btn--secondary">Meet the team →</a>
         </div>
       </div>
     </div>
@@ -394,12 +433,26 @@ const pageSchemas = [
     );
   }
 
-  .hero-content {
+  .hero-grid {
     position: relative;
     z-index: 2;
+    display: grid;
+    grid-template-columns: 1.15fr .85fr;
+    gap: clamp(2rem, 4vw, 4rem);
+    align-items: center;
+    padding-top: 3rem;
     padding-bottom: 5rem;
-    padding-top: 2rem;
-    max-width: 900px;
+  }
+  .hero-content { max-width: 680px; }
+  .hero-content h1 { font-size: clamp(2rem, 4.4vw, 3.75rem) !important; }
+  .hero-bg img { filter: blur(14px) saturate(.9); transform: scale(1.08); }
+  .hero-photo { margin: 0; position: relative; }
+  .hero-photo img { width: 100%; height: auto; display: block; border-radius: 16px; box-shadow: 0 30px 70px rgba(0,0,0,.45); border: 1px solid rgba(255,255,255,.18); }
+  .hero-photo figcaption { position: absolute; left: 1rem; right: 1rem; bottom: -1.25rem; background: #fff; color: #23313d; font-size: .8125rem; line-height: 1.45; padding: .7rem .9rem; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,.25); }
+  .hero-photo figcaption strong { color: var(--color-emerald); }
+  @media (max-width: 1024px) {
+    .hero-grid { grid-template-columns: 1fr; padding-bottom: 4.5rem; }
+    .hero-photo { max-width: 560px; }
   }
 
   .hero-eyebrow {
@@ -706,6 +759,21 @@ const pageSchemas = [
   }
 
   /* ===================== QC SECTION ===================== */
+  .proof-head { max-width: 720px; margin-bottom: 2.5rem; }
+  .proof-head p { color: #4a4a4a; font-size: 1.0625rem; line-height: 1.7; }
+  .proof-grid { display: grid; grid-template-columns: 1.15fr 1fr; gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+  .proof-photo { margin: 0; }
+  .proof-photo img { width: 100%; height: auto; border-radius: 14px; display: block; box-shadow: 0 18px 40px rgba(15, 33, 49, .14); }
+  .proof-photo figcaption { font-size: .8125rem; color: #6b6b6b; margin-top: .75rem; }
+  .timeline { list-style: none; margin: 0 0 1.75rem; padding: 0; border-left: 2px solid rgba(26, 83, 62, .25); }
+  .timeline li { position: relative; padding: 0 0 1.25rem 1.5rem; display: grid; gap: .25rem; }
+  .timeline li::before { content: ''; position: absolute; left: -7px; top: .35rem; width: 12px; height: 12px; border-radius: 50%; background: var(--color-emerald); box-shadow: 0 0 0 4px rgba(26, 83, 62, .12); }
+  .tl-year { font-weight: 800; color: var(--color-emerald); font-size: .9375rem; letter-spacing: .02em; }
+  .tl-text { color: #333; line-height: 1.6; font-size: .9688rem; }
+  .verify-list { list-style: none; padding: 1.25rem 1.375rem; margin: 0 0 1.5rem; background: #fff; border: 1px solid rgba(15, 33, 49, .08); border-radius: 12px; display: grid; gap: .625rem; font-size: .9375rem; line-height: 1.55; }
+  .verify-list a { color: var(--color-emerald); text-decoration: underline; text-underline-offset: 2px; }
+  @media (max-width: 900px) { .proof-grid { grid-template-columns: 1fr; } }
+
   .split-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
