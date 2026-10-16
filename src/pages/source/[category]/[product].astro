@@ -43,17 +43,24 @@ for (let k = 1; k <= 8 && k < categoryProducts.length; k++) {
 }
 
 const lastReviewedIso = new Date().toISOString().split('T')[0];
+// Market-neutral (worldwide) product pages vs Ireland-framed ones.
+const isGlobalProduct = product.global === true;
+const marketLinks = [
+  ['United Kingdom', '/uk/electronics-from-china/'], ['Europe', '/europe/electronics-from-china/'], ['United States', '/usa/electronics-from-china/'],
+  ['Canada', '/canada/electronics-from-china/'], ['Australia', '/australia/electronics-from-china/'], ['UAE & Gulf', '/uae/electronics-from-china/'],
+  ['South Africa', '/south-africa/electronics-from-china/'], ['Ireland', '/source/electronics-from-china-ireland/'],
+];
 
 // BreadcrumbList JSON-LD is emitted by the <Breadcrumbs> component itself.
 const pageSchemas = [
   {
     "@type": "Service",
-    "name": `${product.h1}, China Direct Sourcing for Ireland`,
+    "name": isGlobalProduct ? `${product.h1}, China direct sourcing` : `${product.h1}, China Direct Sourcing for Ireland`,
     "description": product.description,
     "provider": { "@type": "ProfessionalService", "@id": `${siteUrl}/#organization` },
-    "areaServed": [
-      { "@type": "Country", "name": "Ireland" }
-    ],
+    "areaServed": isGlobalProduct
+      ? ["Ireland", "United Kingdom", "European Union", "United States", "Canada", "Australia", "United Arab Emirates", "South Africa"].map((n) => ({ "@type": "Place", "name": n }))
+      : [{ "@type": "Country", "name": "Ireland" }],
     "serviceType": "China Sourcing Agent",
     "category": product.categoryLabel,
     "image": {
@@ -84,6 +91,7 @@ while (!product.regionShort && regionFigure.length > 24 && regionFigure.includes
 ---
 
 <BaseLayout
+  globalPage={isGlobalProduct}
   title={product.title}
   description={product.description}
   canonical={`/source/${product.categorySlug}/${product.slug}/`}
@@ -155,8 +163,8 @@ while (!product.regionShort && regionFigure.length > 24 && regionFigure.includes
     <div class="container">
       <div class="products-layout">
         <div class="products-header">
-          <span class="section-eyebrow">Who buys this in Ireland</span>
-          <h2>Built for Irish trade buyers, not consumers</h2>
+          <span class="section-eyebrow">{isGlobalProduct ? 'Who buys this' : 'Who buys this in Ireland'}</span>
+          <h2>{isGlobalProduct ? 'Built for trade buyers, not consumers' : 'Built for Irish trade buyers, not consumers'}</h2>
         </div>
         <ul class="products-list">
           {product.keyBuyers.map(buyer => (
@@ -191,7 +199,7 @@ while (!product.regionShort && regionFigure.length > 24 && regionFigure.includes
   <!-- COMPLIANCE -->
   <section class="section section--emerald">
     <div class="container--narrow">
-      <span class="section-eyebrow section-eyebrow--light">EU & Irish Compliance</span>
+      <span class="section-eyebrow section-eyebrow--light">{isGlobalProduct ? 'Compliance for your market' : 'EU & Irish Compliance'}</span>
       <h2>What we verify at the factory, before the container is sealed</h2>
       <ul class="compliance-list">
         {product.compliance.map(item => (
@@ -207,7 +215,7 @@ while (!product.regionShort && regionFigure.length > 24 && regionFigure.includes
   <section class="section">
     <div class="container--narrow editorial-body">
       <span class="section-eyebrow">Landed-cost context</span>
-      <h2>What this lands at in Ireland</h2>
+      <h2>{isGlobalProduct ? 'What this lands at, delivered to you' : 'What this lands at in Ireland'}</h2>
       <p>{product.pricingContext}</p>
       <h3>Lead time and logistics</h3>
       <p><strong>Lead time:</strong> {product.leadTime}.</p>
@@ -215,12 +223,25 @@ while (!product.regionShort && regionFigure.length > 24 && regionFigure.includes
     </div>
   </section>
 
+  {isGlobalProduct && (
+    <section class="section section--alt">
+      <div class="container--narrow">
+        <span class="section-eyebrow">Your market</span>
+        <h2>Import rules for where you sell</h2>
+        <p>Tax, duty and certification differ by country. Each market page sets out what applies, with sources, and how we check it before you pay.</p>
+        <ul class="sibling-links">
+          {marketLinks.map(([t, h]) => <li><a href={h}>{t} <span aria-hidden="true">→</span></a></li>)}
+        </ul>
+      </div>
+    </section>
+  )}
+
   <!-- EDITORIAL BODY -->
   {product.contentBody && (
     <section class="section section--alt">
       <div class="container--narrow editorial-body">
         <span class="section-eyebrow">In depth</span>
-        <h2>What Irish buyers need to know</h2>
+        <h2>{isGlobalProduct ? 'What importers need to know' : 'What Irish buyers need to know'}</h2>
         <div class="editorial-prose" set:html={product.contentBody} />
       </div>
     </section>

@@ -1,11 +1,16 @@
 // Country import facts for the market sections. Every fact carries its source.
 // Research checked 16 October 2026 (research agents, official sources where
 // available). Unverified items were left out; see SESSION-HANDOFF for the list.
+// notes: dated updates shown until showUntil (about 3 months after the date),
+// then hidden automatically at the next build (owner, 2026-10-16).
 
 export const marketFacts = {
 
   usa: {
     lastChecked: '2026-10-16',
+    notes: [
+      { date: '10 November 2026', text: '178 Section 301 product exclusions for Chinese-origin goods are due to expire on 10 November 2026. If a product of yours relies on one, its duty may rise. We check this in every US quote.', showUntil: '2027-02-10' },
+    ],
     shortAnswer: {
       phones: 'We buy phones and parts in Shenzhen\'s Huaqiangbei market, test every unit and ship to the US. US duties on Chinese goods changed several times in 2026, so we quote landed cost at the rates in force on the day you order. De minimis no longer applies, so every shipment is entered and pays duty, and radio devices need FCC authorization.',
       electronics: 'We source electronics direct from Shenzhen factories for US importers. Every radio product needs FCC equipment authorization, and products from FCC Covered List companies such as Hikvision and Dahua cannot be authorized, so we do not supply them for the US. Duty is quoted at the rates in force when you order.',
@@ -86,6 +91,9 @@ export const marketFacts = {
 
   uk: {
     lastChecked: '2026-10-16',
+    notes: [
+      { date: '31 December 2026', text: 'The 2% UK duty measure on lithium-ion batteries (commodity 8507 60 00 90) is set to end on 31 December 2026, and the 2027 rate has not been published yet. We confirm the current rate in your quote.', showUntil: '2027-03-31', src: 'https://www.trade-tariff.service.gov.uk/commodities/8507600090' },
+    ],
     shortAnswer: {
       phones: 'We buy phones and parts in Shenzhen\'s Huaqiangbei market, test every unit and ship door to door to the UK. Smartphones and phone parts carry 0% UK import duty, import VAT is 20% and VAT-registered businesses can postpone it to their VAT return. Imported used phones cannot use the VAT margin scheme, so VAT is due on their full value.',
       electronics: 'We source electronics direct from Shenzhen factories for UK importers. CE marking is accepted in Great Britain alongside UKCA, connectable products such as cameras, smart home devices and smartwatches must meet the PSTI security rules, and importers have WEEE and battery producer duties. We check the paperwork before you pay.',
@@ -130,6 +138,9 @@ export const marketFacts = {
 
   europe: {
     lastChecked: '2026-10-16',
+    notes: [
+      { date: '1 November 2026', text: 'The EU is expected to introduce a €2 per-item handling fee on distance-sale (B2C) parcels from 1 November 2026. It was still a draft in October 2026, so check its final status before you price B2C shipments.', showUntil: '2027-02-01', src: 'https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en' },
+    ],
     shortAnswer: {
       phones: 'We buy phones and parts in Shenzhen\'s Huaqiangbei market, test every unit and ship door to door anywhere in the EU. Import VAT is charged at the rate of the country of import, new phones must meet CE, the USB-C rule and the smartphone ecodesign rules, and imported used phones cannot use the VAT margin scheme.',
       electronics: 'We source electronics direct from Shenzhen factories for EU importers. Products need CE marking under the relevant directives, including the Radio Equipment Directive cybersecurity rules since 1 August 2025, an EU-based responsible person under the GPSR, and WEEE and battery compliance. We check the paperwork before you pay.',
@@ -256,6 +267,16 @@ export const marketFacts = {
 
   'south-africa': {
     lastChecked: '2026-10-16',
+    extra: {
+      phones: {
+        h2: 'Used iPhones for South Africa: worth the permit.',
+        paras: [
+          'Graded used iPhones and Samsungs are some of the best-margin stock a South African phone shop can carry, and buying them tested, straight from the Shenzhen trade, cuts out the layers in between. The catch is paperwork: used cellphones are import-controlled, so each commercial import needs an ITAC import permit.',
+          'We plan the order around it. Tell us the models, grades and quantities you want and we price them first, so your permit application carries real quantities and values. We supply the commercial invoice and IMEI list your paperwork needs, re-confirm prices when the permit is issued, then buy, test and ship. ITAC has reported a backlog on used-cellphone applications, so start early.',
+        ],
+        src: 'https://itac.org.za/important-notice-re-import-export-permits-applications/',
+      },
+    },
     shortAnswer: {
       phones: 'We buy phones and parts in Shenzhen\'s Huaqiangbei market, test every unit and ship to South Africa. Import VAT is 15%, radio equipment must be ICASA type-approved, and used phones are import-controlled and need an ITAC permit, which we plan for before we buy.',
       electronics: 'We source electronics direct from Shenzhen factories for South African importers. Import VAT is 15%, radio equipment needs ICASA type approval, and products under compulsory specifications need an NRCS Letter of Authority before import or sale. We check both before you pay.',

@@ -20,6 +20,7 @@ interface Props {
   robots?: string;
   jsonLd?: object | object[];  // page-specific schemas to add to @graph
   preloadImage?: string;       // hero/LCP image to preload in <head> (improves LCP score)
+  globalPage?: boolean;        // worldwide page outside the path-based global sections
 }
 
 const {
@@ -30,6 +31,7 @@ const {
   ogImageAlt = 'Ériu Sourcing, Irish-run, factory-direct from China',
   ogType = 'website',
   robots = 'index, follow',
+  globalPage = false,
   jsonLd,
   preloadImage,
 } = Astro.props;
@@ -58,7 +60,7 @@ const marketLocales = {
   '/europe/': { lang: 'en', og: 'en_GB', region: null },
 };
 const market = Object.entries(marketLocales).find(([prefix]) => canonicalPath.startsWith(prefix))?.[1] ?? null;
-const isGlobal = canonicalPath.startsWith('/phone-parts/') || canonicalPath === '/' || canonicalPath.startsWith('/resources/glossary/') || !!market;
+const isGlobal = canonicalPath.startsWith('/phone-parts/') || canonicalPath === '/' || canonicalPath.startsWith('/resources/glossary/') || !!market || globalPage;
 const pair = translations.find((t) => t.en === canonicalPath || t.de === canonicalPath);
 const enAlt = isGerman ? pair?.en : canonicalPath;
 const deAlt = isGerman ? canonicalPath : pair?.de;
@@ -210,7 +212,7 @@ const structuredData = {
 
     <!-- hreflang: English pages are en-IE; German pages (/de/) target DE + AT.
          Pairs come from src/data/i18n.js so both versions point at each other. -->
-    {enAlt && <link rel="alternate" hreflang={(enAlt === '/' || enAlt.startsWith('/phone-parts/')) ? 'en' : 'en-ie'} href={`${siteUrl}${enAlt}`} />}
+    {enAlt && <link rel="alternate" hreflang={(enAlt === '/' || enAlt.startsWith('/phone-parts/') || /^\/source\/electronics\/[^/]+-from-china\/$/.test(enAlt)) ? 'en' : 'en-ie'} href={`${siteUrl}${enAlt}`} />}
     {deAlt && <link rel="alternate" hreflang="de" href={`${siteUrl}${deAlt}`} />}
     {enAlt && <link rel="alternate" hreflang="x-default" href={`${siteUrl}${enAlt}`} />}
 
