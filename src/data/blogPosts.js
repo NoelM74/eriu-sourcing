@@ -117,7 +117,7 @@ export const blogPosts = [
 <p>Ask your freight forwarder to quote on a DAP (Delivered at Place) basis. DAP means all costs are covered until goods arrive at your premises in Ireland. FOB quotes from Chinese factories exclude all shipping costs, if you receive an FOB quote and a separate freight quote, add them together before comparing to any other basis. Compare always on a total landed cost basis.</p>
 
 <figure class="article-figure">
-  <img src="/images/article-shipping-freight-ireland.webp" alt="Container ship docked at port with stacked intermodal shipping containers, China to Ireland freight" loading="lazy" width="1280" height="720">
+  <img src="/images/container-ship-gantry-cranes.webp" alt="A container ship berthed under gantry cranes at a container port" loading="lazy" width="1280" height="720">
   <figcaption>Sea freight from major Chinese ports to Dublin takes 25 to 40 days in 2026, FCL or LCL depending on order volume</figcaption>
 </figure>
 
@@ -400,7 +400,7 @@ export const blogPosts = [
 <p><strong>When it makes sense:</strong> For the majority of Irish importers buying from China by sea freight. FOB gives you cost transparency, freight control, and a clean risk boundary at a point in the supply chain where you have the infrastructure to manage it.</p>
 
 <figure class="article-figure">
-  <img src="/images/the-fob-handover.webp" alt="Wide shot of a Chinese container port with a gantry crane lifting a shipping container onto a cargo vessel. A dashed white line at the ship's rail reads 'Risk Transfers Here', dividing seller's responsibility on the dock from buyer's responsibility on the vessel." loading="lazy" width="1280" height="720">
+  <img src="/images/container-ship-loading-port.webp" alt="Gantry cranes loading a container ship at a busy container terminal" loading="lazy" width="1280" height="720">
   <figcaption>FOB in one image. Everything below the ship's rail is the supplier's cost and risk. Everything above it is yours. That line is the most important boundary in your China import programme.</figcaption>
 </figure>
 
@@ -507,8 +507,8 @@ export const blogPosts = [
 
 <p>If you want a side-by-side landed-cost comparison for your specific product, volume, and shipping route, <a href="/contact/">send us a brief</a>. We build these calculations for Irish importers every week, and the numbers usually surprise people.</p>`,
     excerpt: 'Every Chinese supplier quote contains a three-letter code, EXW, FOB, CIF, or DAP. That code determines who pays for freight, who carries the risk, and who handles customs. Getting it wrong costs real money. Here is what each term means for Irish importers.',
-    image: '/images/the-fob-handover.webp',
-    imageAlt: 'Chinese container port with gantry crane loading containers onto a cargo vessel, the FOB risk transfer point at the ship\'s rail',
+    image: '/images/container-ship-loading-port.webp',
+    imageAlt: 'Gantry cranes loading a container ship at a busy container terminal',
     faq: [
       { q: 'What is the best Incoterm for importing from China to Ireland?', a: 'For most Irish importers shipping by sea freight, FOB (Free On Board) is the best default. It gives you control over the ocean freight booking, allows you to arrange your own comprehensive insurance, and draws a clean boundary, the supplier handles China-side logistics, you handle everything from the vessel onwards through your Irish freight forwarder.' },
       { q: 'What does CIF mean on a Chinese supplier quote?', a: 'CIF stands for Cost, Insurance, and Freight. The supplier pays for ocean freight and arranges marine insurance to the named destination port. However, risk still transfers to you at the Chinese port, not Dublin, exactly the same as FOB. The insurance provided is also the minimum level (Institute Cargo Clauses C), which does not cover water damage, theft, or breakage.' },
@@ -1140,7 +1140,7 @@ export const blogPosts = [
 <p>Once goods pass inspection, they have to get to Ireland. A sourcing agent coordinates the freight, consolidating shipments, arranging sea or rail, handling export documentation, and lining up the paperwork your customs broker needs at the Irish end. Done well, this removes a whole category of stress and avoids the demurrage and clearance delays that catch first-time importers.</p>
 
 <figure class="article-figure">
-  <img src="/images/the-fob-handover.webp" alt="Goods being handed over at the port for shipping under FOB terms, containers and freight documentation" loading="lazy" width="1280" height="720">
+  <img src="/images/container-ship-loading-port.webp" alt="Gantry cranes loading a container ship at a busy container terminal" loading="lazy" width="1280" height="720">
   <figcaption>After inspection comes logistics, consolidation, the right Incoterms, and the export paperwork your Irish customs broker will need. An agent manages the handover so a clean inspection does not unravel at the port.</figcaption>
 </figure>
 
@@ -1218,7 +1218,7 @@ export const blogPosts = [
 <p>It is genuinely vast: thousands of booths across multiple halls, with manufacturers showing physical product you can pick up, compare and discuss face to face. That tactile, in-person comparison is the entire point, it is the one thing Alibaba cannot give you.</p>
 
 <figure class="article-figure">
-  <img src="/images/shenzhen-electronics-market.webp" alt="Crowded Chinese sourcing hall with rows of supplier displays and buyers inspecting products" loading="lazy" width="1280" height="720">
+  <img src="/images/shenzhen-phone-market-trading-floor.webp" alt="Rows of trading counters on a crowded phone market floor in Shenzhen" loading="lazy" width="1280" height="720">
   <figcaption>The scale is the opportunity and the trap. Thousands of exhibitors, real product in hand, but without a tight brief, a week disappears fast.</figcaption>
 </figure>
 
@@ -2395,7 +2395,7 @@ export const blogPosts = [
 <p>Skipping the validation and inspection steps is where most horror stories originate.</p>
 
 <figure class="article-figure">
-  <img src="/images/ev-charger-pre-shipment-qc-inspection-china.webp" alt="Inspector running a pre-shipment inspection on an AC wallbox EV charger at a Chinese factory, with a QC checklist and packing list" loading="lazy" width="1280" height="720">
+  <img src="/images/ev-wallbox-charger-wall.webp" alt="A wall-mounted AC wallbox EV charger with its charging cable" loading="lazy" width="1280" height="720">
   <figcaption>Pre-shipment inspection of an AC wallbox at the factory, visual, function, electrical-safety, and charging tests signed off before the carton is sealed and the order ships.</figcaption>
 </figure>
 
@@ -2426,8 +2426,8 @@ export const blogPosts = [
 
 <p>Share your current charger volumes and hardware mix and we will prepare a short EV Charger Sourcing Options memo tailored to your market and business model. <a href="/source/ev-charger-sourcing-installers-ireland-uk/">See our EV charger sourcing service for installers</a>, browse the <a href="/source/ev-chargers-from-china-ireland/">full EV chargers &amp; components category</a>, or <a href="/contact/">get in touch</a>.</p>`,
     excerpt: 'China makes the majority of the world\'s EV chargers, and direct-from-factory hardware often costs 30–50% less than Western-branded units. Here is how European installers, CPOs, and fleets can source AC and DC chargers from China safely in 2026, types, compliance, supplier selection, and QC.',
-    image: '/images/ev-charger-production-line-china-ac-dc-hardware.webp',
-    imageAlt: 'EV charger assembly line in China producing AC wallboxes and DC fast chargers for European projects',
+    image: '/images/dc-fast-chargers-car-park.webp',
+    imageAlt: 'DC fast chargers for electric vehicles installed at a public charging site',
     sections: [
       'Why look to China for EV chargers',
       'Understanding European EV charging demand',
@@ -2552,8 +2552,8 @@ export const blogPosts = [
 
 <p>Share a few details about your land and target guest profile and we will prepare a no-obligation Glamping Container Blueprint with example layouts and cost ranges. Start with the <a href="/source/3-pod-glamping-cabin-package-ireland-uk/">3-pod glamping cabin package</a>, browse the <a href="/source/glamping-pods-cabins-from-china-ireland/">full glamping pods &amp; cabins category</a>, or <a href="/contact/">get in touch</a>.</p>`,
     excerpt: 'Prefab container homes have gone mainstream for tourism and glamping across Europe. Here is the 2026 picture for campsite and land owners, cost bands, planning permission by country, insulation and energy standards, guest comfort, and how to source cabins safely from China.',
-    image: '/images/glamping-container-pillar-hero.webp',
-    imageAlt: 'Premium glamping pods and container cabins in a European countryside setting',
+    image: '/images/glamping-pods-row.webp',
+    imageAlt: 'A row of timber glamping pods on a campsite',
     sections: [
       'What are prefab container homes',
       'Why they are gaining traction in Europe',
@@ -2617,7 +2617,7 @@ export const blogPosts = [
 <p>Alongside the panels, Henan has produced specialised suppliers of precast wall-panel and floor-slab machinery, Henan Kelai is one example, offering concrete wall-panel extruders for hollow or solid panels, hollow-core slab machines for floors, precast beam/column and fence-wall equipment, and hydraulic installation and handling systems. These machines are built to support full precast lines and can be customised for panel dimensions, reinforcement configurations, and plant layouts, with lifecycle service positioned as part of the export proposition.</p>
 
 <figure class="article-figure">
-  <img src="/images/precast-wall-panel-production-line-china.webp" alt="Precast wall-panel and floor-slab production line in a Zhengzhou factory with casting beds and reinforcement work" loading="lazy" width="1280" height="720">
+  <img src="/images/precast-concrete-slabs-stacked.webp" alt="Stacked precast concrete elements in a yard, ready for dispatch" loading="lazy" width="1280" height="720">
   <figcaption>A precast wall-panel and floor-slab line in Zhengzhou, extruders, casting beds, and reinforcement, customised to the buyer's panel dimensions and codes.</figcaption>
 </figure>
 
@@ -2722,7 +2722,7 @@ export const blogPosts = [
 <p>The two need different vetting. Racking is steel-intensive and structurally focused, the risks are load ratings, steel grade and weld quality. Conveyors are electro-mechanical with more complex controls, the risks are motors, sensors, controls integration and safety. A supplier strong in one is not automatically strong in the other.</p>
 
 <figure class="article-figure">
-  <img src="/images/china-warehouse-racking-factory-export.webp" alt="Chinese warehouse-racking factory with robotic welding and palletised beams, steel-intensive fabrication" loading="lazy" width="1280" height="720">
+  <img src="/images/warehouse-pallet-racking-aisles.webp" alt="Warehouse aisles lined with tall pallet racking stocked with boxed goods" loading="lazy" width="1280" height="720">
   <figcaption>Racking is steel-intensive, load ratings, steel grade and weld quality are what to verify; conveyors are electro-mechanical and need motors, controls and safety vetting. Few factories excel at both.</figcaption>
 </figure>
 
@@ -2764,8 +2764,8 @@ export const blogPosts = [
 
 <p>Send us a brief on your next warehouse project and we will prepare a short sourcing-options memo, potential Chinese suppliers, solution concepts, and indicative cost ranges against your layout. Browse the <a href="/source/logistics-warehouse-equipment-from-china-ireland/">full logistics &amp; warehouse equipment category</a>, see our <a href="/source/warehouse-racking-conveyor-systems-from-china/">racking &amp; conveyor sourcing offer</a>, or <a href="/contact/">get in touch</a>.</p>`,
     excerpt: 'China is a major manufacturer of warehouse racking and conveyor/sortation systems, and going direct can improve hardware economics for European 3PLs and e-commerce operations. Here is how to do it safely, categories, supplier vetting, honest pricing, compliance, and multimodal logistics via Zhengzhou.',
-    image: '/images/china-warehouse-racking-conveyors-hero.webp',
-    imageAlt: 'Modern e-commerce warehouse with tall pallet racking and powered roller conveyors, hi-vis workers at packing stations',
+    image: '/images/warehouse-racking-aisle.webp',
+    imageAlt: 'A long warehouse aisle between rows of steel pallet racking',
     sections: [
       'Why look to China for warehouse equipment',
       'Key categories: racking versus conveyors',
@@ -2810,7 +2810,7 @@ export const blogPosts = [
 <p>This guide explains how to source construction machinery from China safely, rooted in current EU regulation and real market data rather than shortcuts. The scale is genuine: Chinese OEMs sold roughly 131,550 excavators between January and August 2024, with around half exported. The discipline below is what turns that supply into machines you can actually run in Europe.</p>
 
 <figure class="article-figure">
-  <img src="/images/mini-excavators-compact-machinery-europe-jobsite.webp" alt="Mini excavators and a compact wheel loader working on a European civil project in a town street, with hi-vis workers" loading="lazy" width="1280" height="720">
+  <img src="/images/mini-excavator-jobsite.webp" alt="A compact mini excavator working on a residential jobsite" loading="lazy" width="1280" height="720">
   <figcaption>Compact and mini excavators are the fastest-growing excavator segment globally, and the category where Chinese export volume and European demand overlap most clearly.</figcaption>
 </figure>
 
@@ -2858,8 +2858,8 @@ export const blogPosts = [
 
 <p>If you are considering trialling Chinese machinery, send us one specific machine type and we will outline a safe pilot sourcing plan, the regulatory steps, the technical checks, and a realistic cost/benefit read. Browse the <a href="/source/construction-machinery-from-china-ireland/">full construction machinery category</a>, see our <a href="/source/mini-excavators-compact-machinery-from-china/">mini excavator &amp; compact machinery offer</a>, or <a href="/contact/">get in touch</a>.</p>`,
     excerpt: 'Chinese excavators, loaders and concrete equipment offer European contractors a better capex profile, but importing them safely means mastering the Machinery Directive, Stage V emissions and hydraulic quality. Here is a step-by-step process, with honest economics and a safe pilot plan.',
-    image: '/images/china-construction-machinery-fleet-hero.webp',
-    imageAlt: 'Mixed fleet of Chinese construction machinery on a European jobsite, mini and mid excavators, a compact wheel loader and a concrete mixer truck lined up on muddy ground',
+    image: '/images/excavator-construction-site.webp',
+    imageAlt: 'An excavator working on a construction site',
     sections: [
       'Understand the EU Machinery Directive and CE marking',
       'Stage V emissions for non-road mobile machinery',
@@ -3131,7 +3131,7 @@ export const blogPosts = [
 <p>Plenty of steel-containing goods are outside the list: machinery, vehicles, most finished consumer products, and prefabricated buildings classified as complete buildings. Classification is everything. The same steel frame can fall inside or outside CBAM depending on whether it's declared as a prefabricated building or as steel structures shipped in parts. Get your commodity codes confirmed by a customs broker before you order. The Commission has also proposed extending CBAM to more downstream products from 2028, so the list may grow.</p>
 
 <figure class="article-figure">
-  <img src="/images/china-warehouse-racking-factory-export.webp" alt="Steel warehouse racking being prepared for export at a Chinese factory, a product group covered by the EU CBAM" loading="lazy" width="1280" height="720">
+  <img src="/images/warehouse-pallet-racking-aisles.webp" alt="Warehouse aisles lined with tall pallet racking stocked with boxed goods" loading="lazy" width="1280" height="720">
   <figcaption>Steel structures such as warehouse racking fall inside CBAM, so importers over 50 tonnes a year need authorised declarant status</figcaption>
 </figure>
 

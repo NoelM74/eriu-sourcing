@@ -49,6 +49,12 @@ const pillarGuides = [
     href: '/china-network/',
     label: 'Network',
   },
+  {
+    title: 'The China sourcing glossary',
+    summary: 'FOB, AQL, MOQ, OEM vs ODM, telex release, HS codes, IMEI and more: every term importers meet, in plain English.',
+    href: '/resources/glossary/',
+    label: 'Glossary',
+  },
 ];
 
 // Process & cost guides
@@ -99,8 +105,8 @@ const categoryLinks = sourcingPages.map(p => ({
   <section class="section">
     <div class="container">
       <span class="section-eyebrow">Start here</span>
-      <h2>The three pillar guides</h2>
-      <div class="resource-grid resource-grid--three">
+      <h2>Start with these four</h2>
+      <div class="resource-grid resource-grid--two">
         {pillarGuides.map(item => (
           <a href={item.href} class="resource-card lift">
             <span class="resource-card-label">{item.label}</span>

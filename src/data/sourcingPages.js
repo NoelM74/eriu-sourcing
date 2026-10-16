@@ -414,8 +414,8 @@ export const sourcingPages = [
     minOrder: '€20,000 single unit to €200,000+ fleet orders',
     minOrderShort: '€20k+',
     leadTime: '8–14 wks',
-    image: '/images/changsha-concrete-pump-truck-assembly-line.webp',
-    imageAlt: 'Heavy machinery assembly hall in inland China, Sany concrete pump trucks on the production line in Changsha, Hunan',
+    image: '/images/concrete-pump-truck.webp',
+    imageAlt: 'Concrete pump trucks with folded booms parked at a depot',
     contentBody: `
       <p>UK and Irish heavy-machinery buyers have historically been served by the established Japanese and European brands (CAT, JCB, Komatsu, Hitachi, Volvo) at premium dealer pricing. Over the past decade the Chinese inland-China machinery clusters have matured into world-export scale, Hunan\'s construction-machinery export value grew 43.7% in 2023, with multiple firms in the global top 50 by revenue. The opportunity for Irish and UK buyers is buying direct from a vetted factory in the right cluster, at the same factory-gate price the established dealers themselves negotiate.</p>
       <p>Ériu Sourcing\'s role is independent: we are not tied to any single brand or factory. Every brief gets evaluated against the relevant cluster, typically two to four candidate factories per category, on capability, lead time, MOQ, compliance documentation, after-sales spare-parts access, and price. The buyer gets a shortlist with FOB pricing and inspection data; the buyer chooses; we manage from order to landed.</p>
@@ -593,8 +593,8 @@ export const sourcingPages = [
     minOrder: '€5,000 pilot batch to €250,000+ network rollout orders',
     minOrderShort: '€5k+',
     leadTime: '8–14 wks',
-    image: '/images/ev-charger-production-line-china-ac-dc-hardware.webp',
-    imageAlt: 'EV charger assembly line at a Chinese factory, rows of DC fast chargers and AC wallboxes built for export to Europe',
+    image: '/images/dc-fast-chargers-car-park.webp',
+    imageAlt: 'DC fast chargers for electric vehicles installed at a public charging site',
     contentBody: `
       <p>Europe has passed the one-million public charge-point milestone and still needs roughly 8.8 million chargers installed by 2030, over 23,000 new units every week, well above the current rollout rate. The European EV charging station market was valued at around USD 10.8 billion in 2024 and is projected to grow at roughly 29% CAGR into the 2030s, with both AC and DC segments expanding rapidly. The hardware demand curve is sustained, and the bulk of it is met by Chinese manufacturing.</p>
       <h3>Why EV charging hardware is a high-value sourcing category</h3>
@@ -778,8 +778,8 @@ export const sourcingPages = [
     minOrder: 'Per project, from a single racking + conveyor kit to multi-site frameworks',
     minOrderShort: 'Per project',
     leadTime: '6–14 wks',
-    image: '/images/china-warehouse-racking-factory-export.webp',
-    imageAlt: 'Chinese factory manufacturing export-grade warehouse racking, robotic welding, powder-coating and palletised racking components under ISO quality control',
+    image: '/images/warehouse-pallet-racking-aisles.webp',
+    imageAlt: 'Warehouse aisles lined with tall pallet racking stocked with boxed goods',
     contentBody: `
       <p>These are categories where Chinese manufacturers already build export-grade products and, increasingly, turnkey systems for logistics and e-commerce. The opportunity for European operators is to buy the racking, the conveyor line, or the sorter at the factory gate, with someone on the ground verifying fabrication, controls and documentation before it ships, and routing it efficiently to your site.</p>
       <h3>Why source warehouse equipment from China</h3>
@@ -836,8 +836,8 @@ export const sourcingPages = [
     minOrder: 'Per project, from a single pilot machine to fleet frameworks',
     minOrderShort: 'Per project / pilot',
     leadTime: '8–16 wks',
-    image: '/images/china-construction-machinery-fleet-hero.webp',
-    imageAlt: 'Mixed fleet of Chinese construction machinery on a European jobsite, mini and mid excavators, a compact wheel loader and a concrete mixer truck lined up on muddy ground beside a tower crane',
+    image: '/images/excavator-construction-site.webp',
+    imageAlt: 'An excavator working on a construction site',
     contentBody: `
       <p>We deliberately focus on compact and mid-range equipment that travels well and has clear European use cases, the machines Chinese OEMs already export in volume, increasingly with cleaner engines and proper documentation. The opportunity for European buyers is a better capex profile on these categories, provided compliance, reliability and support are handled properly rather than assumed.</p>
       <h3>Why Chinese machinery is on European radars</h3>
@@ -849,7 +849,7 @@ export const sourcingPages = [
       <h3>Why Henan and Zhengzhou matter</h3>
       <p>Henan, and the Xingyang cluster near Zhengzhou in particular, is a long-standing home for concrete machinery, batching plants and aggregate equipment, with makers such as Camelway operating there since 1983. The excavators and loaders are built elsewhere, but our Zhengzhou base lets us visit the concrete-equipment factories directly, reach the machine OEMs efficiently, and route finished machines through a genuine rail-air logistics hub, faster than ocean freight when a project timeline is tight, far cheaper than air. <a href="/zhengzhou/">Why Zhengzhou works as our base →</a></p>
       <figure style="margin:1.75rem 0">
-        <img src="/images/henan-concrete-machinery-factory-batching-plants.webp" alt="Henan concrete-machinery factory near Zhengzhou assembling batching plants and mixer trucks for export, with aggregate bins, conveyors and palletised goods on the floor" width="1280" height="720" loading="lazy" style="width:100%;height:auto;display:block;border-radius:8px" />
+        <img src="/images/concrete-batching-plant.webp" alt="A concrete batching plant with aggregate bins, conveyor and cement silos" width="1280" height="720" loading="lazy" style="width:100%;height:auto;display:block;border-radius:8px" />
         <figcaption style="font-size:0.8125rem;color:#9ca3af;font-style:italic;padding-top:0.5rem;line-height:1.5">A Henan concrete-machinery base near Zhengzhou, batching plants and mixer trucks built for export. Our Zhengzhou presence puts this cluster on our doorstep and the machine OEMs within easy reach.</figcaption>
       </figure>
       <h3>The risk that catches importers out: hydraulics and structure</h3>
