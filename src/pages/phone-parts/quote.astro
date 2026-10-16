@@ -1,11 +1,11 @@
 ---
-// Ériu Phone Parts quote form. Same Formspree form as /contact/, tagged
+// Ériu Phones & Parts quote form. Same Formspree form as /contact/, tagged
 // section=phone-parts so these leads are easy to filter.
 import PartsLayout from '../../layouts/PartsLayout.astro';
 import WaButton from '../../components/parts/WaButton.astro';
 
-const title = "Get Wholesale Phone Parts Prices | Ériu Phone Parts";
-const description = "Send your parts list for wholesale prices on screens, batteries, small parts, refurbished phones and accessories. No minimum on your first order.";
+const title = "Get Wholesale Phone & Parts Prices | Ériu";
+const description = "Send your list for wholesale prices on used iPhones, Android phones, tablets, screens, batteries and accessories. No minimum on your first order.";
 const canonical = "/phone-parts/quote/";
 ---
 
@@ -24,7 +24,7 @@ const canonical = "/phone-parts/quote/";
       <div data-fs-success class="form-msg form-msg--success" role="alert"><strong>List received.</strong> We'll come back within 24 hours with prices per model and grade, and shipping to your door.</div>
       <div data-fs-error class="form-msg form-msg--error" role="alert"><strong>Something went wrong.</strong> Please try again, or WhatsApp us on +353 87 118 7806.</div>
 
-      <h2 class="form-heading">Your parts list</h2>
+      <h2 class="form-heading">Your list</h2>
       <form id="quote-form" novalidate>
         <div class="form-grid">
           <div class="field"><label for="name">Your name <span class="req">*</span></label><input type="text" id="name" name="name" autocomplete="name" required minlength="2" data-fs-field /><span class="field-error" data-fs-error="name"></span></div>
@@ -45,14 +45,19 @@ const canonical = "/phone-parts/quote/";
             <label><input type="checkbox" name="needs[]" value="samsung-screens" data-fs-field /> Samsung screens</label>
             <label><input type="checkbox" name="needs[]" value="batteries" data-fs-field /> Batteries</label>
             <label><input type="checkbox" name="needs[]" value="small-parts" data-fs-field /> Ports, glass, cameras</label>
+            <label><input type="checkbox" name="needs[]" value="used-iphones" data-fs-field /> Used iPhones</label>
+            <label><input type="checkbox" name="needs[]" value="used-samsung" data-fs-field /> Used Samsung</label>
             <label><input type="checkbox" name="needs[]" value="refurbished" data-fs-field /> Refurbished phones</label>
+            <label><input type="checkbox" name="needs[]" value="new-android" data-fs-field /> New Android phones</label>
+            <label><input type="checkbox" name="needs[]" value="tablets" data-fs-field /> Tablets &amp; iPads</label>
+            <label><input type="checkbox" name="needs[]" value="watches-earbuds" data-fs-field /> Watches &amp; earbuds</label>
             <label><input type="checkbox" name="needs[]" value="accessories" data-fs-field /> Accessories</label>
           </fieldset>
-          <div class="field field--full"><label for="description">Models, grades and rough quantities <span class="req">*</span></label><textarea id="description" name="description" rows="6" placeholder="e.g. iPhone 13 soft OLED x 20, iPhone 12 in-cell x 30, Galaxy A54 OLED with frame x 10, iPhone 11 batteries x 40" required minlength="10" data-fs-field></textarea><span class="field-error" data-fs-error="description"></span></div>
+          <div class="field field--full"><label for="description">Models, grades and rough quantities <span class="req">*</span></label><textarea id="description" name="description" rows="6" placeholder="e.g. Used iPhone 13 128GB Grade A x 10 (battery 85%+), Redmi Note 14 global x 20, iPhone 12 soft OLED x 30, iPhone 11 batteries x 40" required minlength="10" data-fs-field></textarea><span class="field-error" data-fs-error="description"></span></div>
         </div>
         <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
         <input type="hidden" name="section" value="phone-parts" />
-        <input type="hidden" name="_subject" value="Phone parts price request (worldwide)" />
+        <input type="hidden" name="_subject" value="Phones &amp; parts price request (worldwide)" />
         <div class="form-footer">
           <button type="submit" class="btn btn--primary" data-fs-submit-btn>Send my list</button>
           <p class="form-note">No minimum on your first order. You see your batch tested on video before you pay the balance.</p>

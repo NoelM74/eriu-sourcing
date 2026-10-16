@@ -3228,8 +3228,8 @@ export const blogPosts = [
 <p>The catch is that grade names are a market convention, not a standard. The same label can mean different things from different suppliers in Shenzhen's Huaqiangbei market, where most of these screens are sold. That is why testing matters more than the label.</p>
 
 <figure class="article-figure">
-  <img src="/images/huaqiangbei-phone-parts-market-stalls.webp" alt="Phone parts stalls in Shenzhen's Huaqiangbei electronics market, with traders testing replacement screens at the counter" loading="lazy" width="1216" height="832">
-  <figcaption>Most replacement screens sold in Europe start in Shenzhen's Huaqiangbei market, where the same grade name can cover very different quality</figcaption>
+  <img src="/images/huaqiangbei-electronics-market-floor.webp" alt="Rows of electronics counters on a crowded trading floor in Shenzhen's Huaqiangbei market" loading="lazy" width="1024" height="768">
+  <figcaption>Many of the replacement screens sold in Europe start in Shenzhen's Huaqiangbei market, where the same grade name can cover very different quality. Photo: <a href="https://www.flickr.com/photos/71172892@N00/14309542576" rel="noopener nofollow">Tom Whitwell</a>, <a href="https://creativecommons.org/licenses/by-sa/2.0/" rel="noopener nofollow license">CC BY-SA 2.0</a></figcaption>
 </figure>
 
 <h2>In-cell LCD: the budget grade</h2>

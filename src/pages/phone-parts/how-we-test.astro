@@ -1,12 +1,12 @@
 ---
-// Proof page: the testing protocol behind Ériu Phone Parts.
+// Proof page: the testing protocol behind Ériu Phones & Parts.
 import PartsLayout from '../../layouts/PartsLayout.astro';
 import ScreenTest from '../../components/parts/ScreenTest.astro';
 import BatchBoard from '../../components/parts/BatchBoard.astro';
 import WaButton from '../../components/parts/WaButton.astro';
 
-const title = "How We Test Phone Parts Before They Ship | Ériu";
-const description = "The testing protocol behind every Ériu phone part: screens and batteries tested one by one in Shenzhen, small parts by batch, with a video of your batch.";
+const title = "How We Test Phones and Parts Before They Ship | Ériu";
+const description = "How we test in Shenzhen: every used phone IMEI- and lock-checked, every screen and battery tested one by one, small parts by batch. Then a video of your batch.";
 const canonical = "/phone-parts/how-we-test/";
 const siteUrl = 'https://eriusourcing.com';
 
@@ -14,13 +14,14 @@ const protocols = [
   { h: 'Screens: every unit', items: ['Powered up on a test board for the exact model', 'Dead and stuck pixels on white, black and colour fields', 'Brightness and colour uniformity, tint and burn-in', 'Full touch grid edge to edge, plus multi-touch', 'Frame, flex and connector fit', 'Graded, labelled by model and grade, recorded'] },
   { h: 'Batteries: every unit', items: ['Capacity tested against the rated mAh', 'Cycle count read: new cells only', 'Cell date code checked: no old stock', 'Swelling, connector and flex inspected', 'UN38.3 report for the model on file', 'Transport state of charge set, terminals protected'] },
   { h: 'Small parts: every batch', items: ['Charging ports function-tested from every batch', 'Cameras tested for focus and image', 'Speakers and earpieces sound-tested', 'Glass and housings checked for fit and finish', 'Bagged and labelled by model and part', 'Batch records kept for traceability'] },
-  { h: 'Refurbished phones: every phone', items: ['IMEI checked against blacklist databases', 'Activation and account lock checked', 'Network lock checked', 'Battery health read and recorded', 'Full function test, all hardware', 'Parts and service history recorded'] },
+  { h: 'Used and refurbished phones and tablets: every unit', items: ['IMEI checked against blacklist databases', 'Activation Lock, Google account lock and company management (MDM) checked', 'Network lock checked', 'Battery health read and recorded', 'Screen checked on grey and white for burn-in; full function test, all hardware', 'Parts and service history recorded'] },
+  { h: 'New phones: every batch', items: ['Version and firmware region confirmed before purchase', 'Network bands checked against your country', 'Box seals, IMEIs and serials matched to your order', 'IMEIs checked against blacklist databases', 'Plug type and box contents checked', 'One unit opened on request to show firmware on video'] },
 ];
 
 const pageSchemas = [
   { "@type": "BreadcrumbList", "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Ériu Sourcing", "item": siteUrl },
-    { "@type": "ListItem", "position": 2, "name": "Phone Parts", "item": `${siteUrl}/phone-parts/` },
+    { "@type": "ListItem", "position": 2, "name": "Phones & Parts", "item": `${siteUrl}/phone-parts/` },
     { "@type": "ListItem", "position": 3, "name": "How We Test", "item": `${siteUrl}${canonical}` } ] },
   { "@type": "HowTo", "name": "How Ériu tests replacement phone screens before shipping", "step": protocols[0].items.map((t, i) => ({ "@type": "HowToStep", "position": i + 1, "text": t })) }
 ];
@@ -50,7 +51,7 @@ const pageSchemas = [
     <div class="container">
       <span class="pp-eyebrow">The protocol</span>
       <h2 class="pp-h2">What happens to your parts before they're packed.</h2>
-      <div class="pp-cards" style="grid-template-columns:repeat(2,1fr)">
+      <div class="pp-cards pp-cards--2">
         {protocols.map((g) => (
           <div class="pp-card" style="padding:1.5rem 1.6rem">
             <h3>{g.h}</h3>

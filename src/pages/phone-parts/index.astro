@@ -1,14 +1,15 @@
 ---
-// Ériu Phone Parts hub: worldwide wholesale phone parts, long-form DR page.
+// Ériu Phones & Parts hub: worldwide wholesale phone parts, long-form DR page.
 import PartsLayout from '../../layouts/PartsLayout.astro';
 import ScreenTest from '../../components/parts/ScreenTest.astro';
 import BatchBoard from '../../components/parts/BatchBoard.astro';
 import GuaranteeSeal from '../../components/parts/GuaranteeSeal.astro';
 import WaButton from '../../components/parts/WaButton.astro';
+import PhotoCredit from '../../components/parts/PhotoCredit.astro';
 import { partsProducts, guarantee } from '../../data/parts.js';
 
-const title = "Wholesale Phone Parts Supplier, Tested in Shenzhen | Ériu";
-const description = "Wholesale iPhone and Samsung screens, batteries and repair parts, each tested in Shenzhen and shipped worldwide. See your batch on video before you pay.";
+const title = "Wholesale Phones & Phone Parts from Shenzhen, Tested | Ériu";
+const description = "Wholesale used iPhones, Android phones, tablets, screens and batteries, bought in Huaqiangbei and tested in Shenzhen. See your batch on video before you pay.";
 const canonical = "/phone-parts/";
 const siteUrl = 'https://eriusourcing.com';
 
@@ -16,12 +17,23 @@ const cardImg = {
   'iphone-screens-wholesale': '/images/phone-parts-oled-screen-test-macro.webp',
   'samsung-screens-wholesale': '/images/shenzhen-phone-screen-qc-testing-replacement-oled.webp',
   'phone-batteries-wholesale': '/images/phone-replacement-battery-capacity-testing-shenzhen.webp',
-  'phone-repair-parts-wholesale': '/images/phone-repair-spare-parts-charging-ports-cameras-trays.webp',
+  'phone-repair-parts-wholesale': '/images/phone-flex-cables-parts-bags.webp',
   'refurbished-iphones-wholesale': '/images/shenzhen-refurbished-phone-grading-testing-centre.webp',
+  'used-iphones-wholesale': '/images/used-iphones-pile.webp',
+  'used-samsung-phones-wholesale': '/images/stack-of-used-smartphones.webp',
+  'new-android-phones-wholesale': '/images/shenzhen-phone-mall-trading-counters.webp',
+  'tablets-wholesale': '/images/ipad-tablet-in-hands.webp',
+  'smartwatches-earbuds-wholesale': '/images/apple-watch-airpods-flatlay.webp',
+  'low-moq-phone-wholesale': '/images/shenzhen-phone-mall-buyers-counters.webp',
   'phone-accessories-wholesale': '/images/phone-shop-accessories-wall-display.webp',
 };
 
+const devices = partsProducts.filter((p) => p.group === 'devices');
+const parts = partsProducts.filter((p) => p.group === 'parts');
+
 const faqs = [
+  { q: 'Do you sell phones as well as parts?', a: 'Yes. Used and refurbished iPhones, used Samsung Galaxy phones, new Android phones in global versions, tablets and iPads, smartwatches and earbuds, alongside screens, batteries, small parts and accessories. Mix them in one tested shipment.' },
+  { q: 'Where do you buy?', a: 'In Shenzhen. Our own full-time buyer works the Huaqiangbei market floors, the heart of China\'s phone trade, and everything is tested on our bench in Shenzhen before it ships.' },
   { q: 'Is there a minimum order?', a: 'No minimum on your first order. Order enough to judge the quality for yourself on your own bench. That is the point.' },
   { q: 'Which countries do you ship to?', a: 'Worldwide, wherever express carriers and the law allow. Most orders ship door to door by DHL, FedEx or UPS express; larger orders can go FOB China to your own forwarder. In many countries we can quote duties paid, so there is nothing to pay on arrival. We confirm the route and cost for your country in your quote.' },
   { q: 'How does payment work?', a: 'You pay a deposit, we buy and test your batch in Shenzhen, and we send you the test video and the test record for your parts. You pay the balance only when you are happy with what you have seen. Then we ship.' },
@@ -37,13 +49,18 @@ const pageSchemas = [
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Ériu Sourcing", "item": siteUrl },
-      { "@type": "ListItem", "position": 2, "name": "Phone Parts", "item": `${siteUrl}${canonical}` }
+      { "@type": "ListItem", "position": 2, "name": "Phones & Parts", "item": `${siteUrl}${canonical}` }
     ]
   },
   {
+    "@type": "ItemList",
+    "name": "Wholesale phones and phone parts from Shenzhen",
+    "itemListElement": partsProducts.map((p, i) => ({ "@type": "ListItem", "position": i + 1, "name": p.nav, "url": `${siteUrl}/phone-parts/${p.slug}/` }))
+  },
+  {
     "@type": "Service",
-    "name": "Wholesale phone parts, tested in Shenzhen, shipped worldwide",
-    "serviceType": "Wholesale phone repair parts supplier",
+    "name": "Wholesale phones and phone parts, tested in Shenzhen, shipped worldwide",
+    "serviceType": "Wholesale used iPhones, Android phones and phone repair parts supplier",
     "description": description,
     "provider": { "@type": "ProfessionalService", "@id": `${siteUrl}/#organization` },
     "areaServed": "Worldwide",
@@ -66,9 +83,9 @@ const pageSchemas = [
     <div class="pp-hero-bg"><img src="/images/phone-parts-oled-screen-test-macro.webp" alt="" width="1344" height="768" loading="eager" fetchpriority="high" /></div>
     <div class="container pp-hero-grid">
       <div>
-        <span class="pp-eyebrow">Wholesale phone parts · Shipped worldwide from Shenzhen</span>
-        <h1>Every screen is switched on and tested before it leaves Shenzhen. <span class="pp-accent">If one still arrives dead, it's on us.</span></h1>
-        <p class="pp-lead">iPhone and Samsung screens, batteries and repair parts for repair shops anywhere in the world. You watch your own batch being tested on video before you pay the balance. No minimum on your first order.</p>
+        <span class="pp-eyebrow">Wholesale phones and parts · Shipped worldwide from Shenzhen</span>
+        <h1>Every phone and every screen is switched on and tested before it leaves Shenzhen. <span class="pp-accent">If one still arrives dead, it's on us.</span></h1>
+        <p class="pp-lead">Used iPhones, new Android phones, tablets, screens, batteries and repair parts for phone shops anywhere in the world, bought on the Huaqiangbei floor by our own full-time buyer. You watch your batch being tested on video before you pay the balance. No minimum on your first order.</p>
         <div class="pp-actions">
           <WaButton />
           <a href="/phone-parts/quote/" class="pp-btn pp-btn--line">Get prices →</a>
@@ -82,7 +99,8 @@ const pageSchemas = [
   <!-- PROOF STRIP -->
   <section class="pp-proof">
     <div class="container pp-proof-grid">
-      <div class="pp-proof-item"><strong>Every screen</strong><span>powered on and tested, not sampled</span></div>
+      <div class="pp-proof-item"><strong>Our own buyer</strong><span>on the Huaqiangbei floor, full time</span></div>
+      <div class="pp-proof-item"><strong>Every unit</strong><span>powered on and tested, not sampled</span></div>
       <div class="pp-proof-item"><strong>Your batch on video</strong><span>before you pay the balance</span></div>
       <div class="pp-proof-item"><strong>Dead on arrival?</strong><span>replaced or credited, 14 days</span></div>
       <div class="pp-proof-item"><strong>No minimum</strong><span>on your first order</span></div>
@@ -101,7 +119,7 @@ const pageSchemas = [
         <p><strong>Here's what makes it worse: that screen was faulty before it ever reached you.</strong> Nobody switched it on at the stall in Shenzhen. Nobody switched it on at the wholesaler. Nobody switched it on at the courier depot. You were the first person to test it, and you tested it inside your customer's phone.</p>
       </div>
       <div class="fade-up">
-        <img src="/images/phone-repair-shop-owner-customer-handover.webp" alt="A phone repair shop owner handing a repaired phone back to a happy customer" width="1344" height="768" loading="lazy" class="pp-img" />
+        <figure style="margin:0"><img src="/images/phone-repair-workshop-technicians.webp" alt="Technicians working at repair benches in a phone repair shop" width="1024" height="768" loading="lazy" class="pp-img" /><PhotoCredit id="bagnaramatt" /></figure>
       </div>
     </div>
   </section>
@@ -112,11 +130,27 @@ const pageSchemas = [
       <div class="pp-prose fade-up">
         <span class="pp-eyebrow">Why it keeps happening</span>
         <h2 class="pp-h2">The phone parts trade has no test bench in it. So we built one.</h2>
-        <p>Most replacement screens sold anywhere in the world start in one place: Shenzhen's Huaqiangbei electronics market. From there they pass through traders and wholesalers, each adding a margin and none adding a test. Grade names aren't standardised, so one stall's "soft OLED" is another's hard OLED. Batches get mixed. Batteries sit on shelves for months.</p>
-        <p>Ériu Phone Parts puts a test bench between the market and your bench. We buy in Shenzhen, and every screen is powered up and checked <strong>before we pay for it and before it's packed</strong>. The ones that fail stay in China. You only ever pay to ship parts that passed.</p>
+        <p>A huge share of the replacement screens sold around the world start in one place: Shenzhen's Huaqiangbei electronics market. From there they pass through traders and wholesalers, each adding a margin and none adding a test. Grade names aren't standardised, so one stall's "soft OLED" is another's hard OLED. Batches get mixed. Batteries sit on shelves for months.</p>
+        <p>Ériu Phones & Parts puts a test bench between the market and your bench. We buy in Shenzhen, and every screen is powered up and checked <strong>before we pay for it and before it's packed</strong>. The ones that fail stay in China. You only ever pay to ship parts that passed.</p>
         <a href="/phone-parts/how-we-test/" class="pp-card-cta">See exactly how we test →</a>
       </div>
       <div class="fade-up"><BatchBoard /></div>
+    </div>
+  </section>
+
+  <!-- OUR BUYER IN HUAQIANGBEI -->
+  <section class="pp-section">
+    <div class="container pp-split">
+      <div class="pp-prose fade-up">
+        <span class="pp-eyebrow">Our edge</span>
+        <h2 class="pp-h2">We don't buy from a price list. We buy from the floor.</h2>
+        <p>Huaqiangbei, in the middle of Shenzhen, is where China's phone trade happens: floor after floor of counters selling used iPhones, new Android phones, screens, batteries and every small part a repair shop needs. Prices move by the day. Quality moves by the counter.</p>
+        <p>Plenty of suppliers sell phones from an office somewhere else and buy from whoever answers their messages. <strong>Our buyer works those floors full time.</strong> He picks up the phones, compares counters, knows which traders grade honestly and which don't, and walks away from batches that won't pass our bench. That is how a small shop in Manchester, Lagos or Dubai gets the same buying power as the big distributors.</p>
+        <a href="/phone-parts/huaqiangbei/" class="pp-card-cta">How we buy in Huaqiangbei →</a>
+      </div>
+      <div class="fade-up">
+        <figure style="margin:0"><img src="/images/huaqiangbei-electronics-market-floor.webp" alt="Rows of electronics counters on a crowded trading floor in Huaqiangbei, Shenzhen" width="1024" height="768" loading="lazy" class="pp-img" /><PhotoCredit id="whitwell" /></figure>
+      </div>
     </div>
   </section>
 
@@ -169,10 +203,24 @@ const pageSchemas = [
   <!-- PRODUCTS -->
   <section class="pp-section pp-alt" id="parts">
     <div class="container">
-      <span class="pp-eyebrow">What you can order</span>
-      <h2 class="pp-h2">Everything your bench and your counter need, on one shipment.</h2>
+      <span class="pp-eyebrow">For your shelf</span>
+      <h2 class="pp-h2">Phones and devices your customers come in for.</h2>
       <div class="pp-cards">
-        {partsProducts.map((p) => (
+        {devices.map((p) => (
+          <a href={`/phone-parts/${p.slug}/`} class="pp-card fade-up">
+            <img src={cardImg[p.slug]} alt="" width="1216" height="760" loading="lazy" />
+            <div class="pp-card-body">
+              <h3>{p.nav}</h3>
+              <p>{p.description}</p>
+              <span class="pp-card-cta">See {p.nav.toLowerCase()} →</span>
+            </div>
+          </a>
+        ))}
+      </div>
+      <span class="pp-eyebrow" style="margin-top:3.5rem;display:inline-block">For your bench</span>
+      <h2 class="pp-h2">Parts that work the first time you fit them.</h2>
+      <div class="pp-cards">
+        {parts.map((p) => (
           <a href={`/phone-parts/${p.slug}/`} class="pp-card fade-up">
             <img src={cardImg[p.slug]} alt="" width="1216" height="760" loading="lazy" />
             <div class="pp-card-body">
@@ -210,7 +258,7 @@ const pageSchemas = [
       <div class="pp-prose fade-up">
         <span class="pp-eyebrow">Who's behind it</span>
         <h2 class="pp-h2">A name you can hold to account.</h2>
-        <p>Ériu Phone Parts is run by Noel Murphy, an Irishman who has lived and worked in China for 18 years. The operation behind it has run a logistics and fulfilment business in Shenzhen since 2011, with a 53-person team in China and warehouse space it owns and operates.</p>
+        <p>Ériu Phones & Parts is run by Noel Murphy, an Irishman who has lived and worked in China for 18 years. The operation behind it has run a logistics and fulfilment business in Shenzhen since 2011, with a 53-person team in China and warehouse space it owns and operates.</p>
         <p>So when we say your parts were tested before they shipped, it isn't a subcontracted promise from someone you'll never reach. We're there, and you can message me directly.</p>
         <p class="pp-sign">Noel Murphy, Ériu Sourcing</p>
       </div>
@@ -229,6 +277,7 @@ const pageSchemas = [
           <li>You fix phones every day and you are tired of paying twice for one repair.</li>
           <li>You want to quote a warranty on your repairs and mean it.</li>
           <li>You buy through wholesalers and want to be one step closer to the source.</li>
+          <li>You sell phones and want stock you can put your shop's name behind.</li>
         </ul>
         <ul class="pp-checks pp-x">
           <li>You need one screen today. Buy locally; express from China can't beat the shop down the road.</li>

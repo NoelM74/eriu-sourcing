@@ -24,8 +24,8 @@ export const deArticles = [
 <p>Der Haken: Die Bezeichnungen sind eine Marktkonvention, keine Norm. Dasselbe Etikett kann im Elektronikmarkt Huaqiangbei in Shenzhen, wo die meisten dieser Displays gehandelt werden, bei verschiedenen Händlern Verschiedenes bedeuten. Deshalb zählt der Test mehr als das Etikett.</p>
 
 <figure class="article-figure">
-  <img src="/images/huaqiangbei-phone-parts-market-stalls.webp" alt="Ersatzteilstände im Elektronikmarkt Huaqiangbei in Shenzhen, Händler testen Displays an der Theke" loading="lazy" width="1216" height="832">
-  <figcaption>Die meisten Ersatz-Displays, die in Europa verkauft werden, stammen aus Huaqiangbei, wo dieselbe Bezeichnung sehr unterschiedliche Qualität bedeuten kann</figcaption>
+  <img src="/images/huaqiangbei-electronics-market-floor.webp" alt="Verkaufstheken dicht an dicht auf einer Etage des Elektronikmarkts Huaqiangbei in Shenzhen" loading="lazy" width="1024" height="768">
+  <figcaption>Viele der in Europa verkauften Ersatz-Displays stammen aus Huaqiangbei, wo dieselbe Bezeichnung sehr unterschiedliche Qualität bedeuten kann. Foto: <a href="https://www.flickr.com/photos/71172892@N00/14309542576" rel="noopener nofollow">Tom Whitwell</a>, <a href="https://creativecommons.org/licenses/by-sa/2.0/" rel="noopener nofollow license">CC BY-SA 2.0</a></figcaption>
 </figure>
 
 <h2>In-Cell-LCD: die günstige Qualität</h2>

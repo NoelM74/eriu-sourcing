@@ -1,13 +1,48 @@
 # Ériu Sourcing
 
-> Irish-run China sourcing agent. Ériu Sourcing helps Irish and UK businesses buy factory-direct from China: supplier verification, price negotiation, pre-shipment quality control, CE compliance and freight to Ireland. Founded by Noel Murphy, based in China since 2008, with teams in Shenzhen (Guangdong) and Zhengzhou (Henan). Irish address: Springfield, Clonlara, Co. Clare. The Ériu Modular Homes division supplies CE-marked expandable steel-frame homes for Irish back gardens.
+> Irish-run China sourcing company. Ériu Sourcing helps businesses buy direct from China: supplier verification, price negotiation, pre-shipment quality control, compliance checks and freight. Founded by Noel Murphy, who has lived and worked in China since 2008, with teams in Shenzhen (Guangdong) and Zhengzhou (Henan). Three divisions: China sourcing for Irish and UK businesses; Ériu Phones & Parts, a worldwide wholesale supplier of used and new phones, tablets and phone parts bought in Shenzhen's Huaqiangbei market; and Ériu Modular Homes, expandable steel-frame homes sold FOB China. German-language pages serve buyers in Germany and Austria.
 
 Key facts:
-- Service area: Ireland and the United Kingdom.
-- China bases: Shenzhen (electronics, consumer goods, finishing materials) and Zhengzhou, Henan (steel, modular buildings, machinery, construction materials).
-- Core services: factory identification and vetting, sampling, pre-shipment inspection, CE compliance checks, freight coordination, landed-cost quoting.
-- Modular homes: four expandable models (20ft, 30ft, 40ft, 20FT700). Factory pricing runs from €8,995 FOB for a structural shell to €65,000 FOB for a premium furnished unit, before freight, VAT and Irish site works. A basic livable 20ft unit starts from about €25,000 delivered. The 20ft Expandable (about 34 m² internal) is the model that fits Ireland's 32–45 m² Class 3A back-garden exemption (S.I. No. 340 of 2026, in force since 27 July 2026).
-- Contact: https://eriusourcing.com/contact/ · +353 87 118 7806 (phone and WhatsApp)
+- Company: Ériu Sourcing is a trading name of Springfield Tectop Limited, registered in Ireland, company no. 571256, incorporated 5 November 2015. Registered office: Clareview Business Center, Ennis Road, Co. Limerick, V94 EA3A, Ireland.
+- Supply and ship only: Ériu supplies and ships goods from China. It does not install anything.
+- China bases: Shenzhen (electronics, phones and phone parts, consumer goods; logistics and fulfilment operation since 2011) and Zhengzhou, Henan (steel, modular buildings, machinery, construction materials).
+- Service areas: Ireland and the UK (general sourcing), worldwide (Ériu Phones & Parts), Germany and Austria (German-language technology pages).
+- Contact: +353 87 118 7806 (phone and WhatsApp) · https://eriusourcing.com/contact/
+
+## Ériu Phones & Parts (worldwide wholesale)
+
+Wholesale used iPhones, used Samsung Galaxy phones, refurbished phones, new Android phones (global versions), tablets and iPads, smartwatches and earbuds, plus replacement screens, batteries, small repair parts and accessories, for phone shops, repair businesses and distributors in any country.
+
+Key facts:
+- Ériu has its own full-time buyer working the Huaqiangbei electronics market floors in Shenzhen.
+- Every used phone is IMEI-checked against blacklist databases and checked for Activation Lock, Google account lock and remote management (MDM); locked or reported phones are rejected. Battery health and parts history are recorded per phone.
+- Every replacement screen is powered up and touch-tested; every battery is capacity-tested and date-checked; small parts are tested from every batch.
+- The Bench-Proof Guarantee: (1) after the deposit, the buyer sees a test video and test record of their batch before paying the balance; (2) any part that arrives dead or fails the stated test spec, reported with a photo or short video within 14 days, is replaced free on the next order or credited. Parts damaged while being fitted are not covered.
+- No minimum on the first order. Mixed orders of phones, parts and accessories ship together.
+- Shipping: door-to-door express worldwide (DHL, FedEx, UPS), or FOB China to the buyer's own forwarder for larger orders.
+- No copied brand products or copied logos.
+
+Pages:
+- [Phones & Parts overview](https://eriusourcing.com/phone-parts/)
+- [Huaqiangbei buying service](https://eriusourcing.com/phone-parts/huaqiangbei/): Our buyer in Shenzhen's Huaqiangbei market and how an order moves from the floor to the bench to the buyer
+- [Wholesale used iPhones](https://eriusourcing.com/phone-parts/used-iphones-wholesale/): Graded used iPhones, IMEI- and iCloud-checked, battery health recorded
+- [Wholesale used Samsung Galaxy phones](https://eriusourcing.com/phone-parts/used-samsung-phones-wholesale/): Checked for Google lock, screen burn-in and battery
+- [Wholesale refurbished phones](https://eriusourcing.com/phone-parts/refurbished-iphones-wholesale/)
+- [Wholesale new Android phones](https://eriusourcing.com/phone-parts/new-android-phones-wholesale/): Samsung, Xiaomi, Redmi, POCO, Honor, OPPO, realme, vivo in global versions
+- [Wholesale tablets and used iPads](https://eriusourcing.com/phone-parts/tablets-wholesale/): Activation Lock and MDM checked
+- [Wholesale smartwatches and earbuds](https://eriusourcing.com/phone-parts/smartwatches-earbuds-wholesale/)
+- [Low-MOQ mixed phone orders](https://eriusourcing.com/phone-parts/low-moq-phone-wholesale/): No minimum on the first order
+- [Wholesale iPhone screens](https://eriusourcing.com/phone-parts/iphone-screens-wholesale/): In-cell, hard OLED, soft OLED and genuine pulls
+- [Wholesale Samsung screens](https://eriusourcing.com/phone-parts/samsung-screens-wholesale/)
+- [Wholesale phone batteries](https://eriusourcing.com/phone-parts/phone-batteries-wholesale/)
+- [Wholesale phone repair parts](https://eriusourcing.com/phone-parts/phone-repair-parts-wholesale/): Charging ports, back glass, cameras
+- [Wholesale phone accessories](https://eriusourcing.com/phone-parts/phone-accessories-wholesale/)
+- [How we test](https://eriusourcing.com/phone-parts/how-we-test/) · [The guarantee](https://eriusourcing.com/phone-parts/guarantee/) · [Worldwide shipping](https://eriusourcing.com/phone-parts/shipping/) · [Get prices](https://eriusourcing.com/phone-parts/quote/)
+
+Buyer guides:
+- [Used iPhone grades explained: A+, A, B, C](https://eriusourcing.com/phone-parts/guides/used-iphone-grades-explained/)
+- [Global vs China version phones](https://eriusourcing.com/phone-parts/guides/global-vs-china-version-phones/)
+- [How to check used iPhones before buying wholesale: a 9-point checklist](https://eriusourcing.com/phone-parts/guides/how-to-check-used-iphones-wholesale/)
 
 ## Sourcing services
 
@@ -22,12 +57,17 @@ Key facts:
 
 ## Modular homes (Ireland)
 
+Key facts:
+- Supply and ship only, sold FOB China. A deposit confirms the order and starts factory production; the balance is paid when the unit ships from China.
+- The 20ft Expandable (about 34 m² internal), the model that fits Ireland's 32–45 m² Class 3A back-garden exemption, is €12,995 FOB China including simple furniture. The 20ft Expandable entry point is €9,990 FOB.
+- Freight, Irish import VAT and duty are handled by the buyer's own Irish freight forwarder and customs broker; foundations, craning and service connections are priced by the buyer's own contractor.
+
 - [Ériu Modular Homes](https://eriusourcing.com/modular-homes/): Expandable steel-frame homes for Irish back gardens
 - [Back-garden homes and Class 3A](https://eriusourcing.com/modular-homes/back-garden-homes-ireland/): The 32–45 m² planning exemption, its conditions, the rental and tax position, planning versus building regulations
 - [Auxiliary dwelling definition](https://eriusourcing.com/modular-homes/auxiliary-dwelling-ireland/): Every Class 3A condition, rental tax, LPT, insurance and mortgage points
 - [Building regulations](https://eriusourcing.com/modular-homes/building-regulations-ireland/): Why planning-exempt homes still need full Building Regulations compliance, a Commencement Notice and an NZEB BER
 - [Models](https://eriusourcing.com/modular-homes/models/): 20ft, 30ft, 40ft and 20FT700 specifications and floor plans
-- [Cost](https://eriusourcing.com/modular-homes/cost/): FOB price tiers and the full installed-cost stack
+- [Cost](https://eriusourcing.com/modular-homes/cost/): FOB price tiers and the Irish-side costs your own contractor prices
 - [Rental income](https://eriusourcing.com/modular-homes/rental-income-garden-home-ireland/): Long-term letting a garden home, the RTB position and after-tax numbers
 - [A home for adult children](https://eriusourcing.com/modular-homes/home-for-adult-children-ireland/)
 - [Downsizing and granny flats](https://eriusourcing.com/modular-homes/downsizing-granny-flat-ireland/)
@@ -50,6 +90,20 @@ Key facts:
 - [Ireland's Class 3A back-garden home exemption explained](https://eriusourcing.com/blog/ireland-april-2026-back-garden-home-rules-explained/)
 - [Is rent from a garden home tax-free? What Revenue says](https://eriusourcing.com/blog/rent-a-room-garden-home-tax-free-income-ireland/)
 - [All articles](https://eriusourcing.com/blog/)
+
+## German pages (Germany and Austria)
+
+- [Ériu Sourcing auf Deutsch](https://eriusourcing.com/de/)
+- [Handy-Ersatzteile Großhandel](https://eriusourcing.com/de/handy-ersatzteile-grosshandel/)
+- [Refurbished Smartphones Großhandel](https://eriusourcing.com/de/refurbished-smartphones-grosshandel/)
+- [Balkonkraftwerk Großhandel aus China](https://eriusourcing.com/de/balkonkraftwerk-grosshandel-china/)
+- [Stromspeicher und Heimspeicher Großhandel](https://eriusourcing.com/de/stromspeicher-heimspeicher-grosshandel/)
+- [Smart Home White Label aus China](https://eriusourcing.com/de/smart-home-white-label-china/)
+- [IP-Kameras Großhandel aus China](https://eriusourcing.com/de/ip-kameras-grosshandel-china/)
+- [Handyzubehör und Gadgets Großhandel](https://eriusourcing.com/de/handyzubehoer-gadgets-grosshandel/)
+- [Ratgeber: Display-Qualitäten In-Cell, Hard OLED, Soft OLED](https://eriusourcing.com/de/ratgeber/handy-display-qualitaeten-incell-oled/)
+- [Ratgeber: Refurbished Smartphones im Großhandel einkaufen](https://eriusourcing.com/de/ratgeber/refurbished-smartphones-grosshandel-einkaufen/)
+- [Kontakt](https://eriusourcing.com/de/kontakt/) · [Impressum](https://eriusourcing.com/de/impressum/)
 
 ## About
 
