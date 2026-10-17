@@ -2,7 +2,7 @@
 // BaseLayout reads this to emit reciprocal hreflang tags on both versions.
 // A German page with no English equivalent is listed with en: null.
 export const translations = [
-  { en: '/source/electronics-from-china-ireland/', de: '/de/' },
+  { en: '/source/electronics-from-china/', de: '/de/' },
   { en: '/source/phone-repair-parts-supplier-ireland/', de: '/de/handy-ersatzteile-grosshandel/' },
   { en: '/source/electronics/refurbished-phones-wholesale-china-ireland/', de: '/de/refurbished-smartphones-grosshandel/' },
   { en: null, de: '/de/balkonkraftwerk-grosshandel-china/' },

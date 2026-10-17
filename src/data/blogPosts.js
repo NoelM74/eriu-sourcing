@@ -861,8 +861,8 @@ export const blogPosts = [
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland'],
     internalLinks: [
       { text: 'CE compliance at source', href: '/why-direct/' },
-      { text: 'Construction materials sourcing', href: '/source/construction-materials-from-china-ireland/' },
-      { text: 'Electronics sourcing', href: '/source/electronics-from-china-ireland/' },
+      { text: 'Construction materials sourcing', href: '/source/construction-materials-from-china/' },
+      { text: 'Electronics sourcing', href: '/source/electronics-from-china/' },
       { text: 'Get a compliance-verified quote', href: '/contact/' },
     ],
   },
@@ -1375,7 +1375,7 @@ export const blogPosts = [
 
 <p>Going direct yourself is entirely possible, and for a confident buyer with time, a clear spec and the appetite to manage Mandarin-language logistics, it can work well. The trade-offs are real, though: distinguishing factories from traders, enforcing fire and quality standards, managing sampling, arranging QC and consolidating freight are all work, and all easier with someone on the ground.</p>
 
-<p>A China-based sourcing agent does that legwork for you, shortlisting and verifying Foshan factories, holding the specification (including fire compliance) through sampling and production, inspecting before shipment, and consolidating the freight to Ireland. Ériu Sourcing has worked with Guangdong factories for 18 years from our base in Shenzhen. If you have a furniture brief, retail range, hospitality fit-out, or a development, <a href="/source/furniture-from-china-ireland/">see how we source furniture</a> or <a href="/contact/">send us the brief</a> and we will map a realistic, honestly-costed route from Foshan.</p>`,
+<p>A China-based sourcing agent does that legwork for you, shortlisting and verifying Foshan factories, holding the specification (including fire compliance) through sampling and production, inspecting before shipment, and consolidating the freight to Ireland. Ériu Sourcing has worked with Guangdong factories for 18 years from our base in Shenzhen. If you have a furniture brief, retail range, hospitality fit-out, or a development, <a href="/source/furniture-from-china/">see how we source furniture</a> or <a href="/contact/">send us the brief</a> and we will map a realistic, honestly-costed route from Foshan.</p>`,
     sections: [
       'Why Foshan dominates global furniture production',
       'Furniture categories by district (Lecong, Longjiang, Shunde)',
@@ -1393,8 +1393,8 @@ export const blogPosts = [
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland'],
     internalLinks: [
-      { text: 'Furniture sourcing page', href: '/source/furniture-from-china-ireland/' },
-      { text: 'Hospitality fit-out sourcing', href: '/source/hospitality-fitout-from-china-ireland/' },
+      { text: 'Furniture sourcing page', href: '/source/furniture-from-china/' },
+      { text: 'Hospitality fit-out sourcing', href: '/source/hospitality-fitout-from-china/' },
       { text: 'Get a quote', href: '/contact/' },
     ],
   },
@@ -2424,7 +2424,7 @@ export const blogPosts = [
 
 <p>Before committing to another year of buying chargers through standard European distributors, it is worth mapping what a supervised China supply line could look like: potential savings, risks, and implementation steps. From our position in Zhengzhou's NEV clusters, and with long-standing logistics and QC experience, Ériu Sourcing can design that plan and, if it makes sense, help you execute it.</p>
 
-<p>Share your current charger volumes and hardware mix and we will prepare a short EV Charger Sourcing Options memo tailored to your market and business model. <a href="/source/ev-charger-sourcing-installers-ireland-uk/">See our EV charger sourcing service for installers</a>, browse the <a href="/source/ev-chargers-from-china-ireland/">full EV chargers &amp; components category</a>, or <a href="/contact/">get in touch</a>.</p>`,
+<p>Share your current charger volumes and hardware mix and we will prepare a short EV Charger Sourcing Options memo tailored to your market and business model. <a href="/source/ev-charger-sourcing-installers-ireland-uk/">See our EV charger sourcing service for installers</a>, browse the <a href="/source/ev-chargers-from-china/">full EV chargers &amp; components category</a>, or <a href="/contact/">get in touch</a>.</p>`,
     excerpt: 'China makes the majority of the world\'s EV chargers, and direct-from-factory hardware often costs 30–50% less than Western-branded units. Here is how European installers, CPOs, and fleets can source AC and DC chargers from China safely in 2026, types, compliance, supplier selection, and QC.',
     image: '/images/dc-fast-chargers-car-park.webp',
     imageAlt: 'DC fast chargers for electric vehicles installed at a public charging site',
@@ -2446,7 +2446,7 @@ export const blogPosts = [
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'ce-marking-china-imports-ireland', 'real-landed-cost-importing-from-china-ireland'],
     internalLinks: [
-      { text: 'EV chargers & components, what we source', href: '/source/ev-chargers-from-china-ireland/' },
+      { text: 'EV chargers & components, what we source', href: '/source/ev-chargers-from-china/' },
       { text: 'EV charger sourcing for Ireland & UK installers', href: '/source/ev-charger-sourcing-installers-ireland-uk/' },
       { text: 'Our China network', href: '/china-network/' },
       { text: 'Get a sourcing quote', href: '/contact/' },
@@ -2550,7 +2550,7 @@ export const blogPosts = [
 
 <p>If you are planning to add cabins or pods in the next 12–24 months, now is the time to pin down cost bands, planning constraints, and realistic sourcing options. Ériu Sourcing can translate your site concept into a concrete unit mix, supplier shortlist, and budget range, using our base in Zhengzhou's container-house cluster and our logistics/QC background in China–EU trade.</p>
 
-<p>Share a few details about your land and target guest profile and we will prepare a no-obligation Glamping Container Blueprint with example layouts and cost ranges. Start with the <a href="/source/3-pod-glamping-cabin-package-ireland-uk/">3-pod glamping cabin package</a>, browse the <a href="/source/glamping-pods-cabins-from-china-ireland/">full glamping pods &amp; cabins category</a>, or <a href="/contact/">get in touch</a>.</p>`,
+<p>Share a few details about your land and target guest profile and we will prepare a no-obligation Glamping Container Blueprint with example layouts and cost ranges. Start with the <a href="/source/3-pod-glamping-cabin-package-ireland-uk/">3-pod glamping cabin package</a>, browse the <a href="/source/glamping-pods-cabins-from-china/">full glamping pods &amp; cabins category</a>, or <a href="/contact/">get in touch</a>.</p>`,
     excerpt: 'Prefab container homes have gone mainstream for tourism and glamping across Europe. Here is the 2026 picture for campsite and land owners, cost bands, planning permission by country, insulation and energy standards, guest comfort, and how to source cabins safely from China.',
     image: '/images/glamping-pods-row.webp',
     imageAlt: 'A row of timber glamping pods on a campsite',
@@ -2571,7 +2571,7 @@ export const blogPosts = [
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland', 'ce-marking-china-imports-ireland'],
     internalLinks: [
-      { text: 'Glamping pods & container cabins, what we source', href: '/source/glamping-pods-cabins-from-china-ireland/' },
+      { text: 'Glamping pods & container cabins, what we source', href: '/source/glamping-pods-cabins-from-china/' },
       { text: '3-pod glamping cabin package (Ireland & UK)', href: '/source/3-pod-glamping-cabin-package-ireland-uk/' },
       { text: 'Our China network', href: '/china-network/' },
       { text: 'Get a sourcing quote', href: '/contact/' },
@@ -2657,7 +2657,7 @@ export const blogPosts = [
 
 <p>The simplest way in is small and specific. Start with a single project, specifying and importing panels for one warehouse or modular building, or a single machine or small line, such as a wall-panel extruder or a block machine for a new plant. From that first project you build confidence, refine your specifications, and expand into more comprehensive supply arrangements.</p>
 
-<p>Outline your upcoming panel or precast project and we will prepare a brief sourcing-options note from Henan, potential suppliers, panel or machine choices, and indicative cost bands. Browse the <a href="/source/building-materials-production-systems-from-china-ireland/">full building materials &amp; production systems category</a>, see our <a href="/source/precast-wall-panel-floor-slab-lines-from-china/">precast wall-panel &amp; floor-slab line sourcing</a>, or <a href="/contact/">get in touch</a>.</p>`,
+<p>Outline your upcoming panel or precast project and we will prepare a brief sourcing-options note from Henan, potential suppliers, panel or machine choices, and indicative cost bands. Browse the <a href="/source/building-materials-production-systems-from-china/">full building materials &amp; production systems category</a>, see our <a href="/source/precast-wall-panel-floor-slab-lines-from-china/">precast wall-panel &amp; floor-slab line sourcing</a>, or <a href="/contact/">get in touch</a>.</p>`,
     excerpt: 'Sandwich panels and precast wall-panel machinery from China underpin a lot of European industrial building, cold stores, and modular construction. Here is how to source both safely, capabilities and certifications, cost, the standards that matter (U-values, fire class, structural, machine compatibility), supplier vetting, and QC.',
     image: '/images/sandwich-panels-precast-pillar-hero.webp',
     imageAlt: 'European construction site installing sandwich panels and precast wall elements with materials staged on site',
@@ -2678,7 +2678,7 @@ export const blogPosts = [
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland', 'ce-marking-china-imports-ireland'],
     internalLinks: [
-      { text: 'Building materials & production systems, what we source', href: '/source/building-materials-production-systems-from-china-ireland/' },
+      { text: 'Building materials & production systems, what we source', href: '/source/building-materials-production-systems-from-china/' },
       { text: 'Precast wall-panel & floor-slab line sourcing', href: '/source/precast-wall-panel-floor-slab-lines-from-china/' },
       { text: 'Our China network', href: '/china-network/' },
       { text: 'Get a sourcing quote', href: '/contact/' },
@@ -2762,7 +2762,7 @@ export const blogPosts = [
 
 <p>If you are considering sourcing racking or conveyors from China, identify one concrete project (a new warehouse, a refit, or a conveyor upgrade), document your loads, volumes and flows clearly, and decide whether you want simple equipment (racking only) or system-level integration (racking plus conveyors and sortation). Then engage a China-side partner to build a short list of two or three viable suppliers and honest initial budgets.</p>
 
-<p>Send us a brief on your next warehouse project and we will prepare a short sourcing-options memo, potential Chinese suppliers, solution concepts, and indicative cost ranges against your layout. Browse the <a href="/source/logistics-warehouse-equipment-from-china-ireland/">full logistics &amp; warehouse equipment category</a>, see our <a href="/source/warehouse-racking-conveyor-systems-from-china/">racking &amp; conveyor sourcing offer</a>, or <a href="/contact/">get in touch</a>.</p>`,
+<p>Send us a brief on your next warehouse project and we will prepare a short sourcing-options memo, potential Chinese suppliers, solution concepts, and indicative cost ranges against your layout. Browse the <a href="/source/logistics-warehouse-equipment-from-china/">full logistics &amp; warehouse equipment category</a>, see our <a href="/source/warehouse-racking-conveyor-systems-from-china/">racking &amp; conveyor sourcing offer</a>, or <a href="/contact/">get in touch</a>.</p>`,
     excerpt: 'China is a major manufacturer of warehouse racking and conveyor/sortation systems, and going direct can improve hardware economics for European 3PLs and e-commerce operations. Here is how to do it safely, categories, supplier vetting, honest pricing, compliance, and multimodal logistics via Zhengzhou.',
     image: '/images/warehouse-racking-aisle.webp',
     imageAlt: 'A long warehouse aisle between rows of steel pallet racking',
@@ -2783,7 +2783,7 @@ export const blogPosts = [
     ],
     relatedSlugs: ['how-to-source-products-direct-from-china-to-ireland-2026', 'real-landed-cost-importing-from-china-ireland', 'incoterms-explained-irish-importers-fob-cif-exw-dap-china'],
     internalLinks: [
-      { text: 'Logistics & warehouse equipment, what we source', href: '/source/logistics-warehouse-equipment-from-china-ireland/' },
+      { text: 'Logistics & warehouse equipment, what we source', href: '/source/logistics-warehouse-equipment-from-china/' },
       { text: 'Warehouse racking & conveyor sourcing offer', href: '/source/warehouse-racking-conveyor-systems-from-china/' },
       { text: 'Our China network', href: '/china-network/' },
       { text: 'Get a sourcing quote', href: '/contact/' },
@@ -2856,7 +2856,7 @@ export const blogPosts = [
 
 <p>If you have never imported machinery from China, start with non-critical categories, auxiliary equipment or a specific compact machine, rather than your core fleet workhorses. Keep pilot projects small and tightly monitored, and use them to test OEM responsiveness, parts availability and support as much as raw machine performance. Once you have evidence that a specific OEM or category works, you can expand exposure, always inside the framework of EU regulation and sound engineering.</p>
 
-<p>If you are considering trialling Chinese machinery, send us one specific machine type and we will outline a safe pilot sourcing plan, the regulatory steps, the technical checks, and a realistic cost/benefit read. Browse the <a href="/source/construction-machinery-from-china-ireland/">full construction machinery category</a>, see our <a href="/source/mini-excavators-compact-machinery-from-china/">mini excavator &amp; compact machinery offer</a>, or <a href="/contact/">get in touch</a>.</p>`,
+<p>If you are considering trialling Chinese machinery, send us one specific machine type and we will outline a safe pilot sourcing plan, the regulatory steps, the technical checks, and a realistic cost/benefit read. Browse the <a href="/source/construction-machinery-from-china/">full construction machinery category</a>, see our <a href="/source/mini-excavators-compact-machinery-from-china/">mini excavator &amp; compact machinery offer</a>, or <a href="/contact/">get in touch</a>.</p>`,
     excerpt: 'Chinese excavators, loaders and concrete equipment offer European contractors a better capex profile, but importing them safely means mastering the Machinery Directive, Stage V emissions and hydraulic quality. Here is a step-by-step process, with honest economics and a safe pilot plan.',
     image: '/images/excavator-construction-site.webp',
     imageAlt: 'An excavator working on a construction site',
@@ -2876,7 +2876,7 @@ export const blogPosts = [
     ],
     relatedSlugs: ['source-warehouse-racking-conveyor-systems-from-china-2026', 'real-landed-cost-importing-from-china-ireland', 'incoterms-explained-irish-importers-fob-cif-exw-dap-china'],
     internalLinks: [
-      { text: 'Construction machinery, what we source', href: '/source/construction-machinery-from-china-ireland/' },
+      { text: 'Construction machinery, what we source', href: '/source/construction-machinery-from-china/' },
       { text: 'Mini excavator & compact machinery offer', href: '/source/mini-excavators-compact-machinery-from-china/' },
       { text: 'Our China network', href: '/china-network/' },
       { text: 'Get a sourcing quote', href: '/contact/' },
@@ -2967,7 +2967,7 @@ export const blogPosts = [
 
 <p>In this category we pre-filter Henan and other Chinese equipment makers for legal legitimacy, export history and basic capacity before you spend a day on them; coordinate a tailored factory audit, directly or via a third-party QC firm, focused on your specific equipment type; and oversee the factory acceptance test, documentation checks and pre-shipment inspection so the risk of hidden defects or non-compliance is taken off your desk. The SAMR registry is in Chinese, FAT needs someone who can read a machine, and spares depend on a relationship that outlasts the order, which is precisely the work we do on the ground.</p>
 
-<p>If you are weighing up a Chinese industrial equipment supplier, send us the factory name and the equipment type and we will outline a concrete audit and vetting plan before you ever pay a deposit. Browse the <a href="/source/industrial-workshop-equipment-from-china-ireland/">full industrial &amp; workshop equipment category</a>, see our <a href="/source/cnc-cutting-tables-workshop-equipment-from-china/">CNC cutting &amp; workshop equipment offer</a>, or <a href="/contact/">get in touch</a>.</p>`,
+<p>If you are weighing up a Chinese industrial equipment supplier, send us the factory name and the equipment type and we will outline a concrete audit and vetting plan before you ever pay a deposit. Browse the <a href="/source/industrial-workshop-equipment-from-china/">full industrial &amp; workshop equipment category</a>, see our <a href="/source/cnc-cutting-tables-workshop-equipment-from-china/">CNC cutting &amp; workshop equipment offer</a>, or <a href="/contact/">get in touch</a>.</p>`,
     sections: [
       'Why a factory audit is non-negotiable',
       'Step 1, Verify the factory\'s legal identity',
@@ -2986,7 +2986,7 @@ export const blogPosts = [
     ],
     relatedSlugs: ['how-to-vet-chinese-suppliers-factory-audit-verification-ireland', 'how-to-source-construction-machinery-from-china-2026', 'pre-shipment-inspection-china-irish-importers-quality-control'],
     internalLinks: [
-      { text: 'Industrial & workshop equipment, what we source', href: '/source/industrial-workshop-equipment-from-china-ireland/' },
+      { text: 'Industrial & workshop equipment, what we source', href: '/source/industrial-workshop-equipment-from-china/' },
       { text: 'CNC cutting & workshop equipment offer', href: '/source/cnc-cutting-tables-workshop-equipment-from-china/' },
       { text: 'How our sourcing process works', href: '/how-it-works/' },
       { text: 'Get a sourcing quote', href: '/contact/' },
@@ -3194,7 +3194,7 @@ export const blogPosts = [
     relatedSlugs: ['real-landed-cost-importing-from-china-ireland', 'source-warehouse-racking-conveyor-systems-from-china-2026', 'ce-marking-china-imports-ireland'],
     internalLinks: [
       { text: 'Warehouse racking and conveyor systems from China', href: '/source/warehouse-racking-conveyor-systems-from-china/' },
-      { text: 'Construction materials from China', href: '/source/construction-materials-from-china-ireland/' },
+      { text: 'Construction materials from China', href: '/source/construction-materials-from-china/' },
       { text: 'The real landed cost of importing from China', href: '/blog/real-landed-cost-importing-from-china-ireland/' },
       { text: 'Get a quote with landed cost', href: '/contact/' },
     ],

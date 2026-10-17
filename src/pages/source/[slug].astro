@@ -32,21 +32,21 @@ const lastReviewed = new Date().toLocaleDateString('en-IE', {
 const categoryProducts = products.filter(p => p.categoryFullSlug === page.slug);
 
 const caseStudyMap: Record<string, { anchor: string; label: string }> = {
-  'electronics-from-china-ireland': { anchor: 'electronics', label: 'Electronics Retail case study' },
-  'construction-materials-from-china-ireland': { anchor: 'construction', label: 'Construction & Materials case study' },
-  'hospitality-fitout-from-china-ireland': { anchor: 'hospitality', label: 'Hospitality Fit-Out case study' },
+  'electronics-from-china': { anchor: 'electronics', label: 'Electronics Retail case study' },
+  'construction-materials-from-china': { anchor: 'construction', label: 'Construction & Materials case study' },
+  'hospitality-fitout-from-china': { anchor: 'hospitality', label: 'Hospitality Fit-Out case study' },
 };
 const caseStudy = caseStudyMap[page.slug] ?? null;
 
 // Pull category-matched client testimonials for this pillar. Pages with no
 // matching live quote render nothing (the component is self-gating).
 const testimonialTagMap: Record<string, string[]> = {
-  'furniture-from-china-ireland': ['furniture'],
-  'construction-materials-from-china-ireland': ['building-materials'],
-  'building-materials-production-systems-from-china-ireland': ['building-materials'],
-  'modular-buildings-from-china-ireland': ['modular-buildings'],
-  'industrial-workshop-equipment-from-china-ireland': ['industrial-equipment'],
-  'logistics-warehouse-equipment-from-china-ireland': ['logistics'],
+  'furniture-from-china': ['furniture'],
+  'construction-materials-from-china': ['building-materials'],
+  'building-materials-production-systems-from-china': ['building-materials'],
+  'modular-buildings-from-china': ['modular-buildings'],
+  'industrial-workshop-equipment-from-china': ['industrial-equipment'],
+  'logistics-warehouse-equipment-from-china': ['logistics'],
 };
 const categoryQuotes = getByTags(testimonialTagMap[page.slug] ?? []);
 
