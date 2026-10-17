@@ -34,6 +34,8 @@ interface Props {
   /** Optional photo beside the text on desktop (stacks below on mobile).
       `src` is the base path without extension; a `-sm.webp` 800w variant must exist. */
   image?: { src: string; alt: string; width: number; height: number; caption?: string };
+  /** Caption for a photo passed through the "media" slot (e.g. an astro:assets <Image>). */
+  mediaCaption?: string;
 }
 
 const {
@@ -45,7 +47,10 @@ const {
   lastReviewed,
   variant = 'default',
   image,
+  mediaCaption,
 } = Astro.props;
+
+const hasMedia = !!image || Astro.slots.has('media');
 
 const lastReviewedDisplay = lastReviewed
   ? new Date(lastReviewed).toLocaleDateString('en-IE', {
@@ -56,8 +61,8 @@ const lastReviewedDisplay = lastReviewed
   : null;
 ---
 
-<section class={`page-hero page-hero--${variant}${image ? ' page-hero--split' : ''}`}>
-  <div class={image ? 'container page-hero-grid' : 'container--narrow'}>
+<section class={`page-hero page-hero--${variant}${hasMedia ? ' page-hero--split' : ''}`}>
+  <div class={hasMedia ? 'container page-hero-grid' : 'container--narrow'}>
   <div class="page-hero-text">
     {breadcrumbs && breadcrumbs.length > 0 && (
       <Breadcrumbs items={breadcrumbs} />
@@ -74,6 +79,7 @@ const lastReviewedDisplay = lastReviewed
         ))}
       </div>
     )}
+    <slot />
     {lastReviewedDisplay && (
       <p class="last-reviewed">
         Last reviewed: <time datetime={lastReviewed}>{lastReviewedDisplay}</time>
@@ -95,6 +101,12 @@ const lastReviewedDisplay = lastReviewed
         />
       </div>
       {image.caption && <figcaption>{image.caption}</figcaption>}
+    </figure>
+  )}
+  {!image && Astro.slots.has('media') && (
+    <figure class="page-hero-photo">
+      <div class="page-hero-photo-frame"><slot name="media" /></div>
+      {mediaCaption && <figcaption>{mediaCaption}</figcaption>}
     </figure>
   )}
   </div>
@@ -138,7 +150,7 @@ const lastReviewedDisplay = lastReviewed
     box-shadow: 0 28px 60px rgba(15, 33, 49, .18);
   }
 
-  .page-hero-photo-frame img {
+  .page-hero-photo-frame :global(img) {
     width: 100%;
     height: 100%;
     object-fit: cover;

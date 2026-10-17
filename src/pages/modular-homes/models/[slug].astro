@@ -86,7 +86,21 @@ const pageSchemas = [
       { href: '/modular-homes/models/', label: 'Compare all four models', variant: 'secondary' }
     ]}
     lastReviewed={lastReviewedIso}
-  />
+  >
+    {heroImg ? (
+      <Image
+        slot="media"
+        src={heroImg}
+        alt={model.imageAlt}
+        widths={heroWidths}
+        sizes="(max-width: 960px) 100vw, 560px"
+        loading="eager"
+        fetchpriority="high"
+      />
+    ) : (
+      <img slot="media" src={model.image} alt={model.imageAlt} width="720" height="540" loading="eager" fetchpriority="high" />
+    )}
+  </PageHero>
 
   <StatsRow items={[
     { figure: model.internalArea, label: 'Internal floor area' },
@@ -97,30 +111,13 @@ const pageSchemas = [
   <!-- HERO IMAGE + SPEC TABLE -->
   <section class="section section--alt">
     <div class="container">
-      <div class="model-hero-grid">
-        <div class="model-hero-image">
-          {heroImg ? (
-            <Image
-              src={heroImg}
-              alt={model.imageAlt}
-              widths={heroWidths}
-              sizes="(max-width: 900px) 100vw, 720px"
-              loading="eager"
-              fetchpriority="high"
-            />
-          ) : (
-            <img
-              src={model.image}
-              alt={model.imageAlt}
-              width="720"
-              height="540"
-              loading="eager"
-            />
-          )}
-        </div>
-        <div class="model-hero-spec">
+      <div class="split-section">
+        <div class="split-head">
           <span class="section-eyebrow">Full specification</span>
           <h2>{model.name}, dimensions &amp; logistics</h2>
+          <p>Dimensions, weight and container loading for the {model.name}, sold FOB China.</p>
+          <a href={`/contact/?model=${model.id}`} class="btn btn--primary">Get a quote for the {model.name} →</a>
+        </div>
           <table class="spec-table">
             <tbody>
               <tr><th>Expanded (deployed)</th><td>{model.expanded}</td></tr>
@@ -132,7 +129,6 @@ const pageSchemas = [
               <tr><th>Typical Irish use</th><td>{model.bestFor}</td></tr>
             </tbody>
           </table>
-        </div>
       </div>
     </div>
   </section>

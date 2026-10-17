@@ -97,7 +97,9 @@ const pageSchemas = [
       { href: '/why-direct/', label: 'Why factory-direct →', variant: 'secondary' }
     ]}
     lastReviewed={new Date().toISOString().split('T')[0]}
-  />
+  >
+    <img slot="media" src={page.image} alt={page.imageAlt} width="1400" height="934" loading="eager" fetchpriority="high" decoding="async" />
+  </PageHero>
 
   <StatsRow items={[
     { figure: page.savings, label: 'Typical saving vs Irish wholesale' },
@@ -106,46 +108,24 @@ const pageSchemas = [
     { figure: page.minOrderShort, label: 'Min. order range' }
   ]} />
 
-  <!-- HUB DETAIL -->
+  <!-- HUB + WHAT WE SOURCE -->
   <section class="section section--alt">
     <div class="container">
-      <div class="hub-grid">
-        <div class="hub-content">
+      <div class="pd-duo">
+        <div class="pd-card fade-up">
           <span class="section-eyebrow">Manufacturing Hub</span>
           <h2>Where {page.eyebrow.toLowerCase()} is made in China</h2>
           <p class="hub-location">{page.hub}</p>
           <p>{page.hubDetail}</p>
           <a href="/china-network/" class="inline-link">See our full China network →</a>
         </div>
-        <div class="hub-image">
-          <img
-            src={page.image}
-            alt={page.imageAlt}
-            width="560"
-            height="380"
-            loading="lazy"
-          />
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- WHAT WE SOURCE -->
-  <section class="section">
-    <div class="container">
-      <div class="products-layout">
-        <div class="products-header">
+        <div class="pd-card pd-card--plain fade-up">
           <span class="section-eyebrow">What we source</span>
           <h2>{page.eyebrow}, products we source directly</h2>
+          <ul class="pd-checks">
+            {page.keyProducts.map(product => <li>{product}</li>)}
+          </ul>
         </div>
-        <ul class="products-list">
-          {page.keyProducts.map(product => (
-            <li>
-              <span class="product-check">✓</span>
-              <span>{product}</span>
-            </li>
-          ))}
-        </ul>
       </div>
     </div>
   </section>
@@ -177,12 +157,16 @@ const pageSchemas = [
 
   <!-- CE COMPLIANCE -->
   <section class="section section--emerald">
-    <div class="container--narrow">
-      <span class="section-eyebrow section-eyebrow--light">EU & Irish Compliance</span>
-      <h2>CE compliance verified at source, not at Dublin Port</h2>
-      <p>{page.ceNote}</p>
-      <p>Every order includes full compliance documentation. Goods that do not meet Irish and EU standards stay in China at the factory's cost, you do not pay freight on non-compliant products.</p>
-      <a href="/contact/" class="btn btn--white-outline" style="margin-top:1rem">Ask about compliance documentation →</a>
+    <div class="container split-section">
+      <div class="split-head">
+        <span class="section-eyebrow section-eyebrow--light">EU & Irish Compliance</span>
+        <h2>CE compliance verified at source, not at Dublin Port</h2>
+        <a href="/contact/" class="btn btn--white-outline">Ask about compliance documentation →</a>
+      </div>
+      <div>
+        <p>{page.ceNote}</p>
+        <p>Every order includes full compliance documentation. Goods that do not meet Irish and EU standards stay in China at the factory's cost, you do not pay freight on non-compliant products.</p>
+      </div>
     </div>
   </section>
 

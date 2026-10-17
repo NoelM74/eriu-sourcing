@@ -1,4 +1,5 @@
 ---
+import PageHero from '../components/PageHero.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import TestimonialsSection from '../components/TestimonialsSection.astro';
@@ -77,13 +78,13 @@ const pageSchemas = [
 
 <BaseLayout title={title} description={description} canonical="/contact/" jsonLd={pageSchemas}>
 
-  <section class="contact-hero section--lg">
-    <div class="container--narrow">
-      <Breadcrumbs items={[{ label: 'Get a Quote' }]} />
-      <span class="section-eyebrow">Get a Quote</span>
-      <h1>Tell us what you need.</h1>
-      <p class="lead">We'll come back with factory-level pricing, a supplier shortlist, and a timeline, no obligation, no hard sell. Direct reply from Noel within 24 hours.</p>
-
+  <PageHero
+    breadcrumbs={[{ label: 'Get a Quote' }]}
+    eyebrow="Get a Quote"
+    h1="Tell us what you need."
+    lead="We'll come back with factory-level pricing, a supplier shortlist, and a timeline, no obligation, no hard sell. A reply from Noel or the team within 24 hours."
+    image={{ src: "/images/eriu-sourcing-team-china-office", alt: "The Ériu Sourcing team in green polos, in rows under the Ériu Sourcing sign in their office in China, with Noel Murphy in the centre", width: 1264, height: 848, caption: "The team in China that works on your quote." }}
+  >
       <div class="contact-options">
         <a href="https://wa.me/353871187806" class="contact-option whatsapp" target="_blank" rel="noopener noreferrer">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -105,8 +106,7 @@ const pageSchemas = [
           hello@eriusourcing.com
         </a>
       </div>
-    </div>
-  </section>
+  </PageHero>
 
   <!-- CONTACT INFO -->
   <section class="contact-info-section">
@@ -118,7 +118,7 @@ const pageSchemas = [
         </div>
         <div class="info-card">
           <span class="info-label">China operations</span>
-          <p class="info-value">Shenzhen (Longhua District)<br />Zhengzhou (Henan)<br />50+ person team since 2008</p>
+          <p class="info-value">Shenzhen (Longhua District)<br />Zhengzhou (Henan)<br />53-person team</p>
         </div>
         <div class="info-card">
           <span class="info-label">Hours &amp; response</span>
