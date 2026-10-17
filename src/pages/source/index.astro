@@ -1,6 +1,6 @@
 ---
+import PageHero from '../../components/PageHero.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import TestimonialsSection from '../../components/TestimonialsSection.astro';
 import { getByTags } from '../../data/testimonials.js';
 import { sourcingPages } from '../../data/sourcingPages.js';
@@ -74,18 +74,17 @@ const categoryIcons = {
 <BaseLayout title={title} description={description} canonical="/source/" jsonLd={pageSchemas}>
 
   <!-- HERO -->
-  <section class="page-hero section--lg">
-    <div class="container--narrow">
-      <Breadcrumbs items={[{ label: 'What We Source' }]} />
-      <span class="section-eyebrow">What We Source</span>
-      <h1>Factory-direct from China to Ireland, across every category.</h1>
-      <p class="lead">Seven product categories. One point of contact. Pre-shipment QC and CE compliance on every order. No Alibaba resellers, no trading company middlemen.</p>
-      <div class="hero-ctas">
-        <a href="/contact/" class="btn btn--primary">Get a sourcing quote →</a>
-        <a href="#categories" class="btn btn--secondary">Browse categories ↓</a>
-      </div>
-    </div>
-  </section>
+  <PageHero
+    breadcrumbs={[{ label: 'What We Source' }]}
+    eyebrow="What We Source"
+    h1="Factory-direct from China, across every category."
+    lead="Every product category below. One point of contact. Pre-shipment QC and compliance checks on every order. No Alibaba resellers, no trading company middlemen."
+    ctas={[
+      { href: '/contact/', label: 'Get a sourcing quote →', variant: 'primary' },
+      { href: '#categories', label: 'Browse categories ↓', variant: 'secondary' }
+    ]}
+    image={{ src: "/images/eriu-team-final-inspection-cartons", alt: "An Ériu team member in a green Ériu Sourcing polo with a colleague beside pallets of finished cartons at a final inspection before shipping", width: 1200, height: 896, caption: "Final inspection by our team, before the goods ship." }}
+  />
 
   <!-- STATS BAR -->
   <section class="stats-bar">

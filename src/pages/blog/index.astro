@@ -1,6 +1,6 @@
 ---
+import PageHero from '../../components/PageHero.astro';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { blogPosts, blogCategories } from '../../data/blogPosts.js';
 
 const title = "China Sourcing Guides for Irish Businesses | Ériu Sourcing";
@@ -33,14 +33,13 @@ const remainingPosts = sortedPosts.slice(1);
 <BaseLayout title={title} description={description} canonical="/blog/" jsonLd={pageSchemas}>
 
   <!-- HERO -->
-  <section class="blog-hero section">
-    <div class="container--narrow">
-      <Breadcrumbs items={[{ label: 'Blog' }]} />
-      <span class="section-eyebrow">Content Hub</span>
-      <h1>China sourcing, straight from the factory floor.</h1>
-      <p class="lead">Practical guides for Irish businesses importing direct from China. No fluff, no Alibaba cheerleading. Written by someone who has been on the ground in Shenzhen and Zhengzhou for 18 years.</p>
-    </div>
-  </section>
+  <PageHero
+    breadcrumbs={[{ label: 'Blog' }]}
+    eyebrow="Content Hub"
+    h1="China sourcing, straight from the factory floor."
+    lead="Practical guides for businesses importing direct from China. No fluff, no Alibaba cheerleading. Written by people who have been on the ground in Shenzhen and Zhengzhou for 18 years."
+    image={{ src: "/images/noel-murphy-factory-floor-dongguan", alt: "Noel Murphy with a factory owner and a project manager on a busy production floor in Dongguan", width: 1600, height: 893, caption: "Where the guides come from: factory floors like this one in Dongguan." }}
+  />
 
   <!-- FEATURED POST -->
   {featuredPost && (

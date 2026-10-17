@@ -23,6 +23,10 @@ const categoryUrl = `${siteUrl}/source/${product.categoryFullSlug}/`;
 // Build-optimised hero image when a copy exists under src/assets/images;
 // otherwise the raw /public <img> is used (graceful, per-image migration).
 const heroImg = resolveImage(product.image);
+// Short product name for the closing CTA: the H1 up to its first comma, with the
+// first letter lowered unless it starts an acronym (PIR, LED, CCTV...).
+const firstPart = product.h1.split(',')[0];
+const ctaName = /^[A-Z][a-z]/.test(firstPart) ? firstPart[0].toLowerCase() + firstPart.slice(1) : firstPart;
 const heroWidths = heroImg ? responsiveWidths(heroImg, [400,600,900, 1200]) : [];
 
 // Sibling products in the same category, contextual internal links so deep
@@ -115,7 +119,31 @@ while (!product.regionShort && regionFigure.length > 24 && regionFigure.includes
       { href: `/source/${product.categoryFullSlug}/`, label: `See ${product.categoryLabel.toLowerCase()} category`, variant: 'secondary' }
     ]}
     lastReviewed={lastReviewedIso}
-  />
+  >
+    {heroImg ? (
+      <Image
+        slot="media"
+        src={heroImg}
+        alt={product.imageAlt}
+        widths={heroWidths}
+        sizes="(max-width: 960px) 100vw, 560px"
+        loading="eager"
+        fetchpriority="high"
+        decoding="async"
+      />
+    ) : (
+      <img
+        slot="media"
+        src={product.image}
+        alt={product.imageAlt}
+        width={product.imageWidth ?? 1400}
+        height={product.imageHeight ?? 934}
+        loading="eager"
+        fetchpriority="high"
+        decoding="async"
+      />
+    )}
+  </PageHero>
 
   <StatsRow items={[
     { figure: regionFigure, label: 'Manufacturing region' },
@@ -123,66 +151,35 @@ while (!product.regionShort && regionFigure.length > 24 && regionFigure.includes
     { figure: 'EN + CE', label: 'Compliance verified at factory' }
   ]} />
 
-  <!-- REGION CONTEXT -->
+  <!-- REGION + WHO BUYS -->
   <section class="section section--alt">
     <div class="container">
-      <div class="hub-grid">
-        <div class="hub-content">
+      <div class="pd-duo">
+        <div class="pd-card fade-up">
           <span class="section-eyebrow">Where this is made in China</span>
           <h2>{product.region}</h2>
           <p>{product.regionContext}</p>
           <a href="/china-network/" class="inline-link">See our full China network →</a>
         </div>
-        <div class="hub-image">
-          {heroImg ? (
-            <Image
-              src={heroImg}
-              alt={product.imageAlt}
-              widths={heroWidths}
-              sizes="(max-width: 900px) 100vw, 600px"
-              loading="lazy"
-              decoding="async"
-            />
-          ) : (
-            <img
-              src={product.image}
-              alt={product.imageAlt}
-              width={product.imageWidth ?? 1400}
-              height={product.imageHeight ?? 934}
-              loading="lazy"
-              decoding="async"
-            />
-          )}
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- WHO BUYS THIS -->
-  <section class="section">
-    <div class="container">
-      <div class="products-layout">
-        <div class="products-header">
+        <div class="pd-card pd-card--plain fade-up">
           <span class="section-eyebrow">{isGlobalProduct ? 'Who buys this' : 'Who buys this in Ireland'}</span>
           <h2>{isGlobalProduct ? 'Built for trade buyers, not consumers' : 'Built for Irish trade buyers, not consumers'}</h2>
+          <ul class="pd-checks">
+            {product.keyBuyers.map(buyer => <li>{buyer}</li>)}
+          </ul>
         </div>
-        <ul class="products-list">
-          {product.keyBuyers.map(buyer => (
-            <li>
-              <span class="product-check">✓</span>
-              <span>{buyer}</span>
-            </li>
-          ))}
-        </ul>
       </div>
     </div>
   </section>
 
   <!-- SPECIFICATIONS -->
   <section class="section section--alt">
-    <div class="container--narrow">
-      <span class="section-eyebrow">Specifications</span>
-      <h2>Technical specification</h2>
+    <div class="container split-section">
+      <div class="split-head">
+        <span class="section-eyebrow">Specifications</span>
+        <h2>Technical specification</h2>
+        <p>The typical range we source. Send your own spec and we match factories to it, then confirm every figure on the sample before you order.</p>
+      </div>
       <table class="spec-table">
         <tbody>
           {product.specifications.map(row => (
@@ -198,37 +195,45 @@ while (!product.regionShort && regionFigure.length > 24 && regionFigure.includes
 
   <!-- COMPLIANCE -->
   <section class="section section--emerald">
-    <div class="container--narrow">
-      <span class="section-eyebrow section-eyebrow--light">{isGlobalProduct ? 'Compliance for your market' : 'EU & Irish Compliance'}</span>
-      <h2>What we verify at the factory, before the container is sealed</h2>
+    <div class="container split-section">
+      <div class="split-head">
+        <span class="section-eyebrow section-eyebrow--light">{isGlobalProduct ? 'Compliance for your market' : 'EU & Irish Compliance'}</span>
+        <h2>What we verify at the factory, before the container is sealed</h2>
+        <p>Goods that fail compliance or pre-shipment QC stay in China at the factory's cost, you do not pay freight on non-compliant product.</p>
+        <a href="/contact/" class="btn btn--white-outline">Ask about compliance documentation →</a>
+      </div>
       <ul class="compliance-list">
         {product.compliance.map(item => (
           <li>{item}</li>
         ))}
       </ul>
-      <p style="margin-top:1.5rem">Goods that fail compliance or pre-shipment QC stay in China at the factory's cost, you do not pay freight on non-compliant product.</p>
-      <a href="/contact/" class="btn btn--white-outline" style="margin-top:1rem">Ask about compliance documentation →</a>
     </div>
   </section>
 
   <!-- PRICING + LOGISTICS -->
   <section class="section">
-    <div class="container--narrow editorial-body">
-      <span class="section-eyebrow">Landed-cost context</span>
-      <h2>{isGlobalProduct ? 'What this lands at, delivered to you' : 'What this lands at in Ireland'}</h2>
-      <p>{product.pricingContext}</p>
-      <h3>Lead time and logistics</h3>
-      <p><strong>Lead time:</strong> {product.leadTime}.</p>
-      <p>{product.logistics}</p>
+    <div class="container split-section">
+      <div class="split-head">
+        <span class="section-eyebrow">Landed-cost context</span>
+        <h2>{isGlobalProduct ? 'What this lands at, delivered to you' : 'What this lands at in Ireland'}</h2>
+        <p>{product.pricingContext}</p>
+      </div>
+      <div class="pd-card pd-card--plain">
+        <h3>Lead time and logistics</h3>
+        <p><strong>Lead time:</strong> {product.leadTime}.</p>
+        <p>{product.logistics}</p>
+      </div>
     </div>
   </section>
 
   {isGlobalProduct && (
     <section class="section section--alt">
-      <div class="container--narrow">
-        <span class="section-eyebrow">Your market</span>
-        <h2>Import rules for where you sell</h2>
-        <p>Tax, duty and certification differ by country. Each market page sets out what applies, with sources, and how we check it before you pay.</p>
+      <div class="container split-section">
+        <div class="split-head">
+          <span class="section-eyebrow">Your market</span>
+          <h2>Import rules for where you sell</h2>
+          <p>Tax, duty and certification differ by country. Each market page sets out what applies, with sources, and how we check it before you pay.</p>
+        </div>
         <ul class="sibling-links">
           {marketLinks.map(([t, h]) => <li><a href={h}>{t} <span aria-hidden="true">→</span></a></li>)}
         </ul>
@@ -249,18 +254,26 @@ while (!product.regionShort && regionFigure.length > 24 && regionFigure.includes
 
   <!-- FAQ -->
   <section class="section section--alt">
-    <div class="container--narrow">
-      <span class="section-eyebrow">Common questions</span>
-      <h2>{product.categoryLabel}, sourcing questions answered</h2>
+    <div class="container split-section">
+      <div class="split-head">
+        <span class="section-eyebrow">Common questions</span>
+        <h2>{product.categoryLabel}, sourcing questions answered</h2>
+        <p>Something not covered here? <a href={`/contact/?product=${encodeURIComponent(product.slug)}`} class="inline-link">Ask the team →</a></p>
+      </div>
       <FAQAccordion items={product.faq} />
     </div>
   </section>
 
   <!-- MORE IN CATEGORY -->
   <section class="section">
-    <div class="container--narrow">
-      <span class="section-eyebrow">More in {product.categoryLabel}</span>
-      <h2>Related products you can source direct</h2>
+    <div class="container split-section">
+      <div class="split-head">
+        <span class="section-eyebrow">More in {product.categoryLabel}</span>
+        <h2>Related products you can source direct</h2>
+        <a href={`/source/${product.categoryFullSlug}/`} class="btn btn--secondary">
+          ← Back to all {product.categoryLabel}
+        </a>
+      </div>
       {siblings.length > 0 && (
         <ul class="sibling-links">
           {siblings.map(s => (
@@ -268,15 +281,12 @@ while (!product.regionShort && regionFigure.length > 24 && regionFigure.includes
           ))}
         </ul>
       )}
-      <a href={`/source/${product.categoryFullSlug}/`} class="btn btn--secondary" style="margin-top:1.75rem">
-        ← Back to all {product.categoryLabel}
-      </a>
     </div>
   </section>
 
   <CtaSection
     eyebrow="Ready to start?"
-    h2={`Get factory-direct pricing for ${product.h1.toLowerCase()}`}
+    h2={`Get factory-direct pricing on ${ctaName}`}
     body="Send a brief, specification, quantity, timeline. We come back with factory-level pricing, a supplier shortlist, and a clear plan. No obligation."
     ctas={[
       { href: `/contact/?product=${encodeURIComponent(product.slug)}`, label: 'Get a quote →', variant: 'white-outline' }
@@ -322,10 +332,10 @@ while (!product.regionShort && regionFigure.length > 24 && regionFigure.includes
   .spec-table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 1.5rem;
+    margin-top: 0;
     background: #fff;
     border: 1px solid rgba(15, 33, 49, 0.1);
-    border-radius: 6px;
+    border-radius: 12px;
     overflow: hidden;
   }
 
