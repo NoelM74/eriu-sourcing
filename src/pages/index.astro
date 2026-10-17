@@ -238,9 +238,11 @@ const pageSchemas = [
           <span class="buyer-icon" aria-hidden="true">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
           </span>
-          <h3>Not sure where you fit?</h3>
-          <p>If your business model crosses categories, or you're not seeing yours listed, send a quick brief. Ten minutes is enough to figure out whether direct sourcing is right for you.</p>
-          <span class="buyer-link">Talk it through →</span>
+          <span class="buyer-banner-text">
+            <h3>Not sure where you fit?</h3>
+            <p>If your business model crosses categories, or you're not seeing yours listed, send a quick brief. Ten minutes is enough to figure out whether direct sourcing is right for you.</p>
+          </span>
+          <span class="buyer-link buyer-banner-cta">Talk it through →</span>
         </a>
       </div>
     </div>
@@ -358,12 +360,19 @@ const pageSchemas = [
         <p>Anyone can build a sourcing website in a weekend. Before you send a deposit to anyone, including us, check who is actually behind it. Here is everything you need to check us.</p>
       </div>
       <div class="proof-grid">
-        <figure class="proof-photo img-reveal">
+        <div class="proof-main">
+          <figure class="proof-photo img-reveal">
           <div class="proof-photo-frame">
             <img src="/images/eriu-sourcing-team-china-office.webp" srcset="/images/eriu-sourcing-team-china-office-sm.webp 800w, /images/eriu-sourcing-team-china-office.webp 1264w" sizes="(max-width: 900px) 100vw, 640px" alt="The Ériu Sourcing team in green polos, seated and standing in rows under the Ériu Sourcing sign in their office in China, with Noel Murphy in the centre" width="1264" height="848" loading="lazy" />
           </div>
           <figcaption>Part of our team of 53 in China. These are the people who buy, check and pack your goods.</figcaption>
         </figure>
+          <ul class="verify-list">
+            <li><strong>Registered companies:</strong> in mainland China, Hong Kong and Ireland (Springfield Tectop Limited, trading as Ériu Sourcing).</li>
+            <li><strong>Our offices:</strong> Shenzhen and Zhengzhou, China. That is where the team works and where your goods are checked.</li>
+            <li><strong>Talk to us:</strong> <a href="https://wa.me/353871187806" rel="noopener" target="_blank">WhatsApp Noel and the team</a> on +353 87 118 7806.</li>
+          </ul>
+        </div>
         <div class="proof-side">
           <ol class="timeline">
             <li><span class="tl-year">2008</span><span class="tl-text">Noel Murphy moves to China and starts working directly with factories in Guangdong, Henan, Zhejiang and Fujian.</span></li>
@@ -371,10 +380,6 @@ const pageSchemas = [
             <li><span class="tl-year">2015</span><span class="tl-text">Springfield Tectop Limited incorporated in Ireland. Ériu Sourcing is its trading name.</span></li>
             <li><span class="tl-year">Today</span><span class="tl-text">A 53-person team on the ground, 47 in Shenzhen and 6 in Zhengzhou, with our own warehouse space.</span></li>
           </ol>
-          <ul class="verify-list">
-            <li><strong>Our offices:</strong> Shenzhen and Zhengzhou, China. That is where the team works and where your goods are checked.</li>
-            <li><strong>Talk to us:</strong> <a href="https://wa.me/353871187806" rel="noopener" target="_blank">WhatsApp Noel and the team</a> on +353 87 118 7806.</li>
-          </ul>
           <a href="/about/" class="btn btn--secondary">Meet the team →</a>
         </div>
       </div>
@@ -763,8 +768,19 @@ const pageSchemas = [
   }
 
   .buyer-card--neutral {
-    background: rgba(26, 83, 62, 0.04);
-    border-style: dashed;
+    grid-column: 1 / -1;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.75rem 2rem;
+    background: linear-gradient(100deg, rgba(26, 83, 62, 0.07), rgba(26, 83, 62, 0.02));
+    border-color: rgba(26, 83, 62, 0.25);
+  }
+  .buyer-banner-text { flex: 1; display: grid; gap: .35rem; }
+  .buyer-banner-cta { margin: 0; white-space: nowrap; padding: .8rem 1.25rem; border-radius: 8px; background: var(--color-emerald); color: #fff !important; transition: transform .2s ease; }
+  .buyer-card--neutral:hover .buyer-banner-cta { transform: translateX(3px); }
+  @media (max-width: 600px) {
+    .buyer-card--neutral { flex-direction: column; align-items: flex-start; }
   }
 
   .buyer-icon {
@@ -838,6 +854,8 @@ const pageSchemas = [
   .proof-head p { color: #4a4a4a; font-size: 1.0625rem; line-height: 1.7; }
   .proof-grid { display: grid; grid-template-columns: 1.15fr 1fr; gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
   .proof-photo { margin: 0; }
+  .proof-main .verify-list { margin: 1.75rem 0 0; }
+  .proof-side { align-self: center; }
   .proof-photo-frame { border-radius: 14px; overflow: hidden; box-shadow: 0 18px 40px rgba(15, 33, 49, .14); }
   .proof-photo-frame img { width: 100%; height: auto; display: block; transition: transform 1.2s cubic-bezier(.2,.8,.2,1); }
   .proof-photo:hover .proof-photo-frame img { transform: scale(1.03); }
