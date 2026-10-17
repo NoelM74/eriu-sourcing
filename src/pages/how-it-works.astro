@@ -97,6 +97,7 @@ const steps = [
       'For regulated products (electronics, construction materials, children\'s apparel), we verify CE marking documentation and EU compliance standards at the point of origin. Problems fixed in China are cheap. Problems fixed after the goods land in Dublin are expensive.',
     ],
     detail: 'Inspection covers: product count, visual quality, labelling and packaging requirements, certification verification, and carton/pallet spec.',
+    photo: { src: '/images/eriu-team-final-inspection-cartons', alt: 'An Ériu team member in a green Ériu Sourcing polo with a colleague beside pallets of finished cartons at a final inspection before shipping', caption: 'Final inspection by our team, before the goods ship.' },
   },
   {
     num: '04',
@@ -106,6 +107,7 @@ const steps = [
       'You get advance shipment notification, tracking references, and a clear landed cost breakdown, no surprises at the port.',
     ],
     detail: 'Transit times: ~25–35 days sea freight from Shenzhen/Guangzhou to Dublin. Air freight available for urgent, lower-volume shipments.',
+    photo: { src: '/images/eriu-warehouse-team-china', alt: 'The Ériu warehouse team in green polos giving a thumbs up on the warehouse floor in China, cartons and racking behind them', caption: 'Our warehouse team in China, where orders are packed and checked before dispatch.' },
   },
 ];
 
@@ -153,6 +155,12 @@ const tiers = [
               <div class="step-detail">
                 <strong>Detail: </strong>{step.detail}
               </div>
+              {step.photo && (
+                <figure class="step-photo img-reveal">
+                  <div class="step-photo-frame"><img src={`${step.photo.src}.webp`} srcset={`${step.photo.src}-sm.webp 800w, ${step.photo.src}.webp 1200w`} sizes="(max-width: 760px) 100vw, 640px" alt={step.photo.alt} width="1200" height="896" loading="lazy" /></div>
+                  <figcaption>{step.photo.caption}</figcaption>
+                </figure>
+              )}
             </div>
           </li>
         ))}
@@ -225,6 +233,11 @@ const tiers = [
 </BaseLayout>
 
 <style>
+  .step-photo { margin: 1.5rem 0 0; max-width: 640px; }
+  .step-photo-frame { border-radius: 14px; overflow: hidden; aspect-ratio: 16 / 10; box-shadow: 0 16px 40px rgba(15, 33, 49, .12); }
+  .step-photo-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center 40%; display: block; transition: transform 1s cubic-bezier(.2,.8,.2,1); }
+  .step-photo:hover .step-photo-frame img { transform: scale(1.04); }
+  .step-photo figcaption { margin-top: .6rem; font-size: .8125rem; color: #6b6b6b; }
   /* Page-local styles, hero/FAQ/CTA moved into shared components. */
 
   /* STEPS */
