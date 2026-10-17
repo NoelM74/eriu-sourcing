@@ -32,21 +32,21 @@ const lastReviewed = new Date().toLocaleDateString('en-IE', {
 const categoryProducts = products.filter(p => p.categoryFullSlug === page.slug);
 
 const caseStudyMap: Record<string, { anchor: string; label: string }> = {
-  'electronics-from-china-ireland': { anchor: 'electronics', label: 'Electronics Retail case study' },
-  'construction-materials-from-china-ireland': { anchor: 'construction', label: 'Construction & Materials case study' },
-  'hospitality-fitout-from-china-ireland': { anchor: 'hospitality', label: 'Hospitality Fit-Out case study' },
+  'electronics-from-china': { anchor: 'electronics', label: 'Electronics Retail case study' },
+  'construction-materials-from-china': { anchor: 'construction', label: 'Construction & Materials case study' },
+  'hospitality-fitout-from-china': { anchor: 'hospitality', label: 'Hospitality Fit-Out case study' },
 };
 const caseStudy = caseStudyMap[page.slug] ?? null;
 
 // Pull category-matched client testimonials for this pillar. Pages with no
 // matching live quote render nothing (the component is self-gating).
 const testimonialTagMap: Record<string, string[]> = {
-  'furniture-from-china-ireland': ['furniture'],
-  'construction-materials-from-china-ireland': ['building-materials'],
-  'building-materials-production-systems-from-china-ireland': ['building-materials'],
-  'modular-buildings-from-china-ireland': ['modular-buildings'],
-  'industrial-workshop-equipment-from-china-ireland': ['industrial-equipment'],
-  'logistics-warehouse-equipment-from-china-ireland': ['logistics'],
+  'furniture-from-china': ['furniture'],
+  'construction-materials-from-china': ['building-materials'],
+  'building-materials-production-systems-from-china': ['building-materials'],
+  'modular-buildings-from-china': ['modular-buildings'],
+  'industrial-workshop-equipment-from-china': ['industrial-equipment'],
+  'logistics-warehouse-equipment-from-china': ['logistics'],
 };
 const categoryQuotes = getByTags(testimonialTagMap[page.slug] ?? []);
 
@@ -54,12 +54,18 @@ const categoryQuotes = getByTags(testimonialTagMap[page.slug] ?? []);
 const pageSchemas = [
   {
     "@type": "Service",
-    "name": `${page.eyebrow}, China Direct Sourcing for Ireland`,
+    "name": `${page.eyebrow}, Factory-Direct Sourcing from China`,
     "description": page.description,
     "provider": { "@type": "ProfessionalService", "@id": `${siteUrl}/#organization` },
     "areaServed": [
       { "@type": "Country", "name": "Ireland" },
-      { "@type": "Country", "name": "United Kingdom" }
+      { "@type": "Country", "name": "United Kingdom" },
+      { "@type": "Place", "name": "European Union" },
+      { "@type": "Country", "name": "United States" },
+      { "@type": "Country", "name": "Canada" },
+      { "@type": "Country", "name": "Australia" },
+      { "@type": "Country", "name": "United Arab Emirates" },
+      { "@type": "Country", "name": "South Africa" }
     ],
     "serviceType": "China Sourcing Agent",
     "dateModified": new Date().toISOString().split('T')[0]
@@ -102,9 +108,9 @@ const pageSchemas = [
   </PageHero>
 
   <StatsRow items={[
-    { figure: page.savings, label: 'Typical saving vs Irish wholesale' },
+    { figure: page.savings, label: 'Typical saving vs local wholesale' },
     { figure: '18 yrs', label: 'China factory experience' },
-    { figure: page.leadTime, label: 'Typical lead time to Ireland' },
+    { figure: page.leadTime, label: 'Typical lead time' },
     { figure: page.minOrderShort, label: 'Min. order range' }
   ]} />
 
@@ -137,7 +143,7 @@ const pageSchemas = [
         <span class="section-eyebrow">Product-level sourcing guides</span>
         <h2>Specific products we source in {page.eyebrow.toLowerCase()}</h2>
         <p style="max-width:64ch;color:#3a3a3a;margin-bottom:2rem">
-          Deeper, product-specific guides covering manufacturing region, technical specification, EU compliance, and landed-cost context for Ireland.
+          Deeper, product-specific guides covering manufacturing region, technical specification, compliance for your market, and landed-cost context.
         </p>
         <ul class="product-guide-grid">
           {categoryProducts.map(p => (
@@ -159,13 +165,13 @@ const pageSchemas = [
   <section class="section section--emerald">
     <div class="container split-section">
       <div class="split-head">
-        <span class="section-eyebrow section-eyebrow--light">EU & Irish Compliance</span>
-        <h2>CE compliance verified at source, not at Dublin Port</h2>
+        <span class="section-eyebrow section-eyebrow--light">Compliance for your market</span>
+        <h2>Compliance checked at the factory, not at your port</h2>
         <a href="/contact/" class="btn btn--white-outline">Ask about compliance documentation →</a>
       </div>
       <div>
         <p>{page.ceNote}</p>
-        <p>Every order includes full compliance documentation. Goods that do not meet Irish and EU standards stay in China at the factory's cost, you do not pay freight on non-compliant products.</p>
+        <p>Every order includes full compliance documentation. Goods that do not meet the standards for your market stay in China at the factory's cost, you do not pay freight on non-compliant products.</p>
       </div>
     </div>
   </section>
@@ -174,7 +180,7 @@ const pageSchemas = [
   <section class="section">
     <div class="container">
       <span class="section-eyebrow">How it works</span>
-      <h2>From your brief to goods landed in Ireland</h2>
+      <h2>From your brief to goods landed at your door</h2>
       <div class="process-steps">
         <div class="process-step">
           <span class="step-num">01</span>
@@ -193,8 +199,8 @@ const pageSchemas = [
         </div>
         <div class="process-step">
           <span class="step-num">04</span>
-          <h3>Freight to Ireland</h3>
-          <p>Sea freight from China to Ireland in {page.leadTime}. Full documentation for Dublin Port customs clearance provided.</p>
+          <h3>Freight to your market</h3>
+          <p>Sea, rail, air or express to your port or door, with the carrier schedule confirmed in your quote. Full documentation for customs clearance provided.</p>
         </div>
       </div>
       <div style="margin-top:2rem">

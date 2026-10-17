@@ -37,7 +37,7 @@ export const products = [
   {
     slug: 'aluminium-window-profiles-china-ireland',
     categorySlug: 'construction-materials',
-    categoryFullSlug: 'construction-materials-from-china-ireland',
+    categoryFullSlug: 'construction-materials-from-china',
     categoryLabel: 'Construction Materials',
     title: 'Aluminium Window Profiles from China to Ireland | Ériu',
     description: 'Source aluminium window and door profiles direct from Henan. EN 12020-2 compliant, thermal-break and standard systems, 35–50% below Irish trade.',
@@ -101,7 +101,7 @@ export const products = [
   {
     slug: 'porcelain-floor-tiles-600x600-china-ireland',
     categorySlug: 'construction-materials',
-    categoryFullSlug: 'construction-materials-from-china-ireland',
+    categoryFullSlug: 'construction-materials-from-china',
     categoryLabel: 'Construction Materials',
     title: 'Porcelain Floor Tiles 600x600 China to Ireland | Ériu',
     description: 'Factory-direct porcelain floor tiles (600x600, 800x800, large format) from China. EN 14411 BIa rectified, slip-rated. 40–55% below Irish tile retail.',
@@ -165,7 +165,7 @@ export const products = [
   {
     slug: 'pir-sandwich-panels-china-ireland',
     categorySlug: 'construction-materials',
-    categoryFullSlug: 'construction-materials-from-china-ireland',
+    categoryFullSlug: 'construction-materials-from-china',
     categoryLabel: 'Construction Materials',
     title: 'PIR Insulated Sandwich Panels China to Ireland | Ériu',
     description: 'Factory-direct PIR insulated sandwich panels for wall and roof, fire-rated, EN 14509 compliant. Cold-storage and industrial-grade. 30–45% below Irish trade.',
@@ -230,7 +230,7 @@ export const products = [
   {
     slug: 'commercial-led-lighting-china-ireland',
     categorySlug: 'construction-materials',
-    categoryFullSlug: 'construction-materials-from-china-ireland',
+    categoryFullSlug: 'construction-materials-from-china',
     categoryLabel: 'Construction Materials',
     title: 'Commercial LED Lighting China to Ireland | Ériu',
     description: 'Factory-direct commercial LED lighting from Guzhen, Zhongshan, pendants, downlights, panels, linear, track. EN 60598 / CE / RoHS. 45–60% below Irish trade.',
@@ -296,7 +296,7 @@ export const products = [
   {
     slug: 'sanitaryware-china-ireland',
     categorySlug: 'construction-materials',
-    categoryFullSlug: 'construction-materials-from-china-ireland',
+    categoryFullSlug: 'construction-materials-from-china',
     categoryLabel: 'Construction Materials',
     title: 'Sanitaryware China to Ireland, WCs, Basins, Taps | Ériu',
     description: 'Factory-direct sanitaryware from Foshan and Chaozhou, WCs, basins, baths, shower enclosures, taps. EN 997 / EN 14516. 40–55% below Irish trade.',
@@ -363,7 +363,7 @@ export const products = [
   {
     slug: 'aluminium-composite-panels-cladding-china-ireland',
     categorySlug: 'construction-materials',
-    categoryFullSlug: 'construction-materials-from-china-ireland',
+    categoryFullSlug: 'construction-materials-from-china',
     categoryLabel: 'Construction Materials',
     title: 'Aluminium Composite Panels China to Ireland, A2 Fire | Ériu',
     description: 'Factory-direct ACP cladding from Shanghai and Jiangsu, A2 fire-rated, 4 mm, PVDF coatings. EN 13501-1 verified. 35–50% below Irish trade.',
@@ -429,7 +429,7 @@ export const products = [
   {
     slug: 'construction-fasteners-china-ireland',
     categorySlug: 'construction-materials',
-    categoryFullSlug: 'construction-materials-from-china-ireland',
+    categoryFullSlug: 'construction-materials-from-china',
     categoryLabel: 'Construction Materials',
     title: 'Construction Fasteners from China to Ireland | Ériu',
     description: 'Factory-direct fasteners from Yongnian, Hebei, high-tensile bolts, screws, anchors, structural fixings. EN 14399 / EN 15048. 50–65% below Irish trade.',
@@ -497,7 +497,7 @@ export const products = [
   {
     slug: 'concrete-machinery-changsha-china-ireland',
     categorySlug: 'machinery',
-    categoryFullSlug: 'machinery-from-china-ireland',
+    categoryFullSlug: 'machinery-from-china',
     categoryLabel: 'Machinery',
     title: 'Concrete Machinery from Changsha to Ireland & UK | Ériu',
     description: 'Source concrete pumps, mixer trucks and batching plants direct from the Changsha cluster, the world\'s concrete-machinery capital. 25–40% below dealer.',
@@ -566,7 +566,7 @@ export const products = [
   {
     slug: 'crushing-mining-equipment-zhengzhou-china-ireland',
     categorySlug: 'machinery',
-    categoryFullSlug: 'machinery-from-china-ireland',
+    categoryFullSlug: 'machinery-from-china',
     categoryLabel: 'Machinery',
     title: 'Crushing & Mining Equipment Zhengzhou to Ireland | Ériu',
     description: 'Source jaw, cone and impact crushers and mobile crushing plants direct from the Zhengzhou cluster, China\'s crusher capital. 30–45% below UK dealer.',
@@ -631,7 +631,7 @@ export const products = [
   {
     slug: 'agricultural-tractors-luoyang-yto-china-ireland',
     categorySlug: 'machinery',
-    categoryFullSlug: 'machinery-from-china-ireland',
+    categoryFullSlug: 'machinery-from-china',
     categoryLabel: 'Machinery',
     title: 'Agricultural Tractors from Luoyang to Ireland & UK | Ériu',
     description: 'Source compact and full-size tractors direct from the Luoyang cluster, China\'s tractor heartland since 1955. To Irish farms, 50–60% below dealer.',
@@ -696,7 +696,7 @@ export const products = [
   {
     slug: 'excavators-earthmoving-xuzhou-xcmg-china-ireland',
     categorySlug: 'machinery',
-    categoryFullSlug: 'machinery-from-china-ireland',
+    categoryFullSlug: 'machinery-from-china',
     categoryLabel: 'Machinery',
     title: 'Excavators & Earthmoving from Xuzhou to Ireland | Ériu',
     description: 'Source crawler excavators, wheel loaders and earthmoving equipment direct from the Xuzhou cluster, China\'s largest construction-machinery hub. 25–40% below.',
@@ -761,7 +761,7 @@ export const products = [
   {
     slug: 'forklifts-material-handling-hefei-heli-china-ireland',
     categorySlug: 'machinery',
-    categoryFullSlug: 'machinery-from-china-ireland',
+    categoryFullSlug: 'machinery-from-china',
     categoryLabel: 'Machinery',
     title: 'Forklifts & Material Handling from Hefei to Ireland | Ériu',
     description: 'Source forklifts, pallet trucks and warehouse equipment direct from the Hefei cluster, China\'s largest forklift-manufacturing base. 20–30% below dealer.',
@@ -828,7 +828,7 @@ export const products = [
   {
     slug: 'commercial-bounce-houses-henan-china-ireland',
     categorySlug: 'inflatables',
-    categoryFullSlug: 'commercial-inflatables-from-china-ireland',
+    categoryFullSlug: 'commercial-inflatables-from-china',
     categoryLabel: 'Commercial Inflatables',
     title: 'Commercial Bounce Houses from Henan to Ireland | Ériu',
     description: 'Source commercial bounce houses, castles and obstacle courses direct from Zhengzhou-Xinxiang Henan. EN 14960 compliant, 40–60% below UK event-hire trade.',
@@ -893,7 +893,7 @@ export const products = [
   {
     slug: 'inflatable-water-parks-henan-china-ireland',
     categorySlug: 'inflatables',
-    categoryFullSlug: 'commercial-inflatables-from-china-ireland',
+    categoryFullSlug: 'commercial-inflatables-from-china',
     categoryLabel: 'Commercial Inflatables',
     title: 'Inflatable Water Parks from Henan to Ireland | Ériu',
     description: 'Source modular floating inflatable water parks direct from Henan, for Irish holiday parks, lake attractions and leisure operators. EN-compliant, 45–55% below.',
@@ -960,7 +960,7 @@ export const products = [
   {
     slug: 'steel-office-furniture-luoyang-henan-china-ireland',
     categorySlug: 'furniture',
-    categoryFullSlug: 'furniture-from-china-ireland',
+    categoryFullSlug: 'furniture-from-china',
     categoryLabel: 'Furniture',
     title: 'Steel Office Furniture from Luoyang to Ireland | Ériu',
     description: 'Source steel lockers, filing cabinets, shelving and dormitory beds direct from the Luoyang cluster, China\'s largest steel-furniture base. 50–60% below trade.',
@@ -1028,7 +1028,7 @@ export const products = [
   {
     slug: 'lab-grown-diamond-cutting-tools-zhecheng-xuchang-henan-china-ireland',
     categorySlug: 'cutting-tools',
-    categoryFullSlug: 'industrial-cutting-tools-from-china-ireland',
+    categoryFullSlug: 'industrial-cutting-tools-from-china',
     categoryLabel: 'Industrial Cutting Tools',
     title: 'Diamond Cutting Tools from Henan to Ireland | Ériu',
     description: 'Source diamond saw blades, core bits, CBN wheels and PCD inserts direct from the Zhecheng-Xuchang Henan cluster, China\'s diamond capital. 40–55% below trade.',
@@ -1096,7 +1096,7 @@ export const products = [
   {
     slug: 'wpc-composite-fencing-china-ireland',
     categorySlug: 'construction-materials',
-    categoryFullSlug: 'construction-materials-from-china-ireland',
+    categoryFullSlug: 'construction-materials-from-china',
     categoryLabel: 'Construction Materials',
     title: 'WPC Composite Fencing from China to Ireland | Ériu Sourcing',
     description: 'Source premium capped WPC composite fencing, boards, posts, caps, gravel boards, direct from inland-China extrusion factories. 55–65% below landscape trade.',
@@ -1162,7 +1162,7 @@ export const products = [
   {
     slug: 'decorative-interior-wall-panels-china-ireland',
     categorySlug: 'construction-materials',
-    categoryFullSlug: 'construction-materials-from-china-ireland',
+    categoryFullSlug: 'construction-materials-from-china',
     categoryLabel: 'Construction Materials',
     title: 'Decorative Interior Wall Panels China to Ireland | Ériu',
     description: 'Source premium SPC and PVC decorative wall panels, marble, woodgrain, stone-look, direct from inland-China factories. For the fit-out trade, 60–70% below.',
@@ -1228,7 +1228,7 @@ export const products = [
   {
     slug: 'epoxy-resin-flooring-china-ireland',
     categorySlug: 'construction-materials',
-    categoryFullSlug: 'construction-materials-from-china-ireland',
+    categoryFullSlug: 'construction-materials-from-china',
     categoryLabel: 'Construction Materials',
     title: 'Epoxy Resin Flooring Systems China to Ireland | Ériu',
     description: 'Source two-part industrial epoxy resin flooring, self-levelling, anti-slip, ESD, food-grade, direct from inland-China makers. 55–65% below Irish trade.',
@@ -1294,7 +1294,7 @@ export const products = [
   {
     slug: 'spc-lvt-rigid-core-flooring-china-ireland',
     categorySlug: 'construction-materials',
-    categoryFullSlug: 'construction-materials-from-china-ireland',
+    categoryFullSlug: 'construction-materials-from-china',
     categoryLabel: 'Construction Materials',
     title: 'SPC / LVT Rigid-Core Flooring China to Ireland | Ériu',
     description: 'Source premium SPC and LVT rigid-core click flooring direct from inland-China factories, residential, contract and commercial grades. 60–70% below trade.',
@@ -1362,7 +1362,7 @@ export const products = [
   {
     slug: 'refractory-bricks-xinmi-henan-china-ireland',
     categorySlug: 'construction-materials',
-    categoryFullSlug: 'construction-materials-from-china-ireland',
+    categoryFullSlug: 'construction-materials-from-china',
     categoryLabel: 'Construction Materials',
     title: 'Refractory Bricks from Xinmi, Henan to Ireland & UK | Ériu',
     description: 'Source high-alumina, magnesia and silica refractory bricks and castables direct from Xinmi, China\'s refractory capital. 45–55% below UK trade pricing.',
@@ -1428,7 +1428,7 @@ export const products = [
   {
     slug: 'pir-sandwich-panels-jiangsu-henan-china-ireland',
     categorySlug: 'construction-materials',
-    categoryFullSlug: 'construction-materials-from-china-ireland',
+    categoryFullSlug: 'construction-materials-from-china',
     categoryLabel: 'Construction Materials',
     title: 'PIR Sandwich Panels Jiangsu & Henan to Ireland | Ériu',
     description: 'Source PIR, PUR and mineral-wool sandwich panels direct from inland China, Jiangsu for premium spec, Henan for value-tier. 45–65% below Irish trade.',
@@ -1494,7 +1494,7 @@ export const products = [
   {
     slug: 'panel-bedroom-furniture-lankao-henan-china-ireland',
     categorySlug: 'furniture',
-    categoryFullSlug: 'furniture-from-china-ireland',
+    categoryFullSlug: 'furniture-from-china',
     categoryLabel: 'Furniture',
     title: 'Panel Bedroom Furniture from Lankao to Ireland | Ériu',
     description: 'Source flat-pack wardrobes, chests and bedside cabinets direct from the Lankao Henan panel-furniture cluster. Value-tier, 55–65% below Irish trade.',
@@ -1562,7 +1562,7 @@ export const products = [
   {
     slug: 'engineered-quartz-stone-countertops-china-ireland',
     categorySlug: 'construction-materials',
-    categoryFullSlug: 'construction-materials-from-china-ireland',
+    categoryFullSlug: 'construction-materials-from-china',
     categoryLabel: 'Construction Materials',
     title: 'Engineered Quartz Stone Countertops China–Ireland | Ériu',
     description: 'Engineered quartz and sintered-stone countertop slabs direct from inland-China factories, calibrated, polished, NSF-grade, 45–60% below Irish trade.',
@@ -1628,7 +1628,7 @@ export const products = [
   {
     slug: 'frameless-glass-balustrades-china-ireland',
     categorySlug: 'construction-materials',
-    categoryFullSlug: 'construction-materials-from-china-ireland',
+    categoryFullSlug: 'construction-materials-from-china',
     categoryLabel: 'Construction Materials',
     title: 'Frameless Glass Balustrades China to Ireland | Ériu',
     description: 'Source frameless glass balustrades, toughened-laminated panels and fittings direct from inland-China glass factories. EN 12150 / EN 14449. 40–55% below.',
@@ -1694,7 +1694,7 @@ export const products = [
   {
     slug: 'suspended-ceiling-systems-china-ireland',
     categorySlug: 'construction-materials',
-    categoryFullSlug: 'construction-materials-from-china-ireland',
+    categoryFullSlug: 'construction-materials-from-china',
     categoryLabel: 'Construction Materials',
     title: 'Suspended Ceiling Systems China to Ireland | Ériu',
     description: 'Source suspended ceiling tiles, T-bar grid and perimeter trim direct from inland-China factories. Mineral-fibre + metal, 45–60% below Irish trade.',
@@ -1760,7 +1760,7 @@ export const products = [
   {
     slug: 'wpc-composite-decking-china-ireland',
     categorySlug: 'construction-materials',
-    categoryFullSlug: 'construction-materials-from-china-ireland',
+    categoryFullSlug: 'construction-materials-from-china',
     categoryLabel: 'Construction Materials',
     title: 'WPC Composite Decking China to Ireland | Ériu',
     description: 'Source capped WPC composite decking, boards, joists, clips and trims, direct from inland-China extrusion factories. 25-year grade, 55–65% below trade.',
@@ -1826,7 +1826,7 @@ export const products = [
   {
     slug: 'kitchen-cabinetry-china-ireland',
     categorySlug: 'construction-materials',
-    categoryFullSlug: 'construction-materials-from-china-ireland',
+    categoryFullSlug: 'construction-materials-from-china',
     categoryLabel: 'Construction Materials',
     title: 'Kitchen Cabinetry Sourcing China to Ireland | Ériu',
     description: 'Source bespoke and modular kitchen cabinetry, lacquer, veneer, shaker, handleless, direct from inland-China joinery factories. 45–60% below Irish trade.',
@@ -1892,7 +1892,7 @@ export const products = [
   {
     slug: 'plumbing-fittings-brass-pex-china-ireland',
     categorySlug: 'construction-materials',
-    categoryFullSlug: 'construction-materials-from-china-ireland',
+    categoryFullSlug: 'construction-materials-from-china',
     categoryLabel: 'Construction Materials',
     title: 'Plumbing Fittings China to Ireland, Brass, PEX | Ériu',
     description: 'Source brass, PEX and copper plumbing fittings, valves and manifolds, direct from inland-China factories. DZR brass, WRAS-grade. 40–55% below Irish trade.',
@@ -1958,7 +1958,7 @@ export const products = [
   {
     slug: 'grc-gfrc-architectural-panels-china-ireland',
     categorySlug: 'construction-materials',
-    categoryFullSlug: 'construction-materials-from-china-ireland',
+    categoryFullSlug: 'construction-materials-from-china',
     categoryLabel: 'Construction Materials',
     title: 'GRC / GFRC Architectural Panels China to Ireland | Ériu',
     description: 'Source GRC / GFRC architectural cladding, facade panels, screens and mouldings direct from inland-China factories. A1 non-combustible, 40–55% below Irish trade.',
@@ -2024,7 +2024,7 @@ export const products = [
   {
     slug: 'timber-doors-fire-rated-doorsets-china-ireland',
     categorySlug: 'construction-materials',
-    categoryFullSlug: 'construction-materials-from-china-ireland',
+    categoryFullSlug: 'construction-materials-from-china',
     categoryLabel: 'Construction Materials',
     title: 'Timber Doors & Fire-Rated Doorsets China–Ireland | Ériu',
     description: 'Engineered timber doors and FD30/FD60 fire-rated doorsets direct from inland-China factories, veneer + laminate, certified cores, 40–55% below Irish trade.',
@@ -2092,7 +2092,7 @@ export const products = [
     global: true,
     slug: 'cctv-ip-security-cameras-from-china',
     categorySlug: 'electronics',
-    categoryFullSlug: 'electronics-from-china-ireland',
+    categoryFullSlug: 'electronics-from-china',
     categoryLabel: 'Electronics',
     title: 'CCTV & IP Security Cameras Factory-Direct from China | Ériu',
     description: 'IP/CCTV cameras and NVR systems direct from Shenzhen: PoE, 4K, ONVIF, white-label, with compliance documents matched to your market. Shipped worldwide.',
@@ -2154,7 +2154,7 @@ export const products = [
     global: true,
     slug: 'network-switches-equipment-from-china',
     categorySlug: 'electronics',
-    categoryFullSlug: 'electronics-from-china-ireland',
+    categoryFullSlug: 'electronics-from-china',
     categoryLabel: 'Electronics',
     title: 'Network Switches & Wi-Fi Equipment from China | Ériu',
     description: 'Managed and PoE switches, routers and Wi-Fi 6 access points direct from Shenzhen, white-label or branded, with compliance matched to your market. Shipped worldwide.',
@@ -2216,7 +2216,7 @@ export const products = [
     global: true,
     slug: 'smart-home-iot-devices-from-china',
     categorySlug: 'electronics',
-    categoryFullSlug: 'electronics-from-china-ireland',
+    categoryFullSlug: 'electronics-from-china',
     categoryLabel: 'Electronics',
     title: 'White-Label Smart Home & IoT Devices from China | Ériu',
     description: 'White-label smart plugs, switches, sensors and gateways from Shenzhen: Matter, Zigbee, Wi-Fi, with cybersecurity rules checked for your market. Shipped worldwide.',
@@ -2278,7 +2278,7 @@ export const products = [
     global: true,
     slug: 'digital-signage-displays-from-china',
     categorySlug: 'electronics',
-    categoryFullSlug: 'electronics-from-china-ireland',
+    categoryFullSlug: 'electronics-from-china',
     categoryLabel: 'Electronics',
     title: 'Commercial Digital Signage & Displays from China | Ériu',
     description: 'Commercial digital signage, touchscreens and high-brightness displays direct from Shenzhen, energy-label and safety paperwork checked for your market. Shipped worldwide.',
@@ -2340,7 +2340,7 @@ export const products = [
     global: true,
     slug: 'pos-hardware-barcode-scanners-from-china',
     categorySlug: 'electronics',
-    categoryFullSlug: 'electronics-from-china-ireland',
+    categoryFullSlug: 'electronics-from-china',
     categoryLabel: 'Electronics',
     title: 'POS Hardware & Barcode Scanners from China | Ériu',
     description: 'EPOS terminals, barcode scanners, receipt printers and cash drawers direct from Shenzhen, white-label or branded, compliance matched to your market. Shipped worldwide.',
@@ -2401,7 +2401,7 @@ export const products = [
   {
     slug: 'phone-replacement-screens-china-ireland',
     categorySlug: 'electronics',
-    categoryFullSlug: 'electronics-from-china-ireland',
+    categoryFullSlug: 'electronics-from-china',
     categoryLabel: 'Electronics',
     title: 'Phone Replacement Screens from Shenzhen | Ériu',
     description: 'Replacement screens for iPhone and Samsung, bought in Shenzhen and tested one by one before they ship to Irish phone shops. In-cell, OLED and genuine pulls.',
@@ -2463,7 +2463,7 @@ export const products = [
   {
     slug: 'phone-replacement-batteries-china-ireland',
     categorySlug: 'electronics',
-    categoryFullSlug: 'electronics-from-china-ireland',
+    categoryFullSlug: 'electronics-from-china',
     categoryLabel: 'Electronics',
     title: 'Phone Replacement Batteries from Shenzhen | Ériu',
     description: 'Capacity-tested replacement batteries for iPhone and Samsung, with UN38.3 reports and lawful dangerous-goods shipping from Shenzhen to Irish phone shops.',
@@ -2522,7 +2522,7 @@ export const products = [
   {
     slug: 'phone-charging-ports-back-glass-cameras-china-ireland',
     categorySlug: 'electronics',
-    categoryFullSlug: 'electronics-from-china-ireland',
+    categoryFullSlug: 'electronics-from-china',
     categoryLabel: 'Electronics',
     title: 'Phone Repair Parts: Ports, Glass, Cameras | Ériu',
     description: 'Charging-port flexes, back glass, cameras, speakers and small parts for iPhone and Samsung repairs, sourced in Shenzhen and checked before they ship to Ireland.',
@@ -2576,7 +2576,7 @@ export const products = [
   {
     slug: 'phone-accessories-wholesale-china-ireland',
     categorySlug: 'electronics',
-    categoryFullSlug: 'electronics-from-china-ireland',
+    categoryFullSlug: 'electronics-from-china',
     categoryLabel: 'Electronics',
     title: 'Phone Accessories Wholesale from Shenzhen | Ériu',
     description: 'Screen protectors, cases, USB-C chargers and earbuds for Irish phone shops, sourced factory-direct in Shenzhen with CE, RED and common-charger rules checked.',
@@ -2638,7 +2638,7 @@ export const products = [
     global: true,
     slug: 'smartwatches-wearables-from-china',
     categorySlug: 'electronics',
-    categoryFullSlug: 'electronics-from-china-ireland',
+    categoryFullSlug: 'electronics-from-china',
     categoryLabel: 'Electronics',
     title: 'Smartwatches & Wearables Wholesale from Shenzhen | Ériu',
     description: 'Smartwatches, fitness bands, kids\' GPS watches and straps from Shenzhen factories, own-brand or stock, with radio and cybersecurity rules checked for your market.',
@@ -2695,7 +2695,7 @@ export const products = [
     global: true,
     slug: 'action-cameras-wearable-cameras-from-china',
     categorySlug: 'electronics',
-    categoryFullSlug: 'electronics-from-china-ireland',
+    categoryFullSlug: 'electronics-from-china',
     categoryLabel: 'Electronics',
     title: 'Action & Wearable Cameras from Shenzhen | Ériu',
     description: 'Action cameras, clip-on body cameras and dash cams from Shenzhen factories, sample-tested, with radio, charger and data rules checked for your market.',
@@ -2751,7 +2751,7 @@ export const products = [
   {
     slug: 'refurbished-phones-wholesale-china-ireland',
     categorySlug: 'electronics',
-    categoryFullSlug: 'electronics-from-china-ireland',
+    categoryFullSlug: 'electronics-from-china',
     categoryLabel: 'Electronics',
     title: 'Wholesale Refurbished Phones from Shenzhen | Ériu',
     description: 'Graded refurbished iPhones and Samsungs for Irish phone shops: IMEI and lock checks, battery health and function tests done in Shenzhen before shipping.',
@@ -2814,7 +2814,7 @@ export const products = [
     global: true,
     slug: 'home-battery-storage-systems-from-china',
     categorySlug: 'electronics',
-    categoryFullSlug: 'electronics-from-china-ireland',
+    categoryFullSlug: 'electronics-from-china',
     categoryLabel: 'Electronics',
     title: 'Home Battery Storage Systems from China, Factory-Direct | Ériu',
     description: 'LiFePO4 home batteries and hybrid inverters from the Huizhou and Shenzhen battery cluster, grid-code and battery paperwork checked for your market.',
@@ -2881,7 +2881,7 @@ export const products = [
     global: true,
     slug: 'portable-power-stations-from-china',
     categorySlug: 'electronics',
-    categoryFullSlug: 'electronics-from-china-ireland',
+    categoryFullSlug: 'electronics-from-china',
     categoryLabel: 'Electronics',
     title: 'Portable Power Stations from Shenzhen, Factory-Direct | Ériu',
     description: 'Portable power stations and folding solar panels from Shenzhen for retailers and own brands, capacity-tested, with UN38.3 and safety paperwork for your market.',
@@ -2939,7 +2939,7 @@ export const products = [
   {
     slug: 'hotel-bedroom-furniture-china-ireland',
     categorySlug: 'hospitality',
-    categoryFullSlug: 'hospitality-fitout-from-china-ireland',
+    categoryFullSlug: 'hospitality-fitout-from-china',
     categoryLabel: 'Hospitality Fit-Out',
     title: 'Hotel Bedroom Furniture from China to Ireland | Ériu',
     description: 'Source hotel bedroom furniture and casegoods direct from Foshan, beds, wardrobes, desks and headboards, EN 1021 fire-tested, 40–50% below Irish trade.',
@@ -2999,7 +2999,7 @@ export const products = [
   {
     slug: 'restaurant-bar-seating-china-ireland',
     categorySlug: 'hospitality',
-    categoryFullSlug: 'hospitality-fitout-from-china-ireland',
+    categoryFullSlug: 'hospitality-fitout-from-china',
     categoryLabel: 'Hospitality Fit-Out',
     title: 'Restaurant & Bar Seating from China to Ireland | Ériu',
     description: 'Source restaurant chairs, bar stools and banquette seating direct from Foshan, contract-grade, EN 1021 fire-tested, 40–50% below Irish trade.',
@@ -3059,7 +3059,7 @@ export const products = [
   {
     slug: 'lounge-lobby-sofas-soft-seating-china-ireland',
     categorySlug: 'hospitality',
-    categoryFullSlug: 'hospitality-fitout-from-china-ireland',
+    categoryFullSlug: 'hospitality-fitout-from-china',
     categoryLabel: 'Hospitality Fit-Out',
     title: 'Lounge & Lobby Sofas / Soft Seating China to Ireland | Ériu',
     description: 'Source hotel lobby and lounge sofas, armchairs and soft seating direct from the Lecong (Foshan) cluster, contract-grade, EN 1021-tested, 40–50% below trade.',
@@ -3119,7 +3119,7 @@ export const products = [
   {
     slug: 'hospitality-lighting-china-ireland',
     categorySlug: 'hospitality',
-    categoryFullSlug: 'hospitality-fitout-from-china-ireland',
+    categoryFullSlug: 'hospitality-fitout-from-china',
     categoryLabel: 'Hospitality Fit-Out',
     title: 'Hospitality & Decorative Lighting China to Ireland | Ériu',
     description: 'Source decorative & architectural hospitality lighting direct from Zhongshan, pendants, chandeliers, sconces and track, CE-verified, 40–50% below trade.',
@@ -3179,7 +3179,7 @@ export const products = [
   {
     slug: 'commercial-outdoor-furniture-china-ireland',
     categorySlug: 'hospitality',
-    categoryFullSlug: 'hospitality-fitout-from-china-ireland',
+    categoryFullSlug: 'hospitality-fitout-from-china',
     categoryLabel: 'Hospitality Fit-Out',
     title: 'Outdoor & Terrace Furniture China to Ireland | Ériu',
     description: 'Source commercial outdoor and terrace furniture direct from Foshan, all-weather dining sets, lounge and parasols, UV/weather-rated, 40–50% below Irish trade.',

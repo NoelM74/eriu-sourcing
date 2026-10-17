@@ -91,10 +91,10 @@ const orgSchema = {
   ],
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Springfield, Clonlara",
-    "addressLocality": "Co. Clare",
-    "postalCode": "V94 R2DX",
-    "addressCountry": "IE"
+    "streetAddress": "Meiban Road, Longhua District",
+    "addressLocality": "Shenzhen",
+    "addressRegion": "Guangdong",
+    "addressCountry": "CN"
   },
   "location": [
     {
@@ -104,7 +104,7 @@ const orgSchema = {
         "@type": "PostalAddress",
         "streetAddress": "3rd Floor Building D, Minle Industrial Park, Meiban Rd, Longhua",
         "addressLocality": "Shenzhen",
-        "postalCode": "318151",
+        "addressRegion": "Guangdong",
         "addressCountry": "CN"
       }
     },
@@ -113,15 +113,26 @@ const orgSchema = {
       "name": "Ériu Sourcing, Zhengzhou Office",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "2206 Unit 2, Nanyang Road, Huji",
+        "streetAddress": "2206 Unit 2, Nanyang Road, Huiji District",
         "addressLocality": "Zhengzhou",
+        "addressRegion": "Henan",
+        "addressCountry": "CN"
+      }
+    },
+    {
+      "@type": "Place",
+      "name": "Ériu Sourcing, Dongguan Warehouse",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dongguan",
+        "addressRegion": "Guangdong",
         "addressCountry": "CN"
       }
     }
   ],
   "telephone": "+353871187806",
   "priceRange": "€€",
-  "slogan": "Factory-direct China sourcing for Irish and UK businesses, without the middlemen.",
+  "slogan": "Factory-direct China sourcing, without the middlemen.",
   "founder": {
     "@type": "Person",
     "@id": `${siteUrl}/#founder`,

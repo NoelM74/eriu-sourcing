@@ -6,8 +6,8 @@ import { getByTags } from '../../data/testimonials.js';
 import { sourcingPages } from '../../data/sourcingPages.js';
 const sourceQuotes = getByTags(['general']);
 
-const title = "Source Products Direct from China to Ireland | Ériu Sourcing";
-const description = "Factory-direct sourcing from China to Ireland, electronics, furniture, construction materials, hospitality fit-out, pet supplies, modular and fiber optic.";
+const title = "Source Products Direct from China, Every Category | Ériu";
+const description = "Factory-direct sourcing from China for importers worldwide: electronics, furniture, construction materials, machinery, hospitality fit-out and more.";
 
 const siteUrl = 'https://eriusourcing.com';
 const pageSchemas = [
@@ -20,8 +20,8 @@ const pageSchemas = [
   },
   {
     "@type": "ItemList",
-    "name": "China Sourcing Categories, Ireland",
-    "description": "Seven product categories sourced factory-direct from China to Ireland by Ériu Sourcing.",
+    "name": "China Sourcing Categories",
+    "description": "Product categories sourced factory-direct from China by Ériu Sourcing, for importers worldwide.",
     "itemListElement": [
       ...sourcingPages.map((page, i) => ({
         "@type": "ListItem",
@@ -38,17 +38,17 @@ const pageSchemas = [
       {
         "@type": "Question",
         "name": "What product categories can Ériu Sourcing source from China?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Ériu Sourcing works across seven categories: electronics and technology, furniture and furnishings, construction and building materials, hospitality fit-out, pet supplies, modular buildings and sandwich panels, and fiber optic cable (G.657.A2 bend-insensitive fiber and OPGW-24 G.652 ULL optical ground wire). All categories are sourced factory-direct from verified Chinese manufacturers with pre-shipment quality control and CE compliance documentation." }
+        "acceptedAnswer": { "@type": "Answer", "text": "Ériu Sourcing works across a wide range of categories, including electronics and technology, furniture and furnishings, construction and building materials, hospitality fit-out, pet supplies, modular buildings and sandwich panels, and fiber optic cable (G.657.A2 bend-insensitive fiber and OPGW-24 G.652 ULL optical ground wire). All categories are sourced factory-direct from verified Chinese manufacturers with pre-shipment quality control and CE compliance documentation." }
       },
       {
         "@type": "Question",
-        "name": "What savings can Irish businesses expect when sourcing direct from China?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Typical savings range from 35% to 55% compared to Irish wholesale prices, depending on the product category. Electronics and furniture typically show the largest savings due to high retail markups in Ireland. Construction materials and hospitality fit-out regularly come in at 38–45% below the best Irish or UK trade quotes, with full CE compliance documentation included." }
+        "name": "What savings can businesses expect when sourcing direct from China?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Typical savings range from 35% to 55% compared to buying through local wholesalers, depending on the product category. Electronics and furniture usually show the largest savings because they carry the biggest distribution markups. Compliance for your market is checked at the factory before shipment." }
       },
       {
         "@type": "Question",
-        "name": "How long does it take to source goods from China to Ireland?",
-        "acceptedAnswer": { "@type": "Answer", "text": "Typical lead times from brief to goods landed in Ireland are 8–12 weeks, depending on the category and whether the product is stock or custom-manufactured. Factory identification, sampling, pre-shipment inspection, and sea freight from China to Dublin Port are all included in the timeline." }
+        "name": "How long does it take to source goods from China?",
+        "acceptedAnswer": { "@type": "Answer", "text": "It depends on the category and whether the product is stock or made to order. The category table on this page shows typical lead times. Freight time depends on your route and carrier, and we confirm the schedule in your quote. Factory identification, sampling and pre-shipment inspection are all part of the process." }
       }
     ]
   }
@@ -56,18 +56,18 @@ const pageSchemas = [
 
 // Category icon map for visual variety
 const categoryIcons = {
-  'electronics-from-china-ireland': '⚡',
-  'furniture-from-china-ireland': '🪑',
-  'construction-materials-from-china-ireland': '🏗️',
-  'hospitality-fitout-from-china-ireland': '🏨',
-  'pet-supplies-from-china-ireland': '🐾',
-  'modular-buildings-from-china-ireland': '🏠',
-  'ev-chargers-from-china-ireland': '🔋',
-  'glamping-pods-cabins-from-china-ireland': '🏕️',
-  'building-materials-production-systems-from-china-ireland': '🧱',
-  'logistics-warehouse-equipment-from-china-ireland': '📦',
-  'construction-machinery-from-china-ireland': '🚜',
-  'industrial-workshop-equipment-from-china-ireland': '🛠️',
+  'electronics-from-china': '⚡',
+  'furniture-from-china': '🪑',
+  'construction-materials-from-china': '🏗️',
+  'hospitality-fitout-from-china': '🏨',
+  'pet-supplies-from-china': '🐾',
+  'modular-buildings-from-china': '🏠',
+  'ev-chargers-from-china': '🔋',
+  'glamping-pods-cabins-from-china': '🏕️',
+  'building-materials-production-systems-from-china': '🧱',
+  'logistics-warehouse-equipment-from-china': '📦',
+  'construction-machinery-from-china': '🚜',
+  'industrial-workshop-equipment-from-china': '🛠️',
 };
 ---
 
@@ -91,7 +91,7 @@ const categoryIcons = {
     <div class="container">
       <div class="stats-grid">
         <div class="stat-item">
-          <span class="stat-num">7</span>
+          <span class="stat-num">{sourcingPages.length + 1}</span>
           <span class="stat-label">Product categories</span>
         </div>
         <div class="stat-divider"></div>
@@ -102,7 +102,7 @@ const categoryIcons = {
         <div class="stat-divider"></div>
         <div class="stat-item">
           <span class="stat-num">35–55%</span>
-          <span class="stat-label">Typical savings vs Irish wholesale</span>
+          <span class="stat-label">Typical savings vs local wholesale</span>
         </div>
         <div class="stat-divider"></div>
         <div class="stat-item">
@@ -173,15 +173,15 @@ const categoryIcons = {
     <div class="container">
       <span class="section-eyebrow">At a glance</span>
       <h2>MOQ, savings, and lead times by category</h2>
-      <p class="table-intro">All figures are typical ranges based on standard orders from verified Chinese factories shipped to Ireland. Actual figures depend on product specification and order volume.</p>
+      <p class="table-intro">All figures are typical ranges based on standard orders from verified Chinese factories. Actual figures depend on product specification, order volume and your market.</p>
       <div class="moq-table-wrap">
         <table class="moq-table">
           <thead>
             <tr>
               <th>Category</th>
-              <th>Typical saving vs Irish wholesale</th>
+              <th>Typical saving vs local wholesale</th>
               <th>Min. order (typical)</th>
-              <th>Lead time to Ireland</th>
+              <th>Typical lead time</th>
             </tr>
           </thead>
           <tbody>
@@ -216,7 +216,7 @@ const categoryIcons = {
           <span class="buyer-type-icon" aria-hidden="true">🏷️</span>
           <div>
             <h3>Private Label & Custom Manufacturing →</h3>
-            <p>OEM / ODM sourcing for Irish brands. Your spec, your packaging, IP-protected. Cosmetics, supplements, electronics, pet products, apparel.</p>
+            <p>OEM / ODM sourcing for your brand. Your spec, your packaging, IP-protected. Cosmetics, supplements, electronics, pet products, apparel.</p>
           </div>
         </a>
         <a href="/source/retail-wholesale-from-china-ireland/" class="buyer-type-card">
@@ -312,7 +312,7 @@ const categoryIcons = {
     items={sourceQuotes}
     layout="grid"
     eyebrow="Client results"
-    heading="What Irish businesses achieve with factory-direct sourcing."
+    heading="What our clients achieve with factory-direct sourcing."
     bg="alt"
   />
 
@@ -324,7 +324,7 @@ const categoryIcons = {
       <div class="reasons-grid">
         <div class="reason">
           <h3>Factory-gate pricing</h3>
-          <p>You buy at the price European distributors buy at, before they add 60–100% margin. No Alibaba trading company layer, no UK importer, no Irish wholesaler.</p>
+          <p>You buy at the price big distributors buy at, before they add 60–100% margin. No Alibaba trading company layer, no importer, no local wholesaler.</p>
         </div>
         <div class="reason">
           <h3>QC before the container is sealed</h3>
