@@ -75,7 +75,7 @@ const orgSchema = {
   "identifier": { "@type": "PropertyValue", "propertyID": "CRO (Ireland) company number", "value": "571256" },
   "description": "Irish-run, factory-direct sourcing from China for importers in Ireland, the UK, Europe, North America, Australia, the Gulf and South Africa. Supplier identification, QC inspection, compliance checks, logistics. 18 years China experience.",
   "url": siteUrl,
-  "image": `${siteUrl}/images/noel-dongguan-factory-visit.webp`,
+  "image": `${siteUrl}/images/eriu-sourcing-team-china-office.webp`,
   "numberOfEmployees": { "@type": "QuantitativeValue", "value": 53 },
   "areaServed": [
     { "@type": "Country", "name": "Ireland" },
@@ -298,7 +298,7 @@ const structuredData = {
         const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
         if (reduce) {
           // Mark all fade-ups as visible; skip the count-up animation.
-          document.querySelectorAll('.fade-up').forEach((el) => el.classList.add('is-visible'));
+          document.querySelectorAll('.fade-up, .img-reveal').forEach((el) => el.classList.add('is-visible'));
           return;
         }
 
@@ -316,7 +316,7 @@ const structuredData = {
             },
             { rootMargin: '0px 0px -10% 0px', threshold: 0.1 }
           );
-          document.querySelectorAll('.fade-up').forEach((el) => fadeObs.observe(el));
+          document.querySelectorAll('.fade-up, .img-reveal').forEach((el) => fadeObs.observe(el));
 
           // Stat count-up. Element carries data-target="<number>" (or text with
           // a trailing % or suffix) and an optional data-prefix / data-suffix.
@@ -358,7 +358,7 @@ const structuredData = {
           document.querySelectorAll('.count-up[data-target]').forEach((el) => countObs.observe(el));
         } else {
           // No IntersectionObserver, show everything statically.
-          document.querySelectorAll('.fade-up').forEach((el) => el.classList.add('is-visible'));
+          document.querySelectorAll('.fade-up, .img-reveal').forEach((el) => el.classList.add('is-visible'));
         }
       })();
     </script>

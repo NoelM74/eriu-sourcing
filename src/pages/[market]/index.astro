@@ -32,7 +32,7 @@ const pageSchemas = [
 ];
 ---
 
-<BaseLayout title={m.hubTitle} description={m.hubDescription} canonical={canonical} ogImage="/images/noel-dongguan-factory-visit.webp" ogImageAlt="Noel Murphy of Ériu Sourcing on a factory floor in Dongguan, China" jsonLd={pageSchemas}>
+<BaseLayout title={m.hubTitle} description={m.hubDescription} canonical={canonical} ogImage="/images/noel-murphy-factory-floor-dongguan.webp" ogImageAlt="Noel Murphy of Ériu Sourcing on a factory floor in Dongguan, China" jsonLd={pageSchemas}>
   <section class="hb-hero">
     <div class="container hb-grid">
       <div>
@@ -45,7 +45,7 @@ const pageSchemas = [
         </div>
       </div>
       <figure class="hb-photo">
-        <img src="/images/noel-dongguan-factory-visit.webp" alt="Noel Murphy of Ériu Sourcing with a factory owner and project manager in Dongguan" width="2048" height="1152" loading="eager" fetchpriority="high" />
+        <img src="/images/noel-murphy-factory-floor-dongguan.webp" srcset="/images/noel-murphy-factory-floor-dongguan-sm.webp 800w, /images/noel-murphy-factory-floor-dongguan.webp 1600w" sizes="(max-width: 900px) 100vw, 560px" alt="Noel Murphy of Ériu Sourcing with a factory owner and project manager on a production floor in Dongguan" width="1600" height="893" loading="eager" fetchpriority="high" />
         <figcaption><strong>Noel Murphy</strong>, founder, on a factory floor in Dongguan.</figcaption>
       </figure>
     </div>
@@ -80,7 +80,7 @@ const pageSchemas = [
 
   <section class="section">
     <div class="container hb-proof">
-      <img src="/images/pfc-office-team-china.webp" alt="The Shenzhen-based Ériu team in their office in China" width="2690" height="1793" loading="lazy" />
+      <img src="/images/eriu-sourcing-team-china-office.webp" srcset="/images/eriu-sourcing-team-china-office-sm.webp 800w, /images/eriu-sourcing-team-china-office.webp 1264w" sizes="(max-width: 900px) 100vw, 560px" alt="The Ériu Sourcing team in green polos under the Ériu Sourcing sign in their office in China" width="1264" height="848" loading="lazy" />
       <div>
         <span class="section-eyebrow">Why Ériu</span>
         <h2>Irish-run. On the ground in China. Answerable to you.</h2>
@@ -122,6 +122,8 @@ const pageSchemas = [
   .hb-actions { display: flex; flex-wrap: wrap; gap: .875rem; }
   .hb-photo { margin: 0; position: relative; }
   .hb-photo img { width: 100%; height: auto; border-radius: 16px; display: block; box-shadow: 0 30px 70px rgba(0,0,0,.4); }
+  .hb-photo { animation: hbPhotoIn 1s cubic-bezier(.2,.8,.2,1) .2s both; }
+  @keyframes hbPhotoIn { from { opacity: 0; transform: translateY(24px) scale(.97); } to { opacity: 1; transform: none; } }
   .hb-photo figcaption { position: absolute; left: 1rem; right: 1rem; bottom: -1.1rem; background: #fff; color: #23313d; font-size: .8125rem; padding: .65rem .9rem; border-radius: 10px; }
   .hb-photo figcaption strong { color: var(--color-emerald); }
   .hb-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-top: 2rem; }
