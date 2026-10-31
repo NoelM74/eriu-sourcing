@@ -7,6 +7,7 @@ import GuaranteeSeal from '../../components/parts/GuaranteeSeal.astro';
 import { markets } from '../../data/markets.js';
 import { marketLines } from '../../data/marketLines.js';
 import { guarantee, wa } from '../../data/parts.js';
+import TradeOnly from '../../components/parts/TradeOnly.astro';
 
 export function getStaticPaths() {
   return markets.flatMap((m) => marketLines.map((l) => ({ params: { market: m.slug, line: l.slug }, props: { m, l } })));
@@ -77,6 +78,12 @@ const pageSchemas = [
       </ul>
     </div>
   </section>
+
+  {l.key === 'phones' && (
+    <section class="section">
+      <div class="container"><TradeOnly /></div>
+    </section>
+  )}
 
   {extra && (
     <section class="section">

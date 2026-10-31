@@ -3,9 +3,10 @@
 // section=phone-parts so these leads are easy to filter.
 import PartsLayout from '../../layouts/PartsLayout.astro';
 import WaButton from '../../components/parts/WaButton.astro';
+import TradeOnly from '../../components/parts/TradeOnly.astro';
 
 const title = "Get Wholesale Phone & Parts Prices | Ériu";
-const description = "Send your list for wholesale prices on used iPhones, Android phones, tablets, screens, batteries and accessories. No minimum on your first order.";
+const description = "Send your trade list for wholesale prices on used iPhones, Android phones, tablets, screens, batteries and accessories. Wholesale only, by the batch.";
 const canonical = "/phone-parts/quote/";
 ---
 
@@ -13,8 +14,8 @@ const canonical = "/phone-parts/quote/";
   <section class="pp-hero pp-dark" style="padding-bottom:3rem">
     <div class="container"><div style="max-width:820px">
       <span class="pp-eyebrow">Get prices</span>
-      <h1>Send your list. <span class="pp-accent">We'll come back with prices within 24 hours.</span></h1>
-      <p class="pp-lead">The fastest way is WhatsApp: send a photo of your list or a spreadsheet. Or use the form below. No minimum on your first order.</p>
+      <h1>Send your trade list. <span class="pp-accent">We'll come back with prices within 24 hours.</span></h1>
+      <p class="pp-lead">This is wholesale for phone shops, repair businesses and distributors. The fastest way is WhatsApp: send your list of models, grades and quantities, or use the form below.</p>
       <div class="pp-actions"><WaButton /></div>
     </div></div>
   </section>
@@ -24,14 +25,25 @@ const canonical = "/phone-parts/quote/";
       <div data-fs-success class="form-msg form-msg--success" role="alert"><strong>List received.</strong> We'll come back within 24 hours with prices per model and grade, and shipping to your door.</div>
       <div data-fs-error class="form-msg form-msg--error" role="alert"><strong>Something went wrong.</strong> Please try again, or WhatsApp us on +353 87 118 7806.</div>
 
-      <h2 class="form-heading">Your list</h2>
+      <TradeOnly />
+      <h2 class="form-heading" style="margin-top:2.5rem">Your list</h2>
       <form id="quote-form" novalidate>
         <div class="form-grid">
           <div class="field"><label for="name">Your name <span class="req">*</span></label><input type="text" id="name" name="name" autocomplete="name" required minlength="2" data-fs-field /><span class="field-error" data-fs-error="name"></span></div>
-          <div class="field"><label for="company">Shop name</label><input type="text" id="company" name="company" autocomplete="organization" data-fs-field /></div>
+          <div class="field"><label for="company">Shop or business name <span class="req">*</span></label><input type="text" id="company" name="company" autocomplete="organization" required data-fs-field /><span class="field-error" data-fs-error="company"></span></div>
           <div class="field"><label for="email">Email <span class="req">*</span></label><input type="email" id="email" name="email" autocomplete="email" required data-fs-field /><span class="field-error" data-fs-error="email"></span></div>
           <div class="field"><label for="phone">WhatsApp number</label><input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="+44 7700 900123" data-fs-field /></div>
           <div class="field"><label for="country">Country <span class="req">*</span></label><input type="text" id="country" name="country" autocomplete="country-name" required data-fs-field /><span class="field-error" data-fs-error="country"></span></div>
+          <div class="field"><label for="biztype">Type of business <span class="req">*</span></label>
+            <select id="biztype" name="business_type" required data-fs-field>
+              <option value="" selected disabled>Choose one</option>
+              <option value="phone-shop">Phone or electronics shop</option>
+              <option value="repair">Repair business</option>
+              <option value="online">Online seller</option>
+              <option value="distributor">Distributor or wholesaler</option>
+              <option value="other-trade">Other trade business</option>
+            </select><span class="field-error" data-fs-error="business_type"></span>
+          </div>
           <div class="field"><label for="delivery">Shipping</label>
             <select id="delivery" name="delivery" data-fs-field>
               <option value="door-to-door" selected>Door-to-door express</option>
@@ -54,13 +66,14 @@ const canonical = "/phone-parts/quote/";
             <label><input type="checkbox" name="needs[]" value="accessories" data-fs-field /> Accessories</label>
           </fieldset>
           <div class="field field--full"><label for="description">Models, grades and rough quantities <span class="req">*</span></label><textarea id="description" name="description" rows="6" placeholder="e.g. Used iPhone 13 128GB Grade A x 10 (battery 85%+), Redmi Note 14 global x 20, iPhone 12 soft OLED x 30, iPhone 11 batteries x 40" required minlength="10" data-fs-field></textarea><span class="field-error" data-fs-error="description"></span></div>
+          <div class="field field--full pp-confirm"><label><input type="checkbox" name="trade_confirm" value="yes" required data-fs-field /> I am buying wholesale for a business that resells or repairs, by the batch. This is not for a single phone or screen, or for personal use.</label><span class="field-error" data-fs-error="trade_confirm"></span></div>
         </div>
         <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
         <input type="hidden" name="section" value="phone-parts" />
         <input type="hidden" name="_subject" value="Phones &amp; parts price request (worldwide)" />
         <div class="form-footer">
           <button type="submit" class="btn btn--primary" data-fs-submit-btn>Send my list</button>
-          <p class="form-note">No minimum on your first order. You see your batch tested on video before you pay the balance.</p>
+          <p class="form-note">We reply to trade enquiries only. You see your own batch tested on video before you pay the balance.</p>
         </div>
       </form>
     </div>
@@ -189,5 +202,8 @@ const canonical = "/phone-parts/quote/";
   }
   .pp-needs { border: 0; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; }
   .pp-needs legend { font-weight: 600; font-size: .9375rem; margin-bottom: .5rem; color: var(--color-navy); }
+  .pp-needs input[type="checkbox"] { width: auto; min-height: 0; -webkit-appearance: checkbox; appearance: auto; accent-color: var(--color-emerald); }
+  .pp-confirm label { display: flex; align-items: flex-start; gap: .6rem; font-weight: 400; line-height: 1.5; }
+  .pp-confirm input { width: auto; min-height: 0; margin-top: .25rem; -webkit-appearance: checkbox; appearance: auto; accent-color: var(--color-emerald); }
   .pp-needs label { display: inline-flex; align-items: center; gap: .4rem; font-weight: 400; font-size: .95rem; }
 </style>

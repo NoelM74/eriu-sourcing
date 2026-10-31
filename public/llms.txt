@@ -18,7 +18,7 @@ Key facts:
 - Every used phone is IMEI-checked against blacklist databases and checked for Activation Lock, Google account lock and remote management (MDM); locked or reported phones are rejected. Battery health and parts history are recorded per phone.
 - Every replacement screen is powered up and touch-tested; every battery is capacity-tested and date-checked; small parts are tested from every batch.
 - The Bench-Proof Guarantee: (1) after the deposit, the buyer sees a test video and test record of their batch before paying the balance; (2) any part that arrives dead or fails the stated test spec, reported with a photo or short video within 14 days, is replaced free on the next order or credited. Parts damaged while being fitted are not covered.
-- No minimum on the first order. Mixed orders of phones, parts and accessories ship together.
+- Wholesale by the batch only, for phone shops, repair businesses and distributors. No single phones or screens, no public stock list and no pre-order videos; quotes are made against the buyer's own list. Mixed orders of phones, parts and accessories ship together.
 - Shipping: door-to-door express worldwide (DHL, FedEx, UPS), or FOB China to the buyer's own forwarder for larger orders.
 - No copied brand products or copied logos.
 
@@ -31,7 +31,7 @@ Pages:
 - [Wholesale new Android phones](https://eriusourcing.com/phone-parts/new-android-phones-wholesale/): Samsung, Xiaomi, Redmi, POCO, Honor, OPPO, realme, vivo in global versions
 - [Wholesale tablets and used iPads](https://eriusourcing.com/phone-parts/tablets-wholesale/): Activation Lock and MDM checked
 - [Wholesale smartwatches and earbuds](https://eriusourcing.com/phone-parts/smartwatches-earbuds-wholesale/)
-- [Low-MOQ mixed phone orders](https://eriusourcing.com/phone-parts/low-moq-phone-wholesale/): No minimum on the first order
+- [Mixed wholesale phone orders](https://eriusourcing.com/phone-parts/low-moq-phone-wholesale/): Mixed wholesale orders of phones, parts and accessories
 - [Wholesale iPhone screens](https://eriusourcing.com/phone-parts/iphone-screens-wholesale/): In-cell, hard OLED, soft OLED and genuine pulls
 - [Wholesale Samsung screens](https://eriusourcing.com/phone-parts/samsung-screens-wholesale/)
 - [Wholesale phone batteries](https://eriusourcing.com/phone-parts/phone-batteries-wholesale/)

@@ -5,6 +5,7 @@ import ScreenTest from '../../components/parts/ScreenTest.astro';
 import BatchBoard from '../../components/parts/BatchBoard.astro';
 import GuaranteeSeal from '../../components/parts/GuaranteeSeal.astro';
 import WaButton from '../../components/parts/WaButton.astro';
+import TradeOnly from '../../components/parts/TradeOnly.astro';
 import PhotoCredit from '../../components/parts/PhotoCredit.astro';
 import { partsProducts, guarantee } from '../../data/parts.js';
 
@@ -34,7 +35,9 @@ const parts = partsProducts.filter((p) => p.group === 'parts');
 const faqs = [
   { q: 'Do you sell phones as well as parts?', a: 'Yes. Used and refurbished iPhones, used Samsung Galaxy phones, new Android phones in global versions, tablets and iPads, smartwatches and earbuds, alongside screens, batteries, small parts and accessories. Mix them in one tested shipment.' },
   { q: 'Where do you buy?', a: 'In Shenzhen. Our own full-time buyer works the Huaqiangbei market floors, the heart of China\'s phone trade, and everything is tested on our bench in Shenzhen before it ships.' },
-  { q: 'Is there a minimum order?', a: 'No minimum on your first order. Order enough to judge the quality for yourself on your own bench. That is the point.' },
+  { q: 'Can I buy a single phone or a single screen?', a: 'No. We sell wholesale by the batch to phone shops, repair businesses, online sellers and distributors. If you need one phone or one screen for yourself, a local repair shop or retailer is the right place.' },
+  { q: 'Is there a minimum order?', a: 'We sell by the batch, mixed across models, grades, parts and accessories. Tell us what you sell and roughly how many, and we confirm what works for your country, because very small shipments cost more per unit.' },
+  { q: 'Can I get a stock list, a price list or videos of stock?', a: 'We do not publish one. Stock and prices move daily on the Huaqiangbei floor, so our buyer quotes against your list of models, grades and quantities. The test video is of your own batch, after your deposit and before you pay the balance.' },
   { q: 'Which countries do you ship to?', a: 'Worldwide, wherever express carriers and the law allow. Most orders ship door to door by DHL, FedEx or UPS express; larger orders can go FOB China to your own forwarder. In many countries we can quote duties paid, so there is nothing to pay on arrival. We confirm the route and cost for your country in your quote.' },
   { q: 'How does payment work?', a: 'You pay a deposit, we buy and test your batch in Shenzhen, and we send you the test video and the test record for your parts. You pay the balance only when you are happy with what you have seen. Then we ship.' },
   { q: 'What happens if a part arrives dead?', a: 'Send us a photo or a short video within 14 days. If the part arrived dead or fails our stated test spec, we replace it free on your next order or credit it. Parts damaged while being fitted are not covered.' },
@@ -66,7 +69,7 @@ const pageSchemas = [
     "areaServed": "Worldwide",
     "offers": {
       "@type": "Offer",
-      "description": "No minimum on the first order. Batch test video before the balance is paid. Dead-on-arrival parts replaced or credited within 14 days."
+      "description": "Wholesale by the batch. Batch test video before the balance is paid. Dead-on-arrival parts replaced or credited within 14 days."
     }
   },
   {
@@ -85,7 +88,7 @@ const pageSchemas = [
       <div>
         <span class="pp-eyebrow">Wholesale phones and parts · Shipped worldwide from Shenzhen</span>
         <h1>Every phone and every screen is switched on and tested before it leaves Shenzhen. <span class="pp-accent">If one still arrives dead, it's on us.</span></h1>
-        <p class="pp-lead">Used iPhones, new Android phones, tablets, screens, batteries and repair parts for phone shops anywhere in the world, bought on the Huaqiangbei floor by our own full-time buyer. You watch your batch being tested on video before you pay the balance. No minimum on your first order.</p>
+        <p class="pp-lead">Used iPhones, new Android phones, tablets, screens, batteries and repair parts for phone shops anywhere in the world, bought on the Huaqiangbei floor by our own full-time buyer. You watch your batch being tested on video before you pay the balance. Wholesale only: by the batch, for phone shops, repair businesses and distributors.</p>
         <div class="pp-actions">
           <WaButton />
           <a href="/phone-parts/quote/" class="pp-btn pp-btn--line">Get prices →</a>
@@ -103,9 +106,13 @@ const pageSchemas = [
       <div class="pp-proof-item"><strong>Every unit</strong><span>powered on and tested, not sampled</span></div>
       <div class="pp-proof-item"><strong>Your batch on video</strong><span>before you pay the balance</span></div>
       <div class="pp-proof-item"><strong>Dead on arrival?</strong><span>replaced or credited, 14 days</span></div>
-      <div class="pp-proof-item"><strong>No minimum</strong><span>on your first order</span></div>
+      <div class="pp-proof-item"><strong>Mixed orders</strong><span>phones, parts and accessories</span></div>
       <div class="pp-proof-item"><strong>Door to door</strong><span>express worldwide, or FOB China</span></div>
     </div>
+  </section>
+
+  <section class="pp-section pp-alt">
+    <div class="container"><TradeOnly /></div>
   </section>
 
   <!-- STORY -->
@@ -304,7 +311,7 @@ const pageSchemas = [
     <div class="container">
       <span class="pp-eyebrow">Your first order, on your terms</span>
       <h2 class="pp-h2">Send your list. Watch your batch get tested. Then decide.</h2>
-      <p class="pp-lead">No minimum. No balance until you have seen your parts pass. And if one still arrives dead, it's on us.</p>
+      <p class="pp-lead">No balance until you have seen your parts pass. And if one still arrives dead, it's on us.</p>
       <div class="pp-actions">
         <WaButton />
         <a href="/phone-parts/quote/" class="pp-btn pp-btn--light">Get prices →</a>

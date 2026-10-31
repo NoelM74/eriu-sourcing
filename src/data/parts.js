@@ -4,7 +4,8 @@
 //   - Guarantee (both): batch test video + record before the balance is paid;
 //     DOA / fails-spec parts replaced free on the next order or credited if
 //     reported within 14 days with a photo or short video.
-//   - No minimum on the first order.
+//   - (2026-10-31) Wholesale by the batch only: no single phones or screens, no public
+//     stock list, no pre-order videos. No stated minimum number; the quote form qualifies.
 //   - Real QC photos/videos exist and will replace generated images later.
 // Proof rules: no invented testimonials, customer counts or failure rates.
 // Facts used: 18 years in China (owner), Shenzhen logistics/fulfilment
@@ -14,7 +15,22 @@
 export const WA_NUMBER = '353871187806';
 export const wa = (text) => `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(text)}`;
 export const WA_DEFAULT =
-  "Hi Noel, I run a phone repair shop in [city, country]. Could you send me prices for: ";
+  "Hi Noel, I run a phone/repair business in [city, country] and buy wholesale. Please quote me for [models, grades, quantities]: ";
+
+// Shown on the Phones & Parts pages so single-item buyers and stock-list hunters rule themselves out.
+export const tradeOnly = {
+  h: 'Wholesale for phone and repair businesses',
+  yes: [
+    'Phone shops, repair businesses, online sellers and distributors who resell or repair',
+    'Orders by the batch, mixed across models, grades, parts and accessories',
+    'A quote against your own list of models, grades and quantities',
+  ],
+  no: [
+    'Single phones, single screens or one-off repairs for personal use. We do not sell one at a time.',
+    'A public stock list or price list. Stock moves daily on the Huaqiangbei floor, so we buy and quote against your list.',
+    'Videos of stock before you order. The test video is of your own batch, after the deposit and before you pay the balance.',
+  ],
+};
 
 export const guarantee = {
   name: 'The Bench-Proof Guarantee',
@@ -75,7 +91,7 @@ export const partsProducts = [
       { q: 'Which iPhone screen grade should I stock?', a: 'Most shops do well with three tiers per popular model: in-cell for older phones and price-led customers, hard or soft OLED for most repairs, and genuine pulls or soft OLED for customers who want the closest match to the original. We can suggest a starting mix from the models you repair most.' },
       { q: 'Do you test every screen or just a sample?', a: 'Every screen. Each one is powered up and checked for pixels, uniformity, the full touch grid and fit before it is packed. Failures stay in Shenzhen. You get the test record with your packing list, and the video of your batch before you pay the balance.' },
       { q: 'Will a replacement screen show a message on the iPhone?', a: 'On recent iPhones, yes: a non-genuine or previously used display shows a notice in Settings, and the phone keeps working. We tell you what each grade shows on the current iOS before you buy.' },
-      { q: 'Is there a minimum order?', a: 'Not on your first order. Start with whatever lets you judge the quality for yourself.' },
+      { q: 'Is there a minimum order?', a: 'We sell wholesale by the batch to phone shops, repair businesses and distributors, so we do not sell single items. Tell us what you sell and roughly how many, and we confirm what works for your country, because very small shipments cost more per unit.' },
     ],
     related: ['samsung-screens-wholesale', 'phone-batteries-wholesale', 'phone-repair-parts-wholesale'],
   },
@@ -348,7 +364,7 @@ export const partsProducts = [
       { q: 'What battery health will I get?', a: 'Whatever minimum you set in writing, for example 85% and above for Grade A. We read and record battery health on every phone, so you can see it on the test record before you pay the balance.' },
       { q: 'Can I choose models, storage and colours?', a: 'Yes. Send your list with models, storage and grades. Colours can be specified or mixed; a mixed-colour batch is usually cheaper and quicker to fill.' },
       { q: 'Can used iPhones ship by express?', a: 'Yes. Phones with their batteries inside ship by express air under the rules for lithium batteries contained in equipment. We pack, label and declare them correctly.' },
-      { q: 'Is there a minimum order?', a: 'Not on your first order. Buy enough to judge the grading for yourself.' },
+      { q: 'Is there a minimum order?', a: 'We sell wholesale by the batch to phone shops, repair businesses and distributors, so we do not sell single items. Tell us what you sell and roughly how many, and we confirm what works for your country, because very small shipments cost more per unit.' },
     ],
     related: ['used-samsung-phones-wholesale', 'refurbished-iphones-wholesale', 'iphone-screens-wholesale'],
   },
@@ -393,7 +409,7 @@ export const partsProducts = [
       { q: 'Which Samsung models can you supply used?', a: 'Galaxy S and A series are the bulk of the trade, plus Note, S Ultra and Z Flip and Fold. Tell us the models and storage you sell and we quote what the market has that week.' },
       { q: 'How do you handle screen burn-in?', a: 'Every phone is checked on grey, white and colour fields. Phones with visible burn-in are either rejected or sold as declared Grade C, never mixed into Grade A or B.' },
       { q: 'What about phones locked to a Google account?', a: 'We reject them. A phone with Factory Reset Protection still on won\'t complete setup after a reset, so it has no place in a resale batch.' },
-      { q: 'Is there a minimum order?', a: 'Not on your first order.' },
+      { q: 'Is there a minimum order?', a: 'We sell wholesale by the batch to phone shops, repair businesses and distributors, so we do not sell single items. Tell us what you sell and roughly how many, and we confirm what works for your country, because very small shipments cost more per unit.' },
     ],
     related: ['used-iphones-wholesale', 'new-android-phones-wholesale', 'samsung-screens-wholesale'],
   },
@@ -443,7 +459,7 @@ export const partsProducts = [
       { q: 'Which brands can you supply new?', a: 'Samsung, Xiaomi, Redmi, POCO, Honor, OPPO, realme, vivo, OnePlus, Motorola and others traded in Shenzhen, plus own-brand Android phones from Shenzhen factories. Send us your list and we quote what is available in the right version.' },
       { q: 'What is the difference between a global and a China version?', a: 'A global version ships with Google services, multi-language software and network bands for international markets. A China version is built for Chinese networks and apps and usually has no Google Play out of the box. We supply global or regional versions unless you ask otherwise.' },
       { q: 'Do you sell Huawei phones?', a: 'We can, but recent Huawei phones ship without Google Mobile Services, so apps like Google Play, Gmail and Google Maps are not available in the usual way. We make sure you know that before you order.' },
-      { q: 'Is there a minimum order?', a: 'Not on your first order. Mix models and brands in one shipment.' },
+      { q: 'Is there a minimum order?', a: 'We sell wholesale by the batch to phone shops, repair businesses and distributors, so we do not sell single items. Tell us what you sell and roughly how many, and we confirm what works for your country, because very small shipments cost more per unit. Mix models and brands in one shipment.' },
     ],
     related: ['used-samsung-phones-wholesale', 'tablets-wholesale', 'phone-accessories-wholesale'],
   },
@@ -486,7 +502,7 @@ export const partsProducts = [
     faqs: [
       { q: 'How do you avoid MDM-locked iPads?', a: 'Every used iPad is checked for Activation Lock and for enrolment in remote management before we buy it. Any iPad that shows a lock or a management profile is rejected.' },
       { q: 'Can you make tablets under my own brand?', a: 'Yes. Shenzhen factories make Android tablets for kids, education, retail and kiosks with your logo, boot screen and packaging. Own-brand runs have a factory minimum, which we confirm in your quote.' },
-      { q: 'Is there a minimum order?', a: 'Not on your first order of stock tablets. Own-brand production has a factory minimum.' },
+      { q: 'Is there a minimum order?', a: 'We sell wholesale by the batch to phone shops, repair businesses and distributors, so we do not sell single items. Own-brand production has a factory minimum. Tell us what you sell and roughly how many, and we confirm what works for your country, because very small shipments cost more per unit.' },
     ],
     related: ['used-iphones-wholesale', 'new-android-phones-wholesale', 'smartwatches-earbuds-wholesale'],
   },
@@ -536,30 +552,30 @@ export const partsProducts = [
   {
     slug: 'low-moq-phone-wholesale',
     group: 'devices',
-    nav: 'Mixed Orders, No Minimum',
-    title: 'Low MOQ Phone Wholesale: Mixed Orders from Shenzhen | Ériu',
-    description: 'Mix used iPhones, new Android phones, screens, batteries and accessories in one order, with no minimum on your first. Tested in Shenzhen, shipped worldwide.',
-    eyebrow: 'Low MOQ phone wholesale',
-    h1: 'Ten phones, twenty screens and a box of cases. One order. No minimum on the first.',
-    sub: 'Most China suppliers want a big minimum per model before they\'ll talk to you. We\'d rather earn your second order. Mix phones, parts and accessories in one tested shipment, sized to what you can actually sell.',
+    nav: 'Mixed Trade Orders',
+    title: 'Mixed Wholesale Phone & Parts Orders from Shenzhen | Ériu',
+    description: 'Mix used iPhones, new Android phones, screens, batteries and accessories in one wholesale order. Tested in Shenzhen, shipped worldwide to phone and repair businesses.',
+    eyebrow: 'Mixed wholesale orders',
+    h1: 'Phones, screens and accessories. One order. One tested shipment.',
+    sub: 'Wholesale for phone shops and repair businesses that restock across models. Mix phones, parts and accessories in one tested shipment, sized to what you can actually sell. Not for single phones or screens.',
     image: '/images/shenzhen-phone-mall-buyers-counters.webp',
     imageAlt: 'Buyers and traders at rows of phone counters on a busy Shenzhen phone market floor',
     credit: 'oskay-09',
-    wa: 'Hi Noel, I run a phone shop in [city, country]. I\'d like to start with a small mixed order: ',
+    wa: 'Hi Noel, I run a phone shop in [city, country] and buy wholesale. Please quote me for a mixed order: ',
     pain: {
-      h2: 'Big minimums protect the supplier. They don\'t protect you.',
+      h2: 'Three suppliers, three shipments, three sets of faults to chase.',
       paras: [
-        'A minimum order of a few thousand dollars, ten units per model, makes sense for a supplier who wants to ship fewer, bigger boxes. For you it means buying more than you need, of fewer models, from someone you have never tested. If the first batch is bad, you find out with all your money already spent.',
-        'We turn that around. Your first order can be as small as you like, so you can judge our phones and parts on your own bench before you trust us with anything bigger. We are betting on the second order. That is the point.',
+        'A shop that restocks phones, screens and accessories usually buys from several suppliers, pays several lots of shipping and tests every box itself. You are the quality control, and you find the faults in front of your customers.',
+        'We put it in one order. Our buyer sources across the Huaqiangbei floor, everything crosses our bench in Shenzhen, and it ships together. It is wholesale: orders by the batch, for businesses that resell or repair, not single phones or screens.',
       ],
     },
     grades: [
-      ['Trial order', 'A handful of phones or parts across the models you sell most', 'Testing us before you commit'],
+      ['First order', 'A first batch across the models you sell most', 'Judging us on your own bench'],
       ['Mixed restock', 'Phones, screens, batteries and accessories in one shipment', 'Shops topping up every few weeks'],
       ['Volume order', 'Larger quantities per model, sea or express', 'Distributors and multi-store groups'],
     ],
     tests: [
-      'The same checks on a five-phone order as on a five-hundred-phone order',
+      'The same checks on a small batch as on a large one',
       'Every phone IMEI-checked and lock-checked',
       'Every screen powered up and touch-tested',
       'Batteries capacity-tested and date-checked',
@@ -568,7 +584,7 @@ export const partsProducts = [
     ],
     extra: null,
     faqs: [
-      { q: 'What is the smallest first order you will take?', a: 'There is no minimum on your first order. Shipping costs mean very small orders cost more per unit, so we will tell you where the sensible break points are for your country.' },
+      { q: 'Can I buy a single phone or screen?', a: 'No. We sell wholesale by the batch to phone shops, repair businesses and distributors. Tell us what you sell and roughly how many, and we tell you what works for your country, because shipping makes very small orders poor value.' },
       { q: 'Can I mix phones, parts and accessories?', a: 'Yes. That is what most shops do. Everything is tested, packed and shipped together.' },
       { q: 'What happens after the first order?', a: 'We agree order sizes that make sense for you and for shipping costs. Most shops settle into a regular mixed restock.' },
     ],
