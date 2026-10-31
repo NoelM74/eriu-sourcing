@@ -2,7 +2,7 @@
 // Copy is market-neutral; {country}, {demonym} and {buyers} are filled per market.
 // Owner facts used: full-time buyer in Huaqiangbei; 53-person team, 47 in
 // Shenzhen and 6 in Zhengzhou; Bench-Proof Guarantee for phones and parts;
-// no minimum on the first phones/parts order. No invented claims.
+// wholesale by the batch only (no single items, stock lists or pre-order videos). No invented claims.
 
 export const marketLines = [
   {
@@ -12,7 +12,7 @@ export const marketLines = [
     titleTpl: '{short} Wholesale Phones & Phone Parts Supplier | Ériu',
     descTpl: 'Used iPhones, Android phones, screens and batteries for {demonym} phone shops, bought in Huaqiangbei and tested in Shenzhen before they ship.',
     h1Tpl: 'Wholesale phones and parts for {demonym} shops, tested in Shenzhen before they ship.',
-    subTpl: 'Used and refurbished iPhones, new Android phones, tablets, screens, batteries and repair parts, bought on the Huaqiangbei market floor by our own full-time buyer and tested one by one. You watch your batch on video before you pay the balance. No minimum on your first order.',
+    subTpl: 'Used and refurbished iPhones, new Android phones, tablets, screens, batteries and repair parts, bought on the Huaqiangbei market floor by our own full-time buyer and tested one by one. You watch your batch on video before you pay the balance. Wholesale only, by the batch.',
     image: '/images/shenzhen-phone-mall-trading-counters.webp',
     imageAlt: 'Rows of phone trading counters on a crowded Shenzhen phone market floor',
     credit: 'oskay',
@@ -27,7 +27,7 @@ export const marketLines = [
       ['Bought on the floor', 'A full-time buyer in Huaqiangbei, comparing counters and walking away from batches that will not pass.'],
       ['Tested one by one', 'Every phone IMEI-checked and lock-checked, every screen powered up and touch-tested, every battery capacity-tested.'],
       ['See it before you pay', 'Your batch on video, with the test record, before you pay the balance. Dead on arrival? Replaced or credited.'],
-      ['No minimum to start', 'Mix phones, screens, batteries and accessories in one order, sized to what you can sell.'],
+      ['Mixed trade orders', 'Mix phones, screens, batteries and accessories in one order. Wholesale by the batch, for shops that resell or repair.'],
     ],
     links: [
       ['Used iPhones', '/phone-parts/used-iphones-wholesale/'],
@@ -37,7 +37,7 @@ export const marketLines = [
       ['Tablets and iPads', '/phone-parts/tablets-wholesale/'],
       ['How we test', '/phone-parts/how-we-test/'],
     ],
-    waTpl: 'Hi Noel, I run a phone business in {country}. Could you send prices for: ',
+    waTpl: 'Hi Noel, I run a phone/repair business in {country} and buy wholesale. Please quote me for [models, grades, quantities]: ',
     ctaHref: '/phone-parts/quote/',
     guarantee: true,
   },

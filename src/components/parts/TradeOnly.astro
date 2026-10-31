@@ -1,0 +1,33 @@
+---
+// "Who this is for / not for" box. Wholesale only: lets single-item buyers and
+// stock-list hunters rule themselves out before they message us.
+import { tradeOnly } from '../../data/parts.js';
+interface Props { tone?: 'light' | 'dark'; }
+const { tone = 'light' } = Astro.props;
+---
+<aside class={`trade-only trade-only--${tone}`} aria-label="Who we sell to">
+  <h2>{tradeOnly.h}</h2>
+  <div class="trade-only-cols">
+    <div>
+      <h3>This is for you if</h3>
+      <ul class="yes">{tradeOnly.yes.map((t) => <li>{t}</li>)}</ul>
+    </div>
+    <div>
+      <h3>This is not for</h3>
+      <ul class="no">{tradeOnly.no.map((t) => <li>{t}</li>)}</ul>
+    </div>
+  </div>
+</aside>
+<style>
+  .trade-only { border-radius: 16px; padding: clamp(1.25rem, 3vw, 2rem); border: 1px solid rgba(15,33,49,.1); background: #fff; }
+  .trade-only--dark { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.18); color: #fff; }
+  .trade-only h2 { font-size: clamp(1.25rem, 2.4vw, 1.6rem); margin: 0 0 1.1rem; }
+  .trade-only h3 { font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; margin: 0 0 .6rem; opacity: .75; }
+  .trade-only-cols { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1.25rem, 3vw, 2.5rem); }
+  .trade-only ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .6rem; }
+  .trade-only li { position: relative; padding-left: 1.6rem; line-height: 1.5; font-size: .96rem; }
+  .trade-only li::before { position: absolute; left: 0; top: 0; font-weight: 800; }
+  .yes li::before { content: '\2713'; color: #1a8f5b; }
+  .no li::before { content: '\2715'; color: #c24133; }
+  @media (max-width: 760px) { .trade-only-cols { grid-template-columns: 1fr; } }
+</style>

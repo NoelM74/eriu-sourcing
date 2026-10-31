@@ -3,6 +3,7 @@
 import PartsLayout from '../../layouts/PartsLayout.astro';
 import GuaranteeSeal from '../../components/parts/GuaranteeSeal.astro';
 import WaButton from '../../components/parts/WaButton.astro';
+import TradeOnly from '../../components/parts/TradeOnly.astro';
 import BatchBoard from '../../components/parts/BatchBoard.astro';
 import PhotoCredit from '../../components/parts/PhotoCredit.astro';
 import { partsProducts, guarantee } from '../../data/parts.js';
@@ -57,7 +58,7 @@ const pageSchemas = [
         <WaButton text={p.wa} label={`WhatsApp for ${p.nav.toLowerCase()} prices`} />
         <a href="/phone-parts/quote/" class="pp-btn pp-btn--line">Get prices →</a>
       </div>
-      <p class="pp-micro">{p.group === 'devices' ? 'Bought on the floor in Huaqiangbei · ' : ''}No minimum on your first order · Batch video before you pay the balance · Dead on arrival replaced or credited</p>
+      <p class="pp-micro">{p.group === 'devices' ? 'Bought on the floor in Huaqiangbei · ' : ''}Wholesale for phone and repair businesses · Batch video before you pay the balance · Dead on arrival replaced or credited</p>
     </div></div>
     <PhotoCredit id={p.credit} overlay />
   </section>
@@ -157,10 +158,14 @@ const pageSchemas = [
     </div>
   </section>
 
+  <section class="pp-section pp-alt">
+    <div class="container"><TradeOnly /></div>
+  </section>
+
   <section class="pp-section pp-dark pp-final">
     <div class="container">
       <h2 class="pp-h2">Send your list. Watch your batch get tested. Then decide.</h2>
-      <p class="pp-lead">No minimum on your first order, no balance until you have seen your parts pass.</p>
+      <p class="pp-lead">Wholesale by the batch. No balance until you have seen your parts pass.</p>
       <div class="pp-actions">
         <WaButton text={p.wa} />
         <a href="/phone-parts/quote/" class="pp-btn pp-btn--light">Get prices →</a>
