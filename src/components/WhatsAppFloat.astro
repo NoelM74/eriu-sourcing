@@ -3,9 +3,7 @@
 // Renders bottom-right on all viewports. Plain anchor, no JS required.
 // The pre-filled message matches the section the visitor is in.
 const path = Astro.url.pathname;
-const message = path.startsWith('/phone-parts')
-  ? 'Hi Noel, I run a phone repair shop in [city, country]. Could you send me prices for: '
-  : path.startsWith('/de/')
+const message = path.startsWith('/de/')
   ? 'Hallo Noel, ich interessiere mich für Elektronik aus Shenzhen. (Antwort auf Englisch ist okay.) Es geht um: '
   : path.startsWith('/modular-homes')
   ? "Hi Noel, I'm interested in an Ériu modular home."

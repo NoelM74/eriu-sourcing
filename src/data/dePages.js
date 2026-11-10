@@ -6,156 +6,6 @@
 
 export const dePages = [
   {
-    slug: 'handy-ersatzteile-grosshandel',
-    title: 'Handy-Ersatzteile Großhandel aus Shenzhen | Ériu',
-    description: 'Displays, Akkus und Ersatzteile für iPhone und Samsung, in Shenzhen eingekauft und vor dem Versand einzeln geprüft. Für Handyreparatur-Shops in DE und AT.',
-    eyebrow: 'Handy-Ersatzteile für Reparaturshops in Deutschland und Österreich',
-    h1: 'Handy-Ersatzteile, in Shenzhen geprüft, bevor sie auf Ihre Werkbank kommen.',
-    sub: 'Displays, Akkus und Kleinteile für iPhone und Samsung, eingekauft im Elektronikmarkt Huaqiangbei und vor dem Versand Stück für Stück getestet. Zubehör und Gadgets kommen auf dieselbe Bestellung. Fehlerhafte Chargen bleiben in China.',
-    image: '/images/shenzhen-phone-screen-qc-testing-replacement-oled.webp',
-    imageAlt: 'Prüfer in Shenzhen testet ein Ersatz-Display für Smartphones, daneben Displays in antistatischen Trays',
-    cta: 'Teileliste senden',
-    trust: [
-      { num: '~70 %', label: 'aller Handyreparaturen betreffen das Display (Branchendaten)' },
-      { num: 'Jedes Display', label: 'vor dem Verpacken einzeln getestet' },
-      { num: 'FOB oder frei Haus', label: 'Ab Hafen China oder geliefert nach DE/AT' },
-      { num: 'Ab 3.000 €', label: 'Typische Erstbestellung, gemischt nach Modell und Qualität' },
-    ],
-    problem: {
-      eyebrow: 'Warum Ersatzteile Probleme machen',
-      h2: 'Ein schlechtes Display merken Sie erst nach dem Einbau',
-      paras: [
-        'Die meisten Ersatzteile, die in Deutschland und Österreich verkauft werden, stammen aus Shenzhen. Das Problem ist nicht die Herkunft, sondern dass sie vor dem Versand niemand prüft.',
-      ],
-      bullets: [
-        'Qualitätsbezeichnungen sind nicht genormt. Das „Soft OLED“ des einen Händlers ist beim nächsten ein Hard OLED.',
-        'Chargen werden gemischt: zehn gute Displays, zwei mit Pixelfehlern oder schwachem Touch.',
-        'Akkus können Altbestand sein oder unter der angegebenen Kapazität liegen, und sie brauchen Gefahrgutpapiere.',
-        'Teile mit kopierten Markenlogos können vom Zoll beschlagnahmt werden und schaden Ihrem Ruf.',
-      ],
-      after: 'Jede Reklamation kostet Sie das Teil, die Arbeitszeit und das Vertrauen des Kunden. Wir prüfen dort, wo es am günstigsten ist: in Shenzhen, bevor bezahlt und verschickt wird.',
-      image: '/images/huaqiangbei-walking-street-shenzhen.webp',
-      imageAlt: 'Die Fußgängerzone Huaqiangbei in Shenzhen mit ihren Elektronik-Kaufhäusern',
-    },
-    lines: [
-      { href: '/de/refurbished-smartphones-grosshandel/', h: 'Refurbished Smartphones', p: 'Geprüfte iPhones und Samsungs: IMEI, Sperren, Akkuzustand und Funktion, Gerät für Gerät.' },
-      { href: '/de/handyzubehoer-gadgets-grosshandel/', h: 'Zubehör und Gadgets', p: 'Panzerglas, Hüllen, USB-C-Ladegeräte, Smartwatches, Action-Cams und Powerstations.' },
-      { href: '/de/ratgeber/handy-display-qualitaeten-incell-oled/', h: 'Ratgeber: Display-Qualitäten', p: 'In-Cell, Hard OLED, Soft OLED und Originalware erklärt, für Reparaturbetriebe.' },
-    ],
-    checks: {
-      eyebrow: 'Geprüft vor dem Versand',
-      h2: 'Was wir prüfen, bevor etwas Shenzhen verlässt',
-      intro: 'Teile, die durchfallen, werden in China aussortiert. Mit jeder Packliste erhalten Sie das Prüfprotokoll, damit Reklamationen der Charge zugeordnet werden können.',
-      items: [
-        ['Displays, jedes Stück', 'Pixelfehler, Farb- und Helligkeitsgleichmäßigkeit, vollständiger Touch-Test, Passform von Rahmen und Steckern'],
-        ['Akkus, jedes Stück', 'Kapazität gegen Nennwert, Ladezyklen, Herstelldatum der Zellen, keine Aufblähung'],
-        ['Ladebuchsen und Kameras', 'Funktionstest als Stichprobe je Charge'],
-        ['Kennzeichnung', 'Jedes Teil nach Modell und Qualität beschriftet, damit Sie wissen, was Sie einbauen'],
-        ['Unterlagen', 'UN38.3-Prüfberichte für Akkus, CE- und RED-Unterlagen für Ladegeräte und Gadgets'],
-        ['Keine Fälschungen', 'Nachbauteile werden als kompatibel bezeichnet, Originalteile als Originalteile; keine kopierten Logos'],
-      ],
-    },
-    rules: {
-      eyebrow: 'Der Rechtsrahmen bewegt sich Richtung Reparatur',
-      h2: 'Eine gute Zeit für unabhängige Reparaturbetriebe',
-      paras: [
-        'Seit dem 20. Juni 2025 verpflichten die EU-Ökodesign-Regeln Smartphone-Hersteller, Ersatzteile für professionelle Reparaturbetriebe noch sieben Jahre nach dem Verkaufsende eines Modells bereitzuhalten. Die EU-Richtlinie zum Recht auf Reparatur, (EU) 2024/1799, war bis zum 31. Juli 2026 in nationales Recht umzusetzen.',
-        'Kunden behalten ihre Handys länger und lassen sie öfter reparieren. Diese Aufträge gewinnen die Betriebe mit zuverlässigen Teilen zu fairen Preisen und einer ehrlichen Auskunft darüber, welche Qualität eingebaut wurde.',
-      ],
-    },
-    fit: [
-      'Sie tauschen täglich Displays und haben genug von Reklamationen aus schlechten Chargen.',
-      'Sie kaufen bei Ersatzteil-Großhändlern in der EU und möchten eine Handelsstufe einsparen.',
-      'Sie möchten Zubehör, Smartwatches oder Gadgets mit derselben Lieferung bestellen.',
-      'Sie betreiben mehrere Filialen und wollen eine Bezugsquelle für alle.',
-    ],
-    fitNote: 'Wenn Sie nur ein paar Displays im Monat brauchen, ist ein Großhändler vor Ort schneller und einfacher. Das sagen wir Ihnen gleich im ersten Gespräch.',
-    faqs: [
-      { q: 'Warum über Ériu kaufen statt direkt in Huaqiangbei?', a: 'Direkt kaufen können Sie, aber Qualitätsbezeichnungen sind nicht genormt, und schlechte Displays bemerken Sie erst nach dem Einbau. Wir kaufen vor Ort in Shenzhen, testen vor der Bezahlung, sortieren schwache Chargen dort aus und versenden nur, was bestanden hat.' },
-      { q: 'Was wird vor dem Versand geprüft?', a: 'Jedes Display wird eingeschaltet und auf Pixelfehler, Farb- und Helligkeitsgleichmäßigkeit, den vollständigen Touch-Test sowie die Passform von Rahmen und Steckern geprüft. Akkus werden auf Kapazität, Ladezyklen, Herstelldatum und Aufblähung getestet. Ladebuchsen und Kameras prüfen wir als Stichprobe je Charge, Zubehör nach AQL. Sie erhalten das Prüfprotokoll mit der Packliste.' },
-      { q: 'Zeigen iPhones bei Nachbau-Displays oder -Akkus einen Hinweis an?', a: 'Bei aktuellen iPhones ja. Ein Teil, das kein neues Originalteil von Apple ist, erscheint in den Einstellungen mit einem Hinweis; Apple beschreibt dazu Meldungen wie „Unbekanntes Teil“. Das Gerät funktioniert weiter. True Tone und die Anzeige des Akkuzustands hängen vom Teil und der iOS-Version ab. Wir testen den aktuellen Bestand mit dem aktuellen iOS und sagen Ihnen vorab, was jede Qualität zeigt.' },
-      { q: 'Liefern Sie FOB oder bis zu uns?', a: 'Beides. Standard ist FOB China: Wir kaufen, prüfen und übergeben die Ware im chinesischen Abgangshafen bzw. -flughafen an Ihren Spediteur. Auf Wunsch organisieren wir die Lieferung bis zu Ihnen nach Deutschland oder Österreich. Akkus werden als Gefahrgut auf dafür zugelassenen Routen verschickt.' },
-      { q: 'Wie hoch ist die Mindestbestellung?', a: 'Erstbestellungen beginnen typischerweise bei etwa 3.000 €, gemischt nach Modellen, Qualitäten und Teilearten. Ab dieser Größe lohnen sich Prüfung und gebündelter Versand.' },
-      { q: 'Sprechen Sie Deutsch?', a: 'Sie können uns gern auf Deutsch schreiben. Unser Team antwortet auf Englisch, auch Angebote und Prüfprotokolle sind auf Englisch.' },
-    ],
-    ctaH2: 'Senden Sie uns Ihre Teileliste.',
-    ctaP: 'Nennen Sie die Modelle, die Sie am häufigsten reparieren, und grob, wie viele Displays Sie im Monat tauschen. Sie erhalten Preise nach Modell und Qualität, FOB China oder geliefert, unverbindlich.',
-  },
-
-  {
-    slug: 'refurbished-smartphones-grosshandel',
-    title: 'Refurbished Smartphones Großhandel aus Shenzhen | Ériu',
-    description: 'Gebrauchte iPhones und Samsungs im Großhandel: IMEI-, Sperr-, Akku- und Funktionsprüfung Gerät für Gerät in Shenzhen, vor dem Versand nach DE und AT.',
-    eyebrow: 'Refurbished Smartphones für Handyläden in Deutschland und Österreich',
-    h1: 'Refurbished Smartphones, Gerät für Gerät geprüft, bevor sie versendet werden.',
-    sub: 'Nach den Ersatzteilen sind Gebrauchtgeräte der größte Einkaufsposten eines Handyladens und der riskanteste. Wir kaufen sortierte Ware über den Handel in Shenzhen und Hongkong und prüfen jedes Gerät, bevor es verpackt wird.',
-    image: '/images/shenzhen-refurbished-phone-grading-testing-centre.webp',
-    imageAlt: 'Techniker sortieren und testen gebrauchte Smartphones in einem Refurbishment-Zentrum in Shenzhen',
-    cta: 'Bedarf senden',
-    trust: [
-      { num: 'IMEI', label: 'Jedes Gerät gegen Sperrlisten geprüft' },
-      { num: 'Ohne Sperre', label: 'Aktivierungs- und Netzsperren werden aussortiert' },
-      { num: 'Akkuzustand', label: 'Gegen Ihren Mindestwert gemessen' },
-      { num: 'Pro Gerät', label: 'Prüfbericht mit IMEI, Zustand und Ergebnis' },
-    ],
-    problem: {
-      eyebrow: 'Was eine Zustandsnote nicht sagt',
-      h2: 'Grade A beschreibt die Optik, nicht das Gerät',
-      paras: [
-        'Hongkong ist der Knotenpunkt des weltweiten Handels mit Gebrauchtgeräten, sortiert und aufbereitet wird in Shenzhen. Bis ein „Grade A“-Gerät über einen europäischen Großhändler in Ihrem Laden ankommt, ist es meist durch zwei oder drei Hände gegangen.',
-      ],
-      bullets: [
-        'Zustandsnoten (A, B, C) beschreiben nur die Optik, und jeder Händler definiert sie anders.',
-        'Gesperrte oder als gestohlen gemeldete Geräte sind praktisch wertlos.',
-        'Ein müder Akku macht aus einem „Grade A“-Gerät eine Reklamation.',
-      ],
-      after: 'Deshalb vereinbaren wir Ihre Zustandsdefinitionen schriftlich und prüfen jedes Gerät dagegen, nicht gegen das Etikett des Händlers.',
-      image: '/images/shenzhen-refurbished-phone-grading-testing-centre.webp',
-      imageAlt: 'Gebrauchte Smartphones in Prüftrays an einer Teststation in Shenzhen',
-    },
-    lines: [
-      { href: '/de/handy-ersatzteile-grosshandel/', h: 'Handy-Ersatzteile', p: 'Displays, Akkus und Kleinteile, auf derselben Bestellung.' },
-      { href: '/de/ratgeber/refurbished-smartphones-grosshandel-einkaufen/', h: 'Ratgeber: Refurbished einkaufen', p: 'Zustandsnoten, IMEI-Prüfung und die Umsatzsteuer beim Import.' },
-      { href: '/de/handyzubehoer-gadgets-grosshandel/', h: 'Zubehör und Gadgets', p: 'Hüllen, Panzerglas und Ladegeräte passend zum Gerät.' },
-    ],
-    checks: {
-      eyebrow: 'Prüfung Gerät für Gerät',
-      h2: 'Was jedes Gerät durchläuft',
-      intro: 'Sie erhalten einen Bericht pro Gerät mit IMEI, Zustand, Akkuzustand und Prüfergebnis. Er ist Ihre Bestandsliste, Ihr Gewährleistungsnachweis und Ihr Herkunftsnachweis.',
-      items: [
-        ['IMEI-Sperrliste', 'Geräte, die als verloren oder gestohlen gemeldet sind, werden aussortiert'],
-        ['Aktivierungssperre', 'Geräte, die noch an ein Apple- oder Google-Konto gebunden sind, werden aussortiert'],
-        ['Netzsperre', 'Netzentsperrte Ware als Standard'],
-        ['Akkuzustand', 'Gemessen und gegen Ihren Mindestwert je Zustandsnote dokumentiert'],
-        ['Funktionstest', 'Display und Touch, Kameras, Lautsprecher, Mikrofone, Laden, WLAN, Bluetooth, Face ID bzw. Fingerabdruck, Tasten'],
-        ['Teilehistorie', 'Hinweise zu getauschten Teilen bei iPhones je Gerät erfasst'],
-      ],
-    },
-    rules: {
-      eyebrow: 'Steuer und Abfallrecht',
-      h2: 'Zwei Punkte, die beim Import oft übersehen werden',
-      paras: [
-        'Umsatzsteuer: Die Differenzbesteuerung nach § 25a UStG setzt voraus, dass die Ware im Gemeinschaftsgebiet an den Wiederverkäufer geliefert wurde. Bei selbst aus einem Drittland importierten Smartphones greift sie daher in der Regel nicht; es fällt Einfuhrumsatzsteuer auf den vollen Wert an, die Sie als Vorsteuer abziehen können. Für Österreich gilt § 24 UStG. Klären Sie die Kalkulation mit Ihrer Steuerberatung, bevor Sie Preise festlegen.',
-        'Abfallrecht: Ungeprüfte Gebrauchtelektronik kann als Abfall statt als Ware eingestuft werden. Ein Prüfprotokoll pro Gerät belegt, dass Ihre Sendung Handelsware ist.',
-      ],
-    },
-    fit: [
-      'Sie verkaufen bereits Gebrauchtgeräte und wollen näher an die Quelle.',
-      'Sie haben schlechte Erfahrungen mit Zustandsnoten anderer Händler gemacht.',
-      'Sie möchten Geräte, Ersatzteile und Zubehör auf einer Lieferung.',
-    ],
-    fitNote: 'Preise für Gebrauchtgeräte ändern sich wöchentlich. Wir nennen Ihnen Preise je Modell, Speicher und Zustand für Ihren Mix, FOB oder geliefert.',
-    faqs: [
-      { q: 'Wie stellen Sie sicher, dass die Geräte nicht gestohlen sind?', a: 'Jede IMEI wird vor dem Kauf gegen Sperrlisten geprüft. Geräte, die als verloren oder gestohlen gemeldet sind, sortieren wir aus, ebenso Geräte mit Aktivierungssperre. Sie erhalten die IMEI-Liste mit der Sendung.' },
-      { q: 'Was bedeuten die Zustandsnoten A, B und C?', a: 'Sie beschreiben nur die Optik, und jeder Händler definiert sie anders. Wir vereinbaren mit Ihnen schriftliche Definitionen, zum Beispiel erlaubte Gebrauchsspuren und den Mindest-Akkuzustand, und prüfen jedes Gerät dagegen.' },
-      { q: 'Gilt die Differenzbesteuerung für importierte Gebrauchtgeräte?', a: 'In der Regel nicht. § 25a UStG setzt eine Lieferung im Gemeinschaftsgebiet voraus. Bei selbst aus einem Drittland importierten Smartphones fällt Einfuhrumsatzsteuer auf den vollen Wert an. Bitte klären Sie die Kalkulation mit Ihrer Steuerberatung.' },
-      { q: 'Sprechen Sie Deutsch?', a: 'Sie können uns gern auf Deutsch schreiben. Unser Team antwortet auf Englisch, auch die Prüfberichte sind auf Englisch.' },
-    ],
-    ctaH2: 'Nennen Sie uns Ihren Gerätebedarf.',
-    ctaP: 'Modelle, Speichergrößen, gewünschte Zustandsnoten und Mindest-Akkuzustand. Sie erhalten Preise für Ihren Mix, FOB China oder geliefert, unverbindlich.',
-  },
-
-  {
     slug: 'balkonkraftwerk-grosshandel-china',
     title: 'Balkonkraftwerke im Großhandel aus China | Ériu',
     description: 'Balkonkraftwerk-Sets, Module und Mikrowechselrichter für Händler in DE und AT, ab Werk in China geprüft: 800 VA, VDE-AR-N 4105, Unterlagen vollständig.',
@@ -474,8 +324,6 @@ export const dePages = [
       imageAlt: 'Montage- und Prüflinie für Smartwatches in einer Fabrik in Shenzhen',
     },
     lines: [
-      { href: '/de/handy-ersatzteile-grosshandel/', h: 'Handy-Ersatzteile', p: 'Displays, Akkus und Kleinteile, geprüft vor dem Versand.' },
-      { href: '/de/refurbished-smartphones-grosshandel/', h: 'Refurbished Smartphones', p: 'Geprüfte Gebrauchtgeräte für Ihren Laden.' },
       { href: '/de/balkonkraftwerk-grosshandel-china/', h: 'Balkonkraftwerke', p: 'Steckersolar-Sets und Speicher ab Werk.' },
     ],
     checks: {
@@ -501,7 +349,7 @@ export const dePages = [
     fit: [
       'Sie verkaufen Zubehör im Laden oder online und wollen ab Fabrik einkaufen.',
       'Sie bauen eine Zubehör-Eigenmarke auf.',
-      'Sie möchten Zubehör, Ersatzteile und Gadgets auf einer Lieferung.',
+      'Sie möchten Zubehör und Gadgets auf einer Lieferung.',
     ],
     fitNote: 'Eigenes Branding erhöht die Mindestmenge. Wir nennen die Mindestmenge je Artikel im Angebot.',
     faqs: [

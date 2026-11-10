@@ -3,7 +3,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { markets } from '../../data/markets.js';
 import { marketLines } from '../../data/marketLines.js';
-import { wa } from '../../data/parts.js';
+import { wa } from '../../data/site.js';
 
 export function getStaticPaths() {
   return markets.map((m) => ({ params: { market: m.slug }, props: { m } }));
@@ -54,7 +54,7 @@ const pageSchemas = [
   <section class="section">
     <div class="container">
       <span class="section-eyebrow">What we source for {m.demonym} businesses</span>
-      <h2>Three ways we help {m.demonym} importers buy direct.</h2>
+      <h2>How we help {m.demonym} importers buy direct.</h2>
       <div class="hb-cards">
         {marketLines.map((l) => (
           <a href={`/${m.slug}/${l.slug}/`} class="hb-card">
@@ -126,7 +126,7 @@ const pageSchemas = [
   @keyframes hbPhotoIn { from { opacity: 0; transform: translateY(24px) scale(.97); } to { opacity: 1; transform: none; } }
   .hb-photo figcaption { position: absolute; left: 1rem; right: 1rem; bottom: -1.1rem; background: #fff; color: #23313d; font-size: .8125rem; padding: .65rem .9rem; border-radius: 10px; }
   .hb-photo figcaption strong { color: var(--color-emerald); }
-  .hb-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-top: 2rem; }
+  .hb-cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem; margin-top: 2rem; }
   .hb-card { display: grid; grid-template-rows: auto 1fr; border-radius: 14px; overflow: hidden; background: #fff; border: 1px solid rgba(15,33,49,.08); text-decoration: none; color: inherit; transition: transform .2s ease, box-shadow .2s ease; }
   .hb-card:hover { transform: translateY(-3px); box-shadow: 0 14px 34px rgba(15,33,49,.12); }
   .hb-card img { width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block; }
