@@ -48,7 +48,6 @@ const canonicalUrl = `${siteUrl}${withTrailingSlash(rawPath)}`;
 // Language: everything under /de/ is German for Germany and Austria.
 const canonicalPath = withTrailingSlash(rawPath);
 const isGerman = canonicalPath.startsWith('/de/');
-// Ériu Phone Parts targets English-speaking buyers worldwide, not just Ireland.
 // Country market sections (international expansion, 2026-10-16).
 const marketLocales = {
   '/uk/': { lang: 'en-GB', og: 'en_GB', region: 'GB' },
@@ -60,7 +59,7 @@ const marketLocales = {
   '/europe/': { lang: 'en', og: 'en_GB', region: null },
 };
 const market = Object.entries(marketLocales).find(([prefix]) => canonicalPath.startsWith(prefix))?.[1] ?? null;
-const isGlobal = canonicalPath.startsWith('/phone-parts/') || canonicalPath === '/' || canonicalPath.startsWith('/resources/glossary/') || !!market || globalPage;
+const isGlobal = canonicalPath === '/' || canonicalPath.startsWith('/resources/glossary/') || !!market || globalPage;
 const pair = translations.find((t) => t.en === canonicalPath || t.de === canonicalPath);
 const enAlt = isGerman ? pair?.en : canonicalPath;
 const deAlt = isGerman ? canonicalPath : pair?.de;
@@ -146,7 +145,7 @@ const orgSchema = {
     "China Sourcing", "Factory Direct Purchasing", "Pre-shipment Quality Control",
     "CE Marking Compliance", "Import Logistics", "Supplier Vetting",
     "Alibaba Alternative", "Irish Import Agent",
-    "Wholesale Used iPhones", "Wholesale Phone Parts", "Huaqiangbei Electronics Market",
+    "Huaqiangbei Electronics Market",
     "Expandable Modular Homes", "Incoterms", "AQL Inspection"
   ],
   "contactPoint": {
@@ -223,7 +222,7 @@ const structuredData = {
 
     <!-- hreflang: English pages are en-IE; German pages (/de/) target DE + AT.
          Pairs come from src/data/i18n.js so both versions point at each other. -->
-    {enAlt && <link rel="alternate" hreflang={(enAlt === '/' || enAlt.startsWith('/phone-parts/') || /^\/source\/electronics\/[^/]+-from-china\/$/.test(enAlt)) ? 'en' : 'en-ie'} href={`${siteUrl}${enAlt}`} />}
+    {enAlt && <link rel="alternate" hreflang={(enAlt === '/' || /^\/source\/electronics\/[^/]+-from-china\/$/.test(enAlt)) ? 'en' : 'en-ie'} href={`${siteUrl}${enAlt}`} />}
     {deAlt && <link rel="alternate" hreflang="de" href={`${siteUrl}${deAlt}`} />}
     {enAlt && <link rel="alternate" hreflang="x-default" href={`${siteUrl}${enAlt}`} />}
 

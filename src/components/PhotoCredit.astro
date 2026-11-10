@@ -1,6 +1,6 @@
 ---
-// Visible credit for openly licensed real photos (src/data/parts.js photoCredits).
-import { photoCredits } from '../../data/parts.js';
+// Visible credit for openly licensed real photos (src/data/site.js photoCredits).
+import { photoCredits } from '../data/site.js';
 interface Props { id?: string; overlay?: boolean; }
 const { id, overlay = false } = Astro.props;
 const c = id ? photoCredits[id] : null;

@@ -1,46 +1,9 @@
 // Product lines for the country market sections (/uk/, /australia/, ...).
 // Copy is market-neutral; {country}, {demonym} and {buyers} are filled per market.
-// Owner facts used: full-time buyer in Huaqiangbei; 53-person team, 47 in
-// Shenzhen and 6 in Zhengzhou; Bench-Proof Guarantee for phones and parts;
-// wholesale by the batch only (no single items, stock lists or pre-order videos). No invented claims.
+// Owner facts used: 53-person team, 47 in Shenzhen and 6 in Zhengzhou.
+// Phones & parts line removed 2026-11-10 (owner decision). No invented claims.
 
 export const marketLines = [
-  {
-    key: 'phones',
-    slug: 'wholesale-phones-parts',
-    nav: 'Phones & Parts',
-    titleTpl: '{short} Wholesale Phones & Phone Parts Supplier | Ériu',
-    descTpl: 'Used iPhones, Android phones, screens and batteries for {demonym} phone shops, bought in Huaqiangbei and tested in Shenzhen before they ship.',
-    h1Tpl: 'Wholesale phones and parts for {demonym} shops, tested in Shenzhen before they ship.',
-    subTpl: 'Used and refurbished iPhones, new Android phones, tablets, screens, batteries and repair parts, bought on the Huaqiangbei market floor by our own full-time buyer and tested one by one. You watch your batch on video before you pay the balance. Wholesale only, by the batch.',
-    image: '/images/shenzhen-phone-mall-trading-counters.webp',
-    imageAlt: 'Rows of phone trading counters on a crowded Shenzhen phone market floor',
-    credit: 'oskay',
-    pain: {
-      h2: 'Most phone stock reaches {country} through three or four sets of hands. Nobody tests it on the way.',
-      paras: [
-        'A screen or a used iPhone leaves a counter in Shenzhen, passes through a trader, an exporter and a wholesaler at home, and arrives on your bench having been switched on by nobody. You are the quality control, and you find the faults in front of your customers.',
-        'We take the middle out. Our buyer works the Huaqiangbei floors every day, and every phone and screen crosses our test bench in Shenzhen before it is packed for {country}.',
-      ],
-    },
-    benefits: [
-      ['Bought on the floor', 'A full-time buyer in Huaqiangbei, comparing counters and walking away from batches that will not pass.'],
-      ['Tested one by one', 'Every phone IMEI-checked and lock-checked, every screen powered up and touch-tested, every battery capacity-tested.'],
-      ['See it before you pay', 'Your batch on video, with the test record, before you pay the balance. Dead on arrival? Replaced or credited.'],
-      ['Mixed trade orders', 'Mix phones, screens, batteries and accessories in one order. Wholesale by the batch, for shops that resell or repair.'],
-    ],
-    links: [
-      ['Used iPhones', '/phone-parts/used-iphones-wholesale/'],
-      ['New Android phones', '/phone-parts/new-android-phones-wholesale/'],
-      ['iPhone screens', '/phone-parts/iphone-screens-wholesale/'],
-      ['Phone batteries', '/phone-parts/phone-batteries-wholesale/'],
-      ['Tablets and iPads', '/phone-parts/tablets-wholesale/'],
-      ['How we test', '/phone-parts/how-we-test/'],
-    ],
-    waTpl: 'Hi Noel, I run a phone/repair business in {country} and buy wholesale. Please quote me for [models, grades, quantities]: ',
-    ctaHref: '/phone-parts/quote/',
-    guarantee: true,
-  },
   {
     key: 'electronics',
     slug: 'electronics-from-china',
@@ -71,7 +34,6 @@ export const marketLines = [
       ['Smart home devices', '/source/electronics/smart-home-iot-devices-from-china/'],
       ['CCTV and IP cameras', '/source/electronics/cctv-ip-security-cameras-from-china/'],
       ['Smartwatches and wearables', '/source/electronics/smartwatches-wearables-from-china/'],
-      ['Phone accessories', '/phone-parts/phone-accessories-wholesale/'],
     ],
     waTpl: 'Hi Noel, I am in {country} and want to source electronics from Shenzhen: ',
     ctaHref: '/contact/',
