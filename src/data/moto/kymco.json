@@ -1,0 +1,3497 @@
+{
+ "brand": "kymco",
+ "brandStory": "KYMCO is the global brand of Kwang Yang Motor Company, headquartered in Kaohsiung, Taiwan. Founded in 1964 with technology transferred from Honda, it began selling its own independently developed models in 1992 and bought back Honda's stake in 2003. Its range covers scooters, motorcycles, mobility scooters, ATVs and utility vehicles.",
+ "brandStorySource": "https://www.kymco.co.uk/about-us",
+ "checked": "2026-11-11",
+ "models": [
+  {
+   "slug": "ak-575-premium",
+   "name": "AK 575 Premium",
+   "category": "Maxi scooter",
+   "key": {
+    "engine": "575 cc in-line twin",
+    "cc": 575,
+    "power": "51.6 hp (38.5 kW)",
+    "torque": "56.4 Nm",
+    "weight": "240 kg dry",
+    "seat": "785 mm",
+    "tank": "14.5 L",
+    "topSpeed": "165 km/h"
+   },
+   "tagline": "575 cc twin-cylinder touring maxi scooter with cornering ABS",
+   "summary": [
+    "The Kymco AK 575 Premium is a twin-cylinder touring maxi scooter built around a 575 cc DOHC eight-valve in-line twin producing 38.5 kW at 7,000 rpm and 56.4 Nm at 5,750 rpm. It suits experienced riders who want motorcycle-level pace with scooter convenience, and it is the touring model above the Kymco 350 and 400 cc scooters.",
+    "Equipment is the selling point. The AK 575 Premium has AIBS cornering ABS, traction control, an electronic throttle with cruise control and two riding modes, Rain and Power. A multi-position electric windscreen, an upside-down fork, 15-inch alloy wheels and a centre console of piano-key style buttons for the fuel cap, seat and handlebar lock complete the package."
+   ],
+   "highlights": [
+    "575 cc DOHC 8-valve in-line twin, 38.5 kW at 7,000 rpm",
+    "AIBS cornering ABS plus traction control",
+    "Cruise control and two riding modes: Rain and Power",
+    "Multi-position electrically adjustable windscreen",
+    "Upside-down fork, 270 mm twin front discs, 260 mm rear disc",
+    "14.5 L tank and 785 mm seat height"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "DOHC, 4-stroke, 8-valve, in-line twin"
+      ],
+      [
+       "Displacement",
+       "575 cc"
+      ],
+      [
+       "Max power",
+       "38.5 kW at 7,000 rpm"
+      ],
+      [
+       "Max torque",
+       "56.4 Nm at 5,750 rpm"
+      ],
+      [
+       "Fuel system",
+       "Fuel injection"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Transmission",
+       "CVT automatic"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "Upside-down fork"
+      ],
+      [
+       "Rear suspension",
+       "Unit swingarm"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Braking system",
+       "AIBS cornering ABS"
+      ],
+      [
+       "Front brake",
+       "270 mm dual disc"
+      ],
+      [
+       "Rear brake",
+       "260 mm disc"
+      ],
+      [
+       "Front tyre",
+       "120/70R-15"
+      ],
+      [
+       "Rear tyre",
+       "160/60R-15"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2200 x 795 x 1494 mm"
+      ],
+      [
+       "Wheelbase",
+       "1580 mm"
+      ],
+      [
+       "Seat height",
+       "785 mm"
+      ],
+      [
+       "Fuel tank",
+       "14.5 L"
+      ],
+      [
+       "Dry weight",
+       "240 kg"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Traction control",
+       "Yes"
+      ],
+      [
+       "Cruise control",
+       "Yes"
+      ],
+      [
+       "Riding modes",
+       "Rain and Power"
+      ],
+      [
+       "Throttle",
+       "Electronic"
+      ],
+      [
+       "Windscreen",
+       "Electric, multi-position"
+      ],
+      [
+       "Lighting",
+       "Full LED with daytime running light"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Stucco Lake Green",
+    "Matt Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kymco/ak-575-premium-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kymco AK 575 Premium maxi scooter in matt dark grey, side view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/ak-575-premium-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco AK 575 Premium maxi scooter in matt dark grey, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/ak-575-premium-3",
+     "w": 1000,
+     "h": 667,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Kymco AK 575 Premium maxi scooter, piano-key centre console buttons, detail"
+    },
+    {
+     "src": "/images/motorcycles/kymco/ak-575-premium-4",
+     "w": 1000,
+     "h": 667,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Kymco AK 575 Premium maxi scooter, LED headlights and indicators, front detail"
+    },
+    {
+     "src": "/images/motorcycles/kymco/ak-575-premium-5",
+     "w": 1200,
+     "h": 675,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kymco AK 575 Premium maxi scooter in grey, parked on a mountain road"
+    }
+   ],
+   "sourceUrl": "https://www.kymco.co.uk/scooters-and-motorcycles-range/maxi-scooters/ak-575-premium",
+   "notes": "Main specs from kymco.co.uk. Power published only in kW (38.5 kW); hp = 38.5 x 1.341 = 51.6 hp. The UK page lists 240 kg as 'dry weight'; kymco.com.cn (id=90, 'AK575 PREMUIM') gives 574.2 cc, 38.5 kW at 7,000 rpm, 56 Nm at 5,750 rpm, 239 kg kerb weight, 785 mm seat, 14.5 L, 2165 x 795 x 1363 mm, 165 km/h top speed (top speed taken from the Chinese page), 33.15 L under-seat storage and TPMS; kymco.de gives 574 cc, 38.5 kW (52.3 PS), 238 kg ready to ride, 790 mm seat, Brembo 4-piston radial front calipers. The owner's 226 kg figure does not appear on any official page found. kymcousa.com sells the earlier AK 550i Premium (550.4 cc, 50.9 hp, 492 lb = 223 kg dry), not the 575. Images 1-2 from kymco.de (dark grey metallic matt), 3-5 from the UK gallery."
+  },
+  {
+   "slug": "cv3",
+   "name": "CV3",
+   "category": "Three-wheel scooter",
+   "key": {
+    "engine": "574 cc in-line twin",
+    "cc": 574,
+    "power": "50.4 hp (37.6 kW)",
+    "torque": "54.4 Nm",
+    "weight": null,
+    "seat": null,
+    "tank": null,
+    "topSpeed": "169 km/h (105 mph)"
+   },
+   "tagline": "Kymco's first three-wheeler: 574 cc twin and leaning front end",
+   "summary": [
+    "The Kymco CV3 is the brand's first three-wheeled scooter, pairing two front wheels with a 574 cc DOHC eight-valve in-line twin rated at 37.6 kW and 54.4 Nm. It is aimed at riders who want the stability of a twin front end on long trips and rough surfaces, and it adds a three-wheel option alongside the Kymco maxi scooters.",
+    "The front end uses the KYMCO Advanced Leaning Suspension, which allows up to 40 degrees of lean, with an upside-down layout and adventure-pattern tyres. An anti-lean system holds the CV3 upright when stopped. Heated grips, keyless start, cruise control, two drive modes, ABS, LED lights, a 6-inch TFT display and a foot brake pedal are standard."
+   ],
+   "highlights": [
+    "574 cc DOHC 8-valve in-line twin, 37.6 kW at 7,000 rpm",
+    "KALS leaning front suspension with up to 40 degrees of lean",
+    "Anti-lean and stand-assist system holds the bike upright at a stop",
+    "Cruise control, heated grips, keyless start and two drive modes",
+    "ABS with 270 mm front discs and a car-style foot brake pedal",
+    "6-inch TFT display and full LED lighting"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "DOHC, 4-stroke, 8-valve, in-line twin"
+      ],
+      [
+       "Displacement",
+       "574 cc"
+      ],
+      [
+       "Max power",
+       "37.6 kW at 7,000 rpm"
+      ],
+      [
+       "Max torque",
+       "54.4 Nm at 5,750 rpm"
+      ],
+      [
+       "Fuel system",
+       "Fuel injection"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Transmission",
+       "CVT automatic"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "KALS leaning suspension, up to 40 degrees lean"
+      ],
+      [
+       "Rear suspension",
+       "Unit swingarm"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Braking system",
+       "ABS"
+      ],
+      [
+       "Front brake",
+       "270 mm disc"
+      ],
+      [
+       "Rear brake",
+       "260 mm disc"
+      ],
+      [
+       "Front tyres",
+       "110/70-13 (x2)"
+      ],
+      [
+       "Rear tyre",
+       "160/60R-15"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Top speed",
+       "105 mph (169 km/h)"
+      ],
+      [
+       "Range",
+       "190 miles (306 km)"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Display",
+       "6-inch TFT"
+      ],
+      [
+       "Lighting",
+       "LED"
+      ],
+      [
+       "Cruise control",
+       "Yes"
+      ],
+      [
+       "Heated grips",
+       "Yes"
+      ],
+      [
+       "Ignition",
+       "Keyless one-touch start"
+      ],
+      [
+       "Drive modes",
+       "Two"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Light Gold",
+    "Mat Grey Metallic"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kymco/cv3-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kymco CV3 three-wheel scooter in Mat Grey Metallic, side view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/cv3-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco CV3 three-wheel scooter in Dark Peridot, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/cv3-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Kymco CV3 three-wheel scooter, rider seat and backrest, detail"
+    },
+    {
+     "src": "/images/motorcycles/kymco/cv3-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Kymco CV3 three-wheel scooter, LED tail light, rear detail"
+    },
+    {
+     "src": "/images/motorcycles/kymco/cv3-5",
+     "w": 1200,
+     "h": 900,
+     "kind": "riding",
+     "studio": false,
+     "alt": "Kymco CV3 three-wheel scooter in green, ridden on a town road"
+    }
+   ],
+   "sourceUrl": "https://www.kymco.co.uk/scooters-and-motorcycles-range/maxi-scooters/cv3",
+   "notes": "UK page: 574 cc, 37.6 kW (hp = 37.6 x 1.341 = 50.4 hp), 54.4 Nm, 105 mph top speed, 190 mile range; no weight, seat or tank on the UK page. kymcousa.com lists a 550 cc CV3 (550.4 cc, 69 x 73.6 mm, 11:1, 51 hp at 7,500 rpm, 40.6 lb-ft = 55.0 Nm, 621.7 lb = 282 kg curb, 30.9 in = 785 mm seat, 4.1 gal = 15.5 L, 2140 x 785 x 1450 mm, wheelbase 1580 mm, toothed belt final drive, aluminium twin-spar frame); those US figures are for the 550 cc version and were not merged into this record. UK copy calls the front suspension upside-down while the UK table says 'Telescopic'; US says double shock absorbers with KALS. kymco.fr and kymco.de call it CV3 575. Image 2 is a US studio shot (Dark Peridot, a US colour). Range row in km is a conversion."
+  },
+  {
+   "slug": "dtx-360-320",
+   "name": "DTX 360 320",
+   "category": "Adventure scooter",
+   "key": {
+    "engine": "320.6 cc single",
+    "cc": 320.6,
+    "power": "28.2 hp (21 kW)",
+    "torque": "30 Nm",
+    "weight": "194 kg dry",
+    "seat": "800 mm",
+    "tank": "12.5 L",
+    "topSpeed": null
+   },
+   "tagline": "320 cc adventure crossover scooter with ABS and traction control",
+   "summary": [
+    "The Kymco DTX 360 320 is a crossover scooter for riders whose week mixes commuting with gravel lanes and weekend trips. Its 320.6 cc liquid-cooled single makes 21 kW (28.2 hp) at 7,500 rpm and 30 Nm at 5,750 rpm, and it is the larger of the two DTX 360 versions, offering an adventure-styled step up from the 125.",
+    "Adventure details set it apart from a standard maxi scooter: a wider handlebar, a higher seating position, lightweight wheels and adventure-pattern tyres for rougher surfaces. Traction control and ABS come as standard, with a 280 mm front disc and 260 mm rear disc. Keyless access, a 12.5 L tank and an 800 mm seat round out the specification."
+   ],
+   "highlights": [
+    "320.6 cc liquid-cooled single, 21 kW (28.2 hp) at 7,500 rpm",
+    "Traction control and ABS as standard",
+    "Wider handlebar and higher seat position for control and vision",
+    "Adventure-pattern tyres on 14 in front and 13 in rear wheels",
+    "Keyless system",
+    "Five-step adjustable twin rear shocks"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "OHC, 4-stroke, single cylinder"
+      ],
+      [
+       "Displacement",
+       "320.6 cc"
+      ],
+      [
+       "Max power",
+       "21 kW (28.2 hp) at 7,500 rpm"
+      ],
+      [
+       "Max torque",
+       "30 Nm at 5,750 rpm"
+      ],
+      [
+       "Fuel system",
+       "Fuel injection"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Transmission",
+       "CVT automatic"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "Telescopic fork"
+      ],
+      [
+       "Rear suspension",
+       "Double swing with 5-step adjustment"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Braking system",
+       "ABS"
+      ],
+      [
+       "Front brake",
+       "280 mm disc"
+      ],
+      [
+       "Rear brake",
+       "260 mm disc"
+      ],
+      [
+       "Front tyre",
+       "120/80-14"
+      ],
+      [
+       "Rear tyre",
+       "150/70-13"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2165 x 780 x 1290 mm"
+      ],
+      [
+       "Wheelbase",
+       "1545 mm"
+      ],
+      [
+       "Seat height",
+       "800 mm"
+      ],
+      [
+       "Fuel tank",
+       "12.5 L"
+      ],
+      [
+       "Dry weight",
+       "194 kg"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Traction control",
+       "Yes"
+      ],
+      [
+       "Keyless system",
+       "Yes"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Orange",
+    "Green"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kymco/dtx-360-320-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kymco DTX 360 320 adventure scooter in Orange, side view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/dtx-360-320-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco DTX 360 320 adventure scooter in Orange, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/dtx-360-320-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Kymco DTX 360 320 adventure scooter, LED headlights, front detail"
+    },
+    {
+     "src": "/images/motorcycles/kymco/dtx-360-320-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Kymco DTX 360 320 adventure scooter, front wheel and disc brake, detail"
+    },
+    {
+     "src": "/images/motorcycles/kymco/dtx-360-320-5",
+     "w": 1200,
+     "h": 900,
+     "kind": "riding",
+     "studio": false,
+     "alt": "Kymco DTX 360 320 adventure scooter, ridden on a coastal road"
+    }
+   ],
+   "sourceUrl": "https://www.kymco.co.uk/scooters-and-motorcycles-range/dtx-360/dtx-360-320",
+   "notes": "Name: the UK site files this as 'DTX 360 - 320' (heading) and 'DTX 320' in its copy; kymco.de sells the same family as 'DT X 350i ABS' (321 cc, 20.4 kW / 27.7 PS at 7,250 rpm, 194 kg ready to ride, 800 mm seat, 12.5 L, 260 mm front / 240 mm rear discs); kymco.es as 'DTX 350'. Kymco's global name is DT X360 (kymco.com could not be reached to confirm). Brake disc sizes differ between UK (280/260) and DE (260/240) pages."
+  },
+  {
+   "slug": "dtx-360-125",
+   "name": "DTX 360 125",
+   "category": "Adventure scooter",
+   "key": {
+    "engine": "124 cc single",
+    "cc": 124,
+    "power": "13 hp (10 kW)",
+    "torque": null,
+    "weight": "176 kg dry",
+    "seat": "785 mm",
+    "tank": "12.5 L",
+    "topSpeed": null
+   },
+   "tagline": "125 cc version of the DTX 360 crossover with ABS and keyless start",
+   "summary": [
+    "The Kymco DTX 360 125 brings the adventure-crossover look of the DTX 360 family to the 125 cc class. A liquid-cooled 124 cc single produces 10 kW (13 hp) at 8,750 rpm, so it suits learner-licence and commuter riders who want something more rugged in appearance than a city scooter, and it is the entry point to the DTX line.",
+    "It shares the bigger model's chassis and equipment: wider handlebar, higher seat position, lightweight wheels with adventure-pattern tyres, a keyless system and ABS with a 280 mm front disc and 260 mm rear disc. The 12.5 L tank, 785 mm seat and five-step adjustable rear shocks are aimed at longer daily runs."
+   ],
+   "highlights": [
+    "124 cc liquid-cooled single, 10 kW (13 hp) at 8,750 rpm",
+    "ABS with 280 mm front and 260 mm rear discs",
+    "Adventure-pattern tyres on lightweight wheels",
+    "Keyless system",
+    "12.5 L tank and 785 mm seat height"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "OHC, 4-stroke, single cylinder"
+      ],
+      [
+       "Displacement",
+       "124 cc"
+      ],
+      [
+       "Max power",
+       "10 kW (13 hp) at 8,750 rpm"
+      ],
+      [
+       "Fuel system",
+       "Fuel injection"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Transmission",
+       "CVT automatic"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "Telescopic fork"
+      ],
+      [
+       "Rear suspension",
+       "Double swing with 5-step adjustment"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Braking system",
+       "ABS"
+      ],
+      [
+       "Front brake",
+       "280 mm disc"
+      ],
+      [
+       "Rear brake",
+       "260 mm disc"
+      ],
+      [
+       "Front tyre",
+       "120/80-14"
+      ],
+      [
+       "Rear tyre",
+       "150/70-13"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2165 x 780 x 1285 mm"
+      ],
+      [
+       "Wheelbase",
+       "1550 mm"
+      ],
+      [
+       "Seat height",
+       "785 mm"
+      ],
+      [
+       "Fuel tank",
+       "12.5 L"
+      ],
+      [
+       "Dry weight",
+       "176 kg"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Keyless system",
+       "Yes"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Orange",
+    "Green"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kymco/dtx-360-125-1",
+     "w": 1050,
+     "h": 700,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kymco DTX 360 125 adventure scooter in Green, side view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/dtx-360-125-2",
+     "w": 1094,
+     "h": 729,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco DTX 360 125 adventure scooter in Green, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/dtx-360-125-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Kymco DTX 360 125 adventure scooter, front wheel and disc brake, detail"
+    },
+    {
+     "src": "/images/motorcycles/kymco/dtx-360-125-4",
+     "w": 1200,
+     "h": 801,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Kymco DTX 360 125 adventure scooter in Green, keyless ignition knob, detail"
+    }
+   ],
+   "sourceUrl": "https://www.kymco.co.uk/scooters-and-motorcycles-range/dtx-360/dtx-360-125",
+   "notes": "The UK spec table repeats the power figure in the torque row ('10 kW (13 HP) / 8750 rpm'), so torque is left null. kymco.es lists a 'DTX 125'. No lifestyle shot specific to the 125 was found."
+  },
+  {
+   "slug": "downtown-gt-350i",
+   "name": "Downtown GT 350i",
+   "category": "Maxi scooter",
+   "key": {
+    "engine": "321 cc single",
+    "cc": 321,
+    "power": "28.2 hp",
+    "torque": null,
+    "weight": "198 kg dry",
+    "seat": "810 mm",
+    "tank": "12.5 L",
+    "topSpeed": null
+   },
+   "tagline": "321 cc grand touring scooter with ABS, traction control and 7in TFT",
+   "summary": [
+    "The Kymco Downtown GT 350i is a mid-size grand touring scooter for riders who commute through the week and travel at weekends. A liquid-cooled 321 cc SOHC four-valve single delivers 28.2 hp at 7,500 rpm, which Kymco says is 9% more than the previous global model, while the frame is 2.5% lighter than before.",
+    "Safety equipment is comprehensive: ABS front and rear, a traction control system and an Emergency Stop Signal that flashes the tail lights under hard braking. A 7-inch TFT dashboard, keyless ignition, glove box with USB port and under-seat space for two full-face helmets add daily practicality, and 15-inch front and 14-inch rear rims aid stability."
+   ],
+   "highlights": [
+    "321 cc liquid-cooled SOHC single, 28.2 hp at 7,500 rpm",
+    "ABS and traction control as standard",
+    "Emergency Stop Signal flashes tail lights under hard braking",
+    "7-inch TFT dashboard and keyless ignition",
+    "Under-seat storage for two full-face helmets",
+    "15 in front and 14 in rear wheels"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "SOHC, 4-stroke, 4-valve single"
+      ],
+      [
+       "Displacement",
+       "321 cc"
+      ],
+      [
+       "Max power",
+       "28.2 hp at 7,500 rpm"
+      ],
+      [
+       "Max torque",
+       "32.13 lb-ft at 7,500 rpm (as published)"
+      ],
+      [
+       "Fuel system",
+       "Fuel injection"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Transmission",
+       "CVT automatic with TCS"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "Hydraulic telescopic fork"
+      ],
+      [
+       "Rear suspension",
+       "Single-sided swinging fork with adjustable preload"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "259 mm (10.2 in) disc with ABS"
+      ],
+      [
+       "Rear brake",
+       "239 mm (9.4 in) disc with ABS"
+      ],
+      [
+       "Front tyre",
+       "120/70-15"
+      ],
+      [
+       "Rear tyre",
+       "140/70-14"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2250 x 729 x 1346 mm"
+      ],
+      [
+       "Wheelbase",
+       "1554 mm"
+      ],
+      [
+       "Seat height",
+       "810 mm"
+      ],
+      [
+       "Fuel tank",
+       "12.5 L"
+      ],
+      [
+       "Dry weight",
+       "198 kg"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Dashboard",
+       "7-inch TFT"
+      ],
+      [
+       "Ignition",
+       "Keyless"
+      ],
+      [
+       "Traction control",
+       "Yes"
+      ],
+      [
+       "Emergency Stop Signal",
+       "Yes"
+      ],
+      [
+       "Lighting",
+       "Integrated LED"
+      ],
+      [
+       "Storage",
+       "Glove box with USB port; under-seat space for two full-face helmets"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Matte Black",
+    "Flat Brown"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kymco/downtown-gt-350i-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco Downtown GT 350i maxi scooter in Flat Brown, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/downtown-gt-350i-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco Downtown GT 350i maxi scooter in Matte Black, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/downtown-gt-350i-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Kymco Downtown GT 350i maxi scooter, 7-inch TFT dashboard, detail"
+    },
+    {
+     "src": "/images/motorcycles/kymco/downtown-gt-350i-4",
+     "w": 1000,
+     "h": 667,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Kymco Downtown GT 350i maxi scooter, LED headlights, front detail"
+    },
+    {
+     "src": "/images/motorcycles/kymco/downtown-gt-350i-5",
+     "w": 960,
+     "h": 635,
+     "kind": "riding",
+     "studio": false,
+     "alt": "Kymco Downtown GT 350i maxi scooter in blue, ridden on a tree-lined road"
+    }
+   ],
+   "sourceUrl": "https://www.kymcousa.com/scooters/downtown-gt-350i/",
+   "notes": "US figures converted to metric: 436.5 lb = 198 kg dry; 31.9 in = 810 mm seat; 3.3 gal = 12.5 L; 88.6 x 28.7 x 53 in = 2250 x 729 x 1346 mm; wheelbase 61.2 in = 1554 mm; discs 10.2/9.4 in = 259/239 mm. Owner's figures (321 cc, 28.2 hp, 198 kg dry, 810 mm) all confirmed. Torque published as '32.13 ft lbs @ 7500 rpm' (= 43.6 Nm), which looks implausible for this engine and peaks at the same rpm as power; key torque left null and the row kept as published. kymco.de 'DOWNTOWN GT 350i TCS' gives 321 cc, 21 kW (28.6 PS) at 7,250 rpm, 185 kg ready to ride, 800 mm seat, 2230 x 800 x 1280 mm, 260/240 mm discs (different from US). No pure side-view studio shot was found; image 1 is a three-quarter studio shot. Image 5 is a generic Downtown riding shot from the US page."
+  },
+  {
+   "slug": "downtown-gt-125i",
+   "name": "Downtown GT 125i",
+   "category": "Maxi scooter",
+   "key": {
+    "engine": "124 cc single",
+    "cc": 124,
+    "power": "12.7 hp",
+    "torque": "11.0 Nm",
+    "weight": "172 kg dry",
+    "seat": "810 mm",
+    "tank": "12.5 L",
+    "topSpeed": null
+   },
+   "tagline": "125 cc GT scooter with ABS, traction control and 15in front wheel",
+   "summary": [
+    "The Kymco Downtown GT 125i puts big-scooter proportions and equipment into the 125 cc class. Its liquid-cooled 124 cc SOHC four-valve single produces 12.7 hp at 9,000 rpm and 11.0 Nm at 7,000 rpm. It suits commuters on a learner or A1 licence who still want a full-size touring scooter, and it pairs naturally with the 350i in a range.",
+    "Like the 350i it uses a CVT with traction control, ABS on both discs, a hydraulic telescopic fork and a single-sided rear swinging fork with adjustable preload. A 15-inch front and 14-inch rear wheel give a stable footprint, while the 12.5 L tank and under-seat storage make it practical for longer daily journeys."
+   ],
+   "highlights": [
+    "124 cc liquid-cooled SOHC 4-valve single, 12.7 hp at 9,000 rpm",
+    "Traction control and ABS front and rear",
+    "15 in front and 14 in rear wheels",
+    "12.5 L tank and under-seat storage",
+    "Offered in Starry Night Blue, Matte Black and Flat Brown"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "SOHC, 4-stroke, 4-valve single"
+      ],
+      [
+       "Displacement",
+       "124 cc"
+      ],
+      [
+       "Max power",
+       "12.7 hp at 9,000 rpm"
+      ],
+      [
+       "Max torque",
+       "11.0 Nm (8.11 lb-ft) at 7,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "Fuel injection"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Transmission",
+       "CVT automatic with TCS"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "Hydraulic telescopic fork"
+      ],
+      [
+       "Rear suspension",
+       "Single-sided swinging fork with adjustable preload"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "259 mm (10.2 in) disc with ABS"
+      ],
+      [
+       "Rear brake",
+       "239 mm (9.4 in) disc with ABS"
+      ],
+      [
+       "Front tyre",
+       "120/70-15"
+      ],
+      [
+       "Rear tyre",
+       "140/70-14"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2230 x 810 x 1311 mm"
+      ],
+      [
+       "Wheelbase",
+       "1554 mm"
+      ],
+      [
+       "Seat height",
+       "810 mm"
+      ],
+      [
+       "Fuel tank",
+       "12.5 L"
+      ],
+      [
+       "Dry weight",
+       "172 kg"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Traction control",
+       "Yes"
+      ],
+      [
+       "Under-seat storage",
+       "Yes"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Starry Night Blue",
+    "Matte Black",
+    "Flat Brown"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kymco/downtown-gt-125i-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco Downtown GT 125i maxi scooter in Starry Night Blue, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/downtown-gt-125i-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco Downtown GT 125i maxi scooter in Flat Brown, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/downtown-gt-125i-3",
+     "w": 1000,
+     "h": 667,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Kymco Downtown GT 125i maxi scooter, Downtown GT side panel badge, detail"
+    },
+    {
+     "src": "/images/motorcycles/kymco/downtown-gt-125i-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Kymco Downtown GT 125i maxi scooter, TFT dashboard and GT emblem, detail"
+    },
+    {
+     "src": "/images/motorcycles/kymco/downtown-gt-125i-5",
+     "w": 1200,
+     "h": 801,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kymco Downtown GT 125i maxi scooter in blue with rider, front detail"
+    }
+   ],
+   "sourceUrl": "https://www.kymcousa.com/scooters/downtown-gt-125i/",
+   "notes": "US imperial figures converted: 380 lb = 172 kg; 31.9 in = 810 mm; 3.3 gal = 12.5 L; 87.8 x 31.9 x 51.6 in = 2230 x 810 x 1311 mm; 61.2 in = 1554 mm; 8.11 lb-ft = 11.0 Nm. kymco.de lists it as 'DOWNTOWN GT 125i ABS'. No side-view studio shot found."
+  },
+  {
+   "slug": "like-150i-abs",
+   "name": "Like 150i ABS",
+   "category": "Scooter",
+   "key": {
+    "engine": "149.8 cc single",
+    "cc": 149.8,
+    "power": "13.5 hp",
+    "torque": "11.8 Nm",
+    "weight": "120 kg dry",
+    "seat": "790 mm",
+    "tank": "6.8 L",
+    "topSpeed": null
+   },
+   "tagline": "Retro-styled 150 cc scooter with ABS and twin-piston calipers",
+   "summary": [
+    "The Kymco Like 150i ABS is a classic-styled urban scooter with a 149.8 cc SOHC four-valve single that produces 13.5 hp at 9,000 rpm. At 120 kg dry with a 790 mm seat, it suits riders who want retro looks with more pace than a 125, making it a style-led choice in the small-wheel class.",
+    "Braking is well specified: ABS front and rear with two-piston calipers on a 220 mm front and 200 mm rear rotor. The fork has 95 mm of travel and the twin rear shocks offer preload adjustment. Twelve-inch wheels, LED lighting, fold-out footpegs and lockable under-seat storage complete the package."
+   ],
+   "highlights": [
+    "149.8 cc fuel-injected SOHC 4-valve single, 13.5 hp at 9,000 rpm",
+    "ABS front and rear with two-piston calipers",
+    "120 kg dry and 790 mm seat height",
+    "Twin rear shocks with preload adjustment",
+    "LED head and brake lights, under-seat storage"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "SOHC, 4-stroke, 4-valve, single cylinder"
+      ],
+      [
+       "Displacement",
+       "149.8 cc"
+      ],
+      [
+       "Bore x stroke",
+       "59 x 54.8 mm"
+      ],
+      [
+       "Max power",
+       "13.5 hp at 9,000 rpm"
+      ],
+      [
+       "Max torque",
+       "11.8 Nm (8.7 lb-ft) at 6,500 rpm"
+      ],
+      [
+       "Fuel system",
+       "Fuel injection"
+      ],
+      [
+       "Cooling",
+       "Forced air"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Transmission",
+       "CVT automatic"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "Telescopic fork, 33 mm legs, 95 mm travel"
+      ],
+      [
+       "Rear suspension",
+       "Twin shocks with preload adjustment, 86 mm travel"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "220 mm single rotor, two-piston caliper, ABS"
+      ],
+      [
+       "Rear brake",
+       "200 mm single rotor, two-piston caliper, ABS"
+      ],
+      [
+       "Front tyre",
+       "110/70-12"
+      ],
+      [
+       "Rear tyre",
+       "130/70-12"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "1951 x 691 x 1146 mm"
+      ],
+      [
+       "Wheelbase",
+       "1316 mm"
+      ],
+      [
+       "Seat height",
+       "790 mm"
+      ],
+      [
+       "Fuel tank",
+       "6.8 L"
+      ],
+      [
+       "Dry weight",
+       "120 kg"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Lighting",
+       "LED"
+      ],
+      [
+       "Under-seat storage",
+       "Yes"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Pearly Light Green",
+    "Matte Silver"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kymco/like-150i-abs-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco Like 150i ABS scooter in Pearly Light Green, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/like-150i-abs-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco Like 150i ABS scooter in Matte Silver, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/like-150i-abs-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Kymco Like 150i ABS scooter, analogue and digital instrument panel, detail"
+    },
+    {
+     "src": "/images/motorcycles/kymco/like-150i-abs-4",
+     "w": 966,
+     "h": 644,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Kymco Like 150i ABS scooter, round LED headlight, front detail"
+    },
+    {
+     "src": "/images/motorcycles/kymco/like-150i-abs-5",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Kymco Like 150i ABS scooter, LED brake light, rear detail"
+    }
+   ],
+   "sourceUrl": "https://www.kymcousa.com/scooters/like-150i-abs/",
+   "notes": "US imperial figures converted: 264 lb = 119.7 kg (rounded 120 kg); 31.1 in = 790 mm; 1.8 gal = 6.8 L; 76.8 x 27.2 x 45.1 in = 1951 x 691 x 1146 mm; 51.8 in = 1316 mm; 8.66/7.87 in rotors = 220/200 mm; 3.74/3.39 in travel = 95/86 mm; 1.30 in fork legs = 33 mm; 8.7 lb-ft = 11.8 Nm. Owner's figures (149.8 cc, 13.5 hp, 120 kg dry, 790 mm) confirmed. LED lighting and footpeg feature taken from US page feature images (LEDLIGHTING, LEDBRAKELIGHT, FOOTPEGS, STORAGE). No side-view studio shot found. kymco.de sells 'LIKE II 125i ABS' instead."
+  },
+  {
+   "slug": "people-s-150i-abs",
+   "name": "People S 150i ABS",
+   "category": "Scooter",
+   "key": {
+    "engine": "149.8 cc single",
+    "cc": 149.8,
+    "power": "13.5 hp",
+    "torque": "12.3 Nm",
+    "weight": "130 kg dry",
+    "seat": "800 mm",
+    "tank": "6.2 L",
+    "topSpeed": null
+   },
+   "tagline": "High-wheel 150 cc commuter scooter on 16in front wheel with ABS",
+   "summary": [
+    "The Kymco People S 150i ABS is a high-wheel commuter scooter with a 16-inch front and 14-inch rear wheel and a step-through layout. Its 149.8 cc SOHC four-valve single gives 13.5 hp at 9,000 rpm and 12.3 Nm at 6,500 rpm, suiting urban and suburban riders who travel a little further than a 125 allows.",
+    "The front disc has ABS and the rear uses a hydraulic disc, with a telescopic fork and twin rear shocks with adjustable preload. At 130 kg dry, with an 800 mm seat and under-seat storage, it is an easy step up for riders moving from a 50 or 125 who want a high-wheel layout."
+   ],
+   "highlights": [
+    "149.8 cc fuel-injected SOHC 4-valve single, 13.5 hp at 9,000 rpm",
+    "16 in front and 14 in rear wheels",
+    "Front disc with ABS, hydraulic rear disc",
+    "Twin rear shocks with adjustable preload",
+    "130 kg dry, 800 mm seat, under-seat storage"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "SOHC, 4-stroke, 4-valve, single cylinder"
+      ],
+      [
+       "Displacement",
+       "149.8 cc"
+      ],
+      [
+       "Bore x stroke",
+       "59 x 54.8 mm"
+      ],
+      [
+       "Max power",
+       "13.5 hp at 9,000 rpm"
+      ],
+      [
+       "Max torque",
+       "12.3 Nm (9.1 lb-ft) at 6,500 rpm"
+      ],
+      [
+       "Fuel system",
+       "Fuel injection"
+      ],
+      [
+       "Cooling",
+       "Forced air"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Transmission",
+       "CVT automatic"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "Telescopic fork"
+      ],
+      [
+       "Rear suspension",
+       "Twin shocks with adjustable preload"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Hydraulic disc with ABS"
+      ],
+      [
+       "Rear brake",
+       "Hydraulic disc"
+      ],
+      [
+       "Front tyre",
+       "100/80-16"
+      ],
+      [
+       "Rear tyre",
+       "120/80-14"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2083 x 701 x 1171 mm"
+      ],
+      [
+       "Wheelbase",
+       "1389 mm"
+      ],
+      [
+       "Seat height",
+       "800 mm"
+      ],
+      [
+       "Fuel tank",
+       "6.2 L"
+      ],
+      [
+       "Dry weight",
+       "130 kg"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Under-seat storage",
+       "Yes"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Brown",
+    "Matte Silver"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kymco/people-s-150i-abs-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco People S 150i ABS scooter in Matte Silver, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/people-s-150i-abs-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco People S 150i ABS scooter in Brown, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/people-s-150i-abs-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Kymco People S 150i ABS scooter, digital instrument panel, detail"
+    },
+    {
+     "src": "/images/motorcycles/kymco/people-s-150i-abs-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Kymco People S 150i ABS scooter, 16-inch front wheel and disc brake, detail"
+    },
+    {
+     "src": "/images/motorcycles/kymco/people-s-150i-abs-5",
+     "w": 1200,
+     "h": 801,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kymco People S 150i ABS scooter in silver with top box, parked in a city street"
+    }
+   ],
+   "sourceUrl": "https://www.kymcousa.com/scooters/people-s-150i-abs",
+   "notes": "US imperial figures converted: 286.6 lb = 130 kg; 31.5 in = 800 mm; 1.63 gal = 6.2 L; 82 x 27.6 x 46.1 in = 2083 x 701 x 1171 mm; 54.7 in = 1389 mm; 9.1 lb-ft = 12.3 Nm. Several detail images on the US page are file-named 'PeopleS125' (shared with the 125 version). Not in the must-include list; added to cover the high-wheel class."
+  },
+  {
+   "slug": "agility-50",
+   "name": "Agility 50",
+   "category": "Scooter",
+   "key": {
+    "engine": "49 cc single",
+    "cc": 49,
+    "power": "3.2 hp (2.4 kW)",
+    "torque": "3.3 Nm",
+    "weight": "92.5 kg dry",
+    "seat": "737 mm",
+    "tank": "4.9 L",
+    "topSpeed": null
+   },
+   "tagline": "Entry-level 50 cc four-stroke scooter with 12in alloy wheels",
+   "summary": [
+    "The Kymco Agility 50 is an entry-level 50 cc scooter for new riders, students and short urban trips. Its air-cooled 49 cc SOHC two-valve single uses an electronic carburettor system and makes 2.4 kW (3.2 hp), with low running costs as the main appeal. At 92.5 kg dry and with a 737 mm seat, it is light and easy to handle.",
+    "Equipment is practical rather than flashy: a front disc and rear drum brake, a rear shock with five-step preload, 12-inch alloy wheels, side and centre stands, a flat step-through floor and a lockable under-seat compartment. A luggage rack, bag hook and helmet locking posts help with daily errands and shopping trips around town."
+   ],
+   "highlights": [
+    "49 cc air-cooled SOHC single with electronic carburettor (ECS)",
+    "92.5 kg dry and 737 mm seat height",
+    "Front disc, rear drum brake",
+    "12 in alloy wheels, rear shock with 5-step preload",
+    "Lockable under-seat storage, luggage rack and bag hook"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "SOHC, 4-stroke, 2-valve, single cylinder"
+      ],
+      [
+       "Displacement",
+       "49 cc"
+      ],
+      [
+       "Bore x stroke",
+       "39 x 41.4 mm"
+      ],
+      [
+       "Max power",
+       "2.4 kW (3.2 hp) at 7,500 rpm"
+      ],
+      [
+       "Max torque",
+       "3.3 Nm (2.4 lb-ft) at 7,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic carburettor (ECS)"
+      ],
+      [
+       "Cooling",
+       "Forced air"
+      ],
+      [
+       "Starter",
+       "Electric and kick"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Transmission",
+       "CVT automatic"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "USD fork"
+      ],
+      [
+       "Rear suspension",
+       "Single damper swing arm with 5-step preload"
+      ],
+      [
+       "Wheels",
+       "12 in aluminium alloy"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Hydraulic disc"
+      ],
+      [
+       "Rear brake",
+       "Drum"
+      ],
+      [
+       "Front tyre",
+       "120/70-12"
+      ],
+      [
+       "Rear tyre",
+       "130/70-12"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "1829 x 691 x 1130 mm"
+      ],
+      [
+       "Wheelbase",
+       "1326 mm"
+      ],
+      [
+       "Seat height",
+       "737 mm"
+      ],
+      [
+       "Fuel tank",
+       "4.9 L"
+      ],
+      [
+       "Dry weight",
+       "92.5 kg"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Stands",
+       "Side and centre"
+      ],
+      [
+       "Storage",
+       "Lockable under-seat compartment, bag hook, luggage rack"
+      ],
+      [
+       "Helmet locks",
+       "Yes"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Flat Deep Green",
+    "Light Khaki"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kymco/agility-50-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kymco Agility 50 scooter in brown, side view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/agility-50-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco Agility 50 scooter in brown, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/agility-50-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco Agility 50 scooter in Flat Deep Green, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/agility-50-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Kymco Agility 50 scooter, analogue speedometer, detail"
+    },
+    {
+     "src": "/images/motorcycles/kymco/agility-50-5",
+     "w": 900,
+     "h": 600,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kymco Agility 50 scooter in Light Khaki with rider, parked outside a house"
+    }
+   ],
+   "sourceUrl": "https://www.kymcousa.com/scooters/agility-50/",
+   "notes": "Weight, seat and dimensions from kymcousa.com, converted: 203.9 lb = 92.5 kg dry; 29 in = 737 mm; 1.3 gal = 4.9 L; 72 x 27.2 x 44.5 in = 1829 x 691 x 1130 mm; 52.2 in = 1326 mm; 2.4 lb-ft = 3.3 Nm. Owner's figures (49 cc, 92.5 kg dry, 737 mm) confirmed. US page leaves power blank; 2.4 kW (3.2 hp) at 7,500 rpm is from kymco.co.uk. UK page differs: 92 kg dry, 785 mm seat, 5 L tank, 1830 x 690 x 1130 mm, 1325 mm wheelbase, telescopic fork (US says USD fork), 180 mm disc / 110 mm drum, 3.2 Nm at 7,000 rpm; UK colours Silver, Dark Blue, Brown, Blue, Black. US colours used in 'colours'. Images 1-2 from kymco.co.uk (brown), 3-5 from kymcousa.com."
+  },
+  {
+   "slug": "agility-s-125",
+   "name": "Agility S 125",
+   "category": "Scooter",
+   "key": {
+    "engine": "125 cc single",
+    "cc": 125,
+    "power": "11.0 hp (8.2 kW)",
+    "torque": "10.6 Nm",
+    "weight": "133 kg ready to ride",
+    "seat": "800 mm",
+    "tank": "7 L",
+    "topSpeed": null
+   },
+   "tagline": "16in-wheel 125 cc commuter with full LED lights and CBS brakes",
+   "summary": [
+    "The Kymco Agility S 125 is a high-wheel urban commuter built around a redesigned 125 cc air-cooled single producing 8.2 kW at 8,500 rpm and 10.6 Nm at 6,500 rpm. A 16-inch front and 14-inch rear wheel, a 33 mm fork with 95 mm travel and an 800 mm seat make it a straightforward choice for riders swapping a car for daily trips.",
+    "Practical touches stand out in this class: room under the seat for a full-face helmet, a 12 V socket, a flat floor and a bag hook. Lighting is full LED, including a V-shaped headlight with two projectors and a raised tail light. Combined braking links the 260 mm front and 240 mm rear discs, and the rear shocks have five preload settings."
+   ],
+   "highlights": [
+    "125 cc fuel-injected single, 8.2 kW at 8,500 rpm, 10.6 Nm",
+    "16 in front and 14 in rear wheels",
+    "CBS combined braking, 260 mm front and 240 mm rear discs",
+    "Full LED lighting with V-shaped twin-projector headlight",
+    "Full-face helmet space under the seat and 12 V socket",
+    "Twin rear shocks with five preload positions"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "4-stroke, 2-valve, single cylinder"
+      ],
+      [
+       "Displacement",
+       "125 cc"
+      ],
+      [
+       "Compression ratio",
+       "11:1"
+      ],
+      [
+       "Max power",
+       "8.2 kW (11 PS) at 8,500 rpm"
+      ],
+      [
+       "Max torque",
+       "10.6 Nm at 6,500 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Cooling",
+       "Forced air"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Lubrication",
+       "Wet sump with pump"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Clutch",
+       "Automatic centrifugal"
+      ],
+      [
+       "Primary drive",
+       "Two-stage reduction"
+      ],
+      [
+       "Transmission",
+       "Continuously variable (CVT)"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Open tubular"
+      ],
+      [
+       "Swingarm",
+       "Swinging engine unit"
+      ],
+      [
+       "Front suspension",
+       "Hydraulic telescopic fork, 33 mm, 95 mm travel"
+      ],
+      [
+       "Rear suspension",
+       "Twin hydraulic shocks, 5-position preload, 81 mm travel"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Braking system",
+       "CBS"
+      ],
+      [
+       "Front brake",
+       "260 mm disc"
+      ],
+      [
+       "Rear brake",
+       "240 mm disc"
+      ],
+      [
+       "Front tyre",
+       "100/80-16"
+      ],
+      [
+       "Rear tyre",
+       "120/70-14"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x height x width",
+       "2030 x 1156 x 747 mm"
+      ],
+      [
+       "Seat height",
+       "800 mm"
+      ],
+      [
+       "Fuel tank",
+       "7 L"
+      ],
+      [
+       "Weight",
+       "133 kg ready to ride"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Lighting",
+       "Full LED"
+      ],
+      [
+       "Instruments",
+       "Dual digital display"
+      ],
+      [
+       "Under-seat storage",
+       "One full-face helmet"
+      ],
+      [
+       "Power socket",
+       "12 V"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Infinity White",
+    "Hazel Brown",
+    "Synth Blue"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kymco/agility-s-125-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kymco Agility S 125 scooter in matt quartz grey, side view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/agility-s-125-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco Agility S 125 scooter in blue, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/agility-s-125-3",
+     "w": 824,
+     "h": 549,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Kymco Agility S 125 scooter in blue, LED headlight and front panel, detail"
+    },
+    {
+     "src": "/images/motorcycles/kymco/agility-s-125-4",
+     "w": 1200,
+     "h": 900,
+     "kind": "riding",
+     "studio": false,
+     "alt": "Kymco Agility S 125 scooter in blue, ridden through a lit tunnel"
+    }
+   ],
+   "sourceUrl": "https://www.kymco.es/scooters/agility-s-125",
+   "notes": "No English-language spec page found (not on kymco.co.uk or kymcousa.com). Specs translated from kymco.es (Spanish) with weight type from kymco.de ('AGILITY S 125i CBS', 133 kg 'fahrbereit' = ready to ride, 8.2 kW / 11.2 PS, 2030 x 1156-1290 x 747 mm). Power given in kW and CV; hp = 8.2 x 1.341 = 11.0 hp. Spanish text also quotes '10,46 CV' in one paragraph; spec table says 11 CV. Colours translated from Spanish (Blanco Infinity, Marron Hazel, Azul Sintetizado); kymco.de colours are matt black and quartz grey matt. A 50 cc 'AGILITY S 50i' also exists on kymco.de (2.4 kW, 122 kg, 805 mm) but its images are labelled as showing the 125i, so it was not added. Image 1 from kymco.de, 2-4 from kymco.es. Slug drops the 'i' to match the Spanish name."
+  },
+  {
+   "slug": "xciting-vs-400",
+   "name": "Xciting VS 400",
+   "category": "Maxi scooter",
+   "key": {
+    "engine": "400 cc single",
+    "cc": 400,
+    "power": "32.9 hp (24.5 kW)",
+    "torque": "37.0 Nm",
+    "weight": "213 kg ready to ride",
+    "seat": "805 mm",
+    "tank": "12.5 L",
+    "topSpeed": null
+   },
+   "tagline": "400 cc sports maxi scooter with radial brakes, TCS and keyless start",
+   "summary": [
+    "The Kymco Xciting VS 400 is a sporty 400-class maxi scooter for riders who split their time between city traffic, ring roads and longer trips. Its liquid-cooled 400 cc single makes 24.5 kW at 7,250 rpm and 37.0 Nm at 5,750 rpm, filling the gap between the 350 cc models and the twin-cylinder AK 575 Premium.",
+    "Chassis and braking are the strong points: twin 280 mm floating front discs with four-piston radial calipers, ABS, a 41 mm fork with a double triple clamp and 107 mm of rear travel. Traction control, keyless start, a wide TFT display, two electrically locked glove boxes with USB, a five-position screen adjustable without tools and a parking brake are fitted."
+   ],
+   "highlights": [
+    "400 cc liquid-cooled single, 24.5 kW at 7,250 rpm, 37 Nm",
+    "Twin 280 mm floating discs, 4-piston radial calipers, ABS",
+    "Traction control, keyless start and wide TFT display",
+    "Screen adjustable to five heights without tools",
+    "Two electrically locked glove boxes with USB socket",
+    "Brake levers adjustable to four positions and a parking brake"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, 4-stroke, 4-valve"
+      ],
+      [
+       "Displacement",
+       "400 cc"
+      ],
+      [
+       "Compression ratio",
+       "10.8:1"
+      ],
+      [
+       "Max power",
+       "24.5 kW (33.3 PS) at 7,250 rpm"
+      ],
+      [
+       "Max torque",
+       "37.0 Nm at 5,750 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Lubrication",
+       "Wet sump with pump"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Clutch",
+       "Automatic centrifugal"
+      ],
+      [
+       "Primary drive",
+       "Two-stage reduction"
+      ],
+      [
+       "Transmission",
+       "Continuously variable (CVT)"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Open tubular"
+      ],
+      [
+       "Swingarm",
+       "Swinging engine unit"
+      ],
+      [
+       "Front suspension",
+       "Hydraulic telescopic fork, 41 mm, 110 mm travel"
+      ],
+      [
+       "Rear suspension",
+       "Twin hydraulic shocks, adjustable preload, 107 mm travel"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Braking system",
+       "ABS"
+      ],
+      [
+       "Front brake",
+       "Twin 280 mm discs, 4-piston calipers"
+      ],
+      [
+       "Rear brake",
+       "240 mm disc, mechanical parking brake"
+      ],
+      [
+       "Front tyre",
+       "120/70-15"
+      ],
+      [
+       "Rear tyre",
+       "150/70-14"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x height x width",
+       "2190 x 1389 x 799 mm"
+      ],
+      [
+       "Seat height",
+       "805 mm"
+      ],
+      [
+       "Fuel tank",
+       "12.5 L"
+      ],
+      [
+       "Weight",
+       "213 kg ready to ride"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Lighting",
+       "Full LED with daytime running light"
+      ],
+      [
+       "Display",
+       "Wide TFT"
+      ],
+      [
+       "Ignition",
+       "Keyless"
+      ],
+      [
+       "Traction control",
+       "Yes"
+      ],
+      [
+       "Storage",
+       "Two glove boxes with electric lock and USB; one full-face helmet under seat"
+      ],
+      [
+       "Windscreen",
+       "Five heights, tool-free"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Vulcano Black",
+    "Cosmos Blue"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kymco/xciting-vs-400-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kymco Xciting VS 400 maxi scooter in deep blue matt, side view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/xciting-vs-400-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco Xciting VS 400 maxi scooter in deep blue matt, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/xciting-vs-400-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kymco Xciting VS 400 maxi scooter in black, side view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/xciting-vs-400-4",
+     "w": 1200,
+     "h": 900,
+     "kind": "riding",
+     "studio": false,
+     "alt": "Kymco Xciting VS 400 maxi scooter in grey, cornering on a country road"
+    },
+    {
+     "src": "/images/motorcycles/kymco/xciting-vs-400-5",
+     "w": 1200,
+     "h": 854,
+     "kind": "riding",
+     "studio": false,
+     "alt": "Kymco Xciting VS 400 maxi scooter in black, ridden on a tree-lined road"
+    }
+   ],
+   "sourceUrl": "https://www.kymco.es/scooters/xciting-vs-400-euro5-plus",
+   "notes": "Official names: kymco.es 'Xciting VS 400'; kymco.de 'XCITING VS 400i ABS'. Not on the UK or US sites; no English spec page found. Specs translated from the Spanish table; kW to hp: 24.5 x 1.341 = 32.9 hp (Spanish page says 33.32 CV, German page 33.3 PS). Weight: 213 kg on both pages, German page marks it 'fahrbereit' (ready to ride). Seat 805 mm (ES) vs 815 mm (DE); height 1389 mm (ES) vs 1344-1433 mm (DE, screen range). German page specifies WAVE discs and radial 4-piston calipers. Colours translated from Spanish (Negro Vulcano, Azul Cosmos). Images 1-3 from kymco.de, 4-5 from kymco.es."
+  },
+  {
+   "slug": "x-town-125",
+   "name": "X-Town 125",
+   "category": "Maxi scooter",
+   "key": {
+    "engine": "124.8 cc single",
+    "cc": 124.8,
+    "power": "15 hp (11 kW)",
+    "torque": "11.6 Nm",
+    "weight": "185 kg dry",
+    "seat": "785 mm",
+    "tank": "12.5 L",
+    "topSpeed": "110 km/h"
+   },
+   "tagline": "Full-size 125 cc maxi scooter with two-helmet storage",
+   "summary": [
+    "The Kymco X-Town 125 is a full-size maxi scooter with a 124.8 cc liquid-cooled four-valve single giving 11 kW (15 hp) at 9,000 rpm. It is designed for commuters who ride long distances on a 125 licence and want room for a passenger, and Kymco quotes a cruising speed of 90 km/h with a peak of 110 km/h.",
+    "Storage is a key reason to stock it: the lit under-seat compartment takes two full-face helmets and the leg-shield glove box has a USB socket. A low seat, five-position rear suspension and redesigned riding position support comfort on longer journeys, and braking is by CBS with a 280 mm front and 260 mm rear disc. An X-shaped LED tail light marks it out."
+   ],
+   "highlights": [
+    "124.8 cc liquid-cooled 4-valve single, 11 kW (15 hp) at 9,000 rpm",
+    "Under-seat space for two full-face helmets, with courtesy light",
+    "Glove box with USB socket",
+    "Five-step adjustable rear suspension",
+    "CBS with 280 mm front and 260 mm rear discs",
+    "12.5 L tank and X-shaped LED tail light"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "OHC, 4-stroke, 4-valve, single cylinder"
+      ],
+      [
+       "Displacement",
+       "124.8 cc"
+      ],
+      [
+       "Max power",
+       "11 kW (15 hp) at 9,000 rpm"
+      ],
+      [
+       "Max torque",
+       "11.6 Nm at 7,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "Fuel injection"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Transmission",
+       "CVT automatic"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "Telescopic fork"
+      ],
+      [
+       "Rear suspension",
+       "Double swing with 5 steps"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Braking system",
+       "CBS"
+      ],
+      [
+       "Front brake",
+       "280 mm disc"
+      ],
+      [
+       "Rear brake",
+       "260 mm disc"
+      ],
+      [
+       "Front tyre",
+       "120/80-14"
+      ],
+      [
+       "Rear tyre",
+       "150/70-13"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2240 x 800 x 1270 mm"
+      ],
+      [
+       "Wheelbase",
+       "1545 mm"
+      ],
+      [
+       "Seat height",
+       "785 mm"
+      ],
+      [
+       "Fuel tank",
+       "12.5 L"
+      ],
+      [
+       "Dry weight",
+       "185 kg"
+      ],
+      [
+       "Top speed",
+       "110 km/h (68 mph)"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Tail light",
+       "X-shaped LED"
+      ],
+      [
+       "Storage",
+       "Two full-face helmets under seat, courtesy light"
+      ],
+      [
+       "USB socket",
+       "In leg-shield glove box"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Matt Silver",
+    "Matt Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kymco/x-town-125-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kymco X-Town 125 maxi scooter in Matt Black, side view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/x-town-125-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco X-Town 125 maxi scooter in Matt Black, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/x-town-125-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Kymco X-Town 125 maxi scooter, analogue and digital instrument panel, detail"
+    },
+    {
+     "src": "/images/motorcycles/kymco/x-town-125-4",
+     "w": 1200,
+     "h": 675,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Kymco X-Town 125 maxi scooter, LED tail light, rear detail"
+    },
+    {
+     "src": "/images/motorcycles/kymco/x-town-125-5",
+     "w": 1200,
+     "h": 800,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kymco X-Town 125 maxi scooter in Matt Black, parked in a garden street"
+    }
+   ],
+   "sourceUrl": "https://www.kymco.co.uk/scooters-and-motorcycles-range/125cc/x-town-125",
+   "notes": "All from kymco.co.uk. Top speed quoted in UK copy as 'can even reach levels of 68 mph (110 km/h)'. kymco.at lists an 'X-Town CT 125'."
+  },
+  {
+   "slug": "super-8-r",
+   "name": "Super 8 R",
+   "category": "Scooter",
+   "key": {
+    "engine": "49.4 cc single",
+    "cc": 49.4,
+    "power": "3.2 hp (2.4 kW)",
+    "torque": "3.2 Nm",
+    "weight": "108 kg dry",
+    "seat": "780 mm",
+    "tank": "6 L",
+    "topSpeed": null
+   },
+   "tagline": "Sport-styled 50 cc fuel-injected scooter on 14in alloy wheels",
+   "summary": [
+    "The Kymco Super 8 R is a sports-styled 50 cc scooter with race-inspired lines, LED headlights and 14-inch alloy wheels. Its air-cooled 49.4 cc four-stroke single uses fuel injection and produces 2.4 kW (3.2 hp) at 7,500 rpm, which Kymco states is the highest output of its 50 cc scooters. It suits riders who want a sportier look than a basic 50.",
+    "A long wheelbase and low centre of gravity keep it stable, while a 240 mm wave front disc and a 127.5 mm rear drum handle braking. Two adjustable hydraulic rear shocks, a flat floor for easy step-through and a 780 mm seat make it practical day to day. Four bright colours give buyers plenty of choice."
+   ],
+   "highlights": [
+    "49.4 cc fuel-injected 4-stroke, 2.4 kW (3.2 hp) at 7,500 rpm",
+    "14 in alloy wheels with 240 mm wave front disc",
+    "LED headlights",
+    "Two adjustable hydraulic rear shocks",
+    "Flat floor and 780 mm seat height",
+    "Four colours: Flat Blue, Flat Orange, Lime Green, Cherry Red"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "OHC, 4-stroke, 2-valve, single cylinder"
+      ],
+      [
+       "Displacement",
+       "49.4 cc"
+      ],
+      [
+       "Max power",
+       "2.4 kW (3.2 hp) at 7,500 rpm"
+      ],
+      [
+       "Max torque",
+       "3.2 Nm at 6,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "Fuel injection"
+      ],
+      [
+       "Cooling",
+       "Air"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Transmission",
+       "CVT automatic"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "Telescopic fork"
+      ],
+      [
+       "Rear suspension",
+       "Unit swing, two adjustable hydraulic shocks"
+      ],
+      [
+       "Wheels",
+       "14 in aluminium alloy"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "240 mm disc"
+      ],
+      [
+       "Rear brake",
+       "127.5 mm drum"
+      ],
+      [
+       "Front tyre",
+       "120/70-14"
+      ],
+      [
+       "Rear tyre",
+       "120/80-14"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2030 x 740 x 1150 mm"
+      ],
+      [
+       "Wheelbase",
+       "1365 mm"
+      ],
+      [
+       "Seat height",
+       "780 mm"
+      ],
+      [
+       "Fuel tank",
+       "6 L"
+      ],
+      [
+       "Dry weight",
+       "108 kg"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Headlights",
+       "LED"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Flat Blue",
+    "Flat Orange",
+    "Lime Green",
+    "Cherry Red"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kymco/super-8-r-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kymco Super 8 R scooter in Flat Blue, side view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/super-8-r-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco Super 8 R scooter in Flat Blue, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/super-8-r-3",
+     "w": 1185,
+     "h": 790,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kymco Super 8 R scooter in Lime Green, side view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/super-8-r-4",
+     "w": 1200,
+     "h": 785,
+     "kind": "riding",
+     "studio": false,
+     "alt": "Kymco Super 8 R scooter in Lime Green, ridden around a corner"
+    }
+   ],
+   "sourceUrl": "https://www.kymco.co.uk/scooters-and-motorcycles-range/50cc/super-8-r",
+   "notes": "From kymco.co.uk. kymcousa.com calls it 'Super 8 50R' (49 cc, 3.2 hp, 238.1 lb = 108 kg, 30.7 in = 780 mm, rear tyre 130/80-14 vs UK 120/80-14). A sister model 'Super 8 50X' (dual-purpose tyres, carburettor) is on the US site but was not added."
+  },
+  {
+   "slug": "skytown-125",
+   "name": "Skytown 125",
+   "category": "Scooter",
+   "key": {
+    "engine": "125 cc single",
+    "cc": 125,
+    "power": "11.0 hp (8.2 kW)",
+    "torque": "10.6 Nm",
+    "weight": "126 kg dry",
+    "seat": "770 mm",
+    "tank": "7 L",
+    "topSpeed": null
+   },
+   "tagline": "Comfort-focused 125 cc commuter with low-friction engine tech",
+   "summary": [
+    "The Kymco Skytown 125 is a comfort-oriented commuter scooter with an air-cooled, fuel-injected 125 cc single producing 8.2 kW at 8,500 rpm and 10.6 Nm at 6,500 rpm. A 770 mm seat and 126 kg dry weight make it approachable for new and returning riders, and it sits between the basic and premium 125 models.",
+    "Kymco built the engine around efficiency measures: a multi-vortex combustion system, low-friction piston rings, a roller rocker arm, an offset cylinder and low-friction seals and bearings, plus a low-friction CVT for smoother pull-away. Disc brakes front and rear, a 14-inch front wheel and a 7 L tank complete a sensible daily specification."
+   ],
+   "highlights": [
+    "125 cc air-cooled fuel-injected single, 8.2 kW at 8,500 rpm",
+    "Low-friction engine and CVT design for smoother running",
+    "Disc brakes front and rear",
+    "14 in front and 13 in rear alloy wheels",
+    "770 mm seat and 126 kg dry"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "2-valve single cylinder"
+      ],
+      [
+       "Displacement",
+       "125 cc"
+      ],
+      [
+       "Max power",
+       "8.2 kW at 8,500 rpm"
+      ],
+      [
+       "Max torque",
+       "10.6 Nm at 6,500 rpm"
+      ],
+      [
+       "Fuel system",
+       "Fuel injection"
+      ],
+      [
+       "Cooling",
+       "Air"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Transmission",
+       "Low-friction CVT"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "Telescopic fork"
+      ],
+      [
+       "Rear suspension",
+       "Double swing"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Disc"
+      ],
+      [
+       "Rear brake",
+       "Disc"
+      ],
+      [
+       "Front tyre",
+       "110/70-14"
+      ],
+      [
+       "Rear tyre",
+       "130/70-13"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "1940 x 750 x 1340 mm"
+      ],
+      [
+       "Wheelbase",
+       "1320 mm"
+      ],
+      [
+       "Seat height",
+       "770 mm"
+      ],
+      [
+       "Fuel tank",
+       "7 L"
+      ],
+      [
+       "Dry weight",
+       "126 kg"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Petroleum Blue",
+    "Flat Black",
+    "Golden Brown"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kymco/skytown-125-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kymco Skytown 125 scooter in Petroleum Blue with top box, side view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/skytown-125-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco Skytown 125 scooter in Petroleum Blue with top box, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/skytown-125-3",
+     "w": 1200,
+     "h": 801,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Kymco Skytown 125 scooter, Skytown logo on side panel, detail"
+    },
+    {
+     "src": "/images/motorcycles/kymco/skytown-125-4",
+     "w": 1200,
+     "h": 801,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kymco Skytown 125 scooter in Golden Brown, parked by a modern building"
+    },
+    {
+     "src": "/images/motorcycles/kymco/skytown-125-5",
+     "w": 1200,
+     "h": 801,
+     "kind": "riding",
+     "studio": false,
+     "alt": "Kymco Skytown 125 scooter in Petroleum Blue, ridden through a city plaza"
+    }
+   ],
+   "sourceUrl": "https://www.kymco.co.uk/scooters-and-motorcycles-range/125cc/skytown-125",
+   "notes": "From kymco.co.uk. Power only in kW: 8.2 x 1.341 = 11.0 hp. UK studio shots all show an optional top box. kymco.de lists 'SKY TOWN 125i ABS' (ABS version); kymco.es 'Skytown 125 ABS'."
+  },
+  {
+   "slug": "krider-400",
+   "name": "Krider 400 ABS",
+   "category": "Naked",
+   "key": {
+    "engine": "399 cc parallel twin",
+    "cc": 399,
+    "power": "42.9 hp (32 kW)",
+    "torque": "37 Nm",
+    "weight": "195 kg kerb",
+    "seat": null,
+    "tank": "15 L",
+    "topSpeed": "158 km/h"
+   },
+   "tagline": "399 cc parallel-twin naked motorcycle with dual-channel ABS",
+   "summary": [
+    "The Kymco Krider 400 ABS is a naked street motorcycle powered by a 399 cc liquid-cooled DOHC parallel twin with four valves per cylinder, producing 32 kW at 9,500 rpm and 37 Nm at 7,500 rpm. Kymco quotes a 158 km/h top speed. It suits riders stepping up to a mid-size twin and adds a geared motorcycle to a scooter-led range.",
+    "Braking hardware includes twin 300 mm floating front discs with opposed four-piston radial calipers, a 240 mm rear disc and Bosch 9.1 dual-channel ABS. It rolls on 17-inch wheels with 120/70 and 160/60 tyres, carries a 15 L tank and has a one-piece seat with thick foam. Gold, Pearl White and Pearl Black are listed."
+   ],
+   "highlights": [
+    "399 cc DOHC parallel twin, 32 kW at 9,500 rpm, 37 Nm",
+    "Twin 300 mm floating discs with 4-piston radial calipers",
+    "Bosch 9.1 dual-channel ABS",
+    "17 in wheels, 120/70 front and 160/60 rear tyres",
+    "15 L tank and 158 km/h quoted top speed"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Parallel twin, DOHC, 4 valves per cylinder"
+      ],
+      [
+       "Displacement",
+       "399 cc"
+      ],
+      [
+       "Max power",
+       "32 kW at 9,500 rpm"
+      ],
+      [
+       "Max torque",
+       "37 Nm at 7,500 rpm"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Braking system",
+       "Bosch 9.1 dual-channel ABS"
+      ],
+      [
+       "Front brake",
+       "Twin 300 mm floating discs, opposed 4-piston radial calipers"
+      ],
+      [
+       "Rear brake",
+       "240 mm disc, single-piston caliper"
+      ],
+      [
+       "Front tyre",
+       "120/70-ZR17"
+      ],
+      [
+       "Rear tyre",
+       "160/60-ZR17"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2118 x 830 x 1100 mm"
+      ],
+      [
+       "Wheelbase",
+       "1410 mm"
+      ],
+      [
+       "Ground clearance",
+       "150 mm"
+      ],
+      [
+       "Fuel tank",
+       "15 L"
+      ],
+      [
+       "Kerb weight",
+       "195 kg"
+      ],
+      [
+       "Top speed",
+       "158 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Seat",
+       "One-piece rider and passenger seat"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Gold",
+    "Pearl White",
+    "Pearl Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kymco/krider-400-1",
+     "w": 848,
+     "h": 565,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kymco Krider 400 ABS naked motorcycle in Gold, side view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/krider-400-2",
+     "w": 848,
+     "h": 565,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco Krider 400 ABS naked motorcycle in Gold, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/krider-400-3",
+     "w": 845,
+     "h": 563,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco Krider 400 ABS naked motorcycle in Pearl White, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/krider-400-4",
+     "w": 1200,
+     "h": 600,
+     "kind": "riding",
+     "studio": false,
+     "alt": "Kymco Krider 400 ABS naked motorcycle in white, ridden past trees"
+    }
+   ],
+   "sourceUrl": "https://www.kymco.com.cn/product.html?id=42",
+   "notes": "Chinese site only (kymco.com.cn id=42, 'KRIDER 400 ABS'); translated. Kymco's own spelling on the page is 'KRIDER'. Power only in kW: 32 x 1.341 = 42.9 hp. Weight is '整车装备质量' (kerb/curb weight). Seat height, fuel system, transmission and gearbox not published. Category 'Naked' from the page's description as a street bike (街车). Also a police version (KRIDER警用车) on the site. Images are 1000 px wide (largest available)."
+  },
+  {
+   "slug": "krv-180",
+   "name": "KRV 180",
+   "category": "Scooter",
+   "key": {
+    "engine": "175.1 cc single",
+    "cc": 175.1,
+    "power": "16.4 hp (12.2 kW)",
+    "torque": "15.7 Nm",
+    "weight": "143 kg kerb",
+    "seat": "795 mm",
+    "tank": "7.2 L",
+    "topSpeed": "107 km/h"
+   },
+   "tagline": "175 cc sports scooter with PTM drive, single-sided arm and TCS",
+   "summary": [
+    "The Kymco KRV 180 is a sports scooter that borrows the PTM drivetrain idea from the AK 550 and mounts it in an aluminium single-sided swingarm to balance weight front to rear. Its liquid-cooled 175.1 cc four-valve single makes 12.2 kW at 7,500 rpm and 15.68 Nm at 6,000 rpm, with a quoted top speed of 107 km/h.",
+    "Rider aids are unusual for this size: switchable traction control and ABS on front and rear discs. Full LED lighting with a light-guide daytime running light, a smart key with lit controls, a 795 mm seat and a 143 kg kerb weight make it a sporty step up from a 125 for riders looking beyond commuter models."
+   ],
+   "highlights": [
+    "175.1 cc liquid-cooled 4-valve single, 12.2 kW at 7,500 rpm",
+    "PTM drivetrain in an aluminium single-sided swingarm",
+    "Switchable traction control and ABS",
+    "Full LED lighting with daytime running light",
+    "Smart key system",
+    "143 kg kerb weight, 795 mm seat"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, 4-stroke, 4-valve"
+      ],
+      [
+       "Displacement",
+       "175.1 cc"
+      ],
+      [
+       "Max power",
+       "12.2 kW at 7,500 rpm"
+      ],
+      [
+       "Max torque",
+       "15.68 Nm at 6,000 rpm"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Drivetrain",
+       "PTM, aluminium single-sided swingarm"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Braking system",
+       "ABS"
+      ],
+      [
+       "Front brake",
+       "Disc"
+      ],
+      [
+       "Rear brake",
+       "Disc"
+      ],
+      [
+       "Front tyre",
+       "110/70-13"
+      ],
+      [
+       "Rear tyre",
+       "130/70-13"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "1960 x 755 x 1115 mm"
+      ],
+      [
+       "Wheelbase",
+       "1400 mm"
+      ],
+      [
+       "Ground clearance",
+       "125 mm"
+      ],
+      [
+       "Seat height",
+       "795 mm"
+      ],
+      [
+       "Fuel tank",
+       "7.2 L"
+      ],
+      [
+       "Kerb weight",
+       "143 kg"
+      ],
+      [
+       "Top speed",
+       "107 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Traction control",
+       "Yes, switchable"
+      ],
+      [
+       "Lighting",
+       "Full LED with light-guide daytime running light"
+      ],
+      [
+       "Ignition",
+       "Smart key"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Indigo Sea Blue",
+    "Snow Peak Silver",
+    "Ether Black",
+    "Thunder Purple",
+    "Space Grey"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kymco/krv-180-1",
+     "w": 842,
+     "h": 561,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kymco KRV 180 scooter in Indigo Sea Blue, side view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/krv-180-2",
+     "w": 852,
+     "h": 568,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco KRV 180 scooter in Indigo Sea Blue, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/krv-180-3",
+     "w": 855,
+     "h": 570,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kymco KRV 180 scooter in Indigo Sea Blue, side view from the right"
+    }
+   ],
+   "sourceUrl": "https://www.kymco.com.cn/product.html?id=18",
+   "notes": "Chinese site only (id=18, listed as 'KYMCO-KRV 180 CKD版', i.e. CKD edition); translated. Power only in kW: 12.2 x 1.341 = 16.4 hp. Weight is kerb weight (整车装备质量). Colours translated from Chinese (靛海蓝, 雪峰银, 以太黑, 雷震紫, 太空灰). Fuel system and suspension not published. No lifestyle images on the page."
+  },
+  {
+   "slug": "xciting-s350",
+   "name": "Xciting S350",
+   "category": "Maxi scooter",
+   "key": {
+    "engine": "320 cc single",
+    "cc": 320,
+    "power": "28.4 hp (21.2 kW)",
+    "torque": "28.6 Nm",
+    "weight": "192 kg kerb",
+    "seat": "785 mm",
+    "tank": "13 L",
+    "topSpeed": "130 km/h"
+   },
+   "tagline": "320 cc maxi scooter with TFT, front and rear cameras, heated grips",
+   "summary": [
+    "The Kymco Xciting S350 is a mid-size maxi scooter with a liquid-cooled 320 cc four-valve single giving 21.2 kW at 7,500 rpm and 28.6 Nm at 5,000 rpm, and a quoted top speed of 130 km/h. With a 785 mm seat, 13 L tank and 192 kg kerb weight, it suits commuters who also ride longer distances outside town.",
+    "Its equipment list is aimed at technology-minded buyers: a TFT dashboard with TSP connectivity and a dedicated app, front and rear riding cameras, heated grips and folding front-mounted mirrors for tight parking. ABS is standard on the front and rear discs, with an ABS plus traction control version also listed, rolling on 14-inch front and 13-inch rear wheels."
+   ],
+   "highlights": [
+    "320 cc liquid-cooled 4-valve single, 21.2 kW at 7,500 rpm",
+    "TFT dashboard with TSP connectivity and app",
+    "Front and rear riding cameras",
+    "Heated grips and folding front mirrors",
+    "ABS front and rear discs; ABS plus TCS version listed",
+    "13 L tank and 785 mm seat"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, 4-stroke, 4-valve"
+      ],
+      [
+       "Displacement",
+       "320 cc"
+      ],
+      [
+       "Max power",
+       "21.2 kW at 7,500 rpm"
+      ],
+      [
+       "Max torque",
+       "28.6 Nm at 5,000 rpm"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Braking system",
+       "ABS"
+      ],
+      [
+       "Front brake",
+       "Disc"
+      ],
+      [
+       "Rear brake",
+       "Disc"
+      ],
+      [
+       "Front tyre",
+       "120/80-14"
+      ],
+      [
+       "Rear tyre",
+       "150/70-13"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2170 x 785 x 1145 mm"
+      ],
+      [
+       "Wheelbase",
+       "1550 mm"
+      ],
+      [
+       "Ground clearance",
+       "135 mm"
+      ],
+      [
+       "Seat height",
+       "785 mm"
+      ],
+      [
+       "Fuel tank",
+       "13 L"
+      ],
+      [
+       "Kerb weight",
+       "192 kg"
+      ],
+      [
+       "Top speed",
+       "130 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Dashboard",
+       "TFT with TSP connectivity and app"
+      ],
+      [
+       "Cameras",
+       "Front and rear"
+      ],
+      [
+       "Heated grips",
+       "Yes"
+      ],
+      [
+       "Mirrors",
+       "Folding, front-mounted"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Black Gold",
+    "White Red",
+    "Space Grey",
+    "Starry Blue"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kymco/xciting-s350-1",
+     "w": 848,
+     "h": 565,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kymco Xciting S350 maxi scooter in Black Gold, side view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/xciting-s350-2",
+     "w": 807,
+     "h": 538,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco Xciting S350 maxi scooter in Black Gold, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/xciting-s350-3",
+     "w": 867,
+     "h": 578,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kymco Xciting S350 maxi scooter in White Red, side view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/xciting-s350-4",
+     "w": 881,
+     "h": 587,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kymco Xciting S350 maxi scooter in Space Grey, side view"
+    }
+   ],
+   "sourceUrl": "https://www.kymco.com.cn/product.html?id=55",
+   "notes": "Chinese site only (id=55 '赛艇S350'; 赛艇 is Kymco China's name for the Xciting line, written 'XCITING' on the bodywork). Also listed: id=43 '赛艇S350 ABS+TCS版' (same figures) and id=77 '赛艇S350 黑武士' (Black Knight edition). Power only in kW: 21.2 x 1.341 = 28.4 hp. Weight is kerb weight. Colour names translated (黑金, 白红, 太空灰, 星空蓝). No English page found. Fuel system, transmission and suspension not published."
+  },
+  {
+   "slug": "xciting-ct300",
+   "name": "Xciting CT300 ABS",
+   "category": "Maxi scooter",
+   "key": {
+    "engine": "276 cc single",
+    "cc": 276,
+    "power": "21.5 hp (16 kW)",
+    "torque": "22 Nm",
+    "weight": "198 kg kerb",
+    "seat": null,
+    "tank": "13 L",
+    "topSpeed": "120 km/h"
+   },
+   "tagline": "276 cc touring scooter with Bosch ABS and twin-lens headlight",
+   "summary": [
+    "The Kymco Xciting CT300 ABS is a 300-class touring scooter with a liquid-cooled 276 cc four-stroke single producing 16 kW at 7,500 rpm and 22 Nm at 6,500 rpm, and a quoted top speed of 120 km/h. A 13 L tank and 150 mm ground clearance suit riders who cover longer distances than a 125 can comfortably manage.",
+    "Bosch tenth-generation ABS keeps the scooter steerable under emergency braking on its front and rear discs. A bright twin-lens headlight, pull-out folding passenger footpegs, a hidden USB charging socket and a seat with embroidered logo and thicker front foam for long rides complete the package, available in Pearl White, Pearl Black and Pearl Gold."
+   ],
+   "highlights": [
+    "276 cc liquid-cooled single, 16 kW at 7,500 rpm, 22 Nm",
+    "Bosch 10th-generation ABS on front and rear discs",
+    "Twin-lens headlight",
+    "Pull-out folding passenger footpegs",
+    "Hidden USB charging socket",
+    "13 L tank and 120 km/h quoted top speed"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, 4-stroke"
+      ],
+      [
+       "Displacement",
+       "276 cc"
+      ],
+      [
+       "Max power",
+       "16 kW at 7,500 rpm"
+      ],
+      [
+       "Max torque",
+       "22 Nm at 6,500 rpm"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Braking system",
+       "Bosch 10th-generation ABS"
+      ],
+      [
+       "Front brake",
+       "Disc"
+      ],
+      [
+       "Rear brake",
+       "Disc"
+      ],
+      [
+       "Front tyre",
+       "120/80-14"
+      ],
+      [
+       "Rear tyre",
+       "150/70-13"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2197 x 800 x 1200 mm"
+      ],
+      [
+       "Wheelbase",
+       "1508 mm"
+      ],
+      [
+       "Ground clearance",
+       "150 mm"
+      ],
+      [
+       "Fuel tank",
+       "13 L"
+      ],
+      [
+       "Kerb weight",
+       "198 kg"
+      ],
+      [
+       "Top speed",
+       "120 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Headlight",
+       "Twin-lens"
+      ],
+      [
+       "USB socket",
+       "Hidden"
+      ],
+      [
+       "Passenger footpegs",
+       "Pull-out folding"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Pearl White",
+    "Pearl Black",
+    "Pearl Gold"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kymco/xciting-ct300-1",
+     "w": 843,
+     "h": 562,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kymco Xciting CT300 ABS maxi scooter in Pearl White, side view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/xciting-ct300-2",
+     "w": 849,
+     "h": 566,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco Xciting CT300 ABS maxi scooter in Pearl White, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/xciting-ct300-3",
+     "w": 848,
+     "h": 565,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kymco Xciting CT300 ABS maxi scooter in Pearl Black, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kymco/xciting-ct300-4",
+     "w": 960,
+     "h": 960,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Kymco Xciting CT300 ABS maxi scooter, twin-lens headlight lit, front detail"
+    }
+   ],
+   "sourceUrl": "https://www.kymco.com.cn/product.html?id=34",
+   "notes": "Chinese site only (id=34 '赛艇CT300 ABS版'; bodywork reads 'XCITING CT300'). Included as the closest official match for the owner's 'X-Town 300i': kymcousa.com's enquiry form lists 'X-Town 300i ABS' but its model page returns 404, and no UK/EU/US page for an X-Town 300 was found. Whether this Chinese model is the same machine sold elsewhere as X-Town CT 300i could not be confirmed from an official page. Power only in kW: 16 x 1.341 = 21.5 hp. Weight is kerb weight. Seat height, fuel system and suspension not published. Also a police version on the site."
+  }
+ ]
+}
