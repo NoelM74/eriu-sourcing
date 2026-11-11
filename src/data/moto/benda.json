@@ -1,0 +1,3480 @@
+{
+ "brand": "benda",
+ "brandStory": "Benda motorcycles are built by Hangzhou Saturn Power Technology Co., Ltd., a company established in 2016 that now runs two factories, one in the north and one in the south. It has its own digital simulation and analysis team and designs and builds engines, two-wheelers and four-wheel vehicles, with a range centred on V-twin and V4 cruisers.",
+ "brandStorySource": "https://www.bendakeeway.com/int-en/about-us",
+ "checked": "2026-11-11",
+ "models": [
+  {
+   "slug": "lfc-700",
+   "name": "LFC 700",
+   "category": "Cruiser",
+   "key": {
+    "engine": "676 cc inline four",
+    "cc": 676,
+    "power": "84.48 hp",
+    "torque": "60 Nm",
+    "weight": "287 kg kerb",
+    "seat": "700 mm",
+    "tank": "17 L",
+    "topSpeed": "160 km/h"
+   },
+   "tagline": "676 cc four-cylinder power cruiser with Brembo brakes and 310 mm tyre",
+   "summary": [
+    "The Benda LFC 700 is a power cruiser built around a 676 cc liquid-cooled four-cylinder engine with 16 valves and twin overhead camshafts, rated at 84.48 hp and 60 Nm. It sits on an aluminium frame with a single-sided swingarm and a 310 mm wide rear tyre, which gives it a low, muscular stance that is hard to miss on a showroom floor.",
+    "Braking is by Brembo, with twin 320 mm floating front discs and four-piston calipers, backed by ABS. KYB supplies the 43 mm upside-down fork and the adjustable rear shock. A 5-inch colour TFT display, selectable riding modes, a slipper clutch and a 17-litre tank complete a package aimed at riders stepping up to a large four-cylinder cruiser."
+   ],
+   "highlights": [
+    "676 cc liquid-cooled inline four with 16 valves and DOHC",
+    "84.48 hp at 9,000 rpm and 60 Nm at 8,000 rpm",
+    "310/35-18 rear tyre on a single-sided swingarm",
+    "Brembo brakes: twin 320 mm floating front discs, 260 mm rear disc, ABS",
+    "KYB 43 mm upside-down fork and adjustable KYB rear shock",
+    "5-inch colour TFT display and selectable riding modes"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Inline four-cylinder, four-stroke, 16-valve, DOHC"
+      ],
+      [
+       "Displacement",
+       "676 cc"
+      ],
+      [
+       "Bore x stroke",
+       "67 × 48 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.4:1"
+      ],
+      [
+       "Max power",
+       "84.48 hp at 9,000 rpm"
+      ],
+      [
+       "Max torque",
+       "60 Nm at 8,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection (EFI)"
+      ],
+      [
+       "Valve train",
+       "DOHC"
+      ],
+      [
+       "Ignition",
+       "T.C.I"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Lubrication",
+       "Pressure splash lubrication"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Slipper clutch"
+      ],
+      [
+       "Final drive",
+       "Chain"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "43 mm upside-down telescopic fork, KYB"
+      ],
+      [
+       "Front travel",
+       "100 mm"
+      ],
+      [
+       "Rear suspension",
+       "Adjustable shock absorber, KYB"
+      ],
+      [
+       "Rear travel",
+       "35 mm"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Double floating discs, 4-piston caliper, Brembo, 320 mm"
+      ],
+      [
+       "Rear brake",
+       "Disc, 2-piston caliper, Brembo, 260 mm"
+      ],
+      [
+       "ABS",
+       "Yes"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Front tyre",
+       "130/70-19, CST"
+      ],
+      [
+       "Rear tyre",
+       "310/35-18"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,440 × 880 × 1,100 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,720 mm"
+      ],
+      [
+       "Seat height",
+       "700 mm"
+      ],
+      [
+       "Ground clearance",
+       "160 mm"
+      ],
+      [
+       "Kerb weight",
+       "287 kg"
+      ],
+      [
+       "Fuel tank",
+       "17 L"
+      ],
+      [
+       "Max load",
+       "180 kg"
+      ],
+      [
+       "Top speed",
+       "160 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Instruments",
+       "TFT, 5-inch"
+      ],
+      [
+       "USB charging",
+       "Yes"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Phantom Black",
+    "Meteor Gray",
+    "Misty Titanium",
+    "Neptune Blue"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/benda/lfc-700-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda LFC 700 cruiser in Misty Titanium, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/lfc-700-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Benda LFC 700 cruiser in Meteor Gray, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/benda/lfc-700-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Benda LFC 700 cruiser in Phantom Black, front view of headlight and TFT cockpit"
+    },
+    {
+     "src": "/images/motorcycles/benda/lfc-700-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Benda LFC 700 cruiser in Phantom Black, Brembo front brake and floating disc detail"
+    },
+    {
+     "src": "/images/motorcycles/benda/lfc-700-5",
+     "w": 1200,
+     "h": 800,
+     "kind": "riding",
+     "studio": false,
+     "alt": "Benda LFC 700 cruiser in Phantom Black, riding on a city road at night"
+    }
+   ],
+   "sourceUrl": "https://www.bendakeeway.com/int-en/products/lfc700",
+   "notes": "Maker spec table: 676 cc (not 680 cc), 84.48 hp at 9,000 rpm, 287 kg, seat 700 mm. The Baltic page (benda-motors.eu/vehicle/lfc-700/) gives the same engine as 58 kW at 10,050 rpm (= 77.8 hp, the same figure the maker quotes for the LFC 700 Pro) and a 695 mm seat. Rear tyre is 310/35-18 on both sources and in the maker's copy ('310mm rear tire'). Engine described as '4-cylinder' in the maker table and 'L-type 4 cylinders' (inline) on the Baltic page. Aluminium frame and aluminium swingarm from the Baltic page. Riding modes are mentioned in the maker's feature text, not in the spec table. Baltic colour names differ (Tech Blue, Silver, Carbon Black)."
+  },
+  {
+   "slug": "lfc-700-pro",
+   "name": "LFC 700 Pro",
+   "category": "Cruiser",
+   "key": {
+    "engine": "676 cc inline four",
+    "cc": 676,
+    "power": "77.78 hp",
+    "torque": "60 Nm",
+    "weight": "287 kg kerb",
+    "seat": "650–730 mm",
+    "tank": "17 L",
+    "topSpeed": "160 km/h"
+   },
+   "tagline": "Four-cylinder cruiser with air suspension and 650–730 mm seat height",
+   "summary": [
+    "The Benda LFC 700 Pro takes the 676 cc liquid-cooled inline four of the LFC 700 and adds a dual-chamber rear air suspension that can be adjusted electronically. Riders can lower the bike for a low, aggressive stance or raise it for comfort, and the seat height moves between 650 and 730 mm, which widens the range of customers who can ride it.",
+    "Output is 77.78 hp and 60 Nm, fed by Bosch fuel injection with a ram-air intake built into the headlamp. Brembo calipers on twin 320 mm floating discs, Bosch dual-channel ABS, a 300 mm rear tyre on a single-sided swingarm and quad exhaust tips complete the hardware, while a 5-inch TFT links to the B-ConnecteD app for ride tracking and navigation."
+   ],
+   "highlights": [
+    "Electronically adjustable dual-chamber rear air suspension",
+    "Seat height adjustable from 650–730 mm, wheelbase 1,720 mm",
+    "676 cc inline four: 77.78 hp at 10,500 rpm, 60 Nm at 8,000 rpm",
+    "Brembo brakes, twin 320 mm floating discs, Bosch dual-channel ABS",
+    "300/35R18 rear tyre, single-sided swingarm and quad exhaust tips",
+    "5-inch TFT with B-ConnecteD app link and LED lights with deployable wings"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Inline four-cylinder, four-stroke, 16-valve, DOHC"
+      ],
+      [
+       "Displacement",
+       "676 cc"
+      ],
+      [
+       "Bore x stroke",
+       "67 × 48 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.6:1"
+      ],
+      [
+       "Max power",
+       "77.78 hp at 10,500 rpm"
+      ],
+      [
+       "Max torque",
+       "60 Nm at 8,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection (EFI)"
+      ],
+      [
+       "Valve train",
+       "DOHC"
+      ],
+      [
+       "Ignition",
+       "T.C.I"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Lubrication",
+       "Pressure splash lubrication"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Slipper clutch"
+      ],
+      [
+       "Final drive",
+       "Chain"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "43 mm upside-down telescopic fork, KYB"
+      ],
+      [
+       "Front travel",
+       "100 mm"
+      ],
+      [
+       "Rear suspension",
+       "Adjustable shock absorber, KYB"
+      ],
+      [
+       "Rear travel",
+       "35 mm"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Double floating discs, 4-piston caliper, Brembo, 320 mm"
+      ],
+      [
+       "Rear brake",
+       "Disc, 2-piston caliper, Brembo, 260 mm"
+      ],
+      [
+       "ABS",
+       "Yes"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Front tyre",
+       "130/70-19, CST"
+      ],
+      [
+       "Rear tyre",
+       "300/35R18, CST"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,240 × 880 × 1,100 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,720 mm"
+      ],
+      [
+       "Seat height",
+       "650–730 mm"
+      ],
+      [
+       "Ground clearance",
+       "140–160 mm"
+      ],
+      [
+       "Kerb weight",
+       "287 kg"
+      ],
+      [
+       "Fuel tank",
+       "17 L"
+      ],
+      [
+       "Max load",
+       "180 kg"
+      ],
+      [
+       "Top speed",
+       "160 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Instruments",
+       "TFT, 5-inch"
+      ],
+      [
+       "USB charging",
+       "Yes"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Stellar Red",
+    "Polar Green",
+    "Midnight Black",
+    "Golden Horizon"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/benda/lfc-700-pro-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda LFC 700 Pro cruiser in Polar Green, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/lfc-700-pro-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Benda LFC 700 Pro cruiser in Stellar Red, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/benda/lfc-700-pro-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Benda LFC 700 Pro cruiser in Golden Horizon, fuel tank and handlebar detail"
+    },
+    {
+     "src": "/images/motorcycles/benda/lfc-700-pro-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Benda LFC 700 Pro cruiser in Midnight Black, four-cylinder engine detail"
+    },
+    {
+     "src": "/images/motorcycles/benda/lfc-700-pro-5",
+     "w": 1200,
+     "h": 675,
+     "kind": "riding",
+     "studio": false,
+     "alt": "Benda LFC 700 Pro cruiser in Midnight Black, rider seated, side view"
+    }
+   ],
+   "sourceUrl": "https://www.bendakeeway.com/int-en/products/lfc700-pro",
+   "notes": "Wheelbase 1,720 mm and seat 650–730 mm confirmed on both the maker page and the Baltic page. Rear tyre: maker spec table says 300/35R18 (CST) and the maker copy says 'wide 300 mm rear tire'; the Baltic page lists 310/35-18 (apparently copied from the LFC 700). Use 300 mm. Power: spec table 77.78 hp at 10,500 rpm; maker copy says 78 hp at 10,050 rpm; Baltic page 58 kW at 10,050 rpm. Compression ratio 11.6:1 (maker) vs 11.4:1 (Baltic). Length 2,240 mm (maker) vs 2,430 mm (Baltic). Baltic page header wrongly says 'V-Twin cylinders, 8 valves'. Image 4 colour assumed from the dark studio set."
+  },
+  {
+   "slug": "chinchilla-500",
+   "name": "Chinchilla 500",
+   "category": "Cruiser",
+   "key": {
+    "engine": "475.6 cc V-twin",
+    "cc": 476,
+    "power": "46.94 hp",
+    "torque": "42 Nm",
+    "weight": "215 kg kerb",
+    "seat": "705 mm",
+    "tank": "16 L",
+    "topSpeed": "145 km/h"
+   },
+   "tagline": "475.6 cc V-twin cruiser with belt drive, ABS and traction control",
+   "summary": [
+    "The Benda Chinchilla 500 is a mid-size cruiser powered by a 475.6 cc liquid-cooled V-twin with eight valves, producing 46.94 hp and 42 Nm. Drive goes through a six-speed gearbox with a slipper clutch to a belt final drive, so there is no chain to clean or adjust. At 215 kg with a 705 mm seat, it suits riders moving up from smaller cruisers.",
+    "Wide 16-inch tyres, 150 mm at the front and 180 mm at the rear, give it a heavyweight look. A 41 mm upside-down fork, twin preload-adjustable rear shocks and a 320 mm floating front disc with a four-piston caliper handle the chassis side, with ABS and traction control fitted. The 16-litre tank, stainless steel exhausts and LED lights finish it off."
+   ],
+   "highlights": [
+    "475.6 cc liquid-cooled V-twin: 46.94 hp at 9,000 rpm, 42 Nm at 7,200 rpm",
+    "Six-speed gearbox, slipper clutch and belt final drive",
+    "ABS and traction control",
+    "150/80-16 front and 180/65-16 rear tyres on alloy wheels",
+    "705 mm seat height, 215 kg kerb weight and 16-litre tank",
+    "41 mm upside-down fork and 320 mm floating front disc"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "V-twin, four-stroke, 8-valve, SOHC"
+      ],
+      [
+       "Displacement",
+       "475.6 cc"
+      ],
+      [
+       "Bore x stroke",
+       "69 × 63.6 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.5:1"
+      ],
+      [
+       "Max power",
+       "46.94 hp at 9,000 rpm"
+      ],
+      [
+       "Max torque",
+       "42 Nm at 7,200 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection (EFI)"
+      ],
+      [
+       "Valve train",
+       "DOHC"
+      ],
+      [
+       "Ignition",
+       "T.C.I"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Lubrication",
+       "Pressure splash lubrication"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Slipper clutch"
+      ],
+      [
+       "Final drive",
+       "Belt"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "41 mm upside-down telescopic fork"
+      ],
+      [
+       "Front travel",
+       "128.9 mm"
+      ],
+      [
+       "Rear suspension",
+       "Dual shock absorbers, adjustable preload"
+      ],
+      [
+       "Rear travel",
+       "65 mm"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Floating Disc, 4-piston caliper, 320 mm"
+      ],
+      [
+       "Rear brake",
+       "Disc, 2-piston caliper, 260 mm"
+      ],
+      [
+       "ABS",
+       "Yes"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Front tyre",
+       "150/80-16"
+      ],
+      [
+       "Rear tyre",
+       "180/65-16"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,220 × 890 × 1,150 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,550 mm"
+      ],
+      [
+       "Seat height",
+       "705 mm"
+      ],
+      [
+       "Ground clearance",
+       "150 mm"
+      ],
+      [
+       "Kerb weight",
+       "215 kg"
+      ],
+      [
+       "Fuel tank",
+       "16 L"
+      ],
+      [
+       "Max load",
+       "150 kg"
+      ],
+      [
+       "Top speed",
+       "145 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Traction control",
+       "Yes"
+      ],
+      [
+       "Instruments",
+       "LCD"
+      ],
+      [
+       "USB charging",
+       "Yes"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "White",
+    "Black",
+    "Stellar Red",
+    "Blue",
+    "Meteor Gray"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/benda/chinchilla-500-1",
+     "w": 1171,
+     "h": 781,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda Chinchilla 500 cruiser in White, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/chinchilla-500-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Benda Chinchilla 500 cruiser in Stellar Red, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/benda/chinchilla-500-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Benda Chinchilla 500 cruiser in Black, fuel tank detail"
+    },
+    {
+     "src": "/images/motorcycles/benda/chinchilla-500-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Benda Chinchilla 500 cruiser in Black, front wheel and floating brake disc detail"
+    },
+    {
+     "src": "/images/motorcycles/benda/chinchilla-500-5",
+     "w": 1200,
+     "h": 920,
+     "kind": "riding",
+     "studio": false,
+     "alt": "Benda Chinchilla 500 cruiser in Black, riding on a lakeside road"
+    }
+   ],
+   "sourceUrl": "https://www.bendakeeway.com/int-en/products/chinchilla-500-v2",
+   "notes": "Full specs from the maker page (slug chinchilla-500-v2). Conflicts: engine type row says SOHC but the valve-train row says DOHC (SOHC kept in the type, DOHC in valve train as published); maker feature text mentions a '150/70 R17 rear tire' and a 'TFT color display', but the spec table says 180/65-16 and LCD (spec table used). Baltic page: 35 kW at 8,800 rpm (= 46.9 hp, consistent), 42 Nm at 6,700 rpm (maker says 7,200 rpm), cradle-type steel frame with aluminium swingarm, colours Adventure Red, Starlit Blue, Starry Gray, Midnight Black, Moonstone White. Maker colour names are generic ('Black Black' published, shortened to Black)."
+  },
+  {
+   "slug": "chinchilla-250",
+   "name": "Chinchilla 250",
+   "category": "Cruiser",
+   "key": {
+    "engine": "249 cc V-twin",
+    "cc": 249,
+    "power": "25.84 PS (25.5 hp)",
+    "torque": "25 Nm",
+    "weight": "192 kg kerb",
+    "seat": "690 mm",
+    "tank": "12 L",
+    "topSpeed": "120 km/h"
+   },
+   "tagline": "Automatic 249 cc V-twin cruiser with a 690 mm seat, ABS and TCS",
+   "summary": [
+    "The Benda Chinchilla 250 pairs a 249 cc liquid-cooled V-twin with a CVT automatic gearbox and belt final drive, so there is no clutch lever and no gear changing. It makes 25.84 CV and 25 Nm, and with a 690 mm seat, high handlebars and a 192 kg kerb weight it is aimed at new and returning riders who want a cruiser that is easy to live with.",
+    "Rider aids are fitted as standard: dual-channel ABS and traction control, with a 320 mm front disc and four-piston caliper. A 37 mm upside-down fork and twin preload-adjustable shocks handle the suspension. Full LED lighting with a round headlight, a round digital display showing speed, gear position and fuel, plus USB-A and USB-C charging complete the specification."
+   ],
+   "highlights": [
+    "249 cc liquid-cooled V-twin with CVT automatic and belt drive",
+    "690 mm seat height and high, relaxed handlebar",
+    "Dual-channel ABS and traction control",
+    "37 mm upside-down fork, 320 mm front disc with four-piston caliper",
+    "Full LED lighting and round digital display",
+    "USB-A and USB-C charging ports"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "V-twin, four-stroke, 8-valve, SOHC"
+      ],
+      [
+       "Displacement",
+       "249 cc"
+      ],
+      [
+       "Bore x stroke",
+       "53.5 × 55.4 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.8:1"
+      ],
+      [
+       "Max power",
+       "25.84 CV at 8,500 rpm"
+      ],
+      [
+       "Max torque",
+       "25 Nm at 6,500 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection (EFI)"
+      ],
+      [
+       "Valve train",
+       "SOHC"
+      ],
+      [
+       "Ignition",
+       "T.C.I"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Lubrication",
+       "Pressure splash lubrication"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "CVT"
+      ],
+      [
+       "Clutch",
+       "Automatic"
+      ],
+      [
+       "Final drive",
+       "Belt"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "37 mm upside-down telescopic fork"
+      ],
+      [
+       "Front travel",
+       "120 mm"
+      ],
+      [
+       "Rear suspension",
+       "Dual shock absorbers, continuously adjustable preload"
+      ],
+      [
+       "Rear travel",
+       "45.5 mm"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Disc, 4-piston caliper, 320 mm"
+      ],
+      [
+       "Rear brake",
+       "Disc, 2-piston caliper, 260 mm"
+      ],
+      [
+       "ABS",
+       "Dual-channel"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Front tyre",
+       "120/80-16, CST"
+      ],
+      [
+       "Rear tyre",
+       "150/80-15, CST"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,140 × 845 × 1,100 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,410 mm"
+      ],
+      [
+       "Seat height",
+       "690 mm"
+      ],
+      [
+       "Ground clearance",
+       "160 mm"
+      ],
+      [
+       "Kerb weight",
+       "192 kg"
+      ],
+      [
+       "Fuel tank",
+       "12 L"
+      ],
+      [
+       "Max load",
+       "180 kg"
+      ],
+      [
+       "Top speed",
+       "120 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Traction control",
+       "Yes"
+      ],
+      [
+       "Instruments",
+       "LCD"
+      ],
+      [
+       "USB charging",
+       "Type-A, Type-C"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "White",
+    "Black",
+    "Gray",
+    "Yellow"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/benda/chinchilla-250-1",
+     "w": 1140,
+     "h": 760,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda Chinchilla 250 cruiser in White, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/chinchilla-250-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Benda Chinchilla 250 cruiser in White, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/benda/chinchilla-250-3",
+     "w": 1122,
+     "h": 748,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda Chinchilla 250 cruiser in Yellow, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/chinchilla-250-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Benda Chinchilla 250 cruiser in Yellow, front three-quarter view"
+    }
+   ],
+   "sourceUrl": "https://www.bendakeeway.com/int-en/products/chinchilla-250",
+   "notes": "Power is published as 25.84 CV (metric horsepower) at 8,500 rpm; kept as published. No gallery or lifestyle photos on the maker page, only studio colour shots. Not listed on the Baltic site, which instead lists a Chinchilla 300 and Chinchilla 125."
+  },
+  {
+   "slug": "chinchilla-350-neo",
+   "name": "Chinchilla 350 NEO",
+   "category": "Cruiser",
+   "key": {
+    "engine": "343 cc V-twin",
+    "cc": 343,
+    "power": "33.5 hp",
+    "torque": "31 Nm",
+    "weight": "195 kg kerb",
+    "seat": "690 mm",
+    "tank": "16 L",
+    "topSpeed": "129 km/h"
+   },
+   "tagline": "Neo-retro 343 cc automatic V-twin cruiser with Bosch ABS",
+   "summary": [
+    "The Benda Chinchilla 350 NEO is a neo-retro cruiser with a 343 cc liquid-cooled V-twin and a CVT automatic gearbox driving a belt. Rated at 33.5 hp and 31 Nm, with strong pulling power at low and middle revs, it handles town traffic without any clutch work and still has enough in reserve for open-road cruising at up to 129 km/h.",
+    "Styling leans on classic cues: a round LED headlight with a chrome halo ring that works as a daytime running light, a round LCD display, chromed twin rear shocks and twin stainless steel silencers. Underneath sit a 37 mm upside-down fork, a 320 mm front disc with Bosch dual-channel ABS, traction control and a 16-litre tank, with a 690 mm seat."
+   ],
+   "highlights": [
+    "343 cc liquid-cooled V-twin: 33.5 hp at 8,700 rpm, 31 Nm at 6,500 rpm",
+    "CVT automatic with belt final drive",
+    "Bosch dual-channel ABS and traction control",
+    "Round LED headlight with chrome halo daytime running light",
+    "690 mm seat height, 195 kg kerb weight and 16-litre tank",
+    "USB-A and USB-C charging ports"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "V-twin, four-stroke, 8-valve, SOHC"
+      ],
+      [
+       "Displacement",
+       "343 cc"
+      ],
+      [
+       "Bore x stroke",
+       "58 × 65 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.5:1"
+      ],
+      [
+       "Max power",
+       "33.5 hp at 8,700 rpm"
+      ],
+      [
+       "Max torque",
+       "31 Nm at 6,500 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection (EFI)"
+      ],
+      [
+       "Valve train",
+       "SOHC"
+      ],
+      [
+       "Ignition",
+       "T.C.I"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Lubrication",
+       "Pressure splash lubrication"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "CVT"
+      ],
+      [
+       "Clutch",
+       "Automatic"
+      ],
+      [
+       "Final drive",
+       "Belt"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "37 mm upside-down telescopic fork"
+      ],
+      [
+       "Front travel",
+       "120 mm"
+      ],
+      [
+       "Rear suspension",
+       "Dual shock absorbers, continuously adjustable preload"
+      ],
+      [
+       "Rear travel",
+       "32 mm"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Disc, 4-piston caliper, 320 mm"
+      ],
+      [
+       "Rear brake",
+       "Disc, 2-piston caliper, 260 mm"
+      ],
+      [
+       "ABS",
+       "Dual-channel, Bosch"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Front tyre",
+       "120/80-16, CST"
+      ],
+      [
+       "Rear tyre",
+       "150/80-15, CST"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,190 × 895 × 1,050 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,485 mm"
+      ],
+      [
+       "Seat height",
+       "690 mm"
+      ],
+      [
+       "Ground clearance",
+       "125 mm"
+      ],
+      [
+       "Kerb weight",
+       "195 kg"
+      ],
+      [
+       "Fuel tank",
+       "16 L"
+      ],
+      [
+       "Max load",
+       "150 kg"
+      ],
+      [
+       "Top speed",
+       "129 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Traction control",
+       "Yes"
+      ],
+      [
+       "Instruments",
+       "LCD"
+      ],
+      [
+       "USB charging",
+       "Type-A, Type-C"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Starlight Black",
+    "Elephant Gray",
+    "Maple Yellow"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/benda/chinchilla-350-neo-1",
+     "w": 1192,
+     "h": 795,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda Chinchilla 350 NEO cruiser in Elephant Gray, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/chinchilla-350-neo-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Benda Chinchilla 350 NEO cruiser in Elephant Gray, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/benda/chinchilla-350-neo-3",
+     "w": 1192,
+     "h": 795,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda Chinchilla 350 NEO cruiser in Maple Yellow, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/chinchilla-350-neo-4",
+     "w": 1200,
+     "h": 675,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Benda Chinchilla 350 NEO cruisers in Maple Yellow and Elephant Gray, parked on a beach"
+    },
+    {
+     "src": "/images/motorcycles/benda/chinchilla-350-neo-5",
+     "w": 1080,
+     "h": 1920,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Benda Chinchilla 350 NEO cruiser in Maple Yellow, parked by the sea, portrait"
+    }
+   ],
+   "sourceUrl": "https://www.bendakeeway.com/int-en/products/chinchilla-350-neo",
+   "notes": "The Baltic site lists the same bike as 'Chinchilla 350 CVT' (343 cc, 25 kW at 8,700 rpm, 31 Nm, 195 kg, 690 mm seat, 1,485 mm wheelbase); it gives suspension travel as 115 mm / 37 mm against the maker's 120 mm / 32 mm, and lists Crimson Red, Forest Green and Shiny Black alongside Maple Yellow, Starlight Black and Elephant Grey. Maker copy describes 'exposed cooling fins' on a liquid-cooled engine; not used. Image 5 is portrait (1080 x 1920)."
+  },
+  {
+   "slug": "darkflag-500",
+   "name": "Darkflag 500",
+   "category": "Cruiser",
+   "key": {
+    "engine": "496 cc V4",
+    "cc": 496,
+    "power": "46.94 hp",
+    "torque": "42 Nm",
+    "weight": "260 kg kerb",
+    "seat": "700 mm",
+    "tank": "16 L",
+    "topSpeed": "129 km/h"
+   },
+   "tagline": "496 cc V4 cruiser with cruise control and electronic air suspension",
+   "summary": [
+    "The Benda Darkflag 500 is a cruiser built around a 496 cc liquid-cooled V4 engine with 16 valves, producing 46.94 hp and 42 Nm. It uses a ride-by-wire throttle and shuts down its rear two cylinders at idle to cut fuel use and heat. Power reaches the rear wheel through a six-speed gearbox, a slipper clutch and a belt final drive.",
+    "Touring comfort is built in. Cruise control, traction control and ABS are fitted, and an electronically adjusted rear air suspension sets ride height between 670 and 700 mm. The seat is shaped for two people, and the cockpit uses a floating central instrument, backlit switches and an LED fuel gauge on the tank. Kerb weight is 260 kg with a 16-litre tank."
+   ],
+   "highlights": [
+    "496 cc liquid-cooled V4 with 16 valves and ride-by-wire throttle",
+    "Rear cylinders shut down at idle to reduce fuel use and heat",
+    "Cruise control, traction control and ABS",
+    "Electronic rear air suspension, ride height 670–700 mm",
+    "320 mm floating front disc with J.Juan four-piston caliper",
+    "Two-up seat, belt final drive and 16-litre tank"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "V4, four-stroke, 16-valve, SOHC"
+      ],
+      [
+       "Displacement",
+       "496 cc"
+      ],
+      [
+       "Bore x stroke",
+       "53.5 × 55.2 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.5:1"
+      ],
+      [
+       "Max power",
+       "46.94 hp at 9,000 rpm"
+      ],
+      [
+       "Max torque",
+       "42 Nm at 7,200 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection (EFI)"
+      ],
+      [
+       "Valve train",
+       "SOHC"
+      ],
+      [
+       "Ignition",
+       "T.C.I"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Lubrication",
+       "Pressure splash lubrication"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Slipper clutch"
+      ],
+      [
+       "Final drive",
+       "Belt"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "41 mm upside-down telescopic fork"
+      ],
+      [
+       "Front travel",
+       "95 mm"
+      ],
+      [
+       "Rear suspension",
+       "Adjustable dual air shock absorber / Airmatic"
+      ],
+      [
+       "Rear travel",
+       "61.5 mm"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Floating disc, 4-piston caliper, J.Juan, 320 mm"
+      ],
+      [
+       "Rear brake",
+       "Disc, 2-piston caliper, 260 mm"
+      ],
+      [
+       "ABS",
+       "Yes"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Front tyre",
+       "130/90-16"
+      ],
+      [
+       "Rear tyre",
+       "150/80-16"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,330 × 800 × 1,267 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,586 mm"
+      ],
+      [
+       "Seat height",
+       "700 mm"
+      ],
+      [
+       "Ground clearance",
+       "134 mm"
+      ],
+      [
+       "Kerb weight",
+       "260 kg"
+      ],
+      [
+       "Fuel tank",
+       "16 L"
+      ],
+      [
+       "Max load",
+       "180 kg"
+      ],
+      [
+       "Top speed",
+       "129 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Traction control",
+       "Yes"
+      ],
+      [
+       "Cruise control",
+       "Yes"
+      ],
+      [
+       "Instruments",
+       "Analogue speedometer with LCD"
+      ],
+      [
+       "USB charging",
+       "Yes"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/benda/darkflag-500-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda Darkflag 500 cruiser in Black, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/darkflag-500-2",
+     "w": 1149,
+     "h": 766,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Benda Darkflag 500 cruiser in Black, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/benda/darkflag-500-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Benda Darkflag 500 cruiser in Black, handlebar and fuel tank from the rider seat"
+    },
+    {
+     "src": "/images/motorcycles/benda/darkflag-500-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Benda Darkflag 500 cruiser in Black, two-up seat and LED tail light detail"
+    },
+    {
+     "src": "/images/motorcycles/benda/darkflag-500-5",
+     "w": 1200,
+     "h": 800,
+     "kind": "riding",
+     "studio": false,
+     "alt": "Benda Darkflag 500 cruiser in Black, riding across a steel bridge"
+    }
+   ],
+   "sourceUrl": "https://www.bendakeeway.com/int-en/products/dark-flag-500-commander",
+   "notes": "Maker URL slug is 'dark-flag-500-commander' but the page title is DARKFLAG 500 (the Commander has its own page). The international page rendered with some Portuguese interface labels; spec labels were English. Baltic page ('Dark Flag 500'): 40 kW at 9,500 rpm (= 53.6 hp, higher than the maker's 46.94 hp), 42 Nm at 7,300 rpm, top speed 145 km/h (maker 129 km/h), seat 670–700 mm, colours Glory Gold, Phantom Black, Ray Blue, Starry Grey. Maker lists only black. Rear suspension published as 'Adjustable dual AIR shock-absorber / Airmatic'. Instruments: 'Analog speedometer with LCD'. Dimensions 2,330 x 800 x 1,267 mm."
+  },
+  {
+   "slug": "darkflag-500-commander",
+   "name": "Darkflag 500 Commander",
+   "category": "Cruiser",
+   "key": {
+    "engine": "496.4 cc V4",
+    "cc": 496,
+    "power": "46.9 hp",
+    "torque": "42 Nm",
+    "weight": "260 kg kerb",
+    "seat": "700 mm",
+    "tank": "16 L",
+    "topSpeed": "129 km/h"
+   },
+   "tagline": "V4 cruiser with 4.3-inch TFT, cruise control and air suspension",
+   "summary": [
+    "The Benda Darkflag 500 Commander uses a 496.4 cc liquid-cooled V4, rated at 46.9 hp and 42 Nm, with a ride-by-wire throttle and rear-cylinder shutdown at idle. Compared with the standard Darkflag 500, it adds a floating 4.3-inch TFT display, backlit switchgear and an LED fuel level indicator on the tank, giving it a more tourer-styled cockpit.",
+    "Cruise control, traction control and dual-channel ABS are fitted, and the electronic air suspension at the rear adjusts seat height between 670 and 700 mm. A two-up seat, belt drive, six-speed gearbox with slipper clutch and a 16-litre tank make it a practical choice for riders who cover longer distances with a passenger. USB-A and USB-C ports are included."
+   ],
+   "highlights": [
+    "496.4 cc liquid-cooled V4: 46.9 hp at 9,500 rpm, 42 Nm at 7,300 rpm",
+    "Floating 4.3-inch TFT display and backlit switchgear",
+    "Cruise control, traction control and dual-channel ABS",
+    "Electronic rear air suspension, seat height 670–700 mm",
+    "Two-up seat, belt final drive and slipper clutch",
+    "USB-A and USB-C charging ports"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "V4, four-stroke, 16-valve, SOHC"
+      ],
+      [
+       "Displacement",
+       "496.4 cc"
+      ],
+      [
+       "Bore x stroke",
+       "53.5 × 55.2 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.5:1"
+      ],
+      [
+       "Max power",
+       "46.9 hp at 9,500 rpm"
+      ],
+      [
+       "Max torque",
+       "42 Nm at 7,300 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection (EFI)"
+      ],
+      [
+       "Valve train",
+       "SOHC"
+      ],
+      [
+       "Ignition",
+       "T.C.I"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Lubrication",
+       "Pressure splash lubrication"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Slipper clutch"
+      ],
+      [
+       "Final drive",
+       "Belt"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "41 mm upside-down telescopic fork"
+      ],
+      [
+       "Front travel",
+       "95 mm"
+      ],
+      [
+       "Rear suspension",
+       "Dual shock absorbers, preload adjustable / airmatic"
+      ],
+      [
+       "Rear travel",
+       "61.5 mm"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Disc, 4-piston caliper, J.Juan, 320 mm"
+      ],
+      [
+       "Rear brake",
+       "Disc, 2-piston caliper, 260 mm"
+      ],
+      [
+       "ABS",
+       "Dual-channel"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Front tyre",
+       "130/90-16, CST"
+      ],
+      [
+       "Rear tyre",
+       "150/80-16, CST"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,330 × 890 × 1,100 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,586 mm"
+      ],
+      [
+       "Seat height",
+       "700 mm"
+      ],
+      [
+       "Ground clearance",
+       "134 mm"
+      ],
+      [
+       "Kerb weight",
+       "260 kg"
+      ],
+      [
+       "Fuel tank",
+       "16 L"
+      ],
+      [
+       "Max load",
+       "180 kg"
+      ],
+      [
+       "Top speed",
+       "129 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Traction control",
+       "Yes"
+      ],
+      [
+       "Cruise control",
+       "Yes"
+      ],
+      [
+       "Instruments",
+       "TFT, 4.3-inch"
+      ],
+      [
+       "USB charging",
+       "Type-A, Type-C"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "White",
+    "Black",
+    "Dark Red"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/benda/darkflag-500-commander-1",
+     "w": 1159,
+     "h": 773,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda Darkflag 500 Commander cruiser in White, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/darkflag-500-commander-2",
+     "w": 1160,
+     "h": 773,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda Darkflag 500 Commander cruiser in Dark Red, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/darkflag-500-commander-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Benda Darkflag 500 Commander cruiser in Black, V4 engine and fuel tank detail"
+    },
+    {
+     "src": "/images/motorcycles/benda/darkflag-500-commander-4",
+     "w": 1200,
+     "h": 1095,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Benda Darkflag 500 Commander cruiser in Black, round LED headlight detail"
+    },
+    {
+     "src": "/images/motorcycles/benda/darkflag-500-commander-5",
+     "w": 1200,
+     "h": 800,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Benda Darkflag 500 Commander cruiser in Black, parked on a city street, side view"
+    }
+   ],
+   "sourceUrl": "https://www.bendakeeway.com/int-en/products/darkflag-500-commander",
+   "notes": "No three-quarter studio shot published, so image 2 is a second colour side view. Baltic page ('Dark Flag 500 Commander', 'Ultra Version'): 40 kW at 10,000 rpm (= 53.6 hp), 42 Nm at 7,500 rpm, top speed 165 km/h (maker 129 km/h), 241 kg (maker 260 kg), wheelbase 1,575 mm (maker 1,586 mm), colours Allure Red, Mystic White, Fantasy Black. Maker figures used. Image 4 is the maker's own gallery file named as a screenshot; it is a clean photo with no overlay."
+  },
+  {
+   "slug": "napoleon-bob-500",
+   "name": "Napoleon Bob 500",
+   "category": "Custom",
+   "key": {
+    "engine": "475.6 cc V-twin",
+    "cc": 476,
+    "power": "46.94 hp",
+    "torque": "42 Nm",
+    "weight": "215 kg kerb",
+    "seat": "695 mm",
+    "tank": "16 L",
+    "topSpeed": "145 km/h"
+   },
+   "tagline": "475.6 cc V-twin bobber with belt drive, ABS and traction control",
+   "summary": [
+    "The Benda Napoleon Bob 500 is a bobber built on a 475.6 cc liquid-cooled V-twin with eight valves, producing 46.94 hp and 42 Nm. The engine is finished in gold and titanium grey, and drive goes through a six-speed gearbox with a slipper clutch to a belt. A 695 mm seat and 215 kg kerb weight keep it manageable for riders moving up in capacity.",
+    "The look is classic bobber with modern details: a round LED headlight, 'Flying Wing' handlebars with illuminated switches and a floating central instrument. Wide 16-inch tyres, 150 mm front and 180 mm rear, sit under a 41 mm upside-down fork and twin preload-adjustable shocks. A 320 mm floating front disc, ABS, traction control and a 16-litre tank complete the package."
+   ],
+   "highlights": [
+    "475.6 cc liquid-cooled V-twin: 46.94 hp at 9,000 rpm, 42 Nm at 7,200 rpm",
+    "Engine finished in gold and titanium grey",
+    "Six-speed gearbox, slipper clutch and belt final drive",
+    "ABS and traction control",
+    "150/80-16 front and 180/65-16 rear tyres",
+    "695 mm seat height and 16-litre tank"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "V-twin, four-stroke, 8-valve, SOHC"
+      ],
+      [
+       "Displacement",
+       "475.6 cc"
+      ],
+      [
+       "Bore x stroke",
+       "69 × 63.6 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.5:1"
+      ],
+      [
+       "Max power",
+       "46.94 hp at 9,000 rpm"
+      ],
+      [
+       "Max torque",
+       "42 Nm at 7,200 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection (EFI)"
+      ],
+      [
+       "Valve train",
+       "SOHC"
+      ],
+      [
+       "Ignition",
+       "T.C.I"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Lubrication",
+       "Pressure splash lubrication"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Slipper clutch"
+      ],
+      [
+       "Final drive",
+       "Belt"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "41 mm upside-down telescopic fork"
+      ],
+      [
+       "Front travel",
+       "100 mm"
+      ],
+      [
+       "Rear suspension",
+       "Dual shock absorbers, preload adjustable"
+      ],
+      [
+       "Rear travel",
+       "30 mm"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Floating Disc, 4-piston caliper, 320 mm"
+      ],
+      [
+       "Rear brake",
+       "Disc, 2-piston caliper, 260 mm"
+      ],
+      [
+       "ABS",
+       "Yes"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Front tyre",
+       "150/80-16"
+      ],
+      [
+       "Rear tyre",
+       "180/65-16"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,285 × 810 × 1,080 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,550 mm"
+      ],
+      [
+       "Seat height",
+       "695 mm"
+      ],
+      [
+       "Ground clearance",
+       "148 mm"
+      ],
+      [
+       "Kerb weight",
+       "215 kg"
+      ],
+      [
+       "Fuel tank",
+       "16 L"
+      ],
+      [
+       "Max load",
+       "100 kg"
+      ],
+      [
+       "Top speed",
+       "145 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Traction control",
+       "Yes"
+      ],
+      [
+       "Instruments",
+       "LCD"
+      ],
+      [
+       "USB charging",
+       "Yes"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Black Gold",
+    "Black",
+    "Gray Black",
+    "Gray"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/benda/napoleon-bob-500-1",
+     "w": 1101,
+     "h": 734,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda Napoleon Bob 500 bobber in Gray, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/napoleon-bob-500-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Benda Napoleon Bob 500 bobber in Gray, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/benda/napoleon-bob-500-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Benda Napoleon Bob 500 bobber in Black Gold, V-twin engine detail"
+    },
+    {
+     "src": "/images/motorcycles/benda/napoleon-bob-500-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Benda Napoleon Bob 500 bobber in Black Gold, round LED headlight detail"
+    },
+    {
+     "src": "/images/motorcycles/benda/napoleon-bob-500-5",
+     "w": 853,
+     "h": 1280,
+     "kind": "riding",
+     "studio": false,
+     "alt": "Benda Napoleon Bob 500 bobber in Black, riding on a country road, portrait"
+    }
+   ],
+   "sourceUrl": "https://www.bendakeeway.com/int-en/products/napoleon-500-2",
+   "notes": "Maker colour names published as 'Black Gold', 'Black Black', 'Gray Black', 'Gray Gray' (doubled names shortened). Baltic page ('Napoleonbob 500'): 37 kW at 8,500 rpm (= 49.6 hp, maker says 46.94 hp), 42 Nm at 6,700 rpm, front tyre 150/80-15 (maker 150/80-16), colours Mysterious Gold and Gray Moon, each with or without black rims. Maker copy mentions a colour TFT dashboard; spec table says LCD (table used). Category set to Custom because it is a bobber; use Cruiser if preferred. Image 5 is portrait."
+  },
+  {
+   "slug": "napoleon-bob-250",
+   "name": "Napoleon Bob 250",
+   "category": "Custom",
+   "key": {
+    "engine": "249 cc V-twin",
+    "cc": 249,
+    "power": "25.48 hp",
+    "torque": "25 Nm",
+    "weight": "182 kg kerb",
+    "seat": "750 mm",
+    "tank": "9.5 L",
+    "topSpeed": "120 km/h"
+   },
+   "tagline": "249 cc V-twin bobber on 18-inch wheels with ABS and traction control",
+   "summary": [
+    "The Benda Napoleon Bob 250 is an entry-level bobber powered by a 249 cc liquid-cooled V-twin with eight valves, giving 25.48 hp and 25 Nm. It uses a six-speed gearbox with a slipper clutch and a chain final drive, and weighs 182 kg. Large 18-inch wheels front and rear, wearing 130 mm and 160 mm tyres, give it the stance of a classic bobber.",
+    "The chassis uses a telescopic front fork, preload-adjustable rear suspension and an aluminium swingarm, with a 300 mm front disc and four-piston caliper. ABS and traction control are fitted. An LED headlight, round mirrors, a compact 9.5-litre tank and a 750 mm seat complete a style-led package for riders who want a V-twin bobber in the 250 class."
+   ],
+   "highlights": [
+    "249 cc liquid-cooled V-twin: 25.48 hp at 9,000 rpm, 25 Nm at 5,500 rpm",
+    "Six-speed gearbox with slipper clutch",
+    "ABS and traction control",
+    "18-inch wheels with 130/80 front and 160/70 rear tyres",
+    "Aluminium swingarm and preload-adjustable rear suspension",
+    "LED headlight, 750 mm seat and 182 kg kerb weight"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "V-twin, four-stroke, 8-valve, SOHC"
+      ],
+      [
+       "Displacement",
+       "249 cc"
+      ],
+      [
+       "Bore x stroke",
+       "53.5 × 55.4 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.8:1"
+      ],
+      [
+       "Max power",
+       "25.48 hp at 9,000 rpm"
+      ],
+      [
+       "Max torque",
+       "25 Nm at 5,500 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection (EFI)"
+      ],
+      [
+       "Valve train",
+       "SOHC"
+      ],
+      [
+       "Ignition",
+       "T.C.I"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Lubrication",
+       "Pressure splash lubrication"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Slipper clutch"
+      ],
+      [
+       "Final drive",
+       "Chain"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "Telescopic fork"
+      ],
+      [
+       "Front travel",
+       "95 mm"
+      ],
+      [
+       "Rear suspension",
+       "Multi-link dual shock absorber, adjustable preload"
+      ],
+      [
+       "Rear travel",
+       "38 mm"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Disc, 4-piston caliper, 300 mm"
+      ],
+      [
+       "Rear brake",
+       "Disc, 2-piston caliper, 240 mm"
+      ],
+      [
+       "ABS",
+       "Yes"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Front tyre",
+       "130/80-18"
+      ],
+      [
+       "Rear tyre",
+       "160/70-18"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,333 × 838 × 1,038 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,545 mm"
+      ],
+      [
+       "Seat height",
+       "750 mm"
+      ],
+      [
+       "Ground clearance",
+       "123 mm"
+      ],
+      [
+       "Kerb weight",
+       "182 kg"
+      ],
+      [
+       "Fuel tank",
+       "9.5 L"
+      ],
+      [
+       "Max load",
+       "75 kg"
+      ],
+      [
+       "Top speed",
+       "120 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Traction control",
+       "Yes"
+      ],
+      [
+       "Instruments",
+       "LCD"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Green",
+    "Black",
+    "Silver"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/benda/napoleon-bob-250-1",
+     "w": 1183,
+     "h": 789,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda Napoleon Bob 250 bobber in Green, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/napoleon-bob-250-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Benda Napoleon Bob 250 bobber in Green, rear three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/benda/napoleon-bob-250-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Benda Napoleon Bob 250 bobber in Green, V-twin engine detail"
+    },
+    {
+     "src": "/images/motorcycles/benda/napoleon-bob-250-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Benda Napoleon Bob 250 bobber in Green, handlebar and fuel tank from the rider seat"
+    },
+    {
+     "src": "/images/motorcycles/benda/napoleon-bob-250-5",
+     "w": 1200,
+     "h": 801,
+     "kind": "riding",
+     "studio": false,
+     "alt": "Benda Napoleon Bob 250 bobber in Black, riding on a rural lane"
+    }
+   ],
+   "sourceUrl": "https://www.bendakeeway.com/int-en/products/napoleon-bob-250",
+   "notes": "Rear suspension conflict on the maker page: copy says 'adjustable mono-shock', spec table says 'Multi-link dual shock-absorber, adjustable preload' (table used; prose says 'preload-adjustable rear suspension'). Copy describes a 'dual-arm aluminum swingarm'; Baltic page says steel rear fork. Seat 750 mm (maker) vs 748 mm (Baltic). Baltic: 19 kW at 9,000 rpm (= 25.5 hp, consistent), TFT instruments (maker table says LCD), colours Jazz Red, Titanium, Ivory White, Retro Green, Phantom Black. Max load published as 75 kg. Category Custom (bobber)."
+  },
+  {
+   "slug": "chinchilla-125",
+   "name": "Chinchilla 125",
+   "category": "Cruiser",
+   "key": {
+    "engine": "125 cc V-twin",
+    "cc": 125,
+    "power": "10.8 kW (14.5 hp)",
+    "torque": "14 Nm",
+    "weight": "165 kg kerb",
+    "seat": "690 mm",
+    "tank": "15 L",
+    "topSpeed": "120 km/h"
+   },
+   "tagline": "125 cc liquid-cooled V-twin cruiser with belt drive and 690 mm seat",
+   "summary": [
+    "The Benda Chinchilla 125 brings a liquid-cooled V-twin to the 125 cc class, rated at 10.8 kW (about 14.5 hp) and 14 Nm. A belt final drive keeps routine maintenance down, and the 690 mm seat and 165 kg kerb weight make it approachable for new riders who want the look of a twin-cylinder cruiser from their first bike.",
+    "It shares its main dimensions with the Chinchilla 300: a 1,420 mm wheelbase, an inverted front fork, a rear spring shock, disc brakes front and rear, and a 120/80-16 front and 150/80-15 rear tyre. A 15-litre tank, LED instruments, 158 mm of ground clearance and a top speed of 120 km/h round out a practical first cruiser."
+   ],
+   "highlights": [
+    "125 cc liquid-cooled V-twin: 10.8 kW at 8,500 rpm, 14 Nm at 6,500 rpm",
+    "Belt final drive",
+    "690 mm seat height and 165 kg kerb weight",
+    "Inverted front fork and disc brakes front and rear",
+    "15-litre fuel tank and LED instruments",
+    "120/80-16 front and 150/80-15 rear tyres"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "V-twin, liquid-cooled"
+      ],
+      [
+       "Displacement",
+       "125 cc"
+      ],
+      [
+       "Compression ratio",
+       "11.5:1"
+      ],
+      [
+       "Max power",
+       "10.8 kW (14.5 hp) at 8,500 rpm"
+      ],
+      [
+       "Max torque",
+       "14 Nm at 6,500 rpm"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Clutch",
+       "Normal clutch"
+      ],
+      [
+       "Final drive",
+       "Belt"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Steel frame and steel swingarm"
+      ],
+      [
+       "Suspension",
+       "Inverted front fork, rear spring shock absorber"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front / rear)",
+       "Disc / disc"
+      ],
+      [
+       "Front tyre",
+       "120/80-16"
+      ],
+      [
+       "Rear tyre",
+       "150/80-15"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,120 × 826 × 1,050 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,420 mm"
+      ],
+      [
+       "Seat height",
+       "690 mm"
+      ],
+      [
+       "Ground clearance",
+       "158 mm"
+      ],
+      [
+       "Kerb weight",
+       "165 kg"
+      ],
+      [
+       "Fuel tank",
+       "15 L"
+      ],
+      [
+       "Top speed",
+       "120 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Instruments",
+       "LED"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Adventure Red",
+    "Pearl White",
+    "Starry Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/benda/chinchilla-125-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda Chinchilla 125 cruiser in grey, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/chinchilla-125-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Benda Chinchilla 125 cruiser in grey, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/benda/chinchilla-125-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Benda Chinchilla 125 cruiser in grey, front view of headlight and handlebar"
+    },
+    {
+     "src": "/images/motorcycles/benda/chinchilla-125-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Benda Chinchilla 125 cruiser in grey, rear view"
+    }
+   ],
+   "sourceUrl": "https://benda-motors.eu/vehicle/chinchilla-125/",
+   "notes": "Only source is the Baltic Benda site; not on the maker's international menu. Power given only in kW: 10.8 kW x 1.341 = 14.5 hp. The page lists bore x stroke as 58 x 56.4 mm, which is the 298 cc Chinchilla 300 figure (it would give about 298 cc), so it is left out. Gearbox type and ABS are not published (ABS row shows a dash). Images are the four 'Chinchilla-125' studio files on that page; the grey-and-yellow bike shown does not match any listed colour name, so alt text says 'grey'. The page's colour swatches reuse Chinchilla 300 images. Header says '8 valves'; not used."
+  },
+  {
+   "slug": "chinchilla-300",
+   "name": "Chinchilla 300",
+   "category": "Cruiser",
+   "key": {
+    "engine": "298 cc V-twin",
+    "cc": 298,
+    "power": "22 kW (29.5 hp)",
+    "torque": "27 Nm",
+    "weight": "175 kg kerb",
+    "seat": "690 mm",
+    "tank": "15 L",
+    "topSpeed": "129 km/h"
+   },
+   "tagline": "298 cc V-twin cruiser with ABS, traction control and belt drive",
+   "summary": [
+    "The Benda Chinchilla 300 is a compact cruiser with a 298 cc liquid-cooled V-twin, eight valves and a belt final drive. It is rated at 22 kW (about 29.5 hp) and 27 Nm, with a top speed of 129 km/h. A 690 mm seat and 175 kg kerb weight keep it easy to handle for newer riders and for anyone who wants a light, low twin.",
+    "This version comes with traction control and ABS front and rear. The chassis is a steel cradle frame with an aluminium swingarm, inverted front fork and rear spring shock, running a 120/80-16 front and 150/80-15 rear tyre. A 15-litre tank and 158 mm of ground clearance complete it, and seven listed colours give plenty of choice."
+   ],
+   "highlights": [
+    "298 cc liquid-cooled V-twin: 22 kW at 8,500 rpm, 27 Nm at 6,500 rpm",
+    "ABS front and rear plus traction control",
+    "Belt final drive",
+    "690 mm seat height and 175 kg kerb weight",
+    "Steel cradle frame with aluminium swingarm",
+    "Offered in seven colours"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "V-twin, 8 valves, liquid-cooled"
+      ],
+      [
+       "Displacement",
+       "298 cc"
+      ],
+      [
+       "Bore x stroke",
+       "58 × 56.4 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.5:1"
+      ],
+      [
+       "Max power",
+       "22 kW (29.5 hp) at 8,500 rpm"
+      ],
+      [
+       "Max torque",
+       "27 Nm at 6,500 rpm"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Clutch",
+       "Normal clutch"
+      ],
+      [
+       "Final drive",
+       "Belt"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Cradle-type steel frame, aluminium swingarm"
+      ],
+      [
+       "Suspension",
+       "Inverted front fork, rear spring shock absorber"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front / rear)",
+       "Disc / disc"
+      ],
+      [
+       "ABS",
+       "Front and rear"
+      ],
+      [
+       "Front tyre",
+       "120/80-16"
+      ],
+      [
+       "Rear tyre",
+       "150/80-15"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,120 × 826 × 1,050 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,420 mm"
+      ],
+      [
+       "Seat height",
+       "690 mm"
+      ],
+      [
+       "Ground clearance",
+       "158 mm"
+      ],
+      [
+       "Kerb weight",
+       "175 kg"
+      ],
+      [
+       "Fuel tank",
+       "15 L"
+      ],
+      [
+       "Top speed",
+       "129 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Traction control",
+       "Yes (TCS version)"
+      ],
+      [
+       "Instruments",
+       "LED"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Adventure Red",
+    "Black/Yellow",
+    "Emerald Serenity",
+    "Mystic Ash",
+    "Obsidian Matte",
+    "Pearl White",
+    "Starry Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/benda/chinchilla-300-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda Chinchilla 300 cruiser in Pearl White, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/chinchilla-300-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Benda Chinchilla 300 cruiser in grey, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/benda/chinchilla-300-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda Chinchilla 300 cruiser in Adventure Red, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/chinchilla-300-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Benda Chinchilla 300 cruiser in grey, front view of headlight and handlebar"
+    },
+    {
+     "src": "/images/motorcycles/benda/chinchilla-300-5",
+     "w": 1200,
+     "h": 569,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Benda Chinchilla 300 cruiser in Pearl White, parked by a brick building"
+    }
+   ],
+   "sourceUrl": "https://benda-motors.eu/vehicle/chinchilla-300/",
+   "notes": "Only source is the Baltic Benda site; the maker's international menu now shows the Chinchilla 250 instead. Power given only in kW: 22 kW x 1.341 = 29.5 hp. 'Version: TCS' read as traction control fitted. Gearbox type not published. Image 5 is a wide banner without text; colour judged from the photo."
+  },
+  {
+   "slug": "napoleon-bob-125",
+   "name": "Napoleon Bob 125",
+   "category": "Custom",
+   "key": {
+    "engine": "125 cc V-twin",
+    "cc": 125,
+    "power": "10.3 kW (13.8 hp)",
+    "torque": "10.9 Nm",
+    "weight": "182 kg kerb",
+    "seat": "748 mm",
+    "tank": "9 L",
+    "topSpeed": "120 km/h"
+   },
+   "tagline": "125 cc V-twin bobber with ABS, traction control and TFT display",
+   "summary": [
+    "The Benda Napoleon Bob 125 puts a liquid-cooled 125 cc V-twin into a full-size bobber chassis, with a 1,545 mm wheelbase and 18-inch wheels front and rear. Output is 10.3 kW (about 13.8 hp) and 10.9 Nm, delivered through a wet multi-plate clutch and a DID chain. It is aimed at first-time riders who want a bobber with grown-up proportions.",
+    "Equipment includes ABS front and rear, traction control and a TFT instrument display. Suspension is by a multi-link front fork and twin hydraulic rear shocks on a steel tube frame with a steel swingarm. The 748 mm seat, 182 kg kerb weight, 9-litre tank and 130/80 R18 front and 160/70 R18 rear tyres complete the specification."
+   ],
+   "highlights": [
+    "125 cc liquid-cooled V-twin: 10.3 kW at 9,000 rpm, 10.9 Nm at 6,500 rpm",
+    "ABS front and rear and traction control",
+    "18-inch wheels with 130/80 front and 160/70 rear tyres",
+    "TFT instrument display",
+    "748 mm seat height and 182 kg kerb weight",
+    "Multi-link front fork and twin hydraulic rear shocks"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "V-twin, liquid-cooled"
+      ],
+      [
+       "Displacement",
+       "125 cc"
+      ],
+      [
+       "Bore x stroke",
+       "42 × 45 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.3:1"
+      ],
+      [
+       "Max power",
+       "10.3 kW (13.8 hp) at 9,000 rpm"
+      ],
+      [
+       "Max torque",
+       "10.9 Nm at 6,500 rpm"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Clutch",
+       "Wet multi-plate"
+      ],
+      [
+       "Final drive",
+       "Chain (DID)"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Steel tube frame, steel swingarm"
+      ],
+      [
+       "Suspension",
+       "Multi-link front fork, twin hydraulic rear shock absorbers"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front / rear)",
+       "Disc / disc"
+      ],
+      [
+       "ABS",
+       "Front and rear"
+      ],
+      [
+       "Front tyre",
+       "130/80 R18"
+      ],
+      [
+       "Rear tyre",
+       "160/70 R18"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,315 × 805 × 1,035 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,545 mm"
+      ],
+      [
+       "Seat height",
+       "748 mm"
+      ],
+      [
+       "Ground clearance",
+       "120 mm"
+      ],
+      [
+       "Kerb weight",
+       "182 kg"
+      ],
+      [
+       "Fuel tank",
+       "9 L"
+      ],
+      [
+       "Top speed",
+       "120 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Traction control",
+       "Front and rear (as published)"
+      ],
+      [
+       "Instruments",
+       "TFT"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Jazz Red",
+    "Titanium",
+    "Ivory White",
+    "Retro Green",
+    "Phantom Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/benda/napoleon-bob-125-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda Napoleon Bob 125 bobber in Titanium, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/napoleon-bob-125-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda Napoleon Bob 125 bobber in Ivory White, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/napoleon-bob-125-3",
+     "w": 1200,
+     "h": 569,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Benda Napoleon Bob 125 bobber in black, parked in a dark studio with a light beam"
+    }
+   ],
+   "sourceUrl": "https://benda-motors.eu/vehicle/napoleonbob-125/",
+   "notes": "Only source is the Baltic Benda site ('Napoleonbob 125'); the maker's international home page links a Napoleon Bob 125 page but it returns 404. IMPORTANT: all three photos on the 125 page are files named 'napoleonbob-250' (shared bodywork); they are the images the Baltic site shows for the 125, but the owner may prefer to confirm or reuse them. Power given only in kW: 10.3 x 1.341 = 13.8 hp. Engine row says '6 valves' while the header says '8 valves', and the engine model code (BD2V53MM) is the same as the 249 cc unit; valve count left out. Gearbox not published."
+  },
+  {
+   "slug": "rock-250",
+   "name": "Rock 250",
+   "category": "Cruiser",
+   "key": {
+    "engine": "249 cc V-twin",
+    "cc": 249,
+    "power": "19 kW (25.5 hp)",
+    "torque": "25 Nm",
+    "weight": "177 kg kerb",
+    "seat": "720 mm",
+    "tank": "15.5 L",
+    "topSpeed": "129 km/h"
+   },
+   "tagline": "249 cc V-twin cruiser with ABS, traction control and belt drive",
+   "summary": [
+    "The Benda Rock 250 is a cruiser powered by a 249 cc liquid-cooled V-twin with eight valves, rated at 19 kW (about 25.5 hp) and 25 Nm at 5,500 rpm. Power goes to the rear wheel by belt, through a slipper clutch. With a 720 mm seat, 177 kg kerb weight and 173 mm of ground clearance, it is easy to manage in town.",
+    "ABS front and rear and traction control are fitted. The steel cradle frame carries an inverted front fork, a rear spring shock and an aluminium swingarm, with 16-inch wheels wearing a 130/90 front and 150/80 rear tyre. A 15.5-litre tank, LED instruments and a 129 km/h top speed suit commuting and weekend riding, and five colours are listed."
+   ],
+   "highlights": [
+    "249 cc liquid-cooled V-twin: 19 kW at 9,000 rpm, 25 Nm at 5,500 rpm",
+    "ABS front and rear and traction control",
+    "Belt final drive with slipper clutch",
+    "720 mm seat, 177 kg kerb weight and 173 mm ground clearance",
+    "16-inch wheels with 130/90 front and 150/80 rear tyres",
+    "15.5-litre fuel tank"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "V-twin, 8 valves, liquid-cooled"
+      ],
+      [
+       "Displacement",
+       "249 cc"
+      ],
+      [
+       "Bore x stroke",
+       "53.5 × 55.4 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.8:1"
+      ],
+      [
+       "Max power",
+       "19 kW (25.5 hp) at 9,000 rpm"
+      ],
+      [
+       "Max torque",
+       "25 Nm at 5,500 rpm"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Clutch",
+       "Slipper clutch"
+      ],
+      [
+       "Final drive",
+       "Belt"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Cradle-type steel frame, aluminium swingarm"
+      ],
+      [
+       "Suspension",
+       "Inverted front fork, rear spring shock absorber"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front / rear)",
+       "Disc / disc"
+      ],
+      [
+       "ABS",
+       "Front and rear"
+      ],
+      [
+       "Front tyre",
+       "130/90-16"
+      ],
+      [
+       "Rear tyre",
+       "150/80-16"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,225 × 853 × 1,090 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,520 mm"
+      ],
+      [
+       "Seat height",
+       "720 mm"
+      ],
+      [
+       "Ground clearance",
+       "173 mm"
+      ],
+      [
+       "Kerb weight",
+       "177 kg"
+      ],
+      [
+       "Fuel tank",
+       "15.5 L"
+      ],
+      [
+       "Top speed",
+       "129 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Traction control",
+       "Yes"
+      ],
+      [
+       "Instruments",
+       "LED"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Wine Red",
+    "Knight White",
+    "Metal Silver",
+    "Emerald Green",
+    "Mist Blue"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/benda/rock-250-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda Rock 250 cruiser in Knight White, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/rock-250-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Benda Rock 250 cruiser in Wine Red, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/benda/rock-250-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda Rock 250 cruiser in Wine Red, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/rock-250-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Benda Rock 250 cruiser in Wine Red, front view of headlight and handlebar"
+    },
+    {
+     "src": "/images/motorcycles/benda/rock-250-5",
+     "w": 1200,
+     "h": 569,
+     "kind": "riding",
+     "studio": false,
+     "alt": "Benda Rock 250 cruiser in black, riding past a modern building"
+    }
+   ],
+   "sourceUrl": "https://benda-motors.eu/vehicle/rock-250/",
+   "notes": "Only source is the Baltic Benda site; not on the maker's international menu. Power given only in kW: 19 x 1.341 = 25.5 hp. 'Sliding clutch' read as slipper clutch. Gearbox not published. Image 5 is a wide banner without text."
+  },
+  {
+   "slug": "rock-300",
+   "name": "Rock 300",
+   "category": "Cruiser",
+   "key": {
+    "engine": "298 cc V-twin",
+    "cc": 298,
+    "power": "22 kW (29.5 hp)",
+    "torque": "26.5 Nm",
+    "weight": "203 kg kerb",
+    "seat": "720 mm",
+    "tank": "16 L",
+    "topSpeed": "129 km/h"
+   },
+   "tagline": "298 cc V-twin cruiser with belt drive, ABS and a 16-litre tank",
+   "summary": [
+    "The Benda Rock 300 steps up from the Rock 250 with a 298 cc liquid-cooled V-twin, rated at 22 kW (about 29.5 hp) and 26.5 Nm at 6,500 rpm. It keeps a belt final drive and adds a slightly larger 16-litre tank. At 203 kg with a 720 mm seat, it has a more substantial feel while staying within reach of shorter riders.",
+    "ABS works on both wheels. The steel cradle frame, aluminium swingarm, inverted front fork and rear spring shock carry 16-inch wheels with a 130/90 front and 150/80 rear tyre. Ground clearance is 165 mm, top speed is 129 km/h and the instruments are LED. Three finishes are listed: Pearl White, Starry Black and Steel Symphony."
+   ],
+   "highlights": [
+    "298 cc liquid-cooled V-twin: 22 kW at 8,500 rpm, 26.5 Nm at 6,500 rpm",
+    "ABS front and rear",
+    "Belt final drive",
+    "720 mm seat height and 203 kg kerb weight",
+    "16-litre fuel tank",
+    "16-inch wheels with 130/90 front and 150/80 rear tyres"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "V-twin, 8 valves, liquid-cooled"
+      ],
+      [
+       "Displacement",
+       "298 cc"
+      ],
+      [
+       "Bore x stroke",
+       "58 × 56.4 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.5:1"
+      ],
+      [
+       "Max power",
+       "22 kW (29.5 hp) at 8,500 rpm"
+      ],
+      [
+       "Max torque",
+       "26.5 Nm at 6,500 rpm"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Clutch",
+       "Normal clutch"
+      ],
+      [
+       "Final drive",
+       "Belt"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Cradle-type steel frame, aluminium swingarm"
+      ],
+      [
+       "Suspension",
+       "Inverted front fork, rear spring shock absorber"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front / rear)",
+       "Disc / disc"
+      ],
+      [
+       "ABS",
+       "Front and rear"
+      ],
+      [
+       "Front tyre",
+       "130/90-16"
+      ],
+      [
+       "Rear tyre",
+       "150/80-16"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,225 × 853 × 1,072 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,520 mm"
+      ],
+      [
+       "Seat height",
+       "720 mm"
+      ],
+      [
+       "Ground clearance",
+       "165 mm"
+      ],
+      [
+       "Kerb weight",
+       "203 kg"
+      ],
+      [
+       "Fuel tank",
+       "16 L"
+      ],
+      [
+       "Top speed",
+       "129 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Instruments",
+       "LED"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Pearl White",
+    "Starry Black",
+    "Steel Symphony"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/benda/rock-300-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda Rock 300 cruiser in Pearl White, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/rock-300-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Benda Rock 300 cruiser in Steel Symphony, rear three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/benda/rock-300-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda Rock 300 cruiser in Steel Symphony, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/rock-300-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Benda Rock 300 cruiser in Steel Symphony, front view of headlight and handlebar"
+    },
+    {
+     "src": "/images/motorcycles/benda/rock-300-5",
+     "w": 1200,
+     "h": 569,
+     "kind": "riding",
+     "studio": false,
+     "alt": "Benda Rock 300 cruiser in black, riding along a tree-lined road"
+    }
+   ],
+   "sourceUrl": "https://benda-motors.eu/vehicle/rock-300/",
+   "notes": "Only source is the Baltic Benda site ('Standard Edition'); not on the maker's international menu. Power given only in kW: 22 x 1.341 = 29.5 hp. Traction control not listed for the Rock 300 (it is for the Rock 250). Gearbox not published. 203 kg is notably heavier than the Rock 250 (177 kg) as published. Image 2 colour is a judgement from the photo."
+  },
+  {
+   "slug": "rock-707",
+   "name": "Rock 707",
+   "category": "Cruiser",
+   "key": {
+    "engine": "692 cc V-twin",
+    "cc": 692,
+    "power": "54 kW (72.4 hp)",
+    "torque": "68 Nm",
+    "weight": "235 kg kerb",
+    "seat": "705 mm",
+    "tank": "16 L",
+    "topSpeed": null
+   },
+   "tagline": "692 cc V-twin cruiser with air suspension and optional e-clutch",
+   "summary": [
+    "The Benda Rock 707 uses a 692 cc liquid-cooled V-twin with eight valves, producing 54 kW (about 72.4 hp) and 68 Nm at 6,500 rpm. It can be specified with the BEC MK-II electronic clutch, which allows gear changes without using the clutch lever, alongside a slipper clutch and belt final drive. That makes it an easy step up for riders coming off smaller twins.",
+    "The rear electronic air suspension lets the seat height move between 690 and 720 mm, with 705 mm as standard. Radial calipers grip a 320 mm front disc and a 260 mm rear disc, backed by ABS and traction control. A 3.6-inch TFT display, USB and USB-C charging, a 16-litre tank and wide 16-inch tyres complete the 235 kg cruiser."
+   ],
+   "highlights": [
+    "692 cc liquid-cooled V-twin: 54 kW at 9,000 rpm, 68 Nm at 6,500 rpm",
+    "Optional BEC MK-II electronic clutch for clutchless gear changes",
+    "Rear electronic air suspension, seat height 690–720 mm",
+    "Radial calipers on 320 mm front and 260 mm rear discs, ABS and TCS",
+    "3.6-inch TFT display rated at 800 nit",
+    "Belt final drive and slipper clutch"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "V-twin, 8 valves, liquid-cooled"
+      ],
+      [
+       "Displacement",
+       "692 cc"
+      ],
+      [
+       "Bore x stroke",
+       "80 × 68.8 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.5:1"
+      ],
+      [
+       "Max power",
+       "54 kW (72.4 hp) at 9,000 rpm"
+      ],
+      [
+       "Max torque",
+       "68 Nm at 6,500 rpm"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Clutch",
+       "Wet multi-plate slipper clutch; optional BEC MK-II electronic clutch"
+      ],
+      [
+       "Final drive",
+       "Belt"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Steel tube frame, aluminium swingarm"
+      ],
+      [
+       "Front suspension",
+       "Inverted (USD) fork, 130 mm travel"
+      ],
+      [
+       "Rear suspension",
+       "Electronic air suspension, 50 mm travel"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "320 mm disc, radial 4-piston caliper (4 x 32 mm)"
+      ],
+      [
+       "Rear brake",
+       "260 mm disc, 2-piston caliper (2 x 34 mm)"
+      ],
+      [
+       "ABS",
+       "Front and rear"
+      ],
+      [
+       "Front tyre",
+       "150/80 R16"
+      ],
+      [
+       "Rear tyre",
+       "180/65 R16"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,285 × 850 × 1,100 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,550 mm"
+      ],
+      [
+       "Seat height",
+       "705 mm (690–720 mm with air suspension)"
+      ],
+      [
+       "Kerb weight",
+       "235 kg (ready to ride)"
+      ],
+      [
+       "Fuel tank",
+       "16 L"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Traction control",
+       "Yes"
+      ],
+      [
+       "Instruments",
+       "3.6-inch TFT, 800 nit, 120° viewing angle"
+      ],
+      [
+       "USB charging",
+       "USB-A and USB-C"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Knight Black",
+    "Sandy Grey",
+    "Windy White",
+    "Armor Green"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/benda/rock-707-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda Rock 707 cruiser in Windy White, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/rock-707-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda Rock 707 cruiser in Armor Green, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/rock-707-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Benda Rock 707 cruiser in Sandy Grey, side view"
+    },
+    {
+     "src": "/images/motorcycles/benda/rock-707-4",
+     "w": 1200,
+     "h": 569,
+     "kind": "riding",
+     "studio": false,
+     "alt": "Benda Rock 707 cruiser in Knight Black, riding on an open road at sunrise"
+    },
+    {
+     "src": "/images/motorcycles/benda/rock-707-5",
+     "w": 1200,
+     "h": 569,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Benda Rock 707 cruiser in Knight Black, parked by the sea"
+    }
+   ],
+   "sourceUrl": "https://benda-motors.eu/vehicle/rock-707/",
+   "notes": "Only source is the Baltic Benda site; newest model (images uploaded 2026/09), not yet on the maker's international menu. Power given only in kW: 54 x 1.341 = 72.4 hp. No top speed or ground clearance published. Fuel consumption, CO2 and approval rows left out per brief. No three-quarter studio shot published, so images 1 to 3 are side views in three colours. Studio PNGs are 7680 px wide (5.9 to 7.5 MB each); resize before use. Riding/scene photos are 1701 px wide."
+  }
+ ]
+}

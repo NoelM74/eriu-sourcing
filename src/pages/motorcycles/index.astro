@@ -1,24 +1,25 @@
 ---
 // Motorcycles & scooters hub. Data: src/data/motorcycles.js (owner decisions in its header).
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { motoBrands, motoFeatured, motoTerms, motoTradeOnly, motoModelCount, motoImg, motoContact } from '../../data/motorcycles.js';
+import MotoCard from '../../components/MotoCard.astro';
+import { motoBrands, allModels, motoModelCount, motoCcRange, motoCategories, motoTerms, motoTradeOnly, motoContact } from '../../data/motorcycles.js';
 import '../../styles/moto.css';
 
 const siteUrl = 'https://eriusourcing.com';
 const canonical = '/motorcycles/';
 const title = 'Motorcycles & Scooters Wholesale at Factory Prices | Ériu';
-const description = 'Benda, Kove, Cyclone, Kymco and Lifan motorcycles and scooters at factory prices for dealers and importers. Wholesale only, inspected before shipping.';
-const hero = motoBrands.find((b) => b.slug === 'kove').cover;
-
-const featured = motoFeatured.map((f) => {
-  const brand = motoBrands.find((b) => b.slug === f.brand);
-  const model = brand.models.find((m) => m.name === f.model);
-  return { ...f, brand, model };
-});
+const description = `Benda, Kove, Cyclone, Kymco and Lifan: ${motoModelCount} motorcycles and scooters at factory prices for dealers, with full specs. Wholesale only.`;
+const kove = motoBrands.find((b) => b.slug === 'kove');
+const heroModel = kove.heroModel;
+const hero = heroModel.images[0];
+const featured = motoBrands.map((b) => b.heroModel);
+const INITIAL = 12;
+const catCount = (c) => allModels.filter((m) => m.category === c).length;
+const cats = [...motoCategories].sort((a, b) => catCount(b) - catCount(a));
 
 const faqs = [
   { q: 'Who do you sell motorcycles and scooters to?', a: 'We sell to the trade: motorcycle and scooter dealers, importers and distributors, and rental, delivery and fleet operators. We sell wholesale only, so we do not sell single bikes to private riders.' },
-  { q: 'Which motorcycle brands can you supply?', a: `Benda, Kove, Cyclone, Kymco and Lifan, with ${motoModelCount} models between them: cruisers, adventure and rally bikes, nakeds, customs, commuters and scooters, from the 49 cc Kymco Agility 50 to the 996 cc Cyclone RA1000.` },
+  { q: 'Which motorcycle brands can you supply?', a: `Benda, Kove, Cyclone, Kymco and Lifan, with ${motoModelCount} models between them, from ${motoCcRange[0]} cc to ${motoCcRange[1]} cc: ${cats.slice(0, 6).map((c) => c.toLowerCase()).join(', ')} and more. Every model has its own page with full specifications and photos.` },
   { q: 'Do you sell at factory prices?', a: 'Yes. We quote factory prices for the models and quantities you ask for, either FOB China or delivered to your country. Freight and lead time are confirmed in the quote.' },
   { q: 'Can I see the bikes before I order?', a: 'Yes. You can visit and see the bikes in Zhengzhou by appointment, and we arrange the visit. Whether you visit or not, every order is inspected before it ships.' },
   { q: 'How do I get a price?', a: 'Send us the brands and models you want, rough quantities and the country you are shipping to. We usually reply within 24 hours with factory prices, freight options and the lead time.' },
@@ -42,7 +43,7 @@ const pageSchemas = [
   {
     "@type": "ItemList",
     "name": "Motorcycle and scooter brands supplied by Ériu Sourcing",
-    "itemListElement": motoBrands.map((b, i) => ({ "@type": "ListItem", "position": i + 1, "name": `${b.name} ${b.kind}`, "url": `${siteUrl}/motorcycles/${b.slug}/`, "image": `${siteUrl}${b.cover.src}.webp` }))
+    "itemListElement": motoBrands.map((b, i) => ({ "@type": "ListItem", "position": i + 1, "name": `${b.name} ${b.kind}`, "url": `${siteUrl}${b.url}` }))
   },
   { "@type": "FAQPage", "mainEntity": faqs.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })) }
 ];
@@ -58,33 +59,26 @@ const pageSchemas = [
         <p class="mt-lead">Benda, Kove, Cyclone, Kymco and Lifan, quoted at the factory price and shipped from China to your country. Ériu is your sales agent on the ground: one contact, one quote, and every order inspected before it ships.</p>
         <div class="mt-actions">
           <a href={motoContact('motorcycles')} class="btn btn--white">Get factory prices →</a>
-          <a href="#brands" class="btn btn--white-outline">See the brands</a>
+          <a href="#models" class="btn btn--white-outline">Browse {motoModelCount} models</a>
         </div>
         <ul class="mt-stats">
           <li><strong>5</strong><span>brands</span></li>
           <li><strong>{motoModelCount}</strong><span>models</span></li>
-          <li><strong>49–996 cc</strong><span>scooters to big twins</span></li>
+          <li><strong>{motoCcRange[0]}–{motoCcRange[1]} cc</strong><span>scooters to big twins</span></li>
           <li><strong>Wholesale</strong><span>for the trade only</span></li>
         </ul>
       </div>
-      <figure class="mt-hero-media">
-        <img src={`${hero.src}.webp`} srcset={`${hero.src}-sm.webp 800w, ${hero.src}.webp ${hero.w}w`} sizes="(max-width: 820px) 100vw, 600px" alt={hero.alt} width={hero.w} height={hero.h} loading="eager" fetchpriority="high" />
-        <figcaption>Kove 800X. Photo: Kove.</figcaption>
-      </figure>
+      <a href={heroModel.url} class:list={['mt-stage', { 'mt-stage--scene': !hero.studio }]} aria-label={`${heroModel.brandName} ${heroModel.name}: specs and photos`}>
+        <img class="mt-ride" src={`${hero.src}.webp`} srcset={`${hero.src}-sm.webp 700w, ${hero.src}.webp ${hero.w}w`} sizes="(max-width: 820px) 100vw, 600px" alt={hero.alt} width={hero.w} height={hero.h} loading="eager" fetchpriority="high" />
+      </a>
     </div>
   </section>
 
   <section class="section">
     <div class="container">
       <div class="mt-trade">
-        <div class="mt-trade-yes">
-          <h3>Who this is for</h3>
-          <ul>{motoTradeOnly.yes.map((t) => <li>{t}</li>)}</ul>
-        </div>
-        <div class="mt-trade-no">
-          <h3>Who this is not for</h3>
-          <ul>{motoTradeOnly.no.map((t) => <li>{t}</li>)}</ul>
-        </div>
+        <div class="mt-trade-yes"><h3>Who this is for</h3><ul>{motoTradeOnly.yes.map((t) => <li>{t}</li>)}</ul></div>
+        <div class="mt-trade-no"><h3>Who this is not for</h3><ul>{motoTradeOnly.no.map((t) => <li>{t}</li>)}</ul></div>
       </div>
     </div>
   </section>
@@ -94,68 +88,65 @@ const pageSchemas = [
       <div class="mt-section-head fade-up">
         <span class="section-eyebrow">The brands</span>
         <h2>Five makers, five places in the market.</h2>
-        <p>From Lifan's 200 cc commuters to Kove's rally-bred adventure bikes and Kymco's maxi scooters, you can build a full showroom from one supplier and one shipment.</p>
+        <p>From Lifan's everyday commuters to Kove's rally-bred adventure bikes and Kymco's maxi scooters, you can build a full showroom from one supplier and one shipment.</p>
       </div>
       <div class="mt-brands">
-        {motoBrands.map((b) => (
-          <a href={`/motorcycles/${b.slug}/`} class="mt-brand">
-            <div class="mt-brand-img"><img src={`${b.cover.src}-sm.webp`} alt={b.cover.alt} width="800" height="450" loading="lazy" /></div>
-            <div class="mt-brand-body">
-              <span class="mt-brand-focus">{b.focus}</span>
-              <h3>{b.name}</h3>
-              <p>{b.summary}</p>
-              <span class="mt-brand-link">See the {b.name} range →</span>
-            </div>
-          </a>
-        ))}
+        {motoBrands.map((b) => {
+          const i = b.heroModel.images[0];
+          return (
+            <a href={b.url} class="mt-brand fade-up">
+              <div class:list={['mt-card-img', { 'mt-card-img--scene': i && !i.studio }]}>{i && <img src={`${i.src}-sm.webp`} alt={i.alt} width="700" height={Math.round(700 * i.h / i.w)} loading="lazy" decoding="async" />}</div>
+              <div class="mt-brand-body">
+                <span class="mt-brand-focus">{b.focus}</span>
+                <h3>{b.name}</h3>
+                <p>{b.models.length} models{b.ccRange ? `, ${b.ccRange[0]}–${b.ccRange[1]} cc` : ''}. {b.tagline}</p>
+                <span class="mt-brand-link">See the {b.name} range →</span>
+              </div>
+            </a>
+          );
+        })}
       </div>
     </div>
   </section>
 
   <section class="section">
     <div class="container">
-      <div class="mt-section-head fade-up">
-        <span class="section-eyebrow">Headline models</span>
-        <h2>One bike from each brand.</h2>
-        <p>The model that best shows what each maker does. Every brand page lists the full range with the makers' published figures.</p>
-      </div>
-      <div class="mt-models mt-models--five">
-        {featured.map((f) => (
-          <article class="mt-model">
-            <div class="mt-model-img"><img src={`${motoImg(f.model.img)}-sm.webp`} alt={`${f.brand.name} ${f.model.name} ${f.model.type.toLowerCase()}, side view`} width="640" height={Math.round(640 * f.model.h / f.model.w)} loading="lazy" /></div>
-            <div class="mt-model-body">
-              <span class="mt-model-type">{f.brand.name} · {f.model.type}</span>
-              <h3>{f.model.name}</h3>
-              <p>{f.desc}</p>
-              <ul class="mt-chips">{f.model.specs.map((s) => <li>{s}</li>)}</ul>
-            </div>
-          </article>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <section class="section section--alt">
-    <div class="container">
       <div class="mt-section-head">
-        <span class="section-eyebrow">Spec ledger</span>
-        <h2>The numbers, side by side.</h2>
-        <p>The figures that separate the five headline bikes. Where a maker does not publish a figure, we print a dash rather than a guess.</p>
+        <span class="section-eyebrow">Headline models</span>
+        <h2>One bike from each brand, side by side.</h2>
+        <p>The figures that separate them, as published by each maker. A dash means the maker does not publish that figure.</p>
       </div>
       <div class="mt-ledger-wrap" role="region" aria-label="Specification table, scroll sideways on small screens" tabindex="0">
         <table class="mt-ledger">
-          <thead><tr><th scope="col">Bike</th><th scope="col">Engine</th><th scope="col">Power</th><th scope="col">Weight</th><th scope="col">Seat height</th></tr></thead>
+          <thead><tr><th scope="col">Bike</th><th scope="col">Engine</th><th scope="col">Power</th><th scope="col">Torque</th><th scope="col">Weight</th><th scope="col">Seat height</th></tr></thead>
           <tbody>
-            {featured.map((f) => (
+            {featured.map((m) => (
               <tr>
-                <th scope="row"><a href={`/motorcycles/${f.brand.slug}/`}>{f.model.name}<small>{f.brand.name}</small></a></th>
-                <td>{f.ledger.engine}</td><td>{f.ledger.power}</td><td>{f.ledger.weight ?? '–'}</td><td>{f.ledger.seat ?? '–'}</td>
+                <th scope="row"><a href={m.url}>{m.name}<small>{m.brandName} · {m.category}</small></a></th>
+                <td>{m.key?.engine ?? '–'}</td><td>{m.key?.power ?? '–'}</td><td>{m.key?.torque ?? '–'}</td><td>{m.key?.weight ?? '–'}</td><td>{m.key?.seat ?? '–'}</td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
-      <p class="mt-note">Makers' published figures; weights are wet unless marked dry. A dash means the maker does not publish that figure.</p>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="models">
+    <div class="container">
+      <div class="mt-section-head">
+        <span class="section-eyebrow">Every model</span>
+        <h2>Browse all {motoModelCount} models.</h2>
+        <p>Filter by type. Each model has its own page with the full specification table and photos.</p>
+      </div>
+      <div class="mt-filter" role="group" aria-label="Filter by category">
+        <button type="button" aria-pressed="true" data-filter="all">All<span>{motoModelCount}</span></button>
+        {cats.map((c) => <button type="button" aria-pressed="false" data-filter={c}>{c}<span>{catCount(c)}</span></button>)}
+      </div>
+      <div class="mt-grid" id="mt-all" data-initial={INITIAL}>
+        {allModels.map((m) => <MotoCard m={m} filter />)}
+      </div>
+      <p style="text-align:center;margin-top:1.75rem"><button type="button" class="btn btn--secondary" id="mt-more">Show all {motoModelCount} models</button></p>
     </div>
   </section>
 
@@ -171,9 +162,7 @@ const pageSchemas = [
         <li><strong>See the bikes</strong><span>Visit and see the bikes in Zhengzhou by appointment. We arrange the visit for you.</span></li>
         <li><strong>Inspected and shipped</strong><span>Your order is inspected before it leaves China, then shipped by the route in your quote.</span></li>
       </ol>
-      <dl class="mt-terms">
-        {motoTerms.map(([h, p]) => <div><dt>{h}</dt><dd>{p}</dd></div>)}
-      </dl>
+      <dl class="mt-terms">{motoTerms.map(([h, p]) => <div><dt>{h}</dt><dd>{p}</dd></div>)}</dl>
     </div>
   </section>
 
@@ -186,12 +175,7 @@ const pageSchemas = [
           <p>We are adding used bikes from all five brands: Benda, Kove, Cyclone, Kymco and Lifan. Every bike fully checked and refurbished before it is offered to you. Register your interest and we will contact you first.</p>
           <a href={motoContact('used-motorcycles')} class="btn btn--white">Register interest →</a>
         </div>
-        <ul>
-          <li>All five brands</li>
-          <li>Fully checked</li>
-          <li>Refurbished before sale</li>
-          <li>For dealers and the trade</li>
-        </ul>
+        <ul><li>All five brands</li><li>Fully checked</li><li>Refurbished before sale</li><li>For dealers and the trade</li></ul>
       </div>
     </div>
   </section>
@@ -201,7 +185,7 @@ const pageSchemas = [
       <span class="section-eyebrow">Questions</span>
       <h2>Buying motorcycles wholesale, answered.</h2>
       <div class="mt-faq">{faqs.map((f) => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}</div>
-      <p class="mt-credit">Product photos are the manufacturers' own.</p>
+      <p class="mt-credit">Specifications and product photos are the manufacturers' own.</p>
     </div>
   </section>
 
@@ -209,9 +193,37 @@ const pageSchemas = [
     <div class="container--narrow">
       <h2>Tell us which bikes you want.</h2>
       <p>Send the models and quantities. We reply with factory prices, freight and lead time, usually within 24 hours.</p>
-      <div class="mt-actions">
-        <a href={motoContact('motorcycles')} class="btn btn--white">Get factory prices →</a>
-      </div>
+      <div class="mt-actions"><a href={motoContact('motorcycles')} class="btn btn--white">Get factory prices →</a></div>
     </div>
   </section>
 </BaseLayout>
+
+<script is:inline>
+  // "Every model": show the first few, a button reveals the rest; category chips filter.
+  (function () {
+    var grid = document.getElementById('mt-all');
+    if (!grid) return;
+    var cards = Array.prototype.slice.call(grid.querySelectorAll('[data-cat]'));
+    var more = document.getElementById('mt-more');
+    var initial = +grid.dataset.initial, expanded = false, filter = 'all';
+    function apply() {
+      var shown = 0;
+      cards.forEach(function (c) {
+        var match = filter === 'all' || c.dataset.cat === filter;
+        var show = match && (expanded || filter !== 'all' || shown < initial);
+        c.hidden = !show;
+        if (show) shown++;
+      });
+      more.parentElement.hidden = expanded || filter !== 'all';
+    }
+    more.addEventListener('click', function () { expanded = true; apply(); });
+    document.querySelectorAll('#models .mt-filter button').forEach(function (b, _, all) {
+      b.addEventListener('click', function () {
+        filter = b.dataset.filter;
+        Array.prototype.forEach.call(all, function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+        apply();
+      });
+    });
+    apply();
+  })();
+</script>
