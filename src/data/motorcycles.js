@@ -23,11 +23,11 @@ const research = { benda, kove, cyclone, kymco, lifan };
 
 // Brand-level copy written for the site; the model data comes from research.
 const brandMeta = [
-  { slug: 'benda', name: 'Benda', kind: 'motorcycles', focus: 'Cruisers and bobbers', tagline: 'Cruisers with a difference.', dealerNote: 'A cruiser line with styling your customers will not see at the dealer down the road.', hero: 'lfc-700' },
-  { slug: 'kove', name: 'Kove', kind: 'motorcycles', focus: 'Adventure, rally and sport', tagline: 'Rally bred, built light.', dealerNote: 'Adventure, rally, sport and off-road bikes built light, with a racing story behind them.', hero: '800x-pro' },
-  { slug: 'cyclone', name: 'Cyclone', kind: 'motorcycles and scooters', focus: 'Adventure, naked, custom and scooters', tagline: "Zongshen's own brand.", dealerNote: 'One brand that covers learner 125s, scooters, adventure twins and a big V-twin naked.', hero: 'rx600' },
-  { slug: 'kymco', name: 'Kymco', kind: 'scooters and motorcycles', focus: 'Scooters, maxi scooters and three-wheelers', tagline: 'Scooters since 1963.', dealerNote: 'The scooter brand riders already know, from 50 cc city scooters to a 575 cc maxi.', hero: 'ak-575-premium' },
-  { slug: 'lifan', name: 'Lifan', kind: 'motorcycles', focus: 'Commuter and sport', tagline: 'The commuter, done properly.', dealerNote: 'Dependable everyday motorcycles for riders who buy on price and running costs.', hero: 'kpr-200' },
+  { slug: 'benda', name: 'Benda', kind: 'motorcycles', focus: 'Cruisers and bobbers', tagline: 'Cruisers with a difference.', dealerNote: 'A cruiser line with styling your customers will not see at the dealer down the road.', story: "Benda was set up in Hangzhou in 2016 and builds its own engines, with a range centred on cruisers: from the 125 cc Chinchilla and the Napoleon Bob bobbers to V-twin Rocks, the V4 Darkflag and the inline-four LFC 700.", hero: 'lfc-700' },
+  { slug: 'kove', name: 'Kove', kind: 'motorcycles', focus: 'Adventure, rally and sport', tagline: 'Rally bred, built light.', dealerNote: 'Adventure, rally, sport and off-road bikes built light, with a racing story behind them.', story: "Kove was founded in Chongqing in 2017 and builds mid-to-large capacity motorcycles around its own engines: 250 to 450 cc sport and naked bikes, the 625X and 800X adventure range, rally bikes and motocrossers.", hero: '800x-pro' },
+  { slug: 'cyclone', name: 'Cyclone', kind: 'motorcycles and scooters', focus: 'Adventure, naked, custom and scooters', tagline: "Zongshen's own brand.", dealerNote: 'One brand that covers learner 125s, scooters, adventure twins and a big V-twin naked.', story: "Cyclone is the premium motorcycle brand of the Zongshen Group, a Chinese maker of motorcycles, engines and components founded in 1982. The range runs from 125 cc commuters, customs and adventure bikes to 289 cc maxi scooters, the RX600 and RX6 adventure twins and the 996 cc RA1000.", hero: 'rx600' },
+  { slug: 'kymco', name: 'Kymco', kind: 'scooters and motorcycles', focus: 'Scooters, maxi scooters and three-wheelers', tagline: 'From city scooters to a 575 cc maxi.', dealerNote: 'The scooter brand riders already know, from 50 cc city scooters to a 575 cc maxi, plus a 400 cc naked.', story: "Kymco is the global brand of Kwang Yang Motor Company of Kaohsiung, Taiwan, founded in 1964 with technology from Honda and selling its own designs since 1992. The range runs from the 49 cc Agility 50 to the AK 575 Premium maxi scooter, the three-wheeled CV3 and the Krider 400 motorcycle.", hero: 'ak-575-premium' },
+  { slug: 'lifan', name: 'Lifan', kind: 'motorcycles and scooters', focus: 'Commuters, sport, cruisers and scooters', tagline: 'The commuter, done properly.', dealerNote: 'Dependable everyday motorcycles for riders who buy on price and running costs.', story: "Lifan is a Chongqing motorcycle maker with two brands, LIFAN and PFMOTO, and factories in Vietnam, Thailand and Turkey. The range covers everyday commuters and scooters, 200 and 250 cc sport and naked bikes, cruisers, trail bikes and the Starship 6 tourer.", hero: 'kpr-200' },
 ];
 
 export const motoBrands = brandMeta.map((b) => {
@@ -38,7 +38,7 @@ export const motoBrands = brandMeta.map((b) => {
   const ccs = models.map((m) => m.key?.cc).filter(Boolean);
   return {
     ...b,
-    story: r.brandStory,
+    story: b.story ?? r.brandStory,
     checked: r.checked,
     models,
     heroModel,
