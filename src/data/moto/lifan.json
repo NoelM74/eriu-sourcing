@@ -1,0 +1,3643 @@
+{
+ "brand": "lifan",
+ "brandStory": "Lifan is a Chongqing motorcycle maker whose parent company has been listed on the Shanghai Stock Exchange since 25 November 2010 (stock code 601777). Its motorcycle division runs two brands, LIFAN and PFMOTO, with eight main series and more than 80 models sold in 117 countries and regions. Lifan has also set up motorcycle factories in Vietnam, Thailand and Turkey.",
+ "brandStorySource": "https://www.lifanmotos.net/about",
+ "checked": "2026-11-11",
+ "models": [
+  {
+   "slug": "kpr-200",
+   "name": "KPR200",
+   "category": "Sport",
+   "key": {
+    "engine": "198 cc single, water-cooled",
+    "cc": 198,
+    "power": "20.1 hp (15.0 kW)",
+    "torque": "17.5 Nm",
+    "weight": "159 kg kerb",
+    "seat": "770 mm",
+    "tank": "14 L",
+    "topSpeed": "120 km/h"
+   },
+   "tagline": "Fully faired 200 cc sports bike with fuel injection and six gears",
+   "summary": [
+    "The Lifan KPR200 is a fully faired sports motorcycle built around a 198 cc water-cooled single with electronic fuel injection. It makes 15.0 kW at 9,000 rpm and 17.5 Nm at 7,500 rpm, drives through a six-speed gearbox, and the maker quotes a top speed of 120 km/h. It suits riders stepping up from a 125 who want sports styling without a big engine.",
+    "For the showroom, the figures are friendly: a 770 mm seat, 159 kg kerb weight and a 14 litre tank. Discs at both ends, aluminium alloy wheels and 100/80-17 and 130/70-17 tyres complete the package. The same chassis is offered as the KPR250 with a 250 cc engine rated at 20.5 kW, so one platform can cover two licence and budget levels."
+   ],
+   "highlights": [
+    "198 cc water-cooled single with electronic fuel injection",
+    "15.0 kW (20.1 hp) at 9,000 rpm, 17.5 Nm at 7,500 rpm",
+    "Six-speed gearbox, top speed 120 km/h (maker figure)",
+    "770 mm seat height and 159 kg kerb weight",
+    "Disc brakes front and rear on aluminium alloy wheels",
+    "Also offered as KPR250: 250 cc, 20.5 kW (27.5 hp), 130 km/h"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, four-stroke, water-cooled"
+      ],
+      [
+       "Displacement",
+       "198 cc (KPR250: 250 cc)"
+      ],
+      [
+       "Bore x stroke",
+       "65.5 x 58.8 mm (KPR250: 77.0 x 53.6 mm)"
+      ],
+      [
+       "Compression ratio",
+       "11.5:1 (KPR250: 12.2:1)"
+      ],
+      [
+       "Max power",
+       "15.0 kW (20.1 hp) at 9,000 rpm (KPR250: 20.5 kW at 9,000 rpm)"
+      ],
+      [
+       "Max torque",
+       "17.5 Nm at 7,500 rpm (KPR250: 23.5 Nm at 7,000 rpm)"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Top speed",
+       "120 km/h (KPR250: 130 km/h)"
+      ],
+      [
+       "Fuel economy (maker figure)",
+       "35.75 km/L or better (KPR250: 27.78 km/L or better)"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Manual (hand-operated)"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front/rear)",
+       "Disc / disc"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Tyres (front/rear)",
+       "100/80-17 / 130/70-17"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2060 x 760 x 1114 mm (KPR250: 2060 x 790 x 1115 mm)"
+      ],
+      [
+       "Wheelbase",
+       "1329 mm (KPR250: 1335 mm)"
+      ],
+      [
+       "Ground clearance",
+       "158 mm"
+      ],
+      [
+       "Kerb weight",
+       "159 kg"
+      ],
+      [
+       "Seat height",
+       "770 mm"
+      ],
+      [
+       "Fuel tank",
+       "14 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [],
+   "images": [
+    {
+     "src": "/images/motorcycles/lifan/kpr-200-1",
+     "w": 1002,
+     "h": 668,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan KPR200 sport in white, blue and red, right side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kpr-200-2",
+     "w": 1059,
+     "h": 706,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan KPR200 sport in white, blue and red, left side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kpr-200-3",
+     "w": 1019,
+     "h": 679,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan KPR200 sport in white, blue and red, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kpr-200-4",
+     "w": 1026,
+     "h": 684,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan KPR200 sport in white, blue and red, front three-quarter view from the left"
+    }
+   ],
+   "sourceUrl": "https://www.lifanmotos.net/product/show/2106",
+   "notes": "Model page covers KPR200/KPR250 (LF200-10Q/LF250-10T, listed as NRF200/NRF250 4V engines). Key figures are for the 198 cc KPR200. Power published in kW only; hp = kW x 1.341. Maker lists one kerb weight (159 kg) for both versions. Colour names not published; colours in alt text are descriptive."
+  },
+  {
+   "slug": "kp-200",
+   "name": "KP200",
+   "category": "Naked",
+   "key": {
+    "engine": "198 cc single, water-cooled",
+    "cc": 198,
+    "power": "16.8 hp (12.5 kW)",
+    "torque": "17 Nm",
+    "weight": "138 kg net",
+    "seat": "775 mm",
+    "tank": "15 L",
+    "topSpeed": "110 km/h"
+   },
+   "tagline": "Water-cooled 200 cc naked street bike with a 15 litre tank",
+   "summary": [
+    "The Lifan KP200 is a naked street motorcycle powered by a 198 cc water-cooled four-stroke single. Output is 12.5 kW at 8,000 rpm with 17 Nm of torque at 6,500 rpm, fed to a six-speed gearbox with a conventional hand clutch. It is aimed at everyday riders who want a full-size 200 cc bike for commuting with enough pace for open roads.",
+    "Its 138 kg net weight and 775 mm seat keep it approachable, while the 15 litre tank and a maker fuel figure of 2.3 L/100 km or less point to long gaps between fill-ups. Discs front and rear, aluminium alloy wheels and a rear tyre of 130/70-17 round it out. The maker quotes a top speed of 110 km/h."
+   ],
+   "highlights": [
+    "198 cc water-cooled single, 12.5 kW (16.8 hp) at 8,000 rpm",
+    "17 Nm at 6,500 rpm through a six-speed gearbox",
+    "138 kg net weight and 775 mm seat height",
+    "15 litre tank; maker fuel figure 2.3 L/100 km or less",
+    "Disc brakes and aluminium alloy wheels",
+    "Top speed 110 km/h (maker figure)"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, four-stroke, water-cooled"
+      ],
+      [
+       "Displacement",
+       "198 cc"
+      ],
+      [
+       "Bore x stroke",
+       "65.5 x 58.8 mm"
+      ],
+      [
+       "Compression ratio",
+       "11:1"
+      ],
+      [
+       "Max power",
+       "12.5 kW (16.8 hp) at 8,000 rpm"
+      ],
+      [
+       "Max torque",
+       "17 Nm at 6,500 rpm"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Top speed",
+       "110 km/h"
+      ],
+      [
+       "Fuel consumption (maker figure)",
+       "2.3 L/100 km or less"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Manual (hand-operated)"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes",
+       "Disc"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Tyres (front/rear)",
+       "80/100-17 / 130/70-17 (as published)"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2060 x 745 x 1080 mm"
+      ],
+      [
+       "Wheelbase",
+       "1330 mm"
+      ],
+      [
+       "Net weight",
+       "138 kg"
+      ],
+      [
+       "Seat height",
+       "775 mm"
+      ],
+      [
+       "Fuel tank",
+       "15 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [],
+   "images": [
+    {
+     "src": "/images/motorcycles/lifan/kp-200-1",
+     "w": 920,
+     "h": 613,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan KP200 naked in black and yellow, right side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kp-200-2",
+     "w": 1083,
+     "h": 722,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan KP200 naked in black and yellow, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kp-200-3",
+     "w": 1086,
+     "h": 724,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan KP200 naked in black and yellow, front three-quarter view from the left"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kp-200-4",
+     "w": 939,
+     "h": 626,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan KP200 naked in black and yellow, left side view"
+    }
+   ],
+   "sourceUrl": "https://www.lifanmotos.net/product/show/24",
+   "notes": "Factory code LF200-10B(II). Fuel system not stated on the page. Front tyre published as 80/100-17, which may be a typo for 100/80-17 (used on the sister models); left as published. Brake row says only \"disc\"; photos show front and rear discs. Studio photos show a red Lifan Motor maker plate hung on the front fork. Power published in kW only; hp = kW x 1.341."
+  },
+  {
+   "slug": "kpm-200",
+   "name": "KPM200",
+   "category": "Retro",
+   "key": {
+    "engine": "198 cc single, water-cooled",
+    "cc": 198,
+    "power": "16.8 hp (12.5 kW)",
+    "torque": "17.0 Nm",
+    "weight": "151 kg kerb",
+    "seat": "780 mm",
+    "tank": "13 L",
+    "topSpeed": "110 km/h"
+   },
+   "tagline": "Neo-retro 200 cc roadster with fuel injection and an inverted fork",
+   "summary": [
+    "The Lifan KPM200 is a neo-retro roadster that pairs classic touches, such as a ribbed seat and a strapped tank, with a 198 cc water-cooled single and electronic fuel injection. It produces 12.5 kW at 8,000 rpm and 17.0 Nm at 6,500 rpm through a six-speed gearbox. It suits style-led buyers who want a retro bike that is light and easy to live with.",
+    "The numbers support that: 151 kg kerb weight, a 780 mm seat, 180 mm of ground clearance and a 13 litre tank. Discs at both ends and aluminium alloy wheels with 100/80-17 and 130/70-17 tyres come as standard. A KPM250 version uses a 249.1 cc engine rated at 20.5 kW, weighs 153 kg and reaches a quoted 127 km/h."
+   ],
+   "highlights": [
+    "198 cc water-cooled single with electronic fuel injection",
+    "12.5 kW (16.8 hp) at 8,000 rpm, 17.0 Nm at 6,500 rpm",
+    "151 kg kerb weight, 780 mm seat, 180 mm ground clearance",
+    "Six-speed gearbox, disc brakes front and rear",
+    "Also offered as KPM250: 249.1 cc, 20.5 kW (27.5 hp), 127 km/h"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, four-stroke, water-cooled"
+      ],
+      [
+       "Displacement",
+       "198 cc (KPM250: 249.1 cc)"
+      ],
+      [
+       "Bore x stroke",
+       "65.5 x 58.8 mm (KPM250: 77.0 x 53.5 mm)"
+      ],
+      [
+       "Compression ratio",
+       "11.0:1 (KPM250: 12.2:1)"
+      ],
+      [
+       "Max power",
+       "12.5 kW (16.8 hp) at 8,000 rpm (KPM250: 20.5 kW at 9,000 rpm)"
+      ],
+      [
+       "Max torque",
+       "17.0 Nm at 6,500 rpm (KPM250: 23.5 Nm at 7,000 rpm)"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Top speed",
+       "110 km/h (KPM250: 127 km/h)"
+      ],
+      [
+       "Fuel economy (maker figure)",
+       "45.5 km/L or better (KPM250: 27.78 km/L or better)"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Manual (hand-operated)"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front/rear)",
+       "Disc / disc"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Tyres (front/rear)",
+       "100/80-17 / 130/70-17"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2040 x 755 x 1070 mm"
+      ],
+      [
+       "Wheelbase",
+       "1345 mm"
+      ],
+      [
+       "Ground clearance",
+       "180 mm"
+      ],
+      [
+       "Kerb weight",
+       "151 kg (KPM250: 153 kg)"
+      ],
+      [
+       "Seat height",
+       "780 mm"
+      ],
+      [
+       "Fuel tank",
+       "13 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [],
+   "images": [
+    {
+     "src": "/images/motorcycles/lifan/kpm-200-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan KPM200 retro in black and white with a brown seat, right side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kpm-200-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan KPM200 retro in black and white with a brown seat, left side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kpm-200-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan KPM200 retro in black and white with a brown seat, rear three-quarter view"
+    }
+   ],
+   "sourceUrl": "https://www.lifanmotos.net/product/show/5173",
+   "notes": "Current page covers KPM200/KPM250 (LF200-3B/LF250-3B). An older maker page (https://www.lifanmotos.net/product/show/20, \"KPM200 (LF200-3B)\") carries a brochure image with matching figures (2040x755x1070 mm, 1345 mm wheelbase, 151 kg net, 780 mm seat, 13 L, 198 cc, 12.5 kW/17 Nm, 110 km/h) and lists: inverted front fork with adjustable damping, all-LED lighting, on-tank digital LCD speedometer, bar-end mirrors, front and rear discs. That brochure shows an earlier spoked-wheel version in blue; current photos show cast wheels, so those features are not used in copy except the inverted fork, which is visible in the current photos. The current page publishes only 3 distinct gallery photos. Power published in kW only; hp = kW x 1.341."
+  },
+  {
+   "slug": "kps-250",
+   "name": "KPS250",
+   "category": "Naked",
+   "key": {
+    "engine": "249.9 cc single, air-cooled",
+    "cc": 249.9,
+    "power": "20.1 hp (15.0 kW)",
+    "torque": "20.5 Nm",
+    "weight": "152 kg net",
+    "seat": "777 mm",
+    "tank": "15 L",
+    "topSpeed": "115 km/h"
+   },
+   "tagline": "Air-cooled 250 cc naked bike with discs and a 15 litre tank",
+   "summary": [
+    "The Lifan KPS250 is a naked street bike with a 249.9 cc air-cooled single, a simple layout that keeps servicing straightforward. It delivers 15.0 kW at 7,500 rpm and 20.5 Nm at 6,500 rpm through a six-speed gearbox. It suits markets where riders want quarter-litre torque but prefer to avoid a radiator and coolant system.",
+    "The bike weighs 152 kg net, has a 777 mm seat and carries 15 litres of fuel, with the maker quoting 35.5 km/L or better. Discs front and rear, aluminium alloy wheels and 100/80-17 and 130/70-17 tyres are fitted. Ground clearance is 160 mm and the maker gives a top speed of 115 km/h."
+   ],
+   "highlights": [
+    "249.9 cc air-cooled single, 15.0 kW (20.1 hp) at 7,500 rpm",
+    "20.5 Nm at 6,500 rpm, six-speed gearbox",
+    "152 kg net weight, 777 mm seat height",
+    "15 litre tank; maker economy figure 35.5 km/L or better",
+    "Disc brakes front and rear, aluminium alloy wheels"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, four-stroke, air-cooled"
+      ],
+      [
+       "Displacement",
+       "249.9 cc"
+      ],
+      [
+       "Bore x stroke",
+       "72.0 x 61.4 mm"
+      ],
+      [
+       "Compression ratio",
+       "8.7:1"
+      ],
+      [
+       "Max power",
+       "15.0 kW (20.1 hp) at 7,500 rpm"
+      ],
+      [
+       "Max torque",
+       "20.5 Nm at 6,500 rpm"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Top speed",
+       "115 km/h"
+      ],
+      [
+       "Fuel economy (maker figure)",
+       "35.5 km/L or better"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Manual (hand-operated)"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front/rear)",
+       "Disc / disc"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Tyres (front/rear)",
+       "100/80-17 / 130/70-17"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2080 x 745 x 1060 mm"
+      ],
+      [
+       "Wheelbase",
+       "1340 mm"
+      ],
+      [
+       "Ground clearance",
+       "160 mm"
+      ],
+      [
+       "Net weight",
+       "152 kg"
+      ],
+      [
+       "Seat height",
+       "777 mm"
+      ],
+      [
+       "Fuel tank",
+       "15 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [],
+   "images": [
+    {
+     "src": "/images/motorcycles/lifan/kps-250-1",
+     "w": 1001,
+     "h": 667,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan KPS250 naked in blue and black, right side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kps-250-2",
+     "w": 1065,
+     "h": 710,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan KPS250 naked in blue and black, rear three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kps-250-3",
+     "w": 1061,
+     "h": 707,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan KPS250 naked in blue and black, front three-quarter view"
+    }
+   ],
+   "sourceUrl": "https://www.lifanmotos.net/product/show/2107",
+   "notes": "Factory code LF250-10W (NBS250 engine). Fuel system not stated. Only 3 distinct photos on the page (one is repeated); tyres in photos look dusty. Power published in kW only; hp = kW x 1.341."
+  },
+  {
+   "slug": "kps-200",
+   "name": "KPS200",
+   "category": "Naked",
+   "key": {
+    "engine": "198 cc single, water-cooled",
+    "cc": 198,
+    "power": "16.8 hp (12.5 kW)",
+    "torque": "17 Nm",
+    "weight": "150 kg net",
+    "seat": "775 mm",
+    "tank": "14 L",
+    "topSpeed": "110 km/h"
+   },
+   "tagline": "Water-cooled 200 cc naked bike with a gold fork and twin discs",
+   "summary": [
+    "The Lifan KPS200 is a naked street bike that uses the 198 cc water-cooled single shared with other Lifan 200 models. It gives 12.5 kW at 8,000 rpm and 17 Nm at 6,500 rpm, with a six-speed gearbox and hand clutch. It is a sensible pick for dealers who want a sharp-looking 200 for commuters and younger riders.",
+    "It weighs 150 kg net, has a 775 mm seat and a 14 litre tank, with a maker fuel figure of 2.2 L/100 km or less. Discs at both ends, aluminium alloy wheels and 100/80-17 and 130/70-17 tyres are standard. The maker quotes a top speed of 110 km/h and a 1340 mm wheelbase."
+   ],
+   "highlights": [
+    "198 cc water-cooled single, 12.5 kW (16.8 hp) at 8,000 rpm",
+    "Six-speed gearbox with hand clutch",
+    "150 kg net weight and 775 mm seat height",
+    "14 litre tank; maker fuel figure 2.2 L/100 km or less",
+    "Disc brakes front and rear on aluminium alloy wheels"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, four-stroke, water-cooled"
+      ],
+      [
+       "Displacement",
+       "198 cc"
+      ],
+      [
+       "Bore x stroke",
+       "65.5 x 58.8 mm"
+      ],
+      [
+       "Compression ratio",
+       "11:1"
+      ],
+      [
+       "Max power",
+       "12.5 kW (16.8 hp) at 8,000 rpm"
+      ],
+      [
+       "Max torque",
+       "17 Nm at 6,500 rpm"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Top speed",
+       "110 km/h"
+      ],
+      [
+       "Fuel consumption (maker figure)",
+       "2.2 L/100 km or less"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Manual (hand-operated)"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front/rear)",
+       "Disc / disc"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Tyres (front/rear)",
+       "100/80-17 / 130/70-17"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2080 x 745 x 1080 mm"
+      ],
+      [
+       "Wheelbase",
+       "1340 mm"
+      ],
+      [
+       "Net weight",
+       "150 kg"
+      ],
+      [
+       "Seat height",
+       "775 mm"
+      ],
+      [
+       "Fuel tank",
+       "14 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [],
+   "images": [
+    {
+     "src": "/images/motorcycles/lifan/kps-200-1",
+     "w": 918,
+     "h": 612,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan KPS200 naked in red and white, right side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kps-200-2",
+     "w": 1080,
+     "h": 720,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan KPS200 naked in red and white, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kps-200-3",
+     "w": 1077,
+     "h": 718,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan KPS200 naked in red and white, front three-quarter view from the left"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kps-200-4",
+     "w": 975,
+     "h": 650,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan KPS200 naked in red and white, left side view"
+    }
+   ],
+   "sourceUrl": "https://www.lifanmotos.net/product/show/22",
+   "notes": "Factory code LF200-10R. Fuel system not stated. \"Gold fork\" in the tagline is visible in the studio photos. Power published in kW only; hp = kW x 1.341."
+  },
+  {
+   "slug": "ss3-4v",
+   "name": "SS3-4V",
+   "category": "Naked",
+   "key": {
+    "engine": "198 cc single, four-valve, water-cooled",
+    "cc": 198,
+    "power": "20.1 hp (15 kW)",
+    "torque": "17.5 Nm",
+    "weight": "150 kg net",
+    "seat": "775 mm",
+    "tank": "12.5 L",
+    "topSpeed": "120 km/h"
+   },
+   "tagline": "Four-valve 200 cc naked bike with 15 kW and a 120 km/h top speed",
+   "summary": [
+    "The Lifan SS3-4V is a compact naked street bike with a four-valve version of the 198 cc water-cooled single. The extra valves lift output to 15 kW at 9,000 rpm, with 17.5 Nm at 7,500 rpm, and the maker quotes a top speed of 120 km/h. It suits riders who want the livelier end of the 200 cc class in a short, nimble package.",
+    "At 2000 mm long with a 1350 mm wheelbase, it weighs 150 kg net and has a 775 mm seat and 12.5 litre tank. A six-speed gearbox, discs front and rear, aluminium alloy wheels and 100/80-17 and 130/70-17 tyres are fitted, and the maker fuel figure is 2.3 L/100 km or less."
+   ],
+   "highlights": [
+    "198 cc four-valve water-cooled single",
+    "15 kW (20.1 hp) at 9,000 rpm, 17.5 Nm at 7,500 rpm",
+    "Six-speed gearbox; top speed 120 km/h (maker figure)",
+    "150 kg net weight and 775 mm seat",
+    "Disc brakes front and rear, aluminium alloy wheels"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, four-stroke, four-valve, water-cooled"
+      ],
+      [
+       "Displacement",
+       "198 cc"
+      ],
+      [
+       "Bore x stroke",
+       "65.5 x 58.8 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.5:1"
+      ],
+      [
+       "Max power",
+       "15 kW (20.1 hp) at 9,000 rpm"
+      ],
+      [
+       "Max torque",
+       "17.5 Nm at 7,500 rpm"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Top speed",
+       "120 km/h"
+      ],
+      [
+       "Fuel consumption (maker figure)",
+       "2.3 L/100 km or less"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Manual (hand-operated)"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front/rear)",
+       "Disc / disc"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Tyres (front/rear)",
+       "100/80-17 / 130/70-17"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2000 x 730 x 1050 mm"
+      ],
+      [
+       "Wheelbase",
+       "1350 mm"
+      ],
+      [
+       "Net weight",
+       "150 kg"
+      ],
+      [
+       "Seat height",
+       "775 mm"
+      ],
+      [
+       "Fuel tank",
+       "12.5 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [],
+   "images": [
+    {
+     "src": "/images/motorcycles/lifan/ss3-4v-1",
+     "w": 918,
+     "h": 612,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan SS3-4V naked in red and black, right side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/ss3-4v-2",
+     "w": 1041,
+     "h": 694,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan SS3-4V naked in red and black, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/ss3-4v-3",
+     "w": 1064,
+     "h": 709,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan SS3-4V naked in red and black, front three-quarter view from the left"
+    },
+    {
+     "src": "/images/motorcycles/lifan/ss3-4v-4",
+     "w": 959,
+     "h": 639,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan SS3-4V naked in red and black, left side view"
+    }
+   ],
+   "sourceUrl": "https://www.lifanmotos.net/product/show/1094",
+   "notes": "Factory code LF200-10M (four-valve). Maker writes the name as SS3-4V. Fuel system not stated. Power published in kW only; hp = kW x 1.341."
+  },
+  {
+   "slug": "kpt-250",
+   "name": "KPT250",
+   "category": "Adventure",
+   "key": {
+    "engine": "249 cc single, water-cooled",
+    "cc": 249,
+    "power": "27.5 hp (20.5 kW)",
+    "torque": "23.5 Nm",
+    "weight": "160 kg kerb",
+    "seat": "790 mm",
+    "tank": "13 L",
+    "topSpeed": "130 km/h"
+   },
+   "tagline": "Light adventure bike with a 250 cc injected engine and 790 mm seat",
+   "summary": [
+    "The Lifan KPT250 is a light adventure-styled motorcycle with a 249 cc water-cooled single and electronic fuel injection. It produces 20.5 kW at 9,000 rpm and 23.5 Nm at 7,000 rpm, uses a six-speed gearbox, and the maker quotes 130 km/h. It suits riders who want upright touring ergonomics and a screen for mixed road use.",
+    "Seat height is 790 mm, ground clearance 180 mm and kerb weight 160 kg, with a 13 litre tank. It runs on 17-inch aluminium alloy wheels with 100/80-17 and 130/70-17 road tyres and discs at both ends. The same bike is listed as the KPT125, with a 124.3 cc engine rated at 10.5 kW, for learner markets."
+   ],
+   "highlights": [
+    "249 cc water-cooled single with electronic fuel injection",
+    "20.5 kW (27.5 hp) at 9,000 rpm, 23.5 Nm at 7,000 rpm",
+    "790 mm seat, 180 mm ground clearance, 160 kg kerb weight",
+    "Six-speed gearbox, disc brakes, 17-inch alloy wheels",
+    "Also listed as KPT125: 124.3 cc, 10.5 kW (14.1 hp), 105 km/h"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, four-stroke, water-cooled"
+      ],
+      [
+       "Displacement",
+       "249 cc (KPT125: 124.3 cc)"
+      ],
+      [
+       "Bore x stroke",
+       "77.0 x 53.5 mm (KPT125: 57.3 x 48.2 mm)"
+      ],
+      [
+       "Compression ratio",
+       "12.2:1 (KPT125: 12.4:1)"
+      ],
+      [
+       "Max power",
+       "20.5 kW (27.5 hp) at 9,000 rpm (KPT125: 10.5 kW at 9,500 rpm)"
+      ],
+      [
+       "Max torque",
+       "23.5 Nm at 7,000 rpm (KPT125: 11.4 Nm at 8,000 rpm)"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Top speed",
+       "130 km/h (KPT125: 105 km/h)"
+      ],
+      [
+       "Fuel economy (maker figure)",
+       "27.78 km/L (KPT125: 35 km/L or better)"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Manual (hand-operated)"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front/rear)",
+       "Disc / disc"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Tyres (front/rear)",
+       "100/80-17 / 130/70-17"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2000 x 785 x 1255 mm"
+      ],
+      [
+       "Wheelbase",
+       "1340 mm"
+      ],
+      [
+       "Ground clearance",
+       "180 mm"
+      ],
+      [
+       "Kerb weight",
+       "160 kg"
+      ],
+      [
+       "Seat height",
+       "790 mm"
+      ],
+      [
+       "Fuel tank",
+       "13 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [],
+   "images": [
+    {
+     "src": "/images/motorcycles/lifan/kpt-250-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan KPT250 adventure in black, grey and red, right side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kpt-250-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan KPT250 adventure in black, grey and red, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kpt-250-3",
+     "w": 1152,
+     "h": 768,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan KPT250 adventure in black, grey and red, front three-quarter view from the left"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kpt-250-4",
+     "w": 1173,
+     "h": 782,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan KPT250 adventure in black, grey and red, left side view"
+    }
+   ],
+   "sourceUrl": "https://www.lifanmotos.net/product/show/5139",
+   "notes": "Page title \"KPT125/250 (LF125-10D/LF250-10D)\". Listed under Street bike; categorised Adventure for its screen and upright layout. Maker publishes one kerb weight for both versions. Power published in kW only; hp = kW x 1.341."
+  },
+  {
+   "slug": "x-mach-plus",
+   "name": "X-MACH PLUS",
+   "category": "Commuter",
+   "key": {
+    "engine": "124.8 cc / 149.3 cc single, air-cooled",
+    "cc": 149.3,
+    "power": "10.7 hp (8.0 kW), 150 version",
+    "torque": "12 Nm",
+    "weight": "123 kg kerb",
+    "seat": "830 mm",
+    "tank": "16 L",
+    "topSpeed": "98 km/h"
+   },
+   "tagline": "Carburetted 125 or 150 commuter with a 16 litre tank and kick start",
+   "summary": [
+    "The Lifan X-MACH PLUS is a practical commuter motorcycle offered with a 124.8 cc or 149.3 cc air-cooled single fed by a carburettor. The 150 makes 8.0 kW and 12 Nm, the 125 makes 7.0 kW and 10.0 Nm, both through a five-speed foot-shift gearbox. It suits work and delivery riders in markets that value simple, easily repaired machines.",
+    "A 16 litre tank and a maker economy figure of up to 76.92 km/L at 40 km/h give it a long range. Both electric and kick start are fitted, braking is by drums front and rear, and the alloy wheels carry 2.75-17 and 100/90-17 tyres. Kerb weight is 123 kg, seat height 830 mm and ground clearance 170 mm."
+   ],
+   "highlights": [
+    "124.8 cc or 149.3 cc air-cooled single with carburettor",
+    "16 litre tank; maker figure up to 76.92 km/L at 40 km/h (125)",
+    "Electric and kick start",
+    "Five-speed foot-shift gearbox",
+    "123 kg kerb weight, 170 mm ground clearance"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, four-stroke, air-cooled"
+      ],
+      [
+       "Displacement",
+       "124.8 cc / 149.3 cc"
+      ],
+      [
+       "Bore x stroke",
+       "52.4 x 57.9 mm / 57.3 x 57.9 mm"
+      ],
+      [
+       "Compression ratio",
+       "10.5:1 / 9.5:1"
+      ],
+      [
+       "Max power",
+       "7.0 kW (9.4 hp) at 7,500 rpm / 8.0 kW (10.7 hp) at 7,500 rpm"
+      ],
+      [
+       "Max torque",
+       "10.0 Nm at 5,500 rpm / 12 Nm at 5,500 rpm"
+      ],
+      [
+       "Fuel system",
+       "Carburettor"
+      ],
+      [
+       "Starter",
+       "Electric and kick"
+      ],
+      [
+       "Top speed",
+       "95 km/h / 98 km/h"
+      ],
+      [
+       "Fuel economy (maker figure, at 40 km/h)",
+       "76.92 km/L or better / 65 km/L"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "5-speed, foot shift"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front/rear)",
+       "Drum / drum"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Tyres (front/rear)",
+       "2.75-17 / 100/90-17"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2100 x 790 x 1060 mm"
+      ],
+      [
+       "Wheelbase",
+       "1310 mm"
+      ],
+      [
+       "Ground clearance",
+       "170 mm"
+      ],
+      [
+       "Kerb weight",
+       "123 kg"
+      ],
+      [
+       "Seat height",
+       "830 mm"
+      ],
+      [
+       "Fuel tank",
+       "16 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [],
+   "images": [
+    {
+     "src": "/images/motorcycles/lifan/x-mach-plus-1",
+     "w": 1115,
+     "h": 743,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan X-MACH PLUS commuter in red and black, right side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/x-mach-plus-2",
+     "w": 1136,
+     "h": 757,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan X-MACH PLUS commuter in red and black, left side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/x-mach-plus-3",
+     "w": 1127,
+     "h": 751,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan X-MACH PLUS commuter in red and black, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/x-mach-plus-4",
+     "w": 1175,
+     "h": 783,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan X-MACH PLUS commuter in red and black, front three-quarter view from the left"
+    }
+   ],
+   "sourceUrl": "https://www.lifanmotos.net/product/show/5165",
+   "notes": "Page title \"X-MACH PLUS(LF125-5N/LF150-5N)\", engines CBS125/CBS150; listed under Street bike. Values shown as 125 / 150. Key power/torque are for the 150. Image files sit in an \"ATV\" folder on the maker site, but show this motorcycle. Max size published is 1000x667. Power published in kW only; hp = kW x 1.341."
+  },
+  {
+   "slug": "kpmini-150",
+   "name": "KPMINI 150",
+   "category": "Naked",
+   "key": {
+    "engine": "149 cc single, air-cooled",
+    "cc": 149,
+    "power": "12.7 hp (9.5 kW)",
+    "torque": "12.0 Nm",
+    "weight": "112 kg net",
+    "seat": "740 mm",
+    "tank": "7 L",
+    "topSpeed": "98 km/h"
+   },
+   "tagline": "Compact 12-inch-wheel mini bike with a fuel-injected 149 cc engine",
+   "summary": [
+    "The Lifan KPMINI 150 is a compact mini motorcycle on 12-inch wheels, powered by a 149 cc air-cooled single with electronic fuel injection. It produces 9.5 kW at 8,500 rpm and 12.0 Nm at 6,000 rpm through a five-speed manual gearbox. It suits city riders, shorter riders and buyers who want a fun, small-format bike that is easy to park.",
+    "The 740 mm seat, 112 kg net weight and 1150 mm wheelbase make it easy to handle. Fat 120/70-12 and 130/70-12 tyres sit on aluminium alloy wheels with discs front and rear. The tank holds 7 litres, the maker economy figure is 45.5 km/L or better and the quoted top speed is 98 km/h."
+   ],
+   "highlights": [
+    "149 cc air-cooled single with electronic fuel injection",
+    "9.5 kW (12.7 hp) at 8,500 rpm, 12.0 Nm at 6,000 rpm",
+    "740 mm seat height and 112 kg net weight",
+    "12-inch alloy wheels with 120/70 and 130/70 tyres",
+    "Disc brakes front and rear, five-speed manual gearbox"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, four-stroke, air-cooled"
+      ],
+      [
+       "Displacement",
+       "149 cc"
+      ],
+      [
+       "Bore x stroke",
+       "57.3 x 57.8 mm"
+      ],
+      [
+       "Compression ratio",
+       "9.1:1"
+      ],
+      [
+       "Max power",
+       "9.5 kW (12.7 hp) at 8,500 rpm"
+      ],
+      [
+       "Max torque",
+       "12.0 Nm at 6,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Top speed",
+       "98 km/h"
+      ],
+      [
+       "Fuel economy (maker figure)",
+       "45.5 km/L or better"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "5-speed"
+      ],
+      [
+       "Clutch",
+       "Manual (hand-operated)"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front/rear)",
+       "Disc / disc"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Tyres (front/rear)",
+       "120/70-12 / 130/70-12"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "1790 x 785 x 1000 mm"
+      ],
+      [
+       "Wheelbase",
+       "1150 mm"
+      ],
+      [
+       "Ground clearance",
+       "150 mm"
+      ],
+      [
+       "Net weight",
+       "112 kg"
+      ],
+      [
+       "Seat height",
+       "740 mm"
+      ],
+      [
+       "Fuel tank",
+       "7 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [],
+   "images": [
+    {
+     "src": "/images/motorcycles/lifan/kpmini-150-1",
+     "w": 1050,
+     "h": 700,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan KPMINI 150 naked in blue and black, right side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kpmini-150-2",
+     "w": 1040,
+     "h": 693,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan KPMINI 150 naked in blue and black, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kpmini-150-3",
+     "w": 1085,
+     "h": 723,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan KPMINI 150 naked in blue and black, front three-quarter view from the left"
+    }
+   ],
+   "sourceUrl": "https://www.lifanmotos.net/product/show/2113",
+   "notes": "Mini Series category on the maker site; mapped to Naked (no mini category in schema). Used the newer EFI page LF150-5W (NBF150 EFI). Other pages for KPMINI 150 LF150-5U (ids 13, 2114) skipped as variants. Only 3 distinct photos. Power published in kW only; hp = kW x 1.341."
+  },
+  {
+   "slug": "starship-6",
+   "name": "Starship 6",
+   "category": "Touring",
+   "key": {
+    "engine": "573 cc V-twin, water-cooled",
+    "cc": 573,
+    "power": "52.3 hp (39.0 kW)",
+    "torque": "54.0 Nm",
+    "weight": "325 kg kerb",
+    "seat": "745 mm",
+    "tank": "20 L",
+    "topSpeed": "160 km/h"
+   },
+   "tagline": "Full-dress 573 cc V-twin tourer with radar assistance and a TFT screen",
+   "summary": [
+    "The Lifan Starship 6 is a full-dress touring motorcycle with a 573 cc water-cooled V-twin, fuel injection and a six-speed gearbox. It makes 39.0 kW at 8,500 rpm and 54.0 Nm at 6,000 rpm, with a quoted top speed of 160 km/h. The maker presents it as its flagship cruiser, aimed at two-up riders covering long distances in comfort. It is badged PFMOTO, the second brand of Lifan's motorcycle division.",
+    "Equipment is the selling point: a 77 GHz radar for blind spot detection, rear collision warning and lane change assist, a dual LED plus TFT dash, a six-channel speaker system, USB and Type-C charging and an electric centre stand. It weighs 325 kg kerb, has a low 745 mm seat, a 20 litre tank, hard cases and a top box."
+   ],
+   "highlights": [
+    "573 cc water-cooled V-twin, 39.0 kW (52.3 hp), 54.0 Nm",
+    "77 GHz radar: blind spot detection, rear collision warning, lane change assist",
+    "Dual LED and 16:9 TFT screens, six-channel speaker system",
+    "745 mm seat height, 20 litre tank, 325 kg kerb weight",
+    "Electric centre stand; three USB plus Type-C charging ports",
+    "Panniers and top box; colours Starry Gray and Matte Black"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "V-twin, four-stroke, water-cooled"
+      ],
+      [
+       "Displacement",
+       "573 cc"
+      ],
+      [
+       "Bore x stroke",
+       "80 x 57 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.5:1"
+      ],
+      [
+       "Max power",
+       "39.0 kW (52.3 hp) at 8,500 rpm"
+      ],
+      [
+       "Max torque",
+       "54.0 Nm at 6,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Top speed",
+       "160 km/h"
+      ],
+      [
+       "Fuel economy (maker figure)",
+       "18.87 km/L or better"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Manual (hand-operated)"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front/rear)",
+       "Disc / disc"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Tyres (front/rear)",
+       "120/70-18 / 160/60-16"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2460 x 930 x 1370 mm"
+      ],
+      [
+       "Wheelbase",
+       "1616 mm"
+      ],
+      [
+       "Ground clearance",
+       "155 mm"
+      ],
+      [
+       "Kerb weight",
+       "325 kg"
+      ],
+      [
+       "Seat height",
+       "745 mm"
+      ],
+      [
+       "Fuel tank",
+       "20 L"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Instruments",
+       "Dual LED screen plus 16:9 TFT screen"
+      ],
+      [
+       "Rider aids",
+       "77 GHz millimetre-wave radar: blind spot detection, rear collision warning, lane change assist"
+      ],
+      [
+       "Other",
+       "6-axis IMU; real-time camera image transmission; tyre pressure and temperature display"
+      ],
+      [
+       "Audio",
+       "Six-channel hi-fi speaker system, including passenger speaker"
+      ],
+      [
+       "Charging",
+       "Three USB ports plus Type-C"
+      ],
+      [
+       "Stand",
+       "Electric centre stand"
+      ],
+      [
+       "Lighting",
+       "Supplementary cornering lights"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Starry Gray",
+    "Matte Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/lifan/starship-6-1",
+     "w": 810,
+     "h": 540,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan Starship 6 touring in Starry Gray, right side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/starship-6-2",
+     "w": 957,
+     "h": 638,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan Starship 6 touring in Starry Gray, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/starship-6-3",
+     "w": 856,
+     "h": 571,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan Starship 6 touring in Starry Gray, front three-quarter view from the left"
+    },
+    {
+     "src": "/images/motorcycles/lifan/starship-6-4",
+     "w": 893,
+     "h": 595,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan Starship 6 touring in Starry Gray, rear three-quarter view"
+    }
+   ],
+   "sourceUrl": "https://www.lifanmotos.net/product/show/4147",
+   "notes": "Model page https://www.lifanmotos.net/product/show/4147 = \"STARSHIP6 (LF600-C)\", engine code 2V80MS, listed under Cruiser; categorised Touring (full fairing, panniers, top box). No HTML spec table: all specs read from the maker's English brochure images on that page (星舰6英文版长版1-4.jpg). The maker writes \"STARSHIP6\" on the page and \"Starship 6\"/\"Paifang Starship 6\" on its About page; the bike wears PFMOTO (\"π moto\") badging, which is Lifan's second brand per the About page. Feature list (radar, IMU, speakers, USB, centre stand) taken from the brochure images; \"6-axis IMU\" also from brochure. Power published in kW only; hp = kW x 1.341. Gallery photos are 800x600."
+  },
+  {
+   "slug": "starship4",
+   "name": "Starship4",
+   "category": "Cruiser",
+   "key": {
+    "engine": "397.5 cc V-twin, water-cooled",
+    "cc": 397.5,
+    "power": "38.9 hp (29.0 kW)",
+    "torque": "37.0 Nm",
+    "weight": "210 kg net",
+    "seat": "690 mm",
+    "tank": "16 L",
+    "topSpeed": "139 km/h"
+   },
+   "tagline": "Bagger-style 400 cc V-twin cruiser with hard cases and a 690 mm seat",
+   "summary": [
+    "The Lifan Starship4 is a bagger-style cruiser with a fairing and hard side cases, powered by a 397.5 cc water-cooled V-twin with electronic fuel injection. It delivers 29.0 kW at 8,500 rpm and 37.0 Nm at 6,000 rpm through a six-speed gearbox, with a quoted 139 km/h top speed. It suits riders who want touring looks without the weight of a large tourer.",
+    "The 690 mm seat is one of the lowest in the range, helping shorter riders, while the 1560 mm wheelbase gives stability. It weighs 210 kg net and holds 16 litres of fuel. Discs at both ends and alloy wheels with a 120/80-18 front and 150/70-15 rear tyre are fitted."
+   ],
+   "highlights": [
+    "397.5 cc water-cooled V-twin with fuel injection",
+    "29.0 kW (38.9 hp) at 8,500 rpm, 37.0 Nm at 6,000 rpm",
+    "690 mm seat height, 1560 mm wheelbase",
+    "Front fairing and hard side cases",
+    "Six-speed gearbox, disc brakes front and rear"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "V-twin, four-stroke, water-cooled"
+      ],
+      [
+       "Displacement",
+       "397.5 cc"
+      ],
+      [
+       "Bore x stroke",
+       "61 x 68 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.2:1"
+      ],
+      [
+       "Max power",
+       "29.0 kW (38.9 hp) at 8,500 rpm"
+      ],
+      [
+       "Max torque",
+       "37.0 Nm at 6,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Top speed",
+       "139 km/h"
+      ],
+      [
+       "Fuel economy (maker figure)",
+       "23.50 km/L or better"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Manual (hand-operated)"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front/rear)",
+       "Disc / disc"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Tyres (front/rear)",
+       "120/80-18 / 150/70-15"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2340 x 980 x 1090 mm"
+      ],
+      [
+       "Wheelbase",
+       "1560 mm"
+      ],
+      [
+       "Ground clearance",
+       "145 mm"
+      ],
+      [
+       "Net weight",
+       "210 kg"
+      ],
+      [
+       "Seat height",
+       "690 mm"
+      ],
+      [
+       "Fuel tank",
+       "16 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [],
+   "images": [
+    {
+     "src": "/images/motorcycles/lifan/starship4-1",
+     "w": 834,
+     "h": 556,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan Starship4 cruiser in white and black, right side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/starship4-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan Starship4 cruiser in white and black, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/starship4-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan Starship4 cruiser in white and black, front three-quarter view from the left"
+    }
+   ],
+   "sourceUrl": "https://www.lifanmotos.net/product/show/2125",
+   "notes": "Page title \"STARSHIP4 (LF400-3)\", engine 2V61MQ/V400. Name title-cased from maker's \"STARSHIP4\". Photos 2 and 3 are 3307x2480. Bike wears PFMOTO badging. Fairing and side cases are from photos, not the spec table. Power published in kW only; hp = kW x 1.341."
+  },
+  {
+   "slug": "v400",
+   "name": "V400",
+   "category": "Cruiser",
+   "key": {
+    "engine": "397.5 cc V-twin, water-cooled",
+    "cc": 397.5,
+    "power": "38.9 hp (29.0 kW)",
+    "torque": "37.0 Nm",
+    "weight": "210 kg kerb",
+    "seat": "690 mm",
+    "tank": "16 L",
+    "topSpeed": "139 km/h"
+   },
+   "tagline": "Low-seat 400 cc V-twin cruiser with a 180-section rear tyre",
+   "summary": [
+    "The Lifan V400 is a low-slung cruiser built around a 397.5 cc water-cooled V-twin with electronic fuel injection. It produces 29.0 kW at 8,500 rpm and 37.0 Nm at 6,000 rpm, uses a six-speed gearbox and reaches a quoted 139 km/h. The maker names it as one of its flagship models, and it suits riders wanting a mid-size V-twin cruiser.",
+    "The 690 mm seat and 1560 mm wheelbase give the long, low stance buyers expect, with a wide 180/70-15 rear tyre and 120/80-18 front on alloy wheels. It has discs at both ends, weighs 210 kg kerb and carries 16 litres of fuel. This version is the triple-light model, named for its headlamp layout."
+   ],
+   "highlights": [
+    "397.5 cc water-cooled V-twin with fuel injection",
+    "29.0 kW (38.9 hp) at 8,500 rpm, 37.0 Nm at 6,000 rpm",
+    "690 mm seat height, 210 kg kerb weight",
+    "180/70-15 rear tyre on alloy wheels",
+    "Six-speed gearbox, top speed 139 km/h (maker figure)"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "V-twin, four-stroke, water-cooled"
+      ],
+      [
+       "Displacement",
+       "397.5 cc"
+      ],
+      [
+       "Bore x stroke",
+       "61 x 68 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.2:1"
+      ],
+      [
+       "Max power",
+       "29.0 kW (38.9 hp) at 8,500 rpm"
+      ],
+      [
+       "Max torque",
+       "37.0 Nm at 6,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Top speed",
+       "139 km/h"
+      ],
+      [
+       "Fuel economy (maker figure)",
+       "23.50 km/L or better"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Manual (hand-operated)"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front/rear)",
+       "Disc / disc"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Tyres (front/rear)",
+       "120/80-18 / 180/70-15"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2340 x 980 x 1090 mm"
+      ],
+      [
+       "Wheelbase",
+       "1560 mm"
+      ],
+      [
+       "Ground clearance",
+       "145 mm"
+      ],
+      [
+       "Kerb weight",
+       "210 kg"
+      ],
+      [
+       "Seat height",
+       "690 mm"
+      ],
+      [
+       "Fuel tank",
+       "16 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [],
+   "images": [
+    {
+     "src": "/images/motorcycles/lifan/v400-1",
+     "w": 947,
+     "h": 631,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan V400 cruiser in black, right side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/v400-2",
+     "w": 930,
+     "h": 620,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan V400 cruiser in black, left side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/v400-3",
+     "w": 1047,
+     "h": 698,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan V400 cruiser in black, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/v400-4",
+     "w": 969,
+     "h": 646,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan V400 cruiser in black, front three-quarter view from the left"
+    }
+   ],
+   "sourceUrl": "https://www.lifanmotos.net/product/show/5166",
+   "notes": "Page \"V400 (LF400-5,triple-light)\". A second page, V400 (LF400-5), id 2126, has identical figures (net weight instead of kerb); skipped as duplicate. \"Triple-light\" naming is the maker's; the headlamp explanation is an inference from the name. Black bike: shot on transparent background, so it shows clearly on white. Max photo size published 1000x667. Power published in kW only; hp = kW x 1.341."
+  },
+  {
+   "slug": "star-thunder",
+   "name": "Star Thunder",
+   "category": "Cruiser",
+   "key": {
+    "engine": "249 cc single, oil-cooled",
+    "cc": 249,
+    "power": "20.1 hp (15.0 kW)",
+    "torque": "20.0 Nm",
+    "weight": "167 kg net",
+    "seat": "715 mm",
+    "tank": "13 L",
+    "topSpeed": "115 km/h"
+   },
+   "tagline": "Retro 250 cc cruiser with fuel injection and a 715 mm seat",
+   "summary": [
+    "The Lifan Star Thunder is a 250 cc cruiser with retro bobber styling and a 249 cc oil-cooled single fed by electronic fuel injection. It gives 15.0 kW at 7,800 rpm and 20.0 Nm at 6,000 rpm through a six-speed gearbox. It is a good fit for new riders and style-led buyers who want cruiser looks at an accessible capacity.",
+    "The 715 mm seat is low, and 190 mm of ground clearance is generous for the class. It weighs 167 kg net, holds 13 litres and returns a maker figure of 40 km/L or better. Discs at both ends and alloy wheels with a 120/80-18 front and 150/80-15 rear tyre are fitted, with a 115 km/h top speed."
+   ],
+   "highlights": [
+    "249 cc oil-cooled single with electronic fuel injection",
+    "15.0 kW (20.1 hp) at 7,800 rpm, 20.0 Nm at 6,000 rpm",
+    "715 mm seat height, 190 mm ground clearance",
+    "Maker economy figure 40 km/L or better, 13 litre tank",
+    "Disc brakes front and rear, six-speed gearbox"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, four-stroke, oil-cooled"
+      ],
+      [
+       "Displacement",
+       "249 cc"
+      ],
+      [
+       "Bore x stroke",
+       "72.0 x 61.2 mm"
+      ],
+      [
+       "Compression ratio",
+       "9.8:1"
+      ],
+      [
+       "Max power",
+       "15.0 kW (20.1 hp) at 7,800 rpm"
+      ],
+      [
+       "Max torque",
+       "20.0 Nm at 6,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Top speed",
+       "115 km/h"
+      ],
+      [
+       "Fuel economy (maker figure)",
+       "40.00 km/L or better"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Manual (hand-operated)"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front/rear)",
+       "Disc / disc"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Tyres (front/rear)",
+       "120/80-18 / 150/80-15"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2170 x 880 x 1150 mm"
+      ],
+      [
+       "Wheelbase",
+       "1440 mm"
+      ],
+      [
+       "Ground clearance",
+       "190 mm"
+      ],
+      [
+       "Net weight",
+       "167 kg"
+      ],
+      [
+       "Seat height",
+       "715 mm"
+      ],
+      [
+       "Fuel tank",
+       "13 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [],
+   "images": [
+    {
+     "src": "/images/motorcycles/lifan/star-thunder-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan Star Thunder cruiser in red, white and black, right side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/star-thunder-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan Star Thunder cruiser in red, white and black, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/star-thunder-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan Star Thunder cruiser in red, white and black, front three-quarter view from the left"
+    }
+   ],
+   "sourceUrl": "https://www.lifanmotos.net/product/show/2124",
+   "notes": "Page \"STAR THUNDER (LF250-8)\", engine 172FMM-2B/NBS250. Name title-cased from maker's capitals. \"Retro bobber styling\" is a visual description from the photos. Photos are 3307x2480. Bike wears PFMOTO badging. Power published in kW only; hp = kW x 1.341."
+  },
+  {
+   "slug": "k29",
+   "name": "K29",
+   "category": "Cruiser",
+   "key": {
+    "engine": "250 cc single, water-cooled",
+    "cc": 250,
+    "power": "27.5 hp (20.5 kW)",
+    "torque": "23.5 Nm",
+    "weight": "165 kg net",
+    "seat": "710 mm",
+    "tank": "14 L",
+    "topSpeed": "135 km/h"
+   },
+   "tagline": "Water-cooled 250 cc custom cruiser with a 710 mm seat",
+   "summary": [
+    "The Lifan K29 is a custom-style cruiser with a 250 cc water-cooled four-valve single and electronic fuel injection. It produces 20.5 kW at 9,000 rpm and 23.5 Nm at 7,000 rpm, uses a six-speed gearbox and has a quoted top speed of 135 km/h. That makes it one of the stronger 250 cruisers in the range, for riders who want cruiser styling with lively performance.",
+    "The 710 mm seat and 1500 mm wheelbase give a relaxed, stable riding position. It weighs 165 kg net and carries 14 litres of fuel. Braking is by discs front and rear, and the alloy wheels wear 110/90-16 and 130/90-15 tyres. Ground clearance is 145 mm."
+   ],
+   "highlights": [
+    "250 cc water-cooled four-valve single, electronic fuel injection",
+    "20.5 kW (27.5 hp) at 9,000 rpm, 23.5 Nm at 7,000 rpm",
+    "710 mm seat height, 165 kg net weight",
+    "Top speed 135 km/h (maker figure), six-speed gearbox",
+    "Disc brakes front and rear, 16 and 15-inch alloy wheels"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, four-stroke, water-cooled"
+      ],
+      [
+       "Displacement",
+       "250 cc"
+      ],
+      [
+       "Bore x stroke",
+       "77.0 x 53.6 mm"
+      ],
+      [
+       "Compression ratio",
+       "12.2:1"
+      ],
+      [
+       "Max power",
+       "20.5 kW (27.5 hp) at 9,000 rpm"
+      ],
+      [
+       "Max torque",
+       "23.5 Nm at 7,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Top speed",
+       "135 km/h"
+      ],
+      [
+       "Fuel economy (maker figure)",
+       "27.78 km/L or better"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Manual (hand-operated)"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front/rear)",
+       "Disc / disc"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Tyres (front/rear)",
+       "110/90-16 / 130/90-15"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2230 x 850 x 1090 mm"
+      ],
+      [
+       "Wheelbase",
+       "1500 mm"
+      ],
+      [
+       "Ground clearance",
+       "145 mm"
+      ],
+      [
+       "Net weight",
+       "165 kg"
+      ],
+      [
+       "Seat height",
+       "710 mm"
+      ],
+      [
+       "Fuel tank",
+       "14 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [],
+   "images": [
+    {
+     "src": "/images/motorcycles/lifan/k29-1",
+     "w": 817,
+     "h": 545,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan K29 cruiser in black, right side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/k29-2",
+     "w": 989,
+     "h": 659,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan K29 cruiser in black, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/k29-3",
+     "w": 936,
+     "h": 624,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan K29 cruiser in black, front three-quarter view from the left"
+    }
+   ],
+   "sourceUrl": "https://www.lifanmotos.net/product/show/2116",
+   "notes": "Page \"K29 (LF250-14M)\", engine NRF250 4V (four-valve per engine code). Only 3 distinct photos, 800x600. \"One of the stronger 250 cruisers in the range\" compares only with Lifan's own listed 250 cruisers (Star Thunder 15.0 kW, V16 14.5 kW). Power published in kW only; hp = kW x 1.341."
+  },
+  {
+   "slug": "k19-200",
+   "name": "K19 200",
+   "category": "Cruiser",
+   "key": {
+    "engine": "198 cc single, water-cooled",
+    "cc": 198,
+    "power": "16.8 hp (12.5 kW)",
+    "torque": "17.0 Nm",
+    "weight": "160 kg net",
+    "seat": "710 mm",
+    "tank": "14 L",
+    "topSpeed": "110 km/h"
+   },
+   "tagline": "Entry 200 cc cruiser with a 710 mm seat and economical single",
+   "summary": [
+    "The Lifan K19 200 is an entry-level cruiser using the 198 cc water-cooled single from Lifan's 200 cc street bikes. It makes 12.5 kW at 8,000 rpm and 17.0 Nm at 6,500 rpm, with a six-speed gearbox and a quoted top speed of 110 km/h. It suits first-time buyers and commuters who want cruiser styling at modest running costs.",
+    "A 710 mm seat and 1500 mm wheelbase give a low, stretched riding position. The bike weighs 160 kg net and has a 14 litre tank, with a maker economy figure of 43.5 km/L or better. It uses a front disc and rear drum, with alloy wheels and 110/90-16 and 130/90-15 tyres."
+   ],
+   "highlights": [
+    "198 cc water-cooled single, 12.5 kW (16.8 hp) at 8,000 rpm",
+    "710 mm seat height and 1500 mm wheelbase",
+    "Maker economy figure 43.5 km/L or better, 14 litre tank",
+    "Front disc, rear drum, alloy wheels",
+    "Six-speed gearbox, 160 kg net weight"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, four-stroke, water-cooled"
+      ],
+      [
+       "Displacement",
+       "198 cc"
+      ],
+      [
+       "Bore x stroke",
+       "65.5 x 58.8 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.0:1"
+      ],
+      [
+       "Max power",
+       "12.5 kW (16.8 hp) at 8,000 rpm"
+      ],
+      [
+       "Max torque",
+       "17.0 Nm at 6,500 rpm"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Top speed",
+       "110 km/h"
+      ],
+      [
+       "Fuel economy (maker figure)",
+       "43.5 km/L or better"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Manual (hand-operated)"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front/rear)",
+       "Disc / drum"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Tyres (front/rear)",
+       "110/90-16 / 130/90-15"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2230 x 910 x 1090 mm"
+      ],
+      [
+       "Wheelbase",
+       "1500 mm"
+      ],
+      [
+       "Ground clearance",
+       "145 mm"
+      ],
+      [
+       "Net weight",
+       "160 kg"
+      ],
+      [
+       "Seat height",
+       "710 mm"
+      ],
+      [
+       "Fuel tank",
+       "14 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [],
+   "images": [
+    {
+     "src": "/images/motorcycles/lifan/k19-200-1",
+     "w": 891,
+     "h": 594,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan K19 200 cruiser in red and black, right side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/k19-200-2",
+     "w": 1064,
+     "h": 709,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan K19 200 cruiser in red and black, front three-quarter view"
+    }
+   ],
+   "sourceUrl": "https://www.lifanmotos.net/product/show/2111",
+   "notes": "Page \"K19 (LF200-14F)\", engine NBF200. Named \"K19 200\" here to separate it from the older K19 (LF150-14P) page, id 42, which has no spec table. Only 2 distinct photos (800x600). Fuel system not stated. Power published in kW only; hp = kW x 1.341."
+  },
+  {
+   "slug": "terax-300",
+   "name": "TERAX300",
+   "category": "Off-road",
+   "key": {
+    "engine": "293 cc single, oil-cooled",
+    "cc": 293,
+    "power": "25.5 hp (19.0 kW)",
+    "torque": "24.0 Nm",
+    "weight": "153 kg kerb",
+    "seat": "880 mm",
+    "tank": "14 L",
+    "topSpeed": "120 km/h"
+   },
+   "tagline": "Dual-purpose 300 cc trail bike with 280 mm clearance and a 14 L tank",
+   "summary": [
+    "The Lifan TERAX300 is a dual-purpose trail motorcycle with a 293 cc oil-cooled single, offered with carburettor or electronic fuel injection. It produces 19.0 kW at 8,000 rpm and 24.0 Nm at 6,500 rpm through a six-speed gearbox. It suits riders who mix gravel tracks and rough roads with road riding, and markets where ground clearance matters.",
+    "Ground clearance is 280 mm and the seat sits at 880 mm, with a 19-inch front and 17-inch rear spoked wheel on 90/90-19 and 120/90-17 tyres. Discs at both ends, a 14 litre tank, 153 kg kerb weight and a quoted 120 km/h top speed complete the picture. The maker economy figure is 34 km/L."
+   ],
+   "highlights": [
+    "293 cc oil-cooled single, 19.0 kW (25.5 hp) at 8,000 rpm",
+    "280 mm ground clearance, 880 mm seat height",
+    "19-inch front and 17-inch rear spoked wheels",
+    "Disc brakes front and rear, six-speed gearbox",
+    "Carburettor or electronic fuel injection versions listed"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, four-stroke, oil-cooled"
+      ],
+      [
+       "Displacement",
+       "293 cc"
+      ],
+      [
+       "Bore x stroke",
+       "75 x 61.4 mm"
+      ],
+      [
+       "Compression ratio",
+       "9.5:1"
+      ],
+      [
+       "Max power",
+       "19.0 kW (25.5 hp) at 8,000 rpm"
+      ],
+      [
+       "Max torque",
+       "24.0 Nm at 6,500 rpm"
+      ],
+      [
+       "Fuel system",
+       "Carburettor or electronic fuel injection"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Top speed",
+       "120 km/h"
+      ],
+      [
+       "Fuel economy (maker figure)",
+       "34 km/L"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Manual (hand-operated)"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front/rear)",
+       "Disc / disc"
+      ],
+      [
+       "Wheels",
+       "Spoked"
+      ],
+      [
+       "Tyres (front/rear)",
+       "90/90-19 / 120/90-17"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2050 x 880 x 1300 mm"
+      ],
+      [
+       "Wheelbase",
+       "1320 mm"
+      ],
+      [
+       "Ground clearance",
+       "280 mm"
+      ],
+      [
+       "Kerb weight",
+       "153 kg"
+      ],
+      [
+       "Seat height",
+       "880 mm"
+      ],
+      [
+       "Fuel tank",
+       "14 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [],
+   "images": [
+    {
+     "src": "/images/motorcycles/lifan/terax-300-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan TERAX300 off-road in grey, black and green, right side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/terax-300-2",
+     "w": 1145,
+     "h": 763,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan TERAX300 off-road in grey, black and green, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/terax-300-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan TERAX300 off-road in grey, black and green, rear three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/terax-300-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan TERAX300 off-road in grey, black and green, front three-quarter view from the left"
+    }
+   ],
+   "sourceUrl": "https://www.lifanmotos.net/product/show/5171",
+   "notes": "Page \"TERAX300(LF300GY-2)\", listed under Dirt bike. Has lights, mirrors and number-plate holder in photos, so treated as a road-going dual-purpose bike. Kerb weight row lacks a unit on the page (assumed kg). Power published in kW only; hp = kW x 1.341."
+  },
+  {
+   "slug": "x-trek-200",
+   "name": "X-TREK200",
+   "category": "Off-road",
+   "key": {
+    "engine": "197 cc single, oil-cooled",
+    "cc": 197,
+    "power": "13.7 hp (10.2 kW)",
+    "torque": "13.8 Nm",
+    "weight": "131 kg kerb",
+    "seat": "860 mm",
+    "tank": "11 L",
+    "topSpeed": "95 km/h"
+   },
+   "tagline": "Light 200 cc dual-sport with 260 mm clearance and kick start",
+   "summary": [
+    "The Lifan X-TREK200 is a light dual-sport motorcycle with a 197 cc oil-cooled single and a carburettor. It produces 10.2 kW at 7,500 rpm and 13.8 Nm at 6,000 rpm through a five-speed gearbox. With 260 mm of ground clearance and a 131 kg kerb weight, it suits rural riders and anyone needing a simple bike for unsealed roads.",
+    "It runs a 19-inch front and 17-inch rear spoked wheel with 90/90-19 and 110/90-17 tyres, a front disc and rear drum. Both electric and kick start are fitted, the seat is 860 mm high and the tank holds 11 litres. The maker quotes 36 km/L and a top speed of 95 km/h."
+   ],
+   "highlights": [
+    "197 cc oil-cooled single with carburettor",
+    "260 mm ground clearance and 131 kg kerb weight",
+    "Electric and kick start",
+    "19/17-inch spoked wheels, front disc and rear drum",
+    "Five-speed gearbox, maker economy figure 36 km/L"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, four-stroke, oil-cooled"
+      ],
+      [
+       "Displacement",
+       "197 cc"
+      ],
+      [
+       "Bore x stroke",
+       "63.5 x 62.2 mm"
+      ],
+      [
+       "Compression ratio",
+       "9.0:1"
+      ],
+      [
+       "Max power",
+       "10.2 kW (13.7 hp) at 7,500 rpm"
+      ],
+      [
+       "Max torque",
+       "13.8 Nm at 6,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "Carburettor"
+      ],
+      [
+       "Starter",
+       "Electric and kick"
+      ],
+      [
+       "Top speed",
+       "95 km/h"
+      ],
+      [
+       "Fuel economy (maker figure)",
+       "36 km/L"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "5-speed"
+      ],
+      [
+       "Clutch",
+       "Manual (hand-operated)"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front/rear)",
+       "Disc / drum"
+      ],
+      [
+       "Wheels",
+       "Spoked"
+      ],
+      [
+       "Tyres (front/rear)",
+       "90/90-19 / 110/90-17"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2050 x 820 x 1140 mm"
+      ],
+      [
+       "Wheelbase",
+       "1370 mm"
+      ],
+      [
+       "Ground clearance",
+       "260 mm"
+      ],
+      [
+       "Kerb weight",
+       "131 kg"
+      ],
+      [
+       "Seat height",
+       "860 mm"
+      ],
+      [
+       "Fuel tank",
+       "11 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [],
+   "images": [
+    {
+     "src": "/images/motorcycles/lifan/x-trek-200-1",
+     "w": 1133,
+     "h": 755,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan X-TREK200 off-road in red and black, right side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/x-trek-200-2",
+     "w": 1133,
+     "h": 755,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan X-TREK200 off-road in white and black, right side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/x-trek-200-3",
+     "w": 1133,
+     "h": 755,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan X-TREK200 off-road in black, right side view"
+    }
+   ],
+   "sourceUrl": "https://www.lifanmotos.net/product/show/5168",
+   "notes": "Page \"X-TREK200(LF200GY-8G)\", Dirt bike category. Three photos are the same side view in three colour schemes (red, white, black); colour names not published. Max size published 1000x692. Power published in kW only; hp = kW x 1.341."
+  },
+  {
+   "slug": "pk110f",
+   "name": "PK110F",
+   "category": "Commuter",
+   "key": {
+    "engine": "109 cc / 125 cc single, air-cooled",
+    "cc": 109,
+    "power": "8.0 hp (6.0 kW), 110 version",
+    "torque": "7.8 Nm",
+    "weight": "100 kg kerb",
+    "seat": "770 mm",
+    "tank": "3 L",
+    "topSpeed": "90 km/h"
+   },
+   "tagline": "Step-through cub with automatic clutch, in 110 or 125 cc versions",
+   "summary": [
+    "The Lifan PK110F is a step-through cub motorcycle offered with a 109 cc or 125 cc air-cooled single. A four-speed gearbox with automatic clutch means no clutch lever, which makes it easy for new riders and for stop-start town work. The 110 makes 6.0 kW and 7.8 Nm, the 125 makes 6.6 kW and 8.7 Nm.",
+    "It weighs 100 kg kerb, has a 770 mm seat and 17-inch wheels with 2.50-17 and 2.75-17 tyres, in alloy or spoked form. A front disc and rear drum, electric and kick start, and a maker economy figure of 62.5 km/L or better suit delivery and commuting use. The tank holds 3 litres."
+   ],
+   "highlights": [
+    "109 cc or 125 cc air-cooled single",
+    "Four-speed gearbox with automatic clutch",
+    "Maker economy figure 62.5 km/L or better",
+    "100 kg kerb weight, 770 mm seat height",
+    "Front disc, rear drum; alloy or spoked 17-inch wheels"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, four-stroke, air-cooled"
+      ],
+      [
+       "Displacement",
+       "109 cc / 125 cc"
+      ],
+      [
+       "Bore x stroke",
+       "50.0 x 55.5 mm / 53.5 x 55.5 mm"
+      ],
+      [
+       "Compression ratio",
+       "9.0:1 / 9.2:1"
+      ],
+      [
+       "Max power",
+       "6.0 kW (8.0 hp) at 7,500 rpm / 6.6 kW (8.9 hp) at 8,000 rpm"
+      ],
+      [
+       "Max torque",
+       "7.8 Nm at 6,000 rpm / 8.7 Nm at 6,000 rpm"
+      ],
+      [
+       "Starter",
+       "Electric and kick"
+      ],
+      [
+       "Top speed",
+       "90 km/h / 93 km/h"
+      ],
+      [
+       "Fuel economy (maker figure)",
+       "62.5 km/L or better"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "4-speed"
+      ],
+      [
+       "Clutch",
+       "Automatic"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front/rear)",
+       "Disc / drum"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy or spoked"
+      ],
+      [
+       "Tyres (front/rear)",
+       "2.50-17 / 2.75-17"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "1940 x 705 x 1120 mm"
+      ],
+      [
+       "Wheelbase",
+       "1245 mm"
+      ],
+      [
+       "Ground clearance",
+       "130 mm"
+      ],
+      [
+       "Kerb weight",
+       "100 kg"
+      ],
+      [
+       "Seat height",
+       "770 mm"
+      ],
+      [
+       "Fuel tank",
+       "3 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [],
+   "images": [
+    {
+     "src": "/images/motorcycles/lifan/pk110f-1",
+     "w": 1107,
+     "h": 738,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan PK110F commuter in white and red, right side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/pk110f-2",
+     "w": 1194,
+     "h": 796,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan PK110F commuter in white and red, left side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/pk110f-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan PK110F commuter in white and red, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/pk110f-4",
+     "w": 1143,
+     "h": 762,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan PK110F commuter in white and red, front three-quarter view from the left"
+    }
+   ],
+   "sourceUrl": "https://www.lifanmotos.net/product/show/5170",
+   "notes": "Page \"PK110F(LF110-26C/125-26C)\", Cub category. Values shown as 110 / 125. Fuel system not stated. Related cub pages skipped: TYPHOON125 (LF125-26C, id 2123, same figures as the 125 here) and LF125-26C (id 4135, slightly different figures). Image 4 is 639 px wide. Power published in kW only; hp = kW x 1.341."
+  },
+  {
+   "slug": "kpv-350",
+   "name": "KPV350",
+   "category": "Maxi scooter",
+   "key": {
+    "engine": "349.9 cc single, water-cooled",
+    "cc": 349.9,
+    "power": "34.2 hp (25.5 kW)",
+    "torque": "35.5 Nm",
+    "weight": "186 kg net",
+    "seat": "780 mm",
+    "tank": "15.5 L",
+    "topSpeed": "135 km/h"
+   },
+   "tagline": "Water-cooled 350 cc maxi scooter with fuel injection and twin discs",
+   "summary": [
+    "The Lifan KPV350 is a maxi scooter powered by a 349.9 cc water-cooled single with electronic fuel injection and a CVT automatic transmission. It makes 25.5 kW at 7,500 rpm and 35.5 Nm at 6,000 rpm, enough for a quoted top speed of 135 km/h. It suits commuters who ride on fast roads and want scooter convenience with motorway-capable pace.",
+    "It uses 15-inch front and 14-inch rear alloy wheels with 120/70-15 and 140/70-14 tyres, and discs front and rear. The 780 mm seat, 1520 mm wheelbase and 15.5 litre tank suit longer trips, and the scooter weighs 186 kg net. The maker economy figure is 25.0 km/L or better."
+   ],
+   "highlights": [
+    "349.9 cc water-cooled single with electronic fuel injection",
+    "25.5 kW (34.2 hp) at 7,500 rpm, 35.5 Nm at 6,000 rpm",
+    "CVT automatic; top speed 135 km/h (maker figure)",
+    "15.5 litre tank and 780 mm seat height",
+    "Disc brakes front and rear, 15/14-inch alloy wheels"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, four-stroke, water-cooled"
+      ],
+      [
+       "Displacement",
+       "349.9 cc"
+      ],
+      [
+       "Bore x stroke",
+       "80.0 x 69.6 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.5:1"
+      ],
+      [
+       "Max power",
+       "25.5 kW (34.2 hp) at 7,500 rpm"
+      ],
+      [
+       "Max torque",
+       "35.5 Nm at 6,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Top speed",
+       "135 km/h"
+      ],
+      [
+       "Fuel economy (maker figure)",
+       "25.0 km/L or better"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Transmission",
+       "CVT (continuously variable)"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front/rear)",
+       "Disc / disc"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Tyres (front/rear)",
+       "120/70-15 / 140/70-14"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2160 x 810 x 1370 mm"
+      ],
+      [
+       "Wheelbase",
+       "1520 mm"
+      ],
+      [
+       "Ground clearance",
+       "145 mm"
+      ],
+      [
+       "Net weight",
+       "186 kg"
+      ],
+      [
+       "Seat height",
+       "780 mm"
+      ],
+      [
+       "Fuel tank",
+       "15.5 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [],
+   "images": [
+    {
+     "src": "/images/motorcycles/lifan/kpv-350-1",
+     "w": 843,
+     "h": 562,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan KPV350 maxi scooter in white and black, right side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kpv-350-2",
+     "w": 939,
+     "h": 626,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan KPV350 maxi scooter in white and black, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kpv-350-3",
+     "w": 867,
+     "h": 578,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan KPV350 maxi scooter in white and black, left side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kpv-350-4",
+     "w": 975,
+     "h": 650,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan KPV350 maxi scooter in white and black, front three-quarter view from the left"
+    }
+   ],
+   "sourceUrl": "https://www.lifanmotos.net/product/show/1104",
+   "notes": "Model page https://www.lifanmotos.net/product/show/1104 = \"KPV350 (LF350T)\", Scooter category. Transmission published as \"infinitely variable speeds\", written as CVT. Photos 800x600. Power published in kW only; hp = kW x 1.341."
+  },
+  {
+   "slug": "kpv-plus",
+   "name": "KPV PLUS",
+   "category": "Adventure scooter",
+   "key": {
+    "engine": "149.8 cc single, water-cooled",
+    "cc": 149.8,
+    "power": "14.9 hp (11.1 kW)",
+    "torque": "13.1 Nm",
+    "weight": "152 kg net",
+    "seat": "770 mm",
+    "tank": "11 L",
+    "topSpeed": "105 km/h"
+   },
+   "tagline": "Adventure-styled 150 cc scooter with water cooling and twin discs",
+   "summary": [
+    "The Lifan KPV PLUS is an adventure-styled scooter with a tall screen, powered by a 149.8 cc water-cooled single and a CVT automatic. It produces 11.1 kW at 8,500 rpm and 13.1 Nm at 6,500 rpm, strong figures for a 150 cc scooter, and the maker quotes a top speed of 105 km/h. It suits urban riders who want rugged styling with learner-friendly capacity.",
+    "It runs 14-inch aluminium alloy wheels with 100/80-14 and 120/70-14 tyres and has disc brakes at both ends, plus a 1320 mm wheelbase. The seat is 770 mm high, the tank holds 11 litres and the scooter weighs 152 kg net. The maker fuel figure is 2.4 L/100 km or less."
+   ],
+   "highlights": [
+    "149.8 cc water-cooled single, 11.1 kW (14.9 hp) at 8,500 rpm",
+    "CVT automatic; top speed 105 km/h (maker figure)",
+    "Adventure styling with tall screen",
+    "Disc brakes front and rear, 14-inch alloy wheels",
+    "770 mm seat, 11 litre tank, 2.4 L/100 km or less"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, four-stroke, water-cooled"
+      ],
+      [
+       "Displacement",
+       "149.8 cc"
+      ],
+      [
+       "Bore x stroke",
+       "57.4 x 57.9 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.2:1"
+      ],
+      [
+       "Max power",
+       "11.1 kW (14.9 hp) at 8,500 rpm"
+      ],
+      [
+       "Max torque",
+       "13.1 Nm at 6,500 rpm"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Top speed",
+       "105 km/h"
+      ],
+      [
+       "Fuel consumption (maker figure)",
+       "2.4 L/100 km or less"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Transmission",
+       "CVT (continuously variable)"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front/rear)",
+       "Disc / disc"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Tyres (front/rear)",
+       "100/80-14 / 120/70-14"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "1925 x 760 x 1290 mm"
+      ],
+      [
+       "Wheelbase",
+       "1320 mm"
+      ],
+      [
+       "Net weight",
+       "152 kg"
+      ],
+      [
+       "Seat height",
+       "770 mm"
+      ],
+      [
+       "Fuel tank",
+       "11 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [],
+   "images": [
+    {
+     "src": "/images/motorcycles/lifan/kpv-plus-1",
+     "w": 965,
+     "h": 643,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan KPV PLUS adventure scooter in blue and black, left side three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kpv-plus-2",
+     "w": 1007,
+     "h": 671,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan KPV PLUS adventure scooter in blue and black, right front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kpv-plus-3",
+     "w": 1037,
+     "h": 691,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan KPV PLUS adventure scooter in blue and black, front three-quarter view from the left"
+    },
+    {
+     "src": "/images/motorcycles/lifan/kpv-plus-4",
+     "w": 1049,
+     "h": 699,
+     "kind": "front",
+     "studio": true,
+     "alt": "Lifan KPV PLUS adventure scooter in blue and black, front view"
+    }
+   ],
+   "sourceUrl": "https://www.lifanmotos.net/product/show/1096",
+   "notes": "Page \"KPV PLUS (LF150T-8D)\". Fuel system not stated. No pure side view is published; image 1 is the closest (left side, slight three-quarter angle). Files reordered from the gallery order. \"Tall screen\" from photos. \"Strong figures for a 150 cc scooter\" compares only with Lifan's own 150 scooters (LANCE150 9.0 kW, Blossoms150 8.6 kW). Power published in kW only; hp = kW x 1.341."
+  },
+  {
+   "slug": "lance-150",
+   "name": "LANCE150",
+   "category": "Scooter",
+   "key": {
+    "engine": "149.3 cc single, water-cooled",
+    "cc": 149.3,
+    "power": "12.1 hp (9.0 kW)",
+    "torque": "11.8 Nm",
+    "weight": "125 kg net",
+    "seat": "778 mm",
+    "tank": "7 L",
+    "topSpeed": "93 km/h"
+   },
+   "tagline": "Sporty 150 cc scooter with water cooling and fuel injection",
+   "summary": [
+    "The Lifan LANCE150 is a sporty urban scooter powered by a 149.3 cc water-cooled single with electronic fuel injection and a CVT automatic. It produces 9.0 kW at 8,500 rpm and 11.8 Nm at 5,500 rpm, with a quoted top speed of at least 93 km/h. It suits commuters and younger riders who want sharp styling in a manageable 150.",
+    "At 125 kg net and 690 mm wide it is slim enough for city traffic, with a 778 mm seat and 14-inch alloy wheels on 100/80-14 and 120/70-14 tyres. Braking is disc and disc, or disc and drum, depending on version. The tank holds 7 litres and the maker figure is 41.7 km/L or better."
+   ],
+   "highlights": [
+    "149.3 cc water-cooled single with electronic fuel injection",
+    "9.0 kW (12.1 hp) at 8,500 rpm, 11.8 Nm at 5,500 rpm",
+    "CVT automatic, 125 kg net weight",
+    "690 mm overall width for city traffic",
+    "Disc/disc or disc/drum brakes, 14-inch alloy wheels"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, four-stroke, water-cooled"
+      ],
+      [
+       "Displacement",
+       "149.3 cc"
+      ],
+      [
+       "Bore x stroke",
+       "57.3 x 57.9 mm"
+      ],
+      [
+       "Compression ratio",
+       "10.6:1"
+      ],
+      [
+       "Max power",
+       "9.0 kW (12.1 hp) at 8,500 rpm"
+      ],
+      [
+       "Max torque",
+       "11.8 Nm at 5,500 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Starter",
+       "Electric"
+      ],
+      [
+       "Top speed",
+       "93 km/h or more"
+      ],
+      [
+       "Fuel economy (maker figure)",
+       "41.7 km/L or better"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Transmission",
+       "CVT (continuously variable)"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front/rear)",
+       "Disc / disc or disc / drum"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Tyres (front/rear)",
+       "100/80-14 / 120/70-14"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "1940 x 690 x 1095 mm"
+      ],
+      [
+       "Wheelbase",
+       "1295 mm"
+      ],
+      [
+       "Ground clearance",
+       "135 mm"
+      ],
+      [
+       "Net weight",
+       "125 kg"
+      ],
+      [
+       "Seat height",
+       "778 mm"
+      ],
+      [
+       "Fuel tank",
+       "7 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [],
+   "images": [
+    {
+     "src": "/images/motorcycles/lifan/lance-150-1",
+     "w": 897,
+     "h": 598,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan LANCE150 scooter in matt grey, right side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/lance-150-2",
+     "w": 1014,
+     "h": 676,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan LANCE150 scooter in matt grey, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/lance-150-3",
+     "w": 1047,
+     "h": 698,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan LANCE150 scooter in matt grey, front three-quarter view from the left"
+    }
+   ],
+   "sourceUrl": "https://www.lifanmotos.net/product/show/2122",
+   "notes": "Page \"LANCE150 (LF150T-8U)\". Only 3 distinct photos (800x600). Page also carries one long image (8U.jpg) not used. Power published in kW only; hp = kW x 1.341."
+  },
+  {
+   "slug": "blossoms-150",
+   "name": "Blossoms150",
+   "category": "Scooter",
+   "key": {
+    "engine": "149.3 cc single, oil-cooled",
+    "cc": 149.3,
+    "power": "11.5 hp (8.6 kW)",
+    "torque": "12 Nm",
+    "weight": "105 kg kerb",
+    "seat": "765 mm",
+    "tank": "5.5 L",
+    "topSpeed": "95 km/h"
+   },
+   "tagline": "Retro-styled 150 cc small-wheel model with a five-speed gearbox",
+   "summary": [
+    "The Lifan Blossoms150 is a retro-styled small-wheel model with scooter bodywork and a 149.3 cc oil-cooled single fed by a carburettor. Unlike most scooters it uses a five-speed gearbox with a left-foot shift, according to the maker. It makes 8.6 kW at 7,500 rpm and 12 Nm at 6,000 rpm, and suits style-conscious town riders.",
+    "At 105 kg kerb with a 765 mm seat and a 1280 mm wheelbase, it is light and easy to manoeuvre. It runs a 12-inch front and 10-inch rear wheel with 90/90-12 and 3.5-10 tyres, a front disc and rear drum, and both electric and kick start. The tank holds 5.5 litres and the maker figure is 50 km/L or better."
+   ],
+   "highlights": [
+    "149.3 cc oil-cooled single with carburettor",
+    "Five-speed gearbox with left-foot shift (maker figure)",
+    "105 kg kerb weight and 765 mm seat height",
+    "12-inch front, 10-inch rear alloy wheels",
+    "Front disc, rear drum; electric and kick start"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, four-stroke, oil-cooled"
+      ],
+      [
+       "Displacement",
+       "149.3 cc"
+      ],
+      [
+       "Bore x stroke",
+       "57.3 x 57.9 mm"
+      ],
+      [
+       "Compression ratio",
+       "9.5:1"
+      ],
+      [
+       "Max power",
+       "8.6 kW (11.5 hp) at 7,500 rpm"
+      ],
+      [
+       "Max torque",
+       "12 Nm at 6,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "Carburettor"
+      ],
+      [
+       "Starter",
+       "Electric and kick"
+      ],
+      [
+       "Top speed",
+       "95 km/h"
+      ],
+      [
+       "Fuel economy (maker figure)",
+       "50 km/L or better"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "5-speed, left-foot shift (as published)"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Brakes (front/rear)",
+       "Disc / drum"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy"
+      ],
+      [
+       "Tyres (front/rear)",
+       "90/90-12 / 3.5-10"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "1830 x 695 x 1080 mm"
+      ],
+      [
+       "Wheelbase",
+       "1280 mm"
+      ],
+      [
+       "Ground clearance",
+       "110 mm"
+      ],
+      [
+       "Kerb weight",
+       "105 kg"
+      ],
+      [
+       "Seat height",
+       "765 mm"
+      ],
+      [
+       "Fuel tank",
+       "5.5 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [],
+   "images": [
+    {
+     "src": "/images/motorcycles/lifan/blossoms-150-1",
+     "w": 945,
+     "h": 630,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan Blossoms150 scooter in yellow and black, right side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/blossoms-150-2",
+     "w": 950,
+     "h": 633,
+     "kind": "side",
+     "studio": true,
+     "alt": "Lifan Blossoms150 scooter in yellow and black, left side view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/blossoms-150-3",
+     "w": 1053,
+     "h": 702,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan Blossoms150 scooter in yellow and black, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/lifan/blossoms-150-4",
+     "w": 1025,
+     "h": 683,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Lifan Blossoms150 scooter in yellow and black, front three-quarter view from the left"
+    }
+   ],
+   "sourceUrl": "https://www.lifanmotos.net/product/show/5169",
+   "notes": "Page \"Blossoms150(LF150T-R)\", Scooter category. UNCERTAIN: the spec table says \"5-gears, shift with left foot\", which is unusual for a scooter with a \"T\" (scooter) factory code; this may be a copy-paste error on the maker page (the X-MACH PLUS table uses identical wording). Owner should confirm before publishing the gearbox claim. Max photo size 1000x667. Power published in kW only; hp = kW x 1.341."
+  }
+ ]
+}
