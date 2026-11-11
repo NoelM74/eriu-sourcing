@@ -5,6 +5,8 @@
 const path = Astro.url.pathname;
 const message = path.startsWith('/de/')
   ? 'Hallo Noel, ich interessiere mich für Elektronik aus Shenzhen. (Antwort auf Englisch ist okay.) Es geht um: '
+  : path.startsWith('/motorcycles')
+  ? 'Hi Noel, I run a motorcycle dealership in [city, country]. Please quote factory prices for [brands, models, quantities]: '
   : path.startsWith('/modular-homes')
   ? "Hi Noel, I'm interested in an Ériu modular home."
   : "Hi Noel, I'm interested in sourcing from China to Ireland.";

@@ -216,34 +216,4 @@ export const marketFacts = {
     },
   },
 
-  'south-africa': {
-    lastChecked: '2026-10-16',
-    shortAnswer: {
-      electronics: 'We source electronics direct from Shenzhen factories for South African importers. Import VAT is 15%, radio equipment needs ICASA type approval, and products under compulsory specifications need an NRCS Letter of Authority before import or sale. We check both before you pay.',
-      privatelabel: 'We manage private label and OEM production in Shenzhen and Dongguan and ship to South Africa. Import VAT is 15%, and electrical products under compulsory specifications need an NRCS Letter of Authority, which we check at the specification stage.',
-    },
-    tax: [
-      { h: 'Import VAT: 15%', p: 'VAT on imports is 15%, calculated on the customs value plus 10%, plus any duties.', src: 'https://www.sars.gov.za/faq/faq-how-is-vat-calculated-on-imported-goods/' },
-      { h: 'Duty: check your HS code', p: 'South Africa has no free trade agreement with China, so the general rate applies. We confirm the rate for your exact products in your quote.' },
-      { h: 'Registration', p: 'Importers must register with SARS Customs (Registration, Licensing and Accreditation). Non-resident importers must appoint a registered agent.', src: 'https://www.sars.gov.za/customs-and-excise/registration-licensing-and-accreditation/' },
-    ],
-    compliance: {
-      electronics: [
-        { h: 'NRCS Letter of Authority', p: 'Products under compulsory specifications need an NRCS Letter of Authority before import or sale. VC 8055 covers many electrical and electronic products, including phone chargers, and an LOA is valid for three years.', src: 'https://www.nrcs.org.za/compulsory-specifications/compulsory-specifications' },
-        { h: 'ICASA for radio devices', p: 'Smart home devices, cameras and wearables with a radio need ICASA type approval.', src: 'https://www.icasa.org.za/uploads/files/Type-Approval-Regulations.pdf' },
-      ],
-      privatelabel: [
-        { h: 'NRCS for electrical products', p: 'If your own-brand product is electrical and falls under a compulsory specification, it needs an NRCS Letter of Authority before import. We check this at the specification stage.', src: 'https://www.nrcs.org.za/business-units/electro-technical' },
-      ],
-    },
-    faqs: {
-      common: [
-        { q: 'What VAT applies to imports into South Africa?', a: 'Import VAT is 15%, calculated on the customs value plus 10%, plus duties. Duty depends on the HS code; South Africa has no free trade agreement with China.' },
-      ],
-      electronics: [
-        { q: 'Do electronics need NRCS approval?', a: 'Products covered by a compulsory specification, such as VC 8055 for many electrical and electronic products, need an NRCS Letter of Authority before import or sale.' },
-      ],
-      privatelabel: [],
-    },
-  },
 };

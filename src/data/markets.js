@@ -2,5 +2,5 @@
 import { marketsBase } from './marketsBase.js';
 import { marketFacts } from './marketFacts.js';
 
-const order = ['uk', 'europe', 'usa', 'canada', 'australia', 'uae', 'south-africa'];
+const order = ['uk', 'europe', 'usa', 'canada', 'australia', 'uae'];
 export const markets = order.map((k) => ({ ...marketsBase[k], ...marketFacts[k] }));

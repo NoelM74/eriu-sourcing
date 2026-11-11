@@ -5,6 +5,7 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import TestimonialsSection from '../components/TestimonialsSection.astro';
 import { getByTags } from '../data/testimonials.js';
 import { products } from '../data/products.js';
+import { motoBrands } from '../data/motorcycles.js';
 const contactQuotes = getByTags(['contact-page']);
 
 const title = "Get a Quote, China Sourcing from Ireland | Ériu Sourcing";
@@ -17,9 +18,13 @@ const siteUrl = 'https://eriusourcing.com';
 // Build a slug -> {label, category} lookup so visitors landing from a product
 // page CTA (/contact/?product=<slug>) get the form pre-filled and their lead
 // tagged with the product they came from.
-const productLookup = Object.fromEntries(
-  products.map(p => [p.slug, { label: p.h1, category: p.categorySlug }])
-);
+const motoStarter = "I run a motorcycle/scooter business in [city, country] and buy wholesale.\n\nBrands and models:\nQuantities:\nFOB China or delivered:";
+const productLookup = {
+  ...Object.fromEntries(products.map(p => [p.slug, { label: p.h1, category: p.categorySlug }])),
+  'motorcycles': { label: 'Motorcycles & scooters, wholesale', category: 'motorcycles', starter: motoStarter },
+  ...Object.fromEntries(motoBrands.map(b => [`motorcycles-${b.slug}`, { label: `${b.name} ${b.kind}, wholesale`, category: 'motorcycles', starter: motoStarter }])),
+  'used-motorcycles': { label: 'Used motorcycles and scooters (coming soon)', category: 'motorcycles', starter: "Please contact me when used motorcycles and scooters are available.\n\nMy business and country:\nBrands and models I'm interested in:\nRough quantities:" },
+};
 
 // BreadcrumbList JSON-LD is emitted by the <Breadcrumbs> component itself.
 const pageSchemas = [
@@ -186,6 +191,7 @@ const pageSchemas = [
               <option value="bags-luggage">Bags & Luggage</option>
               <option value="hospitality-fitout">Hospitality Fit-Out</option>
               <option value="modular-buildings">Modular Buildings & Sandwich Panels</option>
+              <option value="motorcycles">Motorcycles & Scooters (trade only)</option>
               <option value="other">Other, I'll describe below</option>
             </select>
             <span class="field-error" data-fs-error="category"></span>
@@ -277,7 +283,7 @@ const pageSchemas = [
     // Pre-fill the description with a starter sentence the visitor can edit
     const desc = document.getElementById('description');
     if (desc && !desc.value) {
-      desc.value = `I'm interested in sourcing ${entry.label}.\n\nQuantity / target order size:\nTimeline:\nAny reference products or specifications:`;
+      desc.value = entry.starter || `I'm interested in sourcing ${entry.label}.\n\nQuantity / target order size:\nTimeline:\nAny reference products or specifications:`;
     }
   })();
 </script>
