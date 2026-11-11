@@ -1,0 +1,3745 @@
+{
+ "brand": "kove",
+ "brandStory": "Kove (KOVEMOTO) was founded in 2017 in Chongqing, China, and is a subsidiary of Tibet Summit Colove Motorcycle Sales Co., Ltd. The company develops, builds and sells mid-to-large capacity motorcycles, electric motorcycles and core components, including its own multi-cylinder engines. It holds more than 100 granted patents covering powertrain, chassis, electric and intelligent systems.",
+ "brandStorySource": "https://www.kovemoto.com/our-story",
+ "checked": "2026-11-11",
+ "models": [
+  {
+   "slug": "800x-touring",
+   "name": "800X Touring",
+   "category": "Adventure",
+   "key": {
+    "engine": "799 cc parallel twin",
+    "cc": 799,
+    "power": "69.5 kW (93.2 hp)",
+    "torque": "79 Nm",
+    "weight": "195 kg kerb",
+    "seat": "826 mm",
+    "tank": "22 L",
+    "topSpeed": "210 km/h"
+   },
+   "tagline": "799 cc twin adventure tourer with heated seat, grips and cruise",
+   "summary": [
+    "The Kove 800X Touring is the long-distance member of Kove's 799 cc twin-cylinder adventure family. It shares the 69.5 kW parallel twin and 1,520 mm wheelbase of the 800X Pro but adds a 19-inch front and 17-inch rear wheel pair, an 826 mm seat, a taller and wider screen and a 22-litre plastic tank mounted low in the frame.",
+    "It suits riders who want touring comfort with enough ground clearance for gravel and rough tracks. Heated grips and seat, cruise control, a bi-directional quickshifter, traction control, four riding modes and tyre-pressure monitoring all come as standard. Kerb weight is 195 kg, or 215 kg with the three-case set fitted, which keeps it manageable at low speed and when loaded."
+   ],
+   "highlights": [
+    "799 cc DOHC parallel twin: 69.5 kW at 9,000 rpm and 79 Nm at 7,500 rpm",
+    "195 kg kerb weight, 215 kg with three cases fitted",
+    "22 L mid-mounted plastic tank weighing 4.4 kg",
+    "Heated grips and seat, cruise control and bi-directional quickshifter as standard",
+    "826 mm seat, 230 mm ground clearance and 210 mm KYB travel at each end",
+    "Traction control, four riding modes, dual-channel ABS and tyre-pressure monitoring"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Parallel twin, DOHC, 8 valves, 75° crankshaft"
+      ],
+      [
+       "Displacement",
+       "799 cc"
+      ],
+      [
+       "Bore x stroke",
+       "88.0 x 65.7 mm"
+      ],
+      [
+       "Compression ratio",
+       "13:1"
+      ],
+      [
+       "Max power",
+       "69.5 kW @ 9,000 rpm"
+      ],
+      [
+       "Max torque",
+       "79 Nm @ 7,500 rpm"
+      ],
+      [
+       "Fuel system",
+       "Bosch EFI"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ],
+      [
+       "Throttle",
+       "Electronic"
+      ],
+      [
+       "Riding modes",
+       "Eco, Sport, Rain, Off-road"
+      ],
+      [
+       "Top speed",
+       "210 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Wet multi-plate slipper clutch, cable operated"
+      ],
+      [
+       "Quickshifter",
+       "Bi-directional"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Diamond-shaped twin-spar integrated frame (16.8 kg)"
+      ],
+      [
+       "Rear subframe",
+       "Aluminium alloy"
+      ],
+      [
+       "Swingarm",
+       "Aluminium"
+      ],
+      [
+       "Front suspension",
+       "43 mm KYB fork, preload adjustable"
+      ],
+      [
+       "Rear suspension",
+       "KYB shock, preload adjustable"
+      ],
+      [
+       "Suspension travel",
+       "210 mm front / 210 mm rear"
+      ],
+      [
+       "Steering geometry",
+       "Rake 27.15°, trail 113.2 mm, steering angle 35° / 35°"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Dual floating discs, 2-piston floating calipers (Taisko)"
+      ],
+      [
+       "Rear brake",
+       "Single disc, 1-piston floating caliper"
+      ],
+      [
+       "ABS",
+       "Dual-channel, Bosch MSC"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy spoked, 19 in front / 17 in rear"
+      ],
+      [
+       "Tyres",
+       "110/80-R19 front, 150/70-R17 rear (CST)"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,230 x 930 x 1,395 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,520 mm"
+      ],
+      [
+       "Seat height",
+       "826 mm"
+      ],
+      [
+       "Ground clearance",
+       "230 mm"
+      ],
+      [
+       "Kerb weight",
+       "195 kg (215 kg with three cases)"
+      ],
+      [
+       "Fuel tank",
+       "22 L"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Display",
+       "7-inch vertical TFT with phone screen-projection navigation"
+      ],
+      [
+       "Rider aids",
+       "Traction control, cruise control, tyre-pressure monitoring"
+      ],
+      [
+       "Comfort",
+       "Heated grips, heated seat, USB charger"
+      ],
+      [
+       "Lighting",
+       "LED headlight, tail light, indicators and DRL"
+      ],
+      [
+       "Battery",
+       "12 V 6 Ah lithium"
+      ],
+      [
+       "Options",
+       "Steering damper"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "White",
+    "Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kove/800x-touring-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 800X Touring adventure motorcycle in White, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/800x-touring-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove 800X Touring adventure motorcycle in White, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/800x-touring-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 800X Touring adventure motorcycle in Black, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/800x-touring-4",
+     "w": 1200,
+     "h": 788,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Kove 800X Touring adventure motorcycle in White, TFT dash and handlebar detail"
+    },
+    {
+     "src": "/images/motorcycles/kove/800x-touring-5",
+     "w": 1200,
+     "h": 733,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kove 800X Touring adventure motorcycle in White, riding a mountain road with cases"
+    }
+   ],
+   "sourceUrl": "https://www.kovemoto.com/800x-touring",
+   "notes": "Page lists two outputs: 71 kW @ 9,000 rpm / 80 Nm (China IV version) and 69.5 kW / 79 Nm (European version); the European figures are used. 69.5 kW x 1.341 = 93.2 hp (converted). Kerb weight: 195 kg in page text and header, spec table shows 215 kg with 3 cases. Riding modes: spec table says Eco, text calls it Comfort mode. Final drive not published (table cell repeats clutch info)."
+  },
+  {
+   "slug": "625x",
+   "name": "625X",
+   "category": "Adventure",
+   "key": {
+    "engine": "581 cc parallel twin",
+    "cc": 581,
+    "power": "46 kW (62.6 hp)",
+    "torque": "56.5 Nm",
+    "weight": "221 kg kerb",
+    "seat": "820 / 850 mm",
+    "tank": "21 L",
+    "topSpeed": "175 km/h"
+   },
+   "tagline": "Mid-size 581 cc twin adventure bike with rear radar and heated grips",
+   "summary": [
+    "The Kove 625X is a mid-size adventure motorcycle built around a 581 cc liquid-cooled parallel twin with a 270° crankshaft, producing 46 kW and 56.5 Nm. It rolls on 19-inch front and 17-inch rear spoked tubeless wheels, carries a 21-litre tank and weighs 221 kg at the kerb, aimed at daily commuting, road touring and gravel riding.",
+    "Two versions are listed. The 625X PRO uses a 43 mm KYB fork and an adjustable KYB rear shock with an 820 or 850 mm seat. The 625X MAX adds electronic adaptive suspension that lowers the bike below 30 km/h and a dual dash camera. Both carry rear millimetre-wave radar with blind-spot, lane-change and rear-collision warnings, heated seat and grips, and keyless start."
+   ],
+   "highlights": [
+    "581 cc twin with 270° crank: 46 kW at 8,500 rpm, 56.5 Nm at 6,250 rpm",
+    "Rear radar for blind-spot detection, lane-change assist and rear-collision warning",
+    "MAX version: adaptive suspension lowers seat to 795–820 mm below 30 km/h",
+    "Heated rider seat and grips, keyless start, 6.75-inch adjustable TFT",
+    "Windscreen adjustable through 50 mm in three positions",
+    "205 mm ground clearance with 180 mm front and 230 mm rear travel"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Parallel twin, DOHC, 8 valves, 270° crankshaft"
+      ],
+      [
+       "Displacement",
+       "581 cc"
+      ],
+      [
+       "Bore x stroke",
+       "76 x 64 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.5:1"
+      ],
+      [
+       "Max power",
+       "46 kW @ 8,500 rpm"
+      ],
+      [
+       "Max torque",
+       "56.5 Nm @ 6,250 rpm"
+      ],
+      [
+       "Reduced-power version",
+       "35 kW @ 7,750 rpm, top speed 150 km/h"
+      ],
+      [
+       "Fuel system",
+       "EFI"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ],
+      [
+       "Throttle",
+       "Mechanical"
+      ],
+      [
+       "Power modes",
+       "Sport, Eco"
+      ],
+      [
+       "Top speed",
+       "175 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Wet multi-plate slipper clutch, cable operated"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "High-strength steel twin-spar, integrated"
+      ],
+      [
+       "Swingarm",
+       "Aluminium alloy"
+      ],
+      [
+       "Handlebar",
+       "Aluminium alloy, one piece"
+      ],
+      [
+       "Front suspension",
+       "43 mm KYB fork, fully adjustable damping, 180 mm travel"
+      ],
+      [
+       "Rear suspension (PRO)",
+       "KYB, compression and rebound adjustable, 230 mm travel"
+      ],
+      [
+       "Rear suspension (MAX)",
+       "Electronic adaptive shock (ADS + ALS), 230 mm travel"
+      ],
+      [
+       "Steering geometry",
+       "Rake 26°, trail 108 mm, steering angle 35°"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Dual floating discs, opposed 4-piston calipers"
+      ],
+      [
+       "Rear brake",
+       "Single disc, 1-piston caliper"
+      ],
+      [
+       "ABS",
+       "Dual-channel"
+      ],
+      [
+       "Wheels",
+       "Spoked tubeless"
+      ],
+      [
+       "Tyres",
+       "110/80R19 front, 150/70R17 rear (Pirelli)"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,290 x 935 x 1,395 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,495 mm"
+      ],
+      [
+       "Seat height (PRO)",
+       "820 / 850 mm"
+      ],
+      [
+       "Seat height (MAX)",
+       "795–820 / 825–850 mm, speed adaptive"
+      ],
+      [
+       "Ground clearance",
+       "205 mm"
+      ],
+      [
+       "Kerb weight",
+       "221 kg (239 kg with three cases)"
+      ],
+      [
+       "Fuel tank",
+       "21 L"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Display",
+       "6.75-inch TFT, angle adjustable, phone screen-projection navigation"
+      ],
+      [
+       "Radar",
+       "Rear millimetre-wave radar: BSD, LCA, RCW"
+      ],
+      [
+       "Rider aids",
+       "Traction control, tyre-pressure monitoring"
+      ],
+      [
+       "Comfort",
+       "Heated rider seat and heated grips, manually adjustable windscreen"
+      ],
+      [
+       "Charging",
+       "USB fast charging and 12 V socket"
+      ],
+      [
+       "Dash camera",
+       "MAX only (dual cameras)"
+      ],
+      [
+       "Ignition and locks",
+       "Keyless start, electronic lock"
+      ],
+      [
+       "Lighting",
+       "LED headlight with automatic function, DRL, LED tail light and indicators"
+      ],
+      [
+       "Battery",
+       "8.6 Ah gel"
+      ],
+      [
+       "Options",
+       "Three-case luggage set"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Cloud Blade White",
+    "Armor Black",
+    "Astral Blue"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kove/625x-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 625X adventure motorcycle in Cloud Blade White, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/625x-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove 625X MAX adventure motorcycle in Cloud Blade White, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/625x-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove 625X adventure motorcycle in Astral Blue, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/625x-4",
+     "w": 1200,
+     "h": 688,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Kove 625X adventure motorcycle, rear shock and chain detail"
+    },
+    {
+     "src": "/images/motorcycles/kove/625x-5",
+     "w": 1200,
+     "h": 800,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kove 625X adventure motorcycle riding a desert road"
+    }
+   ],
+   "sourceUrl": "https://www.kovemoto.com/kove-625x",
+   "notes": "Official name on the model page: KOVE 625X (menu: KOVE 625X CN4+/E5+), sold as 625X PRO and 625X MAX. Power: 46 kW; the table also states 'MAX HP 62.6', used as published (46 kW x 1.341 = 61.7 hp; 62.6 matches metric PS). Tank: spec table 21 L, page text 21.5 L. Colour photos on the page are labelled White (MAX), Blue (MAX), Black (PRO). Also listed with 35 kW / 150 km/h figures in a second column. kove-625x-cn4-e5 URL serves the same page."
+  },
+  {
+   "slug": "800x-pro",
+   "name": "800X Pro",
+   "category": "Adventure",
+   "key": {
+    "engine": "799 cc parallel twin",
+    "cc": 799,
+    "power": "69.5 kW (93.2 hp)",
+    "torque": "79 Nm",
+    "weight": "190 kg kerb",
+    "seat": "875 mm",
+    "tank": "19 L",
+    "topSpeed": "210 km/h"
+   },
+   "tagline": "190 kg 799 cc adventure bike with 21-inch front and 240 mm KYB travel",
+   "summary": [
+    "The Kove 800X Pro is an off-road focused adventure motorcycle that puts a 799 cc twin into a 190 kg package. The 69.5 kW engine sits in a chassis with a 21-inch front and 18-inch rear spoked wheel, 240 mm of KYB suspension travel at each end and 275 mm of ground clearance, for riders who spend real time on loose and rocky ground.",
+    "Weight is kept down with an aluminium swingarm, handlebar, footrest supports and spoked rims. Ride-by-wire with four riding modes, traction control, dual-channel ABS, a slipper clutch and a quickshifter come with cruise control, tyre-pressure monitoring and a 7-inch TFT with phone navigation projection, so the bike also works for long road stages between trails."
+   ],
+   "highlights": [
+    "799 cc twin: 69.5 kW at 9,000 rpm and 79 Nm at 7,500 rpm",
+    "190 kg kerb weight with aluminium swingarm, handlebar and spoked wheels",
+    "21-inch front and 18-inch rear wheels on Pirelli tyres",
+    "KYB suspension with 240 mm travel front and rear, 275 mm ground clearance",
+    "Quickshifter, slipper clutch, cruise control and four riding modes",
+    "7-inch TFT with phone navigation projection and USB charging"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Parallel twin, DOHC"
+      ],
+      [
+       "Displacement",
+       "799 cc"
+      ],
+      [
+       "Bore x stroke",
+       "88 x 65.7 mm"
+      ],
+      [
+       "Compression ratio",
+       "13:1"
+      ],
+      [
+       "Max power",
+       "69.5 kW @ 9,000 rpm"
+      ],
+      [
+       "Max torque",
+       "79 Nm @ 7,500 rpm"
+      ],
+      [
+       "Reduced-power version",
+       "35 kW @ 7,500 rpm, 66 Nm @ 5,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "Bosch EFI"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ],
+      [
+       "Throttle",
+       "Ride-by-wire, four riding modes"
+      ],
+      [
+       "Top speed",
+       "210 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Clutch",
+       "Slipper clutch"
+      ],
+      [
+       "Quickshifter",
+       "Yes"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Swingarm",
+       "Aluminium"
+      ],
+      [
+       "Front suspension",
+       "48 mm KYB fork, preload and damping adjustable"
+      ],
+      [
+       "Rear suspension",
+       "KYB shock, preload and damping adjustable"
+      ],
+      [
+       "Suspension travel",
+       "240 mm front / 240 mm rear"
+      ],
+      [
+       "Steering geometry",
+       "Rake 26.15°, steering angle 35° / 35°"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Dual floating discs, opposed 4-piston calipers (Taisko)"
+      ],
+      [
+       "Rear brake",
+       "Single disc, 1-piston floating caliper"
+      ],
+      [
+       "ABS",
+       "Dual-channel"
+      ],
+      [
+       "Wheels",
+       "Aluminium alloy spoked, 21 in front / 18 in rear"
+      ],
+      [
+       "Tyres",
+       "90/90-21 front, 150/70-R18 rear (Pirelli)"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,240 x 895 x 1,385 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,520 mm"
+      ],
+      [
+       "Seat height",
+       "875 mm"
+      ],
+      [
+       "Ground clearance",
+       "275 mm"
+      ],
+      [
+       "Kerb weight",
+       "190 kg"
+      ],
+      [
+       "Fuel tank",
+       "19 L"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Display",
+       "7-inch TFT with phone screen-projection navigation"
+      ],
+      [
+       "Rider aids",
+       "Traction control, cruise control, tyre-pressure monitoring"
+      ],
+      [
+       "Charging",
+       "USB"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Black",
+    "White"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kove/800x-pro-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 800X Pro adventure motorcycle in White, left side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/800x-pro-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove 800X Pro adventure motorcycle in Black, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/800x-pro-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 800X Pro adventure motorcycle in Black, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/800x-pro-4",
+     "w": 1200,
+     "h": 799,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kove 800X Pro adventure motorcycle riding through a muddy forest track"
+    },
+    {
+     "src": "/images/motorcycles/kove/800x-pro-5",
+     "w": 1200,
+     "h": 675,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kove 800X Pro adventure motorcycle in White, riding a mountain road"
+    }
+   ],
+   "sourceUrl": "https://www.kovemoto.com/kove-800x-pro",
+   "notes": "There is no plain '800X' model on the current site; the 800X line is 800X Pro, 800X Rally and 800X Touring. 69.5 kW x 1.341 = 93.2 hp (converted). Spec table gives three columns (China IV, Euro 5+, Euro 5+): 69.5 kW / 35 kW / 69.5 kW; the 35 kW column is listed here as a reduced-power version. Gearbox ratio count not published on this page (the 800X Touring page lists 6-speed for the same engine). Owner's figures 95 hp and 183 kg are not on the current page: 190 kg kerb; 95 hp matches the 71 kW China IV output listed on the 800X Touring page."
+  },
+  {
+   "slug": "525x",
+   "name": "525X",
+   "category": "Adventure",
+   "key": {
+    "engine": "494 cc parallel twin",
+    "cc": 494,
+    "power": "39.6 kW (53.1 hp)",
+    "torque": "50.5 Nm",
+    "weight": "215 kg kerb with three cases",
+    "seat": "820 mm",
+    "tank": "20 L",
+    "topSpeed": "170 km/h"
+   },
+   "tagline": "494 cc twin adventure bike with KYB suspension and Brembo calipers",
+   "summary": [
+    "The Kove 525X is a mid-size adventure motorcycle powered by a 494 cc liquid-cooled DOHC parallel twin with square 68 x 68 mm bore and stroke, giving 39.6 kW and 50.5 Nm. It uses a 19-inch front and 17-inch rear wheel set, an 820 mm seat and a 20-litre tank, sized for weekend trips and longer rides off the tarmac.",
+    "Adjustable KYB suspension gives 195 mm of travel at the front and 200 mm at the rear, with 210 mm of ground clearance. Braking is by dual floating front discs with Brembo two-piston calipers and a single rear disc. Kerb weight is listed as 215 kg with the three-case luggage set fitted, and instruments are a TFT display."
+   ],
+   "highlights": [
+    "494 cc DOHC twin: 39.6 kW at 8,500 rpm, 50.5 Nm at 7,000 rpm",
+    "KYB adjustable fork and centrally mounted adjustable KYB shock",
+    "Dual floating front discs with Brembo 2-piston calipers",
+    "820 mm seat and 210 mm ground clearance",
+    "20 L fuel tank and TFT instruments",
+    "19-inch front and 17-inch rear wheels"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Parallel twin, DOHC"
+      ],
+      [
+       "Displacement",
+       "494 cc"
+      ],
+      [
+       "Bore x stroke",
+       "68 x 68 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.5:1"
+      ],
+      [
+       "Max power",
+       "39.6 kW @ 8,500 rpm"
+      ],
+      [
+       "Max torque",
+       "50.5 Nm @ 7,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "Bosch EFI"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ],
+      [
+       "Top speed",
+       "170 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "KYB, preload and damping adjustable"
+      ],
+      [
+       "Rear suspension",
+       "KYB, centrally mounted, preload and damping fully adjustable"
+      ],
+      [
+       "Suspension travel",
+       "195 mm front / 200 mm rear"
+      ],
+      [
+       "Steering geometry",
+       "Rake 26.5°, steering angle 38°"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Dual floating discs, Brembo 2-piston calipers"
+      ],
+      [
+       "Rear brake",
+       "Single disc, 1-piston caliper"
+      ],
+      [
+       "Tyres",
+       "110/80 R19 front, 150/70 R17 rear"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,260 x 945 x 1,390 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,470 mm"
+      ],
+      [
+       "Seat height",
+       "820 mm"
+      ],
+      [
+       "Ground clearance",
+       "210 mm"
+      ],
+      [
+       "Kerb weight",
+       "215 kg (with three cases)"
+      ],
+      [
+       "Fuel tank",
+       "20 L"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Display",
+       "TFT"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Blue",
+    "Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kove/525x-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 525X adventure motorcycle in Blue, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/525x-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove 525X adventure motorcycle in Blue, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/525x-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove 525X adventure motorcycle in Black, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/525x-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 525X adventure motorcycle in Black with three cases, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/525x-5",
+     "w": 1200,
+     "h": 620,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kove 525X adventure motorcycle in Blue, riding along a rocky riverbed"
+    }
+   ],
+   "sourceUrl": "https://www.kovemoto.com/kove-525x",
+   "notes": "Page has no overview text, only the spec table; copy is written from specs only. 39.6 kW x 1.341 = 53.1 hp (converted). Kerb weight only published with three cases (215 kg). Spec table lists only a China IV emissions entry (no Euro 5+ column), unlike every other road model: check availability for European buyers before listing. Gearbox not published."
+  },
+  {
+   "slug": "800x-rally",
+   "name": "800X Rally",
+   "category": "Rally",
+   "key": {
+    "engine": "799 cc parallel twin",
+    "cc": 799,
+    "power": "69.5 kW (93.2 hp)",
+    "torque": "79 Nm",
+    "weight": "176 kg kerb",
+    "seat": "890 mm",
+    "tank": "20 L",
+    "topSpeed": "180 km/h"
+   },
+   "tagline": "176 kg twin-cylinder rally adventure bike with 270 mm fork travel",
+   "summary": [
+    "The Kove 800X Rally takes the 799 cc twin from Kove's adventure range and builds a rally-style motorcycle around it. With 69.5 kW, 79 Nm and a kerb weight of 176 kg, it is the lightest of the 800X models, and its centrally placed 20-litre tank keeps fuel weight near the middle of the bike as it empties.",
+    "It is aimed at riders planning long trips that include hard off-road sections. A fully adjustable 49 mm dual-chamber fork with 270 mm of travel, a 240 mm rear shock with external reservoir, a 21-inch front wheel and 293 mm of ground clearance handle ruts and rocks. A mechanical throttle gives direct response on loose surfaces, and seat height is 890 mm."
+   ],
+   "highlights": [
+    "799 cc twin: 69.5 kW at 9,000 rpm and 79 Nm at 7,500 rpm",
+    "176 kg kerb weight with a centrally mounted 20 L fuel tank",
+    "49 mm fully adjustable fork, 270 mm front and 240 mm rear travel",
+    "293 mm ground clearance and 890 mm seat height",
+    "21-inch front and 18-inch rear wheels, 1,545 mm wheelbase",
+    "Split aluminium subframe and TFT instruments"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Parallel twin, DOHC"
+      ],
+      [
+       "Displacement",
+       "799 cc"
+      ],
+      [
+       "Bore x stroke",
+       "88 x 65.7 mm"
+      ],
+      [
+       "Compression ratio",
+       "13:1"
+      ],
+      [
+       "Max power",
+       "69.5 kW @ 9,000 rpm"
+      ],
+      [
+       "Max torque",
+       "79 Nm @ 7,500 rpm"
+      ],
+      [
+       "Fuel system",
+       "Bosch EFI"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ],
+      [
+       "Throttle",
+       "Mechanical"
+      ],
+      [
+       "Top speed",
+       "180 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Subframe",
+       "Split aluminium alloy"
+      ],
+      [
+       "Front suspension",
+       "49 mm dual-chamber fork, fully adjustable"
+      ],
+      [
+       "Rear suspension",
+       "Preload and damping adjustable, external reservoir"
+      ],
+      [
+       "Suspension travel",
+       "270 mm front / 240 mm rear"
+      ],
+      [
+       "Steering geometry",
+       "Rake 26.15°, steering angle 32°"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Single floating disc, 2-piston floating caliper"
+      ],
+      [
+       "Rear brake",
+       "Single disc, 1-piston floating caliper"
+      ],
+      [
+       "Tyres",
+       "90/90-21 front, 140/80-18 rear"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,267 x 810 x 1,435 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,545 mm"
+      ],
+      [
+       "Seat height",
+       "890 mm"
+      ],
+      [
+       "Ground clearance",
+       "293 mm"
+      ],
+      [
+       "Kerb weight",
+       "176 kg"
+      ],
+      [
+       "Fuel tank",
+       "20 L"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Display",
+       "TFT"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Green",
+    "Golden"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kove/800x-rally-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 800X Rally rally motorcycle in Golden, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/800x-rally-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove 800X Rally rally motorcycle in Green, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/800x-rally-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 800X Rally rally motorcycle in Green, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/800x-rally-4",
+     "w": 1200,
+     "h": 759,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kove 800X Rally rally motorcycle in Golden, riding through desert sand"
+    },
+    {
+     "src": "/images/motorcycles/kove/800x-rally-5",
+     "w": 1200,
+     "h": 1042,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kove 800X Rally rally motorcycle in Golden, crossing a rocky stream"
+    }
+   ],
+   "sourceUrl": "https://www.kovemoto.com/kove-800x-rally",
+   "notes": "Owner's figures confirmed exactly: 799 cc, 69.5 kW, 176 kg curb (kerb), 890 mm seat. 69.5 kW x 1.341 = 93.2 hp (converted). Gearbox, ABS and electronics not published on this page. 'External airbag' in the table rendered as external reservoir."
+  },
+  {
+   "slug": "450-rally-re",
+   "name": "450 Rally RE",
+   "category": "Rally",
+   "key": {
+    "engine": "449 cc single",
+    "cc": 449,
+    "power": "38 kW (51.0 hp)",
+    "torque": "39 Nm",
+    "weight": "155 kg kerb",
+    "seat": "910 / 960 mm",
+    "tank": "32 L",
+    "topSpeed": "170 km/h"
+   },
+   "tagline": "449 cc rally bike with lights, ABS, 32-litre tank and two seat heights",
+   "summary": [
+    "The Kove 450 Rally RE is the version of Kove's 450 rally machine fitted with lights and ABS, built for long distances on remote tracks. Its 449 cc liquid- and oil-cooled DOHC single drives through a six-speed gearbox with hydraulic clutch, and a 32-litre fuel capacity at 155 kg kerb weight lets riders cover long stretches between fuel stops.",
+    "It comes in two seat-height set-ups. The high version gives 305 mm of front travel, 300 mm at the rear and 295 mm of ground clearance; the low version has 255 mm and 270 mm of travel. A steel twin-spar frame, 21-inch front and 18-inch rear wheels, fully adjustable suspension, dual-channel ABS and a TFT display complete the package."
+   ],
+   "highlights": [
+    "449 cc DOHC single with six-speed gearbox and hydraulic clutch",
+    "32 L fuel capacity at 155 kg kerb weight",
+    "Two set-ups: 305/300 mm or 255/270 mm suspension travel",
+    "Up to 295 mm ground clearance on the high-seat version",
+    "21-inch front and 18-inch rear wheels on a steel twin-spar frame",
+    "Dual-channel ABS and TFT display"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, DOHC"
+      ],
+      [
+       "Displacement",
+       "449 cc"
+      ],
+      [
+       "Bore x stroke",
+       "94.5 x 64 mm"
+      ],
+      [
+       "Max power",
+       "38 kW @ 9,500 rpm"
+      ],
+      [
+       "Max torque",
+       "39 Nm @ 7,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "EFI"
+      ],
+      [
+       "Cooling",
+       "Liquid and oil cooled"
+      ],
+      [
+       "Top speed",
+       "170 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Hydraulic"
+      ],
+      [
+       "Final drive",
+       "Chain"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "High-strength steel twin-spar"
+      ],
+      [
+       "Front suspension",
+       "Upside-down fork, fully adjustable (Yu An)"
+      ],
+      [
+       "Rear suspension",
+       "Shock with external reservoir (Yu An)"
+      ],
+      [
+       "Suspension travel (high seat)",
+       "305 mm front / 300 mm rear"
+      ],
+      [
+       "Suspension travel (low seat)",
+       "255 mm front / 270 mm rear"
+      ],
+      [
+       "Steering geometry",
+       "Rake 28°, steering angle 38.5°"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Single floating disc, 2-piston caliper"
+      ],
+      [
+       "Rear brake",
+       "Single disc, 1-piston caliper"
+      ],
+      [
+       "ABS",
+       "Dual-channel"
+      ],
+      [
+       "Tyres",
+       "90/90-21 front, 140/80-18 rear"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,190 x 805 x 1,390 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,475 / 1,490 mm (high / low seat)"
+      ],
+      [
+       "Seat height",
+       "910 / 960 mm"
+      ],
+      [
+       "Ground clearance",
+       "255 mm (low seat) / 295 mm (high seat)"
+      ],
+      [
+       "Kerb weight",
+       "155 kg"
+      ],
+      [
+       "Fuel tank",
+       "32 L"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Display",
+       "TFT"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Red",
+    "Teal"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kove/450-rally-re-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 450 Rally RE rally motorcycle in Red, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/450-rally-re-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove 450 Rally RE rally motorcycle in Red, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/450-rally-re-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 450 Rally RE rally motorcycle in Teal, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/450-rally-re-4",
+     "w": 1200,
+     "h": 675,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kove 450 Rally RE rally motorcycle in Red, riding a mountain gravel track"
+    }
+   ],
+   "sourceUrl": "https://www.kovemoto.com/kove-450-rally-re",
+   "notes": "CONFLICT: spec table says 38 kW @ 9,500 rpm and 39 Nm @ 7,000 rpm; overview text says 31 kW and 35 Nm 'in Euro V+ specification'. Table figures used; 38 kW x 1.341 = 51.0 hp (converted), which matches the owner's 51 hp. Bore x stroke 94.5 x 64 mm differs from the 450 Rally EX (96 x 62.15 mm). Seat height 910/960 mm: page does not say which is low or high (presumed 910 low, 960 high). Weight is published as kerb 155 kg, not dry 145 kg. Colour section says 'Red and green'; photo labels are Red and Teal. Text heading says 'About 450X Rally'. Compression ratio not published."
+  },
+  {
+   "slug": "450-rally-ex",
+   "name": "450 Rally EX",
+   "category": "Rally",
+   "key": {
+    "engine": "450 cc single",
+    "cc": 450,
+    "power": "45 kW (60.3 hp)",
+    "torque": "50 Nm",
+    "weight": "128 kg",
+    "seat": "960 mm",
+    "tank": "34 L",
+    "topSpeed": "180 km/h"
+   },
+   "tagline": "Competition 450 cc rally bike with 34-litre fuel capacity and 128 kg",
+   "summary": [
+    "The Kove 450 Rally EX is the competition version of Kove's 450 rally bike, built for timed rally stages rather than road use. Its 450 cc DOHC four-valve single, cooled by both water and oil, makes 45 kW and 50 Nm, and drives a six-speed gearbox through a hydraulic clutch to suit both technical sections and fast desert tracks.",
+    "The package weighs 128 kg yet carries 34 litres of fuel for long stages. A fully adjustable inverted fork and rear shock give 305 mm and 300 mm of travel, with 305 mm of ground clearance and a 960 mm seat. The frame is high-strength steel twin-spar, with a 21-inch front and 18-inch rear wheel."
+   ],
+   "highlights": [
+    "450 cc DOHC four-valve single: 45 kW at 9,500 rpm, 50 Nm at 7,500 rpm",
+    "128 kg with 34 L fuel capacity for long rally stages",
+    "Fully adjustable suspension: 305 mm front, 300 mm rear travel",
+    "305 mm ground clearance and 960 mm seat height",
+    "Six-speed gearbox with hydraulic clutch",
+    "21-inch front and 18-inch rear wheels"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, DOHC, 4 valves, 4-stroke"
+      ],
+      [
+       "Displacement",
+       "450 cc"
+      ],
+      [
+       "Bore x stroke",
+       "96 x 62.15 mm"
+      ],
+      [
+       "Compression ratio",
+       "13:1"
+      ],
+      [
+       "Max power",
+       "45 kW @ 9,500 rpm"
+      ],
+      [
+       "Max torque",
+       "50 Nm @ 7,500 rpm"
+      ],
+      [
+       "Fuel system",
+       "EFI"
+      ],
+      [
+       "Cooling",
+       "Liquid and oil cooled"
+      ],
+      [
+       "Top speed",
+       "180 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Hydraulic"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "High-strength steel twin-spar"
+      ],
+      [
+       "Front suspension",
+       "Inverted fork, fully adjustable damping"
+      ],
+      [
+       "Rear suspension",
+       "Fully adjustable damping, external reservoir"
+      ],
+      [
+       "Suspension travel",
+       "305 mm front / 300 mm rear"
+      ],
+      [
+       "Steering geometry",
+       "Rake 28°, steering angle 38.5°"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Single floating disc, 2-piston caliper"
+      ],
+      [
+       "Rear brake",
+       "Single disc, 1-piston caliper"
+      ],
+      [
+       "Tyres",
+       "90/90-21 front, 140/80-18 rear"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,190 x 845 x 1,485 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,490 mm"
+      ],
+      [
+       "Seat height",
+       "960 mm"
+      ],
+      [
+       "Ground clearance",
+       "305 mm"
+      ],
+      [
+       "Weight",
+       "128 kg"
+      ],
+      [
+       "Fuel tank",
+       "34 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Red",
+    "Green"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kove/450-rally-ex-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 450 Rally EX rally motorcycle in Green, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/450-rally-ex-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove 450 Rally EX rally motorcycle in Red, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/450-rally-ex-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 450 Rally EX rally motorcycle in Red, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/450-rally-ex-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove 450 Rally EX rally motorcycle in Green, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/450-rally-ex-5",
+     "w": 1200,
+     "h": 675,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kove 450 Rally EX rally motorcycle in Green, riding desert dunes"
+    }
+   ],
+   "sourceUrl": "https://www.kovemoto.com/kove-450-rally-ex",
+   "notes": "Competition model ('purpose-built for rally competition'); no lights, ABS or road equipment listed. Weight: 128 kg is called 'dry weight' in the text but 'Curb weight' in the spec table. 45 kW x 1.341 = 60.3 hp (converted). Text mentions a KYB fork; spec table does not name the brand, so brand is left out of the spec rows. Owner's '450 Rally: 51 hp, 145 kg dry, 965 mm seat' does not match either current 450 Rally page: EX is 45 kW (60.3 hp), 128 kg, 960 mm; RE is 38 kW (51.0 hp), 155 kg kerb, 910/960 mm. The URL kove-450rally-ex (no hyphen, in the home page menu) shows the home page."
+  },
+  {
+   "slug": "450rr",
+   "name": "450RR",
+   "category": "Sport",
+   "key": {
+    "engine": "443 cc inline four",
+    "cc": 443,
+    "power": "49 kW (66.6 hp)",
+    "torque": "38 Nm",
+    "weight": "165 kg kerb",
+    "seat": "785 mm",
+    "tank": "15 L",
+    "topSpeed": "220 km/h"
+   },
+   "tagline": "443 cc inline-four sports bike revving to 14,000 rpm, track-ready kit",
+   "summary": [
+    "The Kove 450RR is a full-fairing sports bike powered by a 443 cc inline-four that revs to 14,000 rpm and makes 49 kW at 13,250 rpm. Kove draws on its World Superbike paddock experience for the bike, which pairs the engine with a 7 kg steel trellis frame, a 1,385 mm wheelbase and a 165 kg kerb weight.",
+    "It suits track-day riders and buyers who want four-cylinder character in a light, compact bike. Fully adjustable KYB suspension, 300 mm twin front discs with four-piston calipers, dual-channel ABS, traction control, an upshift quickshifter, launch control and a steering damper come as standard. A beginner mode limits top speed to 140 km/h for the first 500 km."
+   ],
+   "highlights": [
+    "443 cc inline-four: 49 kW at 13,250 rpm, 14,000 rpm rev ceiling",
+    "Ram-air intake adds up to 3 PS above 150 km/h",
+    "Fully adjustable KYB 41 mm upside-down fork and KYB rear shock",
+    "Quickshifter, launch control, traction control and steering damper as standard",
+    "165 kg kerb weight, 1,385 mm wheelbase, 785–795 mm adjustable seat",
+    "Beginner mode caps speed at 140 km/h until the first 500 km"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Inline four-cylinder, DOHC, 4-stroke"
+      ],
+      [
+       "Displacement",
+       "443 cc"
+      ],
+      [
+       "Bore x stroke",
+       "59 x 40.5 mm"
+      ],
+      [
+       "Compression ratio",
+       "12.9:1"
+      ],
+      [
+       "Max power",
+       "49 kW @ 13,250 rpm"
+      ],
+      [
+       "Max torque",
+       "38 Nm @ 11,000 rpm"
+      ],
+      [
+       "Maximum rpm",
+       "14,000 rpm"
+      ],
+      [
+       "Intake",
+       "Ram-air"
+      ],
+      [
+       "Fuel system",
+       "EFI"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ],
+      [
+       "Throttle",
+       "Mechanical"
+      ],
+      [
+       "Power modes",
+       "Sport, Eco"
+      ],
+      [
+       "Top speed",
+       "220 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Wet multi-plate slipper clutch, cable operated"
+      ],
+      [
+       "Quickshifter",
+       "Upshift"
+      ],
+      [
+       "Launch control",
+       "Yes"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "HC700 + Q355B steel trellis"
+      ],
+      [
+       "Swingarm",
+       "Stamped high-strength steel, double-sided"
+      ],
+      [
+       "Handlebar",
+       "Aluminium alloy clip-ons"
+      ],
+      [
+       "Footrest supports",
+       "Aluminium alloy"
+      ],
+      [
+       "Front suspension",
+       "KYB 41 mm upside-down fork, fully adjustable"
+      ],
+      [
+       "Rear suspension",
+       "KYB shock, fully adjustable, external reservoir"
+      ],
+      [
+       "Suspension travel",
+       "112 mm front / 40 mm rear (as published)"
+      ],
+      [
+       "Steering geometry",
+       "Rake 24.5°, trail 98 mm, steering angle 28°"
+      ],
+      [
+       "Steering damper",
+       "Yes"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Dual 300 mm discs, opposed 4-piston calipers (Taisko)"
+      ],
+      [
+       "Rear brake",
+       "220 mm single disc, 1-piston caliper (Taisko)"
+      ],
+      [
+       "ABS",
+       "Dual-channel"
+      ],
+      [
+       "Wheels",
+       "Cast aluminium alloy"
+      ],
+      [
+       "Tyres",
+       "120/70ZR17 front, 160/60ZR17 rear"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,015 x 740 x 1,090 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,385 mm"
+      ],
+      [
+       "Seat height",
+       "785 mm (adjustable 785–795 mm)"
+      ],
+      [
+       "Ground clearance",
+       "118 mm"
+      ],
+      [
+       "Kerb weight",
+       "165 kg"
+      ],
+      [
+       "Fuel tank",
+       "15 L"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Display",
+       "TFT with phone screen-projection navigation"
+      ],
+      [
+       "Rider aids",
+       "Traction control, beginner mode"
+      ],
+      [
+       "Lighting",
+       "LED automatic headlight, LED DRL, tail light and indicators"
+      ],
+      [
+       "Battery",
+       "12 V 4 Ah lithium"
+      ],
+      [
+       "Key",
+       "Standard key"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Crimson White",
+    "Storm Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kove/450rr-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 450RR sport motorcycle in Crimson White, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/450rr-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove 450RR sport motorcycle in Crimson White, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/450rr-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove 450RR sport motorcycle in Storm Black, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/450rr-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Kove 450RR sport motorcycle in Crimson White, front fork and brake detail"
+    },
+    {
+     "src": "/images/motorcycles/kove/450rr-5",
+     "w": 1200,
+     "h": 675,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kove 450RR sport motorcycle in Crimson White, riding an open road"
+    }
+   ],
+   "sourceUrl": "https://www.kovemoto.com/kove-450rr",
+   "notes": "Power: 49 kW; page text gives 66.6 hp, used as published (49 kW x 1.341 = 65.7 hp; 66.6 matches metric PS). Rear suspension travel '40' as published (likely shock stroke, not wheel travel). Page claims a 'world-first 3/4 frame' and WSBK lineage; the first-claim is omitted from copy. Seat height 785 mm in table, 785–795 mm adjustable in text."
+  },
+  {
+   "slug": "350rr",
+   "name": "350RR",
+   "category": "Sport",
+   "key": {
+    "engine": "344 cc parallel twin",
+    "cc": 344,
+    "power": "35 kW (46.9 hp)",
+    "torque": "32.2 Nm",
+    "weight": "164 kg kerb",
+    "seat": "790 mm",
+    "tank": "15 L",
+    "topSpeed": "180 km/h"
+   },
+   "tagline": "344 cc twin-cylinder sports bike built on Kove's SSP300 race platform",
+   "summary": [
+    "The Kove 350RR is a lightweight full-fairing sports bike whose engine and frame platform were developed from Kove's World Supersport 300 race bike. The 344 cc liquid-cooled parallel twin uses forged pistons, crankshaft and balance shaft with DLC-coated parts, and produces 35 kW at 11,500 rpm and 32.2 Nm at 9,000 rpm.",
+    "It is pitched at newer riders moving up a class and at those who ride mountain roads or track days. A 790 mm seat with a narrow front section, 164 kg kerb weight and a 1,374 mm wheelbase keep it approachable, while a slipper clutch, Bosch EFI with Eco and Sport modes, dual-channel ABS and switchable traction control are standard. A Champion Edition in race livery is offered."
+   ],
+   "highlights": [
+    "344 cc DOHC twin: 35 kW at 11,500 rpm, 32.2 Nm at 9,000 rpm",
+    "Forged pistons, crankshaft and balance shaft with DLC-coated parts",
+    "164 kg kerb weight and 790 mm seat with narrow front section",
+    "Dual-channel ABS and traction control that can be switched off",
+    "5-inch TFT with phone connectivity and navigation projection",
+    "Drag coefficient of 0.46 with winglets and full fairing"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Inline twin, DOHC, 8 valves, 4-stroke"
+      ],
+      [
+       "Displacement",
+       "344 cc"
+      ],
+      [
+       "Bore x stroke",
+       "69 x 46 mm"
+      ],
+      [
+       "Compression ratio",
+       "12.5:1"
+      ],
+      [
+       "Max power",
+       "35 kW @ 11,500 rpm"
+      ],
+      [
+       "Max torque",
+       "32.2 Nm @ 9,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "Bosch EFI"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ],
+      [
+       "Throttle",
+       "Mechanical"
+      ],
+      [
+       "Power modes",
+       "Sport, Eco"
+      ],
+      [
+       "Top speed",
+       "180 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Wet multi-plate slipper clutch, cable operated"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Diamond-shaped twin-spar, integrated"
+      ],
+      [
+       "Swingarm",
+       "Stamped, double-sided"
+      ],
+      [
+       "Handlebar",
+       "Aluminium alloy, one piece"
+      ],
+      [
+       "Footrest supports",
+       "Aluminium alloy"
+      ],
+      [
+       "Front suspension",
+       "37 mm upside-down fork, non-adjustable"
+      ],
+      [
+       "Rear suspension",
+       "Yu An monoshock, preload adjustable"
+      ],
+      [
+       "Suspension travel",
+       "126 mm front / 45.5 mm rear (as published)"
+      ],
+      [
+       "Steering geometry",
+       "Rake 24.5°, trail 95 mm, steering angle 30°"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "320 mm single disc, 2-piston floating caliper (Taisko)"
+      ],
+      [
+       "Rear brake",
+       "220 mm single disc, 1-piston floating caliper (Taisko)"
+      ],
+      [
+       "ABS",
+       "Dual-channel"
+      ],
+      [
+       "Wheels",
+       "Cast aluminium alloy"
+      ],
+      [
+       "Tyres",
+       "110/70R17 front, 150/60R17 rear (CST S1), tubeless"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,000 x 745 x 1,100 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,374 mm"
+      ],
+      [
+       "Seat height",
+       "790 mm"
+      ],
+      [
+       "Ground clearance",
+       "135 mm"
+      ],
+      [
+       "Kerb weight",
+       "164 kg"
+      ],
+      [
+       "Fuel tank",
+       "15 L"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Display",
+       "5-inch TFT with phone connectivity and navigation projection"
+      ],
+      [
+       "Rider aids",
+       "Traction control (switchable)"
+      ],
+      [
+       "Lighting",
+       "LED headlight, DRL, tail light and indicators"
+      ],
+      [
+       "Battery",
+       "12 V 7 Ah gel"
+      ],
+      [
+       "Key",
+       "Standard key"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "White",
+    "Champion Edition",
+    "Silver"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kove/350rr-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 350RR sport motorcycle in White, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/350rr-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove 350RR sport motorcycle in White, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/350rr-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove 350RR sport motorcycle in Silver, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/350rr-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Kove 350RR sport motorcycle, 5-inch TFT dash and top yoke detail"
+    },
+    {
+     "src": "/images/motorcycles/kove/350rr-5",
+     "w": 1200,
+     "h": 675,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kove 350RR sport motorcycle in Champion Edition livery, cornering on track"
+    }
+   ],
+   "sourceUrl": "https://www.kovemoto.com/kove-350rr",
+   "notes": "35 kW x 1.341 = 46.9 hp (converted). CONFLICT: text says '30° rake'; spec table says rake 24.5° and steering angle 30°; table used. Rear travel 45.5 mm as published (likely shock stroke). Photos are labelled White (DSA), Silver (DSA), White (SSA), WSBK (SSA); DSA/SSA versions are not explained and only one spec table is published. The page says the platform comes from the 'WSBK SSP300 championship-winning race bike' and mentions a 'JEREZ 1ST' badge on the Champion Edition; copy only says it was developed from Kove's World Supersport 300 race bike."
+  },
+  {
+   "slug": "250rr",
+   "name": "250RR",
+   "category": "Sport",
+   "key": {
+    "engine": "249 cc parallel twin",
+    "cc": 249,
+    "power": "24 kW (32.2 hp)",
+    "torque": "22.5 Nm",
+    "weight": "153 kg kerb",
+    "seat": "790 mm",
+    "tank": "13 L",
+    "topSpeed": "160 km/h"
+   },
+   "tagline": "Entry-level 249 cc twin-cylinder sports bike with ABS and TFT dash",
+   "summary": [
+    "The Kove 250RR is an entry-level full-fairing sports bike with a 249 cc liquid-cooled inline twin producing 24 kW at 11,500 rpm and 22.5 Nm at 9,000 rpm. It is built for new riders who want sports styling and light handling, with a 790 mm seat, 153 kg kerb weight and a short 1,370 mm wheelbase.",
+    "The chassis uses an upside-down hydraulic fork and a preload-adjustable rear monoshock. A 320 mm front disc with a two-piston caliper and a 220 mm rear disc both run ABS. With 17-inch wheels, a 13-litre tank, a 160 km/h top speed and TFT instruments, it is a practical first sports bike for daily riding."
+   ],
+   "highlights": [
+    "249 cc inline twin: 24 kW at 11,500 rpm, 22.5 Nm at 9,000 rpm",
+    "153 kg kerb weight and 790 mm seat height",
+    "Upside-down fork and preload-adjustable rear monoshock",
+    "320 mm front and 220 mm rear discs with ABS",
+    "13 L tank, 160 km/h top speed and TFT display"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Inline twin, 4-stroke"
+      ],
+      [
+       "Displacement",
+       "249 cc"
+      ],
+      [
+       "Bore x stroke",
+       "62 x 41.4 mm"
+      ],
+      [
+       "Compression ratio",
+       "12.5:1"
+      ],
+      [
+       "Max power",
+       "24 kW @ 11,500 rpm"
+      ],
+      [
+       "Max torque",
+       "22.5 Nm @ 9,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "EFI"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ],
+      [
+       "Top speed",
+       "160 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "Upside-down hydraulic fork"
+      ],
+      [
+       "Rear suspension",
+       "Monoshock, preload adjustable"
+      ],
+      [
+       "Suspension travel",
+       "103.5 mm front / 38.5 mm rear (as published)"
+      ],
+      [
+       "Steering geometry",
+       "Rake 24.5°, steering angle 31°"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "320 mm single disc, 2-piston caliper, ABS"
+      ],
+      [
+       "Rear brake",
+       "220 mm single disc, 1-piston caliper, ABS"
+      ],
+      [
+       "Tyres",
+       "110/70 R17 front, 140/60 R17 rear"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "1,975 x 743 x 1,080 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,370 mm"
+      ],
+      [
+       "Seat height",
+       "790 mm"
+      ],
+      [
+       "Ground clearance",
+       "125 mm"
+      ],
+      [
+       "Kerb weight",
+       "153 kg"
+      ],
+      [
+       "Fuel tank",
+       "13 L"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Display",
+       "TFT"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Black",
+    "White"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kove/250rr-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 250RR sport motorcycle in White, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/250rr-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove 250RR sport motorcycle in White, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/250rr-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 250RR sport motorcycle in Black, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/250rr-4",
+     "w": 1200,
+     "h": 661,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kove 250RR sport motorcycle in White, cornering on a track"
+    }
+   ],
+   "sourceUrl": "https://www.kovemoto.com/kove-250rr",
+   "notes": "24 kW x 1.341 = 32.2 hp (converted). Page has no overview text, only the spec table and tagline. Gearbox not published. Rear travel 38.5 mm as published (likely shock stroke)."
+  },
+  {
+   "slug": "450r",
+   "name": "450R",
+   "category": "Naked",
+   "key": {
+    "engine": "443 cc inline four",
+    "cc": 443,
+    "power": "48 kW (64.4 hp)",
+    "torque": "38 Nm",
+    "weight": "165 kg kerb",
+    "seat": "795 mm",
+    "tank": "17 L",
+    "topSpeed": "205 km/h"
+   },
+   "tagline": "443 cc inline-four naked bike with traction control and 795 mm seat",
+   "summary": [
+    "The Kove 450R is a compact streetfighter built around a 443 cc liquid-cooled DOHC inline-four that produces 48 kW at 13,500 rpm and 38 Nm at 11,000 rpm. Power builds smoothly before a strong high-rev finish, putting four-cylinder character into a compact and light naked bike.",
+    "A steel trellis frame, 1,385 mm wheelbase and 165 kg kerb weight keep it quick to change direction, while the 795 mm seat and upright position suit daily riding. It has a six-speed gearbox with slipper clutch, twin front discs with four-piston calipers, dual-channel ABS, traction control, Sport and Eco modes, a 17-litre tank and a TFT with phone navigation projection."
+   ],
+   "highlights": [
+    "443 cc DOHC inline-four: 48 kW at 13,500 rpm, 38 Nm at 11,000 rpm",
+    "165 kg kerb weight on a high-strength steel trellis frame",
+    "795 mm seat height and relaxed riding position",
+    "Twin 300 mm front discs, 4-piston calipers, dual-channel ABS",
+    "Traction control, Sport and Eco modes, slipper clutch",
+    "17 L tank and TFT with phone navigation projection"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Inline four-cylinder, DOHC, 4-stroke"
+      ],
+      [
+       "Displacement",
+       "443 cc"
+      ],
+      [
+       "Bore x stroke",
+       "59 x 40.5 mm"
+      ],
+      [
+       "Compression ratio",
+       "11.6:1"
+      ],
+      [
+       "Max power",
+       "48 kW @ 13,500 rpm"
+      ],
+      [
+       "Max torque",
+       "38 Nm @ 11,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "EFI"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ],
+      [
+       "Power modes",
+       "Sport, Eco"
+      ],
+      [
+       "Top speed",
+       "205 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Slipper clutch"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "High-strength steel trellis"
+      ],
+      [
+       "Front suspension",
+       "41 mm inverted telescopic fork"
+      ],
+      [
+       "Rear suspension",
+       "Monoshock"
+      ],
+      [
+       "Suspension travel",
+       "112 mm front / 42 mm rear (as published)"
+      ],
+      [
+       "Steering geometry",
+       "Rake 24.5°, steering angle 35°"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Dual 300 mm discs, 4-piston calipers"
+      ],
+      [
+       "Rear brake",
+       "220 mm single disc, 1-piston caliper"
+      ],
+      [
+       "ABS",
+       "Dual-channel"
+      ],
+      [
+       "Tyres",
+       "120/70 R17 front, 160/60 R17 rear"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,010 x 820 x 1,095 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,385 mm"
+      ],
+      [
+       "Seat height",
+       "795 mm"
+      ],
+      [
+       "Ground clearance",
+       "130 mm"
+      ],
+      [
+       "Kerb weight",
+       "165 kg"
+      ],
+      [
+       "Fuel tank",
+       "17 L"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Display",
+       "TFT with phone screen-projection navigation"
+      ],
+      [
+       "Rider aids",
+       "Traction control"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Jet Black",
+    "Star Rock White",
+    "Scarlet Blaze"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kove/450r-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 450R naked motorcycle in Star Rock White, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/450r-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove 450R naked motorcycle in Scarlet Blaze, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/450r-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove 450R naked motorcycle in Jet Black, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/450r-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kove 450R naked motorcycle in Star Rock White, riding through a city"
+    }
+   ],
+   "sourceUrl": "https://www.kovemoto.com/kove-450r-cn4-e5",
+   "notes": "48 kW x 1.341 = 64.4 hp (converted). Compression ratio 11.6:1 here vs 12.9:1 on the 450RR with the same bore and stroke; both as published. Rear travel 42 mm as published (likely shock stroke). Photo labels Orange/Black/White correspond to colour names Scarlet Blaze/Jet Black/Star Rock White."
+  },
+  {
+   "slug": "350r",
+   "name": "350R",
+   "category": "Naked",
+   "key": {
+    "engine": "344 cc parallel twin",
+    "cc": 344,
+    "power": "35 kW (46.9 hp)",
+    "torque": "32.2 Nm",
+    "weight": "153 kg kerb",
+    "seat": "790 mm",
+    "tank": "13 L",
+    "topSpeed": "180 km/h"
+   },
+   "tagline": "344 cc twin-cylinder naked bike for everyday sport riding",
+   "summary": [
+    "The Kove 350R is a naked roadster that uses the 344 cc liquid-cooled DOHC eight-valve parallel twin, producing 35 kW at 11,500 rpm and 32.2 Nm at 9,000 rpm. It steps up from the 250R with more power and a 180 km/h top speed, while keeping a 790 mm seat and a 153 kg kerb weight.",
+    "The integrated twin-spar frame carries Yu An suspension at both ends, with a 320 mm front disc and two-piston floating caliper and a 220 mm rear disc, both with ABS. A 1,370 mm wheelbase, 17-inch wheels, a 13-litre tank and TFT instruments make it an easy commuter that still suits a spirited weekend ride."
+   ],
+   "highlights": [
+    "344 cc DOHC eight-valve twin: 35 kW at 11,500 rpm",
+    "153 kg kerb weight and 790 mm seat height",
+    "320 mm front and 220 mm rear discs with ABS",
+    "180 km/h top speed and 13 L fuel tank",
+    "Integrated twin-spar frame and TFT instruments"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Inline twin, DOHC, 8 valves, 4-stroke"
+      ],
+      [
+       "Displacement",
+       "344 cc"
+      ],
+      [
+       "Bore x stroke",
+       "69 x 46 mm"
+      ],
+      [
+       "Compression ratio",
+       "12.5:1"
+      ],
+      [
+       "Max power",
+       "35 kW @ 11,500 rpm"
+      ],
+      [
+       "Max torque",
+       "32.2 Nm @ 9,000 rpm"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ],
+      [
+       "Top speed",
+       "180 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Diamond-shaped twin-spar, integrated"
+      ],
+      [
+       "Front suspension",
+       "Yu An, non-adjustable"
+      ],
+      [
+       "Rear suspension",
+       "Yu An, non-adjustable"
+      ],
+      [
+       "Steering geometry",
+       "Rake 24.5°, steering angle 40°"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "320 mm single disc, 2-piston floating caliper, ABS"
+      ],
+      [
+       "Rear brake",
+       "220 mm single disc, 1-piston floating caliper, ABS"
+      ],
+      [
+       "Tyres",
+       "110/70 R17 front, 150/60 R17 rear"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "1,980 x 835 x 1,075 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,370 mm"
+      ],
+      [
+       "Seat height",
+       "790 mm"
+      ],
+      [
+       "Ground clearance",
+       "150 mm"
+      ],
+      [
+       "Kerb weight",
+       "153 kg"
+      ],
+      [
+       "Fuel tank",
+       "13 L"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Display",
+       "TFT"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Silver"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kove/350r-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 350R naked motorcycle in Silver, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/350r-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove 350R naked motorcycle in Silver, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/350r-3",
+     "w": 1200,
+     "h": 705,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kove 350R naked motorcycle in Silver, riding a mountain road"
+    }
+   ],
+   "sourceUrl": "https://www.kovemoto.com/kove-350r",
+   "notes": "35 kW x 1.341 = 46.9 hp (converted). Kerb weight 153 kg and dimensions are identical to the 250R; possibly copied, verify with factory. Fuel system and gearbox not published on this page. Page has no overview text beyond the tagline."
+  },
+  {
+   "slug": "250r",
+   "name": "250R",
+   "category": "Naked",
+   "key": {
+    "engine": "249 cc parallel twin",
+    "cc": 249,
+    "power": "24 kW (32.2 hp)",
+    "torque": "22.5 Nm",
+    "weight": "153 kg kerb",
+    "seat": "790 mm",
+    "tank": "13 L",
+    "topSpeed": "160 km/h"
+   },
+   "tagline": "Light 249 cc twin-cylinder naked bike for new riders",
+   "summary": [
+    "The Kove 250R is an entry-level naked bike for riders starting out or looking for a light everyday machine. Its 249 cc liquid-cooled DOHC parallel twin makes 24 kW at 11,500 rpm and 22.5 Nm at 9,000 rpm, and the bike weighs 153 kg at the kerb with a 790 mm seat height.",
+    "It uses an integrated twin-spar frame, a 37 mm upside-down Yu An fork and a preload-adjustable Yu An rear shock. Braking is by a 320 mm front disc with two-piston caliper and a 220 mm rear disc, both with ABS. A 13-litre tank, 17-inch wheels and a TFT display round out a simple, easy-to-ride package."
+   ],
+   "highlights": [
+    "249 cc DOHC twin: 24 kW at 11,500 rpm, 22.5 Nm at 9,000 rpm",
+    "153 kg kerb weight and 790 mm seat height",
+    "37 mm upside-down Yu An fork, preload-adjustable rear shock",
+    "320 mm front and 220 mm rear discs with ABS",
+    "13 L tank and TFT display"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Inline twin, DOHC, 4-stroke"
+      ],
+      [
+       "Displacement",
+       "249 cc"
+      ],
+      [
+       "Bore x stroke",
+       "62 x 41.4 mm"
+      ],
+      [
+       "Compression ratio",
+       "12.5:1"
+      ],
+      [
+       "Max power",
+       "24 kW @ 11,500 rpm"
+      ],
+      [
+       "Max torque",
+       "22.5 Nm @ 9,000 rpm"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ],
+      [
+       "Top speed",
+       "160 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Diamond-shaped twin-spar, integrated"
+      ],
+      [
+       "Front suspension",
+       "37 mm upside-down fork (Yu An)"
+      ],
+      [
+       "Rear suspension",
+       "Monoshock, preload adjustable (Yu An)"
+      ],
+      [
+       "Steering geometry",
+       "Rake 24.5°, steering angle 40°"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "320 mm single disc, 2-piston caliper, ABS"
+      ],
+      [
+       "Rear brake",
+       "220 mm single disc, 1-piston caliper, ABS"
+      ],
+      [
+       "Tyres",
+       "110/70 R17 front, 140/60 R17 rear"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "1,980 x 835 x 1,075 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,370 mm"
+      ],
+      [
+       "Seat height",
+       "790 mm"
+      ],
+      [
+       "Ground clearance",
+       "139 mm"
+      ],
+      [
+       "Kerb weight",
+       "153 kg"
+      ],
+      [
+       "Fuel tank",
+       "13 L"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Display",
+       "TFT"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kove/250r-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 250R naked motorcycle in Black, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/250r-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove 250R naked motorcycle in Black, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/250r-3",
+     "w": 1200,
+     "h": 732,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kove 250R naked motorcycle in Black, riding through a city at night"
+    }
+   ],
+   "sourceUrl": "https://www.kovemoto.com/kove-250r",
+   "notes": "24 kW x 1.341 = 32.2 hp (converted). Fuel system and gearbox not published. Page has no overview text beyond the tagline. Black bike: image 1 is on a transparent background so it should be shown on a light backdrop."
+  },
+  {
+   "slug": "450-enduro-re",
+   "name": "450 Enduro RE",
+   "category": "Off-road",
+   "key": {
+    "engine": "449.9 cc single",
+    "cc": 450,
+    "power": "35 kW (46.9 hp)",
+    "torque": "40 Nm",
+    "weight": "120 kg kerb",
+    "seat": "960 mm",
+    "tank": "9.5 L",
+    "topSpeed": "170 km/h"
+   },
+   "tagline": "120 kg 450 cc enduro with lights, ABS and 310 mm fork travel",
+   "summary": [
+    "The Kove 450 Enduro RE is a 450 cc enduro motorcycle equipped with lights and dual-channel ABS so riders can link trails on the road. The 449.9 cc liquid-cooled SOHC single produces 35 kW and 40 Nm, and the bike weighs 120 kg at the kerb thanks to a steel twin-spar frame with an aluminium subframe and swingarm.",
+    "Fully adjustable Yu An suspension gives 310 mm of front and 290 mm of rear travel, with 285 mm of ground clearance and a 960 mm seat. A six-speed gearbox covers tight sections and road transfers. Kove also lists a dedicated off-road version making 45 kW and 50 Nm at 118 kg, which suits riders focused on competition."
+   ],
+   "highlights": [
+    "449.9 cc SOHC single: 35 kW at 9,500 rpm, 40 Nm at 7,500 rpm",
+    "120 kg kerb weight with aluminium subframe and swingarm",
+    "Fully adjustable suspension: 310 mm front, 290 mm rear travel",
+    "285 mm ground clearance and 960 mm seat height",
+    "Dual-channel ABS, LED lights and six-speed gearbox",
+    "Off-road version listed at 45 kW, 50 Nm and 118 kg"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, SOHC, 4-stroke"
+      ],
+      [
+       "Engine model",
+       "Z196MQ-A"
+      ],
+      [
+       "Displacement",
+       "449.9 cc"
+      ],
+      [
+       "Bore x stroke",
+       "96 x 62.15 mm"
+      ],
+      [
+       "Compression ratio",
+       "13:1"
+      ],
+      [
+       "Max power",
+       "35 kW @ 9,500 rpm"
+      ],
+      [
+       "Max torque",
+       "40 Nm @ 7,500 rpm"
+      ],
+      [
+       "Fuel system",
+       "Bosch EFI"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ],
+      [
+       "Throttle",
+       "Mechanical"
+      ],
+      [
+       "Top speed",
+       "170 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Wet multi-plate, cable operated"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "HC700 high-strength steel twin-spar, aluminium alloy subframe"
+      ],
+      [
+       "Swingarm",
+       "Aluminium alloy"
+      ],
+      [
+       "Footrest supports",
+       "Stainless steel"
+      ],
+      [
+       "Front suspension",
+       "Upside-down fork, fully adjustable damping (Yu An)"
+      ],
+      [
+       "Rear suspension",
+       "Fully adjustable damping, external reservoir (Yu An)"
+      ],
+      [
+       "Suspension travel",
+       "310 mm front / 290 mm rear"
+      ],
+      [
+       "Steering geometry",
+       "Rake 28°, trail 123 mm, steering angle 38.5°"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Single floating disc, 2-piston floating caliper (Taisko)"
+      ],
+      [
+       "Rear brake",
+       "Single disc, 1-piston floating caliper (Taisko)"
+      ],
+      [
+       "ABS",
+       "Dual-channel"
+      ],
+      [
+       "Tyres",
+       "90/90-21 front, 140/80-19 rear (Yuanxing, tubed)"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,250 x 862 x 1,265 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,490 mm"
+      ],
+      [
+       "Seat height",
+       "960 mm"
+      ],
+      [
+       "Ground clearance",
+       "285 mm"
+      ],
+      [
+       "Kerb weight",
+       "120 kg"
+      ],
+      [
+       "Fuel tank",
+       "9.5 L"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Display",
+       "LCD"
+      ],
+      [
+       "Lighting",
+       "LED headlight, DRL, tail light and indicators"
+      ],
+      [
+       "Battery",
+       "12 V 4 Ah lithium"
+      ],
+      [
+       "Silencer",
+       "Stainless steel"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Green"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kove/450-enduro-re-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 450 Enduro RE off-road motorcycle in Green, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/450-enduro-re-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove 450 Enduro RE off-road motorcycle in Green, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/450-enduro-re-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 450 Enduro RE off-road motorcycle in Green, left side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/450-enduro-re-4",
+     "w": 1200,
+     "h": 648,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kove 450 Enduro RE off-road motorcycle in Green, parked on desert rock"
+    }
+   ],
+   "sourceUrl": "https://www.kovemoto.com/kove-450-enduro-re",
+   "notes": "35 kW x 1.341 = 46.9 hp (converted). Header shows 450 for displacement; spec table 449.9 cc (cc key set to 450). Spec table lists wheels as 'Aluminum alloy casting' although photos show spoked wheels; wheel row omitted. Rotating-photo files are named 'BLUE' but the published colour is Green. The 45 kW / 118 kg off-road version has no separate page."
+  },
+  {
+   "slug": "mx450-cross-r",
+   "name": "MX450 Cross R",
+   "category": "Off-road",
+   "key": {
+    "engine": "449.9 cc single",
+    "cc": 450,
+    "power": "45 kW (60.3 hp)",
+    "torque": "50 Nm",
+    "weight": "98 kg kerb",
+    "seat": "960 mm",
+    "tank": "7 L",
+    "topSpeed": "170 km/h"
+   },
+   "tagline": "98 kg 450 cc motocross bike with KYB fork and quickshifter",
+   "summary": [
+    "The Kove MX450 Cross R is a 450 cc motocross bike built for off-road competition. Its 449.9 cc liquid-cooled single runs a 13:1 compression ratio with Bosch fuel injection to produce 45 kW at 9,000 rpm and 50 Nm at 7,500 rpm, driving a five-speed gearbox with a quickshifter.",
+    "At 98 kg, it uses a high-strength steel frame with an aluminium subframe. A fully adjustable KYB fork gives 310 mm of travel and the fully adjustable rear shock 290 mm, with 310 mm of ground clearance on 21-inch front and 19-inch rear wheels. Sport and Eco modes let riders tune power delivery for track conditions or rider experience."
+   ],
+   "highlights": [
+    "449.9 cc single: 45 kW at 9,000 rpm and 50 Nm at 7,500 rpm",
+    "98 kg with a steel frame and aluminium subframe",
+    "Fully adjustable KYB fork with 310 mm travel, 290 mm at the rear",
+    "Five-speed gearbox with quickshifter",
+    "Sport and Eco riding modes",
+    "21-inch front and 19-inch rear wheels, 310 mm ground clearance"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, SOHC, 4 valves, 4-stroke"
+      ],
+      [
+       "Displacement",
+       "449.9 cc"
+      ],
+      [
+       "Bore x stroke",
+       "96 x 62.15 mm"
+      ],
+      [
+       "Compression ratio",
+       "13:1"
+      ],
+      [
+       "Max power",
+       "45 kW @ 9,000 rpm"
+      ],
+      [
+       "Max torque",
+       "50 Nm @ 7,500 rpm"
+      ],
+      [
+       "Fuel system",
+       "Bosch EFI"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ],
+      [
+       "Riding modes",
+       "Sport, Eco"
+      ],
+      [
+       "Top speed",
+       "170 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "5-speed"
+      ],
+      [
+       "Quickshifter",
+       "Yes"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "High-strength steel, aluminium subframe"
+      ],
+      [
+       "Front suspension",
+       "KYB, fully adjustable damping"
+      ],
+      [
+       "Rear suspension",
+       "Fully adjustable damping, external reservoir"
+      ],
+      [
+       "Suspension travel",
+       "310 mm front / 290 mm rear"
+      ],
+      [
+       "Steering geometry",
+       "Rake 28°, steering angle 38.5°"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Single floating disc, 2-piston caliper"
+      ],
+      [
+       "Rear brake",
+       "Single disc, 1-piston caliper"
+      ],
+      [
+       "Tyres",
+       "80/100-21 front, 110/90-19 rear"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,168 x 805 x 1,265 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,490 mm"
+      ],
+      [
+       "Seat height",
+       "960 mm"
+      ],
+      [
+       "Ground clearance",
+       "310 mm"
+      ],
+      [
+       "Kerb weight",
+       "98 kg"
+      ],
+      [
+       "Fuel tank",
+       "7 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Green"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kove/mx450-cross-r-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove MX450 Cross R off-road motorcycle in Green, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/mx450-cross-r-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove MX450 Cross R off-road motorcycle in Green, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/mx450-cross-r-3",
+     "w": 1200,
+     "h": 563,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kove MX450 Cross R off-road motorcycle in Green, on desert sand"
+    }
+   ],
+   "sourceUrl": "https://www.kovemoto.com/kove-mx450-cross-r",
+   "notes": "Competition motocross bike, no lights or road equipment. Included because it has a full spec page; drop if the site should show road models only. 45 kW x 1.341 = 60.3 hp (converted). Rotating-photo files are named 'blue'; published colour is Green."
+  },
+  {
+   "slug": "mx250-cross-r",
+   "name": "MX250 Cross R",
+   "category": "Off-road",
+   "key": {
+    "engine": "249.9 cc single",
+    "cc": 250,
+    "power": "30 kW (40.2 hp)",
+    "torque": "27 Nm",
+    "weight": "97 kg kerb",
+    "seat": "960 mm",
+    "tank": "7 L",
+    "topSpeed": "129 km/h"
+   },
+   "tagline": "97 kg 250 cc DOHC motocross bike with KYB fork and quickshifter",
+   "summary": [
+    "The Kove MX250 Cross R is a 250 cc motocross bike aimed at riders building skills and lap pace. Its 249.9 cc liquid-cooled DOHC four-valve single produces 30 kW at 12,000 rpm and 27 Nm at 9,500 rpm, with a five-speed gearbox and quickshifter, and the whole bike weighs 97 kg.",
+    "A fully adjustable KYB upside-down fork offers 310 mm of travel, and the fully adjustable rear shock 280 mm, to absorb braking bumps and landings. It runs 21-inch front and 19-inch rear wheels with 310 mm of ground clearance and a 960 mm seat. Selectable Sport and Eco modes help riders match power to conditions."
+   ],
+   "highlights": [
+    "249.9 cc DOHC four-valve single: 30 kW at 12,000 rpm",
+    "97 kg with a 7 L fuel tank",
+    "Fully adjustable KYB upside-down fork with 310 mm travel",
+    "Five-speed gearbox with quickshifter",
+    "Sport and Eco riding modes",
+    "21-inch front and 19-inch rear wheels, 310 mm ground clearance"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "Single cylinder, DOHC, 4 valves, 4-stroke"
+      ],
+      [
+       "Displacement",
+       "249.9 cc"
+      ],
+      [
+       "Bore x stroke",
+       "79 x 51 mm"
+      ],
+      [
+       "Compression ratio",
+       "13.9:1"
+      ],
+      [
+       "Max power",
+       "30 kW @ 12,000 rpm"
+      ],
+      [
+       "Max torque",
+       "27 Nm @ 9,500 rpm"
+      ],
+      [
+       "Fuel system",
+       "Bosch EFI"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ],
+      [
+       "Riding modes",
+       "Sport, Eco"
+      ],
+      [
+       "Top speed",
+       "129 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "5-speed"
+      ],
+      [
+       "Quickshifter",
+       "Yes"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Front suspension",
+       "KYB upside-down fork, fully adjustable damping"
+      ],
+      [
+       "Rear suspension",
+       "Fully adjustable damping, external reservoir"
+      ],
+      [
+       "Suspension travel",
+       "310 mm front / 280 mm rear"
+      ],
+      [
+       "Steering geometry",
+       "Rake 28°, steering angle 38.5°"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Single floating disc, 2-piston floating caliper"
+      ],
+      [
+       "Rear brake",
+       "Single disc, 1-piston floating caliper"
+      ],
+      [
+       "Tyres",
+       "80/100-21 front, 100/90-19 rear"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,168 x 805 x 1,265 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,490 mm"
+      ],
+      [
+       "Seat height",
+       "960 mm"
+      ],
+      [
+       "Ground clearance",
+       "310 mm"
+      ],
+      [
+       "Kerb weight",
+       "97 kg"
+      ],
+      [
+       "Fuel tank",
+       "7 L"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Green"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kove/mx250-cross-r-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove MX250 Cross R off-road motorcycle in Green, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/mx250-cross-r-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove MX250 Cross R off-road motorcycle in Green, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/mx250-cross-r-3",
+     "w": 1200,
+     "h": 594,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kove MX250 Cross R off-road motorcycle in Green, on a hilltop dirt track"
+    }
+   ],
+   "sourceUrl": "https://www.kovemoto.com/kove-mx250-cross-r",
+   "notes": "Competition motocross bike, no lights or road equipment. Include or drop as for MX450. 30 kW x 1.341 = 40.2 hp (converted). Top speed 129 km/h as published (looks low; may be a typo). Header shows 250 cc; table 249.9 cc."
+  },
+  {
+   "slug": "625v",
+   "name": "625V",
+   "category": "Cruiser",
+   "key": {
+    "engine": "578.2 cc V-twin",
+    "cc": 578,
+    "power": "38.5 kW (51.6 hp)",
+    "torque": "52 Nm",
+    "weight": "205 kg kerb",
+    "seat": "700 mm",
+    "tank": "20 L",
+    "topSpeed": "170 km/h"
+   },
+   "tagline": "578 cc V-twin cruiser with a 700 mm seat and 20-litre twin-tank layout",
+   "summary": [
+    "The Kove 625V is a mid-size cruiser that borrows ideas from Kove's adventure bikes. Its 578.2 cc liquid-cooled DOHC V-twin with a balance shaft produces 38.5 kW and 52 Nm, and a main and auxiliary tank layout holds 20 litres, mounted towards the centre of the bike to keep the front end light.",
+    "With a 700 mm seat, rearward handlebar and 205 kg kerb weight, it suits newer riders and those who want a relaxed cruiser for town and longer trips. Riders from 165 cm to 185 cm are catered for with an adjustable handlebar and two-position footpegs. Dual-channel ABS, traction control, a slipper clutch and side-bag mounting points come as standard."
+   ],
+   "highlights": [
+    "578.2 cc DOHC V-twin with balance shaft: 38.5 kW and 52 Nm",
+    "20 L total fuel capacity from a main and auxiliary tank",
+    "700 mm seat height and 205 kg kerb weight",
+    "Dual-channel ABS, traction control and slipper clutch",
+    "Adjustable handlebar and two-position footpegs, for riders 165–185 cm",
+    "Factory side-bag mounting points and plug-in fog-light connector"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "V-twin, DOHC, 8 valves, 4-stroke, balance shaft"
+      ],
+      [
+       "Displacement",
+       "578.2 cc"
+      ],
+      [
+       "Bore x stroke",
+       "72 x 71 mm"
+      ],
+      [
+       "Compression ratio",
+       "12:1"
+      ],
+      [
+       "Max power",
+       "38.5 kW @ 8,500 rpm"
+      ],
+      [
+       "Max torque",
+       "52 Nm @ 6,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "EFI"
+      ],
+      [
+       "Cooling",
+       "Liquid-cooled"
+      ],
+      [
+       "Throttle",
+       "Mechanical"
+      ],
+      [
+       "Power modes",
+       "Sport, Eco"
+      ],
+      [
+       "Top speed",
+       "170 km/h"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed"
+      ],
+      [
+       "Clutch",
+       "Wet multi-plate slipper clutch, cable operated"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Hybrid tubular and sheet-metal cradle frame"
+      ],
+      [
+       "Handlebar",
+       "Aluminium alloy, one piece"
+      ],
+      [
+       "Footpegs",
+       "2-position adjustable"
+      ],
+      [
+       "Front suspension",
+       "Upside-down fork, non-adjustable"
+      ],
+      [
+       "Rear suspension",
+       "Conventional shock absorber"
+      ],
+      [
+       "Suspension travel",
+       "130 mm front / 81 mm rear"
+      ],
+      [
+       "Steering geometry",
+       "Rake 29°, trail 120 mm, steering angle 35°"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Single floating disc, opposed 4-piston caliper (Taisko)"
+      ],
+      [
+       "Rear brake",
+       "Fixed disc, opposed 2-piston caliper (Taisko)"
+      ],
+      [
+       "ABS",
+       "Dual-channel"
+      ],
+      [
+       "Wheels",
+       "Cast aluminium alloy, 18 in front / 16 in rear"
+      ],
+      [
+       "Tyres",
+       "120/70R18 front, 160/60R16 rear (CST)"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Length x width x height",
+       "2,220 x 800 x 1,115 mm"
+      ],
+      [
+       "Wheelbase",
+       "1,490 mm"
+      ],
+      [
+       "Seat height",
+       "700 mm"
+      ],
+      [
+       "Ground clearance",
+       "160 mm"
+      ],
+      [
+       "Kerb weight",
+       "205 kg"
+      ],
+      [
+       "Fuel tank",
+       "20 L (main and auxiliary)"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Display",
+       "3.6-inch round TFT with phone screen-projection navigation"
+      ],
+      [
+       "Rider aids",
+       "Traction control, tip-over engine cut-off, side-stand start protection"
+      ],
+      [
+       "Lighting",
+       "LED headlight, tail light and indicators"
+      ],
+      [
+       "Battery",
+       "11 Ah gel"
+      ],
+      [
+       "Key",
+       "Standard key"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Shiny Black",
+    "Matte Black",
+    "Green",
+    "Silver"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/kove/625v-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 625V cruiser motorcycle in Silver, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/625v-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Kove 625V cruiser motorcycle in Shiny Black, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/kove/625v-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Kove 625V cruiser motorcycle in Green, right side view"
+    },
+    {
+     "src": "/images/motorcycles/kove/625v-4",
+     "w": 1104,
+     "h": 736,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Kove 625V cruiser motorcycle in Silver, fuel tank and logo detail"
+    },
+    {
+     "src": "/images/motorcycles/kove/625v-5",
+     "w": 1200,
+     "h": 675,
+     "kind": "lifestyle",
+     "studio": false,
+     "alt": "Kove 625V cruiser motorcycle, two riders on a desert road"
+    }
+   ],
+   "sourceUrl": "https://www.kovemoto.com/kove-625v",
+   "notes": "Spec table lists two outputs: 45 kW @ 8,500 rpm / 60 Nm @ 5,500 rpm (China IV version) and 38.5 kW / 52 Nm (European version, also used in page text); 38.5 kW used. 38.5 kW x 1.341 = 51.6 hp (converted). Page text calls 205 kg 'wet weight', table says curb weight. Page claims 'world's first dual-tank adventure cruiser'; omitted. Rotating photo label 'Shinny Black' is a typo for Shiny Black."
+  }
+ ]
+}
