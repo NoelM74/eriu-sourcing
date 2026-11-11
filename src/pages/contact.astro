@@ -23,6 +23,7 @@ const productLookup = {
   ...Object.fromEntries(products.map(p => [p.slug, { label: p.h1, category: p.categorySlug }])),
   'motorcycles': { label: 'Motorcycles & scooters, wholesale', category: 'motorcycles', starter: motoStarter },
   ...Object.fromEntries(motoBrands.map(b => [`motorcycles-${b.slug}`, { label: `${b.name} ${b.kind}, wholesale`, category: 'motorcycles', starter: motoStarter }])),
+  ...Object.fromEntries(motoBrands.flatMap(b => b.models.map(m => [`moto-${b.slug}-${m.slug}`, { label: `${b.name} ${m.name}, wholesale`, category: 'motorcycles', starter: `I run a motorcycle/scooter business in [city, country] and buy wholesale.\n\nModel: ${b.name} ${m.name}\nQuantity:\nOther models to add:\nFOB China or delivered:` }]))),
   'used-motorcycles': { label: 'Used motorcycles and scooters (coming soon)', category: 'motorcycles', starter: "Please contact me when used motorcycles and scooters are available.\n\nMy business and country:\nBrands and models I'm interested in:\nRough quantities:" },
 };
 

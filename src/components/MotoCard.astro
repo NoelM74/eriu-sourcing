@@ -1,0 +1,20 @@
+---
+// One motorcycle/scooter model card (photo on a light stage, name, key figures).
+// Used on /motorcycles/, the brand pages and "more models" rows.
+interface Props { m: any; showBrand?: boolean; filter?: boolean; }
+const { m, showBrand = true, filter = false } = Astro.props;
+const img = m.images?.[0];
+const facts = [m.key?.engine, m.key?.power, m.key?.weight].filter(Boolean).slice(0, 3);
+const label = `${m.brandName} ${m.name}`;
+---
+<a href={m.url} class="mt-card fade-up" data-cat={filter ? m.category : undefined}>
+  <div class:list={['mt-card-img', { 'mt-card-img--scene': img && !img.studio }]}>
+    {img && <img src={`${img.src}-sm.webp`} alt={img.alt} width="700" height={Math.round(700 * img.h / img.w)} loading="lazy" decoding="async" />}
+  </div>
+  <div class="mt-card-body">
+    <span class="mt-model-type">{showBrand ? `${m.brandName} · ` : ''}{m.category}</span>
+    <h3>{showBrand ? label : `${m.brandName} ${m.name}`}</h3>
+    {facts.length > 0 && <ul class="mt-chips">{facts.map((f) => <li>{f}</li>)}</ul>}
+    <span class="mt-card-more">View specs and photos →</span>
+  </div>
+</a>
