@@ -52,7 +52,7 @@ const isGlobalProduct = product.global === true;
 const marketLinks = [
   ['United Kingdom', '/uk/electronics-from-china/'], ['Europe', '/europe/electronics-from-china/'], ['United States', '/usa/electronics-from-china/'],
   ['Canada', '/canada/electronics-from-china/'], ['Australia', '/australia/electronics-from-china/'], ['UAE & Gulf', '/uae/electronics-from-china/'],
-  ['South Africa', '/south-africa/electronics-from-china/'], ['Ireland', '/source/electronics-from-china/'],
+  ['Ireland', '/source/electronics-from-china/'],
 ];
 
 // BreadcrumbList JSON-LD is emitted by the <Breadcrumbs> component itself.
@@ -63,7 +63,7 @@ const pageSchemas = [
     "description": product.description,
     "provider": { "@type": "ProfessionalService", "@id": `${siteUrl}/#organization` },
     "areaServed": isGlobalProduct
-      ? ["Ireland", "United Kingdom", "European Union", "United States", "Canada", "Australia", "United Arab Emirates", "South Africa"].map((n) => ({ "@type": "Place", "name": n }))
+      ? ["Ireland", "United Kingdom", "European Union", "United States", "Canada", "Australia", "United Arab Emirates"].map((n) => ({ "@type": "Place", "name": n }))
       : [{ "@type": "Country", "name": "Ireland" }],
     "serviceType": "China Sourcing Agent",
     "category": product.categoryLabel,

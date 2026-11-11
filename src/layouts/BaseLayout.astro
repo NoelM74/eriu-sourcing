@@ -55,7 +55,6 @@ const marketLocales = {
   '/usa/': { lang: 'en-US', og: 'en_US', region: 'US' },
   '/canada/': { lang: 'en-CA', og: 'en_CA', region: 'CA' },
   '/uae/': { lang: 'en-AE', og: 'en_GB', region: 'AE' },
-  '/south-africa/': { lang: 'en-ZA', og: 'en_ZA', region: 'ZA' },
   '/europe/': { lang: 'en', og: 'en_GB', region: null },
 };
 const market = Object.entries(marketLocales).find(([prefix]) => canonicalPath.startsWith(prefix))?.[1] ?? null;
@@ -72,7 +71,7 @@ const orgSchema = {
   "legalName": "Springfield Tectop Limited",
   "foundingDate": "2015-11-05",
   "identifier": { "@type": "PropertyValue", "propertyID": "CRO (Ireland) company number", "value": "571256" },
-  "description": "Irish-run, factory-direct sourcing from China for importers in Ireland, the UK, Europe, North America, Australia, the Gulf and South Africa. Supplier identification, QC inspection, compliance checks, logistics. 18 years China experience.",
+  "description": "Irish-run, factory-direct sourcing from China for importers in Ireland, the UK, Europe, North America, Australia and the Gulf. Supplier identification, QC inspection, compliance checks, logistics. 18 years China experience.",
   "url": siteUrl,
   "image": `${siteUrl}/images/eriu-sourcing-team-china-office.webp`,
   "numberOfEmployees": { "@type": "QuantitativeValue", "value": 53 },
@@ -85,8 +84,7 @@ const orgSchema = {
     { "@type": "Country", "name": "United States" },
     { "@type": "Country", "name": "Canada" },
     { "@type": "Country", "name": "Australia" },
-    { "@type": "Country", "name": "United Arab Emirates" },
-    { "@type": "Country", "name": "South Africa" }
+    { "@type": "Country", "name": "United Arab Emirates" }
   ],
   "address": {
     "@type": "PostalAddress",

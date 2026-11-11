@@ -68,15 +68,4 @@ export const marketsBase = {
       'Larger orders go by sea from Yantian or Shekou to Jebel Ali. Sailing times depend on the carrier and the season, so we include the forwarder\'s current schedule with your price.',
     ],
   },
-  'south-africa': {
-    slug: 'south-africa', short: 'South Africa', name: 'South Africa', label: 'South Africa', demonym: 'South African', schemaArea: { "@type": "Country", "name": "South Africa" },
-    hubTitle: 'China Sourcing Agent for South African Importers | Ériu',
-    hubDescription: 'Sourcing team in Shenzhen and Zhengzhou buying factory-direct for South African importers, with ICASA and NRCS requirements checked before shipping.',
-    hubH1: 'Factory-direct from China to South Africa, with ICASA and NRCS checked before you pay.',
-    hubLead: 'An Irish-run team of 53 on the ground in Shenzhen and Zhengzhou, buying direct for South African retailers, wholesalers and brands. We check the approvals your products need and inspect every order before it ships.',
-    shipping: [
-      'Express couriers deliver door to door from Shenzhen to South Africa. It is the fastest route for samples and small, urgent shipments, and we confirm the transit time with the carrier in your quote.',
-      'Larger orders go by sea from Yantian or Shekou to Durban or Cape Town. Sailing times depend on the carrier and the season, so we include the forwarder\'s current schedule with your price.',
-    ],
-  },
 };
