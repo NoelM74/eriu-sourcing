@@ -1,0 +1,3098 @@
+{
+ "brand": "cyclone",
+ "brandStory": "Cyclone is the premium motorcycle brand of the Zongshen Group (written Zonsen on Cyclone's own site), a Chinese manufacturer founded in 1982 that researches, develops and builds motorcycles, engines and components. Cyclone describes its models as pure, functional designs shaped by decades of experience with riders of every generation.",
+ "brandStorySource": "https://cyclone-motor.eu/es/sobre-nosotros/",
+ "checked": "2026-11-11",
+ "models": [
+  {
+   "slug": "rx2",
+   "name": "RX2",
+   "category": "Adventure",
+   "key": {
+    "engine": "125 cc single-cylinder, liquid-cooled",
+    "cc": 125,
+    "power": "15 PS @ 9,500 rpm",
+    "torque": "11 Nm @ 7,500 rpm",
+    "weight": "150 kg (+15 kg cases and fittings)",
+    "seat": "820 mm",
+    "tank": "14 L",
+    "topSpeed": null
+   },
+   "tagline": "Liquid-cooled 125 adventure bike with ABS, traction control, luggage",
+   "summary": [
+    "The Cyclone RX2 is a 125 cc adventure bike built for riders who want to leave the tarmac now and then. A liquid-cooled DOHC four-valve single makes 15 PS, fed by fuel injection and driven through a six-speed gearbox. Long-travel suspension, a 19-inch front wheel and tubeless off-road tyres set it apart from road-biased learner bikes.",
+    "Equipment is generous for the class: dual-channel ABS, traction control, full LED lighting and a 5-inch TFT dash with Mirror Link. It leaves the factory with a three-case luggage kit, crash bars, hand guards, a tall screen, engine and fork protection and a low front mudguard, so customers can ride straight out on a trip."
+   ],
+   "highlights": [
+    "125 cc liquid-cooled DOHC single, 15 PS and 11 Nm",
+    "Dual-channel ABS and traction control as standard",
+    "5-inch TFT dash with Mirror Link phone connection",
+    "Three-case luggage kit, crash bars and hand guards included",
+    "38 mm upside-down fork, 19/17-inch wheels on tubeless off-road tyres",
+    "820 mm seat and 14 L tank"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "4-stroke single-cylinder, DOHC, 4 valves"
+      ],
+      [
+       "Displacement",
+       "125 cc"
+      ],
+      [
+       "Bore x stroke",
+       "58 x 47 mm"
+      ],
+      [
+       "Max power",
+       "15 PS @ 9,500 rpm"
+      ],
+      [
+       "Max torque",
+       "11 Nm @ 7,500 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ],
+      [
+       "Valve train",
+       "Chain-driven DOHC"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed, gear primary drive"
+      ],
+      [
+       "Final drive",
+       "Chain"
+      ],
+      [
+       "Clutch",
+       "Manual, wet multi-plate"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Steel tube"
+      ],
+      [
+       "Front suspension",
+       "Upside-down fork, 38 mm tubes"
+      ],
+      [
+       "Rear suspension",
+       "Monoshock, adjustable compression"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "260 mm disc, 2-piston caliper, dual-channel ABS"
+      ],
+      [
+       "Rear brake",
+       "240 mm disc, 1-piston caliper, dual-channel ABS"
+      ],
+      [
+       "Wheels",
+       "Aluminium"
+      ],
+      [
+       "Front tyre",
+       "100/90-19"
+      ],
+      [
+       "Rear tyre",
+       "130/70-17"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Wheelbase",
+       "1,400 mm"
+      ],
+      [
+       "Seat height",
+       "820 mm"
+      ],
+      [
+       "Fuel tank",
+       "14 L"
+      ],
+      [
+       "Weight",
+       "150 kg, plus 15 kg for cases and fittings"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Instruments",
+       "5-inch TFT with Mirror Link"
+      ],
+      [
+       "Lighting",
+       "Full LED"
+      ],
+      [
+       "Rider aids",
+       "ABS, traction control (TCS)"
+      ],
+      [
+       "Standard equipment",
+       "Long-travel suspension, tall screen, engine and fork protection, tubeless off-road tyres, crash bars, side cases, top case, hand guards, low front mudguard"
+      ],
+      [
+       "Service interval",
+       "First service at 1,000 km, then every 3,000 km or 1 year"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "White",
+    "Black",
+    "Grey"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/cyclone/rx2-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RX2 Adventure in white, left side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rx2-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Cyclone RX2 Adventure in white, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rx2-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RX2 Adventure in black, left side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rx2-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Cyclone RX2 Adventure in grey with three-case luggage kit, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rx2-5",
+     "w": 900,
+     "h": 600,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Cyclone RX2 Adventure LED headlight and screen, detail view"
+    }
+   ],
+   "sourceUrl": "https://cyclone-motor.eu/es/moto-trail/rx2-125cc/",
+   "notes": "Power published as 15 CV (metric hp, PS); no kW figure given. Colours are not named in text on the page; taken from the maker's 360-viewer image file names (blanco, negro, gris). Weight is published without saying dry or kerb. The grey bike in the 360 viewer is shown with the luggage kit fitted."
+  },
+  {
+   "slug": "carrera",
+   "name": "Carrera",
+   "category": "Adventure",
+   "key": {
+    "engine": "125 cc single-cylinder, air-cooled",
+    "cc": 125,
+    "power": "12.64 PS (9.3 kW) @ 9,000 rpm",
+    "torque": "10.2 Nm @ 8,500 rpm",
+    "weight": "141 kg",
+    "seat": "820 mm",
+    "tank": "16 L",
+    "topSpeed": null
+   },
+   "tagline": "Air-cooled 125 trail bike on 19/17-inch spoked wheels with a 16 L tank",
+   "summary": [
+    "The Cyclone Carrera is an air-cooled 125 cc trail bike aimed at commuters and new riders who want adventure styling at a lower entry point. Its fuel-injected four-valve single produces 12.64 PS and drives a five-speed gearbox. Spoked wheels, 19 inches at the front and 17 at the rear, help it cope with broken surfaces and gravel tracks.",
+    "Weight is a manageable 141 kg and the 16-litre tank gives it useful range. Braking uses a combined system (CBS) with a three-piston front caliper. An LCD dash, full LED lighting and hand guards come as standard. Dealers can offer it in three versions: Standard, Urban with a top case, and Explorer with top case, side cases and crash bars."
+   ],
+   "highlights": [
+    "125 cc air-cooled single, 12.64 PS and 10.2 Nm",
+    "19/17-inch spoked wheels with 90/90 and 110/90 tyres",
+    "Combined braking system (CBS), 267 mm front disc",
+    "16 L fuel tank and 141 kg weight",
+    "Hand guards, LCD dash and full LED lighting as standard",
+    "Standard, Urban (top case) and Explorer (three cases, crash bars) versions"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "4-stroke single-cylinder, OHC, 4 valves"
+      ],
+      [
+       "Displacement",
+       "125 cc"
+      ],
+      [
+       "Bore x stroke",
+       "57.3 x 48.4 mm"
+      ],
+      [
+       "Max power",
+       "9.3 kW (12.64 PS) @ 9,000 rpm"
+      ],
+      [
+       "Max torque",
+       "10.2 Nm @ 8,500 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Cooling",
+       "Air"
+      ],
+      [
+       "Valve train",
+       "Chain-driven OHC"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "5-speed, gear primary drive"
+      ],
+      [
+       "Final drive",
+       "Chain"
+      ],
+      [
+       "Clutch",
+       "Manual, wet multi-plate"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Steel multi-tube"
+      ],
+      [
+       "Front suspension",
+       "Telescopic fork, 31 mm tubes, 130 mm travel"
+      ],
+      [
+       "Rear suspension",
+       "Central monoshock"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "267 mm disc, 3-piston caliper, CBS"
+      ],
+      [
+       "Rear brake",
+       "220 mm disc, 1-piston caliper, CBS"
+      ],
+      [
+       "Wheels",
+       "Spoked"
+      ],
+      [
+       "Front tyre",
+       "90/90-19"
+      ],
+      [
+       "Rear tyre",
+       "110/90-17"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Wheelbase",
+       "1,340 mm"
+      ],
+      [
+       "Seat height",
+       "820 mm"
+      ],
+      [
+       "Fuel tank",
+       "16 L"
+      ],
+      [
+       "Weight",
+       "141 kg"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Instruments",
+       "Digital LCD"
+      ],
+      [
+       "Lighting",
+       "Full LED"
+      ],
+      [
+       "Standard equipment",
+       "Hand guards, spoked wheels"
+      ],
+      [
+       "Versions",
+       "Standard; Urban (top case); Explorer (top case, two side cases, crash bars)"
+      ],
+      [
+       "Service interval",
+       "First service at 1,000 km, then every 3,000 km or 1 year"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Grey",
+    "Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/cyclone/carrera-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone Carrera Adventure in grey, left side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/carrera-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Cyclone Carrera Adventure in grey, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/carrera-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone Carrera Explorer Adventure in black with top case and side cases, left side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/carrera-4",
+     "w": 900,
+     "h": 600,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Cyclone Carrera Adventure LCD dashboard, detail view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/carrera-5",
+     "w": 900,
+     "h": 600,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Cyclone Carrera Adventure hand guard and switchgear, detail view"
+    }
+   ],
+   "sourceUrl": "https://cyclone-motor.eu/es/moto-trail/moto-carrera-125cc/",
+   "notes": "Official model name is CARRERA. 'Explorer' is not a separate model: it is the Carrera version supplied with top case, two side cases and crash bars (confirmed on the Portuguese page https://cyclone-motor.eu/pt/motos-trail-pt-2025/moto-carrera/ which lists Carrera Standard / Urban / Explorer; the models page cover image file is named carrera-explorer-portada). Power conflict on the page: headline says 12.64 CV, spec table says 'CV 12' and 9.3 kW / 9,000 rpm; 9.3 kW equals 12.64 PS, so 12.64 PS is used (12.5 hp mechanical). Colours from 360-viewer file names (gris, negro); the black bike is shown in Explorer trim. Weight not stated as dry or kerb."
+  },
+  {
+   "slug": "rx600",
+   "name": "RX600",
+   "category": "Adventure",
+   "key": {
+    "engine": "550 cc parallel twin, liquid-cooled",
+    "cc": 550,
+    "power": "59.16 PS (43.5 kW); A2 version 47.5 PS (35 kW)",
+    "torque": "55 Nm @ 6,500 rpm (A2 version 45 Nm)",
+    "weight": "219 kg (without cases)",
+    "seat": "820 mm",
+    "tank": "18 L",
+    "topSpeed": null
+   },
+   "tagline": "550 cc twin-cylinder adventure bike in full-power and A2 versions",
+   "summary": [
+    "The Cyclone RX600 is a mid-size adventure bike powered by a 550 cc liquid-cooled parallel twin with eight valves. The full version makes 59.16 PS and 55 Nm, and a 47.5 PS version suits A2 licence holders, so one model covers two groups of buyers. Spoked wheels in 19 and 17 inches run tubeless tyres.",
+    "Adjustable suspension at both ends, switchable dual-channel ABS and traction control give riders confidence on mixed surfaces. A TFT dash with Mirror Link, tyre pressure monitoring, backlit switchgear, an aluminium handlebar and full LED lighting are standard. Crash bars are included, and the Urban and Explorer versions add an aluminium top case or a full three-case kit."
+   ],
+   "highlights": [
+    "550 cc DOHC parallel twin: 59.16 PS full or 47.5 PS A2 version",
+    "Switchable dual-channel ABS and traction control",
+    "TFT with Mirror Link and tyre pressure monitoring",
+    "Adjustable 41 mm upside-down fork and adjustable rear shock",
+    "Spoked 19/17-inch wheels with tubeless tyres",
+    "Standard, Urban (top case) and Explorer (three cases) versions"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "4-stroke parallel twin, DOHC, 8 valves"
+      ],
+      [
+       "Displacement",
+       "550 cc"
+      ],
+      [
+       "Bore x stroke",
+       "72 x 67.5 mm"
+      ],
+      [
+       "Max power",
+       "Full: 43.5 kW (59.16 PS) @ 8,500 rpm; A2 version: 35 kW (47.5 PS) @ 8,500 rpm"
+      ],
+      [
+       "Max torque",
+       "55 Nm @ 6,500 rpm (A2 version: 45 Nm @ 6,500 rpm)"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ],
+      [
+       "Valve train",
+       "Chain-driven DOHC"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed, gear primary drive"
+      ],
+      [
+       "Final drive",
+       "Chain"
+      ],
+      [
+       "Clutch",
+       "Manual, wet multi-plate"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Steel multi-tube"
+      ],
+      [
+       "Front suspension",
+       "Adjustable upside-down fork, 41 mm tubes, 130 mm travel"
+      ],
+      [
+       "Rear suspension",
+       "Central monoshock, adjustable preload and rebound"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Twin 305 mm discs, 2-piston calipers, ABS"
+      ],
+      [
+       "Rear brake",
+       "258 mm disc, 1-piston caliper, ABS"
+      ],
+      [
+       "ABS",
+       "Dual-channel, switchable"
+      ],
+      [
+       "Wheels",
+       "Spoked, tubeless"
+      ],
+      [
+       "Front tyre",
+       "110/80 R19"
+      ],
+      [
+       "Rear tyre",
+       "150/70 R17"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Wheelbase",
+       "1,425 mm"
+      ],
+      [
+       "Seat height",
+       "820 mm"
+      ],
+      [
+       "Fuel tank",
+       "18 L"
+      ],
+      [
+       "Weight",
+       "219 kg (without cases)"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Instruments",
+       "TFT with Mirror Link"
+      ],
+      [
+       "Lighting",
+       "Full LED"
+      ],
+      [
+       "Rider aids",
+       "Dual-channel ABS, traction control (TCS), tyre pressure sensors"
+      ],
+      [
+       "Standard equipment",
+       "Backlit switchgear, aluminium handlebar, crash bars, adjustable front and rear suspension"
+      ],
+      [
+       "Versions",
+       "Standard (crash bars); Urban (+ 45 L top case); Explorer (+ top case and 36 L side cases)"
+      ],
+      [
+       "Service interval",
+       "First service at 1,000 km, then every 5,000 km"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "White",
+    "Blue",
+    "Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/cyclone/rx600-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RX600 Adventure in white with aluminium cases, left side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rx600-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Cyclone RX600 Adventure in white with aluminium cases, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rx600-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RX600 Adventure in blue with aluminium cases, left side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rx600-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Cyclone RX600 Adventure in black with aluminium cases, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rx600-5",
+     "w": 900,
+     "h": 600,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Cyclone RX600 Adventure TFT dashboard, detail view"
+    }
+   ],
+   "sourceUrl": "https://cyclone-motor.eu/es/moto-trail/rx600-550cc/",
+   "notes": "Power confirmed: 47.5 CV (35 kW) limited/A2 version and 59.16 CV (43.5 kW) full version, both at 8,500 rpm. CV is metric horsepower (PS); in mechanical hp these are 46.9 hp and 58.3 hp (kW x 1.341). Torque: headline block gives 45 Nm (limited) / 55 Nm (full) at 6,500 rpm, spec table gives only 55 Nm / 6,500 rpm. All studio photos show the bike with the aluminium three-case kit (Explorer version); no bare-bike studio shot is published. Colours from 360-viewer file names (blanco, azul, negro)."
+  },
+  {
+   "slug": "rx4",
+   "name": "RX4",
+   "category": "Adventure",
+   "key": {
+    "engine": "401 cc parallel twin, liquid-cooled",
+    "cc": 401,
+    "power": "36.2 PS (27 kW) @ 8,500 rpm",
+    "torque": "34 Nm @ 8,000 rpm",
+    "weight": "215 kg",
+    "seat": "810 mm",
+    "tank": "18 L",
+    "topSpeed": null
+   },
+   "tagline": "401 cc twin-cylinder adventure bike for A2 riders, slipper clutch",
+   "summary": [
+    "The Cyclone RX4 is a 401 cc twin-cylinder adventure bike designed for A2 licence holders who want a step up from a 125. The eight-valve liquid-cooled engine has Bosch fuel injection, makes 36.2 PS and uses an anti-hop slipper clutch. Spoked wheels in 19 and 17 inches carry tubeless tyres for mixed road and trail riding.",
+    "Chassis hardware includes a 41 mm upside-down fork adjustable for preload and rebound, and twin 305 mm front discs with four-piston calipers and switchable dual-channel ABS. A TFT dash with phone connection and tyre pressure monitoring, backlit switchgear, an AGM battery and crash bars are standard. Urban and Explorer versions add an aluminium top case or a full case set."
+   ],
+   "highlights": [
+    "401 cc DOHC parallel twin, 36.2 PS and 34 Nm, Bosch injection",
+    "Slipper clutch and six-speed gearbox",
+    "Twin 305 mm front discs, 4-piston calipers, switchable dual-channel ABS",
+    "41 mm upside-down fork adjustable for preload and rebound",
+    "TFT dash with phone connection and tyre pressure monitoring",
+    "Urban (40 L top case) and Explorer (top case and 28 L side cases) versions"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "4-stroke parallel twin, DOHC, 8 valves"
+      ],
+      [
+       "Displacement",
+       "401 cc"
+      ],
+      [
+       "Bore x stroke",
+       "68 x 55.2 mm"
+      ],
+      [
+       "Max power",
+       "27 kW (36.2 PS) @ 8,500 rpm"
+      ],
+      [
+       "Max torque",
+       "34 Nm @ 8,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "Bosch electronic fuel injection"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ],
+      [
+       "Valve train",
+       "Chain-driven DOHC"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed, gear primary drive"
+      ],
+      [
+       "Final drive",
+       "Chain"
+      ],
+      [
+       "Clutch",
+       "Manual, wet multi-plate, slipper (anti-hop)"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Steel multi-tube"
+      ],
+      [
+       "Front suspension",
+       "Upside-down fork, 41 mm tubes, 130 mm travel, adjustable preload and rebound"
+      ],
+      [
+       "Rear suspension",
+       "Monoshock, adjustable preload"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Twin 305 mm discs, 4-piston calipers, dual-channel ABS"
+      ],
+      [
+       "Rear brake",
+       "258 mm disc, dual-channel ABS"
+      ],
+      [
+       "ABS",
+       "Dual-channel, switchable"
+      ],
+      [
+       "Wheels",
+       "Spoked, tubeless"
+      ],
+      [
+       "Front tyre",
+       "110/80 R19"
+      ],
+      [
+       "Rear tyre",
+       "140/70 R17"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Wheelbase",
+       "1,410 mm"
+      ],
+      [
+       "Seat height",
+       "810 mm"
+      ],
+      [
+       "Fuel tank",
+       "18 L"
+      ],
+      [
+       "Weight",
+       "215 kg"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Instruments",
+       "TFT with phone connection and tyre pressure sensor"
+      ],
+      [
+       "Lighting",
+       "Full LED"
+      ],
+      [
+       "Standard equipment",
+       "AGM battery, dual seat, engine and frame crash bars, aluminium handlebar, backlit switchgear, spoked wheels, tubeless tyres"
+      ],
+      [
+       "Versions",
+       "Standard; Urban (40 L aluminium top case); Explorer (top case and 28 L aluminium side cases)"
+      ],
+      [
+       "Service interval",
+       "First service at 1,000 km, then every 5,000 km"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Grey",
+    "White"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/cyclone/rx4-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RX4 Adventure in grey, right side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rx4-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Cyclone RX4 Adventure in grey, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rx4-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RX4 Adventure in white with aluminium cases, right side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rx4-4",
+     "w": 900,
+     "h": 600,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Cyclone RX4 Adventure TFT dashboard, detail view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rx4-5",
+     "w": 900,
+     "h": 600,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Cyclone RX4 Adventure twin-cylinder engine, detail view"
+    }
+   ],
+   "sourceUrl": "https://cyclone-motor.eu/es/moto-trail/rx4-400cc/",
+   "notes": "The RX4 page is live and linked from the models page, but RX4 is missing from the main Trail drop-down menu; it may be on its way out. Spec table lists Euro 5 (not 5+) for this model, unlike the rest of the range, which also hints at an older model. 27 kW equals 36.7 PS; the page states 36.2 CV. Spec table gives 'Cadena / DOHC' for final drive (copy error); final drive is chain. Colours: grey from file name rx4-gris; white from cover image file name rx401-portada-blanco. Weight not stated as dry or kerb."
+  },
+  {
+   "slug": "ra1000",
+   "name": "RA1000",
+   "category": "Naked",
+   "key": {
+    "engine": "996 cc 90-degree V-twin, liquid-cooled",
+    "cc": 996,
+    "power": "106.73 PS (78.5 kW) @ 9,000 rpm",
+    "torque": "95 Nm @ 6,500 rpm",
+    "weight": "225 kg",
+    "seat": "780 mm",
+    "tank": "17 L",
+    "topSpeed": null
+   },
+   "tagline": "996 cc V-twin with Bosch ABS, traction control and a 240 rear tyre",
+   "summary": [
+    "The Cyclone RA1000 is the flagship of the range: a 996 cc 90-degree V-twin making 106.73 PS and 95 Nm, in a long, low chassis with a 240-section rear tyre and a 780 mm seat. It is aimed at experienced riders who want muscular styling and big-twin torque rather than outright sport performance.",
+    "Bosch ABS and traction control work with J.Juan brakes, including four-piston calipers on twin 320 mm front discs. Suspension is a 48 mm upside-down fork and a fully adjustable direct-mount rear shock. Pirelli tyres, a 6-inch TFT dash, keyless ignition and a lithium battery are standard, and the frame mixes steel tube and aluminium."
+   ],
+   "highlights": [
+    "996 cc 90-degree V-twin, 106.73 PS and 95 Nm",
+    "Bosch ABS and traction control, J.Juan brakes",
+    "48 mm upside-down fork, fully adjustable rear shock",
+    "240/45-17 rear tyre, Pirelli tyres as standard",
+    "6-inch TFT, keyless system and lithium battery",
+    "780 mm seat, 1,600 mm wheelbase, 17 L tank"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "4-stroke 90-degree V-twin, DOHC, 8 valves"
+      ],
+      [
+       "Displacement",
+       "996 cc"
+      ],
+      [
+       "Bore x stroke",
+       "97 x 67.4 mm"
+      ],
+      [
+       "Max power",
+       "78.5 kW (106.73 PS) @ 9,000 rpm"
+      ],
+      [
+       "Max torque",
+       "95 Nm @ 6,500 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ],
+      [
+       "Valve train",
+       "Chain-driven DOHC"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed, gear primary drive"
+      ],
+      [
+       "Final drive",
+       "Chain"
+      ],
+      [
+       "Clutch",
+       "Manual, wet multi-plate"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Mixed steel tube and aluminium"
+      ],
+      [
+       "Front suspension",
+       "Upside-down fork, 48 mm tubes, adjustable rebound"
+      ],
+      [
+       "Rear suspension",
+       "Direct-mount monoshock, adjustable preload, compression and rebound"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Twin 320 mm discs, J.Juan 4-piston calipers, dual-channel ABS"
+      ],
+      [
+       "Rear brake",
+       "270 mm disc, J.Juan 1-piston caliper, ABS"
+      ],
+      [
+       "Tyres",
+       "Pirelli"
+      ],
+      [
+       "Front tyre",
+       "120/70-17"
+      ],
+      [
+       "Rear tyre",
+       "240/45-17"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Wheelbase",
+       "1,600 mm"
+      ],
+      [
+       "Seat height",
+       "780 mm"
+      ],
+      [
+       "Fuel tank",
+       "17 L"
+      ],
+      [
+       "Weight",
+       "225 kg"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Instruments",
+       "6-inch TFT"
+      ],
+      [
+       "Lighting",
+       "Full LED"
+      ],
+      [
+       "Rider aids",
+       "ABS, Bosch traction control (TCS)"
+      ],
+      [
+       "Standard equipment",
+       "Keyless system, lithium battery, Pirelli tyres"
+      ],
+      [
+       "Service interval",
+       "First service at 1,000 km, then every 5,000 km or 1 year"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Grey",
+    "Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/cyclone/ra1000-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RA1000 Naked in grey, right side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/ra1000-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RA1000 Naked in black, right side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/ra1000-3",
+     "w": 900,
+     "h": 600,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Cyclone RA1000 Naked V-twin engine, detail view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/ra1000-4",
+     "w": 900,
+     "h": 600,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Cyclone RA1000 Naked J.Juan front brake, detail view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/ra1000-5",
+     "w": 900,
+     "h": 600,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Cyclone RA1000 Naked LED headlight, detail view"
+    }
+   ],
+   "sourceUrl": "https://cyclone-motor.eu/es/moto-naked/ra1000-996cc/",
+   "notes": "Page shows 'MUY PRONTO' (coming soon) instead of a price, so the model may not be on sale yet; full spec table is published. Maker lists it under Naked in the menu but the copy calls it both 'alma Naked' and 'una custom'; with a 240 rear tyre, 1,600 mm wheelbase and 780 mm seat it is a power cruiser. Category kept as the maker's Naked; consider Cruiser if preferred. Only one studio frame per colour (gris, negro) is published, both right side views; no 3/4 studio angle exists. Weight not stated as dry or kerb."
+  },
+  {
+   "slug": "battlo",
+   "name": "BATTLO",
+   "category": "Naked",
+   "key": {
+    "engine": "125 cc single-cylinder, liquid-cooled",
+    "cc": 125,
+    "power": "15 PS @ 9,000 rpm",
+    "torque": "11 Nm @ 7,500 rpm",
+    "weight": "149 kg",
+    "seat": "765 mm",
+    "tank": "13 L",
+    "topSpeed": null
+   },
+   "tagline": "Liquid-cooled 125 naked with upside-down fork, ABS and LED lighting",
+   "summary": [
+    "The Cyclone BATTLO is a 125 cc naked bike with sharp, forward-leaning styling aimed at younger riders who want a sporty look on a learner licence. A liquid-cooled DOHC four-valve single produces 15 PS and 11 Nm, and the bike weighs 149 kg. A 765 mm seat keeps it approachable for shorter riders.",
+    "The chassis uses a 37 mm upside-down fork and a preload-adjustable monoshock, with wave-style discs and ABS at both ends. Full LED lighting, a colour LCD dash, tubeless tyres on 17-inch aluminium wheels, a dual seat and an AGM battery come as standard, and the 13-litre tank gives sensible range for commuting."
+   ],
+   "highlights": [
+    "125 cc liquid-cooled DOHC single, 15 PS and 11 Nm",
+    "149 kg weight and 765 mm seat height",
+    "37 mm upside-down fork, preload-adjustable monoshock",
+    "ABS with wave-style 265 mm front and 240 mm rear discs",
+    "Colour LCD dash and full LED lighting",
+    "13 L fuel tank, tubeless tyres on 17-inch aluminium wheels"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "4-stroke single-cylinder, DOHC, 4 valves"
+      ],
+      [
+       "Displacement",
+       "125 cc"
+      ],
+      [
+       "Bore x stroke",
+       "58 x 47 mm"
+      ],
+      [
+       "Max power",
+       "15 PS @ 9,000 rpm"
+      ],
+      [
+       "Max torque",
+       "11 Nm @ 7,500 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ],
+      [
+       "Valve train",
+       "Chain-driven DOHC"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed, gear primary drive"
+      ],
+      [
+       "Final drive",
+       "Chain"
+      ],
+      [
+       "Clutch",
+       "Manual, wet multi-plate"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Steel multi-tube"
+      ],
+      [
+       "Front suspension",
+       "Upside-down telescopic fork, 37 mm tubes, 110 mm travel"
+      ],
+      [
+       "Rear suspension",
+       "Monoshock, adjustable preload"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "265 mm wave disc, ABS"
+      ],
+      [
+       "Rear brake",
+       "240 mm wave disc, ABS"
+      ],
+      [
+       "Wheels",
+       "Aluminium, tubeless tyres"
+      ],
+      [
+       "Front tyre",
+       "100/80-17"
+      ],
+      [
+       "Rear tyre",
+       "140/70-17"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Wheelbase",
+       "1,350 mm"
+      ],
+      [
+       "Seat height",
+       "765 mm"
+      ],
+      [
+       "Fuel tank",
+       "13 L"
+      ],
+      [
+       "Weight",
+       "149 kg"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Instruments",
+       "Colour LCD"
+      ],
+      [
+       "Lighting",
+       "Full LED"
+      ],
+      [
+       "Rider aids",
+       "ABS"
+      ],
+      [
+       "Standard equipment",
+       "Dual seat, AGM battery, tubeless tyres"
+      ],
+      [
+       "Service interval",
+       "First service at 1,000 km, then every 3,000 km or 1 year"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Red",
+    "Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/cyclone/battlo-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone BATTLO Naked in red, right side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/battlo-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Cyclone BATTLO Naked in red, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/battlo-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone BATTLO Naked in black, right side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/battlo-4",
+     "w": 900,
+     "h": 600,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Cyclone BATTLO Naked colour LCD dashboard, detail view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/battlo-5",
+     "w": 900,
+     "h": 600,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Cyclone BATTLO Naked LED headlight, detail view"
+    }
+   ],
+   "sourceUrl": "https://cyclone-motor.eu/es/moto-naked/battlo-2025-125cc/",
+   "notes": "Name written 'BATTLO' in capitals on the site (URL and copy call it BATTLO 2025). Peak power rpm is given as 9,000 rpm here but 9,500 rpm for the RX2 and RX1 PRO with the same 58 x 47 mm engine; published figures kept as is. Colours: red from cover image file name (battlo-portada-rojo) and red 360 set; black from 360 set battlo-negro. Weight not stated as dry or kerb."
+  },
+  {
+   "slug": "ra2",
+   "name": "RA2",
+   "category": "Custom",
+   "key": {
+    "engine": "125 cc single-cylinder, air-cooled",
+    "cc": 125,
+    "power": "9 kW (12 PS) @ 9,500 rpm",
+    "torque": "9.9 Nm @ 8,000 rpm",
+    "weight": "144 kg",
+    "seat": "720 mm",
+    "tank": "13 L",
+    "topSpeed": null
+   },
+   "tagline": "Air-cooled 125 custom with a 720 mm seat and spoked wheels",
+   "summary": [
+    "The Cyclone RA2 is an entry-level 125 cc custom with classic lines and a very low 720 mm seat, which makes it easy for new and shorter riders to put both feet down. A fuel-injected, air-cooled four-valve single drives a five-speed gearbox, and the bike weighs 144 kg.",
+    "Spoked wheels, 18 inches at the front and 15 at the rear, carry wide 130-section rear rubber for a proper custom stance. Braking uses a combined system (CBS) with a three-piston front caliper on a 267 mm disc. A round digital LCD dash and full LED lighting give it a modern touch, and the 13-litre tank suits daily use."
+   ],
+   "highlights": [
+    "125 cc air-cooled single with fuel injection",
+    "720 mm seat height and 144 kg weight",
+    "Spoked 18/15-inch wheels, 130/90-15 rear tyre",
+    "Combined braking system (CBS), 3-piston front caliper",
+    "Round digital LCD dash and full LED lighting",
+    "13 L fuel tank"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "4-stroke single-cylinder, OHC, 4 valves"
+      ],
+      [
+       "Displacement",
+       "125 cc"
+      ],
+      [
+       "Bore x stroke",
+       "57.3 x 48.4 mm"
+      ],
+      [
+       "Max power",
+       "9 kW (12 PS) @ 9,500 rpm"
+      ],
+      [
+       "Max torque",
+       "9.9 Nm @ 8,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Cooling",
+       "Air"
+      ],
+      [
+       "Valve train",
+       "Chain-driven OHC"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "5-speed, gear primary drive"
+      ],
+      [
+       "Final drive",
+       "Chain"
+      ],
+      [
+       "Clutch",
+       "Manual, wet multi-plate"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Steel tube"
+      ],
+      [
+       "Front suspension",
+       "Hydraulic fork, 37 mm tubes, 134 mm travel"
+      ],
+      [
+       "Rear suspension",
+       "Twin hydraulic shocks, 60 mm travel"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "267 mm disc, 3-piston caliper, CBS"
+      ],
+      [
+       "Rear brake",
+       "240 mm disc, 2-piston caliper, CBS"
+      ],
+      [
+       "Wheels",
+       "Spoked"
+      ],
+      [
+       "Front tyre",
+       "90/90-18"
+      ],
+      [
+       "Rear tyre",
+       "130/90-15"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Wheelbase",
+       "1,380 mm"
+      ],
+      [
+       "Seat height",
+       "720 mm"
+      ],
+      [
+       "Fuel tank",
+       "13 L"
+      ],
+      [
+       "Weight",
+       "144 kg"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Instruments",
+       "Digital LCD"
+      ],
+      [
+       "Lighting",
+       "Full LED"
+      ],
+      [
+       "Braking system",
+       "CBS"
+      ],
+      [
+       "Service interval",
+       "First service at 1,000 km, then every 3,000 km or 1 year"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Grey",
+    "Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/cyclone/ra2-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RA2 Custom in grey, left side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/ra2-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Cyclone RA2 Custom in grey, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/ra2-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RA2 Custom in black, left side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/ra2-4",
+     "w": 998,
+     "h": 665,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Cyclone RA2 Custom round LCD dashboard, detail view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/ra2-5",
+     "w": 1086,
+     "h": 724,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Cyclone RA2 Custom fuel tank, detail view"
+    }
+   ],
+   "sourceUrl": "https://cyclone-motor.eu/es/moto-custom/ra2-125cc/",
+   "notes": "Power conflict: headline and models page say 12.64 CV, spec table says 'CV 12' and 9 kW / 9,500 rpm (9 kW = 12.2 PS). Spec table figure used; the 12.64 CV headline appears to be copied from the Carrera, which shares the bore and stroke. Colours from 360 file names (gris, negro). Weight not stated as dry or kerb."
+  },
+  {
+   "slug": "ra125-plus",
+   "name": "RA125 PLUS",
+   "category": "Custom",
+   "key": {
+    "engine": "124 cc single-cylinder, liquid-cooled",
+    "cc": 124,
+    "power": "14.96 PS (11 kW) @ 10,000 rpm",
+    "torque": "11 Nm @ 9,000 rpm",
+    "weight": "153 kg",
+    "seat": "740 mm",
+    "tank": "15 L",
+    "topSpeed": null
+   },
+   "tagline": "Liquid-cooled 125 custom with ABS, traction control and 300 mm disc",
+   "summary": [
+    "The Cyclone RA125 PLUS is a liquid-cooled 125 cc custom for riders who want classic proportions with more modern hardware than an entry-level cruiser. Its DOHC four-valve single makes 14.96 PS and drives a six-speed gearbox. A 740 mm seat and 153 kg weight keep it easy to handle in town.",
+    "ABS and traction control come as standard, with a 300 mm disc at the front. Spoked wheels, 18-inch front and 15-inch rear, run tubeless tyres. The round digital LCD dash, full LED lighting, twin preload-adjustable rear shocks and a 15-litre tank complete a well-equipped package for the learner market."
+   ],
+   "highlights": [
+    "124 cc liquid-cooled DOHC single, 14.96 PS and 11 Nm",
+    "ABS and traction control as standard",
+    "300 mm front disc, 240 mm rear disc",
+    "Spoked 18/15-inch wheels with tubeless tyres",
+    "740 mm seat height and 15 L tank",
+    "Six-speed gearbox, round LCD dash, full LED lighting"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "4-stroke single-cylinder, DOHC, 4 valves"
+      ],
+      [
+       "Displacement",
+       "124 cc"
+      ],
+      [
+       "Bore x stroke",
+       "58 x 47 mm"
+      ],
+      [
+       "Max power",
+       "11 kW (14.96 PS) @ 10,000 rpm"
+      ],
+      [
+       "Max torque",
+       "11 Nm @ 9,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ],
+      [
+       "Valve train",
+       "Chain-driven DOHC"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed, gear primary drive"
+      ],
+      [
+       "Final drive",
+       "Chain"
+      ],
+      [
+       "Clutch",
+       "Manual, wet multi-plate"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Steel tube"
+      ],
+      [
+       "Front suspension",
+       "Hydraulic fork, 37 mm tubes, 135 mm travel"
+      ],
+      [
+       "Rear suspension",
+       "Twin shocks, adjustable preload, 62 mm travel"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "300 mm disc, ABS"
+      ],
+      [
+       "Rear brake",
+       "240 mm disc, ABS"
+      ],
+      [
+       "Wheels",
+       "Spoked, tubeless tyres"
+      ],
+      [
+       "Front tyre",
+       "110/80-18"
+      ],
+      [
+       "Rear tyre",
+       "140/90-15"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Wheelbase",
+       "1,460 mm"
+      ],
+      [
+       "Seat height",
+       "740 mm"
+      ],
+      [
+       "Fuel tank",
+       "15 L"
+      ],
+      [
+       "Weight",
+       "153 kg"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Instruments",
+       "Digital LCD"
+      ],
+      [
+       "Lighting",
+       "Full LED"
+      ],
+      [
+       "Rider aids",
+       "ABS, traction control (TCS)"
+      ],
+      [
+       "Service interval",
+       "First service at 1,000 km, then every 3,000 km or 1 year"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Green",
+    "Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/cyclone/ra125-plus-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RA125 PLUS Custom in green, left side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/ra125-plus-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Cyclone RA125 PLUS Custom in green, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/ra125-plus-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RA125 PLUS Custom in black, left side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/ra125-plus-4",
+     "w": 995,
+     "h": 663,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Cyclone RA125 PLUS Custom round LCD dashboard, detail view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/ra125-plus-5",
+     "w": 1086,
+     "h": 724,
+     "kind": "detail",
+     "studio": true,
+     "alt": "Cyclone RA125 PLUS Custom fuel tank, detail view"
+    }
+   ],
+   "sourceUrl": "https://cyclone-motor.eu/es/moto-custom/ra125-plus-125cc/",
+   "notes": "Spec table gives 124 cc; headline says 125 cc. Models page says 'Llantas de Radios 17-19' but the spec table gives 18-inch front and 15-inch rear tyres; spec table used. The 'green' bike is a two-tone green-blue and white tank; colour names from 360 file names (verde, negro). Weight not stated as dry or kerb."
+  },
+  {
+   "slug": "rt2",
+   "name": "RT2",
+   "category": "Maxi scooter",
+   "key": {
+    "engine": "289 cc single-cylinder, liquid-cooled",
+    "cc": 289,
+    "power": "24 PS (17.6 kW) @ 7,000 rpm",
+    "torque": "24.5 Nm @ 6,750 rpm",
+    "weight": "183 kg",
+    "seat": "795 mm",
+    "tank": "12 L",
+    "topSpeed": null
+   },
+   "tagline": "289 cc maxi scooter with front and rear cameras and traction control",
+   "summary": [
+    "The Cyclone RT2 is a 289 cc maxi scooter for commuters who need motorway pace and plenty of equipment. Its liquid-cooled DOHC four-valve single makes 24 PS and 24.5 Nm through a CVT automatic. Front and rear cameras, keyless ignition and a TFT dash with Mirror Link set it apart from simpler scooters in this size.",
+    "Dual-channel ABS, traction control and tubeless tyres look after safety, with a 270 mm front disc. The screen adjusts for height, the rear shock adjusts for preload, and there is room for a full-face helmet under the seat. Backlit switchgear, full LED lighting and a 12-litre tank complete a practical, well-specified package."
+   ],
+   "highlights": [
+    "289 cc liquid-cooled DOHC single, 24 PS and 24.5 Nm",
+    "Front and rear cameras",
+    "TFT dash with Mirror Link, keyless system",
+    "Dual-channel ABS and traction control",
+    "Full-face helmet space and height-adjustable screen",
+    "12 L tank, 795 mm seat"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "4-stroke single-cylinder, DOHC, 4 valves"
+      ],
+      [
+       "Displacement",
+       "289 cc"
+      ],
+      [
+       "Bore x stroke",
+       "77 x 62 mm"
+      ],
+      [
+       "Max power",
+       "17.6 kW (24 PS) @ 7,000 rpm"
+      ],
+      [
+       "Max torque",
+       "24.5 Nm @ 6,750 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ],
+      [
+       "Valve train",
+       "Chain-driven DOHC"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "CVT automatic"
+      ],
+      [
+       "Final drive",
+       "Gear"
+      ],
+      [
+       "Clutch",
+       "Belt with centrifugal clutch"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Steel double cradle"
+      ],
+      [
+       "Front suspension",
+       "Hydraulic fork, 35 mm tubes"
+      ],
+      [
+       "Rear suspension",
+       "Shock adjustable for preload, 90 mm travel"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "270 mm disc, 2-piston caliper, ABS"
+      ],
+      [
+       "Rear brake",
+       "220 mm disc, 2-piston caliper, ABS"
+      ],
+      [
+       "ABS",
+       "Dual-channel"
+      ],
+      [
+       "Tyres",
+       "Tubeless"
+      ],
+      [
+       "Front tyre",
+       "110/80-14"
+      ],
+      [
+       "Rear tyre",
+       "140/60-13"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Wheelbase",
+       "1,400 mm"
+      ],
+      [
+       "Seat height",
+       "795 mm"
+      ],
+      [
+       "Fuel tank",
+       "12 L"
+      ],
+      [
+       "Weight",
+       "183 kg"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Instruments",
+       "TFT with Mirror Link"
+      ],
+      [
+       "Lighting",
+       "Full LED"
+      ],
+      [
+       "Rider aids",
+       "Dual-channel ABS, traction control (TCS)"
+      ],
+      [
+       "Standard equipment",
+       "Front and rear cameras, keyless system, backlit switchgear, full-face helmet space, adjustable rear suspension, adjustable screen"
+      ],
+      [
+       "Service interval",
+       "First service at 1,000 km, then every 5,000 km or 1 year"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/cyclone/rt2-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RT2 Maxi scooter in black, left side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rt2-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Cyclone RT2 Maxi scooter in black, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rt2-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RT2 Maxi scooter in black, right side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rt2-4",
+     "w": 900,
+     "h": 600,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Cyclone RT2 Maxi scooter LED headlight, detail view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rt2-5",
+     "w": 900,
+     "h": 600,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Cyclone RT2 Maxi scooter front brake and wheel, detail view"
+    }
+   ],
+   "sourceUrl": "https://cyclone-motor.eu/es/moto-scooter/rt2-300cc/",
+   "notes": "Only one colour (negro, matt black) is shown in the 360 viewer; black bike on transparent background, so it will need a light page background. URL says 300cc; displacement is 289 cc. Weight not stated as dry or kerb."
+  },
+  {
+   "slug": "rt3s",
+   "name": "RT3S",
+   "category": "Maxi scooter",
+   "key": {
+    "engine": "289 cc single-cylinder, liquid-cooled",
+    "cc": 289,
+    "power": "24 PS (17.6 kW) @ 7,000 rpm",
+    "torque": "24.5 Nm @ 6,750 rpm",
+    "weight": "201 kg",
+    "seat": "765 mm",
+    "tank": "17 L",
+    "topSpeed": null
+   },
+   "tagline": "289 cc touring maxi scooter with electric screen and 17 L tank",
+   "summary": [
+    "The Cyclone RT3S is a 289 cc maxi scooter built for longer commutes and touring, sitting above the RT2 in the range. It shares the liquid-cooled DOHC single making 24 PS, but adds a longer 1,525 mm wheelbase, larger 15-inch front and 14-inch rear wheels, a lower 765 mm seat and a 17-litre tank.",
+    "An electrically adjustable screen, Bosch ABS, a TFT dash with Mirror Link, keyless ignition and backlit switchgear are standard. There is space for a full-face helmet under the seat and full LED lighting front and rear. For dealers it offers a comfort-focused, long-distance option alongside the more compact RT2."
+   ],
+   "highlights": [
+    "289 cc liquid-cooled DOHC single, 24 PS and 24.5 Nm",
+    "Electrically adjustable windscreen",
+    "Bosch ABS, 270 mm front disc",
+    "TFT dash with Mirror Link, keyless system",
+    "17 L fuel tank and 765 mm seat",
+    "15/14-inch wheels and 1,525 mm wheelbase"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "4-stroke single-cylinder, DOHC, 4 valves"
+      ],
+      [
+       "Displacement",
+       "289 cc"
+      ],
+      [
+       "Bore x stroke",
+       "77 x 62 mm"
+      ],
+      [
+       "Max power",
+       "17.6 kW (24 PS) @ 7,000 rpm"
+      ],
+      [
+       "Max torque",
+       "24.5 Nm @ 6,750 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ],
+      [
+       "Valve train",
+       "Chain-driven DOHC"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "CVT automatic"
+      ],
+      [
+       "Final drive",
+       "Gear"
+      ],
+      [
+       "Clutch",
+       "Belt with centrifugal clutch"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Steel double cradle"
+      ],
+      [
+       "Front suspension",
+       "Hydraulic fork, 35 mm tubes, 120 mm travel"
+      ],
+      [
+       "Rear suspension",
+       "Shock adjustable for preload, 90 mm travel"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "270 mm disc, 2-piston caliper, ABS"
+      ],
+      [
+       "Rear brake",
+       "220 mm disc, 2-piston caliper, ABS"
+      ],
+      [
+       "ABS",
+       "Bosch"
+      ],
+      [
+       "Front tyre",
+       "120/70-15"
+      ],
+      [
+       "Rear tyre",
+       "140/60-14"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Wheelbase",
+       "1,525 mm"
+      ],
+      [
+       "Seat height",
+       "765 mm"
+      ],
+      [
+       "Fuel tank",
+       "17 L"
+      ],
+      [
+       "Weight",
+       "201 kg"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Instruments",
+       "TFT with Mirror Link"
+      ],
+      [
+       "Lighting",
+       "Full LED"
+      ],
+      [
+       "Standard equipment",
+       "Keyless system, electrically adjustable screen, backlit switchgear, full-face helmet space"
+      ],
+      [
+       "Service interval",
+       "First service at 1,000 km, then every 5,000 km or 1 year"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Grey",
+    "Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/cyclone/rt3s-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RT3S Maxi scooter in grey, left side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rt3s-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Cyclone RT3S Maxi scooter in grey, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rt3s-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RT3S Maxi scooter in black, left side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rt3s-4",
+     "w": 900,
+     "h": 600,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Cyclone RT3S Maxi scooter TFT dashboard, detail view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rt3s-5",
+     "w": 900,
+     "h": 600,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Cyclone RT3S Maxi scooter LED headlight, detail view"
+    }
+   ],
+   "sourceUrl": "https://cyclone-motor.eu/es/moto-scooter/rt3s-300cc/",
+   "notes": "RT3S is in the site menu but missing from the Yoast page sitemap; the page itself loads normally. Unlike the RT2, the RT3S page does not list traction control. Colours from 360 file names (gris, negro). URL says 300cc; displacement is 289 cc. Weight not stated as dry or kerb."
+  },
+  {
+   "slug": "rt1",
+   "name": "RT1",
+   "category": "Scooter",
+   "key": {
+    "engine": "125 cc single-cylinder, liquid-cooled",
+    "cc": 125,
+    "power": "11.69 PS (8.6 kW) @ 8,740 rpm",
+    "torque": "11.7 Nm @ 6,750 rpm",
+    "weight": "142 kg",
+    "seat": "810 mm",
+    "tank": "9 L",
+    "topSpeed": null
+   },
+   "tagline": "125 scooter with front HD camera, keyless start, ABS and a top case",
+   "summary": [
+    "The Cyclone RT1 is a 125 cc urban scooter with a liquid-cooled single making 11.69 PS through a CVT automatic. It targets commuters who want more technology than a basic 125: a front-facing 1080p HD camera, keyless ignition, start-stop and an alarm are all standard, alongside dual-channel ABS and traction control.",
+    "Fourteen-inch wheels front and rear, a 270 mm front disc and a preload-adjustable rear shock suit city riding. There is room for a jet helmet under the seat, and a SHAD SH33 top case is included. Backlit switchgear, an LCD dash, full LED lighting and a 9-litre tank complete the specification."
+   ],
+   "highlights": [
+    "125 cc liquid-cooled single, 11.69 PS, CVT automatic",
+    "Front 1080p HD camera, keyless system and start-stop",
+    "Dual-channel ABS and traction control",
+    "SHAD SH33 top case included",
+    "Jet helmet space under the seat, alarm as standard",
+    "14-inch wheels, 270 mm front disc"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "4-stroke single-cylinder, OHC, 2 valves"
+      ],
+      [
+       "Displacement",
+       "125 cc"
+      ],
+      [
+       "Bore x stroke",
+       "52.4 x 57.9 mm"
+      ],
+      [
+       "Max power",
+       "8.6 kW (11.69 PS) @ 8,740 rpm"
+      ],
+      [
+       "Max torque",
+       "11.7 Nm @ 6,750 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ],
+      [
+       "Valve train",
+       "Chain-driven OHC"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "CVT automatic"
+      ],
+      [
+       "Final drive",
+       "Gear"
+      ],
+      [
+       "Clutch",
+       "Belt with centrifugal clutch"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Steel double cradle"
+      ],
+      [
+       "Front suspension",
+       "Conventional fork, 33 mm tubes, 95 mm travel"
+      ],
+      [
+       "Rear suspension",
+       "Shock adjustable for preload, 91 mm travel"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "270 mm disc, 2-piston caliper, ABS"
+      ],
+      [
+       "Rear brake",
+       "218 mm disc, 2-piston caliper, ABS"
+      ],
+      [
+       "ABS",
+       "Dual-channel, switchable"
+      ],
+      [
+       "Front tyre",
+       "100/80-14"
+      ],
+      [
+       "Rear tyre",
+       "120/70-14"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Wheelbase",
+       "1,337 mm"
+      ],
+      [
+       "Seat height",
+       "810 mm"
+      ],
+      [
+       "Fuel tank",
+       "9 L"
+      ],
+      [
+       "Weight",
+       "142 kg"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Instruments",
+       "Digital LCD"
+      ],
+      [
+       "Lighting",
+       "Full LED"
+      ],
+      [
+       "Rider aids",
+       "Dual-channel ABS, traction control (TCS)"
+      ],
+      [
+       "Standard equipment",
+       "Front HD 1080p camera, keyless system, start-stop, alarm, backlit switchgear, jet helmet space, SHAD SH33 top case"
+      ],
+      [
+       "Service interval",
+       "First service at 1,000 km, then every 3,000 km"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "White",
+    "Blue-green",
+    "Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/cyclone/rt1-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RT1 Scooter in white, left side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rt1-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Cyclone RT1 Scooter in white, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rt1-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RT1 Scooter in blue-green, left side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rt1-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RT1 Scooter in black, left side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rt1-5",
+     "w": 900,
+     "h": 600,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Cyclone RT1 Scooter digital LCD dashboard, detail view"
+    }
+   ],
+   "sourceUrl": "https://cyclone-motor.eu/es/moto-scooter/rt1-125cc/",
+   "notes": "The SHAD SH33 top case is listed both as a promotion ('gratis') and in standard equipment; check before stating it is always included. Colours from 360 file names (blanco, negro, azul-verde / verde-azul, a two-tone teal); not named in text. ABS switchability comes from the 'piñas retroiluminadas y ABS desconectable' feature block. Weight not stated as dry or kerb."
+  },
+  {
+   "slug": "rx6",
+   "name": "RX6",
+   "category": "Adventure",
+   "key": {
+    "engine": "650 cc parallel twin, liquid-cooled",
+    "cc": 650,
+    "power": "70.2 PS (52 kW) @ 8,500 rpm",
+    "torque": "62 Nm @ 7,000 rpm",
+    "weight": "244 kg",
+    "seat": "820 mm",
+    "tank": "20 L",
+    "topSpeed": null
+   },
+   "tagline": "650 cc twin adventure tourer with KYB suspension and J.Juan brakes",
+   "summary": [
+    "The Cyclone RX6 is the largest model in the trail range: a 650 cc liquid-cooled parallel twin producing 70.2 PS and 62 Nm. It rides on 17-inch wheels front and rear with tubeless road tyres, which points it at riders who cover long distances mostly on tarmac and want a tall, comfortable touring position.",
+    "Fully adjustable KYB suspension, twin 320 mm front discs with J.Juan brakes and dual-channel ABS form the chassis package. An 8.75-inch TFT with Mirror Link, full LED lighting and a 20-litre tank suit touring use. Dealers can add a top case, side cases, crash bars and a centre stand from the original accessory range."
+   ],
+   "highlights": [
+    "650 cc DOHC parallel twin, 70.2 PS and 62 Nm",
+    "KYB suspension: adjustable 41 mm upside-down fork and rear shock",
+    "J.Juan brakes, twin 320 mm front discs, dual-channel ABS",
+    "8.75-inch TFT dash with Mirror Link",
+    "20 L fuel tank and 17-inch wheels with tubeless tyres",
+    "Original top case, side cases, crash bars and centre stand available"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "4-stroke parallel twin, DOHC, 8 valves"
+      ],
+      [
+       "Displacement",
+       "650 cc"
+      ],
+      [
+       "Bore x stroke",
+       "82 x 61.5 mm"
+      ],
+      [
+       "Max power",
+       "52 kW (70.2 PS) @ 8,500 rpm"
+      ],
+      [
+       "Max torque",
+       "62 Nm @ 7,000 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ],
+      [
+       "Valve train",
+       "Chain-driven DOHC"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed, gear primary drive"
+      ],
+      [
+       "Final drive",
+       "Chain"
+      ],
+      [
+       "Clutch",
+       "Manual, wet multi-plate"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Steel multi-tube"
+      ],
+      [
+       "Front suspension",
+       "KYB adjustable upside-down telescopic fork, 41 mm tubes, 130 mm travel"
+      ],
+      [
+       "Rear suspension",
+       "Monoshock, adjustable spring preload and rebound damping"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "Twin 320 mm discs, J.Juan, ABS"
+      ],
+      [
+       "Rear brake",
+       "260 mm disc, ABS"
+      ],
+      [
+       "ABS",
+       "Dual-channel"
+      ],
+      [
+       "Tyres",
+       "Tubeless"
+      ],
+      [
+       "Front tyre",
+       "120/70 R17"
+      ],
+      [
+       "Rear tyre",
+       "160/60 R17"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Wheelbase",
+       "1,450 mm"
+      ],
+      [
+       "Seat height",
+       "820 mm"
+      ],
+      [
+       "Fuel tank",
+       "20 L"
+      ],
+      [
+       "Weight",
+       "244 kg"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Instruments",
+       "8.75-inch TFT with Mirror Link"
+      ],
+      [
+       "Lighting",
+       "Full LED"
+      ],
+      [
+       "Original accessories",
+       "Top case, side cases, crash bars, centre stand"
+      ],
+      [
+       "Accessory kits",
+       "Urban kit (SH58X top case); Explorer kit (SH58X top case and SH38X side cases)"
+      ],
+      [
+       "Service interval",
+       "First service at 1,000 km, then every 5,000 km"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Red"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/cyclone/rx6-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RX6 Adventure in red, left side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rx6-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Cyclone RX6 Adventure in red, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rx6-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Cyclone RX6 Adventure in red, right front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rx6-4",
+     "w": 900,
+     "h": 600,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Cyclone RX6 Adventure 8.75-inch TFT dashboard, detail view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rx6-5",
+     "w": 900,
+     "h": 600,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Cyclone RX6 Adventure J.Juan brake and KYB fork, detail view"
+    }
+   ],
+   "sourceUrl": "https://cyclone-motor.eu/es/moto-trail/moto-rx6-650cc/",
+   "notes": "Full spec table and an 8-frame 360 studio set (red only) are on the page. 52 kW equals 70.7 PS; the page states 70.2 CV (69.7 hp mechanical from 52 kW x 1.341). Maker files it under Trail; with 17/17-inch road wheels it is closer to an adventure tourer, kept as Adventure. Only one colour (rojo/red) is shown. Weight not stated as dry or kerb."
+  },
+  {
+   "slug": "ra600",
+   "name": "RA600",
+   "category": "Custom",
+   "key": {
+    "engine": "550 cc parallel twin, liquid-cooled",
+    "cc": 550,
+    "power": "59.16 PS (43.5 kW); A2 version 47.5 PS (35 kW)",
+    "torque": "55 Nm @ 6,500 rpm (A2 version 45 Nm)",
+    "weight": "198 kg",
+    "seat": "725 mm",
+    "tank": "14.5 L",
+    "topSpeed": null
+   },
+   "tagline": "550 cc twin custom with belt drive, 725 mm seat and an A2 version",
+   "summary": [
+    "The Cyclone RA600 is a mid-size custom built around the same 550 cc liquid-cooled parallel twin as the RX600. The full version makes 59.16 PS and 55 Nm, while a 47.5 PS version is available for A2 licence holders. A 725 mm seat, 198 kg weight and belt final drive suit riders moving up from a 125 custom.",
+    "Brakes are J.Juan, with a 320 mm front disc and dual-channel ABS, backed by traction control. KYB supplies the 41 mm front fork and the rear shock adjusts for preload and rebound. Sixteen-inch alloy wheels on fat tubeless tyres, a colour LCD dash, full LED lighting and a two-up seat are standard."
+   ],
+   "highlights": [
+    "550 cc DOHC parallel twin: 59.16 PS full or 47.5 PS A2 version",
+    "Belt final drive and six-speed gearbox",
+    "J.Juan brakes, dual-channel ABS and traction control",
+    "KYB 41 mm front fork, adjustable rear shock",
+    "725 mm seat height and 198 kg weight",
+    "16-inch alloy wheels, colour LCD dash, two-up seat"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "4-stroke parallel twin, DOHC, 8 valves"
+      ],
+      [
+       "Displacement",
+       "550 cc"
+      ],
+      [
+       "Bore x stroke",
+       "72 x 67.6 mm"
+      ],
+      [
+       "Max power",
+       "Full: 43.5 kW (59.16 PS) @ 8,500 rpm; A2 version: 35 kW (47.5 PS) @ 8,500 rpm"
+      ],
+      [
+       "Max torque",
+       "55 Nm @ 6,500 rpm (A2 version: 45 Nm @ 6,500 rpm)"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ],
+      [
+       "Valve train",
+       "Chain-driven DOHC"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed, gear primary drive"
+      ],
+      [
+       "Final drive",
+       "Belt"
+      ],
+      [
+       "Clutch",
+       "Manual, wet multi-plate"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Steel double cradle"
+      ],
+      [
+       "Front suspension",
+       "KYB conventional fork, 41 mm tubes"
+      ],
+      [
+       "Rear suspension",
+       "Central monoshock, adjustable preload and rebound"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "320 mm disc, J.Juan 2-piston caliper, dual-channel ABS"
+      ],
+      [
+       "Rear brake",
+       "260 mm disc, J.Juan 1-piston caliper, dual-channel ABS"
+      ],
+      [
+       "Wheels",
+       "Alloy, tubeless tyres"
+      ],
+      [
+       "Front tyre",
+       "130/90-16"
+      ],
+      [
+       "Rear tyre",
+       "150/80-16"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Wheelbase",
+       "1,510 mm"
+      ],
+      [
+       "Seat height",
+       "725 mm"
+      ],
+      [
+       "Fuel tank",
+       "14.5 L"
+      ],
+      [
+       "Weight",
+       "198 kg"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Instruments",
+       "Colour LCD"
+      ],
+      [
+       "Lighting",
+       "Full LED"
+      ],
+      [
+       "Rider aids",
+       "Dual-channel ABS, traction control (TCS)"
+      ],
+      [
+       "Standard equipment",
+       "Two-up seat, belt drive, alloy wheels, tubeless tyres"
+      ],
+      [
+       "Service interval",
+       "First service at 1,000 km, then every 5,000 km or 1 year"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Green",
+    "Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/cyclone/ra600-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RA600 Custom in green, left side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/ra600-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Cyclone RA600 Custom in green, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/ra600-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RA600 Custom in black, left side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/ra600-4",
+     "w": 900,
+     "h": 600,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Cyclone RA600 Custom J.Juan front brake, detail view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/ra600-5",
+     "w": 900,
+     "h": 600,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Cyclone RA600 Custom round colour LCD dashboard, detail view"
+    }
+   ],
+   "sourceUrl": "https://cyclone-motor.eu/es/moto-custom/ra600-550cc/",
+   "notes": "Full spec table and two 8-frame 360 studio sets (verde, negro) are on the page. Bore x stroke given as 72 x 67.6 mm here and 72 x 67.5 mm on the RX600 page. Torque: headline gives 45 / 55 Nm (limited / full), table gives 55 Nm only. Copy calls the front suspension 'KAYABA' (KYB). CV = PS; in mechanical hp 46.9 hp and 58.3 hp. Category: maker says Custom; it is a cruiser in form. Weight not stated as dry or kerb."
+  },
+  {
+   "slug": "rx1-pro",
+   "name": "RX1 PRO",
+   "category": "Adventure",
+   "key": {
+    "engine": "125 cc single-cylinder, liquid-cooled",
+    "cc": 125,
+    "power": "15 PS @ 9,500 rpm",
+    "torque": "11 Nm @ 7,500 rpm",
+    "weight": "164 kg (+15 kg cases and fittings)",
+    "seat": "780 mm",
+    "tank": "14 L",
+    "topSpeed": null
+   },
+   "tagline": "125 adventure bike with luggage, ABS, traction control and 780 mm seat",
+   "summary": [
+    "The Cyclone RX1 PRO is a liquid-cooled 125 cc adventure bike with a lower 780 mm seat, which makes it easier for shorter and newer riders to manage. Its DOHC four-valve single makes 15 PS and 11 Nm through a six-speed gearbox. An 18-inch front and 17-inch rear aluminium wheel carry tubeless tyres.",
+    "Rider aids include ABS and traction control, and the colour LCD dash keeps information clear. LED tail light, indicators and daytime running light, an AGM battery and a 14-litre tank are standard. The bike comes with a three-case luggage kit and crash bars, so it suits commuters who also want weekend touring capacity."
+   ],
+   "highlights": [
+    "125 cc liquid-cooled DOHC single, 15 PS and 11 Nm",
+    "ABS and traction control as standard",
+    "780 mm seat height and 1,375 mm wheelbase",
+    "Three-case luggage kit and crash bars included",
+    "37 mm upside-down fork, linkage rear shock adjustable for preload",
+    "Colour LCD dash, 14 L tank, tubeless tyres"
+   ],
+   "specs": [
+    {
+     "group": "Engine",
+     "rows": [
+      [
+       "Engine type",
+       "4-stroke single-cylinder, DOHC, 4 valves"
+      ],
+      [
+       "Displacement",
+       "125 cc"
+      ],
+      [
+       "Bore x stroke",
+       "58 x 47 mm"
+      ],
+      [
+       "Max power",
+       "15 PS @ 9,500 rpm"
+      ],
+      [
+       "Max torque",
+       "11 Nm @ 7,500 rpm"
+      ],
+      [
+       "Fuel system",
+       "Electronic fuel injection"
+      ],
+      [
+       "Cooling",
+       "Liquid"
+      ],
+      [
+       "Valve train",
+       "Chain-driven DOHC"
+      ]
+     ]
+    },
+    {
+     "group": "Transmission",
+     "rows": [
+      [
+       "Gearbox",
+       "6-speed, gear primary drive"
+      ],
+      [
+       "Final drive",
+       "Chain"
+      ],
+      [
+       "Clutch",
+       "Manual, wet multi-plate"
+      ]
+     ]
+    },
+    {
+     "group": "Chassis and suspension",
+     "rows": [
+      [
+       "Frame",
+       "Steel multi-tube"
+      ],
+      [
+       "Front suspension",
+       "Upside-down telescopic fork, 37 mm tubes, 120 mm travel"
+      ],
+      [
+       "Rear suspension",
+       "Monoshock with linkage, adjustable preload"
+      ]
+     ]
+    },
+    {
+     "group": "Brakes and wheels",
+     "rows": [
+      [
+       "Front brake",
+       "265 mm disc, ABS"
+      ],
+      [
+       "Rear brake",
+       "240 mm disc, ABS"
+      ],
+      [
+       "Wheels",
+       "Aluminium, tubeless tyres"
+      ],
+      [
+       "Front tyre",
+       "100/90-18"
+      ],
+      [
+       "Rear tyre",
+       "130/80-17"
+      ]
+     ]
+    },
+    {
+     "group": "Dimensions and weight",
+     "rows": [
+      [
+       "Wheelbase",
+       "1,375 mm"
+      ],
+      [
+       "Seat height",
+       "780 mm"
+      ],
+      [
+       "Fuel tank",
+       "14 L"
+      ],
+      [
+       "Weight",
+       "164 kg, plus 15 kg for cases and fittings"
+      ]
+     ]
+    },
+    {
+     "group": "Electrics and features",
+     "rows": [
+      [
+       "Instruments",
+       "Colour LCD"
+      ],
+      [
+       "Lighting",
+       "LED tail light, indicators and daytime running light"
+      ],
+      [
+       "Rider aids",
+       "ABS, traction control (TCS)"
+      ],
+      [
+       "Standard equipment",
+       "AGM battery, side cases, top case, crash bars, tubeless tyres"
+      ],
+      [
+       "Service interval",
+       "First service at 1,000 km, then every 3,000 km or 1 year"
+      ]
+     ]
+    }
+   ],
+   "colours": [
+    "Blue",
+    "Green",
+    "Black"
+   ],
+   "images": [
+    {
+     "src": "/images/motorcycles/cyclone/rx1-pro-1",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RX1 PRO Adventure in blue, white and red with luggage, left side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rx1-pro-2",
+     "w": 1200,
+     "h": 800,
+     "kind": "three-quarter",
+     "studio": true,
+     "alt": "Cyclone RX1 PRO Adventure in blue, white and red with luggage, front three-quarter view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rx1-pro-3",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RX1 PRO Adventure in green with luggage, left side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rx1-pro-4",
+     "w": 1200,
+     "h": 800,
+     "kind": "side",
+     "studio": true,
+     "alt": "Cyclone RX1 PRO Adventure in black with luggage, left side view"
+    },
+    {
+     "src": "/images/motorcycles/cyclone/rx1-pro-5",
+     "w": 900,
+     "h": 600,
+     "kind": "detail",
+     "studio": false,
+     "alt": "Cyclone RX1 PRO Adventure colour LCD dashboard, detail view"
+    }
+   ],
+   "sourceUrl": "https://cyclone-motor.eu/es/moto-trail/rx1-pro-2025-125cc/",
+   "notes": "Official name is written 'RX1 PRO' (page title and menu); the URL calls it the 2025 model. Full spec table and three 8-frame 360 studio sets (azul, verde, negro) are on the page; all show the bike with the luggage kit fitted. 'Azul' livery is mostly white with blue and red panels. Weight not stated as dry or kerb."
+  }
+ ]
+}

@@ -6,7 +6,7 @@
 //
 // Writes:
 //   src/data/moto/<brand>.json                       model data used by the pages
-//   public/images/motorcycles/<brand>/<slug>-<n>.webp (1400 px) and -sm.webp (700 px)
+//   public/images/motorcycles/<brand>/<slug>-<n>.webp (1200 px) and -sm.webp (700 px)
 //
 // Studio shots on white, transparent or light backgrounds are trimmed to the
 // bike and centred on a white 3:2 canvas, so every bike fills its frame the
@@ -22,7 +22,7 @@ if (!researchDir || brands.length === 0) {
   process.exit(1);
 }
 
-const BIG = 1400, SMALL = 700, MAX_IMAGES = 5;
+const BIG = 1200, SMALL = 700, MAX_IMAGES = 5;
 const BANNED = /—|!|\b(revolutionary|ultimate|unleash|game-changer|cutting-edge|unparalleled|elevate|seamless|boasts|epic|beast)\b/i;
 const CATEGORIES = ['Adventure', 'Rally', 'Off-road', 'Supermoto', 'Naked', 'Sport', 'Sport touring', 'Touring', 'Cruiser', 'Retro', 'Custom', 'Commuter', 'Scooter', 'Maxi scooter', 'Adventure scooter', 'Three-wheel scooter'];
 
@@ -72,7 +72,7 @@ for (const brand of brands) {
       const base = isStudio ? await studio(file) : await sharp(file).rotate().flatten({ background: '#ffffff' }).toBuffer();
       const n = images.length + 1;
       const name = `${m.slug}-${n}`;
-      const big = await sharp(base).resize({ width: BIG, withoutEnlargement: true }).webp({ quality: 80 }).toFile(path.join(outImg, `${name}.webp`));
+      const big = await sharp(base).resize({ width: BIG, withoutEnlargement: true }).webp({ quality: 76 }).toFile(path.join(outImg, `${name}.webp`));
       await sharp(base).resize({ width: SMALL, withoutEnlargement: true }).webp({ quality: 78 }).toFile(path.join(outImg, `${name}-sm.webp`));
       images.push({ src: `/images/motorcycles/${brand}/${name}`, w: big.width, h: big.height, kind: img.kind, studio: isStudio, alt: img.alt });
     }
