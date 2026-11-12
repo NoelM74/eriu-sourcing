@@ -1,0 +1,94 @@
+---
+// Hero motion graphic: a replacement screen running through a test cycle
+// (colour fields, touch-grid sweep, PASS stamp). Pure SVG + CSS, no JS.
+// Honours prefers-reduced-motion with a static "passed" state.
+---
+<figure class="st" aria-label="Animation: a replacement phone screen being tested, colour fields and a touch-grid sweep, ending in a pass">
+  <svg viewBox="0 0 260 480" role="img" aria-hidden="true">
+    <defs>
+      <clipPath id="st-screen"><rect x="18" y="18" width="224" height="444" rx="30" /></clipPath>
+      <linearGradient id="st-scan" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0" stop-color="#7ff0dc" stop-opacity="0" />
+        <stop offset="1" stop-color="#7ff0dc" stop-opacity=".85" />
+      </linearGradient>
+    </defs>
+    <rect x="6" y="6" width="248" height="468" rx="40" class="st-body" />
+    <g clip-path="url(#st-screen)">
+      <rect x="18" y="18" width="224" height="444" class="st-field" />
+      <g class="st-grid">
+        {Array.from({ length: 9 }).map((_, r) =>
+          Array.from({ length: 5 }).map((_, c) => (
+            <circle cx={50 + c * 40} cy={62 + r * 45} r="5" style={`--d:${(r * 5 + c) * 0.045}s`} />
+          ))
+        )}
+      </g>
+      <rect x="18" y="-60" width="224" height="60" fill="url(#st-scan)" class="st-scanline" />
+    </g>
+    <rect x="98" y="26" width="64" height="14" rx="7" class="st-notch" />
+    <g class="st-pass">
+      <rect x="62" y="206" width="136" height="68" rx="14" />
+      <text x="130" y="250" text-anchor="middle">PASS ✓</text>
+    </g>
+  </svg>
+  <figcaption class="st-caption">
+    <span class="st-step st-step--1">Pixels</span>
+    <span class="st-step st-step--2">Uniformity</span>
+    <span class="st-step st-step--3">Touch grid</span>
+    <span class="st-step st-step--4">Passed</span>
+  </figcaption>
+</figure>
+
+<style>
+  .st { margin: 0; width: min(100%, 300px); }
+  .st svg { width: 100%; height: auto; display: block; filter: drop-shadow(0 30px 60px rgba(0,0,0,.45)); }
+  .st-body { fill: #0b1620; stroke: rgba(127,240,220,.35); stroke-width: 2; }
+  .st-notch { fill: #0b1620; }
+  .st-field { animation: st-field 8s steps(1, end) infinite; fill: #ffffff; }
+  @keyframes st-field {
+    0%   { fill: #ffffff; }
+    12%  { fill: #ff2a2a; }
+    24%  { fill: #2aff6a; }
+    36%  { fill: #2a6bff; }
+    48%  { fill: #000000; }
+    60%  { fill: #0f2131; }
+    100% { fill: #0f2131; }
+  }
+  .st-scanline { animation: st-scan 8s linear infinite; }
+  @keyframes st-scan {
+    0%, 58% { transform: translateY(0); opacity: 0; }
+    60% { opacity: 1; }
+    84% { transform: translateY(540px); opacity: 1; }
+    85%, 100% { opacity: 0; transform: translateY(540px); }
+  }
+  .st-grid circle { fill: rgba(127,240,220,.15); animation: st-dot 8s linear infinite; animation-delay: var(--d); }
+  @keyframes st-dot {
+    0%, 60% { fill: rgba(127,240,220,0); }
+    61%, 96% { fill: #7ff0dc; }
+    100% { fill: rgba(127,240,220,0); }
+  }
+  .st-pass { opacity: 0; transform-origin: 130px 240px; animation: st-pass 8s ease-out infinite; }
+  .st-pass rect { fill: #1A533E; stroke: #7ff0dc; stroke-width: 2; }
+  .st-pass text { fill: #fff; font: 700 26px/1 var(--font-body, sans-serif); letter-spacing: .04em; }
+  @keyframes st-pass {
+    0%, 85% { opacity: 0; transform: scale(.7); }
+    88% { opacity: 1; transform: scale(1.06); }
+    91%, 97% { opacity: 1; transform: scale(1); }
+    100% { opacity: 0; transform: scale(1); }
+  }
+  .st-caption { display: flex; justify-content: space-between; gap: .25rem; margin-top: .9rem; font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; color: rgba(255,255,255,.45); }
+  .st-step { animation: st-step 8s linear infinite; }
+  .st-step--1 { animation-name: st-s1; } .st-step--2 { animation-name: st-s2; }
+  .st-step--3 { animation-name: st-s3; } .st-step--4 { animation-name: st-s4; }
+  @keyframes st-s1 { 0%, 23% { color: #7ff0dc; } 24%, 100% { color: rgba(255,255,255,.45); } }
+  @keyframes st-s2 { 0%, 23% { color: rgba(255,255,255,.45); } 24%, 59% { color: #7ff0dc; } 60%, 100% { color: rgba(255,255,255,.45); } }
+  @keyframes st-s3 { 0%, 59% { color: rgba(255,255,255,.45); } 60%, 85% { color: #7ff0dc; } 86%, 100% { color: rgba(255,255,255,.45); } }
+  @keyframes st-s4 { 0%, 85% { color: rgba(255,255,255,.45); } 86%, 100% { color: #7ff0dc; } }
+
+  @media (prefers-reduced-motion: reduce) {
+    .st-field, .st-scanline, .st-grid circle, .st-pass, .st-step { animation: none; }
+    .st-field { fill: #0f2131; }
+    .st-grid circle { fill: #7ff0dc; }
+    .st-pass { opacity: 1; }
+    .st-step--4 { color: #7ff0dc; }
+  }
+</style>

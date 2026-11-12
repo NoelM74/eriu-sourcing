@@ -1,0 +1,53 @@
+---
+// Motion graphic: a batch of 24 screens tested one by one; two fail and are
+// pulled before packing. Clearly captioned as an illustration of the method.
+const failures = new Set([7, 17]);
+const tiles = Array.from({ length: 24 }, (_, i) => i);
+---
+<figure class="bb">
+  <div class="bb-grid" aria-hidden="true">
+    {tiles.map((i) => (
+      <div class={`bb-tile${failures.has(i) ? ' bb-tile--fail' : ''}`} style={`--d:${(i * 0.18).toFixed(2)}s`}>
+        <span class="bb-mark">{failures.has(i) ? '✕' : '✓'}</span>
+      </div>
+    ))}
+  </div>
+  <div class="bb-legend">
+    <span><i class="bb-dot bb-dot--pass"></i> Passed: packed for you</span>
+    <span><i class="bb-dot bb-dot--fail"></i> Failed: stays in Shenzhen</span>
+  </div>
+  <figcaption>Illustration of how a batch is tested: every screen switched on and checked, failures pulled before anything is packed or paid for.</figcaption>
+</figure>
+
+<style>
+  .bb { margin: 0; }
+  .bb-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: .6rem; padding: 1.25rem; background: #0b1620; border-radius: 16px; border: 1px solid rgba(127,240,220,.18); }
+  .bb-tile { position: relative; aspect-ratio: 9 / 16; border-radius: 8px; background: #16283a; border: 1px solid rgba(255,255,255,.06); overflow: hidden; animation: bb-pass 10s ease infinite; animation-delay: var(--d); display: grid; place-items: center; }
+  .bb-tile--fail { animation-name: bb-fail; }
+  .bb-mark { font-weight: 700; font-size: clamp(.8rem, 2vw, 1.15rem); color: transparent; animation: inherit; animation-name: bb-mark; }
+  .bb-tile--fail .bb-mark { animation-name: bb-mark-fail; }
+  @keyframes bb-pass {
+    0% { background: #16283a; box-shadow: none; }
+    3% { background: #f4f7fa; box-shadow: 0 0 22px rgba(127,240,220,.55); }
+    7%, 92% { background: #1A533E; box-shadow: none; }
+    100% { background: #16283a; }
+  }
+  @keyframes bb-fail {
+    0% { background: #16283a; }
+    3% { background: #f4f7fa; box-shadow: 0 0 22px rgba(255,90,90,.6); }
+    7%, 60% { background: #7a1f24; opacity: 1; transform: none; }
+    70%, 92% { background: #7a1f24; opacity: .18; transform: translateY(10px) scale(.92); }
+    100% { background: #16283a; opacity: 1; transform: none; }
+  }
+  @keyframes bb-mark { 0%, 5% { color: transparent; } 7%, 92% { color: #7ff0dc; } 100% { color: transparent; } }
+  @keyframes bb-mark-fail { 0%, 5% { color: transparent; } 7%, 92% { color: #ffb3b3; } 100% { color: transparent; } }
+  .bb-legend { display: flex; gap: 1.5rem; flex-wrap: wrap; margin: .9rem 0 .4rem; font-size: .875rem; color: var(--bb-text, #3a3a3a); }
+  .bb-dot { display: inline-block; width: .7rem; height: .7rem; border-radius: 3px; margin-right: .35rem; vertical-align: -1px; }
+  .bb-dot--pass { background: #1A533E; } .bb-dot--fail { background: #7a1f24; }
+  .bb figcaption { font-size: .8125rem; color: var(--bb-muted, #6b6b6b); font-style: italic; }
+  @media (prefers-reduced-motion: reduce) {
+    .bb-tile, .bb-mark { animation: none; }
+    .bb-tile { background: #1A533E; } .bb-tile--fail { background: #7a1f24; opacity: .35; }
+    .bb-mark { color: #7ff0dc; } .bb-tile--fail .bb-mark { color: #ffb3b3; }
+  }
+</style>

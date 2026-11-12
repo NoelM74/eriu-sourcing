@@ -2,10 +2,12 @@
 // Country x product-line pages (international expansion). Data:
 // src/data/markets.js (country facts, sourced) + src/data/marketLines.js.
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import PhotoCredit from '../../components/PhotoCredit.astro';
+import PhotoCredit from '../../components/parts/PhotoCredit.astro';
+import GuaranteeSeal from '../../components/parts/GuaranteeSeal.astro';
 import { markets } from '../../data/markets.js';
 import { marketLines } from '../../data/marketLines.js';
-import { wa } from '../../data/site.js';
+import { guarantee, waTo, NOEL_WA, WA_NUMBER, PHONES_CONTACT } from '../../data/parts.js';
+import TradeOnly from '../../components/parts/TradeOnly.astro';
 
 export function getStaticPaths() {
   return markets.flatMap((m) => marketLines.map((l) => ({ params: { market: m.slug, line: l.slug }, props: { m, l } })));
@@ -19,7 +21,9 @@ const title = fill(l.titleTpl);
 const description = fill(l.descTpl);
 const compliance = m.compliance[l.key] ?? [];
 const faqs = [...(m.faqs[l.key] ?? []), ...(m.faqs.common ?? [])];
-const waLink = wa(fill(l.waTpl));
+const isPhones = l.key === 'phones';
+const waLink = waTo(isPhones ? WA_NUMBER : NOEL_WA, fill(l.waTpl));
+const waName = isPhones ? PHONES_CONTACT : 'Noel';
 const others = marketLines.filter((x) => x.key !== l.key);
 const notes = (m.notes ?? []).filter((n) => new Date() < new Date(n.showUntil));
 const extra = m.extra?.[l.key] ?? null;
@@ -51,7 +55,7 @@ const pageSchemas = [
       <h1>{fill(l.h1Tpl)}</h1>
       <p class="mk-lead">{fill(l.subTpl)}</p>
       <div class="mk-actions">
-        <a href={waLink} class="btn btn--white" target="_blank" rel="noopener noreferrer">WhatsApp Noel →</a>
+        <a href={waLink} class="btn btn--white" target="_blank" rel="noopener noreferrer">WhatsApp {waName} →</a>
         <a href={l.ctaHref} class="btn btn--white-outline">Get prices</a>
       </div>
     </div>
@@ -77,13 +81,20 @@ const pageSchemas = [
     </div>
   </section>
 
+  {l.key === 'phones' && (
+    <section class="section">
+      <div class="container"><TradeOnly /></div>
+    </section>
+  )}
+
   {extra && (
     <section class="section">
       <div class="container--narrow mk-prose">
         <span class="section-eyebrow">The opportunity</span>
         <h2>{extra.h2}</h2>
         {extra.paras.map((p) => <p>{p}</p>)}
-        {extra.src && <p><a href={extra.src} rel="noopener nofollow" target="_blank" class="mk-src">Source</a></p>}
+        {extra.src && <p><a href={extra.src} rel="noopener nofollow" target="_blank" class="mk-src">ITAC notice on used-cellphone permits</a></p>}
+        <a href={waLink} class="btn btn--primary" target="_blank" rel="noopener noreferrer">Plan a used-phone order with us →</a>
       </div>
     </section>
   )}
@@ -118,6 +129,21 @@ const pageSchemas = [
       </div>
     </div>
   </section>
+
+  {l.guarantee && (
+    <section class="section mk-guarantee">
+      <div class="container mk-g">
+        <GuaranteeSeal />
+        <div>
+          <span class="section-eyebrow">{guarantee.name}</span>
+          <h2>The risk sits with us, not you.</h2>
+          <p><strong>{guarantee.one.h}</strong> {guarantee.one.p}</p>
+          <p><strong>{guarantee.two.h}</strong> {guarantee.two.p}</p>
+          <p class="mk-fine">{guarantee.fine}</p>
+        </div>
+      </div>
+    </section>
+  )}
 
   <section class="section section--alt">
     <div class="container">
@@ -159,7 +185,7 @@ const pageSchemas = [
       <h2>Tell us what you want to buy.</h2>
       <p>We reply within 24 hours with factory pricing and the landed cost to {m.name}.</p>
       <div class="mk-actions" style="justify-content:center">
-        <a href={waLink} class="btn btn--white" target="_blank" rel="noopener noreferrer">WhatsApp Noel →</a>
+        <a href={waLink} class="btn btn--white" target="_blank" rel="noopener noreferrer">WhatsApp {waName} →</a>
         <a href={l.ctaHref} class="btn btn--white-outline">Get prices</a>
       </div>
     </div>
@@ -197,6 +223,8 @@ const pageSchemas = [
   .mk-links h3 { margin: 0 0 .75rem; font-size: 1.0625rem; }
   .mk-links ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; }
   .mk-links a { color: var(--color-emerald); font-weight: 600; }
+  .mk-g { display: grid; grid-template-columns: auto 1fr; gap: 2rem; align-items: center; }
+  .mk-fine { font-size: .875rem; color: #666; }
   .mk-fig { margin: 0; }
   .mk-fig img { width: 100%; height: auto; border-radius: 14px; display: block; }
   .mk-faq details { border-bottom: 1px solid rgba(15,33,49,.1); }
@@ -211,5 +239,6 @@ const pageSchemas = [
   .mk-cta h2, .mk-cta p { color: #fff; }
   @media (max-width: 900px) {
     .mk-split, .mk-facts, .mk-more { grid-template-columns: 1fr; }
+    .mk-g { grid-template-columns: 1fr; }
   }
 </style>
