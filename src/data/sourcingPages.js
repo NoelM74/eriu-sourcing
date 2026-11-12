@@ -19,6 +19,7 @@ export const sourcingPages = [
       "IT peripherals and networking equipment",
       "Smart home devices and IoT products",
       "Commercial and industrial electronics",
+      "Phone accessories and screen protectors",
     ],
     savings: "40–55%",
     savingsNote: "vs buying through local electronics wholesalers",
@@ -45,7 +46,7 @@ export const sourcingPages = [
       },
       {
         q: "What electronics can you source directly from Shenzhen?",
-        a: "Ériu Sourcing sources consumer electronics accessories, cables and chargers, IT hardware and peripherals, smart home devices, networking equipment and industrial electronics directly from Shenzhen manufacturers. Direct access to Huaqiangbei means factory-gate pricing.",
+        a: "Ériu Sourcing sources consumer electronics accessories, cables and chargers, IT hardware and peripherals, smart home devices, networking equipment, phone accessories, and industrial electronics directly from Shenzhen manufacturers. Direct access to Huaqiangbei means factory-gate pricing.",
       },
       {
         q: "How much can retailers save sourcing electronics directly from China?",

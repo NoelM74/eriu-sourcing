@@ -21,7 +21,7 @@ export const glossaryGroups = [
       { t: 'Alibaba', d: 'China\'s best-known B2B marketplace for international buyers. It lists both manufacturers and trading companies, so supplier verification still matters.', l: `${B}how-to-vet-chinese-suppliers-factory-audit-verification-ireland/` },
       { t: '1688', d: 'Alibaba Group\'s domestic Chinese wholesale marketplace, in Chinese and aimed at Chinese buyers. Prices are often lower than on Alibaba.com, but buying usually needs a local agent.' },
       { t: 'Canton Fair', d: 'The China Import and Export Fair in Guangzhou, held every spring and autumn in three phases, each covering different product categories.', l: `${B}canton-fair-guide-irish-buyers-2026/` },
-      { t: 'Huaqiangbei', d: 'The electronics market district in Futian, Shenzhen, widely described as the largest electronics market in the world.' },
+      { t: 'Huaqiangbei', d: 'The electronics market district in Futian, Shenzhen, widely described as the largest electronics market in the world. It is the centre of the phone and phone parts trade.', l: '/phone-parts/huaqiangbei/' },
     ],
   },
   {
@@ -50,7 +50,7 @@ export const glossaryGroups = [
       { t: 'REACH', d: 'The EU regulation on chemicals, including restricted substances in consumer products such as phthalates in plastics.' },
       { t: 'GPSR', d: 'The EU General Product Safety Regulation, applying since 13 December 2024. Consumer products sold in the EU need a responsible economic operator based in the EU.' },
       { t: 'CBAM', d: 'The EU Carbon Border Adjustment Mechanism, covering imports of goods such as steel, aluminium, cement and fertilisers.', l: `${B}cbam-irish-importers-chinese-steel-aluminium-2026/` },
-      { t: 'UN38.3', d: 'The UN transport test for lithium batteries. Batteries, and products containing them, need a UN38.3 test summary to ship by air or sea.' },
+      { t: 'UN38.3', d: 'The UN transport test for lithium batteries. Batteries, and products containing them, need a UN38.3 test summary to ship by air or sea.', l: '/phone-parts/shipping/' },
       { t: 'SDS (Safety Data Sheet)', d: 'A document describing a product\'s hazards and safe handling, often required by freight forwarders for chemicals and batteries.' },
     ],
   },
@@ -87,6 +87,18 @@ export const glossaryGroups = [
       { t: 'Letter of credit (L/C)', d: 'A bank guarantee that pays the supplier only when documents proving shipment are presented. Secure, but slower and more expensive to arrange.' },
       { t: 'Proforma invoice (PI)', d: 'The supplier\'s formal quotation and order confirmation, issued before payment. It should state product, specification, price, Incoterm and payment terms.' },
       { t: 'CNY / RMB', d: 'China\'s currency, the yuan (CNY), also called renminbi (RMB). Most export quotations are in US dollars.' },
+    ],
+  },
+  {
+    id: 'phones',
+    name: 'Phones and phone parts',
+    terms: [
+      { t: 'IMEI', d: 'The unique 15-digit identity number of a mobile phone. Checking it against blacklist databases shows whether a phone has been reported lost or stolen.', l: '/phone-parts/guides/how-to-check-used-iphones-wholesale/' },
+      { t: 'Activation Lock', d: 'Apple\'s anti-theft lock that ties an iPhone, iPad or Apple Watch to the owner\'s Apple Account. A locked device cannot be set up by anyone else.', l: '/phone-parts/guides/how-to-check-used-iphones-wholesale/' },
+      { t: 'MDM (Mobile Device Management)', d: 'Company or school management software that controls a device. MDM-enrolled devices show a Remote Management screen after a reset.', l: '/phone-parts/tablets-wholesale/' },
+      { t: 'In-cell, hard OLED, soft OLED', d: 'The main aftermarket phone screen grades: in-cell is an LCD with built-in touch, hard OLED is OLED on a rigid base, and soft OLED is OLED on a flexible base like the original.', l: '/blog/phone-screen-grades-incell-hard-oled-soft-oled-explained/' },
+      { t: 'Global version', d: 'A phone built for international markets, with Google services and international network bands, as opposed to a China version.', l: '/phone-parts/guides/global-vs-china-version-phones/' },
+      { t: 'Grade A, B, C (used phones)', d: 'Trade conventions describing the cosmetic condition of used phones. They are not standardised and say nothing about battery health or locks.', l: '/phone-parts/guides/used-iphone-grades-explained/' },
     ],
   },
 ];

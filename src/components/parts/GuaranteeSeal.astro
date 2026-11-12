@@ -1,0 +1,26 @@
+---
+// Rotating guarantee seal (SVG text on a circle). Decorative.
+---
+<div class="gs" aria-hidden="true">
+  <svg viewBox="0 0 200 200">
+    <defs><path id="gs-circle" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0" /></defs>
+    <circle cx="100" cy="100" r="96" class="gs-ring" />
+    <g class="gs-spin">
+      <text><textPath href="#gs-circle" startOffset="0">TESTED IN SHENZHEN · SEE IT BEFORE YOU PAY · DOA REPLACED OR CREDITED ·</textPath></text>
+    </g>
+    <circle cx="100" cy="100" r="54" class="gs-core" />
+    <path d="M78 101 l15 15 l30 -32" class="gs-check" />
+  </svg>
+</div>
+<style>
+  .gs { width: clamp(140px, 22vw, 200px); }
+  .gs svg { width: 100%; height: auto; display: block; }
+  .gs-ring { fill: none; stroke: rgba(127,240,220,.35); stroke-width: 1.5; }
+  .gs-spin { transform-origin: 100px 100px; animation: gs-spin 28s linear infinite; }
+  .gs text { fill: #7ff0dc; font: 700 10.2px/1 var(--font-body, sans-serif); letter-spacing: .12em; }
+  .gs-core { fill: #1A533E; stroke: #7ff0dc; stroke-width: 2; }
+  .gs-check { fill: none; stroke: #fff; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 80; stroke-dashoffset: 80; animation: gs-draw 1.4s .4s ease forwards; }
+  @keyframes gs-spin { to { transform: rotate(360deg); } }
+  @keyframes gs-draw { to { stroke-dashoffset: 0; } }
+  @media (prefers-reduced-motion: reduce) { .gs-spin { animation: none; } .gs-check { animation: none; stroke-dashoffset: 0; } }
+</style>

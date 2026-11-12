@@ -5,9 +5,8 @@
 Key facts:
 - Company: Ériu Sourcing is a trading name of Springfield Tectop Limited, registered in Ireland, company no. 571256, incorporated 5 November 2015. Registered office (legal address only, not a working office): Clareview Business Center, Ennis Road, Co. Limerick, V94 EA3A, Ireland. The company's offices are on Meiban Road, Longhua District, Shenzhen and Nanyang Road, Huiji District, Zhengzhou, China, with a warehouse in Dongguan. The group has registered companies in mainland China, Hong Kong and Ireland.
 - Supply and ship only: Ériu supplies and ships goods from China. It does not install anything.
-- Ériu does not sell phones, used phones, phone screens or phone parts, and does not sell single items.
-- China bases: Shenzhen (electronics, consumer goods; logistics and fulfilment operation since 2011) and Zhengzhou, Henan (steel, modular buildings, machinery, construction materials).
-- Service areas: Ireland, the UK, the EU, the US, Canada, Australia and the UAE (general sourcing, with country pages covering local import rules); Germany and Austria (German-language pages).
+- China bases: Shenzhen (electronics, phones and phone parts, consumer goods; logistics and fulfilment operation since 2011) and Zhengzhou, Henan (steel, modular buildings, machinery, construction materials).
+- Service areas: Ireland, the UK, the EU, the US, Canada, Australia and the UAE (general sourcing, with country pages covering local import rules); worldwide (Ériu Phones & Parts); Germany and Austria (German-language pages).
 - Contact: +353 87 118 7806 (phone and WhatsApp) · https://eriusourcing.com/contact/
 
 ## Motorcycles and scooters (trade only)
@@ -21,17 +20,52 @@ Key facts:
 - [Kymco](https://eriusourcing.com/motorcycles/kymco/): scooters from the 49 cc Agility 50 to the AK 575 Premium, the CV3 three-wheeler and the Krider 400
 - [Lifan](https://eriusourcing.com/motorcycles/lifan/): commuters, scooters, 200–250 cc sport and naked bikes, cruisers and the Starship 6 tourer
 
+## Ériu Phones & Parts (worldwide wholesale)
+
+Wholesale used iPhones, used Samsung Galaxy phones, refurbished phones, new Android phones (global versions), tablets and iPads, smartwatches and earbuds, plus replacement screens, batteries, small repair parts and accessories, for phone shops, repair businesses and distributors in any country.
+
+Key facts:
+- Ériu has its own full-time buyer working the Huaqiangbei electronics market floors in Shenzhen.
+- Every used phone is IMEI-checked against blacklist databases and checked for Activation Lock, Google account lock and remote management (MDM); locked or reported phones are rejected. Battery health and parts history are recorded per phone.
+- Every replacement screen is powered up and touch-tested; every battery is capacity-tested and date-checked; small parts are tested from every batch.
+- The Bench-Proof Guarantee: (1) after the deposit, the buyer sees a test video and test record of their batch before paying the balance; (2) any part that arrives dead or fails the stated test spec, reported with a photo or short video within 14 days, is replaced free on the next order or credited. Parts damaged while being fitted are not covered.
+- Wholesale by the batch only, for phone shops, repair businesses and distributors. No single phones or screens, no public stock list and no pre-order videos; quotes are made against the buyer's own list. Mixed orders of phones, parts and accessories ship together.
+- Shipping: door-to-door express worldwide (DHL, FedEx, UPS), or FOB China to the buyer's own forwarder for larger orders.
+- No copied brand products or copied logos.
+
+Pages:
+- [Phones & Parts overview](https://eriusourcing.com/phone-parts/)
+- [Huaqiangbei buying service](https://eriusourcing.com/phone-parts/huaqiangbei/): Our buyer in Shenzhen's Huaqiangbei market and how an order moves from the floor to the bench to the buyer
+- [Wholesale used iPhones](https://eriusourcing.com/phone-parts/used-iphones-wholesale/): Graded used iPhones, IMEI- and iCloud-checked, battery health recorded
+- [Wholesale used Samsung Galaxy phones](https://eriusourcing.com/phone-parts/used-samsung-phones-wholesale/): Checked for Google lock, screen burn-in and battery
+- [Wholesale refurbished phones](https://eriusourcing.com/phone-parts/refurbished-iphones-wholesale/)
+- [Wholesale new Android phones](https://eriusourcing.com/phone-parts/new-android-phones-wholesale/): Samsung, Xiaomi, Redmi, POCO, Honor, OPPO, realme, vivo in global versions
+- [Wholesale tablets and used iPads](https://eriusourcing.com/phone-parts/tablets-wholesale/): Activation Lock and MDM checked
+- [Wholesale smartwatches and earbuds](https://eriusourcing.com/phone-parts/smartwatches-earbuds-wholesale/)
+- [Mixed wholesale phone orders](https://eriusourcing.com/phone-parts/low-moq-phone-wholesale/): Mixed wholesale orders of phones, parts and accessories
+- [Wholesale iPhone screens](https://eriusourcing.com/phone-parts/iphone-screens-wholesale/): In-cell, hard OLED, soft OLED and genuine pulls
+- [Wholesale Samsung screens](https://eriusourcing.com/phone-parts/samsung-screens-wholesale/)
+- [Wholesale phone batteries](https://eriusourcing.com/phone-parts/phone-batteries-wholesale/)
+- [Wholesale phone repair parts](https://eriusourcing.com/phone-parts/phone-repair-parts-wholesale/): Charging ports, back glass, cameras
+- [Wholesale phone accessories](https://eriusourcing.com/phone-parts/phone-accessories-wholesale/)
+- [How we test](https://eriusourcing.com/phone-parts/how-we-test/) · [The guarantee](https://eriusourcing.com/phone-parts/guarantee/) · [Worldwide shipping](https://eriusourcing.com/phone-parts/shipping/) · [Get prices](https://eriusourcing.com/phone-parts/quote/)
+
+Buyer guides:
+- [Used iPhone grades explained: A+, A, B, C](https://eriusourcing.com/phone-parts/guides/used-iphone-grades-explained/)
+- [Global vs China version phones](https://eriusourcing.com/phone-parts/guides/global-vs-china-version-phones/)
+- [How to check used iPhones before buying wholesale: a 9-point checklist](https://eriusourcing.com/phone-parts/guides/how-to-check-used-iphones-wholesale/)
+
 ## Country markets
 
-Each country hub covers local import VAT/GST, duty, registration and certification (sources cited on the page, checked 16 Oct 2026), plus two product lines.
+Each country hub covers local import VAT/GST, duty, registration and certification (sources cited on the page, checked 16 Oct 2026), plus three product lines.
 
-- [United Kingdom](https://eriusourcing.com/uk/): [Electronics from China](https://eriusourcing.com/uk/electronics-from-china/) · [Private label](https://eriusourcing.com/uk/private-label-manufacturing/)
-- [Europe (EU)](https://eriusourcing.com/europe/): [Electronics from China](https://eriusourcing.com/europe/electronics-from-china/) · [Private label](https://eriusourcing.com/europe/private-label-manufacturing/)
-- [United States](https://eriusourcing.com/usa/): [Electronics from China](https://eriusourcing.com/usa/electronics-from-china/) · [Private label](https://eriusourcing.com/usa/private-label-manufacturing/)
-- [Canada](https://eriusourcing.com/canada/): [Electronics from China](https://eriusourcing.com/canada/electronics-from-china/) · [Private label](https://eriusourcing.com/canada/private-label-manufacturing/)
-- [Australia](https://eriusourcing.com/australia/): [Electronics from China](https://eriusourcing.com/australia/electronics-from-china/) · [Private label](https://eriusourcing.com/australia/private-label-manufacturing/)
-- [UAE and Gulf](https://eriusourcing.com/uae/): [Electronics from China](https://eriusourcing.com/uae/electronics-from-china/) · [Private label](https://eriusourcing.com/uae/private-label-manufacturing/)
-- [China sourcing glossary](https://eriusourcing.com/resources/glossary/): 55 import and sourcing terms defined
+- [United Kingdom](https://eriusourcing.com/uk/): [Phones & parts](https://eriusourcing.com/uk/wholesale-phones-parts/) · [Electronics from China](https://eriusourcing.com/uk/electronics-from-china/) · [Private label](https://eriusourcing.com/uk/private-label-manufacturing/)
+- [Europe (EU)](https://eriusourcing.com/europe/): [Phones & parts](https://eriusourcing.com/europe/wholesale-phones-parts/) · [Electronics from China](https://eriusourcing.com/europe/electronics-from-china/) · [Private label](https://eriusourcing.com/europe/private-label-manufacturing/)
+- [United States](https://eriusourcing.com/usa/): [Phones & parts](https://eriusourcing.com/usa/wholesale-phones-parts/) · [Electronics from China](https://eriusourcing.com/usa/electronics-from-china/) · [Private label](https://eriusourcing.com/usa/private-label-manufacturing/)
+- [Canada](https://eriusourcing.com/canada/): [Phones & parts](https://eriusourcing.com/canada/wholesale-phones-parts/) · [Electronics from China](https://eriusourcing.com/canada/electronics-from-china/) · [Private label](https://eriusourcing.com/canada/private-label-manufacturing/)
+- [Australia](https://eriusourcing.com/australia/): [Phones & parts](https://eriusourcing.com/australia/wholesale-phones-parts/) · [Electronics from China](https://eriusourcing.com/australia/electronics-from-china/) · [Private label](https://eriusourcing.com/australia/private-label-manufacturing/)
+- [UAE and Gulf](https://eriusourcing.com/uae/): [Phones & parts](https://eriusourcing.com/uae/wholesale-phones-parts/) · [Electronics from China](https://eriusourcing.com/uae/electronics-from-china/) · [Private label](https://eriusourcing.com/uae/private-label-manufacturing/)
+- [China sourcing glossary](https://eriusourcing.com/resources/glossary/): 66 import and sourcing terms defined
 
 ## Sourcing services
 
@@ -83,11 +117,15 @@ Key facts:
 ## German pages (Germany and Austria)
 
 - [Ériu Sourcing auf Deutsch](https://eriusourcing.com/de/)
+- [Handy-Ersatzteile Großhandel](https://eriusourcing.com/de/handy-ersatzteile-grosshandel/)
+- [Refurbished Smartphones Großhandel](https://eriusourcing.com/de/refurbished-smartphones-grosshandel/)
 - [Balkonkraftwerk Großhandel aus China](https://eriusourcing.com/de/balkonkraftwerk-grosshandel-china/)
 - [Stromspeicher und Heimspeicher Großhandel](https://eriusourcing.com/de/stromspeicher-heimspeicher-grosshandel/)
 - [Smart Home White Label aus China](https://eriusourcing.com/de/smart-home-white-label-china/)
 - [IP-Kameras Großhandel aus China](https://eriusourcing.com/de/ip-kameras-grosshandel-china/)
 - [Handyzubehör und Gadgets Großhandel](https://eriusourcing.com/de/handyzubehoer-gadgets-grosshandel/)
+- [Ratgeber: Display-Qualitäten In-Cell, Hard OLED, Soft OLED](https://eriusourcing.com/de/ratgeber/handy-display-qualitaeten-incell-oled/)
+- [Ratgeber: Refurbished Smartphones im Großhandel einkaufen](https://eriusourcing.com/de/ratgeber/refurbished-smartphones-grosshandel-einkaufen/)
 - [Kontakt](https://eriusourcing.com/de/kontakt/) · [Impressum](https://eriusourcing.com/de/impressum/)
 
 ## About
