@@ -2,7 +2,9 @@
 import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
+import { fileURLToPath } from 'node:url';
 import { blogPosts } from './src/data/blogPosts.js';
+import { buildImageSitemap } from './scripts/image-sitemap.mjs';
 
 // Build date used as the lastmod for pages we don't track a content date for
 // (marketing/category pages that change with deploys).
@@ -54,6 +56,16 @@ export default defineConfig({
         return item;
       },
     }),
+    // Image sitemap (dist/sitemap-images.xml). Must run after the page sitemap above.
+    {
+      name: 'image-sitemap',
+      hooks: {
+        'astro:build:done': ({ dir, logger }) => {
+          const r = buildImageSitemap(fileURLToPath(dir));
+          logger.info(`sitemap-images.xml: ${r.images} images on ${r.pages} pages`);
+        },
+      },
+    },
   ],
   vite: {
     plugins: [tailwindcss()],
