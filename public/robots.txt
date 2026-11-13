@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://eriusourcing.com/sitemap-index.xml
+Sitemap: https://eriusourcing.com/sitemap-images.xml
